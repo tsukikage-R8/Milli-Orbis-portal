@@ -806,10 +806,11 @@
       };
       if (audio && m && m.introVoice) {
         var tryPlay = function () {
-          var p = audio.play();
-          if (p && p.catch) p.catch(function () {});
+          try {
+            var p = audio.play();
+            if (p && p.catch) p.catch(function () {});
+          } catch (e) {}
         };
-        tryPlay();
         /* 自動再生がブラウザ制限でブロックされた場合は、最初の操作を起点に再生 */
         var retried = false;
         var retry = function () {
@@ -827,7 +828,9 @@
         };
         if (audio.readyState >= 1) onMeta();
         else audio.addEventListener("loadedmetadata", onMeta);
-        setTimeout(finish, 15000);
+        /* 音声が読み込めない場合（ファイル未配置・自動再生ブロック等）でも必ず閉じる安全タイマー */
+        setTimeout(finish, 8000);
+        tryPlay();
       } else {
         setTimeout(finish, 7000);
       }
