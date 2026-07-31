@@ -43,6 +43,10 @@
   function jstNow() { return new Date(); }
 
   /* ============ ヘッダー ============ */
+  function closeNavDrops() {
+    $$(".nav-drop.open").forEach(function (d) { d.classList.remove("open"); });
+  }
+
   function initHeader() {
     var burger = $("#hamburger");
     if (burger) {
@@ -52,13 +56,20 @@
       });
     }
 
-    window.addEventListener("scroll", function () {
-      var bar = $("#progressBar");
-      if (!bar) return;
-      var h = document.documentElement.scrollHeight - window.innerHeight;
-      var p = h > 0 ? (window.scrollY / h) * 100 : 0;
-      bar.style.width = p + "%";
+    $$(".nav-drop").forEach(function (drop) {
+      var btn = $(".nav-drop-btn", drop);
+      if (!btn) return;
+      btn.addEventListener("click", function (e) {
+        e.stopPropagation();
+        var isOpen = drop.classList.contains("open");
+        closeNavDrops();
+        if (!isOpen) drop.classList.add("open");
+      });
+      drop.addEventListener("click", function (e) {
+        if (e.target.closest(".nav-drop-menu")) closeNavDrops();
+      });
     });
+    document.addEventListener("click", closeNavDrops);
 
     var select = $("#oshiSelect");
     if (select) {
@@ -391,9 +402,11 @@
       var tags = [m.tags.stream, m.tags.clip, m.tags.art].filter(Boolean)
         .map(function (t) { return '<span>' + esc(t) + "</span>"; }).join("");
       var cardLink = m.id + ".html";
-      var mark = m.img
-        ? '<span class="member-mark"><img src="' + m.img + '" alt="' + esc(m.name) + '"></span>'
-        : '<span class="member-mark">' + m.fanMark + "</span>";
+      var mark = m.icon
+        ? '<span class="member-mark"><img src="' + m.icon + '" alt="' + esc(m.name) + '"></span>'
+        : (m.img
+          ? '<span class="member-mark"><img src="' + m.img + '" alt="' + esc(m.name) + '"></span>'
+          : '<span class="member-mark">' + m.fanMark + "</span>");
       return '<a class="member-card card" href="' + cardLink + '" style="--mc:' + m.color + ";--mc-soft:" + m.subColor + '">' +
         mark +
         '<span class="member-name">' + m.name + "</span>" +
@@ -410,7 +423,10 @@
     var box = $("#launcherGrid");
     if (!box) return;
     box.innerHTML = LAUNCHERS.map(function (l) {
-      var inner = '<span class="shape-badge" style="background:linear-gradient(135deg,' + l.shape.grad[0] + "," + l.shape.grad[1] + ')">' + l.shape.char + "</span>" +
+      var badge = l.icon
+        ? '<span class="launcher-icon"><img src="' + l.icon + '" alt=""></span>'
+        : '<span class="shape-badge" style="background:linear-gradient(135deg,' + l.shape.grad[0] + "," + l.shape.grad[1] + ')">' + l.shape.char + "</span>";
+      var inner = badge +
         "<h3>" + esc(l.name) + "</h3><p>" + esc(l.desc) + "</p>" +
         (l.url ? '<span class="btn">開く</span>' : '<span class="prep-badge">準備中</span>');
       if (l.url) return '<a class="launcher-card card" href="' + l.url + '" target="_blank" rel="noopener">' + inner + "</a>";
@@ -757,7 +773,6 @@
     var memberId = overlay.dataset.member;
     var m = getMember(memberId);
     var audio = $("#introAudio", overlay);
-    var startBtn = $("#introStart", overlay);
     var skipBtn = $("#introSkip", overlay);
     var catchBox = $("#introCatch", overlay);
 
@@ -783,7 +798,6 @@
     function startPlay() {
       overlay.classList.remove("close");
       overlay.classList.add("show", "play");
-      if (startBtn) startBtn.classList.remove("show");
       var done = false;
       var finish = function () {
         if (done) return;
@@ -791,7 +805,20 @@
         closeIntro();
       };
       if (audio && m && m.introVoice) {
-        audio.play().catch(function () {});
+        var tryPlay = function () {
+          var p = audio.play();
+          if (p && p.catch) p.catch(function () {});
+        };
+        tryPlay();
+        /* 自動再生がブラウザ制限でブロックされた場合は、最初の操作を起点に再生 */
+        var retried = false;
+        var retry = function () {
+          if (retried) return;
+          retried = true;
+          tryPlay();
+        };
+        document.addEventListener("pointerdown", retry, { once: true });
+        document.addEventListener("keydown", retry, { once: true });
         audio.addEventListener("ended", finish);
         var onMeta = function () {
           if (isFinite(audio.duration) && audio.duration > 0) {
@@ -806,14 +833,11 @@
       }
     }
 
-    if (startBtn) startBtn.addEventListener("click", startPlay);
     if (skipBtn) skipBtn.addEventListener("click", closeIntro);
-    var previewBtn = $("#introBtn");
-    if (previewBtn) previewBtn.addEventListener("click", startPlay);
 
-    /* タレントページを開くたびにイントロを表示（音声はブラウザ制限のため「再生する」クリックから開始） */
+    /* タレントページを開くたびに自動再生（スキップは右上） */
     overlay.classList.add("show");
-    if (startBtn) startBtn.classList.add("show");
+    startPlay();
   }
 
   /* ============ 起動 ============ */

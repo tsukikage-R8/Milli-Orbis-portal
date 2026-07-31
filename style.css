@@ -187,8 +187,8 @@ img { max-width: 100%; }
 .logo img { height: 34px; width: auto; }
 .logo:hover { text-decoration: none; }
 
-.nav { display: flex; gap: 18px; align-items: center; }
-.nav a {
+.nav { display: flex; gap: 8px; align-items: center; }
+.nav a, .nav-drop-btn {
   color: var(--text);
   font-weight: 700;
   font-size: 0.9rem;
@@ -198,8 +198,58 @@ img { max-width: 100%; }
   border: 2px solid transparent;
   transition: all 0.15s;
 }
-.nav a:hover { background: var(--accent-soft); border-color: var(--accent); text-decoration: none; }
+.nav a:hover, .nav-drop-btn:hover { background: var(--accent-soft); border-color: var(--accent); text-decoration: none; }
 .nav .current { background: var(--accent-soft); border-color: var(--accent); color: var(--accent-deep); }
+
+/* Member Guide ドロップダウン */
+.nav-drop { position: relative; }
+.nav-drop-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: none;
+  cursor: pointer;
+}
+.caret {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 6px solid var(--accent-deep);
+  transition: transform 0.15s;
+}
+.nav-drop.open .caret { transform: rotate(180deg); }
+.nav-drop-menu {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 230px;
+  background: #fff;
+  border: 3px solid #fff;
+  outline: 2px solid var(--accent);
+  border-radius: 18px;
+  box-shadow: 0 12px 28px rgba(45, 35, 20, 0.18);
+  padding: 8px;
+  display: none;
+  z-index: 300;
+}
+.nav-drop.open .nav-drop-menu { display: block; }
+.nav-drop-menu a {
+  display: block;
+  padding: 7px 12px;
+  border-radius: 12px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text);
+}
+.nav-drop-menu a:hover { background: var(--accent-soft); text-decoration: none; }
+.nav-drop-menu a.drop-top { color: var(--accent-deep); font-weight: 900; }
+.nav-drop-menu .drop-sep {
+  height: 2px;
+  margin: 6px 4px;
+  background: repeating-linear-gradient(90deg, var(--accent) 0 8px, transparent 8px 14px);
+}
 
 .live-badge {
   display: none;
@@ -260,17 +310,12 @@ img { max-width: 100%; }
 .mobile-nav.open { display: flex; }
 .mobile-nav a { padding: 10px 6px; font-weight: 700; border-bottom: 1px dashed var(--border); color: var(--text); }
 .mobile-nav a:last-child { border-bottom: none; }
-
-.progress {
-  position: fixed;
-  top: 62px;
-  left: 0;
-  height: 5px;
-  width: 0;
-  background: repeating-linear-gradient(135deg, var(--accent) 0 10px, var(--accent-deep) 10px 20px);
-  border-radius: 0 5px 5px 0;
-  z-index: 210;
-  transition: width 0.1s linear;
+.mobile-nav a.mobile-sub {
+  padding: 6px 6px 6px 22px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent-deep);
+  border-bottom: 1px dashed var(--border);
 }
 
 /* ---------- ヒーロー ---------- */
@@ -692,6 +737,19 @@ img { max-width: 100%; }
   border-radius: 22px;
 }
 .launcher-card:hover { text-decoration: none; }
+.launcher-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 3px solid #fff;
+  outline: 2px solid rgba(0, 0, 0, 0.12);
+  box-shadow: var(--pop-shadow);
+  flex-shrink: 0;
+  transform: rotate(-4deg);
+  background: #fff;
+}
+.launcher-icon img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .shape-badge {
   width: 56px;
   height: 56px;
@@ -1226,30 +1284,6 @@ footer .disclaimer { font-weight: 700; color: #8a6d3b; }
 }
 .intro-catch .c-char { display: inline-block; opacity: 0; transform: translateY(12px); animation-delay: var(--cd, 0s); }
 .intro-overlay.play .intro-catch .c-char { animation: introUp 0.45s ease-out forwards; }
-
-.intro-start {
-  display: none;
-  margin: 26px auto 0;
-  font-family: var(--font-display);
-  font-weight: 900;
-  font-size: 1rem;
-  color: #fff;
-  background: var(--accent-deep);
-  border: 3px solid #fff;
-  border-radius: 999px;
-  padding: 14px 30px;
-  cursor: pointer;
-  box-shadow: 4px 5px 0 rgba(0, 0, 0, 0.18);
-}
-.intro-start.show { display: inline-flex; align-items: center; gap: 10px; animation: introUp 0.5s ease-out; }
-.intro-start::before {
-  content: "";
-  width: 0;
-  height: 0;
-  border-top: 9px solid transparent;
-  border-bottom: 9px solid transparent;
-  border-left: 14px solid #fff;
-}
 
 .intro-skip {
   position: absolute;

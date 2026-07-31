@@ -25,11 +25,47 @@ function introOverlay(m) {
     (m.img ? '<img class="intro-art" src="' + m.img + '" alt="' + m.name + '">' : "") +
     '<p class="intro-name">' + m.name + "</p>" +
     '<p class="intro-catch" id="introCatch"></p>' +
-    '<button type="button" class="intro-start" id="introStart">再生する</button>' +
     "</div>" +
     '<audio id="introAudio" src="' + (m.introVoice || "") + '" preload="auto"></audio>' +
     "</div>";
 }
+
+const navDrop = (home) => `
+      <div class="nav-drop" id="memberDrop">
+        <button type="button" class="nav-drop-btn">Member Guide<span class="caret"></span></button>
+        <div class="nav-drop-menu">
+          <a class="drop-top" href="${home}#members">Member Guide 一覧へ</a>
+          <div class="drop-sep"></div>
+          <a href="konomi.html">甘狼このみ</a>
+          <a href="nono.html">音ノ乃のの</a>
+          <a href="akubi.html">あくび・でもんすぺーど</a>
+          <a href="koma.html">小廻こま</a>
+          <a href="raco.html">音ノ瀬らこ</a>
+          <a href="yura.html">ゆらぎゆら</a>
+          <a href="nuhu.html">虹深°ぬふ</a>
+          <a href="tsukuri.html">眠雲ツクリ</a>
+          <a href="liz.html">雨夜リズ</a>
+          <a href="rei.html">夕霧レイ</a>
+          <a href="milchan.html">ミリちゃん</a>
+        </div>
+      </div>`;
+
+const mobileNav = (home) => `
+      <a href="${home}#home">Home</a>
+      <a href="${home}#members">Member Guide</a>
+      <a class="mobile-sub" href="konomi.html">甘狼このみ</a>
+      <a class="mobile-sub" href="nono.html">音ノ乃のの</a>
+      <a class="mobile-sub" href="akubi.html">あくび・でもんすぺーど</a>
+      <a class="mobile-sub" href="koma.html">小廻こま</a>
+      <a class="mobile-sub" href="raco.html">音ノ瀬らこ</a>
+      <a class="mobile-sub" href="yura.html">ゆらぎゆら</a>
+      <a class="mobile-sub" href="nuhu.html">虹深°ぬふ</a>
+      <a class="mobile-sub" href="tsukuri.html">眠雲ツクリ</a>
+      <a class="mobile-sub" href="liz.html">雨夜リズ</a>
+      <a class="mobile-sub" href="rei.html">夕霧レイ</a>
+      <a class="mobile-sub" href="milchan.html">ミリちゃん</a>
+      <a href="${home}#calendar">Event Calendar</a>
+      <a href="${home}#links">Official Links</a>`;
 
 function page(m) {
   return `<!DOCTYPE html>
@@ -53,7 +89,7 @@ function page(m) {
     <a class="logo" href="index.html"><img src="images/rogo/milliprorogo.webp" alt="Milli Orbis"></a>
     <nav class="nav">
       <a href="index.html#home">Home</a>
-      <a href="index.html#members">Member Guide</a>
+      ${navDrop("index.html")}
       <a href="index.html#calendar">Event Calendar</a>
       <a href="index.html#links">Official Links</a>
     </nav>
@@ -64,13 +100,9 @@ function page(m) {
     </div>
   </div>
   <nav id="mobileNav" class="mobile-nav">
-    <a href="index.html#home">Home</a>
-    <a href="index.html#members">Member Guide</a>
-    <a href="index.html#calendar">Event Calendar</a>
-    <a href="index.html#links">Official Links</a>
+    ${mobileNav("index.html")}
   </nav>
 </header>
-<div id="progressBar" class="progress"></div>
 
 <nav class="talent-tabs" aria-label="タレント切り替え">
   ${tabs(m)}
