@@ -115,7 +115,9 @@
       var b = document.createElement("button");
       b.type = "button";
       b.className = "oshi-option";
-      b.innerHTML = '<span class="oshi-mark">' + m.fanMark + "</span>" + m.name;
+      b.innerHTML = (m.icon
+        ? '<span class="oshi-mark"><img src="' + m.icon + '" alt=""></span>'
+        : '<span class="oshi-mark">' + m.fanMark + "</span>") + m.name;
       b.style.setProperty("--mc", m.color);
       b.addEventListener("click", function () {
         setOshi(m.id);
@@ -214,7 +216,7 @@
     var list = getMemberByDate(mmdd, "birthday");
     if (list.length === 0) return;
     var names = list.map(function (m) { return m.name; }).join("・");
-    banner.innerHTML = "🎂 今日は " + names + " の誕生日！ みんなでお祝いしよう！";
+    banner.innerHTML = '今日は ' + names + ' の誕生日！ みんなでお祝いしよう！';
     banner.classList.add("show");
   }
 
@@ -344,8 +346,11 @@
       var tags = [m.tags.stream, m.tags.clip, m.tags.art].filter(Boolean)
         .map(function (t) { return '<span>' + esc(t) + "</span>"; }).join("");
       var cardLink = m.id + ".html";
+      var mark = m.img
+        ? '<span class="member-mark"><img src="' + m.img + '" alt="' + esc(m.name) + '"></span>'
+        : '<span class="member-mark">' + m.fanMark + "</span>";
       return '<a class="member-card card" href="' + cardLink + '" style="--mc:' + m.color + ";--mc-soft:" + m.subColor + '">' +
-        '<span class="member-mark">' + m.fanMark + "</span>" +
+        mark +
         '<span class="member-name">' + m.name + "</span>" +
         '<span class="member-gen">' + m.gen + "</span>" +
         '<span class="member-catch">' + esc(m.catch) + "</span>" +
@@ -360,7 +365,7 @@
     var box = $("#launcherGrid");
     if (!box) return;
     box.innerHTML = LAUNCHERS.map(function (l) {
-      var inner = '<span class="launcher-emoji">' + l.emoji + "</span>" +
+      var inner = '<span class="shape-badge" style="background:linear-gradient(135deg,' + l.shape.grad[0] + "," + l.shape.grad[1] + ')">' + l.shape.char + "</span>" +
         "<h3>" + esc(l.name) + "</h3><p>" + esc(l.desc) + "</p>" +
         (l.url ? '<span class="btn">開く</span>' : '<span class="prep-badge">準備中</span>');
       if (l.url) return '<a class="launcher-card card" href="' + l.url + '" target="_blank" rel="noopener">' + inner + "</a>";
@@ -409,7 +414,7 @@
       var items = eventOccurrences().slice(0, 10);
       listBox.innerHTML = items.length ? items.map(function (it) {
         var d = it.date;
-        var type = it.ev.type === "birthday" ? "🎂 誕生日" : it.ev.type === "anniversary" ? "🎉 記念日" : "📅 イベント";
+        var type = it.ev.type === "birthday" ? "誕生日" : it.ev.type === "anniversary" ? "記念日" : "イベント";
         var link = it.ev.url ? '<a class="btn btn-ghost" style="margin-left:auto" href="' + it.ev.url + '">詳細</a>' : "";
         return '<div class="cal-item card"><div class="cal-date-box"><b>' + d.getDate() + "</b><small>" + (d.getMonth() + 1) + "月</small></div>" +
           '<div><div class="cal-type" style="color:var(--accent-deep)">' + type + "</div>" +
@@ -571,7 +576,9 @@
         (m.birthday ? "<tr><th>誕生日</th><td>" + m.birthday.slice(0, 2) + "月" + parseInt(m.birthday.slice(3), 10) + "日</td></tr>" : "") +
         (m.debut ? "<tr><th>デビュー</th><td>" + m.debut + "</td></tr>" : "") +
         (m.fanName ? "<tr><th>ファンネーム</th><td>" + m.fanName + "</td></tr>" : "") +
-        (m.fanMark ? "<tr><th>ファンマーク</th><td>" + m.fanMark + "</td></tr>" : "") +
+        (m.fanMark ? "<tr><th>ファンマーク</th><td>" +
+          (m.icon ? '<span class="fanmark-img"><img src="' + m.icon + '" alt=""></span>' : "") +
+          m.fanMark + "</td></tr>" : "") +
         (m.calls ? "<tr><th>呼び方</th><td>" + m.calls + "</td></tr>" : "") +
         "<tr><th>紹介</th><td>" + esc(m.profile) + "</td></tr>" +
         "<tr><th>特技・武器</th><td>" + esc(m.skills) + "</td></tr></table></div>" +
@@ -644,6 +651,98 @@
     }
   }
 
+  /* ============ タレントイントロ演出 ============ */
+  function introSeen() {
+    try { return !!localStorage.getItem("milli-intro-seen"); } catch (e) { return true; }
+  }
+
+  function setIntroSeen() {
+    try { localStorage.setItem("milli-intro-seen", "1"); } catch (e) {}
+  }
+
+  function introSkippedToday() {
+    try { return sessionStorage.getItem("milli-skip-intro") === new Date().toDateString(); } catch (e) { return false; }
+  }
+
+  function setIntroSkippedToday() {
+    try { sessionStorage.setItem("milli-skip-intro", new Date().toDateString()); } catch (e) {}
+  }
+
+  function initIntro() {
+    var overlay = $("#introOverlay");
+    if (!overlay) return;
+    var memberId = overlay.dataset.member;
+    var m = getMember(memberId);
+    var audio = $("#introAudio", overlay);
+    var startBtn = $("#introStart", overlay);
+    var skipBtn = $("#introSkip", overlay);
+    var catchBox = $("#introCatch", overlay);
+
+    /* キャッチコピーを一文字ずつ表示する準備（音声に合わせて順に出現） */
+    if (m && m.catchphrase && catchBox) {
+      var delay = 2.1;
+      catchBox.innerHTML = m.catchphrase.split("").map(function (c) {
+        if (c === " ") { delay += 0.05; return " "; }
+        var d = delay;
+        delay += 0.05;
+        return '<span class="c-char" style="--cd:' + d.toFixed(2) + 's">' + c + "</span>";
+      }).join("");
+    }
+
+    var wasFirst = !introSeen();
+
+    function closeIntro(saveSeen) {
+      if (saveSeen) setIntroSeen();
+      overlay.classList.add("close");
+      setTimeout(function () {
+        overlay.classList.remove("show", "play", "close");
+        if (audio) { audio.pause(); audio.currentTime = 0; }
+      }, 1000);
+    }
+
+    function startPlay() {
+      overlay.classList.remove("close");
+      overlay.classList.add("show", "play");
+      if (startBtn) startBtn.classList.remove("show");
+      var done = false;
+      var finish = function () {
+        if (done) return;
+        done = true;
+        closeIntro(wasFirst);
+      };
+      if (audio && m && m.introVoice) {
+        audio.play().catch(function () {});
+        audio.addEventListener("ended", finish);
+        var onMeta = function () {
+          if (isFinite(audio.duration) && audio.duration > 0) {
+            setTimeout(finish, audio.duration * 1000 + 1500);
+          }
+        };
+        if (audio.readyState >= 1) onMeta();
+        else audio.addEventListener("loadedmetadata", onMeta);
+        setTimeout(finish, 15000);
+      } else {
+        setTimeout(finish, 7000);
+      }
+    }
+
+    if (startBtn) startBtn.addEventListener("click", startPlay);
+    if (skipBtn) {
+      skipBtn.addEventListener("click", function () {
+        closeIntro(false);
+        if (!introSeen()) setIntroSkippedToday();
+      });
+    }
+    var previewBtn = $("#introBtn");
+    if (previewBtn) previewBtn.addEventListener("click", startPlay);
+
+    /* 初回のみ: 再生ボタン付きで自動表示（ブラウザ制限のためクリックから再生） */
+    if (wasFirst && !introSkippedToday()) {
+      overlay.classList.add("show");
+      if (startBtn) startBtn.classList.add("show");
+    }
+  }
+
   /* ============ 起動 ============ */
   function boot() {
     applyOshi(getOshi());
@@ -659,6 +758,7 @@
     renderHistory();
     renderLinks();
     renderTalentPage();
+    initIntro();
     initReveal();
     initOnboarding();
   }

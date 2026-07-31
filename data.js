@@ -34,6 +34,11 @@ const MEMBERS = [
     ],
     tags: { stream: "あまかみらいぶ", clip: "このこれくしょん", art: "このみすけっち" },
     links: { yt: "https://www.youtube.com/@AmakamiKonomi", x: "https://x.com/AmakamiKonomi", tiktok: "https://www.tiktok.com/@amakamikonomi" },
+    img: "images/talents/konomi.webp",
+    logo: "images/rogo/konomirogo.webp",
+    icon: "images/icon/konomi_profile.jpg",
+    catchphrase: "あなたと好きでつながりたい。あなたと好きを共有したい。",
+    introVoice: "assets/voices/konomi_intro.mp3",
     featuredVideos: [],
     voice: "",
     intro: ""
@@ -64,6 +69,11 @@ const MEMBERS = [
     ],
     tags: { stream: "ののん家", clip: "ののちょき", art: "のののーと" },
     links: { yt: "https://www.youtube.com/@_nonono_nono", x: "https://x.com/_nonono_nono", tiktok: "" },
+    img: "images/talents/nono.webp",
+    logo: "images/rogo/nonorogo.webp",
+    icon: "images/icon/nono_profile.jpg",
+    catchphrase: "ダイヤのように輝きたいっ！",
+    introVoice: "assets/voices/nono_intro.mp3",
     featuredVideos: [],
     voice: "",
     intro: ""
@@ -94,6 +104,11 @@ const MEMBERS = [
     ],
     tags: { stream: "生あくび", clip: "録あくび", art: "でもんすぺ絵ど" },
     links: { yt: "https://www.youtube.com/@Akubi.demonspade", x: "https://x.com/AkubiU_Uzz", tiktok: "https://www.tiktok.com/@akubiu_uzzzz" },
+    img: "images/talents/akubi.webp",
+    logo: "images/rogo/akubirogo.webp",
+    icon: "images/icon/akubi_profile.jpg",
+    catchphrase: "あくびとおまえらが楽しければそれでいい。",
+    introVoice: "assets/voices/akubi_intro.mp3",
     featuredVideos: [],
     voice: "",
     intro: ""
@@ -125,6 +140,11 @@ const MEMBERS = [
     ],
     tags: { stream: "こまにお立合い", clip: "こま斬り", art: "こまのえま" },
     links: { yt: "https://www.youtube.com/@komawarikoma", x: "https://x.com/komawarikoma", tiktok: "https://www.tiktok.com/@komawarikoma" },
+    img: "images/talents/koma.webp",
+    logo: "images/rogo/komarogo.webp",
+    icon: "images/icon/koma_profile.jpg",
+    catchphrase: "みんなの一コマ、こまにちょーだい！",
+    introVoice: "assets/voices/koma_intro.mp3",
     featuredVideos: [],
     voice: "",
     intro: ""
@@ -155,6 +175,11 @@ const MEMBERS = [
     ],
     tags: { stream: "らこといっしょ", clip: "らこの貝殻", art: "らこあーと" },
     links: { yt: "https://www.youtube.com/@OtonoseRaco", x: "https://x.com/OtonoseRaco", tiktok: "" },
+    img: "images/talents/rako.webp",
+    logo: "images/rogo/rakorogo.webp",
+    icon: "images/icon/rako_profile.jpg",
+    catchphrase: "君に元気をおすそ分け！",
+    introVoice: "assets/voices/raco_intro.mp3",
     featuredVideos: [],
     voice: "",
     intro: ""
@@ -187,6 +212,11 @@ const MEMBERS = [
     ],
     tags: { stream: "ゆらのやすらぎ", clip: "ゆらあつめ", art: "ゆらぎあーと" },
     links: { yt: "https://www.youtube.com/@_YuraYuragi", x: "https://x.com/_YuraYuragi", tiktok: "" },
+    img: "images/talents/yura.webp",
+    logo: "images/rogo/yurarogo.webp",
+    icon: "images/icon/yura_profile.jpg",
+    catchphrase: "あなたに安らぎを届けたい",
+    introVoice: "assets/voices/yura_intro.mp3",
     featuredVideos: [],
     voice: "",
     intro: ""
@@ -218,6 +248,11 @@ const MEMBERS = [
     ],
     tags: { stream: "ぬふライブ", clip: "にじぷかぬふ", art: "にじぷかーと" },
     links: { yt: "https://www.youtube.com/@NijipukaNuhu", x: "https://x.com/nijipukanuhu", tiktok: "" },
+    img: "images/talents/nuhu.webp",
+    logo: "images/rogo/nuhurogo.webp",
+    icon: "images/icon/nuhu_profile.jpg",
+    catchphrase: "ぬふのごはんは褒めことば！",
+    introVoice: "assets/voices/nuhu_intro.mp3",
     featuredVideos: [],
     voice: "",
     intro: ""
@@ -248,6 +283,11 @@ const MEMBERS = [
     ],
     tags: { stream: "ツクリーム", clip: "ツクリップ", art: "ツクリーンショット" },
     links: { yt: "https://www.youtube.com/@NemukumoTsukuri", x: "https://x.com/nemukumotsukuri", tiktok: "" },
+    img: "images/talents/tukuri.webp",
+    logo: "images/rogo/tukurirogo.webp",
+    icon: "images/icon/tukuri_profile.jpg",
+    catchphrase: "君との思い出つくってあげる",
+    introVoice: "assets/voices/tsukuri_intro.mp3",
     featuredVideos: [],
     voice: "",
     intro: ""
@@ -278,6 +318,11 @@ const MEMBERS = [
     ],
     tags: { stream: "リズと雨宿り", clip: "切り取リズ", art: "てるてるぼう図" },
     links: { yt: "https://www.youtube.com/@Amayo_liz", x: "https://x.com/amayoliz_", tiktok: "" },
+    img: "images/talents/rizu.webp",
+    logo: "images/rogo/rizurogo.webp",
+    icon: "images/icon/rizu_profile.jpg",
+    catchphrase: "迷い込んで、雨宿り。",
+    introVoice: "assets/voices/liz_intro.mp3",
     featuredVideos: [],
     voice: "",
     intro: ""
@@ -308,6 +353,11 @@ const MEMBERS = [
     ],
     tags: { stream: "レイ作戦中", clip: "切り取レイ", art: "描いてくレイ" },
     links: { yt: "https://www.youtube.com/@yugiriray", x: "https://x.com/YugiriRay", tiktok: "" },
+    img: "images/talents/rei.webp",
+    logo: "images/rogo/reirogo.webp",
+    icon: "images/icon/rei_profile.jpg",
+    catchphrase: "霧に紛れて、作戦開始",
+    introVoice: "assets/voices/rei_intro.mp3",
     featuredVideos: [],
     voice: "",
     intro: ""
@@ -336,6 +386,8 @@ const MEMBERS = [
     ],
     tags: { stream: "", clip: "", art: "" },
     links: { yt: "", x: "", tiktok: "" },
+    catchphrase: "",
+    introVoice: "",
     featuredVideos: [],
     voice: "",
     intro: ""
@@ -377,9 +429,9 @@ const NEWS = [
 ];
 
 const LAUNCHERS = [
-  { emoji: "🎬", name: "Milli Unishare", desc: "配信・動画の情報を共有するファンサービス", url: "" },
-  { emoji: "📖", name: "Millipro Chronicle", desc: "ミリプロの歴史を記録するファン資料集", url: "" },
-  { emoji: "🎮", name: "Milli Games", desc: "ミリプロ関連のファンゲーム集", url: "" }
+  { shape: { char: "U", grad: ["#00bec4", "#00878c"] }, name: "Milli Unishare", desc: "配信・動画の情報を共有するファンサービス", url: "" },
+  { shape: { char: "C", grad: ["#f7cb0e", "#e6a700"] }, name: "Millipro Chronicle", desc: "ミリプロの歴史を記録するファン資料集", url: "" },
+  { shape: { char: "G", grad: ["#8575bf", "#5f4f9e"] }, name: "Milli Games", desc: "ミリプロ関連のファンゲーム集", url: "" }
 ];
 
 const LINKS = [

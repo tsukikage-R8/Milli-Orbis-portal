@@ -6,6 +6,31 @@ eval(dataSrc.replace(/^const (\w+) =/gm, "globalThis.$1 ="));
 
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
+function tabs(m) {
+  return MEMBERS.map((x) =>
+    '<a class="t-tab' + (x.id === m.id ? " active" : "") + '" href="' + x.id + '.html">' +
+    (x.icon ? '<img src="' + x.icon + '" alt="" loading="lazy">' : "") +
+    x.name + "</a>"
+  ).join("");
+}
+
+function introOverlay(m) {
+  return '<div id="introOverlay" class="intro-overlay" data-member="' + m.id + '" aria-hidden="true">' +
+    '<button type="button" class="intro-skip" id="introSkip">スキップ</button>' +
+    '<span class="intro-ring r1"></span><span class="intro-ring r2"></span>' +
+    '<span class="intro-ring r3"></span><span class="intro-ring r4"></span>' +
+    '<span class="intro-ring r5"></span>' +
+    '<div class="intro-stage">' +
+    (m.logo ? '<img class="intro-logo" src="' + m.logo + '" alt="">' : "") +
+    (m.img ? '<img class="intro-art" src="' + m.img + '" alt="' + m.name + '">' : "") +
+    '<p class="intro-name">' + m.name + "</p>" +
+    '<p class="intro-catch" id="introCatch"></p>' +
+    '<button type="button" class="intro-start" id="introStart">再生する</button>' +
+    "</div>" +
+    '<audio id="introAudio" src="' + (m.introVoice || "") + '" preload="auto"></audio>' +
+    "</div>";
+}
+
 function page(m) {
   return `<!DOCTYPE html>
 <html lang="ja">
@@ -13,7 +38,7 @@ function page(m) {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${m.name}（${m.nameEn}）| Milli Orbis</title>
-<meta name="description" content="${esc(m.catch)}。${m.gen}・${m.fanName}（ファンネーム: ${esc(m.fanName)}・ファンマーク: ${m.fanMark}）">
+<meta name="description" content="${esc(m.catch)}。${m.gen}の${m.name}の非公式ファンページ。ファンネーム: ${esc(m.fanName || "—")}。">
 <meta property="og:type" content="website">
 <meta property="og:title" content="${m.name}（${m.nameEn}）| Milli Orbis">
 <meta property="og:description" content="${esc(m.catch)}">
@@ -25,7 +50,7 @@ function page(m) {
 <body data-member="${m.id}" data-oshi="">
 <header id="siteHeader">
   <div class="header-inner">
-    <a class="logo" href="index.html"><span class="logo-mark">◉</span>Milli Orbis</a>
+    <a class="logo" href="index.html"><img src="images/rogo/milliprorogo.webp" alt="Milli Orbis"></a>
     <nav class="nav">
       <a href="index.html#home">Home</a>
       <a href="index.html#members">Member Guide</a>
@@ -47,21 +72,26 @@ function page(m) {
 </header>
 <div id="progressBar" class="progress"></div>
 
+<nav class="talent-tabs" aria-label="タレント切り替え">
+  ${tabs(m)}
+</nav>
+
 <main class="container">
   <nav class="breadcrumb"><a href="index.html">Home</a><a href="index.html#members">Member Guide</a><span id="bcName">${m.name}</span></nav>
 
   <section id="talentHero" class="talent-hero">
     <div class="heroSweep"></div>
     <div class="talent-hero-inner">
-      <div class="talent-mark" data-anim="markIn">${m.fanMark}</div>
-      <h1 data-anim="nameIn">${m.name}</h1>
+      ${m.logo ? '<img class="talent-hero-logo" src="' + m.logo + '" alt="">' : ""}
+      ${m.img ? '<img class="talent-hero-art" src="' + m.img + '" alt="' + m.name + '">' : ""}
+      <h1>${m.name}</h1>
       <p class="talent-name-en">${m.nameEn}</p>
       <p class="talent-catch" id="tCatch"></p>
       <p class="talent-tags">
         <span id="tGen"></span>
-        <span>ファンネーム: ${m.fanName}</span>
-        <span>ファンマーク: ${m.fanMark}</span>
+        <span>ファンネーム: ${m.fanName || "—"}</span>
       </p>
+      <button type="button" class="intro-btn" id="introBtn">▶ イントロを見る</button>
     </div>
   </section>
 
@@ -87,6 +117,8 @@ function page(m) {
   <p class="source-note">${esc(SITE_CONFIG.sourceNote)}</p>
   <p>© 2026 Milli Orbis（非公式ファンサイト）</p>
 </footer>
+
+${introOverlay(m)}
 
 <script src="data.js"></script>
 <script src="script.js"></script>
