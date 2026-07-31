@@ -50,11 +50,17 @@
     <p class="hero-sub">ここを開けば、今のミリプロのすべてにアクセスできる</p>
 
     <div class="countdown-wrap">
-      <div class="cd-styles">
-        <button type="button" class="cd-style-btn" data-style="retro">レトロ</button>
-        <button type="button" class="cd-style-btn" data-style="future">フューチャー</button>
+      <div class="cd-head">
+        <h3 class="cd-head-title">カウントダウン</h3>
+        <div class="cd-styles" id="cdStyles">
+          <button type="button" class="cd-style-btn" data-style="pop">ポップ</button>
+          <button type="button" class="cd-style-btn" data-style="candy">キャンディ</button>
+          <button type="button" class="cd-style-btn" data-style="simple">シンプル</button>
+        </div>
       </div>
       <div id="countdown" class="countdown"></div>
+      <p class="cd-rail-hint">下のカウントダウンをクリックするとメイン表示を切り替えられます</p>
+      <div id="cdRail" class="cd-rail"></div>
     </div>
   </section>
 
@@ -108,7 +114,7 @@
     </div>
     <div id="eventList" class="cal-list"></div>
     <div id="calendarGrid" class="cal-grid" style="display:none;"></div>
-    <div class="cal-legend"><span><span class="dot"></span>誕生日・記念日・イベント</span></div>
+    <div class="cal-legend"><span><span class="dot"></span>イベントのある日は日付をクリックすると詳細が見られます</span></div>
   </section>
 
   <section id="history" class="section container">
@@ -137,6 +143,14 @@
   <p class="source-note">ミリプロ（Million Production）公式サイト: <a href="https://milpr.com/" target="_blank" rel="noopener">https://milpr.com/</a></p>
   <p>© 2026 Milli Orbis（非公式ファンサイト）</p>
 </footer>
+
+<div id="eventModal" class="modal-overlay">
+  <div class="modal">
+    <h2 id="evmDate"></h2>
+    <div id="evmList" class="evm-list"></div>
+    <button type="button" class="skip" id="evmClose">閉じる</button>
+  </div>
+</div>
 
 <div id="oshiModal" class="modal-overlay">
   <div class="modal">

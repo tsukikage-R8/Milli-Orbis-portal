@@ -93,7 +93,7 @@
     r.setProperty("--accent", color);
     r.setProperty("--accent-soft", soft);
     r.setProperty("--grad", "linear-gradient(135deg, " + soft + ", #ffffff 60%)");
-    r.setProperty("--accent-deep", shade(color, -25));
+    r.setProperty("--accent-deep", shade(color, -35));
     document.body.dataset.oshi = id || "";
   }
 
@@ -136,75 +136,120 @@
 
   /* ============ カウントダウン ============ */
   function getCdStyle() {
-    try { return localStorage.getItem("milli-cd-style") || "retro"; } catch (e) { return "retro"; }
+    try { return localStorage.getItem("milli-cd-style") || "pop"; } catch (e) { return "pop"; }
+  }
+
+  function getCdFeatured() {
+    try { return localStorage.getItem("milli-cd-featured") || ""; } catch (e) { return ""; }
+  }
+
+  function cdLeft(item, now) {
+    var diff = new Date(item.date).getTime() - now.getTime();
+    if (diff < 0) return null;
+    var secs = Math.floor(diff / 1000);
+    return {
+      days: Math.floor(secs / 86400),
+      hours: Math.floor((secs % 86400) / 3600),
+      mins: Math.floor((secs % 3600) / 60),
+      secs: secs % 60
+    };
   }
 
   function initCountdown() {
     var wrap = $("#countdown");
-    if (!wrap) return;
+    var rail = $("#cdRail");
+    var stylesBox = $("#cdStyles");
+    if (!wrap || !rail) return;
     var style = getCdStyle();
-    document.body.classList.toggle("cd-future-mode", style === "future");
+    var featuredId = getCdFeatured();
+    var valid = COUNTDOWN.filter(function (c) { return cdLeft(c, jstNow()); });
+    if (valid.length === 0) return;
+    if (!cdItem(featuredId) || !valid.some(function (c) { return c.id === featuredId; })) {
+      featuredId = valid[0].id;
+    }
 
     var units = [["days", "日"], ["hours", "時間"], ["mins", "分"], ["secs", "秒"]];
 
-    function digits(num) {
-      return pad2(num).split("");
+    function cdItem(id) {
+      return COUNTDOWN.find(function (c) { return c.id === id; });
     }
 
-    function renderCards() {
-      var html = COUNTDOWN.map(function (item) {
-        return '<div class="cd-card card" data-id="' + item.id + '">' +
-          '<div class="cd-label">' + item.label + "</div>" +
-          '<div class="cd-digits cd-' + style + '">' +
-          units.map(function (u) {
-            return '<div class="cd-unit"><div class="cd-num" data-unit="' + u[0] + '">' +
-              '<span class="flap">0</span><span class="flap">0</span></div><b>' + u[1] + "</b></div>";
-          }).join("") +
-          "</div>" +
-          (item.note ? '<div class="cd-note">' + item.note + "</div>" : "") +
-          "</div>";
+    function renderFeatured() {
+      var item = cdItem(featuredId);
+      if (!item) return;
+      wrap.innerHTML =
+        '<div class="cd-card cd-' + style + ' cd-featured" data-id="' + item.id + '">' +
+        '<div class="cd-label">' + item.label + "</div>" +
+        '<div class="cd-when">' + fmtDate(new Date(item.date)) + " " + fmtTime(new Date(item.date)) + " まで</div>" +
+        '<div class="cd-digits">' + units.map(function (u) {
+          return '<div class="cd-unit"><div class="cd-num" data-unit="' + u[0] + '">00</div><small>' + u[1] + "</small></div>";
+        }).join("") + "</div>" +
+        (item.note ? '<div class="cd-note">' + item.note + "</div>" : "") +
+        (item.url ? '<a class="cd-link" href="' + item.url + '">' +
+          (item.url.indexOf(".html") > -1 ? "詳細ページへ" : "公式サイトへ") + "</a>" : "") +
+        "</div>";
+    }
+
+    function renderRail() {
+      rail.innerHTML = valid.map(function (item) {
+        return '<button type="button" class="cd-rail-item' + (item.id === featuredId ? " is-active" : "") + '" data-id="' + item.id + '">' +
+          '<span class="cd-label">' + item.label + "</span>" +
+          '<span class="cd-diff" data-diff></span>' +
+          "</button>";
       }).join("");
-      wrap.innerHTML = html;
+    }
+
+    function updateCard(card, now) {
+      var item = cdItem(card.dataset.id);
+      if (!item) return;
+      var left = cdLeft(item, now);
+      if (!left) { card.style.display = "none"; return; }
+      card.style.display = "";
+      if (card.classList.contains("cd-featured")) {
+        $$(".cd-num", card).forEach(function (num) {
+          num.textContent = pad2(left[num.dataset.unit]);
+        });
+      } else {
+        var diff = $("[data-diff]", card);
+        if (diff) diff.textContent = "あと " + left.days + "日 " + left.hours + "時間 " + left.mins + "分";
+      }
     }
 
     function tick() {
       var now = jstNow();
-      $$(".cd-card", wrap).forEach(function (card) {
-        var item = COUNTDOWN.find(function (c) { return c.id === card.dataset.id; });
-        if (!item) return;
-        var target = new Date(item.date);
-        var diff = target.getTime() - now.getTime();
-        if (diff < 0) { card.style.display = "none"; return; }
-        var secs = Math.floor(diff / 1000);
-        var vals = {
-          days: Math.floor(secs / 86400),
-          hours: Math.floor((secs % 86400) / 3600),
-          mins: Math.floor((secs % 3600) / 60),
-          secs: secs % 60
-        };
-        $$(".cd-num", card).forEach(function (num) {
-          var d = digits(vals[num.dataset.unit]);
-          var flaps = $$(".flap", num);
-          flaps.forEach(function (f, i) { f.textContent = d[i]; });
+      var card = $(".cd-card", wrap);
+      if (card) updateCard(card, now);
+      $$(".cd-rail-item", rail).forEach(function (b) { updateCard(b, now); });
+    }
+
+    if (stylesBox) {
+      $$(".cd-style-btn", stylesBox).forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          var s = btn.dataset.style;
+          try { localStorage.setItem("milli-cd-style", s); } catch (e) {}
+          style = s;
+          $$(".cd-style-btn", stylesBox).forEach(function (b) { b.classList.toggle("active", b === btn); });
+          renderFeatured();
+          tick();
         });
+        btn.classList.toggle("active", btn.dataset.style === style);
       });
     }
 
-    renderCards();
+    rail.addEventListener("click", function (e) {
+      var b = e.target.closest(".cd-rail-item");
+      if (!b || b.dataset.id === featuredId) return;
+      featuredId = b.dataset.id;
+      try { localStorage.setItem("milli-cd-featured", featuredId); } catch (err) {}
+      renderFeatured();
+      renderRail();
+      tick();
+    });
+
+    renderFeatured();
+    renderRail();
     tick();
     setInterval(tick, 1000);
-
-    $$(".cd-style-btn").forEach(function (btn) {
-      btn.addEventListener("click", function () {
-        var s = btn.dataset.style;
-        try { localStorage.setItem("milli-cd-style", s); } catch (e) {}
-        $$(".cd-style-btn").forEach(function (b) { b.classList.toggle("active", b === btn); });
-        document.body.classList.toggle("cd-future-mode", s === "future");
-        renderCards();
-        tick();
-      });
-      btn.classList.toggle("active", btn.dataset.style === style);
-    });
   }
 
   /* ============ 誕生日バナー ============ */
@@ -379,6 +424,14 @@
     return new Date(now.getFullYear(), now.getMonth(), 1);
   })();
 
+  function evColor(type) {
+    return type === "birthday" ? "#ef6a8d" : type === "anniversary" ? "#f2a93b" : "#6a9ef0";
+  }
+
+  function evTypeLabel(type) {
+    return type === "birthday" ? "誕生日" : type === "anniversary" ? "記念日" : "イベント";
+  }
+
   function eventOccurrences() {
     var list = [];
     EVENTS.forEach(function (e) {
@@ -402,25 +455,40 @@
     return list.sort(function (a, b) { return a.date - b.date; });
   }
 
+  function eventsOn(y, mo, d) {
+    return eventOccurrences().filter(function (it) {
+      return it.date.getFullYear() === y && it.date.getMonth() === mo && it.date.getDate() === d;
+    });
+  }
+
   function initCalendar() {
     var listBox = $("#eventList");
     var gridBox = $("#calendarGrid");
     var title = $("#calTitle");
     var listBtn = $("#calListBtn");
     var gridBtn = $("#calGridBtn");
+    var modal = $("#eventModal");
     if (!listBox) return;
 
+    function evLink(url, label) {
+      if (!url) return "";
+      var external = url.indexOf(".html") === -1 ? ' target="_blank" rel="noopener"' : "";
+      return '<a class="btn btn-ghost" style="margin-left:auto" href="' + url + '"' + external + ">" + label + "</a>";
+    }
+
     function renderList() {
-      var items = eventOccurrences().slice(0, 10);
+      var y = calViewMonth.getFullYear();
+      var mo = calViewMonth.getMonth();
+      var items = eventOccurrences().filter(function (it) {
+        return it.date.getFullYear() === y && it.date.getMonth() === mo;
+      });
       listBox.innerHTML = items.length ? items.map(function (it) {
         var d = it.date;
-        var type = it.ev.type === "birthday" ? "誕生日" : it.ev.type === "anniversary" ? "記念日" : "イベント";
-        var link = it.ev.url ? '<a class="btn btn-ghost" style="margin-left:auto" href="' + it.ev.url + '">詳細</a>' : "";
         return '<div class="cal-item card"><div class="cal-date-box"><b>' + d.getDate() + "</b><small>" + (d.getMonth() + 1) + "月</small></div>" +
-          '<div><div class="cal-type" style="color:var(--accent-deep)">' + type + "</div>" +
-          '<div class="cal-title">' + esc(it.ev.title) + "</div>" +
-          (it.ev.desc ? '<div class="video-meta">' + esc(it.ev.desc) + "</div>" : "") + "</div>" + link + "</div>";
-      }).join("") : '<div class="placeholder">イベントはありません</div>';
+          '<div><div class="cal-type" style="--ec:' + evColor(it.ev.type) + '">' + evTypeLabel(it.ev.type) + "</div>" +
+          '<div class="cal-title2">' + esc(it.ev.title) + "</div>" +
+          (it.ev.desc ? '<div class="video-meta">' + esc(it.ev.desc) + "</div>" : "") + "</div>" + evLink(it.ev.url, "詳細") + "</div>";
+      }).join("") : '<div class="placeholder">この月のイベントはありません</div>';
     }
 
     function renderGrid() {
@@ -437,18 +505,19 @@
       }
 
       for (var d = 1; d <= daysInMonth; d++) {
-        var day = new Date(y, mo, d);
-        var dots = [];
-        eventOccurrences().forEach(function (it) {
-          if (it.date.getFullYear() === y && it.date.getMonth() === mo && it.date.getDate() === d) dots.push(1);
-        });
-        var dow = day.getDay();
+        var evs = eventsOn(y, mo, d);
+        var dow = new Date(y, mo, d).getDay();
         var cls = "cal-day";
         if (dow === 0) cls += " sunday";
         if (dow === 6) cls += " saturday";
         if (d === today.getDate() && mo === today.getMonth() && y === today.getFullYear()) cls += " today";
-        var dotHtml = dots.length ? '<span class="cal-dots">' + dots.map(function () { return '<span class="cal-dot"></span>'; }).join("") + "</span>" : "";
-        cells.push('<div class="' + cls + '">' + d + dotHtml + "</div>");
+        if (evs.length) cls += " has-event";
+        var badges = evs.slice(0, 2).map(function (it) {
+          return '<span class="cal-ebadge" style="--ec:' + evColor(it.ev.type) + '">' + esc(it.ev.title) + "</span>";
+        }).join("");
+        var more = evs.length > 2 ? '<span class="cal-more">+</span>' : "";
+        cells.push('<div class="' + cls + '" data-ymd="' + y + "-" + mmdd + "-" + pad2(d) + '">' +
+          "<b>" + d + "</b>" + badges + more + "</div>");
       }
 
       var dows = ["日", "月", "火", "水", "木", "金", "土"];
@@ -456,6 +525,25 @@
         return '<div class="cal-dow' + (i === 0 ? ' sunday' : i === 6 ? ' saturday' : '') + '">' + w + "</div>";
       }).join("") + cells.join("");
       title.textContent = y + "年 " + (mo + 1) + "月";
+    }
+
+    function openDayModal(ymd) {
+      if (!modal) return;
+      var p = ymd.split("-");
+      var y = parseInt(p[0], 10), mo = parseInt(p[1], 10) - 1, d = parseInt(p[2], 10);
+      var evs = eventsOn(y, mo, d);
+      if (!evs.length) return;
+      $("#evmDate").textContent = y + "年 " + (mo + 1) + "月 " + d + "日 のイベント";
+      $("#evmList").innerHTML = evs.map(function (it) {
+        return '<div class="evm-item card"><span class="cal-type" style="--ec:' + evColor(it.ev.type) + '">' + evTypeLabel(it.ev.type) + "</span>" +
+          '<div class="evm-title">' + esc(it.ev.title) + "</div>" +
+          (it.ev.desc ? '<div class="evm-desc">' + esc(it.ev.desc) + "</div>" : "") + evLink(it.ev.url, "詳細を見る") + "</div>";
+      }).join("");
+      modal.classList.add("open");
+    }
+
+    function closeDayModal() {
+      if (modal) modal.classList.remove("open");
     }
 
     function setView(view) {
@@ -466,14 +554,25 @@
     }
 
     listBtn.addEventListener("click", function () { setView("list"); });
-    gridBtn.addEventListener("click", function () { setView("grid"); renderGrid(); });
+    gridBtn.addEventListener("click", function () { setView("grid"); });
     $("#calPrev").addEventListener("click", function () {
       calViewMonth = new Date(calViewMonth.getFullYear(), calViewMonth.getMonth() - 1, 1);
+      renderList();
       renderGrid();
     });
     $("#calNext").addEventListener("click", function () {
       calViewMonth = new Date(calViewMonth.getFullYear(), calViewMonth.getMonth() + 1, 1);
+      renderList();
       renderGrid();
+    });
+    if (modal) {
+      modal.addEventListener("click", function (e) { if (e.target === modal) closeDayModal(); });
+      var closeBtn = $("#evmClose");
+      if (closeBtn) closeBtn.addEventListener("click", closeDayModal);
+    }
+    gridBox.addEventListener("click", function (e) {
+      var cell = e.target.closest(".cal-day.has-event");
+      if (cell) openDayModal(cell.dataset.ymd);
     });
 
     renderList();
@@ -652,22 +751,6 @@
   }
 
   /* ============ タレントイントロ演出 ============ */
-  function introSeen() {
-    try { return !!localStorage.getItem("milli-intro-seen"); } catch (e) { return true; }
-  }
-
-  function setIntroSeen() {
-    try { localStorage.setItem("milli-intro-seen", "1"); } catch (e) {}
-  }
-
-  function introSkippedToday() {
-    try { return sessionStorage.getItem("milli-skip-intro") === new Date().toDateString(); } catch (e) { return false; }
-  }
-
-  function setIntroSkippedToday() {
-    try { sessionStorage.setItem("milli-skip-intro", new Date().toDateString()); } catch (e) {}
-  }
-
   function initIntro() {
     var overlay = $("#introOverlay");
     if (!overlay) return;
@@ -689,10 +772,7 @@
       }).join("");
     }
 
-    var wasFirst = !introSeen();
-
-    function closeIntro(saveSeen) {
-      if (saveSeen) setIntroSeen();
+    function closeIntro() {
       overlay.classList.add("close");
       setTimeout(function () {
         overlay.classList.remove("show", "play", "close");
@@ -708,7 +788,7 @@
       var finish = function () {
         if (done) return;
         done = true;
-        closeIntro(wasFirst);
+        closeIntro();
       };
       if (audio && m && m.introVoice) {
         audio.play().catch(function () {});
@@ -727,20 +807,13 @@
     }
 
     if (startBtn) startBtn.addEventListener("click", startPlay);
-    if (skipBtn) {
-      skipBtn.addEventListener("click", function () {
-        closeIntro(false);
-        if (!introSeen()) setIntroSkippedToday();
-      });
-    }
+    if (skipBtn) skipBtn.addEventListener("click", closeIntro);
     var previewBtn = $("#introBtn");
     if (previewBtn) previewBtn.addEventListener("click", startPlay);
 
-    /* 初回のみ: 再生ボタン付きで自動表示（ブラウザ制限のためクリックから再生） */
-    if (wasFirst && !introSkippedToday()) {
-      overlay.classList.add("show");
-      if (startBtn) startBtn.classList.add("show");
-    }
+    /* タレントページを開くたびにイントロを表示（音声はブラウザ制限のため「再生する」クリックから開始） */
+    overlay.classList.add("show");
+    if (startBtn) startBtn.classList.add("show");
   }
 
   /* ============ 起動 ============ */
