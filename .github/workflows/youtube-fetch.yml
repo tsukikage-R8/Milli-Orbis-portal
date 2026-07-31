@@ -1,0 +1,32 @@
+name: Fetch YouTube Data
+
+on:
+  schedule:
+    - cron: "0 0,4,8,12,16,20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch YouTube data
+        run: node scripts/fetch-data.js
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+
+      - name: Commit and push
+        run: |
+          git config user.name "Milli Orbis Bot"
+          git config user.email "bot@milliorbis.local"
+          git add data/youtube.json data/youtube.backup.json
+          git diff --cached --quiet || git commit -m "chore: update youtube data"
+          git push
