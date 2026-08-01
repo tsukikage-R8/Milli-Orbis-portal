@@ -1,5 +1,7 @@
 const SITE_CONFIG = {
   name: "Milli Orbis",
+  siteUrl: "https://milli-orbis.onrender.com",
+  ogImage: "/images/Milli%20Orbis-OGP.png",
   tagline: "ここを開けば、今のミリプロのすべてにアクセスできる",
   disclaimer: "本サイトはファンが運営する非公式のポータルサイトです。ミリプロ公式様とは一切関係ありません。",
   sourceNote: "タレント情報の出典: ミリプロ公式サイト（https://milpr.com/）・ミリプロ非公式wiki（https://wikiwiki.jp/millipro10/）・Wikipedia。メンカラーはファン間の慣習色です。"

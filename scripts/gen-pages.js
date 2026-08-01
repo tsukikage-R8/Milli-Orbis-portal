@@ -96,8 +96,17 @@ function page(m) {
 <link rel="apple-touch-icon" sizes="192x192" href="images/icon/Milli%20Orbis-192.png">
 <link rel="apple-touch-icon" sizes="518x518" href="images/icon/Milli%20Orbis-518.png">
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="Milli Orbis">
 <meta property="og:title" content="${m.name}（${m.nameEn}）| Milli Orbis">
 <meta property="og:description" content="${esc(m.catch)}">
+<meta property="og:url" content="${SITE_CONFIG.siteUrl}/${m.id}.html">
+<meta property="og:image" content="${SITE_CONFIG.siteUrl}${SITE_CONFIG.ogImage}">
+<meta property="og:image:width" content="1729">
+<meta property="og:image:height" content="910">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${m.name}（${m.nameEn}）| Milli Orbis">
+<meta name="twitter:description" content="${esc(m.catch)}">
+<meta name="twitter:image" content="${SITE_CONFIG.siteUrl}${SITE_CONFIG.ogImage}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
