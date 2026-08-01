@@ -26,6 +26,26 @@ const DECO_SVG = {
   ring: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="7"><circle cx="50" cy="50" r="34"/><circle cx="50" cy="50" r="7"/></g></svg>'
 };
 
+const SHOP_CONFIG = {
+  name: "ミリプロオフィシャルショップ",
+  url: "https://shop.milpr.com/"
+};
+
+const GOODS = [
+  { name: "あくび・でもんすぺーど 50万人記念グッズ フルセット", memberId: "akubi", price: 12300, oldPrice: 12600, tag: "NEW", url: "https://shop.milpr.com/products/akubi_50_full", img: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/20260703__akubidemonspade_50mannnin_goods_square_fix_touka-7_cae9dd49-ba27-4efd-aa61-c9a93e5e110c.png?v=1784896691&width=640" },
+  { name: "あくび・でもんすぺーど 50万人記念グッズ アクリルスタンド", memberId: "akubi", price: 2000, url: "https://shop.milpr.com/products/akubi_50_acrylicstand", img: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/20260703__akubidemonspade_50mannnin_goods_square_fix_touka-1_88383087-6afc-4317-b49d-5db42276ad00.png?v=1784895792&width=640" },
+  { name: "あくび・でもんすぺーど 50万人記念グッズ メタルチャームネックレス", memberId: "akubi", price: 5000, url: "https://shop.milpr.com/products/akubi_50_necklace", img: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/20260703__akubidemonspade_50mannnin_goods_square_fix_touka-4_27ab55a4-5e40-4316-ac4d-3f970130d2e2.png?v=1784895735&width=640" },
+  { name: "あくび・でもんすぺーど 50万人記念グッズ 両面アクリルキーホルダー", memberId: "akubi", price: 1800, url: "https://shop.milpr.com/products/akubi_50_db_ackey", img: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/20260703__akubidemonspade_50mannnin_goods_square_fix_touka-5_bc5b4868-c004-430b-a743-8de964bbfb7a.png?v=1784895563&width=640" },
+  { name: "あくび・でもんすぺーど 50万人記念グッズ ランダムクリアポストカード", memberId: "akubi", price: 1500, url: "https://shop.milpr.com/products/akubi_50_random_clearpostcard", img: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/20260703__akubidemonspade_50mannnin_goods_square_fix_touka-3_9758aab4-4a08-43f6-bf78-55edf12fe455.png?v=1784895851&width=640" },
+  { name: "あくび・でもんすぺーど 50万人記念グッズ ランダム缶バッジ", memberId: "akubi", price: 500, url: "https://shop.milpr.com/products/akubi_50_random_kanbadge", img: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/20260703__akubidemonspade_50mannnin_goods_square_fix_touka-2_c4194b35-04b0-4bdc-96ed-07ccd28deb23.png?v=1784896607&width=640" },
+  { name: "あくび・でもんすぺーど 50万人記念グッズ シチュエーションボイス", memberId: "akubi", price: 1000, tag: "NEW", url: "https://shop.milpr.com/products/akubi_50_voice", img: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/20260703__akubidemonspade_50mannnin_goods_square_fix_touka-6_2048ac4b-8059-4fa4-a1ae-ee0a596799b3.png?v=1784895323&width=640" },
+  { name: "ミリプロ ストリートコレクション2026 タレントセット", memberId: "", memberLabel: "ミリプロ全員", price: 13400, oldPrice: 13700, url: "https://shop.milpr.com/products/street2026_talentset", img: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/TOP_6e14448b-e13d-48af-9d2c-78d2a429c785.png?v=1784801703&width=640" },
+  { name: "ミリプロ ストリートコレクション2026 ペットボトルホルダー", memberId: "", memberLabel: "ミリプロ全員", price: 1500, url: "https://shop.milpr.com/products/street2026_bottleholder", img: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/b475f09f3b9a768093ed581a04d3d03f.png?v=1784795055&width=640" },
+  { name: "ミリプロ ストリートコレクション2026 クリアファイル", memberId: "", memberLabel: "ミリプロ全員", price: 800, url: "https://shop.milpr.com/products/street2026_clearfile", img: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/8083fbcb12c5dad7f8358d5d694f69f2.png?v=1784795046&width=640" },
+  { name: "ミリプロ ストリートコレクション2026 ランダムチェキ風カード", memberId: "", memberLabel: "ミリプロ全員", price: 500, url: "https://shop.milpr.com/products/street2026_random_card", img: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/40d36378360f9f13d2376b8e07b49dfc_47779b9b-090b-45ab-99c5-f95a797a2d5c.png?v=1784795063&width=640" },
+  { name: "ミリプロ ストリートコレクション2026 ランダム缶バッジ", memberId: "", memberLabel: "ミリプロ全員", price: 500, url: "https://shop.milpr.com/products/street2026_random_kanbadge", img: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/e8acad23819a38d0492bbb82cb941ce0.png?v=1784795497&width=640" }
+];
+
 const MEMBERS = [
   {
     id: "konomi",

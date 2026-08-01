@@ -899,6 +899,109 @@
     startPlay();
   }
 
+  /* ============ 最新グッズ ============ */
+  function renderGoods() {
+    var box = $("#goodsTrack");
+    if (!box || !GOODS.length) return;
+    box.innerHTML = GOODS.map(function (g) {
+      var m = g.memberId ? getMember(g.memberId) : null;
+      var label = m ? m.name : (g.memberLabel || "ミリプロ全員");
+      var color = m ? m.color : "#75b1c0";
+      var old = g.oldPrice ? '<s>¥' + g.oldPrice.toLocaleString("ja-JP") + "</s> " : "";
+      return '<a class="goods-card card" href="' + g.url + '" target="_blank" rel="noopener" style="--gc:' + color + '">' +
+        '<span class="goods-img"><img src="' + g.img + '" alt="' + esc(g.name) + '" loading="lazy"></span>' +
+        (g.tag ? '<span class="goods-tag">' + esc(g.tag) + "</span>" : "") +
+        '<span class="goods-body">' +
+        '<span class="goods-member">' + esc(label) + "</span>" +
+        '<span class="goods-name">' + esc(g.name) + "</span>" +
+        '<span class="goods-price">' + old + "¥" + g.price.toLocaleString("ja-JP") + "</span>" +
+        '<span class="btn btn-ghost">ショップで見る</span>' +
+        "</span></a>";
+    }).join("");
+    initGoodsCarousel(box);
+  }
+
+  function initGoodsCarousel(box) {
+    var section = $("#goods");
+    if (!section) return;
+    var viewport = $(".car-viewport", section);
+    var prev = $("#goodsPrev");
+    var next = $("#goodsNext");
+    var dots = $("#goodsDots");
+    var n = box.children.length;
+    if (!n) return;
+    var idx = 0, pv = 3, timer = null;
+
+    function perView() {
+      var w = viewport ? viewport.clientWidth : 0;
+      if (!w) return 3;
+      return w < 560 ? 1 : w < 900 ? 2 : 3;
+    }
+
+    function renderDots() {
+      if (!dots) return;
+      var pages = Math.max(1, Math.ceil(n / pv));
+      dots.innerHTML = "";
+      for (var i = 0; i < pages; i++) {
+        (function (i2) {
+          var b = document.createElement("button");
+          b.type = "button";
+          b.className = "car-dot";
+          b.setAttribute("aria-label", "スライド" + (i2 + 1) + " / " + pages);
+          b.addEventListener("click", function () {
+            go(Math.min(i2 * pv, n - pv), true);
+            restart();
+          });
+          dots.appendChild(b);
+        })(i);
+      }
+    }
+
+    function go(i, animate) {
+      if (viewport) viewport.style.setProperty("--pv", pv);
+      var max = Math.max(0, n - pv);
+      idx = Math.max(0, Math.min(i, max));
+      box.style.transition = animate === false ? "none" : "transform .45s ease";
+      box.style.transform = "translateX(-" + (idx * 100 / pv) + "%)";
+      if (prev) prev.disabled = idx <= 0;
+      if (next) next.disabled = idx >= max;
+      if (dots) {
+        var pages = Math.max(1, Math.ceil(n / pv));
+        var active = Math.min(Math.floor(idx / pv), pages - 1);
+        Array.prototype.forEach.call(dots.children, function (d, di) {
+          d.classList.toggle("active", di === active);
+        });
+      }
+    }
+
+    function restart() {
+      if (timer) clearInterval(timer);
+      timer = setInterval(function () {
+        go(idx + 1 >= n ? 0 : idx + 1, true);
+      }, 5000);
+    }
+
+    function stop() {
+      if (timer) { clearInterval(timer); timer = null; }
+    }
+
+    if (prev) prev.addEventListener("click", function () { go(idx - 1, true); restart(); });
+    if (next) next.addEventListener("click", function () { go(idx + 1, true); restart(); });
+    section.addEventListener("mouseenter", stop);
+    section.addEventListener("mouseleave", restart);
+    section.addEventListener("touchstart", stop, { passive: true });
+    window.addEventListener("resize", function () {
+      pv = perView();
+      renderDots();
+      go(idx, false);
+    });
+
+    pv = perView();
+    renderDots();
+    go(0, false);
+    restart();
+  }
+
   /* ============ 起動 ============ */
   function boot() {
     applyOshi(getOshi());
@@ -910,6 +1013,7 @@
     renderXPosts();
     renderMembers();
     renderLaunchers();
+    renderGoods();
     initCalendar();
     renderHistory();
     renderLinks();
