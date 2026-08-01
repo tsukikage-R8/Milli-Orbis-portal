@@ -923,21 +923,34 @@ img { max-width: 100%; }
   text-align: left;
   overflow: hidden;
 }
-.goods-img {
+.goods-tile {
   position: relative;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   aspect-ratio: 1 / 1;
-  overflow: hidden;
   border-radius: 16px;
-  background: linear-gradient(160deg, rgba(0, 0, 0, 0.045), rgba(0, 0, 0, 0.09));
+  border: 3px solid #fff;
+  outline: 2px solid rgba(0, 0, 0, 0.06);
+  background: #fff;
+  background: linear-gradient(160deg, color-mix(in srgb, var(--gc) 24%, #fff), color-mix(in srgb, var(--gc) 9%, #fff));
 }
-.goods-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+.goods-tile svg {
+  width: 46%;
+  height: 46%;
+  color: var(--gc);
+  opacity: 0.85;
   transition: transform 0.35s ease;
 }
-.goods-card:hover .goods-img img { transform: scale(1.06); }
+.goods-tile .tile-char {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 3.2rem;
+  line-height: 1;
+  color: var(--gc);
+}
+.goods-card:hover .goods-tile svg,
+.goods-card:hover .goods-tile .tile-char { transform: scale(1.08); }
 .goods-tag {
   position: absolute;
   top: 10px;

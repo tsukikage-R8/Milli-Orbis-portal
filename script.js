@@ -959,6 +959,11 @@
   }
 
   /* ============ 最新グッズ ============ */
+  function goodsTile(g) {
+    if (GOODS_ICON[g.kind]) return GOODS_ICON[g.kind];
+    return '<span class="tile-char">' + esc((g.name || "?").charAt(0)) + "</span>";
+  }
+
   function renderGoods() {
     var box = $("#goodsTrack");
     if (!box || !GOODS.length) return;
@@ -968,7 +973,7 @@
       var color = m ? m.color : "#75b1c0";
       var old = g.oldPrice ? '<s>¥' + g.oldPrice.toLocaleString("ja-JP") + "</s> " : "";
       return '<a class="goods-card card" href="' + g.url + '" target="_blank" rel="noopener" style="--gc:' + color + '">' +
-        '<span class="goods-img"><img src="' + g.img + '" alt="' + esc(g.name) + '" loading="lazy"></span>' +
+        '<span class="goods-tile" aria-hidden="true">' + goodsTile(g) + "</span>" +
         (g.tag ? '<span class="goods-tag">' + esc(g.tag) + "</span>" : "") +
         '<span class="goods-body">' +
         '<span class="goods-member">' + esc(label) + "</span>" +
