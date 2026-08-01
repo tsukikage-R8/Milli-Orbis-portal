@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-08-01T09:47:02.009Z",
+  "updatedAt": "2026-08-01T12:48:42.318Z",
   "streams": [
-    {
-      "id": "_HiZoy8mCdE",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 #小廻こま誕生日会2026 】幸せてんこ盛りばーすでー！！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/_HiZoy8mCdE/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-01T10:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "g1NCJlVlous",
       "memberId": "rei",
@@ -83,6 +74,15 @@
       "status": "upcoming"
     },
     {
+      "id": "OCDhtDgFVUU",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "⋆⸜  サマーストリートコレクションコレクショングッズ販売中🌻  ⸝⋆",
+      "thumb": "https://i.ytimg.com/vi/OCDhtDgFVUU/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-31T14:30:00Z",
+      "status": "upcoming"
+    },
+    {
       "id": "gjos7ccWkac",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -120,6 +120,26 @@
     }
   ],
   "videos": [
+    {
+      "id": "1UdnoJ6qgPs",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "おきらくスーパースター／小廻こま（official）",
+      "thumb": "https://i.ytimg.com/vi/1UdnoJ6qgPs/hqdefault.jpg",
+      "publishedAt": "2026-08-01T12:00:06Z",
+      "live": false
+    },
+    {
+      "id": "_HiZoy8mCdE",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 #小廻こま誕生日会2026 】幸せてんこ盛りばーすでー！！【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/_HiZoy8mCdE/hqdefault_live.jpg",
+      "publishedAt": "2026-08-01T11:59:54Z",
+      "live": false
+    },
     {
       "id": "qb_guU1Jsi8",
       "memberId": "rei",
@@ -261,16 +281,6 @@
       "live": false
     },
     {
-      "id": "zr_8Ro8GLpk",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 Rust┆VCR 】これが人生です#7【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/zr_8Ro8GLpk/hqdefault.jpg",
-      "publishedAt": "2026-07-30T19:16:45Z",
-      "live": false
-    },
-    {
       "id": "SwZhWy-PNs8",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -328,16 +338,6 @@
       "title": "【みんなで】右左どっち？『神っぽいな』歌ってみた【雨夜リズ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/BHQX0z1VxVE/hqdefault.jpg",
       "publishedAt": "2026-07-30T09:00:01Z",
-      "live": false
-    },
-    {
-      "id": "_HiZoy8mCdE",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 #小廻こま誕生日会2026 】幸せてんこ盛りばーすでー！！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/_HiZoy8mCdE/hqdefault_live.jpg",
-      "publishedAt": "2026-07-30T05:47:48Z",
       "live": false
     },
     {
