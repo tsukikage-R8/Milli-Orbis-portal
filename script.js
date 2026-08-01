@@ -395,6 +395,17 @@
   }
 
   /* ============ メンバーカード（Member Guide） ============ */
+  function memberCardDeco(m) {
+    var d = m.deco;
+    if (!d) return "";
+    var keys = [];
+    if (d.label && DECO_SVG[d.label]) keys.push(d.label);
+    if (d.floats && d.floats.length && keys.length < 2 && DECO_SVG[d.floats[0].k]) keys.push(d.floats[0].k);
+    return '<span class="card-deco" aria-hidden="true">' + keys.map(function (k, i) {
+      return '<span class="cd-' + (i === 0 ? "main" : "sub") + '">' + DECO_SVG[k] + "</span>";
+    }).join("") + "</span>";
+  }
+
   function renderMembers() {
     var box = $("#memberGrid");
     if (!box) return;
@@ -408,6 +419,7 @@
           ? '<span class="member-mark"><img src="' + m.img + '" alt="' + esc(m.name) + '"></span>'
           : '<span class="member-mark">' + m.fanMark + "</span>");
       return '<a class="member-card card" href="' + cardLink + '" style="--mc:' + m.color + ";--mc-soft:" + m.subColor + '">' +
+        memberCardDeco(m) +
         mark +
         '<span class="member-name">' + m.name + "</span>" +
         '<span class="member-gen">' + m.gen + "</span>" +

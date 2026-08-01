@@ -893,6 +893,12 @@ img { max-width: 100%; }
   border-radius: 0 0 50% 50% / 0 0 24px 24px;
   pointer-events: none;
 }
+
+/* メンバーカードのメンバー別モチーフ背景（SVG・メンカラー・薄め） */
+.card-deco { position: absolute; inset: 0; pointer-events: none; }
+.card-deco svg { position: absolute; color: var(--mc, var(--accent)); opacity: 0.2; }
+.card-deco .cd-main svg { width: 132px; height: 132px; right: -16px; top: -16px; }
+.card-deco .cd-sub svg { width: 56px; height: 56px; left: -6px; bottom: -6px; opacity: 0.26; }
 .member-card:hover { text-decoration: none; }
 .member-mark {
   width: 110px;
