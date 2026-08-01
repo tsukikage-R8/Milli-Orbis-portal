@@ -105,7 +105,45 @@
     r.setProperty("--accent-soft", soft);
     r.setProperty("--grad", "linear-gradient(135deg, " + soft + ", #ffffff 60%)");
     r.setProperty("--accent-deep", shade(color, -35));
+    document.body.style.setProperty("--mc", color);
+    document.body.style.setProperty("--mc-soft", soft);
     document.body.dataset.oshi = id || "";
+    applyPageDeco();
+  }
+
+  /* ============ ページ背景デコレーション（index: 推し連動 / タレントページ: 静的に生成済み） ============ */
+  function buildDecoHtml(m) {
+    var d = m.deco;
+    if (!d || !(d.floats || d.shape)) return "";
+    var s = "";
+    (d.floats || []).forEach(function (f) {
+      s += '<span class="d-f" data-k="' + f.k + '" style="left:' + f.x + "%;top:" + f.y + "%;width:" + f.size +
+        "px;height:" + f.size + "px;--dur:" + f.dur + 's">' + (DECO_SVG[f.k] || "") + "</span>";
+    });
+    if (d.shape === "paw") s += '<span class="d-paw" style="left:82%;top:30%"><i></i><i></i><i></i><i></i></span>';
+    if (d.shape === "bub") s += '<span class="d-bub" style="left:12%;top:30%"></span><span class="d-bub" style="left:76%;top:40%;animation-delay:2s"></span>';
+    if (d.shape === "rain") s += '<span class="d-rain" style="left:74%;top:6%"></span><span class="d-drop" style="left:88%;top:18%"></span><span class="d-drop" style="left:66%;top:44%;animation-delay:1.4s"></span>';
+    if (d.shape === "cross") s += '<span class="d-cross" style="left:82%;top:20%"></span>';
+    if (d.shape === "wheel") s += '<span class="d-wheel" style="left:84%;top:12%"></span>';
+    if (d.shape === "zzz") s += '<span class="d-zzz" style="left:16%;top:62%">Z</span><span class="d-zzz" style="left:27%;top:74%;font-size:2.1rem;animation-delay:1.1s">z</span><span class="d-zzz" style="left:37%;top:84%;font-size:1.4rem;animation-delay:2.1s">z</span>';
+    return s;
+  }
+
+  function applyPageDeco() {
+    if (document.body.dataset.member) return;
+    var m = getMember(document.body.dataset.oshi || "");
+    var box = document.querySelector(".page-deco");
+    if (!m || !m.deco) {
+      if (box) box.remove();
+      return;
+    }
+    if (!box) {
+      box = document.createElement("div");
+      box.className = "page-deco";
+      box.setAttribute("aria-hidden", "true");
+      document.body.insertBefore(box, document.body.firstChild);
+    }
+    box.innerHTML = buildDecoHtml(m);
   }
 
   function shade(hex, pct) {
