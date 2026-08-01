@@ -648,6 +648,8 @@
       hero.style.setProperty("--mc", m.color);
       hero.style.setProperty("--mc-soft", m.subColor);
     }
+    document.body.style.setProperty("--mc", m.color);
+    document.body.style.setProperty("--mc-soft", m.subColor);
     var cardStyle = "style=\"--mc:" + m.color + ";--mc-soft:" + m.subColor + "\"";
 
     var bc = $("#bcName");

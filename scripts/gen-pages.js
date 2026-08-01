@@ -67,6 +67,23 @@ const mobileNav = (home) => `
       <a href="${home}#calendar">Event Calendar</a>
       <a href="${home}#links">Official Links</a>`;
 
+function decoHtml(m) {
+  var d = m.deco;
+  if (!d || !(d.floats || d.shape)) return "";
+  var s = "";
+  (d.floats || []).forEach(function (f) {
+    s += '<span class="d-f" style="left:' + f.x + "%;top:" + f.y + "%;font-size:" + f.size +
+      "px;--dur:" + f.dur + 's">' + f.ch + "</span>";
+  });
+  if (d.shape === "paw") s += '<span class="d-paw" style="left:82%;top:30%"><i></i><i></i><i></i><i></i></span>';
+  if (d.shape === "bub") s += '<span class="d-bub" style="left:12%;top:30%"></span><span class="d-bub" style="left:76%;top:40%;animation-delay:2s"></span>';
+  if (d.shape === "rain") s += '<span class="d-rain" style="left:74%;top:6%"></span><span class="d-drop" style="left:88%;top:18%"></span><span class="d-drop" style="left:66%;top:44%;animation-delay:1.4s"></span>';
+  if (d.shape === "cross") s += '<span class="d-cross" style="left:82%;top:20%"></span>';
+  if (d.shape === "wheel") s += '<span class="d-wheel" style="left:84%;top:12%"></span>';
+  if (d.shape === "zzz") s += '<span class="d-zzz" style="left:16%;top:62%">Z</span><span class="d-zzz" style="left:27%;top:74%;font-size:2.1rem;animation-delay:1.1s">z</span><span class="d-zzz" style="left:37%;top:84%;font-size:1.4rem;animation-delay:2.1s">z</span>';
+  return '<div class="page-deco" aria-hidden="true">' + s + "</div>";
+}
+
 function page(m) {
   return `<!DOCTYPE html>
 <html lang="ja">
@@ -87,6 +104,7 @@ function page(m) {
 <link rel="stylesheet" href="style.css">
 </head>
 <body data-member="${m.id}" data-oshi="">
+${decoHtml(m)}
 <header id="siteHeader">
   <div class="header-inner">
     <a class="logo" href="index.html"><img src="images/rogo/Milli%20Orbis-rogo.png" alt="Milli Orbis"></a>
@@ -99,7 +117,9 @@ function page(m) {
     <div style="display:flex;gap:10px;align-items:center;">
       <a id="liveBadge" class="live-badge" href="#" target="_blank" rel="noopener">● LIVE</a>
       <select id="oshiSelect" class="oshi-select" aria-label="推しメンバーを選択"></select>
-      <button id="hamburger" class="hamburger" aria-label="メニュー">☰</button>
+      <button id="hamburger" class="hamburger" aria-label="メニュー">
+        <svg viewBox="0 0 28 20" width="30" height="22" aria-hidden="true"><path d="M2 3h24M2 10h24M2 17h24" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/></svg>
+      </button>
     </div>
   </div>
   <nav id="mobileNav" class="mobile-nav">

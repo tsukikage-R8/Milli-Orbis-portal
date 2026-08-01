@@ -11,7 +11,7 @@ const MEMBERS = [
     gen: "0期生・創設メンバー",
     name: "甘狼このみ",
     nameEn: "Amakami Konomi",
-    color: "#75b1c0",
+    color: "#5f97a4",
     subColor: "#d8ecf2",
     birthday: "02-14",
     debut: "2022-12-23",
@@ -39,6 +39,16 @@ const MEMBERS = [
     icon: "images/icon/konomi_profile.jpg",
     catchphrase: "あなたと好きでつながりたい。あなたと好きを共有したい。",
     introVoice: "assets/voices/konomi_intro.mp3",
+    deco: {
+      label: "🐾",
+      shape: "paw",
+      floats: [
+        { ch: "💖", x: 8, y: 14, size: 74, dur: 13 },
+        { ch: "🐾", x: 88, y: 10, size: 60, dur: 15 },
+        { ch: "🐾", x: 12, y: 74, size: 54, dur: 17 },
+        { ch: "💕", x: 86, y: 82, size: 48, dur: 12 }
+      ]
+    },
     featuredVideos: [],
     voice: "",
     intro: ""
@@ -48,7 +58,7 @@ const MEMBERS = [
     gen: "1期生",
     name: "音ノ乃のの",
     nameEn: "Nonono Nono",
-    color: "#8575bf",
+    color: "#6d609d",
     subColor: "#e4dff4",
     birthday: "05-04",
     debut: "2023-06-03",
@@ -74,6 +84,15 @@ const MEMBERS = [
     icon: "images/icon/nono_profile.jpg",
     catchphrase: "ダイヤのように輝きたいっ！",
     introVoice: "assets/voices/nono_intro.mp3",
+    deco: {
+      label: "♪",
+      floats: [
+        { ch: "♪", x: 10, y: 16, size: 70, dur: 13 },
+        { ch: "◆", x: 86, y: 10, size: 52, dur: 16 },
+        { ch: "♪", x: 13, y: 78, size: 46, dur: 14 },
+        { ch: "♪", x: 72, y: 85, size: 58, dur: 12 }
+      ]
+    },
     featuredVideos: [],
     voice: "",
     intro: ""
@@ -83,7 +102,7 @@ const MEMBERS = [
     gen: "2期生",
     name: "あくび・でもんすぺーど",
     nameEn: "Akubi Demonspade",
-    color: "#70152d",
+    color: "#5c1125",
     subColor: "#f2dde3",
     birthday: "10-31",
     debut: "2024-01-19",
@@ -109,6 +128,15 @@ const MEMBERS = [
     icon: "images/icon/akubi_profile.jpg",
     catchphrase: "あくびとおまえらが楽しければそれでいい。",
     introVoice: "assets/voices/akubi_intro.mp3",
+    deco: {
+      label: "♠",
+      floats: [
+        { ch: "♠", x: 9, y: 15, size: 66, dur: 14 },
+        { ch: "😈", x: 87, y: 12, size: 58, dur: 15 },
+        { ch: "♠", x: 13, y: 76, size: 50, dur: 13 },
+        { ch: "🔥", x: 78, y: 83, size: 44, dur: 12 }
+      ]
+    },
     featuredVideos: [],
     voice: "",
     intro: ""
@@ -118,7 +146,7 @@ const MEMBERS = [
     gen: "3期生",
     name: "小廻こま",
     nameEn: "Komawari Koma",
-    color: "#feb66c",
+    color: "#d09559",
     subColor: "#fff0dd",
     birthday: "08-01",
     debut: "2025-03-22",
@@ -145,6 +173,15 @@ const MEMBERS = [
     icon: "images/icon/koma_profile.jpg",
     catchphrase: "みんなの一コマ、こまにちょーだい！",
     introVoice: "assets/voices/koma_intro.mp3",
+    deco: {
+      label: "🌀",
+      floats: [
+        { ch: "🔶", x: 9, y: 15, size: 58, dur: 13 },
+        { ch: "🔹", x: 88, y: 12, size: 54, dur: 15 },
+        { ch: "🪀", x: 12, y: 78, size: 44, dur: 13 },
+        { ch: "🌀", x: 82, y: 82, size: 52, dur: 12 }
+      ]
+    },
     featuredVideos: [],
     voice: "",
     intro: ""
@@ -154,7 +191,7 @@ const MEMBERS = [
     gen: "ミリプロNOVA",
     name: "音ノ瀬らこ",
     nameEn: "Otonose Raco",
-    color: "#f7cb0e",
+    color: "#cba60b",
     subColor: "#fdf3cf",
     birthday: "04-08",
     debut: "2024-06-08",
@@ -180,6 +217,15 @@ const MEMBERS = [
     icon: "images/icon/rako_profile.jpg",
     catchphrase: "君に元気をおすそ分け！",
     introVoice: "assets/voices/raco_intro.mp3",
+    deco: {
+      label: "🐚",
+      floats: [
+        { ch: "🦦", x: 8, y: 14, size: 64, dur: 13 },
+        { ch: "🐚", x: 88, y: 10, size: 56, dur: 15 },
+        { ch: "🐚", x: 12, y: 76, size: 44, dur: 12 },
+        { ch: "🌊", x: 80, y: 84, size: 58, dur: 12 }
+      ]
+    },
     featuredVideos: [],
     voice: "",
     intro: ""
@@ -189,7 +235,7 @@ const MEMBERS = [
     gen: "ミリプロNOVA",
     name: "ゆらぎゆら",
     nameEn: "Yuragi Yura",
-    color: "#9bb7e9",
+    color: "#7f96bf",
     subColor: "#e7effb",
     birthday: "11-03",
     debut: "2024-06-09",
@@ -217,6 +263,16 @@ const MEMBERS = [
     icon: "images/icon/yura_profile.jpg",
     catchphrase: "あなたに安らぎを届けたい",
     introVoice: "assets/voices/yura_intro.mp3",
+    deco: {
+      label: "🫧",
+      shape: "bub",
+      floats: [
+        { ch: "🪼", x: 88, y: 12, size: 72, dur: 14 },
+        { ch: "🫧", x: 8, y: 18, size: 56, dur: 13 },
+        { ch: "🫧", x: 15, y: 80, size: 40, dur: 12 },
+        { ch: "🫧", x: 78, y: 78, size: 48, dur: 16 }
+      ]
+    },
     featuredVideos: [],
     voice: "",
     intro: ""
@@ -226,7 +282,7 @@ const MEMBERS = [
     gen: "ミリプロNOVA",
     name: "虹深°ぬふ",
     nameEn: "Nijipuka Nuhu",
-    color: "#f1b9bc",
+    color: "#c6989a",
     subColor: "#fdecec",
     birthday: "11-30",
     debut: "2025-08-08",
@@ -253,6 +309,16 @@ const MEMBERS = [
     icon: "images/icon/nuhu_profile.jpg",
     catchphrase: "ぬふのごはんは褒めことば！",
     introVoice: "assets/voices/nuhu_intro.mp3",
+    deco: {
+      label: "🖊️",
+      shape: "wheel",
+      floats: [
+        { ch: "🖊️", x: 9, y: 16, size: 58, dur: 13 },
+        { ch: "🎨", x: 86, y: 14, size: 54, dur: 14 },
+        { ch: "✏️", x: 14, y: 76, size: 44, dur: 13 },
+        { ch: "🌈", x: 80, y: 86, size: 56, dur: 13 }
+      ]
+    },
     featuredVideos: [],
     voice: "",
     intro: ""
@@ -262,7 +328,7 @@ const MEMBERS = [
     gen: "ミリプロUNI",
     name: "眠雲ツクリ",
     nameEn: "Nemukumo Tsukuri",
-    color: "#cdcad1",
+    color: "#a8a6ab",
     subColor: "#f0eff6",
     birthday: "09-03",
     debut: "2025-05-17",
@@ -288,6 +354,15 @@ const MEMBERS = [
     icon: "images/icon/tukuri_profile.jpg",
     catchphrase: "君との思い出つくってあげる",
     introVoice: "assets/voices/tsukuri_intro.mp3",
+    deco: {
+      label: "☁️",
+      shape: "zzz",
+      floats: [
+        { ch: "☁️", x: 88, y: 12, size: 76, dur: 14 },
+        { ch: "☁️", x: 10, y: 70, size: 56, dur: 15 },
+        { ch: "💤", x: 78, y: 80, size: 46, dur: 13 }
+      ]
+    },
     featuredVideos: [],
     voice: "",
     intro: ""
@@ -297,7 +372,7 @@ const MEMBERS = [
     gen: "ミリプロUNI",
     name: "雨夜リズ",
     nameEn: "Amayo Liz",
-    color: "#769595",
+    color: "#617a7a",
     subColor: "#e4eeec",
     birthday: "03-19",
     debut: "2025-05-18",
@@ -323,6 +398,15 @@ const MEMBERS = [
     icon: "images/icon/rizu_profile.jpg",
     catchphrase: "迷い込んで、雨宿り。",
     introVoice: "assets/voices/liz_intro.mp3",
+    deco: {
+      label: "💧",
+      shape: "rain",
+      floats: [
+        { ch: "💧", x: 8, y: 14, size: 54, dur: 13 },
+        { ch: "🌧️", x: 86, y: 10, size: 64, dur: 15 },
+        { ch: "💧", x: 14, y: 78, size: 42, dur: 13 }
+      ]
+    },
     featuredVideos: [],
     voice: "",
     intro: ""
@@ -332,7 +416,7 @@ const MEMBERS = [
     gen: "ミリプロUNI",
     name: "夕霧レイ",
     nameEn: "Yugiri Ray",
-    color: "#9ab8d8",
+    color: "#7e97b1",
     subColor: "#e8f0fa",
     birthday: "01-30",
     debut: "2026-07-11",
@@ -358,6 +442,15 @@ const MEMBERS = [
     icon: "images/icon/rei_profile.jpg",
     catchphrase: "霧に紛れて、作戦開始",
     introVoice: "assets/voices/rei_intro.mp3",
+    deco: {
+      label: "◎",
+      shape: "cross",
+      floats: [
+        { ch: "◎", x: 9, y: 15, size: 64, dur: 13 },
+        { ch: "🎯", x: 86, y: 12, size: 56, dur: 15 },
+        { ch: "◎", x: 12, y: 78, size: 44, dur: 13 }
+      ]
+    },
     featuredVideos: [],
     voice: "",
     intro: ""
@@ -367,7 +460,7 @@ const MEMBERS = [
     gen: "事務所スタッフ・マスコット",
     name: "ミリちゃん",
     nameEn: "",
-    color: "#8ec9d4",
+    color: "#74a5ae",
     subColor: "#e6f4f7",
     birthday: "",
     debut: "2023-04-01",
