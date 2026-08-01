@@ -75,6 +75,9 @@ function page(m) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${m.name}（${m.nameEn}）| Milli Orbis</title>
 <meta name="description" content="${esc(m.catch)}。${m.gen}の${m.name}の非公式ファンページ。ファンネーム: ${esc(m.fanName || "—")}。">
+<link rel="icon" href="images/icon/Milli%20Orbis.ico" sizes="any">
+<link rel="apple-touch-icon" sizes="192x192" href="images/icon/Milli%20Orbis-192.png">
+<link rel="apple-touch-icon" sizes="518x518" href="images/icon/Milli%20Orbis-518.png">
 <meta property="og:type" content="website">
 <meta property="og:title" content="${m.name}（${m.nameEn}）| Milli Orbis">
 <meta property="og:description" content="${esc(m.catch)}">
@@ -86,7 +89,7 @@ function page(m) {
 <body data-member="${m.id}" data-oshi="">
 <header id="siteHeader">
   <div class="header-inner">
-    <a class="logo" href="index.html"><img src="images/rogo/milliprorogo.webp" alt="Milli Orbis"></a>
+    <a class="logo" href="index.html"><img src="images/rogo/Milli%20Orbis-rogo.png" alt="Milli Orbis"></a>
     <nav class="nav">
       <a href="index.html#home">Home</a>
       ${navDrop("index.html")}

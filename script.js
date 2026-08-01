@@ -838,6 +838,10 @@
 
     if (skipBtn) skipBtn.addEventListener("click", closeIntro);
 
+    /* ヒーローの「▶ イントロを見る」ボタンからいつでも再再生 */
+    var replayBtn = $("#introBtn");
+    if (replayBtn) replayBtn.addEventListener("click", startPlay);
+
     /* タレントページを開くたびに自動再生（スキップは右上） */
     overlay.classList.add("show");
     startPlay();
