@@ -24,7 +24,17 @@ const handleOf = (m) => {
 
 async function fetchJson(url) {
   const res = await fetch(url);
-  if (!res.ok) throw new Error(`YouTube API ${res.status}: ${url}`);
+  if (!res.ok) {
+    const body = await res.text().catch(() => "");
+    let reason = "";
+    try {
+      const j = JSON.parse(body);
+      if (j.error) reason = ` [${j.error.code || ""} ${j.error.status || ""} ${(j.error.errors || []).map((e) => e.reason || e.message).join(", ")}]`;
+    } catch (e) {
+      if (body) reason = ` [${body.slice(0, 200)}]`;
+    }
+    throw new Error(`YouTube API ${res.status}: ${url}${reason}`);
+  }
   return res.json();
 }
 
