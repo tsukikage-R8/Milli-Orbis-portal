@@ -108,29 +108,36 @@ async function main() {
           );
           const channelId = j.items && j.items[0] && j.items[0].id;
           if (!channelId) return [];
-          const items = await firstPage(
-            `${API}/search?part=snippet&channelId=${channelId}&eventType=upcoming&type=video&maxResults=10&key=${API_KEY}`
-          );
-          const ids = items.map((it) => it.id.videoId).filter(Boolean);
-          if (!ids.length) return [];
-          const vj = await fetchJson(
-            `${API}/videos?part=liveStreamingDetails&id=${ids.join(",")}&key=${API_KEY}`
-          );
-          const detailMap = {};
-          (vj.items || []).forEach((v) => { detailMap[v.id] = v.liveStreamingDetails || null; });
-          return items
-            .map((it) => {
+          const out = [];
+          for (const eventType of ["live", "upcoming"]) {
+            const items = await firstPage(
+              `${API}/search?part=snippet&channelId=${channelId}&eventType=${eventType}&type=video&maxResults=10&key=${API_KEY}`
+            );
+            const ids = items.map((it) => it.id.videoId).filter(Boolean);
+            if (!ids.length) continue;
+            const vj = await fetchJson(
+              `${API}/videos?part=liveStreamingDetails&id=${ids.join(",")}&key=${API_KEY}`
+            );
+            const detailMap = {};
+            (vj.items || []).forEach((v) => { detailMap[v.id] = v.liveStreamingDetails || null; });
+            const isLive = eventType === "live";
+            items.forEach((it) => {
               const det = detailMap[it.id.videoId] || {};
-              return {
+              const when = isLive ? (det.actualStartTime || it.snippet.publishedAt) : (det.scheduledStartTime || "");
+              if (!it.id.videoId || !when) return;
+              if (!isLive && Date.parse(when) <= Date.now()) return;
+              out.push({
                 id: it.id.videoId,
                 memberId: member.id,
                 member: member.name,
                 title: it.snippet.title,
                 thumb: it.snippet.thumbnails.high ? it.snippet.thumbnails.high.url : "",
-                scheduledStartTime: det.scheduledStartTime || ""
-              };
-            })
-            .filter((v) => v.id && v.scheduledStartTime && Date.parse(v.scheduledStartTime) > Date.now());
+                scheduledStartTime: when,
+                status: isLive ? "live" : "upcoming"
+              });
+            });
+          }
+          return out;
         } catch (e) {
           errors.push(`${member.id} (streams): ${e.message}`);
           return [];
@@ -140,16 +147,18 @@ async function main() {
   )
     .flat()
     .filter((v) => v && v.id)
-    .sort((a, b) => (a.scheduledStartTime > b.scheduledStartTime ? 1 : -1));
+    .sort((a, b) => {
+      const la = a.status === "live" ? 0 : 1;
+      const lb = b.status === "live" ? 0 : 1;
+      if (la !== lb) return la - lb;
+      return a.scheduledStartTime > b.scheduledStartTime ? 1 : -1;
+    });
 
   const output = {
     updatedAt: new Date().toISOString(),
     streams,
     videos,
-    live: streams.filter((s) => {
-      const t = Date.parse(s.scheduledStartTime);
-      return t && t <= Date.now() + 60 * 60 * 1000;
-    })
+    live: streams.filter((s) => s.status === "live")
   };
 
   const invalid = [...output.videos, ...output.streams].filter((v) => !v.id || !v.title);

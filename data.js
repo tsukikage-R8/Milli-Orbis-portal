@@ -28,11 +28,6 @@ const DECO_SVG = {
   ring: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="7"><circle cx="50" cy="50" r="34"/><circle cx="50" cy="50" r="7"/></g></svg>'
 };
 
-const SHOP_CONFIG = {
-  name: "ミリプロオフィシャルショップ",
-  url: "https://shop.milpr.com/"
-};
-
 /* グッズジャンル別の手描きSVGアイコン（画像掲載はしない方針 §9 のため、
    商品画像の代わりにジャンルを表す自作アイコンを表示する） */
 const GOODS_ICON = {
@@ -96,7 +91,7 @@ const MEMBERS = [
     logo: "images/rogo/konomirogo.webp",
     icon: "images/icon/konomi_profile.jpg",
     catchphrase: "あなたと好きでつながりたい。あなたと好きを共有したい。",
-    introVoice: "assets/voices/konomi_intro.mp3",
+    introVoice: "",
     deco: {
       label: "paw",
       shape: "paw",
@@ -141,7 +136,7 @@ const MEMBERS = [
     logo: "images/rogo/nonorogo.webp",
     icon: "images/icon/nono_profile.jpg",
     catchphrase: "ダイヤのように輝きたいっ！",
-    introVoice: "assets/voices/nono_intro.mp3",
+    introVoice: "",
     deco: {
       label: "note",
       floats: [
@@ -185,7 +180,7 @@ const MEMBERS = [
     logo: "images/rogo/akubirogo.webp",
     icon: "images/icon/akubi_profile.jpg",
     catchphrase: "あくびとおまえらが楽しければそれでいい。",
-    introVoice: "assets/voices/akubi_intro.mp3",
+    introVoice: "",
     deco: {
       label: "spade",
       floats: [
@@ -230,7 +225,7 @@ const MEMBERS = [
     logo: "images/rogo/komarogo.webp",
     icon: "images/icon/koma_profile.jpg",
     catchphrase: "みんなの一コマ、こまにちょーだい！",
-    introVoice: "assets/voices/koma_intro.mp3",
+    introVoice: "",
     deco: {
       label: "hex",
       floats: [
@@ -274,7 +269,7 @@ const MEMBERS = [
     logo: "images/rogo/rakorogo.webp",
     icon: "images/icon/rako_profile.jpg",
     catchphrase: "君に元気をおすそ分け！",
-    introVoice: "assets/voices/raco_intro.mp3",
+    introVoice: "",
     deco: {
       label: "shell",
       floats: [
@@ -320,7 +315,7 @@ const MEMBERS = [
     logo: "images/rogo/yurarogo.webp",
     icon: "images/icon/yura_profile.jpg",
     catchphrase: "あなたに安らぎを届けたい",
-    introVoice: "assets/voices/yura_intro.mp3",
+    introVoice: "",
     deco: {
       label: "bub",
       shape: "bub",
@@ -366,7 +361,7 @@ const MEMBERS = [
     logo: "images/rogo/nuhurogo.webp",
     icon: "images/icon/nuhu_profile.jpg",
     catchphrase: "ぬふのごはんは褒めことば！",
-    introVoice: "assets/voices/nuhu_intro.mp3",
+    introVoice: "",
     deco: {
       label: "pen",
       shape: "wheel",
@@ -411,7 +406,7 @@ const MEMBERS = [
     logo: "images/rogo/tukurirogo.webp",
     icon: "images/icon/tukuri_profile.jpg",
     catchphrase: "君との思い出つくってあげる",
-    introVoice: "assets/voices/tsukuri_intro.mp3",
+    introVoice: "",
     deco: {
       label: "cloud",
       shape: "zzz",
@@ -455,7 +450,7 @@ const MEMBERS = [
     logo: "images/rogo/rizurogo.webp",
     icon: "images/icon/rizu_profile.jpg",
     catchphrase: "迷い込んで、雨宿り。",
-    introVoice: "assets/voices/liz_intro.mp3",
+    introVoice: "",
     deco: {
       label: "drop",
       shape: "rain",
@@ -499,7 +494,7 @@ const MEMBERS = [
     logo: "images/rogo/reirogo.webp",
     icon: "images/icon/rei_profile.jpg",
     catchphrase: "霧に紛れて、作戦開始",
-    introVoice: "assets/voices/rei_intro.mp3",
+    introVoice: "",
     deco: {
       label: "ring",
       shape: "cross",

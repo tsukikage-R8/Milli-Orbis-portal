@@ -179,6 +179,7 @@ ${decoHtml(m)}
 <footer>
   <p class="disclaimer">本サイトはファンが運営する非公式のポータルサイトです。ミリプロ公式様とは一切関係ありません。</p>
   <p class="source-note">${esc(SITE_CONFIG.sourceNote)}</p>
+  <p class="source-note">YouTube Data API を利用しています（<a href="https://developers.google.com/youtube/terms/api-services-terms-of-service" target="_blank" rel="noopener">YouTube API Services Terms of Service</a>）</p>
   <p>© 2026 Milli Orbis（非公式ファンサイト）</p>
 </footer>
 

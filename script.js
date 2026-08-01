@@ -376,12 +376,16 @@
     }
     var now = new Date();
     var sorted = streams.slice().sort(function (a, b) {
+      var la = a.status === "live" ? 0 : 1;
+      var lb = b.status === "live" ? 0 : 1;
+      if (la !== lb) return la - lb;
       return new Date(a.scheduledStartTime || a.scheduledStart) - new Date(b.scheduledStartTime || b.scheduledStart);
     });
     var groups = [[], [], [], []];
     sorted.forEach(function (s) {
       var start = new Date(s.scheduledStartTime || s.scheduledStart);
-      if (!start.getTime() || start < now) return;
+      var isLive = s.status === "live";
+      if (!start.getTime() || (!isLive && start < now)) return;
       if (groups[0].length + groups[1].length + groups[2].length + groups[3].length >= YOUTUBE.maxStreams) return;
       groups[streamBucket(start)].push({ s: s, start: start });
     });
@@ -393,12 +397,13 @@
         ' <span class="range">' + bucketRange(b) + "</span></h3>" +
         g.map(function (it) {
           var s = it.s, m = getMember(s.memberId);
+          var isLive = s.status === "live";
           var diff = Math.floor((it.start.getTime() - now.getTime()) / 1000);
-          var soon = diff >= 0 ? ' <span class="stream-count">あと' + hoursText(diff) + "</span>" : "";
-          var when = (b === 0 ? "" : fmtMD(it.start) + " ") + fmtTime(it.start);
+          var soon = isLive ? "" : (diff >= 0 ? ' <span class="stream-count">あと' + hoursText(diff) + "</span>" : "");
+          var when = isLive ? "配信中" : (b === 0 ? "" : fmtMD(it.start) + " ") + fmtTime(it.start);
           return '<a class="stream-item card" href="' + videoUrl(s.id) + '" target="_blank" rel="noopener">' +
             '<div class="video-thumb"><img src="' + thumbUrl(s.id) + '" alt="" loading="lazy"></div>' +
-            "<div><div class='video-title'>" + esc(s.title) + (s.status === "live" ? '<span class="video-tag">LIVE</span>' : "") + "</div>" +
+            "<div><div class='video-title'>" + esc(s.title) + (isLive ? '<span class="video-tag">LIVE</span>' : "") + "</div>" +
             '<div class="video-meta">' + (m ? m.name + " ・ " : "") + when + soon + "</div>" +
             "</div></a>";
         }).join("") + "</div>";
@@ -437,7 +442,7 @@
     var vids = videos.slice(0, YOUTUBE.maxVideos);
     box.innerHTML = vids.map(function (v) {
       var m = getMember(v.memberId);
-      var typeLabel = v.type === "short" ? "Short" : v.type === "live" ? "配信" : "";
+      var typeLabel = v.type === "short" ? "Short" : (v.type === "live" || v.live === true) ? "配信" : "";
       var published = new Date(v.publishedAt);
       return '<a class="video-card card" href="' + videoUrl(v.id) + '" target="_blank" rel="noopener">' +
         '<div class="video-thumb"><img src="' + thumbUrl(v.id) + '" alt="" loading="lazy"></div>' +
@@ -1011,6 +1016,7 @@
           var b = document.createElement("button");
           b.type = "button";
           b.className = "car-dot";
+          b.setAttribute("role", "tab");
           b.setAttribute("aria-label", "スライド" + (i2 + 1) + " / " + pages);
           b.addEventListener("click", function () {
             go(Math.min(i2 * pv, n - pv), true);
@@ -1034,6 +1040,7 @@
         var active = Math.min(Math.floor(idx / pv), pages - 1);
         Array.prototype.forEach.call(dots.children, function (d, di) {
           d.classList.toggle("active", di === active);
+          d.setAttribute("aria-selected", di === active ? "true" : "false");
         });
       }
     }
@@ -1054,6 +1061,9 @@
     section.addEventListener("mouseenter", stop);
     section.addEventListener("mouseleave", restart);
     section.addEventListener("touchstart", stop, { passive: true });
+    document.addEventListener("visibilitychange", function () {
+      if (document.hidden) stop(); else restart();
+    });
     window.addEventListener("resize", function () {
       pv = perView();
       renderDots();
