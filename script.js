@@ -376,11 +376,11 @@
     }
     var now = new Date();
     var sorted = streams.slice().sort(function (a, b) {
-      return new Date(a.scheduledStartTime) - new Date(b.scheduledStartTime);
+      return new Date(a.scheduledStartTime || a.scheduledStart) - new Date(b.scheduledStartTime || b.scheduledStart);
     });
     var groups = [[], [], [], []];
     sorted.forEach(function (s) {
-      var start = new Date(s.scheduledStartTime);
+      var start = new Date(s.scheduledStartTime || s.scheduledStart);
       if (!start.getTime() || start < now) return;
       if (groups[0].length + groups[1].length + groups[2].length + groups[3].length >= YOUTUBE.maxStreams) return;
       groups[streamBucket(start)].push({ s: s, start: start });

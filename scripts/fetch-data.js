@@ -38,16 +38,10 @@ async function fetchJson(url) {
   return res.json();
 }
 
-async function fetchAll(url) {
-  const items = [];
-  let next = null;
-  do {
-    const j = await fetchJson(url + (next ? `&pageToken=${next}` : ""));
-    items.push(...(j.items || []));
-    next = j.nextPageToken || null;
-  } while (next);
-  return items;
-}
+const firstPage = async (url) => {
+  const j = await fetchJson(url);
+  return j.items || [];
+};
 
 const valid = (v) => v && v.id && v.title;
 
@@ -80,7 +74,7 @@ async function main() {
     await Promise.all(
       withPlaylist.map(async ({ member, playlistId }) => {
         try {
-          const items = await fetchAll(
+          const items = await firstPage(
             `${API}/playlistItems?part=snippet,contentDetails&playlistId=${playlistId}&maxResults=5&key=${API_KEY}`
           );
           return items.map((it) => ({
@@ -114,17 +108,29 @@ async function main() {
           );
           const channelId = j.items && j.items[0] && j.items[0].id;
           if (!channelId) return [];
-          const items = await fetchAll(
+          const items = await firstPage(
             `${API}/search?part=snippet&channelId=${channelId}&eventType=upcoming&type=video&maxResults=10&key=${API_KEY}`
           );
-          return items.map((it) => ({
-            id: it.id.videoId,
-            memberId: member.id,
-            member: member.name,
-            title: it.snippet.title,
-            thumb: it.snippet.thumbnails.high ? it.snippet.thumbnails.high.url : "",
-            scheduledStartTime: it.snippet.publishedAt
-          }));
+          const ids = items.map((it) => it.id.videoId).filter(Boolean);
+          if (!ids.length) return [];
+          const vj = await fetchJson(
+            `${API}/videos?part=liveStreamingDetails&id=${ids.join(",")}&key=${API_KEY}`
+          );
+          const detailMap = {};
+          (vj.items || []).forEach((v) => { detailMap[v.id] = v.liveStreamingDetails || null; });
+          return items
+            .map((it) => {
+              const det = detailMap[it.id.videoId] || {};
+              return {
+                id: it.id.videoId,
+                memberId: member.id,
+                member: member.name,
+                title: it.snippet.title,
+                thumb: it.snippet.thumbnails.high ? it.snippet.thumbnails.high.url : "",
+                scheduledStartTime: det.scheduledStartTime || ""
+              };
+            })
+            .filter((v) => v.id && v.scheduledStartTime && Date.parse(v.scheduledStartTime) > Date.now());
         } catch (e) {
           errors.push(`${member.id} (streams): ${e.message}`);
           return [];
@@ -134,7 +140,7 @@ async function main() {
   )
     .flat()
     .filter((v) => v && v.id)
-    .sort((a, b) => (a.scheduledStart > b.scheduledStart ? 1 : -1));
+    .sort((a, b) => (a.scheduledStartTime > b.scheduledStartTime ? 1 : -1));
 
   const output = {
     updatedAt: new Date().toISOString(),
