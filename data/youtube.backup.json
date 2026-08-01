@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T13:10:52.704Z",
+  "updatedAt": "2026-08-01T16:43:58.462Z",
   "streams": [
     {
       "id": "g1NCJlVlous",
@@ -121,6 +121,16 @@
   ],
   "videos": [
     {
+      "id": "_HiZoy8mCdE",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 #小廻こま誕生日会2026 】幸せてんこ盛りばーすでー！！【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/_HiZoy8mCdE/hqdefault.jpg",
+      "publishedAt": "2026-08-01T13:13:28Z",
+      "live": false
+    },
+    {
       "id": "1UdnoJ6qgPs",
       "memberId": "koma",
       "member": "小廻こま",
@@ -128,16 +138,6 @@
       "title": "おきらくスーパースター／小廻こま（official）",
       "thumb": "https://i.ytimg.com/vi/1UdnoJ6qgPs/hqdefault.jpg",
       "publishedAt": "2026-08-01T12:00:06Z",
-      "live": false
-    },
-    {
-      "id": "_HiZoy8mCdE",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 #小廻こま誕生日会2026 】幸せてんこ盛りばーすでー！！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/_HiZoy8mCdE/hqdefault_live.jpg",
-      "publishedAt": "2026-08-01T11:59:54Z",
       "live": false
     },
     {
