@@ -123,7 +123,7 @@ async function main() {
             member: member.name,
             title: it.snippet.title,
             thumb: it.snippet.thumbnails.high ? it.snippet.thumbnails.high.url : "",
-            scheduledStart: it.snippet.publishedAt
+            scheduledStartTime: it.snippet.publishedAt
           }));
         } catch (e) {
           errors.push(`${member.id} (streams): ${e.message}`);
@@ -141,7 +141,7 @@ async function main() {
     streams,
     videos,
     live: streams.filter((s) => {
-      const t = Date.parse(s.scheduledStart);
+      const t = Date.parse(s.scheduledStartTime);
       return t && t <= Date.now() + 60 * 60 * 1000;
     })
   };

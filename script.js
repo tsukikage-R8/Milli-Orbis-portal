@@ -337,42 +337,101 @@
 
   function thumbUrl(id) { return "https://i.ytimg.com/vi/" + id + "/hqdefault.jpg"; }
 
+  var WEEKS = ["日", "月", "火", "水", "木", "金", "土"];
+
+  function fmtMD(d) {
+    return d.getMonth() + 1 + "/" + d.getDate() + "(" + WEEKS[d.getDay()] + ")";
+  }
+
+  function streamBucket(start) {
+    var now = new Date();
+    var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    var day = Math.round((new Date(start.getFullYear(), start.getMonth(), start.getDate()) - today) / 86400000);
+    if (day <= 0) return 0;
+    if (day === 1) return 1;
+    if (day <= 6) return 2;
+    return 3;
+  }
+
+  function bucketRange(b) {
+    var now = new Date();
+    var base = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    if (b === 0) return fmtMD(base);
+    if (b === 1) { base.setDate(base.getDate() + 1); return fmtMD(base); }
+    if (b === 2) {
+      var from = new Date(base); from.setDate(base.getDate() + 2);
+      var to = new Date(base); to.setDate(base.getDate() + 6);
+      return fmtMD(from) + "〜" + fmtMD(to);
+    }
+    var from = new Date(base); from.setDate(base.getDate() + 7);
+    return fmtMD(from) + "〜";
+  }
+
   function renderStreams(streams) {
     var box = $("#streams");
     if (!box) return;
     if (!streams || streams.length === 0) {
-      box.innerHTML = '<div class="placeholder">配信予定データがまだありません。GitHub Actionsの設定後、自動で表示されます。</div>';
+      box.innerHTML = '<div class="placeholder">配信予定は現在ありません。</div>';
       return;
     }
+    var now = new Date();
     var sorted = streams.slice().sort(function (a, b) {
       return new Date(a.scheduledStartTime) - new Date(b.scheduledStartTime);
-    }).slice(0, YOUTUBE.maxStreams);
-    box.innerHTML = sorted.map(function (s) {
-      var m = getMember(s.memberId);
+    });
+    var groups = [[], [], [], []];
+    sorted.forEach(function (s) {
       var start = new Date(s.scheduledStartTime);
-      var diff = Math.floor((start.getTime() - jstNow().getTime()) / 1000);
-      var soon = diff >= 0 ? ' <span class="stream-count">あと' + hoursText(diff) + "</span>" : "";
-      return '<a class="stream-item card" href="' + videoUrl(s.id) + '" target="_blank" rel="noopener">' +
-        '<div class="video-thumb"><img src="' + thumbUrl(s.id) + '" alt="" loading="lazy"></div>' +
-        "<div><div class='video-title'>" + esc(s.title) + (s.status === "live" ? '<span class="video-tag">LIVE</span>' : "") + "</div>" +
-        '<div class="video-meta">' + (m ? m.name + " ・ " : "") + fmtDate(start) + " " + fmtTime(start) + soon + "</div>" +
-        "</div></a>";
-    }).join("");
+      if (!start.getTime() || start < now) return;
+      if (groups[0].length + groups[1].length + groups[2].length + groups[3].length >= YOUTUBE.maxStreams) return;
+      groups[streamBucket(start)].push({ s: s, start: start });
+    });
+    var names = ["今日", "明日", "一週間以内", "それ以降"];
+    var html = "";
+    groups.forEach(function (g, b) {
+      if (!g.length) return;
+      html += '<div class="stream-group"><h3 class="stream-group-title">' + names[b] +
+        ' <span class="range">' + bucketRange(b) + "</span></h3>" +
+        g.map(function (it) {
+          var s = it.s, m = getMember(s.memberId);
+          var diff = Math.floor((it.start.getTime() - now.getTime()) / 1000);
+          var soon = diff >= 0 ? ' <span class="stream-count">あと' + hoursText(diff) + "</span>" : "";
+          var when = (b === 0 ? "" : fmtMD(it.start) + " ") + fmtTime(it.start);
+          return '<a class="stream-item card" href="' + videoUrl(s.id) + '" target="_blank" rel="noopener">' +
+            '<div class="video-thumb"><img src="' + thumbUrl(s.id) + '" alt="" loading="lazy"></div>' +
+            "<div><div class='video-title'>" + esc(s.title) + (s.status === "live" ? '<span class="video-tag">LIVE</span>' : "") + "</div>" +
+            '<div class="video-meta">' + (m ? m.name + " ・ " : "") + when + soon + "</div>" +
+            "</div></a>";
+        }).join("") + "</div>";
+    });
+    box.innerHTML = html || '<div class="placeholder">配信予定は現在ありません。</div>';
   }
 
   function hoursText(secs) {
-    var h = Math.floor(secs / 3600);
+    var d = Math.floor(secs / 86400);
+    var h = Math.floor((secs % 86400) / 3600);
     var min = Math.floor((secs % 3600) / 60);
+    if (d > 0) return d + "日" + (h > 0 ? h + "時間" : "");
     if (h > 0) return h + "時間" + (min > 0 ? min + "分" : "");
     if (min > 0) return min + "分";
     return "もうすぐ";
+  }
+
+  function relTime(d) {
+    var min = Math.floor((Date.now() - d.getTime()) / 60000);
+    if (min < 1) return "たった今";
+    if (min < 60) return min + "分前";
+    var h = Math.floor(min / 60);
+    if (h < 24) return h + "時間前";
+    var days = Math.floor(h / 24);
+    if (days < 7) return days + "日前";
+    return fmtDate(d);
   }
 
   function renderLatestVideos(videos) {
     var box = $("#latestVideos");
     if (!box) return;
     if (!videos || videos.length === 0) {
-      box.innerHTML = '<div class="placeholder">最新動画データがまだありません。GitHub Actionsの設定後、自動で表示されます。</div>';
+      box.innerHTML = '<div class="placeholder">最新動画は現在ありません。</div>';
       return;
     }
     var vids = videos.slice(0, YOUTUBE.maxVideos);
@@ -384,7 +443,7 @@
         '<div class="video-thumb"><img src="' + thumbUrl(v.id) + '" alt="" loading="lazy"></div>' +
         '<div class="video-body"><div class="video-title">' + esc(v.title) +
         (typeLabel ? '<span class="video-tag">' + typeLabel + "</span>" : "") + "</div>" +
-        '<div class="video-meta">' + (m ? m.name + " ・ " : "") + fmtDate(published) + "</div></div></a>";
+        '<div class="video-meta">' + (m ? m.name + " ・ " : "") + relTime(published) + "</div></div></a>";
     }).join("");
   }
 

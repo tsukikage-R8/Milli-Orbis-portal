@@ -804,7 +804,29 @@ img { max-width: 100%; }
 .cd-rail-item .cd-diff { font-size: 0.82rem; font-weight: 900; color: var(--accent-deep); font-variant-numeric: tabular-nums; white-space: nowrap; }
 
 /* ---------- 配信予定・動画 ---------- */
-.stream-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
+.stream-list { display: flex; flex-direction: column; gap: 8px; }
+.stream-group-title {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 1.05rem;
+  margin: 18px 0 10px;
+  color: var(--accent-deep);
+}
+.stream-group:first-child .stream-group-title { margin-top: 0; }
+.stream-group-title::before {
+  content: "";
+  align-self: center;
+  width: 0.6em;
+  height: 0.6em;
+  border-radius: 3px;
+  background: var(--accent);
+  flex-shrink: 0;
+}
+.stream-group-title .range { font-size: 0.78rem; font-weight: 700; color: var(--muted); }
+.stream-group { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
 .stream-item { display: flex; gap: 14px; padding: 12px; align-items: center; }
 .stream-item:hover { text-decoration: none; }
 .stream-item .video-thumb { width: 128px; flex-shrink: 0; }
