@@ -75,11 +75,12 @@ header, .talent-tabs, main, footer { position: relative; z-index: 1; }
 
 .d-f {
   position: absolute;
-  line-height: 1;
+  color: var(--mc, var(--accent));
   opacity: 0.55;
-  filter: grayscale(0.15);
+  line-height: 0;
   animation: dDrift var(--dur, 14s) ease-in-out infinite alternate;
 }
+.d-f svg { width: 100%; height: 100%; display: block; }
 @keyframes dDrift {
   from { transform: translateY(-16px) rotate(-8deg); }
   to { transform: translateY(16px) rotate(8deg); }
@@ -204,21 +205,59 @@ header, .talent-tabs, main, footer { position: relative; z-index: 1; }
   50% { transform: translateY(-14px) scale(1.15); opacity: 0.6; }
 }
 
-/* セクション見出しにメンバー共通のアクセント絵文字 */
-.section h3::before { margin-right: 8px; font-size: 0.95em; }
-body[data-member="konomi"] .section h3::before { content: "🐾"; }
-body[data-member="nono"] .section h3::before { content: "♪"; }
-body[data-member="akubi"] .section h3::before { content: "♠"; }
-body[data-member="raco"] .section h3::before { content: "🐚"; }
-body[data-member="yura"] .section h3::before { content: "🫧"; }
-body[data-member="koma"] .section h3::before { content: "🌀"; }
-body[data-member="liz"] .section h3::before { content: "💧"; }
-body[data-member="tsukuri"] .section h3::before { content: "☁️"; }
-body[data-member="nuhu"] .section h3::before { content: "🖊️"; }
-body[data-member="rei"] .section h3::before { content: "◎"; }
+/* セクション見出しのアクセント（メンバー共通の図形をSVGマスクで描画） */
+.section h3::before {
+  content: "";
+  display: inline-block;
+  width: 1.05em;
+  height: 1.05em;
+  margin-right: 8px;
+  vertical-align: -0.18em;
+  background-color: var(--mc, var(--accent));
+}
+body[data-member="konomi"] .section h3::before {
+  -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23000" d="M50,88 C28,66 12,50 12,34 C12,22 21,12 32,12 C41,12 48,18 50,24 C52,18 59,12 68,12 C79,12 88,22 88,34 C88,50 72,66 50,88 Z"/></svg>') center/contain no-repeat;
+  mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23000" d="M50,88 C28,66 12,50 12,34 C12,22 21,12 32,12 C41,12 48,18 50,24 C52,18 59,12 68,12 C79,12 88,22 88,34 C88,50 72,66 50,88 Z"/></svg>') center/contain no-repeat;
+}
+body[data-member="nono"] .section h3::before {
+  -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none" stroke="%23000" stroke-width="10" stroke-linecap="round"><path d="M37,79 L37,20 L83,8 L83,60"/><circle cx="23" cy="80" r="12"/><circle cx="70" cy="70" r="12"/></g></svg>') center/contain no-repeat;
+  mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none" stroke="%23000" stroke-width="10" stroke-linecap="round"><path d="M37,79 L37,20 L83,8 L83,60"/><circle cx="23" cy="80" r="12"/><circle cx="70" cy="70" r="12"/></g></svg>') center/contain no-repeat;
+}
+body[data-member="akubi"] .section h3::before {
+  -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23000" d="M48,6 C28,24 16,36 16,52 C16,63 24,70 34,70 C40,70 45,67 48,63 L48,72 L36,72 L30,88 L70,88 L64,72 L52,72 L52,63 C55,67 60,70 66,70 C76,70 84,63 84,52 C84,36 72,24 52,6 Z"/></svg>') center/contain no-repeat;
+  mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23000" d="M48,6 C28,24 16,36 16,52 C16,63 24,70 34,70 C40,70 45,67 48,63 L48,72 L36,72 L30,88 L70,88 L64,72 L52,72 L52,63 C55,67 60,70 66,70 C76,70 84,63 84,52 C84,36 72,24 52,6 Z"/></svg>') center/contain no-repeat;
+}
+body[data-member="raco"] .section h3::before {
+  -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none" stroke="%23000" stroke-width="10" stroke-linecap="round"><path d="M18,84 A32,32 0 1 1 82,84"/><path d="M50,82 L24,42 M50,82 L38,32 M50,82 L50,28 M50,82 L62,32 M50,82 L76,42"/></g></svg>') center/contain no-repeat;
+  mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none" stroke="%23000" stroke-width="10" stroke-linecap="round"><path d="M18,84 A32,32 0 1 1 82,84"/><path d="M50,82 L24,42 M50,82 L38,32 M50,82 L50,28 M50,82 L62,32 M50,82 L76,42"/></g></svg>') center/contain no-repeat;
+}
+body[data-member="yura"] .section h3::before {
+  -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none" stroke="%23000" stroke-width="10" stroke-linecap="round"><circle cx="50" cy="50" r="28"/><path d="M36,36 C40,30 46,27 52,26"/></g></svg>') center/contain no-repeat;
+  mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none" stroke="%23000" stroke-width="10" stroke-linecap="round"><circle cx="50" cy="50" r="28"/><path d="M36,36 C40,30 46,27 52,26"/></g></svg>') center/contain no-repeat;
+}
+body[data-member="koma"] .section h3::before {
+  -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23000" d="M50,6 L88,28 L88,72 L50,94 L12,72 L12,28 Z"/></svg>') center/contain no-repeat;
+  mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23000" d="M50,6 L88,28 L88,72 L50,94 L12,72 L12,28 Z"/></svg>') center/contain no-repeat;
+}
+body[data-member="liz"] .section h3::before {
+  -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23000" d="M50,6 C60,20 74,28 74,46 C74,61 63,72 50,72 C37,72 26,61 26,46 C26,28 40,20 50,6 Z"/></svg>') center/contain no-repeat;
+  mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23000" d="M50,6 C60,20 74,28 74,46 C74,61 63,72 50,72 C37,72 26,61 26,46 C26,28 40,20 50,6 Z"/></svg>') center/contain no-repeat;
+}
+body[data-member="tsukuri"] .section h3::before {
+  -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23000" d="M70,66 A16,16 0 0 0 68,34 A22,22 0 0 0 26,30 A15,15 0 0 0 28,66 Z"/></svg>') center/contain no-repeat;
+  mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23000" d="M70,66 A16,16 0 0 0 68,34 A22,22 0 0 0 26,30 A15,15 0 0 0 28,66 Z"/></svg>') center/contain no-repeat;
+}
+body[data-member="nuhu"] .section h3::before {
+  -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="%23000"><path d="M30,66 L42,54 L70,82 L58,94 Z"/><path d="M30,66 L20,76 L28,84 L38,74 Z"/><path d="M70,82 L62,90 L70,98 L78,90 Z"/></g></svg>') center/contain no-repeat;
+  mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="%23000"><path d="M30,66 L42,54 L70,82 L58,94 Z"/><path d="M30,66 L20,76 L28,84 L38,74 Z"/><path d="M70,82 L62,90 L70,98 L78,90 Z"/></g></svg>') center/contain no-repeat;
+}
+body[data-member="rei"] .section h3::before {
+  -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none" stroke="%23000" stroke-width="10"><circle cx="50" cy="50" r="34"/><circle cx="50" cy="50" r="7"/></g></svg>') center/contain no-repeat;
+  mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none" stroke="%23000" stroke-width="10"><circle cx="50" cy="50" r="34"/><circle cx="50" cy="50" r="7"/></g></svg>') center/contain no-repeat;
+}
 
 @media (max-width: 640px) {
-  .page-deco .d-f { font-size: 36px !important; opacity: 0.4; }
+  .page-deco .d-f { width: 36px !important; height: 36px !important; opacity: 0.4; }
   .d-paw, .d-cross, .d-wheel { transform: scale(0.7); }
   .d-rain, .d-drop, .d-bub { transform: scale(0.75); }
 }

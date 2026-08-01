@@ -40,13 +40,13 @@ const MEMBERS = [
     catchphrase: "あなたと好きでつながりたい。あなたと好きを共有したい。",
     introVoice: "assets/voices/konomi_intro.mp3",
     deco: {
-      label: "🐾",
+      label: "paw",
       shape: "paw",
       floats: [
-        { ch: "💖", x: 8, y: 14, size: 74, dur: 13 },
-        { ch: "🐾", x: 88, y: 10, size: 60, dur: 15 },
-        { ch: "🐾", x: 12, y: 74, size: 54, dur: 17 },
-        { ch: "💕", x: 86, y: 82, size: 48, dur: 12 }
+        { k: "heart", x: 8, y: 14, size: 74, dur: 13 },
+        { k: "paw", x: 88, y: 10, size: 60, dur: 15 },
+        { k: "paw", x: 12, y: 74, size: 54, dur: 17 },
+        { k: "heart", x: 86, y: 82, size: 48, dur: 12 }
       ]
     },
     featuredVideos: [],
@@ -85,12 +85,12 @@ const MEMBERS = [
     catchphrase: "ダイヤのように輝きたいっ！",
     introVoice: "assets/voices/nono_intro.mp3",
     deco: {
-      label: "♪",
+      label: "note",
       floats: [
-        { ch: "♪", x: 10, y: 16, size: 70, dur: 13 },
-        { ch: "◆", x: 86, y: 10, size: 52, dur: 16 },
-        { ch: "♪", x: 13, y: 78, size: 46, dur: 14 },
-        { ch: "♪", x: 72, y: 85, size: 58, dur: 12 }
+        { k: "note", x: 10, y: 16, size: 70, dur: 13 },
+        { k: "diamond", x: 86, y: 10, size: 52, dur: 16 },
+        { k: "note", x: 13, y: 78, size: 46, dur: 14 },
+        { k: "note", x: 72, y: 85, size: 58, dur: 12 }
       ]
     },
     featuredVideos: [],
@@ -129,12 +129,12 @@ const MEMBERS = [
     catchphrase: "あくびとおまえらが楽しければそれでいい。",
     introVoice: "assets/voices/akubi_intro.mp3",
     deco: {
-      label: "♠",
+      label: "spade",
       floats: [
-        { ch: "♠", x: 9, y: 15, size: 66, dur: 14 },
-        { ch: "😈", x: 87, y: 12, size: 58, dur: 15 },
-        { ch: "♠", x: 13, y: 76, size: 50, dur: 13 },
-        { ch: "🔥", x: 78, y: 83, size: 44, dur: 12 }
+        { k: "spade", x: 9, y: 15, size: 66, dur: 14 },
+        { k: "horn", x: 87, y: 12, size: 58, dur: 15 },
+        { k: "spade", x: 13, y: 76, size: 50, dur: 13 },
+        { k: "flame", x: 78, y: 83, size: 44, dur: 12 }
       ]
     },
     featuredVideos: [],
@@ -174,12 +174,12 @@ const MEMBERS = [
     catchphrase: "みんなの一コマ、こまにちょーだい！",
     introVoice: "assets/voices/koma_intro.mp3",
     deco: {
-      label: "🌀",
+      label: "hex",
       floats: [
-        { ch: "🔶", x: 9, y: 15, size: 58, dur: 13 },
-        { ch: "🔹", x: 88, y: 12, size: 54, dur: 15 },
-        { ch: "🪀", x: 12, y: 78, size: 44, dur: 13 },
-        { ch: "🌀", x: 82, y: 82, size: 52, dur: 12 }
+        { k: "hex", x: 9, y: 15, size: 58, dur: 13 },
+        { k: "hex", x: 88, y: 12, size: 54, dur: 15 },
+        { k: "top", x: 12, y: 78, size: 44, dur: 13 },
+        { k: "top", x: 82, y: 82, size: 52, dur: 12 }
       ]
     },
     featuredVideos: [],
@@ -218,12 +218,12 @@ const MEMBERS = [
     catchphrase: "君に元気をおすそ分け！",
     introVoice: "assets/voices/raco_intro.mp3",
     deco: {
-      label: "🐚",
+      label: "shell",
       floats: [
-        { ch: "🦦", x: 8, y: 14, size: 64, dur: 13 },
-        { ch: "🐚", x: 88, y: 10, size: 56, dur: 15 },
-        { ch: "🐚", x: 12, y: 76, size: 44, dur: 12 },
-        { ch: "🌊", x: 80, y: 84, size: 58, dur: 12 }
+        { k: "otter", x: 8, y: 14, size: 64, dur: 13 },
+        { k: "shell", x: 88, y: 10, size: 56, dur: 15 },
+        { k: "shell", x: 12, y: 76, size: 44, dur: 12 },
+        { k: "wave", x: 80, y: 84, size: 58, dur: 12 }
       ]
     },
     featuredVideos: [],
@@ -264,13 +264,13 @@ const MEMBERS = [
     catchphrase: "あなたに安らぎを届けたい",
     introVoice: "assets/voices/yura_intro.mp3",
     deco: {
-      label: "🫧",
+      label: "bub",
       shape: "bub",
       floats: [
-        { ch: "🪼", x: 88, y: 12, size: 72, dur: 14 },
-        { ch: "🫧", x: 8, y: 18, size: 56, dur: 13 },
-        { ch: "🫧", x: 15, y: 80, size: 40, dur: 12 },
-        { ch: "🫧", x: 78, y: 78, size: 48, dur: 16 }
+        { k: "jelly", x: 88, y: 12, size: 72, dur: 14 },
+        { k: "bub", x: 8, y: 18, size: 56, dur: 13 },
+        { k: "bub", x: 15, y: 80, size: 40, dur: 12 },
+        { k: "bub", x: 78, y: 78, size: 48, dur: 16 }
       ]
     },
     featuredVideos: [],
@@ -310,13 +310,13 @@ const MEMBERS = [
     catchphrase: "ぬふのごはんは褒めことば！",
     introVoice: "assets/voices/nuhu_intro.mp3",
     deco: {
-      label: "🖊️",
+      label: "pen",
       shape: "wheel",
       floats: [
-        { ch: "🖊️", x: 9, y: 16, size: 58, dur: 13 },
-        { ch: "🎨", x: 86, y: 14, size: 54, dur: 14 },
-        { ch: "✏️", x: 14, y: 76, size: 44, dur: 13 },
-        { ch: "🌈", x: 80, y: 86, size: 56, dur: 13 }
+        { k: "pen", x: 9, y: 16, size: 58, dur: 13 },
+        { k: "pen", x: 86, y: 14, size: 54, dur: 14 },
+        { k: "pen", x: 14, y: 76, size: 44, dur: 13 },
+        { k: "rainbow", x: 80, y: 86, size: 56, dur: 13 }
       ]
     },
     featuredVideos: [],
@@ -355,12 +355,12 @@ const MEMBERS = [
     catchphrase: "君との思い出つくってあげる",
     introVoice: "assets/voices/tsukuri_intro.mp3",
     deco: {
-      label: "☁️",
+      label: "cloud",
       shape: "zzz",
       floats: [
-        { ch: "☁️", x: 88, y: 12, size: 76, dur: 14 },
-        { ch: "☁️", x: 10, y: 70, size: 56, dur: 15 },
-        { ch: "💤", x: 78, y: 80, size: 46, dur: 13 }
+        { k: "cloud", x: 88, y: 12, size: 76, dur: 14 },
+        { k: "cloud", x: 10, y: 70, size: 56, dur: 15 },
+        { k: "cloud", x: 78, y: 80, size: 46, dur: 13 }
       ]
     },
     featuredVideos: [],
@@ -399,12 +399,12 @@ const MEMBERS = [
     catchphrase: "迷い込んで、雨宿り。",
     introVoice: "assets/voices/liz_intro.mp3",
     deco: {
-      label: "💧",
+      label: "drop",
       shape: "rain",
       floats: [
-        { ch: "💧", x: 8, y: 14, size: 54, dur: 13 },
-        { ch: "🌧️", x: 86, y: 10, size: 64, dur: 15 },
-        { ch: "💧", x: 14, y: 78, size: 42, dur: 13 }
+        { k: "drop", x: 8, y: 14, size: 54, dur: 13 },
+        { k: "drop", x: 86, y: 10, size: 64, dur: 15 },
+        { k: "drop", x: 14, y: 78, size: 42, dur: 13 }
       ]
     },
     featuredVideos: [],
@@ -443,12 +443,12 @@ const MEMBERS = [
     catchphrase: "霧に紛れて、作戦開始",
     introVoice: "assets/voices/rei_intro.mp3",
     deco: {
-      label: "◎",
+      label: "ring",
       shape: "cross",
       floats: [
-        { ch: "◎", x: 9, y: 15, size: 64, dur: 13 },
-        { ch: "🎯", x: 86, y: 12, size: 56, dur: 15 },
-        { ch: "◎", x: 12, y: 78, size: 44, dur: 13 }
+        { k: "ring", x: 9, y: 15, size: 64, dur: 13 },
+        { k: "ring", x: 86, y: 12, size: 56, dur: 15 },
+        { k: "ring", x: 12, y: 78, size: 44, dur: 13 }
       ]
     },
     featuredVideos: [],
