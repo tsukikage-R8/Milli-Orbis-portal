@@ -15,7 +15,6 @@ const DECO_SVG = {
   flame: '<svg viewBox="0 0 100 100" aria-hidden="true"><path fill="currentColor" d="M50,4 C60,20 74,28 74,48 C74,63 63,72 50,72 C37,72 26,63 26,48 C26,28 40,20 50,4 Z"/></svg>',
   shell: '<svg viewBox="0 0 100 100" aria-hidden="true"><g><path fill="currentColor" d="M14,52 A36,36 0 0 1 86,52 Z"/><path d="M50,54 L20,54 M50,54 L28,46 M50,54 L50,44 M50,54 L72,46 M50,54 L80,54" stroke="#fff" stroke-width="5" stroke-linecap="round"/></g></svg>',
   wave: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round"><path stroke-width="7" d="M4,54 C14,40 24,40 34,54 C44,68 54,68 64,54 C74,40 84,40 94,54"/><path stroke-width="5" opacity="0.7" d="M4,72 C14,58 24,58 34,72 C44,86 54,86 64,72 C74,58 84,58 94,72"/></g></svg>',
-  otter: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="currentColor"><circle cx="50" cy="52" r="34"/><circle cx="36" cy="24" r="7"/><circle cx="64" cy="24" r="7"/><ellipse cx="50" cy="64" rx="19" ry="13"/><circle cx="50" cy="72" r="5"/><circle cx="40" cy="46" r="4"/><circle cx="60" cy="46" r="4"/><path d="M28,60 L12,56 M28,66 L12,64" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><path d="M72,60 L88,56 M72,66 L88,64" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/></g></svg>',
   jelly: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round"><path d="M28,50 A22,22 0 0 1 72,50"/><path d="M31,52 C29,62 31,72 34,80 M41,52 C40,60 42,68 44,76 M50,52 C50,62 48,72 48,80 M59,52 C58,60 60,68 62,76 M69,52 C71,62 69,72 66,80"/></g></svg>',
   bub: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="7" stroke-linecap="round"><circle cx="50" cy="50" r="28"/><path d="M36,36 C40,30 46,27 52,26"/></g></svg>',
   hex: '<svg viewBox="0 0 100 100" aria-hidden="true"><path fill="currentColor" d="M50,6 L88,28 L88,72 L50,94 L12,72 L12,28 Z"/></svg>',
@@ -242,7 +241,7 @@ const MEMBERS = [
     deco: {
       label: "shell",
       floats: [
-        { k: "otter", x: 8, y: 14, size: 64, dur: 13 },
+        { k: "shell", x: 8, y: 14, size: 64, dur: 13 },
         { k: "shell", x: 88, y: 10, size: 56, dur: 15 },
         { k: "shell", x: 12, y: 76, size: 44, dur: 12 },
         { k: "wave", x: 80, y: 84, size: 58, dur: 12 }
