@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-08-01T06:19:07.727Z",
+  "updatedAt": "2026-08-01T09:47:02.009Z",
   "streams": [
-    {
-      "id": "lVwCKd_DqBw",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【お料理雑談】夜ご飯作る！【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/lVwCKd_DqBw/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-01T06:06:19Z",
-      "status": "live"
-    },
     {
       "id": "_HiZoy8mCdE",
       "memberId": "koma",
@@ -130,13 +121,23 @@
   ],
   "videos": [
     {
+      "id": "qb_guU1Jsi8",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "『夜明けと蛍』歌ってみた【夕霧レイ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/qb_guU1Jsi8/hqdefault.jpg",
+      "publishedAt": "2026-08-01T09:00:37Z",
+      "live": false
+    },
+    {
       "id": "lVwCKd_DqBw",
       "memberId": "liz",
       "member": "雨夜リズ",
       "channelTitle": "雨夜リズ / Amayo Liz",
       "title": "【お料理雑談】夜ご飯作る！【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/lVwCKd_DqBw/hqdefault_live.jpg",
-      "publishedAt": "2026-08-01T06:06:19Z",
+      "thumb": "https://i.ytimg.com/vi/lVwCKd_DqBw/hqdefault.jpg",
+      "publishedAt": "2026-08-01T07:39:03Z",
       "live": true
     },
     {
@@ -418,27 +419,7 @@
       "thumb": "https://i.ytimg.com/vi/BkmsSsU3QEA/hqdefault.jpg",
       "publishedAt": "2026-07-28T12:54:38Z",
       "live": true
-    },
-    {
-      "id": "A2bufNurFhE",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "あまりにもおしゃれ曲すぎる┊︎#音ノ乃のの #一二三 #penthouse #shorts",
-      "thumb": "https://i.ytimg.com/vi/A2bufNurFhE/hqdefault.jpg",
-      "publishedAt": "2026-07-28T09:00:33Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "lVwCKd_DqBw",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【お料理雑談】夜ご飯作る！【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/lVwCKd_DqBw/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-01T06:06:19Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
