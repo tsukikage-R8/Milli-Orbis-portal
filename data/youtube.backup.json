@@ -1,62 +1,17 @@
 {
-  "updatedAt": "2026-08-02T01:24:12.316Z",
-  "streams": [
-    {
-      "id": "WEI1si3sFaA",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "🌊ミリプロリゾート開催決定！",
-      "thumb": "https://i.ytimg.com/vi/WEI1si3sFaA/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-29T13:30:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "24ZLgKWtJ14",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "❥‬ゆらぎのメンバーシップ特典のまとめ🌙Yuragi Yura&#39;s Membership 🫧※概要欄をチェック！",
-      "thumb": "https://i.ytimg.com/vi/24ZLgKWtJ14/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-30T15:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "mZl7QBu4ZlM",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "🎤Million Production × カラオケBanBanグループ　コラボ開催！",
-      "thumb": "https://i.ytimg.com/vi/mZl7QBu4ZlM/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-24T13:30:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "OCDhtDgFVUU",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "⋆⸜  サマーストリートコレクションコレクショングッズ販売中🌻  ⸝⋆",
-      "thumb": "https://i.ytimg.com/vi/OCDhtDgFVUU/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-31T14:30:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "wi3Lp_BsT3M",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "‧₊˚✦ ミリプロ 公式VISAカード誕生 ✦˚₊‧",
-      "thumb": "https://i.ytimg.com/vi/wi3Lp_BsT3M/hqdefault_live.jpg",
-      "scheduledStartTime": "2027-01-01T13:30:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "CCQbPzATJTM",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "ふりーちゃっと",
-      "thumb": "https://i.ytimg.com/vi/CCQbPzATJTM/hqdefault_live.jpg",
-      "scheduledStartTime": "2028-04-30T14:59:00Z",
-      "status": "upcoming"
-    }
-  ],
+  "updatedAt": "2026-08-02T06:24:47.477Z",
+  "streams": [],
   "videos": [
+    {
+      "id": "Rh3BtnCbUHs",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "週末の宿題、やらなきゃいけない作業、溜まってる人、強制集合。【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/Rh3BtnCbUHs/hqdefault_live.jpg",
+      "publishedAt": "2026-08-02T04:02:36Z",
+      "live": false
+    },
     {
       "id": "1UdnoJ6qgPs",
       "memberId": "koma",
@@ -346,16 +301,6 @@
       "thumb": "https://i.ytimg.com/vi/Vvo6BQ3O69E/hqdefault.jpg",
       "publishedAt": "2026-07-28T15:04:03Z",
       "live": false
-    },
-    {
-      "id": "BkmsSsU3QEA",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【作業雑談】イラストレーターに聞きたいこと、ある？",
-      "thumb": "https://i.ytimg.com/vi/BkmsSsU3QEA/hqdefault.jpg",
-      "publishedAt": "2026-07-28T12:54:38Z",
-      "live": true
     }
   ],
   "live": []
