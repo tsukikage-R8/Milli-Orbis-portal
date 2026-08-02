@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T12:51:15.164Z",
+  "updatedAt": "2026-08-02T16:42:48.136Z",
   "streams": [
     {
       "id": "erTWvdU_5ZI",
@@ -35,6 +35,15 @@
       "title": "【 歌枠 】夏はまだまだ終わらないぞ！【小廻こま/ミリプロ】#ミリプロサマー2026",
       "thumb": "https://i.ytimg.com/vi/mjG1KNrQLkk/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-11T05:30:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "iLxd4TbuPHM",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "title": "【#ミリプロサマー2026】夏曲歌うぞ！！！【虹深°ぬふ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/iLxd4TbuPHM/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-11T06:30:00Z",
       "status": "upcoming"
     },
     {
@@ -405,6 +414,16 @@
       "live": false
     },
     {
+      "id": "iLxd4TbuPHM",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【#ミリプロサマー2026】夏曲歌うぞ！！！【虹深°ぬふ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/iLxd4TbuPHM/hqdefault_live.jpg",
+      "publishedAt": "2026-07-30T11:11:43Z",
+      "live": false
+    },
+    {
       "id": "CcDz4_xq0xs",
       "memberId": "yura",
       "member": "ゆらぎゆら",
@@ -462,16 +481,6 @@
       "title": "【お絵描き】サイコロ縛りでお絵描きしたら簡単にイラストが描けるらしい！？！？【甘狼このみ】",
       "thumb": "https://i.ytimg.com/vi/pI2DCXq2psg/hqdefault.jpg",
       "publishedAt": "2026-07-29T10:00:06Z",
-      "live": false
-    },
-    {
-      "id": "mu110kTiHdY",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【右左どっち！？】『シャルル』みんなで歌ってみた！【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/mu110kTiHdY/hqdefault.jpg",
-      "publishedAt": "2026-07-29T09:05:11Z",
       "live": false
     }
   ],
