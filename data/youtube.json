@@ -1,13 +1,58 @@
 {
-  "updatedAt": "2026-08-02T09:46:38.707Z",
+  "updatedAt": "2026-08-02T12:51:15.164Z",
   "streams": [
+    {
+      "id": "erTWvdU_5ZI",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 パワプロ2026 】#2 悔しさを胸に、今日こそ____. ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/erTWvdU_5ZI/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-02T12:30:21Z",
+      "status": "live"
+    },
     {
       "id": "ZMei8rMEyDc",
       "memberId": "koma",
       "member": "小廻こま",
       "title": "【 Rust┆VCR 】銃撃・移動の行く末は＿＿#9【小廻こま/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/ZMei8rMEyDc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-02T12:30:00Z",
+      "scheduledStartTime": "2026-08-02T12:34:12Z",
+      "status": "live"
+    },
+    {
+      "id": "FiohR4aHFAM",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 #ミリプロサマー2026 】トップバッターぶちかますぞ！ ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/FiohR4aHFAM/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-11T05:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "mjG1KNrQLkk",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 歌枠 】夏はまだまだ終わらないぞ！【小廻こま/ミリプロ】#ミリプロサマー2026",
+      "thumb": "https://i.ytimg.com/vi/mjG1KNrQLkk/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-11T05:30:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "40Ngrxq0sV4",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "title": "【歌枠リレー】真夏のエモ曲歌うぞ【#ミリプロサマー2026 】",
+      "thumb": "https://i.ytimg.com/vi/40Ngrxq0sV4/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-11T08:30:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "B8AB81G-UOQ",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 歌枠 〗夏ってのはこうやってやんねん！＃ミリプロサマー2026〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/B8AB81G-UOQ/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-11T09:00:00Z",
       "status": "upcoming"
     },
     {
@@ -136,7 +181,17 @@
       "channelTitle": "小廻こま / Komawari Koma",
       "title": "【 Rust┆VCR 】銃撃・移動の行く末は＿＿#9【小廻こま/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/ZMei8rMEyDc/hqdefault_live.jpg",
-      "publishedAt": "2026-08-02T09:29:03Z",
+      "publishedAt": "2026-08-02T12:34:12Z",
+      "live": false
+    },
+    {
+      "id": "erTWvdU_5ZI",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 パワプロ2026 】#2 悔しさを胸に、今日こそ____. ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/erTWvdU_5ZI/hqdefault_live.jpg",
+      "publishedAt": "2026-08-02T12:30:21Z",
       "live": false
     },
     {
@@ -300,6 +355,16 @@
       "live": false
     },
     {
+      "id": "B8AB81G-UOQ",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 歌枠 〗夏ってのはこうやってやんねん！＃ミリプロサマー2026〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/B8AB81G-UOQ/hqdefault_live.jpg",
+      "publishedAt": "2026-07-30T20:04:25Z",
+      "live": false
+    },
+    {
       "id": "SwZhWy-PNs8",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -327,6 +392,16 @@
       "title": "【 パワプロ2026 】初めての栄冠ナイン、行こうぜ甲子園____. ⟡.· 【夕霧レイ / ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/eqjWRPgfYxs/hqdefault.jpg",
       "publishedAt": "2026-07-30T15:45:53Z",
+      "live": false
+    },
+    {
+      "id": "40Ngrxq0sV4",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "【歌枠リレー】真夏のエモ曲歌うぞ【#ミリプロサマー2026 】",
+      "thumb": "https://i.ytimg.com/vi/40Ngrxq0sV4/hqdefault_live.jpg",
+      "publishedAt": "2026-07-30T11:18:14Z",
       "live": false
     },
     {
@@ -360,6 +435,16 @@
       "live": false
     },
     {
+      "id": "FiohR4aHFAM",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 #ミリプロサマー2026 】トップバッターぶちかますぞ！ ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/FiohR4aHFAM/hqdefault_live.jpg",
+      "publishedAt": "2026-07-30T08:58:17Z",
+      "live": false
+    },
+    {
       "id": "Ithv9DaMCyw",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -388,47 +473,26 @@
       "thumb": "https://i.ytimg.com/vi/mu110kTiHdY/hqdefault.jpg",
       "publishedAt": "2026-07-29T09:05:11Z",
       "live": false
-    },
-    {
-      "id": "8CTi8Ku6LG0",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【一人二役】『劣等上等』歌ってみた【夕霧レイ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8CTi8Ku6LG0/hqdefault.jpg",
-      "publishedAt": "2026-07-29T09:00:18Z",
-      "live": false
-    },
-    {
-      "id": "L3KZafjZO0c",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【雑談】最近のこととか、暑いとか。【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/L3KZafjZO0c/hqdefault.jpg",
-      "publishedAt": "2026-07-28T16:11:06Z",
-      "live": true
-    },
-    {
-      "id": "rptI94XKQGw",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【歌枠】らこの歌が足りてないんじゃないの？【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/rptI94XKQGw/hqdefault.jpg",
-      "publishedAt": "2026-07-28T16:01:44Z",
-      "live": false
-    },
-    {
-      "id": "Vvo6BQ3O69E",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 Jisatsu | 自撮 〗加工までが自撮り〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/Vvo6BQ3O69E/hqdefault.jpg",
-      "publishedAt": "2026-07-28T15:04:03Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "erTWvdU_5ZI",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 パワプロ2026 】#2 悔しさを胸に、今日こそ____. ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/erTWvdU_5ZI/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-02T12:30:21Z",
+      "status": "live"
+    },
+    {
+      "id": "ZMei8rMEyDc",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 Rust┆VCR 】銃撃・移動の行く末は＿＿#9【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ZMei8rMEyDc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-02T12:34:12Z",
+      "status": "live"
+    }
+  ]
 }
