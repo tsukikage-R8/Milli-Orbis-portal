@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-08-02T16:42:48.136Z",
+  "updatedAt": "2026-08-02T20:40:44.719Z",
   "streams": [
-    {
-      "id": "erTWvdU_5ZI",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 パワプロ2026 】#2 悔しさを胸に、今日こそ____. ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/erTWvdU_5ZI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-02T12:30:21Z",
-      "status": "live"
-    },
-    {
-      "id": "ZMei8rMEyDc",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 Rust┆VCR 】銃撃・移動の行く末は＿＿#9【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ZMei8rMEyDc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-02T12:34:12Z",
-      "status": "live"
-    },
     {
       "id": "FiohR4aHFAM",
       "memberId": "rei",
@@ -189,8 +171,8 @@
       "member": "小廻こま",
       "channelTitle": "小廻こま / Komawari Koma",
       "title": "【 Rust┆VCR 】銃撃・移動の行く末は＿＿#9【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ZMei8rMEyDc/hqdefault_live.jpg",
-      "publishedAt": "2026-08-02T12:34:12Z",
+      "thumb": "https://i.ytimg.com/vi/ZMei8rMEyDc/hqdefault.jpg",
+      "publishedAt": "2026-08-02T18:10:22Z",
       "live": false
     },
     {
@@ -199,8 +181,8 @@
       "member": "夕霧レイ",
       "channelTitle": "夕霧レイ / YugiriRay",
       "title": "【 パワプロ2026 】#2 悔しさを胸に、今日こそ____. ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/erTWvdU_5ZI/hqdefault_live.jpg",
-      "publishedAt": "2026-08-02T12:30:21Z",
+      "thumb": "https://i.ytimg.com/vi/erTWvdU_5ZI/hqdefault.jpg",
+      "publishedAt": "2026-08-02T17:04:08Z",
       "live": false
     },
     {
@@ -484,24 +466,5 @@
       "live": false
     }
   ],
-  "live": [
-    {
-      "id": "erTWvdU_5ZI",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 パワプロ2026 】#2 悔しさを胸に、今日こそ____. ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/erTWvdU_5ZI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-02T12:30:21Z",
-      "status": "live"
-    },
-    {
-      "id": "ZMei8rMEyDc",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 Rust┆VCR 】銃撃・移動の行く末は＿＿#9【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ZMei8rMEyDc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-02T12:34:12Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
