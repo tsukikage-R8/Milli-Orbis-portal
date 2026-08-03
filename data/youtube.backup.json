@@ -1,23 +1,14 @@
 {
-  "updatedAt": "2026-08-03T11:10:16.471Z",
+  "updatedAt": "2026-08-03T14:09:31.886Z",
   "streams": [
     {
-      "id": "irlCtXFKatc",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【雑談】ただいま！1時間だけ雑談♪【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/irlCtXFKatc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-03T10:01:33Z",
+      "id": "FFfhATTyCkY",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【歌枠】一旦ちるしたい┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/FFfhATTyCkY/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-03T12:31:38Z",
       "status": "live"
-    },
-    {
-      "id": "1z5RwQqatag",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "NTE: Neverness to Everness｜完全初見体験プレイするよ～！【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/1z5RwQqatag/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-03T12:00:00Z",
-      "status": "upcoming"
     },
     {
       "id": "FiohR4aHFAM",
@@ -211,13 +202,23 @@
   ],
   "videos": [
     {
-      "id": "o4vfYWV92aY",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【歌枠】めっちゃ夏【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/o4vfYWV92aY/hqdefault_live.jpg",
-      "publishedAt": "2026-08-03T10:35:16Z",
+      "id": "1z5RwQqatag",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "NTE: Neverness to Everness｜完全初見体験プレイするよ～！【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/1z5RwQqatag/hqdefault_live.jpg",
+      "publishedAt": "2026-08-03T14:07:13Z",
+      "live": false
+    },
+    {
+      "id": "FFfhATTyCkY",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【歌枠】一旦ちるしたい┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/FFfhATTyCkY/hqdefault_live.jpg",
+      "publishedAt": "2026-08-03T12:31:38Z",
       "live": false
     },
     {
@@ -226,9 +227,19 @@
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
       "title": "【雑談】ただいま！1時間だけ雑談♪【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/irlCtXFKatc/hqdefault_live.jpg",
-      "publishedAt": "2026-08-03T10:01:33Z",
+      "thumb": "https://i.ytimg.com/vi/irlCtXFKatc/hqdefault.jpg",
+      "publishedAt": "2026-08-03T12:07:08Z",
       "live": true
+    },
+    {
+      "id": "o4vfYWV92aY",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【歌枠】めっちゃ夏【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/o4vfYWV92aY/hqdefault.jpg",
+      "publishedAt": "2026-08-03T11:13:56Z",
+      "live": false
     },
     {
       "id": "NW1DoGrtObk",
@@ -361,16 +372,6 @@
       "live": false
     },
     {
-      "id": "1z5RwQqatag",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "NTE: Neverness to Everness｜完全初見体験プレイするよ～！【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/1z5RwQqatag/hqdefault_live.jpg",
-      "publishedAt": "2026-07-31T14:34:17Z",
-      "live": false
-    },
-    {
       "id": "xYuSTNZ_UM8",
       "memberId": "nuhu",
       "member": "虹深°ぬふ",
@@ -499,26 +500,16 @@
       "thumb": "https://i.ytimg.com/vi/40Ngrxq0sV4/hqdefault_live.jpg",
       "publishedAt": "2026-07-30T11:18:14Z",
       "live": false
-    },
-    {
-      "id": "iLxd4TbuPHM",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【#ミリプロサマー2026】夏曲歌うぞ！！！【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/iLxd4TbuPHM/hqdefault_live.jpg",
-      "publishedAt": "2026-07-30T11:11:43Z",
-      "live": false
     }
   ],
   "live": [
     {
-      "id": "irlCtXFKatc",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【雑談】ただいま！1時間だけ雑談♪【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/irlCtXFKatc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-03T10:01:33Z",
+      "id": "FFfhATTyCkY",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【歌枠】一旦ちるしたい┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/FFfhATTyCkY/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-03T12:31:38Z",
       "status": "live"
     }
   ]
