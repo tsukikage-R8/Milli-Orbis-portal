@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T17:46:20.547Z",
+  "updatedAt": "2026-08-03T20:51:57.006Z",
   "streams": [
     {
       "id": "ViabelwYhX0",
@@ -17,6 +17,15 @@
       "title": "【 ドンキーコング64 】完全初見！仲間はどこじゃ～！！！🍌【 ゆらぎゆら / ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/tz5Yis62MkQ/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-04T10:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "qkj1pQjIl44",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 歌枠 】治安悪め曲縛りで、かっけーくなる ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/qkj1pQjIl44/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-04T11:00:00Z",
       "status": "upcoming"
     },
     {
@@ -71,6 +80,15 @@
       "title": "【歌枠】音とは救済である。┊︎#音ノ乃のの #ミリプロサマー2026",
       "thumb": "https://i.ytimg.com/vi/vyNKd29Szes/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-11T07:30:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "rvXBXXv_7dU",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "【歌枠】ナツいアツをアゲ↑↑↑していきます【#ミリプロサマー2026】",
+      "thumb": "https://i.ytimg.com/vi/rvXBXXv_7dU/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-11T08:00:00Z",
       "status": "upcoming"
     },
     {
@@ -211,13 +229,13 @@
   ],
   "videos": [
     {
-      "id": "ORs4qoSYSVk",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 VALORANT 〗突如集まるのはドパガキーズ〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/ORs4qoSYSVk/hqdefault_live.jpg",
-      "publishedAt": "2026-08-03T17:31:55Z",
+      "id": "qkj1pQjIl44",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 歌枠 】治安悪め曲縛りで、かっけーくなる ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/qkj1pQjIl44/hqdefault_live.jpg",
+      "publishedAt": "2026-08-03T18:50:39Z",
       "live": false
     },
     {
@@ -226,8 +244,18 @@
       "member": "夕霧レイ",
       "channelTitle": "夕霧レイ / YugiriRay",
       "title": "【 VALORANT 】急遽、集合、勝利 w/ドパガキーズ ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/fi0SoaJT8Qg/hqdefault_live.jpg",
-      "publishedAt": "2026-08-03T17:25:59Z",
+      "thumb": "https://i.ytimg.com/vi/fi0SoaJT8Qg/hqdefault.jpg",
+      "publishedAt": "2026-08-03T18:27:28Z",
+      "live": false
+    },
+    {
+      "id": "ORs4qoSYSVk",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 VALORANT 〗突如集まるのはドパガキーズ〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/ORs4qoSYSVk/hqdefault.jpg",
+      "publishedAt": "2026-08-03T18:16:33Z",
       "live": false
     },
     {
@@ -498,16 +526,6 @@
       "title": "イラストレーターが『ノイズ』で色塗りしてみた結果…",
       "thumb": "https://i.ytimg.com/vi/AJ63wBVO2XI/hqdefault.jpg",
       "publishedAt": "2026-07-31T09:00:09Z",
-      "live": false
-    },
-    {
-      "id": "pDOzEyCPEng",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【歌枠】熱い夏にするぞ〜〜🌞🌴🌺✨【#ミリプロサマー2026】",
-      "thumb": "https://i.ytimg.com/vi/pDOzEyCPEng/hqdefault_live.jpg",
-      "publishedAt": "2026-07-31T08:33:35Z",
       "live": false
     }
   ],

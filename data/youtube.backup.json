@@ -1,14 +1,23 @@
 {
-  "updatedAt": "2026-08-03T14:09:31.886Z",
+  "updatedAt": "2026-08-03T17:46:20.547Z",
   "streams": [
     {
-      "id": "FFfhATTyCkY",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【歌枠】一旦ちるしたい┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/FFfhATTyCkY/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-03T12:31:38Z",
-      "status": "live"
+      "id": "ViabelwYhX0",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "NTE: Neverness to Everness #１｜０から始めるぞ～！【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/ViabelwYhX0/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-04T02:30:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "tz5Yis62MkQ",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 ドンキーコング64 】完全初見！仲間はどこじゃ～！！！🍌【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/tz5Yis62MkQ/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-04T10:00:00Z",
+      "status": "upcoming"
     },
     {
       "id": "FiohR4aHFAM",
@@ -202,13 +211,33 @@
   ],
   "videos": [
     {
-      "id": "1z5RwQqatag",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "NTE: Neverness to Everness｜完全初見体験プレイするよ～！【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/1z5RwQqatag/hqdefault_live.jpg",
-      "publishedAt": "2026-08-03T14:07:13Z",
+      "id": "ORs4qoSYSVk",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 VALORANT 〗突如集まるのはドパガキーズ〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/ORs4qoSYSVk/hqdefault_live.jpg",
+      "publishedAt": "2026-08-03T17:31:55Z",
+      "live": false
+    },
+    {
+      "id": "fi0SoaJT8Qg",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 VALORANT 】急遽、集合、勝利 w/ドパガキーズ ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/fi0SoaJT8Qg/hqdefault_live.jpg",
+      "publishedAt": "2026-08-03T17:25:59Z",
+      "live": false
+    },
+    {
+      "id": "asl_Am-6yKU",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【VALORANT】夜、ドパガキの時間",
+      "thumb": "https://i.ytimg.com/vi/asl_Am-6yKU/hqdefault.jpg",
+      "publishedAt": "2026-08-03T17:10:52Z",
       "live": false
     },
     {
@@ -217,8 +246,38 @@
       "member": "音ノ乃のの",
       "channelTitle": "音ノ乃のの / NononoNono",
       "title": "【歌枠】一旦ちるしたい┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/FFfhATTyCkY/hqdefault_live.jpg",
-      "publishedAt": "2026-08-03T12:31:38Z",
+      "thumb": "https://i.ytimg.com/vi/FFfhATTyCkY/hqdefault.jpg",
+      "publishedAt": "2026-08-03T16:22:03Z",
+      "live": false
+    },
+    {
+      "id": "ViabelwYhX0",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "NTE: Neverness to Everness #１｜０から始めるぞ～！【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/ViabelwYhX0/hqdefault_live.jpg",
+      "publishedAt": "2026-08-03T14:51:17Z",
+      "live": false
+    },
+    {
+      "id": "tz5Yis62MkQ",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 ドンキーコング64 】完全初見！仲間はどこじゃ～！！！🍌【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/tz5Yis62MkQ/hqdefault_live.jpg",
+      "publishedAt": "2026-08-03T14:29:09Z",
+      "live": false
+    },
+    {
+      "id": "1z5RwQqatag",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "NTE: Neverness to Everness｜完全初見体験プレイするよ～！【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/1z5RwQqatag/hqdefault.jpg",
+      "publishedAt": "2026-08-03T14:14:55Z",
       "live": false
     },
     {
@@ -450,67 +509,7 @@
       "thumb": "https://i.ytimg.com/vi/pDOzEyCPEng/hqdefault_live.jpg",
       "publishedAt": "2026-07-31T08:33:35Z",
       "live": false
-    },
-    {
-      "id": "B8AB81G-UOQ",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 歌枠 〗夏ってのはこうやってやんねん！＃ミリプロサマー2026〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/B8AB81G-UOQ/hqdefault_live.jpg",
-      "publishedAt": "2026-07-30T20:04:25Z",
-      "live": false
-    },
-    {
-      "id": "SwZhWy-PNs8",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "家事する",
-      "thumb": "https://i.ytimg.com/vi/SwZhWy-PNs8/hqdefault.jpg",
-      "publishedAt": "2026-07-30T18:48:51Z",
-      "live": false
-    },
-    {
-      "id": "m5Oh-cYor3w",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 雑談 〗作業 with me〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/m5Oh-cYor3w/hqdefault.jpg",
-      "publishedAt": "2026-07-30T16:40:14Z",
-      "live": true
-    },
-    {
-      "id": "eqjWRPgfYxs",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 パワプロ2026 】初めての栄冠ナイン、行こうぜ甲子園____. ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/eqjWRPgfYxs/hqdefault.jpg",
-      "publishedAt": "2026-07-30T15:45:53Z",
-      "live": false
-    },
-    {
-      "id": "40Ngrxq0sV4",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "【歌枠リレー】真夏のエモ曲歌うぞ【#ミリプロサマー2026 】",
-      "thumb": "https://i.ytimg.com/vi/40Ngrxq0sV4/hqdefault_live.jpg",
-      "publishedAt": "2026-07-30T11:18:14Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "FFfhATTyCkY",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【歌枠】一旦ちるしたい┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/FFfhATTyCkY/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-03T12:31:38Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
