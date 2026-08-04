@@ -1,32 +1,23 @@
 {
-  "updatedAt": "2026-08-04T13:31:04.310Z",
+  "updatedAt": "2026-08-04T17:26:57.970Z",
   "streams": [
     {
-      "id": "tz5Yis62MkQ",
+      "id": "vCP46pXiIAA",
       "memberId": "yura",
       "member": "ゆらぎゆら",
-      "title": "【 ドンキーコング64 】完全初見！仲間はどこじゃ～！！！🍌【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/tz5Yis62MkQ/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-04T10:33:08Z",
-      "status": "live"
+      "title": "NTE: Neverness to Everness #２｜完全初見！一旦イロハ3凸で激熱【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/vCP46pXiIAA/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-05T02:30:00Z",
+      "status": "upcoming"
     },
     {
-      "id": "aX8UqfNZQdE",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 風燕伝 / 不見山 山開き 〗Ver.2.0大型アップデートを体験する！！〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/aX8UqfNZQdE/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-04T11:01:38Z",
-      "status": "live"
-    },
-    {
-      "id": "HnR6Xt7EdYU",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 Rust┆VCR 】最終日前日、なんとかなれーッ！#10【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/HnR6Xt7EdYU/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-04T11:56:08Z",
-      "status": "live"
+      "id": "xoVY3Rxsr0A",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "水曜ゆらゆら歌枠｜夏の曲とか、恋の曲とか。【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/xoVY3Rxsr0A/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-05T12:00:00Z",
+      "status": "upcoming"
     },
     {
       "id": "FiohR4aHFAM",
@@ -256,14 +247,14 @@
   ],
   "videos": [
     {
-      "id": "qkj1pQjIl44",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 歌枠 】治安悪め曲縛りで、かっけーくなる ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/qkj1pQjIl44/hqdefault.jpg",
-      "publishedAt": "2026-08-04T13:30:06Z",
-      "live": false
+      "id": "_sL63W0L17I",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【雑談┊︎歌枠】酔い┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/_sL63W0L17I/hqdefault.jpg",
+      "publishedAt": "2026-08-04T16:23:13Z",
+      "live": true
     },
     {
       "id": "HnR6Xt7EdYU",
@@ -271,18 +262,8 @@
       "member": "小廻こま",
       "channelTitle": "小廻こま / Komawari Koma",
       "title": "【 Rust┆VCR 】最終日前日、なんとかなれーッ！#10【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/HnR6Xt7EdYU/hqdefault_live.jpg",
-      "publishedAt": "2026-08-04T11:56:08Z",
-      "live": false
-    },
-    {
-      "id": "aX8UqfNZQdE",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 風燕伝 / 不見山 山開き 〗Ver.2.0大型アップデートを体験する！！〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/aX8UqfNZQdE/hqdefault_live.jpg",
-      "publishedAt": "2026-08-04T11:01:38Z",
+      "thumb": "https://i.ytimg.com/vi/HnR6Xt7EdYU/hqdefault.jpg",
+      "publishedAt": "2026-08-04T15:42:56Z",
       "live": false
     },
     {
@@ -291,8 +272,48 @@
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
       "title": "【 ドンキーコング64 】完全初見！仲間はどこじゃ～！！！🍌【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/tz5Yis62MkQ/hqdefault_live.jpg",
-      "publishedAt": "2026-08-04T10:33:08Z",
+      "thumb": "https://i.ytimg.com/vi/tz5Yis62MkQ/hqdefault.jpg",
+      "publishedAt": "2026-08-04T14:28:08Z",
+      "live": false
+    },
+    {
+      "id": "xoVY3Rxsr0A",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "水曜ゆらゆら歌枠｜夏の曲とか、恋の曲とか。【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/xoVY3Rxsr0A/hqdefault_live.jpg",
+      "publishedAt": "2026-08-04T14:18:42Z",
+      "live": false
+    },
+    {
+      "id": "vCP46pXiIAA",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "NTE: Neverness to Everness #２｜完全初見！一旦イロハ3凸で激熱【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/vCP46pXiIAA/hqdefault_live.jpg",
+      "publishedAt": "2026-08-04T14:12:41Z",
+      "live": false
+    },
+    {
+      "id": "aX8UqfNZQdE",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 風燕伝 / 不見山 山開き 〗Ver.2.0大型アップデートを体験する！！〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/aX8UqfNZQdE/hqdefault.jpg",
+      "publishedAt": "2026-08-04T13:41:12Z",
+      "live": false
+    },
+    {
+      "id": "qkj1pQjIl44",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 歌枠 】治安悪め曲縛りで、かっけーくなる ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/qkj1pQjIl44/hqdefault.jpg",
+      "publishedAt": "2026-08-04T13:30:06Z",
       "live": false
     },
     {
@@ -374,16 +395,6 @@
       "thumb": "https://i.ytimg.com/vi/1z5RwQqatag/hqdefault.jpg",
       "publishedAt": "2026-08-03T14:14:55Z",
       "live": false
-    },
-    {
-      "id": "irlCtXFKatc",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【雑談】ただいま！1時間だけ雑談♪【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/irlCtXFKatc/hqdefault.jpg",
-      "publishedAt": "2026-08-03T12:07:08Z",
-      "live": true
     },
     {
       "id": "o4vfYWV92aY",
@@ -534,55 +545,7 @@
       "thumb": "https://i.ytimg.com/vi/fOwtMgaKTro/hqdefault.jpg",
       "publishedAt": "2026-07-31T13:56:22Z",
       "live": false
-    },
-    {
-      "id": "D3d54jTLdV0",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ゼンレスゾーンゼロ 〗豪華メンバーとボンプをデザイン...⁉〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/D3d54jTLdV0/hqdefault.jpg",
-      "publishedAt": "2026-07-31T13:52:00Z",
-      "live": false
-    },
-    {
-      "id": "-bArLclpb6k",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 雑談 】7月の全てを振り返ってみたり⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/-bArLclpb6k/hqdefault.jpg",
-      "publishedAt": "2026-07-31T12:27:05Z",
-      "live": true
     }
   ],
-  "live": [
-    {
-      "id": "tz5Yis62MkQ",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 ドンキーコング64 】完全初見！仲間はどこじゃ～！！！🍌【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/tz5Yis62MkQ/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-04T10:33:08Z",
-      "status": "live"
-    },
-    {
-      "id": "aX8UqfNZQdE",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 風燕伝 / 不見山 山開き 〗Ver.2.0大型アップデートを体験する！！〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/aX8UqfNZQdE/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-04T11:01:38Z",
-      "status": "live"
-    },
-    {
-      "id": "HnR6Xt7EdYU",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 Rust┆VCR 】最終日前日、なんとかなれーッ！#10【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/HnR6Xt7EdYU/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-04T11:56:08Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }

@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-08-04T17:26:57.970Z",
+  "updatedAt": "2026-08-04T20:59:48.067Z",
   "streams": [
+    {
+      "id": "1YtjBOdLT9Y",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【朝活】お腹ぺこぺこ侍【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/1YtjBOdLT9Y/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-04T21:00:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "vCP46pXiIAA",
       "memberId": "yura",
@@ -246,6 +255,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "1YtjBOdLT9Y",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【朝活】お腹ぺこぺこ侍【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/1YtjBOdLT9Y/hqdefault_live.jpg",
+      "publishedAt": "2026-08-04T19:56:06Z",
+      "live": false
+    },
     {
       "id": "_sL63W0L17I",
       "memberId": "nono",
@@ -534,16 +553,6 @@
       "title": "【ゼンゼロ】オリジナルボンプを考えて描いてみる！🎨✨",
       "thumb": "https://i.ytimg.com/vi/xYuSTNZ_UM8/hqdefault.jpg",
       "publishedAt": "2026-07-31T13:57:34Z",
-      "live": false
-    },
-    {
-      "id": "fOwtMgaKTro",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【ゼンゼロ】みんなでゼンレスゾーンゼロの「ボンプ」をデザインするぞ！【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/fOwtMgaKTro/hqdefault.jpg",
-      "publishedAt": "2026-07-31T13:56:22Z",
       "live": false
     }
   ],
