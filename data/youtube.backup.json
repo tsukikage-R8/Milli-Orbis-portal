@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-08-03T20:51:57.006Z",
+  "updatedAt": "2026-08-04T01:15:48.506Z",
   "streams": [
-    {
-      "id": "ViabelwYhX0",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "NTE: Neverness to Everness #１｜０から始めるぞ～！【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/ViabelwYhX0/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-04T02:30:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "tz5Yis62MkQ",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 ドンキーコング64 】完全初見！仲間はどこじゃ～！！！🍌【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/tz5Yis62MkQ/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-04T10:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "qkj1pQjIl44",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 歌枠 】治安悪め曲縛りで、かっけーくなる ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/qkj1pQjIl44/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-04T11:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "FiohR4aHFAM",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 #ミリプロサマー2026 】トップバッターぶちかますぞ！ ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/FiohR4aHFAM/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-11T05:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "mjG1KNrQLkk",
       "memberId": "koma",
@@ -44,15 +8,6 @@
       "title": "【 歌枠 】夏はまだまだ終わらないぞ！【小廻こま/ミリプロ】#ミリプロサマー2026",
       "thumb": "https://i.ytimg.com/vi/mjG1KNrQLkk/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-11T05:30:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "pDOzEyCPEng",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【歌枠】熱い夏にするぞ〜〜🌞🌴🌺✨【#ミリプロサマー2026】",
-      "thumb": "https://i.ytimg.com/vi/pDOzEyCPEng/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-11T06:00:00Z",
       "status": "upcoming"
     },
     {
@@ -65,30 +20,12 @@
       "status": "upcoming"
     },
     {
-      "id": "5Ub76uMbqMw",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 #ミリプロサマー2026 】大きなお兄さん、お姉さんへ♡【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/5Ub76uMbqMw/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-11T07:00:00Z",
-      "status": "upcoming"
-    },
-    {
       "id": "vyNKd29Szes",
       "memberId": "nono",
       "member": "音ノ乃のの",
       "title": "【歌枠】音とは救済である。┊︎#音ノ乃のの #ミリプロサマー2026",
       "thumb": "https://i.ytimg.com/vi/vyNKd29Szes/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-11T07:30:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "rvXBXXv_7dU",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【歌枠】ナツいアツをアゲ↑↑↑していきます【#ミリプロサマー2026】",
-      "thumb": "https://i.ytimg.com/vi/rvXBXXv_7dU/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-11T08:00:00Z",
       "status": "upcoming"
     },
     {
@@ -101,24 +38,6 @@
       "status": "upcoming"
     },
     {
-      "id": "B8AB81G-UOQ",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 歌枠 〗夏ってのはこうやってやんねん！＃ミリプロサマー2026〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/B8AB81G-UOQ/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-11T09:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "g1NCJlVlous",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "✦ 夕霧レイデビュー記念コレクション発売中 ✦",
-      "thumb": "https://i.ytimg.com/vi/g1NCJlVlous/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-12T11:00:00Z",
-      "status": "upcoming"
-    },
-    {
       "id": "dHnc-b8UT34",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -128,30 +47,12 @@
       "status": "upcoming"
     },
     {
-      "id": "FQUAaVHIEEo",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "☁ストリートコレクション 2026 受注受付中！ 🔧",
-      "thumb": "https://i.ytimg.com/vi/FQUAaVHIEEo/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-23T14:59:00Z",
-      "status": "upcoming"
-    },
-    {
       "id": "WEI1si3sFaA",
       "memberId": "koma",
       "member": "小廻こま",
       "title": "🌊ミリプロリゾート開催決定！",
       "thumb": "https://i.ytimg.com/vi/WEI1si3sFaA/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-29T13:30:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "24ZLgKWtJ14",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "❥‬ゆらぎのメンバーシップ特典のまとめ🌙Yuragi Yura&#39;s Membership 🫧※概要欄をチェック！",
-      "thumb": "https://i.ytimg.com/vi/24ZLgKWtJ14/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-30T15:00:00Z",
       "status": "upcoming"
     },
     {
@@ -170,24 +71,6 @@
       "title": "【お知らせ】Million Production × カラオケBanBanグループ",
       "thumb": "https://i.ytimg.com/vi/_kaShsLH0O8/hqdefault_live.jpg",
       "scheduledStartTime": "2026-09-24T14:45:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "M_IG20Hhx2M",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【📢お知らせ】『甘狼このみと「好き」で学ぼう！中学英単語＆熟語1800』予約受付中！",
-      "thumb": "https://i.ytimg.com/vi/M_IG20Hhx2M/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-30T14:30:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "OCDhtDgFVUU",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "⋆⸜  サマーストリートコレクションコレクショングッズ販売中🌻  ⸝⋆",
-      "thumb": "https://i.ytimg.com/vi/OCDhtDgFVUU/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-31T14:30:00Z",
       "status": "upcoming"
     },
     {
@@ -215,15 +98,6 @@
       "title": "こちらはフリーチャットです！",
       "thumb": "https://i.ytimg.com/vi/xNLf8fOS7Kw/hqdefault_live.jpg",
       "scheduledStartTime": "2027-06-08T14:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "CCQbPzATJTM",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "ふりーちゃっと",
-      "thumb": "https://i.ytimg.com/vi/CCQbPzATJTM/hqdefault_live.jpg",
-      "scheduledStartTime": "2028-04-30T14:59:00Z",
       "status": "upcoming"
     }
   ],
@@ -336,6 +210,16 @@
       "title": "【眠雲ツクリと】『歌合わせろチャレンジ！』【雨夜リズ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/NW1DoGrtObk/hqdefault.jpg",
       "publishedAt": "2026-08-03T09:00:22Z",
+      "live": false
+    },
+    {
+      "id": "aX8UqfNZQdE",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 風燕伝 / 不見山 山開き 〗Ver.2.0大型アップデートを体験する！！〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/aX8UqfNZQdE/hqdefault_live.jpg",
+      "publishedAt": "2026-08-03T07:06:54Z",
       "live": false
     },
     {
@@ -516,16 +400,6 @@
       "title": "【右左どっち？】みんなできゅうくらりん歌ってみた！【眠雲ツクリ/ミリプロ】#歌ってみた #VTuber",
       "thumb": "https://i.ytimg.com/vi/0naUZdwJ_bM/hqdefault.jpg",
       "publishedAt": "2026-07-31T09:00:13Z",
-      "live": false
-    },
-    {
-      "id": "AJ63wBVO2XI",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "イラストレーターが『ノイズ』で色塗りしてみた結果…",
-      "thumb": "https://i.ytimg.com/vi/AJ63wBVO2XI/hqdefault.jpg",
-      "publishedAt": "2026-07-31T09:00:09Z",
       "live": false
     }
   ],
