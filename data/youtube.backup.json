@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-08-04T01:15:48.506Z",
+  "updatedAt": "2026-08-04T06:17:49.742Z",
   "streams": [
+    {
+      "id": "aX8UqfNZQdE",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 風燕伝 / 不見山 山開き 〗Ver.2.0大型アップデートを体験する！！〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/aX8UqfNZQdE/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-04T11:00:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "mjG1KNrQLkk",
       "memberId": "koma",
@@ -8,6 +17,15 @@
       "title": "【 歌枠 】夏はまだまだ終わらないぞ！【小廻こま/ミリプロ】#ミリプロサマー2026",
       "thumb": "https://i.ytimg.com/vi/mjG1KNrQLkk/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-11T05:30:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "pDOzEyCPEng",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【歌枠】熱い夏にするぞ〜〜🌞🌴🌺✨【#ミリプロサマー2026】",
+      "thumb": "https://i.ytimg.com/vi/pDOzEyCPEng/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-11T06:00:00Z",
       "status": "upcoming"
     },
     {
@@ -20,30 +38,21 @@
       "status": "upcoming"
     },
     {
-      "id": "vyNKd29Szes",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【歌枠】音とは救済である。┊︎#音ノ乃のの #ミリプロサマー2026",
-      "thumb": "https://i.ytimg.com/vi/vyNKd29Szes/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-11T07:30:00Z",
+      "id": "B8AB81G-UOQ",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 歌枠 〗夏ってのはこうやってやんねん！＃ミリプロサマー2026〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/B8AB81G-UOQ/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-11T09:00:00Z",
       "status": "upcoming"
     },
     {
-      "id": "40Ngrxq0sV4",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "title": "【歌枠リレー】真夏のエモ曲歌うぞ【#ミリプロサマー2026 】",
-      "thumb": "https://i.ytimg.com/vi/40Ngrxq0sV4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-11T08:30:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "dHnc-b8UT34",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【お知らせ】ミリプロリゾート from Akihabara to ??? の開催が決定！",
-      "thumb": "https://i.ytimg.com/vi/dHnc-b8UT34/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-23T14:45:00Z",
+      "id": "FQUAaVHIEEo",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "☁ストリートコレクション 2026 受注受付中！ 🔧",
+      "thumb": "https://i.ytimg.com/vi/FQUAaVHIEEo/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-23T14:59:00Z",
       "status": "upcoming"
     },
     {
@@ -65,21 +74,12 @@
       "status": "upcoming"
     },
     {
-      "id": "_kaShsLH0O8",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【お知らせ】Million Production × カラオケBanBanグループ",
-      "thumb": "https://i.ytimg.com/vi/_kaShsLH0O8/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-24T14:45:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "gjos7ccWkac",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【お知らせ】音ノ乃のの×タイクレコラボレーション！🤍",
-      "thumb": "https://i.ytimg.com/vi/gjos7ccWkac/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-12-31T14:59:00Z",
+      "id": "OCDhtDgFVUU",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "⋆⸜  サマーストリートコレクションコレクショングッズ販売中🌻  ⸝⋆",
+      "thumb": "https://i.ytimg.com/vi/OCDhtDgFVUU/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-31T14:30:00Z",
       "status": "upcoming"
     },
     {
@@ -102,6 +102,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "ViabelwYhX0",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "NTE: Neverness to Everness #１｜０から始めるぞ～！【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/ViabelwYhX0/hqdefault_live.jpg",
+      "publishedAt": "2026-08-04T02:31:48Z",
+      "live": false
+    },
     {
       "id": "qkj1pQjIl44",
       "memberId": "rei",
@@ -150,16 +160,6 @@
       "title": "【歌枠】一旦ちるしたい┊︎#音ノ乃のの #ののん家",
       "thumb": "https://i.ytimg.com/vi/FFfhATTyCkY/hqdefault.jpg",
       "publishedAt": "2026-08-03T16:22:03Z",
-      "live": false
-    },
-    {
-      "id": "ViabelwYhX0",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "NTE: Neverness to Everness #１｜０から始めるぞ～！【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/ViabelwYhX0/hqdefault_live.jpg",
-      "publishedAt": "2026-08-03T14:51:17Z",
       "live": false
     },
     {
