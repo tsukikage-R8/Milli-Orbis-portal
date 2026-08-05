@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-08-04T20:59:48.067Z",
+  "updatedAt": "2026-08-05T01:17:32.094Z",
   "streams": [
-    {
-      "id": "1YtjBOdLT9Y",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【朝活】お腹ぺこぺこ侍【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/1YtjBOdLT9Y/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-04T21:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "vCP46pXiIAA",
       "memberId": "yura",
@@ -53,15 +44,6 @@
       "title": "【歌枠】熱い夏にするぞ〜〜🌞🌴🌺✨【#ミリプロサマー2026】",
       "thumb": "https://i.ytimg.com/vi/pDOzEyCPEng/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-11T06:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "iLxd4TbuPHM",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【#ミリプロサマー2026】夏曲歌うぞ！！！【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/iLxd4TbuPHM/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-11T06:30:00Z",
       "status": "upcoming"
     },
     {
@@ -261,8 +243,8 @@
       "member": "雨夜リズ",
       "channelTitle": "雨夜リズ / Amayo Liz",
       "title": "【朝活】お腹ぺこぺこ侍【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/1YtjBOdLT9Y/hqdefault_live.jpg",
-      "publishedAt": "2026-08-04T19:56:06Z",
+      "thumb": "https://i.ytimg.com/vi/1YtjBOdLT9Y/hqdefault.jpg",
+      "publishedAt": "2026-08-04T22:40:10Z",
       "live": false
     },
     {
