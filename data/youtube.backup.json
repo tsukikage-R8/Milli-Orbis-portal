@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T10:20:59.828Z",
+  "updatedAt": "2026-08-05T13:29:39.781Z",
   "streams": [
     {
       "id": "KkC2nc_40cQ",
@@ -25,8 +25,17 @@
       "member": "ゆらぎゆら",
       "title": "水曜ゆらゆら歌枠｜夏の曲とか、恋の曲とか。【 ゆらぎゆら / ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/xoVY3Rxsr0A/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-05T12:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-08-05T12:01:46Z",
+      "status": "live"
+    },
+    {
+      "id": "o0kE3JhM6NA",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 歌枠 〗声出してけ～～い〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/o0kE3JhM6NA/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-05T13:18:03Z",
+      "status": "live"
     },
     {
       "id": "FiohR4aHFAM",
@@ -283,6 +292,46 @@
   ],
   "videos": [
     {
+      "id": "o0kE3JhM6NA",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 歌枠 〗声出してけ～～い〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/o0kE3JhM6NA/hqdefault_live.jpg",
+      "publishedAt": "2026-08-05T13:18:03Z",
+      "live": false
+    },
+    {
+      "id": "xoVY3Rxsr0A",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "水曜ゆらゆら歌枠｜夏の曲とか、恋の曲とか。【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/xoVY3Rxsr0A/hqdefault_live.jpg",
+      "publishedAt": "2026-08-05T12:01:46Z",
+      "live": false
+    },
+    {
+      "id": "PTlOEBE8Tmw",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【自作アニメーションティザーPV】虹深°ぬふ 新衣装🧪 / Nijipuka Nuhu【ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/PTlOEBE8Tmw/hqdefault.jpg",
+      "publishedAt": "2026-08-05T11:00:07Z",
+      "live": false
+    },
+    {
+      "id": "OYCzCPimIVA",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【Vlog】こまつくりーずで福島満喫してきたぞ〜‼️【雨夜リズ/小廻こま/眠雲ツクリ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/OYCzCPimIVA/hqdefault.jpg",
+      "publishedAt": "2026-08-05T10:37:47Z",
+      "live": false
+    },
+    {
       "id": "tFy_PqQNxyg",
       "memberId": "rei",
       "member": "夕霧レイ",
@@ -373,16 +422,6 @@
       "live": false
     },
     {
-      "id": "PTlOEBE8Tmw",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【自作アニメーションティザーPV】虹深°ぬふ 新衣装🧪 / Nijipuka Nuhu【ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/PTlOEBE8Tmw/hqdefault.jpg",
-      "publishedAt": "2026-08-05T06:14:11Z",
-      "live": false
-    },
-    {
       "id": "1YtjBOdLT9Y",
       "memberId": "liz",
       "member": "雨夜リズ",
@@ -420,16 +459,6 @@
       "title": "【 ドンキーコング64 】完全初見！仲間はどこじゃ～！！！🍌【 ゆらぎゆら / ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/tz5Yis62MkQ/hqdefault.jpg",
       "publishedAt": "2026-08-04T14:28:08Z",
-      "live": false
-    },
-    {
-      "id": "xoVY3Rxsr0A",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "水曜ゆらゆら歌枠｜夏の曲とか、恋の曲とか。【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/xoVY3Rxsr0A/hqdefault_live.jpg",
-      "publishedAt": "2026-08-04T14:18:42Z",
       "live": false
     },
     {
@@ -543,16 +572,6 @@
       "live": false
     },
     {
-      "id": "NW1DoGrtObk",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【眠雲ツクリと】『歌合わせろチャレンジ！』【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/NW1DoGrtObk/hqdefault.jpg",
-      "publishedAt": "2026-08-03T09:00:22Z",
-      "live": false
-    },
-    {
       "id": "ZMei8rMEyDc",
       "memberId": "koma",
       "member": "小廻こま",
@@ -570,16 +589,6 @@
       "title": "【 パワプロ2026 】#2 悔しさを胸に、今日こそ____. ⟡.· 【夕霧レイ / ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/erTWvdU_5ZI/hqdefault.jpg",
       "publishedAt": "2026-08-02T17:04:08Z",
-      "live": false
-    },
-    {
-      "id": "iLh0Xuh8Xq0",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "小廻こま初オリジナル曲 『おきらくスーパースター』🧡 #animation",
-      "thumb": "https://i.ytimg.com/vi/iLh0Xuh8Xq0/hqdefault.jpg",
-      "publishedAt": "2026-08-02T09:00:25Z",
       "live": false
     }
   ],
@@ -600,6 +609,24 @@
       "title": "【VALORANT】３か月ぶりに開きます。┊︎#音ノ乃のの #ののん家",
       "thumb": "https://i.ytimg.com/vi/9zkivXPX6bE/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-05T09:30:38Z",
+      "status": "live"
+    },
+    {
+      "id": "xoVY3Rxsr0A",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "水曜ゆらゆら歌枠｜夏の曲とか、恋の曲とか。【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/xoVY3Rxsr0A/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-05T12:01:46Z",
+      "status": "live"
+    },
+    {
+      "id": "o0kE3JhM6NA",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 歌枠 〗声出してけ～～い〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/o0kE3JhM6NA/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-05T13:18:03Z",
       "status": "live"
     }
   ]

@@ -1,41 +1,14 @@
 {
-  "updatedAt": "2026-08-05T13:29:39.781Z",
+  "updatedAt": "2026-08-05T17:15:48.879Z",
   "streams": [
     {
-      "id": "KkC2nc_40cQ",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 Rust┆VCR 】蛇足さんおかえりなさい(素振り)#11【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/KkC2nc_40cQ/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-05T09:00:05Z",
-      "status": "live"
-    },
-    {
-      "id": "9zkivXPX6bE",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【VALORANT】３か月ぶりに開きます。┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/9zkivXPX6bE/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-05T09:30:38Z",
-      "status": "live"
-    },
-    {
-      "id": "xoVY3Rxsr0A",
+      "id": "SfdR3gUey7E",
       "memberId": "yura",
       "member": "ゆらぎゆら",
-      "title": "水曜ゆらゆら歌枠｜夏の曲とか、恋の曲とか。【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/xoVY3Rxsr0A/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-05T12:01:46Z",
-      "status": "live"
-    },
-    {
-      "id": "o0kE3JhM6NA",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 歌枠 〗声出してけ～～い〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/o0kE3JhM6NA/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-05T13:18:03Z",
-      "status": "live"
+      "title": "【 NTE 】怪しいオークションで事件の予感！？メインストーリー「落札？落札！」【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/SfdR3gUey7E/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-06T02:30:00Z",
+      "status": "upcoming"
     },
     {
       "id": "FiohR4aHFAM",
@@ -292,13 +265,53 @@
   ],
   "videos": [
     {
+      "id": "qtp-Ru33LAI",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【めっちゃカメレオン】視聴者参加型！全員打ち抜く！！【音ノ瀬らこ /ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/qtp-Ru33LAI/hqdefault_live.jpg",
+      "publishedAt": "2026-08-05T16:51:01Z",
+      "live": false
+    },
+    {
+      "id": "SfdR3gUey7E",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 NTE 】怪しいオークションで事件の予感！？メインストーリー「落札？落札！」【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/SfdR3gUey7E/hqdefault_live.jpg",
+      "publishedAt": "2026-08-05T16:27:33Z",
+      "live": false
+    },
+    {
+      "id": "9zkivXPX6bE",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【VALORANT】３か月ぶりに開きます。┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/9zkivXPX6bE/hqdefault.jpg",
+      "publishedAt": "2026-08-05T15:56:11Z",
+      "live": false
+    },
+    {
+      "id": "KkC2nc_40cQ",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 Rust┆VCR 】蛇足さんおかえりなさい(素振り)#11【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/KkC2nc_40cQ/hqdefault.jpg",
+      "publishedAt": "2026-08-05T15:45:09Z",
+      "live": false
+    },
+    {
       "id": "o0kE3JhM6NA",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
       "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
       "title": "〖 歌枠 〗声出してけ～～い〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/o0kE3JhM6NA/hqdefault_live.jpg",
-      "publishedAt": "2026-08-05T13:18:03Z",
+      "thumb": "https://i.ytimg.com/vi/o0kE3JhM6NA/hqdefault.jpg",
+      "publishedAt": "2026-08-05T15:20:46Z",
       "live": false
     },
     {
@@ -307,8 +320,8 @@
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
       "title": "水曜ゆらゆら歌枠｜夏の曲とか、恋の曲とか。【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/xoVY3Rxsr0A/hqdefault_live.jpg",
-      "publishedAt": "2026-08-05T12:01:46Z",
+      "thumb": "https://i.ytimg.com/vi/xoVY3Rxsr0A/hqdefault.jpg",
+      "publishedAt": "2026-08-05T14:53:29Z",
       "live": false
     },
     {
@@ -342,16 +355,6 @@
       "live": false
     },
     {
-      "id": "9zkivXPX6bE",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【VALORANT】３か月ぶりに開きます。┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/9zkivXPX6bE/hqdefault_live.jpg",
-      "publishedAt": "2026-08-05T09:30:38Z",
-      "live": false
-    },
-    {
       "id": "dQ8_tZcOYu8",
       "memberId": "liz",
       "member": "雨夜リズ",
@@ -359,16 +362,6 @@
       "title": "『ヤラララ(YARARARA)』歌ってみた【雨夜リズ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/dQ8_tZcOYu8/hqdefault.jpg",
       "publishedAt": "2026-08-05T09:00:13Z",
-      "live": false
-    },
-    {
-      "id": "KkC2nc_40cQ",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 Rust┆VCR 】蛇足さんおかえりなさい(素振り)#11【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/KkC2nc_40cQ/hqdefault_live.jpg",
-      "publishedAt": "2026-08-05T09:00:05Z",
       "live": false
     },
     {
@@ -552,16 +545,6 @@
       "live": false
     },
     {
-      "id": "1z5RwQqatag",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "NTE: Neverness to Everness｜完全初見体験プレイするよ～！【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/1z5RwQqatag/hqdefault.jpg",
-      "publishedAt": "2026-08-03T14:14:55Z",
-      "live": false
-    },
-    {
       "id": "o4vfYWV92aY",
       "memberId": "liz",
       "member": "雨夜リズ",
@@ -580,54 +563,7 @@
       "thumb": "https://i.ytimg.com/vi/ZMei8rMEyDc/hqdefault.jpg",
       "publishedAt": "2026-08-02T18:10:22Z",
       "live": false
-    },
-    {
-      "id": "erTWvdU_5ZI",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 パワプロ2026 】#2 悔しさを胸に、今日こそ____. ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/erTWvdU_5ZI/hqdefault.jpg",
-      "publishedAt": "2026-08-02T17:04:08Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "KkC2nc_40cQ",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 Rust┆VCR 】蛇足さんおかえりなさい(素振り)#11【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/KkC2nc_40cQ/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-05T09:00:05Z",
-      "status": "live"
-    },
-    {
-      "id": "9zkivXPX6bE",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【VALORANT】３か月ぶりに開きます。┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/9zkivXPX6bE/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-05T09:30:38Z",
-      "status": "live"
-    },
-    {
-      "id": "xoVY3Rxsr0A",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "水曜ゆらゆら歌枠｜夏の曲とか、恋の曲とか。【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/xoVY3Rxsr0A/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-05T12:01:46Z",
-      "status": "live"
-    },
-    {
-      "id": "o0kE3JhM6NA",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 歌枠 〗声出してけ～～い〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/o0kE3JhM6NA/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-05T13:18:03Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
