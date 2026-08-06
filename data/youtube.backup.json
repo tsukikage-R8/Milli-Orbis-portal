@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T17:15:48.879Z",
+  "updatedAt": "2026-08-05T20:53:27.613Z",
   "streams": [
     {
       "id": "SfdR3gUey7E",
@@ -270,8 +270,8 @@
       "member": "音ノ瀬らこ",
       "channelTitle": "音ノ瀬らこ / Otonose Raco",
       "title": "【めっちゃカメレオン】視聴者参加型！全員打ち抜く！！【音ノ瀬らこ /ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/qtp-Ru33LAI/hqdefault_live.jpg",
-      "publishedAt": "2026-08-05T16:51:01Z",
+      "thumb": "https://i.ytimg.com/vi/qtp-Ru33LAI/hqdefault.jpg",
+      "publishedAt": "2026-08-05T17:44:52Z",
       "live": false
     },
     {
@@ -302,16 +302,6 @@
       "title": "【 Rust┆VCR 】蛇足さんおかえりなさい(素振り)#11【小廻こま/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/KkC2nc_40cQ/hqdefault.jpg",
       "publishedAt": "2026-08-05T15:45:09Z",
-      "live": false
-    },
-    {
-      "id": "o0kE3JhM6NA",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 歌枠 〗声出してけ～～い〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/o0kE3JhM6NA/hqdefault.jpg",
-      "publishedAt": "2026-08-05T15:20:46Z",
       "live": false
     },
     {
@@ -562,6 +552,16 @@
       "title": "【 Rust┆VCR 】銃撃・移動の行く末は＿＿#9【小廻こま/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/ZMei8rMEyDc/hqdefault.jpg",
       "publishedAt": "2026-08-02T18:10:22Z",
+      "live": false
+    },
+    {
+      "id": "erTWvdU_5ZI",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 パワプロ2026 】#2 悔しさを胸に、今日こそ____. ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/erTWvdU_5ZI/hqdefault.jpg",
+      "publishedAt": "2026-08-02T17:04:08Z",
       "live": false
     }
   ],
