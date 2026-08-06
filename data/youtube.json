@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T10:22:35.699Z",
+  "updatedAt": "2026-08-06T13:28:00.605Z",
   "streams": [
     {
       "id": "SE-1lz98cmA",
@@ -16,17 +16,26 @@
       "member": "小廻こま",
       "title": "【 雑談 】お誕生日のすぱーーーちゃを読ませていただき【小廻こま/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/oCqbaQDe7As/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-06T11:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-08-06T11:19:57Z",
+      "status": "live"
     },
     {
-      "id": "MMdPdUqP17s",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【雑談】みんなの部屋のエアコンは何度？【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/MMdPdUqP17s/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-06T11:00:00Z",
-      "status": "upcoming"
+      "id": "0j8aMGAFqZk",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【青鬼２】人生初青鬼プレイする【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/0j8aMGAFqZk/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-06T12:33:29Z",
+      "status": "live"
+    },
+    {
+      "id": "V5P68q-C1yc",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【Forza Horizon 6】眠れるドライブ配信♪【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/V5P68q-C1yc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-06T13:04:27Z",
+      "status": "live"
     },
     {
       "id": "FiohR4aHFAM",
@@ -310,6 +319,56 @@
   ],
   "videos": [
     {
+      "id": "MMdPdUqP17s",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【雑談】みんなの部屋のエアコンは何度？【 #あまかみらいぶ / #ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/MMdPdUqP17s/hqdefault_live.jpg",
+      "publishedAt": "2026-08-06T13:17:56Z",
+      "live": true
+    },
+    {
+      "id": "V5P68q-C1yc",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【Forza Horizon 6】眠れるドライブ配信♪【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/V5P68q-C1yc/hqdefault_live.jpg",
+      "publishedAt": "2026-08-06T13:04:27Z",
+      "live": true
+    },
+    {
+      "id": "0j8aMGAFqZk",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【青鬼２】人生初青鬼プレイする【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/0j8aMGAFqZk/hqdefault_live.jpg",
+      "publishedAt": "2026-08-06T12:33:29Z",
+      "live": false
+    },
+    {
+      "id": "oCqbaQDe7As",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 雑談 】お誕生日のすぱーーーちゃを読ませていただき【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/oCqbaQDe7As/hqdefault_live.jpg",
+      "publishedAt": "2026-08-06T11:19:57Z",
+      "live": true
+    },
+    {
+      "id": "OYCzCPimIVA",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【Vlog】こまつくりーずで福島満喫してきたぞ〜‼️【雨夜リズ/小廻こま/眠雲ツクリ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/OYCzCPimIVA/hqdefault.jpg",
+      "publishedAt": "2026-08-06T11:00:06Z",
+      "live": false
+    },
+    {
       "id": "SE-1lz98cmA",
       "memberId": "rei",
       "member": "夕霧レイ",
@@ -360,16 +419,6 @@
       "live": false
     },
     {
-      "id": "MMdPdUqP17s",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【雑談】みんなの部屋のエアコンは何度？【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/MMdPdUqP17s/hqdefault_live.jpg",
-      "publishedAt": "2026-08-06T05:03:16Z",
-      "live": true
-    },
-    {
       "id": "gD16Tfs3fzk",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -378,16 +427,6 @@
       "thumb": "https://i.ytimg.com/vi/gD16Tfs3fzk/hqdefault_live.jpg",
       "publishedAt": "2026-08-06T03:21:31Z",
       "live": false
-    },
-    {
-      "id": "oCqbaQDe7As",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 雑談 】お誕生日のすぱーーーちゃを読ませていただき【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/oCqbaQDe7As/hqdefault_live.jpg",
-      "publishedAt": "2026-08-06T02:22:39Z",
-      "live": true
     },
     {
       "id": "qtp-Ru33LAI",
@@ -437,16 +476,6 @@
       "title": "【自作アニメーションティザーPV】虹深°ぬふ 新衣装🧪 / Nijipuka Nuhu【ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/PTlOEBE8Tmw/hqdefault.jpg",
       "publishedAt": "2026-08-05T11:00:07Z",
-      "live": false
-    },
-    {
-      "id": "OYCzCPimIVA",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【Vlog】こまつくりーずで福島満喫してきたぞ〜‼️【雨夜リズ/小廻こま/眠雲ツクリ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/OYCzCPimIVA/hqdefault.jpg",
-      "publishedAt": "2026-08-05T10:37:47Z",
       "live": false
     },
     {
@@ -560,16 +589,6 @@
       "live": false
     },
     {
-      "id": "tz5Yis62MkQ",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 ドンキーコング64 】完全初見！仲間はどこじゃ～！！！🍌【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/tz5Yis62MkQ/hqdefault.jpg",
-      "publishedAt": "2026-08-04T14:28:08Z",
-      "live": false
-    },
-    {
       "id": "aX8UqfNZQdE",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -598,16 +617,6 @@
       "thumb": "https://i.ytimg.com/vi/0ZQr0n84tM4/hqdefault_live.jpg",
       "publishedAt": "2026-08-04T09:21:20Z",
       "live": true
-    },
-    {
-      "id": "QG6I4CQJ7Ag",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【小廻こまと】『カルチャ』歌ってみた【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/QG6I4CQJ7Ag/hqdefault.jpg",
-      "publishedAt": "2026-08-04T09:00:38Z",
-      "live": false
     }
   ],
   "live": [
@@ -618,6 +627,33 @@
       "title": "【 パワプロ2026 】#3 2年目春！新入生と新チーム作り____. ⟡.· 【夕霧レイ / ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/SE-1lz98cmA/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-06T10:00:36Z",
+      "status": "live"
+    },
+    {
+      "id": "oCqbaQDe7As",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 雑談 】お誕生日のすぱーーーちゃを読ませていただき【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/oCqbaQDe7As/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-06T11:19:57Z",
+      "status": "live"
+    },
+    {
+      "id": "0j8aMGAFqZk",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【青鬼２】人生初青鬼プレイする【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/0j8aMGAFqZk/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-06T12:33:29Z",
+      "status": "live"
+    },
+    {
+      "id": "V5P68q-C1yc",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【Forza Horizon 6】眠れるドライブ配信♪【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/V5P68q-C1yc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-06T13:04:27Z",
       "status": "live"
     }
   ]
