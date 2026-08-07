@@ -1,13 +1,40 @@
 {
-  "updatedAt": "2026-08-07T05:26:25.033Z",
+  "updatedAt": "2026-08-07T08:43:23.581Z",
   "streams": [
     {
-      "id": "bfff_E7VH8o",
+      "id": "VRcuftZGW0w",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【歌枠】リクエストあり67万人耐久┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/VRcuftZGW0w/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-07T07:05:06Z",
+      "status": "live"
+    },
+    {
+      "id": "0ZKaqDfKMqs",
       "memberId": "rei",
       "member": "夕霧レイ",
-      "title": "【 歌枠 】10万人耐久 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/bfff_E7VH8o/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-07T06:00:00Z",
+      "title": "【 ストリヌ 】友達100人作るぞ！ #1 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/0ZKaqDfKMqs/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-07T09:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "SlJBdZ_oj28",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【ストリヌ/Minecraft 】億万長者になり鯛🐟【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/SlJBdZ_oj28/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-07T09:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "DJKWxfMN6Ww",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 ストリヌ 〗転生したら億万長者になれた件 #1〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/DJKWxfMN6Ww/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-07T09:00:00Z",
       "status": "upcoming"
     },
     {
@@ -16,24 +43,6 @@
       "member": "ゆらぎゆら",
       "title": "【 ストリヌ 】はじめまして、新しい世界。【 ゆらぎゆら/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/0i2UE_1Eih0/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-07T08:30:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "Hmiac4x3BRc",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【マイクラ￤ストリヌ】1日目！えっ！？わたしが異世界転生！？【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/Hmiac4x3BRc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-07T08:50:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "0ZKaqDfKMqs",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【#ストリヌ 】友達100人作るぞ！ #1 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/0ZKaqDfKMqs/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-07T09:00:00Z",
       "status": "upcoming"
     },
@@ -43,6 +52,24 @@
       "member": "小廻こま",
       "title": "【 ストリヌ 】ここは新世界！お友達をつくって、つく...るぞ...#1【小廻こま/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/vooDohzWHFc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-07T09:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "BEepcqiz3Fc",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "title": "【ストリヌ】あくび様っていいます【#あくび・でもんすぺーど】",
+      "thumb": "https://i.ytimg.com/vi/BEepcqiz3Fc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-07T09:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "Hmiac4x3BRc",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "【マイクラ￤ストリヌ】1日目！えっ！？わたしが異世界転生！？【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/Hmiac4x3BRc/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-07T09:00:00Z",
       "status": "upcoming"
     },
@@ -167,7 +194,7 @@
       "id": "h1QtwXWz7tY",
       "memberId": "liz",
       "member": "雨夜リズ",
-      "title": "【マイクラ】マイクラでナイトプールに行けるらしい🎵【#⁠ミリプロサマー2026】",
+      "title": "【Minecraft】マイクラでナイトプールに行けるらしい🎵【#⁠ミリプロサマー2026】",
       "thumb": "https://i.ytimg.com/vi/h1QtwXWz7tY/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-16T10:00:00Z",
       "status": "upcoming"
@@ -346,13 +373,23 @@
   ],
   "videos": [
     {
-      "id": "0ZKaqDfKMqs",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【#ストリヌ 】友達100人作るぞ！ #1 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/0ZKaqDfKMqs/hqdefault_live.jpg",
-      "publishedAt": "2026-08-07T03:39:29Z",
+      "id": "BEepcqiz3Fc",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "【ストリヌ】あくび様っていいます【#あくび・でもんすぺーど】",
+      "thumb": "https://i.ytimg.com/vi/BEepcqiz3Fc/hqdefault_live.jpg",
+      "publishedAt": "2026-08-07T08:04:23Z",
+      "live": false
+    },
+    {
+      "id": "SlJBdZ_oj28",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【ストリヌ/Minecraft 】億万長者になり鯛🐟【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/SlJBdZ_oj28/hqdefault_live.jpg",
+      "publishedAt": "2026-08-07T07:49:50Z",
       "live": false
     },
     {
@@ -361,8 +398,38 @@
       "member": "夕霧レイ",
       "channelTitle": "夕霧レイ / YugiriRay",
       "title": "【 歌枠 】10万人耐久 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/bfff_E7VH8o/hqdefault_live.jpg",
-      "publishedAt": "2026-08-07T03:32:22Z",
+      "thumb": "https://i.ytimg.com/vi/bfff_E7VH8o/hqdefault.jpg",
+      "publishedAt": "2026-08-07T07:21:37Z",
+      "live": false
+    },
+    {
+      "id": "VRcuftZGW0w",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【歌枠】リクエストあり67万人耐久┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/VRcuftZGW0w/hqdefault_live.jpg",
+      "publishedAt": "2026-08-07T07:05:06Z",
+      "live": false
+    },
+    {
+      "id": "DJKWxfMN6Ww",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ストリヌ 〗転生したら億万長者になれた件 #1〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/DJKWxfMN6Ww/hqdefault_live.jpg",
+      "publishedAt": "2026-08-07T06:24:11Z",
+      "live": false
+    },
+    {
+      "id": "0ZKaqDfKMqs",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 ストリヌ 】友達100人作るぞ！ #1 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/0ZKaqDfKMqs/hqdefault_live.jpg",
+      "publishedAt": "2026-08-07T03:39:29Z",
       "live": false
     },
     {
@@ -470,7 +537,7 @@
       "memberId": "liz",
       "member": "雨夜リズ",
       "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【マイクラ】マイクラでナイトプールに行けるらしい🎵【#⁠ミリプロサマー2026】",
+      "title": "【Minecraft】マイクラでナイトプールに行けるらしい🎵【#⁠ミリプロサマー2026】",
       "thumb": "https://i.ytimg.com/vi/h1QtwXWz7tY/hqdefault_live.jpg",
       "publishedAt": "2026-08-06T08:14:13Z",
       "live": false
@@ -604,47 +671,17 @@
       "thumb": "https://i.ytimg.com/vi/nrFlYlU-i6w/hqdefault.jpg",
       "publishedAt": "2026-08-05T09:00:00Z",
       "live": false
-    },
-    {
-      "id": "10363bOTIxg",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 Splatoon3 〗最近調子どうなんスプラ〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/10363bOTIxg/hqdefault.jpg",
-      "publishedAt": "2026-08-05T07:32:01Z",
-      "live": false
-    },
-    {
-      "id": "rI0drl6Jo8U",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 Minecraft 】夏祭りだ！焼きそば！かき氷！【小廻こま/ミリプロ】#⁠ミリプロサマー2026",
-      "thumb": "https://i.ytimg.com/vi/rI0drl6Jo8U/hqdefault_live.jpg",
-      "publishedAt": "2026-08-05T07:29:45Z",
-      "live": false
-    },
-    {
-      "id": "hj-1bd8w32w",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "【スプラトゥーン３】夏休みおうちで遊ぶキッズ withねむくもあまよ㌠【#あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/hj-1bd8w32w/hqdefault.jpg",
-      "publishedAt": "2026-08-05T07:20:28Z",
-      "live": false
-    },
-    {
-      "id": "Qd9jrSWBYAY",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【マイクラ】夏だ！水着だ！ナイトプールだ～！！！【#⁠ミリプロサマー2026】",
-      "thumb": "https://i.ytimg.com/vi/Qd9jrSWBYAY/hqdefault_live.jpg",
-      "publishedAt": "2026-08-05T06:48:55Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "VRcuftZGW0w",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【歌枠】リクエストあり67万人耐久┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/VRcuftZGW0w/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-07T07:05:06Z",
+      "status": "live"
+    }
+  ]
 }
