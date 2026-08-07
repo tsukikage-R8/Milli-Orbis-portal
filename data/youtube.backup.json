@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T12:34:35.117Z",
+  "updatedAt": "2026-08-07T16:38:33.386Z",
   "streams": [
     {
       "id": "0ZKaqDfKMqs",
@@ -44,15 +44,6 @@
       "title": "〖 ストリヌ 〗転生したら億万長者になれた件 #1〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/DJKWxfMN6Ww/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-07T08:54:17Z",
-      "status": "live"
-    },
-    {
-      "id": "BEepcqiz3Fc",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "title": "【ストリヌ】あくび様っていいます【#あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/BEepcqiz3Fc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-07T08:56:20Z",
       "status": "live"
     },
     {
@@ -355,13 +346,23 @@
   ],
   "videos": [
     {
+      "id": "BEepcqiz3Fc",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "【ストリヌ】あくび様っていいます【#あくび・でもんすぺーど】",
+      "thumb": "https://i.ytimg.com/vi/BEepcqiz3Fc/hqdefault.jpg",
+      "publishedAt": "2026-08-07T14:47:02Z",
+      "live": false
+    },
+    {
       "id": "SlJBdZ_oj28",
       "memberId": "liz",
       "member": "雨夜リズ",
       "channelTitle": "雨夜リズ / Amayo Liz",
       "title": "【ストリヌ/Minecraft 】億万長者になり鯛🐟【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/SlJBdZ_oj28/hqdefault_live.jpg",
-      "publishedAt": "2026-08-07T12:33:59Z",
+      "thumb": "https://i.ytimg.com/vi/SlJBdZ_oj28/hqdefault.jpg",
+      "publishedAt": "2026-08-07T12:46:40Z",
       "live": false
     },
     {
@@ -392,16 +393,6 @@
       "title": "【こまと一緒に】引いた言葉が含まれる曲歌ってみた【眠雲ツクリ/ミリプロ】# #vtuber",
       "thumb": "https://i.ytimg.com/vi/kIFzgd2h91M/hqdefault.jpg",
       "publishedAt": "2026-08-07T09:00:17Z",
-      "live": false
-    },
-    {
-      "id": "BEepcqiz3Fc",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "【ストリヌ】あくび様っていいます【#あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/BEepcqiz3Fc/hqdefault_live.jpg",
-      "publishedAt": "2026-08-07T08:56:20Z",
       "live": false
     },
     {
@@ -699,15 +690,6 @@
       "title": "〖 ストリヌ 〗転生したら億万長者になれた件 #1〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/DJKWxfMN6Ww/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-07T08:54:17Z",
-      "status": "live"
-    },
-    {
-      "id": "BEepcqiz3Fc",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "title": "【ストリヌ】あくび様っていいます【#あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/BEepcqiz3Fc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-07T08:56:20Z",
       "status": "live"
     }
   ]
