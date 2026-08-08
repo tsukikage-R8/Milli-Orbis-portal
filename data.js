@@ -39,22 +39,24 @@ const GOODS_ICON = {
   badge: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><circle cx="50" cy="46" r="28"/><circle cx="50" cy="42" r="4" fill="currentColor" stroke="none"/><path d="M50 60v12"/><path d="M36 80h28"/></g></svg>',
   voice: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><path d="M24 56v-10a26 26 0 0 1 52 0v10"/><rect x="14" y="54" width="18" height="24" rx="9"/><rect x="68" y="54" width="18" height="24" rx="9"/></g></svg>',
   bottleholder: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><path d="M40 14h20v12h-7v8h-6v-8h-7z"/><path d="M34 42c0-9 7-14 16-14s16 5 16 14v28a16 16 0 0 1-32 0z"/><path d="M34 52h32M34 62h32"/></g></svg>',
-  clearfile: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 20h56a6 6 0 0 1 6 6v48a6 6 0 0 1-6 6H22a6 6 0 0 1-6-6V26a6 6 0 0 1 6-6z"/><path d="M28 34h44M28 46h44M28 58h30"/></g></svg>'
+  clearfile: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 20h56a6 6 0 0 1 6 6v48a6 6 0 0 1-6 6H22a6 6 0 0 1-6-6V26a6 6 0 0 1 6-6z"/><path d="M28 34h44M28 46h44M28 58h30"/></g></svg>',
+  bodypillow: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><rect x="14" y="22" width="72" height="56" rx="24"/><path d="M14 40h72M14 60h72M36 22v8M64 22v8"/></g></svg>',
+  sock: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><path d="M26 14h48v26c0 16-10 26-24 26s-24-10-24-26V26z"/><path d="M26 14h12v16M42 14h12v16M58 14h12v16"/><path d="M26 40h48M34 52h16"/></g></svg>'
 };
 
 const GOODS = [
-  { name: "あくび・でもんすぺーど 50万人記念グッズ フルセット", memberId: "akubi", kind: "fullset", price: 12300, oldPrice: 12600, tag: "NEW", url: "https://shop.milpr.com/products/akubi_50_full" },
-  { name: "あくび・でもんすぺーど 50万人記念グッズ アクリルスタンド", memberId: "akubi", kind: "stand", price: 2000, url: "https://shop.milpr.com/products/akubi_50_acrylicstand" },
-  { name: "あくび・でもんすぺーど 50万人記念グッズ メタルチャームネックレス", memberId: "akubi", kind: "necklace", price: 5000, url: "https://shop.milpr.com/products/akubi_50_necklace" },
-  { name: "あくび・でもんすぺーど 50万人記念グッズ 両面アクリルキーホルダー", memberId: "akubi", kind: "keyholder", price: 1800, url: "https://shop.milpr.com/products/akubi_50_db_ackey" },
-  { name: "あくび・でもんすぺーど 50万人記念グッズ ランダムクリアポストカード", memberId: "akubi", kind: "card", price: 1500, url: "https://shop.milpr.com/products/akubi_50_random_clearpostcard" },
-  { name: "あくび・でもんすぺーど 50万人記念グッズ ランダム缶バッジ", memberId: "akubi", kind: "badge", price: 500, url: "https://shop.milpr.com/products/akubi_50_random_kanbadge" },
-  { name: "あくび・でもんすぺーど 50万人記念グッズ シチュエーションボイス", memberId: "akubi", kind: "voice", price: 1000, tag: "NEW", url: "https://shop.milpr.com/products/akubi_50_voice" },
-  { name: "ミリプロ ストリートコレクション2026 タレントセット", memberId: "", memberLabel: "ミリプロ全員", kind: "fullset", price: 13400, oldPrice: 13700, url: "https://shop.milpr.com/products/street2026_talentset" },
-  { name: "ミリプロ ストリートコレクション2026 ペットボトルホルダー", memberId: "", memberLabel: "ミリプロ全員", kind: "bottleholder", price: 1500, url: "https://shop.milpr.com/products/street2026_bottleholder" },
-  { name: "ミリプロ ストリートコレクション2026 クリアファイル", memberId: "", memberLabel: "ミリプロ全員", kind: "clearfile", price: 800, url: "https://shop.milpr.com/products/street2026_clearfile" },
-  { name: "ミリプロ ストリートコレクション2026 ランダムチェキ風カード", memberId: "", memberLabel: "ミリプロ全員", kind: "card", price: 500, url: "https://shop.milpr.com/products/street2026_random_card" },
-  { name: "ミリプロ ストリートコレクション2026 ランダム缶バッジ", memberId: "", memberLabel: "ミリプロ全員", kind: "badge", price: 500, url: "https://shop.milpr.com/products/street2026_random_kanbadge" }
+  { name: "虹深°ぬふ 1周年記念グッズ フルセット", memberId: "nuhu", kind: "fullset", price: 19900, oldPrice: 20200, tag: "NEW", url: "https://shop.milpr.com/products/nufu_1st_anniversary_full" },
+  { name: "虹深°ぬふ 1周年記念グッズ アクリルスタンド", memberId: "nuhu", kind: "stand", price: 1800, tag: "NEW", url: "https://shop.milpr.com/products/nufu_1st_anniversary_acrylicstand" },
+  { name: "虹深°ぬふ 1周年記念グッズ レンチキュラーアクリルキーホルダー", memberId: "nuhu", kind: "keyholder", price: 2800, tag: "NEW", url: "https://shop.milpr.com/products/nufu_1st_anniversary_lenticular_ackey" },
+  { name: "虹深°ぬふ 1周年記念グッズ ランダムミニアクリルキーホルダー", memberId: "nuhu", kind: "keyholder", price: 600, tag: "NEW", url: "https://shop.milpr.com/products/nufu_1st_anniversary_random_miniackey" },
+  { name: "虹深°ぬふ 1周年記念 シチュエーションボイス", memberId: "nuhu", kind: "voice", price: 1000, tag: "NEW", url: "https://shop.milpr.com/products/nufu_1st_anniversary_voice" },
+  { name: "虹深°ぬふ 1周年記念グッズ 抱き枕カバー", memberId: "nuhu", kind: "bodypillow", price: 12000, tag: "NEW", url: "https://shop.milpr.com/products/nufu_1st_anniversary_bodypillowcover" },
+  { name: "虹深°ぬふ 1周年記念グッズ 靴下", memberId: "nuhu", kind: "sock", price: 2000, tag: "NEW", url: "https://shop.milpr.com/products/nufu_1st_anniversary_sox" },
+  { name: "ミリプロ サマーコレクション 2026 プレミアムタレントセット", memberId: "", memberLabel: "ミリプロ全員", kind: "fullset", price: 23400, oldPrice: 23700, url: "https://shop.milpr.com/products/summer_2026_talentset_premium" },
+  { name: "ミリプロ サマーコレクション 2026 タレントセット", memberId: "", memberLabel: "ミリプロ全員", kind: "fullset", price: 18000, oldPrice: 18300, url: "https://shop.milpr.com/products/summer_2026_talentset" },
+  { name: "ミリプロ サマーコレクション 2026 オーロラアクリルスタンド", memberId: "", memberLabel: "ミリプロ全員", kind: "stand", price: 2200, url: "https://shop.milpr.com/products/summer_2026_aurora_acsta" },
+  { name: "ミリプロ サマーコレクション 2026 クリアファイル", memberId: "", memberLabel: "ミリプロ全員", kind: "clearfile", price: 800, url: "https://shop.milpr.com/products/summer_2026_clearfile" },
+  { name: "ミリプロ サマーコレクション 2026 シチュエーションボイス", memberId: "", memberLabel: "ミリプロ全員", kind: "voice", price: 1000, url: "https://shop.milpr.com/products/summer_2026_voice" }
 ];
 
 
@@ -545,7 +547,7 @@ const MEMBERS = [
 const COUNTDOWN = [
   { id: "koma-birthday", label: "小廻こま 誕生日", date: "2026-08-01T00:00:00", note: "こまめいと、お祝いだ！", url: "koma.html" },
   { id: "nuhu-anniv", label: "虹深°ぬふ デビュー1周年", date: "2026-08-08T00:00:00", note: "ぷかぬファミリー、お祝いだ！", url: "nuhu.html" },
-  { id: "resort", label: "ミリプロリゾート", date: "2026-08-29T10:00:00", note: "秋葉原UDXにて開催", url: "https://milpr.com/millipro_resort" },
+  { id: "resort", label: "ミリプロリゾート", date: "2026-08-29T10:00:00", note: "秋葉原UDXにて開催", url: "https://milpr.com/news/milpr_resort" },
   { id: "tsukuri-birthday", label: "眠雲ツクリ 誕生日", date: "2026-09-03T00:00:00", note: "つくらうど、お祝いだ！", url: "tsukuri.html" },
   { id: "akubi-birthday", label: "あくび・でもんすぺーど 誕生日", date: "2026-10-31T00:00:00", note: "びぃの一族、お祝いだ！", url: "akubi.html" },
   { id: "yura-birthday", label: "ゆらぎゆら 誕生日", date: "2026-11-03T00:00:00", note: "ゆらふぃら、お祝いだ！", url: "yura.html" },
@@ -558,7 +560,56 @@ const NEWS = [
     tag: "イベント",
     title: "ミリプロリゾート 開催",
     desc: "ミリプロサマー2026のリアルイベントが秋葉原UDXで開催されます。",
-    url: "https://milpr.com/millipro_resort"
+    url: "https://milpr.com/news/milpr_resort"
+  },
+  {
+    date: "2026-08-08",
+    tag: "グッズ",
+    title: "虹深°ぬふ 1周年記念グッズ 受注開始！",
+    desc: "ぬふちゃん1周年を記念して、描き下ろしイラスト商品を含む全6点のグッズの受注がスタート。",
+    url: "https://milpr.com/news/nufu_1st_anniversary"
+  },
+  {
+    date: "2026-08-08",
+    tag: "書籍",
+    title: "『キャラが動き出すイラストの教科書』発売決定！",
+    desc: "虹深°ぬふによるイラスト本の発売が決定しました。",
+    url: "https://milpr.com/news/nuhubook1"
+  },
+  {
+    date: "2026-08-07",
+    tag: "達成",
+    title: "夕霧レイ チャンネル登録者数10万人突破！",
+    desc: "デビューから約1か月で夕霧レイのチャンネル登録者数が10万人を突破しました。",
+    url: "https://milpr.com/news/ray10"
+  },
+  {
+    date: "2026-08-02",
+    tag: "イベント",
+    title: "ミリプロサマー2026 開催！",
+    desc: "夏曲歌枠リレー・ナイトプール夏祭り・閉会式など、夏の一大イベントが今年も開催。",
+    url: "https://milpr.com/news/millipro_summer_2026"
+  },
+  {
+    date: "2026-08-02",
+    tag: "グッズ",
+    title: "ミリプロ サマーコレクション 2026 受注開始！",
+    desc: "ナイトプールをテーマにしたサマーコレクションの受注がスタート。",
+    url: "https://milpr.com/news/sunner_2026"
+  },
+  {
+    date: "2026-08-01",
+    tag: "楽曲",
+    title: "小廻こま オリジナル楽曲「おきらくスーパースター」リリース決定！",
+    desc: "小廻こま初のオリジナル楽曲がMillion RECORDSよりリリース。",
+    url: "https://milpr.com/news/OKIRAKUSUPERSTAR"
+  },
+  {
+    date: "2026-08-01",
+    tag: "コラボ",
+    title: "OLYMPIA × 甘狼このみ 第3弾コラボグッズ発売＆POP UP SHOP開催決定！",
+    desc: "OLYMPIAとの第3弾コラボグッズの発売とPOP UP SHOPの開催が決定しました。",
+    url: "https://milpr.com/news/OLYMPIA_Vol3"
   },
   {
     date: "2026-08-14",
@@ -566,13 +617,6 @@ const NEWS = [
     title: "ミリ創作 ゲーム・インタラクティブ部門 募集締切",
     desc: "Webサイト・ファンサイトが対象の部門です。募集は2026年8月14日まで。",
     url: "https://milpr.com/sosaku"
-  },
-  {
-    date: "2026-07-11",
-    tag: "新メンバー",
-    title: "夕霧レイ デビュー",
-    desc: "ミリプロUNIに「霧のスナイパー」夕霧レイが加入。初配信当日に登録者7万人を突破しました。",
-    url: "rei.html"
   }
 ];
 
@@ -593,7 +637,10 @@ const LINKS = [
 ];
 
 const EVENTS = [
-  { type: "event", date: "2026-08-29", title: "ミリプロリゾート", desc: "秋葉原UDXにて開催", url: "https://milpr.com/millipro_resort" },
+  { type: "event", date: "2026-08-11", title: "ミリプロサマー2026 夏曲歌枠リレー", desc: "総勢10名による夏曲歌枠リレー（各メンバーチャンネル）", url: "https://milpr.com/news/millipro_summer_2026" },
+  { type: "event", date: "2026-08-16", title: "ミリプロ夏祭り in ナイトプール", desc: "ミリプロマイクラサーバーで開催（各メンバーチャンネル）", url: "https://milpr.com/news/millipro_summer_2026" },
+  { type: "event", date: "2026-08-29", title: "ミリプロリゾート", desc: "秋葉原UDXにて開催", url: "https://milpr.com/news/milpr_resort" },
+  { type: "event", date: "2026-08-30", title: "ミリプロサマー2026 閉会式", desc: "公式YouTubeチャンネルにて", url: "https://milpr.com/news/millipro_summer_2026" },
   { type: "birthday", member: "koma", title: "小廻こま 誕生日", url: "koma.html" },
   { type: "birthday", member: "nono", title: "音ノ乃のの 誕生日", url: "nono.html" },
   { type: "birthday", member: "raco", title: "音ノ瀬らこ 誕生日", url: "raco.html" },
@@ -620,9 +667,9 @@ const EVENTS = [
 const X_POSTS = [
   "https://x.com/Mil_Pro_/status/2019606993233674580",
   "https://x.com/Mil_Pro_/status/1679398099905810432",
-  "",
-  "",
-  ""
+  "https://x.com/Mil_Pro_/status/2086061757869805859",
+  "https://x.com/Mil_Pro_/status/2085935896235499775",
+  "https://x.com/Mil_Pro_/status/2056283648064672107"
 ];
 
 const HISTORY = [
