@@ -1,22 +1,13 @@
 {
-  "updatedAt": "2026-08-08T12:20:17.651Z",
+  "updatedAt": "2026-08-08T16:17:08.401Z",
   "streams": [
     {
-      "id": "FJO8obFEvIw",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【#にじぷかぬふ1周年】ありがとうをいっぱいこめて！お披露目＆告知あり✨",
-      "thumb": "https://i.ytimg.com/vi/FJO8obFEvIw/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-08T11:00:11Z",
-      "status": "live"
-    },
-    {
-      "id": "pKukiaK-Ec8",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【雑談】予定、なくなりました。なのでいっぱい喋る！！！【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/pKukiaK-Ec8/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-08T12:19:08Z",
+      "id": "R8xNyUN4yRs",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 雑談 〗こまが起きたら即終了　無軌道雑談 w/雨夜〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/R8xNyUN4yRs/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-08T14:15:25Z",
       "status": "live"
     },
     {
@@ -342,9 +333,39 @@
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
       "title": "【雑談】予定、なくなりました。なのでいっぱい喋る！！！【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/pKukiaK-Ec8/hqdefault_live.jpg",
-      "publishedAt": "2026-08-08T12:19:08Z",
+      "thumb": "https://i.ytimg.com/vi/pKukiaK-Ec8/hqdefault.jpg",
+      "publishedAt": "2026-08-08T14:19:50Z",
       "live": true
+    },
+    {
+      "id": "R8xNyUN4yRs",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 雑談 〗こまが起きたら即終了　無軌道雑談 w/雨夜〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/R8xNyUN4yRs/hqdefault_live.jpg",
+      "publishedAt": "2026-08-08T14:15:25Z",
+      "live": true
+    },
+    {
+      "id": "FJO8obFEvIw",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【#にじぷかぬふ1周年】ありがとうをいっぱいこめて！お披露目＆告知あり✨",
+      "thumb": "https://i.ytimg.com/vi/FJO8obFEvIw/hqdefault.jpg",
+      "publishedAt": "2026-08-08T13:32:56Z",
+      "live": false
+    },
+    {
+      "id": "JLTCG0i4zfs",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "Zzz / 虹深°ぬふ（cover）",
+      "thumb": "https://i.ytimg.com/vi/JLTCG0i4zfs/hqdefault.jpg",
+      "publishedAt": "2026-08-08T12:30:08Z",
+      "live": false
     },
     {
       "id": "VFTcThffwkU",
@@ -354,16 +375,6 @@
       "title": "【ストリヌ】第2話「昨日よりも、一言多く。」【ゆらぎゆら/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/VFTcThffwkU/hqdefault_live.jpg",
       "publishedAt": "2026-08-08T11:44:58Z",
-      "live": false
-    },
-    {
-      "id": "FJO8obFEvIw",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【#にじぷかぬふ1周年】ありがとうをいっぱいこめて！お披露目＆告知あり✨",
-      "thumb": "https://i.ytimg.com/vi/FJO8obFEvIw/hqdefault_live.jpg",
-      "publishedAt": "2026-08-08T11:00:11Z",
       "live": false
     },
     {
@@ -615,45 +626,16 @@
       "thumb": "https://i.ytimg.com/vi/9zkivXPX6bE/hqdefault.jpg",
       "publishedAt": "2026-08-05T15:56:11Z",
       "live": false
-    },
-    {
-      "id": "KkC2nc_40cQ",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 Rust┆VCR 】蛇足さんおかえりなさい(素振り)#11【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/KkC2nc_40cQ/hqdefault.jpg",
-      "publishedAt": "2026-08-05T15:45:09Z",
-      "live": false
-    },
-    {
-      "id": "PTlOEBE8Tmw",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【自作アニメーションティザーPV】虹深°ぬふ 新衣装🧪 / Nijipuka Nuhu【ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/PTlOEBE8Tmw/hqdefault.jpg",
-      "publishedAt": "2026-08-05T11:00:07Z",
-      "live": false
     }
   ],
   "live": [
     {
-      "id": "FJO8obFEvIw",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【#にじぷかぬふ1周年】ありがとうをいっぱいこめて！お披露目＆告知あり✨",
-      "thumb": "https://i.ytimg.com/vi/FJO8obFEvIw/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-08T11:00:11Z",
-      "status": "live"
-    },
-    {
-      "id": "pKukiaK-Ec8",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【雑談】予定、なくなりました。なのでいっぱい喋る！！！【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/pKukiaK-Ec8/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-08T12:19:08Z",
+      "id": "R8xNyUN4yRs",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 雑談 〗こまが起きたら即終了　無軌道雑談 w/雨夜〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/R8xNyUN4yRs/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-08T14:15:25Z",
       "status": "live"
     }
   ]

@@ -1,32 +1,14 @@
 {
-  "updatedAt": "2026-08-08T08:24:58.526Z",
+  "updatedAt": "2026-08-08T12:20:17.651Z",
   "streams": [
-    {
-      "id": "vFBENO9zcAU",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【お絵描き】配信内容は、君たちとこのだけの秘密です【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/vFBENO9zcAU/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-08T05:01:17Z",
-      "status": "live"
-    },
-    {
-      "id": "n0zn1mfG078",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【歌枠】ちょっとだけ歌いたい気分【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/n0zn1mfG078/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-08T07:52:16Z",
-      "status": "live"
-    },
     {
       "id": "FJO8obFEvIw",
       "memberId": "nuhu",
       "member": "虹深°ぬふ",
       "title": "【#にじぷかぬふ1周年】ありがとうをいっぱいこめて！お披露目＆告知あり✨",
       "thumb": "https://i.ytimg.com/vi/FJO8obFEvIw/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-08T11:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-08-08T11:00:11Z",
+      "status": "live"
     },
     {
       "id": "pKukiaK-Ec8",
@@ -34,7 +16,16 @@
       "member": "ゆらぎゆら",
       "title": "【雑談】予定、なくなりました。なのでいっぱい喋る！！！【ゆらぎゆら/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/pKukiaK-Ec8/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-08T12:00:00Z",
+      "scheduledStartTime": "2026-08-08T12:19:08Z",
+      "status": "live"
+    },
+    {
+      "id": "VFTcThffwkU",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【ストリヌ】第2話「昨日よりも、一言多く。」【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/VFTcThffwkU/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-09T09:00:00Z",
       "status": "upcoming"
     },
     {
@@ -346,34 +337,54 @@
   ],
   "videos": [
     {
-      "id": "n0zn1mfG078",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【歌枠】ちょっとだけ歌いたい気分【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/n0zn1mfG078/hqdefault_live.jpg",
-      "publishedAt": "2026-08-08T07:52:16Z",
-      "live": false
-    },
-    {
       "id": "pKukiaK-Ec8",
       "memberId": "yura",
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
       "title": "【雑談】予定、なくなりました。なのでいっぱい喋る！！！【ゆらぎゆら/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/pKukiaK-Ec8/hqdefault_live.jpg",
-      "publishedAt": "2026-08-08T07:26:36Z",
+      "publishedAt": "2026-08-08T12:19:08Z",
       "live": true
     },
     {
-      "id": "vFBENO9zcAU",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【お絵描き】配信内容は、君たちとこのだけの秘密です【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/vFBENO9zcAU/hqdefault_live.jpg",
-      "publishedAt": "2026-08-08T05:01:17Z",
-      "live": true
+      "id": "VFTcThffwkU",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【ストリヌ】第2話「昨日よりも、一言多く。」【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/VFTcThffwkU/hqdefault_live.jpg",
+      "publishedAt": "2026-08-08T11:44:58Z",
+      "live": false
+    },
+    {
+      "id": "FJO8obFEvIw",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【#にじぷかぬふ1周年】ありがとうをいっぱいこめて！お披露目＆告知あり✨",
+      "thumb": "https://i.ytimg.com/vi/FJO8obFEvIw/hqdefault_live.jpg",
+      "publishedAt": "2026-08-08T11:00:11Z",
+      "live": false
+    },
+    {
+      "id": "n0zn1mfG078",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【歌枠】ちょっとだけ歌いたい気分【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/n0zn1mfG078/hqdefault.jpg",
+      "publishedAt": "2026-08-08T09:41:07Z",
+      "live": false
+    },
+    {
+      "id": "ejKfLkqkGDQ",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "アニメーションメイキングshorts！【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ejKfLkqkGDQ/hqdefault.jpg",
+      "publishedAt": "2026-08-08T09:00:21Z",
+      "live": false
     },
     {
       "id": "nu_txN2Edgk",
@@ -400,7 +411,7 @@
       "memberId": "yura",
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【ストリヌ】第一話「外の世界へ転生したクラゲ、騎士団に拾われる」【ゆらぎゆら/ミリプロ】",
+      "title": "【ストリヌ】第1話「外の世界へ転生したクラゲ、騎士団に拾われる」【ゆらぎゆら/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/0i2UE_1Eih0/hqdefault.jpg",
       "publishedAt": "2026-08-07T17:57:40Z",
       "live": false
@@ -566,16 +577,6 @@
       "live": false
     },
     {
-      "id": "SfdR3gUey7E",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 NTE 】怪しいオークションで事件の予感！？メインストーリー「落札？落札！」【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/SfdR3gUey7E/hqdefault.jpg",
-      "publishedAt": "2026-08-06T07:57:54Z",
-      "live": false
-    },
-    {
       "id": "N6Ud1I17Tdg",
       "memberId": "akubi",
       "member": "あくび・でもんすぺーど",
@@ -634,35 +635,25 @@
       "thumb": "https://i.ytimg.com/vi/PTlOEBE8Tmw/hqdefault.jpg",
       "publishedAt": "2026-08-05T11:00:07Z",
       "live": false
-    },
-    {
-      "id": "tFy_PqQNxyg",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 マイクラ 】夏祭りは全力で楽しむ派です【#⁠ミリプロサマー2026】",
-      "thumb": "https://i.ytimg.com/vi/tFy_PqQNxyg/hqdefault_live.jpg",
-      "publishedAt": "2026-08-05T10:13:52Z",
-      "live": false
     }
   ],
   "live": [
     {
-      "id": "vFBENO9zcAU",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【お絵描き】配信内容は、君たちとこのだけの秘密です【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/vFBENO9zcAU/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-08T05:01:17Z",
+      "id": "FJO8obFEvIw",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "title": "【#にじぷかぬふ1周年】ありがとうをいっぱいこめて！お披露目＆告知あり✨",
+      "thumb": "https://i.ytimg.com/vi/FJO8obFEvIw/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-08T11:00:11Z",
       "status": "live"
     },
     {
-      "id": "n0zn1mfG078",
+      "id": "pKukiaK-Ec8",
       "memberId": "yura",
       "member": "ゆらぎゆら",
-      "title": "【歌枠】ちょっとだけ歌いたい気分【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/n0zn1mfG078/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-08T07:52:16Z",
+      "title": "【雑談】予定、なくなりました。なのでいっぱい喋る！！！【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/pKukiaK-Ec8/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-08T12:19:08Z",
       "status": "live"
     }
   ]
