@@ -1,51 +1,6 @@
 {
-  "updatedAt": "2026-08-07T16:38:33.386Z",
+  "updatedAt": "2026-08-07T20:26:18.134Z",
   "streams": [
-    {
-      "id": "0ZKaqDfKMqs",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 ストリヌ 】友達100人作るぞ！ #1 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/0ZKaqDfKMqs/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-07T08:52:24Z",
-      "status": "live"
-    },
-    {
-      "id": "Hmiac4x3BRc",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【マイクラ￤ストリヌ】1日目！えっ！？わたしが異世界転生！？【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/Hmiac4x3BRc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-07T08:53:39Z",
-      "status": "live"
-    },
-    {
-      "id": "vooDohzWHFc",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 ストリヌ 】ここは新世界！お友達をつくって、つく...るぞ...#1【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/vooDohzWHFc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-07T08:53:40Z",
-      "status": "live"
-    },
-    {
-      "id": "0i2UE_1Eih0",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 ストリヌ 】はじめまして、新しい世界。【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/0i2UE_1Eih0/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-07T08:53:59Z",
-      "status": "live"
-    },
-    {
-      "id": "DJKWxfMN6Ww",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 ストリヌ 〗転生したら億万長者になれた件 #1〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/DJKWxfMN6Ww/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-07T08:54:17Z",
-      "status": "live"
-    },
     {
       "id": "FJO8obFEvIw",
       "memberId": "nuhu",
@@ -53,6 +8,15 @@
       "title": "【#にじぷかぬふ1周年】ありがとうをいっぱいこめて！お披露目＆告知あり✨",
       "thumb": "https://i.ytimg.com/vi/FJO8obFEvIw/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-08T11:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "R2fcL5rKyeU",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 ストリヌ 】ｲﾗｯｼｬｲﾏｾ--！一万円入ります！#2【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/R2fcL5rKyeU/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-08T13:00:00Z",
       "status": "upcoming"
     },
     {
@@ -346,6 +310,66 @@
   ],
   "videos": [
     {
+      "id": "R2fcL5rKyeU",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 ストリヌ 】ｲﾗｯｼｬｲﾏｾ--！一万円入ります！#2【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/R2fcL5rKyeU/hqdefault_live.jpg",
+      "publishedAt": "2026-08-07T18:28:26Z",
+      "live": false
+    },
+    {
+      "id": "0ZKaqDfKMqs",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 ストリヌ 】友達100人作るぞ！ #1 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/0ZKaqDfKMqs/hqdefault.jpg",
+      "publishedAt": "2026-08-07T18:17:43Z",
+      "live": false
+    },
+    {
+      "id": "0i2UE_1Eih0",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 ストリヌ 】はじめまして、新しい世界。【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/0i2UE_1Eih0/hqdefault.jpg",
+      "publishedAt": "2026-08-07T17:57:40Z",
+      "live": false
+    },
+    {
+      "id": "DJKWxfMN6Ww",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ストリヌ 〗転生したら億万長者になれた件 #1〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/DJKWxfMN6Ww/hqdefault.jpg",
+      "publishedAt": "2026-08-07T17:42:59Z",
+      "live": false
+    },
+    {
+      "id": "Hmiac4x3BRc",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【マイクラ￤ストリヌ】1日目！えっ！？わたしが異世界転生！？【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/Hmiac4x3BRc/hqdefault.jpg",
+      "publishedAt": "2026-08-07T17:33:04Z",
+      "live": false
+    },
+    {
+      "id": "vooDohzWHFc",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 ストリヌ 】ここは新世界！お友達をつくって、つく...るぞ...#1【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/vooDohzWHFc/hqdefault.jpg",
+      "publishedAt": "2026-08-07T17:25:17Z",
+      "live": false
+    },
+    {
       "id": "BEepcqiz3Fc",
       "memberId": "akubi",
       "member": "あくび・でもんすぺーど",
@@ -393,56 +417,6 @@
       "title": "【こまと一緒に】引いた言葉が含まれる曲歌ってみた【眠雲ツクリ/ミリプロ】# #vtuber",
       "thumb": "https://i.ytimg.com/vi/kIFzgd2h91M/hqdefault.jpg",
       "publishedAt": "2026-08-07T09:00:17Z",
-      "live": false
-    },
-    {
-      "id": "DJKWxfMN6Ww",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ストリヌ 〗転生したら億万長者になれた件 #1〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/DJKWxfMN6Ww/hqdefault_live.jpg",
-      "publishedAt": "2026-08-07T08:54:17Z",
-      "live": false
-    },
-    {
-      "id": "0i2UE_1Eih0",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 ストリヌ 】はじめまして、新しい世界。【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/0i2UE_1Eih0/hqdefault_live.jpg",
-      "publishedAt": "2026-08-07T08:53:59Z",
-      "live": false
-    },
-    {
-      "id": "vooDohzWHFc",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 ストリヌ 】ここは新世界！お友達をつくって、つく...るぞ...#1【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/vooDohzWHFc/hqdefault_live.jpg",
-      "publishedAt": "2026-08-07T08:53:40Z",
-      "live": false
-    },
-    {
-      "id": "Hmiac4x3BRc",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【マイクラ￤ストリヌ】1日目！えっ！？わたしが異世界転生！？【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/Hmiac4x3BRc/hqdefault_live.jpg",
-      "publishedAt": "2026-08-07T08:53:39Z",
-      "live": false
-    },
-    {
-      "id": "0ZKaqDfKMqs",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 ストリヌ 】友達100人作るぞ！ #1 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/0ZKaqDfKMqs/hqdefault_live.jpg",
-      "publishedAt": "2026-08-07T08:52:24Z",
       "live": false
     },
     {
@@ -634,63 +608,7 @@
       "thumb": "https://i.ytimg.com/vi/tFy_PqQNxyg/hqdefault_live.jpg",
       "publishedAt": "2026-08-05T10:13:52Z",
       "live": false
-    },
-    {
-      "id": "FJO8obFEvIw",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【#にじぷかぬふ1周年】ありがとうをいっぱいこめて！お披露目＆告知あり✨",
-      "thumb": "https://i.ytimg.com/vi/FJO8obFEvIw/hqdefault_live.jpg",
-      "publishedAt": "2026-08-05T09:49:06Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "0ZKaqDfKMqs",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 ストリヌ 】友達100人作るぞ！ #1 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/0ZKaqDfKMqs/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-07T08:52:24Z",
-      "status": "live"
-    },
-    {
-      "id": "Hmiac4x3BRc",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【マイクラ￤ストリヌ】1日目！えっ！？わたしが異世界転生！？【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/Hmiac4x3BRc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-07T08:53:39Z",
-      "status": "live"
-    },
-    {
-      "id": "vooDohzWHFc",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 ストリヌ 】ここは新世界！お友達をつくって、つく...るぞ...#1【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/vooDohzWHFc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-07T08:53:40Z",
-      "status": "live"
-    },
-    {
-      "id": "0i2UE_1Eih0",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 ストリヌ 】はじめまして、新しい世界。【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/0i2UE_1Eih0/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-07T08:53:59Z",
-      "status": "live"
-    },
-    {
-      "id": "DJKWxfMN6Ww",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 ストリヌ 〗転生したら億万長者になれた件 #1〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/DJKWxfMN6Ww/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-07T08:54:17Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
