@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-08-08T16:17:08.401Z",
+  "updatedAt": "2026-08-08T20:14:34.983Z",
   "streams": [
-    {
-      "id": "R8xNyUN4yRs",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 雑談 〗こまが起きたら即終了　無軌道雑談 w/雨夜〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/R8xNyUN4yRs/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-08T14:15:25Z",
-      "status": "live"
-    },
     {
       "id": "VFTcThffwkU",
       "memberId": "yura",
@@ -299,6 +290,15 @@
       "status": "upcoming"
     },
     {
+      "id": "_Qz5P1BthrE",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "⋆⸜  ミリプロ サマーコレクション 2026 受注受付中 🍉⸝⋆",
+      "thumb": "https://i.ytimg.com/vi/_Qz5P1BthrE/hqdefault_live.jpg",
+      "scheduledStartTime": "2027-01-30T06:00:00Z",
+      "status": "upcoming"
+    },
+    {
       "id": "0ZQr0n84tM4",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -328,6 +328,16 @@
   ],
   "videos": [
     {
+      "id": "R8xNyUN4yRs",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 雑談 〗こまが起きたら即終了　無軌道雑談 w/雨夜〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/R8xNyUN4yRs/hqdefault.jpg",
+      "publishedAt": "2026-08-08T17:05:53Z",
+      "live": true
+    },
+    {
       "id": "pKukiaK-Ec8",
       "memberId": "yura",
       "member": "ゆらぎゆら",
@@ -335,16 +345,6 @@
       "title": "【雑談】予定、なくなりました。なのでいっぱい喋る！！！【ゆらぎゆら/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/pKukiaK-Ec8/hqdefault.jpg",
       "publishedAt": "2026-08-08T14:19:50Z",
-      "live": true
-    },
-    {
-      "id": "R8xNyUN4yRs",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 雑談 〗こまが起きたら即終了　無軌道雑談 w/雨夜〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/R8xNyUN4yRs/hqdefault_live.jpg",
-      "publishedAt": "2026-08-08T14:15:25Z",
       "live": true
     },
     {
@@ -628,15 +628,5 @@
       "live": false
     }
   ],
-  "live": [
-    {
-      "id": "R8xNyUN4yRs",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 雑談 〗こまが起きたら即終了　無軌道雑談 w/雨夜〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/R8xNyUN4yRs/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-08T14:15:25Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
