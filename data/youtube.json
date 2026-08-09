@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T12:21:57.247Z",
+  "updatedAt": "2026-08-09T16:18:28.250Z",
   "streams": [
     {
       "id": "VFTcThffwkU",
@@ -53,6 +53,15 @@
       "title": "【 ストリヌ 】戦闘も銭湯も先導もしたい#2【小廻こま/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/R2fcL5rKyeU/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-09T11:48:42Z",
+      "status": "live"
+    },
+    {
+      "id": "d24Zf3ZfZK4",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【ストリヌ/Minecraft 】夜のチルマイクラ【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/d24Zf3ZfZK4/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-09T15:36:26Z",
       "status": "live"
     },
     {
@@ -364,6 +373,16 @@
   ],
   "videos": [
     {
+      "id": "d24Zf3ZfZK4",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【ストリヌ/Minecraft 】夜のチルマイクラ【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/d24Zf3ZfZK4/hqdefault_live.jpg",
+      "publishedAt": "2026-08-09T15:36:26Z",
+      "live": false
+    },
+    {
       "id": "R2fcL5rKyeU",
       "memberId": "koma",
       "member": "小廻こま",
@@ -652,16 +671,6 @@
       "thumb": "https://i.ytimg.com/vi/oCqbaQDe7As/hqdefault.jpg",
       "publishedAt": "2026-08-06T14:18:16Z",
       "live": true
-    },
-    {
-      "id": "MMdPdUqP17s",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【雑談】みんなの部屋のエアコンは何度？【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/MMdPdUqP17s/hqdefault.jpg",
-      "publishedAt": "2026-08-06T13:29:53Z",
-      "live": true
     }
   ],
   "live": [
@@ -717,6 +726,15 @@
       "title": "【 ストリヌ 】戦闘も銭湯も先導もしたい#2【小廻こま/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/R2fcL5rKyeU/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-09T11:48:42Z",
+      "status": "live"
+    },
+    {
+      "id": "d24Zf3ZfZK4",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【ストリヌ/Minecraft 】夜のチルマイクラ【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/d24Zf3ZfZK4/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-09T15:36:26Z",
       "status": "live"
     }
   ]
