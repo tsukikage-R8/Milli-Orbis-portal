@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T20:14:34.983Z",
+  "updatedAt": "2026-08-09T00:43:00.288Z",
   "streams": [
     {
       "id": "VFTcThffwkU",
@@ -7,6 +7,15 @@
       "member": "ゆらぎゆら",
       "title": "【ストリヌ】第2話「昨日よりも、一言多く。」【ゆらぎゆら/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/VFTcThffwkU/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-09T09:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "R2fcL5rKyeU",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 ストリヌ 】戦闘も銭湯も先導もしたい#2【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/R2fcL5rKyeU/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-09T09:00:00Z",
       "status": "upcoming"
     },
@@ -328,6 +337,16 @@
   ],
   "videos": [
     {
+      "id": "L_erYoJzvY8",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "おはぴっぷる、です",
+      "thumb": "https://i.ytimg.com/vi/L_erYoJzvY8/hqdefault.jpg",
+      "publishedAt": "2026-08-08T23:47:30Z",
+      "live": false
+    },
+    {
       "id": "R8xNyUN4yRs",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -405,6 +424,16 @@
       "title": "【マイクラ￤ストリヌ】2日目！お金持ちになりたい異世界転生者。【#あまかみらいぶ】",
       "thumb": "https://i.ytimg.com/vi/nu_txN2Edgk/hqdefault_live.jpg",
       "publishedAt": "2026-08-08T00:39:04Z",
+      "live": false
+    },
+    {
+      "id": "R2fcL5rKyeU",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 ストリヌ 】戦闘も銭湯も先導もしたい#2【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/R2fcL5rKyeU/hqdefault_live.jpg",
+      "publishedAt": "2026-08-07T18:28:26Z",
       "live": false
     },
     {
@@ -605,26 +634,6 @@
       "title": "【Minecraft】夏の水着のお姉さんとは救済である。┊︎#音ノ乃のの #ののん家 #⁠ミリプロサマー2026",
       "thumb": "https://i.ytimg.com/vi/gD16Tfs3fzk/hqdefault_live.jpg",
       "publishedAt": "2026-08-06T03:21:31Z",
-      "live": false
-    },
-    {
-      "id": "qtp-Ru33LAI",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【めっちゃカメレオン】視聴者参加型！全員打ち抜く！！【音ノ瀬らこ /ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/qtp-Ru33LAI/hqdefault.jpg",
-      "publishedAt": "2026-08-05T17:44:52Z",
-      "live": false
-    },
-    {
-      "id": "9zkivXPX6bE",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【VALORANT】３か月ぶりに開きます。┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/9zkivXPX6bE/hqdefault.jpg",
-      "publishedAt": "2026-08-05T15:56:11Z",
       "live": false
     }
   ],
