@@ -1,68 +1,14 @@
 {
-  "updatedAt": "2026-08-09T16:18:28.250Z",
+  "updatedAt": "2026-08-09T20:17:14.714Z",
   "streams": [
     {
-      "id": "VFTcThffwkU",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【ストリヌ】第2話「昨日よりも、一言多く。」【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/VFTcThffwkU/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-09T10:45:28Z",
-      "status": "live"
-    },
-    {
-      "id": "nu_txN2Edgk",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【マイクラ￤ストリヌ】2日目！お金持ちになりたい異世界転生者。【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/nu_txN2Edgk/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-09T10:59:05Z",
-      "status": "live"
-    },
-    {
-      "id": "7xGxJAsurwg",
+      "id": "GfGvxm4vcpc",
       "memberId": "rei",
       "member": "夕霧レイ",
-      "title": "【 ストリヌ 】人生ってマジで冒険 #2 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/7xGxJAsurwg/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-09T11:00:37Z",
-      "status": "live"
-    },
-    {
-      "id": "-pP9CV66Zgk",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 ストリヌ 〗億万長者へのルートを考える日々 #2〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/-pP9CV66Zgk/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-09T11:01:54Z",
-      "status": "live"
-    },
-    {
-      "id": "IcsUImsDVBU",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "title": "【ストリヌ】 人間から逃げない修行をする 【#あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/IcsUImsDVBU/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-09T11:21:03Z",
-      "status": "live"
-    },
-    {
-      "id": "R2fcL5rKyeU",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 ストリヌ 】戦闘も銭湯も先導もしたい#2【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/R2fcL5rKyeU/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-09T11:48:42Z",
-      "status": "live"
-    },
-    {
-      "id": "d24Zf3ZfZK4",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【ストリヌ/Minecraft 】夜のチルマイクラ【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/d24Zf3ZfZK4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-09T15:36:26Z",
-      "status": "live"
+      "title": "【 サイン入れ雑談 】3年ぶりにペンを握る⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/GfGvxm4vcpc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-10T07:00:00Z",
+      "status": "upcoming"
     },
     {
       "id": "FiohR4aHFAM",
@@ -178,6 +124,15 @@
       "member": "雨夜リズ",
       "title": "【Minecraft】マイクラでナイトプールに行けるらしい🎵【#⁠ミリプロサマー2026】",
       "thumb": "https://i.ytimg.com/vi/h1QtwXWz7tY/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-16T10:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "ISlVs2qDnZY",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 Minecraft 〗屋台食いつくしVlog #⁠ミリプロサマー2026〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/ISlVs2qDnZY/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-16T10:00:00Z",
       "status": "upcoming"
     },
@@ -373,63 +328,23 @@
   ],
   "videos": [
     {
+      "id": "GfGvxm4vcpc",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 サイン入れ雑談 】3年ぶりにペンを握る⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/GfGvxm4vcpc/hqdefault_live.jpg",
+      "publishedAt": "2026-08-09T20:10:28Z",
+      "live": true
+    },
+    {
       "id": "d24Zf3ZfZK4",
       "memberId": "liz",
       "member": "雨夜リズ",
       "channelTitle": "雨夜リズ / Amayo Liz",
       "title": "【ストリヌ/Minecraft 】夜のチルマイクラ【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/d24Zf3ZfZK4/hqdefault_live.jpg",
-      "publishedAt": "2026-08-09T15:36:26Z",
-      "live": false
-    },
-    {
-      "id": "R2fcL5rKyeU",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 ストリヌ 】戦闘も銭湯も先導もしたい#2【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/R2fcL5rKyeU/hqdefault_live.jpg",
-      "publishedAt": "2026-08-09T11:48:42Z",
-      "live": false
-    },
-    {
-      "id": "IcsUImsDVBU",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "【ストリヌ】 人間から逃げない修行をする 【#あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/IcsUImsDVBU/hqdefault_live.jpg",
-      "publishedAt": "2026-08-09T11:21:03Z",
-      "live": false
-    },
-    {
-      "id": "-pP9CV66Zgk",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ストリヌ 〗億万長者へのルートを考える日々 #2〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/-pP9CV66Zgk/hqdefault_live.jpg",
-      "publishedAt": "2026-08-09T11:01:54Z",
-      "live": false
-    },
-    {
-      "id": "7xGxJAsurwg",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 ストリヌ 】人生ってマジで冒険 #2 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/7xGxJAsurwg/hqdefault_live.jpg",
-      "publishedAt": "2026-08-09T11:00:37Z",
-      "live": false
-    },
-    {
-      "id": "nu_txN2Edgk",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【マイクラ￤ストリヌ】2日目！お金持ちになりたい異世界転生者。【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/nu_txN2Edgk/hqdefault_live.jpg",
-      "publishedAt": "2026-08-09T10:59:05Z",
+      "thumb": "https://i.ytimg.com/vi/d24Zf3ZfZK4/hqdefault.jpg",
+      "publishedAt": "2026-08-09T18:16:01Z",
       "live": false
     },
     {
@@ -438,8 +353,58 @@
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
       "title": "【ストリヌ】第2話「昨日よりも、一言多く。」【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/VFTcThffwkU/hqdefault_live.jpg",
-      "publishedAt": "2026-08-09T10:45:28Z",
+      "thumb": "https://i.ytimg.com/vi/VFTcThffwkU/hqdefault.jpg",
+      "publishedAt": "2026-08-09T17:37:09Z",
+      "live": false
+    },
+    {
+      "id": "R2fcL5rKyeU",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 ストリヌ 】戦闘も銭湯も先導もしたい#2【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/R2fcL5rKyeU/hqdefault.jpg",
+      "publishedAt": "2026-08-09T17:30:00Z",
+      "live": false
+    },
+    {
+      "id": "nu_txN2Edgk",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【マイクラ￤ストリヌ】2日目！お金持ちになりたい異世界転生者。【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/nu_txN2Edgk/hqdefault.jpg",
+      "publishedAt": "2026-08-09T17:27:57Z",
+      "live": false
+    },
+    {
+      "id": "7xGxJAsurwg",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 ストリヌ 】人生ってマジで冒険 #2 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/7xGxJAsurwg/hqdefault.jpg",
+      "publishedAt": "2026-08-09T17:27:39Z",
+      "live": false
+    },
+    {
+      "id": "IcsUImsDVBU",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "【ストリヌ】 人間から逃げない修行をする 【#あくび・でもんすぺーど】",
+      "thumb": "https://i.ytimg.com/vi/IcsUImsDVBU/hqdefault.jpg",
+      "publishedAt": "2026-08-09T17:20:27Z",
+      "live": false
+    },
+    {
+      "id": "-pP9CV66Zgk",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ストリヌ 〗億万長者へのルートを考える日々 #2〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/-pP9CV66Zgk/hqdefault.jpg",
+      "publishedAt": "2026-08-09T17:04:16Z",
       "live": false
     },
     {
@@ -661,81 +626,7 @@
       "thumb": "https://i.ytimg.com/vi/SE-1lz98cmA/hqdefault.jpg",
       "publishedAt": "2026-08-06T16:19:16Z",
       "live": false
-    },
-    {
-      "id": "oCqbaQDe7As",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 雑談 】お誕生日のすぱーーーちゃを読ませていただき【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/oCqbaQDe7As/hqdefault.jpg",
-      "publishedAt": "2026-08-06T14:18:16Z",
-      "live": true
     }
   ],
-  "live": [
-    {
-      "id": "VFTcThffwkU",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【ストリヌ】第2話「昨日よりも、一言多く。」【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/VFTcThffwkU/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-09T10:45:28Z",
-      "status": "live"
-    },
-    {
-      "id": "nu_txN2Edgk",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【マイクラ￤ストリヌ】2日目！お金持ちになりたい異世界転生者。【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/nu_txN2Edgk/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-09T10:59:05Z",
-      "status": "live"
-    },
-    {
-      "id": "7xGxJAsurwg",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 ストリヌ 】人生ってマジで冒険 #2 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/7xGxJAsurwg/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-09T11:00:37Z",
-      "status": "live"
-    },
-    {
-      "id": "-pP9CV66Zgk",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 ストリヌ 〗億万長者へのルートを考える日々 #2〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/-pP9CV66Zgk/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-09T11:01:54Z",
-      "status": "live"
-    },
-    {
-      "id": "IcsUImsDVBU",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "title": "【ストリヌ】 人間から逃げない修行をする 【#あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/IcsUImsDVBU/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-09T11:21:03Z",
-      "status": "live"
-    },
-    {
-      "id": "R2fcL5rKyeU",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 ストリヌ 】戦闘も銭湯も先導もしたい#2【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/R2fcL5rKyeU/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-09T11:48:42Z",
-      "status": "live"
-    },
-    {
-      "id": "d24Zf3ZfZK4",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【ストリヌ/Minecraft 】夜のチルマイクラ【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/d24Zf3ZfZK4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-09T15:36:26Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
