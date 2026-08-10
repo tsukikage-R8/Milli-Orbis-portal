@@ -1,51 +1,6 @@
 {
-  "updatedAt": "2026-08-10T12:38:15.670Z",
+  "updatedAt": "2026-08-10T16:39:51.559Z",
   "streams": [
-    {
-      "id": "-HObBGOpJjY",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 ストリヌ 】異世界楽しみまくるぞ#3【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/-HObBGOpJjY/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-10T08:57:51Z",
-      "status": "live"
-    },
-    {
-      "id": "2w3sn11oJwc",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 ストリヌ 】ダンジョンの神になる #3 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/2w3sn11oJwc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-10T09:00:51Z",
-      "status": "live"
-    },
-    {
-      "id": "gjRzs5Nc0O4",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【マイクラ￤ストリヌ】3日目！お店をつくるぞぉおおお🔥🔥🔥【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/gjRzs5Nc0O4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-10T09:02:32Z",
-      "status": "live"
-    },
-    {
-      "id": "Az7qJ1UX-OY",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【雑談＆スパチャ読み】1周年ありがとうの感想会🎶",
-      "thumb": "https://i.ytimg.com/vi/Az7qJ1UX-OY/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-10T10:45:30Z",
-      "status": "live"
-    },
-    {
-      "id": "dzCrr2aHJoI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【ストリヌ】第三話「しっぷぅ騎士団、本部復興へ。」【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/dzCrr2aHJoI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-10T11:01:09Z",
-      "status": "live"
-    },
     {
       "id": "FiohR4aHFAM",
       "memberId": "rei",
@@ -373,13 +328,23 @@
   ],
   "videos": [
     {
-      "id": "HQmb8rJWnmA",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "【ストリヌ】 決闘屋への道のり 【#あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/HQmb8rJWnmA/hqdefault_live.jpg",
-      "publishedAt": "2026-08-10T11:35:05Z",
+      "id": "gjRzs5Nc0O4",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【マイクラ￤ストリヌ】3日目！お店をつくるぞぉおおお🔥🔥🔥【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/gjRzs5Nc0O4/hqdefault.jpg",
+      "publishedAt": "2026-08-10T15:41:22Z",
+      "live": false
+    },
+    {
+      "id": "2w3sn11oJwc",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 ストリヌ 】ダンジョンの神になる #3 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/2w3sn11oJwc/hqdefault.jpg",
+      "publishedAt": "2026-08-10T15:34:07Z",
       "live": false
     },
     {
@@ -388,8 +353,28 @@
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
       "title": "【ストリヌ】第三話「しっぷぅ騎士団、本部復興へ。」【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/dzCrr2aHJoI/hqdefault_live.jpg",
-      "publishedAt": "2026-08-10T11:01:09Z",
+      "thumb": "https://i.ytimg.com/vi/dzCrr2aHJoI/hqdefault.jpg",
+      "publishedAt": "2026-08-10T15:25:19Z",
+      "live": false
+    },
+    {
+      "id": "-HObBGOpJjY",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 ストリヌ 】異世界楽しみまくるぞ#3【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/-HObBGOpJjY/hqdefault.jpg",
+      "publishedAt": "2026-08-10T15:22:35Z",
+      "live": false
+    },
+    {
+      "id": "HQmb8rJWnmA",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "【ストリヌ】 決闘屋への道のり 【#あくび・でもんすぺーど】",
+      "thumb": "https://i.ytimg.com/vi/HQmb8rJWnmA/hqdefault.jpg",
+      "publishedAt": "2026-08-10T15:11:36Z",
       "live": false
     },
     {
@@ -398,8 +383,8 @@
       "member": "虹深°ぬふ",
       "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
       "title": "【雑談＆スパチャ読み】1周年ありがとうの感想会🎶",
-      "thumb": "https://i.ytimg.com/vi/Az7qJ1UX-OY/hqdefault_live.jpg",
-      "publishedAt": "2026-08-10T10:45:30Z",
+      "thumb": "https://i.ytimg.com/vi/Az7qJ1UX-OY/hqdefault.jpg",
+      "publishedAt": "2026-08-10T13:39:58Z",
       "live": true
     },
     {
@@ -411,36 +396,6 @@
       "thumb": "https://i.ytimg.com/vi/GfGvxm4vcpc/hqdefault.jpg",
       "publishedAt": "2026-08-10T09:13:59Z",
       "live": true
-    },
-    {
-      "id": "gjRzs5Nc0O4",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【マイクラ￤ストリヌ】3日目！お店をつくるぞぉおおお🔥🔥🔥【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/gjRzs5Nc0O4/hqdefault_live.jpg",
-      "publishedAt": "2026-08-10T09:02:32Z",
-      "live": false
-    },
-    {
-      "id": "2w3sn11oJwc",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 ストリヌ 】ダンジョンの神になる #3 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/2w3sn11oJwc/hqdefault_live.jpg",
-      "publishedAt": "2026-08-10T09:00:51Z",
-      "live": false
-    },
-    {
-      "id": "-HObBGOpJjY",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 ストリヌ 】異世界楽しみまくるぞ#3【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/-HObBGOpJjY/hqdefault_live.jpg",
-      "publishedAt": "2026-08-10T08:57:51Z",
-      "live": false
     },
     {
       "id": "d24Zf3ZfZK4",
@@ -673,51 +628,5 @@
       "live": false
     }
   ],
-  "live": [
-    {
-      "id": "-HObBGOpJjY",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 ストリヌ 】異世界楽しみまくるぞ#3【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/-HObBGOpJjY/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-10T08:57:51Z",
-      "status": "live"
-    },
-    {
-      "id": "2w3sn11oJwc",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 ストリヌ 】ダンジョンの神になる #3 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/2w3sn11oJwc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-10T09:00:51Z",
-      "status": "live"
-    },
-    {
-      "id": "gjRzs5Nc0O4",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【マイクラ￤ストリヌ】3日目！お店をつくるぞぉおおお🔥🔥🔥【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/gjRzs5Nc0O4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-10T09:02:32Z",
-      "status": "live"
-    },
-    {
-      "id": "Az7qJ1UX-OY",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【雑談＆スパチャ読み】1周年ありがとうの感想会🎶",
-      "thumb": "https://i.ytimg.com/vi/Az7qJ1UX-OY/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-10T10:45:30Z",
-      "status": "live"
-    },
-    {
-      "id": "dzCrr2aHJoI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【ストリヌ】第三話「しっぷぅ騎士団、本部復興へ。」【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/dzCrr2aHJoI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-10T11:01:09Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
