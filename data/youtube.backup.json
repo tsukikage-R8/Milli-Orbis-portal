@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T09:03:57.399Z",
+  "updatedAt": "2026-08-10T12:38:15.670Z",
   "streams": [
     {
       "id": "-HObBGOpJjY",
@@ -29,13 +29,22 @@
       "status": "live"
     },
     {
+      "id": "Az7qJ1UX-OY",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "title": "【雑談＆スパチャ読み】1周年ありがとうの感想会🎶",
+      "thumb": "https://i.ytimg.com/vi/Az7qJ1UX-OY/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-10T10:45:30Z",
+      "status": "live"
+    },
+    {
       "id": "dzCrr2aHJoI",
       "memberId": "yura",
       "member": "ゆらぎゆら",
       "title": "【ストリヌ】第三話「しっぷぅ騎士団、本部復興へ。」【ゆらぎゆら/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/dzCrr2aHJoI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-10T11:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-08-10T11:01:09Z",
+      "status": "live"
     },
     {
       "id": "FiohR4aHFAM",
@@ -364,6 +373,46 @@
   ],
   "videos": [
     {
+      "id": "HQmb8rJWnmA",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "【ストリヌ】 決闘屋への道のり 【#あくび・でもんすぺーど】",
+      "thumb": "https://i.ytimg.com/vi/HQmb8rJWnmA/hqdefault_live.jpg",
+      "publishedAt": "2026-08-10T11:35:05Z",
+      "live": false
+    },
+    {
+      "id": "dzCrr2aHJoI",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【ストリヌ】第三話「しっぷぅ騎士団、本部復興へ。」【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/dzCrr2aHJoI/hqdefault_live.jpg",
+      "publishedAt": "2026-08-10T11:01:09Z",
+      "live": false
+    },
+    {
+      "id": "Az7qJ1UX-OY",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【雑談＆スパチャ読み】1周年ありがとうの感想会🎶",
+      "thumb": "https://i.ytimg.com/vi/Az7qJ1UX-OY/hqdefault_live.jpg",
+      "publishedAt": "2026-08-10T10:45:30Z",
+      "live": true
+    },
+    {
+      "id": "GfGvxm4vcpc",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 サイン入れ雑談 】3年ぶりにペンを握る⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/GfGvxm4vcpc/hqdefault.jpg",
+      "publishedAt": "2026-08-10T09:13:59Z",
+      "live": true
+    },
+    {
       "id": "gjRzs5Nc0O4",
       "memberId": "konomi",
       "member": "甘狼このみ",
@@ -392,36 +441,6 @@
       "thumb": "https://i.ytimg.com/vi/-HObBGOpJjY/hqdefault_live.jpg",
       "publishedAt": "2026-08-10T08:57:51Z",
       "live": false
-    },
-    {
-      "id": "GfGvxm4vcpc",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 サイン入れ雑談 】3年ぶりにペンを握る⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/GfGvxm4vcpc/hqdefault_live.jpg",
-      "publishedAt": "2026-08-10T08:45:56Z",
-      "live": true
-    },
-    {
-      "id": "dzCrr2aHJoI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【ストリヌ】第三話「しっぷぅ騎士団、本部復興へ。」【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/dzCrr2aHJoI/hqdefault_live.jpg",
-      "publishedAt": "2026-08-10T03:40:00Z",
-      "live": false
-    },
-    {
-      "id": "PVam2pxqeZQ",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【雑談】雨夜さんの人生について【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/PVam2pxqeZQ/hqdefault.jpg",
-      "publishedAt": "2026-08-10T03:04:57Z",
-      "live": true
     },
     {
       "id": "d24Zf3ZfZK4",
@@ -652,16 +671,6 @@
       "thumb": "https://i.ytimg.com/vi/VRcuftZGW0w/hqdefault.jpg",
       "publishedAt": "2026-08-07T09:06:24Z",
       "live": false
-    },
-    {
-      "id": "1R57VJbapss",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "虹深°ぬふ新衣装ティザーPV🧪✨#shorts #animation #illustration #ティザーpv",
-      "thumb": "https://i.ytimg.com/vi/1R57VJbapss/hqdefault.jpg",
-      "publishedAt": "2026-08-07T09:00:22Z",
-      "live": false
     }
   ],
   "live": [
@@ -690,6 +699,24 @@
       "title": "【マイクラ￤ストリヌ】3日目！お店をつくるぞぉおおお🔥🔥🔥【#あまかみらいぶ】",
       "thumb": "https://i.ytimg.com/vi/gjRzs5Nc0O4/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-10T09:02:32Z",
+      "status": "live"
+    },
+    {
+      "id": "Az7qJ1UX-OY",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "title": "【雑談＆スパチャ読み】1周年ありがとうの感想会🎶",
+      "thumb": "https://i.ytimg.com/vi/Az7qJ1UX-OY/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-10T10:45:30Z",
+      "status": "live"
+    },
+    {
+      "id": "dzCrr2aHJoI",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【ストリヌ】第三話「しっぷぅ騎士団、本部復興へ。」【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/dzCrr2aHJoI/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-10T11:01:09Z",
       "status": "live"
     }
   ]
