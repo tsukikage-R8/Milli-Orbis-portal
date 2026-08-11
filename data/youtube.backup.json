@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T12:35:09.402Z",
+  "updatedAt": "2026-08-11T16:43:02.959Z",
   "streams": [
     {
       "id": "-AwsH252NDE",
@@ -47,22 +47,13 @@
       "status": "live"
     },
     {
-      "id": "9oDvgBSqe_E",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【ストリヌ/Minecraft 】ダンジョンダンジョンダダンジョン【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/9oDvgBSqe_E/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-11T12:07:45Z",
+      "id": "q2mtouxkLoo",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【雑談】のんびりたーいむ┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/q2mtouxkLoo/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-11T15:36:42Z",
       "status": "live"
-    },
-    {
-      "id": "BaTCxD0c_q0",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【歌枠】30分じゃ足りるはずもなく【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/BaTCxD0c_q0/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-11T13:00:00Z",
-      "status": "upcoming"
     },
     {
       "id": "g1NCJlVlous",
@@ -301,14 +292,34 @@
   ],
   "videos": [
     {
+      "id": "MB4CCR7fqms",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【雑談】深夜のチル雑談【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/MB4CCR7fqms/hqdefault_live.jpg",
+      "publishedAt": "2026-08-11T16:16:32Z",
+      "live": true
+    },
+    {
       "id": "BaTCxD0c_q0",
       "memberId": "raco",
       "member": "音ノ瀬らこ",
       "channelTitle": "音ノ瀬らこ / Otonose Raco",
       "title": "【歌枠】30分じゃ足りるはずもなく【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/BaTCxD0c_q0/hqdefault_live.jpg",
-      "publishedAt": "2026-08-11T12:12:20Z",
+      "thumb": "https://i.ytimg.com/vi/BaTCxD0c_q0/hqdefault.jpg",
+      "publishedAt": "2026-08-11T16:01:15Z",
       "live": false
+    },
+    {
+      "id": "q2mtouxkLoo",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【雑談】のんびりたーいむ┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/q2mtouxkLoo/hqdefault_live.jpg",
+      "publishedAt": "2026-08-11T15:36:42Z",
+      "live": true
     },
     {
       "id": "9oDvgBSqe_E",
@@ -316,8 +327,8 @@
       "member": "雨夜リズ",
       "channelTitle": "雨夜リズ / Amayo Liz",
       "title": "【ストリヌ/Minecraft 】ダンジョンダンジョンダダンジョン【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/9oDvgBSqe_E/hqdefault_live.jpg",
-      "publishedAt": "2026-08-11T12:07:45Z",
+      "thumb": "https://i.ytimg.com/vi/9oDvgBSqe_E/hqdefault.jpg",
+      "publishedAt": "2026-08-11T14:39:23Z",
       "live": false
     },
     {
@@ -579,26 +590,6 @@
       "thumb": "https://i.ytimg.com/vi/R2fcL5rKyeU/hqdefault.jpg",
       "publishedAt": "2026-08-09T17:30:00Z",
       "live": false
-    },
-    {
-      "id": "nu_txN2Edgk",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【マイクラ￤ストリヌ】2日目！お金持ちになりたい異世界転生者。【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/nu_txN2Edgk/hqdefault.jpg",
-      "publishedAt": "2026-08-09T17:27:57Z",
-      "live": false
-    },
-    {
-      "id": "7xGxJAsurwg",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 ストリヌ 】人生ってマジで冒険 #2 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/7xGxJAsurwg/hqdefault.jpg",
-      "publishedAt": "2026-08-09T17:27:39Z",
-      "live": false
     }
   ],
   "live": [
@@ -648,12 +639,12 @@
       "status": "live"
     },
     {
-      "id": "9oDvgBSqe_E",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【ストリヌ/Minecraft 】ダンジョンダンジョンダダンジョン【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/9oDvgBSqe_E/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-11T12:07:45Z",
+      "id": "q2mtouxkLoo",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【雑談】のんびりたーいむ┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/q2mtouxkLoo/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-11T15:36:42Z",
       "status": "live"
     }
   ]
