@@ -1,32 +1,23 @@
 {
-  "updatedAt": "2026-08-11T08:41:28.280Z",
+  "updatedAt": "2026-08-11T12:35:09.402Z",
   "streams": [
-    {
-      "id": "QACaEZagLxI",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【歌枠】急遽順番変更！任せろ！みんなついて来い！！【#ミリプロサマー2026】",
-      "thumb": "https://i.ytimg.com/vi/QACaEZagLxI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-11T08:33:18Z",
-      "status": "live"
-    },
-    {
-      "id": "B8AB81G-UOQ",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 歌枠 〗夏ってのはこうやってやんねん！＃ミリプロサマー2026〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/B8AB81G-UOQ/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-11T09:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "-AwsH252NDE",
       "memberId": "konomi",
       "member": "甘狼このみ",
       "title": "【マイクラ￤ストリヌ】4日目！今日も開店準備にいそしむのだ🔥【#あまかみらいぶ】",
       "thumb": "https://i.ytimg.com/vi/-AwsH252NDE/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-11T10:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-08-11T10:07:38Z",
+      "status": "live"
+    },
+    {
+      "id": "QfXEvq7bz5s",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 ストリヌ 】目指せ！まともな銭湯！#4【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/QfXEvq7bz5s/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-11T10:30:16Z",
+      "status": "live"
     },
     {
       "id": "z9UHVEhSlXA",
@@ -34,8 +25,8 @@
       "member": "ゆらぎゆら",
       "title": "【ストリヌ】第4話「しっぷぅ騎士団、本部復興中！」【ゆらぎゆら/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/z9UHVEhSlXA/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-11T10:30:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-08-11T10:36:40Z",
+      "status": "live"
     },
     {
       "id": "EWuM10WcRJg",
@@ -43,7 +34,34 @@
       "member": "夕霧レイ",
       "title": "【 ストリヌ 】まじでがちでかなりとても #4 【夕霧レイ / ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/EWuM10WcRJg/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-11T11:00:00Z",
+      "scheduledStartTime": "2026-08-11T10:43:16Z",
+      "status": "live"
+    },
+    {
+      "id": "WospUiVFj9g",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 ストリヌ 〗デザイナーで一攫千金できるのか #3〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/WospUiVFj9g/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-11T11:04:21Z",
+      "status": "live"
+    },
+    {
+      "id": "9oDvgBSqe_E",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【ストリヌ/Minecraft 】ダンジョンダンジョンダダンジョン【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/9oDvgBSqe_E/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-11T12:07:45Z",
+      "status": "live"
+    },
+    {
+      "id": "BaTCxD0c_q0",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "title": "【歌枠】30分じゃ足りるはずもなく【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/BaTCxD0c_q0/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-11T13:00:00Z",
       "status": "upcoming"
     },
     {
@@ -283,23 +301,43 @@
   ],
   "videos": [
     {
-      "id": "rvXBXXv_7dU",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【歌枠】ナツいアツをアゲ↑↑↑していきます【#ミリプロサマー2026】",
-      "thumb": "https://i.ytimg.com/vi/rvXBXXv_7dU/hqdefault.jpg",
-      "publishedAt": "2026-08-11T08:34:06Z",
-      "live": false
-    },
-    {
-      "id": "QACaEZagLxI",
+      "id": "BaTCxD0c_q0",
       "memberId": "raco",
       "member": "音ノ瀬らこ",
       "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【歌枠】急遽順番変更！任せろ！みんなついて来い！！【#ミリプロサマー2026】",
-      "thumb": "https://i.ytimg.com/vi/QACaEZagLxI/hqdefault_live.jpg",
-      "publishedAt": "2026-08-11T08:33:18Z",
+      "title": "【歌枠】30分じゃ足りるはずもなく【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/BaTCxD0c_q0/hqdefault_live.jpg",
+      "publishedAt": "2026-08-11T12:12:20Z",
+      "live": false
+    },
+    {
+      "id": "9oDvgBSqe_E",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【ストリヌ/Minecraft 】ダンジョンダンジョンダダンジョン【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/9oDvgBSqe_E/hqdefault_live.jpg",
+      "publishedAt": "2026-08-11T12:07:45Z",
+      "live": false
+    },
+    {
+      "id": "WospUiVFj9g",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ストリヌ 〗デザイナーで一攫千金できるのか #3〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/WospUiVFj9g/hqdefault_live.jpg",
+      "publishedAt": "2026-08-11T11:04:21Z",
+      "live": false
+    },
+    {
+      "id": "EWuM10WcRJg",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 ストリヌ 】まじでがちでかなりとても #4 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/EWuM10WcRJg/hqdefault_live.jpg",
+      "publishedAt": "2026-08-11T10:43:16Z",
       "live": false
     },
     {
@@ -309,7 +347,77 @@
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
       "title": "【ストリヌ】第4話「しっぷぅ騎士団、本部復興中！」【ゆらぎゆら/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/z9UHVEhSlXA/hqdefault_live.jpg",
-      "publishedAt": "2026-08-11T08:18:49Z",
+      "publishedAt": "2026-08-11T10:36:40Z",
+      "live": false
+    },
+    {
+      "id": "QfXEvq7bz5s",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 ストリヌ 】目指せ！まともな銭湯！#4【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/QfXEvq7bz5s/hqdefault_live.jpg",
+      "publishedAt": "2026-08-11T10:30:16Z",
+      "live": false
+    },
+    {
+      "id": "-AwsH252NDE",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【マイクラ￤ストリヌ】4日目！今日も開店準備にいそしむのだ🔥【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/-AwsH252NDE/hqdefault_live.jpg",
+      "publishedAt": "2026-08-11T10:07:38Z",
+      "live": false
+    },
+    {
+      "id": "40Ngrxq0sV4",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "【歌枠リレー】真夏のエモ曲歌うぞ【#ミリプロサマー2026 】",
+      "thumb": "https://i.ytimg.com/vi/40Ngrxq0sV4/hqdefault_live.jpg",
+      "publishedAt": "2026-08-11T10:04:39Z",
+      "live": false
+    },
+    {
+      "id": "B8AB81G-UOQ",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 歌枠 〗夏ってのはこうやってやんねん！＃ミリプロサマー2026〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/B8AB81G-UOQ/hqdefault.jpg",
+      "publishedAt": "2026-08-11T09:37:08Z",
+      "live": false
+    },
+    {
+      "id": "QACaEZagLxI",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【歌枠】急遽順番変更！任せろ！みんなついて来い！！【#ミリプロサマー2026】",
+      "thumb": "https://i.ytimg.com/vi/QACaEZagLxI/hqdefault.jpg",
+      "publishedAt": "2026-08-11T09:30:27Z",
+      "live": false
+    },
+    {
+      "id": "NzSTewCQTEs",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【オリジナル曲】『おきらくスーパースター』ペンライトふりふり！【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/NzSTewCQTEs/hqdefault.jpg",
+      "publishedAt": "2026-08-11T09:00:19Z",
+      "live": false
+    },
+    {
+      "id": "rvXBXXv_7dU",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【歌枠】ナツいアツをアゲ↑↑↑していきます【#ミリプロサマー2026】",
+      "thumb": "https://i.ytimg.com/vi/rvXBXXv_7dU/hqdefault.jpg",
+      "publishedAt": "2026-08-11T08:41:26Z",
       "live": false
     },
     {
@@ -353,16 +461,6 @@
       "live": false
     },
     {
-      "id": "EWuM10WcRJg",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 ストリヌ 】まじでがちでかなりとても #4 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/EWuM10WcRJg/hqdefault_live.jpg",
-      "publishedAt": "2026-08-11T06:20:55Z",
-      "live": false
-    },
-    {
       "id": "mjG1KNrQLkk",
       "memberId": "koma",
       "member": "小廻こま",
@@ -380,16 +478,6 @@
       "title": "【 #ミリプロサマー2026 】トップバッターぶちかますぞ！ ⟡.· 【夕霧レイ / ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/FiohR4aHFAM/hqdefault.jpg",
       "publishedAt": "2026-08-11T05:49:20Z",
-      "live": false
-    },
-    {
-      "id": "-AwsH252NDE",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【マイクラ￤ストリヌ】4日目！今日も開店準備にいそしむのだ🔥【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/-AwsH252NDE/hqdefault_live.jpg",
-      "publishedAt": "2026-08-11T04:16:50Z",
       "live": false
     },
     {
@@ -511,86 +599,61 @@
       "thumb": "https://i.ytimg.com/vi/7xGxJAsurwg/hqdefault.jpg",
       "publishedAt": "2026-08-09T17:27:39Z",
       "live": false
-    },
-    {
-      "id": "IcsUImsDVBU",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "【ストリヌ】 人間から逃げない修行をする 【#あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/IcsUImsDVBU/hqdefault.jpg",
-      "publishedAt": "2026-08-09T17:20:27Z",
-      "live": false
-    },
-    {
-      "id": "-pP9CV66Zgk",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ストリヌ 〗億万長者へのルートを考える日々 #2〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/-pP9CV66Zgk/hqdefault.jpg",
-      "publishedAt": "2026-08-09T17:04:16Z",
-      "live": false
-    },
-    {
-      "id": "ghXTTcqN6Ok",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【歌枠】20.1万人BIG感謝歌枠【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ghXTTcqN6Ok/hqdefault.jpg",
-      "publishedAt": "2026-08-09T09:36:10Z",
-      "live": false
-    },
-    {
-      "id": "gaySHqilJ58",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 NTE 】レベル上げ＆まったり街探索【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/gaySHqilJ58/hqdefault.jpg",
-      "publishedAt": "2026-08-09T07:46:29Z",
-      "live": false
-    },
-    {
-      "id": "yqoi7fnS_gc",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "週末の宿題、やらなきゃいけない作業、溜まってる人、強制集合。【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/yqoi7fnS_gc/hqdefault.jpg",
-      "publishedAt": "2026-08-09T07:25:24Z",
-      "live": false
-    },
-    {
-      "id": "L_erYoJzvY8",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "おはぴっぷる、です",
-      "thumb": "https://i.ytimg.com/vi/L_erYoJzvY8/hqdefault.jpg",
-      "publishedAt": "2026-08-08T23:47:30Z",
-      "live": false
-    },
-    {
-      "id": "R8xNyUN4yRs",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 雑談 〗こまが起きたら即終了　無軌道雑談 w/雨夜〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/R8xNyUN4yRs/hqdefault.jpg",
-      "publishedAt": "2026-08-08T17:05:53Z",
-      "live": true
     }
   ],
   "live": [
     {
-      "id": "QACaEZagLxI",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【歌枠】急遽順番変更！任せろ！みんなついて来い！！【#ミリプロサマー2026】",
-      "thumb": "https://i.ytimg.com/vi/QACaEZagLxI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-11T08:33:18Z",
+      "id": "-AwsH252NDE",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "【マイクラ￤ストリヌ】4日目！今日も開店準備にいそしむのだ🔥【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/-AwsH252NDE/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-11T10:07:38Z",
+      "status": "live"
+    },
+    {
+      "id": "QfXEvq7bz5s",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 ストリヌ 】目指せ！まともな銭湯！#4【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/QfXEvq7bz5s/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-11T10:30:16Z",
+      "status": "live"
+    },
+    {
+      "id": "z9UHVEhSlXA",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【ストリヌ】第4話「しっぷぅ騎士団、本部復興中！」【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/z9UHVEhSlXA/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-11T10:36:40Z",
+      "status": "live"
+    },
+    {
+      "id": "EWuM10WcRJg",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 ストリヌ 】まじでがちでかなりとても #4 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/EWuM10WcRJg/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-11T10:43:16Z",
+      "status": "live"
+    },
+    {
+      "id": "WospUiVFj9g",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 ストリヌ 〗デザイナーで一攫千金できるのか #3〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/WospUiVFj9g/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-11T11:04:21Z",
+      "status": "live"
+    },
+    {
+      "id": "9oDvgBSqe_E",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【ストリヌ/Minecraft 】ダンジョンダンジョンダダンジョン【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/9oDvgBSqe_E/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-11T12:07:45Z",
       "status": "live"
     }
   ]
