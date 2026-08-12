@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T12:38:05.580Z",
+  "updatedAt": "2026-08-12T16:43:13.362Z",
   "streams": [
     {
       "id": "FzNoHupFwFQ",
@@ -38,15 +38,6 @@
       "status": "live"
     },
     {
-      "id": "R7rxlZ7VRWc",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【歌枠】音とはＰＯＷＥＲである。┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/R7rxlZ7VRWc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-12T10:00:46Z",
-      "status": "live"
-    },
-    {
       "id": "FshB-ZY8aoY",
       "memberId": "akubi",
       "member": "あくび・でもんすぺーど",
@@ -61,8 +52,8 @@
       "member": "眠雲ツクリ",
       "title": "〖 ストリヌ 〗お仕事でお金を得たいのだ #4〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/nmW6in-RoSw/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-12T13:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-08-12T13:02:42Z",
+      "status": "live"
     },
     {
       "id": "tFy_PqQNxyg",
@@ -292,6 +283,26 @@
   ],
   "videos": [
     {
+      "id": "R7rxlZ7VRWc",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【歌枠】音とはＰＯＷＥＲである。┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/R7rxlZ7VRWc/hqdefault.jpg",
+      "publishedAt": "2026-08-12T13:17:23Z",
+      "live": false
+    },
+    {
+      "id": "nmW6in-RoSw",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ストリヌ 〗お仕事でお金を得たいのだ #4〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/nmW6in-RoSw/hqdefault_live.jpg",
+      "publishedAt": "2026-08-12T13:02:42Z",
+      "live": false
+    },
+    {
       "id": "FshB-ZY8aoY",
       "memberId": "akubi",
       "member": "あくび・でもんすぺーど",
@@ -309,26 +320,6 @@
       "title": "【オバケイドロ２】 オバケとニンゲンでおいかけっこするゲーム【#あくび・でもんすぺーど】",
       "thumb": "https://i.ytimg.com/vi/MyalPzyuxZM/hqdefault.jpg",
       "publishedAt": "2026-08-12T12:23:31Z",
-      "live": false
-    },
-    {
-      "id": "nmW6in-RoSw",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ストリヌ 〗お仕事でお金を得たいのだ #4〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/nmW6in-RoSw/hqdefault_live.jpg",
-      "publishedAt": "2026-08-12T12:18:56Z",
-      "live": false
-    },
-    {
-      "id": "R7rxlZ7VRWc",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【歌枠】音とはＰＯＷＥＲである。┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/R7rxlZ7VRWc/hqdefault_live.jpg",
-      "publishedAt": "2026-08-12T10:00:46Z",
       "live": false
     },
     {
@@ -630,21 +621,21 @@
       "status": "live"
     },
     {
-      "id": "R7rxlZ7VRWc",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【歌枠】音とはＰＯＷＥＲである。┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/R7rxlZ7VRWc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-12T10:00:46Z",
-      "status": "live"
-    },
-    {
       "id": "FshB-ZY8aoY",
       "memberId": "akubi",
       "member": "あくび・でもんすぺーど",
       "title": "【ストリヌ】 ダンジョン狂 【#あくび・でもんすぺーど】",
       "thumb": "https://i.ytimg.com/vi/FshB-ZY8aoY/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-12T12:24:01Z",
+      "status": "live"
+    },
+    {
+      "id": "nmW6in-RoSw",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 ストリヌ 〗お仕事でお金を得たいのだ #4〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/nmW6in-RoSw/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-12T13:02:42Z",
       "status": "live"
     }
   ]

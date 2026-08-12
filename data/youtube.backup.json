@@ -1,23 +1,32 @@
 {
-  "updatedAt": "2026-08-12T08:57:28.586Z",
+  "updatedAt": "2026-08-12T12:38:05.580Z",
   "streams": [
-    {
-      "id": "JmsWJgDDI3E",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【ストリヌ】第5話「復興の合間に、大冒険！」【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/JmsWJgDDI3E/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-12T09:30:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "FzNoHupFwFQ",
       "memberId": "konomi",
       "member": "甘狼このみ",
       "title": "【マイクラ￤ストリヌ】5日目！ガチャも頭もお金もぜーーーんぶ回すんだ【#あまかみらいぶ】",
       "thumb": "https://i.ytimg.com/vi/FzNoHupFwFQ/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-12T09:30:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-08-12T09:23:07Z",
+      "status": "live"
+    },
+    {
+      "id": "ylAov5O0rcc",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 ストリヌ 】ここは新世界！あれれ記憶がないな...#5【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ylAov5O0rcc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-12T09:29:34Z",
+      "status": "live"
+    },
+    {
+      "id": "JmsWJgDDI3E",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【ストリヌ】第5話「復興の合間に、大冒険！」【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/JmsWJgDDI3E/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-12T09:32:48Z",
+      "status": "live"
     },
     {
       "id": "xsC3RxhaT7c",
@@ -25,8 +34,8 @@
       "member": "夕霧レイ",
       "title": "【 ストリヌ 】がっちでやばくて #5 【夕霧レイ / ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/xsC3RxhaT7c/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-12T10:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-08-12T10:00:11Z",
+      "status": "live"
     },
     {
       "id": "R7rxlZ7VRWc",
@@ -34,16 +43,25 @@
       "member": "音ノ乃のの",
       "title": "【歌枠】音とはＰＯＷＥＲである。┊︎#音ノ乃のの #ののん家",
       "thumb": "https://i.ytimg.com/vi/R7rxlZ7VRWc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-12T10:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-08-12T10:00:46Z",
+      "status": "live"
     },
     {
-      "id": "MyalPzyuxZM",
+      "id": "FshB-ZY8aoY",
       "memberId": "akubi",
       "member": "あくび・でもんすぺーど",
-      "title": "【オバケイドロ２】 オバケとニンゲンでおいかけっこするゲーム【#あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/MyalPzyuxZM/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-12T11:00:00Z",
+      "title": "【ストリヌ】 ダンジョン狂 【#あくび・でもんすぺーど】",
+      "thumb": "https://i.ytimg.com/vi/FshB-ZY8aoY/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-12T12:24:01Z",
+      "status": "live"
+    },
+    {
+      "id": "nmW6in-RoSw",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 ストリヌ 〗お仕事でお金を得たいのだ #4〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/nmW6in-RoSw/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-12T13:00:00Z",
       "status": "upcoming"
     },
     {
@@ -274,13 +292,43 @@
   ],
   "videos": [
     {
+      "id": "FshB-ZY8aoY",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "【ストリヌ】 ダンジョン狂 【#あくび・でもんすぺーど】",
+      "thumb": "https://i.ytimg.com/vi/FshB-ZY8aoY/hqdefault_live.jpg",
+      "publishedAt": "2026-08-12T12:24:01Z",
+      "live": false
+    },
+    {
+      "id": "MyalPzyuxZM",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "【オバケイドロ２】 オバケとニンゲンでおいかけっこするゲーム【#あくび・でもんすぺーど】",
+      "thumb": "https://i.ytimg.com/vi/MyalPzyuxZM/hqdefault.jpg",
+      "publishedAt": "2026-08-12T12:23:31Z",
+      "live": false
+    },
+    {
+      "id": "nmW6in-RoSw",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ストリヌ 〗お仕事でお金を得たいのだ #4〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/nmW6in-RoSw/hqdefault_live.jpg",
+      "publishedAt": "2026-08-12T12:18:56Z",
+      "live": false
+    },
+    {
       "id": "R7rxlZ7VRWc",
       "memberId": "nono",
       "member": "音ノ乃のの",
       "channelTitle": "音ノ乃のの / NononoNono",
       "title": "【歌枠】音とはＰＯＷＥＲである。┊︎#音ノ乃のの #ののん家",
       "thumb": "https://i.ytimg.com/vi/R7rxlZ7VRWc/hqdefault_live.jpg",
-      "publishedAt": "2026-08-12T08:18:11Z",
+      "publishedAt": "2026-08-12T10:00:46Z",
       "live": false
     },
     {
@@ -290,7 +338,37 @@
       "channelTitle": "夕霧レイ / YugiriRay",
       "title": "【 ストリヌ 】がっちでやばくて #5 【夕霧レイ / ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/xsC3RxhaT7c/hqdefault_live.jpg",
-      "publishedAt": "2026-08-12T08:01:28Z",
+      "publishedAt": "2026-08-12T10:00:11Z",
+      "live": false
+    },
+    {
+      "id": "JmsWJgDDI3E",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【ストリヌ】第5話「復興の合間に、大冒険！」【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/JmsWJgDDI3E/hqdefault_live.jpg",
+      "publishedAt": "2026-08-12T09:32:48Z",
+      "live": false
+    },
+    {
+      "id": "ylAov5O0rcc",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 ストリヌ 】ここは新世界！あれれ記憶がないな...#5【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ylAov5O0rcc/hqdefault_live.jpg",
+      "publishedAt": "2026-08-12T09:29:34Z",
+      "live": false
+    },
+    {
+      "id": "FzNoHupFwFQ",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【マイクラ￤ストリヌ】5日目！ガチャも頭もお金もぜーーーんぶ回すんだ【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/FzNoHupFwFQ/hqdefault_live.jpg",
+      "publishedAt": "2026-08-12T09:23:07Z",
       "live": false
     },
     {
@@ -314,16 +392,6 @@
       "live": false
     },
     {
-      "id": "JmsWJgDDI3E",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【ストリヌ】第5話「復興の合間に、大冒険！」【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/JmsWJgDDI3E/hqdefault_live.jpg",
-      "publishedAt": "2026-08-11T19:10:19Z",
-      "live": false
-    },
-    {
       "id": "q2mtouxkLoo",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -341,16 +409,6 @@
       "title": "【 ストリヌ 】目指せ！まともな銭湯！#4【小廻こま/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/QfXEvq7bz5s/hqdefault.jpg",
       "publishedAt": "2026-08-11T17:41:32Z",
-      "live": false
-    },
-    {
-      "id": "FzNoHupFwFQ",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【マイクラ￤ストリヌ】5日目！ガチャも頭もお金もぜーーーんぶ回すんだ【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/FzNoHupFwFQ/hqdefault_live.jpg",
-      "publishedAt": "2026-08-11T17:40:55Z",
       "live": false
     },
     {
@@ -532,47 +590,62 @@
       "thumb": "https://i.ytimg.com/vi/gjRzs5Nc0O4/hqdefault.jpg",
       "publishedAt": "2026-08-10T15:41:22Z",
       "live": false
-    },
-    {
-      "id": "2w3sn11oJwc",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 ストリヌ 】ダンジョンの神になる #3 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/2w3sn11oJwc/hqdefault.jpg",
-      "publishedAt": "2026-08-10T15:34:07Z",
-      "live": false
-    },
-    {
-      "id": "dzCrr2aHJoI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【ストリヌ】第3話「しっぷぅ騎士団、本部復興へ。」【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/dzCrr2aHJoI/hqdefault.jpg",
-      "publishedAt": "2026-08-10T15:25:19Z",
-      "live": false
-    },
-    {
-      "id": "-HObBGOpJjY",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 ストリヌ 】異世界楽しみまくるぞ#3【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/-HObBGOpJjY/hqdefault.jpg",
-      "publishedAt": "2026-08-10T15:22:35Z",
-      "live": false
-    },
-    {
-      "id": "HQmb8rJWnmA",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "【ストリヌ】 決闘屋への道のり 【#あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/HQmb8rJWnmA/hqdefault.jpg",
-      "publishedAt": "2026-08-10T15:11:36Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "FzNoHupFwFQ",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "【マイクラ￤ストリヌ】5日目！ガチャも頭もお金もぜーーーんぶ回すんだ【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/FzNoHupFwFQ/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-12T09:23:07Z",
+      "status": "live"
+    },
+    {
+      "id": "ylAov5O0rcc",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 ストリヌ 】ここは新世界！あれれ記憶がないな...#5【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ylAov5O0rcc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-12T09:29:34Z",
+      "status": "live"
+    },
+    {
+      "id": "JmsWJgDDI3E",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【ストリヌ】第5話「復興の合間に、大冒険！」【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/JmsWJgDDI3E/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-12T09:32:48Z",
+      "status": "live"
+    },
+    {
+      "id": "xsC3RxhaT7c",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 ストリヌ 】がっちでやばくて #5 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/xsC3RxhaT7c/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-12T10:00:11Z",
+      "status": "live"
+    },
+    {
+      "id": "R7rxlZ7VRWc",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【歌枠】音とはＰＯＷＥＲである。┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/R7rxlZ7VRWc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-12T10:00:46Z",
+      "status": "live"
+    },
+    {
+      "id": "FshB-ZY8aoY",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "title": "【ストリヌ】 ダンジョン狂 【#あくび・でもんすぺーど】",
+      "thumb": "https://i.ytimg.com/vi/FshB-ZY8aoY/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-12T12:24:01Z",
+      "status": "live"
+    }
+  ]
 }
