@@ -1119,7 +1119,7 @@
     if (shareBtn) {
       shareBtn.addEventListener("click", function () {
         var u = encodeURIComponent(location.href);
-        var t = encodeURIComponent(document.title + " | Milli Orbis");
+        var t = encodeURIComponent("「" + document.title + "」見てます！ #ミリプロ #MilliOrbis");
         window.open("https://twitter.com/intent/tweet?url=" + u + "&text=" + t, "_blank", "noopener,width=600,height=520");
       });
     }
