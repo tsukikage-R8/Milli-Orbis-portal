@@ -47,16 +47,16 @@ const GOODS_ICON = {
 const GOODS = [
   { name: "虹深°ぬふ 1周年記念グッズ フルセット", memberId: "nuhu", kind: "fullset", price: 19900, oldPrice: 20200, tag: "NEW", url: "https://shop.milpr.com/products/nufu_1st_anniversary_full" },
   { name: "虹深°ぬふ 1周年記念グッズ アクリルスタンド", memberId: "nuhu", kind: "stand", price: 1800, tag: "NEW", url: "https://shop.milpr.com/products/nufu_1st_anniversary_acrylicstand" },
-  { name: "虹深°ぬふ 1周年記念グッズ レンチキュラーアクリルキーホルダー", memberId: "nuhu", kind: "keyholder", price: 2800, tag: "NEW", url: "https://shop.milpr.com/products/nufu_1st_anniversary_lenticular_ackey" },
-  { name: "虹深°ぬふ 1周年記念グッズ ランダムミニアクリルキーホルダー", memberId: "nuhu", kind: "keyholder", price: 600, tag: "NEW", url: "https://shop.milpr.com/products/nufu_1st_anniversary_random_miniackey" },
   { name: "虹深°ぬふ 1周年記念 シチュエーションボイス", memberId: "nuhu", kind: "voice", price: 1000, tag: "NEW", url: "https://shop.milpr.com/products/nufu_1st_anniversary_voice" },
-  { name: "虹深°ぬふ 1周年記念グッズ 抱き枕カバー", memberId: "nuhu", kind: "bodypillow", price: 12000, tag: "NEW", url: "https://shop.milpr.com/products/nufu_1st_anniversary_bodypillowcover" },
-  { name: "虹深°ぬふ 1周年記念グッズ 靴下", memberId: "nuhu", kind: "sock", price: 2000, tag: "NEW", url: "https://shop.milpr.com/products/nufu_1st_anniversary_sox" },
-  { name: "ミリプロ サマーコレクション 2026 プレミアムタレントセット", memberId: "", memberLabel: "ミリプロ全員", kind: "fullset", price: 23400, oldPrice: 23700, url: "https://shop.milpr.com/products/summer_2026_talentset_premium" },
-  { name: "ミリプロ サマーコレクション 2026 タレントセット", memberId: "", memberLabel: "ミリプロ全員", kind: "fullset", price: 18000, oldPrice: 18300, url: "https://shop.milpr.com/products/summer_2026_talentset" },
-  { name: "ミリプロ サマーコレクション 2026 オーロラアクリルスタンド", memberId: "", memberLabel: "ミリプロ全員", kind: "stand", price: 2200, url: "https://shop.milpr.com/products/summer_2026_aurora_acsta" },
-  { name: "ミリプロ サマーコレクション 2026 クリアファイル", memberId: "", memberLabel: "ミリプロ全員", kind: "clearfile", price: 800, url: "https://shop.milpr.com/products/summer_2026_clearfile" },
-  { name: "ミリプロ サマーコレクション 2026 シチュエーションボイス", memberId: "", memberLabel: "ミリプロ全員", kind: "voice", price: 1000, url: "https://shop.milpr.com/products/summer_2026_voice" }
+  { name: "ミリプロTCG「Million Production OFFICIAL CARD GAME vol.4」1パック", memberId: "", memberLabel: "ミリプロ全員", kind: "card", price: 600, tag: "NEW", url: "https://shop.milpr.com/products/milpr_tcg_vol4" },
+  { name: "ミリプロTCG「Million Production OFFICIAL CARD GAME vol.4」11パックセット", memberId: "", memberLabel: "ミリプロ全員", kind: "card", price: 6000, tag: "NEW", url: "https://shop.milpr.com/products/milpr_tcg_vol4_11" },
+  { name: "ミリプロ サマーコレクション 2026 プレミアムタレントセット", memberId: "", memberLabel: "ミリプロ全員", kind: "fullset", price: 23400, oldPrice: 23700, tag: "NEW", url: "https://shop.milpr.com/products/summer_2026_talentset_premium" },
+  { name: "ミリプロ サマーコレクション 2026 オーロラアクリルスタンド", memberId: "", memberLabel: "ミリプロ全員", kind: "stand", price: 2200, tag: "NEW", url: "https://shop.milpr.com/products/summer_2026_aurora_acsta" },
+  { name: "小廻こま 誕生日記念グッズ 2026 フルセット", memberId: "koma", kind: "fullset", price: 12300, tag: "NEW", url: "https://shop.milpr.com/products/koma_birthday2026_full" },
+  { name: "小廻こま 誕生日記念グッズ 2026 ジオラマアクリルスタンド", memberId: "koma", kind: "stand", price: 3500, tag: "NEW", url: "https://shop.milpr.com/products/koma_birthday2026_diorama_acsta" },
+  { name: "小廻こま 誕生日記念グッズ 2026 アクリルスタンド", memberId: "koma", kind: "stand", price: 1800, tag: "NEW", url: "https://shop.milpr.com/products/koma_birthday2026_acrylicstand" },
+  { name: "あくび・でもんすぺーど 50万人記念グッズ フルセット", memberId: "akubi", kind: "fullset", price: 11500, tag: "NEW", url: "https://shop.milpr.com/products/akubi_50_full" },
+  { name: "あくび・でもんすぺーど 50万人記念グッズ メタルチャームネックレス", memberId: "akubi", kind: "necklace", price: 5000, tag: "NEW", url: "https://shop.milpr.com/products/akubi_50_necklace" }
 ];
 
 
@@ -573,6 +573,20 @@ const NEWS = [
     url: "https://milpr.com/news/milpr_resort"
   },
   {
+    date: "2026-08-14",
+    tag: "コンテスト",
+    title: "ミリ創作 ゲーム・インタラクティブ部門 募集締切",
+    desc: "Webサイト・ファンサイトが対象の部門です。募集は2026年8月14日まで。",
+    url: "https://milpr.com/sosaku"
+  },
+  {
+    date: "2026-08-13",
+    tag: "コラボ",
+    title: "Risdom（リズダム）× ミリプロ コラボ開催決定！",
+    desc: "ゲーム型英語学習アプリ「Risdom（リズダム）」とのコラボがスタート。コラボを記念して甘狼このみが登場します。",
+    url: "https://milpr.com/news/konomi_Risdom"
+  },
+  {
     date: "2026-08-08",
     tag: "グッズ",
     title: "虹深°ぬふ 1周年記念グッズ 受注開始！",
@@ -609,6 +623,13 @@ const NEWS = [
   },
   {
     date: "2026-08-01",
+    tag: "グッズ",
+    title: "小廻こま 誕生日記念グッズ 2026 受注開始！",
+    desc: "ミリプロオフィシャルショップにて『小廻こま 誕生日記念グッズ 2026』の受注がスタート。",
+    url: "https://milpr.com/news/koma_birthday2026"
+  },
+  {
+    date: "2026-08-01",
     tag: "楽曲",
     title: "小廻こま オリジナル楽曲「おきらくスーパースター」リリース決定！",
     desc: "小廻こま初のオリジナル楽曲がMillion RECORDSよりリリース。",
@@ -622,11 +643,25 @@ const NEWS = [
     url: "https://milpr.com/news/OLYMPIA_Vol3"
   },
   {
-    date: "2026-08-14",
-    tag: "コンテスト",
-    title: "ミリ創作 ゲーム・インタラクティブ部門 募集締切",
-    desc: "Webサイト・ファンサイトが対象の部門です。募集は2026年8月14日まで。",
-    url: "https://milpr.com/sosaku"
+    date: "2026-07-26",
+    tag: "達成",
+    title: "あくび・でもんすぺーど 50万人記念グッズ 受注開始！",
+    desc: "『あくび・でもんすぺーど 50万人記念グッズ』の受注がスタート。",
+    url: "https://milpr.com/news/akubi_50"
+  },
+  {
+    date: "2026-07-23",
+    tag: "グッズ",
+    title: "ミリプロ ストリートコレクション 2026 受注開始！",
+    desc: "ストリートをテーマにしたコレクションの受注がスタート。",
+    url: "https://milpr.com/news/street2026"
+  },
+  {
+    date: "2026-07-18",
+    tag: "グッズ",
+    title: "ミリプロ 夏休み幼馴染コレクション 2026 受注開始！",
+    desc: "夏休みの田舎をテーマにしたコレクションの受注がスタート。夕霧レイもボイスに参加。",
+    url: "https://milpr.com/news/summer_vacation_2026"
   }
 ];
 
@@ -649,7 +684,8 @@ const LINKS = [
 const EVENTS = [
   { type: "event", date: "2026-08-11", title: "ミリプロサマー2026 夏曲歌枠リレー", desc: "総勢10名による夏曲歌枠リレー（各メンバーチャンネル）", url: "https://milpr.com/news/millipro_summer_2026" },
   { type: "event", date: "2026-08-16", title: "ミリプロ夏祭り in ナイトプール", desc: "ミリプロマイクラサーバーで開催（各メンバーチャンネル）", url: "https://milpr.com/news/millipro_summer_2026" },
-  { type: "event", date: "2026-08-29", title: "ミリプロリゾート", desc: "秋葉原UDXにて開催", url: "https://milpr.com/news/milpr_resort" },
+  { type: "event", date: "2026-08-29", title: "ミリプロリゾート", desc: "秋葉原UDXギャラリーにて開催（POP UP展示＆グッズ販売）", url: "https://milpr.com/news/milpr_resort" },
+  { type: "event", date: "2026-08-29", title: "ミリプロTCG サマーカップ 2026", desc: "ミリプロリゾート内で開催（ミリプロTCG初の公式大会）", url: "https://milpr.com/millipro_resort" },
   { type: "event", date: "2026-08-30", title: "ミリプロサマー2026 閉会式", desc: "公式YouTubeチャンネルにて", url: "https://milpr.com/news/millipro_summer_2026" },
   { type: "birthday", member: "koma", title: "小廻こま 誕生日", url: "koma.html" },
   { type: "birthday", member: "nono", title: "音ノ乃のの 誕生日", url: "nono.html" },
@@ -675,10 +711,10 @@ const EVENTS = [
 ];
 
 const X_POSTS = [
-  "https://x.com/Mil_Pro_/status/2019606993233674580",
-  "https://x.com/Mil_Pro_/status/1679398099905810432",
   "https://x.com/Mil_Pro_/status/2086061757869805859",
   "https://x.com/Mil_Pro_/status/2085935896235499775",
+  "https://x.com/Mil_Pro_/status/2078068096661627227",
+  "https://x.com/Mil_Pro_/status/2076260542709420357",
   "https://x.com/Mil_Pro_/status/2056283648064672107"
 ];
 
@@ -694,7 +730,10 @@ const HISTORY = [
   { date: "2025/8/8", title: "虹深°ぬふ デビュー（ミリプロNOVA）" },
   { date: "2026/4/5", title: "自社音楽レーベル「Million RECORDS」設立" },
   { date: "2026/5/9", title: "1st 3Dライブ「Million Story」開催", desc: "Zepp Shinjukuにて。3D出演8名＋映像出演あくび" },
-  { date: "2026/7/11", title: "夕霧レイ デビュー（ミリプロUNI）" }
+  { date: "2026/7/11", title: "夕霧レイ デビュー（ミリプロUNI）" },
+  { date: "2026/7", title: "あくび・でもんすぺーど、チャンネル登録者数50万人突破" },
+  { date: "2026/8/5", title: "夕霧レイ、チャンネル登録者数10万人突破", desc: "デビューから約1か月での突破" },
+  { date: "2026/8/13", title: "英語学習アプリ「Risdom」とコラボ開始", desc: "甘狼このみが登場するゲーム型英語学習アプリ「Risdom（リズダム）」とのコラボ" }
 ];
 
 const YOUTUBE = {
