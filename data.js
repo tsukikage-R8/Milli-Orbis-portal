@@ -92,7 +92,7 @@ const MEMBERS = [
     img: "images/talents/konomi.webp",
     logo: "images/rogo/konomirogo.webp",
     icon: "images/icon/konomi_profile.jpg",
-    catchphrase: "あなたと好きでつながりたい。あなたと好きを共有したい。",
+    catchphrase: "あなたと「すき」を共有したい。あなたと「すき」で繋がりたい。",
     introVoice: "",
     fx: "choco",
     deco: {
