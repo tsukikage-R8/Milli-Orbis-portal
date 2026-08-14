@@ -743,6 +743,7 @@
     var now = jstNow();
     return new Date(now.getFullYear(), now.getMonth(), 1);
   })();
+  var calRefresh = null;
 
   function evColor(type) {
     return type === "birthday" ? "#ef6a8d" : type === "anniversary" ? "#f2a93b" : "#6a9ef0";
@@ -775,8 +776,41 @@
     return list.sort(function (a, b) { return a.date - b.date; });
   }
 
+  /* 推しフィルター（カレンダー・グッズ共通、ローカル記憶） */
+  function oshiFilterOn() {
+    try { return localStorage.getItem("milli-oshifilter") === "1"; } catch (e) { return false; }
+  }
+
+  function setOshiFilter(on) {
+    try { localStorage.setItem("milli-oshifilter", on ? "1" : "0"); } catch (e) {}
+    ["calOshiFilter", "goodsOshiFilter"].forEach(function (id) {
+      var b = $("#" + id);
+      if (b) b.classList.toggle("active", on);
+    });
+  }
+
+  function toggleOshiFilter() {
+    if (!getOshi()) {
+      showToast("先にプロフィールで推しを選択してください");
+      return;
+    }
+    setOshiFilter(!oshiFilterOn());
+    if (calRefresh) calRefresh();
+    renderGoods();
+  }
+
+  function filteredOccurrences() {
+    var list = eventOccurrences();
+    if (!oshiFilterOn()) return list;
+    var oshi = getOshi();
+    if (!oshi) return list;
+    return list.filter(function (it) {
+      return !it.ev.member || it.ev.member === oshi;
+    });
+  }
+
   function eventsOn(y, mo, d) {
-    return eventOccurrences().filter(function (it) {
+    return filteredOccurrences().filter(function (it) {
       return it.date.getFullYear() === y && it.date.getMonth() === mo && it.date.getDate() === d;
     });
   }
@@ -810,7 +844,7 @@
     function renderList() {
       var y = calViewMonth.getFullYear();
       var mo = calViewMonth.getMonth();
-      var items = eventOccurrences().filter(function (it) {
+      var items = filteredOccurrences().filter(function (it) {
         return it.date.getFullYear() === y && it.date.getMonth() === mo;
       });
       listBox.innerHTML = items.length ? items.map(function (it) {
@@ -920,6 +954,7 @@
     renderList();
     renderGrid();
     setView("list");
+    calRefresh = function () { renderList(); renderGrid(); };
   }
 
   /* ============ ヒストリー ============ */
@@ -1214,10 +1249,17 @@
     return '<span class="tile-char">' + esc((g.name || "?").charAt(0)) + "</span>";
   }
 
+  var goodsCarTimer = null;
+
   function renderGoods() {
     var box = $("#goodsTrack");
     if (!box || !GOODS.length) return;
-    box.innerHTML = GOODS.map(function (g) {
+    var list = GOODS;
+    if (oshiFilterOn()) {
+      var oshi = getOshi();
+      if (oshi) list = GOODS.filter(function (g) { return g.memberId === oshi; });
+    }
+    box.innerHTML = list.map(function (g) {
       var m = g.memberId ? getMember(g.memberId) : null;
       var label = m ? m.name : (g.memberLabel || "ミリプロ全員");
       var color = m ? m.color : "#75b1c0";
@@ -1244,7 +1286,7 @@
     var dots = $("#goodsDots");
     var n = box.children.length;
     if (!n) return;
-    var idx = 0, pv = 3, timer = null;
+    var idx = 0, pv = 3;
 
     function perView() {
       var w = viewport ? viewport.clientWidth : 0;
@@ -1291,14 +1333,14 @@
     }
 
     function restart() {
-      if (timer) clearInterval(timer);
-      timer = setInterval(function () {
+      if (goodsCarTimer) clearInterval(goodsCarTimer);
+      goodsCarTimer = setInterval(function () {
         go(idx + 1 >= n ? 0 : idx + 1, true);
       }, 5000);
     }
 
     function stop() {
-      if (timer) { clearInterval(timer); timer = null; }
+      if (goodsCarTimer) { clearInterval(goodsCarTimer); goodsCarTimer = null; }
     }
 
     if (prev) prev.addEventListener("click", function () { go(idx - 1, true); restart(); });
@@ -1487,6 +1529,11 @@
     initReminderWatcher();
     initRemindAll();
     initServiceWorker();
+    ["calOshiFilter", "goodsOshiFilter"].forEach(function (id) {
+      var b = $("#" + id);
+      if (b) b.addEventListener("click", toggleOshiFilter);
+    });
+    setOshiFilter(oshiFilterOn());
   }
 
   if (document.readyState === "loading") {

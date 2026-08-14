@@ -160,6 +160,9 @@
   <section id="goods" class="section container">
     <h2 class="section-title">最新グッズ</h2>
     <p class="section-sub">ミリプロオフィシャルショップより販売中の最新グッズをピックアップ（2026年8月14日時点）</p>
+    <div class="goods-tools">
+      <button id="goodsOshiFilter" type="button" class="cd-style-btn">推しのグッズだけ</button>
+    </div>
     <div class="goods-carousel">
       <button id="goodsPrev" class="car-btn" type="button" aria-label="前へ">◀</button>
       <div class="car-viewport">
@@ -184,9 +187,11 @@
       <button id="calPrev" type="button" class="btn btn-ghost">◀</button>
       <span id="calTitle" class="cal-title"></span>
       <button id="calNext" type="button" class="btn btn-ghost">▶</button>
+      <button id="calOshiFilter" type="button" class="cd-style-btn" aria-label="推しのイベントだけ表示">推しだけ</button>
       <button id="calListBtn" type="button" class="cd-style-btn">リスト</button>
       <button id="calGridBtn" type="button" class="cd-style-btn">カレンダー</button>
     </div>
+    <p class="cal-subscribe">📅 <a href="calendar.ics">カレンダーを購読（.ics）</a> — Googleカレンダー: 「他のカレンダー」→「URLで追加」に <code>https://milli-orbis-portal.onrender.com/calendar.ics</code> を貼り付け（4時間ごとに自動更新）</p>
     <div id="eventList" class="cal-list"></div>
     <div id="calendarGrid" class="cal-grid" style="display:none;"></div>
     <div class="cal-legend"><span><span class="dot"></span>イベントのある日は日付をクリックすると詳細が見られます</span></div>

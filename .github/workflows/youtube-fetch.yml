@@ -23,10 +23,13 @@ jobs:
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
 
+      - name: Generate calendar.ics
+        run: node scripts/gen-calendar-ics.js
+
       - name: Commit and push
         run: |
           git config user.name "Milli Orbis Bot"
           git config user.email "bot@milliorbis.local"
-          git add data/youtube.json data/youtube.backup.json
+          git add data/youtube.json data/youtube.backup.json calendar.ics
           git diff --cached --quiet || git commit -m "chore: update youtube data"
           git push
