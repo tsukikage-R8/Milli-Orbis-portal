@@ -94,6 +94,7 @@ const MEMBERS = [
     icon: "images/icon/konomi_profile.jpg",
     catchphrase: "あなたと好きでつながりたい。あなたと好きを共有したい。",
     introVoice: "",
+    fx: "choco",
     deco: {
       label: "paw",
       shape: "paw",
@@ -105,7 +106,7 @@ const MEMBERS = [
       ]
     },
     featuredVideos: [],
-    voice: "",
+    voice: "assets/voices/甘狼このみ.mp3",
     intro: ""
   },
   {
@@ -139,6 +140,7 @@ const MEMBERS = [
     icon: "images/icon/nono_profile.jpg",
     catchphrase: "ダイヤのように輝きたいっ！",
     introVoice: "",
+    fx: "note",
     deco: {
       label: "note",
       floats: [
@@ -149,7 +151,7 @@ const MEMBERS = [
       ]
     },
     featuredVideos: [],
-    voice: "",
+    voice: "assets/voices/音ノ乃のの.mp3",
     intro: ""
   },
   {
@@ -183,6 +185,7 @@ const MEMBERS = [
     icon: "images/icon/akubi_profile.jpg",
     catchphrase: "あくびとおまえらが楽しければそれでいい。",
     introVoice: "",
+    fx: "demon",
     deco: {
       label: "spade",
       floats: [
@@ -193,7 +196,7 @@ const MEMBERS = [
       ]
     },
     featuredVideos: [],
-    voice: "",
+    voice: "assets/voices/あくび・でもんすぺーど.mp3",
     intro: ""
   },
   {
@@ -228,6 +231,7 @@ const MEMBERS = [
     icon: "images/icon/koma_profile.jpg",
     catchphrase: "みんなの一コマ、こまにちょーだい！",
     introVoice: "",
+    fx: "koma",
     deco: {
       label: "hex",
       floats: [
@@ -238,7 +242,7 @@ const MEMBERS = [
       ]
     },
     featuredVideos: [],
-    voice: "",
+    voice: "assets/voices/小廻こま.mp3",
     intro: ""
   },
   {
@@ -272,6 +276,7 @@ const MEMBERS = [
     icon: "images/icon/rako_profile.jpg",
     catchphrase: "君に元気をおすそ分け！",
     introVoice: "",
+    fx: "sea",
     deco: {
       label: "shell",
       floats: [
@@ -282,7 +287,7 @@ const MEMBERS = [
       ]
     },
     featuredVideos: [],
-    voice: "",
+    voice: "assets/voices/音ノ瀬らこ.mp3",
     intro: ""
   },
   {
@@ -318,6 +323,7 @@ const MEMBERS = [
     icon: "images/icon/yura_profile.jpg",
     catchphrase: "あなたに安らぎを届けたい",
     introVoice: "",
+    fx: "deep",
     deco: {
       label: "bub",
       shape: "bub",
@@ -329,7 +335,7 @@ const MEMBERS = [
       ]
     },
     featuredVideos: [],
-    voice: "",
+    voice: "assets/voices/ゆらぎゆら.mp3",
     intro: ""
   },
   {
@@ -364,6 +370,7 @@ const MEMBERS = [
     icon: "images/icon/nuhu_profile.jpg",
     catchphrase: "ぬふのごはんは褒めことば！",
     introVoice: "",
+    fx: "paint",
     deco: {
       label: "pen",
       shape: "wheel",
@@ -375,7 +382,7 @@ const MEMBERS = [
       ]
     },
     featuredVideos: [],
-    voice: "",
+    voice: "assets/voices/虹深°ぬふ.mp3",
     intro: ""
   },
   {
@@ -409,6 +416,7 @@ const MEMBERS = [
     icon: "images/icon/tukuri_profile.jpg",
     catchphrase: "君との思い出つくってあげる",
     introVoice: "",
+    fx: "sleep",
     deco: {
       label: "cloud",
       shape: "zzz",
@@ -419,7 +427,7 @@ const MEMBERS = [
       ]
     },
     featuredVideos: [],
-    voice: "",
+    voice: "assets/voices/眠雲ツクリ.mp3",
     intro: ""
   },
   {
@@ -453,6 +461,7 @@ const MEMBERS = [
     icon: "images/icon/rizu_profile.jpg",
     catchphrase: "迷い込んで、雨宿り。",
     introVoice: "",
+    fx: "rain",
     deco: {
       label: "drop",
       shape: "rain",
@@ -463,7 +472,7 @@ const MEMBERS = [
       ]
     },
     featuredVideos: [],
-    voice: "",
+    voice: "assets/voices/雨夜リズ.mp3",
     intro: ""
   },
   {
@@ -497,6 +506,7 @@ const MEMBERS = [
     icon: "images/icon/rei_profile.jpg",
     catchphrase: "霧に紛れて、作戦開始",
     introVoice: "",
+    fx: "lockon",
     deco: {
       label: "ring",
       shape: "cross",
@@ -507,7 +517,7 @@ const MEMBERS = [
       ]
     },
     featuredVideos: [],
-    voice: "",
+    voice: "assets/voices/夕霧レイ.mp3",
     intro: ""
   },
   {
@@ -536,7 +546,7 @@ const MEMBERS = [
     links: { yt: "", x: "", tiktok: "" },
     img: "images/talents/milli%20chan.JPEG",
     icon: "images/icon/milli%20chan_profile.JPEG",
-    catchphrase: "",
+    catchphrase: "進捗どうですか？",
     introVoice: "",
     featuredVideos: [],
     voice: "",

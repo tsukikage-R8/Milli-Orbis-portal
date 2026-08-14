@@ -20,6 +20,7 @@ function introOverlay(m) {
     '<span class="intro-ring r1"></span><span class="intro-ring r2"></span>' +
     '<span class="intro-ring r3"></span><span class="intro-ring r4"></span>' +
     '<span class="intro-ring r5"></span>' +
+    (m.fx ? fxHtml(m.fx) : "") +
     '<div class="intro-stage">' +
     (m.logo ? '<img class="intro-logo" src="' + m.logo + '" alt="">' : "") +
     (m.img ? '<img class="intro-art" src="' + m.img + '" alt="' + m.name + '">' : "") +
@@ -28,6 +29,129 @@ function introOverlay(m) {
     "</div>" +
     '<audio id="introAudio" src="' + (m.introVoice || "") + '" preload="auto"></audio>' +
     "</div>";
+}
+
+/* タレント別 イントロFX演出（data.js の fx 種別 → オーバーレイ内の演出HTML） */
+function fxHtml(kind) {
+  var waveSvg = function (fill) {
+    return '<svg class="fx-wave-svg" viewBox="0 0 1440 80" preserveAspectRatio="none"><path fill="' + fill +
+      '" d="M0,42 Q120,6 240,42 T480,42 T720,42 T960,42 T1200,42 T1440,42 L1440,80 L0,80 Z"/></svg>';
+  };
+  var V = {
+    choco:
+      '<span class="fx-chip" style="left:10%;animation-delay:0s"></span>' +
+      '<span class="fx-chip" style="left:30%;animation-delay:1.3s"></span>' +
+      '<span class="fx-chip" style="left:52%;animation-delay:0.7s"></span>' +
+      '<span class="fx-chip" style="left:72%;animation-delay:1.9s"></span>' +
+      '<span class="fx-chip" style="left:88%;animation-delay:0.4s"></span>' +
+      '<span class="fx-heart" style="left:16%;top:24%;animation-delay:0.3s"></span>' +
+      '<span class="fx-heart" style="left:70%;top:16%;animation-delay:1.1s;animation-duration:5.5s"></span>' +
+      '<span class="fx-heart" style="left:44%;top:64%;animation-delay:1.7s;animation-duration:6s"></span>' +
+      '<span class="fx-spark" style="left:24%;top:40%;animation-delay:0.8s"></span>' +
+      '<span class="fx-spark" style="left:85%;top:55%;animation-delay:1.5s"></span>',
+    note:
+      '<span class="fx-note-i" style="left:12%;animation-delay:0s;font-size:34px">♩</span>' +
+      '<span class="fx-note-i" style="left:32%;animation-delay:1.4s;font-size:26px">♪</span>' +
+      '<span class="fx-note-i" style="left:56%;animation-delay:0.7s;font-size:40px">♫</span>' +
+      '<span class="fx-note-i" style="left:78%;animation-delay:2.1s;font-size:30px">♬</span>' +
+      '<span class="fx-note-i" style="left:92%;animation-delay:1s;font-size:24px">♪</span>' +
+      '<span class="fx-note-gem" style="left:22%;top:18%;animation-delay:0.4s"></span>' +
+      '<span class="fx-note-gem" style="left:76%;top:32%;animation-delay:1.6s;animation-duration:4s"></span>',
+    demon:
+      '<span class="fx-bat" style="top:16%"></span>' +
+      '<span class="fx-bat" style="top:36%;animation-delay:3.2s;animation-duration:11s;width:88px;opacity:0.7"></span>' +
+      '<span class="fx-bat" style="top:62%;animation-delay:5.6s;animation-duration:9.5s;width:128px"></span>' +
+      '<span class="fx-flame" style="left:16%;bottom:-16px"></span>' +
+      '<span class="fx-flame" style="left:78%;bottom:-22px;animation-delay:0.8s;width:80px;height:98px"></span>',
+    sea:
+      '<span class="fx-sun"></span>' +
+      '<span class="fx-bub2" style="left:12%;bottom:-30px"></span>' +
+      '<span class="fx-bub2" style="left:38%;bottom:-30px;animation-delay:1.2s;animation-duration:6.5s"></span>' +
+      '<span class="fx-bub2" style="left:66%;bottom:-30px;animation-delay:2s;animation-duration:5s"></span>' +
+      '<span class="fx-bub2" style="left:88%;bottom:-30px;animation-delay:0.6s;animation-duration:7s"></span>' +
+      '<span class="fx-shell">' + DECO_SVG.shell + "</span>" +
+      '<span class="fx-shell" style="left:82%;top:42%;animation-delay:1.4s;animation-duration:7.5s">' + DECO_SVG.shell + "</span>" +
+      '<span class="fx-spark" style="left:30%;top:10%;animation-delay:0.5s"></span>' +
+      '<span class="fx-spark" style="left:70%;top:14%;animation-delay:1.1s"></span>' +
+      waveSvg("rgba(255,255,255,0.4)") +
+      waveSvg("rgba(255,255,255,0.22)"),
+    deep:
+      '<span class="fx-ray" style="left:12%;animation-delay:0s"></span>' +
+      '<span class="fx-ray" style="left:55%;animation-delay:1.6s;transform:rotate(-12deg)"></span>' +
+      '<span class="fx-ray" style="left:78%;animation-delay:0.8s;animation-duration:5.5s"></span>' +
+      '<span class="fx-bub3" style="left:15%;bottom:-30px"></span>' +
+      '<span class="fx-bub3" style="left:35%;bottom:-30px;animation-delay:1.4s;animation-duration:8s"></span>' +
+      '<span class="fx-bub3" style="left:60%;bottom:-30px;animation-delay:2.2s;animation-duration:6s"></span>' +
+      '<span class="fx-bub3" style="left:82%;bottom:-30px;animation-delay:0.7s;animation-duration:9s"></span>' +
+      '<span class="fx-bub3" style="left:92%;bottom:-30px;animation-delay:1.9s;animation-duration:7.5s"></span>' +
+      '<span class="fx-glowdot" style="left:25%;top:30%;animation-delay:0.3s"></span>' +
+      '<span class="fx-glowdot" style="left:70%;top:22%;animation-delay:1.2s"></span>' +
+      '<span class="fx-glowdot" style="left:48%;top:70%;animation-delay:2s"></span>' +
+      '<span class="fx-glowdot" style="left:88%;top:66%;animation-delay:0.9s;animation-duration:4.5s"></span>',
+    koma:
+      '<span class="fx-koma-spin" style="left:10%;top:10%;width:96px">' + DECO_SVG.top + "</span>" +
+      '<span class="fx-koma-spin" style="right:8%;bottom:6%;width:72px;animation-duration:4.2s">' + DECO_SVG.top + "</span>" +
+      '<span class="fx-daruma" style="right:13%;top:12%">' +
+      '<i class="fx-d-h"></i><i class="fx-d-b" style="--i:1"></i><i class="fx-d-b" style="--i:2"></i>' +
+      '<i class="fx-d-b" style="--i:3"></i><i class="fx-d-b" style="--i:4"></i></span>' +
+      '<span class="fx-seigaiha" style="left:6%;bottom:2%;width:170px;height:170px"></span>' +
+      '<span class="fx-seigaiha" style="right:16%;bottom:24%;width:110px;height:110px;animation-duration:44s"></span>',
+    sleep:
+      '<span class="fx-cloud" style="top:12%;animation-duration:26s"></span>' +
+      '<span class="fx-cloud" style="top:30%;animation-delay:8s;animation-duration:32s;opacity:0.5;width:150px"></span>' +
+      '<span class="fx-cloud" style="top:52%;animation-delay:15s;animation-duration:38s;opacity:0.35;width:120px"></span>' +
+      '<span class="fx-moon"><svg viewBox="0 0 100 100" aria-hidden="true"><path fill="#fff" d="M70,10 A46,46 0 1 0 70,90 A34,34 0 0 1 70,10Z"/></svg></span>' +
+      '<span class="fx-zzz" style="left:18%;bottom:16%;animation-delay:0s">Z</span>' +
+      '<span class="fx-zzz" style="left:28%;bottom:26%;animation-delay:1.2s;font-size:1.5rem">z</span>' +
+      '<span class="fx-zzz" style="left:36%;bottom:34%;animation-delay:2.3s;font-size:1.1rem;animation-duration:5s">z</span>',
+    rain:
+      '<span class="fx-rain-s" style="left:8%;animation-delay:0s"></span>' +
+      '<span class="fx-rain-s" style="left:22%;animation-delay:0.6s;animation-duration:1.9s"></span>' +
+      '<span class="fx-rain-s" style="left:37%;animation-delay:1.3s"></span>' +
+      '<span class="fx-rain-s" style="left:52%;animation-delay:0.3s;animation-duration:2.1s"></span>' +
+      '<span class="fx-rain-s" style="left:66%;animation-delay:1.7s"></span>' +
+      '<span class="fx-rain-s" style="left:80%;animation-delay:0.9s;animation-duration:1.7s"></span>' +
+      '<span class="fx-rain-s" style="left:93%;animation-delay:2s"></span>' +
+      '<span class="fx-rip" style="left:18%;bottom:6%;animation-delay:0s"></span>' +
+      '<span class="fx-rip" style="left:55%;bottom:10%;animation-delay:1.2s"></span>' +
+      '<span class="fx-rip" style="left:82%;bottom:6%;animation-delay:2.2s;animation-duration:3.8s"></span>' +
+      '<span class="fx-puddle" style="left:30%;bottom:-6px"></span>' +
+      '<span class="fx-puddle" style="left:70%;bottom:-2px;animation-delay:0.9s"></span>',
+    paint:
+      '<svg class="fx-rainbow-svg" viewBox="0 0 340 170" aria-hidden="true"><path stroke="#ff8fab" stroke-width="22" d="M20,170 A150,150 0 0 1 320,170"/><path stroke="#ffd166" stroke-width="20" d="M40,170 A130,130 0 0 1 300,170"/><path stroke="#6bc77b" stroke-width="18" d="M60,170 A110,110 0 0 1 280,170"/><path stroke="#4d96ff" stroke-width="16" d="M80,170 A90,90 0 0 1 260,170"/><path stroke="#b980f0" stroke-width="14" d="M100,170 A70,70 0 0 1 240,170"/></svg>' +
+      '<span class="fx-splat" style="left:15%;top:14%;background:#ff7aa2;animation-delay:0.2s"></span>' +
+      '<span class="fx-splat" style="left:84%;top:20%;background:#ffd166;animation-delay:0.9s;width:64px;height:58px"></span>' +
+      '<span class="fx-splat" style="left:76%;top:66%;background:#8bd3dd;animation-delay:1.5s;width:50px;height:46px"></span>' +
+      '<span class="fx-splat" style="left:9%;top:58%;background:#c49fe0;animation-delay:1.1s;width:44px;height:40px;animation-duration:6s"></span>' +
+      '<span class="fx-drip" style="left:26%;background:#ff7aa2;animation-delay:0s;animation-duration:6s"></span>' +
+      '<span class="fx-drip" style="left:63%;background:#8bd3dd;animation-delay:1.6s"></span>' +
+      '<span class="fx-drip" style="left:82%;background:#ffd166;animation-delay:3s;height:34px"></span>' +
+      '<span class="fx-spark" style="left:40%;top:26%;animation-delay:0.4s"></span>' +
+      '<span class="fx-spark" style="left:58%;top:60%;animation-delay:1.3s;width:20px;height:20px"></span>',
+    lockon:
+      '<div class="fx-grid"></div>' +
+      '<span class="fx-scan"></span>' +
+      '<span class="fx-scan" style="animation-delay:1.7s;opacity:0.5"></span>' +
+      '<i class="fx-corner c1"></i><i class="fx-corner c2"></i><i class="fx-corner c3"></i><i class="fx-corner c4"></i>' +
+      '<span class="fx-hud-top"><i class="fx-dot"></i>LOCK ON SYSTEM v4.6</span>' +
+      '<span class="fx-hud-bot">対象を捕捉中…</span>' +
+      '<span class="fx-code">SEC:04 // RNG:13.42%</span>' +
+      '<span class="fx-clock">▮ 00:14:36</span>' +
+      '<span class="fx-plus" style="left:20%;top:30%;animation-delay:0.3s"></span>' +
+      '<span class="fx-plus" style="left:75%;top:18%;animation-delay:1s"></span>' +
+      '<span class="fx-plus" style="left:60%;top:72%;animation-delay:0.6s"></span>' +
+      '<span class="fx-plus" style="left:14%;top:60%;animation-delay:1.4s"></span>' +
+      '<span class="fx-plus" style="left:88%;top:52%;animation-delay:2s"></span>' +
+      '<span class="fx-reticle">' +
+      '<b class="fx-lock"><i class="fx-lock2"></i></b>' +
+      '<span class="fx-r-ring"></span>' +
+      "</span>" +
+      '<span class="fx-locktext">LOCK ON</span>' +
+      '<span class="fx-lockflash"></span>'
+  };
+  var html = V[kind];
+  if (!html) return "";
+  return '<div class="intro-fx fx-' + kind + '">' + html + "</div>";
 }
 
 const navDrop = (home) => `

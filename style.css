@@ -1677,6 +1677,499 @@ footer .disclaimer { font-weight: 700; color: #8a6d3b; }
 }
 .intro-btn:hover { transform: translate(-1px, -1px); background: var(--accent-soft); }
 
+/* ============================================================
+   タレント別 イントロFX演出（data.js の fx → gen-pages.js が生成）
+   ============================================================ */
+.intro-fx {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+.intro-fx svg { display: block; }
+@media (prefers-reduced-motion: reduce) { .intro-fx { display: none; } }
+
+/* --- 共通: ハート / スパーク --- */
+.fx-heart { position: absolute; color: rgba(255, 255, 255, 0.85); animation: fxRise 6s ease-in infinite; }
+.fx-heart::before { content: "♥"; font-size: 22px; display: block; animation: fxBeat 1.6s ease-in-out infinite; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); }
+@keyframes fxRise {
+  0% { transform: translateY(0) scale(0.6); opacity: 0; }
+  15% { opacity: 0.9; }
+  85% { opacity: 0.7; }
+  100% { transform: translateY(-42vh) scale(1.15) rotate(14deg); opacity: 0; }
+}
+@keyframes fxBeat { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.18); } }
+.fx-spark {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  background: #fff;
+  opacity: 0;
+  animation: fxTwinkle 2.8s ease-in-out infinite;
+}
+@keyframes fxTwinkle { 0%, 100% { opacity: 0; transform: scale(0.4) rotate(0); } 50% { opacity: 0.9; transform: scale(1.1) rotate(40deg); } }
+
+/* --- このみ: チョコレート --- */
+.fx-chip {
+  position: absolute;
+  top: -34px;
+  width: 26px;
+  height: 24px;
+  background: linear-gradient(135deg, #7a4a26, #573117);
+  border-radius: 26% 58% 34% 62% / 60% 38% 66% 42%;
+  box-shadow: inset -3px -3px 0 rgba(0, 0, 0, 0.25), inset 3px 3px 0 rgba(255, 255, 255, 0.22);
+  animation: fxChipFall 6.5s linear infinite;
+}
+.fx-chip::after {
+  content: "";
+  position: absolute;
+  left: 20%;
+  top: 18%;
+  width: 38%;
+  height: 26%;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.35);
+}
+@keyframes fxChipFall {
+  0% { transform: translateY(0) rotate(0); opacity: 0; }
+  8% { opacity: 0.95; }
+  100% { transform: translateY(108vh) rotate(260deg); opacity: 0.15; }
+}
+
+/* --- のの: 音符 --- */
+.fx-note-i {
+  position: absolute;
+  bottom: -70px;
+  color: rgba(255, 255, 255, 0.88);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  animation: fxNoteRise 7s linear infinite;
+}
+@keyframes fxNoteRise {
+  0% { transform: translateY(0) rotate(-8deg); opacity: 0; }
+  12% { opacity: 0.9; }
+  80% { opacity: 0.6; }
+  100% { transform: translateY(-118vh) rotate(14deg); opacity: 0; }
+}
+.fx-note-gem { position: absolute; width: 14px; height: 14px; background: rgba(255, 255, 255, 0.9); transform: rotate(45deg); animation: fxTwinkle 3s ease-in-out infinite; }
+
+/* --- あくび: 悪魔（蝙蝠と業火） --- */
+.fx-bat { position: absolute; left: -16%; width: 110px; opacity: 0.85; animation: fxBatFly 10s linear infinite; color: #1c0a15; }
+.fx-bat svg { width: 100%; height: auto; filter: drop-shadow(0 0 7px rgba(255, 120, 120, 0.3)); }
+.fx-wing { transform-box: fill-box; transform-origin: 55% 40%; }
+.fx-wl { animation: fxFlapL 0.8s ease-in-out infinite; }
+.fx-wr { animation: fxFlapR 0.8s ease-in-out infinite; }
+@keyframes fxBatFly {
+  0% { transform: translateX(0) translateY(0); }
+  30% { transform: translateX(38vw) translateY(-24px); }
+  55% { transform: translateX(70vw) translateY(10px); }
+  100% { transform: translateX(120vw) translateY(-14px); }
+}
+@keyframes fxFlapL { 0%, 100% { transform: rotate(0); } 50% { transform: rotate(-40deg); } }
+@keyframes fxFlapR { 0%, 100% { transform: rotate(0); } 50% { transform: rotate(40deg); } }
+.fx-flame {
+  position: absolute;
+  width: 64px;
+  height: 78px;
+  background: radial-gradient(circle at 50% 78%, #ffd27a 0 12%, #ff7a3c 34%, rgba(194, 36, 46, 0.9) 62%, transparent 72%);
+  border-radius: 50% 50% 50% 50% / 62% 62% 38% 38%;
+  transform-origin: 50% 100%;
+  animation: fxFlameF 1.4s ease-in-out infinite;
+}
+.fx-flame::after {
+  content: "";
+  position: absolute;
+  left: 26%;
+  top: 14%;
+  width: 46%;
+  height: 46%;
+  background: radial-gradient(circle at 50% 60%, rgba(255, 236, 190, 0.95) 0 40%, transparent 41%);
+  border-radius: 50%;
+  animation: fxFlameF 1s ease-in-out infinite reverse;
+}
+@keyframes fxFlameF { 0%, 100% { transform: scale(1) rotate(-3deg); } 50% { transform: scale(1.16) rotate(4deg); } }
+
+/* --- らこ: 海・海岸・貝 --- */
+.fx-sun {
+  position: absolute;
+  left: 50%;
+  top: -60px;
+  width: 340px;
+  height: 280px;
+  transform: translateX(-50%);
+  background: radial-gradient(circle, rgba(255, 244, 214, 0.85) 0 40px, rgba(255, 244, 214, 0.35) 90px, transparent 130px);
+  animation: fxSunPulse 4s ease-in-out infinite;
+}
+@keyframes fxSunPulse { 0%, 100% { opacity: 0.75; } 50% { opacity: 1; } }
+.fx-bub2 { position: absolute; width: 26px; height: 26px; opacity: 0; animation: fxBub 5.5s ease-in infinite; }
+.fx-bub2::before { content: ""; position: absolute; inset: 0; border: 3px solid rgba(255, 255, 255, 0.85); border-radius: 50%; }
+.fx-bub2::after { content: ""; position: absolute; left: 22%; top: 16%; width: 7px; height: 7px; background: rgba(255, 255, 255, 0.9); border-radius: 50%; }
+@keyframes fxBub {
+  0% { transform: translateY(0) scale(0.4); opacity: 0; }
+  15% { opacity: 0.85; }
+  100% { transform: translateY(-52vh) scale(1.25); opacity: 0; }
+}
+.fx-shell { position: absolute; left: 20%; top: 22%; width: 46px; opacity: 0.8; color: rgba(255, 255, 255, 0.9); animation: fxBob 6s ease-in-out infinite; }
+@keyframes fxBob { 0%, 100% { transform: translateY(0) rotate(-8deg); } 50% { transform: translateY(-18px) rotate(10deg); } }
+.fx-wave-svg { position: absolute; left: 0; bottom: 0; width: 150%; height: 88px; animation: fxWaveBob 5s ease-in-out infinite; }
+.fx-wave-svg + .fx-wave-svg { bottom: -34px; animation-delay: 1s; animation-duration: 6s; }
+@keyframes fxWaveBob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(7px); } }
+
+/* --- ゆら: 深海・泡・光 --- */
+[data-member="yura"] .intro-overlay {
+  background:
+    radial-gradient(circle at 50% 30%, rgba(150, 210, 255, 0.13) 0 170px, transparent 172px),
+    linear-gradient(180deg, #0a1f38 0%, #103554 55%, #071527 100%);
+}
+[data-member="yura"] .intro-ring { opacity: 0.3; }
+.fx-ray {
+  position: absolute;
+  top: -25%;
+  width: 130px;
+  height: 150%;
+  transform: rotate(14deg);
+  background: linear-gradient(90deg, transparent, rgba(190, 235, 255, 0.12) 45%, transparent);
+  animation: fxRay 4.5s ease-in-out infinite;
+}
+@keyframes fxRay { 0%, 100% { opacity: 0.35; } 50% { opacity: 1; } }
+.fx-bub3 { position: absolute; width: 20px; height: 20px; opacity: 0; animation: fxBub 7s ease-in infinite; }
+.fx-bub3::before { content: ""; position: absolute; inset: 0; border: 2px solid rgba(170, 220, 255, 0.8); border-radius: 50%; }
+.fx-glowdot {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #bde9ff;
+  box-shadow: 0 0 12px 4px rgba(160, 220, 255, 0.5);
+  opacity: 0;
+  animation: fxTwinkle 3.6s ease-in-out infinite;
+}
+
+/* --- こま: 独楽・だるま落とし・和風 --- */
+.fx-koma-spin { position: absolute; opacity: 0.85; color: #e05252; animation: fxBob 5s ease-in-out infinite; }
+.fx-koma-spin svg { width: 100%; animation: fxSpin 2.2s linear infinite; filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.25)); }
+@keyframes fxSpin { to { transform: rotate(360deg); } }
+.fx-daruma { position: absolute; width: 74px; text-align: center; }
+.fx-d-h {
+  display: block;
+  width: 40px;
+  height: 34px;
+  margin: 0 auto 4px;
+  background: #fff;
+  border-radius: 50% 50% 42% 42%;
+  border: 3px solid #e05252;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.18);
+}
+.fx-d-h::after { content: ""; display: block; width: 10px; height: 10px; margin: 7px auto 0; background: #e05252; border-radius: 50%; }
+.fx-d-b {
+  display: block;
+  height: 24px;
+  margin-bottom: 3px;
+  border-radius: 8px;
+  border: 2px solid rgba(0, 0, 0, 0.15);
+  animation: fxSlide 3s ease-in-out infinite;
+  animation-delay: calc(var(--i, 1) * 0.4s);
+}
+.fx-d-b:nth-child(2) { background: #e05252; --dx: 16px; }
+.fx-d-b:nth-child(3) { background: #f2c94c; --dx: -18px; }
+.fx-d-b:nth-child(4) { background: #fff; --dx: 14px; }
+.fx-d-b:nth-child(5) { background: #4a4a5a; --dx: -12px; }
+@keyframes fxSlide {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(var(--dx)); }
+  50% { transform: translateX(0); }
+  75% { transform: translateX(calc(var(--dx) * -0.6)); }
+}
+.fx-seigaiha {
+  position: absolute;
+  opacity: 0.5;
+  background: repeating-radial-gradient(circle at 50% 130%, transparent 0 15px, rgba(255, 255, 255, 0.3) 15px 16px);
+  animation: fxSpin 30s linear infinite;
+}
+
+/* --- ツクリ: 眠い雲 --- */
+.fx-cloud {
+  position: absolute;
+  left: -30%;
+  width: 200px;
+  color: rgba(255, 255, 255, 0.85);
+  animation: fxCloud 30s linear infinite;
+}
+.fx-cloud svg { width: 100%; filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.18)); }
+@keyframes fxCloud {
+  0% { transform: translateX(0); opacity: 0; }
+  6% { opacity: 1; }
+  94% { opacity: 1; }
+  100% { transform: translateX(158vw); opacity: 0; }
+}
+.fx-moon { position: absolute; right: 15%; top: 12%; width: 76px; opacity: 0.9; animation: fxMoonBob 7s ease-in-out infinite; }
+.fx-moon svg { width: 100%; filter: drop-shadow(0 0 16px rgba(255, 255, 255, 0.65)); }
+@keyframes fxMoonBob { 0%, 100% { transform: translateY(0) rotate(-4deg); } 50% { transform: translateY(-12px) rotate(4deg); } }
+.fx-zzz {
+  position: absolute;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 2.1rem;
+  color: rgba(255, 255, 255, 0.85);
+  animation: fxZz 4s ease-in infinite;
+}
+@keyframes fxZz {
+  0% { transform: translateY(0) scale(0.7); opacity: 0; }
+  20% { opacity: 0.9; }
+  100% { transform: translateY(-30vh) scale(1.2); opacity: 0; }
+}
+
+/* --- リズ: 雨・水滴・波紋 --- */
+.fx-rain-s {
+  position: absolute;
+  top: -90px;
+  width: 3px;
+  height: 74px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.35));
+  animation: fxRainFall 1.6s linear infinite;
+}
+@keyframes fxRainFall {
+  0% { transform: translateY(0) rotate(15deg); opacity: 0; }
+  10% { opacity: 0.9; }
+  100% { transform: translateY(110vh) rotate(15deg); opacity: 0; }
+}
+.fx-rip { position: absolute; width: 74px; height: 74px; opacity: 0.7; }
+.fx-rip::before { content: ""; position: absolute; inset: 0; border: 3px solid rgba(255, 255, 255, 0.75); border-radius: 50%; animation: dRing 2.8s ease-out infinite; }
+.fx-rip::after { content: ""; position: absolute; left: 50%; top: 50%; width: 8px; height: 8px; margin: -4px; background: #fff; border-radius: 50%; }
+.fx-puddle {
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  background: radial-gradient(ellipse at 50% 50%, rgba(255, 255, 255, 0.5) 0 30%, rgba(255, 255, 255, 0.15) 55%, transparent 72%);
+  border-radius: 50%;
+  animation: fxPuddle 3.4s ease-in-out infinite;
+}
+@keyframes fxPuddle { 0%, 100% { transform: scaleX(1); opacity: 0.7; } 50% { transform: scaleX(1.12); opacity: 1; } }
+
+/* --- ぬふ: 虹・ペイント --- */
+.fx-rainbow-svg {
+  position: absolute;
+  left: -4%;
+  bottom: -14%;
+  width: 360px;
+  max-width: 70vw;
+  transform-origin: 50% 100%;
+  animation: fxRainbowPop 3.4s ease-in-out infinite;
+  filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.15));
+}
+@keyframes fxRainbowPop { 0%, 100% { transform: scale(0.9); opacity: 0.75; } 50% { transform: scale(1.05); opacity: 1; } }
+.fx-splat {
+  position: absolute;
+  width: 58px;
+  height: 52px;
+  border-radius: 62% 38% 55% 45% / 45% 60% 40% 55%;
+  opacity: 0.85;
+  box-shadow: inset -4px -4px 0 rgba(0, 0, 0, 0.18), inset 4px 4px 0 rgba(255, 255, 255, 0.35);
+  animation: fxSplat 5s ease-in-out infinite;
+}
+.fx-splat::after {
+  content: "";
+  position: absolute;
+  left: -10px;
+  bottom: -6px;
+  width: 16px;
+  height: 14px;
+  background: inherit;
+  border-radius: 50% 60% 55% 45%;
+}
+@keyframes fxSplat {
+  0%, 100% { transform: rotate(-8deg) translateY(0) scale(1); }
+  30% { transform: rotate(6deg) translateY(-10px) scale(1.06); }
+  60% { transform: rotate(-4deg) translateY(-4px) scale(0.97); }
+}
+.fx-drip {
+  position: absolute;
+  top: -34px;
+  width: 16px;
+  height: 28px;
+  border-radius: 50% 50% 50% 50% / 68% 68% 32% 32%;
+  box-shadow: inset -3px -3px 0 rgba(0, 0, 0, 0.18);
+  animation: fxDrip 5s ease-in infinite;
+}
+@keyframes fxDrip {
+  0% { transform: translateY(0) scaleY(0.9); opacity: 0; }
+  10% { opacity: 0.95; }
+  100% { transform: translateY(112vh) scaleY(1); opacity: 0.2; }
+}
+
+/* --- レイ: ロックオン / 狙撃スコープ（最重点） --- */
+[data-member="rei"] .intro-overlay {
+  background:
+    radial-gradient(circle at 50% 28%, rgba(255, 70, 70, 0.14) 0 190px, transparent 191px),
+    radial-gradient(circle at 50% 118%, rgba(255, 70, 70, 0.12) 0 320px, transparent 322px),
+    linear-gradient(180deg, #070b13 0%, #0c1322 55%, #060a12 100%);
+}
+[data-member="rei"] .intro-ring { display: none; }
+[data-member="rei"] .intro-art { box-shadow: 0 16px 0 rgba(0, 0, 0, 0.08), 0 0 60px rgba(255, 90, 90, 0.45), 0 24px 48px rgba(0, 0, 0, 0.4); }
+.fx-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(120, 210, 255, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(120, 210, 255, 0.08) 1px, transparent 1px);
+  background-size: 46px 46px;
+  animation: fxGridPan 7s linear infinite;
+}
+@keyframes fxGridPan { to { background-position: 46px 46px; } }
+.fx-scan {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -6%;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, rgba(140, 255, 190, 0.85), transparent);
+  box-shadow: 0 0 18px 2px rgba(140, 255, 190, 0.5);
+  opacity: 0;
+  animation: fxScan 3.4s ease-in-out infinite;
+}
+@keyframes fxScan {
+  0% { top: -6%; opacity: 0; }
+  8% { opacity: 0.95; }
+  50% { top: 104%; opacity: 0.7; }
+  55%, 100% { opacity: 0; }
+}
+.fx-corner { position: absolute; width: 44px; height: 44px; opacity: 0.9; }
+.fx-corner::before, .fx-corner::after { content: ""; position: absolute; background: #ff5f5f; box-shadow: 0 0 8px rgba(255, 95, 95, 0.8); }
+.fx-corner::before { width: 100%; height: 3px; }
+.fx-corner::after { width: 3px; height: 100%; }
+.fx-corner.c1 { left: 26px; top: 26px; }
+.fx-corner.c1::before { top: 0; left: 0; }
+.fx-corner.c1::after { top: 0; left: 0; }
+.fx-corner.c2 { right: 26px; top: 26px; }
+.fx-corner.c2::before { top: 0; right: 0; }
+.fx-corner.c2::after { top: 0; right: 0; }
+.fx-corner.c3 { left: 26px; bottom: 26px; }
+.fx-corner.c3::before { bottom: 0; left: 0; }
+.fx-corner.c3::after { bottom: 0; left: 0; }
+.fx-corner.c4 { right: 26px; bottom: 26px; }
+.fx-corner.c4::before { bottom: 0; right: 0; }
+.fx-corner.c4::after { bottom: 0; right: 0; }
+.fx-hud-top, .fx-hud-bot, .fx-code, .fx-clock {
+  position: absolute;
+  font-family: var(--font-display);
+  font-weight: 800;
+  color: #9fd8ff;
+  letter-spacing: 0.14em;
+  font-size: 0.72rem;
+  text-shadow: 0 0 8px rgba(120, 200, 255, 0.7);
+}
+.fx-hud-top {
+  top: 22px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(10, 18, 30, 0.6);
+  border: 1px solid rgba(120, 210, 255, 0.35);
+  padding: 5px 14px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.fx-dot { width: 8px; height: 8px; border-radius: 50%; background: #ff5f5f; box-shadow: 0 0 10px 2px rgba(255, 95, 95, 0.8); animation: fxBlink 1s steps(2) infinite; }
+@keyframes fxBlink { 0%, 100% { opacity: 1; } 50% { opacity: 0.15; } }
+.fx-hud-bot { bottom: 26px; left: 50%; transform: translateX(-50%); color: #ffb0b0; font-size: 0.8rem; animation: fxBlink 1.4s steps(2) infinite; }
+.fx-code { bottom: 26px; left: 30px; color: rgba(159, 216, 255, 0.75); }
+.fx-clock { top: 26px; right: 30px; color: rgba(159, 216, 255, 0.75); }
+.fx-plus { position: absolute; width: 12px; height: 12px; opacity: 0; animation: fxBlink 2.4s steps(2) infinite; }
+.fx-plus::before, .fx-plus::after { content: ""; position: absolute; background: rgba(255, 95, 95, 0.9); }
+.fx-plus::before { left: 50%; top: 0; bottom: 0; width: 2px; transform: translateX(-50%); }
+.fx-plus::after { top: 50%; left: 0; right: 0; height: 2px; transform: translateY(-50%); }
+.fx-reticle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 320px;
+  height: 320px;
+  max-width: 84vw;
+  max-height: 84vw;
+  opacity: 0;
+  animation: fxLockSeq 3s ease-in-out forwards;
+}
+@keyframes fxLockSeq {
+  0% { transform: translate(-50%, -50%) scale(0.55); opacity: 0; }
+  18% { opacity: 1; transform: translate(-50%, -50%) scale(0.55); }
+  42% { transform: translate(-50%, -50%) scale(1.18); opacity: 1; }
+  58% { transform: translate(-50%, -50%) scale(0.96); }
+  72% { transform: translate(-50%, -50%) scale(1); }
+  100% { transform: translate(-50%, -50%) scale(1.04); opacity: 1; }
+}
+.fx-reticle::before {
+  content: "";
+  position: absolute;
+  inset: -18px;
+  border-radius: 50%;
+  background: repeating-conic-gradient(rgba(255, 90, 90, 0.9) 0 3deg, transparent 3deg 12deg);
+  -webkit-mask: radial-gradient(circle, transparent 0 68%, #000 69% 74%, transparent 75%);
+  mask: radial-gradient(circle, transparent 0 68%, #000 69% 74%, transparent 75%);
+  animation: fxSpin 6s linear infinite;
+}
+.fx-reticle::after {
+  content: "";
+  position: absolute;
+  inset: 26px;
+  border-radius: 50%;
+  background: conic-gradient(from 0deg, rgba(255, 90, 90, 0.4), transparent 70deg);
+  animation: fxSpin 2.6s linear infinite;
+}
+.fx-r-ring {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 90, 90, 0.85);
+  box-shadow: 0 0 22px rgba(255, 90, 90, 0.5), inset 0 0 22px rgba(255, 90, 90, 0.25);
+  animation: fxLockPulse 1.8s ease-in-out 2.4s infinite;
+}
+@keyframes fxLockPulse { 0%, 100% { transform: scale(1); opacity: 0.9; } 50% { transform: scale(1.06); opacity: 0.6; } }
+.fx-lock { position: absolute; left: 50%; top: 50%; width: 150px; height: 150px; transform: translate(-50%, -50%); }
+.fx-lock2 { position: absolute; inset: 0; }
+.fx-lock::before, .fx-lock::after, .fx-lock2::before, .fx-lock2::after {
+  content: "";
+  position: absolute;
+  background: rgba(255, 90, 90, 0.95);
+  box-shadow: 0 0 10px rgba(255, 90, 90, 0.7);
+}
+.fx-lock::before { left: 50%; top: 0; bottom: 40%; width: 2.5px; transform: translateX(-50%); }
+.fx-lock::after { top: 50%; left: 0; right: 40%; height: 2.5px; transform: translateY(-50%); }
+.fx-lock2::before { left: 50%; top: 40%; bottom: 0; width: 2.5px; transform: translateX(-50%); }
+.fx-lock2::after { top: 50%; left: 40%; right: 0; height: 2.5px; transform: translateY(-50%); }
+.fx-locktext {
+  position: absolute;
+  left: 50%;
+  top: 63%;
+  transform: translateX(-50%);
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 1.5rem;
+  letter-spacing: 0.22em;
+  color: #ff6a5a;
+  text-shadow: 0 0 16px rgba(255, 90, 90, 0.9), 0 0 34px rgba(255, 90, 90, 0.5);
+  opacity: 0;
+  animation: fxLockText 1.6s ease-in-out 2.3s forwards;
+}
+@keyframes fxLockText {
+  0%, 92%, 95%, 97%, 100% { opacity: 1; }
+  93%, 96% { opacity: 0.15; }
+}
+.fx-lockflash {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 46%, rgba(255, 90, 90, 0.55), rgba(255, 60, 60, 0.25) 40%, transparent 65%);
+  opacity: 0;
+  animation: fxLockFlash 0.8s ease-out 2.05s;
+}
+@keyframes fxLockFlash { 0% { opacity: 0; } 12% { opacity: 1; } 100% { opacity: 0; } }
+
+/* タレントページ以外（index）は FX を出さない */
+body:not([data-member]) .intro-fx { display: none; }
+
 /* プロフィール内ファンマーク画像 */
 .fanmark-img {
   display: inline-flex;
