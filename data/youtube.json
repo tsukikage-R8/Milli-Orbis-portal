@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T12:34:30.082Z",
+  "updatedAt": "2026-08-14T16:37:32.361Z",
   "streams": [
     {
       "id": "Kd-mPGm6R8U",
@@ -62,6 +62,15 @@
       "title": "【 歌枠 】カゲプロ縛り！最後は告知も…？【音ノ瀬らこ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/6t5oqLio_Ts/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-15T09:30:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "UhO0Vt03ZMg",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【ストリヌ/Minecraft 】影MOD入れたから街ぶらる【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/UhO0Vt03ZMg/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-15T11:00:00Z",
       "status": "upcoming"
     },
     {
@@ -318,6 +327,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "UhO0Vt03ZMg",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【ストリヌ/Minecraft 】影MOD入れたから街ぶらる【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/UhO0Vt03ZMg/hqdefault_live.jpg",
+      "publishedAt": "2026-08-14T16:35:04Z",
+      "live": false
+    },
     {
       "id": "yv4LSQZbl4A",
       "memberId": "akubi",
@@ -606,16 +625,6 @@
       "title": "【オバケイドロ２】 オバケとニンゲンでおいかけっこするゲーム【#あくび・でもんすぺーど】",
       "thumb": "https://i.ytimg.com/vi/MyalPzyuxZM/hqdefault.jpg",
       "publishedAt": "2026-08-12T12:23:31Z",
-      "live": false
-    },
-    {
-      "id": "y8tDl5BmcTY",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "絶対に解けないクイズ #マイクラ",
-      "thumb": "https://i.ytimg.com/vi/y8tDl5BmcTY/hqdefault.jpg",
-      "publishedAt": "2026-08-12T07:00:10Z",
       "live": false
     }
   ],
