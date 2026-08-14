@@ -28,6 +28,7 @@ function introOverlay(m) {
     '<p class="intro-catch" id="introCatch"></p>' +
     "</div>" +
     '<audio id="introAudio" src="' + (m.introVoice || m.voice || "") + '" preload="auto"></audio>' +
+    '<button type="button" class="intro-start" id="introStartBtn">▶ タップで再生</button>' +
     "</div>";
 }
 

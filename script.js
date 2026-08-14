@@ -928,31 +928,45 @@
         closeIntro();
       };
       if (audio && m && m.introVoice) {
+        var started = false;
+        var begin = function () {
+          if (started || done) return;
+          started = true;
+          overlay.classList.remove("standby");
+          audio.addEventListener("ended", finish);
+          var onMeta = function () {
+            if (isFinite(audio.duration) && audio.duration > 0) {
+              setTimeout(finish, audio.duration * 1000 + 1500);
+            }
+          };
+          if (audio.readyState >= 1) onMeta();
+          else audio.addEventListener("loadedmetadata", onMeta);
+          /* 音声が読み込めない場合でも必ず閉じる安全タイマー */
+          setTimeout(finish, 8000);
+        };
         var tryPlay = function () {
+          if (started) return;
           try {
             var p = audio.play();
-            if (p && p.catch) p.catch(function () {});
-          } catch (e) {}
+            if (p && p.then) {
+              p.then(begin).catch(function () { overlay.classList.add("standby"); });
+            } else {
+              begin();
+            }
+          } catch (e) { overlay.classList.add("standby"); }
         };
-        /* 自動再生がブラウザ制限でブロックされた場合は、最初の操作を起点に再生 */
-        var retried = false;
-        var retry = function () {
-          if (retried) return;
-          retried = true;
-          tryPlay();
-        };
+        /* 自動再生がブラウザ制限でブロックされた場合は、最初の操作を起点に再挑戦 */
+        var retry = function () { tryPlay(); };
         document.addEventListener("pointerdown", retry, { once: true });
         document.addEventListener("keydown", retry, { once: true });
-        audio.addEventListener("ended", finish);
-        var onMeta = function () {
-          if (isFinite(audio.duration) && audio.duration > 0) {
-            setTimeout(finish, audio.duration * 1000 + 1500);
-          }
-        };
-        if (audio.readyState >= 1) onMeta();
-        else audio.addEventListener("loadedmetadata", onMeta);
-        /* 音声が読み込めない場合（ファイル未配置・自動再生ブロック等）でも必ず閉じる安全タイマー */
-        setTimeout(finish, 8000);
+        /* まだ再生できない間は「▶ タップで再生」を表示し、タップで開始 */
+        var startBtn = $("#introStartBtn", overlay);
+        if (startBtn) {
+          startBtn.addEventListener("click", function () {
+            overlay.classList.remove("standby");
+            tryPlay();
+          });
+        }
         tryPlay();
       } else {
         setTimeout(finish, 7000);
