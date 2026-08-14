@@ -548,7 +548,7 @@ const MEMBERS = [
     icon: "images/icon/milli%20chan_profile.JPEG",
     catchphrase: "進捗どうですか？",
     introVoice: "",
-    featuredVideos: [],
+    featuredVideos: ["hMl1U4Mu3kg", "7exy16BEnHY", "g5Y9wMxEwKw"],
     voice: "",
     intro: ""
   }
