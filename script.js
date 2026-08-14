@@ -213,7 +213,10 @@
     var featuredId = getCdFeatured();
     var valid = COUNTDOWN.filter(function (c) { return cdLeft(c, jstNow()); });
     if (valid.length === 0) return;
-    if (!cdItem(featuredId) || !valid.some(function (c) { return c.id === featuredId; })) {
+    /* 特装カウントダウン（featured）は最優先で表示 */
+    var special = valid.find(function (c) { return c.featured; });
+    if (special) featuredId = special.id;
+    else if (!cdItem(featuredId) || !valid.some(function (c) { return c.id === featuredId; })) {
       featuredId = valid[0].id;
     }
 
@@ -227,7 +230,8 @@
       var item = cdItem(featuredId);
       if (!item) return;
       wrap.innerHTML =
-        '<div class="cd-card cd-' + style + ' cd-featured" data-id="' + item.id + '">' +
+        '<div class="cd-card cd-' + style + ' cd-featured' + (item.featured ? " cd-special" : "") + '" data-id="' + item.id + '">' +
+        (item.featured ? '<span class="cd-badge">重大発表配信</span>' : "") +
         '<div class="cd-label">' + item.label + "</div>" +
         '<div class="cd-when">' + fmtDate(new Date(item.date)) + " " + fmtTime(new Date(item.date)) + " まで</div>" +
         '<div class="cd-digits">' + units.map(function (u) {

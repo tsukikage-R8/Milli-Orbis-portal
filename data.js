@@ -555,6 +555,7 @@ const MEMBERS = [
 ];
 
 const COUNTDOWN = [
+  { id: "milpro-presents", label: "ミリプロプレゼンツ ～超重大発表配信～", date: "2026-08-16T21:00:00", note: "ミリ創作コンテスト結果発表＆重大告知！", url: "https://youtu.be/4lba9sduOzI", featured: true },
   { id: "koma-birthday", label: "小廻こま 誕生日", date: "2026-08-01T00:00:00", note: "こまめいと、お祝いだ！", url: "koma.html" },
   { id: "nuhu-anniv", label: "虹深°ぬふ デビュー1周年", date: "2026-08-08T00:00:00", note: "ぷかぬファミリー、お祝いだ！", url: "nuhu.html" },
   { id: "resort", label: "ミリプロリゾート", date: "2026-08-29T10:00:00", note: "秋葉原UDXにて開催", url: "https://milpr.com/news/milpr_resort" },
@@ -628,6 +629,7 @@ const LINKS = [
 const EVENTS = [
   { type: "event", date: "2026-08-11", title: "ミリプロサマー2026 夏曲歌枠リレー", desc: "総勢10名による夏曲歌枠リレー（各メンバーチャンネル）", url: "https://milpr.com/news/millipro_summer_2026" },
   { type: "event", date: "2026-08-16", title: "ミリプロ夏祭り in ナイトプール", desc: "ミリプロマイクラサーバーで開催（各メンバーチャンネル）", url: "https://milpr.com/news/millipro_summer_2026" },
+  { type: "event", date: "2026-08-16", title: "ミリプロプレゼンツ 超重大発表配信", desc: "ミリ創作コンテスト結果発表＆重大告知（ミリプロ公式YouTube）", url: "https://youtu.be/4lba9sduOzI" },
   { type: "event", date: "2026-08-29", title: "ミリプロリゾート", desc: "秋葉原UDXギャラリーにて開催（POP UP展示＆グッズ販売）", url: "https://milpr.com/news/milpr_resort" },
   { type: "event", date: "2026-08-29", title: "ミリプロTCG サマーカップ 2026", desc: "ミリプロリゾート内で開催（ミリプロTCG初の公式大会）", url: "https://milpr.com/millipro_resort" },
   { type: "event", date: "2026-08-30", title: "ミリプロサマー2026 閉会式", desc: "公式YouTubeチャンネルにて", url: "https://milpr.com/news/millipro_summer_2026" },

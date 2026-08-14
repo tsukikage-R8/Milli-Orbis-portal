@@ -767,6 +767,62 @@ img { max-width: 100%; }
   color: var(--accent);
 }
 .cd-simple .cd-unit small { color: var(--accent-deep); }
+
+/* 特装カウントダウン（COUNTDOWN に featured: true を付けたイベント用） */
+.cd-card.cd-special {
+  position: relative;
+  z-index: 0;
+  border: 3px solid transparent;
+  outline: none;
+  animation: cdSpecialGlow 2.2s ease-in-out infinite;
+}
+.cd-card.cd-special::before {
+  content: "";
+  position: absolute;
+  inset: -7px;
+  z-index: -1;
+  border-radius: 32px;
+  background: conic-gradient(from 0deg, #ffd166, #ff8fab, #9db4ff, #7fd8c0, #ffd166);
+  animation: cdSpecialSpin 6s linear infinite;
+  filter: blur(7px);
+  opacity: 0.85;
+}
+@keyframes cdSpecialSpin { to { transform: rotate(360deg); } }
+@keyframes cdSpecialGlow {
+  0%, 100% { box-shadow: 0 0 0 3px rgba(255, 215, 130, 0.5), 0 8px 40px rgba(255, 190, 80, 0.3); }
+  50% { box-shadow: 0 0 0 5px rgba(255, 215, 130, 0.85), 0 8px 60px rgba(255, 190, 80, 0.55); }
+}
+.cd-badge {
+  display: inline-block;
+  margin-bottom: 12px;
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 0.8rem;
+  letter-spacing: 0.2em;
+  color: #fff;
+  background: linear-gradient(120deg, #f25e83, #f5a11f);
+  border-radius: 999px;
+  padding: 6px 18px;
+  box-shadow: 0 3px 12px rgba(242, 94, 131, 0.45);
+}
+.cd-special .cd-label {
+  font-size: 1.6rem;
+  background: linear-gradient(120deg, #f25e83, #f5a11f, #9db4ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+.cd-special .cd-when { color: #b26a00; font-weight: 900; }
+.cd-special .cd-note { color: #8a5a00; }
+.cd-special .cd-num {
+  border: 3px solid #fff;
+  outline: 3px solid rgba(255, 190, 80, 0.6);
+  background: linear-gradient(160deg, #fff7e0, #ffe9b8);
+  color: #b26a00;
+  font-size: 3rem;
+  min-width: 128px;
+}
 .cd-simple.cd-featured .cd-num { font-size: 3rem; }
 .cd-simple .cd-label { color: var(--accent-deep); }
 
