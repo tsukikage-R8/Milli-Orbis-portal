@@ -64,7 +64,7 @@ const GOODS = [
 const GAME_FEATURE = {
   tag: "Milli Games ピックアップ",
   game: "Milli Pulse",
-  desc: "ミリプロの楽曲で遊べる無料のブラウザ音ゲー！音ノ乃のの「Princess Viral」・音ノ瀬らこ「ルミナス」・小廻こま「おきらくスーパースター」の3曲を収録。キーボードでリズムに乗ってハイスコアを目指そう！この他にも様々なゲームを用意しています！",
+  desc: "ミリプロの楽曲で遊べる無料のブラウザ音ゲー！音ノ乃のの「Princess Viral」・音ノ瀬らこ「ルミナス」・小廻こま「おきらくスーパースター」の3曲を収録。PCはキーボード、スマホはタップ、どちらの端末でも遊べます！この他にも様々なゲームを用意しています！",
   icon: "images/games/milli-pulse-rogo.png",
   url: "https://milli-games.onrender.com/games/music.html"
 };
