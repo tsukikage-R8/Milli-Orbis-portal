@@ -600,68 +600,12 @@ const NEWS = [
     desc: "虹深°ぬふによるイラスト本の発売が決定しました。",
     url: "https://milpr.com/news/nuhubook1"
   },
-  {
+{
     date: "2026-08-07",
     tag: "達成",
     title: "夕霧レイ チャンネル登録者数10万人突破！",
-    desc: "デビューから約1か月で夕霧レイのチャンネル登録者数が10万人を突破しました。",
-    url: "https://milpr.com/news/ray10"
-  },
-  {
-    date: "2026-08-02",
-    tag: "イベント",
-    title: "ミリプロサマー2026 開催！",
-    desc: "夏曲歌枠リレー・ナイトプール夏祭り・閉会式など、夏の一大イベントが今年も開催。",
-    url: "https://milpr.com/news/millipro_summer_2026"
-  },
-  {
-    date: "2026-08-02",
-    tag: "グッズ",
-    title: "ミリプロ サマーコレクション 2026 受注開始！",
-    desc: "ナイトプールをテーマにしたサマーコレクションの受注がスタート。",
-    url: "https://milpr.com/news/sunner_2026"
-  },
-  {
-    date: "2026-08-01",
-    tag: "グッズ",
-    title: "小廻こま 誕生日記念グッズ 2026 受注開始！",
-    desc: "ミリプロオフィシャルショップにて『小廻こま 誕生日記念グッズ 2026』の受注がスタート。",
-    url: "https://milpr.com/news/koma_birthday2026"
-  },
-  {
-    date: "2026-08-01",
-    tag: "楽曲",
-    title: "小廻こま オリジナル楽曲「おきらくスーパースター」リリース決定！",
-    desc: "小廻こま初のオリジナル楽曲がMillion RECORDSよりリリース。",
-    url: "https://milpr.com/news/OKIRAKUSUPERSTAR"
-  },
-  {
-    date: "2026-08-01",
-    tag: "コラボ",
-    title: "OLYMPIA × 甘狼このみ 第3弾コラボグッズ発売＆POP UP SHOP開催決定！",
-    desc: "OLYMPIAとの第3弾コラボグッズの発売とPOP UP SHOPの開催が決定しました。",
-    url: "https://milpr.com/news/OLYMPIA_Vol3"
-  },
-  {
-    date: "2026-07-26",
-    tag: "達成",
-    title: "あくび・でもんすぺーど 50万人記念グッズ 受注開始！",
-    desc: "『あくび・でもんすぺーど 50万人記念グッズ』の受注がスタート。",
-    url: "https://milpr.com/news/akubi_50"
-  },
-  {
-    date: "2026-07-23",
-    tag: "グッズ",
-    title: "ミリプロ ストリートコレクション 2026 受注開始！",
-    desc: "ストリートをテーマにしたコレクションの受注がスタート。",
-    url: "https://milpr.com/news/street2026"
-  },
-  {
-    date: "2026-07-18",
-    tag: "グッズ",
-    title: "ミリプロ 夏休み幼馴染コレクション 2026 受注開始！",
-    desc: "夏休みの田舎をテーマにしたコレクションの受注がスタート。夕霧レイもボイスに参加。",
-    url: "https://milpr.com/news/summer_vacation_2026"
+    desc: "デビューから約1か月での快挙。",
+    url: "https://milpr.com/news/rei_100k"
   }
 ];
 
@@ -713,9 +657,7 @@ const EVENTS = [
 const X_POSTS = [
   "https://x.com/Mil_Pro_/status/2086061757869805859",
   "https://x.com/Mil_Pro_/status/2085935896235499775",
-  "https://x.com/Mil_Pro_/status/2078068096661627227",
-  "https://x.com/Mil_Pro_/status/2076260542709420357",
-  "https://x.com/Mil_Pro_/status/2056283648064672107"
+  "https://x.com/Mil_Pro_/status/2078068096661627227"
 ];
 
 const HISTORY = [
