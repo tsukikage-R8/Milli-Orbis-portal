@@ -667,7 +667,7 @@ const NEWS = [
 
 const LAUNCHERS = [
   { icon: "images/icon/Milli%20Unishare-icon.PNG", shape: { char: "U", grad: ["#00bec4", "#00878c"] }, name: "Milli Unishare", desc: "配信・動画の情報を共有するファンサービス", url: "https://milli-unishare.onrender.com/" },
-  { icon: "images/icon/Millipro%20Chronicle-icon.jpeg", shape: { char: "C", grad: ["#f7cb0e", "#e6a700"] }, name: "Millipro Chronicle", desc: "ミリプロの歴史を記録するファン資料集", url: "https://millipro-chronicle.onrender.com/" },
+  { icon: "images/icon/Millipro%20Chronicle-icon.jpeg", shape: { char: "C", grad: ["#f7cb0e", "#e6a700"] }, name: "Millipro Chronicle", desc: "ミリプロの歴史を記録するファン資料集（準備中）", url: "" },
   { icon: "images/icon/Milli%20Games-icon.png", shape: { char: "G", grad: ["#8575bf", "#5f4f9e"] }, name: "Milli Games", desc: "ミリプロ関連のファンゲーム集", url: "https://milli-games.onrender.com/index.html" }
 ];
 
