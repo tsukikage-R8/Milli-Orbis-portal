@@ -228,7 +228,9 @@ const navDrop = (home) => `
           <a href="rei.html">夕霧レイ</a>
           <a href="milchan.html">ミリちゃん</a>
         </div>
-      </div>`;
+      </div>
+      <a href="quiz.html">ミリプロ検定</a>
+      <a href="songs.html">楽曲一覧</a>`;
 
 const mobileNav = (home) => `
       <a href="${home}#home">Home</a>
@@ -245,6 +247,8 @@ const mobileNav = (home) => `
       <a class="mobile-sub" href="rei.html">夕霧レイ</a>
       <a class="mobile-sub" href="milchan.html">ミリちゃん</a>
       <a href="${home}#calendar">Event Calendar</a>
+      <a href="quiz.html">ミリプロ検定</a>
+      <a href="songs.html">楽曲一覧</a>
       <a href="${home}#links">Official Links</a>`;
 
 function decoHtml(m) {
@@ -443,6 +447,213 @@ ${introOverlay(m)}
 }
 
 const outDir = path.join(__dirname, "..");
+
+/* 検定・楽曲など汎用サブページ（共通ヘッダー/フッター/ログインポップアップ付き） */
+function simplePage(o) {
+  return `<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${o.title} | Milli Orbis</title>
+<meta name="description" content="${esc(o.desc)}">
+<link rel="icon" href="images/icon/Milli%20Orbis.ico" sizes="any">
+<link rel="apple-touch-icon" sizes="192x192" href="images/icon/Milli%20Orbis-192.png">
+<link rel="apple-touch-icon" sizes="518x518" href="images/icon/Milli%20Orbis-518.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#75b1c0">
+<script>try{if(localStorage.getItem("milli-theme")==="dark"||(!localStorage.getItem("milli-theme")&&matchMedia("(prefers-color-scheme: dark)").matches))document.documentElement.dataset.theme="dark";}catch(e){}</script>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Milli Orbis">
+<meta property="og:title" content="${o.title} | Milli Orbis">
+<meta property="og:description" content="${esc(o.desc)}">
+<meta property="og:url" content="${SITE_CONFIG.siteUrl}/${o.file}">
+<meta property="og:image" content="${SITE_CONFIG.siteUrl}${SITE_CONFIG.ogImage}">
+<meta property="og:image:width" content="1729">
+<meta property="og:image:height" content="910">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${o.title} | Milli Orbis">
+<meta name="twitter:description" content="${esc(o.desc)}">
+<meta name="twitter:image" content="${SITE_CONFIG.siteUrl}${SITE_CONFIG.ogImage}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-member="" data-oshi="">
+<header id="siteHeader">
+  <div class="header-inner">
+    <a class="logo" href="index.html"><img src="images/rogo/Milli%20Orbis-rogo.png" alt="Milli Orbis"></a>
+    <nav class="nav">
+      <a href="index.html#home">Home</a>
+      ${navDrop("index.html")}
+      <a href="index.html#calendar">Event Calendar</a>
+      <a href="index.html#links">Official Links</a>
+    </nav>
+    <div class="header-actions">
+      <a id="liveBadge" class="live-badge" href="#" target="_blank" rel="noopener">● LIVE</a>
+      <button type="button" class="profile-btn" id="profile-btn" onclick="mpOpenAccount()" aria-label="アカウント連携">
+        <span class="profile-icon" id="profile-header-icon" style="display:none;"></span>
+        <span class="profile-label" id="profile-label">連携</span>
+      </button>
+      <select id="oshiSelect" class="oshi-select" aria-label="推しメンバーを選択"></select>
+      <button type="button" class="theme-toggle" id="themeToggle" aria-label="ダークモード切替">🌙</button>
+      <button id="hamburger" class="hamburger" aria-label="メニュー">
+        <svg viewBox="0 0 28 20" width="30" height="22" aria-hidden="true"><path d="M2 3h24M2 10h24M2 17h24" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+  <nav id="mobileNav" class="mobile-nav">
+    ${mobileNav("index.html")}
+  </nav>
+</header>
+
+<main class="container">
+  <nav class="breadcrumb"><a href="index.html">Home</a><span>${o.title}</span></nav>
+
+  <section class="subpage-hero">
+    <h1>${o.title}</h1>
+    <p>${esc(o.desc)}</p>
+  </section>
+
+  ${o.body}
+</main>
+
+<footer>
+  <p class="disclaimer">本サイトはファンが運営する非公式のポータルサイトです。ミリプロ公式様とは一切関係ありません。</p>
+  <p class="source-note">${esc(SITE_CONFIG.sourceNote)}</p>
+  <p class="source-note">YouTube Data API を利用しています（<a href="https://developers.google.com/youtube/terms/api-services-terms-of-service" target="_blank" rel="noopener">YouTube API Services Terms of Service</a>）</p>
+  <p>© 2026 Milli Orbis（非公式ファンサイト）</p>
+</footer>
+
+<div id="login-popup" class="login-popup">
+  <div class="login-popup-card">
+    <div class="login-popup-header">
+      <span class="login-popup-title">アカウント連携</span>
+      <button class="login-popup-close" id="mp-popup-close" aria-label="閉じる">&times;</button>
+    </div>
+    <div class="login-popup-body">
+      <p class="login-popup-desc">
+        ログイン（または連携IDの設定）で、Milli Games / Milli Unishare / Millipro Chronicle と同じアカウントを共有できます。<br>
+        未ログインでも本サイトの全機能は利用できます。
+      </p>
+      <div id="mp-account-ok" style="display:none;">
+        <div class="mp-row">連携ID: <b id="mp-pid"></b></div>
+        <div class="mp-btn-row">
+          <button type="button" class="btn" onclick="mpCopyId()">🔗 IDをコピー</button>
+          <button type="button" class="btn btn-ghost" onclick="mpLogout()">ログアウト</button>
+        </div>
+      </div>
+      <div id="mp-account-form">
+        <div class="mp-tabs">
+          <button type="button" id="mp-tab-login" class="mp-tab active" onclick="mpTab('login')">ログイン</button>
+          <button type="button" id="mp-tab-signup" class="mp-tab" onclick="mpTab('signup')">新規登録</button>
+        </div>
+        <div id="mp-panel-login">
+          <input id="mp-email" class="mp-input" type="email" placeholder="メールアドレス" autocomplete="email">
+          <div class="mp-pass-row">
+            <input id="mp-pass" class="mp-input" type="password" placeholder="パスワード" autocomplete="current-password">
+            <button type="button" class="mp-eye" id="mp-pass-eye" onclick="mpToggle('mp-pass','mp-pass-eye')" aria-label="パスワード表示切替">👁</button>
+          </div>
+          <button type="button" class="btn mp-submit" onclick="mpSubmit(false)">ログイン</button>
+        </div>
+        <div id="mp-panel-signup" style="display:none;">
+          <input id="mp2-email" class="mp-input" type="email" placeholder="メールアドレス" autocomplete="email">
+          <div class="mp-pass-row">
+            <input id="mp2-pass" class="mp-input" type="password" placeholder="パスワード（6文字以上）" autocomplete="new-password">
+            <button type="button" class="mp-eye" id="mp2-pass-eye" onclick="mpToggle('mp2-pass','mp2-pass-eye')" aria-label="パスワード表示切替">👁</button>
+          </div>
+          <input id="mp2-pass2" class="mp-input" type="password" placeholder="パスワード（確認）" autocomplete="new-password">
+          <button type="button" class="btn mp-submit" onclick="mpSubmit(true)">登録する</button>
+        </div>
+        <p id="mp-msg" class="mp-msg"></p>
+        <div class="mp-sep"><span>または</span></div>
+        <div class="mp-row mp-row-label">連携ID（ログイン不要）:</div>
+        <div class="mp-setid-row">
+          <input id="mp-id" class="mp-input" placeholder="連携ID（例: TEST001）" autocomplete="off">
+          <button type="button" class="btn btn-ghost" onclick="mpSetId()">設定</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="float-actions">
+  <button type="button" class="share-x" id="shareXBtn">Xで共有</button>
+  <button type="button" class="to-top" id="toTopBtn" aria-label="ページ上部へ">▲</button>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database-compat.js"></script>
+<script src="firebase-config.js"></script>
+<script src="firebase-init.js"></script>
+<script src="data.js"></script>
+<script src="script.js"></script>
+${o.scripts}
+</body>
+</html>
+`;
+}
+
+fs.writeFileSync(path.join(outDir, "quiz.html"), simplePage({
+  file: "quiz.html",
+  title: "ミリプロ検定",
+  desc: "ミリプロについての10問クイズに挑戦！全問正解で「ミリプロ博士」の称号を目指せ！",
+  body: `
+  <section id="quizStart" class="section quiz-section">
+    <div class="quiz-card card">
+      <h2>10問のミリプロ検定！</h2>
+      <p>ミリプロメンバー・設立・流行語まで、ここでしか出ない10問。</p>
+      <p class="quiz-note">答えはMember Guideから導き出せます（プロは推しの情報も丸暗記）。</p>
+      <button type="button" class="btn quiz-big-btn" id="quizStartBtn">▶ 検定をはじめる</button>
+    </div>
+  </section>
+  <section id="quizScreen" class="section quiz-section" style="display:none;">
+    <div class="quiz-card card">
+      <div class="quiz-progress-row"><span class="quiz-progress" id="quizProgress"></span><span class="quiz-dots" id="quizDots"></span></div>
+      <h2 class="quiz-q" id="quizQ"></h2>
+      <div class="quiz-opts" id="quizOpts"></div>
+      <div class="quiz-explain" id="quizExplain" style="display:none;"></div>
+      <button type="button" class="btn quiz-next" id="quizNext" style="display:none;">次の問題 →</button>
+    </div>
+  </section>
+  <section id="quizResult" class="section quiz-section" style="display:none;">
+    <div class="quiz-card card quiz-result">
+      <div class="quiz-result-score" id="quizScore"></div>
+      <div class="quiz-rank" id="quizRank"></div>
+      <div class="quiz-btn-row">
+        <a class="btn" id="quizShare" href="#" target="_blank" rel="noopener">Xで結果を共有</a>
+        <button type="button" class="btn btn-ghost" id="quizRetry">もう一度挑戦</button>
+      </div>
+    </div>
+  </section>`,
+  scripts: '<script src="scripts/quiz.js"></script>'
+}), "utf8");
+console.log("generated: quiz.html");
+
+fs.writeFileSync(path.join(outDir, "songs.html"), simplePage({
+  file: "songs.html",
+  title: "楽曲一覧",
+  desc: "ミリプロ公式プレイリストとメンバー歌ってみたを自動でまとめた楽曲データベース",
+  body: `
+  <section class="section">
+    <div class="song-tools">
+      <input id="songsSearch" class="song-search" type="search" placeholder="曲名・メンバー名で検索…" autocomplete="off">
+      <div class="song-tabs">
+        <button type="button" class="song-tab active" id="songsTabCovers">歌ってみた</button>
+        <button type="button" class="song-tab" id="songsTabOfficial">公式楽曲</button>
+      </div>
+    </div>
+    <div class="song-chips" id="songsChips"></div>
+    <p class="song-tab-label" id="songsTabLabel"></p>
+    <p class="song-note" id="songsNote" style="display:none;">ミリプロ公式チャンネルのプレイリスト「ミリプロ歌まとめ」より自動取得（オリジナル楽曲のMV・公式カバー・メンバーカバーを含みます）。YouTube Data API により毎日自動更新されます。</p>
+    <div id="songsList"></div>
+  </section>`,
+  scripts: '<script src="data/songs.js"></script>\n<script src="scripts/songs.js"></script>'
+}), "utf8");
+console.log("generated: songs.html");
+
 for (const m of MEMBERS) {
   fs.writeFileSync(path.join(outDir, m.id + ".html"), page(m), "utf8");
   console.log("generated: " + m.id + ".html");

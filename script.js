@@ -1414,19 +1414,20 @@
   /* ============ Milli Games ゲーム紹介 ============ */
   function renderGameFeature() {
     var box = $("#gameFeature");
-    if (!box || !GAME_FEATURE) return;
-    var f = GAME_FEATURE;
-    var link = f.url ? '<a class="game-feature-link" href="' + f.url + '" target="_blank" rel="noopener">詳しく見る ↗</a>'
-      : '<span class="game-feature-link is-disabled">詳細は準備中</span>';
-    box.innerHTML = '<div class="game-feature">' +
-      (f.icon ? '<div class="game-feature-icon"><img src="' + f.icon + '" alt="" loading="lazy"></div>' : "") +
-      '<div class="game-feature-body">' +
-      '<span class="game-feature-tag">' + esc(f.tag || "ゲーム紹介") + "</span>" +
-      '<div class="game-feature-game">' + esc(f.game) + "</div>" +
-      (f.desc ? '<div class="game-feature-desc">' + esc(f.desc) + "</div>" : "") +
-      link +
-      "</div>" +
-      "</div>";
+    if (!box || !GAME_FEATURE || !GAME_FEATURE.length) return;
+    box.innerHTML = GAME_FEATURE.map(function (f) {
+      var link = f.url ? '<a class="game-feature-link" href="' + f.url + '" target="_blank" rel="noopener">詳しく見る ↗</a>'
+        : '<span class="game-feature-link is-disabled">詳細は準備中</span>';
+      return '<div class="game-feature">' +
+        (f.icon ? '<div class="game-feature-icon"><img src="' + f.icon + '" alt="" loading="lazy"></div>' : "") +
+        '<div class="game-feature-body">' +
+        '<span class="game-feature-tag">' + esc(f.tag || "ゲーム紹介") + "</span>" +
+        '<div class="game-feature-game">' + esc(f.game) + "</div>" +
+        (f.desc ? '<div class="game-feature-desc">' + esc(f.desc) + "</div>" : "") +
+        link +
+        "</div>" +
+        "</div>";
+    }).join("");
   }
 
   /* ============ PWA: サービスワーカー登録 ============ */
