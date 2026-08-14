@@ -1,51 +1,6 @@
 {
-  "updatedAt": "2026-08-14T16:37:32.361Z",
+  "updatedAt": "2026-08-14T20:19:08.753Z",
   "streams": [
-    {
-      "id": "Kd-mPGm6R8U",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 ストリヌ 】銭湯にする？裁判にする？それともダンジョン？#7【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Kd-mPGm6R8U/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-14T10:30:50Z",
-      "status": "live"
-    },
-    {
-      "id": "S0AocVPRsys",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【マイクラ￤ストリヌ】7日目！今日は6層を目指している_____。【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/S0AocVPRsys/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-14T10:54:29Z",
-      "status": "live"
-    },
-    {
-      "id": "vgYP59AH_X4",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 ストリヌ 】では、裁判の時間です #7 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/vgYP59AH_X4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-14T11:01:18Z",
-      "status": "live"
-    },
-    {
-      "id": "_qwYV4vLxOg",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 ストリヌ 〗 お洋服は、稼げる#5〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/_qwYV4vLxOg/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-14T12:02:34Z",
-      "status": "live"
-    },
-    {
-      "id": "yv4LSQZbl4A",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "title": "【ストリヌ】孤高の女王【#あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/yv4LSQZbl4A/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-14T12:04:22Z",
-      "status": "live"
-    },
     {
       "id": "VbQsKSoywf0",
       "memberId": "yura",
@@ -328,6 +283,66 @@
   ],
   "videos": [
     {
+      "id": "BcxofXfR3g4",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【VALORANT】録音を終わらせた雨女、寝る前のチルヴァロ【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/BcxofXfR3g4/hqdefault.jpg",
+      "publishedAt": "2026-08-14T19:19:09Z",
+      "live": false
+    },
+    {
+      "id": "_qwYV4vLxOg",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ストリヌ 〗 お洋服は、稼げる#5〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/_qwYV4vLxOg/hqdefault.jpg",
+      "publishedAt": "2026-08-14T17:55:17Z",
+      "live": false
+    },
+    {
+      "id": "S0AocVPRsys",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【マイクラ￤ストリヌ】7日目！今日は6層を目指している_____。【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/S0AocVPRsys/hqdefault.jpg",
+      "publishedAt": "2026-08-14T17:33:21Z",
+      "live": false
+    },
+    {
+      "id": "yv4LSQZbl4A",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "【ストリヌ】孤高の女王【#あくび・でもんすぺーど】",
+      "thumb": "https://i.ytimg.com/vi/yv4LSQZbl4A/hqdefault.jpg",
+      "publishedAt": "2026-08-14T17:24:41Z",
+      "live": false
+    },
+    {
+      "id": "vgYP59AH_X4",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 ストリヌ 】では、裁判の時間です #7 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/vgYP59AH_X4/hqdefault.jpg",
+      "publishedAt": "2026-08-14T17:23:39Z",
+      "live": false
+    },
+    {
+      "id": "Kd-mPGm6R8U",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 ストリヌ 】銭湯にする？裁判にする？それともダンジョン？#7【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/Kd-mPGm6R8U/hqdefault.jpg",
+      "publishedAt": "2026-08-14T17:23:33Z",
+      "live": false
+    },
+    {
       "id": "UhO0Vt03ZMg",
       "memberId": "liz",
       "member": "雨夜リズ",
@@ -338,26 +353,6 @@
       "live": false
     },
     {
-      "id": "yv4LSQZbl4A",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "【ストリヌ】孤高の女王【#あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/yv4LSQZbl4A/hqdefault_live.jpg",
-      "publishedAt": "2026-08-14T12:04:22Z",
-      "live": false
-    },
-    {
-      "id": "_qwYV4vLxOg",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ストリヌ 〗 お洋服は、稼げる#5〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/_qwYV4vLxOg/hqdefault_live.jpg",
-      "publishedAt": "2026-08-14T12:02:34Z",
-      "live": false
-    },
-    {
       "id": "3AWNBbkGT7k",
       "memberId": "rei",
       "member": "夕霧レイ",
@@ -365,36 +360,6 @@
       "title": "【 ストリヌ 】音割れ0を目指す #6 【夕霧レイ / ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/3AWNBbkGT7k/hqdefault.jpg",
       "publishedAt": "2026-08-14T11:06:46Z",
-      "live": false
-    },
-    {
-      "id": "vgYP59AH_X4",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 ストリヌ 】では、裁判の時間です #7 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/vgYP59AH_X4/hqdefault_live.jpg",
-      "publishedAt": "2026-08-14T11:01:18Z",
-      "live": false
-    },
-    {
-      "id": "S0AocVPRsys",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【マイクラ￤ストリヌ】7日目！今日は6層を目指している_____。【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/S0AocVPRsys/hqdefault_live.jpg",
-      "publishedAt": "2026-08-14T10:54:29Z",
-      "live": false
-    },
-    {
-      "id": "Kd-mPGm6R8U",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 ストリヌ 】銭湯にする？裁判にする？それともダンジョン？#7【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Kd-mPGm6R8U/hqdefault_live.jpg",
-      "publishedAt": "2026-08-14T10:30:50Z",
       "live": false
     },
     {
@@ -616,63 +581,7 @@
       "thumb": "https://i.ytimg.com/vi/R7rxlZ7VRWc/hqdefault.jpg",
       "publishedAt": "2026-08-12T13:17:23Z",
       "live": false
-    },
-    {
-      "id": "MyalPzyuxZM",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "【オバケイドロ２】 オバケとニンゲンでおいかけっこするゲーム【#あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/MyalPzyuxZM/hqdefault.jpg",
-      "publishedAt": "2026-08-12T12:23:31Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "Kd-mPGm6R8U",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 ストリヌ 】銭湯にする？裁判にする？それともダンジョン？#7【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Kd-mPGm6R8U/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-14T10:30:50Z",
-      "status": "live"
-    },
-    {
-      "id": "S0AocVPRsys",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【マイクラ￤ストリヌ】7日目！今日は6層を目指している_____。【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/S0AocVPRsys/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-14T10:54:29Z",
-      "status": "live"
-    },
-    {
-      "id": "vgYP59AH_X4",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 ストリヌ 】では、裁判の時間です #7 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/vgYP59AH_X4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-14T11:01:18Z",
-      "status": "live"
-    },
-    {
-      "id": "_qwYV4vLxOg",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 ストリヌ 〗 お洋服は、稼げる#5〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/_qwYV4vLxOg/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-14T12:02:34Z",
-      "status": "live"
-    },
-    {
-      "id": "yv4LSQZbl4A",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "title": "【ストリヌ】孤高の女王【#あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/yv4LSQZbl4A/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-14T12:04:22Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
