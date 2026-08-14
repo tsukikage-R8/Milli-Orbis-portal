@@ -105,7 +105,7 @@ const MEMBERS = [
         { k: "heart", x: 86, y: 82, size: 48, dur: 12 }
       ]
     },
-    featuredVideos: [],
+    featuredVideos: ["MN_OKWKp0rI", "GNKxOwdJgC8", "qL5FGwPkoQ4"],
     voice: "assets/voices/甘狼このみ.mp3",
     intro: ""
   },
@@ -150,7 +150,7 @@ const MEMBERS = [
         { k: "note", x: 72, y: 85, size: 58, dur: 12 }
       ]
     },
-    featuredVideos: [],
+    featuredVideos: ["9jF60mq9Qdk", "lBUrJcR474U", "1HdUN5AP5BY"],
     voice: "assets/voices/音ノ乃のの.mp3",
     intro: ""
   },
@@ -195,7 +195,7 @@ const MEMBERS = [
         { k: "flame", x: 78, y: 83, size: 44, dur: 12 }
       ]
     },
-    featuredVideos: [],
+    featuredVideos: ["PSdEXx6yKoI", "YNe2YuSqncc", "kpyynMWu-o0"],
     voice: "assets/voices/あくび・でもんすぺーど.mp3",
     intro: ""
   },
@@ -241,7 +241,7 @@ const MEMBERS = [
         { k: "top", x: 82, y: 82, size: 52, dur: 12 }
       ]
     },
-    featuredVideos: [],
+    featuredVideos: ["EoCUHLE9GTc", "ssvo2Umq0sc", "1UdnoJ6qgPs"],
     voice: "assets/voices/小廻こま.mp3",
     intro: ""
   },
@@ -286,7 +286,7 @@ const MEMBERS = [
         { k: "wave", x: 80, y: 84, size: 58, dur: 12 }
       ]
     },
-    featuredVideos: [],
+    featuredVideos: ["IAwrziSiqVI", "MklYo2c3QmM", "GgIbQ5mHAQk"],
     voice: "assets/voices/音ノ瀬らこ.mp3",
     intro: ""
   },
@@ -334,7 +334,7 @@ const MEMBERS = [
         { k: "bub", x: 78, y: 78, size: 48, dur: 16 }
       ]
     },
-    featuredVideos: [],
+    featuredVideos: ["zkyfZ9Zg2bQ", "73hzg0X6jWk", "LqdUhTK2sCY"],
     voice: "assets/voices/ゆらぎゆら.mp3",
     intro: ""
   },
@@ -381,7 +381,7 @@ const MEMBERS = [
         { k: "rainbow", x: 80, y: 86, size: 56, dur: 13 }
       ]
     },
-    featuredVideos: [],
+    featuredVideos: ["FJO8obFEvIw", "9yClH5ihXXU", "7klVnwL9gH4"],
     voice: "assets/voices/虹深°ぬふ.mp3",
     intro: ""
   },
@@ -426,7 +426,7 @@ const MEMBERS = [
         { k: "cloud", x: 78, y: 80, size: 46, dur: 13 }
       ]
     },
-    featuredVideos: [],
+    featuredVideos: ["2UHLDOqb194", "UHf4Szx02iM", "Hs-gxOofX1s"],
     voice: "assets/voices/眠雲ツクリ.mp3",
     intro: ""
   },
@@ -471,7 +471,7 @@ const MEMBERS = [
         { k: "drop", x: 14, y: 78, size: 42, dur: 13 }
       ]
     },
-    featuredVideos: [],
+    featuredVideos: ["IS6J88gLpAw", "gA2vNb2wDOo", "g5dmsdj-btY"],
     voice: "assets/voices/雨夜リズ.mp3",
     intro: ""
   },
@@ -516,7 +516,7 @@ const MEMBERS = [
         { k: "ring", x: 12, y: 78, size: 44, dur: 13 }
       ]
     },
-    featuredVideos: [],
+    featuredVideos: ["pb4bJ6x8oSg", "rvXcbRifIYM", "cphW85uNiuI"],
     voice: "assets/voices/夕霧レイ.mp3",
     intro: ""
   },

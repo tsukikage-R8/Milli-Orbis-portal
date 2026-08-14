@@ -794,7 +794,7 @@
           btn.textContent = "▶ 挨拶を再生";
         });
       } else {
-        voice.innerHTML = '<div class="placeholder">挨拶ボイスは準備中です。<br>配信音声から抽出したMP3を assets/voices/' + m.id + '.mp3 に置き、data.js の voice に指定すると再生されます。</div>';
+        voice.innerHTML = '<div class="placeholder">挨拶ボイスは準備中です。</div>';
       }
     }
 
@@ -846,7 +846,7 @@
               '" loading="lazy" allowfullscreen title="おすすめ動画"></iframe></div>';
           }).join("") + "</div></div>";
       } else {
-        videos.innerHTML = '<div class="placeholder">おすすめ動画は準備中です。<br>data.js の featuredVideos にYouTube動画IDを登録すると埋め込み表示されます。</div>';
+        videos.innerHTML = '<div class="placeholder">おすすめ動画は準備中です。</div>';
       }
     }
 
