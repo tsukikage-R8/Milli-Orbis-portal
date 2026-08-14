@@ -3119,3 +3119,57 @@ body:not([data-member]) .intro-fx { display: none; }
 }
 .cd-cal:hover { text-decoration: none; transform: translateY(-1px); }
 :root[data-theme="dark"] .cd-cal { background: #262233; }
+
+/* 配信予定: タイトル横スクロール・アクション行・注記 */
+.stream-item { align-items: stretch; }
+.stream-main { text-decoration: none; }
+.stream-body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.stream-item .video-title {
+  white-space: nowrap;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent) transparent;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 2px;
+}
+.stream-item .video-title::-webkit-scrollbar { height: 5px; }
+.stream-item .video-title::-webkit-scrollbar-thumb { background: var(--accent); border-radius: 999px; }
+.stream-item .video-meta { margin-top: 0; }
+.stream-actions { flex-direction: row; flex-wrap: wrap; }
+.stream-note {
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin: -6px 0 12px;
+}
+
+/* トースト（初回リマインド案内など） */
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: 84px;
+  transform: translate(-50%, 24px);
+  max-width: min(92vw, 480px);
+  background: var(--card);
+  border: 3px solid #fff;
+  outline: 2px solid var(--accent);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  padding: 14px 18px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.6;
+  z-index: 950;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+.toast.show { opacity: 1; transform: translate(-50%, 0); pointer-events: auto; }
+:root[data-theme="dark"] .toast { border-color: #3a3448; }

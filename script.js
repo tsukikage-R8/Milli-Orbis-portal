@@ -413,10 +413,11 @@
           return '<div class="stream-item card">' +
             '<a class="stream-main" href="' + videoUrl(s.id) + '" target="_blank" rel="noopener">' +
             '<div class="video-thumb"><img src="' + thumbUrl(s.id) + '" alt="" loading="lazy"></div>' +
-            "<div><div class='video-title'>" + esc(s.title) + (isLive ? '<span class="video-tag">LIVE</span>' : "") + "</div>" +
+            '<div class="stream-body">' +
+            '<div class="video-title">' + esc(s.title) + (isLive ? '<span class="video-tag">LIVE</span>' : "") + "</div>" +
+            '<div class="stream-actions">' + cal + remind + "</div>" +
             '<div class="video-meta">' + (m ? m.name + " ・ " : "") + when + soon + "</div>" +
             "</div></a>" +
-            '<div class="stream-actions">' + cal + remind + "</div>" +
             "</div>";
         }).join("") + "</div>";
     });
@@ -454,6 +455,7 @@
     var grant = function () {
       setReminders(getReminders().concat([{ id: vid, time: time }]));
       btn.classList.add("is-active");
+      showRemindHelp();
     };
     if (Notification.permission === "granted") grant();
     else if (Notification.permission === "denied") alert("通知が許可されていません。ブラウザの設定から許可してください。");
@@ -462,6 +464,31 @@
       else alert("通知が許可されなかったため、リマインドを登録できませんでした。");
     });
   }
+  /* 初回リマインド登録時のみ表示する案内ポップアップ */
+  function showRemindHelp() {
+    var seen = false;
+    try { seen = localStorage.getItem("milli-remind-seen") === "1"; } catch (e) {}
+    if (seen) return;
+    try { localStorage.setItem("milli-remind-seen", "1"); } catch (e) {}
+    showToast("🔔 リマインドを登録しました！<br>※通知が届くのはこのサイトを開いている間のみです（別タブ・バックグラウンドでも届きます）。");
+  }
+
+  function showToast(html) {
+    var old = $(".toast");
+    if (old) old.remove();
+    var t = document.createElement("div");
+    t.className = "toast";
+    t.innerHTML = html;
+    document.body.appendChild(t);
+    requestAnimationFrame(function () { t.classList.add("show"); });
+    var close = function () {
+      t.classList.remove("show");
+      setTimeout(function () { if (t.parentNode) t.parentNode.removeChild(t); }, 350);
+    };
+    t.addEventListener("click", close);
+    setTimeout(close, 8000);
+  }
+
   function initReminderWatcher() {
     if (!("Notification" in window) || Notification.permission !== "granted") return;
     setInterval(function () {
