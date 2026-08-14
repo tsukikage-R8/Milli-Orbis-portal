@@ -115,6 +115,8 @@
       <p class="cd-rail-hint">下のカウントダウンをクリックするとメイン表示を切り替えられます</p>
       <div id="cdRail" class="cd-rail"></div>
     </div>
+
+    <div id="todayBox" class="today-box"></div>
   </section>
 
   <div class="wave" aria-hidden="true"></div>
@@ -124,6 +126,9 @@
   <section class="section container">
     <h2 class="section-title">配信予定</h2>
     <p class="section-sub">配信を今日・明日・一週間以内・それ以降に分けて自動表示します</p>
+    <div class="stream-tools">
+      <button type="button" class="remind-all" id="remindAllBtn">🔔 全配信を通知</button>
+    </div>
     <p class="stream-note">🔔 通知が届くのはこのサイトを開いている間のみです（別タブ・バックグラウンドでも届きます）</p>
     <div id="streams" class="stream-list"></div>
   </section>

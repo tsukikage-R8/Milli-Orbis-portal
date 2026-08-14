@@ -337,10 +337,14 @@
       });
   }
 
+  var lastStreams = null;
+
   function renderYoutube(data) {
+    lastStreams = data ? (data.streams || null) : null;
     renderStreams(data ? data.streams : null);
     renderLatestVideos(data ? data.videos : null);
     renderLiveBadge(data ? data.streams : null);
+    renderTodayBox();
   }
 
   function videoUrl(id) { return "https://www.youtube.com/watch?v=" + id; }
@@ -443,6 +447,19 @@
   function isReminded(vid) {
     return getReminders().some(function (r) { return r.id === vid; });
   }
+  function registerReminder(btn) {
+    var key = btn.dataset.vid || btn.dataset.key;
+    var time = btn.dataset.time;
+    if (!key || !time || isReminded(key)) return false;
+    setReminders(getReminders().concat([{
+      id: key,
+      time: time,
+      kind: btn.dataset.kind || "stream",
+      title: btn.dataset.title || ""
+    }]));
+    btn.classList.add("is-active");
+    return true;
+  }
   function toggleReminder(btn) {
     if (!("Notification" in window)) {
       alert("このブラウザは通知に対応していません。");
@@ -470,6 +487,34 @@
     else Notification.requestPermission().then(function (p) {
       if (p === "granted") grant();
       else alert("通知が許可されなかったため、リマインドを登録できませんでした。");
+    });
+  }
+
+  /* 配信予定の全件を一括でリマインド登録 */
+  function initRemindAll() {
+    var btn = $("#remindAllBtn");
+    if (!btn) return;
+    btn.addEventListener("click", function () {
+      var box = $("#streams");
+      if (!box) return;
+      var btns = $$(".stream-remind", box).filter(function (b) { return !b.classList.contains("is-active"); });
+      if (!btns.length) {
+        showToast("🔔 すべての配信はリマインド登録済みです");
+        return;
+      }
+      if (!("Notification" in window)) { alert("このブラウザは通知に対応していません。"); return; }
+      var grant = function () {
+        var n = 0;
+        btns.forEach(function (b) { if (registerReminder(b)) n++; });
+        showToast("🔔 配信予定 " + n + " 件を通知に登録しました！");
+        showRemindHelp();
+      };
+      if (Notification.permission === "granted") grant();
+      else if (Notification.permission === "denied") alert("通知が許可されていません。ブラウザの設定から許可してください。");
+      else Notification.requestPermission().then(function (p) {
+        if (p === "granted") grant();
+        else alert("通知が許可されなかったため、リマインドを登録できませんでした。");
+      });
     });
   }
   /* 初回リマインド登録時のみ表示する案内ポップアップ */
@@ -1381,6 +1426,40 @@
     w.style.display = "flex";
   }
 
+  /* 今日のミリプロボックス（誕生日・当日イベント・当日配信を自動まとめ） */
+  function renderTodayBox() {
+    var box = $("#todayBox");
+    if (!box) return;
+    var now = jstNow();
+    var mmdd = pad2(now.getMonth() + 1) + "-" + pad2(now.getDate());
+    var sameDay = function (d) {
+      return d && d.getFullYear() === now.getFullYear() && d.getMonth() === now.getMonth() && d.getDate() === now.getDate();
+    };
+    var items = [];
+    getMemberByDate(mmdd, "birthday").forEach(function (m) {
+      items.push("🎂 <b>" + esc(m.name) + "</b> の誕生日！");
+    });
+    getMemberByDate(mmdd, "anniversary").forEach(function (m) {
+      items.push("🎉 <b>" + esc(m.name) + "</b> デビュー記念日");
+    });
+    eventOccurrences().forEach(function (it) {
+      if (it.ev.type !== "event" || !sameDay(it.date)) return;
+      var link = it.ev.url ? '<a href="' + esc(it.ev.url) + '" target="_blank" rel="noopener">' + esc(it.ev.title) + "</a>" : esc(it.ev.title);
+      items.push("🎊 " + link);
+    });
+    (lastStreams || []).forEach(function (s) {
+      var start = new Date(s.scheduledStartTime || s.scheduledStart);
+      if (!sameDay(start)) return;
+      var m = getMember(s.memberId) || (s.memberId === "official" ? { name: "ミリプロ公式" } : null);
+      var label = s.status === "live" ? "🔴 LIVE 配信中" : "📺 " + fmtTime(start) + "〜";
+      items.push(label + " " + esc(s.title) + (m ? "（" + esc(m.name) + "）" : ""));
+    });
+    if (!items.length) { box.style.display = "none"; box.innerHTML = ""; return; }
+    box.style.display = "block";
+    box.innerHTML = '<h3 class="today-box-title">📌 今日のミリプロ</h3><ul class="today-list">' +
+      items.map(function (i) { return "<li>" + i + "</li>"; }).join("") + "</ul>";
+  }
+
   /* ============ 起動 ============ */
   function boot() {
     applyOshi(getOshi());
@@ -1388,6 +1467,7 @@
     initTheme();
     initCountdown();
     checkBirthday();
+    renderTodayBox();
     initAccount();
     loadYoutubeData();
     renderNews();
@@ -1405,6 +1485,7 @@
     initOnboarding();
     initFloatActions();
     initReminderWatcher();
+    initRemindAll();
     initServiceWorker();
   }
 
