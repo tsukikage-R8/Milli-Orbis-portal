@@ -27,7 +27,7 @@ function introOverlay(m) {
     '<p class="intro-name">' + m.name + "</p>" +
     '<p class="intro-catch" id="introCatch"></p>' +
     "</div>" +
-    '<audio id="introAudio" src="' + (m.introVoice || "") + '" preload="auto"></audio>' +
+    '<audio id="introAudio" src="' + (m.introVoice || m.voice || "") + '" preload="auto"></audio>' +
     "</div>";
 }
 
