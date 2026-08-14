@@ -97,16 +97,19 @@
   }
 
   function applyOshi(id) {
+    var dark = document.documentElement.dataset.theme === "dark";
     var m = getMember(id);
     var color = m ? m.color : "#75b1c0";
     var soft = m ? m.subColor : "#d8ecf2";
     var r = document.documentElement.style;
     r.setProperty("--accent", color);
-    r.setProperty("--accent-soft", soft);
-    r.setProperty("--grad", "linear-gradient(135deg, " + soft + ", #ffffff 60%)");
-    r.setProperty("--accent-deep", shade(color, -35));
+    r.setProperty("--accent-soft", dark ? shade(soft, -40) : soft);
+    r.setProperty("--grad", dark
+      ? "linear-gradient(135deg, " + shade(soft, -55) + ", #15121c 68%)"
+      : "linear-gradient(135deg, " + soft + ", #ffffff 60%)");
+    r.setProperty("--accent-deep", dark ? shade(color, 22) : shade(color, -35));
     document.body.style.setProperty("--mc", color);
-    document.body.style.setProperty("--mc-soft", soft);
+    document.body.style.setProperty("--mc-soft", dark ? shade(soft, -45) : soft);
     document.body.dataset.oshi = id || "";
     applyPageDeco();
   }
@@ -1270,6 +1273,7 @@
         try { localStorage.setItem("milli-theme", "dark"); } catch (e) {}
       }
       sync();
+      applyOshi(getOshi());
     });
   }
 
