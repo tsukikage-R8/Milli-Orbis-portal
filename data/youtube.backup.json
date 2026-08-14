@@ -1,59 +1,14 @@
 {
-  "updatedAt": "2026-08-13T16:42:13.236Z",
+  "updatedAt": "2026-08-13T20:27:03.139Z",
   "streams": [
     {
-      "id": "dumZaEhaYVw",
+      "id": "VbQsKSoywf0",
       "memberId": "yura",
       "member": "ゆらぎゆら",
-      "title": "【ストリヌ】第6話「本部復興しつつ、ダンジョンも行く！」【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/dumZaEhaYVw/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-13T09:35:25Z",
-      "status": "live"
-    },
-    {
-      "id": "8oVQN9Jkh04",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【マイクラ￤ストリヌ】6日目！ダンジョンも行きたい！お店もやりたい！！【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/8oVQN9Jkh04/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-13T09:58:05Z",
-      "status": "live"
-    },
-    {
-      "id": "VeTK4rCIL7I",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 ストリヌ 】今日も楽しさてんこ盛りの予感！#6【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/VeTK4rCIL7I/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-13T09:59:34Z",
-      "status": "live"
-    },
-    {
-      "id": "9NDYZr_Cg5w",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 ストリヌ 〗お洋服とダンジョンと、それから、 #5〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/9NDYZr_Cg5w/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-13T10:03:01Z",
-      "status": "live"
-    },
-    {
-      "id": "3AWNBbkGT7k",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 ストリヌ 】音割れ0を目指す #6 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/3AWNBbkGT7k/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-13T10:32:17Z",
-      "status": "live"
-    },
-    {
-      "id": "IRunDTbLhKc",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "title": "【ストリヌ】べ、べべつにぼっちでもいいし【#あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/IRunDTbLhKc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-13T11:27:53Z",
-      "status": "live"
+      "title": "【ストリヌ】第7話「一日ぶりの外の世界、ただいま！」【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/VbQsKSoywf0/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-15T09:00:00Z",
+      "status": "upcoming"
     },
     {
       "id": "6t5oqLio_Ts",
@@ -146,6 +101,15 @@
       "status": "upcoming"
     },
     {
+      "id": "nElUBc_Ji-Y",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "title": "【📢グッズ情報】ミリプロストリートコレクション受注開始！",
+      "thumb": "https://i.ytimg.com/vi/nElUBc_Ji-Y/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-23T14:00:00Z",
+      "status": "upcoming"
+    },
+    {
       "id": "dHnc-b8UT34",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -188,6 +152,15 @@
       "title": "❥‬ゆらぎのメンバーシップ特典のまとめ🌙Yuragi Yura&#39;s Membership 🫧※概要欄をチェック！",
       "thumb": "https://i.ytimg.com/vi/24ZLgKWtJ14/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-30T15:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "8XDNCdSicJ8",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "title": "【📢グッズ情報】ミリプロサマーコレクション2026受注開始！",
+      "thumb": "https://i.ytimg.com/vi/8XDNCdSicJ8/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-02T14:00:00Z",
       "status": "upcoming"
     },
     {
@@ -301,43 +274,13 @@
   ],
   "videos": [
     {
-      "id": "6t5oqLio_Ts",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【 歌枠 】カゲプロ縛り！最後は告知も…？【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/6t5oqLio_Ts/hqdefault_live.jpg",
-      "publishedAt": "2026-08-13T15:54:04Z",
-      "live": false
-    },
-    {
-      "id": "IRunDTbLhKc",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "【ストリヌ】べ、べべつにぼっちでもいいし【#あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/IRunDTbLhKc/hqdefault_live.jpg",
-      "publishedAt": "2026-08-13T11:27:53Z",
-      "live": false
-    },
-    {
-      "id": "3AWNBbkGT7k",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 ストリヌ 】音割れ0を目指す #6 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/3AWNBbkGT7k/hqdefault_live.jpg",
-      "publishedAt": "2026-08-13T10:32:17Z",
-      "live": false
-    },
-    {
-      "id": "9NDYZr_Cg5w",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ストリヌ 〗お洋服とダンジョンと、それから、 #5〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/9NDYZr_Cg5w/hqdefault_live.jpg",
-      "publishedAt": "2026-08-13T10:03:01Z",
+      "id": "VbQsKSoywf0",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【ストリヌ】第7話「一日ぶりの外の世界、ただいま！」【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/VbQsKSoywf0/hqdefault_live.jpg",
+      "publishedAt": "2026-08-13T20:15:39Z",
       "live": false
     },
     {
@@ -346,18 +289,8 @@
       "member": "小廻こま",
       "channelTitle": "小廻こま / Komawari Koma",
       "title": "【 ストリヌ 】今日も楽しさてんこ盛りの予感！#6【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/VeTK4rCIL7I/hqdefault_live.jpg",
-      "publishedAt": "2026-08-13T09:59:34Z",
-      "live": false
-    },
-    {
-      "id": "8oVQN9Jkh04",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【マイクラ￤ストリヌ】6日目！ダンジョンも行きたい！お店もやりたい！！【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/8oVQN9Jkh04/hqdefault_live.jpg",
-      "publishedAt": "2026-08-13T09:58:05Z",
+      "thumb": "https://i.ytimg.com/vi/VeTK4rCIL7I/hqdefault.jpg",
+      "publishedAt": "2026-08-13T17:47:40Z",
       "live": false
     },
     {
@@ -366,8 +299,48 @@
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
       "title": "【ストリヌ】第6話「本部復興しつつ、ダンジョンも行く！」【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/dumZaEhaYVw/hqdefault_live.jpg",
-      "publishedAt": "2026-08-13T09:35:25Z",
+      "thumb": "https://i.ytimg.com/vi/dumZaEhaYVw/hqdefault.jpg",
+      "publishedAt": "2026-08-13T17:35:12Z",
+      "live": false
+    },
+    {
+      "id": "8oVQN9Jkh04",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【マイクラ￤ストリヌ】6日目！ダンジョンも行きたい！お店もやりたい！！【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/8oVQN9Jkh04/hqdefault.jpg",
+      "publishedAt": "2026-08-13T17:27:22Z",
+      "live": false
+    },
+    {
+      "id": "9NDYZr_Cg5w",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ストリヌ 〗お洋服とダンジョンと、それから、 #5〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/9NDYZr_Cg5w/hqdefault.jpg",
+      "publishedAt": "2026-08-13T17:23:39Z",
+      "live": false
+    },
+    {
+      "id": "IRunDTbLhKc",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "【ストリヌ】べ、べべつにぼっちでもいいし【#あくび・でもんすぺーど】",
+      "thumb": "https://i.ytimg.com/vi/IRunDTbLhKc/hqdefault.jpg",
+      "publishedAt": "2026-08-13T17:19:03Z",
+      "live": false
+    },
+    {
+      "id": "6t5oqLio_Ts",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【 歌枠 】カゲプロ縛り！最後は告知も…？【音ノ瀬らこ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/6t5oqLio_Ts/hqdefault_live.jpg",
+      "publishedAt": "2026-08-13T15:54:04Z",
       "live": false
     },
     {
@@ -601,60 +574,5 @@
       "live": false
     }
   ],
-  "live": [
-    {
-      "id": "dumZaEhaYVw",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【ストリヌ】第6話「本部復興しつつ、ダンジョンも行く！」【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/dumZaEhaYVw/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-13T09:35:25Z",
-      "status": "live"
-    },
-    {
-      "id": "8oVQN9Jkh04",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【マイクラ￤ストリヌ】6日目！ダンジョンも行きたい！お店もやりたい！！【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/8oVQN9Jkh04/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-13T09:58:05Z",
-      "status": "live"
-    },
-    {
-      "id": "VeTK4rCIL7I",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 ストリヌ 】今日も楽しさてんこ盛りの予感！#6【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/VeTK4rCIL7I/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-13T09:59:34Z",
-      "status": "live"
-    },
-    {
-      "id": "9NDYZr_Cg5w",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 ストリヌ 〗お洋服とダンジョンと、それから、 #5〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/9NDYZr_Cg5w/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-13T10:03:01Z",
-      "status": "live"
-    },
-    {
-      "id": "3AWNBbkGT7k",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 ストリヌ 】音割れ0を目指す #6 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/3AWNBbkGT7k/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-13T10:32:17Z",
-      "status": "live"
-    },
-    {
-      "id": "IRunDTbLhKc",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "title": "【ストリヌ】べ、べべつにぼっちでもいいし【#あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/IRunDTbLhKc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-13T11:27:53Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
