@@ -481,7 +481,7 @@
     if (old) old.remove();
     var t = document.createElement("div");
     t.className = "toast";
-    t.innerHTML = html;
+    t.innerHTML = html + '<span class="toast-hint">タップで閉じる</span>';
     document.body.appendChild(t);
     requestAnimationFrame(function () { t.classList.add("show"); });
     var close = function () {

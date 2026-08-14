@@ -3184,3 +3184,10 @@ body:not([data-member]) .intro-fx { display: none; }
 }
 .toast.show { opacity: 1; transform: translate(-50%, 0); pointer-events: auto; }
 :root[data-theme="dark"] .toast { border-color: #2c2838; }
+.toast-hint {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--muted);
+}
