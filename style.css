@@ -2918,36 +2918,50 @@ body:not([data-member]) .intro-fx { display: none; }
 .theme-toggle:hover { transform: translateY(-1px); }
 
 :root[data-theme="dark"] {
-  --bg: #1c1924;
-  --bg-soft: #262233;
-  --card: rgba(38, 34, 51, 0.94);
-  --glass: rgba(28, 25, 37, 0.88);
-  --border: rgba(255, 255, 255, 0.16);
-  --text: #f0e8dc;
-  --muted: #b5a996;
+  --bg: #15121c;
+  --bg-soft: #1e1a28;
+  --card: rgba(30, 26, 40, 0.96);
+  --glass: rgba(21, 18, 28, 0.92);
+  --border: rgba(255, 255, 255, 0.14);
+  --text: #f4efe7;
+  --muted: #b8ac9b;
   --accent: #8fcbdc;
-  --accent-soft: #2d4451;
-  --accent-deep: #a9dbe8;
-  --grad: linear-gradient(150deg, #22263a 0%, #2e2336 55%, #38242c 100%);
-  --ink: #f0e8dc;
-  --shadow: 0 6px 0 rgba(0, 0, 0, 0.35), 0 12px 30px rgba(0, 0, 0, 0.4);
-  --pop-shadow: 4px 5px 0 rgba(0, 0, 0, 0.5);
+  --accent-soft: #26383f;
+  --accent-deep: #b5e0ec;
+  --grad: linear-gradient(150deg, #1a1c2e 0%, #241c2b 55%, #2b1e24 100%);
+  --ink: #f4efe7;
+  --shadow: 0 6px 0 rgba(0, 0, 0, 0.4), 0 12px 30px rgba(0, 0, 0, 0.45);
+  --pop-shadow: 4px 5px 0 rgba(0, 0, 0, 0.55);
 }
 :root[data-theme="dark"] body::after {
   background:
-    radial-gradient(circle at 12% 18%, rgba(255, 255, 255, 0.06) 0 26px, transparent 27px),
-    radial-gradient(circle at 88% 12%, rgba(255, 255, 255, 0.05) 0 12px, transparent 13px),
-    radial-gradient(circle at 6% 78%, rgba(255, 255, 255, 0.04) 0 8px, transparent 9px),
-    radial-gradient(circle at 94% 64%, rgba(255, 255, 255, 0.05) 0 18px, transparent 19px),
+    radial-gradient(circle at 12% 18%, rgba(255, 255, 255, 0.05) 0 26px, transparent 27px),
+    radial-gradient(circle at 88% 12%, rgba(255, 255, 255, 0.04) 0 12px, transparent 13px),
+    radial-gradient(circle at 6% 78%, rgba(255, 255, 255, 0.03) 0 8px, transparent 9px),
+    radial-gradient(circle at 94% 64%, rgba(255, 255, 255, 0.04) 0 18px, transparent 19px),
     radial-gradient(circle at 50% 8%, rgba(255, 255, 255, 0.03) 0 4px, transparent 5px),
-    radial-gradient(circle at 30% 92%, rgba(255, 255, 255, 0.04) 0 6px, transparent 7px);
+    radial-gradient(circle at 30% 92%, rgba(255, 255, 255, 0.03) 0 6px, transparent 7px);
 }
-:root[data-theme="dark"] .card { border-color: #3a3448; outline-color: rgba(255, 255, 255, 0.1); }
-:root[data-theme="dark"] #siteHeader { border-bottom-color: #3a3448; }
+/* 白フチの枠線を暗色に統一 */
+:root[data-theme="dark"] .card,
+:root[data-theme="dark"] .cd-card,
+:root[data-theme="dark"] .cd-rail-item,
+:root[data-theme="dark"] .phrase-card,
+:root[data-theme="dark"] .talent-hero,
+:root[data-theme="dark"] .talent-hero-art,
+:root[data-theme="dark"] .cd-pop .cd-num,
+:root[data-theme="dark"] .cd-candy .cd-num,
+:root[data-theme="dark"] .cd-special .cd-num,
+:root[data-theme="dark"] .cd-link { border-color: #2c2838; }
+:root[data-theme="dark"] .card,
+:root[data-theme="dark"] .cd-card,
+:root[data-theme="dark"] .cd-rail-item { outline-color: rgba(255, 255, 255, 0.1); }
+/* 白背景の要素を暗色に統一 */
 :root[data-theme="dark"] .nav-drop-menu,
 :root[data-theme="dark"] .mobile-nav,
 :root[data-theme="dark"] .modal,
 :root[data-theme="dark"] .oshi-option,
+:root[data-theme="dark"] .oshi-mark,
 :root[data-theme="dark"] .xpost-card,
 :root[data-theme="dark"] .btn-ghost,
 :root[data-theme="dark"] .cd-style-btn,
@@ -2958,32 +2972,54 @@ body:not([data-member]) .intro-fx { display: none; }
 :root[data-theme="dark"] .member-mark,
 :root[data-theme="dark"] .member-catch,
 :root[data-theme="dark"] .t-tab img,
-:root[data-theme="dark"] .timeline-item::before { background: #262233; border-color: #3a3448; }
-:root[data-theme="dark"] .t-tab { background: #262233; }
-:root[data-theme="dark"] .talent-tabs { background: rgba(28, 25, 37, 0.9); border-bottom-color: #2d4451; }
+:root[data-theme="dark"] .timeline-item::before,
+:root[data-theme="dark"] .intro-btn { background: #1e1a28; border-color: #2c2838; }
+:root[data-theme="dark"] .t-tab { background: #1e1a28; }
+:root[data-theme="dark"] #siteHeader { border-bottom-color: #2c2838; }
+:root[data-theme="dark"] .talent-tabs { background: rgba(21, 18, 28, 0.92); border-bottom-color: #26383f; }
 :root[data-theme="dark"] .talent-hero {
+  border-color: #2c2838;
   background:
-    radial-gradient(circle at 18% 20%, rgba(255, 255, 255, 0.08) 0 60px, transparent 61px),
-    radial-gradient(circle at 85% 15%, rgba(255, 255, 255, 0.06) 0 30px, transparent 31px),
-    linear-gradient(160deg, color-mix(in srgb, var(--mc-soft, var(--accent-soft)) 75%, #262233), #262233 70%);
+    radial-gradient(circle at 18% 20%, rgba(255, 255, 255, 0.06) 0 60px, transparent 61px),
+    radial-gradient(circle at 85% 15%, rgba(255, 255, 255, 0.04) 0 30px, transparent 31px),
+    linear-gradient(160deg, color-mix(in srgb, var(--mc-soft, var(--accent-soft)) 65%, #1e1a28), #1e1a28 72%);
+  box-shadow: 0 10px 0 rgba(0, 0, 0, 0.35), 0 18px 40px rgba(0, 0, 0, 0.4);
 }
-:root[data-theme="dark"] .cal-day { background: rgba(255, 255, 255, 0.08); border-color: #3a3448; outline-color: rgba(255, 255, 255, 0.08); }
-:root[data-theme="dark"] .placeholder { background: rgba(255, 255, 255, 0.07); }
-:root[data-theme="dark"] .cd-simple { background: rgba(38, 34, 51, 0.92); border-color: #3a3448; }
+:root[data-theme="dark"] .talent-hero h1 { text-shadow: 2px 2px 0 #1e1a28; }
+:root[data-theme="dark"] .talent-catch,
+:root[data-theme="dark"] .talent-tags span { background: rgba(30, 26, 40, 0.88); }
+:root[data-theme="dark"] .heroSweep { background: linear-gradient(105deg, transparent, rgba(255, 255, 255, 0.12), transparent); }
+:root[data-theme="dark"] .cal-day { background: rgba(255, 255, 255, 0.06); border-color: #2c2838; outline-color: rgba(255, 255, 255, 0.08); }
+:root[data-theme="dark"] .placeholder { background: rgba(255, 255, 255, 0.06); }
+:root[data-theme="dark"] .cd-simple { background: rgba(30, 26, 40, 0.94); border-color: #2c2838; }
 :root[data-theme="dark"] .goods-tile {
-  border-color: #3a3448;
-  background: linear-gradient(160deg, color-mix(in srgb, var(--gc) 26%, #262233), color-mix(in srgb, var(--gc) 10%, #262233));
+  border-color: #2c2838;
+  background: linear-gradient(160deg, color-mix(in srgb, var(--gc) 24%, #1e1a28), color-mix(in srgb, var(--gc) 8%, #1e1a28));
 }
-:root[data-theme="dark"] .video-thumb { border-color: #3a3448; outline-color: rgba(255, 255, 255, 0.08); background: #2a2638; }
-:root[data-theme="dark"] .video-card .video-thumb { border-bottom-color: #3a3448; }
-:root[data-theme="dark"] .wave { filter: brightness(0.45); }
-:root[data-theme="dark"] footer { background: rgba(255, 255, 255, 0.05); border-top-color: #3a3448; box-shadow: 0 -3px 0 rgba(0, 0, 0, 0.3); }
+:root[data-theme="dark"] .video-thumb { border-color: #2c2838; outline-color: rgba(255, 255, 255, 0.08); background: #221e30; }
+:root[data-theme="dark"] .video-card .video-thumb { border-bottom-color: #2c2838; }
+:root[data-theme="dark"] .wave { filter: brightness(0.4); }
+:root[data-theme="dark"] .birthday-banner { background: linear-gradient(90deg, var(--accent-soft), #1e1a28); }
+:root[data-theme="dark"] footer { background: rgba(255, 255, 255, 0.04); border-top-color: #2c2838; box-shadow: 0 -3px 0 rgba(0, 0, 0, 0.35); }
+:root[data-theme="dark"] footer .disclaimer { color: #c9a35e; }
 :root[data-theme="dark"] .cd-special .cd-num {
   outline-color: rgba(255, 190, 80, 0.35);
-  color: #d98e00;
+  background: linear-gradient(160deg, #3a3322, #322c1d);
+  color: #f5c96b;
 }
+:root[data-theme="dark"] .cd-special .cd-label {
+  background: linear-gradient(120deg, #f0a2b5, #f0b36a, #a9c4f0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+:root[data-theme="dark"] .cd-special .cd-when { color: #e0a64d; }
+:root[data-theme="dark"] .cd-special .cd-note { color: #c9a35e; }
 :root[data-theme="dark"] .stream-count,
 :root[data-theme="dark"] .cd-when { color: var(--accent-deep); }
+:root[data-theme="dark"] .car-btn { border-color: rgba(255, 255, 255, 0.14); }
+/* イントロは通常と同じ表示のまま、画面の明るさだけ少し下げる */
+:root[data-theme="dark"] .intro-overlay { filter: brightness(0.82); }
 
 /* ============================================================
    配信予定: リマインド・カレンダー追加
@@ -3032,7 +3068,7 @@ body:not([data-member]) .intro-fx { display: none; }
 }
 .stream-cal { text-decoration: none; }
 :root[data-theme="dark"] .stream-cal,
-:root[data-theme="dark"] .stream-remind { background: #262233; }
+:root[data-theme="dark"] .stream-remind { background: #1e1a28; }
 
 /* ============================================================
    Milli Games ゲーム紹介枠（ホーム）
@@ -3118,7 +3154,7 @@ body:not([data-member]) .intro-fx { display: none; }
   box-shadow: 2px 3px 0 rgba(45, 35, 20, 0.16);
 }
 .cd-cal:hover { text-decoration: none; transform: translateY(-1px); }
-:root[data-theme="dark"] .cd-cal { background: #262233; }
+:root[data-theme="dark"] .cd-cal { background: #1e1a28; }
 
 /* 配信予定: タイトル横スクロール・アクション行・注記 */
 .stream-item { align-items: stretch; }
@@ -3172,4 +3208,4 @@ body:not([data-member]) .intro-fx { display: none; }
   cursor: pointer;
 }
 .toast.show { opacity: 1; transform: translate(-50%, 0); pointer-events: auto; }
-:root[data-theme="dark"] .toast { border-color: #3a3448; }
+:root[data-theme="dark"] .toast { border-color: #2c2838; }
