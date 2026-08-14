@@ -365,6 +365,11 @@ ${decoHtml(m)}
 
 ${introOverlay(m)}
 
+<div class="float-actions">
+  <button type="button" class="share-x" id="shareXBtn">Xで共有</button>
+  <button type="button" class="to-top" id="toTopBtn" aria-label="ページ上部へ">▲</button>
+</div>
+
 <script src="data.js"></script>
 <script src="script.js"></script>
 </body>

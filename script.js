@@ -1109,6 +1109,30 @@
     restart();
   }
 
+  /* ============ フロートアクション（Xシェア・トップへ） ============ */
+  function initFloatActions() {
+    var shareBtn = $("#shareXBtn");
+    if (shareBtn) {
+      shareBtn.addEventListener("click", function () {
+        var u = encodeURIComponent(location.href);
+        var t = encodeURIComponent(document.title + " | Milli Orbis");
+        window.open("https://twitter.com/intent/tweet?url=" + u + "&text=" + t, "_blank", "noopener,width=600,height=520");
+      });
+    }
+    var topBtn = $("#toTopBtn");
+    if (topBtn) {
+      var onScroll = function () {
+        var y = window.pageYOffset || document.documentElement.scrollTop;
+        topBtn.classList.toggle("show", y > 600);
+      };
+      window.addEventListener("scroll", onScroll, { passive: true });
+      onScroll();
+      topBtn.addEventListener("click", function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    }
+  }
+
   /* ============ 起動 ============ */
   function boot() {
     applyOshi(getOshi());
@@ -1128,6 +1152,7 @@
     initIntro();
     initReveal();
     initOnboarding();
+    initFloatActions();
   }
 
   if (document.readyState === "loading") {
