@@ -308,6 +308,10 @@ ${decoHtml(m)}
     </nav>
     <div class="header-actions">
       <a id="liveBadge" class="live-badge" href="#" target="_blank" rel="noopener">● LIVE</a>
+      <button type="button" class="profile-btn" id="profile-btn" onclick="mpOpenAccount()" aria-label="アカウント連携">
+        <span class="profile-icon" id="profile-header-icon" style="display:none;"></span>
+        <span class="profile-label" id="profile-label">連携</span>
+      </button>
       <select id="oshiSelect" class="oshi-select" aria-label="推しメンバーを選択"></select>
       <button type="button" class="theme-toggle" id="themeToggle" aria-label="ダークモード切替">🌙</button>
       <button id="hamburger" class="hamburger" aria-label="メニュー">
@@ -369,11 +373,68 @@ ${decoHtml(m)}
 
 ${introOverlay(m)}
 
+<div id="login-popup" class="login-popup">
+  <div class="login-popup-card">
+    <div class="login-popup-header">
+      <span class="login-popup-title">アカウント連携</span>
+      <button class="login-popup-close" id="mp-popup-close" aria-label="閉じる">&times;</button>
+    </div>
+    <div class="login-popup-body">
+      <p class="login-popup-desc">
+        ログイン（または連携IDの設定）で、Milli Games / Milli Unishare / Millipro Chronicle と同じアカウントを共有できます。<br>
+        未ログインでも本サイトの全機能は利用できます。
+      </p>
+      <div id="mp-account-ok" style="display:none;">
+        <div class="mp-row">連携ID: <b id="mp-pid"></b></div>
+        <div class="mp-btn-row">
+          <button type="button" class="btn" onclick="mpCopyId()">🔗 IDをコピー</button>
+          <button type="button" class="btn btn-ghost" onclick="mpLogout()">ログアウト</button>
+        </div>
+      </div>
+      <div id="mp-account-form">
+        <div class="mp-tabs">
+          <button type="button" id="mp-tab-login" class="mp-tab active" onclick="mpTab('login')">ログイン</button>
+          <button type="button" id="mp-tab-signup" class="mp-tab" onclick="mpTab('signup')">新規登録</button>
+        </div>
+        <div id="mp-panel-login">
+          <input id="mp-email" class="mp-input" type="email" placeholder="メールアドレス" autocomplete="email">
+          <div class="mp-pass-row">
+            <input id="mp-pass" class="mp-input" type="password" placeholder="パスワード" autocomplete="current-password">
+            <button type="button" class="mp-eye" id="mp-pass-eye" onclick="mpToggle('mp-pass','mp-pass-eye')" aria-label="パスワード表示切替">👁</button>
+          </div>
+          <button type="button" class="btn mp-submit" onclick="mpSubmit(false)">ログイン</button>
+        </div>
+        <div id="mp-panel-signup" style="display:none;">
+          <input id="mp2-email" class="mp-input" type="email" placeholder="メールアドレス" autocomplete="email">
+          <div class="mp-pass-row">
+            <input id="mp2-pass" class="mp-input" type="password" placeholder="パスワード（6文字以上）" autocomplete="new-password">
+            <button type="button" class="mp-eye" id="mp2-pass-eye" onclick="mpToggle('mp2-pass','mp2-pass-eye')" aria-label="パスワード表示切替">👁</button>
+          </div>
+          <input id="mp2-pass2" class="mp-input" type="password" placeholder="パスワード（確認）" autocomplete="new-password">
+          <button type="button" class="btn mp-submit" onclick="mpSubmit(true)">登録する</button>
+        </div>
+        <p id="mp-msg" class="mp-msg"></p>
+        <div class="mp-sep"><span>または</span></div>
+        <div class="mp-row mp-row-label">連携ID（ログイン不要）:</div>
+        <div class="mp-setid-row">
+          <input id="mp-id" class="mp-input" placeholder="連携ID（例: TEST001）" autocomplete="off">
+          <button type="button" class="btn btn-ghost" onclick="mpSetId()">設定</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="float-actions">
   <button type="button" class="share-x" id="shareXBtn">Xで共有</button>
   <button type="button" class="to-top" id="toTopBtn" aria-label="ページ上部へ">▲</button>
 </div>
 
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database-compat.js"></script>
+<script src="firebase-config.js"></script>
+<script src="firebase-init.js"></script>
 <script src="data.js"></script>
 <script src="script.js"></script>
 </body>

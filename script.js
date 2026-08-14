@@ -1350,6 +1350,37 @@
     navigator.serviceWorker.register("sw.js").catch(function () {});
   }
 
+  /* ============ アカウント連携: ホームのようこそ表示 ============ */
+  function initAccount() {
+    var w = $("#mpWelcome");
+    if (!w) return;
+    if (typeof onMilliproAuth !== "function") { w.style.display = "none"; return; }
+    onMilliproAuth(function (uid) {
+      if (uid && typeof completeMilliproLogin === "function") {
+        completeMilliproLogin(uid).then(renderWelcome);
+      } else {
+        renderWelcome();
+      }
+    });
+  }
+
+  function renderWelcome() {
+    var w = $("#mpWelcome");
+    if (!w) return;
+    var info = (typeof mpProfileInfo === "function") ? mpProfileInfo() : null;
+    if (!info || (!info.pid && !info.name && !info.icon)) { w.style.display = "none"; return; }
+    var icon = "";
+    if (info.icon) {
+      icon = String(info.icon).indexOf("data:image/") === 0
+        ? '<img src="' + info.icon + '" alt="">'
+        : info.icon;
+    }
+    w.innerHTML =
+      '<span class="mp-w-icon">' + icon + "</span>" +
+      '<span class="mp-w-text">こんにちは、<b>' + esc(info.name || info.pid) + "</b> さん（ID: " + esc(info.pid || "—") + "）</span>";
+    w.style.display = "flex";
+  }
+
   /* ============ 起動 ============ */
   function boot() {
     applyOshi(getOshi());
@@ -1357,6 +1388,7 @@
     initTheme();
     initCountdown();
     checkBirthday();
+    initAccount();
     loadYoutubeData();
     renderNews();
     renderXPosts();
