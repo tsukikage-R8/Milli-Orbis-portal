@@ -22,6 +22,12 @@ const handleOf = (m) => {
   return i >= 0 ? u.slice(i) : null;
 };
 
+/* 取得対象: メンバー個人チャンネル + ミリプロ公式チャンネル */
+const sources = [
+  ...members.map((m) => ({ id: m.id, name: m.name, handle: handleOf(m) })),
+  { id: "official", name: "ミリプロ公式", handle: "@Mil_Pro" }
+];
+
 async function fetchJson(url) {
   const res = await fetch(url);
   if (!res.ok) {
@@ -49,16 +55,15 @@ async function main() {
   const errors = [];
 
   const channelResults = await Promise.all(
-    members.map(async (m) => {
-      const handle = handleOf(m);
+    sources.map(async (s) => {
       try {
         const j = await fetchJson(
-          `${API}/channels?part=contentDetails&forHandle=${encodeURIComponent(handle)}&key=${API_KEY}`
+          `${API}/channels?part=contentDetails&forHandle=${encodeURIComponent(s.handle)}&key=${API_KEY}`
         );
         const ch = j.items && j.items[0];
-        return ch ? { member: m, playlistId: ch.contentDetails.relatedPlaylists.uploads } : null;
+        return ch ? { src: s, playlistId: ch.contentDetails.relatedPlaylists.uploads } : null;
       } catch (e) {
-        errors.push(`${m.id}: ${e.message}`);
+        errors.push(`${s.id}: ${e.message}`);
         return null;
       }
     })
@@ -72,15 +77,15 @@ async function main() {
 
   const videos = (
     await Promise.all(
-      withPlaylist.map(async ({ member, playlistId }) => {
+      withPlaylist.map(async ({ src, playlistId }) => {
         try {
           const items = await firstPage(
             `${API}/playlistItems?part=snippet,contentDetails&playlistId=${playlistId}&maxResults=5&key=${API_KEY}`
           );
           return items.map((it) => ({
             id: it.contentDetails.videoId,
-            memberId: member.id,
-            member: member.name,
+            memberId: src.id,
+            member: src.name,
             channelTitle: it.snippet.channelTitle,
             title: it.snippet.title,
             thumb: it.snippet.thumbnails.high ? it.snippet.thumbnails.high.url : "",
@@ -88,7 +93,7 @@ async function main() {
             live: /配信|ライブ|雑談/.test(it.snippet.title)
           }));
         } catch (e) {
-          errors.push(`${member.id}: ${e.message}`);
+          errors.push(`${src.id}: ${e.message}`);
           return [];
         }
       })
@@ -101,10 +106,10 @@ async function main() {
 
   const streams = (
     await Promise.all(
-      withPlaylist.map(async ({ member }) => {
+      withPlaylist.map(async ({ src }) => {
         try {
           const j = await fetchJson(
-            `${API}/channels?part=id&forHandle=${encodeURIComponent(handleOf(member))}&key=${API_KEY}`
+            `${API}/channels?part=id&forHandle=${encodeURIComponent(src.handle)}&key=${API_KEY}`
           );
           const channelId = j.items && j.items[0] && j.items[0].id;
           if (!channelId) return [];
@@ -128,8 +133,8 @@ async function main() {
               if (!isLive && Date.parse(when) <= Date.now()) return;
               out.push({
                 id: it.id.videoId,
-                memberId: member.id,
-                member: member.name,
+                memberId: src.id,
+                member: src.name,
                 title: it.snippet.title,
                 thumb: it.snippet.thumbnails.high ? it.snippet.thumbnails.high.url : "",
                 scheduledStartTime: when,
@@ -139,7 +144,7 @@ async function main() {
           }
           return out;
         } catch (e) {
-          errors.push(`${member.id} (streams): ${e.message}`);
+          errors.push(`${src.id} (streams): ${e.message}`);
           return [];
         }
       })

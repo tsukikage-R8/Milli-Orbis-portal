@@ -400,7 +400,7 @@
       html += '<div class="stream-group"><h3 class="stream-group-title">' + names[b] +
         ' <span class="range">' + bucketRange(b) + "</span></h3>" +
         g.map(function (it) {
-          var s = it.s, m = getMember(s.memberId);
+          var s = it.s, m = getMember(s.memberId) || (s.memberId === "official" ? { name: "ミリプロ公式" } : null);
           var isLive = s.status === "live";
           var diff = Math.floor((it.start.getTime() - now.getTime()) / 1000);
           var soon = isLive ? "" : (diff >= 0 ? ' <span class="stream-count">あと' + hoursText(diff) + "</span>" : "");
@@ -445,7 +445,7 @@
     }
     var vids = videos.slice(0, YOUTUBE.maxVideos);
     box.innerHTML = vids.map(function (v) {
-      var m = getMember(v.memberId);
+      var m = getMember(v.memberId) || (v.memberId === "official" ? { name: "ミリプロ公式" } : null);
       var typeLabel = v.type === "short" ? "Short" : (v.type === "live" || v.live === true) ? "配信" : "";
       var published = new Date(v.publishedAt);
       return '<a class="video-card card" href="' + videoUrl(v.id) + '" target="_blank" rel="noopener">' +
