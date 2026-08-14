@@ -60,6 +60,15 @@ const GOODS = [
 ];
 
 
+/* Milli Games のゲーム紹介（ホームの目立つ場所に表示。詳細は後で設定） */
+const GAME_FEATURE = {
+  tag: "ゲーム紹介",
+  game: "（ゲーム名は後で設定）",
+  desc: "ミリプロのゲームをここで紹介します。詳しい内容は後で設定する予定です。",
+  icon: "images/icon/Milli Games-icon.png",
+  url: ""
+};
+
 const MEMBERS = [
   {
     id: "konomi",

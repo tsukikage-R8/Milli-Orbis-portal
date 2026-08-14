@@ -240,6 +240,9 @@
         (item.note ? '<div class="cd-note">' + item.note + "</div>" : "") +
         (item.url ? '<a class="cd-link" href="' + item.url + '">' +
           (item.url.indexOf(".html") > -1 ? "詳細ページへ" : "公式サイトへ") + "</a>" : "") +
+        '<div class="cd-actions">' +
+        (item.date ? '<a class="cd-cal" href="' + gcalUrl(item.label + "（" + item.note + "）", item.date) + '" target="_blank" rel="noopener">📅 カレンダーに追加</a>' : "") +
+        "</div>" +
         "</div>";
     }
 
@@ -405,14 +408,97 @@
           var diff = Math.floor((it.start.getTime() - now.getTime()) / 1000);
           var soon = isLive ? "" : (diff >= 0 ? ' <span class="stream-count">あと' + hoursText(diff) + "</span>" : "");
           var when = isLive ? "配信中" : (b === 0 ? "" : fmtMD(it.start) + " ") + fmtTime(it.start);
-          return '<a class="stream-item card" href="' + videoUrl(s.id) + '" target="_blank" rel="noopener">' +
+          var cal = isLive ? "" : '<a class="stream-cal" href="' + gcalUrl(s.title, s.scheduledStartTime || s.scheduledStart) + '" target="_blank" rel="noopener">📅 カレンダー</a>';
+          var remind = isLive ? "" : '<button type="button" class="stream-remind' + (isReminded(s.id) ? " is-active" : "") + '" data-vid="' + s.id + '" data-time="' + (s.scheduledStartTime || s.scheduledStart || "") + '" aria-label="リマインド登録">🔔 リマインド</button>';
+          return '<div class="stream-item card">' +
+            '<a class="stream-main" href="' + videoUrl(s.id) + '" target="_blank" rel="noopener">' +
             '<div class="video-thumb"><img src="' + thumbUrl(s.id) + '" alt="" loading="lazy"></div>' +
             "<div><div class='video-title'>" + esc(s.title) + (isLive ? '<span class="video-tag">LIVE</span>' : "") + "</div>" +
             '<div class="video-meta">' + (m ? m.name + " ・ " : "") + when + soon + "</div>" +
-            "</div></a>";
+            "</div></a>" +
+            '<div class="stream-actions">' + cal + remind + "</div>" +
+            "</div>";
         }).join("") + "</div>";
     });
     box.innerHTML = html || '<div class="placeholder">配信予定は現在ありません。</div>';
+    box.addEventListener("click", function (e) {
+      var btn = e.target.closest(".stream-remind");
+      if (!btn) return;
+      e.preventDefault();
+      toggleReminder(btn);
+    });
+  }
+
+  /* ---------- 配信リマインド（ブラウザ通知） ---------- */
+  function getReminders() {
+    try { return JSON.parse(localStorage.getItem("milli-reminders") || "[]") || []; } catch (e) { return []; }
+  }
+  function setReminders(list) {
+    try { localStorage.setItem("milli-reminders", JSON.stringify(list)); } catch (e) {}
+  }
+  function isReminded(vid) {
+    return getReminders().some(function (r) { return r.id === vid; });
+  }
+  function toggleReminder(btn) {
+    if (!("Notification" in window)) {
+      alert("このブラウザは通知に対応していません。");
+      return;
+    }
+    var vid = btn.dataset.vid;
+    var time = btn.dataset.time;
+    if (isReminded(vid)) {
+      setReminders(getReminders().filter(function (r) { return r.id !== vid; }));
+      btn.classList.remove("is-active");
+      return;
+    }
+    var grant = function () {
+      setReminders(getReminders().concat([{ id: vid, time: time }]));
+      btn.classList.add("is-active");
+    };
+    if (Notification.permission === "granted") grant();
+    else if (Notification.permission === "denied") alert("通知が許可されていません。ブラウザの設定から許可してください。");
+    else Notification.requestPermission().then(function (p) {
+      if (p === "granted") grant();
+      else alert("通知が許可されなかったため、リマインドを登録できませんでした。");
+    });
+  }
+  function initReminderWatcher() {
+    if (!("Notification" in window) || Notification.permission !== "granted") return;
+    setInterval(function () {
+      var now = Date.now();
+      var list = getReminders();
+      if (!list.length) return;
+      var rest = [];
+      list.forEach(function (r) {
+        var t = Date.parse(r.time);
+        if (!isFinite(t) || isNaN(t)) return;
+        if (now >= t - 5 * 60000 && now <= t + 10 * 60000) {
+          new Notification("Milli Orbis 配信リマインド", {
+            body: "まもなく配信が始まります！",
+            icon: "images/icon/Milli%20Orbis-192.png"
+          });
+        } else {
+          rest.push(r);
+        }
+      });
+      setReminders(rest);
+    }, 30000);
+  }
+
+  /* ---------- Googleカレンダー追加URL ---------- */
+  function gcalUrl(title, startIso) {
+    var start = new Date(startIso);
+    if (!start.getTime()) return "#";
+    var end = new Date(start.getTime() + 2 * 3600000);
+    var fmt = function (d) {
+      return "" + d.getFullYear() +
+        pad2(d.getMonth() + 1) + pad2(d.getDate()) + "T" +
+        pad2(d.getHours()) + pad2(d.getMinutes()) + pad2(d.getSeconds());
+    };
+    return "https://calendar.google.com/calendar/render?action=TEMPLATE&text=" +
+      encodeURIComponent(title) +
+      "&dates=" + fmt(start) + "/" + fmt(end) +
+      "&details=" + encodeURIComponent("Milli Orbis（ミリプロ非公式ファンポータル）の配信予定から追加");
   }
 
   function hoursText(secs) {
@@ -1137,10 +1223,60 @@
     }
   }
 
+  /* ============ ダークモード ============ */
+  function initTheme() {
+    var btn = $("#themeToggle");
+    if (!btn) return;
+    var sync = function () {
+      var dark = document.documentElement.dataset.theme === "dark";
+      btn.textContent = dark ? "☀️" : "🌙";
+      btn.setAttribute("aria-label", dark ? "ライトモードに切替" : "ダークモードに切替");
+    };
+    sync();
+    btn.addEventListener("click", function () {
+      var dark = document.documentElement.dataset.theme === "dark";
+      if (dark) {
+        delete document.documentElement.dataset.theme;
+        try { localStorage.setItem("milli-theme", "light"); } catch (e) {}
+      } else {
+        document.documentElement.dataset.theme = "dark";
+        try { localStorage.setItem("milli-theme", "dark"); } catch (e) {}
+      }
+      sync();
+    });
+  }
+
+  /* ============ Milli Games ゲーム紹介 ============ */
+  function renderGameFeature() {
+    var box = $("#gameFeature");
+    if (!box || !GAME_FEATURE) return;
+    var f = GAME_FEATURE;
+    var link = f.url ? '<a class="game-feature-link" href="' + f.url + '" target="_blank" rel="noopener">詳しく見る ↗</a>'
+      : '<span class="game-feature-link is-disabled">詳細は準備中</span>';
+    box.innerHTML = '<div class="game-feature">' +
+      (f.icon ? '<div class="game-feature-icon"><img src="' + f.icon + '" alt="" loading="lazy"></div>' : "") +
+      '<div class="game-feature-body">' +
+      '<span class="game-feature-tag">' + esc(f.tag || "ゲーム紹介") + "</span>" +
+      '<div class="game-feature-game">' + esc(f.game) + "</div>" +
+      (f.desc ? '<div class="game-feature-desc">' + esc(f.desc) + "</div>" : "") +
+      link +
+      "</div>" +
+      "</div>";
+  }
+
+  /* ============ PWA: サービスワーカー登録 ============ */
+  function initServiceWorker() {
+    if (!("serviceWorker" in navigator)) return;
+    var host = location.hostname;
+    if (location.protocol !== "https:" && host !== "localhost" && host !== "127.0.0.1") return;
+    navigator.serviceWorker.register("sw.js").catch(function () {});
+  }
+
   /* ============ 起動 ============ */
   function boot() {
     applyOshi(getOshi());
     initHeader();
+    initTheme();
     initCountdown();
     checkBirthday();
     loadYoutubeData();
@@ -1149,6 +1285,7 @@
     renderMembers();
     renderLaunchers();
     renderGoods();
+    renderGameFeature();
     initCalendar();
     renderHistory();
     renderLinks();
@@ -1157,6 +1294,8 @@
     initReveal();
     initOnboarding();
     initFloatActions();
+    initReminderWatcher();
+    initServiceWorker();
   }
 
   if (document.readyState === "loading") {
