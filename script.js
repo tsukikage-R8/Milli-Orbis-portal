@@ -448,15 +448,20 @@
       alert("このブラウザは通知に対応していません。");
       return;
     }
-    var vid = btn.dataset.vid;
+    var key = btn.dataset.vid || btn.dataset.key;
     var time = btn.dataset.time;
-    if (isReminded(vid)) {
-      setReminders(getReminders().filter(function (r) { return r.id !== vid; }));
+    if (isReminded(key)) {
+      setReminders(getReminders().filter(function (r) { return r.id !== key; }));
       btn.classList.remove("is-active");
       return;
     }
     var grant = function () {
-      setReminders(getReminders().concat([{ id: vid, time: time }]));
+      setReminders(getReminders().concat([{
+        id: key,
+        time: time,
+        kind: btn.dataset.kind || "stream",
+        title: btn.dataset.title || ""
+      }]));
       btn.classList.add("is-active");
       showRemindHelp();
     };
@@ -502,11 +507,19 @@
       list.forEach(function (r) {
         var t = Date.parse(r.time);
         if (!isFinite(t) || isNaN(t)) return;
-        if (now >= t - 5 * 60000 && now <= t + 10 * 60000) {
-          new Notification("Milli Orbis 配信リマインド", {
-            body: "まもなく配信が始まります！",
-            icon: "images/icon/Milli%20Orbis-192.png"
-          });
+        var lead = r.kind === "event" ? 0 : 5 * 60000;
+        if (now >= t - lead && now <= t + 10 * 60000) {
+          if (r.kind === "event") {
+            new Notification("Milli Orbis イベント通知", {
+              body: "今日は「" + (r.title || "") + "」の日です！",
+              icon: "images/icon/Milli%20Orbis-192.png"
+            });
+          } else {
+            new Notification("Milli Orbis 配信リマインド", {
+              body: "まもなく配信が始まります！",
+              icon: "images/icon/Milli%20Orbis-192.png"
+            });
+          }
         } else {
           rest.push(r);
         }
@@ -529,6 +542,18 @@
       encodeURIComponent(title) +
       "&dates=" + fmt(start) + "/" + fmt(end) +
       "&details=" + encodeURIComponent("Milli Orbis（ミリプロ非公式ファンポータル）の配信予定から追加");
+  }
+
+  /* イベント用: 終日イベント（当日 00:00〜翌日 00:00） */
+  function gcalAllDayUrl(title, date, desc) {
+    var fmt = function (d) {
+      return "" + d.getFullYear() + pad2(d.getMonth() + 1) + pad2(d.getDate());
+    };
+    var end = new Date(date.getTime() + 86400000);
+    return "https://calendar.google.com/calendar/render?action=TEMPLATE&text=" +
+      encodeURIComponent(title) +
+      "&dates=" + fmt(date) + "/" + fmt(end) +
+      "&details=" + encodeURIComponent("Milli Orbis（ミリプロ非公式ファンポータル）のイベントカレンダーから追加" + (desc ? "  " + desc : ""));
   }
 
   function hoursText(secs) {
@@ -726,6 +751,17 @@
       return '<a class="btn btn-ghost" style="margin-left:auto" href="' + url + '"' + external + ">" + label + "</a>";
     }
 
+    /* イベント用: 当日9:00の通知ボタン + 終日カレンダー追加 */
+    function calActionsHtml(ev, d, detailLabel) {
+      var key = "ev" + d.getTime();
+      var when = new Date(d.getFullYear(), d.getMonth(), d.getDate(), 9, 0, 0).toISOString();
+      var remind = '<button type="button" class="stream-remind' + (isReminded(key) ? " is-active" : "") + '"' +
+        ' data-key="' + key + '" data-time="' + when + '" data-kind="event" data-title="' + esc(ev.title) + '"' +
+        ' aria-label="イベント通知">🔔 通知</button>';
+      var cal = '<a class="stream-cal" href="' + gcalAllDayUrl(ev.title, d, ev.desc) + '" target="_blank" rel="noopener">📅 カレンダー</a>';
+      return '<div class="cal-actions">' + remind + cal + evLink(ev.url, detailLabel) + "</div>";
+    }
+
     function renderList() {
       var y = calViewMonth.getFullYear();
       var mo = calViewMonth.getMonth();
@@ -737,7 +773,8 @@
         return '<div class="cal-item card"><div class="cal-date-box"><b>' + d.getDate() + "</b><small>" + (d.getMonth() + 1) + "月</small></div>" +
           '<div><div class="cal-type" style="--ec:' + evColor(it.ev.type) + '">' + evTypeLabel(it.ev.type) + "</div>" +
           '<div class="cal-title2">' + esc(it.ev.title) + "</div>" +
-          (it.ev.desc ? '<div class="video-meta">' + esc(it.ev.desc) + "</div>" : "") + "</div>" + evLink(it.ev.url, "詳細") + "</div>";
+          (it.ev.desc ? '<div class="video-meta">' + esc(it.ev.desc) + "</div>" : "") + "</div>" +
+          calActionsHtml(it.ev, it.date, "詳細") + "</div>";
       }).join("") : '<div class="placeholder">この月のイベントはありません</div>';
     }
 
@@ -787,7 +824,8 @@
       $("#evmList").innerHTML = evs.map(function (it) {
         return '<div class="evm-item card"><span class="cal-type" style="--ec:' + evColor(it.ev.type) + '">' + evTypeLabel(it.ev.type) + "</span>" +
           '<div class="evm-title">' + esc(it.ev.title) + "</div>" +
-          (it.ev.desc ? '<div class="evm-desc">' + esc(it.ev.desc) + "</div>" : "") + evLink(it.ev.url, "詳細を見る") + "</div>";
+          (it.ev.desc ? '<div class="evm-desc">' + esc(it.ev.desc) + "</div>" : "") +
+          calActionsHtml(it.ev, it.date, "詳細を見る") + "</div>";
       }).join("");
       modal.classList.add("open");
     }
@@ -824,6 +862,15 @@
       var cell = e.target.closest(".cal-day.has-event");
       if (cell) openDayModal(cell.dataset.ymd);
     });
+    var remindHandler = function (e) {
+      var btn = e.target.closest(".stream-remind");
+      if (!btn) return;
+      e.preventDefault();
+      toggleReminder(btn);
+    };
+    listBox.addEventListener("click", remindHandler);
+    var evmList = $("#evmList");
+    if (evmList) evmList.addEventListener("click", remindHandler);
 
     renderList();
     renderGrid();

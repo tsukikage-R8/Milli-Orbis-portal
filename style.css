@@ -3191,3 +3191,17 @@ body:not([data-member]) .intro-fx { display: none; }
   font-weight: 700;
   color: var(--muted);
 }
+
+/* イベントカレンダー: 通知・カレンダー追加アクション行 */
+.cal-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-left: auto;
+  justify-content: flex-end;
+}
+.evm-item .cal-actions { margin-left: 0; justify-content: flex-start; }
+@media (max-width: 620px) {
+  .cal-actions { width: 100%; margin-left: 0; }
+}
