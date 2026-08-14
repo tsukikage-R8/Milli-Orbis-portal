@@ -3205,3 +3205,108 @@ body:not([data-member]) .intro-fx { display: none; }
 @media (max-width: 620px) {
   .cal-actions { width: 100%; margin-left: 0; }
 }
+
+/* ============================================================
+   モバイル改善（ヘッダー圧縮・カウントダウン収まり・余白調整）
+   ============================================================ */
+.header-actions { display: flex; gap: 10px; align-items: center; }
+section[id]:not(#home) { scroll-margin-top: 76px; }
+
+@media (max-width: 720px) {
+  .container { padding: 0 16px; }
+  .section { padding: 44px 0 20px; }
+  .hero { padding-top: 100px; }
+  .section-sub { padding-left: 32px; }
+  .talent-tabs { padding: 8px 10px; }
+  .t-tab { font-size: 0.78rem; padding: 4px 10px 4px 5px; gap: 5px; }
+  .t-tab img { width: 24px; height: 24px; }
+  .talent-hero { padding: 26px 14px; }
+  .talent-catch { font-size: 0.95rem; padding: 7px 16px; }
+  .voice-btn { padding: 10px 18px; font-size: 0.88rem; }
+  .voice-note { min-width: 100%; }
+  .profile-table td { font-size: 0.85rem; }
+  .birthday-banner { padding: 12px 16px; border-radius: 22px; }
+  .cal-title { min-width: 0; font-size: 1.05rem; }
+  .cal-item { gap: 10px; padding: 12px; }
+  .cal-date-box { width: 54px; height: 54px; }
+  .modal { padding: 24px 18px; }
+  .float-actions { right: 10px; bottom: 12px; gap: 8px; }
+  .share-x { padding: 8px 14px; font-size: 0.8rem; }
+  .to-top { width: 42px; height: 42px; }
+  .xpost-card { padding: 10px 12px; }
+  .news-item { padding: 14px 16px; }
+  .cd-rail-item { min-width: 180px; }
+  .breadcrumb { font-size: 0.76rem; }
+  .intro-catch { padding: 10px 20px; }
+  .intro-skip { top: 12px; right: 12px; padding: 6px 14px; font-size: 0.72rem; }
+  .intro-stage { padding: 20px 14px; }
+  .profile-card.card { padding: 18px; }
+}
+
+@media (max-width: 600px) {
+  .header-inner { height: 56px; padding: 0 12px; gap: 8px; }
+  .talent-tabs { top: 56px; }
+  .logo { font-size: 1.05rem; gap: 6px; }
+  .logo img { height: 26px; }
+  .live-badge { font-size: 0.62rem; padding: 4px 9px; }
+  .oshi-select { font-size: 0.76rem; padding: 4px 8px; max-width: 100px; min-width: 0; }
+  .theme-toggle { width: 36px; height: 36px; font-size: 0.95rem; }
+  .hamburger { padding: 6px 7px; }
+  .hamburger svg { width: 24px; height: 18px; }
+  .header-actions { gap: 8px; }
+  .mobile-nav { padding: 8px 14px 12px; }
+  .mobile-nav a { padding: 9px 4px; font-size: 0.92rem; }
+  .hero { padding-top: 92px; }
+  .hero-logo { height: 52px; }
+  .hero-sub { font-size: 0.92rem; }
+  .cd-head { gap: 10px; }
+  .cd-head-title { font-size: 0.88rem; padding: 5px 14px; }
+  .cd-style-btn { padding: 5px 12px; font-size: 0.8rem; }
+  .cd-rail-hint { font-size: 0.7rem; }
+  .cd-card { padding: 16px; }
+  .cd-featured .cd-label { font-size: 1.15rem; }
+  .cd-special .cd-label { font-size: 1.35rem; }
+  .cd-digits { gap: 6px; }
+  .cd-num { min-width: 60px; font-size: 1.35rem; padding: 8px 6px; border-radius: 12px; }
+  .cd-pop.cd-featured .cd-num,
+  .cd-candy.cd-featured .cd-num { font-size: 1.6rem; min-width: 66px; }
+  .cd-special .cd-num { font-size: 2rem; min-width: 72px; }
+  .cd-simple .cd-num { font-size: 1.6rem; }
+  .cd-simple.cd-featured .cd-num { font-size: 2.1rem; }
+  .cd-simple .cd-unit + .cd-unit::before { font-size: 1.4rem; top: 8px; left: -5px; }
+  .stream-actions { padding: 8px 10px 12px; gap: 8px; }
+  .stream-cal, .stream-remind { font-size: 0.68rem; padding: 4px 10px; }
+  .goods-carousel { gap: 8px; }
+  .goods-price { font-size: 0.95rem; }
+  .cal-actions { gap: 6px; }
+  .evm-item { padding: 12px; }
+  .evm-desc { font-size: 0.8rem; }
+  .cd-cal { font-size: 0.72rem; padding: 4px 12px; }
+  .toast { bottom: 76px; max-width: calc(100vw - 28px); padding: 12px 14px; font-size: 0.8rem; }
+}
+
+@media (max-width: 480px) {
+  .hero { padding-top: 88px; }
+  .hero-logo { height: 44px; }
+  .section-title { gap: 10px; }
+  .section-title::before { width: 22px; height: 22px; }
+  .section-title::after { width: 40px; }
+  .section-sub { padding-left: 32px; }
+  .member-card { padding: 16px 10px 14px; }
+  .member-mark { width: 92px; height: 92px; }
+  .member-name { font-size: 0.92rem; }
+  .member-catch { font-size: 0.72rem; }
+  .talent-hero-art { width: min(150px, 40vw); }
+  .talent-hero h1 { font-size: clamp(1.5rem, 5vw, 2rem); }
+  .intro-art { width: min(170px, 38vw); }
+  .intro-name { font-size: clamp(1.4rem, 5vw, 1.9rem); }
+  .intro-catch { font-size: clamp(0.95rem, 3.4vw, 1.2rem); }
+  .oshi-list { gap: 8px; }
+  .oshi-option { padding: 8px 10px; font-size: 0.82rem; gap: 8px; }
+  .oshi-mark { width: 36px; height: 36px; }
+  .modal { padding: 20px 16px; }
+  .cal-tools { gap: 6px; }
+  .cal-tools .btn-ghost { padding: 7px 14px; font-size: 0.82rem; }
+  .timeline { padding-left: 26px; }
+  .timeline-item::before { left: -22px; width: 15px; height: 15px; }
+}

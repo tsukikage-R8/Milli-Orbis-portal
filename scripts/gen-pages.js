@@ -306,7 +306,7 @@ ${decoHtml(m)}
       <a href="index.html#calendar">Event Calendar</a>
       <a href="index.html#links">Official Links</a>
     </nav>
-    <div style="display:flex;gap:10px;align-items:center;">
+    <div class="header-actions">
       <a id="liveBadge" class="live-badge" href="#" target="_blank" rel="noopener">● LIVE</a>
       <select id="oshiSelect" class="oshi-select" aria-label="推しメンバーを選択"></select>
       <button type="button" class="theme-toggle" id="themeToggle" aria-label="ダークモード切替">🌙</button>
