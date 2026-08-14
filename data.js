@@ -543,7 +543,7 @@ const MEMBERS = [
       "音ノ乃のの・小廻こまをスカウト"
     ],
     tags: { stream: "", clip: "", art: "" },
-    links: { yt: "", x: "", tiktok: "" },
+    links: { yt: "https://www.youtube.com/@Mil_Pro", x: "https://x.com/Mil_Staff_", tiktok: "" },
     img: "images/talents/milli%20chan.JPEG",
     icon: "images/icon/milli%20chan_profile.JPEG",
     catchphrase: "進捗どうですか？",
