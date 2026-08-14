@@ -1,6 +1,6 @@
 const SITE_CONFIG = {
   name: "Milli Orbis",
-  siteUrl: "https://milli-orbis.onrender.com",
+  siteUrl: "https://milli-orbis-portal.onrender.com",
   ogImage: "/images/Milli%20Orbis-OGP.png",
   tagline: "ここを開けば、今のミリプロのすべてにアクセスできる",
   disclaimer: "本サイトはファンが運営する非公式のポータルサイトです。ミリプロ公式様とは一切関係ありません。",
