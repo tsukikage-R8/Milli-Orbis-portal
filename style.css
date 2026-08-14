@@ -1690,15 +1690,17 @@ footer .disclaimer { font-weight: 700; color: #8a6d3b; }
 @media (prefers-reduced-motion: reduce) { .intro-fx { display: none; } }
 
 /* --- 共通: ハート / スパーク --- */
-.fx-heart { position: absolute; color: rgba(255, 255, 255, 0.85); animation: fxRise 6s ease-in infinite; }
-.fx-heart::before { content: "♥"; font-size: 22px; display: block; animation: fxBeat 1.6s ease-in-out infinite; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); }
+.fx-heart { position: absolute; width: 14px; height: 13px; animation: fxRise 6s ease-in infinite, fxBeat 1.6s ease-in-out infinite; }
+.fx-heart::before, .fx-heart::after { content: ""; position: absolute; top: 0; width: 9px; height: 13px; border-radius: 9px 9px 0 0; background: rgba(255, 255, 255, 0.92); }
+.fx-heart::before { left: 7px; transform: rotate(-45deg); transform-origin: 0 100%; }
+.fx-heart::after { left: 0; transform: rotate(45deg); transform-origin: 100% 100%; }
 @keyframes fxRise {
   0% { transform: translateY(0) scale(0.6); opacity: 0; }
   15% { opacity: 0.9; }
   85% { opacity: 0.7; }
   100% { transform: translateY(-42vh) scale(1.15) rotate(14deg); opacity: 0; }
 }
-@keyframes fxBeat { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.18); } }
+@keyframes fxBeat { 0%, 100% { scale: 1; } 50% { scale: 1.18; } }
 .fx-spark {
   position: absolute;
   width: 16px;
@@ -2184,6 +2186,7 @@ body:not([data-member]) .intro-fx { display: none; }
   background: #fff;
 }
 .fanmark-img img { width: 100%; height: 100%; object-fit: cover; }
+.profile-table td svg { vertical-align: -3px; }
 
 /* ============================================================
    推し選択オンボーディング

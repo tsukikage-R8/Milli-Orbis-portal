@@ -888,6 +888,13 @@
     if (!overlay) return;
     var memberId = overlay.dataset.member;
     var m = getMember(memberId);
+    /* イントロは推しカラーではなく、タレント本人のカラーで演出する */
+    if (m && m.color) {
+      var ov = overlay.style;
+      ov.setProperty("--accent", m.color);
+      ov.setProperty("--accent-soft", m.subColor);
+      ov.setProperty("--accent-deep", shade(m.color, -35));
+    }
     var audio = $("#introAudio", overlay);
     var skipBtn = $("#introSkip", overlay);
     var catchBox = $("#introCatch", overlay);
