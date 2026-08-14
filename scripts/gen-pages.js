@@ -49,13 +49,11 @@ function fxHtml(kind) {
       '<span class="fx-heart" style="left:44%;top:64%;animation-delay:1.7s;animation-duration:6s"></span>' +
       '<span class="fx-spark" style="left:24%;top:40%;animation-delay:0.8s"></span>' +
       '<span class="fx-spark" style="left:85%;top:55%;animation-delay:1.5s"></span>' +
-      '<span class="fx-moon-big"></span>' +
-      '<span class="fx-eyes"><i></i><i></i></span>' +
+      '<span class="fx-ears"><i></i><i></i></span>' +
       '<span class="fx-paw" style="right:8%;bottom:9%;animation-delay:1.2s"><b></b></span>' +
       '<span class="fx-paw" style="right:22%;bottom:25%;animation-delay:1.7s;transform:scale(0.8) rotate(14deg)"><b></b></span>' +
       '<span class="fx-paw" style="right:37%;bottom:41%;animation-delay:2.2s;transform:scale(0.62) rotate(26deg)"><b></b></span>' +
-      '<span class="fx-flash"></span>' +
-      '<span class="fx-fin">MOON HOWL</span>',
+      '<span class="fx-flash"></span>',
     note:
       '<span class="fx-note-i" style="left:12%;animation-delay:0s;font-size:34px">♩</span>' +
       '<span class="fx-note-i" style="left:32%;animation-delay:1.4s;font-size:26px">♪</span>' +
@@ -80,8 +78,7 @@ function fxHtml(kind) {
       '<span class="fx-penta"></span>' +
       '<span class="fx-flame2" style="left:9%;bottom:-24px"></span>' +
       '<span class="fx-flame2" style="right:8%;bottom:-30px;animation-delay:1.6s;animation-duration:2s"></span>' +
-      '<span class="fx-flash"></span>' +
-      '<span class="fx-fin">降臨</span>',
+      '<span class="fx-flash"></span>',
     sea:
       '<span class="fx-sun"></span>' +
       '<span class="fx-bub2" style="left:12%;bottom:-30px"></span>' +
@@ -97,8 +94,7 @@ function fxHtml(kind) {
       '<span class="fx-beat"></span>' +
       waveSvg("rgba(255,255,255,0.4)") +
       waveSvg("rgba(255,255,255,0.22)") +
-      '<span class="fx-flash"></span>' +
-      '<span class="fx-fin">DJ START</span>',
+      '<span class="fx-flash"></span>',
     deep:
       '<span class="fx-ray" style="left:12%;animation-delay:0s"></span>' +
       '<span class="fx-ray" style="left:55%;animation-delay:1.6s;transform:rotate(-12deg)"></span>' +
@@ -125,8 +121,7 @@ function fxHtml(kind) {
       '<span class="j-t" style="left:52%;height:42px;animation-delay:1s"></span>' +
       '<span class="j-t" style="left:74%;height:28px;animation-delay:1.6s;animation-duration:2.2s"></span>' +
       "</span>" +
-      '<span class="fx-flash"></span>' +
-      '<span class="fx-fin">安らぎ</span>',
+      '<span class="fx-flash"></span>',
     koma:
       '<span class="fx-koma-spin" style="left:10%;top:10%;width:96px">' + DECO_SVG.top + "</span>" +
       '<span class="fx-koma-spin" style="right:8%;bottom:6%;width:72px;animation-duration:4.2s">' + DECO_SVG.top + "</span>" +
@@ -139,8 +134,7 @@ function fxHtml(kind) {
       '<span class="fx-lantern" style="left:16%;top:20%;animation-delay:1.4s;animation-duration:7s"></span>' +
       '<span class="fx-hanabi" style="left:60%;top:22%"></span>' +
       '<span class="fx-hanabi fx-hana2" style="left:22%;top:36%;width:88px;height:88px;animation-delay:1.1s"></span>' +
-      '<span class="fx-flash"></span>' +
-      '<span class="fx-fin">見参！</span>',
+      '<span class="fx-flash"></span>',
     sleep:
       '<span class="fx-cloud" style="top:12%;animation-duration:26s"></span>' +
       '<span class="fx-cloud" style="top:30%;animation-delay:8s;animation-duration:32s;opacity:0.5;width:150px"></span>' +
@@ -155,8 +149,7 @@ function fxHtml(kind) {
       '<span class="fx-spark" style="left:70%;top:60%;animation-delay:1.5s"></span>' +
       '<span class="fx-spark" style="left:26%;top:52%;animation-delay:2s;width:12px;height:12px"></span>' +
       '<span class="fx-pillow"></span>' +
-      '<span class="fx-flash"></span>' +
-      '<span class="fx-fin">おやすみ</span>',
+      '<span class="fx-flash"></span>',
     rain:
       '<span class="fx-rain-s" style="left:8%;animation-delay:0s"></span>' +
       '<span class="fx-rain-s" style="left:22%;animation-delay:0.6s;animation-duration:1.9s"></span>' +
@@ -172,8 +165,7 @@ function fxHtml(kind) {
       '<span class="fx-puddle" style="left:70%;bottom:-2px;animation-delay:0.9s"></span>' +
       '<span class="fx-umbrella"><svg viewBox="0 0 120 110" aria-hidden="true"><path d="M14 58a46 46 0 0 1 92 0z" fill="#3d4a55"/><path d="M14 58a46 46 0 0 1 92 0" fill="none" stroke="#5a6a78" stroke-width="2.5"/><g stroke="#54626f" stroke-width="3" stroke-linecap="round"><path d="M34 59L60 92 86 59"/><path d="M60 92v12"/></g><path d="M53 104q7 11 14 0" fill="none" stroke="#ef8b8b" stroke-width="4" stroke-linecap="round"/></svg></span>' +
       '<span class="fx-bolt"><svg viewBox="0 0 120 260" aria-hidden="true"><polygon points="72,0 26,140 62,140 38,260 100,108 62,108 88,0" fill="#ffe9a8"/></svg></span>' +
-      '<span class="fx-flash2"></span>' +
-      '<span class="fx-fin">雨宿り</span>',
+      '<span class="fx-flash2"></span>',
     paint:
       '<svg class="fx-rainbow-svg" viewBox="0 0 340 170" aria-hidden="true"><path stroke="#ff8fab" stroke-width="22" d="M20,170 A150,150 0 0 1 320,170"/><path stroke="#ffd166" stroke-width="20" d="M40,170 A130,130 0 0 1 300,170"/><path stroke="#6bc77b" stroke-width="18" d="M60,170 A110,110 0 0 1 280,170"/><path stroke="#4d96ff" stroke-width="16" d="M80,170 A90,90 0 0 1 260,170"/><path stroke="#b980f0" stroke-width="14" d="M100,170 A70,70 0 0 1 240,170"/></svg>' +
       '<span class="fx-splat" style="left:15%;top:14%;background:#ff7aa2;animation-delay:0.2s"></span>' +
@@ -189,8 +181,7 @@ function fxHtml(kind) {
       '<span class="fx-blob" style="left:55%;top:12%;background:#ffd166;animation-delay:2.14s;width:14px;height:14px"></span>' +
       '<span class="fx-blob" style="left:42%;top:30%;background:#4d96ff;animation-delay:2.4s;width:12px;height:12px"></span>' +
       '<span class="fx-blob" style="left:66%;top:42%;background:#6bc77b;animation-delay:2.7s;width:20px;height:20px"></span>' +
-      '<span class="fx-flash"></span>' +
-      '<span class="fx-fin">ぬふぬふ！</span>',
+      '<span class="fx-flash"></span>',
     lockon:
       '<div class="fx-grid"></div>' +
       '<span class="fx-scan"></span>' +
