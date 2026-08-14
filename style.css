@@ -3050,17 +3050,20 @@ body:not([data-member]) .intro-fx { display: none; }
   box-shadow: var(--shadow);
 }
 .game-feature-icon {
-  width: 86px;
-  height: 86px;
+  width: 170px;
+  height: 78px;
   flex-shrink: 0;
-  border-radius: 22px;
+  border-radius: 16px;
   overflow: hidden;
   border: 3px solid #fff;
   outline: 3px solid var(--accent);
   box-shadow: var(--pop-shadow);
   background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.game-feature-icon img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.game-feature-icon img { width: 100%; height: 100%; object-fit: contain; display: block; }
 .game-feature-body { flex: 1; min-width: 0; }
 .game-feature-tag {
   display: inline-block;
@@ -3098,7 +3101,7 @@ body:not([data-member]) .intro-fx { display: none; }
 .game-feature-note { font-size: 0.8rem; color: var(--muted); margin-top: 12px; font-weight: 700; }
 @media (max-width: 620px) {
   .game-feature { flex-direction: column; text-align: center; padding: 22px 16px; }
-  .game-feature-icon { width: 72px; height: 72px; }
+  .game-feature-icon { width: 150px; height: 68px; }
 }
 
 /* カウントダウンカード: カレンダー追加リンク */

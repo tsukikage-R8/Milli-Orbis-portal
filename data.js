@@ -60,13 +60,13 @@ const GOODS = [
 ];
 
 
-/* Milli Games のゲーム紹介（ホームの目立つ場所に表示。詳細は後で設定） */
+/* Milli Games のゲーム紹介（ホームの目立つ場所に表示） */
 const GAME_FEATURE = {
-  tag: "ゲーム紹介",
-  game: "（ゲーム名は後で設定）",
-  desc: "ミリプロのゲームをここで紹介します。詳しい内容は後で設定する予定です。",
-  icon: "images/icon/Milli Games-icon.png",
-  url: ""
+  tag: "Milli Games ピックアップ",
+  game: "Milli Pulse",
+  desc: "ミリプロの楽曲で遊べる無料のブラウザ音ゲー！音ノ乃のの「Princess Viral」・音ノ瀬らこ「ルミナス」・小廻こま「おきらくスーパースター」の3曲を収録。キーボードでリズムに乗ってハイスコアを目指そう！この他にも様々なゲームを用意しています！",
+  icon: "images/games/milli-pulse-rogo.png",
+  url: "https://milli-games.onrender.com/games/music.html"
 };
 
 const MEMBERS = [
