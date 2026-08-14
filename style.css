@@ -1644,6 +1644,24 @@ footer .disclaimer { font-weight: 700; color: #8a6d3b; }
 .intro-catch .c-char { display: inline-block; opacity: 0; transform: translateY(12px); animation-delay: var(--cd, 0s); }
 .intro-overlay.play .intro-catch .c-char { animation: introUp 0.45s ease-out forwards; }
 
+/* 挨拶のリプレイボタン（キャッチコピーの下に後から出現） */
+.intro-voice-btn {
+  margin-top: 18px;
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  border-radius: 999px;
+  padding: 8px 18px;
+  cursor: pointer;
+  opacity: 0;
+  animation: introUp 0.45s ease-out 2.2s forwards;
+}
+.intro-voice-btn:hover { background: rgba(0, 0, 0, 0.45); }
+
 .intro-skip {
   position: absolute;
   top: 18px;
@@ -2227,6 +2245,22 @@ footer .disclaimer { font-weight: 700; color: #8a6d3b; }
     linear-gradient(160deg, #d8ecf2 0%, #5f97a4 58%, #37697a 100%);
 }
 [data-member="konomi"] .intro-ring { opacity: 0.35; }
+
+/* ミリちゃん: 薄紫 → 紫がかった薄いピンク（このみの水色系と区別） */
+[data-member="milchan"] .intro-overlay {
+  background:
+    radial-gradient(circle at 50% 26%, rgba(255, 255, 255, 0.6) 0 180px, transparent 181px),
+    linear-gradient(160deg, #e3d9f6 0%, #cdbcf0 50%, #eac9de 100%);
+}
+[data-member="milchan"] .intro-ring { opacity: 0.4; }
+
+/* ぬふ: 虹テーマの明るいパステルピンク（右下が暗くならないように明色のみ） */
+[data-member="nuhu"] .intro-overlay {
+  background:
+    radial-gradient(circle at 50% 26%, rgba(255, 255, 255, 0.6) 0 180px, transparent 181px),
+    linear-gradient(160deg, #ffedf3 0%, #ffd0e0 50%, #f5b9d1 100%);
+}
+[data-member="nuhu"] .intro-ring { opacity: 0.4; }
 .fx-ears {
   position: absolute;
   top: 8%;

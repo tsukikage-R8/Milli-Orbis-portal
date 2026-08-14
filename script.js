@@ -927,10 +927,10 @@
         done = true;
         closeIntro();
       };
-      if (audio && m && m.introVoice) {
+      if (audio && m && (m.introVoice || m.voice)) {
         var started = false;
         var begin = function () {
-          if (started || done) return;
+          if (done) return;
           started = true;
           overlay.classList.remove("standby");
           audio.addEventListener("ended", finish);
@@ -944,9 +944,13 @@
           /* 音声が読み込めない場合でも必ず閉じる安全タイマー */
           setTimeout(finish, 8000);
         };
-        var tryPlay = function () {
-          if (started) return;
+        var tryPlay = function (force) {
+          if (started && !force) return;
           try {
+            if (force) {
+              audio.currentTime = 0;
+              started = false;
+            }
             var p = audio.play();
             if (p && p.then) {
               p.then(begin).catch(function () { overlay.classList.add("standby"); });
@@ -965,6 +969,14 @@
           startBtn.addEventListener("click", function () {
             overlay.classList.remove("standby");
             tryPlay();
+          });
+        }
+        /* 挨拶のリプレイボタン（いつでもタップで最初から再生） */
+        var voiceBtn = $("#introVoiceBtn", overlay);
+        if (voiceBtn) {
+          voiceBtn.addEventListener("click", function () {
+            overlay.classList.remove("standby");
+            tryPlay(true);
           });
         }
         tryPlay();

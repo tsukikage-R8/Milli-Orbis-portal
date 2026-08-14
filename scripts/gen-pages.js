@@ -26,6 +26,7 @@ function introOverlay(m) {
     (m.img ? '<img class="intro-art" src="' + m.img + '" alt="' + m.name + '">' : "") +
     '<p class="intro-name">' + m.name + "</p>" +
     '<p class="intro-catch" id="introCatch"></p>' +
+    (m.introVoice || m.voice ? '<button type="button" class="intro-voice-btn" id="introVoiceBtn">🔁 挨拶を再生</button>' : "") +
     "</div>" +
     '<audio id="introAudio" src="' + (m.introVoice || m.voice || "") + '" preload="auto"></audio>' +
     '<button type="button" class="intro-start" id="introStartBtn">▶ タップで再生</button>' +
