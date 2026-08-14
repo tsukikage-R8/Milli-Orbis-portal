@@ -877,9 +877,9 @@ img { max-width: 100%; }
 }
 .stream-group-title .range { font-size: 0.78rem; font-weight: 700; color: var(--muted); }
 .stream-group { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
-.stream-item { display: flex; gap: 14px; padding: 12px; align-items: center; }
+.stream-item { display: block; padding: 0; overflow: hidden; }
 .stream-item:hover { text-decoration: none; }
-.stream-item .video-thumb { width: 128px; flex-shrink: 0; }
+.stream-item .video-thumb { width: auto; flex-shrink: 0; border-radius: 0 0 14px 14px; border: none; border-bottom: 3px solid #fff; }
 
 .video-thumb {
   position: relative;
@@ -2878,7 +2878,6 @@ body:not([data-member]) .intro-fx { display: none; }
   .hamburger { display: block; }
   .hero { padding-top: 110px; }
   .grid-3, .grid-2 { grid-template-columns: 1fr; }
-  .stream-item .video-thumb { width: 100px; }
   .talent-hero { padding: 28px 16px; }
   .talent-hero-art { width: min(180px, 44vw); }
   .oshi-list { grid-template-columns: 1fr; }
@@ -2997,7 +2996,8 @@ body:not([data-member]) .intro-fx { display: none; }
   background: linear-gradient(160deg, color-mix(in srgb, var(--gc) 24%, #1e1a28), color-mix(in srgb, var(--gc) 8%, #1e1a28));
 }
 :root[data-theme="dark"] .video-thumb { border-color: #2c2838; outline-color: rgba(255, 255, 255, 0.08); background: #221e30; }
-:root[data-theme="dark"] .video-card .video-thumb { border-bottom-color: #2c2838; }
+:root[data-theme="dark"] .video-card .video-thumb,
+:root[data-theme="dark"] .stream-item .video-thumb { border-bottom-color: #2c2838; }
 :root[data-theme="dark"] .wave { filter: brightness(0.4); }
 :root[data-theme="dark"] .birthday-banner { background: linear-gradient(90deg, var(--accent-soft), #1e1a28); }
 :root[data-theme="dark"] footer { background: rgba(255, 255, 255, 0.04); border-top-color: #2c2838; box-shadow: 0 -3px 0 rgba(0, 0, 0, 0.35); }
@@ -3025,20 +3025,16 @@ body:not([data-member]) .intro-fx { display: none; }
    配信予定: リマインド・カレンダー追加
    ============================================================ */
 .stream-item { position: relative; }
-.stream-main {
-  display: flex;
-  gap: 14px;
-  align-items: center;
-  flex: 1;
-  min-width: 0;
-}
+.stream-main { display: block; min-width: 0; }
 .stream-actions {
   display: flex;
-  flex-direction: column;
-  gap: 8px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
   align-items: center;
-  flex-shrink: 0;
-  margin-left: 4px;
+  justify-content: center;
+  padding: 10px 14px 16px;
+  border-top: 2px dashed var(--border);
 }
 .stream-cal,
 .stream-remind {
@@ -3156,28 +3152,7 @@ body:not([data-member]) .intro-fx { display: none; }
 .cd-cal:hover { text-decoration: none; transform: translateY(-1px); }
 :root[data-theme="dark"] .cd-cal { background: #1e1a28; }
 
-/* 配信予定: タイトル横スクロール・アクション行・注記 */
-.stream-item { align-items: stretch; }
-.stream-main { text-decoration: none; }
-.stream-body {
-  flex: 1;
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-.stream-item .video-title {
-  white-space: nowrap;
-  overflow-x: auto;
-  scrollbar-width: thin;
-  scrollbar-color: var(--accent) transparent;
-  -webkit-overflow-scrolling: touch;
-  padding-bottom: 2px;
-}
-.stream-item .video-title::-webkit-scrollbar { height: 5px; }
-.stream-item .video-title::-webkit-scrollbar-thumb { background: var(--accent); border-radius: 999px; }
-.stream-item .video-meta { margin-top: 0; }
-.stream-actions { flex-direction: row; flex-wrap: wrap; }
+/* 配信予定: アクション行・注記 */
 .stream-note {
   font-size: 0.75rem;
   color: var(--muted);

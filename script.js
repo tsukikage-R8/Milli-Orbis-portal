@@ -413,11 +413,11 @@
           return '<div class="stream-item card">' +
             '<a class="stream-main" href="' + videoUrl(s.id) + '" target="_blank" rel="noopener">' +
             '<div class="video-thumb"><img src="' + thumbUrl(s.id) + '" alt="" loading="lazy"></div>' +
-            '<div class="stream-body">' +
+            '<div class="video-body">' +
             '<div class="video-title">' + esc(s.title) + (isLive ? '<span class="video-tag">LIVE</span>' : "") + "</div>" +
-            '<div class="stream-actions">' + cal + remind + "</div>" +
             '<div class="video-meta">' + (m ? m.name + " ・ " : "") + when + soon + "</div>" +
             "</div></a>" +
+            '<div class="stream-actions">' + cal + remind + "</div>" +
             "</div>";
         }).join("") + "</div>";
     });
