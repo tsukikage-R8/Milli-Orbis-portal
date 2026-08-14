@@ -1,0 +1,21 @@
+# Render Blueprint: Milli Orbis（新規サービス用）
+# 使い方: Render ダッシュボード → New+ → Blueprint からこのリポジトリを選ぶと
+# この設定で Static Site が自動作成される
+services:
+  - type: web
+    name: milli-orbis-2
+    runtime: static
+    repo: https://github.com/tsukikage-R8/fan
+    branch: main
+    buildCommand: ""
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: true
+    # カスタムドメインを使う場合はここに追加:
+    # domain: www.example.com
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+    headers:
+      - path: /*
+        name: X-Frame-Options
+        value: SAMEORIGIN
