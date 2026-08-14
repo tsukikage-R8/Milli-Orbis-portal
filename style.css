@@ -1842,8 +1842,8 @@ footer .disclaimer { font-weight: 700; color: #8a6d3b; }
 /* --- ゆら: 深海・泡・光 --- */
 [data-member="yura"] .intro-overlay {
   background:
-    radial-gradient(circle at 50% 30%, rgba(150, 210, 255, 0.13) 0 170px, transparent 172px),
-    linear-gradient(180deg, #0a1f38 0%, #103554 55%, #071527 100%);
+    radial-gradient(circle at 50% 30%, rgba(200, 240, 255, 0.4) 0 170px, transparent 172px),
+    linear-gradient(180deg, #1374a8 0%, #2aa3d8 55%, #0e5f8e 100%);
 }
 [data-member="yura"] .intro-ring { opacity: 0.3; }
 .fx-ray {
@@ -2307,8 +2307,8 @@ footer .disclaimer { font-weight: 700; color: #8a6d3b; }
 /* --- あくび: 魔界の門 --- */
 [data-member="akubi"] .intro-overlay {
   background:
-    radial-gradient(circle at 50% 20%, rgba(255, 45, 45, 0.2) 0 210px, transparent 211px),
-    linear-gradient(180deg, #17090d 0%, #2b0b14 55%, #0d0408 100%);
+    radial-gradient(circle at 50% 20%, rgba(255, 150, 140, 0.35) 0 210px, transparent 211px),
+    linear-gradient(180deg, #a3222f 0%, #d93a4e 55%, #801620 100%);
 }
 [data-member="akubi"] .intro-ring { display: none; }
 [data-member="akubi"] .intro-art { box-shadow: 0 16px 0 rgba(0, 0, 0, 0.08), 0 0 60px rgba(255, 60, 50, 0.5), 0 24px 48px rgba(0, 0, 0, 0.4); }
@@ -2361,8 +2361,8 @@ footer .disclaimer { font-weight: 700; color: #8a6d3b; }
 /* --- こま: お祭りの夜 --- */
 [data-member="koma"] .intro-overlay {
   background:
-    radial-gradient(circle at 50% 6%, rgba(255, 214, 140, 0.4) 0 230px, transparent 231px),
-    linear-gradient(180deg, #2b1b58 0%, #7a3f5e 48%, #d09559 84%, #4a2c14 100%);
+    radial-gradient(circle at 50% 6%, rgba(255, 224, 160, 0.5) 0 230px, transparent 231px),
+    linear-gradient(180deg, #6a4bb0 0%, #d98a9f 48%, #f6b877 84%, #8a5a24 100%);
 }
 [data-member="koma"] .intro-ring { opacity: 0.35; }
 .fx-lantern { position: absolute; width: 22px; animation: fxFloat 6s ease-in-out infinite; }
@@ -2413,8 +2413,8 @@ footer .disclaimer { font-weight: 700; color: #8a6d3b; }
 /* --- らこ: ビーチDJ --- */
 [data-member="raco"] .intro-overlay {
   background:
-    radial-gradient(circle at 50% 122%, rgba(255, 190, 95, 0.5) 0 330px, transparent 332px),
-    linear-gradient(180deg, #f7b25c 0%, #ff9d66 34%, #2f8fb8 62%, #123c5c 100%);
+    radial-gradient(circle at 50% 122%, rgba(255, 255, 255, 0.55) 0 330px, transparent 332px),
+    linear-gradient(180deg, #ffe79a 0%, #ffce54 45%, #ffb62e 100%);
 }
 [data-member="raco"] .intro-ring { opacity: 0.4; }
 .fx-ball {
@@ -2547,8 +2547,8 @@ footer .disclaimer { font-weight: 700; color: #8a6d3b; }
 /* --- ツクリ: 星夜 --- */
 [data-member="tsukuri"] .intro-overlay {
   background:
-    radial-gradient(circle at 82% 16%, rgba(255, 255, 235, 0.28) 0 140px, transparent 141px),
-    linear-gradient(180deg, #141230 0%, #23204a 55%, #0c0b22 100%);
+    radial-gradient(circle at 82% 16%, rgba(255, 255, 235, 0.35) 0 140px, transparent 141px),
+    linear-gradient(180deg, #4a5cae 0%, #6378c9 55%, #3b4d99 100%);
 }
 [data-member="tsukuri"] .intro-ring { opacity: 0.3; }
 .fx-star-shoot {

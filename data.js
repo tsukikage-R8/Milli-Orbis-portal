@@ -183,7 +183,7 @@ const MEMBERS = [
     img: "images/talents/akubi.webp",
     logo: "images/rogo/akubirogo.webp",
     icon: "images/icon/akubi_profile.jpg",
-    catchphrase: "あくびとおまえらが楽しければそれでいい。",
+    catchphrase: "貴様ら、跪け！あくび・でもんすぺーど様だ！",
     introVoice: "",
     fx: "demon",
     deco: {
