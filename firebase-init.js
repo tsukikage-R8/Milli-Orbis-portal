@@ -85,6 +85,61 @@ function milliproLogout() {
   return firebase.auth().signOut();
 }
 
+// パスワード再設定メールを送信（どのサイトからでも共通アカウントに対して送れる）
+// リセット後に戻る URL は呼び出し元サイトのオリジンを指定する（Millipro Chronicle 連携ハンドオフ共通仕様）
+function milliproResetPassword(email) {
+  if (!isAuthAvailable()) return Promise.reject(new Error("auth unavailable"));
+  return firebase.auth().sendPasswordResetEmail(String(email).trim(), {
+    url: (typeof window !== "undefined" && window.location && window.location.origin) ? window.location.origin + "/" : "",
+    handleCodeInApp: false,
+  });
+}
+
+// パスワード再設定ダイアログ（ログイン画面の「パスワードをお忘れですか？」から開く）
+function mpOpenReset() {
+  var dialog = document.getElementById("password-reset-dialog");
+  if (!dialog) return;
+  var email = document.getElementById("mp-email");
+  var input = document.getElementById("reset-email");
+  if (input) input.value = (email && email.value && email.value.trim()) ? email.value.trim() : "";
+  var msg = document.getElementById("reset-msg");
+  if (msg) msg.textContent = "";
+  dialog.classList.remove("hidden");
+  if (input) input.focus();
+}
+
+function mpCloseReset() {
+  var dialog = document.getElementById("password-reset-dialog");
+  if (dialog) dialog.classList.add("hidden");
+}
+
+function mpResetError(e) {
+  var j = e && e.code ? e.code : String(e);
+  if (j.indexOf("user-not-found") >= 0) return "そのメールアドレスは登録されていません";
+  if (j.indexOf("invalid-email") >= 0) return "メールアドレスの形式が正しくありません";
+  if (j.indexOf("too-many-requests") >= 0) return "試行回数が多すぎます。しばらくしてから再度お試しください";
+  return "送信に失敗しました: " + j;
+}
+
+function mpResetSubmit() {
+  var input = document.getElementById("reset-email");
+  var msg = document.getElementById("reset-msg");
+  var btn = document.getElementById("reset-send-btn");
+  if (!input || !msg) return;
+  var email = input.value.trim();
+  if (!email) { msg.textContent = "メールアドレスを入力してください"; return; }
+  if (!isAuthAvailable()) { msg.textContent = "アカウント連携が設定されていません"; return; }
+  if (btn) btn.disabled = true;
+  msg.textContent = "送信中...";
+  milliproResetPassword(email).then(function () {
+    msg.textContent = "再設定メールを送信しました。メールのリンクからパスワードを再設定してください。";
+  }).catch(function (e) {
+    msg.textContent = mpResetError(e);
+  }).finally(function () {
+    if (btn) btn.disabled = false;
+  });
+}
+
 function newPlayerIdFallback() {
   if (typeof crypto !== "undefined" && crypto && typeof crypto.randomUUID === "function") return crypto.randomUUID();
   return "P" + Date.now();
@@ -477,4 +532,6 @@ if (document.getElementById("mp-popup-close")) {
       inp.addEventListener("keydown", function (e) { if (e.key === "Enter") mpSubmit(true); });
     });
   }
+  var ri = document.getElementById("reset-email");
+  if (ri) ri.addEventListener("keydown", function (e) { if (e.key === "Enter") mpResetSubmit(); });
 })();

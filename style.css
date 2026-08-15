@@ -3394,6 +3394,29 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
 .mp-emoji-btn.active { border-color: var(--accent-deep); background: var(--accent-soft); }
 .mp-edit-note { font-size: 0.75rem; color: var(--muted); margin-bottom: 10px; }
 .mp-edit-locked { font-size: 0.8rem; color: var(--muted); margin-top: 14px; border-top: 2px dashed var(--accent-soft); padding-top: 12px; }
+
+/* パスワード再設定ダイアログ（Millipro Chronicle 共通仕様） */
+.mp-forgot-btn { display: block; margin: 6px auto 0; background: none; border: none; color: var(--accent); font-size: 0.78rem; text-decoration: underline; cursor: pointer; }
+.password-reset-dialog {
+  position: fixed; inset: 0; z-index: 2000; background: rgba(0, 0, 0, 0.55);
+  display: flex; justify-content: center; align-items: center; padding: 16px;
+}
+.password-reset-dialog.hidden { display: none; }
+.password-reset-box {
+  position: relative; width: 90%; max-width: 360px; box-sizing: border-box;
+  background: #fff; border-radius: 14px; padding: 20px 18px 14px; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+}
+.password-reset-close {
+  position: absolute; top: 8px; right: 10px; background: none; border: none;
+  font-size: 1.1rem; line-height: 1; cursor: pointer; color: var(--muted);
+}
+.password-reset-title { font-size: 1.05rem; font-weight: 800; margin-bottom: 6px; }
+.password-reset-sub { font-size: 0.78rem; color: var(--muted); margin-bottom: 10px; }
+.password-reset-box .mp-input { width: 100%; box-sizing: border-box; margin-bottom: 10px; }
+.password-reset-box .mp-submit { width: 100%; }
+.password-reset-box .mp-msg { margin-top: 8px; }
+:root[data-theme="dark"] .password-reset-box { background: #1e1a28; border-color: #2c2838; }
+:root[data-theme="dark"] .password-reset-close { color: #b8ac9b; }
 :root[data-theme="dark"] .mp-emoji-btn { background: #2c2838; border-color: #3d3850; }
 :root[data-theme="dark"] .mp-emoji-btn:hover { border-color: var(--accent); }
 :root[data-theme="dark"] .mp-emoji-btn.active { border-color: var(--accent); background: #3a3348; }

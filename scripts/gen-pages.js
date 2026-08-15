@@ -435,6 +435,7 @@ ${introOverlay(m)}
             <button type="button" class="mp-eye" id="mp-pass-eye" onclick="mpToggle('mp-pass','mp-pass-eye')" aria-label="パスワード表示切替">👁</button>
           </div>
           <button type="button" class="btn mp-submit" onclick="mpSubmit(false)">ログイン</button>
+          <button type="button" class="mp-forgot-btn" onclick="mpOpenReset()">パスワードをお忘れですか？</button>
         </div>
         <div id="mp-panel-signup" style="display:none;">
           <input id="mp2-email" class="mp-input" type="email" placeholder="メールアドレス" autocomplete="email">
@@ -454,6 +455,17 @@ ${introOverlay(m)}
         </div>
       </div>
     </div>
+  </div>
+</div>
+
+<div id="password-reset-dialog" class="password-reset-dialog hidden" onclick="if(event.target===this)mpCloseReset()">
+  <div class="password-reset-box">
+    <button type="button" class="password-reset-close" id="reset-close-btn" onclick="mpCloseReset()" aria-label="閉じる">✕</button>
+    <div class="password-reset-title">🔑 パスワードを再設定</div>
+    <div class="password-reset-sub">登録したメールアドレスに再設定用のリンクを送信します。</div>
+    <input class="mp-input" id="reset-email" type="email" placeholder="メールアドレス" autocomplete="email">
+    <button type="button" class="btn mp-submit" id="reset-send-btn" onclick="mpResetSubmit()">メールを送信</button>
+    <p id="reset-msg" class="mp-msg"></p>
   </div>
 </div>
 
@@ -612,6 +624,7 @@ function simplePage(o) {
             <button type="button" class="mp-eye" id="mp-pass-eye" onclick="mpToggle('mp-pass','mp-pass-eye')" aria-label="パスワード表示切替">👁</button>
           </div>
           <button type="button" class="btn mp-submit" onclick="mpSubmit(false)">ログイン</button>
+          <button type="button" class="mp-forgot-btn" onclick="mpOpenReset()">パスワードをお忘れですか？</button>
         </div>
         <div id="mp-panel-signup" style="display:none;">
           <input id="mp2-email" class="mp-input" type="email" placeholder="メールアドレス" autocomplete="email">
@@ -631,6 +644,17 @@ function simplePage(o) {
         </div>
       </div>
     </div>
+  </div>
+</div>
+
+<div id="password-reset-dialog" class="password-reset-dialog hidden" onclick="if(event.target===this)mpCloseReset()">
+  <div class="password-reset-box">
+    <button type="button" class="password-reset-close" id="reset-close-btn" onclick="mpCloseReset()" aria-label="閉じる">✕</button>
+    <div class="password-reset-title">🔑 パスワードを再設定</div>
+    <div class="password-reset-sub">登録したメールアドレスに再設定用のリンクを送信します。</div>
+    <input class="mp-input" id="reset-email" type="email" placeholder="メールアドレス" autocomplete="email">
+    <button type="button" class="btn mp-submit" id="reset-send-btn" onclick="mpResetSubmit()">メールを送信</button>
+    <p id="reset-msg" class="mp-msg"></p>
   </div>
 </div>
 
