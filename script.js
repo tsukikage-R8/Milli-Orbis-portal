@@ -1657,7 +1657,7 @@
     var w = $("#mpWelcome");
     if (!w) return;
     var info = (typeof mpProfileInfo === "function") ? mpProfileInfo() : null;
-    if (!info || (!info.pid && !info.name && !info.icon)) { w.style.display = "none"; return; }
+    if (!info || (!info.pid && !info.name && !info.icon)) { w.classList.remove("show"); w.style.display = "none"; return; }
     var icon = "";
     if (info.icon) {
       icon = String(info.icon).indexOf("data:image/") === 0
@@ -1667,7 +1667,13 @@
     w.innerHTML =
       '<span class="mp-w-icon">' + icon + "</span>" +
       '<span class="mp-w-text">こんにちは、<b>' + esc(info.name || info.pid) + "</b> さん（ID: " + esc(info.pid || "—") + "）</span>";
-    w.style.display = "flex";
+    w.classList.remove("show");
+    void w.offsetWidth;
+    w.classList.add("show");
+    w.addEventListener("animationend", function h() {
+      w.classList.remove("show");
+      w.removeEventListener("animationend", h);
+    });
   }
 
   /* 今日のミリプロボックス（誕生日・当日イベント・当日配信を自動まとめ） */
