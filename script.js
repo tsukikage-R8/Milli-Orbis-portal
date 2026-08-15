@@ -1005,8 +1005,9 @@
         var slice = e.type === "birthday" ? m.birthday : (e.type === "anniversary" ? m.debut.slice(5) : null);
         if (!slice) return;
         if (ym) {
-          var ymd = new Date(Date.UTC(ym.y, ym.mo, parseInt(slice.slice(3), 10)));
-          if (ymd.getUTCMonth() === ym.mo) list.push({ ev: e, date: ymd });
+          var mm = parseInt(slice.slice(0, 2), 10) - 1;
+          var dd = parseInt(slice.slice(3), 10);
+          if (mm === ym.mo) list.push({ ev: e, date: new Date(Date.UTC(ym.y, mm, dd)) });
         } else if (e.type === "birthday" && m.birthday) {
           list.push({ ev: e, date: nextOccurrence(m.birthday) });
         } else if (e.type === "anniversary" && m.debut) {
