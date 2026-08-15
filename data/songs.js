@@ -103,12 +103,23 @@ window.SONGS = {
     },
     {
       "title": "名前のない怪物 / あくび・でもんすぺーど",
-      "key": "名前のない怪物-",
+      "key": "名前のない怪物",
       "urls": [
         {
           "id": "5Iop35AqZ88",
           "memberId": "akubi",
           "publishedAt": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "title": "あぶく",
+      "key": "あぶく",
+      "urls": [
+        {
+          "id": "HIqDEryZgVk",
+          "memberId": "nono",
+          "publishedAt": "2026-08-15"
         }
       ]
     },
@@ -158,7 +169,7 @@ window.SONGS = {
     },
     {
       "title": "I’m a mess / あくび・でもんすぺーど",
-      "key": "i’mamess-",
+      "key": "i’mamess",
       "urls": [
         {
           "id": "xQSTs3nRxMg",
@@ -289,7 +300,7 @@ window.SONGS = {
     },
     {
       "title": "おやすみ泣き声、さよなら歌姫 / あくび・でもんすぺーど",
-      "key": "おやすみ泣き声、さよなら姫-",
+      "key": "おやすみ泣き声、さよなら姫",
       "urls": [
         {
           "id": "urWhy4EO0UQ",
@@ -300,7 +311,7 @@ window.SONGS = {
     },
     {
       "title": "ロミオとシンデレラ / あくび・でもんすぺーど",
-      "key": "ロミオとシンデレラ-",
+      "key": "ロミオとシンデレラ",
       "urls": [
         {
           "id": "MxrnywtLkR0",
@@ -622,7 +633,7 @@ window.SONGS = {
     },
     {
       "title": "サムライハート (Some Like It Hot!!) / あくび・でもんすぺーど",
-      "key": "サムライハト-",
+      "key": "サムライハト",
       "urls": [
         {
           "id": "hec0ZRHedwY",
@@ -734,6 +745,11 @@ window.SONGS = {
       "title": "プロポーズ",
       "key": "プロポズ",
       "urls": [
+        {
+          "id": "VpV6ODuqZ04",
+          "memberId": "akubi",
+          "publishedAt": "2025-08-11"
+        },
         {
           "id": "vbWpR-lj-mY",
           "memberId": "raco",
@@ -868,12 +884,17 @@ window.SONGS = {
     },
     {
       "title": "チェリーポップ / あくび・でもんすぺーど",
-      "key": "チェリポップ-",
+      "key": "チェリポップ",
       "urls": [
         {
           "id": "hkQcDSTLbwA",
           "memberId": "akubi",
           "publishedAt": "2025-09-27"
+        },
+        {
+          "id": "UgpV6bWtt9Q",
+          "memberId": "raco",
+          "publishedAt": "2025-08-10"
         }
       ]
     },
@@ -960,28 +981,6 @@ window.SONGS = {
       ]
     },
     {
-      "title": "プロポーズ / あくび・でもんすぺーど",
-      "key": "プロポズ-",
-      "urls": [
-        {
-          "id": "VpV6ODuqZ04",
-          "memberId": "akubi",
-          "publishedAt": "2025-08-11"
-        }
-      ]
-    },
-    {
-      "title": "チェリーポップ",
-      "key": "チェリポップ",
-      "urls": [
-        {
-          "id": "UgpV6bWtt9Q",
-          "memberId": "raco",
-          "publishedAt": "2025-08-10"
-        }
-      ]
-    },
-    {
       "title": "ドレミファロンド",
       "key": "ドレミファロンド",
       "urls": [
@@ -1057,7 +1056,7 @@ window.SONGS = {
     },
     {
       "title": "深海少女 -deep sea girl-",
-      "key": "深海少女-deepseagirl-",
+      "key": "深海少女-deepseagirl",
       "urls": [
         {
           "id": "MFvSwBk_p2A",
@@ -1799,17 +1798,6 @@ window.SONGS = {
           "id": "Fs_npreX0p4",
           "memberId": "konomi",
           "publishedAt": "2025-04-20"
-        }
-      ]
-    },
-    {
-      "title": "あぶく",
-      "key": "あぶく",
-      "urls": [
-        {
-          "id": "HIqDEryZgVk",
-          "memberId": "nono",
-          "publishedAt": "2026-07-26"
         }
       ]
     },

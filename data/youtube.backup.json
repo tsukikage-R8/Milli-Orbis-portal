@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-08-15T05:39:00.751Z",
+  "updatedAt": "2026-08-15T08:12:41.570Z",
   "streams": [
+    {
+      "id": "SNGkFktnvXM",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "【マイクラ￤ストリヌ】8日目！そろそろ終わりなの、さみしいなぁ【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/SNGkFktnvXM/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-15T09:00:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "VbQsKSoywf0",
       "memberId": "yura",
@@ -23,11 +32,9 @@
       "id": "UhO0Vt03ZMg",
       "memberId": "liz",
       "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
       "title": "【ストリヌ/Minecraft 】影MOD入れたから街ぶらる【雨夜リズ/ミリプロ】",
-      "thumb": "",
-      "publishedAt": "",
-      "scheduledStartTime": "2026-08-15T20:00:00+09:00",
+      "thumb": "https://i.ytimg.com/vi/UhO0Vt03ZMg/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-15T11:00:00Z",
       "status": "upcoming"
     },
     {
@@ -37,17 +44,7 @@
       "channelTitle": "音ノ瀬らこ / OtonoseRaco",
       "title": "???? / 音ノ瀬らこfeat.ゆらぎゆら (cover)",
       "thumb": "",
-      "publishedAt": "",
       "scheduledStartTime": "2026-08-15T20:00:00+09:00",
-      "status": "upcoming"
-    },
-    {
-      "id": "ISlVs2qDnZY",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 Minecraft 〗屋台食いつくしVlog #⁠ミリプロサマー2026〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/ISlVs2qDnZY/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-16T10:00:00Z",
       "status": "upcoming"
     },
     {
@@ -101,6 +98,24 @@
       "member": "ゆらぎゆら",
       "title": "【マイクラ】水着で夏祭り満喫！？まじ皆かわいく写真撮ってね😎【#⁠ミリプロサマー2026】",
       "thumb": "https://i.ytimg.com/vi/Frhsy0dU7zI/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-16T10:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "ISlVs2qDnZY",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 Minecraft 〗屋台食いつくしVlog #⁠ミリプロサマー2026〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/ISlVs2qDnZY/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-16T10:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "h1QtwXWz7tY",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【Minecraft】マイクラでナイトプールに行けるらしい🎵【#⁠ミリプロサマー2026】",
+      "thumb": "https://i.ytimg.com/vi/h1QtwXWz7tY/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-16T10:00:00Z",
       "status": "upcoming"
     },
@@ -229,9 +244,28 @@
       "thumb": "https://i.ytimg.com/vi/M_IG20Hhx2M/hqdefault_live.jpg",
       "scheduledStartTime": "2026-09-30T14:30:00Z",
       "status": "upcoming"
+    },
+    {
+      "id": "OCDhtDgFVUU",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "⋆⸜  サマーストリートコレクションコレクショングッズ販売中🌻  ⸝⋆",
+      "thumb": "https://i.ytimg.com/vi/OCDhtDgFVUU/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-31T14:30:00Z",
+      "status": "upcoming"
     }
   ],
   "videos": [
+    {
+      "id": "SNGkFktnvXM",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【マイクラ￤ストリヌ】8日目！そろそろ終わりなの、さみしいなぁ【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/SNGkFktnvXM/hqdefault_live.jpg",
+      "publishedAt": "2026-08-15T07:35:04Z",
+      "live": false
+    },
     {
       "id": "ZDyaOrEJ_so",
       "memberId": "nono",
@@ -520,16 +554,6 @@
       "title": "【 ストリヌ 】ここは新世界！あれれ記憶がないな...#5【小廻こま/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/ylAov5O0rcc/hqdefault.jpg",
       "publishedAt": "2026-08-12T17:35:20Z",
-      "live": false
-    },
-    {
-      "id": "JmsWJgDDI3E",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【ストリヌ】第5話「復興の合間に、大冒険！」【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/JmsWJgDDI3E/hqdefault.jpg",
-      "publishedAt": "2026-08-12T17:26:38Z",
       "live": false
     }
   ],
