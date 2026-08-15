@@ -4044,15 +4044,20 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(20, 12, 30, 0.3);
   border-radius: 12px;
-  transition: background 0.15s;
+  pointer-events: none;
 }
-.song-thumb-wrap:hover .play-overlay,
-.sm-jacket-wrap:hover .play-overlay { background: rgba(20, 12, 30, 0.45); }
-.play-overlay svg { filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.5)); transition: transform 0.15s; }
-.song-thumb-wrap:hover .play-overlay svg,
-.sm-jacket-wrap:hover .play-overlay svg { transform: scale(1.12); }
+.play-overlay svg {
+  width: 26px;
+  height: 26px;
+  padding: 12px;
+  box-sizing: content-box;
+  background: rgba(15, 10, 25, 0.42);
+  border-radius: 50%;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.35));
+  transition: transform 0.15s, background 0.15s;
+}
+.song-thumb-wrap:hover .play-overlay svg { transform: scale(1.12); background: rgba(15, 10, 25, 0.6); }
 .song-thumb {
   width: 100%;
   aspect-ratio: 16 / 9;
