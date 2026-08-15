@@ -81,8 +81,13 @@ function milliproSignup(email, password) {
 }
 
 function milliproLogout() {
-  if (!isAuthAvailable()) return Promise.resolve();
-  return firebase.auth().signOut();
+  if (!isAuthAvailable()) {
+    try { localStorage.removeItem("millipro_userdata"); } catch (e) {}
+    return Promise.resolve();
+  }
+  return firebase.auth().signOut().then(function () {
+    try { localStorage.removeItem("millipro_userdata"); } catch (e) {}
+  });
 }
 
 // パスワード再設定メールを送信（どのサイトからでも共通アカウントに対して送れる）
@@ -470,7 +475,10 @@ function mpOpenAccount() {
 }
 
 function mpLogout() {
-  milliproLogout().then(mpRender);
+  milliproLogout().then(function () {
+    mpRender(null);
+    mpRefreshBanner();
+  });
 }
 
 function mpCopyId() {

@@ -1707,7 +1707,8 @@
       if (uid && typeof completeMilliproLogin === "function") {
         completeMilliproLogin(uid).then(renderWelcome);
       } else {
-        renderWelcome();
+        var w = $("#mpWelcome");
+        if (w) { w.classList.remove("show"); w.style.display = "none"; }
       }
     });
   }
