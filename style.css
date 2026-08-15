@@ -527,6 +527,9 @@ img { max-width: 100%; }
   background: #fff;
   border-top: 2px dashed var(--accent);
   padding: 10px 20px 14px;
+  max-height: calc(100dvh - 64px);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 .mobile-nav.open { display: flex; }
 .mobile-nav a { padding: 10px 6px; font-weight: 700; border-bottom: 1px dashed var(--border); color: var(--text); }
@@ -4410,7 +4413,7 @@ mark.song-hl {
   .header-inner { padding: 0 14px; gap: 10px; }
   .logo { font-size: 1.05rem; }
   .logo img { height: 28px; }
-  .nav { gap: 6px; min-width: 0; overflow: hidden; }
+  .nav { gap: 6px; min-width: 0; }
   .nav a, .nav-drop-btn { font-size: 0.84rem; padding: 5px 10px; }
   .header-actions { gap: 8px; }
   .lang-toggle { width: 38px; height: 38px; font-size: 0.8rem; }
