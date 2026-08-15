@@ -226,6 +226,7 @@ const navDrop = (home) => `
           <a href="tsukuri.html">眠雲ツクリ</a>
           <a href="liz.html">雨夜リズ</a>
           <a href="rei.html">夕霧レイ</a>
+          <a href="ichigo.html">？？？</a>
           <a href="milchan.html">ミリちゃん</a>
           <div class="drop-sep"></div>
           <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
@@ -247,6 +248,7 @@ const mobileNav = (home) => `
       <a class="mobile-sub" href="tsukuri.html">眠雲ツクリ</a>
       <a class="mobile-sub" href="liz.html">雨夜リズ</a>
       <a class="mobile-sub" href="rei.html">夕霧レイ</a>
+      <a class="mobile-sub" href="ichigo.html">？？？</a>
       <a class="mobile-sub" href="milchan.html">ミリちゃん</a>
       <a href="${home}#calendar">Event Calendar</a>
       <a href="quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
@@ -656,6 +658,7 @@ fs.writeFileSync(path.join(outDir, "songs.html"), simplePage({
       <div class="song-tabs">
         <button type="button" class="song-tab active" id="songsTabCovers" data-i18n="songs.tabCovers">歌ってみた</button>
         <button type="button" class="song-tab" id="songsTabOfficial" data-i18n="songs.tabOfficial">公式楽曲</button>
+        <button type="button" class="song-tab" id="songsTabKaraoke" data-i18n="songs.tabKaraoke">歌枠</button>
       </div>
     </div>
     <div class="song-chips" id="songsChips"></div>
@@ -663,7 +666,7 @@ fs.writeFileSync(path.join(outDir, "songs.html"), simplePage({
     <p class="song-note" id="songsNote" style="display:none;" data-i18n="songs.note"></p>
     <div id="songsList"></div>
   </section>`,
-  scripts: '<script src="data/songs.js"></script>\n<script src="scripts/songs.js"></script>'
+  scripts: '<script src="data/songs.js"></script>\n<script src="data/songs-extra.js"></script>\n<script src="scripts/songs.js"></script>'
 }), "utf8");
 console.log("generated: songs.html");
 

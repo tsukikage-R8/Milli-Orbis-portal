@@ -23,24 +23,43 @@
   }
 
   function nextOccurrence(mmdd, fromDate) {
-    var now = fromDate || new Date();
-    var y = now.getFullYear();
-    var t = new Date(y, parseInt(mmdd.slice(0, 2), 10) - 1, parseInt(mmdd.slice(3), 10));
-    if (t < new Date(now.getFullYear(), now.getMonth(), now.getDate())) {
-      t = new Date(y + 1, parseInt(mmdd.slice(0, 2), 10) - 1, parseInt(mmdd.slice(3), 10));
+    var now = fromDate || jstNow();
+    var y = now.getUTCFullYear();
+    var t = new Date(Date.UTC(y, parseInt(mmdd.slice(0, 2), 10) - 1, parseInt(mmdd.slice(3), 10)));
+    if (t < new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()))) {
+      t = new Date(Date.UTC(y + 1, parseInt(mmdd.slice(0, 2), 10) - 1, parseInt(mmdd.slice(3), 10)));
     }
     return t;
   }
 
   function fmtDate(d) {
-    return d.getFullYear() + "/" + pad2(d.getMonth() + 1) + "/" + pad2(d.getDate());
+    return d.getUTCFullYear() + "/" + pad2(d.getUTCMonth() + 1) + "/" + pad2(d.getUTCDate());
   }
 
   function fmtTime(d) {
-    return pad2(d.getHours()) + ":" + pad2(d.getMinutes());
+    return pad2(d.getUTCHours()) + ":" + pad2(d.getUTCMinutes());
   }
 
-  function jstNow() { return new Date(); }
+  /* JST 壁時計ヘルパー: ブラウザのタイムゾーンに依存させないため、
+     アプリ内の日時は「JST の壁時計時刻を Date.UTC にエンコード」して持ち、
+     getUTC* アクセサで読む。
+     parseJst: "YYYY-MM-DD[THH:MM:SS]"（JST表記）をエンコード（非該当は null）
+     toJst:    絶対時刻（Date）を JST 壁時計に変換（+9h）
+     jstWallClock: JST表記か絶対ISOかを自動判定して JST 壁時計を返す */
+  function parseJst(s) {
+    if (s instanceof Date) return null;
+    var m = /^(\d{4})-(\d{2})-(\d{2})(?:T(\d{2}):(\d{2})(?::(\d{2}))?)?$/.exec(String(s || ""));
+    if (!m) return null;
+    return new Date(Date.UTC(+m[1], +m[2] - 1, +m[3], +(m[4] || 0), +(m[5] || 0), +(m[6] || 0)));
+  }
+  function toJst(d) {
+    return new Date(d.getTime() + 9 * 3600000);
+  }
+  function jstWallClock(s) {
+    var d = parseJst(s);
+    return d ? d : toJst(new Date(s));
+  }
+  function jstNow() { return toJst(new Date()); }
 
   /* ============ ヘッダー ============ */
   function closeNavDrops() {
@@ -211,7 +230,7 @@
   }
 
   function cdLeft(item, now) {
-    var diff = new Date(item.date).getTime() - now.getTime();
+    var diff = parseJst(item.date).getTime() - now.getTime();
     if (diff < 0) return null;
     var secs = Math.floor(diff / 1000);
     return {
@@ -251,7 +270,7 @@
         '<div class="cd-card cd-' + style + ' cd-featured' + (item.featured ? " cd-special" : "") + '" data-id="' + item.id + '">' +
         (item.featured ? '<span class="cd-badge">' + T("cd.badge") + "</span>" : "") +
         '<div class="cd-label">' + loc(item, "label") + "</div>" +
-        '<div class="cd-when">' + fmtDate(new Date(item.date)) + " " + fmtTime(new Date(item.date)) + " " + T("cd.until") + "</div>" +
+        '<div class="cd-when">' + fmtDate(parseJst(item.date)) + " " + fmtTime(parseJst(item.date)) + " " + T("cd.until") + "</div>" +
         '<div class="cd-digits">' + units.map(function (u) {
           return '<div class="cd-unit"><div class="cd-num" data-unit="' + u[0] + '">00</div><small>' + T(u[1]) + "</small></div>";
         }).join("") + "</div>" +
@@ -345,7 +364,7 @@
     var banner = $("#birthdayBanner");
     if (!banner) return;
     var now = jstNow();
-    var mmdd = pad2(now.getMonth() + 1) + "-" + pad2(now.getDate());
+    var mmdd = pad2(now.getUTCMonth() + 1) + "-" + pad2(now.getUTCDate());
     var list = getMemberByDate(mmdd, "birthday");
     if (list.length === 0) return;
     var names = list.map(function (m) { return m.name; }).join("・");
@@ -397,13 +416,13 @@
   }
 
   function fmtMD(d) {
-    return d.getMonth() + 1 + "/" + d.getDate() + "(" + dowLabel(d.getDay()) + ")";
+    return d.getUTCMonth() + 1 + "/" + d.getUTCDate() + "(" + dowLabel(d.getUTCDay()) + ")";
   }
 
   function streamBucket(start) {
-    var now = new Date();
-    var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-    var day = Math.round((new Date(start.getFullYear(), start.getMonth(), start.getDate()) - today) / 86400000);
+    var now = jstNow();
+    var today = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
+    var day = Math.round((new Date(Date.UTC(start.getUTCFullYear(), start.getUTCMonth(), start.getUTCDate())) - today) / 86400000);
     if (day <= 0) return 0;
     if (day === 1) return 1;
     if (day <= 6) return 2;
@@ -411,17 +430,14 @@
   }
 
   function bucketRange(b) {
-    var now = new Date();
-    var base = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    var now = jstNow();
+    var base = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
     if (b === 0) return fmtMD(base);
-    if (b === 1) { base.setDate(base.getDate() + 1); return fmtMD(base); }
+    if (b === 1) return fmtMD(new Date(base.getTime() + 86400000));
     if (b === 2) {
-      var from = new Date(base); from.setDate(base.getDate() + 2);
-      var to = new Date(base); to.setDate(base.getDate() + 6);
-      return fmtMD(from) + "〜" + fmtMD(to);
+      return fmtMD(new Date(base.getTime() + 2 * 86400000)) + "〜" + fmtMD(new Date(base.getTime() + 6 * 86400000));
     }
-    var from = new Date(base); from.setDate(base.getDate() + 7);
-    return fmtMD(from) + "〜";
+    return fmtMD(new Date(base.getTime() + 7 * 86400000)) + "〜";
   }
 
   function renderStreams(streams) {
@@ -431,7 +447,7 @@
       box.innerHTML = '<div class="placeholder">' + T("streams.none") + "</div>";
       return;
     }
-    var now = new Date();
+    var now = jstNow();
     var sorted = streams.slice().sort(function (a, b) {
       var la = a.status === "live" ? 0 : 1;
       var lb = b.status === "live" ? 0 : 1;
@@ -440,7 +456,7 @@
     });
     var groups = [[], [], [], []];
     sorted.forEach(function (s) {
-      var start = new Date(s.scheduledStartTime || s.scheduledStart);
+      var start = jstWallClock(s.scheduledStartTime || s.scheduledStart);
       var isLive = s.status === "live";
       if (!start.getTime() || (!isLive && start < now)) return;
       if (groups[0].length + groups[1].length + groups[2].length + groups[3].length >= YOUTUBE.maxStreams) return;
@@ -664,7 +680,7 @@
   }
   function checkDailyNotif() {
     if (!("Notification" in window) || Notification.permission !== "granted" || !notifEnabled()) return;
-    var y = jstNow().getFullYear(), mo = jstNow().getMonth(), d = jstNow().getDate();
+    var y = jstNow().getUTCFullYear(), mo = jstNow().getUTCMonth(), d = jstNow().getUTCDate();
     var sentKey = "milli-notif-sent-" + y + "-" + pad2(mo + 1) + "-" + pad2(d);
     var sent = [];
     try { sent = JSON.parse(localStorage.getItem(sentKey) || "[]") || []; } catch (e) {}
@@ -673,10 +689,10 @@
       sent.push(key);
       try { new Notification(title, { body: body, icon: "images/icon/Milli%20Orbis-192.png" }); } catch (e) {}
     };
-    var t0 = new Date(y, mo, d);
+    var t0 = new Date(Date.UTC(y, mo, d));
     for (var off = 0; off < 2; off++) {
       var t = new Date(t0.getTime() + off * 86400000);
-      eventsOn(t.getFullYear(), t.getMonth(), t.getDate()).forEach(function (it) {
+      eventsOn(t.getUTCFullYear(), t.getUTCMonth(), t.getUTCDate()).forEach(function (it) {
         var label = evTypeLabel(it.ev.type);
         var m = it.ev.member ? getMember(it.ev.member) : null;
         var name = m ? m.name : "";
@@ -686,8 +702,8 @@
       });
     }
     COUNTDOWN.forEach(function (c) {
-      var t = new Date(c.date);
-      if (t.getFullYear() === y && t.getMonth() === mo && t.getDate() === d) {
+      var t = parseJst(c.date);
+      if (t.getUTCFullYear() === y && t.getUTCMonth() === mo && t.getUTCDate() === d) {
         fire("cd:" + c.id, T("notif.eventTitle"), T("notif.todayBody", { title: loc(c, "label") }));
       }
     });
@@ -696,14 +712,14 @@
 
   /* ---------- Googleカレンダー追加URL ---------- */
   function gcalUrl(title, startIso) {
-    var start = new Date(startIso);
+    var start = jstWallClock(startIso);
     if (!start.getTime()) return "#";
     var end = new Date(start.getTime() + 2 * 3600000);
     if (isTouchMobile()) return icsEventUrl(title, start, end, "Milli Orbis（ミリプロ非公式ファンポータル）の配信予定から追加");
     var fmt = function (d) {
-      return "" + d.getFullYear() +
-        pad2(d.getMonth() + 1) + pad2(d.getDate()) + "T" +
-        pad2(d.getHours()) + pad2(d.getMinutes()) + pad2(d.getSeconds());
+      return "" + d.getUTCFullYear() +
+        pad2(d.getUTCMonth() + 1) + pad2(d.getUTCDate()) + "T" +
+        pad2(d.getUTCHours()) + pad2(d.getUTCMinutes()) + pad2(d.getUTCSeconds());
     };
     return "https://calendar.google.com/calendar/render?action=TEMPLATE&text=" +
       encodeURIComponent(title) +
@@ -715,7 +731,7 @@
   function gcalAllDayUrl(title, date, desc) {
     if (isTouchMobile()) return icsAllDayUrl(title, date, desc);
     var fmt = function (d) {
-      return "" + d.getFullYear() + pad2(d.getMonth() + 1) + pad2(d.getDate());
+      return "" + d.getUTCFullYear() + pad2(d.getUTCMonth() + 1) + pad2(d.getUTCDate());
     };
     var end = new Date(date.getTime() + 86400000);
     return "https://calendar.google.com/calendar/render?action=TEMPLATE&text=" +
@@ -751,8 +767,8 @@
 
   function icsEventUrl(title, start, end, desc) {
     var fmt = function (d) {
-      return "" + d.getFullYear() + pad2(d.getMonth() + 1) + pad2(d.getDate()) + "T" +
-        pad2(d.getHours()) + pad2(d.getMinutes()) + pad2(d.getSeconds());
+      return "" + d.getUTCFullYear() + pad2(d.getUTCMonth() + 1) + pad2(d.getUTCDate()) + "T" +
+        pad2(d.getUTCHours()) + pad2(d.getUTCMinutes()) + pad2(d.getUTCSeconds());
     };
     var stamp = new Date();
     return icsHref(
@@ -767,7 +783,7 @@
 
   function icsAllDayUrl(title, date, desc) {
     var fmt = function (d) {
-      return "" + d.getFullYear() + pad2(d.getMonth() + 1) + pad2(d.getDate());
+      return "" + d.getUTCFullYear() + pad2(d.getUTCMonth() + 1) + pad2(d.getUTCDate());
     };
     var end = new Date(date.getTime() + 86400000);
     var stamp = new Date();
@@ -799,7 +815,7 @@
     if (h < 24) return T("rel.hour", { n: h });
     var days = Math.floor(h / 24);
     if (days < 7) return T("rel.day", { n: days });
-    return fmtDate(d);
+    return fmtDate(toJst(d));
   }
 
   function renderLatestVideos(videos) {
@@ -918,7 +934,7 @@
       var age = /年齢(\d+)歳/.exec(m.profile || "");
       var bd = m.birthday ? m.birthday.replace("-", "/") : T("cmp.private");
       var debut = m.debut || "";
-      var years = debut ? (jstNow().getFullYear() - parseInt(debut.slice(0, 4), 10)) : -1;
+      var years = debut ? (jstNow().getUTCFullYear() - parseInt(debut.slice(0, 4), 10)) : -1;
       return '<tr class="' + (oshi === m.id ? "is-oshi" : "") + '" style="--mc:' + m.color + '">' +
         '<td class="cmp-name"><span class="cmp-dot" style="background:' + m.color + '"></span>' + esc(m.name) + "</td>" +
         "<td>" + groupIconImg(m) + esc(loc(m, "gen")) + "</td>" +
@@ -957,7 +973,7 @@
   /* ============ カレンダー ============ */
   var calViewMonth = (function () {
     var now = jstNow();
-    return new Date(now.getFullYear(), now.getMonth(), 1);
+    return new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), 1));
   })();
   var calRefresh = null;
 
@@ -975,10 +991,10 @@
     var list = [];
     EVENTS.forEach(function (e) {
       if (e.date) {
-        var t = new Date(e.date);
+        var t = parseJst(e.date);
         if (ym) {
-          if (t.getFullYear() === ym.y && t.getMonth() === ym.mo) list.push({ ev: e, date: t });
-        } else if (t >= new Date(jstNow().getFullYear(), jstNow().getMonth(), jstNow().getDate())) {
+          if (t.getUTCFullYear() === ym.y && t.getUTCMonth() === ym.mo) list.push({ ev: e, date: t });
+        } else if (t >= new Date(Date.UTC(jstNow().getUTCFullYear(), jstNow().getUTCMonth(), jstNow().getUTCDate()))) {
           list.push({ ev: e, date: t });
         }
         return;
@@ -989,8 +1005,8 @@
         var slice = e.type === "birthday" ? m.birthday : (e.type === "anniversary" ? m.debut.slice(5) : null);
         if (!slice) return;
         if (ym) {
-          var ymd = new Date(ym.y, ym.mo, parseInt(slice.slice(3), 10));
-          if (ymd.getMonth() === ym.mo) list.push({ ev: e, date: ymd });
+          var ymd = new Date(Date.UTC(ym.y, ym.mo, parseInt(slice.slice(3), 10)));
+          if (ymd.getUTCMonth() === ym.mo) list.push({ ev: e, date: ymd });
         } else if (e.type === "birthday" && m.birthday) {
           list.push({ ev: e, date: nextOccurrence(m.birthday) });
         } else if (e.type === "anniversary" && m.debut) {
@@ -1036,7 +1052,7 @@
 
   function eventsOn(y, mo, d) {
     return filteredOccurrences({ y: y, mo: mo }).filter(function (it) {
-      return it.date.getFullYear() === y && it.date.getMonth() === mo && it.date.getDate() === d;
+      return it.date.getUTCFullYear() === y && it.date.getUTCMonth() === mo && it.date.getUTCDate() === d;
     });
   }
 
@@ -1058,7 +1074,7 @@
     /* イベント用: 当日9:00の通知ボタン + 終日カレンダー追加 */
     function calActionsHtml(ev, d, detailLabel) {
       var key = "ev" + d.getTime();
-      var when = new Date(d.getFullYear(), d.getMonth(), d.getDate(), 9, 0, 0).toISOString();
+      var when = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate(), 0, 0, 0)).toISOString();
       var remind = '<button type="button" class="stream-remind' + (isReminded(key) ? " is-active" : "") + '"' +
         ' data-key="' + key + '" data-time="' + when + '" data-kind="event" data-title="' + esc(loc(ev, "title")) + '"' +
         ' aria-label="' + T("cal.notify") + '">🔔 ' + T("cal.notify") + "</button>";
@@ -1067,14 +1083,14 @@
     }
 
     function renderList() {
-      var y = calViewMonth.getFullYear();
-      var mo = calViewMonth.getMonth();
+      var y = calViewMonth.getUTCFullYear();
+      var mo = calViewMonth.getUTCMonth();
       var items = filteredOccurrences({ y: y, mo: mo }).filter(function (it) {
-        return it.date.getFullYear() === y && it.date.getMonth() === mo;
+        return it.date.getUTCFullYear() === y && it.date.getUTCMonth() === mo;
       });
       listBox.innerHTML = items.length ? items.map(function (it) {
         var d = it.date;
-        return '<div class="cal-item card"><div class="cal-date-box"><b>' + d.getDate() + "</b><small>" + T("cal.monthFmt", { m: d.getMonth() + 1 }) + "</small></div>" +
+        return '<div class="cal-item card"><div class="cal-date-box"><b>' + d.getUTCDate() + "</b><small>" + T("cal.monthFmt", { m: d.getUTCMonth() + 1 }) + "</small></div>" +
           '<div><div class="cal-type" style="--ec:' + evColor(it.ev.type) + '">' + evTypeLabel(it.ev.type) + "</div>" +
           '<div class="cal-title2">' + esc(loc(it.ev, "title")) + "</div>" +
           (it.ev.desc ? '<div class="video-meta">' + esc(loc(it.ev, "desc")) + "</div>" : "") + "</div>" +
@@ -1083,25 +1099,25 @@
     }
 
     function renderGrid() {
-      var y = calViewMonth.getFullYear();
-      var mo = calViewMonth.getMonth();
-      var first = new Date(y, mo, 1);
-      var daysInMonth = new Date(y, mo + 1, 0).getDate();
+      var y = calViewMonth.getUTCFullYear();
+      var mo = calViewMonth.getUTCMonth();
+      var first = new Date(Date.UTC(y, mo, 1));
+      var daysInMonth = new Date(Date.UTC(y, mo + 1, 0)).getUTCDate();
       var mmdd = pad2(mo + 1);
       var today = jstNow();
       var cells = [];
 
-      for (var i = 0; i < first.getDay(); i++) {
+      for (var i = 0; i < first.getUTCDay(); i++) {
         cells.push('<div class="cal-day empty"></div>');
       }
 
       for (var d = 1; d <= daysInMonth; d++) {
         var evs = eventsOn(y, mo, d);
-        var dow = new Date(y, mo, d).getDay();
+        var dow = new Date(Date.UTC(y, mo, d)).getUTCDay();
         var cls = "cal-day";
         if (dow === 0) cls += " sunday";
         if (dow === 6) cls += " saturday";
-        if (d === today.getDate() && mo === today.getMonth() && y === today.getFullYear()) cls += " today";
+        if (d === today.getUTCDate() && mo === today.getUTCMonth() && y === today.getUTCFullYear()) cls += " today";
         if (evs.length) cls += " has-event";
         var badges = evs.slice(0, 2).map(function (it) {
           return '<span class="cal-ebadge" style="--ec:' + evColor(it.ev.type) + '">' + esc(loc(it.ev, "title")) + "</span>";
@@ -1147,12 +1163,12 @@
     listBtn.addEventListener("click", function () { setView("list"); });
     gridBtn.addEventListener("click", function () { setView("grid"); });
     $("#calPrev").addEventListener("click", function () {
-      calViewMonth = new Date(calViewMonth.getFullYear(), calViewMonth.getMonth() - 1, 1);
+      calViewMonth = new Date(Date.UTC(calViewMonth.getUTCFullYear(), calViewMonth.getUTCMonth() - 1, 1));
       renderList();
       renderGrid();
     });
     $("#calNext").addEventListener("click", function () {
-      calViewMonth = new Date(calViewMonth.getFullYear(), calViewMonth.getMonth() + 1, 1);
+      calViewMonth = new Date(Date.UTC(calViewMonth.getUTCFullYear(), calViewMonth.getUTCMonth() + 1, 1));
       renderList();
       renderGrid();
     });
@@ -1805,9 +1821,9 @@
     var box = $("#todayBox");
     if (!box) return;
     var now = jstNow();
-    var mmdd = pad2(now.getMonth() + 1) + "-" + pad2(now.getDate());
+    var mmdd = pad2(now.getUTCMonth() + 1) + "-" + pad2(now.getUTCDate());
     var sameDay = function (d) {
-      return d && d.getFullYear() === now.getFullYear() && d.getMonth() === now.getMonth() && d.getDate() === now.getDate();
+      return d && d.getUTCFullYear() === now.getUTCFullYear() && d.getUTCMonth() === now.getUTCMonth() && d.getUTCDate() === now.getUTCDate();
     };
     var items = [];
     getMemberByDate(mmdd, "birthday").forEach(function (m) {
@@ -1822,7 +1838,7 @@
       items.push("🎊 " + link);
     });
     (lastStreams || []).forEach(function (s) {
-      var start = new Date(s.scheduledStartTime || s.scheduledStart);
+      var start = jstWallClock(s.scheduledStartTime || s.scheduledStart);
       if (!sameDay(start)) return;
       /* 開始済みの予定は「📺 〜時」で出し続けない（配信中のみ表示） */
       if (s.status !== "live" && start <= now) return;

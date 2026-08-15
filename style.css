@@ -4030,6 +4030,71 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
   border-radius: 999px;
   padding: 4px 10px;
 }
+
+/* ---- 曲中心表示（原曲アーティスト・バージョン一覧・歌枠） ---- */
+.song-artist {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-top: -4px;
+}
+.song-versions {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 4px;
+}
+.song-version {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+.song-kind {
+  font-size: 0.68rem;
+  font-weight: 800;
+  padding: 1px 8px;
+  border-radius: 999px;
+}
+.song-kind-karaoke {
+  background: rgba(246, 93, 129, 0.16);
+  color: #f65d81;
+}
+.song-ts { font-variant-numeric: tabular-nums; }
+.song-vdate { margin-left: auto; }
+.song-klist {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 6px;
+  border-top: 1px dashed var(--border);
+  padding-top: 8px;
+}
+.song-kitem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 8px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.15s;
+}
+.song-kitem:hover { background: var(--bg-soft); }
+.song-kidx {
+  font-family: var(--font-display);
+  font-weight: 800;
+  color: var(--accent-deep);
+  font-size: 0.8rem;
+}
+.song-kname {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 .recommend-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
 .recommend-card .song-thumb { margin-bottom: 4px; }
 .recommend-link {
