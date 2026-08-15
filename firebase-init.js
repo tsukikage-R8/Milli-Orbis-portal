@@ -86,11 +86,14 @@ function milliproLogout() {
 }
 
 // パスワード再設定メールを送信（どのサイトからでも共通アカウントに対して送れる）
-// リセット後に戻る URL は呼び出し元サイトのオリジンを指定する（Millipro Chronicle 連携ハンドオフ共通仕様）
+// continueUrl は Firebase の承認済みドメインのみ許可されるため、サイトのオリジンではなく
+// プロジェクトの authDomain（常に承認済み）を指定する
 function milliproResetPassword(email) {
   if (!isAuthAvailable()) return Promise.reject(new Error("auth unavailable"));
+  var authDomain = firebase.app().options.authDomain || "";
+  var url = "https://" + authDomain + "/";
   return firebase.auth().sendPasswordResetEmail(String(email).trim(), {
-    url: (typeof window !== "undefined" && window.location && window.location.origin) ? window.location.origin + "/" : "",
+    url: url,
     handleCodeInApp: false,
   });
 }
