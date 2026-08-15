@@ -9,12 +9,12 @@
   var data = typeof SONGS !== "undefined" ? SONGS : window.SONGS;
   var extra = typeof SONGS_EXTRA !== "undefined" ? SONGS_EXTRA : (window.SONGS_EXTRA || {});
   var meta = extra.meta || {};
-  var karaokeStreams = extra.karaoke || [];
+  var master = (typeof SONG_MASTER !== "undefined" ? SONG_MASTER : (window.SONG_MASTER || {})).songs || {};
+  var autoKaraoke = (typeof KARAOKE !== "undefined" ? KARAOKE : (window.KARAOKE || [])) || [];
+  var SD = window.SongData;
 
   function $(id) { return document.getElementById(id); }
-  function esc(s) {
-    return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-  }
+  function esc(s) { return SD.esc(s); }
 
   var listBox = $("songsList");
   if (!listBox) return;
@@ -36,12 +36,15 @@
   var keyword = "";
   var memberFilter = "";
 
-  /* ひらがな/カタカナを同一視する検索用正規化（半角→全角→ひらがな→小文字） */
-  function normKana(s) {
-    return String(s).normalize("NFKC").replace(/[\u30A1-\u30F6]/g, function (c) {
-      return String.fromCharCode(c.charCodeAt(0) - 0x60);
-    }).toLowerCase();
-  }
+  /* 歌枠: 自動取得（KARAOKE）＋手動（SONGS_EXTRA.karaoke）を id 単位でマージ（手動優先） */
+  var karaokeStreams = SD.mergeKaraoke(autoKaraoke, extra.karaoke || []);
+
+  /* カバー曲リスト（歌枠の曲を key で統合） */
+  var coverData = SD.buildCoverList(data, karaokeStreams);
+  var coverList = coverData.list;
+  var coverByKey = coverData.byKey;
+
+  function normKana(s) { return SD.normKana(s); }
 
   function thumbHtml(id) {
     return '<img class="song-thumb" src="https://i.ytimg.com/vi/' + id + '/mqdefault.jpg" alt="" loading="lazy">';
@@ -62,63 +65,10 @@
     return matchKeyword(memberSearchText(m));
   }
 
-  function memberById(id) {
-    if (typeof MEMBERS === "undefined" || !MEMBERS) return null;
-    for (var i = 0; i < MEMBERS.length; i++) {
-      if (MEMBERS[i].id === id) return MEMBERS[i];
-    }
-    return null;
-  }
-
-  function memberLabel(id) {
-    var m = memberById(id);
-    return m ? m.name : (id === "official" ? T("songs.officialLabel") : id);
-  }
-
-  function chipColor(id) {
-    var m = memberById(id);
-    return m ? m.color : "#75b1c0";
-  }
-
   function memberChipHtml(id, url) {
-    var inner = '<span class="song-member-chip" style="--mc:' + chipColor(id) + '">' + esc(memberLabel(id)) + "</span>";
-    return url ? '<a class="song-member-chip" href="' + url + '" target="_blank" rel="noopener" style="--mc:' + chipColor(id) + '">' + esc(memberLabel(id)) + "</a>" : inner;
+    var inner = '<span class="song-member-chip" style="--mc:' + SD.chipColor(id) + '">' + esc(SD.memberLabel(id)) + "</span>";
+    return url ? '<a class="song-member-chip" href="' + url + '" target="_blank" rel="noopener" style="--mc:' + SD.chipColor(id) + '">' + esc(SD.memberLabel(id)) + "</a>" : inner;
   }
-
-  function videoUrl(id, start) {
-    return "https://www.youtube.com/watch?v=" + id + (start ? "&t=" + start : "");
-  }
-
-  function fmtTs(sec) {
-    if (!sec) return "";
-    var m = Math.floor(sec / 60);
-    var s = sec % 60;
-    return m + ":" + (s < 10 ? "0" : "") + s;
-  }
-
-  /* ---- 歌枠（karaoke）曲を covers に統合する ----
-     key が既存カバーと一致すれば同一曲に追加、一致しなければ新規曲として扱う */
-  var coverByKey = new Map();
-  (data.covers || []).forEach(function (g) { coverByKey.set(g.key, g); });
-  var karaokeOnly = [];
-  karaokeStreams.forEach(function (st) {
-    (st.songs || []).forEach(function (s) {
-      var url = { id: st.id, memberId: st.memberId, publishedAt: st.publishedAt, karaoke: true, start: s.start, end: s.end };
-      var g = coverByKey.get(s.key);
-      if (g) {
-        if (!g.urls.some(function (u) { return u.id === url.id && u.start === url.start; })) g.urls.push(url);
-      } else {
-        var ng = { key: s.key, title: s.title || s.key, urls: [url] };
-        coverByKey.set(s.key, ng);
-        karaokeOnly.push(ng);
-      }
-    });
-  });
-  var coverList = (data.covers || []).concat(karaokeOnly).sort(function (a, b) {
-    var na = Math.max.apply(null, a.urls.map(function (u) { return u.publishedAt || ""; }));
-    var nb = Math.max.apply(null, b.urls.map(function (u) { return u.publishedAt || ""; }));
-    return na > nb ? -1 : 1;
-  });
 
   /* カバー・歌枠に登場するメンバー一覧 */
   function coverMembers() {
@@ -137,7 +87,7 @@
     var html = '<button type="button" class="song-chip' + (memberFilter ? "" : " active") + '" data-m="">' + T("songs.all") + "</button>";
     html += members.map(function (id) {
       return '<button type="button" class="song-chip' + (memberFilter === id ? " active" : "") + '" data-m="' + id + '"' +
-        ' style="--mc:' + chipColor(id) + '">' + esc(memberLabel(id)) + "</button>";
+        ' style="--mc:' + SD.chipColor(id) + '">' + esc(SD.memberLabel(id)) + "</button>";
     }).join("");
     return html;
   }
@@ -150,8 +100,8 @@
   }
 
   function artistOf(g) {
-    var m = meta[g.key];
-    return m && m.artist ? m.artist : "";
+    var info = SD.songInfo(meta, master, g.key);
+    return info && info.artist ? info.artist : "";
   }
 
   /* ---- 歌ってみた: 曲単位カード（歌枠由来のバージョンも統合表示） ---- */
@@ -159,15 +109,15 @@
     var primary = g.urls[0] || { id: "", publishedAt: "" };
     var art = artistOf(g);
     var versions = g.urls.map(function (u) {
-      var href = videoUrl(u.id, u.start);
+      var href = SD.videoUrl(u.id, u.start);
       var badge = u.karaoke ? '<span class="song-kind song-kind-karaoke">' + T("songs.karaokeBadge") + "</span>" : "";
-      var ts = u.karaoke && u.start ? '<span class="song-ts">' + fmtTs(u.start) + "〜" + (u.end ? fmtTs(u.end) : "") + "</span>" : "";
+      var ts = u.karaoke && u.start ? '<span class="song-ts">' + SD.fmtTs(u.start) + "〜" + (u.end ? SD.fmtTs(u.end) : "") + "</span>" : "";
       var vdate = u.publishedAt ? '<span class="song-vdate">' + esc(u.publishedAt) + "</span>" : "";
       return '<div class="song-version">' +
         memberChipHtml(u.memberId, href) + badge + ts + vdate +
         "</div>";
     }).join("");
-    return '<div class="song-card card song-cover" data-url="' + videoUrl(primary.id, primary.start) + '">' +
+    return '<div class="song-card card song-cover" data-url="' + SD.videoUrl(primary.id, primary.start) + '">' +
       thumbHtml(primary.id) +
       (isNew(primary.publishedAt) ? '<span class="song-new">NEW</span>' : "") +
       '<div class="song-title">' + esc(g.title) + "</div>" +
@@ -183,7 +133,7 @@
       list = list.filter(function (g) {
         if (matchKeyword(g.title)) return true;
         if (matchKeyword(artistOf(g))) return true;
-        return g.urls.some(function (u) { return matchMember(memberById(u.memberId)); });
+        return g.urls.some(function (u) { return matchMember(SD.memberById(u.memberId)); });
       });
     }
     if (memberFilter) {
@@ -199,7 +149,7 @@
     if (keyword) {
       list = list.filter(function (v) {
         if (matchKeyword(v.title)) return true;
-        return (v.members || []).some(function (mid) { return matchMember(memberById(mid)); });
+        return (v.members || []).some(function (mid) { return matchMember(SD.memberById(mid)); });
       });
     }
     if (memberFilter) {
@@ -241,10 +191,10 @@
       var songs = (st.songs || []).map(function (s, i) {
         var g = coverByKey.get(s.key);
         var label = (g && g.title) || s.title || s.key;
-        return '<a class="song-kitem" href="' + videoUrl(st.id, s.start) + '" target="_blank" rel="noopener">' +
+        return '<a class="song-kitem" href="' + SD.videoUrl(st.id, s.start) + '" target="_blank" rel="noopener">' +
           '<span class="song-kidx">' + (i + 1) + "</span>" +
           '<span class="song-kname">' + esc(label) + "</span>" +
-          '<span class="song-ts">' + (s.start ? fmtTs(s.start) + "〜" + (s.end ? fmtTs(s.end) : "") : "–") + "</span></a>";
+          '<span class="song-ts">' + (s.start ? SD.fmtTs(s.start) + "〜" + (s.end ? SD.fmtTs(s.end) : "") : "–") + "</span></a>";
       }).join("");
       return '<div class="song-card card">' +
         thumbHtml(st.id) +

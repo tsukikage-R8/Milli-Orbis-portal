@@ -8,6 +8,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const { normalizeTitle, displayTitle, MEMBER_NAMES, MEMBER_ALIASES } = require("./song-utils.js");
 
 const API_KEY = process.env.YOUTUBE_API_KEY;
 if (!API_KEY) {
@@ -69,69 +70,8 @@ async function fetchPlaylist(playlistId) {
   return items;
 }
 
-/* タイトル正規化: 括弧タグ除去・記号除去・小文字化 → 楽曲名キー */
-function normalizeTitle(t) {
-  let s = String(t || "");
-  s = s.replace(/\s*covered\s+by\s+.*$/i, "");   // covered by 以降（コラボ相手名など）を除去
-  // メンバー名（漢字・かな）は正規化（ー・記号除去）より先に除去する
-  for (const name of Object.values(MEMBER_NAMES)) {
-    s = s.replace(new RegExp(name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "g"), "");
-  }
-  MEMBER_ALIASES.forEach(([alias]) => {
-    s = s.replace(new RegExp(alias.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "g"), "");
-  });
-  s = s.replace(/【[^】]*】/g, "");         // 【歌ってみた】等
-  s = s.replace(/\[[^\]]*\]/g, "");         // [ ... ] タグ
-  s = s.replace(/（[^）]*）/g, "");          // （字幕）等
-  s = s.replace(/\([^)]*\)/g, "");
-  s = s.replace(/[「」『』"“”・×]|<\/?[^>]+>/g, "");
-  s = s.replace(/[\s　ー~〜]/g, "");
-  s = s.replace(/歌ってみた|カバー|cover|弾いてみた|歌枠|歌って|歌う|歌/gi, "");
-  s = s.replace(/[\/|｜:：]/g, "");
-  s = s.replace(/millionproduction|ミリプロ|officialmv|official|mv/gi, "");
-  return s.toLowerCase();
-}
+/* タイトル正規化・表示タイトル整理は scripts/song-utils.js を使用 */
 
-/* 表示用タイトル整理: カバー表記や「/ メンバー名（cover）」等を除去 */
-function displayTitle(t) {
-  let s = String(t || "");
-  s = s.replace(/【[^】]*】/g, "").trim();
-  s = s.replace(/\s*\/\s*[^/]*?（cover）$/i, "");   // / 甘狼このみ（cover）
-  s = s.replace(/\s*\/\s*[^/]*?\(cover\)$/i, "");   // / 夕霧レイ (cover)
-  s = s.replace(/\s*-\s*cover\s*$/i, "");           // - cover
-  s = s.replace(/\s+covered by\s+[^/]*$/i, "");     // covered by 音ノ乃のの
-  s = s.replace(/\s*\(.*?\)\s*$/g, "").trim();
-  s = s.replace(/[\s\/|｜]+$/, "");                  // 末尾のスラッシュ等を除去
-  return s;
-}
-
-const MEMBER_NAMES = {
-  konomi: "甘狼このみ",
-  nono: "音ノ乃のの",
-  akubi: "あくび・でもんすぺーど",
-  koma: "小廻こま",
-  raco: "音ノ瀬らこ",
-  yura: "ゆらぎゆら",
-  nuhu: "虹深°ぬふ",
-  tsukuri: "眠雲ツクリ",
-  liz: "雨夜リズ",
-  rei: "夕霧レイ"
-};
-
-/* かな表記など別名でのメンバー検出（例: あまかみこのみ） */
-const MEMBER_ALIASES = [
-  ["あまかみこのみ", "konomi"],
-  ["おとのののの", "nono"],
-  ["こまわりこま", "koma"],
-  ["おとのせらこ", "raco"],
-  ["にじぷかぬふ", "nuhu"],
-  ["ぬふちゃ", "nuhu"],
-  ["ねむくもつくり", "tsukuri"],
-  ["あまよりず", "liz"],
-  ["ゆうぎりれい", "rei"]
-];
-
-/* 公式楽曲（オリジナル曲）のみ。それ以外のプレイリスト収録曲は全てカバー扱い */
 const OFFICIAL_SONGS = [
   { re: /想わせ|らぶりー/, members: ["konomi"] },
   { re: /約束/, members: ["nono"] },

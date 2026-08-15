@@ -233,7 +233,8 @@ const navDrop = (home) => `
         </div>
       </div>
       <a href="quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
-      <a href="songs.html" data-i18n="nav.songs">楽曲一覧</a>`;
+      <a href="songs.html" data-i18n="nav.songs">歌動画まとめ</a>
+      <a href="songs-master.html" data-i18n="nav.songsMaster">曲まとめ</a>`;
 
 const mobileNav = (home) => `
       <a href="${home}#home">Home</a>
@@ -252,7 +253,8 @@ const mobileNav = (home) => `
       <a class="mobile-sub" href="milchan.html">ミリちゃん</a>
       <a href="${home}#calendar">Event Calendar</a>
       <a href="quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
-      <a href="songs.html" data-i18n="nav.songs">楽曲一覧</a>
+      <a href="songs.html" data-i18n="nav.songs">歌動画まとめ</a>
+      <a href="songs-master.html" data-i18n="nav.songsMaster">曲まとめ</a>
       <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
       <a href="${home}#links">Official Links</a>`;
 
@@ -649,8 +651,8 @@ console.log("generated: quiz.html");
 
 fs.writeFileSync(path.join(outDir, "songs.html"), simplePage({
   file: "songs.html",
-  title: "楽曲一覧",
-  desc: "ミリプロ公式プレイリストとメンバー歌ってみたを自動でまとめた楽曲データベース",
+  title: "歌動画まとめ",
+  desc: "ミリプロ公式プレイリストとメンバー歌ってみたを自動でまとめた歌動画データベース",
   body: `
   <section class="section">
     <div class="song-tools">
@@ -666,9 +668,27 @@ fs.writeFileSync(path.join(outDir, "songs.html"), simplePage({
     <p class="song-note" id="songsNote" style="display:none;" data-i18n="songs.note"></p>
     <div id="songsList"></div>
   </section>`,
-  scripts: '<script src="data/songs.js"></script>\n<script src="data/songs-extra.js"></script>\n<script src="scripts/songs.js"></script>'
+  scripts: '<script src="data/songs.js"></script>\n<script src="data/songs-extra.js"></script>\n<script src="data/song-master.js"></script>\n<script src="data/karaoke.js"></script>\n<script src="scripts/song-data.js"></script>\n<script src="scripts/songs.js"></script>'
 }), "utf8");
 console.log("generated: songs.html");
+
+fs.writeFileSync(path.join(outDir, "songs-master.html"), simplePage({
+  file: "songs-master.html",
+  title: "曲まとめ（元曲から探す）",
+  desc: "元曲から、誰が歌っているかを探せる非公式まとめページ。カバー・歌枠・公式オリジナル曲を元曲単位で表示します。",
+  body: `
+  <section class="section">
+    <div class="song-tools">
+      <input id="smSearch" class="song-search" type="search" placeholder="曲名・アーティスト・メンバー名で検索…" data-i18n-placeholder="sm.search" autocomplete="off">
+    </div>
+    <p class="sm-disclaimer" data-i18n="sm.disclaimer">注意: このページの元曲のアーティスト・アルバムジャケット・タイムスタンプは自動取得・自動解析のため、正確でない可能性があります。誤りを見つけた場合はお知らせください。</p>
+    <p class="sm-hint" data-i18n="sm.hint">元曲をタップすると、歌っているタレントと動画リンクが表示されます</p>
+    <p class="song-tab-label" id="smCount"></p>
+    <div id="smList"></div>
+  </section>`,
+  scripts: '<script src="data/songs.js"></script>\n<script src="data/songs-extra.js"></script>\n<script src="data/song-master.js"></script>\n<script src="data/karaoke.js"></script>\n<script src="scripts/song-data.js"></script>\n<script src="scripts/songs-master.js"></script>'
+}), "utf8");
+console.log("generated: songs-master.html");
 
 fs.writeFileSync(path.join(outDir, "members.html"), simplePage({
   file: "members.html",

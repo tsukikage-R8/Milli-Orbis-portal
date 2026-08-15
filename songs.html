@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>楽曲一覧 | Milli Orbis</title>
-<meta name="description" content="ミリプロ公式プレイリストとメンバー歌ってみたを自動でまとめた楽曲データベース">
+<title>歌動画まとめ | Milli Orbis</title>
+<meta name="description" content="ミリプロ公式プレイリストとメンバー歌ってみたを自動でまとめた歌動画データベース">
 <link rel="icon" href="images/icon/Milli%20Orbis.ico" sizes="any">
 <link rel="apple-touch-icon" sizes="192x192" href="images/icon/Milli%20Orbis-192.png">
 <link rel="apple-touch-icon" sizes="518x518" href="images/icon/Milli%20Orbis-518.png">
@@ -13,15 +13,15 @@
 <script>try{if(localStorage.getItem("milli-theme")==="dark"||(!localStorage.getItem("milli-theme")&&matchMedia("(prefers-color-scheme: dark)").matches))document.documentElement.dataset.theme="dark";}catch(e){}</script>
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Milli Orbis">
-<meta property="og:title" content="楽曲一覧 | Milli Orbis">
-<meta property="og:description" content="ミリプロ公式プレイリストとメンバー歌ってみたを自動でまとめた楽曲データベース">
+<meta property="og:title" content="歌動画まとめ | Milli Orbis">
+<meta property="og:description" content="ミリプロ公式プレイリストとメンバー歌ってみたを自動でまとめた歌動画データベース">
 <meta property="og:url" content="https://milli-orbis-portal.onrender.com/songs.html">
 <meta property="og:image" content="https://milli-orbis-portal.onrender.com/images/Milli-Orbis-OGP.png">
 <meta property="og:image:width" content="1729">
 <meta property="og:image:height" content="910">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="楽曲一覧 | Milli Orbis">
-<meta name="twitter:description" content="ミリプロ公式プレイリストとメンバー歌ってみたを自動でまとめた楽曲データベース">
+<meta name="twitter:title" content="歌動画まとめ | Milli Orbis">
+<meta name="twitter:description" content="ミリプロ公式プレイリストとメンバー歌ってみたを自動でまとめた歌動画データベース">
 <meta name="twitter:image" content="https://milli-orbis-portal.onrender.com/images/Milli-Orbis-OGP.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -57,7 +57,8 @@
         </div>
       </div>
       <a href="quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
-      <a href="songs.html" data-i18n="nav.songs">楽曲一覧</a>
+      <a href="songs.html" data-i18n="nav.songs">歌動画まとめ</a>
+      <a href="songs-master.html" data-i18n="nav.songsMaster">曲まとめ</a>
       <a href="index.html#calendar">Event Calendar</a>
       <a href="index.html#links">Official Links</a>
     </nav>
@@ -95,18 +96,19 @@
       <a class="mobile-sub" href="milchan.html">ミリちゃん</a>
       <a href="index.html#calendar">Event Calendar</a>
       <a href="quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
-      <a href="songs.html" data-i18n="nav.songs">楽曲一覧</a>
+      <a href="songs.html" data-i18n="nav.songs">歌動画まとめ</a>
+      <a href="songs-master.html" data-i18n="nav.songsMaster">曲まとめ</a>
       <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
       <a href="index.html#links">Official Links</a>
   </nav>
 </header>
 
 <main class="container">
-  <nav class="breadcrumb"><a href="index.html">Home</a><span>楽曲一覧</span></nav>
+  <nav class="breadcrumb"><a href="index.html">Home</a><span>歌動画まとめ</span></nav>
 
   <section class="subpage-hero">
-    <h1>楽曲一覧</h1>
-    <p>ミリプロ公式プレイリストとメンバー歌ってみたを自動でまとめた楽曲データベース</p>
+    <h1>歌動画まとめ</h1>
+    <p>ミリプロ公式プレイリストとメンバー歌ってみたを自動でまとめた歌動画データベース</p>
   </section>
 
   
@@ -246,6 +248,9 @@
 <script src="script.js"></script>
 <script src="data/songs.js"></script>
 <script src="data/songs-extra.js"></script>
+<script src="data/song-master.js"></script>
+<script src="data/karaoke.js"></script>
+<script src="scripts/song-data.js"></script>
 <script src="scripts/songs.js"></script>
 </body>
 </html>

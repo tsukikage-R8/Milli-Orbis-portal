@@ -4063,6 +4063,10 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
   background: rgba(246, 93, 129, 0.16);
   color: #f65d81;
 }
+.song-kind-official {
+  background: rgba(117, 177, 192, 0.18);
+  color: #4e93a5;
+}
 .song-ts { font-variant-numeric: tabular-nums; }
 .song-vdate { margin-left: auto; }
 .song-klist {
@@ -4096,6 +4100,125 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+/* ---- 曲まとめページ（元曲から探す） ---- */
+.sm-disclaimer {
+  font-size: 0.82rem;
+  line-height: 1.7;
+  color: #8a6d3b;
+  background: #fdf6e3;
+  border: 2px solid #f0e0b0;
+  border-radius: 12px;
+  padding: 10px 14px;
+  margin: 0 0 10px;
+}
+:root[data-theme="dark"] .sm-disclaimer {
+  color: #e8cf9a;
+  background: #3a3223;
+  border-color: #5c4f33;
+}
+.sm-hint {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin: 0 0 12px;
+}
+.sm-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 14px;
+}
+.sm-card {
+  display: flex;
+  gap: 12px;
+  padding: 14px 16px;
+  border-radius: 18px;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.sm-card:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
+.sm-jacket-wrap {
+  flex: 0 0 auto;
+  width: 96px;
+  height: 96px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--accent-soft);
+}
+.sm-jacket {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.sm-jacket-none {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  color: var(--muted);
+  opacity: 0.55;
+}
+.sm-body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.sm-title {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 0.98rem;
+  line-height: 1.35;
+}
+.sm-artist {
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+.sm-members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.sm-expand-btn {
+  margin-top: auto;
+  align-self: flex-start;
+  padding: 4px 12px;
+  font-size: 0.76rem;
+}
+.sm-detail {
+  display: none;
+  flex-basis: 100%;
+  border-top: 1px dashed var(--border);
+  padding-top: 10px;
+  margin-top: 4px;
+}
+.sm-card.open .sm-detail { display: block; }
+.sm-detail-label {
+  font-size: 0.74rem;
+  font-weight: 800;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+.sm-versions {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.sm-version {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+@media (max-width: 640px) {
+  .sm-card { flex-wrap: wrap; }
+  .sm-jacket-wrap { width: 84px; height: 84px; }
 }
 .recommend-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
 .recommend-card .song-thumb { margin-bottom: 4px; }

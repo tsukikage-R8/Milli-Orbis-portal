@@ -7,7 +7,8 @@ window.I18N = {
   ja: {
     /* ヘッダー・ナビ */
     "nav.quiz": "ミリプロ検定",
-    "nav.songs": "楽曲一覧",
+    "nav.songs": "歌動画まとめ",
+    "nav.songsMaster": "曲まとめ",
     "nav.compare": "メンバー比較表",
     "nav.memberAll": "Member Guide 一覧へ",
     "header.notif": "通知設定",
@@ -321,6 +322,21 @@ window.I18N = {
     "songs.officialLabel": "ミリプロ（全体）",
     "songs.note": "公式楽曲はオリジナル曲のみ（想わせ♡らぶりー / 約束 / アルテマ / ののの音々ネ！ / ロクデナシテンシ / HYPE SEEKER / Princess Viral / ルミナス / おきらくスーパースター / Mile Stone）。公式プレイリスト「ミリプロ歌まとめ」のその他の収録曲は全てカバーとして「歌ってみた」タブに統合されます。YouTube Data API により毎日自動更新されます。",
 
+    /* 曲まとめページ（元曲から探す） */
+    "sm.title": "曲まとめ（元曲から探す）",
+    "sm.desc": "元曲から、誰が歌っているかを探せる非公式まとめページ。カバー・歌枠・公式オリジナル曲を元曲単位で表示します。",
+    "sm.search": "曲名・アーティスト・メンバー名で検索…",
+    "sm.disclaimer": "注意: このページの元曲のアーティスト・アルバムジャケット・タイムスタンプは自動取得・自動解析のため、正確でない可能性があります。誤りを見つけた場合はお知らせください。",
+    "sm.hint": "元曲をタップすると、歌っているタレントと動画リンクが表示されます",
+    "sm.count": "元曲 {n} 曲",
+    "sm.none": "該当する元曲が見つかりません",
+    "sm.artistUnknown": "アーティスト不明",
+    "sm.officialArtist": "MilliPro（ミリプロ公式オリジナル曲）",
+    "sm.officialBadge": "公式MV",
+    "sm.expand": "歌っているタレントを見る",
+    "sm.sangBy": "歌っているタレント",
+    "sm.noJacket": "ジャケット未取得",
+
     /* ようこそ表示 */
     "welcome.hello": "こんにちは、<b>{name}</b> さん（ID: {pid}）"
   },
@@ -328,7 +344,8 @@ window.I18N = {
   en: {
     /* Header & nav */
     "nav.quiz": "Quiz",
-    "nav.songs": "Songs",
+    "nav.songs": "Song Videos",
+    "nav.songsMaster": "Songs by Original",
     "nav.compare": "Compare",
     "nav.memberAll": "All members",
     "header.notif": "Notification settings",
@@ -641,6 +658,21 @@ window.I18N = {
     "songs.youtube": "Watch on YouTube ▶",
     "songs.officialLabel": "MilliPro (All)",
     "songs.note": "Official songs are original tracks only (想わせ♡らぶりー / 約束 / アルテマ / ののの音々ネ！ / ロクデナシテンシ / HYPE SEEKER / Princess Viral / ルミナス / おきらくスーパースター / Mile Stone). All other songs in the official playlist \"ミリプロ歌まとめ\" are covers and are shown in the Covers tab. Auto-updated daily via the YouTube Data API.",
+
+    /* Song Summary page (by original song) */
+    "sm.title": "Song Summary (by Original Song)",
+    "sm.desc": "An unofficial page to find who sings an original song. Covers, karaoke streams and official originals are grouped by original song.",
+    "sm.search": "Search by song, artist or member...",
+    "sm.disclaimer": "Note: The artist, album covers and timestamps on this page are auto-collected / auto-parsed and may not be accurate. Please let us know if you find any errors.",
+    "sm.hint": "Tap an original song to see which talents sang it and video links",
+    "sm.count": "{n} original songs",
+    "sm.none": "No matching original songs found",
+    "sm.artistUnknown": "Unknown artist",
+    "sm.officialArtist": "MilliPro (official original songs)",
+    "sm.officialBadge": "Official MV",
+    "sm.expand": "See who sings it",
+    "sm.sangBy": "Sang by",
+    "sm.noJacket": "No cover art",
 
     /* Welcome */
     "welcome.hello": "Hello, <b>{name}</b> (ID: {pid})"
