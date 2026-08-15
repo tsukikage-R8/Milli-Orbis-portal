@@ -50,6 +50,18 @@
       (window.I18N && window.I18N.ja && window.I18N.ja[key] !== undefined);
   }
 
+  /* データ（data.js 等）のローカライズ。オブジェクトの en ブロックがあれば英語を、
+     なければ（未訳・日本語表記が正）元の値を返す。配列も対応 */
+  function loc(obj, key) {
+    if (!obj) return undefined;
+    var v = obj[key];
+    if (getLang() === "en" && obj.en) {
+      var ev = obj.en[key];
+      if (ev !== undefined && ev !== null && ev !== "") return ev;
+    }
+    return v;
+  }
+
   function applyLang() {
     var lang = getLang();
     document.documentElement.lang = lang;
@@ -96,6 +108,7 @@
   }
 
   window.T = t;
+  window.loc = loc;
   window.milliLang = {
     get: getLang,
     set: setLang,

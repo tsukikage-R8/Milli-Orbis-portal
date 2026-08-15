@@ -45,18 +45,18 @@ const GOODS_ICON = {
 };
 
 const GOODS = [
-  { name: "虹深°ぬふ 1周年記念グッズ フルセット", memberId: "nuhu", kind: "fullset", price: 19900, oldPrice: 20200, url: "https://shop.milpr.com/products/nufu_1st_anniversary_full" },
-  { name: "虹深°ぬふ 1周年記念グッズ アクリルスタンド", memberId: "nuhu", kind: "stand", price: 1800, url: "https://shop.milpr.com/products/nufu_1st_anniversary_acrylicstand" },
-  { name: "虹深°ぬふ 1周年記念 シチュエーションボイス", memberId: "nuhu", kind: "voice", price: 1000, url: "https://shop.milpr.com/products/nufu_1st_anniversary_voice" },
-  { name: "ミリプロTCG「Million Production OFFICIAL CARD GAME vol.4」1パック", memberId: "", memberLabel: "ミリプロ全員", kind: "card", price: 600, tag: "NEW", url: "https://shop.milpr.com/products/milpr_tcg_vol4" },
-  { name: "ミリプロTCG「Million Production OFFICIAL CARD GAME vol.4」11パックセット", memberId: "", memberLabel: "ミリプロ全員", kind: "card", price: 6000, tag: "NEW", url: "https://shop.milpr.com/products/milpr_tcg_vol4_11" },
-  { name: "ミリプロ サマーコレクション 2026 プレミアムタレントセット", memberId: "", memberLabel: "ミリプロ全員", kind: "fullset", price: 23400, oldPrice: 23700, tag: "NEW", url: "https://shop.milpr.com/products/summer_2026_talentset_premium" },
-  { name: "ミリプロ サマーコレクション 2026 オーロラアクリルスタンド", memberId: "", memberLabel: "ミリプロ全員", kind: "stand", price: 2200, tag: "NEW", url: "https://shop.milpr.com/products/summer_2026_aurora_acsta" },
-  { name: "小廻こま 誕生日記念グッズ 2026 フルセット", memberId: "koma", kind: "fullset", price: 12300, url: "https://shop.milpr.com/products/koma_birthday2026_full" },
-  { name: "小廻こま 誕生日記念グッズ 2026 ジオラマアクリルスタンド", memberId: "koma", kind: "stand", price: 3500, url: "https://shop.milpr.com/products/koma_birthday2026_diorama_acsta" },
-  { name: "小廻こま 誕生日記念グッズ 2026 アクリルスタンド", memberId: "koma", kind: "stand", price: 1800, url: "https://shop.milpr.com/products/koma_birthday2026_acrylicstand" },
-  { name: "あくび・でもんすぺーど 50万人記念グッズ フルセット", memberId: "akubi", kind: "fullset", price: 11500, tag: "NEW", url: "https://shop.milpr.com/products/akubi_50_full" },
-  { name: "あくび・でもんすぺーど 50万人記念グッズ メタルチャームネックレス", memberId: "akubi", kind: "necklace", price: 5000, tag: "NEW", url: "https://shop.milpr.com/products/akubi_50_necklace" }
+  { name: "虹深°ぬふ 1周年記念グッズ フルセット", memberId: "nuhu", kind: "fullset", price: 19900, oldPrice: 20200, url: "https://shop.milpr.com/products/nufu_1st_anniversary_full", en: { name: "Nijipuka Nuhu 1st Anniversary Goods Full Set" } },
+  { name: "虹深°ぬふ 1周年記念グッズ アクリルスタンド", memberId: "nuhu", kind: "stand", price: 1800, url: "https://shop.milpr.com/products/nufu_1st_anniversary_acrylicstand", en: { name: "Nijipuka Nuhu 1st Anniversary Acrylic Stand" } },
+  { name: "虹深°ぬふ 1周年記念 シチュエーションボイス", memberId: "nuhu", kind: "voice", price: 1000, url: "https://shop.milpr.com/products/nufu_1st_anniversary_voice", en: { name: "Nijipuka Nuhu 1st Anniversary Situation Voice" } },
+  { name: "ミリプロTCG「Million Production OFFICIAL CARD GAME vol.4」1パック", memberId: "", memberLabel: "ミリプロ全員", kind: "card", price: 600, tag: "NEW", url: "https://shop.milpr.com/products/milpr_tcg_vol4", en: { name: "MilliPro TCG \"Million Production OFFICIAL CARD GAME vol.4\" 1 Pack", memberLabel: "All Members" } },
+  { name: "ミリプロTCG「Million Production OFFICIAL CARD GAME vol.4」11パックセット", memberId: "", memberLabel: "ミリプロ全員", kind: "card", price: 6000, tag: "NEW", url: "https://shop.milpr.com/products/milpr_tcg_vol4_11", en: { name: "MilliPro TCG \"Million Production OFFICIAL CARD GAME vol.4\" 11-Pack Set", memberLabel: "All Members" } },
+  { name: "ミリプロ サマーコレクション 2026 プレミアムタレントセット", memberId: "", memberLabel: "ミリプロ全員", kind: "fullset", price: 23400, oldPrice: 23700, tag: "NEW", url: "https://shop.milpr.com/products/summer_2026_talentset_premium", en: { name: "MilliPro Summer Collection 2026 Premium Talent Set", memberLabel: "All Members" } },
+  { name: "ミリプロ サマーコレクション 2026 オーロラアクリルスタンド", memberId: "", memberLabel: "ミリプロ全員", kind: "stand", price: 2200, tag: "NEW", url: "https://shop.milpr.com/products/summer_2026_aurora_acsta", en: { name: "MilliPro Summer Collection 2026 Aurora Acrylic Stand", memberLabel: "All Members" } },
+  { name: "小廻こま 誕生日記念グッズ 2026 フルセット", memberId: "koma", kind: "fullset", price: 12300, url: "https://shop.milpr.com/products/koma_birthday2026_full", en: { name: "Komawari Koma 2026 Birthday Goods Full Set" } },
+  { name: "小廻こま 誕生日記念グッズ 2026 ジオラマアクリルスタンド", memberId: "koma", kind: "stand", price: 3500, url: "https://shop.milpr.com/products/koma_birthday2026_diorama_acsta", en: { name: "Komawari Koma 2026 Birthday Diorama Acrylic Stand" } },
+  { name: "小廻こま 誕生日記念グッズ 2026 アクリルスタンド", memberId: "koma", kind: "stand", price: 1800, url: "https://shop.milpr.com/products/koma_birthday2026_acrylicstand", en: { name: "Komawari Koma 2026 Birthday Acrylic Stand" } },
+  { name: "あくび・でもんすぺーど 50万人記念グッズ フルセット", memberId: "akubi", kind: "fullset", price: 11500, tag: "NEW", url: "https://shop.milpr.com/products/akubi_50_full", en: { name: "Akubi Demonspade 500K Subscriber Goods Full Set" } },
+  { name: "あくび・でもんすぺーど 50万人記念グッズ メタルチャームネックレス", memberId: "akubi", kind: "necklace", price: 5000, tag: "NEW", url: "https://shop.milpr.com/products/akubi_50_necklace", en: { name: "Akubi Demonspade 500K Subscriber Metal Charm Necklace" } }
 ];
 
 
@@ -67,14 +67,22 @@ const GAME_FEATURE = [
     game: "Milli Pulse",
     desc: "ミリプロの楽曲で遊べる無料のブラウザ音ゲー！音ノ乃のの「Princess Viral」・音ノ瀬らこ「ルミナス」・小廻こま「おきらくスーパースター」の3曲を収録。キーボードでもタップでも遊べるので、PC・スマホどちらの端末でもOK！この他にも様々なゲームを用意しています！",
     icon: "images/games/milli-pulse-rogo.png",
-    url: "https://milli-games.onrender.com/games/music.html"
+    url: "https://milli-games.onrender.com/games/music.html",
+    en: {
+      tag: "Milli Games Pickup",
+      desc: "A free browser rhythm game you can play with MilliPro songs! Includes 3 tracks: Nono's \"Princess Viral\", Raco's \"Luminous\", and Koma's \"Okiraku Super Star\". Playable with keyboard or touch, so it works on both PC and smartphone! Many more games are also available!"
+    }
   },
   {
     tag: "Milli Games ピックアップ",
     game: "Milli Spectrum",
     desc: "ミリプロ好き度がわかる無料の診断ゲーム！10問の質問に答えると、あなたの9つの「ミリプロ力」パラメータを分析して診断結果を表示。結果画像の保存やX（Twitter）での共有にも対応しています。",
     icon: "images/games/milli-spectrum-rogo.png",
-    url: "https://milli-games.onrender.com/games/diagnosis.html"
+    url: "https://milli-games.onrender.com/games/diagnosis.html",
+    en: {
+      tag: "Milli Games Pickup",
+      desc: "A free diagnosis game that tells you how much of a MilliPro fan you are! Answer 10 questions and your 9 \"MilliPro Power\" parameters will be analyzed to show your result. You can also save your result image or share it on X (Twitter)."
+    }
   }
 ];
 
@@ -125,7 +133,27 @@ const MEMBERS = [
     },
     featuredVideos: ["MN_OKWKp0rI", "GNKxOwdJgC8", "qL5FGwPkoQ4"],
     voice: "assets/voices/甘狼このみ.mp3",
-    intro: ""
+    intro: "",
+    en: {
+      gen: "Gen 0 / Founding Member",
+      catch: "A werewolf VTuber, fully self-made. Her dream for the future is world domination",
+      fanName: "Kono-kko",
+      calls: "Kono / Konochi / Kono-chan / Konomi-n",
+      profile: "A werewolf girl. 150 cm tall (including ears & heels), age 2, MBTI: INFJ. A Gen 0 member who founded MilliPro on April 1, 2023. She is the \"Mama\" who handles character design, illustrations, and Live2D for all members, and is quite airheaded (she insists she's \"farm-raised\").",
+      skills: "Illustration & Live2D (fully self-made). Gets drunk easily and reverts to a little girl",
+      phrases: ["Ehehe", "Say ehehe and it's over immediately"],
+      likes: "Chocolate (an expert on Royce nama chocolate), Hakata tonkotsu ramen, alcohol, sleeping in, watching baseball, games, drawing",
+      dislikes: "Celery, pickles, singing, the sea, heights, horror, thrill rides, dancing, bugs",
+      achievements: [
+        "2022/12/23 First stream as an indie VTuber",
+        "2023/4/1 Founded MilliPro (Gen 0)",
+        "2025/1/25 3D debut",
+        "Published 2 books (\"The Complete Self-Made VTuber's Guide to Making Things Cute in a Flash\", etc.)",
+        "2025/12/23 1st Digital Single \"Omowase♡Lovely\"",
+        "2026/5 Reached 800K channel subscribers"
+      ],
+      catchphrase: "I want to share \"love\" with you. I want to connect with you through \"love\"."
+    }
   },
   {
     id: "nono",
@@ -170,7 +198,25 @@ const MEMBERS = [
     },
     featuredVideos: ["9jF60mq9Qdk", "lBUrJcR474U", "1HdUN5AP5BY"],
     voice: "assets/voices/音ノ乃のの.mp3",
-    intro: ""
+    intro: "",
+    en: {
+      gen: "Gen 1",
+      catch: "I want to shine like a diamond! ♢ VSinger",
+      fanName: "Nonono-tai (Nono's Squad)",
+      calls: "Nono-chan / Nonochi",
+      profile: "A VSinger. 149 cm tall, age 20 (the youngest in MilliPro), MBTI: ENFP. Joined after being scouted from a recording of her street performance. Reliable and almost never messes up. The youngest of four brothers and a total brocon.",
+      skills: "Singing (has a major label debut). Also plays piano, guitar, and drums",
+      phrases: ["Cereal scene", "Chikuwa representative"],
+      likes: "Chikuwa (her staple; up to 8 packs a day), mozuku seaweed, umeboshi, dried squid, blueberries, instruments, collecting interior items and clothes",
+      dislikes: "Celery, parsley, and other \"weed-like\" things",
+      achievements: [
+        "2023/4/1 Started posting shorts",
+        "2023/6/3 First stream (Gen 1 debut)",
+        "2024/5 Major label debut under Universal Music",
+        "Original songs \"Yakusoku\", \"Ultima\", \"NONONO NENE!\", \"Rokudenashi Tenshi\", \"HYPE SEEKER\""
+      ],
+      catchphrase: "I want to shine like a diamond!"
+    }
   },
   {
     id: "akubi",
@@ -215,7 +261,25 @@ const MEMBERS = [
     },
     featuredVideos: ["PSdEXx6yKoI", "YNe2YuSqncc", "kpyynMWu-o0"],
     voice: "assets/voices/あくび・でもんすぺーど.mp3",
-    intro: ""
+    intro: "",
+    en: {
+      gen: "Gen 2",
+      catch: "Kneel, you lot! I am Akubi Demonspade-sama!",
+      fanName: "Bii Clan",
+      calls: "Akubi-sama / Aku-sama / Bii-sama",
+      profile: "A demon (with horns). 140 cm tall, around 2000 years old, MBTI: ISTP. The first audition winner in the agency (with 500:1 odds). A multi-voiced singer who is extremely good at singing and does her own mixing — a multi-creative. A brat at heart, but serious underneath.",
+      skills: "Singing in different voices (multi-voice), singing & mixing, sleeping",
+      phrases: ["Kneel, you lot! I am Akubi Demonspade-sama!", "Otaku"],
+      likes: "Cherry tomatoes, strawberries, thin crispy fries, O-satsu Doki (sweet potato snacks), otaku stuff, singing, mixing, sleeping, One Piece (her textbook for life)",
+      dislikes: "Green peppers, corn, red bean paste, taking things seriously in chat, rushing, following plans, spoilers, horror, FPS games (motion sickness)",
+      achievements: [
+        "2023/10/31 First short video posted",
+        "2024/1/19 First stream (Gen 2 debut; first audition winner)",
+        "Multiple viral hits on X (over 100K likes on a sub-account)",
+        "2026/5/9 Video appearance in 1st 3D live \"Million Story\""
+      ],
+      catchphrase: "Kneel, you lot! I am Akubi Demonspade-sama!"
+    }
   },
   {
     id: "koma",
@@ -261,7 +325,26 @@ const MEMBERS = [
     },
     featuredVideos: ["EoCUHLE9GTc", "ssvo2Umq0sc", "1UdnoJ6qgPs"],
     voice: "assets/voices/小廻こま.mp3",
-    intro: ""
+    intro: "",
+    en: {
+      gen: "Gen 3",
+      catch: "Gimme your frame of fun, Koma!",
+      fanName: "Komamate",
+      calls: "Koma / Komawari",
+      profile: "A play-loving shrine maiden-style VTuber. 148 cm tall, MBTI: ESFJ-T. Her voice is incredibly loud (it clips even at 10% with a compressor). A sensible, hardworking former working adult; shy at first, but transforms when she sings.",
+      skills: "Making various voices and being loud, singing (spectacular once she starts)",
+      phrases: ["Gimme your frame of fun, Koma!", "Behold Koma's art!"],
+      likes: "Alcohol (a heavy drinker; she drinks straight from the bottle because \"washing dishes is a hassle\"), fruit, egg dishes, ohayo dairy crème brûlée ice cream, singing, video editing",
+      dislikes: "Fresh cream, mushrooms, carrots in curry, butter, beans, ball sports, every bug in the world, being called \"lazy and whiny\"",
+      achievements: [
+        "2024/12/15 Started activities (scouted by Mil-chan)",
+        "2025/3/22 First stream (Gen 3 debut)",
+        "2025/10 Went viral in \"MadTownGTA\"; #1 among all VTubers in monthly subscriber growth",
+        "Earned the nickname \"0.7 Shaka\" with 8,000+ peak concurrent viewers",
+        "Units: Yuma's Drinking Party (with Yuragi Yura), Komatsuri-zu (with Amayo Liz & Nemukumo Tsukuri)"
+      ],
+      catchphrase: "Gimme your frame of fun, Koma!"
+    }
   },
   {
     id: "raco",
@@ -306,7 +389,25 @@ const MEMBERS = [
     },
     featuredVideos: ["IAwrziSiqVI", "MklYo2c3QmM", "GgIbQ5mHAQk"],
     voice: "assets/voices/音ノ瀬らこ.mp3",
-    intro: ""
+    intro: "",
+    en: {
+      gen: "MilliPro NOVA",
+      catch: "Sharing my energy with you! DJ Otter",
+      fanName: "Rakko",
+      calls: "Rakochi / Rako-chan",
+      profile: "A DJ otter VTuber. 151 cm tall (including her ahoge), 20-pee years old, MBTI: ESTP-T. Character design and illustrations are by herself (self-designed); Live2D by Amakami Konomi. A MilliPro talent and quite the MilliPro otaku. Often teased for acting like a 5-year-old / elementary schooler.",
+      skills: "Singing (beautiful high notes; can add grit even at extremely high pitches), drawing",
+      phrases: ["I'm hungry~", "Hakuba no oujisama (misreading of \"fin whale\")"],
+      likes: "Chocomint ice cream, cookies & cream, tarako pasta, karaage, carbonara, singing, Vocaloid, MilliPro, watching animals",
+      dislikes: "Fruit in general, tomatoes, eggplant, waking up early, bugs, machines, multitasking, being rushed",
+      achievements: [
+        "2023/12/13 Started with short videos (as a trainee)",
+        "2024/3 Officially joined with Yuragi Yura (reached 20K subscribers)",
+        "2024/6/8 First stream",
+        "2026/6/8 Released 1st Single \"Luminous\" on her 2nd anniversary via Million RECORDS"
+      ],
+      catchphrase: "Sharing my energy with you!"
+    }
   },
   {
     id: "yura",
@@ -353,7 +454,26 @@ const MEMBERS = [
     },
     featuredVideos: ["zkyfZ9Zg2bQ", "73hzg0X6jWk", "LqdUhTK2sCY"],
     voice: "assets/voices/ゆらぎゆら.mp3",
-    intro: ""
+    intro: "",
+    en: {
+      gen: "MilliPro NOVA",
+      catch: "I want to bring you peace of mind. A moon jellyfish",
+      fanName: "Yurafira",
+      calls: "Yurachi / Yura-nee",
+      profile: "A moon jellyfish VTuber. From Okinawa, 155 cm tall, MBTI: ENFP-A. MilliPro's \"sexy\" specialist and big-sister slot (formerly the \"pure & innocent\" slot). Streams more frequently than anyone else in MilliPro, mostly games. Has band experience (bass & vocals).",
+      skills: "Singing (great at ballads), drawing (great at drawing men), ASMR",
+      phrases: ["Sexy", "3 hours is 1 hour", "Every fujoshi has a tama in her heart"],
+      likes: "Alcohol (especially umeshu), macarons, tamago boro, tacos, hamburgers, drawing, singing, streaming, oshi activities",
+      dislikes: "Spicy food and spicy drinks, horror games, being spoiled, bugs",
+      achievements: [
+        "2023/12/23 Started with shorts (as a trainee)",
+        "2024/3 Officially joined with Otonose Raco",
+        "2024/6/9 First stream",
+        "\"Sexy\" chosen for the MilliPro Buzzword of the Year 2025",
+        "Units: Yuma's Drinking Party (with Komawari Koma), Yurara-ko (with Otonose Raco)"
+      ],
+      catchphrase: "I want to bring you peace of mind"
+    }
   },
   {
     id: "nuhu",
@@ -400,7 +520,26 @@ const MEMBERS = [
     },
     featuredVideos: ["FJO8obFEvIw", "9yClH5ihXXU", "7klVnwL9gH4"],
     voice: "assets/voices/虹深°ぬふ.mp3",
-    intro: ""
+    intro: "",
+    en: {
+      gen: "MilliPro NOVA",
+      catch: "Nuhu's food is praise words!",
+      fanName: "Pukanu Family",
+      calls: "Nuhu / Nuhu-chan / Nuhuchi",
+      profile: "An illustrator VTuber who is half octopus-dog, half human. From Fukuoka, 150 cm tall, forever 17 years old. Fully self-made (both illustration and Live2D, with Live2D self-taught). Her hair color changes with her mood. Her room is the messiest in MilliPro by far.",
+      skills: "Illustration & animation (she even makes her own teaser PVs). Also handles costume production",
+      phrases: ["O↑RE↓", "Yatta-, Ureshii-", "My body may be dirty, but my heart is pure"],
+      likes: "Hamburg steaks, video editing (animation), illustration, eating, being praised",
+      dislikes: "Tomatoes, cleaning up, baths, studying",
+      achievements: [
+        "Active as an indie illustrator",
+        "Declined the initial offer once, then desperately wanted to join",
+        "2025/7 MilliPro NOVA joining announcement; first stream on 8/8",
+        "Opened \"Atelier Nuhu\" in NEWTOWN (GTA streams) and went viral",
+        "300K subscriber commemorative goods released"
+      ],
+      catchphrase: "Nuhu's food is praise words!"
+    }
   },
   {
     id: "tsukuri",
@@ -445,7 +584,25 @@ const MEMBERS = [
     },
     featuredVideos: ["2UHLDOqb194", "UHf4Szx02iM", "Hs-gxOofX1s"],
     voice: "assets/voices/眠雲ツクリ.mp3",
-    intro: ""
+    intro: "",
+    en: {
+      gen: "MilliPro UNI",
+      catch: "I'll make memories with you.",
+      fanName: "Tsukuloud",
+      calls: "Tsukuri / Nemuchan",
+      profile: "A multi-creative VTuber. 160 cm tall (156 cm without platforms), MBTI: INTP. Handles composing, writing lyrics, singing, mixing, video editing, illustration, and design all by herself. A serious, calm straight-man. Has band experience. Illustrator: Riichu / Live2D: Nekoka Jun.",
+      skills: "Composing, songwriting, singing, mixing, video editing, illustration, design. Also a good cook",
+      phrases: ["Fuu↑fuu↓", "I'll seriously make it, okay?"],
+      likes: "Hiyashi chuka, cheese, milk tea, abura soba, macarons, singing, horror games, long sleeps",
+      dislikes: "Stimulants and spicy food, ume plums, daikon radish, perilla, swimming, dancing",
+      achievements: [
+        "2025/5/17 First stream (debuted as MilliPro UNI with Amayo Liz)",
+        "2nd place in the MilliPro surprise test (one of only two who avoided repeating a year)",
+        "Great at impersonating MilliPro talents",
+        "Unit: Komatsuri-zu (with Komawari Koma & Amayo Liz)"
+      ],
+      catchphrase: "I'll make memories with you"
+    }
   },
   {
     id: "liz",
@@ -490,7 +647,25 @@ const MEMBERS = [
     },
     featuredVideos: ["IS6J88gLpAw", "gA2vNb2wDOo", "g5dmsdj-btY"],
     voice: "assets/voices/雨夜リズ.mp3",
-    intro: ""
+    intro: "",
+    en: {
+      gen: "MilliPro UNI",
+      catch: "Wander in and take shelter from the rain. A rain-bringer VTuber",
+      fanName: "Lizknights",
+      calls: "Liz / Amayo-san / Mayo-chan",
+      profile: "A rain-bringer VTuber. 161 cm tall, MBTI: INFP-T. Calls herself \"MilliPro's pure & loli slot\", but is famous for messing up (PON) a lot. She cooks for herself and is good at it. Her partner is a frog named \"Keromaru\" (Keromaru's love for her is one-sided). Illustrator: Riichu / Live2D: Nekoka Jun.",
+      skills: "Singing, drawing, cooking, impersonations",
+      phrases: ["Queen of mess-ups"],
+      likes: "All kinds of sweets, mild flavors, K-POP, utaite, Vocaloid",
+      dislikes: "Multitasking, eating fast (she has almost no food dislikes)",
+      achievements: [
+        "2025/5/18 First stream (debuted as MilliPro UNI with Nemukumo Tsukuri)",
+        "Calls herself \"MilliPro's pure & loli slot\"",
+        "Legendary PON moments (left rice in the rice cooker for a week, leaked the work Discord, turned a 2-hour archive into 45 seconds, etc.)",
+        "Unit: Komatsuri-zu (with Komawari Koma & Nemukumo Tsukuri)"
+      ],
+      catchphrase: "Wander in and take shelter from the rain."
+    }
   },
   {
     id: "rei",
@@ -535,7 +710,25 @@ const MEMBERS = [
     },
     featuredVideos: ["pb4bJ6x8oSg", "rvXcbRifIYM", "cphW85uNiuI"],
     voice: "assets/voices/夕霧レイ.mp3",
-    intro: ""
+    intro: "",
+    en: {
+      gen: "MilliPro UNI",
+      catch: "Mist in, mission start. The Sniper of the Mist",
+      fanName: "Operator",
+      calls: "Ray-chan / Ray-pon (call me whatever you like)",
+      profile: "The \"Sniper of the Mist\" VTuber. 155 cm tall, MBTI: INFP. A legendary former sniper who has shot just about everything in the world, so now she's come to shoot people's hearts. A newcomer who debuted on July 11, 2026. Illustrator: Makihitsuji / Live2D: Rariemonn.",
+      skills: "Finishing rice and side dishes at exactly the same moment",
+      phrases: ["Target, locked on"],
+      likes: "Sushi, spicy food, McDonald's, Japanese rock, idol songs, Western music, Vocaloid, VALORANT, Minecraft, Apex, Pokémon",
+      dislikes: "Mornings (about 5 more sleeps a day), bugs, summer, the \"ra\" sound (a pronunciation gag)",
+      achievements: [
+        "2026/5/3 First X post",
+        "2026/5/9 Teaser PV shown at \"Million Story\"",
+        "2026/7/11 First stream (60K subs before the stream; broke 70K that day)",
+        "Released a \"Kaijuu no Hanauta / Vaundy\" cover on her debut day"
+      ],
+      catchphrase: "Mist in, mission start"
+    }
   },
   {
     id: "milchan",
@@ -567,7 +760,22 @@ const MEMBERS = [
     introVoice: "",
     featuredVideos: ["hMl1U4Mu3kg", "7exy16BEnHY", "g5Y9wMxEwKw"],
     voice: "",
-    intro: ""
+    intro: "",
+    en: {
+      gen: "Office Staff / Mascot",
+      catch: "A mysterious seal. MilliPro's founder & mascot",
+      calls: "Mil-chan",
+      profile: "A mysterious seal. Founder & mascot character of MilliPro. She is staff rather than a talent, appearing on the official channel (@Mil_Pro) and group projects. Also famous as MilliPro's scout (she scouted Nono Nono and Komawari Koma).",
+      skills: "Scouting, being the face of the office",
+      phrases: [],
+      likes: "",
+      dislikes: "",
+      achievements: [
+        "2023/4/1 Started activities at the same time as MilliPro's founding",
+        "Scouted Nono Nono and Komawari Koma"
+      ],
+      catchphrase: "How's the progress?"
+    }
   }
 ];
 
@@ -582,12 +790,12 @@ const GROUP_ICON = {
 };
 
 const COUNTDOWN = [
-  { id: "milpro-presents", label: "ミリプロプレゼンツ ～超重大発表配信～", date: "2026-08-16T21:00:00", note: "ミリ創作コンテスト結果発表＆重大告知！", url: "https://youtu.be/4lba9sduOzI", featured: true },
-  { id: "resort", label: "ミリプロリゾート", date: "2026-08-29T10:00:00", note: "秋葉原UDXにて開催", url: "https://milpr.com/news/milpr_resort" },
-  { id: "tsukuri-birthday", label: "眠雲ツクリ 誕生日", date: "2026-09-03T00:00:00", note: "つくらうど、お祝いだ！", url: "tsukuri.html" },
-  { id: "akubi-birthday", label: "あくび・でもんすぺーど 誕生日", date: "2026-10-31T00:00:00", note: "びぃの一族、お祝いだ！", url: "akubi.html" },
-  { id: "yura-birthday", label: "ゆらぎゆら 誕生日", date: "2026-11-03T00:00:00", note: "ゆらふぃら、お祝いだ！", url: "yura.html" },
-  { id: "nuhu-birthday", label: "虹深°ぬふ 誕生日", date: "2026-11-30T00:00:00", note: "ぷかぬファミリー、お祝いだ！", url: "nuhu.html" }
+  { id: "milpro-presents", label: "ミリプロプレゼンツ ～超重大発表配信～", date: "2026-08-16T21:00:00", note: "ミリ創作コンテスト結果発表＆重大告知！", url: "https://youtu.be/4lba9sduOzI", featured: true, en: { label: "MilliPro Presents ~Super Major Announcement Stream~", note: "Milli Creation contest results & big announcement!" } },
+  { id: "resort", label: "ミリプロリゾート", date: "2026-08-29T10:00:00", note: "秋葉原UDXにて開催", url: "https://milpr.com/news/milpr_resort", en: { label: "MilliPro Resort", note: "Held at Akihabara UDX" } },
+  { id: "tsukuri-birthday", label: "眠雲ツクリ 誕生日", date: "2026-09-03T00:00:00", note: "つくらうど、お祝いだ！", url: "tsukuri.html", en: { label: "Tsukuri's Birthday", note: "Congratulations, Tsukuloud!" } },
+  { id: "akubi-birthday", label: "あくび・でもんすぺーど 誕生日", date: "2026-10-31T00:00:00", note: "びぃの一族、お祝いだ！", url: "akubi.html", en: { label: "Akubi Demonspade's Birthday", note: "Congratulations, Bii Clan!" } },
+  { id: "yura-birthday", label: "ゆらぎゆら 誕生日", date: "2026-11-03T00:00:00", note: "ゆらふぃら、お祝いだ！", url: "yura.html", en: { label: "Yuragi Yura's Birthday", note: "Congratulations, Yurafira!" } },
+  { id: "nuhu-birthday", label: "虹深°ぬふ 誕生日", date: "2026-11-30T00:00:00", note: "ぷかぬファミリー、お祝いだ！", url: "nuhu.html", en: { label: "Nijipuka Nuhu's Birthday", note: "Congratulations, Pukanu Family!" } }
 ];
 
 const NEWS = [
@@ -596,81 +804,86 @@ const NEWS = [
     tag: "イベント",
     title: "ミリプロリゾート 開催",
     desc: "ミリプロサマー2026のリアルイベントが秋葉原UDXで開催されます。",
-    url: "https://milpr.com/news/milpr_resort"
+    url: "https://milpr.com/news/milpr_resort",
+    en: { tag: "Event", title: "MilliPro Resort Announced", desc: "A real-life event for MilliPro Summer 2026 will be held at Akihabara UDX." }
   },
   {
     date: "2026-08-13",
     tag: "コラボ",
     title: "Risdom（リズダム）× ミリプロ コラボ開催決定！",
     desc: "ゲーム型英語学習アプリ「Risdom（リズダム）」とのコラボがスタート。コラボを記念して甘狼このみが登場します。",
-    url: "https://milpr.com/news/konomi_Risdom"
+    url: "https://milpr.com/news/konomi_Risdom",
+    en: { tag: "Collab", title: "Risdom × MilliPro Collaboration Announced!", desc: "A collaboration with the game-based English learning app \"Risdom\" has started. Amakami Konomi will appear to celebrate the collab." }
   },
   {
     date: "2026-08-08",
     tag: "グッズ",
     title: "虹深°ぬふ 1周年記念グッズ 受注開始！",
     desc: "ぬふちゃん1周年を記念して、描き下ろしイラスト商品を含む全6点のグッズの受注がスタート。",
-    url: "https://milpr.com/news/nufu_1st_anniversary"
+    url: "https://milpr.com/news/nufu_1st_anniversary",
+    en: { tag: "Goods", title: "Nijipuka Nuhu 1st Anniversary Goods Now on Pre-order!", desc: "To celebrate Nuhu's 1st anniversary, pre-orders for 6 goods items including new illustrated merchandise have started." }
   },
   {
     date: "2026-08-08",
     tag: "書籍",
     title: "『キャラが動き出すイラストの教科書』発売決定！",
     desc: "虹深°ぬふによるイラスト本の発売が決定しました。",
-    url: "https://milpr.com/news/nuhubook1"
+    url: "https://milpr.com/news/nuhubook1",
+    en: { tag: "Book", title: "\"Characters Come to Life: The Illustration Textbook\" Release Announced!", desc: "An illustration book by Nijipuka Nuhu is set to be released." }
   },
 {
     date: "2026-08-07",
     tag: "達成",
     title: "夕霧レイ チャンネル登録者数10万人突破！",
     desc: "デビューから約1か月での快挙。",
-    url: "https://milpr.com/news/rei_100k"
+    url: "https://milpr.com/news/rei_100k",
+    en: { tag: "Milestone", title: "Yugiri Ray Surpasses 100K Subscribers!", desc: "An amazing feat just about 1 month after debut." }
   }
 ];
 
 const LAUNCHERS = [
-  { icon: "images/icon/Milli%20Unishare-icon.PNG", shape: { char: "U", grad: ["#00bec4", "#00878c"] }, name: "Milli Unishare", desc: "配信・動画の情報を共有するファンサービス", url: "https://milli-unishare.onrender.com/" },
-  { icon: "images/icon/Millipro%20Chronicle-icon.jpeg", shape: { char: "C", grad: ["#f7cb0e", "#e6a700"] }, name: "Millipro Chronicle", desc: "ミリプロの歴史を記録するファン資料集（準備中）", url: "" },
-  { icon: "images/icon/Milli%20Games-icon.png", shape: { char: "G", grad: ["#8575bf", "#5f4f9e"] }, name: "Milli Games", desc: "ミリプロ関連のファンゲーム集", url: "https://milli-games.onrender.com/index.html" }
+  { icon: "images/icon/Milli%20Unishare-icon.PNG", shape: { char: "U", grad: ["#00bec4", "#00878c"] }, name: "Milli Unishare", desc: "配信・動画の情報を共有するファンサービス", url: "https://milli-unishare.onrender.com/", en: { desc: "A fan service for sharing stream and video info" } },
+  { icon: "images/icon/Millipro%20Chronicle-icon.jpeg", shape: { char: "C", grad: ["#f7cb0e", "#e6a700"] }, name: "Millipro Chronicle", desc: "ミリプロの歴史を記録するファン資料集（準備中）", url: "", en: { desc: "A fan archive recording MilliPro history (in preparation)" } },
+  { icon: "images/icon/Milli%20Games-icon.png", shape: { char: "G", grad: ["#8575bf", "#5f4f9e"] }, name: "Milli Games", desc: "ミリプロ関連のファンゲーム集", url: "https://milli-games.onrender.com/index.html", en: { desc: "A collection of MilliPro fan games" } }
 ];
 
 const LINKS = [
-  { name: "公式サイト", desc: "ミリプロ コーポレートサイト", url: "https://milpr.com/" },
-  { name: "YouTube", desc: "ミリプロ公式チャンネル", url: "https://www.youtube.com/@Mil_Pro" },
-  { name: "公式切り抜き", desc: "ミリプロ公式切り抜きチャンネル", url: "https://www.youtube.com/@mil_kiri" },
-  { name: "X（旧Twitter）", desc: "ミリプロ公式X", url: "https://x.com/Mil_Pro_" },
-  { name: "オンラインショップ", desc: "公式グッズショップ", url: "https://shop.milpr.com/" },
-  { name: "二次創作ガイドライン", desc: "二次創作のルールを確認できます", url: "https://milpr.com/guideline" },
-  { name: "ミリ創作", desc: "二次創作コンテスト特設ページ", url: "https://milpr.com/sosaku" }
+  { name: "公式サイト", desc: "ミリプロ コーポレートサイト", url: "https://milpr.com/", en: { name: "Official Website", desc: "MilliPro corporate website" } },
+  { name: "YouTube", desc: "ミリプロ公式チャンネル", url: "https://www.youtube.com/@Mil_Pro", en: { desc: "MilliPro official channel" } },
+  { name: "公式切り抜き", desc: "ミリプロ公式切り抜きチャンネル", url: "https://www.youtube.com/@mil_kiri", en: { name: "Official Clips", desc: "MilliPro official clips channel" } },
+  { name: "X（旧Twitter）", desc: "ミリプロ公式X", url: "https://x.com/Mil_Pro_", en: { name: "X (Twitter)", desc: "MilliPro official X" } },
+  { name: "オンラインショップ", desc: "公式グッズショップ", url: "https://shop.milpr.com/", en: { name: "Online Shop", desc: "Official goods shop" } },
+  { name: "二次創作ガイドライン", desc: "二次創作のルールを確認できます", url: "https://milpr.com/guideline", en: { name: "Fan Works Guidelines", desc: "Check the rules for fan works" } },
+  { name: "ミリ創作", desc: "二次創作コンテスト特設ページ", url: "https://milpr.com/sosaku", en: { name: "Milli Creation", desc: "Special page for the fan works contest" } }
 ];
 
 const EVENTS = [
-  { type: "event", date: "2026-08-11", title: "ミリプロサマー2026 夏曲歌枠リレー", desc: "総勢10名による夏曲歌枠リレー（各メンバーチャンネル）", url: "https://milpr.com/news/millipro_summer_2026" },
-  { type: "event", date: "2026-08-16", title: "ミリプロ夏祭り in ナイトプール", desc: "ミリプロマイクラサーバーで開催（各メンバーチャンネル）", url: "https://milpr.com/news/millipro_summer_2026" },
-  { type: "event", date: "2026-08-16", title: "ミリプロプレゼンツ 超重大発表配信", desc: "ミリ創作コンテスト結果発表＆重大告知（ミリプロ公式YouTube）", url: "https://youtu.be/4lba9sduOzI" },
-  { type: "event", date: "2026-08-29", title: "ミリプロリゾート", desc: "秋葉原UDXギャラリーにて開催（POP UP展示＆グッズ販売）", url: "https://milpr.com/news/milpr_resort" },
-  { type: "event", date: "2026-08-29", title: "ミリプロTCG サマーカップ 2026", desc: "ミリプロリゾート内で開催（ミリプロTCG初の公式大会）", url: "https://milpr.com/millipro_resort" },
-  { type: "event", date: "2026-08-30", title: "ミリプロサマー2026 閉会式", desc: "公式YouTubeチャンネルにて", url: "https://milpr.com/news/millipro_summer_2026" },
-  { type: "birthday", member: "koma", title: "小廻こま 誕生日", url: "koma.html" },
-  { type: "birthday", member: "nono", title: "音ノ乃のの 誕生日", url: "nono.html" },
-  { type: "birthday", member: "raco", title: "音ノ瀬らこ 誕生日", url: "raco.html" },
-  { type: "birthday", member: "liz", title: "雨夜リズ 誕生日", url: "liz.html" },
-  { type: "birthday", member: "konomi", title: "甘狼このみ 誕生日", url: "konomi.html" },
-  { type: "birthday", member: "rei", title: "夕霧レイ 誕生日", url: "rei.html" },
-  { type: "birthday", member: "tsukuri", title: "眠雲ツクリ 誕生日", url: "tsukuri.html" },
-  { type: "birthday", member: "akubi", title: "あくび・でもんすぺーど 誕生日", url: "akubi.html" },
-  { type: "birthday", member: "yura", title: "ゆらぎゆら 誕生日", url: "yura.html" },
-  { type: "birthday", member: "nuhu", title: "虹深°ぬふ 誕生日", url: "nuhu.html" },
-  { type: "anniversary", member: "konomi", title: "甘狼このみ デビュー記念日", url: "konomi.html" },
-  { type: "anniversary", member: "nono", title: "音ノ乃のの デビュー記念日", url: "nono.html" },
-  { type: "anniversary", member: "akubi", title: "あくび・でもんすぺーど デビュー記念日", url: "akubi.html" },
-  { type: "anniversary", member: "koma", title: "小廻こま デビュー記念日", url: "koma.html" },
-  { type: "anniversary", member: "raco", title: "音ノ瀬らこ デビュー記念日", url: "raco.html" },
-  { type: "anniversary", member: "yura", title: "ゆらぎゆら デビュー記念日", url: "yura.html" },
-  { type: "anniversary", member: "nuhu", title: "虹深°ぬふ デビュー記念日", url: "nuhu.html" },
-  { type: "anniversary", member: "tsukuri", title: "眠雲ツクリ デビュー記念日", url: "tsukuri.html" },
-  { type: "anniversary", member: "liz", title: "雨夜リズ デビュー記念日", url: "liz.html" },
-  { type: "anniversary", member: "rei", title: "夕霧レイ デビュー記念日", url: "rei.html" }
+  { type: "event", date: "2026-08-11", title: "ミリプロサマー2026 夏曲歌枠リレー", desc: "総勢10名による夏曲歌枠リレー（各メンバーチャンネル）", url: "https://milpr.com/news/millipro_summer_2026", en: { title: "MilliPro Summer 2026 Summer-Song Karaoke Relay", desc: "A relay of summer-song karaoke streams by all 10 talents (on each member's channel)" } },
+  { type: "event", date: "2026-08-16", title: "ミリプロ夏祭り in ナイトプール", desc: "ミリプロマイクラサーバーで開催（各メンバーチャンネル）", url: "https://milpr.com/news/millipro_summer_2026", en: { title: "MilliPro Summer Festival in the Night Pool", desc: "Held on the MilliPro Minecraft server (on each member's channel)" } },
+  { type: "event", date: "2026-08-16", title: "ミリプロプレゼンツ 超重大発表配信", desc: "ミリ創作コンテスト結果発表＆重大告知（ミリプロ公式YouTube）", url: "https://youtu.be/4lba9sduOzI", en: { title: "MilliPro Presents Super Major Announcement Stream", desc: "Milli Creation contest results & major announcement (MilliPro official YouTube)" } },
+  { type: "event", date: "2026-08-29", title: "ミリプロリゾート", desc: "秋葉原UDXギャラリーにて開催（POP UP展示＆グッズ販売）", url: "https://milpr.com/news/milpr_resort", en: { title: "MilliPro Resort", desc: "Held at the Akihabara UDX gallery (POP UP exhibit & goods sales)" } },
+  { type: "event", date: "2026-08-29", title: "ミリプロTCG サマーカップ 2026", desc: "ミリプロリゾート内で開催（ミリプロTCG初の公式大会）", url: "https://milpr.com/millipro_resort", en: { title: "MilliPro TCG Summer Cup 2026", desc: "Held inside MilliPro Resort (the first official MilliPro TCG tournament)" } },
+  { type: "event", date: "2026-08-30", title: "ミリプロサマー2026 閉会式", desc: "公式YouTubeチャンネルにて", url: "https://milpr.com/news/millipro_summer_2026", en: { title: "MilliPro Summer 2026 Closing Ceremony", desc: "On the official YouTube channel" } },
+  { type: "birthday", member: "koma", title: "小廻こま 誕生日", url: "koma.html", en: { title: "Komawari Koma's Birthday" } },
+  { type: "birthday", member: "nono", title: "音ノ乃のの 誕生日", url: "nono.html", en: { title: "Nono Nono's Birthday" } },
+  { type: "birthday", member: "raco", title: "音ノ瀬らこ 誕生日", url: "raco.html", en: { title: "Otonose Raco's Birthday" } },
+  { type: "birthday", member: "liz", title: "雨夜リズ 誕生日", url: "liz.html", en: { title: "Amayo Liz's Birthday" } },
+  { type: "birthday", member: "konomi", title: "甘狼このみ 誕生日", url: "konomi.html", en: { title: "Amakami Konomi's Birthday" } },
+  { type: "birthday", member: "rei", title: "夕霧レイ 誕生日", url: "rei.html", en: { title: "Yugiri Ray's Birthday" } },
+  { type: "birthday", member: "tsukuri", title: "眠雲ツクリ 誕生日", url: "tsukuri.html", en: { title: "Nemukumo Tsukuri's Birthday" } },
+  { type: "birthday", member: "akubi", title: "あくび・でもんすぺーど 誕生日", url: "akubi.html", en: { title: "Akubi Demonspade's Birthday" } },
+  { type: "birthday", member: "yura", title: "ゆらぎゆら 誕生日", url: "yura.html", en: { title: "Yuragi Yura's Birthday" } },
+  { type: "birthday", member: "nuhu", title: "虹深°ぬふ 誕生日", url: "nuhu.html", en: { title: "Nijipuka Nuhu's Birthday" } },
+  { type: "anniversary", member: "konomi", title: "甘狼このみ デビュー記念日", url: "konomi.html", en: { title: "Amakami Konomi's Debut Anniversary" } },
+  { type: "anniversary", member: "nono", title: "音ノ乃のの デビュー記念日", url: "nono.html", en: { title: "Nono Nono's Debut Anniversary" } },
+  { type: "anniversary", member: "akubi", title: "あくび・でもんすぺーど デビュー記念日", url: "akubi.html", en: { title: "Akubi Demonspade's Debut Anniversary" } },
+  { type: "anniversary", member: "koma", title: "小廻こま デビュー記念日", url: "koma.html", en: { title: "Komawari Koma's Debut Anniversary" } },
+  { type: "anniversary", member: "raco", title: "音ノ瀬らこ デビュー記念日", url: "raco.html", en: { title: "Otonose Raco's Debut Anniversary" } },
+  { type: "anniversary", member: "yura", title: "ゆらぎゆら デビュー記念日", url: "yura.html", en: { title: "Yuragi Yura's Debut Anniversary" } },
+  { type: "anniversary", member: "nuhu", title: "虹深°ぬふ デビュー記念日", url: "nuhu.html", en: { title: "Nijipuka Nuhu's Debut Anniversary" } },
+  { type: "anniversary", member: "tsukuri", title: "眠雲ツクリ デビュー記念日", url: "tsukuri.html", en: { title: "Nemukumo Tsukuri's Debut Anniversary" } },
+  { type: "anniversary", member: "liz", title: "雨夜リズ デビュー記念日", url: "liz.html", en: { title: "Amayo Liz's Debut Anniversary" } },
+  { type: "anniversary", member: "rei", title: "夕霧レイ デビュー記念日", url: "rei.html", en: { title: "Yugiri Ray's Debut Anniversary" } }
 ];
 
 const X_POSTS = [
@@ -680,21 +893,21 @@ const X_POSTS = [
 ];
 
 const HISTORY = [
-  { date: "2022/12/23", title: "甘狼このみ、個人勢として初配信" },
-  { date: "2023/4/1", title: "ミリプロ設立（甘狼このみ・ミリちゃん）", desc: "「無数の」という意味のMillionには、無数の可能性を秘めたタレントが飛躍するサポートをしたいという想いが込められています" },
-  { date: "2023/6/3", title: "音ノ乃のの デビュー（1期生）" },
-  { date: "2024/1/19", title: "あくび・でもんすぺーど デビュー（2期生）", desc: "初のオーディション合格者（倍率500倍）" },
-  { date: "2024/5", title: "音ノ乃のの、ユニバーサルミュージックからメジャーデビュー" },
-  { date: "2024/6/8-9", title: "音ノ瀬らこ・ゆらぎゆら デビュー（ミリプロNOVA）", desc: "研究生から正式加入" },
-  { date: "2025/3/22", title: "小廻こま デビュー（3期生）" },
-  { date: "2025/5/17-18", title: "眠雲ツクリ・雨夜リズ デビュー（ミリプロUNI）", desc: "音楽特化型グループUNI始動" },
-  { date: "2025/8/8", title: "虹深°ぬふ デビュー（ミリプロNOVA）" },
-  { date: "2026/4/5", title: "自社音楽レーベル「Million RECORDS」設立" },
-  { date: "2026/5/9", title: "1st 3Dライブ「Million Story」開催", desc: "Zepp Shinjukuにて。3D出演8名＋映像出演あくび" },
-  { date: "2026/7/11", title: "夕霧レイ デビュー（ミリプロUNI）" },
-  { date: "2026/7", title: "あくび・でもんすぺーど、チャンネル登録者数50万人突破" },
-  { date: "2026/8/5", title: "夕霧レイ、チャンネル登録者数10万人突破", desc: "デビューから約1か月での突破" },
-  { date: "2026/8/13", title: "英語学習アプリ「Risdom」とコラボ開始", desc: "甘狼このみが登場するゲーム型英語学習アプリ「Risdom（リズダム）」とのコラボ" }
+  { date: "2022/12/23", title: "甘狼このみ、個人勢として初配信", en: { title: "Amakami Konomi streams for the first time as an indie" } },
+  { date: "2023/4/1", title: "ミリプロ設立（甘狼このみ・ミリちゃん）", desc: "「無数の」という意味のMillionには、無数の可能性を秘めたタレントが飛躍するサポートをしたいという想いが込められています", en: { title: "MilliPro founded (Amakami Konomi & Mil-chan)", desc: "The name \"Million\" means \"countless\" — a wish to support talents with countless possibilities as they take flight." } },
+  { date: "2023/6/3", title: "音ノ乃のの デビュー（1期生）", en: { title: "Nono Nono debuts (Gen 1)" } },
+  { date: "2024/1/19", title: "あくび・でもんすぺーど デビュー（2期生）", desc: "初のオーディション合格者（倍率500倍）", en: { title: "Akubi Demonspade debuts (Gen 2)", desc: "The first audition winner in the agency (500:1 odds)" } },
+  { date: "2024/5", title: "音ノ乃のの、ユニバーサルミュージックからメジャーデビュー", en: { title: "Nono Nono makes her major label debut under Universal Music" } },
+  { date: "2024/6/8-9", title: "音ノ瀬らこ・ゆらぎゆら デビュー（ミリプロNOVA）", desc: "研究生から正式加入", en: { title: "Otonose Raco & Yuragi Yura debut (MilliPro NOVA)", desc: "Officially promoted from trainees" } },
+  { date: "2025/3/22", title: "小廻こま デビュー（3期生）", en: { title: "Komawari Koma debuts (Gen 3)" } },
+  { date: "2025/5/17-18", title: "眠雲ツクリ・雨夜リズ デビュー（ミリプロUNI）", desc: "音楽特化型グループUNI始動", en: { title: "Nemukumo Tsukuri & Amayo Liz debut (MilliPro UNI)", desc: "The music-focused unit UNI begins" } },
+  { date: "2025/8/8", title: "虹深°ぬふ デビュー（ミリプロNOVA）", en: { title: "Nijipuka Nuhu debuts (MilliPro NOVA)" } },
+  { date: "2026/4/5", title: "自社音楽レーベル「Million RECORDS」設立", en: { title: "In-house music label \"Million RECORDS\" established" } },
+  { date: "2026/5/9", title: "1st 3Dライブ「Million Story」開催", desc: "Zepp Shinjukuにて。3D出演8名＋映像出演あくび", en: { title: "1st 3D live \"Million Story\" held", desc: "At Zepp Shinjuku. 8 talents in 3D plus Akubi via video" } },
+  { date: "2026/7/11", title: "夕霧レイ デビュー（ミリプロUNI）", en: { title: "Yugiri Ray debuts (MilliPro UNI)" } },
+  { date: "2026/7", title: "あくび・でもんすぺーど、チャンネル登録者数50万人突破", en: { title: "Akubi Demonspade surpasses 500K subscribers" } },
+  { date: "2026/8/5", title: "夕霧レイ、チャンネル登録者数10万人突破", desc: "デビューから約1か月での突破", en: { title: "Yugiri Ray surpasses 100K subscribers", desc: "About 1 month after debut" } },
+  { date: "2026/8/13", title: "英語学習アプリ「Risdom」とコラボ開始", desc: "甘狼このみが登場するゲーム型英語学習アプリ「Risdom（リズダム）」とのコラボ", en: { title: "Collaboration with the English-learning app \"Risdom\" begins", desc: "A collab with the game-based English-learning app \"Risdom\", featuring Amakami Konomi" } }
 ];
 
 const YOUTUBE = {
@@ -703,198 +916,366 @@ const YOUTUBE = {
   maxStreams: 8
 };
 
-/* ミリプロ検定（quiz.html）25問。a: 正解の選択肢インデックス */
+/* ミリプロ検定（quiz.html）。a: 正解の選択肢インデックス */
 const QUIZ = [
   {
+    k: "q1",
     q: "ミリプロが設立されたのはいつ？",
     opts: ["2022年12月23日", "2023年4月1日", "2024年1月19日"],
     a: 1,
     exp: "甘狼このみとミリちゃんの2名で2023年4月1日に設立。「無数の可能性」を意味するMillionが社名の由来です。",
     link: "index.html#history",
-    linkLabel: "ミリプロの歩み（History）はこちら"
+    linkLabel: "ミリプロの歩み（History）はこちら",
+    en: {
+      q: "When was MilliPro founded?",
+      opts: ["Dec 23, 2022", "Apr 1, 2023", "Jan 19, 2024"],
+      exp: "Founded on April 1, 2023 by Amakami Konomi and Mil-chan. The name \"Million\" means \"countless possibilities\".",
+      linkLabel: "See the MilliPro History here"
+    }
   },
   {
+    k: "q2",
     q: "音ノ乃ののが「主食」と語る食べ物は？",
     opts: ["たまごボーロ", "チョコミントアイス", "ちくわ"],
     a: 2,
     exp: "ちくわ！最大1日8袋食べることもあるそうです。「シリアルなシーン」など独特の語彙も有名です。",
     link: "nono.html",
-    linkLabel: "音ノ乃のの Member Guide"
+    linkLabel: "音ノ乃のの Member Guide",
+    en: {
+      q: "What food does Nono Nono call her \"staple\"?",
+      opts: ["Tamago boro", "Chocomint ice cream", "Chikuwa"],
+      exp: "Chikuwa! She sometimes eats up to 8 packs a day. She's also known for unique vocabulary like \"cereal scene\".",
+      linkLabel: "Nono Nono Member Guide"
+    }
   },
   {
+    k: "q3",
     q: "あくび・でもんすぺーどが受けたオーディションの倍率は？",
     opts: ["50倍", "500倍", "1000倍"],
     a: 1,
     exp: "同事務所初のオーディション合格者で、倍率はなんと500倍。多声類の歌とMIXはすべてセルフです。",
     link: "akubi.html",
-    linkLabel: "あくび・でもんすぺーど Member Guide"
+    linkLabel: "あくび・でもんすぺーど Member Guide",
+    en: {
+      q: "What were the odds of the audition Akubi Demonspade passed?",
+      opts: ["50:1", "500:1", "1000:1"],
+      exp: "She was the first audition winner in the agency, with odds of 500:1. Her multi-voice singing and mixing are all self-produced.",
+      linkLabel: "Akubi Demonspade Member Guide"
+    }
   },
   {
+    k: "q4",
     q: "小廻こまのファンネームは？",
     opts: ["こまめいと", "こまっ娘", "こまねえず"],
     a: 0,
     exp: "「こまめいと」。声はコンプレッサー込みでも10%で音割れするらしい…。",
     link: "koma.html",
-    linkLabel: "小廻こま Member Guide"
+    linkLabel: "小廻こま Member Guide",
+    en: {
+      q: "What is Komawari Koma's fan name?",
+      opts: ["Komamate", "Komakko", "Koma-nezu"],
+      exp: "\"Komamate\". Her voice clips even at 10% with a compressor…",
+      linkLabel: "Komawari Koma Member Guide"
+    }
   },
   {
+    k: "q5",
     q: "音ノ瀬らこの身長は「アホ毛込み」で何cm？",
     opts: ["148cm", "151cm", "155cm"],
     a: 1,
     exp: "アホ毛込みで151cm。キャラデザ・イラストは本人のセルフデザイン、Live2Dは甘狼このみが担当しています。",
     link: "raco.html",
-    linkLabel: "音ノ瀬らこ Member Guide"
+    linkLabel: "音ノ瀬らこ Member Guide",
+    en: {
+      q: "How tall is Otonose Raco including her ahoge?",
+      opts: ["148 cm", "151 cm", "155 cm"],
+      exp: "151 cm including her ahoge. Her character design and illustrations are self-made, with Live2D by Amakami Konomi.",
+      linkLabel: "Otonose Raco Member Guide"
+    }
   },
   {
+    k: "q6",
     q: "虹深°ぬふの出身地はどこ？",
     opts: ["沖縄", "札幌", "福岡"],
     a: 2,
     exp: "福岡出身のめんだこ×人間ハーフ。イラスト・Live2Dとも独学の完全セルフ受肉です。",
     link: "nuhu.html",
-    linkLabel: "虹深°ぬふ Member Guide"
+    linkLabel: "虹深°ぬふ Member Guide",
+    en: {
+      q: "Where is Nijipuka Nuhu from?",
+      opts: ["Okinawa", "Sapporo", "Fukuoka"],
+      exp: "A half octopus-dog, half human from Fukuoka. Both her illustrations and Live2D are fully self-taught.",
+      linkLabel: "Nijipuka Nuhu Member Guide"
+    }
   },
   {
+    k: "q7",
     q: "ミリプロ抜き打ちテストで2位を取り「唯二の留年回避者」と言われたのは？",
     opts: ["眠雲ツクリ", "音ノ乃のの", "夕霧レイ"],
     a: 0,
     exp: "眠雲ツクリ。作曲・作詞・歌唱・MIX・動画編集・イラスト・デザインまでこなすマルチクリエイティブです。",
     link: "tsukuri.html",
-    linkLabel: "眠雲ツクリ Member Guide"
+    linkLabel: "眠雲ツクリ Member Guide",
+    en: {
+      q: "Who placed 2nd in the MilliPro surprise test and was called one of \"only two who avoided repeating a year\"?",
+      opts: ["Nemukumo Tsukuri", "Nono Nono", "Yugiri Ray"],
+      exp: "Nemukumo Tsukuri. A multi-creative who handles composing, songwriting, singing, mixing, video editing, illustration, and design.",
+      linkLabel: "Nemukumo Tsukuri Member Guide"
+    }
   },
   {
+    k: "q8",
     q: "雨夜リズの相棒であるかえるの名前は？",
     opts: ["けろたん", "けろまる", "ケロちゃん"],
     a: 1,
     exp: "「けろまる」。ちなみにけろまるの雨夜リズへの想いは片思いだそうです。",
     link: "liz.html",
-    linkLabel: "雨夜リズ Member Guide"
+    linkLabel: "雨夜リズ Member Guide",
+    en: {
+      q: "What is the name of Amayo Liz's frog partner?",
+      opts: ["Kerotan", "Keromaru", "Kero-chan"],
+      exp: "\"Keromaru\". By the way, Keromaru's feelings for Amayo Liz are one-sided.",
+      linkLabel: "Amayo Liz Member Guide"
+    }
   },
   {
+    k: "q9",
     q: "夕霧レイの初配信日はいつ？",
     opts: ["2026年5月9日", "2026年6月8日", "2026年7月11日"],
     a: 2,
     exp: "2026年7月11日。配信前は登録者6万人、当日には7万人を突破したミリプロUNIの新人スナイパーです。",
     link: "rei.html",
-    linkLabel: "夕霧レイ Member Guide"
+    linkLabel: "夕霧レイ Member Guide",
+    en: {
+      q: "When was Yugiri Ray's first stream?",
+      opts: ["May 9, 2026", "Jun 8, 2026", "Jul 11, 2026"],
+      exp: "July 11, 2026. The new sniper of MilliPro UNI had 60K subscribers before her stream and broke 70K that day.",
+      linkLabel: "Yugiri Ray Member Guide"
+    }
   },
   {
+    k: "q10",
     q: "音ノ乃ののはミリプロの何期生デビュー？",
     opts: ["2期生", "1期生", "3期生"],
     a: 1,
     exp: "2023年6月3日初配信で1期生デビュー。VSingerとして「ダイヤのように輝きたいっ！」がキャッチコピーです。",
     link: "nono.html",
-    linkLabel: "音ノ乃のの Member Guide"
+    linkLabel: "音ノ乃のの Member Guide",
+    en: {
+      q: "Which generation did Nono Nono debut in?",
+      opts: ["Gen 2", "Gen 1", "Gen 3"],
+      exp: "Gen 1, with her first stream on June 3, 2023. Her catchphrase as a VSinger is \"I want to shine like a diamond!\"",
+      linkLabel: "Nono Nono Member Guide"
+    }
   },
   {
+    k: "q11",
     q: "ミリプロ初のオーディション合格者として2期生デビューしたのは？",
     opts: ["小廻こま", "あくび・でもんすぺーど", "音ノ瀬らこ"],
     a: 1,
     exp: "2024年1月19日初配信のあくび・でもんすぺーど。500倍のオーディションを勝ち抜いた2期生です。",
     link: "akubi.html",
-    linkLabel: "あくび・でもんすぺーど Member Guide"
+    linkLabel: "あくび・でもんすぺーど Member Guide",
+    en: {
+      q: "Who debuted in Gen 2 as MilliPro's first audition winner?",
+      opts: ["Komawari Koma", "Akubi Demonspade", "Otonose Raco"],
+      exp: "Akubi Demonspade, who had her first stream on January 19, 2024 after winning a 500:1 audition.",
+      linkLabel: "Akubi Demonspade Member Guide"
+    }
   },
   {
+    k: "q12",
     q: "小廻こまをミリプロにスカウトしたのは？",
     opts: ["甘狼このみ", "ミリちゃん", "音ノ乃のの"],
     a: 1,
     exp: "2024年12月15日、ミリちゃんのスカウトで加入。2025年3月22日に3期生デビューしました。",
     link: "koma.html",
-    linkLabel: "小廻こま Member Guide"
+    linkLabel: "小廻こま Member Guide",
+    en: {
+      q: "Who scouted Komawari Koma into MilliPro?",
+      opts: ["Amakami Konomi", "Mil-chan", "Nono Nono"],
+      exp: "She joined on December 15, 2024 after being scouted by Mil-chan, and debuted as Gen 3 on March 22, 2025.",
+      linkLabel: "Komawari Koma Member Guide"
+    }
   },
   {
+    k: "q13",
     q: "音ノ瀬らこが2周年にリリースした1st Singleは？",
     opts: ["Princess Viral", "ルミナス", "おきらくスーパースター"],
     a: 1,
     exp: "2026年6月8日の2周年に「ルミナス」をMillion RECORDSからリリース。公式楽曲として楽曲一覧に載っています。",
     link: "songs.html",
-    linkLabel: "楽曲一覧（公式楽曲）"
+    linkLabel: "楽曲一覧（公式楽曲）",
+    en: {
+      q: "What was Otonose Raco's 1st Single released on her 2nd anniversary?",
+      opts: ["Princess Viral", "Luminous", "Okiraku Super Star"],
+      exp: "\"Luminous\" was released via Million RECORDS on June 8, 2026, her 2nd anniversary. It's listed in the song list as an official song.",
+      linkLabel: "Song List (Official Songs)"
+    }
   },
   {
+    k: "q14",
     q: "眠雲ツクリと雨夜リズが同時デビューしたユニットは？",
     opts: ["ミリプロNOVA", "ミリプロUNI", "ミリプロ研究生"],
     a: 1,
     exp: "2025年5月に「ミリプロUNI」として同時デビュー。のちに夕霧レイもUNIに加入しました。",
     link: "tsukuri.html",
-    linkLabel: "眠雲ツクリ Member Guide"
+    linkLabel: "眠雲ツクリ Member Guide",
+    en: {
+      q: "What unit did Nemukumo Tsukuri and Amayo Liz debut in together?",
+      opts: ["MilliPro NOVA", "MilliPro UNI", "MilliPro Trainee"],
+      exp: "They debuted together as \"MilliPro UNI\" in May 2025. Yugiri Ray later joined UNI as well.",
+      linkLabel: "Nemukumo Tsukuri Member Guide"
+    }
   },
   {
+    k: "q15",
     q: "虹深°ぬふが所属するユニットは？",
     opts: ["ミリプロUNI", "ミリプロNOVA", "ミリプロ研究生"],
     a: 1,
     exp: "2025年7月にミリプロNOVA加入が発表され、8月8日に初配信。イラスト・Live2Dとも独学の完全セルフです。",
     link: "nuhu.html",
-    linkLabel: "虹深°ぬふ Member Guide"
+    linkLabel: "虹深°ぬふ Member Guide",
+    en: {
+      q: "Which unit does Nijipuka Nuhu belong to?",
+      opts: ["MilliPro UNI", "MilliPro NOVA", "MilliPro Trainee"],
+      exp: "Her joining of MilliPro NOVA was announced in July 2025, and she had her first stream on August 8. Both her illustration and Live2D are fully self-made.",
+      linkLabel: "Nijipuka Nuhu Member Guide"
+    }
   },
   {
+    k: "q16",
     q: "ミリちゃんは何の生き物？",
     opts: ["オオカミ", "アザラシ", "タコ"],
     a: 1,
     exp: "謎のアザラシ。ミリプロの創設者にしてマスコットで、ミリプロ設立と同時に活動開始しました。",
     link: "milchan.html",
-    linkLabel: "ミリちゃん Member Guide"
+    linkLabel: "ミリちゃん Member Guide",
+    en: {
+      q: "What kind of creature is Mil-chan?",
+      opts: ["A wolf", "A seal", "An octopus"],
+      exp: "A mysterious seal. She is MilliPro's founder and mascot, and started activities at the same time as the agency's founding.",
+      linkLabel: "Mil-chan Member Guide"
+    }
   },
   {
+    k: "q17",
     q: "ミリプロの1st 3Dライブ「Million Story」が開催されたのはいつ？",
     opts: ["2026年8月16日", "2026年5月9日", "2026年7月11日"],
     a: 1,
     exp: "2026年5月9日。あくび・でもんすぺーどは映像出演、夕霧レイはこの日にティザーPVが公開されました。",
     link: "index.html#history",
-    linkLabel: "ミリプロの歩み（History）"
+    linkLabel: "ミリプロの歩み（History）",
+    en: {
+      q: "When was MilliPro's 1st 3D live \"Million Story\" held?",
+      opts: ["Aug 16, 2026", "May 9, 2026", "Jul 11, 2026"],
+      exp: "May 9, 2026. Akubi Demonspade appeared via video, and Yugiri Ray's teaser PV was shown the same day.",
+      linkLabel: "MilliPro History"
+    }
   },
   {
+    k: "q18",
     q: "「MadTownGTA」で登録者増加ランキング全VTuber中1位になったのは？",
     opts: ["虹深°ぬふ", "夕霧レイ", "小廻こま"],
     a: 2,
     exp: "2025年10月、「MadTownGTA」で話題化し当月の登録者増加ランキングで全VTuber中1位を獲得しました。",
     link: "koma.html",
-    linkLabel: "小廻こま Member Guide"
+    linkLabel: "小廻こま Member Guide",
+    en: {
+      q: "Who ranked #1 among all VTubers in subscriber growth with \"MadTownGTA\"?",
+      opts: ["Nijipuka Nuhu", "Yugiri Ray", "Komawari Koma"],
+      exp: "In October 2025, she went viral in \"MadTownGTA\" and ranked #1 among all VTubers in monthly subscriber growth.",
+      linkLabel: "Komawari Koma Member Guide"
+    }
   },
   {
+    k: "q19",
     q: "音ノ乃ののは2024年5月にどこからメジャーデビューした？",
     opts: ["ソニー・ミュージック", "ビクターエンタテインメント", "ユニバーサルミュージック"],
     a: 2,
     exp: "2024年5月にユニバーサルミュージックからメジャーデビュー。ミリプロ初のメジャーアーティストです。",
     link: "nono.html",
-    linkLabel: "音ノ乃のの Member Guide"
+    linkLabel: "音ノ乃のの Member Guide",
+    en: {
+      q: "Which label did Nono Nono make her major debut under in May 2024?",
+      opts: ["Sony Music", "Victor Entertainment", "Universal Music"],
+      exp: "She made her major debut under Universal Music in May 2024, becoming MilliPro's first major artist.",
+      linkLabel: "Nono Nono Member Guide"
+    }
   },
   {
+    k: "q20",
     q: "甘狼このみの身長は耳・ヒール込みで何cm？",
     opts: ["148cm", "154cm", "150cm"],
     a: 2,
     exp: "耳・ヒール込みで150cm。年齢は2歳、全メンバーのキャラデザ・Live2Dを手がける「ママ」的存在です。",
     link: "konomi.html",
-    linkLabel: "甘狼このみ Member Guide"
+    linkLabel: "甘狼このみ Member Guide",
+    en: {
+      q: "How tall is Amakami Konomi including ears and heels?",
+      opts: ["148 cm", "154 cm", "150 cm"],
+      exp: "150 cm including ears and heels. She's 2 years old, and the \"Mama\" who handles all members' character design and Live2D.",
+      linkLabel: "Amakami Konomi Member Guide"
+    }
   },
   {
+    k: "q21",
     q: "「Mile Stone」を歌っているのは？",
     opts: ["音ノ乃のの", "ミリプロメンバー9人全員", "ミリプロ研究生"],
     a: 1,
     exp: "9人全員での公式楽曲です。楽曲一覧の公式楽曲タブから聴けます。",
     link: "songs.html",
-    linkLabel: "楽曲一覧（公式楽曲）"
+    linkLabel: "楽曲一覧（公式楽曲）",
+    en: {
+      q: "Who sings \"Mile Stone\"?",
+      opts: ["Nono Nono", "All 9 MilliPro members", "MilliPro Trainee"],
+      exp: "An official song sung by all 9 members. You can listen to it in the official songs tab of the song list.",
+      linkLabel: "Song List (Official Songs)"
+    }
   },
   {
+    k: "q22",
     q: "音ノ乃のののファンネームは？",
     opts: ["ののっこ", "ノノフレンズ", "ののの隊"],
     a: 2,
     exp: "ファンネームは「ののの隊」。「ののの音々ネ！」など独特の語彙でも知られます。",
     link: "nono.html",
-    linkLabel: "音ノ乃のの Member Guide"
+    linkLabel: "音ノ乃のの Member Guide",
+    en: {
+      q: "What is Nono Nono's fan name?",
+      opts: ["Nonokko", "Nono Friends", "Nonono-tai"],
+      exp: "Her fan name is \"Nonono-tai\". She's also known for unique vocabulary like \"NONONO NENE!\".",
+      linkLabel: "Nono Nono Member Guide"
+    }
   },
   {
+    k: "q23",
     q: "あくび・でもんすぺーどの誕生日は？",
     opts: ["1月19日", "10月31日", "11月3日"],
     a: 1,
     exp: "10月31日（ハロウィン生まれの悪魔）。ちなみに1月19日は初配信の日です。",
     link: "akubi.html",
-    linkLabel: "あくび・でもんすぺーど Member Guide"
+    linkLabel: "あくび・でもんすぺーど Member Guide",
+    en: {
+      q: "When is Akubi Demonspade's birthday?",
+      opts: ["Jan 19", "Oct 31", "Nov 3"],
+      exp: "October 31 (a Halloween-born demon). By the way, January 19 is the day of her first stream.",
+      linkLabel: "Akubi Demonspade Member Guide"
+    }
   },
   {
+    k: "q24",
     q: "夕霧レイの初配信の直前、チャンネル登録者数は？",
     opts: ["7万人", "5万人", "6万人"],
     a: 2,
     exp: "初配信の直前は6万人で、当日には7万人を突破。霧のスナイパーが描く物語に注目が集まりました。",
     link: "rei.html",
-    linkLabel: "夕霧レイ Member Guide"
+    linkLabel: "夕霧レイ Member Guide",
+    en: {
+      q: "How many subscribers did Yugiri Ray have right before her first stream?",
+      opts: ["70K", "50K", "60K"],
+      exp: "60K right before her first stream, breaking 70K that day. All eyes are on the story the Sniper of the Mist is writing.",
+      linkLabel: "Yugiri Ray Member Guide"
+    }
   }
 ];

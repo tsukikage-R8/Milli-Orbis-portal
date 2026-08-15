@@ -73,11 +73,11 @@
   function renderQ() {
     var q = questions[idx];
     progress.textContent = (idx + 1) + " / " + total;
-    qBox.textContent = q.q;
+    qBox.textContent = loc(q, "q");
     optsBox.innerHTML = "";
     explainBox.style.display = "none";
     nextBtn.style.display = "none";
-    q.opts.forEach(function (opt, i) {
+    loc(q, "opts").forEach(function (opt, i) {
       var b = document.createElement("button");
       b.type = "button";
       b.className = "quiz-opt";
@@ -90,13 +90,14 @@
 
   function pick(i, btn) {
     var q = questions[idx];
+    var qkey = q.k || q.q;
     var correct = i === q.a;
     if (correct) score++;
     var miss = getReviewSet();
     if (correct) {
-      miss = miss.filter(function (k) { return k !== q.q; });
-    } else if (miss.indexOf(q.q) < 0) {
-      miss.push(q.q);
+      miss = miss.filter(function (k) { return k !== qkey; });
+    } else if (miss.indexOf(qkey) < 0) {
+      miss.push(qkey);
     }
     setReviewSet(miss);
     var btns = optsBox.querySelectorAll(".quiz-opt");
@@ -106,11 +107,11 @@
       else if (bi === i) b.classList.add("is-wrong");
     });
     explainBox.style.display = "block";
-    explainBox.innerHTML = (correct ? T("quizp.correct") : T("quizp.wrong", { answer: esc(q.opts[q.a]) })) +
-      "<p>" + esc(q.exp) + "</p>";
+    explainBox.innerHTML = (correct ? T("quizp.correct") : T("quizp.wrong", { answer: esc(loc(q, "opts")[q.a]) })) +
+      "<p>" + esc(loc(q, "exp")) + "</p>";
     if (q.link) {
       var ext = q.link.indexOf("http") === 0 ? ' target="_blank" rel="noopener"' : "";
-      explainBox.innerHTML += '<a class="quiz-ref" href="' + q.link + '"' + ext + ">🔗 " + esc(q.linkLabel || T("quizp.ref")) + "</a>";
+      explainBox.innerHTML += '<a class="quiz-ref" href="' + q.link + '"' + ext + ">🔗 " + esc(loc(q, "linkLabel") || T("quizp.ref")) + "</a>";
     }
     nextBtn.style.display = "block";
     nextBtn.textContent = idx + 1 >= total ? T("quizp.result") : T("quizp.next");
@@ -171,7 +172,7 @@
   function startQuiz() {
     if (mode === "review") {
       var miss = getReviewSet();
-      var pool = QUIZ.filter(function (q) { return miss.indexOf(q.q) >= 0; });
+      var pool = QUIZ.filter(function (q) { return miss.indexOf(q.k || q.q) >= 0; });
       if (!pool.length) {
         alert(T("quizp.reviewNone"));
         return;

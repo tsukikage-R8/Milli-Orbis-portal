@@ -250,16 +250,16 @@
       wrap.innerHTML =
         '<div class="cd-card cd-' + style + ' cd-featured' + (item.featured ? " cd-special" : "") + '" data-id="' + item.id + '">' +
         (item.featured ? '<span class="cd-badge">' + T("cd.badge") + "</span>" : "") +
-        '<div class="cd-label">' + item.label + "</div>" +
+        '<div class="cd-label">' + loc(item, "label") + "</div>" +
         '<div class="cd-when">' + fmtDate(new Date(item.date)) + " " + fmtTime(new Date(item.date)) + " " + T("cd.until") + "</div>" +
         '<div class="cd-digits">' + units.map(function (u) {
           return '<div class="cd-unit"><div class="cd-num" data-unit="' + u[0] + '">00</div><small>' + T(u[1]) + "</small></div>";
         }).join("") + "</div>" +
-        (item.note ? '<div class="cd-note">' + item.note + "</div>" : "") +
+        (item.note ? '<div class="cd-note">' + loc(item, "note") + "</div>" : "") +
         (item.url ? '<a class="cd-link" href="' + item.url + '">' +
           (item.url.indexOf(".html") > -1 ? T("cd.detail") : T("cd.official")) + "</a>" : "") +
         '<div class="cd-actions">' +
-        (item.date ? '<a class="cd-cal" href="' + gcalUrl(item.label + "（" + item.note + "）", item.date) + '"' + calTarget() + ">" + T("cd.addCal") + "</a>" : "") +
+        (item.date ? '<a class="cd-cal" href="' + gcalUrl(loc(item, "label") + "（" + loc(item, "note") + "）", item.date) + '"' + calTarget() + ">" + T("cd.addCal") + "</a>" : "") +
         "</div>" +
         "</div>";
     }
@@ -267,7 +267,7 @@
     function renderRail() {
       rail.innerHTML = valid.map(function (item) {
         return '<button type="button" class="cd-rail-item' + (item.id === featuredId ? " is-active" : "") + '" data-id="' + item.id + '">' +
-          '<span class="cd-label">' + item.label + "</span>" +
+          '<span class="cd-label">' + loc(item, "label") + "</span>" +
           '<span class="cd-diff" data-diff></span>' +
           "</button>";
       }).join("");
@@ -681,14 +681,14 @@
         var m = it.ev.member ? getMember(it.ev.member) : null;
         var name = m ? m.name : "";
         var key = "ev" + off + ":" + it.ev.type + ":" + (it.ev.title || name || "");
-        var body = (off === 1 ? T("notif.tomorrowBody", { title: it.ev.title || name + "の" + label }) : T("notif.todayBody", { title: it.ev.title || name + "の" + label }));
+        var body = (off === 1 ? T("notif.tomorrowBody", { title: loc(it.ev, "title") || name + "の" + label }) : T("notif.todayBody", { title: loc(it.ev, "title") || name + "の" + label }));
         fire(key, off === 1 ? T("notif.tomorrowTitle") : T("notif.todayTitle"), body);
       });
     }
     COUNTDOWN.forEach(function (c) {
       var t = new Date(c.date);
       if (t.getFullYear() === y && t.getMonth() === mo && t.getDate() === d) {
-        fire("cd:" + c.id, T("notif.eventTitle"), T("notif.todayBody", { title: c.label }));
+        fire("cd:" + c.id, T("notif.eventTitle"), T("notif.todayBody", { title: loc(c, "label") }));
       }
     });
     try { localStorage.setItem(sentKey, JSON.stringify(sent)); } catch (e) {}
@@ -849,9 +849,9 @@
     if (!box) return;
     box.innerHTML = NEWS.map(function (n) {
       return '<div class="news-item card"><div class="news-head"><span class="news-date">' +
-        fmtDate(new Date(n.date)) + '</span><span class="news-tag">' + esc(n.tag) + "</span></div>" +
-        '<div class="news-title">' + esc(n.title) + "</div>" +
-        '<div class="news-desc">' + esc(n.desc) + "</div>" +
+        fmtDate(new Date(n.date)) + '</span><span class="news-tag">' + esc(loc(n, "tag")) + "</span></div>" +
+        '<div class="news-title">' + esc(loc(n, "title")) + "</div>" +
+        '<div class="news-desc">' + esc(loc(n, "desc")) + "</div>" +
         (n.url ? '<a class="btn btn-ghost" href="' + n.url + '" target="_blank" rel="noopener">' + T("news.more") + "</a>" : "") +
         "</div>";
     }).join("");
@@ -900,8 +900,8 @@
         memberCardDeco(m) +
         mark +
         '<span class="member-name">' + m.name + "</span>" +
-        '<span class="member-gen">' + groupIconImg(m) + esc(m.gen) + "</span>" +
-        '<span class="member-catch">' + esc(m.catch) + "</span>" +
+        '<span class="member-gen">' + groupIconImg(m) + esc(loc(m, "gen")) + "</span>" +
+        '<span class="member-catch">' + esc(loc(m, "catch")) + "</span>" +
         '<span class="member-tags">' + tags + "</span>" +
         '<span class="btn">' + T("members.detail") + "</span>" +
         "</a>";
@@ -921,13 +921,13 @@
       var years = debut ? (jstNow().getFullYear() - parseInt(debut.slice(0, 4), 10)) : -1;
       return '<tr class="' + (oshi === m.id ? "is-oshi" : "") + '" style="--mc:' + m.color + '">' +
         '<td class="cmp-name"><span class="cmp-dot" style="background:' + m.color + '"></span>' + esc(m.name) + "</td>" +
-        "<td>" + groupIconImg(m) + esc(m.gen) + "</td>" +
+        "<td>" + groupIconImg(m) + esc(loc(m, "gen")) + "</td>" +
         "<td>" + (debut ? esc(debut) + (years >= 0 ? '<span class="cmp-sub">' + T("cmp.years", { n: years }) + "</span>" : "") : "—") + "</td>" +
         "<td>" + esc(bd) + "</td>" +
         "<td>" + (h ? h[1] + "cm" : "—") + "</td>" +
         "<td>" + (age ? T("cmp.ageFmt", { n: age[1] }) : "—") + "</td>" +
-        "<td>" + esc(m.fanName || "—") + "</td>" +
-        '<td class="cmp-catch">' + esc(m.catch || "—") + "</td>" +
+        "<td>" + esc(loc(m, "fanName") || "—") + "</td>" +
+        '<td class="cmp-catch">' + esc(loc(m, "catch") || "—") + "</td>" +
         "</tr>";
     }).join("");
     box.innerHTML =
@@ -947,7 +947,7 @@
         ? '<span class="launcher-icon"><img src="' + l.icon + '" alt=""></span>'
         : '<span class="shape-badge" style="background:linear-gradient(135deg,' + l.shape.grad[0] + "," + l.shape.grad[1] + ')">' + l.shape.char + "</span>";
       var inner = badge +
-        "<h3>" + esc(l.name) + "</h3><p>" + esc(l.desc) + "</p>" +
+        "<h3>" + esc(l.name) + "</h3><p>" + esc(loc(l, "desc")) + "</p>" +
         (l.url ? '<span class="btn">' + T("launcher.open") + "</span>" : '<span class="prep-badge">' + T("launcher.soon") + "</span>");
       if (l.url) return '<a class="launcher-card card" href="' + l.url + '" target="_blank" rel="noopener">' + inner + "</a>";
       return '<div class="launcher-card card">' + inner + "</div>";
@@ -1060,9 +1060,9 @@
       var key = "ev" + d.getTime();
       var when = new Date(d.getFullYear(), d.getMonth(), d.getDate(), 9, 0, 0).toISOString();
       var remind = '<button type="button" class="stream-remind' + (isReminded(key) ? " is-active" : "") + '"' +
-        ' data-key="' + key + '" data-time="' + when + '" data-kind="event" data-title="' + esc(ev.title) + '"' +
+        ' data-key="' + key + '" data-time="' + when + '" data-kind="event" data-title="' + esc(loc(ev, "title")) + '"' +
         ' aria-label="' + T("cal.notify") + '">🔔 ' + T("cal.notify") + "</button>";
-      var cal = '<a class="stream-cal" href="' + gcalAllDayUrl(ev.title, d, ev.desc) + '"' + calTarget() + ">" + T("cal.cal") + "</a>";
+      var cal = '<a class="stream-cal" href="' + gcalAllDayUrl(loc(ev, "title"), d, loc(ev, "desc")) + '"' + calTarget() + ">" + T("cal.cal") + "</a>";
       return '<div class="cal-actions">' + remind + cal + evLink(ev.url, detailLabel) + "</div>";
     }
 
@@ -1076,8 +1076,8 @@
         var d = it.date;
         return '<div class="cal-item card"><div class="cal-date-box"><b>' + d.getDate() + "</b><small>" + T("cal.monthFmt", { m: d.getMonth() + 1 }) + "</small></div>" +
           '<div><div class="cal-type" style="--ec:' + evColor(it.ev.type) + '">' + evTypeLabel(it.ev.type) + "</div>" +
-          '<div class="cal-title2">' + esc(it.ev.title) + "</div>" +
-          (it.ev.desc ? '<div class="video-meta">' + esc(it.ev.desc) + "</div>" : "") + "</div>" +
+          '<div class="cal-title2">' + esc(loc(it.ev, "title")) + "</div>" +
+          (it.ev.desc ? '<div class="video-meta">' + esc(loc(it.ev, "desc")) + "</div>" : "") + "</div>" +
           calActionsHtml(it.ev, it.date, T("cal.detail")) + "</div>";
       }).join("") : '<div class="placeholder">' + T("cal.none") + "</div>";
     }
@@ -1104,7 +1104,7 @@
         if (d === today.getDate() && mo === today.getMonth() && y === today.getFullYear()) cls += " today";
         if (evs.length) cls += " has-event";
         var badges = evs.slice(0, 2).map(function (it) {
-          return '<span class="cal-ebadge" style="--ec:' + evColor(it.ev.type) + '">' + esc(it.ev.title) + "</span>";
+          return '<span class="cal-ebadge" style="--ec:' + evColor(it.ev.type) + '">' + esc(loc(it.ev, "title")) + "</span>";
         }).join("");
         var more = evs.length > 2 ? '<span class="cal-more">+</span>' : "";
         cells.push('<div class="' + cls + '" data-ymd="' + y + "-" + mmdd + "-" + pad2(d) + '">' +
@@ -1126,8 +1126,8 @@
       $("#evmDate").textContent = T("cal.evmDate", { y: y, m: mo + 1, d: d });
       $("#evmList").innerHTML = evs.map(function (it) {
         return '<div class="evm-item card"><span class="cal-type" style="--ec:' + evColor(it.ev.type) + '">' + evTypeLabel(it.ev.type) + "</span>" +
-          '<div class="evm-title">' + esc(it.ev.title) + "</div>" +
-          (it.ev.desc ? '<div class="evm-desc">' + esc(it.ev.desc) + "</div>" : "") +
+          '<div class="evm-title">' + esc(loc(it.ev, "title")) + "</div>" +
+          (it.ev.desc ? '<div class="evm-desc">' + esc(loc(it.ev, "desc")) + "</div>" : "") +
           calActionsHtml(it.ev, it.date, T("cal.detailView")) + "</div>";
       }).join("");
       modal.classList.add("open");
@@ -1187,8 +1187,8 @@
     if (!box) return;
     box.innerHTML = HISTORY.map(function (h) {
       return '<div class="timeline-item"><div class="timeline-date">' + esc(h.date) + "</div>" +
-        '<div class="timeline-title">' + esc(h.title) + "</div>" +
-        (h.desc ? '<div class="timeline-desc">' + esc(h.desc) + "</div>" : "") + "</div>";
+        '<div class="timeline-title">' + esc(loc(h, "title")) + "</div>" +
+        (h.desc ? '<div class="timeline-desc">' + esc(loc(h, "desc")) + "</div>" : "") + "</div>";
     }).join("");
   }
 
@@ -1198,8 +1198,8 @@
     if (!box) return;
     box.innerHTML = LINKS.map(function (l) {
       return '<a class="link-card card" href="' + l.url + '" target="_blank" rel="noopener">' +
-        '<div class="link-name">' + esc(l.name) + "</div>" +
-        '<div class="link-desc">' + esc(l.desc) + "</div></a>";
+        '<div class="link-name">' + esc(loc(l, "name")) + "</div>" +
+        '<div class="link-desc">' + esc(loc(l, "desc")) + "</div></a>";
     }).join("");
   }
 
@@ -1242,9 +1242,9 @@
     document.title = m.name + " | Milli Orbis";
 
     var tCatch = $("#tCatch");
-    if (tCatch) tCatch.textContent = m.catch;
+    if (tCatch) tCatch.textContent = loc(m, "catch");
     var tGen = $("#tGen");
-    if (tGen) tGen.textContent = m.gen;
+    if (tGen) tGen.textContent = loc(m, "gen");
     var tGenIcon = $("#tGenIcon");
     if (tGenIcon) {
       var gp = GROUP_ICON[m.gen];
@@ -1279,26 +1279,26 @@
     if (profile) {
       profile.innerHTML =
         '<div class="talent-layout"><div class="profile-card card" ' + cardStyle + '><h3>' + T("profile.title") + "</h3>" +
-        '<table class="profile-table"><tr><th>' + T("profile.belong") + "</th><td>" + groupIconImg(m) + esc(m.gen) + "</td></tr>" +
+        '<table class="profile-table"><tr><th>' + T("profile.belong") + "</th><td>" + groupIconImg(m) + esc(loc(m, "gen")) + "</td></tr>" +
         (m.birthday ? "<tr><th>" + T("profile.birthday") + "</th><td>" + T("profile.birthdayFmt", { m: m.birthday.slice(0, 2), d: parseInt(m.birthday.slice(3), 10) }) + "</td></tr>" : "") +
         (m.debut ? "<tr><th>" + T("profile.debut") + "</th><td>" + esc(m.debut) + "</td></tr>" : "") +
-        (m.fanName ? "<tr><th>" + T("profile.fanName") + "</th><td>" + esc(m.fanName) + "</td></tr>" : "") +
+        (m.fanName ? "<tr><th>" + T("profile.fanName") + "</th><td>" + esc(loc(m, "fanName")) + "</td></tr>" : "") +
         (m.fanMark ? "<tr><th>" + T("profile.fanMark") + "</th><td>" +
           (m.icon ? '<span class="fanmark-img"><img src="' + esc(m.icon) + '" alt=""></span>' : "") +
           m.fanMark + "</td></tr>" : "") +
-        (m.calls ? "<tr><th>" + T("profile.calls") + "</th><td>" + esc(m.calls) + "</td></tr>" : "") +
-        "<tr><th>" + T("profile.intro") + "</th><td>" + esc(m.profile) + "</td></tr>" +
-        "<tr><th>" + T("profile.skills") + "</th><td>" + esc(m.skills) + "</td></tr></table></div>" +
+        (m.calls ? "<tr><th>" + T("profile.calls") + "</th><td>" + esc(loc(m, "calls")) + "</td></tr>" : "") +
+        "<tr><th>" + T("profile.intro") + "</th><td>" + esc(loc(m, "profile")) + "</td></tr>" +
+        "<tr><th>" + T("profile.skills") + "</th><td>" + esc(loc(m, "skills")) + "</td></tr></table></div>" +
 
-        '<div class="profile-card card"><h3>' + T("profile.likes") + "</h3><p class=\"lead\">" + esc(m.likes || T("profile.na")) + "</p>" +
-        "<h3>" + T("profile.dislikes") + "</h3><p class='lead'>" + esc(m.dislikes || T("profile.na")) + "</p></div></div>";
+        '<div class="profile-card card"><h3>' + T("profile.likes") + "</h3><p class=\"lead\">" + esc(loc(m, "likes") || T("profile.na")) + "</p>" +
+        "<h3>" + T("profile.dislikes") + "</h3><p class='lead'>" + esc(loc(m, "dislikes") || T("profile.na")) + "</p></div></div>";
     }
 
     /* 語録 */
     var phrases = $("#phrasesSection");
     if (phrases && m.phrases && m.phrases.length) {
       phrases.innerHTML = '<div class="profile-card card" ' + cardStyle + '><h3>' + T("phrases.title") + "</h3>" +
-        '<div class="phrase-list">' + m.phrases.map(function (p) {
+        '<div class="phrase-list">' + loc(m, "phrases").map(function (p) {
           return '<div class="phrase-card">' + esc(p) + "</div>";
         }).join("") + "</div></div>";
     }
@@ -1307,7 +1307,7 @@
     var detail = $("#detailSection");
     if (detail && m.achievements && m.achievements.length) {
       detail.innerHTML = '<div class="profile-card card"><h3>' + T("detail.title") + "</h3><div class=\"timeline\">" +
-        m.achievements.map(function (a) {
+        loc(m, "achievements").map(function (a) {
           return '<div class="timeline-item"><div class="timeline-title">' + esc(a) + "</div></div>";
         }).join("") + "</div></div>";
     }
@@ -1378,7 +1378,7 @@
     /* キャッチコピーを一文字ずつ表示する準備（音声に合わせて順に出現） */
     if (m && m.catchphrase && catchBox) {
       var delay = 2.1;
-      catchBox.innerHTML = m.catchphrase.split("").map(function (c) {
+      catchBox.innerHTML = loc(m, "catchphrase").split("").map(function (c) {
         if (c === " ") { delay += 0.05; return " "; }
         var d = delay;
         delay += 0.05;
@@ -1490,7 +1490,7 @@
     }
     box.innerHTML = list.map(function (g) {
       var m = g.memberId ? getMember(g.memberId) : null;
-      var label = m ? m.name : (g.memberLabel || T("t.allLabel"));
+      var label = m ? m.name : (loc(g, "memberLabel") || T("t.allLabel"));
       var color = m ? m.color : "#75b1c0";
       var old = g.oldPrice ? '<s>¥' + g.oldPrice.toLocaleString("ja-JP") + "</s> " : "";
       return '<a class="goods-card card" href="' + g.url + '" target="_blank" rel="noopener" style="--gc:' + color + '">' +
@@ -1498,7 +1498,7 @@
         (g.tag ? '<span class="goods-tag">' + esc(g.tag) + "</span>" : "") +
         '<span class="goods-body">' +
         '<span class="goods-member">' + esc(label) + "</span>" +
-        '<span class="goods-name">' + esc(g.name) + "</span>" +
+        '<span class="goods-name">' + esc(loc(g, "name")) + "</span>" +
         '<span class="goods-price">' + old + "¥" + g.price.toLocaleString("ja-JP") + "</span>" +
         '<span class="btn btn-ghost">' + T("goods.shop") + "</span>" +
         "</span></a>";
@@ -1719,12 +1719,14 @@
       return;
     }
     var q = QUIZ[Math.floor(Math.random() * QUIZ.length)];
+    var qloc = loc(q, "q");
+    var optsLoc = loc(q, "opts");
     box.innerHTML =
       '<div class="quiz-card card quiz-teaser">' +
       '<div class="quiz-teaser-head"><h3>' + T("quiz.todayQ") + "</h3><span class=\"quiz-teaser-badge\">" + T("quiz.totalBadge", { n: QUIZ.length }) + "</span></div>" +
-      '<p class="quiz-q">' + esc(q.q) + "</p>" +
+      '<p class="quiz-q">' + esc(qloc) + "</p>" +
       '<div class="quiz-opts">' +
-      q.opts.map(function (o, i) {
+      optsLoc.map(function (o, i) {
         return '<button type="button" class="quiz-opt" data-i="' + i + '">' + esc(o) + "</button>";
       }).join("") +
       "</div>" +
@@ -1747,7 +1749,7 @@
         });
         var ex = box.querySelector(".quiz-teaser-explain");
         ex.style.display = "block";
-        ex.innerHTML = (correct ? T("quiz.correct") : T("quiz.wrong", { answer: esc(q.opts[q.a]) })) + "<p>" + esc(q.exp) + "</p>";
+        ex.innerHTML = (correct ? T("quiz.correct") : T("quiz.wrong", { answer: esc(optsLoc[q.a]) })) + "<p>" + esc(loc(q, "exp")) + "</p>";
       });
     });
   }
@@ -1816,7 +1818,7 @@
     });
     eventOccurrences().forEach(function (it) {
       if (it.ev.type !== "event" || !sameDay(it.date)) return;
-      var link = it.ev.url ? '<a href="' + esc(it.ev.url) + '" target="_blank" rel="noopener">' + esc(it.ev.title) + "</a>" : esc(it.ev.title);
+      var link = it.ev.url ? '<a href="' + esc(it.ev.url) + '" target="_blank" rel="noopener">' + esc(loc(it.ev, "title")) + "</a>" : esc(loc(it.ev, "title"));
       items.push("🎊 " + link);
     });
     (lastStreams || []).forEach(function (s) {
