@@ -65,6 +65,21 @@
     return null;
   }
 
+  function memberLabel(id) {
+    var m = memberById(id);
+    return m ? m.name : (id === "official" ? "ミリプロ（全体）" : id);
+  }
+
+  function chipColor(id) {
+    var m = memberById(id);
+    return m ? m.color : "#75b1c0";
+  }
+
+  function memberChipHtml(id, url) {
+    var inner = '<span class="song-member-chip" style="--mc:' + chipColor(id) + '">' + esc(memberLabel(id)) + "</span>";
+    return url ? '<a class="song-member-chip" href="' + url + '" target="_blank" rel="noopener" style="--mc:' + chipColor(id) + '">' + esc(memberLabel(id)) + "</a>" : inner;
+  }
+
   /* カバーに登場するメンバー一覧（複数人で歌っている曲は複数メンバーで集計） */
   function coverMembers() {
     var list = [];
@@ -76,13 +91,24 @@
     return list.sort();
   }
 
+  /* カバーに登場するメンバー一覧（「ミリプロ（全体）」は絞り込み対象外） */
+  function coverMembers() {
+    var list = [];
+    (data.covers || []).forEach(function (g) {
+      g.urls.forEach(function (u) {
+        if (u.memberId === "official") return;
+        if (list.indexOf(u.memberId) === -1) list.push(u.memberId);
+      });
+    });
+    return list.sort();
+  }
+
   function chipsHtml() {
     var members = coverMembers();
     var html = '<button type="button" class="song-chip' + (memberFilter ? "" : " active") + '" data-m="">すべて</button>';
     html += members.map(function (id) {
-      var m = memberById(id);
       return '<button type="button" class="song-chip' + (memberFilter === id ? " active" : "") + '" data-m="' + id + '"' +
-        (m ? ' style="--mc:' + m.color + '"' : "") + ">" + esc(m ? m.name : id) + "</button>";
+        ' style="--mc:' + chipColor(id) + '">' + esc(memberLabel(id)) + "</button>";
     }).join("");
     return html;
   }
@@ -94,9 +120,13 @@
     }
     if (!list.length) return '<div class="placeholder">該当する楽曲が見つかりません</div>';
     return '<div class="song-grid">' + list.map(function (v) {
+      var chips = (v.members && v.members.length ? v.members : ["official"]).map(function (mid) {
+        return memberChipHtml(mid, "");
+      }).join("");
       return '<a class="song-card card" href="https://www.youtube.com/watch?v=' + v.id + '" target="_blank" rel="noopener">' +
         thumbHtml(v.id) +
         '<div class="song-title">' + esc(v.title) + "</div>" +
+        '<div class="song-members">' + chips + "</div>" +
         '<div class="song-meta">' + esc(v.publishedAt) + "</div>" +
         '<span class="btn btn-ghost">YouTubeで見る ▶</span></a>';
     }).join("") + "</div>";
@@ -118,9 +148,7 @@
     return '<div class="song-grid">' + list.map(function (g) {
       var primary = g.urls[0];
       var members = g.urls.map(function (u) {
-        var m = memberById(u.memberId);
-        return '<a class="song-member-chip" href="https://www.youtube.com/watch?v=' + u.id + '" target="_blank" rel="noopener" style="--mc:' + (m ? m.color : "#75b1c0") + '">' +
-          (m ? m.name : esc(u.memberId)) + "</a>";
+        return memberChipHtml(u.memberId, "https://www.youtube.com/watch?v=" + u.id);
       }).join("");
       return '<div class="song-card card song-cover" data-url="https://www.youtube.com/watch?v=' + primary.id + '">' +
         thumbHtml(primary.id) +

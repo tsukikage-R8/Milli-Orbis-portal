@@ -1449,7 +1449,7 @@
       picks.push({ title: title, id: id, memberIds: memberIds });
       return true;
     }
-    (songs.official || []).slice(0, 6).forEach(function (v) { tryAdd(v.title, v.id, []); });
+    (songs.official || []).slice(0, 6).forEach(function (v) { tryAdd(v.title, v.id, v.members || []); });
     (songs.covers || []).forEach(function (g) {
       if (g.urls.length) tryAdd(g.title, g.urls[0].id, g.urls.map(function (u) { return u.memberId; }));
     });
@@ -1460,10 +1460,12 @@
     }
     box.parentElement.style.display = "";
     box.innerHTML = picks.map(function (p) {
-      var chips = p.memberIds.slice(0, 3).map(function (mid) {
-        var m = getMember(mid);
-        return '<span class="song-member-chip" style="--mc:' + (m ? m.color : "#75b1c0") + '">' + esc(m ? m.name : mid) + "</span>";
-      }).join("");
+      var chips = p.memberIds.length
+        ? p.memberIds.slice(0, 3).map(function (mid) {
+          var m = getMember(mid);
+          return '<span class="song-member-chip" style="--mc:' + (m ? m.color : "#75b1c0") + '">' + esc(m ? m.name : mid) + "</span>";
+        }).join("")
+        : '<span class="song-member-chip" style="--mc:#75b1c0">ミリプロ（全体）</span>';
       if (p.memberIds.length > 3) chips += '<span class="song-member-more">+' + (p.memberIds.length - 3) + "</span>";
       return '<a class="song-card card recommend-card" href="https://www.youtube.com/watch?v=' + p.id + '" target="_blank" rel="noopener">' +
         '<img class="song-thumb" src="https://i.ytimg.com/vi/' + p.id + '/mqdefault.jpg" alt="" loading="lazy">' +

@@ -20,12 +20,12 @@ const PLAYLISTS = {
   konomi: { playlistId: "PL5p6FQYYgVRziaI4RLjTdADmK0oU9GWG7", memberId: "konomi" },
   nono: { playlistId: "PLcuYuav35lC8wCgR7p6jzqZ27YK5vTM-c", memberId: "nono" },
   akubi: { playlistId: "PL8y8XXg_BJN_eUBFROyVitl4mXkYA70XE", memberId: "akubi" },
+  koma: { playlistId: "PLznEl2O8TKcwjom6kQLvupgwW6j0uSL74", memberId: "koma" },
   raco: { playlistId: "PLWzEr1iWdJ1jQwJL0OXHS_Z1AgLR5rAa7", memberId: "raco" },
   yura: { playlistId: "PLAOJZw9w-IQs1CfU_sreS9n1KefB77oV5", memberId: "yura" },
-  nuhu: { playlistId: "PLQA45rTkdhdeDeoBYz9xK6f_51kPzDB8R", memberId: "nuhu" },
-  tsukuri: { playlistId: "PLznEl2O8TKcwjom6kQLvupgwW6j0uSL74", memberId: "tsukuri" },
-  liz: { playlistId: "PL8EAIbSZy-jkAp1LF2ocnAVtex4MWA4rU", memberId: "liz" },
-  rei: { playlistId: "PL8lnm2jOyoCCdDW7Wp6AJpL7MD-BCELqN", memberId: "rei" }
+  nuhu: { playlistId: "PL8lnm2jOyoCCdDW7Wp6AJpL7MD-BCELqN", memberId: "nuhu" },
+  tsukuri: { playlistId: "PLQA45rTkdhdeDeoBYz9xK6f_51kPzDB8R", memberId: "tsukuri" },
+  liz: { playlistId: "PL8EAIbSZy-jkAp1LF2ocnAVtex4MWA4rU", memberId: "liz" }
 };
 
 const BASE = "https://www.googleapis.com/youtube/v3/playlistItems";
@@ -72,19 +72,23 @@ async function fetchPlaylist(playlistId) {
 /* タイトル正規化: 括弧タグ除去・記号除去・小文字化 → 楽曲名キー */
 function normalizeTitle(t) {
   let s = String(t || "");
+  s = s.replace(/\s*covered\s+by\s+.*$/i, "");   // covered by 以降（コラボ相手名など）を除去
+  // メンバー名（漢字・かな）は正規化（ー・記号除去）より先に除去する
+  for (const name of Object.values(MEMBER_NAMES)) {
+    s = s.replace(new RegExp(name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "g"), "");
+  }
+  MEMBER_ALIASES.forEach(([alias]) => {
+    s = s.replace(new RegExp(alias.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "g"), "");
+  });
   s = s.replace(/【[^】]*】/g, "");         // 【歌ってみた】等
   s = s.replace(/\[[^\]]*\]/g, "");         // [ ... ] タグ
   s = s.replace(/（[^）]*）/g, "");          // （字幕）等
   s = s.replace(/\([^)]*\)/g, "");
-  s = s.replace(/[「」『』"“”・]|<\/?[^>]+>/g, "");
+  s = s.replace(/[「」『』"“”・×]|<\/?[^>]+>/g, "");
   s = s.replace(/[\s　ー~〜]/g, "");
   s = s.replace(/歌ってみた|カバー|cover|弾いてみた|歌枠|歌って|歌う|歌/gi, "");
   s = s.replace(/[\/|｜:：]/g, "");
-  // メンバー名・「ミリプロ」「Million Production」等のグループ表記を除去して同一曲を統合
-  for (const name of Object.values(MEMBER_NAMES)) {
-    s = s.replace(new RegExp(name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "g"), "");
-  }
-  s = s.replace(/millionproduction|ミリプロ|officialmv|mv/gi, "");
+  s = s.replace(/millionproduction|ミリプロ|officialmv|official|mv/gi, "");
   return s.toLowerCase();
 }
 
@@ -97,6 +101,7 @@ function displayTitle(t) {
   s = s.replace(/\s*-\s*cover\s*$/i, "");           // - cover
   s = s.replace(/\s+covered by\s+[^/]*$/i, "");     // covered by 音ノ乃のの
   s = s.replace(/\s*\(.*?\)\s*$/g, "").trim();
+  s = s.replace(/[\s\/|｜]+$/, "");                  // 末尾のスラッシュ等を除去
   return s;
 }
 
@@ -113,13 +118,52 @@ const MEMBER_NAMES = {
   rei: "夕霧レイ"
 };
 
-/* タイトル内に他のミリプロメンバー名が含まれるコラボ曲を検出 */
-function collabMembers(title, ownerId) {
+/* かな表記など別名でのメンバー検出（例: あまかみこのみ） */
+const MEMBER_ALIASES = [
+  ["あまかみこのみ", "konomi"],
+  ["おとのののの", "nono"],
+  ["こまわりこま", "koma"],
+  ["おとのせらこ", "raco"],
+  ["にじぷかぬふ", "nuhu"],
+  ["ぬふちゃ", "nuhu"],
+  ["ねむくもつくり", "tsukuri"],
+  ["あまよりず", "liz"],
+  ["ゆうぎりれい", "rei"]
+];
+
+/* 公式楽曲（オリジナル曲）のみ。それ以外のプレイリスト収録曲は全てカバー扱い */
+const OFFICIAL_SONGS = [
+  { re: /想わせ|らぶりー/, members: ["konomi"] },
+  { re: /約束/, members: ["nono"] },
+  { re: /アルテマ/, members: ["nono"] },
+  { re: /ののの音々ネ/, members: ["nono"] },
+  { re: /ロクデナシテンシ/, members: ["nono"] },
+  { re: /HYPE\s*SEEKER/i, members: ["nono"] },
+  { re: /Mile\s*Stone/i, members: [] },
+  { re: /Princess\s*Viral/i, members: ["nono"] },
+  { re: /ルミナス/, members: ["raco"] },
+  { re: /おきらくスーパースター/, members: ["koma"] }
+];
+
+function officialRule(title) {
+  return OFFICIAL_SONGS.find((r) => r.re.test(title)) || null;
+}
+
+/* タイトル内のメンバー名（漢字・かな）から参加メンバーを検出 */
+function memberIdsInTitle(title) {
   const found = [];
   for (const [id, name] of Object.entries(MEMBER_NAMES)) {
-    if (id !== ownerId && title.includes(name)) found.push(id);
+    if (title.includes(name)) found.push(id);
   }
+  MEMBER_ALIASES.forEach(([alias, id]) => {
+    if (title.includes(alias) && found.indexOf(id) === -1) found.push(id);
+  });
   return found;
+}
+
+/* タイトル内に他のミリプロメンバー名が含まれるコラボ曲を検出 */
+function collabMembers(title, ownerId) {
+  return memberIdsInTitle(title).filter((id) => id !== ownerId);
 }
 
 /* グループ曲の参加メンバー上書き（タイトルから自動判定できない既知曲）
@@ -139,32 +183,47 @@ async function main() {
     console.log(`playlist ${key}: ${byMember[cfg.memberId].length} items`);
   }
 
-  // 公式: タイトル正規化で重複除去
+  // 公式: オリジナル曲のみを公式楽曲として保持（動画IDで重複除去）。それ以外はカバー扱い
   const officialSeen = new Set();
   const officialList = [];
+  const coverFromOfficial = [];
   official.forEach((v) => {
-    const k = normalizeTitle(v.title);
-    if (!k || officialSeen.has(k)) return;
-    officialSeen.add(k);
-    officialList.push({ id: v.id, title: v.title, publishedAt: v.publishedAt });
+    if (officialSeen.has(v.id)) return;
+    const rule = officialRule(v.title);
+    if (rule) {
+      officialSeen.add(v.id);
+      officialList.push({ id: v.id, title: v.title, publishedAt: v.publishedAt, members: rule.members });
+    } else {
+      coverFromOfficial.push(v);
+    }
   });
 
-  // 歌ってみた: タイトルキーで統合 → 複数メンバーで歌われた曲は1カードにまとめる
+  // 歌ってみた: 公式カバー＋メンバープレイリストをタイトルキーで統合 → 複数メンバーで歌われた曲は1カードにまとめる
   const coverMap = new Map();
+  const addCover = (title, videoId, publishedAt, ids) => {
+    const k = normalizeTitle(title);
+    if (!k) return;
+    if (!coverMap.has(k)) {
+      coverMap.set(k, { title: displayTitle(title), key: k, urls: [] });
+    }
+    const group = coverMap.get(k);
+    ids.forEach((m) => {
+      if (!group.urls.some((u) => u.id === videoId && u.memberId === m)) {
+        group.urls.push({ id: videoId, memberId: m, publishedAt });
+      }
+    });
+  };
+  // 公式チャンネルのカバー（メンバー名検出、なければ「ミリプロ（全体）」扱い）
+  coverFromOfficial.forEach((v) => {
+    const ids = memberIdsInTitle(v.title);
+    addCover(v.title, v.id, v.publishedAt, ids.length ? ids : ["official"]);
+  });
+  // メンバーの歌ってみたプレイリスト（オリジナル曲の再掲はカバーに含めない）
   Object.entries(byMember).forEach(([memberId, items]) => {
     items.forEach((v) => {
-      const k = normalizeTitle(v.title);
-      if (!k) return;
-      if (!coverMap.has(k)) {
-        coverMap.set(k, { title: displayTitle(v.title), key: k, urls: [] });
-      }
-      const group = coverMap.get(k);
+      if (officialRule(v.title)) return;
       const ids = [memberId].concat(collabMembers(v.title, memberId));
-      ids.forEach((m) => {
-        if (!group.urls.some((u) => u.id === v.id && u.memberId === m)) {
-          group.urls.push({ id: v.id, memberId: m, publishedAt: v.publishedAt });
-        }
-      });
+      addCover(v.title, v.id, v.publishedAt, ids);
     });
   });
     const coverList = Array.from(coverMap.values())
