@@ -570,7 +570,7 @@ function simplePage(o) {
 
   <section class="subpage-hero">
     <h1>${o.title}</h1>
-    <p>${esc(o.desc)}</p>${o.note ? '\n    <p class="cmp-disclaimer">' + esc(o.note) + "</p>" : ""}
+    <p>${esc(o.desc)}</p>${o.note ? '\n    <p class="cmp-disclaimer">' + esc(o.note) + "</p>" : ""}${o.cta ? "\n    " + o.cta : ""}
   </section>
 
   ${o.body}
@@ -652,6 +652,11 @@ fs.writeFileSync(path.join(outDir, "songs.html"), simplePage({
   file: "songs.html",
   title: "曲データベース",
   desc: "ミリプロの楽曲・歌動画をまとめたデータベース。歌ってみた・公式楽曲・歌枠を曲単位で検索でき、元曲から誰が歌っているかも調べられます。",
+  cta: `
+      <a class="unishare-cta" href="https://milli-unishare.onrender.com/" target="_blank" rel="noopener">
+        <img src="images/icon/Milli%20Unishare-icon.PNG" alt="Milli Unishare" loading="lazy">
+        <span data-i18n="songs.unishare">通常動画・ショート・ライブ配信のデータベースはこちら</span>
+      </a>`,
   body: `
   <section class="section">
     <div class="song-modes">

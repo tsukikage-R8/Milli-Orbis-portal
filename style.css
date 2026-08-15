@@ -3850,6 +3850,38 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
   margin-bottom: 8px;
 }
 .subpage-hero p { font-size: 0.92rem; color: var(--muted); }
+
+/* 曲データベース: Milli Unishare への導線 CTA */
+.unishare-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 14px;
+  background: var(--accent-soft);
+  border: 2px solid var(--accent);
+  border-radius: 999px;
+  padding: 8px 18px 8px 10px;
+  color: var(--text);
+  font-weight: 700;
+  font-size: 0.9rem;
+  transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s;
+}
+.unishare-cta:hover {
+  text-decoration: none;
+  border-color: var(--accent-deep);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(60, 90, 100, 0.18);
+}
+.unishare-cta img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  flex: none;
+  object-fit: cover;
+}
+@media (max-width: 600px) {
+  .unishare-cta { font-size: 0.82rem; padding: 7px 14px 7px 8px; }
+}
 :root[data-theme="dark"] .subpage-hero { background: linear-gradient(135deg, #2c2838, #242030); }
 @media (max-width: 600px) {
   .subpage-hero { padding: 24px 16px; border-radius: 22px; }
