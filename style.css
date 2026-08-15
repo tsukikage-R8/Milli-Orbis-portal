@@ -392,11 +392,12 @@ img { max-width: 100%; }
   display: flex;
   align-items: center;
   gap: 10px;
+  flex: none;
 }
 .logo img { height: 34px; width: auto; }
 .logo:hover { text-decoration: none; }
 
-.nav { display: flex; gap: 8px; align-items: center; }
+.nav { display: flex; gap: 8px; align-items: center; flex-wrap: nowrap; }
 .nav a, .nav-drop-btn {
   color: var(--text);
   font-weight: 700;
@@ -406,6 +407,7 @@ img { max-width: 100%; }
   border-radius: 999px;
   border: 2px solid transparent;
   transition: all 0.15s;
+  white-space: nowrap;
 }
 .nav a:hover, .nav-drop-btn:hover { background: var(--accent-soft); border-color: var(--accent); text-decoration: none; }
 .nav .current { background: var(--accent-soft); border-color: var(--accent); color: var(--accent-deep); }
@@ -3820,4 +3822,40 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
 }
 @media (max-width: 480px) {
   .recommend-row { grid-template-columns: 1fr; }
+}
+
+/* ---------- PCヘッダーのナビ収まり調整（項目内改行防止・最終カスケード・モバイル値は上書きしない） ---------- */
+@media (min-width: 721px) {
+  .header-actions { flex: 0 1 auto; min-width: 0; }
+  .oshi-select { max-width: 170px; min-width: 0; overflow: hidden; }
+}
+@media (min-width: 721px) and (max-width: 1100px) {
+  .header-inner { padding: 0 14px; gap: 10px; }
+  .logo img { height: 28px; }
+  .nav { gap: 6px; }
+  .nav a, .nav-drop-btn { font-size: 0.82rem; padding: 5px 10px; }
+  .header-actions { gap: 8px; }
+  .oshi-select { max-width: 130px; font-size: 0.8rem; padding: 5px 10px; }
+}
+@media (min-width: 721px) and (max-width: 980px) {
+  .nav { gap: 5px; }
+  .nav a, .nav-drop-btn { font-size: 0.76rem; padding: 4px 9px; }
+  .logo img { height: 24px; }
+  .header-actions { gap: 7px; }
+  .oshi-select { max-width: 100px; font-size: 0.78rem; padding: 4px 9px; }
+  .live-badge { font-size: 0.68rem; padding: 4px 9px; }
+}
+@media (min-width: 721px) and (max-width: 900px) {
+  .nav { gap: 4px; }
+  .nav a, .nav-drop-btn { font-size: 0.72rem; padding: 3px 8px; }
+  .oshi-select { max-width: 88px; font-size: 0.74rem; padding: 3px 8px; }
+  .live-badge { gap: 4px; font-size: 0.62rem; padding: 3px 7px; }
+}
+@media (min-width: 721px) and (max-width: 800px) {
+  .nav { gap: 4px; }
+  .nav a, .nav-drop-btn { font-size: 0.7rem; padding: 3px 7px; }
+  .logo img { height: 22px; }
+  .oshi-select { max-width: 80px; font-size: 0.72rem; padding: 3px 8px; }
+  .header-actions { gap: 6px; }
+  .live-badge { gap: 4px; padding: 3px 8px; }
 }
