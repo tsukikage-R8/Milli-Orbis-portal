@@ -436,6 +436,8 @@ img { max-width: 100%; }
   left: 50%;
   transform: translateX(-50%);
   min-width: 230px;
+  max-height: min(70vh, 540px);
+  overflow-y: auto;
   background: #fff;
   border: 3px solid #fff;
   outline: 2px solid var(--accent);
