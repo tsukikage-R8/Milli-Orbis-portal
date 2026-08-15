@@ -18,6 +18,7 @@
 
   function $(id) { return document.getElementById(id); }
   function esc(s) { return SD.esc(s); }
+  var PLAY_SVG = '<svg width="22" height="22" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>';
 
   var listBox = $("smList");
   if (!listBox) return;
@@ -106,6 +107,14 @@
     return '<div class="sm-jacket-wrap"><div class="sm-jacket-none">♪</div></div>';
   }
 
+  function playInWrap(wrap, id, start) {
+    if (!wrap) return;
+    var src = id ? "https://www.youtube.com/embed/" + id + "?autoplay=1" + (start ? "&start=" + start : "") : "";
+    if (!src) return;
+    wrap.classList.add("open");
+    wrap.innerHTML = '<iframe src="' + src + '" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>';
+  }
+
   function versionHtml(u) {
     var href = SD.videoUrl(u.id, u.start);
     var badge = u.karaoke ? '<span class="song-kind song-kind-karaoke">' + T("songs.karaokeBadge") + "</span>"
@@ -113,6 +122,7 @@
     var ts = u.karaoke && u.start ? '<span class="song-ts">' + SD.fmtTs(u.start) + "〜" + (u.end ? SD.fmtTs(u.end) : "") + "</span>" : "";
     var vdate = u.publishedAt ? '<span class="song-vdate">' + esc(u.publishedAt) + "</span>" : "";
     return '<div class="sm-version">' +
+      '<button type="button" class="sm-play" data-vid="' + u.id + '" data-start="' + (u.start || "") + '" aria-label="' + T("songs.play") + '">' + PLAY_SVG + "</button>" +
       '<a class="song-member-chip" href="' + href + '" target="_blank" rel="noopener" style="--mc:' + SD.chipColor(u.memberId) + '">' + esc(SD.memberLabel(u.memberId)) + "</a>" +
       badge + ts + vdate +
       "</div>";
@@ -141,6 +151,7 @@
       '<div class="sm-members">' + chips + "</div>" +
       "</div>" +
       "</div>" +
+      '<div class="sm-player"></div>' +
       '<span class="sm-expand-btn">' + T("sm.expand") + "</span>" +
       detail +
       "</div>";
@@ -170,9 +181,15 @@
     render();
   });
 
-  /* カードタップで展開（リンク部分は除外） */
+  /* バージョンの再生ボタン → カード内にタイムスタンプ付きプレイヤー展開 / リンク部分は除外して展開 */
   listBox.addEventListener("click", function (e) {
     if (e.target.closest("a")) return;
+    var pb = e.target.closest(".sm-play");
+    if (pb) {
+      var pcard = pb.closest(".sm-card");
+      playInWrap(pcard && pcard.querySelector(".sm-player"), pb.dataset.vid, parseInt(pb.dataset.start, 10) || 0);
+      return;
+    }
     var card = e.target.closest(".sm-card");
     if (!card) return;
     var wasOpen = card.classList.contains("open");

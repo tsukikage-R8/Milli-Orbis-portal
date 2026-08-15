@@ -62,8 +62,36 @@
 
   function normKana(s) { return SD.normKana(s); }
 
-  function thumbHtml(id) {
-    return '<img class="song-thumb" src="https://i.ytimg.com/vi/' + id + '/mqdefault.jpg" alt="" loading="lazy">';
+  /* ---- 埋め込みプレイヤー（サムネ＋再生ボタン → iframe） ---- */
+  function embedUrl(id, start) {
+    return "https://www.youtube.com/embed/" + id + "?autoplay=1" + (start ? "&start=" + start : "");
+  }
+
+  function iframeHtml(src) {
+    return '<iframe src="' + src + '" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>';
+  }
+
+  var PLAY_SVG = '<svg width="30" height="30" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>';
+  var YT_SVG = '<svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4L15.8 12l-6.2 3.6z"/></svg>';
+
+  function thumbHtml(id, start) {
+    return '<div class="song-thumb-wrap" data-src="' + embedUrl(id, start) + '">' +
+      '<img class="song-thumb" src="https://i.ytimg.com/vi/' + id + '/mqdefault.jpg" alt="" loading="lazy">' +
+      '<span class="play-overlay" aria-hidden="true">' + PLAY_SVG + "</span>" +
+      "</div>";
+  }
+
+  function playInWrap(wrap, id, start) {
+    if (!wrap) return;
+    var src = id ? embedUrl(id, start) : wrap.getAttribute("data-src");
+    if (!src) return;
+    var f = wrap.querySelector("iframe");
+    if (f) { if (f.getAttribute("src") !== src) f.setAttribute("src", src); }
+    else { wrap.innerHTML = iframeHtml(src); }
+  }
+
+  function ytBtnHtml(id) {
+    return '<a class="btn btn-ghost song-ytbtn" href="https://www.youtube.com/watch?v=' + id + '" target="_blank" rel="noopener">' + YT_SVG + " " + T("songs.youtube") + "</a>";
   }
 
   /* メンバー検索対象: 名前・読み・ファンネーム・呼称・英語名 */
@@ -133,13 +161,14 @@
         memberChipHtml(u.memberId, href) + badge + ts + vdate +
         "</div>";
     }).join("");
-    return '<div class="song-card card song-cover" data-url="' + SD.videoUrl(primary.id, primary.start) + '">' +
-      thumbHtml(primary.id) +
+    return '<div class="song-card card">' +
+      thumbHtml(primary.id, primary.start) +
       (isNew(primary.publishedAt) ? '<span class="song-new">NEW</span>' : "") +
       '<div class="song-title">' + esc(g.title) + "</div>" +
       (art ? '<div class="song-artist">' + esc(art) + "</div>" : "") +
       (g.urls.length > 1 ? '<div class="song-collab">' + T("songs.collab") + "</div>" : "") +
       '<div class="song-versions">' + versions + "</div>" +
+      ytBtnHtml(primary.id) +
       "</div>";
   }
 
@@ -178,13 +207,14 @@
       var chips = (v.members && v.members.length ? v.members : ["official"]).map(function (mid) {
         return memberChipHtml(mid, "");
       }).join("");
-      return '<a class="song-card card" href="https://www.youtube.com/watch?v=' + v.id + '" target="_blank" rel="noopener">' +
+      return '<div class="song-card card">' +
         thumbHtml(v.id) +
         (isNew(v.publishedAt) ? '<span class="song-new">NEW</span>' : "") +
         '<div class="song-title">' + esc(v.title) + "</div>" +
         '<div class="song-members">' + chips + "</div>" +
         '<div class="song-meta">' + esc(v.publishedAt) + "</div>" +
-        '<span class="btn btn-ghost">' + T("songs.youtube") + "</span></a>";
+        ytBtnHtml(v.id) +
+        "</div>";
     }).join("") + "</div>";
   }
 
@@ -207,10 +237,12 @@
       var songs = (st.songs || []).map(function (s, i) {
         var g = coverByKey.get(s.key);
         var label = (g && g.title) || s.title || s.key;
-        return '<a class="song-kitem" href="' + SD.videoUrl(st.id, s.start) + '" target="_blank" rel="noopener">' +
+        return '<div class="song-kitem" role="button" tabindex="0" data-stream="' + st.id + '" data-start="' + (s.start || "") + '">' +
           '<span class="song-kidx">' + (i + 1) + "</span>" +
           '<span class="song-kname">' + esc(label) + "</span>" +
-          '<span class="song-ts">' + (s.start ? SD.fmtTs(s.start) + "〜" + (s.end ? SD.fmtTs(s.end) : "") : "–") + "</span></a>";
+          '<span class="song-ts">' + (s.start ? SD.fmtTs(s.start) + "〜" + (s.end ? SD.fmtTs(s.end) : "") : "–") + "</span>" +
+          '<a class="song-kext" href="' + SD.videoUrl(st.id, s.start) + '" target="_blank" rel="noopener" aria-label="' + T("songs.openYt") + '">' + YT_SVG + "</a>" +
+          "</div>";
       }).join("");
       return '<div class="song-card card">' +
         thumbHtml(st.id) +
@@ -219,6 +251,7 @@
         '<div class="song-members">' + memberChipHtml(st.memberId, "") + "</div>" +
         '<div class="song-meta">' + esc(st.publishedAt) + "</div>" +
         '<div class="song-klist">' + songs + "</div>" +
+        ytBtnHtml(st.id) +
         "</div>";
     }).join("") + "</div>";
   }
@@ -249,13 +282,25 @@
     render();
   });
 
-  /* カードタップで該当動画へ（メンバーチップなどのリンク部分を除く） */
+  /* サムネ・再生ボタン → iframe再生 / 歌枠セトリ行 → タイムスタンプ付きで再生 / リンク系は既定動作 */
   listBox.addEventListener("click", function (e) {
     if (e.target.closest("a")) return;
-    var card = e.target.closest(".song-cover");
-    if (card && card.dataset.url) {
-      window.open(card.dataset.url, "_blank", "noopener");
+    var wrap = e.target.closest(".song-thumb-wrap");
+    if (wrap) { playInWrap(wrap); return; }
+    var kitem = e.target.closest(".song-kitem");
+    if (kitem) {
+      var card = kitem.closest(".song-card");
+      playInWrap(card && card.querySelector(".song-thumb-wrap"), kitem.dataset.stream, parseInt(kitem.dataset.start, 10) || 0);
     }
+  });
+
+  listBox.addEventListener("keydown", function (e) {
+    if (e.key !== "Enter" && e.key !== " ") return;
+    var kitem = e.target.closest(".song-kitem");
+    if (!kitem) return;
+    e.preventDefault();
+    var card = kitem.closest(".song-card");
+    playInWrap(card && card.querySelector(".song-thumb-wrap"), kitem.dataset.stream, parseInt(kitem.dataset.start, 10) || 0);
   });
 
   if (chips) chips.addEventListener("click", function (e) {

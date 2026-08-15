@@ -374,6 +374,7 @@ const footerHtml = `
   <p class="disclaimer" data-i18n="footer.disclaimer">本サイトはファンが運営する非公式のポータルサイトです。ミリプロ公式様とは一切関係ありません。</p>
   <p class="source-note"><span data-i18n="footer.source">ミリプロ（Million Production）公式サイト:</span> <a href="https://milpr.com/" target="_blank" rel="noopener">https://milpr.com/</a></p>
   <p class="source-note">YouTube Data API を利用しています（<a href="https://developers.google.com/youtube/terms/api-services-terms-of-service" target="_blank" rel="noopener">YouTube API Services Terms of Service</a>）</p>
+  <p class="source-note"><span data-i18n="footer.yt">本サイトは YouTube の利用規約に同意の上でご利用ください: </span><a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">https://www.youtube.com/t/terms</a></p>
   <p data-i18n="footer.copy">© 2026 Milli Orbis（非公式ファンサイト）</p>
   <p class="source-note"><span data-i18n="footer.admin">作成・管理者：</span><a href="https://x.com/SunSunmachi" target="_blank" rel="noopener">すんすん（@SunSunmachi）</a></p>
 </footer>`;

@@ -190,6 +190,7 @@ window.I18N = {
     "footer.disclaimer": "本サイトはファンが運営する非公式のポータルサイトです。ミリプロ公式様とは一切関係ありません。",
     "footer.source": "ミリプロ（Million Production）公式サイト:",
     "footer.api": "YouTube Data API を利用しています",
+    "footer.yt": "本サイトは YouTube の利用規約に同意の上でご利用ください: ", 
     "footer.copy": "© 2026 Milli Orbis（非公式ファンサイト）",
     "footer.admin": "作成・管理者：",
 
@@ -319,7 +320,9 @@ window.I18N = {
     "songs.none": "該当する楽曲が見つかりません",
     "songs.nodata": "楽曲データがまだ生成されていません。しばらく待ってから再読み込みしてください。",
     "songs.collab": "コラボ／複数人歌唱",
-    "songs.youtube": "YouTubeで見る ▶",
+    "songs.youtube": "YouTubeで見る",
+    "songs.play": "再生",
+    "songs.openYt": "YouTubeで開く",
     "songs.officialLabel": "ミリプロ（全体）",
     "songs.note": "公式楽曲はオリジナル曲のみ（想わせ♡らぶりー / 約束 / アルテマ / ののの音々ネ！ / ロクデナシテンシ / HYPE SEEKER / Princess Viral / ルミナス / おきらくスーパースター / Mile Stone）。公式プレイリスト「ミリプロ歌まとめ」のその他の収録曲は全てカバーとして「歌ってみた」タブに統合されます。YouTube Data API により毎日自動更新されます。",
 
@@ -528,6 +531,7 @@ window.I18N = {
     "footer.disclaimer": "This site is an unofficial fan-run portal. It is not affiliated with MilliPro in any way.",
     "footer.source": "MilliPro (Million Production) official site:",
     "footer.api": "Uses the YouTube Data API",
+    "footer.yt": "By using this site you agree to the YouTube Terms of Service: ", 
     "footer.copy": "© 2026 Milli Orbis (unofficial fan site)",
     "footer.admin": "Created & managed by:",
 
@@ -655,7 +659,9 @@ window.I18N = {
     "songs.karaokeNote": "Songs sung in karaoke streams, with timestamps. Stream archives, songs and timestamps are maintained manually.",
     "songs.all": "All",
     "songs.none": "No songs found",
-    "songs.nodata": "Song data hasn't been generated yet. Please wait and reload.",
+    "songs.youtube": "Watch on YouTube",
+    "songs.play": "Play",
+    "songs.openYt": "Open in YouTube",
     "songs.collab": "Collab / Multi-singer",
     "songs.youtube": "Watch on YouTube ▶",
     "songs.officialLabel": "MilliPro (All)",
