@@ -4061,10 +4061,25 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
 }
 
 /* ---------- PCヘッダーのナビ収まり調整（項目内改行防止・最終カスケード・モバイル値は上書きしない） ---------- */
+/* PCのみ: ヘッダー全体を左寄せにして固定幅による右端のはみ出しを防ぐ */
 @media (min-width: 901px) {
-  .header-actions { flex: 0 1 auto; min-width: 0; }
+  .header-inner {
+    max-width: none;
+    justify-content: flex-start;
+    gap: 28px;
+  }
+  .header-actions { flex: 0 0 auto; min-width: 0; }
 }
-@media (min-width: 901px) and (max-width: 1100px) {
+/* PCのみ: 901–1100px はナビの冗長リンク（Home＝ロゴで代用可・ページ下部アンカー）を
+   隠して、右端の言語切替ボタンが必ず画面内に収まるようにする */
+@media (min-width: 901px) and (max-width: 1130px) {
+  .nav > a[href$="#home"],
+  .nav > a[href$="#calendar"],
+  .nav > a[href$="#links"] {
+    display: none;
+  }
+}
+@media (min-width: 901px) and (max-width: 1300px) {
   .header-inner { padding: 0 14px; gap: 10px; }
   .logo { font-size: 1.05rem; }
   .logo img { height: 28px; }
