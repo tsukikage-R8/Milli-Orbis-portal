@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T12:12:33.894Z",
+  "updatedAt": "2026-08-15T16:09:43.627Z",
   "streams": [
     {
       "id": "SNGkFktnvXM",
@@ -44,15 +44,6 @@
       "title": "【ストリヌ】残り２日で孤高から抜け出せるのか【#あくび・でもんすぺーど】",
       "thumb": "https://i.ytimg.com/vi/ZMxc719Cdk0/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-15T11:18:30Z",
-      "status": "live"
-    },
-    {
-      "id": "UhO0Vt03ZMg",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【ストリヌ/Minecraft 】影MOD入れたから街ぶらる【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/UhO0Vt03ZMg/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-15T11:28:24Z",
       "status": "live"
     },
     {
@@ -265,13 +256,23 @@
   ],
   "videos": [
     {
+      "id": "mP1z2lJTNQ0",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 ストリヌ 】異世界に来たら銭湯屋さんだった#8【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/mP1z2lJTNQ0/hqdefault_live.jpg",
+      "publishedAt": "2026-08-15T14:40:52Z",
+      "live": false
+    },
+    {
       "id": "UhO0Vt03ZMg",
       "memberId": "liz",
       "member": "雨夜リズ",
       "channelTitle": "雨夜リズ / Amayo Liz",
       "title": "【ストリヌ/Minecraft 】影MOD入れたから街ぶらる【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/UhO0Vt03ZMg/hqdefault_live.jpg",
-      "publishedAt": "2026-08-15T11:28:24Z",
+      "thumb": "https://i.ytimg.com/vi/UhO0Vt03ZMg/hqdefault.jpg",
+      "publishedAt": "2026-08-15T14:20:01Z",
       "live": false
     },
     {
@@ -553,16 +554,6 @@
       "thumb": "https://i.ytimg.com/vi/VeTK4rCIL7I/hqdefault.jpg",
       "publishedAt": "2026-08-13T17:47:40Z",
       "live": false
-    },
-    {
-      "id": "dumZaEhaYVw",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【ストリヌ】第6話「本部復興しつつ、ダンジョンも行く！」【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/dumZaEhaYVw/hqdefault.jpg",
-      "publishedAt": "2026-08-13T17:35:12Z",
-      "live": false
     }
   ],
   "live": [
@@ -609,15 +600,6 @@
       "title": "【ストリヌ】残り２日で孤高から抜け出せるのか【#あくび・でもんすぺーど】",
       "thumb": "https://i.ytimg.com/vi/ZMxc719Cdk0/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-15T11:18:30Z",
-      "status": "live"
-    },
-    {
-      "id": "UhO0Vt03ZMg",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【ストリヌ/Minecraft 】影MOD入れたから街ぶらる【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/UhO0Vt03ZMg/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-15T11:28:24Z",
       "status": "live"
     }
   ]
