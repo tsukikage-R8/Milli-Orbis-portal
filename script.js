@@ -73,6 +73,10 @@
 
     var select = $("#oshiSelect");
     if (select) {
+      var empty = document.createElement("option");
+      empty.value = "";
+      empty.textContent = "推しを選択";
+      select.appendChild(empty);
       MEMBERS.forEach(function (m) {
         var opt = document.createElement("option");
         opt.value = m.id;
@@ -81,7 +85,17 @@
       });
       select.value = getOshi() || "";
       select.addEventListener("change", function () { setOshi(select.value); });
+      colorOshiSelect(select);
     }
+  }
+
+  /* 推しセレクトの枠線・文字を推しカラーに（未選択はアクセント色） */
+  function colorOshiSelect(select) {
+    if (!select) return;
+    var m = getMember(select.value);
+    select.style.setProperty("--mc", m ? m.color : "");
+    select.style.color = m ? m.color : "";
+    select.style.borderColor = m ? m.color : "";
   }
 
   /* ============ 推しカラー ============ */
@@ -94,6 +108,7 @@
     applyOshi(id);
     var select = $("#oshiSelect");
     if (select && select.value !== id) select.value = id;
+    colorOshiSelect(select);
   }
 
   function applyOshi(id) {

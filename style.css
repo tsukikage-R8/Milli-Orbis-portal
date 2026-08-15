@@ -490,15 +490,18 @@ img { max-width: 100%; }
 
 .oshi-select {
   font-family: var(--font-display);
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: var(--text);
+  font-size: 0.86rem;
+  font-weight: 800;
+  color: var(--accent-deep);
   border: 2px solid var(--accent);
   border-radius: 999px;
-  padding: 6px 12px;
+  padding: 7px 14px;
+  min-width: 150px;
+  max-width: 190px;
   background: #fff;
   cursor: pointer;
   outline: none;
+  transition: border-color 0.15s, color 0.15s;
 }
 
 .hamburger {
@@ -3319,29 +3322,31 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
 .profile-btn {
   display: inline-flex;
   align-items: center;
-  gap: 7px;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border-radius: 50%;
   font-family: var(--font-display);
   font-size: 0.82rem;
   font-weight: 800;
   color: var(--accent-deep);
   background: #fff;
   border: 2px solid var(--accent);
-  border-radius: 999px;
-  padding: 5px 14px;
   cursor: pointer;
-  line-height: 1.4;
+  line-height: 1;
   transition: all 0.15s;
   flex-shrink: 0;
 }
 .profile-btn:hover { transform: translateY(-1px); box-shadow: var(--pop-shadow); }
 .profile-icon {
-  width: 20px;
-  height: 20px;
+  width: 26px;
+  height: 26px;
   border-radius: 50%;
   overflow: hidden;
   background: var(--accent-soft);
   border: 2px solid #fff;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   line-height: 1.2;
   display: inline-flex;
   align-items: center;
@@ -3351,6 +3356,50 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
 .profile-icon img { width: 100%; height: 100%; object-fit: cover; display: block; }
 :root[data-theme="dark"] .profile-btn { background: #1e1a28; }
 :root[data-theme="dark"] .profile-icon { background: #26383f; }
+
+/* プロフィール編集（名前・アイコン） */
+.mp-edit { margin-top: 16px; border-top: 2px dashed var(--accent-soft); padding-top: 14px; }
+.mp-edit-sep { font-family: var(--font-display); font-weight: 900; font-size: 0.95rem; color: var(--accent-deep); margin-bottom: 10px; }
+.mp-edit-row { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
+.mp-edit-label { font-size: 0.82rem; font-weight: 800; color: var(--muted); min-width: 52px; }
+.mp-edit-row .mp-input { flex: 1; min-width: 180px; }
+.mp-edit-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: var(--accent-soft);
+  border: 2px solid #fff;
+  font-size: 1.3rem;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.mp-edit-icon img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.mp-edit-upload { cursor: pointer; font-size: 0.82rem; padding: 8px 14px; }
+.mp-emoji-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; margin: 4px 0 10px; }
+.mp-emoji-btn {
+  font-size: 1.15rem;
+  padding: 6px 0;
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  background: #fff;
+  cursor: pointer;
+  line-height: 1;
+  transition: all 0.12s;
+}
+.mp-emoji-btn:hover { border-color: var(--accent); }
+.mp-emoji-btn.active { border-color: var(--accent-deep); background: var(--accent-soft); }
+.mp-edit-note { font-size: 0.75rem; color: var(--muted); margin-bottom: 10px; }
+:root[data-theme="dark"] .mp-emoji-btn { background: #2c2838; border-color: #3d3850; }
+:root[data-theme="dark"] .mp-emoji-btn:hover { border-color: var(--accent); }
+:root[data-theme="dark"] .mp-emoji-btn.active { border-color: var(--accent); background: #3a3348; }
+:root[data-theme="dark"] .mp-edit-icon { background: #26383f; }
+@media (max-width: 440px) {
+  .mp-emoji-grid { grid-template-columns: repeat(4, 1fr); }
+}
 
 .mp-welcome {
   display: none;
@@ -3827,7 +3876,6 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
 /* ---------- PCヘッダーのナビ収まり調整（項目内改行防止・最終カスケード・モバイル値は上書きしない） ---------- */
 @media (min-width: 721px) {
   .header-actions { flex: 0 1 auto; min-width: 0; }
-  .oshi-select { max-width: 170px; min-width: 0; overflow: hidden; }
 }
 @media (min-width: 721px) and (max-width: 1100px) {
   .header-inner { padding: 0 14px; gap: 10px; }
@@ -3835,27 +3883,27 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
   .nav { gap: 6px; }
   .nav a, .nav-drop-btn { font-size: 0.82rem; padding: 5px 10px; }
   .header-actions { gap: 8px; }
-  .oshi-select { max-width: 130px; font-size: 0.8rem; padding: 5px 10px; }
+  .oshi-select { min-width: 140px; max-width: 160px; font-size: 0.82rem; padding: 6px 12px; }
 }
 @media (min-width: 721px) and (max-width: 980px) {
   .nav { gap: 5px; }
   .nav a, .nav-drop-btn { font-size: 0.76rem; padding: 4px 9px; }
   .logo img { height: 24px; }
   .header-actions { gap: 7px; }
-  .oshi-select { max-width: 100px; font-size: 0.78rem; padding: 4px 9px; }
+  .oshi-select { min-width: 118px; max-width: 140px; font-size: 0.78rem; padding: 5px 10px; }
   .live-badge { font-size: 0.68rem; padding: 4px 9px; }
 }
 @media (min-width: 721px) and (max-width: 900px) {
   .nav { gap: 4px; }
   .nav a, .nav-drop-btn { font-size: 0.72rem; padding: 3px 8px; }
-  .oshi-select { max-width: 88px; font-size: 0.74rem; padding: 3px 8px; }
+  .oshi-select { min-width: 96px; max-width: 120px; font-size: 0.75rem; padding: 4px 9px; }
   .live-badge { gap: 4px; font-size: 0.62rem; padding: 3px 7px; }
 }
 @media (min-width: 721px) and (max-width: 800px) {
   .nav { gap: 4px; }
   .nav a, .nav-drop-btn { font-size: 0.7rem; padding: 3px 7px; }
   .logo img { height: 22px; }
-  .oshi-select { max-width: 80px; font-size: 0.72rem; padding: 3px 8px; }
+  .oshi-select { min-width: 84px; max-width: 108px; font-size: 0.72rem; padding: 3px 8px; }
   .header-actions { gap: 6px; }
   .live-badge { gap: 4px; padding: 3px 8px; }
 }

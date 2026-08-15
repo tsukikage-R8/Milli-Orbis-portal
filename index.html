@@ -60,8 +60,7 @@
     <div class="header-actions">
       <a id="liveBadge" class="live-badge" href="#" target="_blank" rel="noopener">● LIVE</a>
       <button type="button" class="profile-btn" id="profile-btn" onclick="mpOpenAccount()" aria-label="アカウント連携">
-        <span class="profile-icon" id="profile-header-icon" style="display:none;"></span>
-        <span class="profile-label" id="profile-label">連携</span>
+        <span class="profile-icon" id="profile-header-icon">?</span>
       </button>
       <select id="oshiSelect" class="oshi-select" aria-label="推しメンバーを選択"></select>
       <button type="button" class="theme-toggle" id="themeToggle" aria-label="ダークモード切替">🌙</button>
@@ -259,6 +258,34 @@
           <button type="button" class="btn" onclick="mpCopyId()">🔗 IDをコピー</button>
           <button type="button" class="btn btn-ghost" onclick="mpLogout()">ログアウト</button>
         </div>
+      </div>
+      <div class="mp-edit">
+        <div class="mp-edit-sep">プロフィール編集（名前・アイコン）</div>
+        <div class="mp-edit-row">
+          <span class="mp-edit-label">名前</span>
+          <input id="mp-edit-name" class="mp-input" type="text" maxlength="20" placeholder="表示名（20文字まで）" autocomplete="off">
+        </div>
+        <div class="mp-edit-row">
+          <span class="mp-edit-label">アイコン</span>
+          <span class="mp-edit-icon" id="mp-edit-icon-preview"></span>
+          <label class="btn btn-ghost mp-edit-upload">画像を選ぶ<input type="file" id="mp-edit-icon-file" accept="image/*" hidden onchange="mpPickIconFile(this)"></label>
+        </div>
+        <div class="mp-emoji-grid">
+          <button type="button" class="mp-emoji-btn" data-emoji="🐺" onclick="mpPickEmoji('🐺')">🐺</button>
+          <button type="button" class="mp-emoji-btn" data-emoji="🍫" onclick="mpPickEmoji('🍫')">🍫</button>
+          <button type="button" class="mp-emoji-btn" data-emoji="🎧" onclick="mpPickEmoji('🎧')">🎧</button>
+          <button type="button" class="mp-emoji-btn" data-emoji="👿" onclick="mpPickEmoji('👿')">👿</button>
+          <button type="button" class="mp-emoji-btn" data-emoji="🐾" onclick="mpPickEmoji('🐾')">🐾</button>
+          <button type="button" class="mp-emoji-btn" data-emoji="🦦" onclick="mpPickEmoji('🦦')">🦦</button>
+          <button type="button" class="mp-emoji-btn" data-emoji="🌙" onclick="mpPickEmoji('🌙')">🌙</button>
+          <button type="button" class="mp-emoji-btn" data-emoji="🧊" onclick="mpPickEmoji('🧊')">🧊</button>
+          <button type="button" class="mp-emoji-btn" data-emoji="🔧" onclick="mpPickEmoji('🔧')">🔧</button>
+          <button type="button" class="mp-emoji-btn" data-emoji="🧸" onclick="mpPickEmoji('🧸')">🧸</button>
+          <button type="button" class="mp-emoji-btn" data-emoji="🦭" onclick="mpPickEmoji('🦭')">🦭</button>
+          <button type="button" class="mp-emoji-btn" data-emoji="✨" onclick="mpPickEmoji('✨')">✨</button>
+        </div>
+        <p class="mp-edit-note" id="mp-edit-note"></p>
+        <button type="button" class="btn mp-submit" onclick="mpSaveProfile()">プロフィールを保存</button>
       </div>
       <div id="mp-account-form">
         <div class="mp-tabs">

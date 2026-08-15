@@ -193,17 +193,135 @@ function mpRender(uid) {
     ms.textContent = pid ? "連携ID: " + pid : "未連携";
     ms.classList.toggle("linked", !!pid);
   }
+  var info = mpProfileInfo();
   var pl = document.getElementById("profile-label");
   if (pl) {
-    var info = mpProfileInfo();
     pl.textContent = info.name || info.pid || "ゲスト";
   }
   var pbtn = document.getElementById("profile-btn");
   var picon = document.getElementById("profile-header-icon");
   if (pbtn && picon) {
     renderUserIcon(picon, info);
-    picon.style.display = info.icon ? "" : "none";
+    picon.style.display = "";
   }
+  mpFillEditForm(uid);
+}
+
+// ---------- プロフィール編集（名前・アイコン） ----------
+
+var mpPendingIcon = "";
+
+// 編集フォームに現在のプロフィールを反映
+function mpFillEditForm(uid) {
+  var info = mpProfileInfo();
+  var nameInput = document.getElementById("mp-edit-name");
+  if (nameInput) nameInput.value = info.name || "";
+  var preview = document.getElementById("mp-edit-icon-preview");
+  if (preview) renderUserIcon(preview, { icon: info.icon, playerName: info.name });
+  mpPendingIcon = info.icon || "";
+  var note = document.getElementById("mp-edit-note");
+  if (note) note.textContent = uid
+    ? "ログイン中の共有アカウント（Milli Games / Unishare / Chronicle と共通）に同期されます"
+    : "連携IDのみのため、この端末に保存されます（ログインすると共有アカウントに同期できます）";
+  var emojis = document.querySelectorAll(".mp-emoji-btn");
+  emojis.forEach(function (b) {
+    b.classList.toggle("active", b.dataset.emoji === mpPendingIcon);
+  });
+}
+
+// 絵文字プリセットを選択
+function mpPickEmoji(emoji) {
+  mpPendingIcon = emoji;
+  var preview = document.getElementById("mp-edit-icon-preview");
+  if (preview) renderUserIcon(preview, { icon: emoji, playerName: "" });
+  document.querySelectorAll(".mp-emoji-btn").forEach(function (b) {
+    b.classList.toggle("active", b.dataset.emoji === emoji);
+  });
+}
+
+// 画像ファイル → 128px の dataURL に圧縮（Firebase 容量対策）
+function mpIconFromFile(file) {
+  return new Promise(function (resolve, reject) {
+    if (!file || !/^image\//.test(file.type)) { reject(new Error("画像ファイルを選択してください")); return; }
+    var reader = new FileReader();
+    reader.onerror = function () { reject(new Error("読み込みに失敗しました")); };
+    reader.onload = function () {
+      var img = new Image();
+      img.onerror = function () { reject(new Error("画像を開けませんでした")); };
+      img.onload = function () {
+        var size = 128;
+        var canvas = document.createElement("canvas");
+        canvas.width = size;
+        canvas.height = size;
+        var ctx = canvas.getContext("2d");
+        var scale = Math.min(size / img.width, size / img.height);
+        var w = Math.max(1, Math.round(img.width * scale));
+        var h = Math.max(1, Math.round(img.height * scale));
+        ctx.drawImage(img, (size - w) / 2, (size - h) / 2, w, h);
+        resolve(canvas.toDataURL("image/png"));
+      };
+      img.src = reader.result;
+    };
+    reader.readAsDataURL(file);
+  });
+}
+
+// アップロードファイル選択時
+function mpPickIconFile(input) {
+  var f = input && input.files && input.files[0];
+  if (!f) return;
+  mpIconFromFile(f).then(function (dataUrl) {
+    mpPendingIcon = dataUrl;
+    var preview = document.getElementById("mp-edit-icon-preview");
+    if (preview) renderUserIcon(preview, { icon: dataUrl, playerName: "" });
+    document.querySelectorAll(".mp-emoji-btn").forEach(function (b) { b.classList.remove("active"); });
+  }).catch(function (e) {
+    alert(e && e.message ? e.message : "エラー");
+  });
+}
+
+// 名前・アイコンを保存（ログイン中は共有DBへ同期、連携IDのみはローカル保存）
+function mpSaveProfile() {
+  var nameInput = document.getElementById("mp-edit-name");
+  var name = nameInput ? nameInput.value.trim() : "";
+  if (!name && !mpPendingIcon) { alert("名前かアイコンを設定してください"); return; }
+  var uid = getMilliproUid();
+  if (uid && isAuthAvailable()) {
+    firebase.database().ref("millipro/users/" + uid + "/profile").update({
+      playerName: name,
+      icon: mpPendingIcon,
+      updatedAt: Date.now()
+    }).then(function () {
+      var merged = {
+        playerId: getMilliproPlayerId() || "",
+        playerName: name,
+        icon: mpPendingIcon,
+        comment: (function () {
+          try {
+            var ud = JSON.parse(localStorage.getItem("millipro_userdata"));
+            return (ud && ud.comment) || "";
+          } catch (e) { return ""; }
+        })()
+      };
+      applyMilliproProfile(merged);
+      mpRender(uid);
+      mpRefreshBanner();
+      alert("プロフィールを保存しました（共有アカウントに同期）");
+    }).catch(function (e) {
+      alert("保存に失敗しました: " + (e && e.message ? e.message : e));
+    });
+    return;
+  }
+  var ud = null;
+  try { ud = JSON.parse(localStorage.getItem("millipro_userdata")); } catch (e) {}
+  if (!ud || typeof ud !== "object") ud = { createdAt: Date.now() };
+  ud.playerName = name;
+  ud.icon = mpPendingIcon;
+  ud.updatedAt = Date.now();
+  localStorage.setItem("millipro_userdata", JSON.stringify(ud));
+  mpRender(getMilliproUid());
+  mpRefreshBanner();
+  alert("プロフィールを保存しました（この端末に保存）");
 }
 
 // ログイン / 新規登録のタブ切替
@@ -260,7 +378,10 @@ function mpSubmit(isSignup) {
 
 function mpOpen() {
   var popup = document.getElementById("login-popup");
-  if (popup) popup.classList.add("open");
+  if (popup) {
+    mpFillEditForm(getMilliproUid());
+    popup.classList.add("open");
+  }
 }
 
 function mpClose() {
