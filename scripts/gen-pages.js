@@ -599,14 +599,25 @@ ${o.scripts}
 fs.writeFileSync(path.join(outDir, "quiz.html"), simplePage({
   file: "quiz.html",
   title: "ミリプロ検定",
-  desc: "ミリプロについての10問クイズに挑戦！全問正解で「ミリプロ博士」の称号を目指せ！",
+  desc: "ミリプロについての25問クイズに挑戦！クイック10問からプロの全問出題まで。全問正解で「ミリプロ博士」の称号を目指せ！",
   body: `
   <section id="quizStart" class="section quiz-section">
     <div class="quiz-card card">
-      <h2>10問のミリプロ検定！</h2>
-      <p>ミリプロメンバー・設立・流行語まで、ここでしか出ない10問。</p>
+      <h2>ミリプロ検定に挑戦！</h2>
+      <p>ミリプロメンバー・設立・流行語まで、ここでしか出ない25問。</p>
       <p class="quiz-note">答えはMember Guideから導き出せます（プロは推しの情報も丸暗記）。</p>
-      <button type="button" class="btn quiz-big-btn" id="quizStartBtn">▶ 検定をはじめる</button>
+      <div class="quiz-mode-row">
+        <div class="quiz-mode-card">
+          <span class="quiz-mode-label">クイック</span>
+          <p>ランダムに10問だけ出題。<br>隙間時間の腕試しに。</p>
+          <button type="button" class="btn quiz-big-btn" id="quizStartBtn">▶ クイック（10問）</button>
+        </div>
+        <div class="quiz-mode-card">
+          <span class="quiz-mode-label">プロ</span>
+          <p>全25問を出題。<br>ミリプロ博士はプロで決まる！</p>
+          <button type="button" class="btn btn-ghost quiz-big-btn" id="quizStartPro">▶ プロ（全25問）</button>
+        </div>
+      </div>
     </div>
   </section>
   <section id="quizScreen" class="section quiz-section" style="display:none;">

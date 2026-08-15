@@ -1,6 +1,7 @@
 /* ============================================
    ミリプロ検定 (quiz.html)
    依存: data.js の QUIZ のみ（script.js とは独立動作）
+   モード: クイック（ランダム10問）/ プロ（全問出題）。URL ?mode=pro でも指定可
    ============================================ */
 (function () {
   "use strict";
@@ -14,6 +15,13 @@
   function $(id) { return document.getElementById(id); }
   function esc(s) {
     return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  }
+  function shuffle(arr) {
+    for (var i = arr.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = arr[i]; arr[i] = arr[j]; arr[j] = t;
+    }
+    return arr;
   }
 
   var start = $("quizStart");
@@ -29,18 +37,21 @@
   var shareBtn = $("quizShare");
   var retryBtn = $("quizRetry");
 
-  var idx = 0, score = 0, total = QUIZ.length;
+  var mode = /[?&]mode=pro/i.test(location.search) ? "pro" : "quick";
+  var questions = [];
+  var idx = 0, score = 0, total = 0;
 
   function rankFor(sc) {
-    if (sc === total) return { label: "ミリプロ検定 完全制覇！", sub: "あなたは紛れもないミリプロ博士です。ミリプロのために存在しています。", icon: "🏆" };
-    if (sc >= 8) return { label: "ミリプロマスター", sub: "かなりのミリプロ好き！あと少しで完全制覇です。", icon: "👑" };
-    if (sc >= 6) return { label: "ミリプロファン", sub: "なかなかの知識量。推しを深掘りすればもっと上を目指せます！", icon: "💎" };
-    if (sc >= 4) return { label: "ミリプロ入門者", sub: "まだまだこれから！Member Guideから知識を積みましょう。", icon: "🌱" };
+    var pct = total ? sc / total : 0;
+    if (pct >= 1) return { label: "ミリプロ検定 完全制覇！", sub: "あなたは紛れもないミリプロ博士です。ミリプロのために存在しています。", icon: "🏆" };
+    if (pct >= 0.8) return { label: "ミリプロマスター", sub: "かなりのミリプロ好き！あと少しで完全制覇です。", icon: "👑" };
+    if (pct >= 0.6) return { label: "ミリプロファン", sub: "なかなかの知識量。推しを深掘りすればもっと上を目指せます！", icon: "💎" };
+    if (pct >= 0.4) return { label: "ミリプロ入門者", sub: "まだまだこれから！Member Guideから知識を積みましょう。", icon: "🌱" };
     return { label: "駆け出しプロデューサー", sub: "まずはMember Guideでミリプロのことを知ろう！ここからがスタートです。", icon: "✨" };
   }
 
   function renderQ() {
-    var q = QUIZ[idx];
+    var q = questions[idx];
     progress.textContent = (idx + 1) + " / " + total;
     qBox.textContent = q.q;
     optsBox.innerHTML = "";
@@ -58,7 +69,7 @@
   }
 
   function pick(i, btn) {
-    var q = QUIZ[idx];
+    var q = questions[idx];
     var correct = i === q.a;
     if (correct) score++;
     var btns = optsBox.querySelectorAll(".quiz-opt");
@@ -92,12 +103,20 @@
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
-  start.addEventListener("click", function () {
+  function startQuiz() {
+    questions = mode === "pro" ? QUIZ.slice() : shuffle(QUIZ.slice()).slice(0, Math.min(10, QUIZ.length));
+    total = questions.length;
+    idx = 0; score = 0;
     start.style.display = "none";
     screen.style.display = "block";
-    idx = 0; score = 0;
     renderQ();
-  });
+  }
+
+  var startBtn = $("quizStartBtn");
+  var startPro = $("quizStartPro");
+  if (startBtn) startBtn.addEventListener("click", function () { mode = "quick"; startQuiz(); });
+  if (startPro) startPro.addEventListener("click", function () { mode = "pro"; startQuiz(); });
+  if (mode === "pro" && startBtn && !startPro) startQuiz();
 
   nextBtn.addEventListener("click", function () {
     idx++;
@@ -107,6 +126,7 @@
 
   retryBtn.addEventListener("click", function () {
     result.style.display = "none";
+    screen.style.display = "none";
     start.style.display = "block";
   });
 })();

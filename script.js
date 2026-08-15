@@ -1475,6 +1475,48 @@
     }).join("");
   }
 
+  /* ============ ミリプロ検定（ホームの今日の1問） ============ */
+  function renderQuizTeaser() {
+    var box = $("#quizTeaserBox");
+    if (!box) return;
+    if (typeof QUIZ === "undefined" || !QUIZ.length) {
+      box.parentElement.style.display = "none";
+      return;
+    }
+    var q = QUIZ[Math.floor(Math.random() * QUIZ.length)];
+    box.innerHTML =
+      '<div class="quiz-card card quiz-teaser">' +
+      '<div class="quiz-teaser-head"><h3>今日の1問</h3><span class="quiz-teaser-badge">全' + QUIZ.length + '問</span></div>' +
+      '<p class="quiz-q">' + esc(q.q) + "</p>" +
+      '<div class="quiz-opts">' +
+      q.opts.map(function (o, i) {
+        return '<button type="button" class="quiz-opt" data-i="' + i + '">' + esc(o) + "</button>";
+      }).join("") +
+      "</div>" +
+      '<div class="quiz-explain quiz-teaser-explain" style="display:none;"></div>' +
+      '<div class="quiz-teaser-actions">' +
+      '<a class="btn" href="quiz.html">▶ クイック（10問）</a>' +
+      '<a class="btn btn-ghost" href="quiz.html?mode=pro">▶ プロ（全' + QUIZ.length + '問）</a>' +
+      '<a class="recommend-link" href="quiz.html">検定ページへ →</a>' +
+      "</div></div>";
+    var opts = box.querySelectorAll(".quiz-opt");
+    opts.forEach(function (b) {
+      b.addEventListener("click", function () {
+        if (b.disabled) return;
+        var picked = parseInt(b.dataset.i, 10);
+        var correct = picked === q.a;
+        opts.forEach(function (o) {
+          o.disabled = true;
+          if (parseInt(o.dataset.i, 10) === q.a) o.classList.add("is-correct");
+          else if (parseInt(o.dataset.i, 10) === picked) o.classList.add("is-wrong");
+        });
+        var ex = box.querySelector(".quiz-teaser-explain");
+        ex.style.display = "block";
+        ex.innerHTML = (correct ? "✅ 正解！" : "❌ 不正解… 正解は「" + esc(q.opts[q.a]) + "」") + "<p>" + esc(q.exp) + "</p>";
+      });
+    });
+  }
+
   /* ============ PWA: サービスワーカー登録 ============ */
   function initServiceWorker() {
     if (!("serviceWorker" in navigator)) return;
@@ -1565,6 +1607,7 @@
     renderGoods();
     renderGameFeature();
     renderRecommendedSongs();
+    renderQuizTeaser();
     initCalendar();
     renderHistory();
     renderLinks();

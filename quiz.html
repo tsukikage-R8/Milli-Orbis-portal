@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ミリプロ検定 | Milli Orbis</title>
-<meta name="description" content="ミリプロについての10問クイズに挑戦！全問正解で「ミリプロ博士」の称号を目指せ！">
+<meta name="description" content="ミリプロについての25問クイズに挑戦！クイック10問からプロの全問出題まで。全問正解で「ミリプロ博士」の称号を目指せ！">
 <link rel="icon" href="images/icon/Milli%20Orbis.ico" sizes="any">
 <link rel="apple-touch-icon" sizes="192x192" href="images/icon/Milli%20Orbis-192.png">
 <link rel="apple-touch-icon" sizes="518x518" href="images/icon/Milli%20Orbis-518.png">
@@ -14,14 +14,14 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Milli Orbis">
 <meta property="og:title" content="ミリプロ検定 | Milli Orbis">
-<meta property="og:description" content="ミリプロについての10問クイズに挑戦！全問正解で「ミリプロ博士」の称号を目指せ！">
+<meta property="og:description" content="ミリプロについての25問クイズに挑戦！クイック10問からプロの全問出題まで。全問正解で「ミリプロ博士」の称号を目指せ！">
 <meta property="og:url" content="https://milli-orbis-portal.onrender.com/quiz.html">
 <meta property="og:image" content="https://milli-orbis-portal.onrender.com/images/Milli-Orbis-OGP.png">
 <meta property="og:image:width" content="1729">
 <meta property="og:image:height" content="910">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="ミリプロ検定 | Milli Orbis">
-<meta name="twitter:description" content="ミリプロについての10問クイズに挑戦！全問正解で「ミリプロ博士」の称号を目指せ！">
+<meta name="twitter:description" content="ミリプロについての25問クイズに挑戦！クイック10問からプロの全問出題まで。全問正解で「ミリプロ博士」の称号を目指せ！">
 <meta name="twitter:image" content="https://milli-orbis-portal.onrender.com/images/Milli-Orbis-OGP.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -98,16 +98,27 @@
 
   <section class="subpage-hero">
     <h1>ミリプロ検定</h1>
-    <p>ミリプロについての10問クイズに挑戦！全問正解で「ミリプロ博士」の称号を目指せ！</p>
+    <p>ミリプロについての25問クイズに挑戦！クイック10問からプロの全問出題まで。全問正解で「ミリプロ博士」の称号を目指せ！</p>
   </section>
 
   
   <section id="quizStart" class="section quiz-section">
     <div class="quiz-card card">
-      <h2>10問のミリプロ検定！</h2>
-      <p>ミリプロメンバー・設立・流行語まで、ここでしか出ない10問。</p>
+      <h2>ミリプロ検定に挑戦！</h2>
+      <p>ミリプロメンバー・設立・流行語まで、ここでしか出ない25問。</p>
       <p class="quiz-note">答えはMember Guideから導き出せます（プロは推しの情報も丸暗記）。</p>
-      <button type="button" class="btn quiz-big-btn" id="quizStartBtn">▶ 検定をはじめる</button>
+      <div class="quiz-mode-row">
+        <div class="quiz-mode-card">
+          <span class="quiz-mode-label">クイック</span>
+          <p>ランダムに10問だけ出題。<br>隙間時間の腕試しに。</p>
+          <button type="button" class="btn quiz-big-btn" id="quizStartBtn">▶ クイック（10問）</button>
+        </div>
+        <div class="quiz-mode-card">
+          <span class="quiz-mode-label">プロ</span>
+          <p>全25問を出題。<br>ミリプロ博士はプロで決まる！</p>
+          <button type="button" class="btn btn-ghost quiz-big-btn" id="quizStartPro">▶ プロ（全25問）</button>
+        </div>
+      </div>
     </div>
   </section>
   <section id="quizScreen" class="section quiz-section" style="display:none;">
