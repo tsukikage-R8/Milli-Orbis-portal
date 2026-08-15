@@ -28,20 +28,29 @@ const sources = [
   { id: "official", name: "ミリプロ公式", handle: "@Mil_Pro" }
 ];
 
-async function fetchJson(url) {
-  const res = await fetch(url);
-  if (!res.ok) {
-    const body = await res.text().catch(() => "");
-    let reason = "";
+async function fetchJson(url, tries = 3) {
+  let lastErr = null;
+  for (let i = 0; i < tries; i++) {
     try {
-      const j = JSON.parse(body);
-      if (j.error) reason = ` [${j.error.code || ""} ${j.error.status || ""} ${(j.error.errors || []).map((e) => e.reason || e.message).join(", ")}]`;
+      const res = await fetch(url);
+      if (!res.ok) {
+        const body = await res.text().catch(() => "");
+        let reason = "";
+        try {
+          const j = JSON.parse(body);
+          if (j.error) reason = ` [${j.error.code || ""} ${j.error.status || ""} ${(j.error.errors || []).map((e) => e.reason || e.message).join(", ")}]`;
+        } catch (e) {
+          if (body) reason = ` [${body.slice(0, 200)}]`;
+        }
+        throw new Error(`YouTube API ${res.status}: ${url}${reason}`);
+      }
+      return await res.json();
     } catch (e) {
-      if (body) reason = ` [${body.slice(0, 200)}]`;
+      lastErr = e;
+      if (i < tries - 1) await new Promise((r) => setTimeout(r, 1500 * (i + 1)));
     }
-    throw new Error(`YouTube API ${res.status}: ${url}${reason}`);
   }
-  return res.json();
+  throw lastErr;
 }
 
 const firstPage = async (url) => {
@@ -51,8 +60,15 @@ const firstPage = async (url) => {
 
 const valid = (v) => v && v.id && v.title;
 
+// 検索APIで取得できないがwiki等で確認済みの配信予定（API結果に含まれない場合のみ補完）
+const MANUAL_EXTRA_STREAMS = [
+  { id: "4Ie_l2SI0NM", memberId: "raco", member: "音ノ瀬らこ", channelTitle: "音ノ瀬らこ / OtonoseRaco", title: "???? / 音ノ瀬らこfeat.ゆらぎゆら (cover)", thumb: "", scheduledStartTime: "2026-08-15T20:00:00+09:00", status: "upcoming" },
+  { id: "UhO0Vt03ZMg", memberId: "liz", member: "雨夜リズ", channelTitle: "雨夜リズ / Amayo Liz", title: "【ストリヌ/Minecraft 】影MOD入れたから街ぶらる【雨夜リズ/ミリプロ】", thumb: "", scheduledStartTime: "2026-08-15T20:00:00+09:00", status: "upcoming" }
+];
+
 async function main() {
   const errors = [];
+  const failedIds = new Set();
 
   const channelResults = await Promise.all(
     sources.map(async (s) => {
@@ -63,6 +79,7 @@ async function main() {
         const ch = j.items && j.items[0];
         return ch ? { src: s, playlistId: ch.contentDetails.relatedPlaylists.uploads } : null;
       } catch (e) {
+        failedIds.add(s.id);
         errors.push(`${s.id}: ${e.message}`);
         return null;
       }
@@ -93,6 +110,7 @@ async function main() {
             live: /配信|ライブ|雑談/.test(it.snippet.title)
           }));
         } catch (e) {
+          failedIds.add(src.id);
           errors.push(`${src.id}: ${e.message}`);
           return [];
         }
@@ -144,6 +162,7 @@ async function main() {
           }
           return out;
         } catch (e) {
+          failedIds.add(src.id);
           errors.push(`${src.id} (streams): ${e.message}`);
           return [];
         }
@@ -165,6 +184,41 @@ async function main() {
     videos,
     live: streams.filter((s) => s.status === "live")
   };
+
+  // 失敗したチャンネルの前回データを引き継ぐ（API の一時エラーで配信予定が消えるのを防ぐ）
+  if (failedIds.size > 0) {
+    let prev = null;
+    try { prev = JSON.parse(fs.readFileSync(OUT_FILE, "utf8")); } catch (e) { prev = null; }
+    if (prev) {
+      const now = Date.now();
+      const keepStreams = (prev.streams || []).filter(
+        (s) => failedIds.has(s.memberId) && s.status === "upcoming" && Date.parse(s.scheduledStartTime) > now
+      );
+      const keepVideos = (prev.videos || []).filter((v) => failedIds.has(v.memberId));
+      const seenS = new Set(output.streams.map((v) => v.id));
+      const seenV = new Set(output.videos.map((v) => v.id));
+      keepStreams.forEach((s) => { if (!seenS.has(s.id)) { output.streams.push(s); seenS.add(s.id); } });
+      keepVideos.forEach((v) => { if (!seenV.has(v.id)) { output.videos.push(v); seenV.add(v.id); } });
+    }
+  }
+
+  // wiki 等で確認済みの配信予定を補完（API 結果に含まれない場合のみ）
+  const seenStreams = new Set(output.streams.map((v) => v.id));
+  MANUAL_EXTRA_STREAMS.forEach((s) => {
+    if (Date.parse(s.scheduledStartTime) > Date.now() && !seenStreams.has(s.id)) {
+      output.streams.push(s);
+      seenStreams.add(s.id);
+    }
+  });
+  output.streams.sort((a, b) => {
+    const la = a.status === "live" ? 0 : 1;
+    const lb = b.status === "live" ? 0 : 1;
+    if (la !== lb) return la - lb;
+    return a.scheduledStartTime > b.scheduledStartTime ? 1 : -1;
+  });
+  output.videos.sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
+  output.videos = output.videos.slice(0, 30);
+  output.live = output.streams.filter((s) => s.status === "live");
 
   const invalid = [...output.videos, ...output.streams].filter((v) => !v.id || !v.title);
   if (invalid.length > 0) {

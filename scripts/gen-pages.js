@@ -557,7 +557,7 @@ function simplePage(o) {
 
   <section class="subpage-hero">
     <h1>${o.title}</h1>
-    <p>${esc(o.desc)}</p>
+    <p>${esc(o.desc)}</p>${o.note ? '\n    <p class="cmp-disclaimer">' + esc(o.note) + "</p>" : ""}
   </section>
 
   ${o.body}
@@ -758,6 +758,7 @@ fs.writeFileSync(path.join(outDir, "members.html"), simplePage({
   desc: "ミリプロ全メンバーの期・加入日・誕生日・身長などを一覧で比較できるメンバー比較表。推しの行はハイライトされます。",
   body: `
   <section id="memberCompare" class="section"></section>`,
+  note: "掲載情報はすべて各メンバーの公式プロフィールに基づく事実情報であり、優劣を評価するものではありません。",
   scripts: ""
 }), "utf8");
 console.log("generated: members.html");
