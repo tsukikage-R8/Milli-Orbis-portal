@@ -1,22 +1,33 @@
 /* ============================================
    ミリプロ検定 (quiz.html)
+   依存: data.js の QUIZ のみ（script.js とは独立動作）
    ============================================ */
 (function () {
   "use strict";
 
-  if (typeof QUIZ === "undefined" || !QUIZ.length) return;
+  if (typeof QUIZ === "undefined" || !QUIZ.length) {
+    var msg = document.querySelector("#quizStart");
+    if (msg) msg.innerHTML = '<div class="quiz-card card"><p class="placeholder">問題データが見つかりません。</p></div>';
+    return;
+  }
 
-  var start = $("#quizStart");
-  var screen = $("#quizScreen");
-  var result = $("#quizResult");
-  var rankBox = $("#quizRank");
-  var progress = $("#quizProgress");
-  var qBox = $("#quizQ");
-  var optsBox = $("#quizOpts");
-  var explainBox = $("#quizExplain");
-  var nextBtn = $("#quizNext");
-  var scoreBox = $("#quizScore");
-  var shareBtn = $("#quizShare");
+  function $(id) { return document.getElementById(id); }
+  function esc(s) {
+    return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  }
+
+  var start = $("quizStart");
+  var screen = $("quizScreen");
+  var result = $("quizResult");
+  var rankBox = $("quizRank");
+  var progress = $("quizProgress");
+  var qBox = $("quizQ");
+  var optsBox = $("quizOpts");
+  var explainBox = $("quizExplain");
+  var nextBtn = $("quizNext");
+  var scoreBox = $("quizScore");
+  var shareBtn = $("quizShare");
+  var retryBtn = $("quizRetry");
 
   var idx = 0, score = 0, total = QUIZ.length;
 
@@ -90,7 +101,7 @@
     renderQ();
   });
 
-  $("#quizRetry").addEventListener("click", function () {
+  retryBtn.addEventListener("click", function () {
     result.style.display = "none";
     start.style.display = "block";
   });

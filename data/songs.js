@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-songs.js（変更しないでください） */
-const SONGS = {
-  "generatedAt": "2026-08-14",
+window.SONGS = {
+  "generatedAt": "2026-08-15",
   "official": [
     {
       "id": "JLTCG0i4zfs",
@@ -760,7 +760,17 @@ const SONGS = {
       "urls": [
         {
           "id": "HJ-4iMdfa5o",
+          "memberId": "akubi",
+          "publishedAt": "2024-03-29"
+        },
+        {
+          "id": "HJ-4iMdfa5o",
           "memberId": "konomi",
+          "publishedAt": "2024-03-29"
+        },
+        {
+          "id": "HJ-4iMdfa5o",
+          "memberId": "nono",
           "publishedAt": "2024-03-29"
         }
       ]
@@ -771,8 +781,23 @@ const SONGS = {
       "urls": [
         {
           "id": "HEmqwBrP6gE",
+          "memberId": "akubi",
+          "publishedAt": "2025-08-12"
+        },
+        {
+          "id": "HEmqwBrP6gE",
           "memberId": "konomi",
           "publishedAt": "2024-12-28"
+        },
+        {
+          "id": "HEmqwBrP6gE",
+          "memberId": "nono",
+          "publishedAt": "2024-12-26"
+        },
+        {
+          "id": "HEmqwBrP6gE",
+          "memberId": "raco",
+          "publishedAt": "2024-12-26"
         }
       ]
     },
@@ -782,8 +807,28 @@ const SONGS = {
       "urls": [
         {
           "id": "g5Y9wMxEwKw",
+          "memberId": "akubi",
+          "publishedAt": "2025-08-12"
+        },
+        {
+          "id": "g5Y9wMxEwKw",
           "memberId": "konomi",
           "publishedAt": "2025-06-05"
+        },
+        {
+          "id": "g5Y9wMxEwKw",
+          "memberId": "nono",
+          "publishedAt": "2025-05-14"
+        },
+        {
+          "id": "g5Y9wMxEwKw",
+          "memberId": "raco",
+          "publishedAt": "2025-06-03"
+        },
+        {
+          "id": "g5Y9wMxEwKw",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-07-05"
         }
       ]
     },
@@ -938,6 +983,11 @@ const SONGS = {
           "id": "hCoCIAn_aBE",
           "memberId": "konomi",
           "publishedAt": "2025-04-20"
+        },
+        {
+          "id": "hCoCIAn_aBE",
+          "memberId": "nono",
+          "publishedAt": "2025-04-20"
         }
       ]
     },
@@ -1002,8 +1052,33 @@ const SONGS = {
       "urls": [
         {
           "id": "OH0g_7k-7aI",
+          "memberId": "akubi",
+          "publishedAt": "2025-08-12"
+        },
+        {
+          "id": "OH0g_7k-7aI",
           "memberId": "konomi",
           "publishedAt": "2026-04-01"
+        },
+        {
+          "id": "OH0g_7k-7aI",
+          "memberId": "nono",
+          "publishedAt": "2025-08-16"
+        },
+        {
+          "id": "OH0g_7k-7aI",
+          "memberId": "nuhu",
+          "publishedAt": "2025-08-02"
+        },
+        {
+          "id": "OH0g_7k-7aI",
+          "memberId": "raco",
+          "publishedAt": "2025-08-10"
+        },
+        {
+          "id": "OH0g_7k-7aI",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-07-05"
         }
       ]
     },
@@ -1015,6 +1090,31 @@ const SONGS = {
           "id": "yynYqcLJYPk",
           "memberId": "konomi",
           "publishedAt": "2026-04-01"
+        },
+        {
+          "id": "yynYqcLJYPk",
+          "memberId": "nono",
+          "publishedAt": "2026-06-28"
+        },
+        {
+          "id": "yynYqcLJYPk",
+          "memberId": "nuhu",
+          "publishedAt": "2025-12-24"
+        },
+        {
+          "id": "yynYqcLJYPk",
+          "memberId": "raco",
+          "publishedAt": "2025-12-28"
+        },
+        {
+          "id": "yynYqcLJYPk",
+          "memberId": "rei",
+          "publishedAt": "2026-01-10"
+        },
+        {
+          "id": "yynYqcLJYPk",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-07-05"
         }
       ]
     },
@@ -1048,6 +1148,11 @@ const SONGS = {
           "id": "E45uGT3eqSs",
           "memberId": "konomi",
           "publishedAt": "2026-06-04"
+        },
+        {
+          "id": "E45uGT3eqSs",
+          "memberId": "yura",
+          "publishedAt": "2026-04-05"
         }
       ]
     },
@@ -1123,6 +1228,11 @@ const SONGS = {
       "urls": [
         {
           "id": "McQ8pkr-X6o",
+          "memberId": "akubi",
+          "publishedAt": "2025-03-07"
+        },
+        {
+          "id": "McQ8pkr-X6o",
           "memberId": "nono",
           "publishedAt": "2025-03-07"
         }
@@ -1176,6 +1286,11 @@ const SONGS = {
       "title": "デビルじゃないもん／あくび・でもんすぺーど＆音ノ乃のの",
       "key": "デビルじゃないもん／あくびでもんすぺど＆音ノ乃のの",
       "urls": [
+        {
+          "id": "j6YRSUIg9pM",
+          "memberId": "akubi",
+          "publishedAt": "2024-06-16"
+        },
         {
           "id": "j6YRSUIg9pM",
           "memberId": "nono",
@@ -1565,6 +1680,11 @@ const SONGS = {
           "id": "8v1zfbXMvWY",
           "memberId": "raco",
           "publishedAt": "2026-06-13"
+        },
+        {
+          "id": "8v1zfbXMvWY",
+          "memberId": "yura",
+          "publishedAt": "2026-06-13"
         }
       ]
     },
@@ -1575,6 +1695,11 @@ const SONGS = {
         {
           "id": "srWPlYD9-lQ",
           "memberId": "raco",
+          "publishedAt": "2026-06-13"
+        },
+        {
+          "id": "srWPlYD9-lQ",
+          "memberId": "yura",
           "publishedAt": "2026-06-13"
         }
       ]
@@ -1607,7 +1732,22 @@ const SONGS = {
       "urls": [
         {
           "id": "9yClH5ihXXU",
+          "memberId": "nuhu",
+          "publishedAt": "2026-03-31"
+        },
+        {
+          "id": "9yClH5ihXXU",
           "memberId": "raco",
+          "publishedAt": "2026-03-31"
+        },
+        {
+          "id": "9yClH5ihXXU",
+          "memberId": "rei",
+          "publishedAt": "2026-03-31"
+        },
+        {
+          "id": "9yClH5ihXXU",
+          "memberId": "yura",
           "publishedAt": "2026-03-31"
         }
       ]
@@ -1618,7 +1758,22 @@ const SONGS = {
       "urls": [
         {
           "id": "V2-pPVnIs6E",
+          "memberId": "nuhu",
+          "publishedAt": "2026-03-31"
+        },
+        {
+          "id": "V2-pPVnIs6E",
           "memberId": "raco",
+          "publishedAt": "2026-03-31"
+        },
+        {
+          "id": "V2-pPVnIs6E",
+          "memberId": "rei",
+          "publishedAt": "2026-03-31"
+        },
+        {
+          "id": "V2-pPVnIs6E",
+          "memberId": "yura",
           "publishedAt": "2026-03-31"
         }
       ]
@@ -1629,7 +1784,22 @@ const SONGS = {
       "urls": [
         {
           "id": "HEWHqWlpJn0",
+          "memberId": "nuhu",
+          "publishedAt": "2026-03-31"
+        },
+        {
+          "id": "HEWHqWlpJn0",
           "memberId": "raco",
+          "publishedAt": "2026-03-31"
+        },
+        {
+          "id": "HEWHqWlpJn0",
+          "memberId": "rei",
+          "publishedAt": "2026-03-31"
+        },
+        {
+          "id": "HEWHqWlpJn0",
+          "memberId": "yura",
           "publishedAt": "2026-03-31"
         }
       ]
@@ -1774,6 +1944,11 @@ const SONGS = {
           "id": "LqdUhTK2sCY",
           "memberId": "raco",
           "publishedAt": "2025-03-06"
+        },
+        {
+          "id": "LqdUhTK2sCY",
+          "memberId": "yura",
+          "publishedAt": "2025-03-06"
         }
       ]
     },
@@ -1795,6 +1970,11 @@ const SONGS = {
         {
           "id": "xqq4Z4P8WcQ",
           "memberId": "raco",
+          "publishedAt": "2024-12-08"
+        },
+        {
+          "id": "xqq4Z4P8WcQ",
+          "memberId": "yura",
           "publishedAt": "2024-12-08"
         }
       ]
@@ -1961,6 +2141,11 @@ const SONGS = {
           "id": "0OsSgw7Vxx8",
           "memberId": "nuhu",
           "publishedAt": "2025-04-12"
+        },
+        {
+          "id": "0OsSgw7Vxx8",
+          "memberId": "tsukuri",
+          "publishedAt": "2025-04-12"
         }
       ]
     },
@@ -1971,6 +2156,11 @@ const SONGS = {
         {
           "id": "UHf4Szx02iM",
           "memberId": "nuhu",
+          "publishedAt": "2025-08-10"
+        },
+        {
+          "id": "UHf4Szx02iM",
+          "memberId": "tsukuri",
           "publishedAt": "2025-08-10"
         }
       ]
@@ -1983,6 +2173,11 @@ const SONGS = {
           "id": "vC4afYz_IME",
           "memberId": "nuhu",
           "publishedAt": "2025-07-29"
+        },
+        {
+          "id": "vC4afYz_IME",
+          "memberId": "tsukuri",
+          "publishedAt": "2025-07-29"
         }
       ]
     },
@@ -1993,6 +2188,11 @@ const SONGS = {
         {
           "id": "8YPV-evzmWc",
           "memberId": "nuhu",
+          "publishedAt": "2025-10-03"
+        },
+        {
+          "id": "8YPV-evzmWc",
+          "memberId": "tsukuri",
           "publishedAt": "2025-10-03"
         }
       ]
@@ -2005,6 +2205,11 @@ const SONGS = {
           "id": "Hs-gxOofX1s",
           "memberId": "nuhu",
           "publishedAt": "2025-10-15"
+        },
+        {
+          "id": "Hs-gxOofX1s",
+          "memberId": "tsukuri",
+          "publishedAt": "2025-10-15"
         }
       ]
     },
@@ -2015,6 +2220,11 @@ const SONGS = {
         {
           "id": "8FchJH33Gm0",
           "memberId": "nuhu",
+          "publishedAt": "2025-11-17"
+        },
+        {
+          "id": "8FchJH33Gm0",
+          "memberId": "tsukuri",
           "publishedAt": "2025-11-17"
         }
       ]
@@ -2027,6 +2237,11 @@ const SONGS = {
           "id": "ZhLVhkaT8TY",
           "memberId": "nuhu",
           "publishedAt": "2026-02-19"
+        },
+        {
+          "id": "ZhLVhkaT8TY",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-02-19"
         }
       ]
     },
@@ -2036,7 +2251,17 @@ const SONGS = {
       "urls": [
         {
           "id": "rjT-NkMjoNk",
+          "memberId": "liz",
+          "publishedAt": "2026-03-05"
+        },
+        {
+          "id": "rjT-NkMjoNk",
           "memberId": "nuhu",
+          "publishedAt": "2026-03-05"
+        },
+        {
+          "id": "rjT-NkMjoNk",
+          "memberId": "tsukuri",
           "publishedAt": "2026-03-05"
         }
       ]
@@ -2047,7 +2272,17 @@ const SONGS = {
       "urls": [
         {
           "id": "JZzPZdafddU",
+          "memberId": "liz",
+          "publishedAt": "2026-03-06"
+        },
+        {
+          "id": "JZzPZdafddU",
           "memberId": "nuhu",
+          "publishedAt": "2026-03-06"
+        },
+        {
+          "id": "JZzPZdafddU",
+          "memberId": "tsukuri",
           "publishedAt": "2026-03-06"
         }
       ]
@@ -2060,6 +2295,11 @@ const SONGS = {
           "id": "FicuKhVOyoY",
           "memberId": "nuhu",
           "publishedAt": "2026-05-20"
+        },
+        {
+          "id": "FicuKhVOyoY",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-05-20"
         }
       ]
     },
@@ -2070,6 +2310,11 @@ const SONGS = {
         {
           "id": "XogPaIFnJDo",
           "memberId": "nuhu",
+          "publishedAt": "2026-06-19"
+        },
+        {
+          "id": "XogPaIFnJDo",
+          "memberId": "tsukuri",
           "publishedAt": "2026-06-19"
         }
       ]
@@ -2082,6 +2327,11 @@ const SONGS = {
           "id": "dchqbTKOnjU",
           "memberId": "nuhu",
           "publishedAt": "2026-07-16"
+        },
+        {
+          "id": "dchqbTKOnjU",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-07-16"
         }
       ]
     },
@@ -2089,6 +2339,11 @@ const SONGS = {
       "title": "MOTTAI／小廻こま（cover）",
       "key": "mottai／小廻こま",
       "urls": [
+        {
+          "id": "yUe_--CyBP0",
+          "memberId": "koma",
+          "publishedAt": "2026-07-09"
+        },
         {
           "id": "yUe_--CyBP0",
           "memberId": "tsukuri",
@@ -2113,6 +2368,11 @@ const SONGS = {
       "urls": [
         {
           "id": "UmduleNuT4w",
+          "memberId": "koma",
+          "publishedAt": "2026-07-05"
+        },
+        {
+          "id": "UmduleNuT4w",
           "memberId": "tsukuri",
           "publishedAt": "2026-07-05"
         }
@@ -2122,6 +2382,11 @@ const SONGS = {
       "title": "夜明けと蛍／小廻こま（cover）",
       "key": "夜明けと蛍／小廻こま",
       "urls": [
+        {
+          "id": "ssvo2Umq0sc",
+          "memberId": "koma",
+          "publishedAt": "2026-03-21"
+        },
         {
           "id": "ssvo2Umq0sc",
           "memberId": "tsukuri",
@@ -2135,6 +2400,11 @@ const SONGS = {
       "urls": [
         {
           "id": "E57Q4477Usw",
+          "memberId": "koma",
+          "publishedAt": "2026-03-12"
+        },
+        {
+          "id": "E57Q4477Usw",
           "memberId": "tsukuri",
           "publishedAt": "2026-03-12"
         }
@@ -2144,6 +2414,11 @@ const SONGS = {
       "title": "ガチャガチャきゅ～と・ふぃぎゅ@メイト／小廻こま（cover）",
       "key": "ガチャガチャきゅ～とふぃぎゅ@メイト／小廻こま",
       "urls": [
+        {
+          "id": "aI_xfBX3J5g",
+          "memberId": "koma",
+          "publishedAt": "2026-01-16"
+        },
         {
           "id": "aI_xfBX3J5g",
           "memberId": "tsukuri",
@@ -2157,6 +2432,11 @@ const SONGS = {
       "urls": [
         {
           "id": "DhAXdhSiSjE",
+          "memberId": "koma",
+          "publishedAt": "2025-09-11"
+        },
+        {
+          "id": "DhAXdhSiSjE",
           "memberId": "tsukuri",
           "publishedAt": "2025-09-11"
         }
@@ -2166,6 +2446,11 @@ const SONGS = {
       "title": "男の子の目的は何？／小廻こま（cover）",
       "key": "男の子の目的は何？／小廻こま",
       "urls": [
+        {
+          "id": "2cUDY8t53PM",
+          "memberId": "koma",
+          "publishedAt": "2025-09-21"
+        },
         {
           "id": "2cUDY8t53PM",
           "memberId": "tsukuri",
@@ -2179,6 +2464,11 @@ const SONGS = {
       "urls": [
         {
           "id": "gctwAgW0fC4",
+          "memberId": "koma",
+          "publishedAt": "2025-07-30"
+        },
+        {
+          "id": "gctwAgW0fC4",
           "memberId": "tsukuri",
           "publishedAt": "2025-07-30"
         }
@@ -2188,6 +2478,11 @@ const SONGS = {
       "title": "ボルテッカー／小廻こま（cover）",
       "key": "ボルテッカ／小廻こま",
       "urls": [
+        {
+          "id": "rHp4we1uqr0",
+          "memberId": "koma",
+          "publishedAt": "2025-03-03"
+        },
         {
           "id": "rHp4we1uqr0",
           "memberId": "tsukuri",
@@ -2322,6 +2617,11 @@ const SONGS = {
       "urls": [
         {
           "id": "ytyUGAtfskk",
+          "memberId": "nuhu",
+          "publishedAt": "2025-10-20"
+        },
+        {
+          "id": "ytyUGAtfskk",
           "memberId": "rei",
           "publishedAt": "2025-10-20"
         }
@@ -2333,6 +2633,11 @@ const SONGS = {
       "urls": [
         {
           "id": "eBd8kS-suNo",
+          "memberId": "nuhu",
+          "publishedAt": "2025-10-20"
+        },
+        {
+          "id": "eBd8kS-suNo",
           "memberId": "rei",
           "publishedAt": "2025-10-20"
         }
@@ -2342,6 +2647,11 @@ const SONGS = {
       "title": "Catch You Catch Me",
       "key": "catchyoucatchme虹深°ぬふ",
       "urls": [
+        {
+          "id": "9ZsILJCHx58",
+          "memberId": "nuhu",
+          "publishedAt": "2025-12-27"
+        },
         {
           "id": "9ZsILJCHx58",
           "memberId": "rei",

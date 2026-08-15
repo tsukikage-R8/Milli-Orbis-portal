@@ -3742,3 +3742,15 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
   .quiz-q { font-size: 1rem !important; }
   .song-grid { grid-template-columns: 1fr; }
 }
+
+.song-collab {
+  display: inline-block;
+  align-self: flex-start;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.7rem;
+  color: #fff;
+  background: linear-gradient(135deg, #f2a93b, #ef6a8d);
+  border-radius: 999px;
+  padding: 3px 10px;
+}

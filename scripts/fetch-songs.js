@@ -95,6 +95,28 @@ function displayTitle(t) {
   return s;
 }
 
+const MEMBER_NAMES = {
+  konomi: "甘狼このみ",
+  nono: "音ノ乃のの",
+  akubi: "あくび・でもんすぺーど",
+  koma: "小廻こま",
+  raco: "音ノ瀬らこ",
+  yura: "ゆらぎゆら",
+  nuhu: "虹深°ぬふ",
+  tsukuri: "眠雲ツクリ",
+  liz: "雨夜リズ",
+  rei: "夕霧レイ"
+};
+
+/* タイトル内に他のミリプロメンバー名が含まれるコラボ曲を検出 */
+function collabMembers(title, ownerId) {
+  const found = [];
+  for (const [id, name] of Object.entries(MEMBER_NAMES)) {
+    if (id !== ownerId && title.includes(name)) found.push(id);
+  }
+  return found;
+}
+
 async function main() {
   const official = await fetchPlaylist(PLAYLISTS.official.playlistId);
   const byMember = {};
@@ -124,9 +146,12 @@ async function main() {
         coverMap.set(k, { title: displayTitle(v.title), key: k, urls: [] });
       }
       const group = coverMap.get(k);
-      if (!group.urls.some((u) => u.id === v.id)) {
-        group.urls.push({ id: v.id, memberId, publishedAt: v.publishedAt });
-      }
+      const ids = [memberId].concat(collabMembers(v.title, memberId));
+      ids.forEach((m) => {
+        if (!group.urls.some((u) => u.id === v.id && u.memberId === m)) {
+          group.urls.push({ id: v.id, memberId: m, publishedAt: v.publishedAt });
+        }
+      });
     });
   });
   const coverList = Array.from(coverMap.values())
@@ -143,7 +168,7 @@ async function main() {
     covers: coverList
   };
 
-  const src = "/* 自動生成: node scripts/fetch-songs.js（変更しないでください） */\nconst SONGS = " +
+  const src = "/* 自動生成: node scripts/fetch-songs.js（変更しないでください） */\nwindow.SONGS = " +
     JSON.stringify(out, null, 2) + ";\n";
   const outPath = path.join(__dirname, "..", "data", "songs.js");
   fs.writeFileSync(outPath, src, "utf8");
