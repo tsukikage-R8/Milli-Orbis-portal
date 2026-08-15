@@ -2878,9 +2878,11 @@ body:not([data-member]) .intro-fx { display: none; }
   .grid-4 { grid-template-columns: repeat(2, 1fr); }
   .talent-layout { grid-template-columns: 1fr; }
 }
-@media (max-width: 720px) {
+@media (max-width: 900px) {
   .nav { display: none; }
   .hamburger { display: block; }
+}
+@media (max-width: 720px) {
   .hero { padding-top: 110px; }
   .grid-3, .grid-2 { grid-template-columns: 1fr; }
   .talent-hero { padding: 28px 16px; }
@@ -3438,6 +3440,7 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
 
 /* メンバー比較表（members.html） */
 .member-compare { max-width: 960px; margin: 0 auto; }
+.cmp-disclaimer { color: var(--muted); font-size: 0.8rem; margin: 10px 0 0; }
 .cmp-head { text-align: center; margin-bottom: 18px; }
 .cmp-head h2 { font-size: 1.5rem; margin: 0 0 6px; }
 .cmp-head p { color: var(--muted); font-size: 0.85rem; margin: 0; }
@@ -3966,44 +3969,27 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
 }
 
 /* ---------- PCヘッダーのナビ収まり調整（項目内改行防止・最終カスケード・モバイル値は上書きしない） ---------- */
-@media (min-width: 721px) {
+@media (min-width: 901px) {
   .header-actions { flex: 0 1 auto; min-width: 0; }
 }
-@media (min-width: 721px) and (max-width: 1100px) {
+@media (min-width: 901px) and (max-width: 1100px) {
   .header-inner { padding: 0 14px; gap: 10px; }
   .logo img { height: 28px; }
   .nav { gap: 6px; }
-  .nav a, .nav-drop-btn { font-size: 0.82rem; padding: 5px 10px; }
+  .nav a, .nav-drop-btn { font-size: 0.84rem; padding: 5px 10px; }
   .header-actions { gap: 8px; }
   .oshi-select { min-width: 140px; max-width: 160px; font-size: 0.82rem; padding: 6px 12px; }
 }
-@media (min-width: 721px) and (max-width: 980px) {
+@media (min-width: 901px) and (max-width: 980px) {
   .nav { gap: 5px; }
-  .nav a, .nav-drop-btn { font-size: 0.76rem; padding: 4px 9px; }
+  .nav a, .nav-drop-btn { font-size: 0.78rem; padding: 3px 8px; }
   .logo img { height: 24px; }
   .header-actions { gap: 7px; }
-  .oshi-select { min-width: 118px; max-width: 140px; font-size: 0.78rem; padding: 5px 10px; }
-  .live-badge { font-size: 0.68rem; padding: 4px 9px; }
-}
-@media (min-width: 721px) and (max-width: 900px) {
-  .nav { gap: 4px; }
-  .nav a, .nav-drop-btn { font-size: 0.72rem; padding: 3px 8px; }
-  .oshi-select { min-width: 96px; max-width: 120px; font-size: 0.75rem; padding: 4px 9px; }
-  .live-badge { gap: 4px; font-size: 0.62rem; padding: 3px 7px; }
-}
-@media (min-width: 721px) and (max-width: 800px) {
-  .nav { gap: 4px; }
-  .nav a, .nav-drop-btn { font-size: 0.7rem; padding: 3px 7px; }
-  .logo img { height: 22px; }
-  .oshi-select { min-width: 84px; max-width: 108px; font-size: 0.72rem; padding: 3px 8px; }
-  .header-actions { gap: 6px; }
-  .live-badge { gap: 4px; padding: 3px 8px; }
+  .oshi-select { min-width: 110px; max-width: 140px; font-size: 0.78rem; padding: 5px 10px; }
+  .notif-bell { width: 32px; height: 32px; font-size: 0.95rem; }
 }
 
 /* 通知ベルのモバイル・小画面調整 */
 @media (max-width: 600px) {
   .notif-bell { width: 30px; height: 30px; font-size: 0.9rem; }
-}
-@media (min-width: 721px) and (max-width: 800px) {
-  .notif-bell { width: 32px; height: 32px; font-size: 0.95rem; }
 }
