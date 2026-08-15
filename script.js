@@ -1430,6 +1430,49 @@
     }).join("");
   }
 
+  /* ============ おすすめ楽曲（ホーム） ============ */
+  function renderRecommendedSongs() {
+    var box = $("#recommendList");
+    if (!box) return;
+    var songs = (typeof SONGS !== "undefined" ? SONGS : window.SONGS);
+    if (!songs || !songs.covers) {
+      box.parentElement.style.display = "none";
+      return;
+    }
+    var picks = [];
+    var seen = {};
+    function normKey(s) { return String(s).toLowerCase().replace(/[\s　]/g, ""); }
+    function tryAdd(title, id, memberIds) {
+      var k = normKey(title);
+      if (!k || seen[k]) return false;
+      seen[k] = true;
+      picks.push({ title: title, id: id, memberIds: memberIds });
+      return true;
+    }
+    (songs.official || []).slice(0, 6).forEach(function (v) { tryAdd(v.title, v.id, []); });
+    (songs.covers || []).forEach(function (g) {
+      if (g.urls.length) tryAdd(g.title, g.urls[0].id, g.urls.map(function (u) { return u.memberId; }));
+    });
+    picks = picks.slice(0, 4);
+    if (!picks.length) {
+      box.parentElement.style.display = "none";
+      return;
+    }
+    box.parentElement.style.display = "";
+    box.innerHTML = picks.map(function (p) {
+      var chips = p.memberIds.slice(0, 3).map(function (mid) {
+        var m = getMember(mid);
+        return '<span class="song-member-chip" style="--mc:' + (m ? m.color : "#75b1c0") + '">' + esc(m ? m.name : mid) + "</span>";
+      }).join("");
+      if (p.memberIds.length > 3) chips += '<span class="song-member-more">+' + (p.memberIds.length - 3) + "</span>";
+      return '<a class="song-card card recommend-card" href="https://www.youtube.com/watch?v=' + p.id + '" target="_blank" rel="noopener">' +
+        '<img class="song-thumb" src="https://i.ytimg.com/vi/' + p.id + '/mqdefault.jpg" alt="" loading="lazy">' +
+        '<div class="song-title">' + esc(p.title) + "</div>" +
+        '<div class="song-members">' + chips + "</div>" +
+        '<span class="btn btn-ghost">YouTubeで見る ▶</span></a>';
+    }).join("");
+  }
+
   /* ============ PWA: サービスワーカー登録 ============ */
   function initServiceWorker() {
     if (!("serviceWorker" in navigator)) return;
@@ -1519,6 +1562,7 @@
     renderLaunchers();
     renderGoods();
     renderGameFeature();
+    renderRecommendedSongs();
     initCalendar();
     renderHistory();
     renderLinks();

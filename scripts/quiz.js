@@ -70,6 +70,10 @@
     explainBox.style.display = "block";
     explainBox.innerHTML = (correct ? "✅ 正解！" : "❌ 不正解… 正解は「" + esc(q.opts[q.a]) + "」") +
       "<p>" + esc(q.exp) + "</p>";
+    if (q.link) {
+      var ext = q.link.indexOf("http") === 0 ? ' target="_blank" rel="noopener"' : "";
+      explainBox.innerHTML += '<a class="quiz-ref" href="' + q.link + '"' + ext + ">🔗 " + esc(q.linkLabel || "詳しくはこちら") + "</a>";
+    }
     nextBtn.style.display = "block";
     nextBtn.textContent = idx + 1 >= total ? "結果を見る 🎉" : "次の問題 →";
   }

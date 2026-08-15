@@ -31,6 +31,32 @@
   var keyword = "";
   var memberFilter = "";
 
+  /* ひらがな/カタカナを同一視する検索用正規化（半角→全角→ひらがな→小文字） */
+  function normKana(s) {
+    return String(s).normalize("NFKC").replace(/[\u30A1-\u30F6]/g, function (c) {
+      return String.fromCharCode(c.charCodeAt(0) - 0x60);
+    }).toLowerCase();
+  }
+
+  function thumbHtml(id) {
+    return '<img class="song-thumb" src="https://i.ytimg.com/vi/' + id + '/mqdefault.jpg" alt="" loading="lazy">';
+  }
+
+  /* メンバー検索対象: 名前・読み・ファンネーム・呼称・英語名 */
+  function memberSearchText(m) {
+    if (!m) return "";
+    return [m.name, m.nameEn, m.fanName, m.calls].filter(Boolean).join(" ");
+  }
+
+  function matchKeyword(text) {
+    if (!keyword) return true;
+    return normKana(text).indexOf(keyword) !== -1;
+  }
+
+  function matchMember(m) {
+    return matchKeyword(memberSearchText(m));
+  }
+
   function memberById(id) {
     if (typeof MEMBERS === "undefined" || !MEMBERS) return null;
     for (var i = 0; i < MEMBERS.length; i++) {
@@ -64,11 +90,12 @@
   function officialHtml() {
     var list = data.official || [];
     if (keyword) {
-      list = list.filter(function (v) { return v.title.toLowerCase().indexOf(keyword) !== -1; });
+      list = list.filter(function (v) { return matchKeyword(v.title); });
     }
     if (!list.length) return '<div class="placeholder">該当する楽曲が見つかりません</div>';
     return '<div class="song-grid">' + list.map(function (v) {
       return '<a class="song-card card" href="https://www.youtube.com/watch?v=' + v.id + '" target="_blank" rel="noopener">' +
+        thumbHtml(v.id) +
         '<div class="song-title">' + esc(v.title) + "</div>" +
         '<div class="song-meta">' + esc(v.publishedAt) + "</div>" +
         '<span class="btn btn-ghost">YouTubeで見る ▶</span></a>';
@@ -79,11 +106,9 @@
     var list = (data.covers || []).slice();
     if (keyword) {
       list = list.filter(function (g) {
-        return g.title.toLowerCase().indexOf(keyword) !== -1 ||
-          g.urls.some(function (u) {
-            var m = memberById(u.memberId);
-            return m && m.name.toLowerCase().indexOf(keyword) !== -1;
-          });
+        return matchKeyword(g.title) || g.urls.some(function (u) {
+          return matchMember(memberById(u.memberId));
+        });
       });
     }
     if (memberFilter) {
@@ -91,15 +116,18 @@
     }
     if (!list.length) return '<div class="placeholder">該当する楽曲が見つかりません</div>';
     return '<div class="song-grid">' + list.map(function (g) {
+      var primary = g.urls[0];
       var members = g.urls.map(function (u) {
         var m = memberById(u.memberId);
         return '<a class="song-member-chip" href="https://www.youtube.com/watch?v=' + u.id + '" target="_blank" rel="noopener" style="--mc:' + (m ? m.color : "#75b1c0") + '">' +
           (m ? m.name : esc(u.memberId)) + "</a>";
       }).join("");
-      return '<div class="song-card card song-cover">' +
+      return '<div class="song-card card song-cover" data-url="https://www.youtube.com/watch?v=' + primary.id + '">' +
+        thumbHtml(primary.id) +
         '<div class="song-title">' + esc(g.title) + "</div>" +
         (g.urls.length > 1 ? '<div class="song-collab">コラボ／複数人歌唱</div>' : "") +
         '<div class="song-members">' + members + "</div>" +
+        '<span class="btn btn-ghost">YouTubeで見る ▶</span>' +
         "</div>";
     }).join("") + "</div>";
   }
@@ -121,8 +149,17 @@
   tabCovers.addEventListener("click", function () { setView("covers"); });
 
   search.addEventListener("input", function () {
-    keyword = search.value.trim().toLowerCase();
+    keyword = normKana(search.value.trim());
     render();
+  });
+
+  /* カードタップで該当動画へ（メンバーチップなどのリンク部分を除く） */
+  listBox.addEventListener("click", function (e) {
+    if (e.target.closest("a")) return;
+    var card = e.target.closest(".song-cover");
+    if (card && card.dataset.url) {
+      window.open(card.dataset.url, "_blank", "noopener");
+    }
   });
 
   chips.addEventListener("click", function (e) {
