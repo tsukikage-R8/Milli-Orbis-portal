@@ -204,6 +204,10 @@ function mpRender(uid) {
     renderUserIcon(picon, info);
     picon.style.display = "";
   }
+  var editBox = document.getElementById("mp-edit");
+  if (editBox) editBox.style.display = uid ? "block" : "none";
+  var locked = document.getElementById("mp-edit-locked");
+  if (locked) locked.style.display = uid ? "none" : "block";
   mpFillEditForm(uid);
 }
 
@@ -211,7 +215,7 @@ function mpRender(uid) {
 
 var mpPendingIcon = "";
 
-// 編集フォームに現在のプロフィールを反映
+// 編集フォームに現在のプロフィールを反映（ログイン時のみ表示）
 function mpFillEditForm(uid) {
   var info = mpProfileInfo();
   var nameInput = document.getElementById("mp-edit-name");
@@ -220,9 +224,7 @@ function mpFillEditForm(uid) {
   if (preview) renderUserIcon(preview, { icon: info.icon, playerName: info.name });
   mpPendingIcon = info.icon || "";
   var note = document.getElementById("mp-edit-note");
-  if (note) note.textContent = uid
-    ? "ログイン中の共有アカウント（Milli Games / Unishare / Chronicle と共通）に同期されます"
-    : "連携IDのみのため、この端末に保存されます（ログインすると共有アカウントに同期できます）";
+  if (note) note.textContent = "ログイン中の共有アカウント（Milli Games / Unishare / Chronicle と共通）に同期されます";
   var emojis = document.querySelectorAll(".mp-emoji-btn");
   emojis.forEach(function (b) {
     b.classList.toggle("active", b.dataset.emoji === mpPendingIcon);
@@ -280,48 +282,39 @@ function mpPickIconFile(input) {
   });
 }
 
-// 名前・アイコンを保存（ログイン中は共有DBへ同期、連携IDのみはローカル保存）
+// 名前・アイコンを保存（ログイン中のみ。共有DBへ同期）
 function mpSaveProfile() {
   var nameInput = document.getElementById("mp-edit-name");
   var name = nameInput ? nameInput.value.trim() : "";
   if (!name && !mpPendingIcon) { alert("名前かアイコンを設定してください"); return; }
   var uid = getMilliproUid();
-  if (uid && isAuthAvailable()) {
-    firebase.database().ref("millipro/users/" + uid + "/profile").update({
-      playerName: name,
-      icon: mpPendingIcon,
-      updatedAt: Date.now()
-    }).then(function () {
-      var merged = {
-        playerId: getMilliproPlayerId() || "",
-        playerName: name,
-        icon: mpPendingIcon,
-        comment: (function () {
-          try {
-            var ud = JSON.parse(localStorage.getItem("millipro_userdata"));
-            return (ud && ud.comment) || "";
-          } catch (e) { return ""; }
-        })()
-      };
-      applyMilliproProfile(merged);
-      mpRender(uid);
-      mpRefreshBanner();
-      alert("プロフィールを保存しました（共有アカウントに同期）");
-    }).catch(function (e) {
-      alert("保存に失敗しました: " + (e && e.message ? e.message : e));
-    });
+  if (!uid || !isAuthAvailable()) {
+    alert("名前・アイコンの変更はログイン後に使えます");
     return;
   }
-  var ud = null;
-  try { ud = JSON.parse(localStorage.getItem("millipro_userdata")); } catch (e) {}
-  if (!ud || typeof ud !== "object") ud = { createdAt: Date.now() };
-  ud.playerName = name;
-  ud.icon = mpPendingIcon;
-  ud.updatedAt = Date.now();
-  localStorage.setItem("millipro_userdata", JSON.stringify(ud));
-  mpRender(getMilliproUid());
-  mpRefreshBanner();
-  alert("プロフィールを保存しました（この端末に保存）");
+  firebase.database().ref("millipro/users/" + uid + "/profile").update({
+    playerName: name,
+    icon: mpPendingIcon,
+    updatedAt: Date.now()
+  }).then(function () {
+    var merged = {
+      playerId: getMilliproPlayerId() || "",
+      playerName: name,
+      icon: mpPendingIcon,
+      comment: (function () {
+        try {
+          var ud = JSON.parse(localStorage.getItem("millipro_userdata"));
+          return (ud && ud.comment) || "";
+        } catch (e) { return ""; }
+      })()
+    };
+    applyMilliproProfile(merged);
+    mpRender(uid);
+    mpRefreshBanner();
+    alert("プロフィールを保存しました（共有アカウントに同期）");
+  }).catch(function (e) {
+    alert("保存に失敗しました: " + (e && e.message ? e.message : e));
+  });
 }
 
 // ログイン / 新規登録のタブ切替

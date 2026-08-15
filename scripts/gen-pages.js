@@ -394,7 +394,7 @@ ${introOverlay(m)}
           <button type="button" class="btn btn-ghost" onclick="mpLogout()">ログアウト</button>
         </div>
       </div>
-      <div class="mp-edit">
+      <div id="mp-edit" class="mp-edit">
         <div class="mp-edit-sep">プロフィール編集（名前・アイコン）</div>
         <div class="mp-edit-row">
           <span class="mp-edit-label">名前</span>
@@ -422,6 +422,7 @@ ${introOverlay(m)}
         <p class="mp-edit-note" id="mp-edit-note"></p>
         <button type="button" class="btn mp-submit" onclick="mpSaveProfile()">プロフィールを保存</button>
       </div>
+      <p class="mp-edit-locked" id="mp-edit-locked" style="display:none;">名前・アイコンの変更はログイン後に使えます。</p>
       <div id="mp-account-form">
         <div class="mp-tabs">
           <button type="button" id="mp-tab-login" class="mp-tab active" onclick="mpTab('login')">ログイン</button>
@@ -570,7 +571,7 @@ function simplePage(o) {
           <button type="button" class="btn btn-ghost" onclick="mpLogout()">ログアウト</button>
         </div>
       </div>
-      <div class="mp-edit">
+      <div id="mp-edit" class="mp-edit">
         <div class="mp-edit-sep">プロフィール編集（名前・アイコン）</div>
         <div class="mp-edit-row">
           <span class="mp-edit-label">名前</span>
@@ -598,6 +599,7 @@ function simplePage(o) {
         <p class="mp-edit-note" id="mp-edit-note"></p>
         <button type="button" class="btn mp-submit" onclick="mpSaveProfile()">プロフィールを保存</button>
       </div>
+      <p class="mp-edit-locked" id="mp-edit-locked" style="display:none;">名前・アイコンの変更はログイン後に使えます。</p>
       <div id="mp-account-form">
         <div class="mp-tabs">
           <button type="button" id="mp-tab-login" class="mp-tab active" onclick="mpTab('login')">ログイン</button>

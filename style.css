@@ -3393,6 +3393,7 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
 .mp-emoji-btn:hover { border-color: var(--accent); }
 .mp-emoji-btn.active { border-color: var(--accent-deep); background: var(--accent-soft); }
 .mp-edit-note { font-size: 0.75rem; color: var(--muted); margin-bottom: 10px; }
+.mp-edit-locked { font-size: 0.8rem; color: var(--muted); margin-top: 14px; border-top: 2px dashed var(--accent-soft); padding-top: 12px; }
 :root[data-theme="dark"] .mp-emoji-btn { background: #2c2838; border-color: #3d3850; }
 :root[data-theme="dark"] .mp-emoji-btn:hover { border-color: var(--accent); }
 :root[data-theme="dark"] .mp-emoji-btn.active { border-color: var(--accent); background: #3a3348; }
