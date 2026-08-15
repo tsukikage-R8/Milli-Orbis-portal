@@ -259,7 +259,7 @@
         (item.url ? '<a class="cd-link" href="' + item.url + '">' +
           (item.url.indexOf(".html") > -1 ? "詳細ページへ" : "公式サイトへ") + "</a>" : "") +
         '<div class="cd-actions">' +
-        (item.date ? '<a class="cd-cal" href="' + gcalUrl(item.label + "（" + item.note + "）", item.date) + '" target="_blank" rel="noopener">📅 カレンダーに追加</a>' : "") +
+        (item.date ? '<a class="cd-cal" href="' + gcalUrl(item.label + "（" + item.note + "）", item.date) + '"' + calTarget() + ">📅 カレンダーに追加</a>" : "") +
         "</div>" +
         "</div>";
     }
@@ -430,7 +430,7 @@
           var diff = Math.floor((it.start.getTime() - now.getTime()) / 1000);
           var soon = isLive ? "" : (diff >= 0 ? ' <span class="stream-count">あと' + hoursText(diff) + "</span>" : "");
           var when = isLive ? "配信中" : (b === 0 ? "" : fmtMD(it.start) + " ") + fmtTime(it.start);
-          var cal = isLive ? "" : '<a class="stream-cal" href="' + gcalUrl(s.title, s.scheduledStartTime || s.scheduledStart) + '" target="_blank" rel="noopener">📅 カレンダー</a>';
+          var cal = isLive ? "" : '<a class="stream-cal" href="' + gcalUrl(s.title, s.scheduledStartTime || s.scheduledStart) + '"' + calTarget() + ">📅 カレンダー</a>";
           var remind = isLive ? "" : '<button type="button" class="stream-remind' + (isReminded(s.id) ? " is-active" : "") + '" data-vid="' + s.id + '" data-time="' + (s.scheduledStartTime || s.scheduledStart || "") + '" aria-label="リマインド登録">🔔 リマインド</button>';
           return '<div class="stream-item card">' +
             '<a class="stream-main" href="' + videoUrl(s.id) + '" target="_blank" rel="noopener">' +
@@ -662,6 +662,7 @@
     var start = new Date(startIso);
     if (!start.getTime()) return "#";
     var end = new Date(start.getTime() + 2 * 3600000);
+    if (isTouchMobile()) return icsEventUrl(title, start, end, "Milli Orbis（ミリプロ非公式ファンポータル）の配信予定から追加");
     var fmt = function (d) {
       return "" + d.getFullYear() +
         pad2(d.getMonth() + 1) + pad2(d.getDate()) + "T" +
@@ -675,6 +676,7 @@
 
   /* イベント用: 終日イベント（当日 00:00〜翌日 00:00） */
   function gcalAllDayUrl(title, date, desc) {
+    if (isTouchMobile()) return icsAllDayUrl(title, date, desc);
     var fmt = function (d) {
       return "" + d.getFullYear() + pad2(d.getMonth() + 1) + pad2(d.getDate());
     };
@@ -683,6 +685,63 @@
       encodeURIComponent(title) +
       "&dates=" + fmt(date) + "/" + fmt(end) +
       "&details=" + encodeURIComponent("Milli Orbis（ミリプロ非公式ファンポータル）のイベントカレンダーから追加" + (desc ? "  " + desc : ""));
+  }
+
+  /* ---------- スマホ向け: ネイティブカレンダー（.ics）追加URL ---------- */
+  function isTouchMobile() {
+    var ua = navigator.userAgent || "";
+    if (/iPhone|iPod|iPad|Android/i.test(ua)) return true;
+    if (/Macintosh/i.test(ua) && navigator.maxTouchPoints > 1) return true;
+    return false;
+  }
+
+  function calTarget() {
+    return isTouchMobile() ? "" : ' target="_blank" rel="noopener"';
+  }
+
+  function icsEscape(t) {
+    return String(t).replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\r?\n/g, "\\n");
+  }
+
+  function icsHref(ics) {
+    var body = "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Milli Orbis//JA//EN\r\nCALSCALE:GREGORIAN\r\n" +
+      "BEGIN:VEVENT\r\n" + ics + "END:VEVENT\r\nEND:VCALENDAR";
+    if (/iPhone|iPad|iPod/i.test(navigator.userAgent || "")) {
+      return "data:text/calendar;charset=utf-8," + encodeURIComponent(body);
+    }
+    return URL.createObjectURL(new Blob([body], { type: "text/calendar;charset=utf-8" }));
+  }
+
+  function icsEventUrl(title, start, end, desc) {
+    var fmt = function (d) {
+      return "" + d.getFullYear() + pad2(d.getMonth() + 1) + pad2(d.getDate()) + "T" +
+        pad2(d.getHours()) + pad2(d.getMinutes()) + pad2(d.getSeconds());
+    };
+    var stamp = new Date();
+    return icsHref(
+      "UID:mo-" + stamp.getTime() + "-" + Math.floor(Math.random() * 1e6) + "@milli-orbis\r\n" +
+      "DTSTAMP:" + fmt(stamp) + "\r\n" +
+      "DTSTART:" + fmt(start) + "\r\n" +
+      "DTEND:" + fmt(end) + "\r\n" +
+      "SUMMARY:" + icsEscape(title) + "\r\n" +
+      "DESCRIPTION:" + icsEscape(desc || "") + "\r\n"
+    );
+  }
+
+  function icsAllDayUrl(title, date, desc) {
+    var fmt = function (d) {
+      return "" + d.getFullYear() + pad2(d.getMonth() + 1) + pad2(d.getDate());
+    };
+    var end = new Date(date.getTime() + 86400000);
+    var stamp = new Date();
+    return icsHref(
+      "UID:mo-" + stamp.getTime() + "-" + Math.floor(Math.random() * 1e6) + "@milli-orbis\r\n" +
+      "DTSTAMP:" + fmt(stamp) + "T000000\r\n" +
+      "DTSTART;VALUE=DATE:" + fmt(date) + "\r\n" +
+      "DTEND;VALUE=DATE:" + fmt(end) + "\r\n" +
+      "SUMMARY:" + icsEscape(title) + "\r\n" +
+      "DESCRIPTION:" + icsEscape(desc || "") + "\r\n"
+    );
   }
 
   function hoursText(secs) {
@@ -951,7 +1010,7 @@
       var remind = '<button type="button" class="stream-remind' + (isReminded(key) ? " is-active" : "") + '"' +
         ' data-key="' + key + '" data-time="' + when + '" data-kind="event" data-title="' + esc(ev.title) + '"' +
         ' aria-label="イベント通知">🔔 通知</button>';
-      var cal = '<a class="stream-cal" href="' + gcalAllDayUrl(ev.title, d, ev.desc) + '" target="_blank" rel="noopener">📅 カレンダー</a>';
+      var cal = '<a class="stream-cal" href="' + gcalAllDayUrl(ev.title, d, ev.desc) + '"' + calTarget() + ">📅 カレンダー</a>";
       return '<div class="cal-actions">' + remind + cal + evLink(ev.url, detailLabel) + "</div>";
     }
 
