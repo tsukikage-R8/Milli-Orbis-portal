@@ -808,6 +808,14 @@ const NEWS = [
     en: { tag: "Event", title: "MilliPro Resort Announced", desc: "A real-life event for MilliPro Summer 2026 will be held at Akihabara UDX." }
   },
   {
+    date: "2026-08-15",
+    tag: "新メンバー",
+    title: "【新人加入発表】みんなの心に癒しの魔法を！",
+    desc: "ミリプロに新たなタレントの加入が発表されました。続報をお待ちください！",
+    url: "https://x.com/Mil_Pro_/status/2088551273322733973",
+    en: { tag: "New Member", title: "[New Member Announcement] A healing magic for everyone's heart!", desc: "The joining of a new MilliPro talent has been announced. Stay tuned for more!" }
+  },
+  {
     date: "2026-08-13",
     tag: "コラボ",
     title: "Risdom（リズダム）× ミリプロ コラボ開催決定！",
@@ -887,6 +895,7 @@ const EVENTS = [
 ];
 
 const X_POSTS = [
+  "https://x.com/Mil_Pro_/status/2088551273322733973",
   "https://x.com/Mil_Pro_/status/2086061757869805859",
   "https://x.com/Mil_Pro_/status/2085935896235499775",
   "https://x.com/Mil_Pro_/status/2078068096661627227"
