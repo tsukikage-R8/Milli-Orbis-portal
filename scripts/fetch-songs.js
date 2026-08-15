@@ -80,6 +80,11 @@ function normalizeTitle(t) {
   s = s.replace(/[\s　ー~〜]/g, "");
   s = s.replace(/歌ってみた|カバー|cover|弾いてみた|歌枠|歌って|歌う|歌/gi, "");
   s = s.replace(/[\/|｜:：]/g, "");
+  // メンバー名・「ミリプロ」「Million Production」等のグループ表記を除去して同一曲を統合
+  for (const name of Object.values(MEMBER_NAMES)) {
+    s = s.replace(new RegExp(name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "g"), "");
+  }
+  s = s.replace(/millionproduction|ミリプロ|officialmv|mv/gi, "");
   return s.toLowerCase();
 }
 
@@ -116,6 +121,14 @@ function collabMembers(title, ownerId) {
   }
   return found;
 }
+
+/* グループ曲の参加メンバー上書き（タイトルから自動判定できない既知曲）
+   いずれもメンバー全員（夕霧レイを除く）が参加している全体曲 */
+const ALL_BUT_REI = Object.keys(MEMBER_NAMES).filter((id) => id !== "rei");
+const GROUP_OVERRIDES = {
+  snowhalation: { title: "Snow halation（ミリプロ全体カバー）", members: ALL_BUT_REI },
+  milestone: { title: "Mile Stone / Million Production（ミリプロ全体曲）", members: ALL_BUT_REI }
+};
 
 async function main() {
   const official = await fetchPlaylist(PLAYLISTS.official.playlistId);
@@ -154,8 +167,20 @@ async function main() {
       });
     });
   });
-  const coverList = Array.from(coverMap.values())
-    .map((g) => ({ ...g, urls: g.urls.sort((a, b) => a.memberId.localeCompare(b.memberId)) }))
+    const coverList = Array.from(coverMap.values())
+    .map((g) => {
+      // グループ曲上書き: 参加メンバーに揃え、動画リンクは既存（実在）の動画にフォールバック
+      const ov = GROUP_OVERRIDES[g.key];
+      if (ov) {
+        const fallback = g.urls[0] || { id: "", publishedAt: "" };
+        g.title = ov.title;
+        g.urls = ov.members.map((m) => {
+          const ex = g.urls.find((u) => u.memberId === m);
+          return { id: ex ? ex.id : fallback.id, memberId: m, publishedAt: ex ? ex.publishedAt : fallback.publishedAt };
+        });
+      }
+      return { ...g, urls: g.urls.sort((a, b) => a.memberId.localeCompare(b.memberId)) };
+    })
     .sort((a, b) => {
       const na = Math.max(...a.urls.map((u) => u.publishedAt || ""));
       const nb = Math.max(...b.urls.map((u) => u.publishedAt || ""));

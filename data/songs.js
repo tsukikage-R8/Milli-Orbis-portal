@@ -373,11 +373,6 @@ window.SONGS = {
       "publishedAt": "2025-08-30"
     },
     {
-      "id": "d-IGBfIo3lM",
-      "title": "HYPE SEEKER",
-      "publishedAt": "2025-08-29"
-    },
-    {
       "id": "xs1qSE9xIlo",
       "title": "いますぐ輪廻 covered by 音ノ乃のの",
       "publishedAt": "2025-08-25"
@@ -563,11 +558,6 @@ window.SONGS = {
       "publishedAt": "2024-12-22"
     },
     {
-      "id": "8ehOrvMO7nc",
-      "title": "テトリス / 甘狼このみ（cover）",
-      "publishedAt": "2024-12-21"
-    },
-    {
       "id": "xqq4Z4P8WcQ",
       "title": "劣等上等/音ノ瀬らこ＆ゆらぎゆら (cover)",
       "publishedAt": "2024-12-09"
@@ -591,11 +581,6 @@ window.SONGS = {
       "id": "8HQCK3ORyQQ",
       "title": "アスノヨゾラ哨戒班/音ノ瀬らこ(cover)",
       "publishedAt": "2024-10-27"
-    },
-    {
-      "id": "CkqeBR9eWDU",
-      "title": "ずうっといっしょ！/音ノ瀬らこ(cover)",
-      "publishedAt": "2024-10-11"
     },
     {
       "id": "5KQK9rsErMg",
@@ -756,7 +741,7 @@ window.SONGS = {
   "covers": [
     {
       "title": "サインはB",
-      "key": "サインはb甘狼このみ×音ノ乃のの×あくびでもんすぺど",
+      "key": "サインはb××あくびでもんすぺど",
       "urls": [
         {
           "id": "HJ-4iMdfa5o",
@@ -777,7 +762,7 @@ window.SONGS = {
     },
     {
       "title": "わたしの一番かわいいところ",
-      "key": "わたしの一番かわいいところミリプロ",
+      "key": "わたしの一番かわいいところ",
       "urls": [
         {
           "id": "HEmqwBrP6gE",
@@ -803,7 +788,7 @@ window.SONGS = {
     },
     {
       "title": "トンデモワンダーズ",
-      "key": "トンデモワンダズミリプロ",
+      "key": "トンデモワンダズ",
       "urls": [
         {
           "id": "g5Y9wMxEwKw",
@@ -834,18 +819,23 @@ window.SONGS = {
     },
     {
       "title": "テトリス",
-      "key": "テトリス甘狼このみ",
+      "key": "テトリス",
       "urls": [
         {
           "id": "8ehOrvMO7nc",
           "memberId": "konomi",
           "publishedAt": "2024-12-28"
+        },
+        {
+          "id": "nj0BQtn8ADA",
+          "memberId": "raco",
+          "publishedAt": "2025-02-02"
         }
       ]
     },
     {
       "title": "だいしきゅーだいしゅき",
-      "key": "だいしきゅだいしゅき甘狼このみ",
+      "key": "だいしきゅだいしゅき",
       "urls": [
         {
           "id": "qdZ6eD-nqNc",
@@ -856,7 +846,7 @@ window.SONGS = {
     },
     {
       "title": "キャットラビング",
-      "key": "キャットラビング甘狼このみ",
+      "key": "キャットラビング",
       "urls": [
         {
           "id": "xxMbvSc-fig",
@@ -867,7 +857,7 @@ window.SONGS = {
     },
     {
       "title": "可愛くてごめん",
-      "key": "可愛くてごめん甘狼このみ",
+      "key": "可愛くてごめん",
       "urls": [
         {
           "id": "7RIfInNnoc8",
@@ -878,7 +868,7 @@ window.SONGS = {
     },
     {
       "title": "誇り高きアイドル",
-      "key": "誇り高きアイドル甘狼このみ",
+      "key": "誇り高きアイドル",
       "urls": [
         {
           "id": "AIpLPa_Hs8g",
@@ -889,7 +879,7 @@ window.SONGS = {
     },
     {
       "title": "寝起きヤシの木",
-      "key": "寝起きヤシの木甘狼このみ×兎鞠まり",
+      "key": "寝起きヤシの木×兎鞠まり",
       "urls": [
         {
           "id": "vUpiTCZandE",
@@ -900,7 +890,7 @@ window.SONGS = {
     },
     {
       "title": "陽キャJKに憧れる陰キャJKの歌",
-      "key": "陽キャjkに憧れる陰キャjkの甘狼このみ",
+      "key": "陽キャjkに憧れる陰キャjkの",
       "urls": [
         {
           "id": "jE4S0JgJy3I",
@@ -911,7 +901,7 @@ window.SONGS = {
     },
     {
       "title": "みむかｩわナイストライ",
-      "key": "みむかｩわナイストライ甘狼このみ",
+      "key": "みむかｩわナイストライ",
       "urls": [
         {
           "id": "Fnf8sCKhVvI",
@@ -922,7 +912,7 @@ window.SONGS = {
     },
     {
       "title": "きゅうくらりん",
-      "key": "きゅうくらりん甘狼このみ",
+      "key": "きゅうくらりん",
       "urls": [
         {
           "id": "Xdc-2kleB6E",
@@ -933,18 +923,23 @@ window.SONGS = {
     },
     {
       "title": "ずうっといっしょ！",
-      "key": "ずうっといっしょ！甘狼このみ",
+      "key": "ずうっといっしょ！",
       "urls": [
         {
           "id": "D-Y4wLfTsNU",
           "memberId": "konomi",
           "publishedAt": "2024-12-22"
+        },
+        {
+          "id": "CkqeBR9eWDU",
+          "memberId": "raco",
+          "publishedAt": "2024-10-11"
         }
       ]
     },
     {
       "title": "ぎゅっと。",
-      "key": "ぎゅっと。甘狼このみ",
+      "key": "ぎゅっと。",
       "urls": [
         {
           "id": "Dcov9zht9aY",
@@ -955,7 +950,7 @@ window.SONGS = {
     },
     {
       "title": "恋愛サーキュレーション",
-      "key": "恋愛サキュレション甘狼このみ",
+      "key": "恋愛サキュレション",
       "urls": [
         {
           "id": "Lw8bY6neidA",
@@ -966,7 +961,7 @@ window.SONGS = {
     },
     {
       "title": "Booo!",
-      "key": "booo!甘狼このみ",
+      "key": "booo!",
       "urls": [
         {
           "id": "2hTqfAVMIEk",
@@ -977,7 +972,7 @@ window.SONGS = {
     },
     {
       "title": "だいしきゅーだいしゅき",
-      "key": "だいしきゅだいしゅき甘狼このみ×音ノ乃のの",
+      "key": "だいしきゅだいしゅき×",
       "urls": [
         {
           "id": "hCoCIAn_aBE",
@@ -993,7 +988,7 @@ window.SONGS = {
     },
     {
       "title": "世界一可愛い私",
-      "key": "世界一可愛い私甘狼このみ",
+      "key": "世界一可愛い私",
       "urls": [
         {
           "id": "Fs_npreX0p4",
@@ -1015,7 +1010,7 @@ window.SONGS = {
     },
     {
       "title": "ワールドイズマイン",
-      "key": "ワルドイズマイン甘狼このみ",
+      "key": "ワルドイズマイン",
       "urls": [
         {
           "id": "gFYHMAmcO8Q",
@@ -1026,7 +1021,7 @@ window.SONGS = {
     },
     {
       "title": "The Cute!!!",
-      "key": "thecute!!!甘狼このみ",
+      "key": "thecute!!!",
       "urls": [
         {
           "id": "mvEs3YAbgo0",
@@ -1037,7 +1032,7 @@ window.SONGS = {
     },
     {
       "title": "メランコリック",
-      "key": "メランコリック甘狼このみ",
+      "key": "メランコリック",
       "urls": [
         {
           "id": "CdDbvVbwuNA",
@@ -1048,7 +1043,7 @@ window.SONGS = {
     },
     {
       "title": "ポニーテールとシュシュ",
-      "key": "ポニテルとシュシュミリプロ",
+      "key": "ポニテルとシュシュ",
       "urls": [
         {
           "id": "OH0g_7k-7aI",
@@ -1083,12 +1078,27 @@ window.SONGS = {
       ]
     },
     {
-      "title": "Snow halation",
-      "key": "snowhalationミリプロ",
+      "title": "Snow halation（ミリプロ全体カバー）",
+      "key": "snowhalation",
       "urls": [
         {
           "id": "yynYqcLJYPk",
+          "memberId": "akubi",
+          "publishedAt": "2026-04-01"
+        },
+        {
+          "id": "yynYqcLJYPk",
+          "memberId": "koma",
+          "publishedAt": "2026-04-01"
+        },
+        {
+          "id": "yynYqcLJYPk",
           "memberId": "konomi",
+          "publishedAt": "2026-04-01"
+        },
+        {
+          "id": "yynYqcLJYPk",
+          "memberId": "liz",
           "publishedAt": "2026-04-01"
         },
         {
@@ -1108,19 +1118,19 @@ window.SONGS = {
         },
         {
           "id": "yynYqcLJYPk",
-          "memberId": "rei",
-          "publishedAt": "2026-01-10"
+          "memberId": "tsukuri",
+          "publishedAt": "2026-07-05"
         },
         {
           "id": "yynYqcLJYPk",
-          "memberId": "tsukuri",
-          "publishedAt": "2026-07-05"
+          "memberId": "yura",
+          "publishedAt": "2026-04-01"
         }
       ]
     },
     {
       "title": "想わせ♡らぶりー / 甘狼このみ（official）",
-      "key": "想わせ♡らぶり甘狼このみ",
+      "key": "想わせ♡らぶり",
       "urls": [
         {
           "id": "mCbm0SNXEs0",
@@ -1131,7 +1141,7 @@ window.SONGS = {
     },
     {
       "title": "雑魚",
-      "key": "雑魚甘狼このみ",
+      "key": "雑魚",
       "urls": [
         {
           "id": "cgN55YdBaTg",
@@ -1141,12 +1151,47 @@ window.SONGS = {
       ]
     },
     {
-      "title": "Mile Stone / Million Production",
-      "key": "milestonemillionproduction",
+      "title": "Mile Stone / Million Production（ミリプロ全体曲）",
+      "key": "milestone",
       "urls": [
         {
           "id": "E45uGT3eqSs",
+          "memberId": "akubi",
+          "publishedAt": "2026-06-04"
+        },
+        {
+          "id": "E45uGT3eqSs",
+          "memberId": "koma",
+          "publishedAt": "2026-06-04"
+        },
+        {
+          "id": "E45uGT3eqSs",
           "memberId": "konomi",
+          "publishedAt": "2026-06-04"
+        },
+        {
+          "id": "E45uGT3eqSs",
+          "memberId": "liz",
+          "publishedAt": "2026-06-04"
+        },
+        {
+          "id": "E45uGT3eqSs",
+          "memberId": "nono",
+          "publishedAt": "2026-06-04"
+        },
+        {
+          "id": "E45uGT3eqSs",
+          "memberId": "nuhu",
+          "publishedAt": "2026-06-04"
+        },
+        {
+          "id": "E45uGT3eqSs",
+          "memberId": "raco",
+          "publishedAt": "2026-06-04"
+        },
+        {
+          "id": "E45uGT3eqSs",
+          "memberId": "tsukuri",
           "publishedAt": "2026-06-04"
         },
         {
@@ -1158,7 +1203,7 @@ window.SONGS = {
     },
     {
       "title": "IRIS OUT",
-      "key": "irisoutedby音ノ乃のの",
+      "key": "irisoutedby",
       "urls": [
         {
           "id": "9jF60mq9Qdk",
@@ -1169,7 +1214,7 @@ window.SONGS = {
     },
     {
       "title": "マーシャル・マキシマイザー",
-      "key": "マシャルマキシマイザedby音ノ乃のの",
+      "key": "マシャルマキシマイザedby",
       "urls": [
         {
           "id": "1HdUN5AP5BY",
@@ -1180,7 +1225,7 @@ window.SONGS = {
     },
     {
       "title": "絶頂讃歌",
-      "key": "絶頂讃edby音ノ乃のの",
+      "key": "絶頂讃edby",
       "urls": [
         {
           "id": "ykmdgbsh-8E",
@@ -1191,7 +1236,7 @@ window.SONGS = {
     },
     {
       "title": "INSANE",
-      "key": "insaneedby音ノ乃のの",
+      "key": "insaneedby",
       "urls": [
         {
           "id": "1Y4oEkZIxCo",
@@ -1202,7 +1247,7 @@ window.SONGS = {
     },
     {
       "title": "「ロウワー/ぬゆり」",
-      "key": "ロウワぬゆりedby音ノ乃のの",
+      "key": "ロウワぬゆりedby",
       "urls": [
         {
           "id": "Xbfcg5WS0dg",
@@ -1213,7 +1258,7 @@ window.SONGS = {
     },
     {
       "title": "STAY",
-      "key": "stayedby音ノ乃のの",
+      "key": "stayedby",
       "urls": [
         {
           "id": "_oz38KjIs-o",
@@ -1224,7 +1269,7 @@ window.SONGS = {
     },
     {
       "title": "ロキ",
-      "key": "ロキedby音ノ乃のの＆あくびでもんすぺど",
+      "key": "ロキedby＆あくびでもんすぺど",
       "urls": [
         {
           "id": "McQ8pkr-X6o",
@@ -1240,7 +1285,7 @@ window.SONGS = {
     },
     {
       "title": "生きる",
-      "key": "生きるedby音ノ乃のの",
+      "key": "生きるedby",
       "urls": [
         {
           "id": "QA6h5fXe-Y8",
@@ -1251,7 +1296,7 @@ window.SONGS = {
     },
     {
       "title": "心予報",
-      "key": "心予報edby音ノ乃のの",
+      "key": "心予報edby",
       "urls": [
         {
           "id": "qybR84ferv8",
@@ -1262,7 +1307,7 @@ window.SONGS = {
     },
     {
       "title": "祝福",
-      "key": "祝福edby音ノ乃のの",
+      "key": "祝福edby",
       "urls": [
         {
           "id": "GPo2s-QrOI4",
@@ -1273,7 +1318,7 @@ window.SONGS = {
     },
     {
       "title": "いますぐ輪廻",
-      "key": "いますぐ輪廻edby音ノ乃のの",
+      "key": "いますぐ輪廻edby",
       "urls": [
         {
           "id": "xs1qSE9xIlo",
@@ -1284,7 +1329,7 @@ window.SONGS = {
     },
     {
       "title": "デビルじゃないもん／あくび・でもんすぺーど＆音ノ乃のの",
-      "key": "デビルじゃないもん／あくびでもんすぺど＆音ノ乃のの",
+      "key": "デビルじゃないもん／あくびでもんすぺど＆",
       "urls": [
         {
           "id": "j6YRSUIg9pM",
@@ -1300,7 +1345,7 @@ window.SONGS = {
     },
     {
       "title": "デーモンロード",
-      "key": "デモンロドedby音ノ乃のの",
+      "key": "デモンロドedby",
       "urls": [
         {
           "id": "2TMyd-D2sC0",
@@ -1311,7 +1356,7 @@ window.SONGS = {
     },
     {
       "title": "リードコントロール",
-      "key": "リドコントロルedby音ノ乃のの",
+      "key": "リドコントロルedby",
       "urls": [
         {
           "id": "SlSzGxrsqsU",
@@ -1322,7 +1367,7 @@ window.SONGS = {
     },
     {
       "title": "unravel",
-      "key": "unraveledby音ノ乃のの",
+      "key": "unraveledby",
       "urls": [
         {
           "id": "u5RRk9DZs3M",
@@ -1333,7 +1378,7 @@ window.SONGS = {
     },
     {
       "title": "だから僕は音楽を辞めた",
-      "key": "だから僕は音楽を辞めたedby音ノ乃のの",
+      "key": "だから僕は音楽を辞めたedby",
       "urls": [
         {
           "id": "Lcou3LpxQvY",
@@ -1344,7 +1389,7 @@ window.SONGS = {
     },
     {
       "title": "みむかｩわナイストライ",
-      "key": "みむかｩわナイストライedby音ノ乃のの",
+      "key": "みむかｩわナイストライedby",
       "urls": [
         {
           "id": "AMBOYLBGXIQ",
@@ -1355,7 +1400,7 @@ window.SONGS = {
     },
     {
       "title": "夜に駆ける",
-      "key": "夜に駆けるedby音ノ乃のの",
+      "key": "夜に駆けるedby",
       "urls": [
         {
           "id": "DHNxzf3pGDo",
@@ -1366,7 +1411,7 @@ window.SONGS = {
     },
     {
       "title": "死神",
-      "key": "死神edby音ノ乃のの",
+      "key": "死神edby",
       "urls": [
         {
           "id": "UHiaOvm7DQ0",
@@ -1377,7 +1422,7 @@ window.SONGS = {
     },
     {
       "title": "SPECIALZ",
-      "key": "specialzedby音ノ乃のの",
+      "key": "specialzedby",
       "urls": [
         {
           "id": "TG6Hq_ALDGE",
@@ -1388,7 +1433,7 @@ window.SONGS = {
     },
     {
       "title": "Dec.",
-      "key": "dec.edby音ノ乃のの",
+      "key": "dec.edby",
       "urls": [
         {
           "id": "5KQK9rsErMg",
@@ -1399,7 +1444,7 @@ window.SONGS = {
     },
     {
       "title": "モニタリング",
-      "key": "モニタリングedby音ノ乃のの",
+      "key": "モニタリングedby",
       "urls": [
         {
           "id": "YKU9ZVGdjsU",
@@ -1410,7 +1455,7 @@ window.SONGS = {
     },
     {
       "title": "完全感覚Dreamer",
-      "key": "完全感覚dreameredby音ノ乃のの",
+      "key": "完全感覚dreameredby",
       "urls": [
         {
           "id": "3dJWzjbzwzY",
@@ -1421,7 +1466,7 @@ window.SONGS = {
     },
     {
       "title": "グランドエスケープ",
-      "key": "グランドエスケプedby音ノ乃のの",
+      "key": "グランドエスケプedby",
       "urls": [
         {
           "id": "xC2Vha8ZiCU",
@@ -1432,7 +1477,7 @@ window.SONGS = {
     },
     {
       "title": "Booo!",
-      "key": "booo!edby音ノ乃のの",
+      "key": "booo!edby",
       "urls": [
         {
           "id": "R38eZmK3xfY",
@@ -1443,7 +1488,7 @@ window.SONGS = {
     },
     {
       "title": "フィナーレ。",
-      "key": "フィナレ。edby音ノ乃のの",
+      "key": "フィナレ。edby",
       "urls": [
         {
           "id": "um3dzDKONYA",
@@ -1454,7 +1499,7 @@ window.SONGS = {
     },
     {
       "title": "Tot Ⅿusica",
-      "key": "totⅿusicaedby音ノ乃のの",
+      "key": "totⅿusicaedby",
       "urls": [
         {
           "id": "FHo0tlgHMfM",
@@ -1465,7 +1510,7 @@ window.SONGS = {
     },
     {
       "title": "アイドル",
-      "key": "アイドルedby音ノ乃のの",
+      "key": "アイドルedby",
       "urls": [
         {
           "id": "WDqmop8G-Sk",
@@ -1476,7 +1521,7 @@ window.SONGS = {
     },
     {
       "title": "小悪魔だってかまわない！",
-      "key": "小悪魔だってかまわない！edby音ノ乃のの",
+      "key": "小悪魔だってかまわない！edby",
       "urls": [
         {
           "id": "4WCHsobeMOY",
@@ -1487,7 +1532,7 @@ window.SONGS = {
     },
     {
       "title": "ラビットホール",
-      "key": "ラビットホルedby音ノ乃のの",
+      "key": "ラビットホルedby",
       "urls": [
         {
           "id": "UvRgYD14qao",
@@ -1498,7 +1543,7 @@ window.SONGS = {
     },
     {
       "title": "あぶく",
-      "key": "あぶくedby音ノ乃のの",
+      "key": "あぶくedby",
       "urls": [
         {
           "id": "HIqDEryZgVk",
@@ -1509,7 +1554,7 @@ window.SONGS = {
     },
     {
       "title": "プラネテス",
-      "key": "プラネテスedby音ノ乃のの",
+      "key": "プラネテスedby",
       "urls": [
         {
           "id": "V6-KLtR0t18",
@@ -1663,7 +1708,7 @@ window.SONGS = {
     },
     {
       "title": "フロムトーキョー",
-      "key": "フロムトキョ音ノ瀬らこ",
+      "key": "フロムトキョ",
       "urls": [
         {
           "id": "GgIbQ5mHAQk",
@@ -1674,7 +1719,7 @@ window.SONGS = {
     },
     {
       "title": "点描の唄 / Mrs. GREEN APPLE",
-      "key": "点描の唄mrs.greenappleedbyゆらぎゆら･音ノ瀬らこ",
+      "key": "点描の唄mrs.greenappleedby･",
       "urls": [
         {
           "id": "8v1zfbXMvWY",
@@ -1690,7 +1735,7 @@ window.SONGS = {
     },
     {
       "title": "シス×ラブ",
-      "key": "シス×ラブ音ノ瀬らこ＆ゆらぎゆら",
+      "key": "シス×ラブ＆",
       "urls": [
         {
           "id": "srWPlYD9-lQ",
@@ -1706,7 +1751,7 @@ window.SONGS = {
     },
     {
       "title": "夜明けと蛍",
-      "key": "夜明けと蛍音ノ瀬らこ",
+      "key": "夜明けと蛍",
       "urls": [
         {
           "id": "z-SpGAf-jwA",
@@ -1717,7 +1762,7 @@ window.SONGS = {
     },
     {
       "title": "愛言葉Ⅳ",
-      "key": "愛言葉ⅳ音ノ瀬らこ",
+      "key": "愛言葉ⅳ",
       "urls": [
         {
           "id": "log5cuEG0jE",
@@ -1728,7 +1773,7 @@ window.SONGS = {
     },
     {
       "title": "POP IN 2",
-      "key": "popin2虹深°ぬふ＆音ノ瀬らこ＆ゆらぎゆら",
+      "key": "popin2＆＆",
       "urls": [
         {
           "id": "9yClH5ihXXU",
@@ -1754,7 +1799,7 @@ window.SONGS = {
     },
     {
       "title": "神のまにまに /",
-      "key": "神のまにまにedbyゆらぎゆら音ノ瀬らこ虹深°ぬふ",
+      "key": "神のまにまにedby",
       "urls": [
         {
           "id": "V2-pPVnIs6E",
@@ -1780,7 +1825,7 @@ window.SONGS = {
     },
     {
       "title": "のだ",
-      "key": "のだ音ノ瀬らこ＆ゆらぎゆら＆虹深°ぬふ",
+      "key": "のだ＆＆",
       "urls": [
         {
           "id": "HEWHqWlpJn0",
@@ -1806,7 +1851,7 @@ window.SONGS = {
     },
     {
       "title": "ANIMA",
-      "key": "anima音ノ瀬らこ",
+      "key": "anima",
       "urls": [
         {
           "id": "W5MuSzyfkc0",
@@ -1817,7 +1862,7 @@ window.SONGS = {
     },
     {
       "title": "ロストワンの号哭",
-      "key": "ロストワンの号哭音ノ瀬らこ",
+      "key": "ロストワンの号哭",
       "urls": [
         {
           "id": "GkSxwyWsWoE",
@@ -1828,7 +1873,7 @@ window.SONGS = {
     },
     {
       "title": "ノンブレス・オブリージュ",
-      "key": "ノンブレスオブリジュ音ノ瀬らこ",
+      "key": "ノンブレスオブリジュ",
       "urls": [
         {
           "id": "hxXBx9xwBAs",
@@ -1839,7 +1884,7 @@ window.SONGS = {
     },
     {
       "title": "モニタリング",
-      "key": "モニタリング音ノ瀬らこ",
+      "key": "モニタリング",
       "urls": [
         {
           "id": "6on9a7HF4jo",
@@ -1850,7 +1895,7 @@ window.SONGS = {
     },
     {
       "title": "いますぐ輪廻",
-      "key": "いますぐ輪廻音ノ瀬らこ",
+      "key": "いますぐ輪廻",
       "urls": [
         {
           "id": "_pfPo_zpvFc",
@@ -1861,7 +1906,7 @@ window.SONGS = {
     },
     {
       "title": "プロポーズ",
-      "key": "プロポズ音ノ瀬らこ",
+      "key": "プロポズ",
       "urls": [
         {
           "id": "vbWpR-lj-mY",
@@ -1883,7 +1928,7 @@ window.SONGS = {
     },
     {
       "title": "チェリーポップ",
-      "key": "チェリポップ音ノ瀬らこ",
+      "key": "チェリポップ",
       "urls": [
         {
           "id": "UgpV6bWtt9Q",
@@ -1894,7 +1939,7 @@ window.SONGS = {
     },
     {
       "title": "かくれんぼ",
-      "key": "かくれんぼ音ノ瀬らこ",
+      "key": "かくれんぼ",
       "urls": [
         {
           "id": "00aOOAgwjdM",
@@ -1905,7 +1950,7 @@ window.SONGS = {
     },
     {
       "title": "テレパシ",
-      "key": "テレパシ音ノ瀬らこ",
+      "key": "テレパシ",
       "urls": [
         {
           "id": "b9a2l3QI_64",
@@ -1916,7 +1961,7 @@ window.SONGS = {
     },
     {
       "title": "メンタルチェンソー",
-      "key": "メンタルチェンソ音ノ瀬らこ",
+      "key": "メンタルチェンソ",
       "urls": [
         {
           "id": "MGqwVyUMUVc",
@@ -1927,7 +1972,7 @@ window.SONGS = {
     },
     {
       "title": "UNDEAD",
-      "key": "undead音ノ瀬らこ",
+      "key": "undead",
       "urls": [
         {
           "id": "BY4ZyFll-aE",
@@ -1938,7 +1983,7 @@ window.SONGS = {
     },
     {
       "title": "花の塔 / さユり",
-      "key": "花の塔さユりedbyゆらぎゆら･音ノ瀬らこ",
+      "key": "花の塔さユりedby･",
       "urls": [
         {
           "id": "LqdUhTK2sCY",
@@ -1953,19 +1998,8 @@ window.SONGS = {
       ]
     },
     {
-      "title": "テトリス",
-      "key": "テトリス音ノ瀬らこ",
-      "urls": [
-        {
-          "id": "nj0BQtn8ADA",
-          "memberId": "raco",
-          "publishedAt": "2025-02-02"
-        }
-      ]
-    },
-    {
       "title": "劣等上等",
-      "key": "劣等上等音ノ瀬らこ＆ゆらぎゆら",
+      "key": "劣等上等＆",
       "urls": [
         {
           "id": "xqq4Z4P8WcQ",
@@ -1981,7 +2015,7 @@ window.SONGS = {
     },
     {
       "title": "アスノヨゾラ哨戒班",
-      "key": "アスノヨゾラ哨戒班音ノ瀬らこ",
+      "key": "アスノヨゾラ哨戒班",
       "urls": [
         {
           "id": "8HQCK3ORyQQ",
@@ -1991,19 +2025,8 @@ window.SONGS = {
       ]
     },
     {
-      "title": "ずうっといっしょ！",
-      "key": "ずうっといっしょ！音ノ瀬らこ",
-      "urls": [
-        {
-          "id": "CkqeBR9eWDU",
-          "memberId": "raco",
-          "publishedAt": "2024-10-11"
-        }
-      ]
-    },
-    {
       "title": "アイドル",
-      "key": "アイドル音ノ瀬らこ",
+      "key": "アイドル",
       "urls": [
         {
           "id": "t0JmoVbux2M",
@@ -2014,7 +2037,7 @@ window.SONGS = {
     },
     {
       "title": "愛包ダンスホール",
-      "key": "愛包ダンスホル音ノ瀬らこ",
+      "key": "愛包ダンスホル",
       "urls": [
         {
           "id": "Ye2N2th77r0",
@@ -2025,7 +2048,7 @@ window.SONGS = {
     },
     {
       "title": "オーバーライド",
-      "key": "オバライド音ノ瀬らこ",
+      "key": "オバライド",
       "urls": [
         {
           "id": "8o45-VyOf_U",
@@ -2036,7 +2059,7 @@ window.SONGS = {
     },
     {
       "title": "過去を喰らう / 花譜",
-      "key": "過去を喰らう花譜edbyゆらぎゆら",
+      "key": "過去を喰らう花譜edby",
       "urls": [
         {
           "id": "nyfRz_j65oM",
@@ -2047,7 +2070,7 @@ window.SONGS = {
     },
     {
       "title": "少女レイ /",
-      "key": "少女レイedbyゆらぎゆら",
+      "key": "少女レイedby",
       "urls": [
         {
           "id": "HvAeHfEh2Xg",
@@ -2058,7 +2081,7 @@ window.SONGS = {
     },
     {
       "title": "ド屑 /",
-      "key": "ド屑edbyゆらぎゆら",
+      "key": "ド屑edby",
       "urls": [
         {
           "id": "25AAYo1krlI",
@@ -2069,7 +2092,7 @@ window.SONGS = {
     },
     {
       "title": "心做し/",
-      "key": "心做しedbyゆらぎゆら",
+      "key": "心做しedby",
       "urls": [
         {
           "id": "rHihhJr-hWw",
@@ -2080,7 +2103,7 @@ window.SONGS = {
     },
     {
       "title": "深海少女 -deep sea girl- /",
-      "key": "深海少女-deepseagirl-edbyゆらぎゆら",
+      "key": "深海少女-deepseagirl-edby",
       "urls": [
         {
           "id": "MFvSwBk_p2A",
@@ -2091,7 +2114,7 @@ window.SONGS = {
     },
     {
       "title": "ただ君に晴れ /",
-      "key": "ただ君に晴れedbyゆらぎゆら",
+      "key": "ただ君に晴れedby",
       "urls": [
         {
           "id": "bU4i5h2qqoc",
@@ -2102,7 +2125,7 @@ window.SONGS = {
     },
     {
       "title": "プロポーズ /",
-      "key": "プロポズedbyゆらぎゆら",
+      "key": "プロポズedby",
       "urls": [
         {
           "id": "mZ-PnGIXxpk",
@@ -2113,7 +2136,7 @@ window.SONGS = {
     },
     {
       "title": "メルト /",
-      "key": "メルトedbyゆらぎゆら",
+      "key": "メルトedby",
       "urls": [
         {
           "id": "8g7LySI4GDI",
@@ -2124,7 +2147,7 @@ window.SONGS = {
     },
     {
       "title": "花女/花譜",
-      "key": "花女花譜edbyゆらぎゆら",
+      "key": "花女花譜edby",
       "urls": [
         {
           "id": "3VoAG_NPhno",
@@ -2135,7 +2158,7 @@ window.SONGS = {
     },
     {
       "title": "アンノウン・マザーグース／眠雲ツクリ（cover）",
-      "key": "アンノウンマザグス／眠雲ツクリ",
+      "key": "アンノウンマザグス／",
       "urls": [
         {
           "id": "0OsSgw7Vxx8",
@@ -2151,7 +2174,7 @@ window.SONGS = {
     },
     {
       "title": "ローリンガール／眠雲ツクリ（cover）",
-      "key": "ロリンガル／眠雲ツクリ",
+      "key": "ロリンガル／",
       "urls": [
         {
           "id": "UHf4Szx02iM",
@@ -2167,7 +2190,7 @@ window.SONGS = {
     },
     {
       "title": "1000年生きてる／眠雲ツクリ（cover）",
-      "key": "1000年生きてる／眠雲ツクリ",
+      "key": "1000年生きてる／",
       "urls": [
         {
           "id": "vC4afYz_IME",
@@ -2183,7 +2206,7 @@ window.SONGS = {
     },
     {
       "title": "モニタリング (Best Friend Remix)／眠雲ツクリ（cover）",
-      "key": "モニタリング／眠雲ツクリ",
+      "key": "モニタリング／",
       "urls": [
         {
           "id": "8YPV-evzmWc",
@@ -2199,7 +2222,7 @@ window.SONGS = {
     },
     {
       "title": "ロミオとシンデレラ／眠雲ツクリ（cover）",
-      "key": "ロミオとシンデレラ／眠雲ツクリ",
+      "key": "ロミオとシンデレラ／",
       "urls": [
         {
           "id": "Hs-gxOofX1s",
@@ -2215,7 +2238,7 @@ window.SONGS = {
     },
     {
       "title": "妄想感傷代償連盟／眠雲ツクリ（cover）",
-      "key": "妄想感傷代償連盟／眠雲ツクリ",
+      "key": "妄想感傷代償連盟／",
       "urls": [
         {
           "id": "8FchJH33Gm0",
@@ -2231,7 +2254,7 @@ window.SONGS = {
     },
     {
       "title": "snooze／眠雲ツクリ（cover）",
-      "key": "snooze／眠雲ツクリ",
+      "key": "snooze／",
       "urls": [
         {
           "id": "ZhLVhkaT8TY",
@@ -2247,7 +2270,7 @@ window.SONGS = {
     },
     {
       "title": "magnet／眠雲ツクリ × 雨夜リズ（cover）",
-      "key": "magnet／眠雲ツクリ×雨夜リズ",
+      "key": "magnet／×",
       "urls": [
         {
           "id": "rjT-NkMjoNk",
@@ -2268,7 +2291,7 @@ window.SONGS = {
     },
     {
       "title": "Gimme×Gimme - 八王子P × Giga",
-      "key": "gimme×gimme-八王子p×gigaedby雨夜リズ×眠雲ツクリ",
+      "key": "gimme×gimme-八王子p×gigaedby×",
       "urls": [
         {
           "id": "JZzPZdafddU",
@@ -2289,7 +2312,7 @@ window.SONGS = {
     },
     {
       "title": "DAYBREAK FRONTLINE／眠雲ツクリ（cover）",
-      "key": "daybreakfrontline／眠雲ツクリ",
+      "key": "daybreakfrontline／",
       "urls": [
         {
           "id": "FicuKhVOyoY",
@@ -2305,7 +2328,7 @@ window.SONGS = {
     },
     {
       "title": "ラグトレイン／眠雲ツクリ（cover）",
-      "key": "ラグトレイン／眠雲ツクリ",
+      "key": "ラグトレイン／",
       "urls": [
         {
           "id": "XogPaIFnJDo",
@@ -2321,7 +2344,7 @@ window.SONGS = {
     },
     {
       "title": "Surges／眠雲ツクリ（cover）",
-      "key": "surges／眠雲ツクリ",
+      "key": "surges／",
       "urls": [
         {
           "id": "dchqbTKOnjU",
@@ -2337,7 +2360,7 @@ window.SONGS = {
     },
     {
       "title": "MOTTAI／小廻こま（cover）",
-      "key": "mottai／小廻こま",
+      "key": "mottai／",
       "urls": [
         {
           "id": "yUe_--CyBP0",
@@ -2364,7 +2387,7 @@ window.SONGS = {
     },
     {
       "title": "かすかなはな /",
-      "key": "かすかなはなedby綾見ユラfeat.小廻こま",
+      "key": "かすかなはなedby綾見ユラfeat.",
       "urls": [
         {
           "id": "UmduleNuT4w",
@@ -2380,7 +2403,7 @@ window.SONGS = {
     },
     {
       "title": "夜明けと蛍／小廻こま（cover）",
-      "key": "夜明けと蛍／小廻こま",
+      "key": "夜明けと蛍／",
       "urls": [
         {
           "id": "ssvo2Umq0sc",
@@ -2396,7 +2419,7 @@ window.SONGS = {
     },
     {
       "title": "クローバー♧クラブ -C♧C-／小廻こま（cover）",
-      "key": "クロバ♧クラブ-c♧c-／小廻こま",
+      "key": "クロバ♧クラブ-c♧c-／",
       "urls": [
         {
           "id": "E57Q4477Usw",
@@ -2412,7 +2435,7 @@ window.SONGS = {
     },
     {
       "title": "ガチャガチャきゅ～と・ふぃぎゅ@メイト／小廻こま（cover）",
-      "key": "ガチャガチャきゅ～とふぃぎゅ@メイト／小廻こま",
+      "key": "ガチャガチャきゅ～とふぃぎゅ@メイト／",
       "urls": [
         {
           "id": "aI_xfBX3J5g",
@@ -2428,7 +2451,7 @@ window.SONGS = {
     },
     {
       "title": "青空のラプソディ／小廻こま（cover）",
-      "key": "青空のラプソディ／小廻こま",
+      "key": "青空のラプソディ／",
       "urls": [
         {
           "id": "DhAXdhSiSjE",
@@ -2444,7 +2467,7 @@ window.SONGS = {
     },
     {
       "title": "男の子の目的は何？／小廻こま（cover）",
-      "key": "男の子の目的は何？／小廻こま",
+      "key": "男の子の目的は何？／",
       "urls": [
         {
           "id": "2cUDY8t53PM",
@@ -2460,7 +2483,7 @@ window.SONGS = {
     },
     {
       "title": "いーあるふぁんくらぶ／小廻こま（cover）",
-      "key": "いあるふぁんくらぶ／小廻こま",
+      "key": "いあるふぁんくらぶ／",
       "urls": [
         {
           "id": "gctwAgW0fC4",
@@ -2476,7 +2499,7 @@ window.SONGS = {
     },
     {
       "title": "ボルテッカー／小廻こま（cover）",
-      "key": "ボルテッカ／小廻こま",
+      "key": "ボルテッカ／",
       "urls": [
         {
           "id": "rHp4we1uqr0",
@@ -2492,7 +2515,7 @@ window.SONGS = {
     },
     {
       "title": "ヤミタイガール - れるりり",
-      "key": "ヤミタイガル-れるりりedby雨夜リズ",
+      "key": "ヤミタイガル-れるりりedby",
       "urls": [
         {
           "id": "g5dmsdj-btY",
@@ -2503,7 +2526,7 @@ window.SONGS = {
     },
     {
       "title": "おやすみ泣き声、さよなら歌姫  - クリープハイプ short cover by 雨夜リズ",
-      "key": "おやすみ泣き声、さよなら姫-クリプハイプshortby雨夜リズ",
+      "key": "おやすみ泣き声、さよなら姫-クリプハイプshortby",
       "urls": [
         {
           "id": "-piezDLZU-c",
@@ -2514,7 +2537,7 @@ window.SONGS = {
     },
     {
       "title": "-ERROR - niki",
-      "key": "-error-nikiedby雨夜リズ",
+      "key": "-error-nikiedby",
       "urls": [
         {
           "id": "crDo4vrANXk",
@@ -2525,7 +2548,7 @@ window.SONGS = {
     },
     {
       "title": "プレイ (PLAY) - Giga short cover by 雨夜リズ",
-      "key": "プレイ-gigashortby雨夜リズ",
+      "key": "プレイ-gigashortby",
       "urls": [
         {
           "id": "f1NBS_HkLOs",
@@ -2536,7 +2559,7 @@ window.SONGS = {
     },
     {
       "title": "嫌々 - HALVES short cover by 雨夜リズ",
-      "key": "嫌々-halvesshortby雨夜リズ",
+      "key": "嫌々-halvesshortby",
       "urls": [
         {
           "id": "2GxFJXx1fm8",
@@ -2547,7 +2570,7 @@ window.SONGS = {
     },
     {
       "title": "G4L - Giga",
-      "key": "g4l-gigaedby雨夜リズ",
+      "key": "g4l-gigaedby",
       "urls": [
         {
           "id": "7b5P-9jQhmg",
@@ -2558,7 +2581,7 @@ window.SONGS = {
     },
     {
       "title": "ヒバナ - DECO*27 short cover by 雨夜リズ",
-      "key": "ヒバナ-deco*27shortby雨夜リズ",
+      "key": "ヒバナ-deco*27shortby",
       "urls": [
         {
           "id": "tFU5ja5S5EY",
@@ -2569,7 +2592,7 @@ window.SONGS = {
     },
     {
       "title": "モニタリング (Best Friend Remix) - DECO*27 short cover by 雨夜リズ",
-      "key": "モニタリング-deco*27shortby雨夜リズ",
+      "key": "モニタリング-deco*27shortby",
       "urls": [
         {
           "id": "AfNaFi0CYio",
@@ -2580,7 +2603,7 @@ window.SONGS = {
     },
     {
       "title": "スキスキ絶頂症 - koyori",
-      "key": "スキスキ絶頂症-koyoriedby雨夜リズ",
+      "key": "スキスキ絶頂症-koyoriedby",
       "urls": [
         {
           "id": "Qj_IXGtFTgc",
@@ -2591,7 +2614,7 @@ window.SONGS = {
     },
     {
       "title": "プロポーズ - 内緒のピアス",
-      "key": "プロポズ-内緒のピアスedby雨夜リズ",
+      "key": "プロポズ-内緒のピアスedby",
       "urls": [
         {
           "id": "1PTdUD3r1BY",
@@ -2602,7 +2625,7 @@ window.SONGS = {
     },
     {
       "title": "Tiger  -  HANA",
-      "key": "tiger-hanaedby琶舞＆雨夜リズ",
+      "key": "tiger-hanaedby琶舞＆",
       "urls": [
         {
           "id": "8GrmzSxxJkI",
@@ -2613,7 +2636,7 @@ window.SONGS = {
     },
     {
       "title": "ドレミファロンド",
-      "key": "ドレミファロンド虹深°ぬふ",
+      "key": "ドレミファロンド",
       "urls": [
         {
           "id": "ytyUGAtfskk",
@@ -2629,7 +2652,7 @@ window.SONGS = {
     },
     {
       "title": "恋するフォーチュンクッキー",
-      "key": "恋するフォチュンクッキ虹深°ぬふ＆あつまる＆ぴこぴこぐらむ＆ほし",
+      "key": "恋するフォチュンクッキ＆あつまる＆ぴこぴこぐらむ＆ほし",
       "urls": [
         {
           "id": "eBd8kS-suNo",
@@ -2645,7 +2668,7 @@ window.SONGS = {
     },
     {
       "title": "Catch You Catch Me",
-      "key": "catchyoucatchme虹深°ぬふ",
+      "key": "catchyoucatchme",
       "urls": [
         {
           "id": "9ZsILJCHx58",
