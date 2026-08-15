@@ -3247,6 +3247,13 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
   .intro-catch { padding: 10px 20px; }
   .intro-skip { top: 12px; right: 12px; padding: 6px 14px; font-size: 0.72rem; }
   .intro-stage { padding: 20px 14px; }
+  .intro-stage {
+    max-height: 100vh;
+    max-height: 100dvh;
+    overflow-y: auto;
+    scrollbar-width: none;
+  }
+  .intro-stage::-webkit-scrollbar { display: none; }
   .profile-card.card { padding: 18px; }
 }
 
@@ -3290,6 +3297,23 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
   .evm-desc { font-size: 0.8rem; }
   .cd-cal { font-size: 0.72rem; padding: 4px 12px; }
   .toast { bottom: 76px; max-width: calc(100vw - 28px); padding: 12px 14px; font-size: 0.8rem; }
+  .intro-logo { height: 38px; }
+  .intro-art { width: min(140px, 34vw); margin: 12px 0 4px; border-width: 4px; outline-width: 3px; box-shadow: 0 10px 0 rgba(0, 0, 0, 0.08), 0 16px 32px rgba(0, 0, 0, 0.2); }
+  .intro-name { font-size: clamp(1.3rem, 5.4vw, 1.7rem); margin-top: 6px; }
+  .intro-catch { padding: 10px 16px; border-radius: 18px; line-height: 1.55; }
+  .intro-voice-btn { margin-top: 14px; padding: 7px 15px; font-size: 0.78rem; }
+  .intro-start { bottom: 9vh; padding: 10px 24px; font-size: 0.9rem; }
+}
+
+/* スマホ横持ち・画面が低い場合のイントロ圧縮 */
+@media (orientation: landscape) and (max-height: 540px) {
+  .intro-stage { padding: 8px 14px; }
+  .intro-logo { height: 30px; }
+  .intro-art { width: min(110px, 26vh); margin: 6px 0 2px; }
+  .intro-name { font-size: 1.2rem; margin-top: 4px; }
+  .intro-catch { margin-top: 10px; font-size: 0.85rem; padding: 8px 14px; }
+  .intro-voice-btn { margin-top: 10px; padding: 6px 14px; }
+  .intro-start { bottom: 6vh; padding: 8px 20px; font-size: 0.85rem; }
 }
 
 @media (max-width: 480px) {
@@ -3305,9 +3329,9 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
   .member-catch { font-size: 0.72rem; }
   .talent-hero-art { width: min(150px, 40vw); }
   .talent-hero h1 { font-size: clamp(1.5rem, 5vw, 2rem); }
-  .intro-art { width: min(170px, 38vw); }
-  .intro-name { font-size: clamp(1.4rem, 5vw, 1.9rem); }
-  .intro-catch { font-size: clamp(0.95rem, 3.4vw, 1.2rem); }
+  .intro-art { width: min(130px, 34vw); }
+  .intro-name { font-size: clamp(1.2rem, 5.2vw, 1.55rem); }
+  .intro-catch { font-size: clamp(0.85rem, 3.4vw, 1rem); }
   .oshi-list { gap: 8px; }
   .oshi-option { padding: 8px 10px; font-size: 0.82rem; gap: 8px; }
   .oshi-mark { width: 36px; height: 36px; }
