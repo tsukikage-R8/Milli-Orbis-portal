@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>歌動画まとめ | Milli Orbis</title>
-<meta name="description" content="ミリプロ公式プレイリストとメンバー歌ってみたを自動でまとめた歌動画データベース">
+<title>曲データベース | Milli Orbis</title>
+<meta name="description" content="ミリプロの楽曲・歌動画をまとめたデータベース。歌ってみた・公式楽曲・歌枠を曲単位で検索でき、元曲から誰が歌っているかも調べられます。">
 <link rel="icon" href="images/icon/Milli%20Orbis.ico" sizes="any">
 <link rel="apple-touch-icon" sizes="192x192" href="images/icon/Milli%20Orbis-192.png">
 <link rel="apple-touch-icon" sizes="518x518" href="images/icon/Milli%20Orbis-518.png">
@@ -13,15 +13,15 @@
 <script>try{if(localStorage.getItem("milli-theme")==="dark"||(!localStorage.getItem("milli-theme")&&matchMedia("(prefers-color-scheme: dark)").matches))document.documentElement.dataset.theme="dark";}catch(e){}</script>
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Milli Orbis">
-<meta property="og:title" content="歌動画まとめ | Milli Orbis">
-<meta property="og:description" content="ミリプロ公式プレイリストとメンバー歌ってみたを自動でまとめた歌動画データベース">
+<meta property="og:title" content="曲データベース | Milli Orbis">
+<meta property="og:description" content="ミリプロの楽曲・歌動画をまとめたデータベース。歌ってみた・公式楽曲・歌枠を曲単位で検索でき、元曲から誰が歌っているかも調べられます。">
 <meta property="og:url" content="https://milli-orbis-portal.onrender.com/songs.html">
 <meta property="og:image" content="https://milli-orbis-portal.onrender.com/images/Milli-Orbis-OGP.png">
 <meta property="og:image:width" content="1729">
 <meta property="og:image:height" content="910">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="歌動画まとめ | Milli Orbis">
-<meta name="twitter:description" content="ミリプロ公式プレイリストとメンバー歌ってみたを自動でまとめた歌動画データベース">
+<meta name="twitter:title" content="曲データベース | Milli Orbis">
+<meta name="twitter:description" content="ミリプロの楽曲・歌動画をまとめたデータベース。歌ってみた・公式楽曲・歌枠を曲単位で検索でき、元曲から誰が歌っているかも調べられます。">
 <meta name="twitter:image" content="https://milli-orbis-portal.onrender.com/images/Milli-Orbis-OGP.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -57,8 +57,7 @@
         </div>
       </div>
       <a href="quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
-      <a href="songs.html" data-i18n="nav.songs">歌動画まとめ</a>
-      <a href="songs-master.html" data-i18n="nav.songsMaster">曲まとめ</a>
+      <a href="songs.html" data-i18n="nav.songs">曲データベース</a>
       <a href="index.html#calendar">Event Calendar</a>
       <a href="index.html#links">Official Links</a>
     </nav>
@@ -96,35 +95,49 @@
       <a class="mobile-sub" href="milchan.html">ミリちゃん</a>
       <a href="index.html#calendar">Event Calendar</a>
       <a href="quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
-      <a href="songs.html" data-i18n="nav.songs">歌動画まとめ</a>
-      <a href="songs-master.html" data-i18n="nav.songsMaster">曲まとめ</a>
+      <a href="songs.html" data-i18n="nav.songs">曲データベース</a>
       <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
       <a href="index.html#links">Official Links</a>
   </nav>
 </header>
 
 <main class="container">
-  <nav class="breadcrumb"><a href="index.html">Home</a><span>歌動画まとめ</span></nav>
+  <nav class="breadcrumb"><a href="index.html">Home</a><span>曲データベース</span></nav>
 
   <section class="subpage-hero">
-    <h1>歌動画まとめ</h1>
-    <p>ミリプロ公式プレイリストとメンバー歌ってみたを自動でまとめた歌動画データベース</p>
+    <h1>曲データベース</h1>
+    <p>ミリプロの楽曲・歌動画をまとめたデータベース。歌ってみた・公式楽曲・歌枠を曲単位で検索でき、元曲から誰が歌っているかも調べられます。</p>
   </section>
 
   
   <section class="section">
-    <div class="song-tools">
-      <input id="songsSearch" class="song-search" type="search" placeholder="曲名・メンバー名で検索…" data-i18n-placeholder="songs.search" autocomplete="off">
-      <div class="song-tabs">
-        <button type="button" class="song-tab active" id="songsTabCovers" data-i18n="songs.tabCovers">歌ってみた</button>
-        <button type="button" class="song-tab" id="songsTabOfficial" data-i18n="songs.tabOfficial">公式楽曲</button>
-        <button type="button" class="song-tab" id="songsTabKaraoke" data-i18n="songs.tabKaraoke">歌枠</button>
-      </div>
+    <div class="song-modes">
+      <button type="button" class="song-mode active" id="songsModeVideos" data-i18n="songs.modeVideos">歌動画</button>
+      <button type="button" class="song-mode" id="songsModeMaster" data-i18n="songs.modeMaster">曲まとめ</button>
     </div>
-    <div class="song-chips" id="songsChips"></div>
-    <p class="song-tab-label" id="songsTabLabel"></p>
-    <p class="song-note" id="songsNote" style="display:none;" data-i18n="songs.note"></p>
-    <div id="songsList"></div>
+    <div id="videosSection">
+      <div class="song-tools">
+        <input id="songsSearch" class="song-search" type="search" placeholder="曲名・メンバー名で検索…" data-i18n-placeholder="songs.search" autocomplete="off">
+        <div class="song-tabs">
+          <button type="button" class="song-tab active" id="songsTabCovers" data-i18n="songs.tabCovers">歌ってみた</button>
+          <button type="button" class="song-tab" id="songsTabOfficial" data-i18n="songs.tabOfficial">公式楽曲</button>
+          <button type="button" class="song-tab" id="songsTabKaraoke" data-i18n="songs.tabKaraoke">歌枠</button>
+        </div>
+      </div>
+      <div class="song-chips" id="songsChips"></div>
+      <p class="song-tab-label" id="songsTabLabel"></p>
+      <p class="song-note" id="songsNote" style="display:none;" data-i18n="songs.note"></p>
+      <div id="songsList"></div>
+    </div>
+    <div id="masterSection" style="display:none;">
+      <div class="song-tools">
+        <input id="smSearch" class="song-search" type="search" placeholder="曲名・アーティスト・メンバー名で検索…" data-i18n-placeholder="sm.search" autocomplete="off">
+      </div>
+      <p class="sm-disclaimer" data-i18n="sm.disclaimer">注意: このページの元曲のアーティスト・アルバムジャケット・タイムスタンプは自動取得・自動解析のため、正確でない可能性があります。誤りを見つけた場合はお知らせください。</p>
+      <p class="sm-hint" data-i18n="sm.hint">元曲をタップすると、歌っているタレントと動画リンクが表示されます</p>
+      <p class="song-tab-label" id="smCount"></p>
+      <div id="smList"></div>
+    </div>
   </section>
 </main>
 
@@ -252,5 +265,6 @@
 <script src="data/karaoke.js"></script>
 <script src="scripts/song-data.js"></script>
 <script src="scripts/songs.js"></script>
+<script src="scripts/songs-master.js"></script>
 </body>
 </html>

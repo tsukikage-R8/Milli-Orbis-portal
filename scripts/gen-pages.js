@@ -233,8 +233,7 @@ const navDrop = (home) => `
         </div>
       </div>
       <a href="quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
-      <a href="songs.html" data-i18n="nav.songs">歌動画まとめ</a>
-      <a href="songs-master.html" data-i18n="nav.songsMaster">曲まとめ</a>`;
+      <a href="songs.html" data-i18n="nav.songs">曲データベース</a>`;
 
 const mobileNav = (home) => `
       <a href="${home}#home">Home</a>
@@ -253,8 +252,7 @@ const mobileNav = (home) => `
       <a class="mobile-sub" href="milchan.html">ミリちゃん</a>
       <a href="${home}#calendar">Event Calendar</a>
       <a href="quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
-      <a href="songs.html" data-i18n="nav.songs">歌動画まとめ</a>
-      <a href="songs-master.html" data-i18n="nav.songsMaster">曲まとめ</a>
+      <a href="songs.html" data-i18n="nav.songs">曲データベース</a>
       <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
       <a href="${home}#links">Official Links</a>`;
 
@@ -651,44 +649,41 @@ console.log("generated: quiz.html");
 
 fs.writeFileSync(path.join(outDir, "songs.html"), simplePage({
   file: "songs.html",
-  title: "歌動画まとめ",
-  desc: "ミリプロ公式プレイリストとメンバー歌ってみたを自動でまとめた歌動画データベース",
+  title: "曲データベース",
+  desc: "ミリプロの楽曲・歌動画をまとめたデータベース。歌ってみた・公式楽曲・歌枠を曲単位で検索でき、元曲から誰が歌っているかも調べられます。",
   body: `
   <section class="section">
-    <div class="song-tools">
-      <input id="songsSearch" class="song-search" type="search" placeholder="曲名・メンバー名で検索…" data-i18n-placeholder="songs.search" autocomplete="off">
-      <div class="song-tabs">
-        <button type="button" class="song-tab active" id="songsTabCovers" data-i18n="songs.tabCovers">歌ってみた</button>
-        <button type="button" class="song-tab" id="songsTabOfficial" data-i18n="songs.tabOfficial">公式楽曲</button>
-        <button type="button" class="song-tab" id="songsTabKaraoke" data-i18n="songs.tabKaraoke">歌枠</button>
-      </div>
+    <div class="song-modes">
+      <button type="button" class="song-mode active" id="songsModeVideos" data-i18n="songs.modeVideos">歌動画</button>
+      <button type="button" class="song-mode" id="songsModeMaster" data-i18n="songs.modeMaster">曲まとめ</button>
     </div>
-    <div class="song-chips" id="songsChips"></div>
-    <p class="song-tab-label" id="songsTabLabel"></p>
-    <p class="song-note" id="songsNote" style="display:none;" data-i18n="songs.note"></p>
-    <div id="songsList"></div>
+    <div id="videosSection">
+      <div class="song-tools">
+        <input id="songsSearch" class="song-search" type="search" placeholder="曲名・メンバー名で検索…" data-i18n-placeholder="songs.search" autocomplete="off">
+        <div class="song-tabs">
+          <button type="button" class="song-tab active" id="songsTabCovers" data-i18n="songs.tabCovers">歌ってみた</button>
+          <button type="button" class="song-tab" id="songsTabOfficial" data-i18n="songs.tabOfficial">公式楽曲</button>
+          <button type="button" class="song-tab" id="songsTabKaraoke" data-i18n="songs.tabKaraoke">歌枠</button>
+        </div>
+      </div>
+      <div class="song-chips" id="songsChips"></div>
+      <p class="song-tab-label" id="songsTabLabel"></p>
+      <p class="song-note" id="songsNote" style="display:none;" data-i18n="songs.note"></p>
+      <div id="songsList"></div>
+    </div>
+    <div id="masterSection" style="display:none;">
+      <div class="song-tools">
+        <input id="smSearch" class="song-search" type="search" placeholder="曲名・アーティスト・メンバー名で検索…" data-i18n-placeholder="sm.search" autocomplete="off">
+      </div>
+      <p class="sm-disclaimer" data-i18n="sm.disclaimer">注意: このページの元曲のアーティスト・アルバムジャケット・タイムスタンプは自動取得・自動解析のため、正確でない可能性があります。誤りを見つけた場合はお知らせください。</p>
+      <p class="sm-hint" data-i18n="sm.hint">元曲をタップすると、歌っているタレントと動画リンクが表示されます</p>
+      <p class="song-tab-label" id="smCount"></p>
+      <div id="smList"></div>
+    </div>
   </section>`,
-  scripts: '<script src="data/songs.js"></script>\n<script src="data/songs-extra.js"></script>\n<script src="data/song-master.js"></script>\n<script src="data/karaoke.js"></script>\n<script src="scripts/song-data.js"></script>\n<script src="scripts/songs.js"></script>'
+  scripts: '<script src="data/songs.js"></script>\n<script src="data/songs-extra.js"></script>\n<script src="data/song-master.js"></script>\n<script src="data/karaoke.js"></script>\n<script src="scripts/song-data.js"></script>\n<script src="scripts/songs.js"></script>\n<script src="scripts/songs-master.js"></script>'
 }), "utf8");
 console.log("generated: songs.html");
-
-fs.writeFileSync(path.join(outDir, "songs-master.html"), simplePage({
-  file: "songs-master.html",
-  title: "曲まとめ（元曲から探す）",
-  desc: "元曲から、誰が歌っているかを探せる非公式まとめページ。カバー・歌枠・公式オリジナル曲を元曲単位で表示します。",
-  body: `
-  <section class="section">
-    <div class="song-tools">
-      <input id="smSearch" class="song-search" type="search" placeholder="曲名・アーティスト・メンバー名で検索…" data-i18n-placeholder="sm.search" autocomplete="off">
-    </div>
-    <p class="sm-disclaimer" data-i18n="sm.disclaimer">注意: このページの元曲のアーティスト・アルバムジャケット・タイムスタンプは自動取得・自動解析のため、正確でない可能性があります。誤りを見つけた場合はお知らせください。</p>
-    <p class="sm-hint" data-i18n="sm.hint">元曲をタップすると、歌っているタレントと動画リンクが表示されます</p>
-    <p class="song-tab-label" id="smCount"></p>
-    <div id="smList"></div>
-  </section>`,
-  scripts: '<script src="data/songs.js"></script>\n<script src="data/songs-extra.js"></script>\n<script src="data/song-master.js"></script>\n<script src="data/karaoke.js"></script>\n<script src="scripts/song-data.js"></script>\n<script src="scripts/songs-master.js"></script>'
-}), "utf8");
-console.log("generated: songs-master.html");
 
 fs.writeFileSync(path.join(outDir, "members.html"), simplePage({
   file: "members.html",

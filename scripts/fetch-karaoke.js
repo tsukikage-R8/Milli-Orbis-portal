@@ -117,7 +117,12 @@ async function main() {
   const streams = all.map((v) => {
     const d = details[v.id] || { description: "", duration: 0 };
     const chapters = parseChapters(d.description);
-    const songs = applyEnds(chapters, d.duration);
+    // リレー等でチャプターが参加者名のみ（「曲名 / アーティスト」形式が1つもない）場合は曲とみなさない
+    let songs = applyEnds(chapters, d.duration);
+    if (songs.length && !songs.some((c) => /[\/／]/.test(c.title))) {
+      console.log(`skip relay(no song/artist): ${v.memberId} ${v.id}`);
+      songs = [];
+    }
     return { id: v.id, memberId: v.memberId, publishedAt: v.publishedAt, title: v.title, duration: d.duration, songs };
   }).sort((a, b) => (a.publishedAt > b.publishedAt ? -1 : 1));
 

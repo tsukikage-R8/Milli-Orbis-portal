@@ -31,10 +31,26 @@
   var tabKaraoke = $("songsTabKaraoke");
   var tabLabel = $("songsTabLabel");
   var note = $("songsNote");
+  var modeVideos = $("songsModeVideos");
+  var modeMaster = $("songsModeMaster");
+  var videosSection = $("videosSection");
+  var masterSection = $("masterSection");
 
   var view = "covers";
+  var mode = "videos";
   var keyword = "";
   var memberFilter = "";
+
+  /* モード切替: 歌動画 ⇔ 曲まとめ */
+  function setMode(m) {
+    mode = m;
+    if (videosSection) videosSection.style.display = m === "videos" ? "" : "none";
+    if (masterSection) masterSection.style.display = m === "master" ? "" : "none";
+    if (modeVideos) modeVideos.classList.toggle("active", m === "videos");
+    if (modeMaster) modeMaster.classList.toggle("active", m === "master");
+  }
+  if (modeVideos) modeVideos.addEventListener("click", function () { setMode("videos"); });
+  if (modeMaster) modeMaster.addEventListener("click", function () { setMode("master"); });
 
   /* 歌枠: 自動取得（KARAOKE）＋手動（SONGS_EXTRA.karaoke）を id 単位でマージ（手動優先） */
   var karaokeStreams = SD.mergeKaraoke(autoKaraoke, extra.karaoke || []);

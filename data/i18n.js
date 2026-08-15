@@ -7,8 +7,7 @@ window.I18N = {
   ja: {
     /* ヘッダー・ナビ */
     "nav.quiz": "ミリプロ検定",
-    "nav.songs": "歌動画まとめ",
-    "nav.songsMaster": "曲まとめ",
+    "nav.songs": "曲データベース",
     "nav.compare": "メンバー比較表",
     "nav.memberAll": "Member Guide 一覧へ",
     "header.notif": "通知設定",
@@ -306,6 +305,8 @@ window.I18N = {
 
     /* 楽曲一覧ページ */
     "songs.search": "曲名・メンバー名で検索…",
+    "songs.modeVideos": "歌動画",
+    "songs.modeMaster": "曲まとめ",
     "songs.tabCovers": "歌ってみた",
     "songs.tabOfficial": "公式楽曲",
     "songs.tabKaraoke": "歌枠",
@@ -344,8 +345,7 @@ window.I18N = {
   en: {
     /* Header & nav */
     "nav.quiz": "Quiz",
-    "nav.songs": "Song Videos",
-    "nav.songsMaster": "Songs by Original",
+    "nav.songs": "Song DB",
     "nav.compare": "Compare",
     "nav.memberAll": "All members",
     "header.notif": "Notification settings",
@@ -643,6 +643,8 @@ window.I18N = {
 
     /* Songs page */
     "songs.search": "Search by song or member...",
+    "songs.modeVideos": "Song Videos",
+    "songs.modeMaster": "Songs by Original",
     "songs.tabCovers": "Covers",
     "songs.tabOfficial": "Official",
     "songs.tabKaraoke": "Karaoke",

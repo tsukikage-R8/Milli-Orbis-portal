@@ -3927,6 +3927,25 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
 
 /* ---- 楽曲一覧 ---- */
 .song-tools { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-bottom: 14px; }
+.song-modes { display: flex; gap: 8px; margin-bottom: 16px; }
+.song-mode {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.95rem;
+  padding: 8px 20px;
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.song-mode:hover { border-color: var(--accent-deep); color: var(--accent-deep); }
+.song-mode.active {
+  color: #fff;
+  background: var(--accent-deep);
+  border-color: var(--accent-deep);
+}
 .song-search {
   flex: 1;
   min-width: 220px;
@@ -4130,13 +4149,20 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
 }
 .sm-card {
   display: flex;
-  gap: 12px;
+  flex-direction: column;
+  gap: 10px;
   padding: 14px 16px;
   border-radius: 18px;
   cursor: pointer;
-  transition: transform 0.15s, box-shadow 0.15s;
+  transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
 }
 .sm-card:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
+.sm-card.open { border-color: var(--accent-deep); }
+.sm-top {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
 .sm-jacket-wrap {
   flex: 0 0 auto;
   width: 96px;
@@ -4184,40 +4210,65 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
   gap: 5px;
 }
 .sm-expand-btn {
-  margin-top: auto;
-  align-self: flex-start;
-  padding: 4px 12px;
-  font-size: 0.76rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+  padding: 7px 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: transparent;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
 }
+.sm-expand-btn:hover { border-color: var(--accent-deep); color: var(--accent-deep); }
+.sm-expand-btn::after {
+  content: "";
+  border: solid currentColor;
+  border-width: 0 2px 2px 0;
+  padding: 3px;
+  transform: rotate(45deg);
+  transition: transform 0.15s;
+}
+.sm-card.open .sm-expand-btn::after { transform: rotate(-135deg); }
 .sm-detail {
   display: none;
-  flex-basis: 100%;
-  border-top: 1px dashed var(--border);
-  padding-top: 10px;
-  margin-top: 4px;
+  background: var(--bg-soft);
+  border-radius: 12px;
+  padding: 12px 14px;
 }
 .sm-card.open .sm-detail { display: block; }
 .sm-detail-label {
-  font-size: 0.74rem;
+  font-size: 0.72rem;
   font-weight: 800;
+  letter-spacing: 0.06em;
   color: var(--muted);
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 .sm-versions {
   display: flex;
   flex-direction: column;
-  gap: 6px;
 }
 .sm-version {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 8px;
+  padding: 8px 2px;
+  border-bottom: 1px dashed var(--border);
   font-size: 0.78rem;
   color: var(--muted);
 }
+.sm-version:last-child { border-bottom: none; padding-bottom: 2px; }
+.sm-version .song-member-chip { font-size: 0.8rem; padding: 4px 12px; }
+.sm-version .song-ts { margin-left: 2px; }
+.sm-version .song-vdate { margin-left: auto; }
 @media (max-width: 640px) {
-  .sm-card { flex-wrap: wrap; }
+  .sm-top { flex-wrap: wrap; }
   .sm-jacket-wrap { width: 84px; height: 84px; }
 }
 .recommend-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }

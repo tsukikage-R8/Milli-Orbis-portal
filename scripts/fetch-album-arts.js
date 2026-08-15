@@ -31,14 +31,31 @@ function norm(s) {
   return String(s || "").normalize("NFKC").toLowerCase().replace(/[\s　()（）\[\]【】・〜〜\-'"'"`、。,.!！?？:：/／|｜]/g, "");
 }
 
+/* タイトルから「曲名 / アーティスト」を分解（歌枠チャプター形式） */
+function splitSongArtist(title) {
+  const t = String(title || "").trim();
+  const m = /^(.+?)\s*[/／]\s*(.+)$/.exec(t);
+  if (!m) return { title: t, artist: "" };
+  const song = m[1].trim();
+  const artist = m[2].trim().replace(/\s*[\(（].*$/, "");
+  if (!song || !artist) return { title: t, artist: "" };
+  return { title: song, artist };
+}
+
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-/* iTunes で検索し、最も一致度が高い結果を返す */
+/* iTunes で検索し、最も一致度が高い結果を返す（403 等はリトライ付き） */
 async function searchItunes(title, artistHint) {
   const term = artistHint ? `${artistHint} ${title}` : title;
   const qs = new URLSearchParams({ term, entity: "song", limit: "5", country: "jp", lang: "ja_jp" });
-  const res = await fetch(`https://itunes.apple.com/search?${qs}`);
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  let res = null;
+  for (let attempt = 1; attempt <= 4; attempt++) {
+    res = await fetch(`https://itunes.apple.com/search?${qs}`);
+    if (res.ok) break;
+    if (res.status === 403) throw new Error("HTTP 403 (rate limited)");   // リトライ無意味
+    await sleep(attempt * 2000);
+  }
+  if (!res || !res.ok) throw new Error(`HTTP ${res.status}`);
   const data = await res.json();
   const items = (data.results || []).filter((r) => r.kind === "song" && r.trackName);
   if (!items.length) return null;
@@ -53,6 +70,36 @@ async function searchItunes(title, artistHint) {
   };
 }
 
+/* iTunes が落ちているときのフォールバック: Deezer Search API（キー不要） */
+async function searchDeezer(title, artistHint) {
+  const q = artistHint ? `${artistHint} ${title}` : title;
+  const res = await fetch(`https://api.deezer.com/search?q=${encodeURIComponent(q)}&limit=10`);
+  if (!res.ok) throw new Error(`deezer HTTP ${res.status}`);
+  const data = await res.json();
+  /* カラオケ・インスト・メドレー版は除外（元曲のジャケットが欲しいため） */
+  const karaokeRe = /カラオケ|インスト|instrumental|karaoke|ガイド無し|原曲歌手|メドレー|off vocal|オフボーカル/i;
+  const items = (data.data || []).filter((r) =>
+    r.title && !karaokeRe.test(`${r.title} ${(r.album && r.album.title) || ""}`)
+  );
+  if (!items.length) return null;
+  const want = norm(title);
+  let pick = null;
+  if (artistHint) {
+    const hint = norm(artistHint);
+    pick = items.find((r) => {
+      const an = norm(r.artist && r.artist.name);
+      return an && (an.indexOf(hint) !== -1 || hint.indexOf(an) !== -1);
+    }) || null;
+  }
+  if (!pick) pick = items.find((r) => norm(r.title_short || r.title) === want) || items[0];
+  return {
+    title: pick.title || "",
+    artist: (pick.artist && pick.artist.name) || "",
+    album: (pick.album && pick.album.title) || "",
+    cover: (pick.album && (pick.album.cover_big || pick.album.cover_medium || "")) || ""
+  };
+}
+
 async function main() {
   const w = loadData("songs.js");
   const extra = loadData("songs-extra.js").SONGS_EXTRA || {};
@@ -60,7 +107,8 @@ async function main() {
   const meta = extra.meta || {};
   const songs = w.SONGS || { covers: [] };
 
-  /* key → タイトル（カバー曲の表示タイトルが元曲名として最も信頼できる） */
+  /* key → タイトル（カバー曲の表示タイトルが元曲名として最も信頼できる。
+     歌枠チャプターの「曲名 / アーティスト」が一致すればアーティストヒントとして優先） */
   const targets = new Map();
   (songs.covers || []).forEach((g) => {
     if (!targets.has(g.key)) targets.set(g.key, g.title || g.key);
@@ -68,16 +116,28 @@ async function main() {
   karaoke.forEach((st) => {
     (st.songs || []).forEach((s) => {
       if (!s.key) return;
-      if (!targets.has(s.key)) targets.set(s.key, s.title || s.key);
+      if (targets.has(s.key) && /[\/／]/.test(s.title || "")) {
+        targets.set(s.key, s.title);   // アーティスト付きを優先
+      } else if (!targets.has(s.key)) {
+        targets.set(s.key, s.title || s.key);
+      }
     });
   });
 
   const out = {};
   let done = 0;
   for (const [key, title] of targets) {
-    const artistHint = (meta[key] && meta[key].artist) || "";
+    const metaArtist = (meta[key] && meta[key].artist) || "";
+    const parsed = splitSongArtist(title);
+    const artistHint = metaArtist || parsed.artist;
+    const searchTitle = parsed.artist ? parsed.title : title;
     try {
-      const info = await searchItunes(title, artistHint);
+      let info = null;
+      try {
+        info = await searchItunes(searchTitle, artistHint);
+      } catch (e) {
+        info = await searchDeezer(searchTitle, artistHint);   // iTunes 失敗時は Deezer へ
+      }
       if (info && (info.artist || info.cover)) {
         out[key] = info;
       }
@@ -86,7 +146,7 @@ async function main() {
     }
     done++;
     if (done % 25 === 0) console.log(`searched ${done}/${targets.size}`);
-    await sleep(300);
+    await sleep(4000);
   }
 
   const src = "/* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */\nwindow.SONG_MASTER = " +

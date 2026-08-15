@@ -44,15 +44,16 @@ function normalizeTitle(t) {
     s = s.replace(new RegExp(alias.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "g"), "");
   });
   s = s.replace(/【[^】]*】/g, "");         // 【歌ってみた】等
+  s = s.replace(/https?:\/\/\S+/gi, "");    // URL を除去
   s = s.replace(/\[[^\]]*\]/g, "");         // [ ... ] タグ
   s = s.replace(/（[^）]*）/g, "");          // （字幕）等
   s = s.replace(/\([^)]*\)/g, "");
   s = s.replace(/[「」『』"“”・×]|<\/?[^>]+>/g, "");
   s = s.replace(/[\s　ー~〜]/g, "");
   s = s.replace(/歌ってみた|カバー|cover|弾いてみた|歌枠|歌って|歌う|歌/gi, "");
-  s = s.replace(/[\/|｜:：]/g, "");
+  s = s.replace(/[\/|｜:：／]/g, "");
   s = s.replace(/millionproduction|ミリプロ|officialmv|official|mv/gi, "");
-  s = s.replace(/[\/\-|｜:：]+$/g, "");   // 末尾に残ったセパレータを除去
+  s = s.replace(/[\/\-|｜:：／]+$/g, "");   // 末尾に残ったセパレータを除去
   return s.toLowerCase();
 }
 
@@ -65,6 +66,7 @@ function displayTitle(t) {
   s = s.replace(/\s*-\s*cover\s*$/i, "");           // - cover
   s = s.replace(/\s+covered by\s+[^/]*$/i, "");     // covered by 音ノ乃のの
   s = s.replace(/\s*\(.*?\)\s*$/g, "").trim();
+  s = s.replace(/https?:\/\/\S+/gi, "").trim();       // URL を除去
   s = s.replace(/[\s\/|｜]+$/, "");                  // 末尾のスラッシュ等を除去
   return s;
 }
@@ -81,7 +83,8 @@ const CHAPTER_STOP_PREFIX = [
   "待機", "待機所", "準備", "休憩", "ブレイク",
   "コメント返し", "コメント", "感想", "振り返り", "反省会",
   "おつかれ", "お疲れ", "配信終了", "終了",
-  "リクエスト募集", "メンバーシップ", "スポンサー", "質疑応答", "ぐだぐだ", "だらだら", "本編", "第一部", "第二部"
+  "リクエスト募集", "メンバーシップ", "スポンサー", "質疑応答", "ぐだぐだ", "だらだら", "本編", "第一部", "第二部",
+  "開会式", "閉会式", "開会", "閉会"
 ];
 const CHAPTER_STOP_EXACT = [
   "挨拶", "あいさつ", "オープニング", "オープニングトーク", "イントロ", "OP", "オープニング曲",
@@ -95,7 +98,8 @@ const CHAPTER_STOP_EXACT = [
   "リクエスト募集", "リクエスト", "アンケート", "メンバーシップ", "スポンサー", "スパチャ", "お気持ち",
   "練習", "リハーサル", "発声", "ウォームアップ", "ボイトレ", "準備運動",
   "おまけ", "オマケ", "BGM", "SE", "効果音",
-  "質問", "Q&A", "質疑応答", "ぐだぐだ", "だらだら", "本編", "第一部", "第二部"
+  "質問", "Q&A", "質疑応答", "ぐだぐだ", "だらだら", "本編", "第一部", "第二部",
+  "声入り", "セトリ", "セットリスト"
 ];
 
 /* チャプタータイトルが非歌唱（トーク系）かを判定 */
@@ -133,11 +137,12 @@ function parseChapters(description, opts) {
     if (!m) return;
     const start = tsToSec(m[1]);
     if (start === null) return;
-    const raw = m[2].trim();
+    let raw = m[2].trim().replace(/^[〜~]+\s*/, "");   // リレー形式の先頭「〜」を除去
     if (isTalkChapter(raw)) return;
     const clean = o.cleanTitle ? o.cleanTitle(raw) : displayTitle(raw);
     if (!clean) return;
-    const key = normalizeTitle(clean);
+    // キーは「曲名 / アーティスト」の曲名部分のみ（カバー曲キーと一致させるため）
+    const key = normalizeTitle(clean.split(/[/／]/)[0]);
     if (!key) return;
     chapters.push({ start, title: clean, key });
   });

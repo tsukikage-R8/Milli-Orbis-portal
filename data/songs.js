@@ -125,7 +125,7 @@ window.SONGS = {
     },
     {
       "title": "Surges／眠雲ツクリ（cover）",
-      "key": "surges／",
+      "key": "surges",
       "urls": [
         {
           "id": "dchqbTKOnjU",
@@ -147,7 +147,7 @@ window.SONGS = {
     },
     {
       "title": "MOTTAI／小廻こま（cover）",
-      "key": "mottai／",
+      "key": "mottai",
       "urls": [
         {
           "id": "yUe_--CyBP0",
@@ -191,7 +191,7 @@ window.SONGS = {
     },
     {
       "title": "ラグトレイン／眠雲ツクリ（cover）",
-      "key": "ラグトレイン／",
+      "key": "ラグトレイン",
       "urls": [
         {
           "id": "XogPaIFnJDo",
@@ -248,6 +248,11 @@ window.SONGS = {
       "key": "夜明けと蛍",
       "urls": [
         {
+          "id": "ssvo2Umq0sc",
+          "memberId": "koma",
+          "publishedAt": "2026-03-22"
+        },
+        {
           "id": "z-SpGAf-jwA",
           "memberId": "raco",
           "publishedAt": "2026-06-08"
@@ -278,7 +283,7 @@ window.SONGS = {
     },
     {
       "title": "DAYBREAK FRONTLINE／眠雲ツクリ（cover）",
-      "key": "daybreakfrontline／",
+      "key": "daybreakfrontline",
       "urls": [
         {
           "id": "FicuKhVOyoY",
@@ -317,6 +322,11 @@ window.SONGS = {
           "id": "MxrnywtLkR0",
           "memberId": "akubi",
           "publishedAt": "2026-05-28"
+        },
+        {
+          "id": "Hs-gxOofX1s",
+          "memberId": "tsukuri",
+          "publishedAt": "2025-10-16"
         }
       ]
     },
@@ -395,17 +405,6 @@ window.SONGS = {
       ]
     },
     {
-      "title": "夜明けと蛍／小廻こま（cover）",
-      "key": "夜明けと蛍／",
-      "urls": [
-        {
-          "id": "ssvo2Umq0sc",
-          "memberId": "koma",
-          "publishedAt": "2026-03-22"
-        }
-      ]
-    },
-    {
       "title": "ワールドイズマイン - ryo（supercell）",
       "key": "ワルドイズマイン-ryo",
       "urls": [
@@ -418,7 +417,7 @@ window.SONGS = {
     },
     {
       "title": "クローバー♧クラブ -C♧C-／小廻こま（cover）",
-      "key": "クロバ♧クラブ-c♧c-／",
+      "key": "クロバ♧クラブ-c♧c",
       "urls": [
         {
           "id": "E57Q4477Usw",
@@ -429,7 +428,7 @@ window.SONGS = {
     },
     {
       "title": "magnet／眠雲ツクリ × 雨夜リズ（cover）",
-      "key": "magnet／",
+      "key": "magnet",
       "urls": [
         {
           "id": "rjT-NkMjoNk",
@@ -472,7 +471,7 @@ window.SONGS = {
     },
     {
       "title": "snooze／眠雲ツクリ（cover）",
-      "key": "snooze／",
+      "key": "snooze",
       "urls": [
         {
           "id": "ZhLVhkaT8TY",
@@ -505,7 +504,7 @@ window.SONGS = {
     },
     {
       "title": "ガチャガチャきゅ～と・ふぃぎゅ@メイト／小廻こま（cover）",
-      "key": "ガチャガチャきゅ～とふぃぎゅ@メイト／",
+      "key": "ガチャガチャきゅ～とふぃぎゅ@メイト",
       "urls": [
         {
           "id": "aI_xfBX3J5g",
@@ -688,7 +687,7 @@ window.SONGS = {
     },
     {
       "title": "妄想感傷代償連盟／眠雲ツクリ（cover）",
-      "key": "妄想感傷代償連盟／",
+      "key": "妄想感傷代償連盟",
       "urls": [
         {
           "id": "8FchJH33Gm0",
@@ -786,17 +785,11 @@ window.SONGS = {
           "id": "6on9a7HF4jo",
           "memberId": "raco",
           "publishedAt": "2025-10-17"
-        }
-      ]
-    },
-    {
-      "title": "ロミオとシンデレラ／眠雲ツクリ（cover）",
-      "key": "ロミオとシンデレラ／",
-      "urls": [
+        },
         {
-          "id": "Hs-gxOofX1s",
+          "id": "8YPV-evzmWc",
           "memberId": "tsukuri",
-          "publishedAt": "2025-10-16"
+          "publishedAt": "2025-10-04"
         }
       ]
     },
@@ -818,23 +811,12 @@ window.SONGS = {
     },
     {
       "title": "青空のラプソディ／小廻こま（cover）",
-      "key": "青空のラプソディ／",
+      "key": "青空のラプソディ",
       "urls": [
         {
           "id": "DhAXdhSiSjE",
           "memberId": "koma",
           "publishedAt": "2025-10-12"
-        }
-      ]
-    },
-    {
-      "title": "モニタリング (Best Friend Remix)／眠雲ツクリ（cover）",
-      "key": "モニタリング／",
-      "urls": [
-        {
-          "id": "8YPV-evzmWc",
-          "memberId": "tsukuri",
-          "publishedAt": "2025-10-04"
         }
       ]
     },
@@ -900,7 +882,7 @@ window.SONGS = {
     },
     {
       "title": "男の子の目的は何？／小廻こま（cover）",
-      "key": "男の子の目的は何？／",
+      "key": "男の子の目的は何？",
       "urls": [
         {
           "id": "2cUDY8t53PM",
@@ -911,7 +893,7 @@ window.SONGS = {
     },
     {
       "title": "1000年生きてる／眠雲ツクリ（cover）",
-      "key": "1000年生きてる／",
+      "key": "1000年生きてる",
       "urls": [
         {
           "id": "vC4afYz_IME",
@@ -949,7 +931,7 @@ window.SONGS = {
     },
     {
       "title": "ローリンガール／眠雲ツクリ（cover）",
-      "key": "ロリンガル／",
+      "key": "ロリンガル",
       "urls": [
         {
           "id": "UHf4Szx02iM",
@@ -1034,7 +1016,7 @@ window.SONGS = {
     },
     {
       "title": "いーあるふぁんくらぶ／小廻こま（cover）",
-      "key": "いあるふぁんくらぶ／",
+      "key": "いあるふぁんくらぶ",
       "urls": [
         {
           "id": "gctwAgW0fC4",
@@ -1147,7 +1129,7 @@ window.SONGS = {
     },
     {
       "title": "アンノウン・マザーグース／眠雲ツクリ（cover）",
-      "key": "アンノウンマザグス／",
+      "key": "アンノウンマザグス",
       "urls": [
         {
           "id": "0OsSgw7Vxx8",
@@ -1229,7 +1211,7 @@ window.SONGS = {
     },
     {
       "title": "ボルテッカー／小廻こま（cover）",
-      "key": "ボルテッカ／",
+      "key": "ボルテッカ",
       "urls": [
         {
           "id": "rHp4we1uqr0",
@@ -1337,7 +1319,7 @@ window.SONGS = {
     },
     {
       "title": "フィクサー／あくび・でもんすぺーど（cover）",
-      "key": "フィクサ／",
+      "key": "フィクサ",
       "urls": [
         {
           "id": "UNDur4sv8_Y",
@@ -1493,7 +1475,7 @@ window.SONGS = {
     },
     {
       "title": "青と夏／あくび・でもんすぺーど（cover）",
-      "key": "青と夏／",
+      "key": "青と夏",
       "urls": [
         {
           "id": "DjNbcHCxVD4",
@@ -1520,7 +1502,7 @@ window.SONGS = {
     },
     {
       "title": "悪魔の踊り方／あくび・でもんすぺーど（cover）",
-      "key": "悪魔の踊り方／",
+      "key": "悪魔の踊り方",
       "urls": [
         {
           "id": "kpyynMWu-o0",
@@ -1553,7 +1535,7 @@ window.SONGS = {
     },
     {
       "title": "デビルじゃないもん／あくび・でもんすぺーど＆音ノ乃のの",
-      "key": "デビルじゃないもん／＆",
+      "key": "デビルじゃないもん＆",
       "urls": [
         {
           "id": "j6YRSUIg9pM",

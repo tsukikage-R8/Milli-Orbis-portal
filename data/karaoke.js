@@ -248,97 +248,91 @@ window.KARAOKE = [
     "duration": 7468,
     "songs": [
       {
-        "key": "声入り",
-        "title": "声入り",
-        "start": 86,
-        "end": 304
-      },
-      {
-        "key": "プロポズなとり",
+        "key": "プロポズ",
         "title": "プロポーズ / なとり",
         "start": 304,
         "end": 660
       },
       {
-        "key": "クエスチョンmeiyo",
+        "key": "クエスチョン",
         "title": "クエスチョン / meiyo",
         "start": 660,
         "end": 1020
       },
       {
-        "key": "トンツカタンタンクレイジウォウウォ!!",
+        "key": "トンツカタンタン",
         "title": "トンツカタンタン / クレイジーウォウウォ!!",
         "start": 1020,
         "end": 1295
       },
       {
-        "key": "テトリス柊マグネタイト",
+        "key": "テトリス",
         "title": "テトリス / 柊マグネタイト",
         "start": 1295,
         "end": 1713
       },
       {
-        "key": "ウタカタララバイado",
+        "key": "ウタカタララバイ",
         "title": "ウタカタララバイ / Ado",
         "start": 1713,
         "end": 2150
       },
       {
-        "key": "インフェルノmrs.greenapple",
+        "key": "インフェルノ",
         "title": "インフェルノ / Mrs. GREEN APPLE",
         "start": 2150,
         "end": 2368
       },
       {
-        "key": "オドルプフレデリック",
+        "key": "オドルプ",
         "title": "オドループ / フレデリック",
         "start": 2368,
         "end": 2874
       },
       {
-        "key": "チュルリラチュルリラダッダッダ!和田たけあき",
+        "key": "チュルリラチュルリラダッダッダ!",
         "title": "チュルリラ・チュルリラ・ダッダッダ! / 和田たけあき",
         "start": 2874,
         "end": 3256
       },
       {
-        "key": "タッチ岩崎良美",
+        "key": "タッチ",
         "title": "タッチ / 岩崎良美",
         "start": 3256,
         "end": 3452
       },
       {
-        "key": "オバライド吉田夜世",
+        "key": "オバライド",
         "title": "オーバーライド / 吉田夜世",
         "start": 3452,
         "end": 3762
       },
       {
-        "key": "バゥムクゥヘンエンドロゥル雨良",
+        "key": "バゥムクゥヘンエンドロゥル",
         "title": "バゥムクゥヘン・エンドロゥル / 雨良",
         "start": 3762,
         "end": 4144
       },
       {
-        "key": "スピカロクデナシ",
+        "key": "スピカ",
         "title": "スピカ / ロクデナシ",
         "start": 4144,
         "end": 4661
       },
       {
-        "key": "フォニイツミキ",
+        "key": "フォニイ",
         "title": "フォニイ / ツミキ",
         "start": 4661,
         "end": 4928
       },
       {
-        "key": "35万人達成🎉キ〇ピオ",
+        "key": "35万人達成🎉",
         "title": "35万人達成🎉 / キ〇ピオ",
         "start": 4928,
         "end": 5095
       },
       {
-        "key": "ボルテッカdeco*27",
+        "key": "ボルテッカ",
         "title": "ボルテッカー / DECO*27",
         "start": 5095,
         "end": 5893
@@ -815,97 +809,91 @@ window.KARAOKE = [
     "duration": 5643,
     "songs": [
       {
-        "key": "声入り",
-        "title": "声入り",
-        "start": 0,
-        "end": 219
-      },
-      {
-        "key": "おやすみ泣き声、さよなら姫クリプハイプ",
+        "key": "おやすみ泣き声、さよなら姫",
         "title": "おやすみ泣き声、さよなら歌姫 / クリープハイプ",
         "start": 219,
         "end": 452
       },
       {
-        "key": "狂乱heykids!!theoralcigarettes",
+        "key": "狂乱heykids!!",
         "title": "狂乱 Hey Kids!! / THE ORAL CIGARETTES",
         "start": 452,
         "end": 705
       },
       {
-        "key": "シルエットkana-boon",
+        "key": "シルエット",
         "title": "シルエット / KANA-BOON",
         "start": 705,
         "end": 1051
       },
       {
-        "key": "きゅうくらりんいよわ",
+        "key": "きゅうくらりん",
         "title": "きゅうくらりん / いよわ",
         "start": 1051,
         "end": 1372
       },
       {
-        "key": "好きすぎて滅!m!lk",
+        "key": "好きすぎて滅!",
         "title": "好きすぎて滅! / M!LK",
         "start": 1372,
         "end": 1661
       },
       {
-        "key": "スピカロクデナシ",
+        "key": "スピカ",
         "title": "スピカ / ロクデナシ",
         "start": 1661,
         "end": 1728
       },
       {
-        "key": "スピカロクデナシ",
+        "key": "スピカ",
         "title": "スピカ / ロクデナシ",
         "start": 1728,
         "end": 2013
       },
       {
-        "key": "ルカルカ★ナイトフィバsamfree",
+        "key": "ルカルカ★ナイトフィバ",
         "title": "ルカルカ★ナイトフィーバー / samfree",
         "start": 2013,
         "end": 2537
       },
       {
-        "key": "ブリキノダンス日向電工",
+        "key": "ブリキノダンス",
         "title": "ブリキノダンス / 日向電工",
         "start": 2537,
         "end": 2979
       },
       {
-        "key": "lovesosweetarashi",
+        "key": "lovesosweet",
         "title": "Love so sweet / ARASHI",
         "start": 2979,
         "end": 3212
       },
       {
-        "key": "フライングゲットakb48",
+        "key": "フライングゲット",
         "title": "フライングゲット / AKB48",
         "start": 3212,
         "end": 3391
       },
       {
-        "key": "恋するフォチュンクッキakb48",
+        "key": "恋するフォチュンクッキ",
         "title": "恋するフォーチュンクッキー / AKB48",
         "start": 3391,
         "end": 3680
       },
       {
-        "key": "かわいいだけじゃだめですか?cutiestreet",
+        "key": "かわいいだけじゃだめですか?",
         "title": "かわいいだけじゃだめですか? / CUTIE STREET",
         "start": 3680,
         "end": 3999
       },
       {
-        "key": "倍倍fight!candytune",
+        "key": "倍倍fight!",
         "title": "倍倍FIGHT! / CANDY TUNE",
         "start": 3999,
         "end": 4471
       },
       {
-        "key": "風になるつじあやの",
+        "key": "風になる",
         "title": "風になる / つじあやの",
         "start": 4471,
         "end": 4765
@@ -934,49 +922,43 @@ window.KARAOKE = [
     "duration": 4177,
     "songs": [
       {
-        "key": "声入り",
-        "title": "声入り",
-        "start": 0,
-        "end": 250
-      },
-      {
-        "key": "ルカルカ★ナイトフィバsamfree",
+        "key": "ルカルカ★ナイトフィバ",
         "title": "ルカルカ★ナイトフィーバー / Samfree",
         "start": 250,
         "end": 630
       },
       {
-        "key": "チュルリラチュルリラダッダッダ!和田たけあき",
+        "key": "チュルリラチュルリラダッダッダ!",
         "title": "チュルリラ・チュルリラ・ダッダッダ! / 和田たけあき",
         "start": 630,
         "end": 844
       },
       {
-        "key": "エイリアンエイリアンナユタン星人",
+        "key": "エイリアンエイリアン",
         "title": "エイリアンエイリアン / ナユタン星人",
         "start": 844,
         "end": 1037
       },
       {
-        "key": "ようかい体操第一dream5",
+        "key": "ようかい体操第一",
         "title": "ようかい体操第一 / Dream5",
         "start": 1037,
         "end": 1535
       },
       {
-        "key": "やさしさに包まれたなら荒井由実",
+        "key": "やさしさに包まれたなら",
         "title": "やさしさに包まれたなら / 荒井由実",
         "start": 1535,
         "end": 1773
       },
       {
-        "key": "デリヘル呼んだら君が来たナナホシ管弦楽団",
+        "key": "デリヘル呼んだら君が来た",
         "title": "デリヘル呼んだら君が来た / ナナホシ管弦楽団",
         "start": 1773,
         "end": 2483
       },
       {
-        "key": "気まぐれロマンティックいきものがかり",
+        "key": "気まぐれロマンティック",
         "title": "気まぐれロマンティック / いきものがかり",
         "start": 2483,
         "end": 2753
@@ -1011,67 +993,61 @@ window.KARAOKE = [
     "duration": 4789,
     "songs": [
       {
-        "key": "声入り",
-        "title": "声入り",
-        "start": 0,
-        "end": 228
-      },
-      {
-        "key": "夢を叶えてドラえもんmao",
+        "key": "夢を叶えてドラえもん",
         "title": "夢を叶えてドラえもん / mao",
         "start": 228,
         "end": 464
       },
       {
-        "key": "お願いマッスル紗倉ひびき",
+        "key": "お願いマッスル",
         "title": "お願いマッスル / 紗倉ひびき",
         "start": 464,
         "end": 671
       },
       {
-        "key": "メランコリックjunky",
+        "key": "メランコリック",
         "title": "メランコリック / Junky",
         "start": 671,
         "end": 1000
       },
       {
-        "key": "恋のメガラバマキシマムザホルモン",
+        "key": "恋のメガラバ",
         "title": "恋のメガラバ / マキシマム ザ ホルモン[ちょっと]",
         "start": 1000,
         "end": 1162
       },
       {
-        "key": "怪獣の花唄vaundy",
+        "key": "怪獣の花唄",
         "title": "怪獣の花唄 / Vaundy",
         "start": 1162,
         "end": 1427
       },
       {
-        "key": "栞クリプハイプ",
+        "key": "栞",
         "title": "栞 / クリープハイプ",
         "start": 1427,
         "end": 1920
       },
       {
-        "key": "おやすみ泣き声、さよなら姫クリプハイプ",
+        "key": "おやすみ泣き声、さよなら姫",
         "title": "おやすみ泣き声、さよなら歌姫 / クリープハイプ[途中まで]",
         "start": 1920,
         "end": 2077
       },
       {
-        "key": "愛をこめて花束をsuperfly",
+        "key": "愛をこめて花束を",
         "title": "愛をこめて花束を / Superfly",
         "start": 2077,
         "end": 2760
       },
       {
-        "key": "bling-bang-bang-borncreepynuts",
+        "key": "bling-bang-bang-born",
         "title": "Bling-Bang-Bang-Born / Creepy Nuts",
         "start": 2760,
         "end": 2978
       },
       {
-        "key": "明日はきっといい日になる高橋優",
+        "key": "明日はきっといい日になる",
         "title": "明日はきっといい日になる / 高橋優",
         "start": 2978,
         "end": 3461
@@ -2842,56 +2818,7 @@ window.KARAOKE = [
     "publishedAt": "2025-04-11",
     "title": "【#胸きゅんＶ歌枠リレー】きゅんきゅんしてください【音ノ乃のの】",
     "duration": 1903,
-    "songs": [
-      {
-        "key": "-花宮莉",
-        "title": "- 花宮莉歌",
-        "start": 1020,
-        "end": 1050
-      },
-      {
-        "key": "-酢酸かのん",
-        "title": "- 酢酸かのん",
-        "start": 1050,
-        "end": 1080
-      },
-      {
-        "key": "-よしか",
-        "title": "- よしか",
-        "start": 1080,
-        "end": 1140
-      },
-      {
-        "key": "-心白てと",
-        "title": "- 心白てと",
-        "start": 1140,
-        "end": 1170
-      },
-      {
-        "key": "-出穂おみ",
-        "title": "- 出穂おみ",
-        "start": 1170,
-        "end": 1200
-      },
-      {
-        "key": "-猫元パト",
-        "title": "- 猫元パト",
-        "start": 1200,
-        "end": 1230
-      },
-      {
-        "key": "-七海うらら",
-        "title": "- 七海うらら",
-        "start": 1230,
-        "end": 1290
-      },
-      {
-        "key": "-花宮莉",
-        "title": "- 花宮莉歌",
-        "start": 1290,
-        "end": 1903
-      }
-    ]
+    "songs": []
   },
   {
     "id": "8KJ5gjKVmeI",
@@ -3315,50 +3242,7 @@ window.KARAOKE = [
     "publishedAt": "2024-12-13",
     "title": "【#輝く歌姫Vsinger歌枠リレー】どうか、この歌声があなたに響きますように。【ゆらぎゆら / ミリプロ】",
     "duration": 2751,
-    "songs": [
-      {
-        "key": "開会式",
-        "title": "開会式",
-        "start": 1020,
-        "end": 1140
-      },
-      {
-        "key": "白雪みしろ",
-        "title": "白雪みしろ",
-        "start": 1140,
-        "end": 1185
-      },
-      {
-        "key": "七瀬える",
-        "title": "七瀬える",
-        "start": 1185,
-        "end": 1230
-      },
-      {
-        "key": "乙夏れい",
-        "title": "乙夏れい",
-        "start": 1230,
-        "end": 1275
-      },
-      {
-        "key": "よしか⁂",
-        "title": "よしか⁂",
-        "start": 1275,
-        "end": 1320
-      },
-      {
-        "key": "天羽音みらん",
-        "title": "天羽音みらん",
-        "start": 1320,
-        "end": 1365
-      },
-      {
-        "key": "蒼星すい",
-        "title": "蒼星すい",
-        "start": 1365,
-        "end": 2751
-      }
-    ]
+    "songs": []
   },
   {
     "id": "kQofd4hoxxg",
@@ -3374,50 +3258,7 @@ window.KARAOKE = [
     "publishedAt": "2024-12-09",
     "title": "【 ＃輝く歌姫Vsinger歌枠リレー 】君に元気をおすそ分け！トップバッターいくぞぉおお！！！【 音ノ瀬らこ/ミリプロ 】",
     "duration": 2769,
-    "songs": [
-      {
-        "key": "開会式",
-        "title": "開会式",
-        "start": 1020,
-        "end": 1140
-      },
-      {
-        "key": "白雪みしろ",
-        "title": "白雪みしろ",
-        "start": 1140,
-        "end": 1185
-      },
-      {
-        "key": "七瀬える",
-        "title": "七瀬える",
-        "start": 1185,
-        "end": 1230
-      },
-      {
-        "key": "乙夏れい",
-        "title": "乙夏れい",
-        "start": 1230,
-        "end": 1275
-      },
-      {
-        "key": "よしか⁂",
-        "title": "よしか⁂",
-        "start": 1275,
-        "end": 1320
-      },
-      {
-        "key": "天羽音みらん",
-        "title": "天羽音みらん",
-        "start": 1320,
-        "end": 1365
-      },
-      {
-        "key": "蒼星すい",
-        "title": "蒼星すい",
-        "start": 1365,
-        "end": 2769
-      }
-    ]
+    "songs": []
   },
   {
     "id": "Zcel6SAD8KE",
@@ -3473,62 +3314,7 @@ window.KARAOKE = [
     "publishedAt": "2024-11-01",
     "title": "【 #凸凹VTuber歌枠リレー  】トップバッターです！盛り上がってこ～！！【 音ノ瀬らこ/ミリプロ 】",
     "duration": 1937,
-    "songs": [
-      {
-        "key": "開会式",
-        "title": "開会式",
-        "start": 1050,
-        "end": 1080
-      },
-      {
-        "key": "💛",
-        "title": "音ノ瀬らこ💛",
-        "start": 1080,
-        "end": 1110
-      },
-      {
-        "key": "堕天しすた🪽",
-        "title": "堕天しすた🪽",
-        "start": 1110,
-        "end": 1140
-      },
-      {
-        "key": "ルルベル🐺",
-        "title": "ルルベル🐺",
-        "start": 1140,
-        "end": 1170
-      },
-      {
-        "key": "viv🤍",
-        "title": "ViV🤍",
-        "start": 1170,
-        "end": 1200
-      },
-      {
-        "key": "紅記えり💉",
-        "title": "紅記えり💉",
-        "start": 1200,
-        "end": 1230
-      },
-      {
-        "key": "夜空めぐる🧸",
-        "title": "夜空めぐる🧸",
-        "start": 1230,
-        "end": 1260
-      },
-      {
-        "key": "巫ロキ🌓",
-        "title": "巫ロキ🌓",
-        "start": 1260,
-        "end": 1290
-      },
-      {
-        "key": "天ノ桜紬姫🌸",
-        "title": "天ノ桜紬姫🌸",
-        "start": 1290,
-        "end": 1937
-      }
-    ]
+    "songs": []
   },
   {
     "id": "KrVnobugG5w",
@@ -3592,62 +3378,7 @@ window.KARAOKE = [
     "publishedAt": "2024-10-15",
     "title": "【#歌うまスンギ歌枠リレー】人生で1番緊張した。【音ノ乃のの】",
     "duration": 2373,
-    "songs": [
-      {
-        "key": "whaletaylor",
-        "title": "Whale Taylor",
-        "start": 1080,
-        "end": 1110
-      },
-      {
-        "key": "我部りえる",
-        "title": "我部りえる",
-        "start": 1110,
-        "end": 1140
-      },
-      {
-        "key": "kotoha",
-        "title": "Kotoha",
-        "start": 1140,
-        "end": 1170
-      },
-      {
-        "key": "水無世燐央",
-        "title": "水無世燐央",
-        "start": 1170,
-        "end": 1200
-      },
-      {
-        "key": "七海うらら",
-        "title": "七海うらら",
-        "start": 1200,
-        "end": 1230
-      },
-      {
-        "key": "アステルレダ",
-        "title": "アステル・レダ",
-        "start": 1230,
-        "end": 1260
-      },
-      {
-        "key": "千代浦蝶美",
-        "title": "千代浦蝶美",
-        "start": 1260,
-        "end": 1290
-      },
-      {
-        "key": "悠佑",
-        "title": "悠佑",
-        "start": 1290,
-        "end": 1320
-      },
-      {
-        "key": "倉持めると",
-        "title": "倉持めると",
-        "start": 1320,
-        "end": 2373
-      }
-    ]
+    "songs": []
   },
   {
     "id": "ja4Ng-p2xBQ",
@@ -4087,20 +3818,7 @@ window.KARAOKE = [
     "publishedAt": "2023-12-13",
     "title": "【歌枠】Virtual Medley in 2023 Winter / 全力で届けます。よろしくおねがいします！【音ノ乃のの】",
     "duration": 1803,
-    "songs": [
-      {
-        "key": "まりなすhttpswww.youtube.comwatch?v=xnufwhrr3vu",
-        "title": "~ まりなす : https://www.youtube.com/watch?v=xnuFWHRr3VU",
-        "start": 1140,
-        "end": 1200
-      },
-      {
-        "key": "九楽ライ様httpswww.youtube.comwatch?v=vvjmhpsbnpk",
-        "title": "~ 九楽ライ様 : https://www.youtube.com/watch?v=vVjmHpSBnpk",
-        "start": 1200,
-        "end": 1803
-      }
-    ]
+    "songs": []
   },
   {
     "id": "B57d_gqyYE0",

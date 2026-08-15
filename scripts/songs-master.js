@@ -133,13 +133,15 @@
       '<div class="sm-versions">' + versions + "</div>" +
       "</div>";
     return '<div class="sm-card card" data-key="' + esc(o.key) + '">' +
+      '<div class="sm-top">' +
       jacketHtml(o) +
       '<div class="sm-body">' +
       '<div class="sm-title">' + esc(o.title) + "</div>" +
       '<div class="sm-artist">' + esc(artist) + "</div>" +
       '<div class="sm-members">' + chips + "</div>" +
-      '<span class="btn btn-ghost sm-expand-btn">' + T("sm.expand") + "</span>" +
       "</div>" +
+      "</div>" +
+      '<span class="sm-expand-btn">' + T("sm.expand") + "</span>" +
       detail +
       "</div>";
   }
