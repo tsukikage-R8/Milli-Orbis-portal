@@ -588,6 +588,75 @@
     }, 30000);
   }
 
+  /* ---------- 通知ベル（当日イベント・誕生日・カウントダウンの自動通知） ---------- */
+  function notifEnabled() {
+    try { return localStorage.getItem("milli-notif") === "on"; } catch (e) { return false; }
+  }
+  function setNotifEnabled(on) {
+    try { localStorage.setItem("milli-notif", on ? "on" : "off"); } catch (e) {}
+    var b = $("#notifBell");
+    if (b) {
+      b.classList.toggle("is-on", on);
+      b.setAttribute("aria-label", on ? "通知をオンにする" : "通知をオフにする");
+      b.title = on ? "通知オン（タップでオフ）" : "通知オフ（タップでオン）";
+    }
+  }
+  function initNotifBell() {
+    var b = $("#notifBell");
+    if (!b) return;
+    setNotifEnabled(notifEnabled());
+    b.addEventListener("click", function () {
+      if (!("Notification" in window)) { alert("このブラウザは通知に対応していません。"); return; }
+      if (notifEnabled()) {
+        setNotifEnabled(false);
+        showToast("🔕 通知をオフにしました");
+        return;
+      }
+      var grant = function () {
+        setNotifEnabled(true);
+        showToast("🔔 通知をオンにしました。今日のイベント・誕生日をお知らせします");
+        checkDailyNotif();
+      };
+      if (Notification.permission === "granted") grant();
+      else if (Notification.permission === "denied") alert("通知が許可されていません。ブラウザの設定から許可してください。");
+      else Notification.requestPermission().then(function (p) {
+        if (p === "granted") grant();
+        else alert("通知が許可されなかったため、有効にできませんでした。");
+      });
+    });
+  }
+  function checkDailyNotif() {
+    if (!("Notification" in window) || Notification.permission !== "granted" || !notifEnabled()) return;
+    var y = jstNow().getFullYear(), mo = jstNow().getMonth(), d = jstNow().getDate();
+    var sentKey = "milli-notif-sent-" + y + "-" + pad2(mo + 1) + "-" + pad2(d);
+    var sent = [];
+    try { sent = JSON.parse(localStorage.getItem(sentKey) || "[]") || []; } catch (e) {}
+    var fire = function (key, title, body) {
+      if (sent.indexOf(key) >= 0) return;
+      sent.push(key);
+      try { new Notification(title, { body: body, icon: "images/icon/Milli%20Orbis-192.png" }); } catch (e) {}
+    };
+    var t0 = new Date(y, mo, d);
+    for (var off = 0; off < 2; off++) {
+      var t = new Date(t0.getTime() + off * 86400000);
+      eventsOn(t.getFullYear(), t.getMonth(), t.getDate()).forEach(function (it) {
+        var label = evTypeLabel(it.ev.type);
+        var m = it.ev.member ? getMember(it.ev.member) : null;
+        var name = m ? m.name : "";
+        var key = "ev" + off + ":" + it.ev.type + ":" + (it.ev.title || name || "");
+        var body = (off === 1 ? "明日" : "今日") + "は「" + (it.ev.title || name + "の" + label) + "」です！";
+        fire(key, off === 1 ? "Milli Orbis 明日の予定" : "Milli Orbis イベント通知", body);
+      });
+    }
+    COUNTDOWN.forEach(function (c) {
+      var t = new Date(c.date);
+      if (t.getFullYear() === y && t.getMonth() === mo && t.getDate() === d) {
+        fire("cd:" + c.id, "Milli Orbis イベント通知", "今日は「" + c.label + "」の日です！");
+      }
+    });
+    try { localStorage.setItem(sentKey, JSON.stringify(sent)); } catch (e) {}
+  }
+
   /* ---------- Googleカレンダー追加URL ---------- */
   function gcalUrl(title, startIso) {
     var start = new Date(startIso);
@@ -735,6 +804,36 @@
         '<span class="btn">詳細を見る</span>' +
         "</a>";
     }).join("");
+  }
+
+  /* ============ メンバー比較表（members.html） ============ */
+  function renderMemberCompare() {
+    var box = $("#memberCompare");
+    if (!box) return;
+    var oshi = getOshi();
+    var rows = MEMBERS.map(function (m) {
+      var h = /身長(\d+)cm/.exec(m.profile || "");
+      var age = /年齢(\d+)歳/.exec(m.profile || "");
+      var bd = m.birthday ? m.birthday.replace("-", "/") : "未公開";
+      var debut = m.debut || "";
+      var years = debut ? (jstNow().getFullYear() - parseInt(debut.slice(0, 4), 10)) : -1;
+      return '<tr class="' + (oshi === m.id ? "is-oshi" : "") + '" style="--mc:' + m.color + '">' +
+        '<td class="cmp-name"><span class="cmp-dot" style="background:' + m.color + '"></span>' + esc(m.name) + "</td>" +
+        "<td>" + esc(m.gen) + "</td>" +
+        "<td>" + (debut ? esc(debut) + (years >= 0 ? '<span class="cmp-sub">' + years + "年目</span>" : "") : "—") + "</td>" +
+        "<td>" + esc(bd) + "</td>" +
+        "<td>" + (h ? h[1] + "cm" : "—") + "</td>" +
+        "<td>" + (age ? age[1] + "歳" : "—") + "</td>" +
+        "<td>" + esc(m.fanName || "—") + "</td>" +
+        '<td class="cmp-catch">' + esc(m.catch || "—") + "</td>" +
+        "</tr>";
+    }).join("");
+    box.innerHTML =
+      '<div class="cmp-head"><h2>メンバー比較表</h2>' +
+      "<p>誕生日・加入日・身長を全員まとめて比較できます。推しの行はハイライト表示されます。</p></div>" +
+      '<div class="cmp-scroll"><table class="cmp-table"><thead><tr>' +
+      "<th>メンバー</th><th>期</th><th>加入日</th><th>誕生日</th><th>身長</th><th>年齢</th><th>ファンネーム</th><th>キャッチコピー</th>" +
+      "</tr></thead><tbody>" + rows + "</tbody></table></div>";
   }
 
   /* ============ ランチャー ============ */
@@ -1618,6 +1717,7 @@
     renderNews();
     renderXPosts();
     renderMembers();
+    renderMemberCompare();
     renderLaunchers();
     renderGoods();
     renderGameFeature();
@@ -1633,6 +1733,8 @@
     initFloatActions();
     initReminderWatcher();
     initRemindAll();
+    initNotifBell();
+    checkDailyNotif();
     initServiceWorker();
     ["calOshiFilter", "goodsOshiFilter"].forEach(function (id) {
       var b = $("#" + id);

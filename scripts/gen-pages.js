@@ -230,7 +230,8 @@ const navDrop = (home) => `
         </div>
       </div>
       <a href="quiz.html">ミリプロ検定</a>
-      <a href="songs.html">楽曲一覧</a>`;
+      <a href="songs.html">楽曲一覧</a>
+      <a href="members.html">メンバー比較表</a>`;
 
 const mobileNav = (home) => `
       <a href="${home}#home">Home</a>
@@ -249,6 +250,7 @@ const mobileNav = (home) => `
       <a href="${home}#calendar">Event Calendar</a>
       <a href="quiz.html">ミリプロ検定</a>
       <a href="songs.html">楽曲一覧</a>
+      <a href="members.html">メンバー比較表</a>
       <a href="${home}#links">Official Links</a>`;
 
 function decoHtml(m) {
@@ -312,7 +314,8 @@ ${decoHtml(m)}
     </nav>
     <div class="header-actions">
       <a id="liveBadge" class="live-badge" href="#" target="_blank" rel="noopener">● LIVE</a>
-      <button type="button" class="profile-btn" id="profile-btn" onclick="mpOpenAccount()" aria-label="アカウント連携">
+      <button type="button" class="notif-bell" id="notifBell" aria-label="通知設定">🔔</button>
+  <button type="button" class="profile-btn" id="profile-btn" onclick="mpOpenAccount()" aria-label="アカウント連携">
         <span class="profile-icon" id="profile-header-icon">?</span>
       </button>
       <select id="oshiSelect" class="oshi-select" aria-label="推しメンバーを選択"></select>
@@ -532,7 +535,8 @@ function simplePage(o) {
     </nav>
     <div class="header-actions">
       <a id="liveBadge" class="live-badge" href="#" target="_blank" rel="noopener">● LIVE</a>
-      <button type="button" class="profile-btn" id="profile-btn" onclick="mpOpenAccount()" aria-label="アカウント連携">
+      <button type="button" class="notif-bell" id="notifBell" aria-label="通知設定">🔔</button>
+  <button type="button" class="profile-btn" id="profile-btn" onclick="mpOpenAccount()" aria-label="アカウント連携">
         <span class="profile-icon" id="profile-header-icon">?</span>
       </button>
       <select id="oshiSelect" class="oshi-select" aria-label="推しメンバーを選択"></select>
@@ -698,6 +702,8 @@ fs.writeFileSync(path.join(outDir, "quiz.html"), simplePage({
           <button type="button" class="btn btn-ghost quiz-big-btn" id="quizStartPro">▶ プロ（全25問）</button>
         </div>
       </div>
+      <button type="button" class="btn btn-ghost quiz-big-btn" id="quizReviewBtn" disabled>📖 復習（間違えた問題）</button>
+      <div class="quiz-stats" id="quizStats"></div>
     </div>
   </section>
   <section id="quizScreen" class="section quiz-section" style="display:none;">
@@ -744,6 +750,16 @@ fs.writeFileSync(path.join(outDir, "songs.html"), simplePage({
   scripts: '<script src="data/songs.js"></script>\n<script src="scripts/songs.js"></script>'
 }), "utf8");
 console.log("generated: songs.html");
+
+fs.writeFileSync(path.join(outDir, "members.html"), simplePage({
+  file: "members.html",
+  title: "メンバー比較表",
+  desc: "ミリプロ全メンバーの期・加入日・誕生日・身長などを一覧で比較できるメンバー比較表。推しの行はハイライトされます。",
+  body: `
+  <section id="memberCompare" class="section"></section>`,
+  scripts: ""
+}), "utf8");
+console.log("generated: members.html");
 
 for (const m of MEMBERS) {
   fs.writeFileSync(path.join(outDir, m.id + ".html"), page(m), "utf8");

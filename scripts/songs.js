@@ -113,6 +113,13 @@
     return html;
   }
 
+  function isNew(dateStr) {
+    if (!dateStr) return false;
+    var d = new Date(dateStr);
+    if (!d.getTime()) return false;
+    return (Date.now() - d.getTime()) <= 14 * 86400000;
+  }
+
   function officialHtml() {
     var list = data.official || [];
     if (keyword) {
@@ -125,6 +132,7 @@
       }).join("");
       return '<a class="song-card card" href="https://www.youtube.com/watch?v=' + v.id + '" target="_blank" rel="noopener">' +
         thumbHtml(v.id) +
+        (isNew(v.publishedAt) ? '<span class="song-new">NEW</span>' : "") +
         '<div class="song-title">' + esc(v.title) + "</div>" +
         '<div class="song-members">' + chips + "</div>" +
         '<div class="song-meta">' + esc(v.publishedAt) + "</div>" +
@@ -152,6 +160,7 @@
       }).join("");
       return '<div class="song-card card song-cover" data-url="https://www.youtube.com/watch?v=' + primary.id + '">' +
         thumbHtml(primary.id) +
+        (isNew(primary.publishedAt) ? '<span class="song-new">NEW</span>' : "") +
         '<div class="song-title">' + esc(g.title) + "</div>" +
         (g.urls.length > 1 ? '<div class="song-collab">コラボ／複数人歌唱</div>' : "") +
         '<div class="song-members">' + members + "</div>" +

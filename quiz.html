@@ -55,12 +55,14 @@
       </div>
       <a href="quiz.html">ミリプロ検定</a>
       <a href="songs.html">楽曲一覧</a>
+      <a href="members.html">メンバー比較表</a>
       <a href="index.html#calendar">Event Calendar</a>
       <a href="index.html#links">Official Links</a>
     </nav>
     <div class="header-actions">
       <a id="liveBadge" class="live-badge" href="#" target="_blank" rel="noopener">● LIVE</a>
-      <button type="button" class="profile-btn" id="profile-btn" onclick="mpOpenAccount()" aria-label="アカウント連携">
+      <button type="button" class="notif-bell" id="notifBell" aria-label="通知設定">🔔</button>
+  <button type="button" class="profile-btn" id="profile-btn" onclick="mpOpenAccount()" aria-label="アカウント連携">
         <span class="profile-icon" id="profile-header-icon">?</span>
       </button>
       <select id="oshiSelect" class="oshi-select" aria-label="推しメンバーを選択"></select>
@@ -88,6 +90,7 @@
       <a href="index.html#calendar">Event Calendar</a>
       <a href="quiz.html">ミリプロ検定</a>
       <a href="songs.html">楽曲一覧</a>
+      <a href="members.html">メンバー比較表</a>
       <a href="index.html#links">Official Links</a>
   </nav>
 </header>
@@ -118,6 +121,8 @@
           <button type="button" class="btn btn-ghost quiz-big-btn" id="quizStartPro">▶ プロ（全25問）</button>
         </div>
       </div>
+      <button type="button" class="btn btn-ghost quiz-big-btn" id="quizReviewBtn" disabled>📖 復習（間違えた問題）</button>
+      <div class="quiz-stats" id="quizStats"></div>
     </div>
   </section>
   <section id="quizScreen" class="section quiz-section" style="display:none;">
