@@ -91,6 +91,22 @@ window.SONGS = {
   ],
   "covers": [
     {
+      "title": "カゲロウデイズ",
+      "key": "カゲロウデイズfeat.",
+      "urls": [
+        {
+          "id": "4Ie_l2SI0NM",
+          "memberId": "raco",
+          "publishedAt": "2026-08-15"
+        },
+        {
+          "id": "4Ie_l2SI0NM",
+          "memberId": "yura",
+          "publishedAt": "2026-08-15"
+        }
+      ]
+    },
+    {
       "title": "Zzz",
       "key": "zzz",
       "urls": [
