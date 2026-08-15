@@ -94,8 +94,33 @@
     return SD.normKana(text).indexOf(keyword) !== -1;
   }
 
+  /* 検索ハイライト: 一致文字列を推し色で強調 */
+  function hlColor() {
+    try {
+      var oshi = localStorage.getItem("milli-oshi");
+      if (oshi) return SD.chipColor(oshi);
+    } catch (e) { /* localStorage 不可時はデフォルト色 */ }
+    return "#e8590c";
+  }
+
+  function highlight(text) {
+    if (!keyword || !text) return esc(text);
+    var raw = String(text);
+    var norm = SD.normKana(raw).toLowerCase();
+    var kw = keyword.toLowerCase();
+    var out = "";
+    var i = 0;
+    var idx;
+    while ((idx = norm.indexOf(kw, i)) !== -1) {
+      out += esc(raw.slice(i, idx)) +
+        '<mark class="song-hl" style="--hlc:' + hlColor() + '">' + esc(raw.slice(idx, idx + kw.length)) + "</mark>";
+      i = idx + kw.length;
+    }
+    return out + esc(raw.slice(i));
+  }
+
   function chipHtml(id) {
-    return '<span class="song-member-chip" style="--mc:' + SD.chipColor(id) + '">' + esc(SD.memberLabel(id)) + "</span>";
+    return '<span class="song-member-chip" style="--mc:' + SD.chipColor(id) + '">' + highlight(SD.memberLabel(id)) + "</span>";
   }
 
   function jacketHtml(o) {
@@ -123,7 +148,7 @@
     var vdate = u.publishedAt ? '<span class="song-vdate">' + esc(u.publishedAt) + "</span>" : "";
     return '<div class="sm-version">' +
       '<button type="button" class="sm-play" data-vid="' + u.id + '" data-start="' + (u.start || "") + '" aria-label="' + T("songs.play") + '">' + PLAY_SVG + "</button>" +
-      '<a class="song-member-chip" href="' + href + '" target="_blank" rel="noopener" style="--mc:' + SD.chipColor(u.memberId) + '">' + esc(SD.memberLabel(u.memberId)) + "</a>" +
+      '<a class="song-member-chip" href="' + href + '" target="_blank" rel="noopener" style="--mc:' + SD.chipColor(u.memberId) + '">' + highlight(SD.memberLabel(u.memberId)) + "</a>" +
       badge + ts + vdate +
       "</div>";
   }
@@ -146,8 +171,8 @@
       '<div class="sm-top">' +
       jacketHtml(o) +
       '<div class="sm-body">' +
-      '<div class="sm-title">' + esc(o.title) + "</div>" +
-      '<div class="sm-artist">' + esc(artist) + "</div>" +
+      '<div class="sm-title">' + highlight(o.title) + "</div>" +
+      '<div class="sm-artist">' + highlight(artist) + "</div>" +
       '<div class="sm-members">' + chips + "</div>" +
       "</div>" +
       "</div>" +

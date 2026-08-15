@@ -4058,6 +4058,14 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
   transition: transform 0.15s, background 0.15s;
 }
 .song-thumb-wrap:hover .play-overlay svg { transform: scale(1.12); background: rgba(15, 10, 25, 0.6); }
+
+mark.song-hl {
+  background: color-mix(in srgb, var(--hlc, var(--accent-deep)) 22%, transparent);
+  color: var(--hlc, var(--accent-deep));
+  font-weight: 800;
+  border-radius: 4px;
+  padding: 0 2px;
+}
 .song-thumb {
   width: 100%;
   aspect-ratio: 16 / 9;

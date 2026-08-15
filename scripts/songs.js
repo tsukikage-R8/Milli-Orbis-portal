@@ -109,6 +109,31 @@
     return matchKeyword(memberSearchText(m));
   }
 
+  /* 検索ハイライト: 一致文字列を推し色で強調（歌枠セトリ含む全テキスト用） */
+  function hlColor() {
+    try {
+      var oshi = localStorage.getItem("milli-oshi");
+      if (oshi) return SD.chipColor(oshi);
+    } catch (e) { /* localStorage 不可時はデフォルト色 */ }
+    return "#e8590c";
+  }
+
+  function highlight(text) {
+    if (!keyword || !text) return esc(text);
+    var raw = String(text);
+    var norm = SD.normKana(raw).toLowerCase();
+    var kw = keyword.toLowerCase();
+    var out = "";
+    var i = 0;
+    var idx;
+    while ((idx = norm.indexOf(kw, i)) !== -1) {
+      out += esc(raw.slice(i, idx)) +
+        '<mark class="song-hl" style="--hlc:' + hlColor() + '">' + esc(raw.slice(idx, idx + kw.length)) + "</mark>";
+      i = idx + kw.length;
+    }
+    return out + esc(raw.slice(i));
+  }
+
   function memberChipHtml(id, url) {
     var inner = '<span class="song-member-chip" style="--mc:' + SD.chipColor(id) + '">' + esc(SD.memberLabel(id)) + "</span>";
     return url ? '<a class="song-member-chip" href="' + url + '" target="_blank" rel="noopener" style="--mc:' + SD.chipColor(id) + '">' + esc(SD.memberLabel(id)) + "</a>" : inner;
@@ -164,8 +189,8 @@
     return '<div class="song-card card">' +
       thumbHtml(primary.id, primary.start) +
       (isNew(primary.publishedAt) ? '<span class="song-new">NEW</span>' : "") +
-      '<div class="song-title">' + esc(g.title) + "</div>" +
-      (art ? '<div class="song-artist">' + esc(art) + "</div>" : "") +
+      '<div class="song-title">' + highlight(g.title) + "</div>" +
+      (art ? '<div class="song-artist">' + highlight(art) + "</div>" : "") +
       (g.urls.length > 1 ? '<div class="song-collab">' + T("songs.collab") + "</div>" : "") +
       '<div class="song-versions">' + versions + "</div>" +
       ytBtnHtml(primary.id) +
@@ -210,7 +235,7 @@
       return '<div class="song-card card">' +
         thumbHtml(v.id) +
         (isNew(v.publishedAt) ? '<span class="song-new">NEW</span>' : "") +
-        '<div class="song-title">' + esc(v.title) + "</div>" +
+        '<div class="song-title">' + highlight(v.title) + "</div>" +
         '<div class="song-members">' + chips + "</div>" +
         '<div class="song-meta">' + esc(v.publishedAt) + "</div>" +
         ytBtnHtml(v.id) +
@@ -239,7 +264,7 @@
         var label = (g && g.title) || s.title || s.key;
         return '<div class="song-kitem" role="button" tabindex="0" data-stream="' + st.id + '" data-start="' + (s.start || "") + '">' +
           '<span class="song-kidx">' + (i + 1) + "</span>" +
-          '<span class="song-kname">' + esc(label) + "</span>" +
+          '<span class="song-kname">' + highlight(label) + "</span>" +
           '<span class="song-ts">' + (s.start ? SD.fmtTs(s.start) + "〜" + (s.end ? SD.fmtTs(s.end) : "") : "–") + "</span>" +
           '<a class="song-kext" href="' + SD.videoUrl(st.id, s.start) + '" target="_blank" rel="noopener" aria-label="' + T("songs.openYt") + '">' + YT_SVG + "</a>" +
           "</div>";
@@ -247,7 +272,7 @@
       return '<div class="song-card card">' +
         thumbHtml(st.id) +
         (isNew(st.publishedAt) ? '<span class="song-new">NEW</span>' : "") +
-        '<div class="song-title">' + esc(st.title) + "</div>" +
+        '<div class="song-title">' + highlight(st.title) + "</div>" +
         '<div class="song-members">' + memberChipHtml(st.memberId, "") + "</div>" +
         '<div class="song-meta">' + esc(st.publishedAt) + "</div>" +
         '<div class="song-klist">' + songs + "</div>" +
