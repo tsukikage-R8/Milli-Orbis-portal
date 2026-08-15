@@ -29,6 +29,7 @@
   var tabOfficial = $("songsTabOfficial");
   var tabCovers = $("songsTabCovers");
   var tabKaraoke = $("songsTabKaraoke");
+  var tabAll = $("songsTabAll");
   var tabLabel = $("songsTabLabel");
   var note = $("songsNote");
   var modeVideos = $("songsModeVideos");
@@ -36,7 +37,7 @@
   var videosSection = $("videosSection");
   var masterSection = $("masterSection");
 
-  var view = "covers";
+  var view = "all";
   var mode = "videos";
   var keyword = "";
   var memberFilter = "";
@@ -197,7 +198,8 @@
       "</div>";
   }
 
-  function coversHtml() {
+  /* ---- 歌ってみた: 曲単位カード（歌枠由来のバージョンも統合表示） ---- */
+  function coverCards() {
     var list = coverList.slice();
     if (keyword) {
       list = list.filter(function (g) {
@@ -209,12 +211,23 @@
     if (memberFilter) {
       list = list.filter(function (g) { return g.urls.some(function (u) { return u.memberId === memberFilter; }); });
     }
-    if (!list.length) return '<div class="placeholder">' + T("songs.none") + "</div>";
-    return '<div class="song-grid">' + list.map(songCardHtml).join("") + "</div>";
+    return list.map(function (g) {
+      return { date: (g.urls[0] && g.urls[0].publishedAt) || "", html: songCardHtml(g) };
+    });
+  }
+
+  function coversHtml() {
+    var cards = coverCards();
+    if (!cards.length) return '<div class="placeholder">' + T("songs.none") + "</div>";
+    return gridHtml(cards);
+  }
+
+  function gridHtml(cards) {
+    return '<div class="song-grid">' + cards.map(function (c) { return c.html; }).join("") + "</div>";
   }
 
   /* ---- 公式楽曲 ---- */
-  function officialHtml() {
+  function officialCards() {
     var list = (data.official || []).slice();
     if (keyword) {
       list = list.filter(function (v) {
@@ -227,24 +240,24 @@
         return (v.members && v.members.length ? v.members : ["official"]).indexOf(memberFilter) !== -1;
       });
     }
-    if (!list.length) return '<div class="placeholder">' + T("songs.none") + "</div>";
-    return '<div class="song-grid">' + list.map(function (v) {
+    return list.map(function (v) {
       var chips = (v.members && v.members.length ? v.members : ["official"]).map(function (mid) {
         return memberChipHtml(mid, "");
       }).join("");
-      return '<div class="song-card card">' +
+      return { date: v.publishedAt || "", html:
+        '<div class="song-card card">' +
         thumbHtml(v.id) +
         (isNew(v.publishedAt) ? '<span class="song-new">NEW</span>' : "") +
         '<div class="song-title">' + highlight(v.title) + "</div>" +
         '<div class="song-members">' + chips + "</div>" +
         '<div class="song-meta">' + esc(v.publishedAt) + "</div>" +
         ytBtnHtml(v.id) +
-        "</div>";
-    }).join("") + "</div>";
+        "</div>" };
+    });
   }
 
   /* ---- 歌枠: 配信単位カード（収録曲とタイムスタンプ） ---- */
-  function karaokeHtml() {
+  function karaokeCards() {
     var list = karaokeStreams.slice();
     if (keyword) {
       list = list.filter(function (st) {
@@ -257,8 +270,7 @@
     if (memberFilter) {
       list = list.filter(function (st) { return st.memberId === memberFilter; });
     }
-    if (!list.length) return '<div class="placeholder">' + T("songs.none") + "</div>";
-    return '<div class="song-grid">' + list.map(function (st) {
+    return list.map(function (st) {
       var songs = (st.songs || []).map(function (s, i) {
         var g = coverByKey.get(s.key);
         var label = (g && g.title) || s.title || s.key;
@@ -269,7 +281,8 @@
           '<a class="song-kext" href="' + SD.videoUrl(st.id, s.start) + '" target="_blank" rel="noopener" aria-label="' + T("songs.openYt") + '">' + YT_SVG + "</a>" +
           "</div>";
       }).join("");
-      return '<div class="song-card card">' +
+      return { date: st.publishedAt || "", html:
+        '<div class="song-card card">' +
         thumbHtml(st.id) +
         (isNew(st.publishedAt) ? '<span class="song-new">NEW</span>' : "") +
         '<div class="song-title">' + highlight(st.title) + "</div>" +
@@ -277,27 +290,51 @@
         '<div class="song-meta">' + esc(st.publishedAt) + "</div>" +
         '<div class="song-klist">' + songs + "</div>" +
         ytBtnHtml(st.id) +
-        "</div>";
-    }).join("") + "</div>";
+        "</div>" };
+    });
+  }
+
+  function karaokeHtml() {
+    var cards = karaokeCards();
+    if (!cards.length) return '<div class="placeholder">' + T("songs.none") + "</div>";
+    return gridHtml(cards);
+  }
+
+  /* ---- すべて: 歌ってみた・公式・歌枠を新しい順に統合表示 ---- */
+  function allHtml() {
+    var cards = coverCards().concat(officialCards(), karaokeCards());
+    if (!cards.length) return '<div class="placeholder">' + T("songs.none") + "</div>";
+    cards.sort(function (a, b) { return (b.date || "").localeCompare(a.date || ""); });
+    return gridHtml(cards);
   }
 
   function render() {
-    var n = view === "official" ? (data.official || []).length : (view === "karaoke" ? karaokeStreams.length : coverList.length);
-    tabLabel.textContent = view === "covers" ? T("songs.tabLabelCovers", { n: n }) :
-      view === "official" ? T("songs.tabLabelOfficial", { n: n }) : T("songs.tabLabelKaraoke", { n: n });
+    var n = view === "all"
+      ? coverList.length + (data.official || []).length + karaokeStreams.length
+      : view === "official" ? (data.official || []).length
+        : view === "karaoke" ? karaokeStreams.length : coverList.length;
+    tabLabel.textContent = view === "all" ? T("songs.tabLabelAll", { n: n }) :
+      view === "covers" ? T("songs.tabLabelCovers", { n: n }) :
+        view === "official" ? T("songs.tabLabelOfficial", { n: n }) : T("songs.tabLabelKaraoke", { n: n });
     note.style.display = view === "covers" ? "none" : "block";
-    note.textContent = view === "karaoke" ? T("songs.karaokeNote") : T("songs.note");
-    listBox.innerHTML = view === "covers" ? coversHtml() : view === "official" ? officialHtml() : karaokeHtml();
+    note.textContent = view === "karaoke" ? T("songs.karaokeNote")
+      : view === "all" ? T("songs.note") + " " + T("songs.karaokeNote")
+        : T("songs.note");
+    listBox.innerHTML = view === "all" ? allHtml()
+      : view === "covers" ? coversHtml()
+        : view === "official" ? officialHtml() : karaokeHtml();
   }
 
   function setView(v) {
     view = v;
+    if (tabAll) tabAll.classList.toggle("active", v === "all");
     if (tabOfficial) tabOfficial.classList.toggle("active", v === "official");
     if (tabCovers) tabCovers.classList.toggle("active", v === "covers");
     if (tabKaraoke) tabKaraoke.classList.toggle("active", v === "karaoke");
     render();
   }
 
+  if (tabAll) tabAll.addEventListener("click", function () { setView("all"); });
   if (tabOfficial) tabOfficial.addEventListener("click", function () { setView("official"); });
   if (tabCovers) tabCovers.addEventListener("click", function () { setView("covers"); });
   if (tabKaraoke) tabKaraoke.addEventListener("click", function () { setView("karaoke"); });
@@ -337,5 +374,5 @@
   });
 
   chips.innerHTML = chipsHtml();
-  setView("covers");
+  setView("all");
 })();
