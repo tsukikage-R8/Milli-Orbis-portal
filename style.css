@@ -1459,7 +1459,7 @@ footer .disclaimer { font-weight: 700; color: #8a6d3b; }
   box-shadow: var(--pop-shadow);
   color: var(--text);
 }
-.talent-tags { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; margin-top: 14px; }
+.talent-tags { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; align-items: center; margin-top: 14px; }
 .talent-tags span {
   font-size: 0.72rem;
   font-weight: 800;
@@ -1469,6 +1469,19 @@ footer .disclaimer { font-weight: 700; color: #8a6d3b; }
   border-radius: 999px;
   padding: 4px 12px;
 }
+
+/* グループアイコン（所属グループのバッジ） */
+.group-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: -4px;
+  display: inline-block;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.member-gen .group-icon,
+.cmp-table td .group-icon { width: 18px; height: 18px; }
 
 /* タレント本文レイアウト */
 .talent-layout { display: grid; grid-template-columns: 1.4fr 1fr; gap: 16px; align-items: start; }
@@ -2923,6 +2936,28 @@ body:not([data-member]) .intro-fx { display: none; }
 }
 .theme-toggle:hover { transform: translateY(-1px); }
 
+/* 言語切替ボタン（JA/EN） */
+.lang-toggle {
+  width: 44px;
+  height: 40px;
+  border-radius: 20px;
+  border: 2px solid var(--accent);
+  background: var(--glass);
+  color: var(--text);
+  font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 2px 0 rgba(60, 50, 40, 0.12);
+  transition: transform 0.15s;
+}
+.lang-toggle:hover { transform: translateY(-1px); }
+
 :root[data-theme="dark"] {
   --bg: #15121c;
   --bg-soft: #1e1a28;
@@ -3265,6 +3300,7 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
   .live-badge { font-size: 0.62rem; padding: 4px 9px; }
   .oshi-select { font-size: 0.76rem; padding: 4px 8px; max-width: 100px; min-width: 0; }
   .theme-toggle { width: 36px; height: 36px; font-size: 0.95rem; }
+  .lang-toggle { width: 38px; height: 36px; font-size: 0.78rem; }
   .hamburger { padding: 6px 7px; }
   .hamburger svg { width: 24px; height: 18px; }
   .header-actions { gap: 8px; }

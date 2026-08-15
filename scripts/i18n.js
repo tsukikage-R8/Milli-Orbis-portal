@@ -1,0 +1,104 @@
+/* ============================================
+   i18n ヘルパー（data/i18n.js の辞書を利用）
+   - T(key, vars): 現在言語の文言を返す
+   - milliLang.get/set: 言語取得・保存（localStorage "milli-lang"）
+   - 静的HTML: data-i18n 属性で自動置換（data-i18n-html / -placeholder / -aria / -var-*）
+   - 言語切替ボタン: #langToggle（クリックで JA/EN 切替＋リロード）
+   ============================================ */
+(function () {
+  "use strict";
+
+  var STORAGE_KEY = "milli-lang";
+
+  function stored() {
+    try {
+      var v = localStorage.getItem(STORAGE_KEY);
+      if (v === "ja" || v === "en") return v;
+    } catch (e) {}
+    return "";
+  }
+
+  function getLang() {
+    var v = stored();
+    if (v) return v;
+    var nav = (navigator.language || "ja").toLowerCase();
+    return nav.indexOf("en") === 0 ? "en" : "ja";
+  }
+
+  function setLang(l) {
+    try { localStorage.setItem(STORAGE_KEY, l); } catch (e) {}
+  }
+
+  function dict() {
+    var i18n = window.I18N || {};
+    return i18n[getLang()] || i18n.ja || {};
+  }
+
+  function t(key, vars) {
+    var d = dict();
+    var s = d[key] !== undefined ? d[key] : ((window.I18N && window.I18N.ja && window.I18N.ja[key]) || key);
+    if (vars) {
+      Object.keys(vars).forEach(function (k) {
+        s = String(s).replace(new RegExp("\\{" + k + "\\}", "g"), vars[k]);
+      });
+    }
+    return s;
+  }
+
+  function hasKey(key) {
+    return dict()[key] !== undefined ||
+      (window.I18N && window.I18N.ja && window.I18N.ja[key] !== undefined);
+  }
+
+  function applyLang() {
+    var lang = getLang();
+    document.documentElement.lang = lang;
+    var els = document.querySelectorAll("[data-i18n]");
+    Array.prototype.forEach.call(els, function (el) {
+      var key = el.getAttribute("data-i18n");
+      if (!hasKey(key)) return;
+      var vars = {};
+      Array.prototype.forEach.call(el.attributes, function (a) {
+        if (a.name.indexOf("data-i18n-var-") === 0) {
+          vars[a.name.slice(14)] = a.value;
+        }
+      });
+      if (el.hasAttribute("data-i18n-html")) el.innerHTML = t(key, vars);
+      else el.textContent = t(key, vars);
+      var ph = el.getAttribute("data-i18n-placeholder");
+      if (ph) el.setAttribute("placeholder", t(ph));
+      var aria = el.getAttribute("data-i18n-aria");
+      if (aria) el.setAttribute("aria-label", t(aria));
+      var ti = el.getAttribute("data-i18n-title");
+      if (ti) el.setAttribute("title", t(ti));
+    });
+  }
+
+  function initLangToggle() {
+    var b = document.getElementById("langToggle");
+    if (!b) return;
+    b.textContent = getLang() === "ja" ? "EN" : "JA";
+    b.addEventListener("click", function () {
+      setLang(getLang() === "ja" ? "en" : "ja");
+      location.reload();
+    });
+  }
+
+  function init() {
+    applyLang();
+    initLangToggle();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+
+  window.T = t;
+  window.milliLang = {
+    get: getLang,
+    set: setLang,
+    apply: applyLang
+  };
+})();

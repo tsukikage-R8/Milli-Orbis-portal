@@ -37,7 +37,7 @@
       <div class="nav-drop" id="memberDrop">
         <button type="button" class="nav-drop-btn">Member Guide<span class="caret"></span></button>
         <div class="nav-drop-menu">
-          <a class="drop-top" href="#members">Member Guide 一覧へ</a>
+          <a class="drop-top" href="#members" data-i18n="nav.memberAll">Member Guide 一覧へ</a>
           <div class="drop-sep"></div>
           <a href="konomi.html">甘狼このみ</a>
           <a href="nono.html">音ノ乃のの</a>
@@ -51,23 +51,24 @@
           <a href="rei.html">夕霧レイ</a>
           <a href="milchan.html">ミリちゃん</a>
           <div class="drop-sep"></div>
-          <a href="members.html">メンバー比較表</a>
+<a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
         </div>
       </div>
-      <a href="quiz.html">ミリプロ検定</a>
-      <a href="songs.html">楽曲一覧</a>
+      <a href="quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
+      <a href="songs.html" data-i18n="nav.songs">楽曲一覧</a>
       <a href="#calendar">Event Calendar</a>
       <a href="#links">Official Links</a>
     </nav>
     <div class="header-actions">
       <a id="liveBadge" class="live-badge" href="#" target="_blank" rel="noopener">● LIVE</a>
-      <button type="button" class="notif-bell" id="notifBell" aria-label="通知設定">🔔</button>
-  <button type="button" class="profile-btn" id="profile-btn" onclick="mpOpenAccount()" aria-label="アカウント連携">
+      <button type="button" class="notif-bell" id="notifBell" aria-label="通知設定" data-i18n-aria="header.notif">🔔</button>
+  <button type="button" class="profile-btn" id="profile-btn" onclick="mpOpenAccount()" aria-label="アカウント連携" data-i18n-aria="header.profile">
         <span class="profile-icon" id="profile-header-icon">?</span>
       </button>
-      <select id="oshiSelect" class="oshi-select" aria-label="推しメンバーを選択"></select>
-      <button type="button" class="theme-toggle" id="themeToggle" aria-label="ダークモード切替">🌙</button>
-      <button id="hamburger" class="hamburger" aria-label="メニュー">
+      <select id="oshiSelect" class="oshi-select" aria-label="推しメンバーを選択" data-i18n-aria="header.oshi"></select>
+      <button type="button" class="theme-toggle" id="themeToggle" aria-label="ダークモード切替" data-i18n-aria="header.theme">🌙</button>
+      <button type="button" class="lang-toggle" id="langToggle" aria-label="言語切替" data-i18n-aria="header.lang">EN</button>
+      <button id="hamburger" class="hamburger" aria-label="メニュー" data-i18n-aria="header.menu">
         <svg viewBox="0 0 28 20" width="30" height="22" aria-hidden="true"><path d="M2 3h24M2 10h24M2 17h24" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/></svg>
       </button>
     </div>
@@ -87,9 +88,9 @@
     <a class="mobile-sub" href="rei.html">夕霧レイ</a>
     <a class="mobile-sub" href="milchan.html">ミリちゃん</a>
     <a href="#calendar">Event Calendar</a>
-    <a href="quiz.html">ミリプロ検定</a>
-    <a href="songs.html">楽曲一覧</a>
-    <a href="members.html">メンバー比較表</a>
+    <a href="quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
+    <a href="songs.html" data-i18n="nav.songs">楽曲一覧</a>
+    <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
     <a href="#links">Official Links</a>
   </nav>
 </header>
@@ -106,19 +107,19 @@
     </div>
     <div id="birthdayBanner" class="birthday-banner"></div>
     <h1><img class="hero-logo" src="images/rogo/Milli%20Orbis-rogo.png" alt="Milli Orbis"></h1>
-    <p class="hero-sub">ここを開けば、今のミリプロのすべてにアクセスできる</p>
+    <p class="hero-sub" data-i18n="hero.sub">ここを開けば、今のミリプロのすべてにアクセスできる</p>
 
     <div class="countdown-wrap">
       <div class="cd-head">
-        <h3 class="cd-head-title">カウントダウン</h3>
+        <h3 class="cd-head-title" data-i18n="cd.title">カウントダウン</h3>
         <div class="cd-styles" id="cdStyles">
-          <button type="button" class="cd-style-btn" data-style="pop">ポップ</button>
-          <button type="button" class="cd-style-btn" data-style="candy">キャンディ</button>
-          <button type="button" class="cd-style-btn" data-style="simple">シンプル</button>
+          <button type="button" class="cd-style-btn" data-style="pop" data-i18n="cd.pop">ポップ</button>
+          <button type="button" class="cd-style-btn" data-style="candy" data-i18n="cd.candy">キャンディ</button>
+          <button type="button" class="cd-style-btn" data-style="simple" data-i18n="cd.simple">シンプル</button>
         </div>
       </div>
       <div id="countdown" class="countdown"></div>
-      <p class="cd-rail-hint">下のカウントダウンをクリックするとメイン表示を切り替えられます</p>
+      <p class="cd-rail-hint" data-i18n="cd.railHint">下のカウントダウンをクリックするとメイン表示を切り替えられます</p>
       <div id="cdRail" class="cd-rail"></div>
     </div>
 
@@ -130,148 +131,148 @@
   <section id="gameFeature" class="section container game-feature-section"></section>
 
   <section class="section container">
-    <h2 class="section-title">配信予定</h2>
-    <p class="section-sub">配信を今日・明日・一週間以内・それ以降に分けて自動表示します</p>
+    <h2 class="section-title" data-i18n="streams.title">配信予定</h2>
+    <p class="section-sub" data-i18n="streams.sub">配信を今日・明日・一週間以内・それ以降に分けて自動表示します</p>
     <div class="stream-tools">
-      <button type="button" class="remind-all" id="remindAllBtn">🔔 全配信を通知</button>
+      <button type="button" class="remind-all" id="remindAllBtn" data-i18n="streams.remindAll">🔔 全配信を通知</button>
     </div>
-    <p class="stream-note">🔔 通知が届くのはこのサイトを開いている間のみです（別タブ・バックグラウンドでも届きます）</p>
+    <p class="stream-note" data-i18n="streams.note">🔔 通知が届くのはこのサイトを開いている間のみです（別タブ・バックグラウンドでも届きます）</p>
     <div id="streams" class="stream-list"></div>
   </section>
 
   <section class="section container">
-    <h2 class="section-title">最新動画</h2>
-    <p class="section-sub">各チャンネルの最新アップロードから自動取得します</p>
+    <h2 class="section-title" data-i18n="videos.title">最新動画</h2>
+    <p class="section-sub" data-i18n="videos.sub">各チャンネルの最新アップロードから自動取得します</p>
     <div id="latestVideos" class="grid grid-4"></div>
   </section>
 
   <section id="recommendSongs" class="section container">
-    <h2 class="section-title">おすすめ楽曲</h2>
-    <p class="section-sub">公式楽曲・歌ってみたの中から最新のものを自動でピックアップ</p>
+    <h2 class="section-title" data-i18n="recommend.title">おすすめ楽曲</h2>
+    <p class="section-sub" data-i18n="recommend.sub">公式楽曲・歌ってみたの中から最新のものを自動でピックアップ</p>
     <div id="recommendList" class="recommend-row"></div>
-    <p><a class="recommend-link" href="songs.html">すべての楽曲を見る →</a></p>
+    <p><a class="recommend-link" href="songs.html" data-i18n="recommend.more">すべての楽曲を見る →</a></p>
   </section>
 
   <section id="quizTeaser" class="section container">
-    <h2 class="section-title">ミリプロ検定</h2>
-    <p class="section-sub">今日の1問に挑戦！全25問のプロモードもあります</p>
+    <h2 class="section-title" data-i18n="quiz.title">ミリプロ検定</h2>
+    <p class="section-sub" data-i18n="quiz.sub">今日の1問に挑戦！全25問のプロモードもあります</p>
     <div id="quizTeaserBox"></div>
   </section>
 
   <section class="section container">
-    <h2 class="section-title">ランチャー</h2>
-    <p class="section-sub">ミリプロファンのためのサービスへの入口</p>
+    <h2 class="section-title" data-i18n="launcher.title">ランチャー</h2>
+    <p class="section-sub" data-i18n="launcher.sub">ミリプロファンのためのサービスへの入口</p>
     <div id="launcherGrid" class="grid grid-3"></div>
   </section>
 
   <section id="news" class="section container">
-    <h2 class="section-title">注目のお知らせ</h2>
-    <p class="section-sub">公式サイト・公式Xを確認して手動で更新しています</p>
+    <h2 class="section-title" data-i18n="news.title">注目のお知らせ</h2>
+    <p class="section-sub" data-i18n="news.sub">公式サイト・公式Xを確認して手動で更新しています</p>
     <div class="grid grid-2">
       <div id="newsList" class="grid"></div>
       <div>
-        <h3 class="section-sub" style="margin-bottom:14px;">最新ポスト（公式X）</h3>
+        <h3 class="section-sub" style="margin-bottom:14px;" data-i18n="news.latestX">最新ポスト（公式X）</h3>
         <div id="xposts" class="xpost-list"></div>
       </div>
     </div>
   </section>
 
   <section id="goods" class="section container">
-    <h2 class="section-title">最新グッズ</h2>
-    <p class="section-sub">ミリプロオフィシャルショップより販売中の最新グッズをピックアップ（2026年8月14日時点）</p>
+    <h2 class="section-title" data-i18n="goods.title">最新グッズ</h2>
+    <p class="section-sub" data-i18n="goods.sub">ミリプロオフィシャルショップより販売中の最新グッズをピックアップ（2026年8月14日時点）</p>
     <div class="goods-tools">
-      <button id="goodsOshiFilter" type="button" class="cd-style-btn">推しのグッズだけ</button>
+      <button id="goodsOshiFilter" type="button" class="cd-style-btn" data-i18n="goods.oshiOnly">推しのグッズだけ</button>
     </div>
     <div class="goods-carousel">
-      <button id="goodsPrev" class="car-btn" type="button" aria-label="前へ">◀</button>
+      <button id="goodsPrev" class="car-btn" type="button" aria-label="前へ" data-i18n-aria="goods.prevAria">◀</button>
       <div class="car-viewport">
         <div id="goodsTrack" class="car-track"></div>
       </div>
-      <button id="goodsNext" class="car-btn" type="button" aria-label="次へ">▶</button>
+      <button id="goodsNext" class="car-btn" type="button" aria-label="次へ" data-i18n-aria="goods.nextAria">▶</button>
     </div>
-    <div id="goodsDots" class="car-dots" role="tablist" aria-label="スライド選択"></div>
-    <p class="section-sub"><a href="https://shop.milpr.com/" target="_blank" rel="noopener">ミリプロオフィシャルショップで全商品を見る ↗</a></p>
+    <div id="goodsDots" class="car-dots" role="tablist" aria-label="スライド選択" data-i18n-aria="goods.dotsAria"></div>
+    <p class="section-sub"><a href="https://shop.milpr.com/" target="_blank" rel="noopener" data-i18n="goods.shopAll">ミリプロオフィシャルショップで全商品を見る ↗</a></p>
   </section>
 
   <section id="members" class="section container">
     <h2 class="section-title">Member Guide</h2>
-    <p class="section-sub">ミリプロ所属タレント10名＋ミリちゃん。カードから詳細ページへどうぞ</p>
+    <p class="section-sub" data-i18n="members.sub">ミリプロ所属タレント10名＋ミリちゃん。カードから詳細ページへどうぞ</p>
     <div id="memberGrid" class="grid member-grid"></div>
   </section>
 
   <section id="calendar" class="section container">
     <h2 class="section-title">Event Calendar</h2>
-    <p class="section-sub">誕生日・デビュー記念日・ライブ・イベント。カレンダー表示とリスト表示を切り替えられます</p>
+    <p class="section-sub" data-i18n="cal.sub">誕生日・デビュー記念日・ライブ・イベント。カレンダー表示とリスト表示を切り替えられます</p>
     <div class="cal-tools">
       <button id="calPrev" type="button" class="btn btn-ghost">◀</button>
       <span id="calTitle" class="cal-title"></span>
       <button id="calNext" type="button" class="btn btn-ghost">▶</button>
-      <button id="calOshiFilter" type="button" class="cd-style-btn" aria-label="推しのイベントだけ表示">推しだけ</button>
-      <button id="calListBtn" type="button" class="cd-style-btn">リスト</button>
-      <button id="calGridBtn" type="button" class="cd-style-btn">カレンダー</button>
+      <button id="calOshiFilter" type="button" class="cd-style-btn" aria-label="推しのイベントだけ表示" data-i18n-aria="cal.oshiAria" data-i18n="cal.oshi">推しだけ</button>
+      <button id="calListBtn" type="button" class="cd-style-btn" data-i18n="cal.list">リスト</button>
+      <button id="calGridBtn" type="button" class="cd-style-btn" data-i18n="cal.grid">カレンダー</button>
     </div>
-    <p class="cal-subscribe">📅 <a href="calendar.ics">カレンダーを購読（.ics）</a> — Googleカレンダー: 「他のカレンダー」→「URLで追加」に <code>https://milli-orbis-portal.onrender.com/calendar.ics</code> を貼り付け（4時間ごとに自動更新）</p>
+    <p class="cal-subscribe" data-i18n-html="cal.subscribe">📅 <a href="calendar.ics">カレンダーを購読（.ics）</a> — Googleカレンダー: 「他のカレンダー」→「URLで追加」に <code>https://milli-orbis-portal.onrender.com/calendar.ics</code> を貼り付け（4時間ごとに自動更新）</p>
     <div id="eventList" class="cal-list"></div>
     <div id="calendarGrid" class="cal-grid" style="display:none;"></div>
-    <div class="cal-legend"><span><span class="dot"></span>イベントのある日は日付をクリックすると詳細が見られます</span></div>
+    <div class="cal-legend" data-i18n="cal.legend"><span><span class="dot"></span>イベントのある日は日付をクリックすると詳細が見られます</span></div>
   </section>
 
   <section id="history" class="section container">
-    <h2 class="section-title">ミリプロヒストリー</h2>
+    <h2 class="section-title" data-i18n="history.title">ミリプロヒストリー</h2>
     <div id="historyList" class="timeline"></div>
   </section>
 
   <section id="links" class="section container">
     <h2 class="section-title">Official Links</h2>
-    <p class="section-sub">公式サイト・公式アカウントへのリンク集</p>
+    <p class="section-sub" data-i18n="links.sub">公式サイト・公式アカウントへのリンク集</p>
     <div id="linkGrid" class="grid grid-3"></div>
   </section>
 
   <section id="about" class="section container">
-    <h2 class="section-title">このサイトについて</h2>
+    <h2 class="section-title" data-i18n="about.title">このサイトについて</h2>
     <div class="profile-card card">
-      <p class="lead">本サイトはファンが運営する非公式のポータルサイトです。ミリプロ公式様とは一切関係ありません。</p>
-      <p style="margin-top:10px;font-size:0.9rem;color:var(--muted);">メンカラーはファン間の慣習色です。掲載画像・音声は利用許諾を得た素材または配信音声（ミリ創作FAQに基づく使用）に限ります。</p>
+      <p class="lead" data-i18n="about.lead">本サイトはファンが運営する非公式のポータルサイトです。ミリプロ公式様とは一切関係ありません。</p>
+      <p style="margin-top:10px;font-size:0.9rem;color:var(--muted);" data-i18n="about.note">メンカラーはファン間の慣習色です。掲載画像・音声は利用許諾を得た素材または配信音声（ミリ創作FAQに基づく使用）に限ります。</p>
     </div>
   </section>
 </main>
 
 <footer>
-  <p class="disclaimer">本サイトはファンが運営する非公式のポータルサイトです。ミリプロ公式様とは一切関係ありません。</p>
-  <p class="source-note">ミリプロ（Million Production）公式サイト: <a href="https://milpr.com/" target="_blank" rel="noopener">https://milpr.com/</a></p>
+  <p class="disclaimer" data-i18n="footer.disclaimer">本サイトはファンが運営する非公式のポータルサイトです。ミリプロ公式様とは一切関係ありません。</p>
+  <p class="source-note"><span data-i18n="footer.source">ミリプロ（Million Production）公式サイト:</span> <a href="https://milpr.com/" target="_blank" rel="noopener">https://milpr.com/</a></p>
   <p class="source-note">YouTube Data API を利用しています（<a href="https://developers.google.com/youtube/terms/api-services-terms-of-service" target="_blank" rel="noopener">YouTube API Services Terms of Service</a>）</p>
-  <p>© 2026 Milli Orbis（非公式ファンサイト）</p>
-  <p class="source-note">作成・管理者：<a href="https://x.com/SunSunmachi" target="_blank" rel="noopener">すんすん（@SunSunmachi）</a></p>
+  <p data-i18n="footer.copy">© 2026 Milli Orbis（非公式ファンサイト）</p>
+  <p class="source-note"><span data-i18n="footer.admin">作成・管理者：</span><a href="https://x.com/SunSunmachi" target="_blank" rel="noopener">すんすん（@SunSunmachi）</a></p>
 </footer>
 
 <div id="login-popup" class="login-popup">
   <div class="login-popup-card">
     <div class="login-popup-header">
-      <span class="login-popup-title">アカウント連携</span>
-      <button class="login-popup-close" id="mp-popup-close" aria-label="閉じる">&times;</button>
+      <span class="login-popup-title" data-i18n="login.title">アカウント連携</span>
+      <button class="login-popup-close" id="mp-popup-close" aria-label="閉じる" data-i18n-aria="login.close">&times;</button>
     </div>
     <div class="login-popup-body">
-      <p class="login-popup-desc">
+      <p class="login-popup-desc" data-i18n-html="login.desc">
         ログイン（または連携IDの設定）で、Milli Games / Milli Unishare / Millipro Chronicle と同じアカウントを共有できます。<br>
         未ログインでも本サイトの全機能は利用できます。
       </p>
       <div id="mp-account-ok" style="display:none;">
-        <div class="mp-row">連携ID: <b id="mp-pid"></b></div>
+        <div class="mp-row" data-i18n-html="login.linkId">連携ID: <b id="mp-pid"></b></div>
         <div class="mp-btn-row">
-          <button type="button" class="btn" onclick="mpCopyId()">🔗 IDをコピー</button>
-          <button type="button" class="btn btn-ghost" onclick="mpLogout()">ログアウト</button>
+          <button type="button" class="btn" onclick="mpCopyId()" data-i18n="login.copyId">🔗 IDをコピー</button>
+          <button type="button" class="btn btn-ghost" onclick="mpLogout()" data-i18n="login.logout">ログアウト</button>
         </div>
       </div>
       <div id="mp-edit" class="mp-edit">
-        <div class="mp-edit-sep">プロフィール編集（名前・アイコン）</div>
+        <div class="mp-edit-sep" data-i18n="login.editSep">プロフィール編集（名前・アイコン）</div>
         <div class="mp-edit-row">
-          <span class="mp-edit-label">名前</span>
-          <input id="mp-edit-name" class="mp-input" type="text" maxlength="20" placeholder="表示名（20文字まで）" autocomplete="off">
+          <span class="mp-edit-label" data-i18n="login.name">名前</span>
+          <input id="mp-edit-name" class="mp-input" type="text" maxlength="20" placeholder="表示名（20文字まで）" data-i18n-placeholder="login.namePh" autocomplete="off">
         </div>
         <div class="mp-edit-row">
-          <span class="mp-edit-label">アイコン</span>
+          <span class="mp-edit-label" data-i18n="login.icon">アイコン</span>
           <span class="mp-edit-icon" id="mp-edit-icon-preview"></span>
-          <label class="btn btn-ghost mp-edit-upload">画像を選ぶ<input type="file" id="mp-edit-icon-file" accept="image/*" hidden onchange="mpPickIconFile(this)"></label>
+          <label class="btn btn-ghost mp-edit-upload" data-i18n="login.pickImg">画像を選ぶ<input type="file" id="mp-edit-icon-file" accept="image/*" hidden onchange="mpPickIconFile(this)"></label>
         </div>
         <div class="mp-emoji-grid">
           <button type="button" class="mp-emoji-btn" data-emoji="🐺" onclick="mpPickEmoji('🐺')">🐺</button>
@@ -288,38 +289,38 @@
           <button type="button" class="mp-emoji-btn" data-emoji="✨" onclick="mpPickEmoji('✨')">✨</button>
         </div>
         <p class="mp-edit-note" id="mp-edit-note"></p>
-        <button type="button" class="btn mp-submit" onclick="mpSaveProfile()">プロフィールを保存</button>
+        <button type="button" class="btn mp-submit" onclick="mpSaveProfile()" data-i18n="login.save">プロフィールを保存</button>
       </div>
-      <p class="mp-edit-locked" id="mp-edit-locked" style="display:none;">名前・アイコンの変更はログイン後に使えます。</p>
+      <p class="mp-edit-locked" id="mp-edit-locked" style="display:none;" data-i18n="login.locked">名前・アイコンの変更はログイン後に使えます。</p>
       <div id="mp-account-form">
         <div class="mp-tabs">
-          <button type="button" id="mp-tab-login" class="mp-tab active" onclick="mpTab('login')">ログイン</button>
-          <button type="button" id="mp-tab-signup" class="mp-tab" onclick="mpTab('signup')">新規登録</button>
+          <button type="button" id="mp-tab-login" class="mp-tab active" onclick="mpTab('login')" data-i18n="login.tabLogin">ログイン</button>
+          <button type="button" id="mp-tab-signup" class="mp-tab" onclick="mpTab('signup')" data-i18n="login.tabSignup">新規登録</button>
         </div>
         <div id="mp-panel-login">
-          <input id="mp-email" class="mp-input" type="email" placeholder="メールアドレス" autocomplete="email">
+          <input id="mp-email" class="mp-input" type="email" placeholder="メールアドレス" data-i18n-placeholder="login.email" autocomplete="email">
           <div class="mp-pass-row">
-            <input id="mp-pass" class="mp-input" type="password" placeholder="パスワード" autocomplete="current-password">
-            <button type="button" class="mp-eye" id="mp-pass-eye" onclick="mpToggle('mp-pass','mp-pass-eye')" aria-label="パスワード表示切替">👁</button>
+            <input id="mp-pass" class="mp-input" type="password" placeholder="パスワード" data-i18n-placeholder="login.pass" autocomplete="current-password">
+            <button type="button" class="mp-eye" id="mp-pass-eye" onclick="mpToggle('mp-pass','mp-pass-eye')" aria-label="パスワード表示切替" data-i18n-aria="login.eye">👁</button>
           </div>
-          <button type="button" class="btn mp-submit" onclick="mpSubmit(false)">ログイン</button>
-          <button type="button" class="mp-forgot-btn" onclick="mpOpenReset()">パスワードをお忘れですか？</button>
+          <button type="button" class="btn mp-submit" onclick="mpSubmit(false)" data-i18n="login.btnLogin">ログイン</button>
+          <button type="button" class="mp-forgot-btn" onclick="mpOpenReset()" data-i18n="login.forgot">パスワードをお忘れですか？</button>
         </div>
         <div id="mp-panel-signup" style="display:none;">
-          <input id="mp2-email" class="mp-input" type="email" placeholder="メールアドレス" autocomplete="email">
+          <input id="mp2-email" class="mp-input" type="email" placeholder="メールアドレス" data-i18n-placeholder="login.email" autocomplete="email">
           <div class="mp-pass-row">
-            <input id="mp2-pass" class="mp-input" type="password" placeholder="パスワード（6文字以上）" autocomplete="new-password">
-            <button type="button" class="mp-eye" id="mp2-pass-eye" onclick="mpToggle('mp2-pass','mp2-pass-eye')" aria-label="パスワード表示切替">👁</button>
+            <input id="mp2-pass" class="mp-input" type="password" placeholder="パスワード（6文字以上）" data-i18n-placeholder="login.passPh" autocomplete="new-password">
+            <button type="button" class="mp-eye" id="mp2-pass-eye" onclick="mpToggle('mp2-pass','mp2-pass-eye')" aria-label="パスワード表示切替" data-i18n-aria="login.eye">👁</button>
           </div>
-          <input id="mp2-pass2" class="mp-input" type="password" placeholder="パスワード（確認）" autocomplete="new-password">
-          <button type="button" class="btn mp-submit" onclick="mpSubmit(true)">登録する</button>
+          <input id="mp2-pass2" class="mp-input" type="password" placeholder="パスワード（確認）" data-i18n-placeholder="login.passConfirm" autocomplete="new-password">
+          <button type="button" class="btn mp-submit" onclick="mpSubmit(true)" data-i18n="login.btnRegister">登録する</button>
         </div>
         <p id="mp-msg" class="mp-msg"></p>
-        <div class="mp-sep"><span>または</span></div>
-        <div class="mp-row mp-row-label">連携ID（ログイン不要）:</div>
+        <div class="mp-sep"><span data-i18n="login.or">または</span></div>
+        <div class="mp-row mp-row-label" data-i18n="login.linkIdLabel">連携ID（ログイン不要）:</div>
         <div class="mp-setid-row">
-          <input id="mp-id" class="mp-input" placeholder="連携ID（例: TEST001）" autocomplete="off">
-          <button type="button" class="btn btn-ghost" onclick="mpSetId()">設定</button>
+          <input id="mp-id" class="mp-input" placeholder="連携ID（例: TEST001）" data-i18n-placeholder="login.linkIdPh" autocomplete="off">
+          <button type="button" class="btn btn-ghost" onclick="mpSetId()" data-i18n="login.set">設定</button>
         </div>
       </div>
     </div>
@@ -328,11 +329,11 @@
 
 <div id="password-reset-dialog" class="password-reset-dialog hidden" onclick="if(event.target===this)mpCloseReset()">
   <div class="password-reset-box">
-    <button type="button" class="password-reset-close" id="reset-close-btn" onclick="mpCloseReset()" aria-label="閉じる">✕</button>
-    <div class="password-reset-title">🔑 パスワードを再設定</div>
-    <div class="password-reset-sub">登録したメールアドレスに再設定用のリンクを送信します。</div>
-    <input class="mp-input" id="reset-email" type="email" placeholder="メールアドレス" autocomplete="email">
-    <button type="button" class="btn mp-submit" id="reset-send-btn" onclick="mpResetSubmit()">メールを送信</button>
+    <button type="button" class="password-reset-close" id="reset-close-btn" onclick="mpCloseReset()" aria-label="閉じる" data-i18n-aria="login.close">✕</button>
+    <div class="password-reset-title" data-i18n="login.resetTitle">🔑 パスワードを再設定</div>
+    <div class="password-reset-sub" data-i18n="login.resetSub">登録したメールアドレスに再設定用のリンクを送信します。</div>
+    <input class="mp-input" id="reset-email" type="email" placeholder="メールアドレス" data-i18n-placeholder="login.email" autocomplete="email">
+    <button type="button" class="btn mp-submit" id="reset-send-btn" onclick="mpResetSubmit()" data-i18n="login.resetSend">メールを送信</button>
     <p id="reset-msg" class="mp-msg"></p>
   </div>
 </div>
@@ -341,24 +342,24 @@
   <div class="modal">
     <h2 id="evmDate"></h2>
     <div id="evmList" class="evm-list"></div>
-    <button type="button" class="skip" id="evmClose">閉じる</button>
+    <button type="button" class="skip" id="evmClose" data-i18n="modal.close">閉じる</button>
   </div>
 </div>
 
 <div id="oshiModal" class="modal-overlay">
   <div class="modal">
-    <h2>あなたの推しは誰ですか？</h2>
-    <p class="modal-sub">選ぶとサイトの配色が推しカラーに変わります。あとからヘッダーでも変更できます。</p>
+    <h2 data-i18n="oshi.title">あなたの推しは誰ですか？</h2>
+    <p class="modal-sub" data-i18n="oshi.sub">選ぶとサイトの配色が推しカラーに変わります。あとからヘッダーでも変更できます。</p>
     <div id="oshiList" class="oshi-list"></div>
-    <button type="button" class="skip" id="oshiSkip">スキップ（デフォルト配色で開く）</button>
+    <button type="button" class="skip" id="oshiSkip" data-i18n="oshi.skip">スキップ（デフォルト配色で開く）</button>
   </div>
 </div>
 
 <div id="mpWelcome" class="mp-welcome" role="status" aria-live="polite"></div>
 
 <div class="float-actions">
-  <button type="button" class="share-x" id="shareXBtn">Xで共有</button>
-  <button type="button" class="to-top" id="toTopBtn" aria-label="ページ上部へ">▲</button>
+  <button type="button" class="share-x" id="shareXBtn" data-i18n="share.x">Xで共有</button>
+  <button type="button" class="to-top" id="toTopBtn" aria-label="ページ上部へ" data-i18n-aria="toTop.aria">▲</button>
 </div>
 
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
@@ -368,6 +369,8 @@
 <script src="firebase-init.js"></script>
 <script src="data.js"></script>
 <script src="data/songs.js"></script>
+<script src="data/i18n.js"></script>
+<script src="scripts/i18n.js"></script>
 <script src="script.js"></script>
 </body>
 </html>

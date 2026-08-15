@@ -75,7 +75,7 @@
     if (select) {
       var empty = document.createElement("option");
       empty.value = "";
-      empty.textContent = "推しを選択";
+      empty.textContent = T("header.oshiOption");
       select.appendChild(empty);
       MEMBERS.forEach(function (m) {
         var opt = document.createElement("option");
@@ -238,7 +238,7 @@
       featuredId = valid[0].id;
     }
 
-    var units = [["days", "日"], ["hours", "時間"], ["mins", "分"], ["secs", "秒"]];
+    var units = [["days", "cd.d"], ["hours", "cd.h"], ["mins", "cd.m"], ["secs", "cd.s"]];
 
     function cdItem(id) {
       return COUNTDOWN.find(function (c) { return c.id === id; });
@@ -249,17 +249,17 @@
       if (!item) return;
       wrap.innerHTML =
         '<div class="cd-card cd-' + style + ' cd-featured' + (item.featured ? " cd-special" : "") + '" data-id="' + item.id + '">' +
-        (item.featured ? '<span class="cd-badge">重大発表配信</span>' : "") +
+        (item.featured ? '<span class="cd-badge">' + T("cd.badge") + "</span>" : "") +
         '<div class="cd-label">' + item.label + "</div>" +
-        '<div class="cd-when">' + fmtDate(new Date(item.date)) + " " + fmtTime(new Date(item.date)) + " まで</div>" +
+        '<div class="cd-when">' + fmtDate(new Date(item.date)) + " " + fmtTime(new Date(item.date)) + " " + T("cd.until") + "</div>" +
         '<div class="cd-digits">' + units.map(function (u) {
-          return '<div class="cd-unit"><div class="cd-num" data-unit="' + u[0] + '">00</div><small>' + u[1] + "</small></div>";
+          return '<div class="cd-unit"><div class="cd-num" data-unit="' + u[0] + '">00</div><small>' + T(u[1]) + "</small></div>";
         }).join("") + "</div>" +
         (item.note ? '<div class="cd-note">' + item.note + "</div>" : "") +
         (item.url ? '<a class="cd-link" href="' + item.url + '">' +
-          (item.url.indexOf(".html") > -1 ? "詳細ページへ" : "公式サイトへ") + "</a>" : "") +
+          (item.url.indexOf(".html") > -1 ? T("cd.detail") : T("cd.official")) + "</a>" : "") +
         '<div class="cd-actions">' +
-        (item.date ? '<a class="cd-cal" href="' + gcalUrl(item.label + "（" + item.note + "）", item.date) + '"' + calTarget() + ">📅 カレンダーに追加</a>" : "") +
+        (item.date ? '<a class="cd-cal" href="' + gcalUrl(item.label + "（" + item.note + "）", item.date) + '"' + calTarget() + ">" + T("cd.addCal") + "</a>" : "") +
         "</div>" +
         "</div>";
     }
@@ -285,12 +285,26 @@
         });
       } else {
         var diff = $("[data-diff]", card);
-        if (diff) diff.textContent = "あと " + left.days + "日 " + left.hours + "時間 " + left.mins + "分";
+        if (diff) diff.textContent = T("cd.remain", { days: left.days, hours: left.hours, mins: left.mins });
       }
     }
 
     function tick() {
       var now = jstNow();
+      var left = valid.filter(function (c) { return cdLeft(c, now); });
+      if (left.length === 0) {
+        if (wrap) wrap.style.display = "none";
+        if (rail) rail.style.display = "none";
+        if (stylesBox) stylesBox.style.display = "none";
+        return;
+      }
+      /* 表示中の項目が期限切れになったら、次に近い項目へ自動で切り替え */
+      if (!cdLeft(cdItem(featuredId), now)) {
+        featuredId = left[0].id;
+        try { localStorage.setItem("milli-cd-featured", featuredId); } catch (err) {}
+        renderFeatured();
+        renderRail();
+      }
       var card = $(".cd-card", wrap);
       if (card) updateCard(card, now);
       $$(".cd-rail-item", rail).forEach(function (b) { updateCard(b, now); });
@@ -335,7 +349,7 @@
     var list = getMemberByDate(mmdd, "birthday");
     if (list.length === 0) return;
     var names = list.map(function (m) { return m.name; }).join("・");
-    banner.innerHTML = '今日は ' + names + ' の誕生日！ みんなでお祝いしよう！';
+    banner.innerHTML = T("birthday.banner", { names: names });
     banner.classList.add("show");
   }
 
@@ -350,6 +364,14 @@
       .catch(function () {
         renderYoutube(null);
       });
+  }
+
+  /* 配信ステータス（開始・終了）を10分ごとに更新 */
+  function initYoutubeRefetch() {
+    setInterval(function () {
+      if (document.hidden) return;
+      loadYoutubeData();
+    }, 10 * 60000);
   }
 
   var lastStreams = null;
@@ -368,8 +390,14 @@
 
   var WEEKS = ["日", "月", "火", "水", "木", "金", "土"];
 
+  function dowLabel(i) {
+    var d = T("cal.dows");
+    if (Array.isArray(d)) return d[i] || WEEKS[i];
+    return (d || "").split(",")[i] || WEEKS[i];
+  }
+
   function fmtMD(d) {
-    return d.getMonth() + 1 + "/" + d.getDate() + "(" + WEEKS[d.getDay()] + ")";
+    return d.getMonth() + 1 + "/" + d.getDate() + "(" + dowLabel(d.getDay()) + ")";
   }
 
   function streamBucket(start) {
@@ -400,7 +428,7 @@
     var box = $("#streams");
     if (!box) return;
     if (!streams || streams.length === 0) {
-      box.innerHTML = '<div class="placeholder">配信予定は現在ありません。</div>';
+      box.innerHTML = '<div class="placeholder">' + T("streams.none") + "</div>";
       return;
     }
     var now = new Date();
@@ -418,20 +446,20 @@
       if (groups[0].length + groups[1].length + groups[2].length + groups[3].length >= YOUTUBE.maxStreams) return;
       groups[streamBucket(start)].push({ s: s, start: start });
     });
-    var names = ["今日", "明日", "一週間以内", "それ以降"];
+    var names = ["streams.today", "streams.tomorrow", "streams.week", "streams.later"];
     var html = "";
     groups.forEach(function (g, b) {
       if (!g.length) return;
-      html += '<div class="stream-group"><h3 class="stream-group-title">' + names[b] +
+      html += '<div class="stream-group"><h3 class="stream-group-title">' + T(names[b]) +
         ' <span class="range">' + bucketRange(b) + "</span></h3>" +
         g.map(function (it) {
           var s = it.s, m = getMember(s.memberId) || (s.memberId === "official" ? { name: "ミリプロ公式" } : null);
           var isLive = s.status === "live";
           var diff = Math.floor((it.start.getTime() - now.getTime()) / 1000);
-          var soon = isLive ? "" : (diff >= 0 ? ' <span class="stream-count">あと' + hoursText(diff) + "</span>" : "");
-          var when = isLive ? "配信中" : (b === 0 ? "" : fmtMD(it.start) + " ") + fmtTime(it.start);
-          var cal = isLive ? "" : '<a class="stream-cal" href="' + gcalUrl(s.title, s.scheduledStartTime || s.scheduledStart) + '"' + calTarget() + ">📅 カレンダー</a>";
-          var remind = isLive ? "" : '<button type="button" class="stream-remind' + (isReminded(s.id) ? " is-active" : "") + '" data-vid="' + s.id + '" data-time="' + (s.scheduledStartTime || s.scheduledStart || "") + '" aria-label="リマインド登録">🔔 リマインド</button>';
+          var soon = isLive ? "" : (diff >= 0 ? ' <span class="stream-count">' + T("streams.in", { x: hoursText(diff) }) + "</span>" : "");
+          var when = isLive ? T("streams.live") : (b === 0 ? "" : fmtMD(it.start) + " ") + fmtTime(it.start);
+          var cal = isLive ? "" : '<a class="stream-cal" href="' + gcalUrl(s.title, s.scheduledStartTime || s.scheduledStart) + '"' + calTarget() + ">" + T("streams.cal") + "</a>";
+          var remind = isLive ? "" : '<button type="button" class="stream-remind' + (isReminded(s.id) ? " is-active" : "") + '" data-vid="' + s.id + '" data-time="' + (s.scheduledStartTime || s.scheduledStart || "") + '" aria-label="' + T("streams.remind") + '">' + T("streams.remind") + "</button>";
           return '<div class="stream-item card">' +
             '<a class="stream-main" href="' + videoUrl(s.id) + '" target="_blank" rel="noopener">' +
             '<div class="video-thumb"><img src="' + thumbUrl(s.id) + '" alt="" loading="lazy"></div>' +
@@ -443,13 +471,13 @@
             "</div>";
         }).join("") + "</div>";
     });
-    box.innerHTML = html || '<div class="placeholder">配信予定は現在ありません。</div>';
-    box.addEventListener("click", function (e) {
+    box.innerHTML = html || '<div class="placeholder">' + T("streams.none") + "</div>";
+    box.onclick = function (e) {
       var btn = e.target.closest(".stream-remind");
       if (!btn) return;
       e.preventDefault();
       toggleReminder(btn);
-    });
+    };
   }
 
   /* ---------- 配信リマインド（ブラウザ通知） ---------- */
@@ -477,7 +505,7 @@
   }
   function toggleReminder(btn) {
     if (!("Notification" in window)) {
-      alert("このブラウザは通知に対応していません。");
+      alert(T("notif.unsupported"));
       return;
     }
     var key = btn.dataset.vid || btn.dataset.key;
@@ -496,12 +524,13 @@
       }]));
       btn.classList.add("is-active");
       showRemindHelp();
+      startReminderWatcher();
     };
     if (Notification.permission === "granted") grant();
-    else if (Notification.permission === "denied") alert("通知が許可されていません。ブラウザの設定から許可してください。");
+    else if (Notification.permission === "denied") alert(T("notif.denied"));
     else Notification.requestPermission().then(function (p) {
       if (p === "granted") grant();
-      else alert("通知が許可されなかったため、リマインドを登録できませんでした。");
+      else alert(T("notif.failed"));
     });
   }
 
@@ -514,21 +543,21 @@
       if (!box) return;
       var btns = $$(".stream-remind", box).filter(function (b) { return !b.classList.contains("is-active"); });
       if (!btns.length) {
-        showToast("🔔 すべての配信はリマインド登録済みです");
+        showToast(T("notif.remindAllDone"));
         return;
       }
-      if (!("Notification" in window)) { alert("このブラウザは通知に対応していません。"); return; }
+      if (!("Notification" in window)) { alert(T("notif.unsupported")); return; }
       var grant = function () {
         var n = 0;
         btns.forEach(function (b) { if (registerReminder(b)) n++; });
-        showToast("🔔 配信予定 " + n + " 件を通知に登録しました！");
+        showToast(T("notif.remindAllRegistered", { n: n }));
         showRemindHelp();
       };
       if (Notification.permission === "granted") grant();
-      else if (Notification.permission === "denied") alert("通知が許可されていません。ブラウザの設定から許可してください。");
+      else if (Notification.permission === "denied") alert(T("notif.denied"));
       else Notification.requestPermission().then(function (p) {
         if (p === "granted") grant();
-        else alert("通知が許可されなかったため、リマインドを登録できませんでした。");
+        else alert(T("notif.failed"));
       });
     });
   }
@@ -538,7 +567,7 @@
     try { seen = localStorage.getItem("milli-remind-seen") === "1"; } catch (e) {}
     if (seen) return;
     try { localStorage.setItem("milli-remind-seen", "1"); } catch (e) {}
-    showToast("🔔 リマインドを登録しました！<br>※通知が届くのはこのサイトを開いている間のみです（別タブ・バックグラウンドでも届きます）。");
+    showToast(T("notif.help"));
   }
 
   function showToast(html) {
@@ -546,7 +575,7 @@
     if (old) old.remove();
     var t = document.createElement("div");
     t.className = "toast";
-    t.innerHTML = html + '<span class="toast-hint">タップで閉じる</span>';
+    t.innerHTML = html + '<span class="toast-hint">' + T("toast.close") + "</span>";
     document.body.appendChild(t);
     requestAnimationFrame(function () { t.classList.add("show"); });
     var close = function () {
@@ -557,9 +586,10 @@
     setTimeout(close, 8000);
   }
 
-  function initReminderWatcher() {
-    if (!("Notification" in window) || Notification.permission !== "granted") return;
-    setInterval(function () {
+  var reminderWatcherTimer = null;
+  function startReminderWatcher() {
+    if (reminderWatcherTimer || !("Notification" in window) || Notification.permission !== "granted") return;
+    reminderWatcherTimer = setInterval(function () {
       var now = Date.now();
       var list = getReminders();
       if (!list.length) return;
@@ -569,23 +599,29 @@
         if (!isFinite(t) || isNaN(t)) return;
         var lead = r.kind === "event" ? 0 : 5 * 60000;
         if (now >= t - lead && now <= t + 10 * 60000) {
-          if (r.kind === "event") {
-            new Notification("Milli Orbis イベント通知", {
-              body: "今日は「" + (r.title || "") + "」の日です！",
-              icon: "images/icon/Milli%20Orbis-192.png"
-            });
-          } else {
-            new Notification("Milli Orbis 配信リマインド", {
-              body: "まもなく配信が始まります！",
-              icon: "images/icon/Milli%20Orbis-192.png"
-            });
-          }
+          try {
+            if (r.kind === "event") {
+              new Notification(T("notif.eventTitle"), {
+                body: T("notif.eventBody", { title: r.title || "" }),
+                icon: "images/icon/Milli%20Orbis-192.png"
+              });
+            } else {
+              new Notification(T("notif.streamTitle"), {
+                body: T("notif.streamBody"),
+                icon: "images/icon/Milli%20Orbis-192.png"
+              });
+            }
+          } catch (e) {}
         } else {
           rest.push(r);
         }
       });
       setReminders(rest);
     }, 30000);
+  }
+
+  function initReminderWatcher() {
+    startReminderWatcher();
   }
 
   /* ---------- 通知ベル（当日イベント・誕生日・カウントダウンの自動通知） ---------- */
@@ -597,8 +633,8 @@
     var b = $("#notifBell");
     if (b) {
       b.classList.toggle("is-on", on);
-      b.setAttribute("aria-label", on ? "通知をオンにする" : "通知をオフにする");
-      b.title = on ? "通知オン（タップでオフ）" : "通知オフ（タップでオン）";
+      b.setAttribute("aria-label", on ? T("header.bellOn") : T("header.bellOff"));
+      b.title = on ? T("header.bellOnTitle") : T("header.bellOffTitle");
     }
   }
   function initNotifBell() {
@@ -606,22 +642,23 @@
     if (!b) return;
     setNotifEnabled(notifEnabled());
     b.addEventListener("click", function () {
-      if (!("Notification" in window)) { alert("このブラウザは通知に対応していません。"); return; }
+      if (!("Notification" in window)) { alert(T("notif.unsupported")); return; }
       if (notifEnabled()) {
         setNotifEnabled(false);
-        showToast("🔕 通知をオフにしました");
+        showToast(T("notif.off"));
         return;
       }
       var grant = function () {
         setNotifEnabled(true);
-        showToast("🔔 通知をオンにしました。今日のイベント・誕生日をお知らせします");
+        showToast(T("notif.on"));
         checkDailyNotif();
+        startReminderWatcher();
       };
       if (Notification.permission === "granted") grant();
-      else if (Notification.permission === "denied") alert("通知が許可されていません。ブラウザの設定から許可してください。");
+      else if (Notification.permission === "denied") alert(T("notif.denied"));
       else Notification.requestPermission().then(function (p) {
         if (p === "granted") grant();
-        else alert("通知が許可されなかったため、有効にできませんでした。");
+        else alert(T("notif.onFailed"));
       });
     });
   }
@@ -644,14 +681,14 @@
         var m = it.ev.member ? getMember(it.ev.member) : null;
         var name = m ? m.name : "";
         var key = "ev" + off + ":" + it.ev.type + ":" + (it.ev.title || name || "");
-        var body = (off === 1 ? "明日" : "今日") + "は「" + (it.ev.title || name + "の" + label) + "」です！";
-        fire(key, off === 1 ? "Milli Orbis 明日の予定" : "Milli Orbis イベント通知", body);
+        var body = (off === 1 ? T("notif.tomorrowBody", { title: it.ev.title || name + "の" + label }) : T("notif.todayBody", { title: it.ev.title || name + "の" + label }));
+        fire(key, off === 1 ? T("notif.tomorrowTitle") : T("notif.todayTitle"), body);
       });
     }
     COUNTDOWN.forEach(function (c) {
       var t = new Date(c.date);
       if (t.getFullYear() === y && t.getMonth() === mo && t.getDate() === d) {
-        fire("cd:" + c.id, "Milli Orbis イベント通知", "今日は「" + c.label + "」の日です！");
+        fire("cd:" + c.id, T("notif.eventTitle"), T("notif.todayBody", { title: c.label }));
       }
     });
     try { localStorage.setItem(sentKey, JSON.stringify(sent)); } catch (e) {}
@@ -748,20 +785,20 @@
     var d = Math.floor(secs / 86400);
     var h = Math.floor((secs % 86400) / 3600);
     var min = Math.floor((secs % 3600) / 60);
-    if (d > 0) return d + "日" + (h > 0 ? h + "時間" : "");
-    if (h > 0) return h + "時間" + (min > 0 ? min + "分" : "");
-    if (min > 0) return min + "分";
-    return "もうすぐ";
+    if (d > 0) return d + T("unit.d") + (h > 0 ? h + T("unit.h") : "");
+    if (h > 0) return h + T("unit.h") + (min > 0 ? min + T("unit.m") : "");
+    if (min > 0) return min + T("unit.m");
+    return T("unit.soon");
   }
 
   function relTime(d) {
     var min = Math.floor((Date.now() - d.getTime()) / 60000);
-    if (min < 1) return "たった今";
-    if (min < 60) return min + "分前";
+    if (min < 1) return T("rel.just");
+    if (min < 60) return T("rel.min", { n: min });
     var h = Math.floor(min / 60);
-    if (h < 24) return h + "時間前";
+    if (h < 24) return T("rel.hour", { n: h });
     var days = Math.floor(h / 24);
-    if (days < 7) return days + "日前";
+    if (days < 7) return T("rel.day", { n: days });
     return fmtDate(d);
   }
 
@@ -769,13 +806,13 @@
     var box = $("#latestVideos");
     if (!box) return;
     if (!videos || videos.length === 0) {
-      box.innerHTML = '<div class="placeholder">最新動画は現在ありません。</div>';
+      box.innerHTML = '<div class="placeholder">' + T("videos.none") + "</div>";
       return;
     }
     var vids = videos.slice(0, YOUTUBE.maxVideos);
     box.innerHTML = vids.map(function (v) {
       var m = getMember(v.memberId) || (v.memberId === "official" ? { name: "ミリプロ公式" } : null);
-      var typeLabel = v.type === "short" ? "Short" : (v.type === "live" || v.live === true) ? "配信" : "";
+      var typeLabel = v.type === "short" ? "Short" : (v.type === "live" || v.live === true) ? T("videos.stream") : "";
       var published = new Date(v.publishedAt);
       return '<a class="video-card card" href="' + videoUrl(v.id) + '" target="_blank" rel="noopener">' +
         '<div class="video-thumb"><img src="' + thumbUrl(v.id) + '" alt="" loading="lazy"></div>' +
@@ -793,11 +830,17 @@
     if (!live) return;
     badge.classList.add("show");
     badge.href = videoUrl(live.id);
-    badge.title = "配信中: " + live.title;
+    badge.title = T("videos.liveBadge", { title: live.title });
   }
 
   function esc(s) {
     return String(s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  }
+
+  /* グループアイコン（所属グループごと。該当なしは空） */
+  function groupIconImg(m) {
+    var p = m && GROUP_ICON[m.gen];
+    return p ? '<img class="group-icon" src="' + esc(p) + '" alt=""> ' : "";
   }
 
   /* ============ ニュース ============ */
@@ -806,10 +849,10 @@
     if (!box) return;
     box.innerHTML = NEWS.map(function (n) {
       return '<div class="news-item card"><div class="news-head"><span class="news-date">' +
-        fmtDate(new Date(n.date)) + '</span><span class="news-tag">' + n.tag + "</span></div>" +
+        fmtDate(new Date(n.date)) + '</span><span class="news-tag">' + esc(n.tag) + "</span></div>" +
         '<div class="news-title">' + esc(n.title) + "</div>" +
         '<div class="news-desc">' + esc(n.desc) + "</div>" +
-        (n.url ? '<a class="btn btn-ghost" href="' + n.url + '" target="_blank" rel="noopener">詳しく見る</a>' : "") +
+        (n.url ? '<a class="btn btn-ghost" href="' + n.url + '" target="_blank" rel="noopener">' + T("news.more") + "</a>" : "") +
         "</div>";
     }).join("");
   }
@@ -857,10 +900,10 @@
         memberCardDeco(m) +
         mark +
         '<span class="member-name">' + m.name + "</span>" +
-        '<span class="member-gen">' + m.gen + "</span>" +
+        '<span class="member-gen">' + groupIconImg(m) + esc(m.gen) + "</span>" +
         '<span class="member-catch">' + esc(m.catch) + "</span>" +
         '<span class="member-tags">' + tags + "</span>" +
-        '<span class="btn">詳細を見る</span>' +
+        '<span class="btn">' + T("members.detail") + "</span>" +
         "</a>";
     }).join("");
   }
@@ -873,25 +916,25 @@
     var rows = MEMBERS.map(function (m) {
       var h = /身長(\d+)cm/.exec(m.profile || "");
       var age = /年齢(\d+)歳/.exec(m.profile || "");
-      var bd = m.birthday ? m.birthday.replace("-", "/") : "未公開";
+      var bd = m.birthday ? m.birthday.replace("-", "/") : T("cmp.private");
       var debut = m.debut || "";
       var years = debut ? (jstNow().getFullYear() - parseInt(debut.slice(0, 4), 10)) : -1;
       return '<tr class="' + (oshi === m.id ? "is-oshi" : "") + '" style="--mc:' + m.color + '">' +
         '<td class="cmp-name"><span class="cmp-dot" style="background:' + m.color + '"></span>' + esc(m.name) + "</td>" +
-        "<td>" + esc(m.gen) + "</td>" +
-        "<td>" + (debut ? esc(debut) + (years >= 0 ? '<span class="cmp-sub">' + years + "年目</span>" : "") : "—") + "</td>" +
+        "<td>" + groupIconImg(m) + esc(m.gen) + "</td>" +
+        "<td>" + (debut ? esc(debut) + (years >= 0 ? '<span class="cmp-sub">' + T("cmp.years", { n: years }) + "</span>" : "") : "—") + "</td>" +
         "<td>" + esc(bd) + "</td>" +
         "<td>" + (h ? h[1] + "cm" : "—") + "</td>" +
-        "<td>" + (age ? age[1] + "歳" : "—") + "</td>" +
+        "<td>" + (age ? T("cmp.ageFmt", { n: age[1] }) : "—") + "</td>" +
         "<td>" + esc(m.fanName || "—") + "</td>" +
         '<td class="cmp-catch">' + esc(m.catch || "—") + "</td>" +
         "</tr>";
     }).join("");
     box.innerHTML =
-      '<div class="cmp-head"><h2>メンバー比較表</h2>' +
-      "<p>誕生日・加入日・身長を全員まとめて比較できます。推しの行はハイライト表示されます。</p></div>" +
+      '<div class="cmp-head"><h2>' + T("cmp.title") + "</h2>" +
+      "<p>" + T("cmp.desc") + "</p></div>" +
       '<div class="cmp-scroll"><table class="cmp-table"><thead><tr>' +
-      "<th>メンバー</th><th>期</th><th>加入日</th><th>誕生日</th><th>身長</th><th>年齢</th><th>ファンネーム</th><th>キャッチコピー</th>" +
+      "<th>" + T("cmp.member") + "</th><th>" + T("cmp.gen") + "</th><th>" + T("cmp.joined") + "</th><th>" + T("cmp.birthday") + "</th><th>" + T("cmp.height") + "</th><th>" + T("cmp.age") + "</th><th>" + T("cmp.fanName") + "</th><th>" + T("cmp.catch") + "</th>" +
       "</tr></thead><tbody>" + rows + "</tbody></table></div>";
   }
 
@@ -905,7 +948,7 @@
         : '<span class="shape-badge" style="background:linear-gradient(135deg,' + l.shape.grad[0] + "," + l.shape.grad[1] + ')">' + l.shape.char + "</span>";
       var inner = badge +
         "<h3>" + esc(l.name) + "</h3><p>" + esc(l.desc) + "</p>" +
-        (l.url ? '<span class="btn">開く</span>' : '<span class="prep-badge">準備中</span>');
+        (l.url ? '<span class="btn">' + T("launcher.open") + "</span>" : '<span class="prep-badge">' + T("launcher.soon") + "</span>");
       if (l.url) return '<a class="launcher-card card" href="' + l.url + '" target="_blank" rel="noopener">' + inner + "</a>";
       return '<div class="launcher-card card">' + inner + "</div>";
     }).join("");
@@ -923,15 +966,19 @@
   }
 
   function evTypeLabel(type) {
-    return type === "birthday" ? "誕生日" : type === "anniversary" ? "記念日" : "イベント";
+    return type === "birthday" ? T("ev.birthday") : type === "anniversary" ? T("ev.anniv") : T("ev.event");
   }
 
-  function eventOccurrences() {
+  function eventOccurrences(ym) {
+    /* ym = {y, mo}: 表示中の月。指定時はその月の分も含める（過去月閲覧対応）。
+       未指定時は「今日以降の次の1回」のみ（todayBox・通知用） */
     var list = [];
     EVENTS.forEach(function (e) {
       if (e.date) {
         var t = new Date(e.date);
-        if (t >= new Date(jstNow().getFullYear(), jstNow().getMonth(), jstNow().getDate())) {
+        if (ym) {
+          if (t.getFullYear() === ym.y && t.getMonth() === ym.mo) list.push({ ev: e, date: t });
+        } else if (t >= new Date(jstNow().getFullYear(), jstNow().getMonth(), jstNow().getDate())) {
           list.push({ ev: e, date: t });
         }
         return;
@@ -939,7 +986,12 @@
       if (e.member) {
         var m = getMember(e.member);
         if (!m) return;
-        if (e.type === "birthday" && m.birthday) {
+        var slice = e.type === "birthday" ? m.birthday : (e.type === "anniversary" ? m.debut.slice(5) : null);
+        if (!slice) return;
+        if (ym) {
+          var ymd = new Date(ym.y, ym.mo, parseInt(slice.slice(3), 10));
+          if (ymd.getMonth() === ym.mo) list.push({ ev: e, date: ymd });
+        } else if (e.type === "birthday" && m.birthday) {
           list.push({ ev: e, date: nextOccurrence(m.birthday) });
         } else if (e.type === "anniversary" && m.debut) {
           list.push({ ev: e, date: nextOccurrence(m.debut.slice(5)) });
@@ -964,7 +1016,7 @@
 
   function toggleOshiFilter() {
     if (!getOshi()) {
-      showToast("先にプロフィールで推しを選択してください");
+      showToast(T("oshi.please"));
       return;
     }
     setOshiFilter(!oshiFilterOn());
@@ -972,8 +1024,8 @@
     renderGoods();
   }
 
-  function filteredOccurrences() {
-    var list = eventOccurrences();
+  function filteredOccurrences(ym) {
+    var list = eventOccurrences(ym);
     if (!oshiFilterOn()) return list;
     var oshi = getOshi();
     if (!oshi) return list;
@@ -983,7 +1035,7 @@
   }
 
   function eventsOn(y, mo, d) {
-    return filteredOccurrences().filter(function (it) {
+    return filteredOccurrences({ y: y, mo: mo }).filter(function (it) {
       return it.date.getFullYear() === y && it.date.getMonth() === mo && it.date.getDate() === d;
     });
   }
@@ -1009,25 +1061,25 @@
       var when = new Date(d.getFullYear(), d.getMonth(), d.getDate(), 9, 0, 0).toISOString();
       var remind = '<button type="button" class="stream-remind' + (isReminded(key) ? " is-active" : "") + '"' +
         ' data-key="' + key + '" data-time="' + when + '" data-kind="event" data-title="' + esc(ev.title) + '"' +
-        ' aria-label="イベント通知">🔔 通知</button>';
-      var cal = '<a class="stream-cal" href="' + gcalAllDayUrl(ev.title, d, ev.desc) + '"' + calTarget() + ">📅 カレンダー</a>";
+        ' aria-label="' + T("cal.notify") + '">🔔 ' + T("cal.notify") + "</button>";
+      var cal = '<a class="stream-cal" href="' + gcalAllDayUrl(ev.title, d, ev.desc) + '"' + calTarget() + ">" + T("cal.cal") + "</a>";
       return '<div class="cal-actions">' + remind + cal + evLink(ev.url, detailLabel) + "</div>";
     }
 
     function renderList() {
       var y = calViewMonth.getFullYear();
       var mo = calViewMonth.getMonth();
-      var items = filteredOccurrences().filter(function (it) {
+      var items = filteredOccurrences({ y: y, mo: mo }).filter(function (it) {
         return it.date.getFullYear() === y && it.date.getMonth() === mo;
       });
       listBox.innerHTML = items.length ? items.map(function (it) {
         var d = it.date;
-        return '<div class="cal-item card"><div class="cal-date-box"><b>' + d.getDate() + "</b><small>" + (d.getMonth() + 1) + "月</small></div>" +
+        return '<div class="cal-item card"><div class="cal-date-box"><b>' + d.getDate() + "</b><small>" + T("cal.monthFmt", { m: d.getMonth() + 1 }) + "</small></div>" +
           '<div><div class="cal-type" style="--ec:' + evColor(it.ev.type) + '">' + evTypeLabel(it.ev.type) + "</div>" +
           '<div class="cal-title2">' + esc(it.ev.title) + "</div>" +
           (it.ev.desc ? '<div class="video-meta">' + esc(it.ev.desc) + "</div>" : "") + "</div>" +
-          calActionsHtml(it.ev, it.date, "詳細") + "</div>";
-      }).join("") : '<div class="placeholder">この月のイベントはありません</div>';
+          calActionsHtml(it.ev, it.date, T("cal.detail")) + "</div>";
+      }).join("") : '<div class="placeholder">' + T("cal.none") + "</div>";
     }
 
     function renderGrid() {
@@ -1059,11 +1111,10 @@
           "<b>" + d + "</b>" + badges + more + "</div>");
       }
 
-      var dows = ["日", "月", "火", "水", "木", "金", "土"];
-      gridBox.innerHTML = dows.map(function (w, i) {
+      gridBox.innerHTML = T("cal.dows").map(function (w, i) {
         return '<div class="cal-dow' + (i === 0 ? ' sunday' : i === 6 ? ' saturday' : '') + '">' + w + "</div>";
       }).join("") + cells.join("");
-      title.textContent = y + "年 " + (mo + 1) + "月";
+      title.textContent = T("cal.titleFmt", { y: y, m: mo + 1 });
     }
 
     function openDayModal(ymd) {
@@ -1072,12 +1123,12 @@
       var y = parseInt(p[0], 10), mo = parseInt(p[1], 10) - 1, d = parseInt(p[2], 10);
       var evs = eventsOn(y, mo, d);
       if (!evs.length) return;
-      $("#evmDate").textContent = y + "年 " + (mo + 1) + "月 " + d + "日 のイベント";
+      $("#evmDate").textContent = T("cal.evmDate", { y: y, m: mo + 1, d: d });
       $("#evmList").innerHTML = evs.map(function (it) {
         return '<div class="evm-item card"><span class="cal-type" style="--ec:' + evColor(it.ev.type) + '">' + evTypeLabel(it.ev.type) + "</span>" +
           '<div class="evm-title">' + esc(it.ev.title) + "</div>" +
           (it.ev.desc ? '<div class="evm-desc">' + esc(it.ev.desc) + "</div>" : "") +
-          calActionsHtml(it.ev, it.date, "詳細を見る") + "</div>";
+          calActionsHtml(it.ev, it.date, T("cal.detailView")) + "</div>";
       }).join("");
       modal.classList.add("open");
     }
@@ -1135,7 +1186,7 @@
     var box = $("#historyList");
     if (!box) return;
     box.innerHTML = HISTORY.map(function (h) {
-      return '<div class="timeline-item"><div class="timeline-date">' + h.date + "</div>" +
+      return '<div class="timeline-item"><div class="timeline-date">' + esc(h.date) + "</div>" +
         '<div class="timeline-title">' + esc(h.title) + "</div>" +
         (h.desc ? '<div class="timeline-desc">' + esc(h.desc) + "</div>" : "") + "</div>";
     }).join("");
@@ -1194,27 +1245,32 @@
     if (tCatch) tCatch.textContent = m.catch;
     var tGen = $("#tGen");
     if (tGen) tGen.textContent = m.gen;
+    var tGenIcon = $("#tGenIcon");
+    if (tGenIcon) {
+      var gp = GROUP_ICON[m.gen];
+      if (gp) { tGenIcon.src = gp; tGenIcon.hidden = false; }
+    }
 
     /* 挨拶ボイス */
     var voice = $("#voiceSection");
     if (voice) {
       if (m.voice) {
-        voice.innerHTML = '<div class="voice-box card profile-card"><div><h3>挨拶ボイス</h3>' +
-          '<button type="button" class="voice-btn" id="voiceBtn">▶ 挨拶を再生</button></div>' +
-          '<div class="voice-note">配信音声から抽出した挨拶ボイス（MP3）を再生します。音声素材の再配布・アップロードはしないでください。</div>' +
+        voice.innerHTML = '<div class="voice-box card profile-card"><div><h3>' + T("voice.title") + "</h3>" +
+          '<button type="button" class="voice-btn" id="voiceBtn">' + T("voice.play") + "</button></div>" +
+          '<div class="voice-note">' + T("voice.note") + "</div>" +
           '<audio id="voiceAudio" src="' + m.voice + '" preload="none"></audio></div>';
         var btn = $("#voiceBtn");
         var audio = $("#voiceAudio");
         btn.addEventListener("click", function () {
-          if (audio.paused) { audio.play(); btn.classList.add("playing"); btn.textContent = "⏸ 停止"; }
-          else { audio.pause(); audio.currentTime = 0; btn.classList.remove("playing"); btn.textContent = "▶ 挨拶を再生"; }
+          if (audio.paused) { audio.play(); btn.classList.add("playing"); btn.textContent = T("voice.stop"); }
+          else { audio.pause(); audio.currentTime = 0; btn.classList.remove("playing"); btn.textContent = T("voice.play"); }
         });
         audio.addEventListener("ended", function () {
           btn.classList.remove("playing");
-          btn.textContent = "▶ 挨拶を再生";
+          btn.textContent = T("voice.play");
         });
       } else {
-        voice.innerHTML = '<div class="placeholder">挨拶ボイスは準備中です。</div>';
+        voice.innerHTML = '<div class="placeholder">' + T("voice.soon") + "</div>";
       }
     }
 
@@ -1222,26 +1278,26 @@
     var profile = $("#profileSection");
     if (profile) {
       profile.innerHTML =
-        '<div class="talent-layout"><div class="profile-card card" ' + cardStyle + '><h3>プロフィール</h3>' +
-        '<table class="profile-table"><tr><th>所属</th><td>' + m.gen + "</td></tr>" +
-        (m.birthday ? "<tr><th>誕生日</th><td>" + m.birthday.slice(0, 2) + "月" + parseInt(m.birthday.slice(3), 10) + "日</td></tr>" : "") +
-        (m.debut ? "<tr><th>デビュー</th><td>" + m.debut + "</td></tr>" : "") +
-        (m.fanName ? "<tr><th>ファンネーム</th><td>" + m.fanName + "</td></tr>" : "") +
-        (m.fanMark ? "<tr><th>ファンマーク</th><td>" +
-          (m.icon ? '<span class="fanmark-img"><img src="' + m.icon + '" alt=""></span>' : "") +
+        '<div class="talent-layout"><div class="profile-card card" ' + cardStyle + '><h3>' + T("profile.title") + "</h3>" +
+        '<table class="profile-table"><tr><th>' + T("profile.belong") + "</th><td>" + groupIconImg(m) + esc(m.gen) + "</td></tr>" +
+        (m.birthday ? "<tr><th>" + T("profile.birthday") + "</th><td>" + T("profile.birthdayFmt", { m: m.birthday.slice(0, 2), d: parseInt(m.birthday.slice(3), 10) }) + "</td></tr>" : "") +
+        (m.debut ? "<tr><th>" + T("profile.debut") + "</th><td>" + esc(m.debut) + "</td></tr>" : "") +
+        (m.fanName ? "<tr><th>" + T("profile.fanName") + "</th><td>" + esc(m.fanName) + "</td></tr>" : "") +
+        (m.fanMark ? "<tr><th>" + T("profile.fanMark") + "</th><td>" +
+          (m.icon ? '<span class="fanmark-img"><img src="' + esc(m.icon) + '" alt=""></span>' : "") +
           m.fanMark + "</td></tr>" : "") +
-        (m.calls ? "<tr><th>呼び方</th><td>" + m.calls + "</td></tr>" : "") +
-        "<tr><th>紹介</th><td>" + esc(m.profile) + "</td></tr>" +
-        "<tr><th>特技・武器</th><td>" + esc(m.skills) + "</td></tr></table></div>" +
+        (m.calls ? "<tr><th>" + T("profile.calls") + "</th><td>" + esc(m.calls) + "</td></tr>" : "") +
+        "<tr><th>" + T("profile.intro") + "</th><td>" + esc(m.profile) + "</td></tr>" +
+        "<tr><th>" + T("profile.skills") + "</th><td>" + esc(m.skills) + "</td></tr></table></div>" +
 
-        '<div class="profile-card card"><h3>好きなもの</h3><p class="lead">' + esc(m.likes || "情報準備中") + "</p>" +
-        "<h3>苦手なもの</h3><p class='lead'>" + esc(m.dislikes || "情報準備中") + "</p></div></div>";
+        '<div class="profile-card card"><h3>' + T("profile.likes") + "</h3><p class=\"lead\">" + esc(m.likes || T("profile.na")) + "</p>" +
+        "<h3>" + T("profile.dislikes") + "</h3><p class='lead'>" + esc(m.dislikes || T("profile.na")) + "</p></div></div>";
     }
 
     /* 語録 */
     var phrases = $("#phrasesSection");
     if (phrases && m.phrases && m.phrases.length) {
-      phrases.innerHTML = '<div class="profile-card card" ' + cardStyle + '><h3>語録</h3>' +
+      phrases.innerHTML = '<div class="profile-card card" ' + cardStyle + '><h3>' + T("phrases.title") + "</h3>" +
         '<div class="phrase-list">' + m.phrases.map(function (p) {
           return '<div class="phrase-card">' + esc(p) + "</div>";
         }).join("") + "</div></div>";
@@ -1250,7 +1306,7 @@
     /* 歴史・実績 */
     var detail = $("#detailSection");
     if (detail && m.achievements && m.achievements.length) {
-      detail.innerHTML = '<div class="profile-card card"><h3>歴史・実績</h3><div class="timeline">' +
+      detail.innerHTML = '<div class="profile-card card"><h3>' + T("detail.title") + "</h3><div class=\"timeline\">" +
         m.achievements.map(function (a) {
           return '<div class="timeline-item"><div class="timeline-title">' + esc(a) + "</div></div>";
         }).join("") + "</div></div>";
@@ -1260,13 +1316,13 @@
     var videos = $("#videoSection");
     if (videos) {
       if (m.featuredVideos && m.featuredVideos.length) {
-        videos.innerHTML = '<div class="profile-card card"><h3>おすすめ動画</h3><div class="grid grid-2">' +
+        videos.innerHTML = '<div class="profile-card card"><h3>' + T("videos.title2") + "</h3><div class=\"grid grid-2\">" +
           m.featuredVideos.map(function (vid) {
             return '<div class="video-embed"><iframe src="https://www.youtube.com/embed/' + vid +
-              '" loading="lazy" allowfullscreen title="おすすめ動画"></iframe></div>';
+              '" loading="lazy" allowfullscreen title="' + T("videos.title2") + '"></iframe></div>';
           }).join("") + "</div></div>";
       } else {
-        videos.innerHTML = '<div class="placeholder">おすすめ動画は準備中です。</div>';
+        videos.innerHTML = '<div class="placeholder">' + T("videos.soon") + "</div>";
       }
     }
 
@@ -1274,11 +1330,11 @@
     var tags = $("#tagSection");
     if (tags) {
       var items = [];
-      if (m.tags.stream) items.push(["配信タグ", m.tags.stream]);
-      if (m.tags.clip) items.push(["切り抜きタグ", m.tags.clip]);
-      if (m.tags.art) items.push(["ファンアートタグ", m.tags.art]);
+      if (m.tags.stream) items.push([T("tags.stream"), m.tags.stream]);
+      if (m.tags.clip) items.push([T("tags.clip"), m.tags.clip]);
+      if (m.tags.art) items.push([T("tags.art"), m.tags.art]);
       if (items.length) {
-        tags.innerHTML = '<div class="profile-card card"><h3>ハッシュタグ</h3><div class="tag-row">' +
+        tags.innerHTML = '<div class="profile-card card"><h3>' + T("tags.title") + "</h3><div class=\"tag-row\">" +
           items.map(function (t) {
             return '<a class="tag-btn" href="https://x.com/search?q=' + encodeURIComponent("#" + t[1]) + '" target="_blank" rel="noopener">' +
               t[0] + ": #" + esc(t[1]) + "</a>";
@@ -1294,7 +1350,7 @@
       if (m.links.x) sns.push(["X", m.links.x]);
       if (m.links.tiktok) sns.push(["TikTok", m.links.tiktok]);
       if (sns.length) {
-        links.innerHTML = '<div class="profile-card card"><h3>公式リンク</h3><div class="sns-row">' +
+        links.innerHTML = '<div class="profile-card card"><h3>' + T("tlinks.title") + "</h3><div class=\"sns-row\">" +
           sns.map(function (s) {
             return '<a class="sns-btn" href="' + s[1] + '" target="_blank" rel="noopener">' + s[0] + "</a>";
           }).join("") + "</div></div>";
@@ -1434,7 +1490,7 @@
     }
     box.innerHTML = list.map(function (g) {
       var m = g.memberId ? getMember(g.memberId) : null;
-      var label = m ? m.name : (g.memberLabel || "ミリプロ全員");
+      var label = m ? m.name : (g.memberLabel || T("t.allLabel"));
       var color = m ? m.color : "#75b1c0";
       var old = g.oldPrice ? '<s>¥' + g.oldPrice.toLocaleString("ja-JP") + "</s> " : "";
       return '<a class="goods-card card" href="' + g.url + '" target="_blank" rel="noopener" style="--gc:' + color + '">' +
@@ -1444,7 +1500,7 @@
         '<span class="goods-member">' + esc(label) + "</span>" +
         '<span class="goods-name">' + esc(g.name) + "</span>" +
         '<span class="goods-price">' + old + "¥" + g.price.toLocaleString("ja-JP") + "</span>" +
-        '<span class="btn btn-ghost">ショップで見る</span>' +
+        '<span class="btn btn-ghost">' + T("goods.shop") + "</span>" +
         "</span></a>";
     }).join("");
     initGoodsCarousel(box);
@@ -1457,9 +1513,10 @@
     var prev = $("#goodsPrev");
     var next = $("#goodsNext");
     var dots = $("#goodsDots");
-    var n = box.children.length;
-    if (!n) return;
-    var idx = 0, pv = 3;
+    if (!box.children.length) return;
+    /* 再描画（推しフィルタ切替など）でもリスナーが二重登録されないよう状態を section に保持 */
+    var state = section._carState || (section._carState = { idx: 0, pv: 3, n: 0 });
+    state.n = box.children.length;
 
     function perView() {
       var w = viewport ? viewport.clientWidth : 0;
@@ -1469,7 +1526,7 @@
 
     function renderDots() {
       if (!dots) return;
-      var pages = Math.max(1, Math.ceil(n / pv));
+      var pages = Math.max(1, Math.ceil(state.n / state.pv));
       dots.innerHTML = "";
       for (var i = 0; i < pages; i++) {
         (function (i2) {
@@ -1477,9 +1534,9 @@
           b.type = "button";
           b.className = "car-dot";
           b.setAttribute("role", "tab");
-          b.setAttribute("aria-label", "スライド" + (i2 + 1) + " / " + pages);
+          b.setAttribute("aria-label", T("goods.dotsAria", { n: i2 + 1, total: pages }));
           b.addEventListener("click", function () {
-            go(Math.min(i2 * pv, n - pv), true);
+            go(Math.min(i2 * state.pv, state.n - state.pv), true);
             restart();
           });
           dots.appendChild(b);
@@ -1488,16 +1545,16 @@
     }
 
     function go(i, animate) {
-      if (viewport) viewport.style.setProperty("--pv", pv);
-      var max = Math.max(0, n - pv);
-      idx = Math.max(0, Math.min(i, max));
+      if (viewport) viewport.style.setProperty("--pv", state.pv);
+      var max = Math.max(0, state.n - state.pv);
+      state.idx = Math.max(0, Math.min(i, max));
       box.style.transition = animate === false ? "none" : "transform .45s ease";
-      box.style.transform = "translateX(-" + (idx * 100 / pv) + "%)";
-      if (prev) prev.disabled = idx <= 0;
-      if (next) next.disabled = idx >= max;
+      box.style.transform = "translateX(-" + (state.idx * 100 / state.pv) + "%)";
+      if (prev) prev.disabled = state.idx <= 0;
+      if (next) next.disabled = state.idx >= max;
       if (dots) {
-        var pages = Math.max(1, Math.ceil(n / pv));
-        var active = Math.min(Math.floor(idx / pv), pages - 1);
+        var pages = Math.max(1, Math.ceil(state.n / state.pv));
+        var active = Math.min(Math.floor(state.idx / state.pv), pages - 1);
         Array.prototype.forEach.call(dots.children, function (d, di) {
           d.classList.toggle("active", di === active);
           d.setAttribute("aria-selected", di === active ? "true" : "false");
@@ -1508,7 +1565,7 @@
     function restart() {
       if (goodsCarTimer) clearInterval(goodsCarTimer);
       goodsCarTimer = setInterval(function () {
-        go(idx + 1 >= n ? 0 : idx + 1, true);
+        go(state.idx + 1 >= state.n ? 0 : state.idx + 1, true);
       }, 5000);
     }
 
@@ -1516,21 +1573,26 @@
       if (goodsCarTimer) { clearInterval(goodsCarTimer); goodsCarTimer = null; }
     }
 
-    if (prev) prev.addEventListener("click", function () { go(idx - 1, true); restart(); });
-    if (next) next.addEventListener("click", function () { go(idx + 1, true); restart(); });
-    section.addEventListener("mouseenter", stop);
-    section.addEventListener("mouseleave", restart);
-    section.addEventListener("touchstart", stop, { passive: true });
-    document.addEventListener("visibilitychange", function () {
-      if (document.hidden) stop(); else restart();
-    });
-    window.addEventListener("resize", function () {
-      pv = perView();
-      renderDots();
-      go(idx, false);
-    });
+    if (!section._carReady) {
+      section._carReady = true;
+      if (prev) prev.addEventListener("click", function () { go(state.idx - 1, true); restart(); });
+      if (next) next.addEventListener("click", function () { go(state.idx + 1, true); restart(); });
+      section.addEventListener("mouseenter", stop);
+      section.addEventListener("mouseleave", restart);
+      section.addEventListener("touchstart", stop, { passive: true });
+      document.addEventListener("visibilitychange", function () {
+        if (document.hidden) stop(); else restart();
+      });
+      window.addEventListener("resize", function () {
+        state.pv = perView();
+        renderDots();
+        go(state.idx, false);
+      });
+    } else {
+      state.idx = 0;
+    }
 
-    pv = perView();
+    state.pv = perView();
     renderDots();
     go(0, false);
     restart();
@@ -1542,7 +1604,7 @@
     if (shareBtn) {
       shareBtn.addEventListener("click", function () {
         var u = encodeURIComponent(location.href);
-        var t = encodeURIComponent("「" + document.title + "」見てます！ #ミリプロ #MilliOrbis");
+        var t = encodeURIComponent(T("share.text", { title: document.title }));
         window.open("https://twitter.com/intent/tweet?url=" + u + "&text=" + t, "_blank", "noopener,width=600,height=520");
       });
     }
@@ -1567,7 +1629,7 @@
     var sync = function () {
       var dark = document.documentElement.dataset.theme === "dark";
       btn.textContent = dark ? "☀️" : "🌙";
-      btn.setAttribute("aria-label", dark ? "ライトモードに切替" : "ダークモードに切替");
+      btn.setAttribute("aria-label", dark ? T("header.themeLight") : T("header.themeDark"));
     };
     sync();
     btn.addEventListener("click", function () {
@@ -1589,12 +1651,12 @@
     var box = $("#gameFeature");
     if (!box || !GAME_FEATURE || !GAME_FEATURE.length) return;
     box.innerHTML = GAME_FEATURE.map(function (f) {
-      var link = f.url ? '<a class="game-feature-link" href="' + f.url + '" target="_blank" rel="noopener">詳しく見る ↗</a>'
-        : '<span class="game-feature-link is-disabled">詳細は準備中</span>';
+      var link = f.url ? '<a class="game-feature-link" href="' + f.url + '" target="_blank" rel="noopener">' + T("game.more") + "</a>"
+        : '<span class="game-feature-link is-disabled">' + T("game.soon") + "</span>";
       return '<div class="game-feature">' +
         (f.icon ? '<div class="game-feature-icon"><img src="' + f.icon + '" alt="" loading="lazy"></div>' : "") +
         '<div class="game-feature-body">' +
-        '<span class="game-feature-tag">' + esc(f.tag || "ゲーム紹介") + "</span>" +
+        '<span class="game-feature-tag">' + esc(f.tag || T("game.tag")) + "</span>" +
         '<div class="game-feature-game">' + esc(f.game) + "</div>" +
         (f.desc ? '<div class="game-feature-desc">' + esc(f.desc) + "</div>" : "") +
         link +
@@ -1638,13 +1700,13 @@
           var m = getMember(mid);
           return '<span class="song-member-chip" style="--mc:' + (m ? m.color : "#75b1c0") + '">' + esc(m ? m.name : mid) + "</span>";
         }).join("")
-        : '<span class="song-member-chip" style="--mc:#75b1c0">ミリプロ（全体）</span>';
+        : '<span class="song-member-chip" style="--mc:#75b1c0">' + T("songs.officialLabel") + "</span>";
       if (p.memberIds.length > 3) chips += '<span class="song-member-more">+' + (p.memberIds.length - 3) + "</span>";
       return '<a class="song-card card recommend-card" href="https://www.youtube.com/watch?v=' + p.id + '" target="_blank" rel="noopener">' +
         '<img class="song-thumb" src="https://i.ytimg.com/vi/' + p.id + '/mqdefault.jpg" alt="" loading="lazy">' +
         '<div class="song-title">' + esc(p.title) + "</div>" +
         '<div class="song-members">' + chips + "</div>" +
-        '<span class="btn btn-ghost">YouTubeで見る ▶</span></a>';
+        '<span class="btn btn-ghost">' + T("recommend.youtube") + "</span></a>";
     }).join("");
   }
 
@@ -1659,7 +1721,7 @@
     var q = QUIZ[Math.floor(Math.random() * QUIZ.length)];
     box.innerHTML =
       '<div class="quiz-card card quiz-teaser">' +
-      '<div class="quiz-teaser-head"><h3>今日の1問</h3><span class="quiz-teaser-badge">全' + QUIZ.length + '問</span></div>' +
+      '<div class="quiz-teaser-head"><h3>' + T("quiz.todayQ") + "</h3><span class=\"quiz-teaser-badge\">" + T("quiz.totalBadge", { n: QUIZ.length }) + "</span></div>" +
       '<p class="quiz-q">' + esc(q.q) + "</p>" +
       '<div class="quiz-opts">' +
       q.opts.map(function (o, i) {
@@ -1668,9 +1730,9 @@
       "</div>" +
       '<div class="quiz-explain quiz-teaser-explain" style="display:none;"></div>' +
       '<div class="quiz-teaser-actions">' +
-      '<a class="btn" href="quiz.html">▶ クイック（10問）</a>' +
-      '<a class="btn btn-ghost" href="quiz.html?mode=pro">▶ プロ（全' + QUIZ.length + '問）</a>' +
-      '<a class="recommend-link" href="quiz.html">検定ページへ →</a>' +
+      '<a class="btn" href="quiz.html">' + T("quiz.quick") + "</a>" +
+      '<a class="btn btn-ghost" href="quiz.html?mode=pro">' + T("quiz.pro", { n: QUIZ.length }) + "</a>" +
+      '<a class="recommend-link" href="quiz.html">' + T("quiz.page") + "</a>" +
       "</div></div>";
     var opts = box.querySelectorAll(".quiz-opt");
     opts.forEach(function (b) {
@@ -1685,7 +1747,7 @@
         });
         var ex = box.querySelector(".quiz-teaser-explain");
         ex.style.display = "block";
-        ex.innerHTML = (correct ? "✅ 正解！" : "❌ 不正解… 正解は「" + esc(q.opts[q.a]) + "」") + "<p>" + esc(q.exp) + "</p>";
+        ex.innerHTML = (correct ? T("quiz.correct") : T("quiz.wrong", { answer: esc(q.opts[q.a]) })) + "<p>" + esc(q.exp) + "</p>";
       });
     });
   }
@@ -1721,12 +1783,12 @@
     var icon = "";
     if (info.icon) {
       icon = String(info.icon).indexOf("data:image/") === 0
-        ? '<img src="' + info.icon + '" alt="">'
-        : info.icon;
+        ? '<img src="' + esc(info.icon) + '" alt="">'
+        : esc(info.icon);
     }
     w.innerHTML =
       '<span class="mp-w-icon">' + icon + "</span>" +
-      '<span class="mp-w-text">こんにちは、<b>' + esc(info.name || info.pid) + "</b> さん（ID: " + esc(info.pid || "—") + "）</span>";
+      '<span class="mp-w-text">' + T("welcome.hello", { name: esc(info.name || info.pid), pid: esc(info.pid || "—") }) + "</span>";
     w.classList.remove("show");
     void w.offsetWidth;
     w.classList.add("show");
@@ -1747,10 +1809,10 @@
     };
     var items = [];
     getMemberByDate(mmdd, "birthday").forEach(function (m) {
-      items.push("🎂 <b>" + esc(m.name) + "</b> の誕生日！");
+      items.push(T("today.birthday", { name: esc(m.name) }));
     });
     getMemberByDate(mmdd, "anniversary").forEach(function (m) {
-      items.push("🎉 <b>" + esc(m.name) + "</b> デビュー記念日");
+      items.push(T("today.anniv", { name: esc(m.name) }));
     });
     eventOccurrences().forEach(function (it) {
       if (it.ev.type !== "event" || !sameDay(it.date)) return;
@@ -1760,13 +1822,15 @@
     (lastStreams || []).forEach(function (s) {
       var start = new Date(s.scheduledStartTime || s.scheduledStart);
       if (!sameDay(start)) return;
+      /* 開始済みの予定は「📺 〜時」で出し続けない（配信中のみ表示） */
+      if (s.status !== "live" && start <= now) return;
       var m = getMember(s.memberId) || (s.memberId === "official" ? { name: "ミリプロ公式" } : null);
-      var label = s.status === "live" ? "🔴 LIVE 配信中" : "📺 " + fmtTime(start) + "〜";
+      var label = s.status === "live" ? T("today.live") : T("today.stream", { time: fmtTime(start) });
       items.push(label + " " + esc(s.title) + (m ? "（" + esc(m.name) + "）" : ""));
     });
     if (!items.length) { box.style.display = "none"; box.innerHTML = ""; return; }
     box.style.display = "block";
-    box.innerHTML = '<h3 class="today-box-title">📌 今日のミリプロ</h3><ul class="today-list">' +
+    box.innerHTML = '<h3 class="today-box-title">' + T("today.title") + "</h3><ul class=\"today-list\">" +
       items.map(function (i) { return "<li>" + i + "</li>"; }).join("") + "</ul>";
   }
 
@@ -1780,6 +1844,7 @@
     renderTodayBox();
     initAccount();
     loadYoutubeData();
+    initYoutubeRefetch();
     renderNews();
     renderXPosts();
     renderMembers();

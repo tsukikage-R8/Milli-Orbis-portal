@@ -16,7 +16,7 @@
   if (!listBox) return;
 
   if (!data) {
-    listBox.innerHTML = '<div class="placeholder">楽曲データがまだ生成されていません。しばらく待ってから再読み込みしてください。</div>';
+    listBox.innerHTML = '<div class="placeholder">' + T("songs.nodata") + "</div>";
     return;
   }
 
@@ -67,7 +67,7 @@
 
   function memberLabel(id) {
     var m = memberById(id);
-    return m ? m.name : (id === "official" ? "ミリプロ（全体）" : id);
+    return m ? m.name : (id === "official" ? T("songs.officialLabel") : id);
   }
 
   function chipColor(id) {
@@ -85,17 +85,6 @@
     var list = [];
     (data.covers || []).forEach(function (g) {
       g.urls.forEach(function (u) {
-        if (list.indexOf(u.memberId) === -1) list.push(u.memberId);
-      });
-    });
-    return list.sort();
-  }
-
-  /* カバーに登場するメンバー一覧（「ミリプロ（全体）」は絞り込み対象外） */
-  function coverMembers() {
-    var list = [];
-    (data.covers || []).forEach(function (g) {
-      g.urls.forEach(function (u) {
         if (u.memberId === "official") return;
         if (list.indexOf(u.memberId) === -1) list.push(u.memberId);
       });
@@ -105,7 +94,7 @@
 
   function chipsHtml() {
     var members = coverMembers();
-    var html = '<button type="button" class="song-chip' + (memberFilter ? "" : " active") + '" data-m="">すべて</button>';
+    var html = '<button type="button" class="song-chip' + (memberFilter ? "" : " active") + '" data-m="">' + T("songs.all") + "</button>";
     html += members.map(function (id) {
       return '<button type="button" class="song-chip' + (memberFilter === id ? " active" : "") + '" data-m="' + id + '"' +
         ' style="--mc:' + chipColor(id) + '">' + esc(memberLabel(id)) + "</button>";
@@ -125,7 +114,7 @@
     if (keyword) {
       list = list.filter(function (v) { return matchKeyword(v.title); });
     }
-    if (!list.length) return '<div class="placeholder">該当する楽曲が見つかりません</div>';
+    if (!list.length) return '<div class="placeholder">'+T("songs.none")+'</div>';
     return '<div class="song-grid">' + list.map(function (v) {
       var chips = (v.members && v.members.length ? v.members : ["official"]).map(function (mid) {
         return memberChipHtml(mid, "");
@@ -136,7 +125,7 @@
         '<div class="song-title">' + esc(v.title) + "</div>" +
         '<div class="song-members">' + chips + "</div>" +
         '<div class="song-meta">' + esc(v.publishedAt) + "</div>" +
-        '<span class="btn btn-ghost">YouTubeで見る ▶</span></a>';
+        '<span class="btn btn-ghost">'+T("songs.youtube")+'</span></a>';
     }).join("") + "</div>";
   }
 
@@ -152,7 +141,7 @@
     if (memberFilter) {
       list = list.filter(function (g) { return g.urls.some(function (u) { return u.memberId === memberFilter; }); });
     }
-    if (!list.length) return '<div class="placeholder">該当する楽曲が見つかりません</div>';
+    if (!list.length) return '<div class="placeholder">'+T("songs.none")+'</div>';
     return '<div class="song-grid">' + list.map(function (g) {
       var primary = g.urls[0];
       var members = g.urls.map(function (u) {
@@ -162,15 +151,15 @@
         thumbHtml(primary.id) +
         (isNew(primary.publishedAt) ? '<span class="song-new">NEW</span>' : "") +
         '<div class="song-title">' + esc(g.title) + "</div>" +
-        (g.urls.length > 1 ? '<div class="song-collab">コラボ／複数人歌唱</div>' : "") +
+        (g.urls.length > 1 ? '<div class="song-collab">'+T("songs.collab")+'</div>' : "") +
         '<div class="song-members">' + members + "</div>" +
-        '<span class="btn btn-ghost">YouTubeで見る ▶</span>' +
+        '<span class="btn btn-ghost">'+T("songs.youtube")+'</span>' +
         "</div>";
     }).join("") + "</div>";
   }
 
   function render() {
-    tabLabel.textContent = view === "covers" ? "歌ってみた（" + (data.covers || []).length + "曲）" : "公式楽曲（" + (data.official || []).length + "曲）";
+    tabLabel.textContent = view === "covers" ? T("songs.tabLabelCovers", { n: (data.covers || []).length }) : T("songs.tabLabelOfficial", { n: (data.official || []).length });
     note.style.display = view === "covers" ? "none" : "block";
     listBox.innerHTML = view === "covers" ? coversHtml() : officialHtml();
   }

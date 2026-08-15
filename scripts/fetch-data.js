@@ -60,6 +60,14 @@ const firstPage = async (url) => {
 
 const valid = (v) => v && v.id && v.title;
 
+// プレースホルダー的・ゴミの配信予定（VISAカード発表など）が calendar に混入しないよう、
+// 「開始日が120日より先」の配信予定は収集しない
+const MAX_FUTURE_DAYS = 120;
+const inFutureWindow = (when) => {
+  const t = Date.parse(when);
+  return t > Date.now() && t <= Date.now() + MAX_FUTURE_DAYS * 24 * 60 * 60 * 1000;
+};
+
 // 検索APIで取得できないがwiki等で確認済みの配信予定（API結果に含まれない場合のみ補完）
 const MANUAL_EXTRA_STREAMS = [
   { id: "4Ie_l2SI0NM", memberId: "raco", member: "音ノ瀬らこ", channelTitle: "音ノ瀬らこ / OtonoseRaco", title: "???? / 音ノ瀬らこfeat.ゆらぎゆら (cover)", thumb: "", scheduledStartTime: "2026-08-15T20:00:00+09:00", status: "upcoming" },
@@ -148,7 +156,7 @@ async function main() {
               const det = detailMap[it.id.videoId] || {};
               const when = isLive ? (det.actualStartTime || it.snippet.publishedAt) : (det.scheduledStartTime || "");
               if (!it.id.videoId || !when) return;
-              if (!isLive && Date.parse(when) <= Date.now()) return;
+              if (!isLive && !inFutureWindow(when)) return;
               out.push({
                 id: it.id.videoId,
                 memberId: src.id,
@@ -190,9 +198,8 @@ async function main() {
     let prev = null;
     try { prev = JSON.parse(fs.readFileSync(OUT_FILE, "utf8")); } catch (e) { prev = null; }
     if (prev) {
-      const now = Date.now();
       const keepStreams = (prev.streams || []).filter(
-        (s) => failedIds.has(s.memberId) && s.status === "upcoming" && Date.parse(s.scheduledStartTime) > now
+        (s) => failedIds.has(s.memberId) && s.status === "upcoming" && inFutureWindow(s.scheduledStartTime)
       );
       const keepVideos = (prev.videos || []).filter((v) => failedIds.has(v.memberId));
       const seenS = new Set(output.streams.map((v) => v.id));
@@ -205,7 +212,7 @@ async function main() {
   // wiki 等で確認済みの配信予定を補完（API 結果に含まれない場合のみ）
   const seenStreams = new Set(output.streams.map((v) => v.id));
   MANUAL_EXTRA_STREAMS.forEach((s) => {
-    if (Date.parse(s.scheduledStartTime) > Date.now() && !seenStreams.has(s.id)) {
+    if (inFutureWindow(s.scheduledStartTime) && !seenStreams.has(s.id)) {
       output.streams.push(s);
       seenStreams.add(s.id);
     }

@@ -45,16 +45,16 @@ const GOODS_ICON = {
 };
 
 const GOODS = [
-  { name: "虹深°ぬふ 1周年記念グッズ フルセット", memberId: "nuhu", kind: "fullset", price: 19900, oldPrice: 20200, tag: "NEW", url: "https://shop.milpr.com/products/nufu_1st_anniversary_full" },
-  { name: "虹深°ぬふ 1周年記念グッズ アクリルスタンド", memberId: "nuhu", kind: "stand", price: 1800, tag: "NEW", url: "https://shop.milpr.com/products/nufu_1st_anniversary_acrylicstand" },
-  { name: "虹深°ぬふ 1周年記念 シチュエーションボイス", memberId: "nuhu", kind: "voice", price: 1000, tag: "NEW", url: "https://shop.milpr.com/products/nufu_1st_anniversary_voice" },
+  { name: "虹深°ぬふ 1周年記念グッズ フルセット", memberId: "nuhu", kind: "fullset", price: 19900, oldPrice: 20200, url: "https://shop.milpr.com/products/nufu_1st_anniversary_full" },
+  { name: "虹深°ぬふ 1周年記念グッズ アクリルスタンド", memberId: "nuhu", kind: "stand", price: 1800, url: "https://shop.milpr.com/products/nufu_1st_anniversary_acrylicstand" },
+  { name: "虹深°ぬふ 1周年記念 シチュエーションボイス", memberId: "nuhu", kind: "voice", price: 1000, url: "https://shop.milpr.com/products/nufu_1st_anniversary_voice" },
   { name: "ミリプロTCG「Million Production OFFICIAL CARD GAME vol.4」1パック", memberId: "", memberLabel: "ミリプロ全員", kind: "card", price: 600, tag: "NEW", url: "https://shop.milpr.com/products/milpr_tcg_vol4" },
   { name: "ミリプロTCG「Million Production OFFICIAL CARD GAME vol.4」11パックセット", memberId: "", memberLabel: "ミリプロ全員", kind: "card", price: 6000, tag: "NEW", url: "https://shop.milpr.com/products/milpr_tcg_vol4_11" },
   { name: "ミリプロ サマーコレクション 2026 プレミアムタレントセット", memberId: "", memberLabel: "ミリプロ全員", kind: "fullset", price: 23400, oldPrice: 23700, tag: "NEW", url: "https://shop.milpr.com/products/summer_2026_talentset_premium" },
   { name: "ミリプロ サマーコレクション 2026 オーロラアクリルスタンド", memberId: "", memberLabel: "ミリプロ全員", kind: "stand", price: 2200, tag: "NEW", url: "https://shop.milpr.com/products/summer_2026_aurora_acsta" },
-  { name: "小廻こま 誕生日記念グッズ 2026 フルセット", memberId: "koma", kind: "fullset", price: 12300, tag: "NEW", url: "https://shop.milpr.com/products/koma_birthday2026_full" },
-  { name: "小廻こま 誕生日記念グッズ 2026 ジオラマアクリルスタンド", memberId: "koma", kind: "stand", price: 3500, tag: "NEW", url: "https://shop.milpr.com/products/koma_birthday2026_diorama_acsta" },
-  { name: "小廻こま 誕生日記念グッズ 2026 アクリルスタンド", memberId: "koma", kind: "stand", price: 1800, tag: "NEW", url: "https://shop.milpr.com/products/koma_birthday2026_acrylicstand" },
+  { name: "小廻こま 誕生日記念グッズ 2026 フルセット", memberId: "koma", kind: "fullset", price: 12300, url: "https://shop.milpr.com/products/koma_birthday2026_full" },
+  { name: "小廻こま 誕生日記念グッズ 2026 ジオラマアクリルスタンド", memberId: "koma", kind: "stand", price: 3500, url: "https://shop.milpr.com/products/koma_birthday2026_diorama_acsta" },
+  { name: "小廻こま 誕生日記念グッズ 2026 アクリルスタンド", memberId: "koma", kind: "stand", price: 1800, url: "https://shop.milpr.com/products/koma_birthday2026_acrylicstand" },
   { name: "あくび・でもんすぺーど 50万人記念グッズ フルセット", memberId: "akubi", kind: "fullset", price: 11500, tag: "NEW", url: "https://shop.milpr.com/products/akubi_50_full" },
   { name: "あくび・でもんすぺーど 50万人記念グッズ メタルチャームネックレス", memberId: "akubi", kind: "necklace", price: 5000, tag: "NEW", url: "https://shop.milpr.com/products/akubi_50_necklace" }
 ];
@@ -571,10 +571,18 @@ const MEMBERS = [
   }
 ];
 
+/* グループアイコン（images/icon/group/）。所属グループごとに表示される */
+const GROUP_ICON = {
+  "0期生・創設メンバー": "images/icon/group/期生.webp",
+  "1期生": "images/icon/group/期生.webp",
+  "2期生": "images/icon/group/期生.webp",
+  "3期生": "images/icon/group/期生.webp",
+  "ミリプロNOVA": "images/icon/group/nova.webp",
+  "ミリプロUNI": "images/icon/group/uni.webp"
+};
+
 const COUNTDOWN = [
   { id: "milpro-presents", label: "ミリプロプレゼンツ ～超重大発表配信～", date: "2026-08-16T21:00:00", note: "ミリ創作コンテスト結果発表＆重大告知！", url: "https://youtu.be/4lba9sduOzI", featured: true },
-  { id: "koma-birthday", label: "小廻こま 誕生日", date: "2026-08-01T00:00:00", note: "こまめいと、お祝いだ！", url: "koma.html" },
-  { id: "nuhu-anniv", label: "虹深°ぬふ デビュー1周年", date: "2026-08-08T00:00:00", note: "ぷかぬファミリー、お祝いだ！", url: "nuhu.html" },
   { id: "resort", label: "ミリプロリゾート", date: "2026-08-29T10:00:00", note: "秋葉原UDXにて開催", url: "https://milpr.com/news/milpr_resort" },
   { id: "tsukuri-birthday", label: "眠雲ツクリ 誕生日", date: "2026-09-03T00:00:00", note: "つくらうど、お祝いだ！", url: "tsukuri.html" },
   { id: "akubi-birthday", label: "あくび・でもんすぺーど 誕生日", date: "2026-10-31T00:00:00", note: "びぃの一族、お祝いだ！", url: "akubi.html" },
@@ -589,13 +597,6 @@ const NEWS = [
     title: "ミリプロリゾート 開催",
     desc: "ミリプロサマー2026のリアルイベントが秋葉原UDXで開催されます。",
     url: "https://milpr.com/news/milpr_resort"
-  },
-  {
-    date: "2026-08-14",
-    tag: "コンテスト",
-    title: "ミリ創作 ゲーム・インタラクティブ部門 募集締切",
-    desc: "Webサイト・ファンサイトが対象の部門です。募集は2026年8月14日まで。",
-    url: "https://milpr.com/sosaku"
   },
   {
     date: "2026-08-13",
@@ -669,8 +670,7 @@ const EVENTS = [
   { type: "anniversary", member: "nuhu", title: "虹深°ぬふ デビュー記念日", url: "nuhu.html" },
   { type: "anniversary", member: "tsukuri", title: "眠雲ツクリ デビュー記念日", url: "tsukuri.html" },
   { type: "anniversary", member: "liz", title: "雨夜リズ デビュー記念日", url: "liz.html" },
-  { type: "anniversary", member: "rei", title: "夕霧レイ デビュー記念日", url: "rei.html" },
-  { type: "event", date: "2026-04-01", title: "ミリプロ設立3周年", desc: "2023年4月1日設立", url: "https://milpr.com/" }
+  { type: "anniversary", member: "rei", title: "夕霧レイ デビュー記念日", url: "rei.html" }
 ];
 
 const X_POSTS = [
