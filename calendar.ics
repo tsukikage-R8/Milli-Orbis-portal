@@ -7,106 +7,10 @@ X-WR-CALNAME:Milli Orbis イベントカレンダー
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
 UID:milli-orbis-18490d30@milli-orbis-portal.onrender.com
-DTSTAMP:20260815T020700Z
+DTSTAMP:20260815T041700Z
 DTSTART:20260816T100000Z
 DTEND:20260816T120000Z
 SUMMARY:【 マイクラ 】夏祭りは全力で楽しむ派です【#⁠ミリプロサマー2026】
 URL:https://www.youtube.com/watch?v=tFy_PqQNxyg
-END:VEVENT
-BEGIN:VEVENT
-UID:milli-orbis-a31c757f@milli-orbis-portal.onrender.com
-DTSTAMP:20260815T020700Z
-DTSTART:20260816T100000Z
-DTEND:20260816T120000Z
-SUMMARY:〖 Minecraft 〗屋台食いつくしVlog #⁠ミリプロサマー2026〖 眠雲ツクリ / ミリプロ 〗
-URL:https://www.youtube.com/watch?v=ISlVs2qDnZY
-END:VEVENT
-BEGIN:VEVENT
-UID:milli-orbis-cd8c30e3@milli-orbis-portal.onrender.com
-DTSTAMP:20260815T020700Z
-DTSTART:20260816T100000Z
-DTEND:20260816T120000Z
-SUMMARY:【Minecraft】夏の水着のお姉さんとは救済である。┊︎#音ノ乃のの #ののん家 #⁠ミリプロサマー2026
-URL:https://www.youtube.com/watch?v=gD16Tfs3fzk
-END:VEVENT
-BEGIN:VEVENT
-UID:milli-orbis-d1901258@milli-orbis-portal.onrender.com
-DTSTAMP:20260815T020700Z
-DTSTART:20260816T100000Z
-DTEND:20260816T120000Z
-SUMMARY:【マイクラ】ナツいアツのプールなナイト！【#⁠ミリプロサマー2026】
-URL:https://www.youtube.com/watch?v=vNx5mvewRoA
-END:VEVENT
-BEGIN:VEVENT
-UID:milli-orbis-cf4c73ba@milli-orbis-portal.onrender.com
-DTSTAMP:20260815T020700Z
-DTSTART:20260823T144500Z
-DTEND:20260823T164500Z
-SUMMARY:【お知らせ】ミリプロリゾート from Akihabara to ??? の開催が決定！
-URL:https://www.youtube.com/watch?v=dHnc-b8UT34
-END:VEVENT
-BEGIN:VEVENT
-UID:milli-orbis-19da2734@milli-orbis-portal.onrender.com
-DTSTAMP:20260815T020700Z
-DTSTART:20260823T145900Z
-DTEND:20260823T165900Z
-SUMMARY:☁ストリートコレクション 2026 受注受付中！ 🔧
-URL:https://www.youtube.com/watch?v=FQUAaVHIEEo
-END:VEVENT
-BEGIN:VEVENT
-UID:milli-orbis-15cad2e3@milli-orbis-portal.onrender.com
-DTSTAMP:20260815T020700Z
-DTSTART:20260823T145900Z
-DTEND:20260823T165900Z
-SUMMARY:☁ファンミーティング 一般販売決定🔧
-URL:https://www.youtube.com/watch?v=8zRJYa59A60
-END:VEVENT
-BEGIN:VEVENT
-UID:milli-orbis-4bc26d6b@milli-orbis-portal.onrender.com
-DTSTAMP:20260815T020700Z
-DTSTART:20260902T145900Z
-DTEND:20260902T165900Z
-SUMMARY:☁ミリプロ サマーコレクション 2026 受注受付中！🔧
-URL:https://www.youtube.com/watch?v=RjOQyuyucgc
-END:VEVENT
-BEGIN:VEVENT
-UID:milli-orbis-5f87bbac@milli-orbis-portal.onrender.com
-DTSTAMP:20260815T020700Z
-DTSTART:20260908T145900Z
-DTEND:20260908T165900Z
-SUMMARY:【📢グッズ情報】1周年記念グッズが販売中✨
-URL:https://www.youtube.com/watch?v=V_8Z9GWJRGE
-END:VEVENT
-BEGIN:VEVENT
-UID:milli-orbis-fa359caa@milli-orbis-portal.onrender.com
-DTSTAMP:20260815T020700Z
-DTSTART:20260924T144500Z
-DTEND:20260924T164500Z
-SUMMARY:【お知らせ】Million Production × カラオケBanBanグループ
-URL:https://www.youtube.com/watch?v=_kaShsLH0O8
-END:VEVENT
-BEGIN:VEVENT
-UID:milli-orbis-912963cb@milli-orbis-portal.onrender.com
-DTSTAMP:20260815T020700Z
-DTSTART:20260930T143000Z
-DTEND:20260930T163000Z
-SUMMARY:【📢お知らせ】『甘狼このみと「好き」で学ぼう！中学英単語＆熟語1800』予約受付中！
-URL:https://www.youtube.com/watch?v=M_IG20Hhx2M
-END:VEVENT
-BEGIN:VEVENT
-UID:milli-orbis-288abf7c@milli-orbis-portal.onrender.com
-DTSTAMP:20260815T020700Z
-DTSTART:20261231T145900Z
-DTEND:20261231T165900Z
-SUMMARY:【お知らせ】音ノ乃のの×タイクレコラボレーション！🤍
-URL:https://www.youtube.com/watch?v=gjos7ccWkac
-END:VEVENT
-BEGIN:VEVENT
-UID:milli-orbis-a9d393b2@milli-orbis-portal.onrender.com
-DTSTAMP:20260815T020700Z
-DTSTART:20270301T110000Z
-DTEND:20270301T130000Z
-SUMMARY:【雑談】来年の私へ┊︎#音ノ乃のの #ののん家
-URL:https://www.youtube.com/watch?v=0ZQr0n84tM4
 END:VEVENT
 END:VCALENDAR
