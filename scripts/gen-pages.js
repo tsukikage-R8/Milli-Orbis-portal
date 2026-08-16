@@ -234,7 +234,8 @@ const navDrop = (home) => `
         </div>
       </div>
       <a href="quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
-      <a href="songs.html" data-i18n="nav.songs">曲データベース</a>`;
+      <a href="songs.html" data-i18n="nav.songs">曲データベース</a>
+      <a href="account.html" data-i18n="nav.account">マイページ</a>`;
 
 const mobileNav = (home) => `
       <a href="${home}#home">Home</a>
