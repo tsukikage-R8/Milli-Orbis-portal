@@ -20,13 +20,26 @@ import argparse
 import asyncio
 import json
 import os
+import re
+import shutil
 import subprocess
 import sys
 import tempfile
+import urllib.request
 
 import yt_dlp
 
 CHUNK_EXT = "mp3"
+
+PIPED_INSTANCES = [
+    "https://pipedapi.kavin.rocks",
+    "https://api.piped.private.coffee",
+    "https://pipedapi.adminforge.de",
+    "https://pipedapi.drgns.space",
+    "https://pipedapi.reallyaweso.me",
+]
+
+YOUTUBE_ID_RE = re.compile(r"(?:v=|youtu\.be/|shorts/|live/)?([A-Za-z0-9_-]{11})")
 
 def log(msg):
     print(msg, file=sys.stderr)
@@ -38,6 +51,46 @@ def ffmpeg(args, chunk_dir):
         subprocess.run(cmd, check=True, cwd=chunk_dir)
     except subprocess.CalledProcessError as e:
         raise RuntimeError("ffmpeg に失敗しました（入力ファイルの形式を確認してください）: %s" % e) from e
+
+def video_id_of(url):
+    m = YOUTUBE_ID_RE.search(url or "")
+    return m.group(1) if m else None
+
+def fetch_audio_piped(video_id, workdir, instances, timeout=20):
+    """Piped API（YouTube代替フロントエンド）経由で音声ストリームを取得。
+    yt-dlp が Bot 判定された場合のフォールバック。"""
+    errors = []
+    for inst in instances:
+        try:
+            api = inst.rstrip("/") + "/streams/" + video_id
+            req = urllib.request.Request(api, headers={
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+                "Accept": "application/json",
+            })
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                data = json.loads(r.read().decode("utf-8"))
+            streams = data.get("audioStreams") or []
+            if not streams:
+                raise RuntimeError("音声ストリームがありません")
+            def key(s):
+                mime = s.get("mimeType", "")
+                pref = 3 if "opus" in mime else 2 if "webm" in mime else 1 if "m4a" in mime or "mp4" in mime else 0
+                return (pref, s.get("bitrate", 0))
+            best = max(streams, key=key)
+            audio_url = best["url"]
+            if audio_url.startswith("/"):
+                audio_url = inst + audio_url
+            ext = "opus" if "opus" in best.get("mimeType", "") else "webm"
+            dest = os.path.join(workdir, "audio." + ext)
+            req2 = urllib.request.Request(audio_url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req2, timeout=120) as r2, open(dest, "wb") as f:
+                shutil.copyfileobj(r2, f)
+            if not os.path.exists(dest) or os.path.getsize(dest) < 1024:
+                raise RuntimeError("音声ファイルが空です")
+            return dest, data.get("title", ""), data.get("duration", 0)
+        except Exception as e:
+            errors.append("%s: %s" % (inst, str(e)[:100]))
+    raise RuntimeError("Piped でも取得できませんでした: " + " / ".join(errors))
 
 def fetch_audio(url, workdir, cookies, clients):
     """音声ストリームのみを取得。返り値は取得したファイルパス。"""
@@ -137,6 +190,11 @@ def main():
     ap.add_argument("--cookies", default="", help="ブラウザのcookies.txt（Bot判定回避用）")
     ap.add_argument("--clients", default="web,android,tv,web_embedded,ios",
                     help="試行するYouTubeプレイヤークライアント（カンマ区切り）")
+    ap.add_argument("--piped", action="store_true", default=True,
+                    help="yt-dlp失敗時にPiped APIへフォールバック（既定: 有効）")
+    ap.add_argument("--no-piped", dest="piped", action="store_false")
+    ap.add_argument("--piped-instances", default=",".join(PIPED_INSTANCES),
+                    help="Piped APIインスタンス（カンマ区切り）")
     ap.add_argument("--json", action="store_true", help="JSONで出力")
     args = ap.parse_args()
 
@@ -146,8 +204,18 @@ def main():
                 src, title, dur = args.file, os.path.basename(args.file), 0
                 log("入力: %s" % src)
             else:
-                src, title, dur = fetch_audio(args.url, workdir, args.cookies, args.clients)
-                log("取得: %s (%.0f秒) -> %s" % (title, dur, os.path.basename(src)))
+                try:
+                    src, title, dur = fetch_audio(args.url, workdir, args.cookies, args.clients)
+                    log("取得: %s (%.0f秒) -> %s" % (title, dur, os.path.basename(src)))
+                except Exception as e:
+                    vid = video_id_of(args.url)
+                    if args.piped and vid:
+                        log("yt-dlp失敗（%s）。Piped APIへフォールバックします" % str(e)[:80])
+                        src, title, dur = fetch_audio_piped(
+                            vid, workdir, [i.strip() for i in args.piped_instances.split(",") if i.strip()])
+                        log("Piped取得: %s (%.0f秒) -> %s" % (title, dur, os.path.basename(src)))
+                    else:
+                        raise
 
             if args.max_duration > 0:
                 src2 = os.path.join(workdir, "clip." + CHUNK_EXT)
