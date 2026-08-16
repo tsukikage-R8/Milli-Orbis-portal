@@ -321,10 +321,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ab/62/73/ab62738c-48bb-8d63-11f4-7278e56b4ba6/VEATP-34875.jpg/600x600bb.jpg"
     },
     "ヒバナ-deco*27shortby": {
-      "title": "The hole",
-      "artist": "King Gnu",
-      "album": "Sympa",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b4/58/4d/b4584d3a-4c82-ba50-9856-8fd7028f4029/jacket_BVCL00930B00Z_550.jpg/600x600bb.jpg"
+      "title": "Same Blue",
+      "artist": "Official髭男dism",
+      "album": "Same Blue - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/2b/64/8e2b64e9-85f2-2486-364d-e4b72c40f4c9/PCSP_06085_A.jpg/600x600bb.jpg"
     },
     "モニタリング-deco*27shortby": {
       "title": "どこかで日は昇る (Album Mix)",
