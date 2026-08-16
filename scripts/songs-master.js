@@ -49,6 +49,7 @@
       key: g.key,
       kind: "cover",
       title: g.title,
+      en: g.en,
       info: SD.songInfo(meta, master, g.key),
       urls: g.urls
     };
@@ -78,6 +79,7 @@
       key: "of:" + v.id,
       kind: "official",
       title: cleanOfficialTitle(v.title),
+      en: v.en,
       info: null,
       cover: thumbUrl(v.id),
       officialId: v.id,
@@ -187,7 +189,7 @@
       '<div class="sm-top">' +
       jacketHtml(o) +
       '<div class="sm-body">' +
-      '<div class="sm-title">' + highlight(o.title) + "</div>" +
+      '<div class="sm-title">' + highlight(tt(o)) + "</div>" +
       '<div class="sm-artist">' + highlight(artist) + "</div>" +
       '<div class="sm-members">' + chips + "</div>" +
       "</div>" +
@@ -202,7 +204,7 @@
     var list = originals.slice();
     if (keyword) {
       list = list.filter(function (o) {
-        if (matchKeyword(o.title)) return true;
+        if (matchKeyword(SD.searchText(o))) return true;
         var info = o.info || {};
         if (matchKeyword(info.artist || "")) return true;
         if (matchKeyword(info.album || "")) return true;

@@ -149,6 +149,15 @@ async function main() {
     await sleep(4000);
   }
 
+  // 日本語タイトルの英訳（en.title）を付与。失敗時は日本語のまま
+  const translate = require("./translate.js");
+  const titles = Object.values(out).map((e) => e.title);
+  const map = await translate.enMap(titles);
+  Object.values(out).forEach((e) => {
+    if (e.en || !map[e.title]) return;
+    e.en = { title: map[e.title] };
+  });
+
   const src = "/* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */\nwindow.SONG_MASTER = " +
     JSON.stringify({ generatedAt: new Date().toISOString().slice(0, 10), songs: out }, null, 2) + ";\n";
   fs.writeFileSync(path.join(root, "data", "song-master.js"), src, "utf8");

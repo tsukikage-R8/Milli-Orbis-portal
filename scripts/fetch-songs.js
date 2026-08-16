@@ -192,6 +192,19 @@ async function main() {
     covers: coverList
   };
 
+  // 日本語タイトルの英訳（en.title）を付与。失敗時は日本語のまま
+  const translate = require("./translate.js");
+  const titles = [];
+  out.official.forEach((s) => titles.push(s.title));
+  out.covers.forEach((c) => titles.push(c.title));
+  const map = await translate.enMap(titles);
+  const attach = (r) => {
+    if (r.en || !map[r.title]) return;
+    r.en = { title: map[r.title] };
+  };
+  out.official.forEach(attach);
+  out.covers.forEach(attach);
+
   const src = "/* 自動生成: node scripts/fetch-songs.js（変更しないでください） */\nwindow.SONGS = " +
     JSON.stringify(out, null, 2) + ";\n";
   const outPath = path.join(__dirname, "..", "data", "songs.js");

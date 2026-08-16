@@ -8,7 +8,10 @@ window.SONGS = {
       "publishedAt": "2026-08-01",
       "members": [
         "koma"
-      ]
+      ],
+      "en": {
+        "title": "Okiraku Super Star/Komakoma (official)"
+      }
     },
     {
       "id": "MF4Yw8IS6og",
@@ -16,7 +19,10 @@ window.SONGS = {
       "publishedAt": "2026-07-10",
       "members": [
         "nono"
-      ]
+      ],
+      "en": {
+        "title": "Princess Viral/Otononono (official)"
+      }
     },
     {
       "id": "MklYo2c3QmM",
@@ -24,7 +30,10 @@ window.SONGS = {
       "publishedAt": "2026-06-08",
       "members": [
         "raco"
-      ]
+      ],
+      "en": {
+        "title": "Luminous / Rako Otonose (Official MV)"
+      }
     },
     {
       "id": "E45uGT3eqSs",
@@ -38,7 +47,10 @@ window.SONGS = {
       "publishedAt": "2025-12-27",
       "members": [
         "konomi"
-      ]
+      ],
+      "en": {
+        "title": "[Original song] Omose♡Lovely / Konomi Amaro (official)"
+      }
     },
     {
       "id": "Xb9MKKcVTK8",
@@ -46,7 +58,10 @@ window.SONGS = {
       "publishedAt": "2025-09-29",
       "members": [
         "nono"
-      ]
+      ],
+      "en": {
+        "title": "HYPE SEEKER / Otononono (official)"
+      }
     },
     {
       "id": "d-IGBfIo3lM",
@@ -62,7 +77,10 @@ window.SONGS = {
       "publishedAt": "2025-06-10",
       "members": [
         "nono"
-      ]
+      ],
+      "en": {
+        "title": "Rokudenashi Tenshi/Otononono (official)"
+      }
     },
     {
       "id": "uUX8zLoK3TI",
@@ -70,7 +88,10 @@ window.SONGS = {
       "publishedAt": "2024-12-22",
       "members": [
         "nono"
-      ]
+      ],
+      "en": {
+        "title": "Nono's sounds! /Otononono (official)"
+      }
     },
     {
       "id": "AayVsZmozVs",
@@ -78,7 +99,10 @@ window.SONGS = {
       "publishedAt": "2024-09-09",
       "members": [
         "nono"
-      ]
+      ],
+      "en": {
+        "title": "Ultima/Otononono (Official)"
+      }
     },
     {
       "id": "Hy4aFw7NHiw",
@@ -86,7 +110,10 @@ window.SONGS = {
       "publishedAt": "2024-05-04",
       "members": [
         "nono"
-      ]
+      ],
+      "en": {
+        "title": "Promise/Otononono (official)"
+      }
     }
   ],
   "covers": [
@@ -104,7 +131,10 @@ window.SONGS = {
           "memberId": "yura",
           "publishedAt": "2026-08-15"
         }
-      ]
+      ],
+      "en": {
+        "title": "Kagerou Days"
+      }
     },
     {
       "title": "Zzz",
@@ -126,7 +156,10 @@ window.SONGS = {
           "memberId": "akubi",
           "publishedAt": "2026-08-04"
         }
-      ]
+      ],
+      "en": {
+        "title": "Nameless Monster / Yawn Monster Speed"
+      }
     },
     {
       "title": "あぶく",
@@ -137,7 +170,10 @@ window.SONGS = {
           "memberId": "nono",
           "publishedAt": "2026-08-15"
         }
-      ]
+      ],
+      "en": {
+        "title": "Bubbles"
+      }
     },
     {
       "title": "Surges／眠雲ツクリ（cover）",
@@ -148,7 +184,10 @@ window.SONGS = {
           "memberId": "tsukuri",
           "publishedAt": "2026-07-18"
         }
-      ]
+      ],
+      "en": {
+        "title": "Surges/Nemugumo Tsukuri (cover)"
+      }
     },
     {
       "title": "怪獣の花唄",
@@ -159,7 +198,10 @@ window.SONGS = {
           "memberId": "rei",
           "publishedAt": "2026-07-11"
         }
-      ]
+      ],
+      "en": {
+        "title": "Monster's Flower Song"
+      }
     },
     {
       "title": "MOTTAI／小廻こま（cover）",
@@ -170,7 +212,10 @@ window.SONGS = {
           "memberId": "koma",
           "publishedAt": "2026-07-10"
         }
-      ]
+      ],
+      "en": {
+        "title": "MOTTAI/Komawarikoma (cover)"
+      }
     },
     {
       "title": "フロムトーキョー",
@@ -181,7 +226,10 @@ window.SONGS = {
           "memberId": "raco",
           "publishedAt": "2026-07-04"
         }
-      ]
+      ],
+      "en": {
+        "title": "From Tokyo"
+      }
     },
     {
       "title": "I’m a mess / あくび・でもんすぺーど",
@@ -192,7 +240,10 @@ window.SONGS = {
           "memberId": "akubi",
           "publishedAt": "2026-06-28"
         }
-      ]
+      ],
+      "en": {
+        "title": "I’m a mess / Yawn/Demon Speed"
+      }
     },
     {
       "title": "プラネテス",
@@ -203,7 +254,10 @@ window.SONGS = {
           "memberId": "nono",
           "publishedAt": "2026-07-04"
         }
-      ]
+      ],
+      "en": {
+        "title": "Planetes"
+      }
     },
     {
       "title": "ラグトレイン／眠雲ツクリ（cover）",
@@ -214,7 +268,10 @@ window.SONGS = {
           "memberId": "tsukuri",
           "publishedAt": "2026-07-04"
         }
-      ]
+      ],
+      "en": {
+        "title": "Rag Train/Nemugumo Tsukuri (cover)"
+      }
     },
     {
       "title": "点描の唄 / Mrs. GREEN APPLE",
@@ -230,7 +287,10 @@ window.SONGS = {
           "memberId": "yura",
           "publishedAt": "2026-06-13"
         }
-      ]
+      ],
+      "en": {
+        "title": "Pointillist Song / Mrs. GREEN APPLE"
+      }
     },
     {
       "title": "シス×ラブ",
@@ -246,7 +306,10 @@ window.SONGS = {
           "memberId": "yura",
           "publishedAt": "2026-07-04"
         }
-      ]
+      ],
+      "en": {
+        "title": "Sis x Love"
+      }
     },
     {
       "title": "花女/花譜",
@@ -257,7 +320,10 @@ window.SONGS = {
           "memberId": "yura",
           "publishedAt": "2026-06-09"
         }
-      ]
+      ],
+      "en": {
+        "title": "Flower woman/Flower record"
+      }
     },
     {
       "title": "夜明けと蛍",
@@ -273,7 +339,10 @@ window.SONGS = {
           "memberId": "raco",
           "publishedAt": "2026-06-08"
         }
-      ]
+      ],
+      "en": {
+        "title": "dawn and fireflies"
+      }
     },
     {
       "title": "グランドエスケープ",
@@ -284,7 +353,10 @@ window.SONGS = {
           "memberId": "nono",
           "publishedAt": "2026-06-03"
         }
-      ]
+      ],
+      "en": {
+        "title": "grand escape"
+      }
     },
     {
       "title": "ブラック★ロックシューター - ryo（supercell）",
@@ -295,7 +367,10 @@ window.SONGS = {
           "memberId": "liz",
           "publishedAt": "2026-05-19"
         }
-      ]
+      ],
+      "en": {
+        "title": "Black★Rock Shooter – ryo (supercell)"
+      }
     },
     {
       "title": "DAYBREAK FRONTLINE／眠雲ツクリ（cover）",
@@ -306,7 +381,10 @@ window.SONGS = {
           "memberId": "tsukuri",
           "publishedAt": "2026-05-19"
         }
-      ]
+      ],
+      "en": {
+        "title": "DAYBREAK FRONTLINE/Nemugumo Tsukuri (cover)"
+      }
     },
     {
       "title": "フィナーレ。",
@@ -317,7 +395,10 @@ window.SONGS = {
           "memberId": "nono",
           "publishedAt": "2026-05-05"
         }
-      ]
+      ],
+      "en": {
+        "title": "Finale."
+      }
     },
     {
       "title": "おやすみ泣き声、さよなら歌姫 / あくび・でもんすぺーど",
@@ -328,7 +409,10 @@ window.SONGS = {
           "memberId": "akubi",
           "publishedAt": "2026-05-03"
         }
-      ]
+      ],
+      "en": {
+        "title": "Goodnight Cry, Goodbye Diva / Yawn/Demon Speed"
+      }
     },
     {
       "title": "ロミオとシンデレラ / あくび・でもんすぺーど",
@@ -344,7 +428,10 @@ window.SONGS = {
           "memberId": "tsukuri",
           "publishedAt": "2025-10-16"
         }
-      ]
+      ],
+      "en": {
+        "title": "Romeo and Cinderella / Yawn Spade"
+      }
     },
     {
       "title": "愛言葉Ⅳ",
@@ -355,7 +442,10 @@ window.SONGS = {
           "memberId": "raco",
           "publishedAt": "2026-04-08"
         }
-      ]
+      ],
+      "en": {
+        "title": "Love words Ⅳ"
+      }
     },
     {
       "title": "POP IN 2",
@@ -397,7 +487,10 @@ window.SONGS = {
           "memberId": "yura",
           "publishedAt": "2026-03-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "God's moment"
+      }
     },
     {
       "title": "のだ",
@@ -418,7 +511,10 @@ window.SONGS = {
           "memberId": "yura",
           "publishedAt": "2026-03-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "Noda"
+      }
     },
     {
       "title": "ワールドイズマイン - ryo（supercell）",
@@ -429,7 +525,10 @@ window.SONGS = {
           "memberId": "liz",
           "publishedAt": "2026-03-20"
         }
-      ]
+      ],
+      "en": {
+        "title": "World is Mine - ryo (supercell)"
+      }
     },
     {
       "title": "クローバー♧クラブ -C♧C-／小廻こま（cover）",
@@ -440,7 +539,10 @@ window.SONGS = {
           "memberId": "koma",
           "publishedAt": "2026-03-13"
         }
-      ]
+      ],
+      "en": {
+        "title": "Clover♧Club -C♧C-/Komawarikoma (cover)"
+      }
     },
     {
       "title": "magnet／眠雲ツクリ × 雨夜リズ（cover）",
@@ -456,7 +558,10 @@ window.SONGS = {
           "memberId": "tsukuri",
           "publishedAt": "2026-03-08"
         }
-      ]
+      ],
+      "en": {
+        "title": "magnet/Nemugumo Tsukuri × Ameya Riz (cover)"
+      }
     },
     {
       "title": "Gimme×Gimme - 八王子P × Giga",
@@ -472,7 +577,10 @@ window.SONGS = {
           "memberId": "tsukuri",
           "publishedAt": "2026-03-08"
         }
-      ]
+      ],
+      "en": {
+        "title": "Gimme×Gimme - Hachioji P × Giga"
+      }
     },
     {
       "title": "プロポーズ - 内緒のピアス",
@@ -483,7 +591,10 @@ window.SONGS = {
           "memberId": "liz",
           "publishedAt": "2026-02-21"
         }
-      ]
+      ],
+      "en": {
+        "title": "Proposal - Secret Earrings"
+      }
     },
     {
       "title": "snooze／眠雲ツクリ（cover）",
@@ -494,7 +605,10 @@ window.SONGS = {
           "memberId": "tsukuri",
           "publishedAt": "2026-02-20"
         }
-      ]
+      ],
+      "en": {
+        "title": "snooze/Nemugumo Tsukuri (cover)"
+      }
     },
     {
       "title": "ワールドイズマイン",
@@ -505,7 +619,10 @@ window.SONGS = {
           "memberId": "konomi",
           "publishedAt": "2026-02-16"
         }
-      ]
+      ],
+      "en": {
+        "title": "world is mine"
+      }
     },
     {
       "title": "ANIMA",
@@ -527,7 +644,10 @@ window.SONGS = {
           "memberId": "koma",
           "publishedAt": "2026-01-17"
         }
-      ]
+      ],
+      "en": {
+        "title": "Gachagacha Cute Figu@mate/Komawarikoma (cover)"
+      }
     },
     {
       "title": "スキスキ絶頂症 - koyori",
@@ -538,7 +658,10 @@ window.SONGS = {
           "memberId": "liz",
           "publishedAt": "2026-01-17"
         }
-      ]
+      ],
+      "en": {
+        "title": "Suki Suki Climax - koyori"
+      }
     },
     {
       "title": "死神",
@@ -549,7 +672,10 @@ window.SONGS = {
           "memberId": "nono",
           "publishedAt": "2026-01-08"
         }
-      ]
+      ],
+      "en": {
+        "title": "grim reaper"
+      }
     },
     {
       "title": "小悪魔だってかまわない！",
@@ -560,7 +686,10 @@ window.SONGS = {
           "memberId": "nono",
           "publishedAt": "2025-12-26"
         }
-      ]
+      ],
+      "en": {
+        "title": "I don't mind being a little devil!"
+      }
     },
     {
       "title": "Snow halation（ミリプロ全体カバー）",
@@ -611,7 +740,10 @@ window.SONGS = {
           "memberId": "yura",
           "publishedAt": "2025-12-26"
         }
-      ]
+      ],
+      "en": {
+        "title": "Snow halation (Millipro entire cover)"
+      }
     },
     {
       "title": "The Cute!!!",
@@ -633,7 +765,10 @@ window.SONGS = {
           "memberId": "nono",
           "publishedAt": "2025-12-26"
         }
-      ]
+      ],
+      "en": {
+        "title": "Complete sensation Dreamer"
+      }
     },
     {
       "title": "ロストワンの号哭",
@@ -644,7 +779,10 @@ window.SONGS = {
           "memberId": "raco",
           "publishedAt": "2025-12-09"
         }
-      ]
+      ],
+      "en": {
+        "title": "Cry of the Lost One"
+      }
     },
     {
       "title": "サムライハート (Some Like It Hot!!) / あくび・でもんすぺーど",
@@ -655,7 +793,10 @@ window.SONGS = {
           "memberId": "akubi",
           "publishedAt": "2025-12-07"
         }
-      ]
+      ],
+      "en": {
+        "title": "Samurai Heart (Some Like It Hot!!) / Yawn Monster Speed"
+      }
     },
     {
       "title": "Catch You Catch Me",
@@ -677,7 +818,10 @@ window.SONGS = {
           "memberId": "liz",
           "publishedAt": "2025-11-29"
         }
-      ]
+      ],
+      "en": {
+        "title": "Hibana - DECO*27 short cover by Ameya Riz"
+      }
     },
     {
       "title": "モニタリング (Best Friend Remix) - DECO*27 short cover by 雨夜リズ",
@@ -688,7 +832,10 @@ window.SONGS = {
           "memberId": "liz",
           "publishedAt": "2025-11-20"
         }
-      ]
+      ],
+      "en": {
+        "title": "Monitoring (Best Friend Remix) - DECO*27 short cover by Ameya Riz"
+      }
     },
     {
       "title": "SPECIALZ",
@@ -710,7 +857,10 @@ window.SONGS = {
           "memberId": "tsukuri",
           "publishedAt": "2025-11-20"
         }
-      ]
+      ],
+      "en": {
+        "title": "Delusional Sentiment Compensation Federation/Nemugumo Tsukuri (cover)"
+      }
     },
     {
       "title": "G4L - Giga",
@@ -732,7 +882,10 @@ window.SONGS = {
           "memberId": "raco",
           "publishedAt": "2025-11-20"
         }
-      ]
+      ],
+      "en": {
+        "title": "Nobresse oblige"
+      }
     },
     {
       "title": "嫌々 - HALVES short cover by 雨夜リズ",
@@ -743,7 +896,10 @@ window.SONGS = {
           "memberId": "liz",
           "publishedAt": "2025-11-07"
         }
-      ]
+      ],
+      "en": {
+        "title": "Unwilling - HALVES short cover by Ameya Riz"
+      }
     },
     {
       "title": "メルト",
@@ -754,7 +910,10 @@ window.SONGS = {
           "memberId": "yura",
           "publishedAt": "2025-11-07"
         }
-      ]
+      ],
+      "en": {
+        "title": "melt"
+      }
     },
     {
       "title": "プロポーズ",
@@ -775,7 +934,10 @@ window.SONGS = {
           "memberId": "yura",
           "publishedAt": "2025-11-07"
         }
-      ]
+      ],
+      "en": {
+        "title": "proposal"
+      }
     },
     {
       "title": "プレイ (PLAY) - Giga short cover by 雨夜リズ",
@@ -786,7 +948,10 @@ window.SONGS = {
           "memberId": "liz",
           "publishedAt": "2025-10-20"
         }
-      ]
+      ],
+      "en": {
+        "title": "PLAY - Giga short cover by Ameya Riz"
+      }
     },
     {
       "title": "モニタリング",
@@ -807,7 +972,10 @@ window.SONGS = {
           "memberId": "tsukuri",
           "publishedAt": "2025-10-04"
         }
-      ]
+      ],
+      "en": {
+        "title": "monitoring"
+      }
     },
     {
       "title": "いますぐ輪廻",
@@ -823,7 +991,10 @@ window.SONGS = {
           "memberId": "raco",
           "publishedAt": "2025-10-13"
         }
-      ]
+      ],
+      "en": {
+        "title": "Reincarnation now"
+      }
     },
     {
       "title": "青空のラプソディ／小廻こま（cover）",
@@ -834,7 +1005,10 @@ window.SONGS = {
           "memberId": "koma",
           "publishedAt": "2025-10-12"
         }
-      ]
+      ],
+      "en": {
+        "title": "Rhapsody of the Blue Sky/Komawarikoma (cover)"
+      }
     },
     {
       "title": "-ERROR - niki",
@@ -867,7 +1041,10 @@ window.SONGS = {
           "memberId": "nono",
           "publishedAt": "2025-10-07"
         }
-      ]
+      ],
+      "en": {
+        "title": "That's why I quit music"
+      }
     },
     {
       "title": "おやすみ泣き声、さよなら歌姫  - クリープハイプ short cover by 雨夜リズ",
@@ -878,7 +1055,10 @@ window.SONGS = {
           "memberId": "liz",
           "publishedAt": "2025-10-05"
         }
-      ]
+      ],
+      "en": {
+        "title": "Goodnight Cry, Goodbye Diva - Creep Hype short cover by Ameya Riz"
+      }
     },
     {
       "title": "チェリーポップ / あくび・でもんすぺーど",
@@ -894,7 +1074,10 @@ window.SONGS = {
           "memberId": "raco",
           "publishedAt": "2025-08-10"
         }
-      ]
+      ],
+      "en": {
+        "title": "Cherry Pop / Yawn/Demon Speed"
+      }
     },
     {
       "title": "男の子の目的は何？／小廻こま（cover）",
@@ -905,7 +1088,10 @@ window.SONGS = {
           "memberId": "koma",
           "publishedAt": "2025-09-22"
         }
-      ]
+      ],
+      "en": {
+        "title": "What is the boy's purpose? /Komawarikoma (cover)"
+      }
     },
     {
       "title": "1000年生きてる／眠雲ツクリ（cover）",
@@ -916,7 +1102,10 @@ window.SONGS = {
           "memberId": "tsukuri",
           "publishedAt": "2025-09-03"
         }
-      ]
+      ],
+      "en": {
+        "title": "Living for 1000 years/Nemugumo Tsukuri (cover)"
+      }
     },
     {
       "title": "­ ­",
@@ -943,7 +1132,10 @@ window.SONGS = {
           "memberId": "konomi",
           "publishedAt": "2025-08-30"
         }
-      ]
+      ],
+      "en": {
+        "title": "melancholic"
+      }
     },
     {
       "title": "ローリンガール／眠雲ツクリ（cover）",
@@ -954,7 +1146,10 @@ window.SONGS = {
           "memberId": "tsukuri",
           "publishedAt": "2025-08-19"
         }
-      ]
+      ],
+      "en": {
+        "title": "Rolling Girl/Nemugumo Tsukuri (cover)"
+      }
     },
     {
       "title": "ラビットホール",
@@ -965,7 +1160,10 @@ window.SONGS = {
           "memberId": "nono",
           "publishedAt": "2025-08-16"
         }
-      ]
+      ],
+      "en": {
+        "title": "rabbit hole"
+      }
     },
     {
       "title": "ただ君に晴れ",
@@ -976,7 +1174,10 @@ window.SONGS = {
           "memberId": "yura",
           "publishedAt": "2025-08-13"
         }
-      ]
+      ],
+      "en": {
+        "title": "It's just sunny for you"
+      }
     },
     {
       "title": "ドレミファロンド",
@@ -987,7 +1188,10 @@ window.SONGS = {
           "memberId": "nuhu",
           "publishedAt": "2025-08-08"
         }
-      ]
+      ],
+      "en": {
+        "title": "Doremi Farondo"
+      }
     },
     {
       "title": "ポニーテールとシュシュ",
@@ -1028,7 +1232,10 @@ window.SONGS = {
           "memberId": "tsukuri",
           "publishedAt": "2025-08-02"
         }
-      ]
+      ],
+      "en": {
+        "title": "ponytail and scrunchie"
+      }
     },
     {
       "title": "いーあるふぁんくらぶ／小廻こま（cover）",
@@ -1039,7 +1246,10 @@ window.SONGS = {
           "memberId": "koma",
           "publishedAt": "2025-08-01"
         }
-      ]
+      ],
+      "en": {
+        "title": "Iaru Fun Club/Komawarikoma (cover)"
+      }
     },
     {
       "title": "リードコントロール",
@@ -1050,7 +1260,10 @@ window.SONGS = {
           "memberId": "nono",
           "publishedAt": "2025-06-14"
         }
-      ]
+      ],
+      "en": {
+        "title": "lead control"
+      }
     },
     {
       "title": "深海少女 -deep sea girl-",
@@ -1061,7 +1274,10 @@ window.SONGS = {
           "memberId": "yura",
           "publishedAt": "2025-06-13"
         }
-      ]
+      ],
+      "en": {
+        "title": "Deep sea girl -deep sea girl-"
+      }
     },
     {
       "title": "かくれんぼ",
@@ -1072,7 +1288,10 @@ window.SONGS = {
           "memberId": "raco",
           "publishedAt": "2025-06-09"
         }
-      ]
+      ],
+      "en": {
+        "title": "hide and seek"
+      }
     },
     {
       "title": "unravel",
@@ -1094,7 +1313,10 @@ window.SONGS = {
           "memberId": "liz",
           "publishedAt": "2025-05-18"
         }
-      ]
+      ],
+      "en": {
+        "title": "Yami Tiger Girl - Reruri"
+      }
     },
     {
       "title": "トンデモワンダーズ",
@@ -1130,7 +1352,10 @@ window.SONGS = {
           "memberId": "raco",
           "publishedAt": "2025-06-03"
         }
-      ]
+      ],
+      "en": {
+        "title": "Tondemo Wonders"
+      }
     },
     {
       "title": "心予報",
@@ -1141,7 +1366,10 @@ window.SONGS = {
           "memberId": "nono",
           "publishedAt": "2025-05-09"
         }
-      ]
+      ],
+      "en": {
+        "title": "heart forecast"
+      }
     },
     {
       "title": "アンノウン・マザーグース／眠雲ツクリ（cover）",
@@ -1152,7 +1380,10 @@ window.SONGS = {
           "memberId": "tsukuri",
           "publishedAt": "2025-04-12"
         }
-      ]
+      ],
+      "en": {
+        "title": "Unknown Mother Goose/Nemugumo Tsukuri (cover)"
+      }
     },
     {
       "title": "テレパシ",
@@ -1163,7 +1394,10 @@ window.SONGS = {
           "memberId": "raco",
           "publishedAt": "2025-04-08"
         }
-      ]
+      ],
+      "en": {
+        "title": "telepathy"
+      }
     },
     {
       "title": "メンタルチェンソー",
@@ -1174,7 +1408,10 @@ window.SONGS = {
           "memberId": "raco",
           "publishedAt": "2025-04-08"
         }
-      ]
+      ],
+      "en": {
+        "title": "mental chainsaw"
+      }
     },
     {
       "title": "心做し",
@@ -1185,7 +1422,10 @@ window.SONGS = {
           "memberId": "yura",
           "publishedAt": "2025-03-21"
         }
-      ]
+      ],
+      "en": {
+        "title": "take heart"
+      }
     },
     {
       "title": "雑魚",
@@ -1196,7 +1436,10 @@ window.SONGS = {
           "memberId": "konomi",
           "publishedAt": "2025-03-21"
         }
-      ]
+      ],
+      "en": {
+        "title": "small fry"
+      }
     },
     {
       "title": "UNDEAD",
@@ -1223,7 +1466,10 @@ window.SONGS = {
           "memberId": "nono",
           "publishedAt": "2025-03-10"
         }
-      ]
+      ],
+      "en": {
+        "title": "loki"
+      }
     },
     {
       "title": "ボルテッカー／小廻こま（cover）",
@@ -1234,7 +1480,10 @@ window.SONGS = {
           "memberId": "koma",
           "publishedAt": "2025-03-07"
         }
-      ]
+      ],
+      "en": {
+        "title": "Volticker/Komawarikoma (cover)"
+      }
     },
     {
       "title": "花の塔 / さユり",
@@ -1250,7 +1499,10 @@ window.SONGS = {
           "memberId": "yura",
           "publishedAt": "2025-03-07"
         }
-      ]
+      ],
+      "en": {
+        "title": "Flower Tower / Sayuri"
+      }
     },
     {
       "title": "STAY",
@@ -1272,7 +1524,10 @@ window.SONGS = {
           "memberId": "konomi",
           "publishedAt": "2025-02-14"
         }
-      ]
+      ],
+      "en": {
+        "title": "Seishi!! Loli God Requiem ☆"
+      }
     },
     {
       "title": "テトリス",
@@ -1288,7 +1543,10 @@ window.SONGS = {
           "memberId": "raco",
           "publishedAt": "2025-02-03"
         }
-      ]
+      ],
+      "en": {
+        "title": "Tetris"
+      }
     },
     {
       "title": "神っぽいな",
@@ -1299,7 +1557,10 @@ window.SONGS = {
           "memberId": "akubi",
           "publishedAt": "2025-02-01"
         }
-      ]
+      ],
+      "en": {
+        "title": "Looks like a god"
+      }
     },
     {
       "title": "みむかｩわナイストライ",
@@ -1315,7 +1576,10 @@ window.SONGS = {
           "memberId": "nono",
           "publishedAt": "2025-01-05"
         }
-      ]
+      ],
+      "en": {
+        "title": "Mimuka Nice try"
+      }
     },
     {
       "title": "Booo!",
@@ -1342,7 +1606,10 @@ window.SONGS = {
           "memberId": "akubi",
           "publishedAt": "2025-01-12"
         }
-      ]
+      ],
+      "en": {
+        "title": "Fixer/Yawn Monster Speed (cover)"
+      }
     },
     {
       "title": "ずうっといっしょ！",
@@ -1363,7 +1630,10 @@ window.SONGS = {
           "memberId": "raco",
           "publishedAt": "2024-10-11"
         }
-      ]
+      ],
+      "en": {
+        "title": "Together forever!"
+      }
     },
     {
       "title": "わたしの一番かわいいところ",
@@ -1394,7 +1664,10 @@ window.SONGS = {
           "memberId": "raco",
           "publishedAt": "2024-12-26"
         }
-      ]
+      ],
+      "en": {
+        "title": "the cutest thing about me"
+      }
     },
     {
       "title": "劣等上等",
@@ -1410,7 +1683,10 @@ window.SONGS = {
           "memberId": "yura",
           "publishedAt": "2024-12-09"
         }
-      ]
+      ],
+      "en": {
+        "title": "inferior superior"
+      }
     },
     {
       "title": "ド屑",
@@ -1421,7 +1697,10 @@ window.SONGS = {
           "memberId": "yura",
           "publishedAt": "2024-11-04"
         }
-      ]
+      ],
+      "en": {
+        "title": "rubbish"
+      }
     },
     {
       "title": "陽キャJKに憧れる陰キャJKの歌",
@@ -1432,7 +1711,10 @@ window.SONGS = {
           "memberId": "konomi",
           "publishedAt": "2024-11-03"
         }
-      ]
+      ],
+      "en": {
+        "title": "A song about a negative JK who admires a positive JK."
+      }
     },
     {
       "title": "INSANE",
@@ -1454,7 +1736,10 @@ window.SONGS = {
           "memberId": "raco",
           "publishedAt": "2024-10-27"
         }
-      ]
+      ],
+      "en": {
+        "title": "Asuno Yozora Patrol Team"
+      }
     },
     {
       "title": "Dec.",
@@ -1476,7 +1761,10 @@ window.SONGS = {
           "memberId": "yura",
           "publishedAt": "2024-09-15"
         }
-      ]
+      ],
+      "en": {
+        "title": "girl rei"
+      }
     },
     {
       "title": "ぎゅっと。",
@@ -1487,7 +1775,10 @@ window.SONGS = {
           "memberId": "konomi",
           "publishedAt": "2024-09-15"
         }
-      ]
+      ],
+      "en": {
+        "title": "tightly."
+      }
     },
     {
       "title": "青と夏／あくび・でもんすぺーど（cover）",
@@ -1498,7 +1789,10 @@ window.SONGS = {
           "memberId": "akubi",
           "publishedAt": "2024-09-09"
         }
-      ]
+      ],
+      "en": {
+        "title": "Blue and Summer/Yawn Monster Speed (cover)"
+      }
     },
     {
       "title": "アイドル",
@@ -1514,7 +1808,10 @@ window.SONGS = {
           "memberId": "raco",
           "publishedAt": "2024-09-09"
         }
-      ]
+      ],
+      "en": {
+        "title": "idol"
+      }
     },
     {
       "title": "悪魔の踊り方／あくび・でもんすぺーど（cover）",
@@ -1525,7 +1822,10 @@ window.SONGS = {
           "memberId": "akubi",
           "publishedAt": "2024-09-09"
         }
-      ]
+      ],
+      "en": {
+        "title": "How the Devil Dances/Yawn Demon Speed (cover)"
+      }
     },
     {
       "title": "絶頂讃歌",
@@ -1536,7 +1836,10 @@ window.SONGS = {
           "memberId": "nono",
           "publishedAt": "2024-07-01"
         }
-      ]
+      ],
+      "en": {
+        "title": "climax hymn"
+      }
     },
     {
       "title": "過去を喰らう / 花譜",
@@ -1547,7 +1850,10 @@ window.SONGS = {
           "memberId": "yura",
           "publishedAt": "2024-06-30"
         }
-      ]
+      ],
+      "en": {
+        "title": "Eat the past / Kafu"
+      }
     },
     {
       "title": "デビルじゃないもん／あくび・でもんすぺーど＆音ノ乃のの",
@@ -1563,7 +1869,10 @@ window.SONGS = {
           "memberId": "nono",
           "publishedAt": "2024-06-16"
         }
-      ]
+      ],
+      "en": {
+        "title": "Not a Devil/Yawn Monster Speed & Otononono"
+      }
     },
     {
       "title": "愛包ダンスホール",
@@ -1574,7 +1883,10 @@ window.SONGS = {
           "memberId": "raco",
           "publishedAt": "2024-06-12"
         }
-      ]
+      ],
+      "en": {
+        "title": "Aibao dance hall"
+      }
     },
     {
       "title": "オーバーライド",
@@ -1585,7 +1897,10 @@ window.SONGS = {
           "memberId": "raco",
           "publishedAt": "2024-06-01"
         }
-      ]
+      ],
+      "en": {
+        "title": "override"
+      }
     },
     {
       "title": "Tot Ⅿusica",
@@ -1622,7 +1937,10 @@ window.SONGS = {
           "memberId": "nuhu",
           "publishedAt": "2024-12-26"
         }
-      ]
+      ],
+      "en": {
+        "title": "Sign is B"
+      }
     },
     {
       "title": "KING",
@@ -1644,7 +1962,10 @@ window.SONGS = {
           "memberId": "nono",
           "publishedAt": "2024-02-22"
         }
-      ]
+      ],
+      "en": {
+        "title": "\"Lower/Nuyuri\""
+      }
     },
     {
       "title": "恋愛サーキュレーション",
@@ -1655,7 +1976,10 @@ window.SONGS = {
           "memberId": "konomi",
           "publishedAt": "2024-03-15"
         }
-      ]
+      ],
+      "en": {
+        "title": "love circulation"
+      }
     },
     {
       "title": "誇り高きアイドル",
@@ -1666,7 +1990,10 @@ window.SONGS = {
           "memberId": "konomi",
           "publishedAt": "2024-01-07"
         }
-      ]
+      ],
+      "en": {
+        "title": "proud idol"
+      }
     },
     {
       "title": "マーシャル・マキシマイザー",
@@ -1677,7 +2004,10 @@ window.SONGS = {
           "memberId": "nono",
           "publishedAt": "2023-12-25"
         }
-      ]
+      ],
+      "en": {
+        "title": "marshall maximizer"
+      }
     },
     {
       "title": "きゅうくらりん",
@@ -1688,7 +2018,10 @@ window.SONGS = {
           "memberId": "konomi",
           "publishedAt": "2023-12-09"
         }
-      ]
+      ],
+      "en": {
+        "title": "Kyukurarin"
+      }
     },
     {
       "title": "生きる",
@@ -1699,7 +2032,10 @@ window.SONGS = {
           "memberId": "nono",
           "publishedAt": "2023-12-09"
         }
-      ]
+      ],
+      "en": {
+        "title": "live"
+      }
     },
     {
       "title": "祝福",
@@ -1710,7 +2046,10 @@ window.SONGS = {
           "memberId": "nono",
           "publishedAt": "2023-12-09"
         }
-      ]
+      ],
+      "en": {
+        "title": "blessing"
+      }
     },
     {
       "title": "寝起きヤシの木",
@@ -1721,7 +2060,10 @@ window.SONGS = {
           "memberId": "konomi",
           "publishedAt": "2023-12-25"
         }
-      ]
+      ],
+      "en": {
+        "title": "waking up palm tree"
+      }
     },
     {
       "title": "キャットラビング",
@@ -1732,7 +2074,10 @@ window.SONGS = {
           "memberId": "konomi",
           "publishedAt": "2023-08-19"
         }
-      ]
+      ],
+      "en": {
+        "title": "cat loving"
+      }
     },
     {
       "title": "デーモンロード",
@@ -1743,7 +2088,10 @@ window.SONGS = {
           "memberId": "nono",
           "publishedAt": "2023-08-15"
         }
-      ]
+      ],
+      "en": {
+        "title": "demon lord"
+      }
     },
     {
       "title": "夜に駆ける",
@@ -1754,7 +2102,10 @@ window.SONGS = {
           "memberId": "nono",
           "publishedAt": "2023-08-09"
         }
-      ]
+      ],
+      "en": {
+        "title": "run into the night"
+      }
     },
     {
       "title": "だいしきゅーだいしゅき",
@@ -1775,7 +2126,10 @@ window.SONGS = {
           "memberId": "nono",
           "publishedAt": "2025-04-20"
         }
-      ]
+      ],
+      "en": {
+        "title": "Daishiki Daishiki"
+      }
     },
     {
       "title": "可愛くてごめん",
@@ -1786,7 +2140,10 @@ window.SONGS = {
           "memberId": "konomi",
           "publishedAt": "2023-08-09"
         }
-      ]
+      ],
+      "en": {
+        "title": "Sorry for being cute"
+      }
     },
     {
       "title": "世界一可愛い私",
@@ -1797,7 +2154,10 @@ window.SONGS = {
           "memberId": "konomi",
           "publishedAt": "2025-04-20"
         }
-      ]
+      ],
+      "en": {
+        "title": "I'm the cutest in the world"
+      }
     },
     {
       "title": "slash",
@@ -1830,7 +2190,10 @@ window.SONGS = {
           "memberId": "koma",
           "publishedAt": "2026-07-05"
         }
-      ]
+      ],
+      "en": {
+        "title": "A faint flower"
+      }
     },
     {
       "title": "恋するフォーチュンクッキー",
@@ -1841,7 +2204,10 @@ window.SONGS = {
           "memberId": "nuhu",
           "publishedAt": "2025-10-20"
         }
-      ]
+      ],
+      "en": {
+        "title": "fortune cookie in love"
+      }
     },
     {
       "title": "絶対敵対メチャキライヤー",
@@ -1852,7 +2218,10 @@ window.SONGS = {
           "memberId": "nuhu",
           "publishedAt": "2025-07-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "Absolutely hostile Mechakilier"
+      }
     },
     {
       "title": "私のこと好きでしょ？",
@@ -1863,7 +2232,10 @@ window.SONGS = {
           "memberId": "nuhu",
           "publishedAt": "2025-07-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "You like me, right?"
+      }
     },
     {
       "title": "adrenaline!!!/TrySail",
@@ -1885,7 +2257,10 @@ window.SONGS = {
           "memberId": "nuhu",
           "publishedAt": "2025-07-31"
         }
-      ]
+      ],
+      "en": {
+        "title": "Bonapeite♡S / Blend A"
+      }
     },
     {
       "title": "Tiger  -  HANA",

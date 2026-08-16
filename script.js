@@ -653,13 +653,13 @@
           var diff = Math.floor((it.start.getTime() - now.getTime()) / 1000);
           var soon = isLive ? "" : (diff >= 0 ? ' <span class="stream-count">' + T("streams.in", { x: hoursText(diff) }) + "</span>" : "");
           var when = isLive ? T("streams.live") : (b === 0 ? "" : fmtMD(it.start) + " ") + fmtTime(it.start);
-          var cal = isLive ? "" : '<a class="stream-cal" href="' + gcalUrl(s.title, s.scheduledStartTime || s.scheduledStart) + '"' + calTarget() + ">" + T("streams.cal") + "</a>";
+          var cal = isLive ? "" : '<a class="stream-cal" href="' + gcalUrl(tt(s), s.scheduledStartTime || s.scheduledStart) + '"' + calTarget() + ">" + T("streams.cal") + "</a>";
           var remind = isLive ? "" : '<button type="button" class="stream-remind' + (isReminded(s.id) ? " is-active" : "") + '" data-vid="' + s.id + '" data-time="' + (s.scheduledStartTime || s.scheduledStart || "") + '" aria-label="' + T("streams.remind") + '">' + T("streams.remind") + "</button>";
           return '<div class="stream-item card">' +
             '<a class="stream-main" href="' + videoUrl(s.id) + '" target="_blank" rel="noopener">' +
             '<div class="video-thumb"><img src="' + thumbUrl(s.id) + '" alt="" loading="lazy"></div>' +
             '<div class="video-body">' +
-            '<div class="video-title">' + esc(s.title) + (isLive ? '<span class="video-tag">LIVE</span>' : "") + "</div>" +
+            '<div class="video-title">' + esc(tt(s)) + (isLive ? '<span class="video-tag">LIVE</span>' : "") + "</div>" +
             '<div class="video-meta">' + (m ? mName(m) + " ・ " : "") + when + soon + "</div>" +
             "</div></a>" +
             '<div class="stream-actions">' + cal + remind + "</div>" +
@@ -1011,7 +1011,7 @@
       var published = new Date(v.publishedAt);
       return '<a class="video-card card" href="' + videoUrl(v.id) + '" target="_blank" rel="noopener">' +
         '<div class="video-thumb"><img src="' + thumbUrl(v.id) + '" alt="" loading="lazy"></div>' +
-        '<div class="video-body"><div class="video-title">' + esc(v.title) +
+        '<div class="video-body"><div class="video-title">' + esc(tt(v)) +
         (typeLabel ? '<span class="video-tag">' + typeLabel + "</span>" : "") + "</div>" +
         '<div class="video-meta">' + (m ? mName(m) + " ・ " : "") + relTime(published) + "</div></div></a>";
     }).join("");
@@ -1882,16 +1882,16 @@
     var picks = [];
     var seen = {};
     function normKey(s) { return String(s).toLowerCase().replace(/[\s　]/g, ""); }
-    function tryAdd(title, id, memberIds) {
+    function tryAdd(title, id, memberIds, en) {
       var k = normKey(title);
       if (!k || seen[k]) return false;
       seen[k] = true;
-      picks.push({ title: title, id: id, memberIds: memberIds });
+      picks.push({ title: title, id: id, memberIds: memberIds, en: en });
       return true;
     }
-    (songs.official || []).slice(0, 6).forEach(function (v) { tryAdd(v.title, v.id, v.members || []); });
+    (songs.official || []).slice(0, 6).forEach(function (v) { tryAdd(v.title, v.id, v.members || [], v.en); });
     (songs.covers || []).forEach(function (g) {
-      if (g.urls.length) tryAdd(g.title, g.urls[0].id, g.urls.map(function (u) { return u.memberId; }));
+      if (g.urls.length) tryAdd(g.title, g.urls[0].id, g.urls.map(function (u) { return u.memberId; }), g.en);
     });
     picks = picks.slice(0, 4);
     if (!picks.length) {
@@ -1909,7 +1909,7 @@
       if (p.memberIds.length > 3) chips += '<span class="song-member-more">+' + (p.memberIds.length - 3) + "</span>";
       return '<a class="song-card card recommend-card" href="https://www.youtube.com/watch?v=' + p.id + '" target="_blank" rel="noopener">' +
         '<img class="song-thumb" src="https://i.ytimg.com/vi/' + p.id + '/mqdefault.jpg" alt="" loading="lazy">' +
-        '<div class="song-title">' + esc(p.title) + "</div>" +
+        '<div class="song-title">' + esc(tt(p)) + "</div>" +
         '<div class="song-members">' + chips + "</div>" +
         '<span class="btn btn-ghost">' + T("recommend.youtube") + "</span></a>";
     }).join("");
@@ -2033,7 +2033,7 @@
       if (s.status !== "live" && start <= now) return;
       var m = getMember(s.memberId) || (s.memberId === "official" ? { name: "ミリプロ公式" } : null);
       var label = s.status === "live" ? T("today.live") : T("today.stream", { time: fmtTime(start) });
-      items.push(label + " " + esc(s.title) + (m ? "（" + esc(mName(m)) + "）" : ""));
+      items.push(label + " " + esc(tt(s)) + (m ? "（" + esc(mName(m)) + "）" : ""));
     });
     if (!items.length) { box.style.display = "none"; box.innerHTML = ""; return; }
     box.style.display = "block";

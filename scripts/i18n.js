@@ -69,8 +69,15 @@
     return m.name || m.nameEn || "";
   }
 
+  /* タイトルのローカライズ（obj.en.title があれば英語を返す。データ全般用） */
+  function tt(obj) {
+    if (!obj) return "";
+    var t = loc(obj, "title");
+    return t !== undefined && t !== null && t !== "" ? t : (obj.title || "");
+  }
+
   function resolveMemberName(idOrName) {
-    var members = window.MEMBERS || [];
+    var members = (typeof MEMBERS !== "undefined" ? MEMBERS : (window.MEMBERS || []));
     for (var i = 0; i < members.length; i++) {
       if (members[i].id === idOrName || members[i].name === idOrName) return mName(members[i]);
     }
@@ -148,6 +155,7 @@
   window.T = t;
   window.loc = loc;
   window.mName = mName;
+  window.tt = tt;
   window.milliLang = {
     get: getLang,
     set: setLang,

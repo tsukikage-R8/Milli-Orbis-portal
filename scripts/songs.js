@@ -212,7 +212,7 @@
       thumbHtml(primary.id, primary.start) +
       favStarHtml("v:" + primary.id, videoFavAttrs(primary.id, primary.start, g.title, art || memberNames(g))) +
       (isNew(primary.publishedAt) ? '<span class="song-new">NEW</span>' : "") +
-      '<div class="song-title">' + highlight(g.title) + "</div>" +
+      '<div class="song-title">' + highlight(tt(g)) + "</div>" +
       (art ? '<div class="song-artist">' + highlight(art) + "</div>" : "") +
       (g.urls.length > 1 ? '<div class="song-collab">' + T("songs.collab") + "</div>" : "") +
       '<div class="song-versions">' + versions + "</div>" +
@@ -225,7 +225,7 @@
     var list = coverList.slice();
     if (keyword) {
       list = list.filter(function (g) {
-        if (matchKeyword(g.title)) return true;
+        if (matchKeyword(SD.searchText(g))) return true;
         if (matchKeyword(artistOf(g))) return true;
         return g.urls.some(function (u) { return matchMember(SD.memberById(u.memberId)); });
       });
@@ -253,7 +253,7 @@
     var list = (data.official || []).slice();
     if (keyword) {
       list = list.filter(function (v) {
-        if (matchKeyword(v.title)) return true;
+        if (matchKeyword(SD.searchText(v))) return true;
         return (v.members || []).some(function (mid) { return matchMember(SD.memberById(mid)); });
       });
     }
@@ -272,7 +272,7 @@
         thumbHtml(v.id) +
         favStarHtml("v:" + v.id, videoFavAttrs(v.id, "", v.title, sub)) +
         (isNew(v.publishedAt) ? '<span class="song-new">NEW</span>' : "") +
-        '<div class="song-title">' + highlight(v.title) + "</div>" +
+        '<div class="song-title">' + highlight(tt(v)) + "</div>" +
         '<div class="song-members">' + chips + "</div>" +
         '<div class="song-meta">' + esc(v.publishedAt) + "</div>" +
         ytBtnHtml(v.id) +
@@ -299,9 +299,9 @@
     var list = karaokeStreams.slice();
     if (keyword) {
       list = list.filter(function (st) {
-        if (matchKeyword(st.title)) return true;
+        if (matchKeyword(SD.searchText(st))) return true;
         return (st.songs || []).some(function (s) {
-          return matchKeyword(s.title || s.key) || matchKeyword((coverByKey.get(s.key) || {}).title || "");
+          return matchKeyword(SD.searchText(s) || s.key) || matchKeyword(SD.searchText(coverByKey.get(s.key) || {}));
         });
       });
     }
@@ -311,7 +311,7 @@
     return list.map(function (st) {
       var songs = (st.songs || []).map(function (s, i) {
         var g = coverByKey.get(s.key);
-        var label = (g && g.title) || s.title || s.key;
+        var label = (g && tt(g)) || tt(s) || s.key;
         return '<div class="song-kitem" role="button" tabindex="0" data-stream="' + st.id + '" data-start="' + (s.start || "") + '">' +
           '<span class="song-kidx">' + (i + 1) + "</span>" +
           '<span class="song-kname">' + highlight(label) + "</span>" +
@@ -326,7 +326,7 @@
         thumbHtml(st.id) +
         favStarHtml("v:" + st.id, videoFavAttrs(st.id, "", st.title, SD.memberLabel(st.memberId))) +
         (isNew(st.publishedAt) ? '<span class="song-new">NEW</span>' : "") +
-        '<div class="song-title">' + highlight(st.title) + "</div>" +
+        '<div class="song-title">' + highlight(tt(st)) + "</div>" +
         '<div class="song-members">' + memberChipHtml(st.memberId, "") + "</div>" +
         '<div class="song-meta">' + esc(st.publishedAt) + (shz ? ' <span class="song-shazam-badge">' + T("songs.shazamDone") + "</span>" : "") + "</div>" +
         '<div class="song-klist">' + setlist + "</div>" +

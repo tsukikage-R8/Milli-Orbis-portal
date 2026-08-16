@@ -30,6 +30,14 @@ window.SongData = (function () {
     return m ? (typeof mName === "function" ? mName(m) : m.name) : (id === "official" ? T("songs.officialLabel") : id);
   }
 
+  /* 検索対象テキスト: 日本語タイトル＋英語タイトル（あれば） */
+  function searchText(obj) {
+    if (!obj) return "";
+    var s = obj.title || "";
+    if (obj.en && obj.en.title && obj.en.title !== s) s += " " + obj.en.title;
+    return s;
+  }
+
   function chipColor(id) {
     var m = memberById(id);
     return m ? m.color : "#75b1c0";
@@ -60,6 +68,7 @@ window.SongData = (function () {
         publishedAt: st.publishedAt || prev.publishedAt,
         title: st.title || prev.title,
         duration: st.duration || prev.duration,
+        en: st.en || prev.en,
         songs: (st.songs && st.songs.length ? st.songs : prev.songs || [])
       });
     });
@@ -80,6 +89,7 @@ window.SongData = (function () {
           if (!g.urls.some(function (u) { return u.id === url.id && u.start === url.start; })) g.urls.push(url);
         } else {
           var ng = { key: s.key, title: s.title || s.key, urls: [url] };
+          if (s.en && s.en.title) ng.en = { title: s.en.title };
           byKey.set(s.key, ng);
           karaokeOnly.push(ng);
         }
@@ -108,6 +118,7 @@ window.SongData = (function () {
     normKana: normKana,
     memberById: memberById,
     memberLabel: memberLabel,
+    searchText: searchText,
     chipColor: chipColor,
     videoUrl: videoUrl,
     fmtTs: fmtTs,

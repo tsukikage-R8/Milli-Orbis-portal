@@ -128,6 +128,24 @@ async function main() {
 
   const withChapters = streams.filter((s) => s.songs.length).length;
   const songCount = streams.reduce((n, s) => n + s.songs.length, 0);
+
+  // 日本語タイトルの英訳（en.title）を付与。失敗時は日本語のまま
+  const translate = require("./translate.js");
+  const titles = [];
+  streams.forEach((k) => {
+    titles.push(k.title);
+    (k.songs || []).forEach((s) => titles.push(s.title));
+  });
+  const map = await translate.enMap(titles);
+  const attach = (r) => {
+    if (r.en || !map[r.title]) return;
+    r.en = { title: map[r.title] };
+  };
+  streams.forEach((k) => {
+    attach(k);
+    (k.songs || []).forEach(attach);
+  });
+
   const src = "/* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */\nwindow.KARAOKE = " +
     JSON.stringify(streams, null, 2) + ";\n";
   fs.writeFileSync(path.join(__dirname, "..", "data", "karaoke.js"), src, "utf8");

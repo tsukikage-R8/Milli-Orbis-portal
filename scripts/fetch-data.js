@@ -236,6 +236,20 @@ async function main() {
   if (fs.existsSync(OUT_FILE)) {
     fs.copyFileSync(OUT_FILE, BACKUP_FILE);
   }
+
+  // 日本語タイトルの英訳（en.title）を付与。失敗時は日本語のまま
+  const translate = require("./translate.js");
+  const titles = [];
+  output.videos.forEach((v) => titles.push(v.title));
+  output.streams.forEach((v) => titles.push(v.title));
+  const map = await translate.enMap(titles);
+  const attach = (v) => {
+    if (v.en || !map[v.title]) return;
+    v.en = { title: map[v.title] };
+  };
+  output.videos.forEach(attach);
+  output.streams.forEach(attach);
+
   fs.writeFileSync(OUT_FILE, JSON.stringify(output, null, 2) + "\n", "utf8");
 
   console.log(
