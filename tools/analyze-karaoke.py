@@ -34,6 +34,34 @@ def log(msg):
     print(msg, file=sys.stderr)
 
 
+def now_utc():
+    return datetime.datetime.now(datetime.timezone.utc)
+
+
+def stale(rec):
+    """エラー記録が1週間以上前なら再挑戦する"""
+    if not rec:
+        return False
+    at = rec.get("attemptedAt")
+    if not at:
+        return False
+    try:
+        return (now_utc() - datetime.datetime.fromisoformat(at)).days >= 7
+    except ValueError:
+        return False
+
+
+def skip_for_now(rec):
+    """DONEは永久。SKIPは1週間クールダウン扱い"""
+    if not rec:
+        return False
+    if rec.get("status") == DONE:
+        return True
+    if rec.get("status") == SKIP and not stale(rec):
+        return True
+    return False
+
+
 def parse_js_value(text):
     """'window.XXX = [...]' 形式のJSからJSON値を取り出す"""
     m = re.search(r"=\s*(\[.*\]|\{.*\})\s*;?\s*$", text, re.S)
@@ -93,7 +121,7 @@ def main():
 
     candidates = [
         st for st in karaoke
-        if (shazam.get(st["id"]) or {}).get("status") not in (DONE, SKIP)
+        if not skip_for_now(shazam.get(st["id"]))
     ]
     candidates.sort(key=lambda s: s.get("publishedAt", ""), reverse=True)
     log("歌枠 %d 件中、未解析 %d 件" % (len(karaoke), len(candidates)))
@@ -105,7 +133,7 @@ def main():
     for st in candidates:
         vid = st["id"]
         prev = shazam.get(vid) or {}
-        attempts = (prev.get("attempts") or 0) + 1
+        attempts = 1 if stale(prev) else (prev.get("attempts") or 0) + 1
         log("解析中: %s (%s)" % (vid, (st.get("title") or "")[:40]))
         try:
             if vid in local_map:
@@ -129,12 +157,12 @@ def main():
             log("  → done: %d 曲認識" % len(runs))
             done_n += 1
         except Exception as e:
-            if attempts >= 3:
-                shazam[vid] = {"status": SKIP, "attempts": attempts, "error": str(e)[:300]}
-                log("  → 3回失敗のため skip")
+            if attempts >= 5:
+                shazam[vid] = {"status": SKIP, "attempts": attempts, "attemptedAt": now_utc().isoformat(), "error": str(e)[:300]}
+                log("  → 今週は5回失敗のため休止（1週間後に自動再挑戦）")
             else:
-                shazam[vid] = {"status": ERROR, "attempts": attempts, "error": str(e)[:300]}
-                log("  → error (%d/3): %s" % (attempts, str(e)[:120]))
+                shazam[vid] = {"status": ERROR, "attempts": attempts, "attemptedAt": now_utc().isoformat(), "error": str(e)[:300]}
+                log("  → error (%d/5): %s" % (attempts, str(e)[:120]))
             err_n += 1
         time.sleep(5)  # Shazam API への負荷対策
 
@@ -148,7 +176,7 @@ def main():
 
     remaining = sum(
         1 for st in karaoke
-        if (shazam.get(st["id"]) or {}).get("status") not in (DONE, SKIP)
+        if not skip_for_now(shazam.get(st["id"]))
     )
     log("完了: %d 件成功 / %d 件エラー / 残り %d 件" % (done_n, err_n, remaining))
     return 0
