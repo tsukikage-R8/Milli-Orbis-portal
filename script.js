@@ -6,6 +6,181 @@
 
   function pad2(n) { return String(n).padStart(2, "0"); }
 
+  /* ============ お気に入り☆・ブックマーク（UI） ============ */
+  var STAR_SVG = '<svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.2 6.8.9-5 4.8 1.3 6.8L12 18.2 5.9 21.2l1.3-6.8-5-4.8 6.8-.9z"/></svg>';
+  var BM_SVG = '<svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2.5h12a1 1 0 0 1 1 1V22l-7-4.6L5 22V3.5a1 1 0 0 1 1-1z"/></svg>';
+  var PLAY_SVG = '<svg width="30" height="30" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>';
+
+  function bmBtnHtml(key, attrs) {
+    var on = typeof MilliFav !== "undefined" && MilliFav.isBm(key);
+    return '<button type="button" class="bm-btn' + (on ? " on" : "") + '" aria-pressed="' + on + '" aria-label="' + T("bm.aria") + '" title="' + T("bm.aria") + '" data-bm-key="' + esc(key) + '"' + (attrs || "") + ">" + BM_SVG + "</button>";
+  }
+
+  function favEntryFromBtn(btn) {
+    var key = btn.dataset.favKey;
+    if (!key) return null;
+    var e = { key: key, kind: btn.dataset.favKind || "video", title: btn.dataset.favTitle || "", sub: btn.dataset.favSub || "", thumb: btn.dataset.favThumb || "" };
+    if (e.kind === "video") {
+      e.vid = btn.dataset.favVid || "";
+      e.start = parseInt(btn.dataset.favStart, 10) || 0;
+    }
+    return e;
+  }
+
+  function countdownById(id) {
+    for (var i = 0; i < COUNTDOWN.length; i++) {
+      if (COUNTDOWN[i].id === id) return COUNTDOWN[i];
+    }
+    return null;
+  }
+
+  function bmEntryFromBtn(btn) {
+    var kind = btn.dataset.bmKind;
+    if (!kind) return null;
+    var e = { key: btn.dataset.bmKey || "", kind: kind };
+    if (kind === "cd") {
+      var item = countdownById(btn.dataset.bmId);
+      if (!item) return null;
+      e.key = "cd:" + item.id;
+      e.label = item.label;
+      e.enLabel = item.en && item.en.label ? item.en.label : "";
+      e.date = item.date;
+      e.note = item.note || "";
+      e.url = item.url || "";
+    } else if (kind === "event") {
+      e.key = "ev:" + btn.dataset.bmType + ":" + btn.dataset.bmTitle;
+      e.type = btn.dataset.bmType;
+      e.title = btn.dataset.bmTitle;
+      e.date = btn.dataset.bmDate || "";
+      e.url = btn.dataset.bmUrl || "";
+    } else if (kind === "news") {
+      e.key = "nw:" + btn.dataset.bmDate + ":" + btn.dataset.bmTitle;
+      e.date = btn.dataset.bmDate || "";
+      e.tag = btn.dataset.bmTag || "";
+      e.title = btn.dataset.bmTitle;
+      e.desc = btn.dataset.bmDesc || "";
+      e.url = btn.dataset.bmUrl || "";
+    } else if (kind === "member") {
+      e.key = "mb:" + btn.dataset.bmId;
+      e.id = btn.dataset.bmId;
+      e.name = btn.dataset.bmName;
+      e.nameEn = btn.dataset.bmNameEn || "";
+      e.color = btn.dataset.bmColor || "";
+      e.img = btn.dataset.bmImg || "";
+      e.url = btn.dataset.bmId + ".html";
+    }
+    return e;
+  }
+
+  /* ホーム: お気に入り動画/曲（今日のミリプロの下） */
+  function favThumbHtml(vid, start, thumb) {
+    return '<div class="fav-thumb-wrap" data-vid="' + esc(vid) + '" data-start="' + (start || "") + '">' +
+      '<img class="song-thumb" src="' + esc(thumb) + '" alt="" loading="lazy">' +
+      '<span class="play-overlay" aria-hidden="true">' + PLAY_SVG + "</span></div>";
+  }
+
+  function favStarFullHtml(entry) {
+    var on = typeof MilliFav !== "undefined" && MilliFav.isFav(entry.key);
+    return '<button type="button" class="fav-star' + (on ? " on" : "") + '" aria-pressed="' + on + '" aria-label="' + T("fav.aria") + '" title="' + T("fav.aria") + '" data-fav-key="' + esc(entry.key) + '" data-fav-kind="' + entry.kind + '"' +
+      (entry.kind === "video" ? ' data-fav-vid="' + esc(entry.vid) + '" data-fav-start="' + (entry.start || "") + '"' : "") +
+      ' data-fav-title="' + esc(entry.title) + '" data-fav-sub="' + esc(entry.sub || "") + '" data-fav-thumb="' + esc(entry.thumb || "") + '">' + STAR_SVG + "</button>";
+  }
+
+  function favVideoCardHtml(f) {
+    var thumb = f.thumb || "https://i.ytimg.com/vi/" + f.vid + "/mqdefault.jpg";
+    var entry = { key: f.key, kind: "video", vid: f.vid, start: f.start || 0, title: f.title, sub: f.sub || "", thumb: thumb };
+    return '<div class="fav-card fav-video">' +
+      favThumbHtml(f.vid, f.start, thumb) +
+      favStarFullHtml(entry) +
+      '<div class="fav-title">' + esc(f.title) + "</div>" +
+      (f.sub ? '<div class="fav-sub">' + esc(f.sub) + "</div>" : "") +
+      "</div>";
+  }
+
+  function favSongCardHtml(f) {
+    var entry = { key: f.key, kind: "song", title: f.title, sub: f.sub || "", thumb: f.thumb || "" };
+    return '<div class="fav-card fav-song">' +
+      '<div class="fav-jacket">' + (f.thumb ? '<img src="' + esc(f.thumb) + '" alt="" loading="lazy">' : '<span class="fav-jacket-none">♪</span>') + "</div>" +
+      favStarFullHtml(entry) +
+      '<div class="fav-title">' + esc(f.title) + "</div>" +
+      (f.sub ? '<div class="fav-sub">' + esc(f.sub) + "</div>" : "") +
+      "</div>";
+  }
+
+  function renderFavBox() {
+    var box = $("#favBox");
+    if (!box || typeof MilliFav === "undefined") return;
+    var favs = MilliFav.listFavs();
+    var videos = favs.filter(function (f) { return f.kind === "video"; });
+    var songs = favs.filter(function (f) { return f.kind === "song"; });
+    if (!videos.length && !songs.length) { box.style.display = "none"; return; }
+    box.style.display = "";
+    var parts = [];
+    if (videos.length) {
+      parts.push('<div class="fav-sec"><h3 class="fav-sec-title">' + T("fav.titleVideos") + "</h3>" +
+        '<div class="fav-row">' + videos.map(favVideoCardHtml).join("") + "</div></div>");
+    }
+    if (songs.length) {
+      parts.push('<div class="fav-sec"><h3 class="fav-sec-title">' + T("fav.titleSongs") + "</h3>" +
+        '<div class="fav-row">' + songs.map(favSongCardHtml).join("") + "</div></div>");
+    }
+    box.innerHTML = parts.join("");
+  }
+
+  /* お気に入り・ブックマークの変更を全ボタンに反映（描画し直さない） */
+  function syncFavButtons() {
+    $$(".fav-star").forEach(function (b) {
+      var on = typeof MilliFav !== "undefined" && MilliFav.isFav(b.dataset.favKey);
+      b.classList.toggle("on", on);
+      b.setAttribute("aria-pressed", on);
+    });
+    $$(".bm-btn").forEach(function (b) {
+      var on = typeof MilliFav !== "undefined" && MilliFav.isBm(b.dataset.bmKey);
+      b.classList.toggle("on", on);
+      b.setAttribute("aria-pressed", on);
+    });
+    renderFavBox();
+  }
+
+  /* グローバル委譲: .fav-star / .bm-btn（songs.js 側でも同じボタンを使う） */
+  document.addEventListener("click", function (e) {
+    var btn = e.target.closest(".fav-star");
+    if (btn) {
+      e.preventDefault();
+      var entry = favEntryFromBtn(btn);
+      if (entry && typeof MilliFav !== "undefined") MilliFav.toggleFav(entry);
+      return;
+    }
+    var bbm = e.target.closest(".bm-btn");
+    if (bbm) {
+      e.preventDefault();
+      var bentry = bmEntryFromBtn(bbm);
+      if (bentry && typeof MilliFav !== "undefined") MilliFav.toggleBm(bentry);
+    }
+  });
+
+  document.addEventListener("milli-favs-change", syncFavButtons);
+
+  /* ホームのお気に入りカード: サムネ再生・曲カードは曲データベースへ */
+  var favBox = $("#favBox");
+  if (favBox) {
+    favBox.addEventListener("click", function (e) {
+      if (e.target.closest(".fav-star") || e.target.closest("a")) return;
+      var wrap = e.target.closest(".fav-thumb-wrap");
+      if (wrap) {
+        var src = "https://www.youtube.com/embed/" + wrap.dataset.vid + "?autoplay=1" + (parseInt(wrap.dataset.start, 10) ? "&start=" + wrap.dataset.start : "");
+        wrap.innerHTML = '<iframe src="' + src + '" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>';
+        return;
+      }
+      var song = e.target.closest(".fav-song");
+      if (song) { location.href = "songs.html"; return; }
+      var vc = e.target.closest(".fav-video");
+      if (vc) {
+        window.open("https://www.youtube.com/watch?v=" + vc.dataset.vid + (parseInt(vc.dataset.start, 10) ? "&t=" + vc.dataset.start : ""), "_blank");
+      }
+    });
+  }
+
   function getMember(id) {
     return MEMBERS.find(function (m) { return m.id === id; });
   }
@@ -285,10 +460,13 @@
 
     function renderRail() {
       rail.innerHTML = valid.map(function (item) {
-        return '<button type="button" class="cd-rail-item' + (item.id === featuredId ? " is-active" : "") + '" data-id="' + item.id + '">' +
+        return '<div class="cd-rail-wrap">' +
+          '<button type="button" class="cd-rail-item' + (item.id === featuredId ? " is-active" : "") + '" data-id="' + item.id + '">' +
           '<span class="cd-label">' + loc(item, "label") + "</span>" +
           '<span class="cd-diff" data-diff></span>' +
-          "</button>";
+          "</button>" +
+          bmBtnHtml("cd:" + item.id, ' data-bm-kind="cd" data-bm-id="' + esc(item.id) + '"') +
+          "</div>";
       }).join("");
     }
 
@@ -344,6 +522,7 @@
     }
 
     rail.addEventListener("click", function (e) {
+      if (e.target.closest(".bm-btn")) return;
       var b = e.target.closest(".cd-rail-item");
       if (!b || b.dataset.id === featuredId) return;
       featuredId = b.dataset.id;
@@ -865,7 +1044,12 @@
     if (!box) return;
     box.innerHTML = NEWS.map(function (n) {
       return '<div class="news-item card"><div class="news-head"><span class="news-date">' +
-        fmtDate(new Date(n.date)) + '</span><span class="news-tag">' + esc(loc(n, "tag")) + "</span></div>" +
+        fmtDate(new Date(n.date)) + '</span><span class="news-tag">' + esc(loc(n, "tag")) + "</span>" +
+        bmBtnHtml("nw:" + n.date + ":" + loc(n, "title"),
+          ' data-bm-kind="news" data-bm-date="' + n.date + '" data-bm-tag="' + esc(loc(n, "tag")) + '"' +
+          ' data-bm-title="' + esc(loc(n, "title")) + '" data-bm-desc="' + esc(loc(n, "desc") || "") + '"' +
+          ' data-bm-url="' + esc(n.url || "") + '"') +
+        "</div>" +
         '<div class="news-title">' + esc(loc(n, "title")) + "</div>" +
         '<div class="news-desc">' + esc(loc(n, "desc")) + "</div>" +
         (n.url ? '<a class="btn btn-ghost" href="' + n.url + '" target="_blank" rel="noopener">' + T("news.more") + "</a>" : "") +
@@ -1076,11 +1260,15 @@
     function calActionsHtml(ev, d, detailLabel) {
       var key = "ev" + d.getTime();
       var when = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate(), 0, 0, 0)).toISOString();
+      var ymd = d.getUTCFullYear() + "-" + pad2(d.getUTCMonth() + 1) + "-" + pad2(d.getUTCDate());
+      var bm = bmBtnHtml("ev:" + ev.type + ":" + loc(ev, "title"),
+        ' data-bm-kind="event" data-bm-type="' + esc(ev.type) + '" data-bm-title="' + esc(loc(ev, "title")) + '"' +
+        ' data-bm-date="' + ymd + '" data-bm-url="' + esc(ev.url || "") + '"');
       var remind = '<button type="button" class="stream-remind' + (isReminded(key) ? " is-active" : "") + '"' +
         ' data-key="' + key + '" data-time="' + when + '" data-kind="event" data-title="' + esc(loc(ev, "title")) + '"' +
         ' aria-label="' + T("cal.notify") + '">🔔 ' + T("cal.notify") + "</button>";
       var cal = '<a class="stream-cal" href="' + gcalAllDayUrl(loc(ev, "title"), d, loc(ev, "desc")) + '"' + calTarget() + ">" + T("cal.cal") + "</a>";
-      return '<div class="cal-actions">' + remind + cal + evLink(ev.url, detailLabel) + "</div>";
+      return '<div class="cal-actions">' + bm + remind + cal + evLink(ev.url, detailLabel) + "</div>";
     }
 
     function renderList() {
@@ -1861,6 +2049,7 @@
     initCountdown();
     checkBirthday();
     renderTodayBox();
+    renderFavBox();
     initAccount();
     loadYoutubeData();
     initYoutubeRefetch();

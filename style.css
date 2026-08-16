@@ -4101,6 +4101,166 @@ mark.song-hl {
   border-radius: 4px;
   padding: 0 2px;
 }
+
+/* ---- お気に入り☆・ブックマークボタン（SVG・絵文字不使用） ---- */
+.fav-star, .bm-btn {
+  border: none;
+  background: rgba(255, 255, 255, 0.94);
+  color: #9aa0a6;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
+  transition: transform 0.15s, color 0.15s, background 0.15s;
+  flex: none;
+  padding: 0;
+}
+.fav-star:hover, .bm-btn:hover { transform: scale(1.12); color: #f5a623; }
+.fav-star svg, .bm-btn svg {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linejoin: round;
+  width: 16px;
+  height: 16px;
+}
+.bm-btn svg { width: 14px; height: 14px; }
+.fav-star.on, .bm-btn.on { color: #f5a623; background: #fff; }
+.fav-star.on svg, .bm-btn.on svg { fill: #f5a623; stroke: #f5a623; }
+:root[data-theme="dark"] .fav-star, :root[data-theme="dark"] .bm-btn { background: rgba(35, 30, 45, 0.9); }
+
+/* 曲・動画カード: サムネ右上に重ねる ☆ */
+.song-card { position: relative; }
+.song-card .fav-star { position: absolute; top: 14px; right: 14px; z-index: 6; }
+.sm-card .sm-fav-star { position: absolute; top: 14px; right: 14px; z-index: 6; }
+
+/* カウントダウンレール */
+.cd-rail-wrap { position: relative; flex: none; }
+.cd-rail-wrap .bm-btn { position: absolute; top: 4px; right: 4px; width: 24px; height: 24px; z-index: 2; }
+.cd-rail-wrap .bm-btn svg { width: 12px; height: 12px; }
+
+/* カレンダーアクション行 */
+.cal-actions .bm-btn { width: 28px; height: 28px; }
+
+/* お知らせヘッダー */
+.news-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.news-head .bm-btn { width: 26px; height: 26px; margin-left: auto; }
+.news-head .bm-btn svg { width: 12px; height: 12px; }
+
+/* タレントヒーロー */
+.talent-hero-inner { position: relative; }
+.talent-hero-bm { position: absolute; top: 14px; right: 14px; width: 34px; height: 34px; z-index: 3; }
+
+/* ---- ホーム: お気に入り（今日のミリプロの下） ---- */
+.fav-box { margin-top: 18px; }
+.fav-sec { margin-bottom: 14px; }
+.fav-sec-title {
+  font-family: var(--font-display);
+  font-size: 1.02rem;
+  font-weight: 900;
+  color: var(--accent-deep);
+  margin-bottom: 10px;
+  letter-spacing: 0.04em;
+}
+.fav-row {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 6px;
+  -webkit-overflow-scrolling: touch;
+}
+.fav-card {
+  position: relative;
+  flex: 0 0 auto;
+  width: 236px;
+  background: var(--glass);
+  border-radius: 14px;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.fav-card:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(60, 50, 40, 0.14); }
+.fav-thumb-wrap { position: relative; border-radius: 12px; overflow: hidden; cursor: pointer; }
+.fav-thumb-wrap .song-thumb { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.fav-thumb-wrap iframe { display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; border-radius: 12px; }
+.fav-card .fav-star { position: absolute; top: 18px; right: 18px; z-index: 5; }
+.fav-jacket {
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-soft);
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+.fav-jacket img { width: 100%; height: 100%; object-fit: cover; }
+.fav-jacket-none { color: var(--accent-deep); font-size: 2rem; }
+.fav-title {
+  font-weight: 900;
+  font-size: 0.88rem;
+  color: var(--text);
+  margin-top: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.fav-sub {
+  font-size: 0.76rem;
+  color: var(--muted);
+  margin-top: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ---- マイページ（account.html） ---- */
+.acct-status { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin-bottom: 20px; }
+.acct-status-line { flex: 1; min-width: 200px; font-size: 0.92rem; }
+.acct-status-line.ok { color: var(--accent-deep); font-weight: 700; }
+.acct-block-title {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: var(--accent-deep);
+  margin: 26px 0 10px;
+  letter-spacing: 0.04em;
+}
+.acct-sec { margin-bottom: 18px; }
+.acct-sec-title {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 900;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+.acct-group { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 10px; }
+.acct-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+}
+.acct-item-body { flex: 1; min-width: 0; }
+.acct-item-title { font-weight: 800; font-size: 0.92rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.acct-item-sub { font-size: 0.76rem; color: var(--muted); margin-top: 2px; }
+.acct-item-link { flex: none; }
+.acct-remove {
+  flex: none;
+  border: 1px solid var(--border);
+  background: none;
+  color: var(--muted);
+  border-radius: 999px;
+  padding: 5px 12px;
+  font-size: 0.76rem;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+}
+.acct-remove:hover { color: #e05a5a; border-color: #e05a5a; }
 .song-thumb {
   width: 100%;
   aspect-ratio: 16 / 9;

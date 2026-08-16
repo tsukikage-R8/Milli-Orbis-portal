@@ -54,6 +54,7 @@
           <a href="milchan.html">ミリちゃん</a>
           <div class="drop-sep"></div>
           <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
+          <a href="account.html" data-i18n="nav.account">マイページ</a>
         </div>
       </div>
       <a href="quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
@@ -97,6 +98,7 @@
       <a href="quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
       <a href="songs.html" data-i18n="nav.songs">曲データベース</a>
       <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
+      <a href="account.html" data-i18n="nav.account">マイページ</a>
       <a href="index.html#links">Official Links</a>
   </nav>
 </header>
@@ -141,6 +143,9 @@
         <div class="mp-btn-row">
           <button type="button" class="btn" onclick="mpCopyId()" data-i18n="login.copyId">🔗 IDをコピー</button>
           <button type="button" class="btn btn-ghost" onclick="mpLogout()" data-i18n="login.logout">ログアウト</button>
+        </div>
+        <div class="mp-btn-row">
+          <a class="btn btn-ghost" href="account.html" data-i18n="account.mine">マイページを開く</a>
         </div>
       </div>
       <div id="mp-edit" class="mp-edit">
@@ -232,6 +237,7 @@
 
 <script src="data/i18n.js"></script>
 <script src="scripts/i18n.js"></script>
+<script src="scripts/fav-store.js"></script>
 <script src="script.js"></script>
 
 </body>

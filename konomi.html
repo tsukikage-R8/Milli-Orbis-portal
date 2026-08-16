@@ -55,6 +55,7 @@
           <a href="milchan.html">ミリちゃん</a>
           <div class="drop-sep"></div>
           <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
+          <a href="account.html" data-i18n="nav.account">マイページ</a>
         </div>
       </div>
       <a href="quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
@@ -98,6 +99,7 @@
       <a href="quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
       <a href="songs.html" data-i18n="nav.songs">曲データベース</a>
       <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
+      <a href="account.html" data-i18n="nav.account">マイページ</a>
       <a href="index.html#links">Official Links</a>
   </nav>
 </header>
@@ -123,6 +125,7 @@
         <span data-i18n-html="t.fanName" data-i18n-var-name="このっ子">ファンネーム: このっ子</span>
       </p>
       <button type="button" class="intro-btn" id="introBtn" data-i18n="t.intro">▶ イントロを見る</button>
+      <button type="button" class="bm-btn talent-hero-bm" aria-label="ブックマーク" data-i18n-aria="bm.aria" data-bm-kind="member" data-bm-key="mb:konomi" data-bm-id="konomi" data-bm-name="甘狼このみ" data-bm-nameen="Amakami Konomi" data-bm-color="#5f97a4" data-bm-img="images/talents/konomi.webp"><svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2.5h12a1 1 0 0 1 1 1V22l-7-4.6L5 22V3.5a1 1 0 0 1 1-1z"/></svg></button>
     </div>
   </section>
 
@@ -172,6 +175,9 @@
         <div class="mp-btn-row">
           <button type="button" class="btn" onclick="mpCopyId()" data-i18n="login.copyId">🔗 IDをコピー</button>
           <button type="button" class="btn btn-ghost" onclick="mpLogout()" data-i18n="login.logout">ログアウト</button>
+        </div>
+        <div class="mp-btn-row">
+          <a class="btn btn-ghost" href="account.html" data-i18n="account.mine">マイページを開く</a>
         </div>
       </div>
       <div id="mp-edit" class="mp-edit">
@@ -263,6 +269,7 @@
 
 <script src="data/i18n.js"></script>
 <script src="scripts/i18n.js"></script>
+<script src="scripts/fav-store.js"></script>
 <script src="script.js"></script>
 </body>
 </html>

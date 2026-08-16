@@ -230,6 +230,7 @@ const navDrop = (home) => `
           <a href="milchan.html">ミリちゃん</a>
           <div class="drop-sep"></div>
           <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
+          <a href="account.html" data-i18n="nav.account">マイページ</a>
         </div>
       </div>
       <a href="quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
@@ -254,6 +255,7 @@ const mobileNav = (home) => `
       <a href="quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
       <a href="songs.html" data-i18n="nav.songs">曲データベース</a>
       <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
+      <a href="account.html" data-i18n="nav.account">マイページ</a>
       <a href="${home}#links">Official Links</a>`;
 
 /* 言語切替ボタン（全ページ共通のヘッダー用） */
@@ -292,6 +294,9 @@ const loginPopupHtml = `
         <div class="mp-btn-row">
           <button type="button" class="btn" onclick="mpCopyId()" data-i18n="login.copyId">🔗 IDをコピー</button>
           <button type="button" class="btn btn-ghost" onclick="mpLogout()" data-i18n="login.logout">ログアウト</button>
+        </div>
+        <div class="mp-btn-row">
+          <a class="btn btn-ghost" href="account.html" data-i18n="account.mine">マイページを開く</a>
         </div>
       </div>
       <div id="mp-edit" class="mp-edit">
@@ -470,6 +475,7 @@ ${decoHtml(m)}
         <span data-i18n-html="t.fanName" data-i18n-var-name="${m.fanName || "—"}">ファンネーム: ${m.fanName || "—"}</span>
       </p>
       <button type="button" class="intro-btn" id="introBtn" data-i18n="t.intro">▶ イントロを見る</button>
+      <button type="button" class="bm-btn talent-hero-bm" aria-label="ブックマーク" data-i18n-aria="bm.aria" data-bm-kind="member" data-bm-key="mb:${m.id}" data-bm-id="${m.id}" data-bm-name="${esc(m.name)}" data-bm-nameen="${esc(m.nameEn)}" data-bm-color="${m.color}" data-bm-img="${esc(m.img || m.icon || "")}"><svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2.5h12a1 1 0 0 1 1 1V22l-7-4.6L5 22V3.5a1 1 0 0 1 1-1z"/></svg></button>
     </div>
   </section>
 
@@ -508,6 +514,7 @@ ${loginPopupHtml}
 <script src="firebase-init.js"></script>
 <script src="data.js"></script>
 ${i18nScriptTags}
+<script src="scripts/fav-store.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
@@ -592,6 +599,7 @@ ${loginPopupHtml}
 <script src="firebase-init.js"></script>
 <script src="data.js"></script>
 ${i18nScriptTags}
+<script src="scripts/fav-store.js"></script>
 <script src="script.js"></script>
 ${o.scripts}
 </body>
@@ -702,6 +710,22 @@ fs.writeFileSync(path.join(outDir, "members.html"), simplePage({
   scripts: ""
 }), "utf8");
 console.log("generated: members.html");
+
+fs.writeFileSync(path.join(outDir, "account.html"), simplePage({
+  file: "account.html",
+  title: "マイページ",
+  desc: "お気に入り☆とブックマークの一覧ページ。ログインするとお気に入り・ブックマークが端末間で同期されます。",
+  body: `
+  <section class="section">
+    <div class="acct-status card" id="acctStatus"></div>
+    <h2 class="acct-block-title" data-i18n="account.favs">お気に入り</h2>
+    <div id="acctFavs" class="acct-list"></div>
+    <h2 class="acct-block-title" data-i18n="account.bms">ブックマーク</h2>
+    <div id="acctBms" class="acct-list"></div>
+  </section>`,
+  scripts: '<script src="scripts/account.js"></script>'
+}), "utf8");
+console.log("generated: account.html");
 
 for (const m of MEMBERS) {
   fs.writeFileSync(path.join(outDir, m.id + ".html"), page(m), "utf8");

@@ -19,6 +19,17 @@
   function $(id) { return document.getElementById(id); }
   function esc(s) { return SD.esc(s); }
   var PLAY_SVG = '<svg width="22" height="22" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>';
+  var STAR_SVG = '<svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.2 6.8.9-5 4.8 1.3 6.8L12 18.2 5.9 21.2l1.3-6.8-5-4.8 6.8-.9z"/></svg>';
+
+  /* お気に入り☆ボタン（曲まとめカード右上） */
+  function favStarHtml(key, entryAttrs) {
+    var on = typeof MilliFav !== "undefined" && MilliFav.isFav(key);
+    return '<button type="button" class="fav-star sm-fav-star' + (on ? " on" : "") + '" aria-pressed="' + on + '" aria-label="' + T("fav.aria") + '" title="' + T("fav.aria") + '" data-fav-key="' + esc(key) + '"' + (entryAttrs || "") + ">" + STAR_SVG + "</button>";
+  }
+
+  function songFavAttrs(key, title, sub, thumb) {
+    return ' data-fav-kind="song" data-fav-title="' + esc(title) + '" data-fav-sub="' + esc(sub || "") + '" data-fav-thumb="' + esc(thumb || "") + '"';
+  }
 
   var listBox = $("smList");
   if (!listBox) return;
@@ -123,8 +134,12 @@
     return '<span class="song-member-chip" style="--mc:' + SD.chipColor(id) + '">' + highlight(SD.memberLabel(id)) + "</span>";
   }
 
+  function jacketSrc(o) {
+    return o.kind === "official" ? (o.cover || "") : (o.info && o.info.cover ? o.info.cover : "");
+  }
+
   function jacketHtml(o) {
-    var src = o.kind === "official" ? o.cover : (o.info && o.info.cover ? o.info.cover : "");
+    var src = jacketSrc(o);
     if (src) {
       return '<div class="sm-jacket-wrap"><img class="sm-jacket" src="' + esc(src) + '" alt="" loading="lazy" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\'">' +
         '<div class="sm-jacket-none" style="display:none">♪</div></div>';
@@ -168,6 +183,7 @@
       '<div class="sm-versions">' + versions + "</div>" +
       "</div>";
     return '<div class="sm-card card" data-key="' + esc(o.key) + '">' +
+      favStarHtml("s:" + o.key, songFavAttrs(o.key, o.title, artist, jacketSrc(o))) +
       '<div class="sm-top">' +
       jacketHtml(o) +
       '<div class="sm-body">' +
@@ -208,7 +224,7 @@
 
   /* バージョンの再生ボタン → カード内にタイムスタンプ付きプレイヤー展開 / リンク部分は除外して展開 */
   listBox.addEventListener("click", function (e) {
-    if (e.target.closest("a")) return;
+    if (e.target.closest("a") || e.target.closest(".fav-star")) return;
     var pb = e.target.closest(".sm-play");
     if (pb) {
       var pcard = pb.closest(".sm-card");

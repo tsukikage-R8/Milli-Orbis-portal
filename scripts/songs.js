@@ -74,6 +74,17 @@
 
   var PLAY_SVG = '<svg width="30" height="30" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>';
   var YT_SVG = '<svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4L15.8 12l-6.2 3.6z"/></svg>';
+  var STAR_SVG = '<svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.2 6.8.9-5 4.8 1.3 6.8L12 18.2 5.9 21.2l1.3-6.8-5-4.8 6.8-.9z"/></svg>';
+
+  /* お気に入り☆ボタン（カード右上・サムネの上に重ねる） */
+  function favStarHtml(key, entryAttrs) {
+    var on = typeof MilliFav !== "undefined" && MilliFav.isFav(key);
+    return '<button type="button" class="fav-star' + (on ? " on" : "") + '" aria-pressed="' + on + '" aria-label="' + T("fav.aria") + '" title="' + T("fav.aria") + '" data-fav-key="' + esc(key) + '"' + (entryAttrs || "") + ">" + STAR_SVG + "</button>";
+  }
+
+  function videoFavAttrs(vid, start, title, sub) {
+    return ' data-fav-kind="video" data-fav-vid="' + esc(vid) + '" data-fav-start="' + (start || "") + '" data-fav-title="' + esc(title) + '" data-fav-sub="' + esc(sub || "") + '" data-fav-thumb="https://i.ytimg.com/vi/' + esc(vid) + '/mqdefault.jpg"';
+  }
 
   function thumbHtml(id, start) {
     return '<div class="song-thumb-wrap" data-src="' + embedUrl(id, start) + '">' +
@@ -174,6 +185,15 @@
     return info && info.artist ? info.artist : "";
   }
 
+  function memberNames(g) {
+    var seen = [];
+    (g.urls || []).forEach(function (u) {
+      var label = SD.memberLabel(u.memberId);
+      if (label && seen.indexOf(label) === -1) seen.push(label);
+    });
+    return seen.join("・");
+  }
+
   /* ---- 歌ってみた: 曲単位カード（歌枠由来のバージョンも統合表示） ---- */
   function songCardHtml(g) {
     var primary = g.urls[0] || { id: "", publishedAt: "" };
@@ -189,6 +209,7 @@
     }).join("");
     return '<div class="song-card card">' +
       thumbHtml(primary.id, primary.start) +
+      favStarHtml("v:" + primary.id, videoFavAttrs(primary.id, primary.start, g.title, art || memberNames(g))) +
       (isNew(primary.publishedAt) ? '<span class="song-new">NEW</span>' : "") +
       '<div class="song-title">' + highlight(g.title) + "</div>" +
       (art ? '<div class="song-artist">' + highlight(art) + "</div>" : "") +
@@ -244,9 +265,11 @@
       var chips = (v.members && v.members.length ? v.members : ["official"]).map(function (mid) {
         return memberChipHtml(mid, "");
       }).join("");
+      var sub = (v.members || []).map(function (mid) { return SD.memberLabel(mid); }).join("・") || T("songs.officialLabel");
       return { date: v.publishedAt || "", html:
         '<div class="song-card card">' +
         thumbHtml(v.id) +
+        favStarHtml("v:" + v.id, videoFavAttrs(v.id, "", v.title, sub)) +
         (isNew(v.publishedAt) ? '<span class="song-new">NEW</span>' : "") +
         '<div class="song-title">' + highlight(v.title) + "</div>" +
         '<div class="song-members">' + chips + "</div>" +
@@ -284,6 +307,7 @@
       return { date: st.publishedAt || "", html:
         '<div class="song-card card">' +
         thumbHtml(st.id) +
+        favStarHtml("v:" + st.id, videoFavAttrs(st.id, "", st.title, SD.memberLabel(st.memberId))) +
         (isNew(st.publishedAt) ? '<span class="song-new">NEW</span>' : "") +
         '<div class="song-title">' + highlight(st.title) + "</div>" +
         '<div class="song-members">' + memberChipHtml(st.memberId, "") + "</div>" +
