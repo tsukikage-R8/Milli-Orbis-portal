@@ -1,134 +1,14 @@
 {
-  "updatedAt": "2026-08-16T08:14:08.446Z",
+  "updatedAt": "2026-08-16T12:13:01.201Z",
   "streams": [
-    {
-      "id": "vNx5mvewRoA",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【マイクラ】ナツいアツのプールなナイト！【#⁠ミリプロサマー2026】",
-      "thumb": "https://i.ytimg.com/vi/vNx5mvewRoA/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-16T10:00:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[Minecraft] A hot pool night! [#⁠Millipro Summer 2026]"
-      }
-    },
-    {
-      "id": "gD16Tfs3fzk",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【Minecraft】夏の水着のお姉さんとは救済である。┊︎#音ノ乃のの #ののん家 #⁠ミリプロサマー2026",
-      "thumb": "https://i.ytimg.com/vi/gD16Tfs3fzk/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-16T10:00:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[Minecraft] A girl in a summer swimsuit is a relief. ┊︎#Otononono #Nononya #⁠Millipro Summer 2026"
-      }
-    },
-    {
-      "id": "N6Ud1I17Tdg",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "title": "【マイクラ】夏を私物化するミリプロ【#⁠ミリプロサマー2026】",
-      "thumb": "https://i.ytimg.com/vi/N6Ud1I17Tdg/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-16T10:00:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[Minecraft] MilliPro makes summer personal [#⁠MilliPro Summer 2026]"
-      }
-    },
-    {
-      "id": "rI0drl6Jo8U",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 Minecraft 】夏祭りだ！焼きそば！かき氷！【小廻こま/ミリプロ】#⁠ミリプロサマー2026",
-      "thumb": "https://i.ytimg.com/vi/rI0drl6Jo8U/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-16T10:00:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[Minecraft] Summer festival! Yakisoba! Shaved ice! [Komawarikoma/MilliPro] #⁠MilliPro Summer 2026"
-      }
-    },
-    {
-      "id": "Qd9jrSWBYAY",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【マイクラ】夏だ！水着だ！ナイトプールだ～！！！【#⁠ミリプロサマー2026】",
-      "thumb": "https://i.ytimg.com/vi/Qd9jrSWBYAY/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-16T10:00:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[Minecraft] It's summer! It's a swimsuit! It’s a night pool! ! ! [#⁠Millipro Summer 2026]"
-      }
-    },
-    {
-      "id": "Frhsy0dU7zI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【マイクラ】水着で夏祭り満喫！？まじ皆かわいく写真撮ってね😎【#⁠ミリプロサマー2026】",
-      "thumb": "https://i.ytimg.com/vi/Frhsy0dU7zI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-16T10:00:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[Minecraft] Enjoy summer festivals in swimsuits! ? Seriously, everyone, take cute pictures 😎 [#⁠MilliPro Summer 2026]"
-      }
-    },
-    {
-      "id": "MCNzEgcyOws",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【マイクラ】今年の夏も満喫するぞ～！【#⁠ミリプロサマー2026】",
-      "thumb": "https://i.ytimg.com/vi/MCNzEgcyOws/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-16T10:00:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[Minecraft] Let's enjoy this summer too! [#⁠Millipro Summer 2026]"
-      }
-    },
-    {
-      "id": "ISlVs2qDnZY",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 Minecraft 〗屋台食いつくしVlog #⁠ミリプロサマー2026〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/ISlVs2qDnZY/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-16T10:00:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "〖 Minecraft 〗 Food stall eating Vlog #⁠ MilliPro Summer 2026 〖 Nemugumo Tsukuri / MilliPro 〗"
-      }
-    },
-    {
-      "id": "h1QtwXWz7tY",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【Minecraft】マイクラでナイトプールに行けるらしい🎵【#⁠ミリプロサマー2026】",
-      "thumb": "https://i.ytimg.com/vi/h1QtwXWz7tY/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-16T10:00:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[Minecraft] Apparently you can go to the night pool with Minecraft 🎵 [#⁠MilliPro Summer 2026]"
-      }
-    },
-    {
-      "id": "tFy_PqQNxyg",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 マイクラ 】夏祭りは全力で楽しむ派です【#⁠ミリプロサマー2026】",
-      "thumb": "https://i.ytimg.com/vi/tFy_PqQNxyg/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-16T10:00:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[Minecraft] I am a person who enjoys summer festivals to the fullest [#⁠MilliPro Summer 2026]"
-      }
-    },
     {
       "id": "4lba9sduOzI",
       "memberId": "official",
       "member": "ミリプロ公式",
       "title": "【#ミリプロサマー2026】ミリプロプレゼンツ ～ミリプロが贈る超重大発表配信～",
       "thumb": "https://i.ytimg.com/vi/4lba9sduOzI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-16T12:00:00Z",
-      "status": "upcoming",
+      "scheduledStartTime": "2026-08-16T12:07:30Z",
+      "status": "live",
       "en": {
         "title": "[#MilliPro Summer 2026] MilliPro Presents - Super important announcement delivered by MilliPro -"
       }
@@ -143,6 +23,18 @@
       "status": "upcoming",
       "en": {
         "title": "[Minecraft Strine] Last day! I will enjoy everything to the fullest without regrets 🔥🔥🔥 [#AmakamiLive]"
+      }
+    },
+    {
+      "id": "WCGKc5VZQmQ",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 ストリヌ 】あっという間の異世界生活でした！！#9【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/WCGKc5VZQmQ/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-16T13:30:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "[Strinu] Life in another world went by so quickly! ! #9 [Komawarikoma/Millipro]"
       }
     },
     {
@@ -315,6 +207,175 @@
     }
   ],
   "videos": [
+    {
+      "id": "4lba9sduOzI",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【#ミリプロサマー2026】ミリプロプレゼンツ ～ミリプロが贈る超重大発表配信～",
+      "thumb": "https://i.ytimg.com/vi/4lba9sduOzI/hqdefault_live.jpg",
+      "publishedAt": "2026-08-16T12:07:30Z",
+      "live": true,
+      "en": {
+        "title": "[#MilliPro Summer 2026] MilliPro Presents - Super important announcement delivered by MilliPro -"
+      }
+    },
+    {
+      "id": "vNx5mvewRoA",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【マイクラ】ナツいアツのプールなナイト！【#⁠ミリプロサマー2026】",
+      "thumb": "https://i.ytimg.com/vi/vNx5mvewRoA/hqdefault_live.jpg",
+      "publishedAt": "2026-08-16T12:01:56Z",
+      "live": false,
+      "en": {
+        "title": "[Minecraft] A hot pool night! [#⁠Millipro Summer 2026]"
+      }
+    },
+    {
+      "id": "gD16Tfs3fzk",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【Minecraft】夏の水着のお姉さんとは救済である。┊︎#音ノ乃のの #ののん家 #⁠ミリプロサマー2026",
+      "thumb": "https://i.ytimg.com/vi/gD16Tfs3fzk/hqdefault_live.jpg",
+      "publishedAt": "2026-08-16T11:59:32Z",
+      "live": false,
+      "en": {
+        "title": "[Minecraft] A girl in a summer swimsuit is a relief. ┊︎#Otononono #Nononya #⁠Millipro Summer 2026"
+      }
+    },
+    {
+      "id": "N6Ud1I17Tdg",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "【マイクラ】夏を私物化するミリプロ【#⁠ミリプロサマー2026】",
+      "thumb": "https://i.ytimg.com/vi/N6Ud1I17Tdg/hqdefault_live.jpg",
+      "publishedAt": "2026-08-16T11:59:30Z",
+      "live": false,
+      "en": {
+        "title": "[Minecraft] MilliPro makes summer personal [#⁠MilliPro Summer 2026]"
+      }
+    },
+    {
+      "id": "tFy_PqQNxyg",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 マイクラ 】夏祭りは全力で楽しむ派です【#⁠ミリプロサマー2026】",
+      "thumb": "https://i.ytimg.com/vi/tFy_PqQNxyg/hqdefault_live.jpg",
+      "publishedAt": "2026-08-16T11:59:15Z",
+      "live": false,
+      "en": {
+        "title": "[Minecraft] I am a person who enjoys summer festivals to the fullest [#⁠MilliPro Summer 2026]"
+      }
+    },
+    {
+      "id": "Qd9jrSWBYAY",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【マイクラ】夏だ！水着だ！ナイトプールだ～！！！【#⁠ミリプロサマー2026】",
+      "thumb": "https://i.ytimg.com/vi/Qd9jrSWBYAY/hqdefault_live.jpg",
+      "publishedAt": "2026-08-16T11:59:09Z",
+      "live": false,
+      "en": {
+        "title": "[Minecraft] It's summer! It's a swimsuit! It’s a night pool! ! ! [#⁠Millipro Summer 2026]"
+      }
+    },
+    {
+      "id": "ISlVs2qDnZY",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 Minecraft 〗屋台食いつくしVlog #⁠ミリプロサマー2026〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/ISlVs2qDnZY/hqdefault_live.jpg",
+      "publishedAt": "2026-08-16T11:59:06Z",
+      "live": false,
+      "en": {
+        "title": "〖 Minecraft 〗 Food stall eating Vlog #⁠ MilliPro Summer 2026 〖 Nemugumo Tsukuri / MilliPro 〗"
+      }
+    },
+    {
+      "id": "h1QtwXWz7tY",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【Minecraft】マイクラでナイトプールに行けるらしい🎵【#⁠ミリプロサマー2026】",
+      "thumb": "https://i.ytimg.com/vi/h1QtwXWz7tY/hqdefault_live.jpg",
+      "publishedAt": "2026-08-16T11:58:51Z",
+      "live": false,
+      "en": {
+        "title": "[Minecraft] Apparently you can go to the night pool with Minecraft 🎵 [#⁠MilliPro Summer 2026]"
+      }
+    },
+    {
+      "id": "MCNzEgcyOws",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【マイクラ】今年の夏も満喫するぞ～！【#⁠ミリプロサマー2026】",
+      "thumb": "https://i.ytimg.com/vi/MCNzEgcyOws/hqdefault_live.jpg",
+      "publishedAt": "2026-08-16T11:58:33Z",
+      "live": false,
+      "en": {
+        "title": "[Minecraft] Let's enjoy this summer too! [#⁠Millipro Summer 2026]"
+      }
+    },
+    {
+      "id": "1u5VDoGVqLw",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 Minecraft 】夏祭りだ！焼きそば！かき氷！【小廻こま/ミリプロ】#⁠ミリプロサマー2026",
+      "thumb": "https://i.ytimg.com/vi/1u5VDoGVqLw/hqdefault_live.jpg",
+      "publishedAt": "2026-08-16T11:58:15Z",
+      "live": false,
+      "en": {
+        "title": "[Minecraft] Summer festival! Yakisoba! Shaved ice! [Komawarikoma/MilliPro] #⁠MilliPro Summer 2026"
+      }
+    },
+    {
+      "id": "Frhsy0dU7zI",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【マイクラ】水着で夏祭り満喫！？まじ皆かわいく写真撮ってね😎【#⁠ミリプロサマー2026】",
+      "thumb": "https://i.ytimg.com/vi/Frhsy0dU7zI/hqdefault_live.jpg",
+      "publishedAt": "2026-08-16T11:58:15Z",
+      "live": false,
+      "en": {
+        "title": "[Minecraft] Enjoy summer festivals in swimsuits! ? Seriously, everyone, take cute pictures 😎 [#⁠MilliPro Summer 2026]"
+      }
+    },
+    {
+      "id": "WCGKc5VZQmQ",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 ストリヌ 】あっという間の異世界生活でした！！#9【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/WCGKc5VZQmQ/hqdefault_live.jpg",
+      "publishedAt": "2026-08-16T09:14:10Z",
+      "live": false,
+      "en": {
+        "title": "[Strinu] Life in another world went by so quickly! ! #9 [Komawarikoma/Millipro]"
+      }
+    },
+    {
+      "id": "DQcZGR_OWaY",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "前の人より長いアニソンタイトルを言え！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/DQcZGR_OWaY/hqdefault.jpg",
+      "publishedAt": "2026-08-16T09:00:32Z",
+      "live": false,
+      "en": {
+        "title": "Give me a longer anime song title than the previous person! [#MilliPro]"
+      }
+    },
     {
       "id": "NFweI8JIbZQ",
       "memberId": "nono",
@@ -535,176 +596,20 @@
       "en": {
         "title": "This is the making shorts of the original song “Princess Viral”! ┊︎#Otononono #princessviral #original song #shorts"
       }
-    },
-    {
-      "id": "ZDyaOrEJ_so",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "おはよ",
-      "thumb": "https://i.ytimg.com/vi/ZDyaOrEJ_so/hqdefault.jpg",
-      "publishedAt": "2026-08-14T23:15:22Z",
-      "live": false,
-      "en": {
-        "title": "Good morning"
-      }
-    },
-    {
-      "id": "BcxofXfR3g4",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【VALORANT】録音を終わらせた雨女、寝る前のチルヴァロ【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/BcxofXfR3g4/hqdefault.jpg",
-      "publishedAt": "2026-08-14T19:19:09Z",
-      "live": false,
-      "en": {
-        "title": "[VALORANT] Ame Onna finishes recording, Chiruvalo before going to bed [Ameya Riz/MilliPro]"
-      }
-    },
-    {
-      "id": "_qwYV4vLxOg",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ストリヌ 〗 お洋服は、稼げる#5〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/_qwYV4vLxOg/hqdefault.jpg",
-      "publishedAt": "2026-08-14T17:55:17Z",
-      "live": false,
-      "en": {
-        "title": "〖 Strine 〗 You can earn money from clothes #5 〖 Nemugumo Tsukuri / Millipro 〗"
-      }
-    },
-    {
-      "id": "S0AocVPRsys",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【マイクラ￤ストリヌ】7日目！今日は6層を目指している_____。【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/S0AocVPRsys/hqdefault.jpg",
-      "publishedAt": "2026-08-14T17:33:21Z",
-      "live": false,
-      "en": {
-        "title": "[Minecraft ￤ Strine] Day 7! Today I'm aiming for the 6th layer_____. [#Amakamirive]"
-      }
-    },
-    {
-      "id": "yv4LSQZbl4A",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "【ストリヌ】孤高の女王【#あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/yv4LSQZbl4A/hqdefault.jpg",
-      "publishedAt": "2026-08-14T17:24:41Z",
-      "live": false,
-      "en": {
-        "title": "[Strinu] Solitary Queen [#Yawn/Monster Speed]"
-      }
-    },
-    {
-      "id": "vgYP59AH_X4",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 ストリヌ 】では、裁判の時間です #7 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/vgYP59AH_X4/hqdefault.jpg",
-      "publishedAt": "2026-08-14T17:23:39Z",
-      "live": false,
-      "en": {
-        "title": "[Strinu] Now, it's time for the trial #7 [Rei Yugiri / Millipro]"
-      }
-    },
-    {
-      "id": "Kd-mPGm6R8U",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 ストリヌ 】銭湯にする？裁判にする？それともダンジョン？#7【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Kd-mPGm6R8U/hqdefault.jpg",
-      "publishedAt": "2026-08-14T17:23:33Z",
-      "live": false,
-      "en": {
-        "title": "[Strinu] Do you want to make it a public bath? Do you want to go to court? Or a dungeon? #7 [Komawarikoma/Millipro]"
-      }
-    },
-    {
-      "id": "3AWNBbkGT7k",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 ストリヌ 】音割れ0を目指す #6 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/3AWNBbkGT7k/hqdefault.jpg",
-      "publishedAt": "2026-08-14T11:06:46Z",
-      "live": false,
-      "en": {
-        "title": "[Strinu] Aiming for zero sound cracking #6 [Rei Yugiri / Millipro]"
-      }
-    },
-    {
-      "id": "g9DDMCHksDA",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【絵描き歌】イラストレーターならヤバすぎる絵描き歌でも完璧にイラスト描ける説ｗｗｗｗ",
-      "thumb": "https://i.ytimg.com/vi/g9DDMCHksDA/hqdefault.jpg",
-      "publishedAt": "2026-08-14T09:30:06Z",
-      "live": false,
-      "en": {
-        "title": "[Drawing song] The theory is that if you are an illustrator, you can perfectly draw illustrations even with crazy drawing songs lol"
-      }
-    },
-    {
-      "id": "4-TBzIKreUc",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "【以心伝心で】ダーリンダンス 歌ってみた with こまつくりーず 【眠雲ツクリ/小廻こま/雨夜リズ】#歌ってみた",
-      "thumb": "https://i.ytimg.com/vi/4-TBzIKreUc/hqdefault.jpg",
-      "publishedAt": "2026-08-14T09:11:48Z",
-      "live": false,
-      "en": {
-        "title": "[In Ishindenshin] Darling Dance I tried singing with Komazukurizu [Nemugumo Tsukuri/Komawari Koma/Ameya Riz] #I tried singing"
-      }
-    },
-    {
-      "id": "qqjhE5kAm20",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "マイクラアイテム人狼！人狼を当てれるかな？【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/qqjhE5kAm20/hqdefault.jpg",
-      "publishedAt": "2026-08-14T09:00:20Z",
-      "live": false,
-      "en": {
-        "title": "Minecraft item werewolf! Can you guess the werewolf? [#MilliPro]"
-      }
-    },
-    {
-      "id": "6wUkScmSipU",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【ボカロ曲で】『ドレミの歌』歌ってみた【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/6wUkScmSipU/hqdefault.jpg",
-      "publishedAt": "2026-08-14T09:00:18Z",
-      "live": false,
-      "en": {
-        "title": "[With Vocaloid song] I tried singing “Do-Re-Mi song” [Riz Ameya/MilliPro]"
-      }
-    },
-    {
-      "id": "7U0Ak-U3Z58",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "オリジナル楽曲『ルミナス』本人が踊ってみた！【音ノ瀬らこ/ミリプロ】#ルミナス_音ノ瀬らこ",
-      "thumb": "https://i.ytimg.com/vi/7U0Ak-U3Z58/hqdefault.jpg",
-      "publishedAt": "2026-08-14T09:00:00Z",
-      "live": false,
-      "en": {
-        "title": "The original song \"Luminous\" herself tried dancing! [Rako Otonose/MilliPro] #Luminous_Rako Otonose"
-      }
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "4lba9sduOzI",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "title": "【#ミリプロサマー2026】ミリプロプレゼンツ ～ミリプロが贈る超重大発表配信～",
+      "thumb": "https://i.ytimg.com/vi/4lba9sduOzI/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-16T12:07:30Z",
+      "status": "live",
+      "en": {
+        "title": "[#MilliPro Summer 2026] MilliPro Presents - Super important announcement delivered by MilliPro -"
+      }
+    }
+  ]
 }
