@@ -1338,7 +1338,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "チュルリラ・チュルリラ・ダッダッダ!",
+          "key": "チュルリラチュルリラダッダッダ!",
           "title": "チュルリラ・チュルリラ・ダッダッダ! / 和田たけあき",
           "start": 4990,
           "end": 6440,
@@ -1881,6 +1881,1863 @@ window.SONGS_EXTRA = {
           "end": 4122,
           "en": {
             "title": "Whimsical Romantic / Ikimonogakari"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IcuJZaDj_SI",
+      "memberId": "liz",
+      "publishedAt": "2025-07-27",
+      "title": "【雨夜リズ】雨夜のリズムに乗っていこう【 #ミリプロ20万人耐久歌枠リレー 】",
+      "duration": 3406,
+      "songs": [
+        {
+          "key": "踊",
+          "title": "踊 / Ado",
+          "start": 135,
+          "end": 413,
+          "en": {
+            "title": "Dance / Ado"
+          }
+        },
+        {
+          "key": "本能",
+          "title": "本能 / 椎名林檎",
+          "start": 414,
+          "end": 724,
+          "en": {
+            "title": "Instinct / Ringo Shiina"
+          }
+        },
+        {
+          "key": "KICK BACK",
+          "title": "KICK BACK / 米津玄師",
+          "start": 725,
+          "end": 1009,
+          "en": {
+            "title": "KICK BACK / Kenshi Yonezu"
+          }
+        },
+        {
+          "key": "いけないボーダーライン",
+          "title": "いけないボーダーライン / ワルキューレ",
+          "start": 1010,
+          "end": 1412,
+          "en": {
+            "title": "Inani Borderline / Valkyrie"
+          }
+        },
+        {
+          "key": "unravel",
+          "title": "unravel / TK from 凛として時雨",
+          "start": 1413,
+          "end": 1888,
+          "en": {
+            "title": "unravel / TK from Ling Toshi Sigure"
+          }
+        },
+        {
+          "key": "デリヘル呼んだら君が来た",
+          "title": "デリヘル呼んだら君が来た / ナナホシ管弦楽団 feat. 初音ミク × IA",
+          "start": 1889,
+          "end": 2210,
+          "en": {
+            "title": "When I called a delivery health, you came / Nanahoshi Orchestra feat. Hatsune Miku × IA"
+          }
+        },
+        {
+          "key": "あなたのことおしえて",
+          "title": "あなたのことおしえて / キタニタツヤ",
+          "start": 2211,
+          "end": 2448,
+          "en": {
+            "title": "Tell me about you / Tatsuya Kitani"
+          }
+        },
+        {
+          "key": "欲望に満ちた青年団",
+          "title": "欲望に満ちた青年団 / ONE OK ROCK",
+          "start": 2449,
+          "end": 2817,
+          "en": {
+            "title": "Desireful Youth Group / ONE OK ROCK"
+          }
+        },
+        {
+          "key": "金木犀",
+          "title": "金木犀 / くじら feat. Ado",
+          "start": 2818,
+          "end": 3080,
+          "en": {
+            "title": "Osmanthus / Whale feat. Ado"
+          }
+        },
+        {
+          "key": "おやすみ泣き声、さよなら歌姫",
+          "title": "おやすみ泣き声、さよなら歌姫 / クリープハイプ",
+          "start": 3081,
+          "end": 3406,
+          "en": {
+            "title": "Goodnight Cry, Goodbye Diva / Creep Hype"
+          }
+        }
+      ]
+    },
+    {
+      "id": "oWUG8pwxfwI",
+      "memberId": "liz",
+      "publishedAt": "2025-11-30",
+      "title": "【10万人耐久歌枠】とっっても緊張します【雨夜リズ/ミリプロ】",
+      "duration": 6646,
+      "songs": [
+        {
+          "key": "KICK BACK",
+          "title": "KICK BACK / 米津玄師",
+          "start": 358,
+          "end": 694,
+          "en": {
+            "title": "KICK BACK / Kenshi Yonezu"
+          }
+        },
+        {
+          "key": "IRIS OUT",
+          "title": "IRIS OUT / 米津玄師",
+          "start": 695,
+          "end": 1096,
+          "en": {
+            "title": "IRIS OUT / Kenshi Yonezu"
+          }
+        },
+        {
+          "key": "いけないボーダーライン",
+          "title": "いけないボーダーライン / ワルキューレ",
+          "start": 1097,
+          "end": 1526,
+          "en": {
+            "title": "Inani Borderline / Valkyrie"
+          }
+        },
+        {
+          "key": "踊",
+          "title": "踊 / Ado",
+          "start": 1527,
+          "end": 1893,
+          "en": {
+            "title": "Dance / Ado"
+          }
+        },
+        {
+          "key": "カワキヲアメク",
+          "title": "カワキヲアメク / 美波",
+          "start": 1894,
+          "end": 6646,
+          "en": {
+            "title": "Kawakiwoameku/Minami"
+          }
+        }
+      ]
+    },
+    {
+      "id": "KF6zBgrLAt8",
+      "memberId": "liz",
+      "publishedAt": "2025-11-17",
+      "title": "【 #雨夜リズお披露目】ハーフアニバ感謝の歌枠♩【雨夜リズ/ミリプロ】",
+      "duration": 3663,
+      "songs": [
+        {
+          "key": "ファンサ",
+          "title": "ファンサ / mona(CV：夏川椎菜)",
+          "start": 533,
+          "end": 943,
+          "en": {
+            "title": "Funsa / mona (CV: Shiina Natsukawa)"
+          }
+        },
+        {
+          "key": "God knows...",
+          "title": "God knows... / 涼宮ハルヒ(CV：平野綾)",
+          "start": 944,
+          "end": 1317,
+          "en": {
+            "title": "God knows... / Haruhi Suzumiya (CV: Aya Hirano)"
+          }
+        },
+        {
+          "key": "Snow halation",
+          "title": "Snow halation / μ's",
+          "start": 1318,
+          "end": 1675
+        },
+        {
+          "key": "一度だけの恋なら",
+          "title": "一度だけの恋なら / ワルキューレ",
+          "start": 1676,
+          "end": 2053,
+          "en": {
+            "title": "If it's only love once / Valkyrie"
+          }
+        },
+        {
+          "key": "ノーダウト",
+          "title": "ノーダウト / Official髭男dism",
+          "start": 2054,
+          "end": 2361,
+          "en": {
+            "title": "No Doubt / Official Hige Dandism"
+          }
+        },
+        {
+          "key": "うっせぇわ",
+          "title": "うっせぇわ / Ado",
+          "start": 2362,
+          "end": 2671,
+          "en": {
+            "title": "Ussewa / Ado"
+          }
+        },
+        {
+          "key": "IRIS OUT",
+          "title": "IRIS OUT / 米津玄師",
+          "start": 2672,
+          "end": 2938,
+          "en": {
+            "title": "IRIS OUT / Kenshi Yonezu"
+          }
+        },
+        {
+          "key": "Catch the Moment",
+          "title": "Catch the Moment / LiSA",
+          "start": 2939,
+          "end": 3274
+        },
+        {
+          "key": "ブラック★ロックシューター",
+          "title": "ブラック★ロックシューター / ryo(supercell) feat. 初音ミク",
+          "start": 3275,
+          "end": 3663,
+          "en": {
+            "title": "Black★Rock Shooter / ryo(supercell) feat. Hatsune Miku"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lCF5a7rLr-8",
+      "memberId": "liz",
+      "publishedAt": "2025-11-28",
+      "title": "【歌枠】金曜日だ！歌うぞ〜！＋ハーフアニバのスパちゃ読む【雨夜リズ/ミリプロ】",
+      "duration": 6298,
+      "songs": [
+        {
+          "key": "レディメイド",
+          "title": "レディメイド / Ado",
+          "start": 321,
+          "end": 705,
+          "en": {
+            "title": "Readymade / Ado"
+          }
+        },
+        {
+          "key": "唱",
+          "title": "唱 / Ado",
+          "start": 706,
+          "end": 1064,
+          "en": {
+            "title": "Shou / Ado"
+          }
+        },
+        {
+          "key": "ひゅるりらぱっぱ",
+          "title": "ひゅるりらぱっぱ / tuki.",
+          "start": 1065,
+          "end": 1401,
+          "en": {
+            "title": "Hyururirapappa / tuki."
+          }
+        },
+        {
+          "key": "酔いどれ知らず",
+          "title": "酔いどれ知らず / Kanaria feat. GUMI",
+          "start": 1402,
+          "end": 1630,
+          "en": {
+            "title": "Drunken Shiraishi / Kanaria feat. GUMI"
+          }
+        },
+        {
+          "key": "IRIS OUT",
+          "title": "IRIS OUT / 米津玄師",
+          "start": 1631,
+          "end": 1891,
+          "en": {
+            "title": "IRIS OUT / Kenshi Yonezu"
+          }
+        },
+        {
+          "key": "Bad Apple!! feat. nomico",
+          "title": "Bad Apple!! feat. nomico / Alstroemeria Records",
+          "start": 1892,
+          "end": 2161
+        },
+        {
+          "key": "美少女無罪♡パイレーツ",
+          "title": "美少女無罪♡パイレーツ / 宝鐘マリン",
+          "start": 2162,
+          "end": 2517,
+          "en": {
+            "title": "Beautiful girl innocent ♡ Pirates / Hosho Marine"
+          }
+        },
+        {
+          "key": "ソワレ",
+          "title": "ソワレ / 星街すいせい",
+          "start": 2518,
+          "end": 2973,
+          "en": {
+            "title": "Soiree / Hoshimachi Suisei"
+          }
+        },
+        {
+          "key": "右肩の蝶",
+          "title": "右肩の蝶 / のりぴー feat. 鏡音レン",
+          "start": 2974,
+          "end": 3347,
+          "en": {
+            "title": "Butterfly on the Right Shoulder / Noripy feat. Kagamine Len"
+          }
+        },
+        {
+          "key": "チュルリラチュルリラダッダッダ!",
+          "title": "チュルリラ・チュルリラ・ダッダッダ! / 和田たけあき(くらげP) feat. 結月ゆかり",
+          "start": 3348,
+          "end": 3672,
+          "en": {
+            "title": "Churrilla Churrilla Daddada! / Takeaki Wada (Kurage P) feat. Yuzuki Yukari"
+          }
+        },
+        {
+          "key": "浴槽とネオンテトラ",
+          "title": "浴槽とネオンテトラ / REISAI feat. v flower",
+          "start": 3673,
+          "end": 4126,
+          "en": {
+            "title": "Bathtub and Neon Tetra / REISAI feat. v flower"
+          }
+        },
+        {
+          "key": "雨とペトラ",
+          "title": "雨とペトラ / バルーン feat. v flower",
+          "start": 4127,
+          "end": 4416,
+          "en": {
+            "title": "Rain and Petra / Balloon feat. v flower"
+          }
+        },
+        {
+          "key": "高嶺の花子さん",
+          "title": "高嶺の花子さん / back number",
+          "start": 4417,
+          "end": 6298,
+          "en": {
+            "title": "Takamine Hanako-san / back number"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IDtx37ObxCs",
+      "memberId": "liz",
+      "publishedAt": "2025-12-31",
+      "title": "【歌枠】2025年歌枠で終るぞ〜！【雨夜リズ/ミリプロ】",
+      "duration": 4823,
+      "songs": [
+        {
+          "key": "KICK BACK",
+          "title": "KICK BACK / 米津玄師",
+          "start": 189,
+          "end": 484,
+          "en": {
+            "title": "KICK BACK / Kenshi Yonezu"
+          }
+        },
+        {
+          "key": "右肩の蝶",
+          "title": "右肩の蝶 / のりぴー feat. 鏡音レン",
+          "start": 485,
+          "end": 854,
+          "en": {
+            "title": "Butterfly on the Right Shoulder / Noripy feat. Kagamine Len"
+          }
+        },
+        {
+          "key": "God knows...",
+          "title": "God knows... / 涼宮ハルヒ(CV：平野綾)",
+          "start": 855,
+          "end": 1187,
+          "en": {
+            "title": "God knows... / Haruhi Suzumiya (CV: Aya Hirano)"
+          }
+        },
+        {
+          "key": "JANE DOE",
+          "title": "JANE DOE / 米津玄師 × 宇多田ヒカル",
+          "start": 1188,
+          "end": 1521,
+          "en": {
+            "title": "JANE DOE / Kenshi Yonezu × Hikaru Utada"
+          }
+        },
+        {
+          "key": "心做し",
+          "title": "心做し / 蝶々P feat. GUMI",
+          "start": 1522,
+          "end": 1944,
+          "en": {
+            "title": "Shinkaushi / ChochoP feat. GUMI"
+          }
+        },
+        {
+          "key": "本能",
+          "title": "本能 / 椎名林檎",
+          "start": 1945,
+          "end": 2343,
+          "en": {
+            "title": "Instinct / Ringo Shiina"
+          }
+        },
+        {
+          "key": "asphyxia",
+          "title": "asphyxia / Cö shu Nie",
+          "start": 2344,
+          "end": 2583
+        },
+        {
+          "key": "unravel",
+          "title": "unravel / TK from 凛として時雨",
+          "start": 2584,
+          "end": 2946,
+          "en": {
+            "title": "unravel / TK from Ling Toshi Sigure"
+          }
+        },
+        {
+          "key": "Sincerely",
+          "title": "Sincerely / TRUE",
+          "start": 2947,
+          "end": 3435
+        },
+        {
+          "key": "ワールドイズマイン",
+          "title": "ワールドイズマイン / ryo(supercell) feat. 初音ミク",
+          "start": 3436,
+          "end": 4823,
+          "en": {
+            "title": "World is Mine / ryo(supercell) feat. Hatsune Miku"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rRneg-tRatU",
+      "memberId": "liz",
+      "publishedAt": "2026-01-16",
+      "title": "【歌枠】金曜日だし夜更かししよう 【雨夜リズ/ミリプロ】",
+      "duration": 4825,
+      "songs": [
+        {
+          "key": "不可幸力",
+          "title": "不可幸力 / Vaundy",
+          "start": 270,
+          "end": 525,
+          "en": {
+            "title": "Vaundy"
+          }
+        },
+        {
+          "key": "ヒステリックナイトガール",
+          "title": "ヒステリックナイトガール / PSYQUI feat. Such",
+          "start": 526,
+          "end": 944,
+          "en": {
+            "title": "Hysteric Night Girl / PSYQUI feat. Such"
+          }
+        },
+        {
+          "key": "死神",
+          "title": "死神 / 米津玄師",
+          "start": 945,
+          "end": 1293,
+          "en": {
+            "title": "Grim Reaper / Kenshi Yonezu"
+          }
+        },
+        {
+          "key": "恋愛裁判",
+          "title": "恋愛裁判 / 40mP feat. 初音ミク",
+          "start": 1294,
+          "end": 1642,
+          "en": {
+            "title": "Love Trial / 40mP feat. Hatsune Miku"
+          }
+        },
+        {
+          "key": "Bunny Girl",
+          "title": "Bunny Girl / AKASAKI",
+          "start": 1643,
+          "end": 1981
+        },
+        {
+          "key": "ヴィラン",
+          "title": "ヴィラン / てにをは feat. v flower",
+          "start": 1982,
+          "end": 2307,
+          "en": {
+            "title": "Villain / Teniwoha feat. v flower"
+          }
+        },
+        {
+          "key": "ベノム",
+          "title": "ベノム / かいりきベア feat. v flower",
+          "start": 2308,
+          "end": 2622,
+          "en": {
+            "title": "Venom/Kairiki Bear feat. v flower"
+          }
+        },
+        {
+          "key": "怪獣",
+          "title": "怪獣 / サカナクション",
+          "start": 2623,
+          "end": 3054,
+          "en": {
+            "title": "Monster / Sakanaction"
+          }
+        },
+        {
+          "key": "ヒバナ",
+          "title": "ヒバナ / DECO*27 feat. 初音ミク",
+          "start": 3055,
+          "end": 4825,
+          "en": {
+            "title": "Hibana / DECO*27 feat. Hatsune Miku"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S1dpbc9ERdA",
+      "memberId": "liz",
+      "publishedAt": "2026-03-13",
+      "title": "【歌枠】急に歌枠をしてみんなを怖がらせましょう【雨夜リズ/ミリプロ】",
+      "duration": 5156,
+      "songs": [
+        {
+          "key": "ブラック★ロックシューター",
+          "title": "ブラック★ロックシューター / ryo(supercell) feat. 初音ミク",
+          "start": 272,
+          "end": 644,
+          "en": {
+            "title": "Black★Rock Shooter / ryo(supercell) feat. Hatsune Miku"
+          }
+        },
+        {
+          "key": "JANE DOE",
+          "title": "JANE DOE / 米津玄師 × 宇多田ヒカル",
+          "start": 645,
+          "end": 972,
+          "en": {
+            "title": "JANE DOE / Kenshi Yonezu × Hikaru Utada"
+          }
+        },
+        {
+          "key": "IRIS OUT",
+          "title": "IRIS OUT / 米津玄師",
+          "start": 973,
+          "end": 1239,
+          "en": {
+            "title": "IRIS OUT / Kenshi Yonezu"
+          }
+        },
+        {
+          "key": "死神",
+          "title": "死神 / 米津玄師",
+          "start": 1240,
+          "end": 1509,
+          "en": {
+            "title": "Grim Reaper / Kenshi Yonezu"
+          }
+        },
+        {
+          "key": "バレリーコ",
+          "title": "バレリーコ / みきとP feat. GUMI",
+          "start": 1510,
+          "end": 1815,
+          "en": {
+            "title": "Valerico / Mikito P feat. GUMI"
+          }
+        },
+        {
+          "key": "丸の内サディスティック",
+          "title": "丸の内サディスティック / 椎名林檎",
+          "start": 1816,
+          "end": 2193,
+          "en": {
+            "title": "Marunouchi Sadistic / Ringo Shiina"
+          }
+        },
+        {
+          "key": "愛を伝えたいだとか",
+          "title": "愛を伝えたいだとか / あいみょん",
+          "start": 2194,
+          "end": 2539,
+          "en": {
+            "title": "I want to convey my love / Aimyon"
+          }
+        },
+        {
+          "key": "サマータイムレコード",
+          "title": "サマータイムレコード / じん feat. IA",
+          "start": 2540,
+          "end": 2984,
+          "en": {
+            "title": "Summer Time Record / Jin feat. IA"
+          }
+        },
+        {
+          "key": "ドライフラワー",
+          "title": "ドライフラワー / 優里",
+          "start": 2985,
+          "end": 3437,
+          "en": {
+            "title": "Dried flower / Yuri"
+          }
+        },
+        {
+          "key": "フォニイ",
+          "title": "フォニイ / ツミキ feat. 可不",
+          "start": 3438,
+          "end": 3713,
+          "en": {
+            "title": "Phonii / Tsumiki feat."
+          }
+        },
+        {
+          "key": "シャルル",
+          "title": "シャルル / バルーン feat. v flower",
+          "start": 3714,
+          "end": 4045,
+          "en": {
+            "title": "Charles / Balloon feat. v flower"
+          }
+        },
+        {
+          "key": "夜に駆ける",
+          "title": "夜に駆ける / YOASOBI",
+          "start": 4046,
+          "end": 4416,
+          "en": {
+            "title": "Running at night / YOASOBI"
+          }
+        },
+        {
+          "key": "One Last Kiss",
+          "title": "One Last Kiss / 宇多田ヒカル",
+          "start": 4417,
+          "end": 5156,
+          "en": {
+            "title": "One Last Kiss / Hikaru Utada"
+          }
+        }
+      ]
+    },
+    {
+      "id": "A7UNNVNCbjQ",
+      "memberId": "liz",
+      "publishedAt": "2026-03-19",
+      "title": "【#雨夜さんはぴば2026】かえるの歌50回耐久🐸【雨夜リズ/ミリプロ】",
+      "duration": 6240,
+      "songs": [
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 262,
+          "end": 411,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 412,
+          "end": 541,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 542,
+          "end": 678,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 679,
+          "end": 787,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 788,
+          "end": 882,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 883,
+          "end": 1015,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 1016,
+          "end": 1203,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 1204,
+          "end": 1374,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 1375,
+          "end": 1504,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 1505,
+          "end": 1674,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "シャルル",
+          "title": "シャルル / バルーン feat. v flower(ワンコーラス)",
+          "start": 1675,
+          "end": 1804,
+          "en": {
+            "title": "Charles / Balloon feat. v flower (one chorus)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 1805,
+          "end": 1908,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 1909,
+          "end": 2027,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 2028,
+          "end": 2166,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 2167,
+          "end": 2325,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 2326,
+          "end": 2448,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 2449,
+          "end": 2578,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 2579,
+          "end": 2731,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 2732,
+          "end": 2871,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 2872,
+          "end": 2948,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 2949,
+          "end": 3055,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "IRIS OUT",
+          "title": "IRIS OUT / 米津玄師(ワンコーラス)",
+          "start": 3056,
+          "end": 3150,
+          "en": {
+            "title": "IRIS OUT / Kenshi Yonezu (one chorus)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 3151,
+          "end": 3187,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 3188,
+          "end": 3220,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 3221,
+          "end": 3290,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 3291,
+          "end": 3325,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 3326,
+          "end": 3384,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 3385,
+          "end": 3415,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 3416,
+          "end": 3476,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 3477,
+          "end": 3509,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 3510,
+          "end": 3609,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 3610,
+          "end": 3652,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 3653,
+          "end": 3709,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 3710,
+          "end": 3820,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 3821,
+          "end": 3928,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 3929,
+          "end": 3956,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 3957,
+          "end": 4000,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 4001,
+          "end": 4039,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 4040,
+          "end": 4078,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 4079,
+          "end": 4132,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 4133,
+          "end": 4190,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 4191,
+          "end": 4212,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 4213,
+          "end": 4355,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 4356,
+          "end": 4398,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 4399,
+          "end": 4518,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 4519,
+          "end": 4654,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 4655,
+          "end": 4689,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 4690,
+          "end": 4731,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 4732,
+          "end": 4809,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 4810,
+          "end": 4892,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 4893,
+          "end": 4945,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        },
+        {
+          "key": "かえるのうた",
+          "title": "かえるのうた",
+          "start": 4946,
+          "end": 6240,
+          "en": {
+            "title": "Kaeru no Uta (Frog Song)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "YNe2YuSqncc",
+      "memberId": "akubi",
+      "publishedAt": "2024-01-09",
+      "title": "【 #あくび初配信 】跪け！あくび・でもんすぺーど様だ！【あくび・でもんすぺーど / ミリプロ】",
+      "duration": 6337,
+      "songs": [
+        {
+          "key": "唱",
+          "title": "唱 / Ado",
+          "start": 320,
+          "end": 5906,
+          "en": {
+            "title": "Shou / Ado"
+          }
+        },
+        {
+          "key": "おじゃま虫",
+          "title": "おじゃま虫 / DECO*27",
+          "start": 5907,
+          "end": 6337,
+          "en": {
+            "title": "Ojama Mushi / DECO*27"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2omY8cYhWpU",
+      "memberId": "akubi",
+      "publishedAt": "2024-02-01",
+      "title": "【歌枠】メンバーシップ解禁記念！いっぱい歌う！【あくび・でもんすぺーど】",
+      "duration": 6284,
+      "songs": [
+        {
+          "key": "チュルリラチュルリラダッダッダ!",
+          "title": "チュルリラ・チュルリラ・ダッダッダ! / 和田たけあき（くらげP）",
+          "start": 361,
+          "end": 831,
+          "en": {
+            "title": "Churu-ri-la-churu-ri-la-da-da-da-da! / Takeaki Wada (Jellyfish P)"
+          }
+        },
+        {
+          "key": "モザイクロール",
+          "title": "モザイクロール / DECO*27",
+          "start": 832,
+          "end": 1208,
+          "en": {
+            "title": "Mosaic roll / DECO*27"
+          }
+        },
+        {
+          "key": "ベテルギウス",
+          "title": "ベテルギウス / 優里",
+          "start": 1209,
+          "end": 1661,
+          "en": {
+            "title": "Betelgeuse/Yuri"
+          }
+        },
+        {
+          "key": "ロメオ",
+          "title": "ロメオ / HoneyWorks",
+          "start": 1662,
+          "end": 2028,
+          "en": {
+            "title": "Romeo / HoneyWorks"
+          }
+        },
+        {
+          "key": "心という名の不回避",
+          "title": "心という名の不回避 / Ado",
+          "start": 2029,
+          "end": 2652,
+          "en": {
+            "title": "Inevitability called heart / Ado"
+          }
+        },
+        {
+          "key": "怪獣の花唄",
+          "title": "怪獣の花唄 / Vaundy",
+          "start": 2653,
+          "end": 3051,
+          "en": {
+            "title": "Kaiju no Hanauta / Vaundy"
+          }
+        },
+        {
+          "key": "ボルテッカー",
+          "title": "ボルテッカー / DECO*27（オマケアカペラ）",
+          "start": 3052,
+          "end": 3087,
+          "en": {
+            "title": "Voltecker / DECO*27 (Omakea Capella)"
+          }
+        },
+        {
+          "key": "地球最後の告白を",
+          "title": "地球最後の告白を / 堀江晶太",
+          "start": 3088,
+          "end": 3521,
+          "en": {
+            "title": "Earth's last confession / Shota Horie"
+          }
+        },
+        {
+          "key": "unravel",
+          "title": "Unravel / 凛として時雨（オマケアカペラ）",
+          "start": 3522,
+          "end": 3570,
+          "en": {
+            "title": "Unravel / Ling Toshi Sigure (Omakea Capella)"
+          }
+        },
+        {
+          "key": "女の子になりたい",
+          "title": "女の子になりたい / まふまふ",
+          "start": 3571,
+          "end": 4101,
+          "en": {
+            "title": "I want to be a girl / Mafumafu"
+          }
+        },
+        {
+          "key": "サリシノハラ",
+          "title": "サリシノハラ / みきとP",
+          "start": 4102,
+          "end": 4502,
+          "en": {
+            "title": "Salishinohara / Mikito P"
+          }
+        },
+        {
+          "key": "踊",
+          "title": "踊 / Ado",
+          "start": 4503,
+          "end": 5123,
+          "en": {
+            "title": "Dance / Ado"
+          }
+        },
+        {
+          "key": "ファンサ",
+          "title": "ファンサ / HoneyWorks",
+          "start": 5124,
+          "end": 5794,
+          "en": {
+            "title": "Funsa / HoneyWorks"
+          }
+        },
+        {
+          "key": "アスノヨゾラ哨戒班",
+          "title": "アスノヨゾラ哨戒班 / Orangestar（アカペラ）",
+          "start": 5795,
+          "end": 6284,
+          "en": {
+            "title": "Asuno Yozora Patrol Team / Orangestar (Acapella)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "W27sddrqkoE",
+      "memberId": "akubi",
+      "publishedAt": "2024-02-14",
+      "title": "【バレンタイン歌枠】高評価ごとにリスナーへの好感度が______！？【あくび・でもんすぺーど 】",
+      "duration": 9761,
+      "songs": [
+        {
+          "key": "うっせぇわ",
+          "title": "うっせぇわ / Ado（最初ちょっとアカペラ）",
+          "start": 489,
+          "end": 1087,
+          "en": {
+            "title": "Ussewawa / Ado (slightly a cappella at first)"
+          }
+        },
+        {
+          "key": "粛聖!!ロリ神レクイエム☆",
+          "title": "粛聖!! ロリ神レクイエム☆ / しぐれうい（9歳）",
+          "start": 1088,
+          "end": 1835,
+          "en": {
+            "title": "Seishei!! Loli God Requiem ☆ / Shigureui (9 years old)"
+          }
+        },
+        {
+          "key": "逆光",
+          "title": "逆光 / Ado",
+          "start": 1836,
+          "end": 2650,
+          "en": {
+            "title": "Backlight / Ado"
+          }
+        },
+        {
+          "key": "かまってちょーだい",
+          "title": "かまってちょーだい / Mono palette.",
+          "start": 2651,
+          "end": 3489,
+          "en": {
+            "title": "Please take care of me / Mono palette."
+          }
+        },
+        {
+          "key": "金曜日のおはよう",
+          "title": "金曜日のおはよう / HoneyWorks",
+          "start": 3490,
+          "end": 4007,
+          "en": {
+            "title": "Friday Good Morning / HoneyWorks"
+          }
+        },
+        {
+          "key": "Booo!",
+          "title": "Booo! / TOKOTOKO（西沢さんP）",
+          "start": 4008,
+          "end": 4668,
+          "en": {
+            "title": "Boooo! / TOKOTOKO (Nishizawa-san P)"
+          }
+        },
+        {
+          "key": "かいしんのいちげき！",
+          "title": "かいしんのいちげき！ / 天月",
+          "start": 4669,
+          "end": 5376,
+          "en": {
+            "title": "Kaishin no Ichigeki! / Amatsuki"
+          }
+        },
+        {
+          "key": "小悪魔だって構わない！",
+          "title": "小悪魔だって構わない！ / めいちゃん",
+          "start": 5377,
+          "end": 6068,
+          "en": {
+            "title": "I don't care if it's a little devil! / Mei-chan"
+          }
+        },
+        {
+          "key": "きゅうくらりん",
+          "title": "きゅうくらりん / いよわ",
+          "start": 6069,
+          "end": 6659,
+          "en": {
+            "title": "Kyukurarin / Iyowa"
+          }
+        },
+        {
+          "key": "ワールドイズマイン",
+          "title": "ワールドイズマイン / ryo",
+          "start": 6660,
+          "end": 7243,
+          "en": {
+            "title": "world is mine / ryo"
+          }
+        },
+        {
+          "key": "キュートな彼女",
+          "title": "キュートな彼女 / Syudou",
+          "start": 7244,
+          "end": 7681,
+          "en": {
+            "title": "Cute Girlfriend / Syudou"
+          }
+        },
+        {
+          "key": "キャットラビング",
+          "title": "キャットラビング / 香椎モミイ",
+          "start": 7682,
+          "end": 8953,
+          "en": {
+            "title": "Cat Loving / Momii Kashii"
+          }
+        },
+        {
+          "key": "あくあ色パレット",
+          "title": "あくあ色パレット / 湊あくあ",
+          "start": 8954,
+          "end": 9761,
+          "en": {
+            "title": "Dark color palette / Minato Aqua"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IEhbKmjpGgg",
+      "memberId": "akubi",
+      "publishedAt": "2024-03-03",
+      "title": "【歌雑】酔っちゃったかも、、/// #shorts 【あくび・でもんすぺーど】",
+      "duration": 6684,
+      "songs": [
+        {
+          "key": "鬼の宴",
+          "title": "鬼の宴 / 友成空",
+          "start": 1800,
+          "end": 2151,
+          "en": {
+            "title": "Demon's Banquet / Sora Tomonari"
+          }
+        },
+        {
+          "key": "混沌ブキ",
+          "title": "混沌ブキ / Jon-YAKITORY",
+          "start": 2152,
+          "end": 2329,
+          "en": {
+            "title": "Chaos Buki / Jon-YAKITORY"
+          }
+        },
+        {
+          "key": "Bling‐Bang-Bang-Born",
+          "title": "Bling‐Bang-Bang-Born / Creepy Nuts（1番のみ）",
+          "start": 2330,
+          "end": 2517,
+          "en": {
+            "title": "Bling-Bang-Bang-Born / Creepy Nuts (No. 1 only)"
+          }
+        },
+        {
+          "key": "心予報",
+          "title": "心予報 / Eve",
+          "start": 2518,
+          "end": 2762,
+          "en": {
+            "title": "Heart Forecast / Eve"
+          }
+        },
+        {
+          "key": "絶頂讃歌",
+          "title": "絶頂讃歌 / 和ぬか",
+          "start": 2763,
+          "end": 3187,
+          "en": {
+            "title": "Climax Hymn / Wanuka"
+          }
+        },
+        {
+          "key": "One day",
+          "title": "One day / The ROOTLESS",
+          "start": 3188,
+          "end": 3512
+        },
+        {
+          "key": "恋愛サーキュレーション",
+          "title": "恋愛サーキュレーション / 花澤香菜",
+          "start": 3513,
+          "end": 4223,
+          "en": {
+            "title": "Love Circulation / Kana Hanazawa"
+          }
+        },
+        {
+          "key": "六兆年と一夜物語",
+          "title": "六兆年と一夜物語 / 堀江晶太",
+          "start": 4224,
+          "end": 4988,
+          "en": {
+            "title": "Six Trillion Years and One Night / Shota Horie"
+          }
+        },
+        {
+          "key": "恋愛裁判",
+          "title": "恋愛裁判 / 40mP",
+          "start": 4989,
+          "end": 5324,
+          "en": {
+            "title": "Love Trial / 40mP"
+          }
+        },
+        {
+          "key": "シル・ヴ・プレジデント",
+          "title": "シル・ヴ・プレジデント / P丸様",
+          "start": 5325,
+          "end": 5613,
+          "en": {
+            "title": "Sil V President / Mr. Pmaru"
+          }
+        },
+        {
+          "key": "命に嫌われている",
+          "title": "命に嫌われている / カンザキイオリ",
+          "start": 5614,
+          "end": 6263,
+          "en": {
+            "title": "Hated by life / Iori Kanzaki"
+          }
+        },
+        {
+          "key": "お気に召すまま",
+          "title": "お気に召すまま / Eve",
+          "start": 6264,
+          "end": 6684,
+          "en": {
+            "title": "As You Like It / Eve"
+          }
+        }
+      ]
+    },
+    {
+      "id": "l8eL0wxXchI",
+      "memberId": "akubi",
+      "publishedAt": "2024-03-07",
+      "title": "【２０万人耐久】眠い？起きて。👿【あくび・でもんすぺーど / ミリプロ】",
+      "duration": 15179,
+      "songs": [
+        {
+          "key": "恋愛裁判",
+          "title": "恋愛裁判 / 40mP",
+          "start": 780,
+          "end": 1334,
+          "en": {
+            "title": "Love Trial / 40mP"
+          }
+        },
+        {
+          "key": "鬼の宴",
+          "title": "鬼の宴 / 友成空",
+          "start": 1335,
+          "end": 2004,
+          "en": {
+            "title": "Demon's Banquet / Sora Tomonari"
+          }
+        },
+        {
+          "key": "夜明けと蛍",
+          "title": "夜明けと蛍 / n-buna",
+          "start": 2005,
+          "end": 2529,
+          "en": {
+            "title": "Dawn and fireflies / n-buna"
+          }
+        },
+        {
+          "key": "アイロニ",
+          "title": "アイロニ / すこっぷ",
+          "start": 2530,
+          "end": 2678,
+          "en": {
+            "title": "Ironi (bonus) / scoop"
+          }
+        },
+        {
+          "key": "サリシノハラ",
+          "title": "サリシノハラ / みきとP",
+          "start": 2679,
+          "end": 3196,
+          "en": {
+            "title": "Salishinohara / Mikito P"
+          }
+        },
+        {
+          "key": "アイロニ",
+          "title": "アイロニ / すこっぷ",
+          "start": 3197,
+          "end": 3696,
+          "en": {
+            "title": "Ironi / Scoop"
+          }
+        },
+        {
+          "key": "唱",
+          "title": "唱 / Ado",
+          "start": 3697,
+          "end": 4654,
+          "en": {
+            "title": "Shou / Ado"
+          }
+        },
+        {
+          "key": "千本桜",
+          "title": "千本桜 / WhiteFlame",
+          "start": 4655,
+          "end": 5229,
+          "en": {
+            "title": "Senbonzakura / WhiteFlame"
+          }
+        },
+        {
+          "key": "混沌ブキ",
+          "title": "混沌ブキ / Jon-YAKITORY",
+          "start": 5230,
+          "end": 5453,
+          "en": {
+            "title": "Chaos Buki / Jon-YAKITORY"
+          }
+        },
+        {
+          "key": "チュルリラチュルリラダッダッダ!",
+          "title": "チュルリラ・チュルリラ・ダッダッダ! / 和田たけあき",
+          "start": 5454,
+          "end": 5946,
+          "en": {
+            "title": "Churu-ri-la-churu-ri-la-da-da-da-da! / Takeaki Wada"
+          }
+        },
+        {
+          "key": "チューリングラブ",
+          "title": "チューリングラブ / ナナヲアカリ",
+          "start": 5947,
+          "end": 6308,
+          "en": {
+            "title": "Turing Love / Nanawo Akari"
+          }
+        },
+        {
+          "key": "Queen",
+          "title": "Queen / Kanaria",
+          "start": 6309,
+          "end": 6739
+        },
+        {
+          "key": "レクリエム",
+          "title": "レクリエム / 星街すいせい",
+          "start": 6740,
+          "end": 7172,
+          "en": {
+            "title": "Recriem / Hoshimachi Suisei"
+          }
+        },
+        {
+          "key": "フォニイ",
+          "title": "フォニイ / ツミキ",
+          "start": 7173,
+          "end": 7507,
+          "en": {
+            "title": "Phonii / Tsumiki"
+          }
+        },
+        {
+          "key": "アスノヨゾラ哨戒班",
+          "title": "アスノヨゾラ哨戒班 / Orangestar",
+          "start": 7508,
+          "end": 7961,
+          "en": {
+            "title": "Asunoyozora Patrol Team / Orangestar"
+          }
+        },
+        {
+          "key": "メランコリック",
+          "title": "メランコリック / Junky",
+          "start": 7962,
+          "end": 8356,
+          "en": {
+            "title": "Melancholic / Junky"
+          }
+        },
+        {
+          "key": "神っぽいな",
+          "title": "神っぽいな / ピノキオピー",
+          "start": 8357,
+          "end": 8823,
+          "en": {
+            "title": "God-like / Pinocchio Pea"
+          }
+        },
+        {
+          "key": "恋愛サーキュレーション",
+          "title": "恋愛サーキュレーション / 花澤香菜",
+          "start": 8824,
+          "end": 9322,
+          "en": {
+            "title": "Love Circulation / Kana Hanazawa"
+          }
+        },
+        {
+          "key": "だから僕は音楽をやめた",
+          "title": "だから僕は音楽をやめた / ヨルシカ",
+          "start": 9323,
+          "end": 9648,
+          "en": {
+            "title": "That's why I quit music / Yorushika"
+          }
+        },
+        {
+          "key": "ラグトレイン",
+          "title": "ラグトレイン / 稲葉曇",
+          "start": 9649,
+          "end": 9848,
+          "en": {
+            "title": "Rag Train (bonus) / Inaba Cloud"
+          }
+        },
+        {
+          "key": "すずめ",
+          "title": "すずめ / RADWIMPS",
+          "start": 9849,
+          "end": 10139,
+          "en": {
+            "title": "Sparrow / RADWIMPS"
+          }
+        },
+        {
+          "key": "アスノヨゾラ哨戒班",
+          "title": "アスノヨゾラ哨戒班 / Orangestar",
+          "start": 10140,
+          "end": 10535,
+          "en": {
+            "title": "Asunoyozora Patrol Team / Orangestar"
+          }
+        },
+        {
+          "key": "YELL",
+          "title": "YELL / いきものがかり",
+          "start": 10536,
+          "end": 11042,
+          "en": {
+            "title": "YELL / Ikimonogakari"
+          }
+        },
+        {
+          "key": "桜ノ雨",
+          "title": "桜ノ雨 / halyosy",
+          "start": 11043,
+          "end": 11537,
+          "en": {
+            "title": "Sakura no Ame / halyosy"
+          }
+        },
+        {
+          "key": "第六感",
+          "title": "第六感 / れをる",
+          "start": 11538,
+          "end": 11692,
+          "en": {
+            "title": "Sixth sense / Reworu"
+          }
+        },
+        {
+          "key": "怪獣の花唄",
+          "title": "怪獣の花唄 / Vaundy",
+          "start": 11693,
+          "end": 12077,
+          "en": {
+            "title": "Kaiju no Hanauta / Vaundy"
+          }
+        },
+        {
+          "key": "CH4GE",
+          "title": "CH4GE / Giga",
+          "start": 12078,
+          "end": 12157,
+          "en": {
+            "title": "CH4GE (bonus) / Giga"
+          }
+        },
+        {
+          "key": "絶頂讃歌",
+          "title": "絶頂讃歌 / 和ぬか",
+          "start": 12158,
+          "end": 12539,
+          "en": {
+            "title": "Climax Hymn / Wanuka"
+          }
+        },
+        {
+          "key": "ウタカララバイ",
+          "title": "ウタカララバイ / Ado",
+          "start": 12540,
+          "end": 12914,
+          "en": {
+            "title": "Utakara Rabai / Ado"
+          }
+        },
+        {
+          "key": "粛聖!!ロリ神レクイエム☆",
+          "title": "粛聖!! ロリ神レクイエム☆ / しぐれうい",
+          "start": 12915,
+          "end": 13477,
+          "en": {
+            "title": "Seishei!! Loli God Requiem☆ / Shigureui"
+          }
+        },
+        {
+          "key": "千本桜",
+          "title": "千本桜 / WhiteFlame",
+          "start": 13478,
+          "end": 13808,
+          "en": {
+            "title": "Senbonzakura / WhiteFlame"
+          }
+        },
+        {
+          "key": "逆光",
+          "title": "逆光 / Ado",
+          "start": 13809,
+          "end": 14255,
+          "en": {
+            "title": "Backlight / Ado"
+          }
+        },
+        {
+          "key": "私は最強",
+          "title": "私は最強 / Ado",
+          "start": 14256,
+          "end": 14539,
+          "en": {
+            "title": "I am the strongest / Ado"
+          }
+        },
+        {
+          "key": "ファンサ",
+          "title": "ファンサ / HoneyWorks",
+          "start": 14540,
+          "end": 15179,
+          "en": {
+            "title": "Funsa / HoneyWorks"
           }
         }
       ]
