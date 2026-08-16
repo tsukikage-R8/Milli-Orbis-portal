@@ -886,7 +886,7 @@ img { max-width: 100%; }
   flex-shrink: 0;
 }
 .stream-group-title .range { font-size: 0.78rem; font-weight: 700; color: var(--muted); }
-.stream-group { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
+.stream-group { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr)); gap: 16px; }
 .stream-item { display: block; padding: 0; overflow: hidden; }
 .stream-item:hover { text-decoration: none; }
 .stream-item .video-thumb { width: auto; flex-shrink: 0; border-radius: 0 0 14px 14px; border: none; border-bottom: 3px solid #fff; }
@@ -1150,6 +1150,7 @@ img { max-width: 100%; }
 /* ---------- ランチャー（図形バッジ） ---------- */
 .launcher-card {
   display: flex;
+  flex-wrap: wrap;
   gap: 16px;
   align-items: center;
   padding: 18px 20px;
@@ -1200,7 +1201,7 @@ img { max-width: 100%; }
 .cal-tools { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; flex-wrap: wrap; }
 .cal-title { font-family: var(--font-display); font-weight: 900; font-size: 1.15rem; min-width: 130px; text-align: center; }
 .cal-list { display: flex; flex-direction: column; gap: 10px; }
-.cal-item { display: flex; gap: 16px; align-items: center; padding: 14px 18px; border-radius: 18px; }
+.cal-item { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; padding: 14px 18px; border-radius: 18px; }
 .cal-date-box {
   width: 62px;
   height: 62px;
@@ -2788,6 +2789,7 @@ body:not([data-member]) .intro-fx { display: none; }
   align-items: center;
   justify-content: center;
   padding: 20px;
+  overflow-x: hidden;
 }
 .modal-overlay.open { display: flex; }
 .modal {
@@ -3888,6 +3890,22 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
   .subpage-hero h1 { font-size: 1.4rem; }
 }
 
+/* 極小画面（~340px未満）: ヘッダーが収まらないためロゴを縮小・LIVE バッジを隠す */
+@media (max-width: 340px) {
+  .live-badge.show { display: none; }
+  .header-inner { padding: 0 8px; gap: 6px; }
+  .logo { font-size: 0; gap: 0; }
+  .logo img { height: 20px; }
+  .header-actions { gap: 6px; }
+  .lang-toggle { width: 28px; height: 28px; font-size: 0.68rem; }
+  .theme-toggle { width: 30px; height: 30px; font-size: 0.85rem; }
+  .notif-bell { width: 26px; height: 26px; font-size: 0.8rem; }
+  .profile-btn { width: 30px; height: 30px; }
+  .hamburger { padding: 4px 5px; }
+  .hamburger svg { width: 22px; height: 16px; }
+  .cd-rail-wrap { flex: 0 1 auto; min-width: 0; }
+}
+
 /* ---- ミリプロ検定 ---- */
 .quiz-section { display: flex; justify-content: center; }
 .quiz-card {
@@ -3995,7 +4013,7 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
 }
 .song-search:focus { border-color: var(--accent-deep); }
 :root[data-theme="dark"] .song-search { background: #2c2838; }
-.song-tabs { display: flex; gap: 8px; }
+.song-tabs { display: flex; flex-wrap: wrap; gap: 8px; }
 .song-tab {
   font-family: var(--font-display);
   font-weight: 800;
@@ -4025,7 +4043,7 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
 .song-chip.active { color: #fff; background: var(--mc, var(--accent-deep)); border-color: var(--mc, var(--accent-deep)); }
 .song-tab-label { font-family: var(--font-display); font-weight: 900; font-size: 1.1rem; color: var(--accent-deep); margin-bottom: 12px; }
 .song-note { font-size: 0.78rem; color: var(--muted); margin-bottom: 12px; line-height: 1.7; }
-.song-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 14px; }
+.song-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(270px, 100%), 1fr)); gap: 14px; }
 .song-card { display: flex; flex-direction: column; gap: 8px; padding: 18px 20px; border-radius: 18px; }
 .song-card .btn { margin-top: auto; align-self: flex-start; }
 .song-title { font-weight: 800; font-size: 0.94rem; line-height: 1.55; }
@@ -4048,7 +4066,7 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
   .quiz-card { padding: 24px 18px; }
   .quiz-q { font-size: 1rem !important; }
   .quiz-mode-row { grid-template-columns: 1fr; }
-  .song-grid { grid-template-columns: 1fr; }
+  .song-grid { grid-template-columns: minmax(0, 1fr); }
 }
 
 .song-collab {
