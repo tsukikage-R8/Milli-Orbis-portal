@@ -1016,6 +1016,15 @@ window.SONG_MASTER = {
         "title": "A faint flower"
       }
     },
+    "夏色えがおで1,2,jump!": {
+      "title": "夏色えがおで1,2,Jump! (MAKI Mix)",
+      "artist": "西木野真姫(CV.Pile)",
+      "album": "ラブライブ! Solo Live! Collection from μ's 西木野真姫 TRUE DIVA",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/aa/3a/75aa3a6b-ef2e-0163-b929-4053a8218926/4540774200597.png/600x600bb.jpg",
+      "en": {
+        "title": "Natsuiro Egaode 1,2,Jump! (MAKI Mix)"
+      }
+    },
     "恋するフォチュンクッキ＆あつまる＆ぴこぴこぐらむ＆ほし": {
       "title": "恋するフォーチュンクッキー",
       "artist": "AKB48",

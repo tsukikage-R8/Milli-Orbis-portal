@@ -2196,6 +2196,20 @@ window.SONGS = {
       }
     },
     {
+      "title": "夏色えがおで1,2,Jump!",
+      "key": "夏色えがおで1,2,jump!",
+      "urls": [
+        {
+          "id": "g4qGSYgxHLU",
+          "memberId": "raco",
+          "publishedAt": "2026-08-16"
+        }
+      ],
+      "en": {
+        "title": "Summer color picture 1,2,Jump!"
+      }
+    },
+    {
       "title": "恋するフォーチュンクッキー",
       "key": "恋するフォチュンクッキ＆あつまる＆ぴこぴこぐらむ＆ほし",
       "urls": [
