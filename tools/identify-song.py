@@ -39,7 +39,7 @@ def ffmpeg(args, chunk_dir):
     except subprocess.CalledProcessError as e:
         raise RuntimeError("ffmpeg に失敗しました（入力ファイルの形式を確認してください）: %s" % e) from e
 
-def fetch_audio(url, workdir, cookies):
+def fetch_audio(url, workdir, cookies, clients):
     """音声ストリームのみを取得。返り値は取得したファイルパス。"""
     opts = {
         "format": "bestaudio/best",
@@ -51,6 +51,10 @@ def fetch_audio(url, workdir, cookies):
     }
     if cookies:
         opts["cookiefile"] = cookies
+    if clients:
+        opts["extractor_args"] = {
+            "youtube": {"player_client": [c.strip() for c in clients.split(",")]}
+        }
     with yt_dlp.YoutubeDL(opts) as ydl:
         try:
             info = ydl.extract_info(url, download=True)
@@ -131,6 +135,8 @@ def main():
     ap.add_argument("--start", type=float, default=0.0, help="開始オフセット（秒）")
     ap.add_argument("--max-duration", type=float, default=0.0, help="分析する最大長（秒、0=全編）")
     ap.add_argument("--cookies", default="", help="ブラウザのcookies.txt（Bot判定回避用）")
+    ap.add_argument("--clients", default="web,android,tv,web_embedded,ios",
+                    help="試行するYouTubeプレイヤークライアント（カンマ区切り）")
     ap.add_argument("--json", action="store_true", help="JSONで出力")
     args = ap.parse_args()
 
@@ -140,7 +146,7 @@ def main():
                 src, title, dur = args.file, os.path.basename(args.file), 0
                 log("入力: %s" % src)
             else:
-                src, title, dur = fetch_audio(args.url, workdir, args.cookies)
+                src, title, dur = fetch_audio(args.url, workdir, args.cookies, args.clients)
                 log("取得: %s (%.0f秒) -> %s" % (title, dur, os.path.basename(src)))
 
             if args.max_duration > 0:
