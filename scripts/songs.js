@@ -266,7 +266,7 @@
       var chips = (v.members && v.members.length ? v.members : ["official"]).map(function (mid) {
         return memberChipHtml(mid, "");
       }).join("");
-      var sub = (v.members || []).map(function (mid) { return SD.memberLabel(mid); }).join("・") || T("songs.officialLabel");
+      var sub = (v.members || []).map(function (mid) { return SD.memberLabel(mid); }).join(typeof milliLang !== "undefined" && milliLang.get() === "en" ? ", " : "・") || T("songs.officialLabel");
       return { date: v.publishedAt || "", html:
         '<div class="song-card card">' +
         thumbHtml(v.id) +

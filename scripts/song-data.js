@@ -27,7 +27,7 @@ window.SongData = (function () {
 
   function memberLabel(id) {
     var m = memberById(id);
-    return m ? m.name : (id === "official" ? T("songs.officialLabel") : id);
+    return m ? (typeof mName === "function" ? mName(m) : m.name) : (id === "official" ? T("songs.officialLabel") : id);
   }
 
   function chipColor(id) {

@@ -294,7 +294,7 @@ function mpFillEditForm(uid) {
   if (preview) renderUserIcon(preview, { icon: info.icon, playerName: info.name });
   mpPendingIcon = info.icon || "";
   var note = document.getElementById("mp-edit-note");
-  if (note) note.textContent = "ログイン中の共有アカウント（Milli Games / Unishare / Chronicle と共通）に同期されます";
+  if (note) note.textContent = (window.T ? T("login.editNote") : "ログイン中の共有アカウント（Milli Games / Unishare / Chronicle と共通）に同期されます");
   var emojis = document.querySelectorAll(".mp-emoji-btn");
   emojis.forEach(function (b) {
     b.classList.toggle("active", b.dataset.emoji === mpPendingIcon);

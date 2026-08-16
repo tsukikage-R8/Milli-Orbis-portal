@@ -274,7 +274,7 @@
       MEMBERS.forEach(function (m) {
         var opt = document.createElement("option");
         opt.value = m.id;
-        opt.textContent = m.name;
+        opt.textContent = mName(m);
         select.appendChild(opt);
       });
       select.value = getOshi() || "";
@@ -378,7 +378,7 @@
       b.className = "oshi-option";
       b.innerHTML = (m.icon
         ? '<span class="oshi-mark"><img src="' + m.icon + '" alt=""></span>'
-        : '<span class="oshi-mark">' + m.fanMark + "</span>") + m.name;
+        : '<span class="oshi-mark">' + m.fanMark + "</span>") + mName(m);
       b.style.setProperty("--mc", m.color);
       b.addEventListener("click", function () {
         setOshi(m.id);
@@ -546,7 +546,7 @@
     var mmdd = pad2(now.getUTCMonth() + 1) + "-" + pad2(now.getUTCDate());
     var list = getMemberByDate(mmdd, "birthday");
     if (list.length === 0) return;
-    var names = list.map(function (m) { return m.name; }).join("・");
+    var names = list.map(function (m) { return mName(m); }).join(milliLang.get() === "en" ? ", " : "・");
     banner.innerHTML = T("birthday.banner", { names: names });
     banner.classList.add("show");
   }
@@ -648,7 +648,7 @@
       html += '<div class="stream-group"><h3 class="stream-group-title">' + T(names[b]) +
         ' <span class="range">' + bucketRange(b) + "</span></h3>" +
         g.map(function (it) {
-          var s = it.s, m = getMember(s.memberId) || (s.memberId === "official" ? { name: "ミリプロ公式" } : null);
+          var s = it.s, m = getMember(s.memberId) || (s.memberId === "official" ? { name: T("video.official") } : null);
           var isLive = s.status === "live";
           var diff = Math.floor((it.start.getTime() - now.getTime()) / 1000);
           var soon = isLive ? "" : (diff >= 0 ? ' <span class="stream-count">' + T("streams.in", { x: hoursText(diff) }) + "</span>" : "");
@@ -660,7 +660,7 @@
             '<div class="video-thumb"><img src="' + thumbUrl(s.id) + '" alt="" loading="lazy"></div>' +
             '<div class="video-body">' +
             '<div class="video-title">' + esc(s.title) + (isLive ? '<span class="video-tag">LIVE</span>' : "") + "</div>" +
-            '<div class="video-meta">' + (m ? m.name + " ・ " : "") + when + soon + "</div>" +
+            '<div class="video-meta">' + (m ? mName(m) + " ・ " : "") + when + soon + "</div>" +
             "</div></a>" +
             '<div class="stream-actions">' + cal + remind + "</div>" +
             "</div>";
@@ -874,7 +874,7 @@
       eventsOn(t.getUTCFullYear(), t.getUTCMonth(), t.getUTCDate()).forEach(function (it) {
         var label = evTypeLabel(it.ev.type);
         var m = it.ev.member ? getMember(it.ev.member) : null;
-        var name = m ? m.name : "";
+        var name = m ? mName(m) : "";
         var key = "ev" + off + ":" + it.ev.type + ":" + (it.ev.title || name || "");
         var body = (off === 1 ? T("notif.tomorrowBody", { title: loc(it.ev, "title") || name + "の" + label }) : T("notif.todayBody", { title: loc(it.ev, "title") || name + "の" + label }));
         fire(key, off === 1 ? T("notif.tomorrowTitle") : T("notif.todayTitle"), body);
@@ -894,7 +894,7 @@
     var start = jstWallClock(startIso);
     if (!start.getTime()) return "#";
     var end = new Date(start.getTime() + 2 * 3600000);
-    if (isTouchMobile()) return icsEventUrl(title, start, end, "Milli Orbis（ミリプロ非公式ファンポータル）の配信予定から追加");
+    if (isTouchMobile()) return icsEventUrl(title, start, end, T("cal.icsDesc"));
     var fmt = function (d) {
       return "" + d.getUTCFullYear() +
         pad2(d.getUTCMonth() + 1) + pad2(d.getUTCDate()) + "T" +
@@ -903,7 +903,7 @@
     return "https://calendar.google.com/calendar/render?action=TEMPLATE&text=" +
       encodeURIComponent(title) +
       "&dates=" + fmt(start) + "/" + fmt(end) +
-      "&details=" + encodeURIComponent("Milli Orbis（ミリプロ非公式ファンポータル）の配信予定から追加");
+      "&details=" + encodeURIComponent(T("cal.icsDesc"));
   }
 
   /* イベント用: 終日イベント（当日 00:00〜翌日 00:00） */
@@ -1006,14 +1006,14 @@
     }
     var vids = videos.slice(0, YOUTUBE.maxVideos);
     box.innerHTML = vids.map(function (v) {
-      var m = getMember(v.memberId) || (v.memberId === "official" ? { name: "ミリプロ公式" } : null);
+      var m = getMember(v.memberId) || (v.memberId === "official" ? { name: T("video.official") } : null);
       var typeLabel = v.type === "short" ? "Short" : (v.type === "live" || v.live === true) ? T("videos.stream") : "";
       var published = new Date(v.publishedAt);
       return '<a class="video-card card" href="' + videoUrl(v.id) + '" target="_blank" rel="noopener">' +
         '<div class="video-thumb"><img src="' + thumbUrl(v.id) + '" alt="" loading="lazy"></div>' +
         '<div class="video-body"><div class="video-title">' + esc(v.title) +
         (typeLabel ? '<span class="video-tag">' + typeLabel + "</span>" : "") + "</div>" +
-        '<div class="video-meta">' + (m ? m.name + " ・ " : "") + relTime(published) + "</div></div></a>";
+        '<div class="video-meta">' + (m ? mName(m) + " ・ " : "") + relTime(published) + "</div></div></a>";
     }).join("");
   }
 
@@ -1092,14 +1092,14 @@
         .map(function (t) { return '<span>' + esc(t) + "</span>"; }).join("");
       var cardLink = m.id + ".html";
       var mark = m.icon
-        ? '<span class="member-mark"><img src="' + m.icon + '" alt="' + esc(m.name) + '"></span>'
+        ? '<span class="member-mark"><img src="' + m.icon + '" alt="' + esc(mName(m)) + '"></span>'
         : (m.img
-          ? '<span class="member-mark"><img src="' + m.img + '" alt="' + esc(m.name) + '"></span>'
+          ? '<span class="member-mark"><img src="' + m.img + '" alt="' + esc(mName(m)) + '"></span>'
           : '<span class="member-mark">' + m.fanMark + "</span>");
       return '<a class="member-card card" href="' + cardLink + '" style="--mc:' + m.color + ";--mc-soft:" + m.subColor + '">' +
         memberCardDeco(m) +
         mark +
-        '<span class="member-name">' + m.name + "</span>" +
+        '<span class="member-name">' + mName(m) + "</span>" +
         '<span class="member-gen">' + groupIconImg(m) + esc(loc(m, "gen")) + "</span>" +
         '<span class="member-catch">' + esc(loc(m, "catch")) + "</span>" +
         '<span class="member-tags">' + tags + "</span>" +
@@ -1120,7 +1120,7 @@
       var debut = m.debut || "";
       var years = debut ? (jstNow().getUTCFullYear() - parseInt(debut.slice(0, 4), 10)) : -1;
       return '<tr class="' + (oshi === m.id ? "is-oshi" : "") + '" style="--mc:' + m.color + '">' +
-        '<td class="cmp-name"><span class="cmp-dot" style="background:' + m.color + '"></span>' + esc(m.name) + "</td>" +
+        '<td class="cmp-name"><span class="cmp-dot" style="background:' + m.color + '"></span>' + esc(mName(m)) + "</td>" +
         "<td>" + groupIconImg(m) + esc(loc(m, "gen")) + "</td>" +
         "<td>" + (debut ? esc(debut) + (years >= 0 ? '<span class="cmp-sub">' + T("cmp.years", { n: years }) + "</span>" : "") : "—") + "</td>" +
         "<td>" + esc(bd) + "</td>" +
@@ -1443,8 +1443,8 @@
     var cardStyle = "style=\"--mc:" + m.color + ";--mc-soft:" + m.subColor + "\"";
 
     var bc = $("#bcName");
-    if (bc) bc.textContent = m.name;
-    document.title = m.name + " | Milli Orbis";
+    if (bc) bc.textContent = mName(m);
+    document.title = mName(m) + " | Milli Orbis";
 
     var tCatch = $("#tCatch");
     if (tCatch) tCatch.textContent = loc(m, "catch");
@@ -1695,7 +1695,7 @@
     }
     box.innerHTML = list.map(function (g) {
       var m = g.memberId ? getMember(g.memberId) : null;
-      var label = m ? m.name : (loc(g, "memberLabel") || T("t.allLabel"));
+      var label = m ? mName(m) : (loc(g, "memberLabel") || T("t.allLabel"));
       var color = m ? m.color : "#75b1c0";
       var old = g.oldPrice ? '<s>¥' + g.oldPrice.toLocaleString("ja-JP") + "</s> " : "";
       return '<a class="goods-card card" href="' + g.url + '" target="_blank" rel="noopener" style="--gc:' + color + '">' +
@@ -1861,9 +1861,9 @@
       return '<div class="game-feature">' +
         (f.icon ? '<div class="game-feature-icon"><img src="' + f.icon + '" alt="" loading="lazy"></div>' : "") +
         '<div class="game-feature-body">' +
-        '<span class="game-feature-tag">' + esc(f.tag || T("game.tag")) + "</span>" +
+        '<span class="game-feature-tag">' + esc(loc(f, "tag") || T("game.tag")) + "</span>" +
         '<div class="game-feature-game">' + esc(f.game) + "</div>" +
-        (f.desc ? '<div class="game-feature-desc">' + esc(f.desc) + "</div>" : "") +
+        (f.desc ? '<div class="game-feature-desc">' + esc(loc(f, "desc")) + "</div>" : "") +
         link +
         "</div>" +
         "</div>";
@@ -1903,7 +1903,7 @@
       var chips = p.memberIds.length
         ? p.memberIds.slice(0, 3).map(function (mid) {
           var m = getMember(mid);
-          return '<span class="song-member-chip" style="--mc:' + (m ? m.color : "#75b1c0") + '">' + esc(m ? m.name : mid) + "</span>";
+          return '<span class="song-member-chip" style="--mc:' + (m ? m.color : "#75b1c0") + '">' + esc(m ? mName(m) : mid) + "</span>";
         }).join("")
         : '<span class="song-member-chip" style="--mc:#75b1c0">' + T("songs.officialLabel") + "</span>";
       if (p.memberIds.length > 3) chips += '<span class="song-member-more">+' + (p.memberIds.length - 3) + "</span>";
@@ -2016,10 +2016,10 @@
     };
     var items = [];
     getMemberByDate(mmdd, "birthday").forEach(function (m) {
-      items.push(T("today.birthday", { name: esc(m.name) }));
+      items.push(T("today.birthday", { name: esc(mName(m)) }));
     });
     getMemberByDate(mmdd, "anniversary").forEach(function (m) {
-      items.push(T("today.anniv", { name: esc(m.name) }));
+      items.push(T("today.anniv", { name: esc(mName(m)) }));
     });
     eventOccurrences().forEach(function (it) {
       if (it.ev.type !== "event" || !sameDay(it.date)) return;
@@ -2033,7 +2033,7 @@
       if (s.status !== "live" && start <= now) return;
       var m = getMember(s.memberId) || (s.memberId === "official" ? { name: "ミリプロ公式" } : null);
       var label = s.status === "live" ? T("today.live") : T("today.stream", { time: fmtTime(start) });
-      items.push(label + " " + esc(s.title) + (m ? "（" + esc(m.name) + "）" : ""));
+      items.push(label + " " + esc(s.title) + (m ? "（" + esc(mName(m)) + "）" : ""));
     });
     if (!items.length) { box.style.display = "none"; box.innerHTML = ""; return; }
     box.style.display = "block";

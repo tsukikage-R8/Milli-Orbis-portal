@@ -62,6 +62,21 @@
     return v;
   }
 
+  /* メンバー名のローカライズ。EN 表示時は nameEn があればそれを返す */
+  function mName(m) {
+    if (!m) return "";
+    if (getLang() === "en" && m.nameEn) return m.nameEn;
+    return m.name || m.nameEn || "";
+  }
+
+  function resolveMemberName(idOrName) {
+    var members = window.MEMBERS || [];
+    for (var i = 0; i < members.length; i++) {
+      if (members[i].id === idOrName || members[i].name === idOrName) return mName(members[i]);
+    }
+    return null;
+  }
+
   function applyLang() {
     var lang = getLang();
     document.documentElement.lang = lang;
@@ -72,7 +87,8 @@
       var vars = {};
       Array.prototype.forEach.call(el.attributes, function (a) {
         if (a.name.indexOf("data-i18n-var-") === 0) {
-          vars[a.name.slice(14)] = a.value;
+          var r = resolveMemberName(a.value);
+          vars[a.name.slice(14)] = r !== null ? r : a.value;
         }
       });
       if (el.hasAttribute("data-i18n-html")) el.innerHTML = t(key, vars);
@@ -83,6 +99,28 @@
       if (aria) el.setAttribute("aria-label", t(aria));
       var ti = el.getAttribute("data-i18n-title");
       if (ti) el.setAttribute("title", t(ti));
+    });
+    /* メンバー名リンク・タブ（data-i18n-name="memberId"）の切り替え */
+    Array.prototype.forEach.call(document.querySelectorAll("[data-i18n-name]"), function (el) {
+      var r = resolveMemberName(el.getAttribute("data-i18n-name"));
+      if (r !== null) el.textContent = r;
+    });
+    /* ページタイトル（<title data-i18n="...">） */
+    var ti = document.querySelector("title[data-i18n]");
+    if (ti) {
+      var vars = {};
+      Array.prototype.forEach.call(ti.attributes, function (a) {
+        if (a.name.indexOf("data-i18n-var-") === 0) {
+          var r = resolveMemberName(a.value);
+          vars[a.name.slice(14)] = r !== null ? r : a.value;
+        }
+      });
+      document.title = t(ti.getAttribute("data-i18n"), vars);
+    }
+    /* メタディスクリプション（meta[data-i18n-desc]） */
+    Array.prototype.forEach.call(document.querySelectorAll("meta[data-i18n-desc]"), function (el) {
+      var k = el.getAttribute("data-i18n-desc");
+      if (hasKey(k)) el.setAttribute("content", t(k));
     });
   }
 
@@ -109,6 +147,7 @@
 
   window.T = t;
   window.loc = loc;
+  window.mName = mName;
   window.milliLang = {
     get: getLang,
     set: setLang,

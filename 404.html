@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>404 | Milli Orbis</title>
+<title data-i18n="pageTitle.nf">404 | Milli Orbis</title>
 <meta name="description" content="ページが見つかりません。Milli Orbisはミリプロ（Million Production）のファンが運営する非公式ポータルサイトです。">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Milli Orbis">
@@ -29,12 +29,15 @@
 <main class="nf-main">
   <p class="nf-mark"><img src="images/icon/millipro_profile.jpg" alt="ミリちゃん"></p>
   <h1 class="nf-title">404</h1>
-  <p class="nf-text">ここはオービタル（軌道）の外です。<br>お探しのページは存在しないか、移動した可能性があります。</p>
+  <p class="nf-text"><span data-i18n="nf.line1">ここはオービタル（軌道）の外です。</span><br><span data-i18n="nf.line2">お探しのページは存在しないか、移動した可能性があります。</span></p>
   <div class="nf-actions">
-    <a class="btn" href="index.html">◉ Home へ戻る</a>
+    <a class="btn" href="index.html" data-i18n="nf.home">◉ Home へ戻る</a>
     <a class="btn btn-ghost" href="index.html#members">Member Guide</a>
   </div>
-  <p class="source-note" style="margin-top:24px;">YouTube Data API を利用しています（<a href="https://developers.google.com/youtube/terms/api-services-terms-of-service" target="_blank" rel="noopener">YouTube API Services Terms of Service</a>）</p>
+  <p class="source-note" style="margin-top:24px;"><span data-i18n="footer.apiPre">YouTube Data API を利用しています（</span><a href="https://developers.google.com/youtube/terms/api-services-terms-of-service" target="_blank" rel="noopener">YouTube API Services Terms of Service</a><span data-i18n="footer.apiPost">）</span></p>
 </main>
+<script src="data.js"></script>
+<script src="data/i18n.js"></script>
+<script src="scripts/i18n.js"></script>
 </body>
 </html>

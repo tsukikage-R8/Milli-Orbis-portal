@@ -8,7 +8,7 @@ const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replac
 
 function tabs(m) {
   return MEMBERS.map((x) =>
-    '<a class="t-tab' + (x.id === m.id ? " active" : "") + '" href="' + x.id + '.html">' +
+    '<a class="t-tab' + (x.id === m.id ? " active" : "") + '" href="' + x.id + '.html" data-i18n-name="' + x.id + '">' +
     (x.icon ? '<img src="' + x.icon + '" alt="" loading="lazy">' : "") +
     x.name + "</a>"
   ).join("");
@@ -16,7 +16,7 @@ function tabs(m) {
 
 function introOverlay(m) {
   return '<div id="introOverlay" class="intro-overlay" data-member="' + m.id + '" aria-hidden="true">' +
-    '<button type="button" class="intro-skip" id="introSkip">スキップ</button>' +
+    '<button type="button" class="intro-skip" id="introSkip" data-i18n="t.skip">スキップ</button>' +
     '<span class="intro-ring r1"></span><span class="intro-ring r2"></span>' +
     '<span class="intro-ring r3"></span><span class="intro-ring r4"></span>' +
     '<span class="intro-ring r5"></span>' +
@@ -24,12 +24,12 @@ function introOverlay(m) {
     '<div class="intro-stage">' +
     (m.logo ? '<img class="intro-logo" src="' + m.logo + '" alt="">' : "") +
     (m.img ? '<img class="intro-art" src="' + m.img + '" alt="' + m.name + '">' : "") +
-    '<p class="intro-name">' + m.name + "</p>" +
+    '<p class="intro-name" data-i18n-name="' + m.id + '">' + m.name + "</p>" +
     '<p class="intro-catch" id="introCatch"></p>' +
-    (m.introVoice || m.voice ? '<button type="button" class="intro-voice-btn" id="introVoiceBtn">🔁 挨拶を再生</button>' : "") +
+    (m.introVoice || m.voice ? '<button type="button" class="intro-voice-btn" id="introVoiceBtn" data-i18n="t.playVoice">🔁 挨拶を再生</button>' : "") +
     "</div>" +
     '<audio id="introAudio" src="' + (m.introVoice || m.voice || "") + '" preload="auto"></audio>' +
-    '<button type="button" class="intro-start" id="introStartBtn">▶ タップで再生</button>' +
+    '<button type="button" class="intro-start" id="introStartBtn" data-i18n="t.tapPlay">▶ タップで再生</button>' +
     "</div>";
 }
 
@@ -216,18 +216,18 @@ const navDrop = (home) => `
         <div class="nav-drop-menu">
           <a class="drop-top" href="${home}#members" data-i18n="nav.memberAll">Member Guide 一覧へ</a>
           <div class="drop-sep"></div>
-          <a href="konomi.html">甘狼このみ</a>
-          <a href="nono.html">音ノ乃のの</a>
-          <a href="akubi.html">あくび・でもんすぺーど</a>
-          <a href="koma.html">小廻こま</a>
-          <a href="raco.html">音ノ瀬らこ</a>
-          <a href="yura.html">ゆらぎゆら</a>
-          <a href="nuhu.html">虹深°ぬふ</a>
-          <a href="tsukuri.html">眠雲ツクリ</a>
-          <a href="liz.html">雨夜リズ</a>
-          <a href="rei.html">夕霧レイ</a>
-          <a href="ichigo.html">？？？</a>
-          <a href="milchan.html">ミリちゃん</a>
+          <a href="konomi.html" data-i18n-name="konomi">甘狼このみ</a>
+          <a href="nono.html" data-i18n-name="nono">音ノ乃のの</a>
+          <a href="akubi.html" data-i18n-name="akubi">あくび・でもんすぺーど</a>
+          <a href="koma.html" data-i18n-name="koma">小廻こま</a>
+          <a href="raco.html" data-i18n-name="raco">音ノ瀬らこ</a>
+          <a href="yura.html" data-i18n-name="yura">ゆらぎゆら</a>
+          <a href="nuhu.html" data-i18n-name="nuhu">虹深°ぬふ</a>
+          <a href="tsukuri.html" data-i18n-name="tsukuri">眠雲ツクリ</a>
+          <a href="liz.html" data-i18n-name="liz">雨夜リズ</a>
+          <a href="rei.html" data-i18n-name="rei">夕霧レイ</a>
+          <a href="ichigo.html" data-i18n-name="ichigo">？？？</a>
+          <a href="milchan.html" data-i18n-name="milchan">ミリちゃん</a>
           <div class="drop-sep"></div>
           <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
           <a href="account.html" data-i18n="nav.account">マイページ</a>
@@ -240,18 +240,18 @@ const navDrop = (home) => `
 const mobileNav = (home) => `
       <a href="${home}#home">Home</a>
       <a href="${home}#members">Member Guide</a>
-      <a class="mobile-sub" href="konomi.html">甘狼このみ</a>
-      <a class="mobile-sub" href="nono.html">音ノ乃のの</a>
-      <a class="mobile-sub" href="akubi.html">あくび・でもんすぺーど</a>
-      <a class="mobile-sub" href="koma.html">小廻こま</a>
-      <a class="mobile-sub" href="raco.html">音ノ瀬らこ</a>
-      <a class="mobile-sub" href="yura.html">ゆらぎゆら</a>
-      <a class="mobile-sub" href="nuhu.html">虹深°ぬふ</a>
-      <a class="mobile-sub" href="tsukuri.html">眠雲ツクリ</a>
-      <a class="mobile-sub" href="liz.html">雨夜リズ</a>
-      <a class="mobile-sub" href="rei.html">夕霧レイ</a>
-      <a class="mobile-sub" href="ichigo.html">？？？</a>
-      <a class="mobile-sub" href="milchan.html">ミリちゃん</a>
+      <a class="mobile-sub" href="konomi.html" data-i18n-name="konomi">甘狼このみ</a>
+      <a class="mobile-sub" href="nono.html" data-i18n-name="nono">音ノ乃のの</a>
+      <a class="mobile-sub" href="akubi.html" data-i18n-name="akubi">あくび・でもんすぺーど</a>
+      <a class="mobile-sub" href="koma.html" data-i18n-name="koma">小廻こま</a>
+      <a class="mobile-sub" href="raco.html" data-i18n-name="raco">音ノ瀬らこ</a>
+      <a class="mobile-sub" href="yura.html" data-i18n-name="yura">ゆらぎゆら</a>
+      <a class="mobile-sub" href="nuhu.html" data-i18n-name="nuhu">虹深°ぬふ</a>
+      <a class="mobile-sub" href="tsukuri.html" data-i18n-name="tsukuri">眠雲ツクリ</a>
+      <a class="mobile-sub" href="liz.html" data-i18n-name="liz">雨夜リズ</a>
+      <a class="mobile-sub" href="rei.html" data-i18n-name="rei">夕霧レイ</a>
+      <a class="mobile-sub" href="ichigo.html" data-i18n-name="ichigo">？？？</a>
+      <a class="mobile-sub" href="milchan.html" data-i18n-name="milchan">ミリちゃん</a>
       <a href="${home}#calendar">Event Calendar</a>
       <a href="quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
       <a href="songs.html" data-i18n="nav.songs">曲データベース</a>
@@ -379,7 +379,7 @@ const footerHtml = `
 <footer>
   <p class="disclaimer" data-i18n="footer.disclaimer">本サイトはファンが運営する非公式のポータルサイトです。ミリプロ公式様とは一切関係ありません。</p>
   <p class="source-note"><span data-i18n="footer.source">ミリプロ（Million Production）公式サイト:</span> <a href="https://milpr.com/" target="_blank" rel="noopener">https://milpr.com/</a></p>
-  <p class="source-note">YouTube Data API を利用しています（<a href="https://developers.google.com/youtube/terms/api-services-terms-of-service" target="_blank" rel="noopener">YouTube API Services Terms of Service</a>）</p>
+  <p class="source-note"><span data-i18n="footer.apiPre">YouTube Data API を利用しています（</span><a href="https://developers.google.com/youtube/terms/api-services-terms-of-service" target="_blank" rel="noopener">YouTube API Services Terms of Service</a><span data-i18n="footer.apiPost">）</span></p>
   <p class="source-note"><span data-i18n="footer.yt">本サイトは YouTube の利用規約に同意の上でご利用ください: </span><a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">https://www.youtube.com/t/terms</a></p>
   <p data-i18n="footer.copy">© 2026 Milli Orbis（非公式ファンサイト）</p>
   <p class="source-note"><span data-i18n="footer.admin">作成・管理者：</span><a href="https://x.com/SunSunmachi" target="_blank" rel="noopener">すんすん（@SunSunmachi）</a></p>
@@ -412,7 +412,7 @@ function page(m) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${m.name}（${m.nameEn}）| Milli Orbis</title>
+<title data-i18n="pageTitle.member" data-i18n-var-name="${m.id}">${m.name}（${m.nameEn}）| Milli Orbis</title>
 <meta name="description" content="${esc(m.catch)}。${m.gen}の${m.name}の非公式ファンページ。ファンネーム: ${esc(m.fanName || "—")}。">
 <link rel="icon" href="images/icon/Milli%20Orbis.ico" sizes="any">
 <link rel="apple-touch-icon" sizes="192x192" href="images/icon/Milli%20Orbis-192.png">
@@ -460,14 +460,14 @@ ${decoHtml(m)}
 </nav>
 
 <main class="container">
-  <nav class="breadcrumb"><a href="index.html">Home</a><a href="index.html#members">Member Guide</a><span id="bcName">${m.name}</span></nav>
+  <nav class="breadcrumb"><a href="index.html">Home</a><a href="index.html#members">Member Guide</a><span id="bcName" data-i18n-name="${m.id}">${m.name}</span></nav>
 
   <section id="talentHero" class="talent-hero">
     <div class="heroSweep"></div>
     <div class="talent-hero-inner">
       ${m.logo ? '<img class="talent-hero-logo" src="' + m.logo + '" alt="">' : ""}
       ${m.img ? '<img class="talent-hero-art" src="' + m.img + '" alt="' + m.name + '">' : ""}
-      <h1>${m.name}</h1>
+      <h1 data-i18n-name="${m.id}">${m.name}</h1>
       <p class="talent-name-en">${m.nameEn}</p>
       <p class="talent-catch" id="tCatch"></p>
       <p class="talent-tags">
@@ -531,7 +531,7 @@ function simplePage(o) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${o.title} | Milli Orbis</title>
+<title${o.ti18n ? ' data-i18n="' + o.ti18n + '"' : ""}>${o.title} | Milli Orbis</title>
 <meta name="description" content="${esc(o.desc)}">
 <link rel="icon" href="images/icon/Milli%20Orbis.ico" sizes="any">
 <link rel="apple-touch-icon" sizes="192x192" href="images/icon/Milli%20Orbis-192.png">
@@ -574,11 +574,11 @@ function simplePage(o) {
 </header>
 
 <main class="container">
-  <nav class="breadcrumb"><a href="index.html">Home</a><span>${o.title}</span></nav>
+  <nav class="breadcrumb"><a href="index.html">Home</a><span${o.ti18n ? ' data-i18n="' + o.ti18n + '"' : ""}>${o.title}</span></nav>
 
   <section class="subpage-hero">
-    <h1>${o.title}</h1>
-    <p>${esc(o.desc)}</p>${o.note ? '\n    <p class="cmp-disclaimer">' + esc(o.note) + "</p>" : ""}${o.cta ? "\n    " + o.cta : ""}
+    <h1${o.ti18n ? ' data-i18n="' + o.ti18n + '"' : ""}>${o.title}</h1>
+    <p${o.di18n ? ' data-i18n="' + o.di18n + '"' : ""}>${esc(o.desc)}</p>${o.note ? '\n    <p class="cmp-disclaimer"' + (o.ni18n ? ' data-i18n="' + o.ni18n + '"' : "") + ">" + esc(o.note) + "</p>" : ""}${o.cta ? "\n    " + o.cta : ""}
   </section>
 
   ${o.body}
@@ -611,6 +611,8 @@ ${o.scripts}
 fs.writeFileSync(path.join(outDir, "quiz.html"), simplePage({
   file: "quiz.html",
   title: "ミリプロ検定",
+  ti18n: "pageTitle.quiz",
+  di18n: "pageDesc.quiz",
   desc: "ミリプロについての25問クイズに挑戦！クイック10問からプロの全問出題まで。全問正解で「ミリプロ博士」の称号を目指せ！",
   body: `
   <section id="quizStart" class="section quiz-section">
@@ -660,6 +662,8 @@ console.log("generated: quiz.html");
 fs.writeFileSync(path.join(outDir, "songs.html"), simplePage({
   file: "songs.html",
   title: "曲データベース",
+  ti18n: "pageTitle.songs",
+  di18n: "pageDesc.songs",
   desc: "ミリプロの楽曲・歌動画をまとめたデータベース。歌ってみた・公式楽曲・歌枠を曲単位で検索でき、元曲から誰が歌っているかも調べられます。",
   cta: `
       <a class="unishare-cta" href="https://milli-unishare.onrender.com/" target="_blank" rel="noopener">
@@ -704,6 +708,9 @@ console.log("generated: songs.html");
 fs.writeFileSync(path.join(outDir, "members.html"), simplePage({
   file: "members.html",
   title: "メンバー比較表",
+  ti18n: "pageTitle.members",
+  di18n: "pageDesc.members",
+  ni18n: "cmp.disclaimer",
   desc: "ミリプロ全メンバーの期・加入日・誕生日・身長などを一覧で比較できるメンバー比較表。推しの行はハイライトされます。",
   body: `
   <section id="memberCompare" class="section"></section>`,
@@ -715,6 +722,8 @@ console.log("generated: members.html");
 fs.writeFileSync(path.join(outDir, "account.html"), simplePage({
   file: "account.html",
   title: "マイページ",
+  ti18n: "pageTitle.account",
+  di18n: "pageDesc.account",
   desc: "お気に入り☆とブックマークの一覧ページ。ログインするとお気に入り・ブックマークが端末間で同期されます。",
   body: `
   <section class="section">

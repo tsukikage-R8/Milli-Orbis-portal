@@ -772,7 +772,7 @@ const MEMBERS = [
     id: "milchan",
     gen: "事務所スタッフ・マスコット",
     name: "ミリちゃん",
-    nameEn: "",
+    nameEn: "Mil-chan",
     color: "#74a5ae",
     subColor: "#e6f4f7",
     birthday: "",
