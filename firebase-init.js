@@ -160,7 +160,75 @@ function newPlayerIdFallback() {
   return "P" + Date.now();
 }
 
-// プロフィールを保証する（無ければローカルの playerId / 名前 / アイコン / 一言で作成）→ Promise<profile>
+// ---------- 最推し/推しの共有（2026-08-15・§2-4） ----------
+// 全サイト共通のタレントID（各サイトの表示名とは異なる場合がある。IDのみ共有に使う）
+var MILLIPRO_TALENTS = {
+  konomi: { name: "甘狼このみ" },
+  nono: { name: "音ノ乃のの" },
+  akubi: { name: "あくび・でもんすぺーど" },
+  rako: { name: "音ノ瀬らこ" },
+  yura: { name: "ゆらぎゆら" },
+  rizu: { name: "雨夜リズ" },
+  tukuri: { name: "眠雲ツクリ" },
+  nuhu: { name: "虹深°ぬふ" },
+  rei: { name: "夕霧レイ" },
+  koma: { name: "小廻こま" }
+};
+
+// ローカルの millipro_userdata から最推し/推しを読む（不正ID除去・10人上限）
+function getMilliproOshi() {
+  var ud = null;
+  try { ud = JSON.parse(localStorage.getItem("millipro_userdata")); } catch (e) {}
+  return {
+    ultimateOshi: (ud && MILLIPRO_TALENTS[ud.ultimateOshi]) ? ud.ultimateOshi : null,
+    favorites: (ud && Array.isArray(ud.favorites))
+      ? ud.favorites.filter(function (id) { return MILLIPRO_TALENTS[id]; }).slice(0, 10)
+      : []
+  };
+}
+
+// 最推し/推しを保存（ローカル + ログイン中は共有プロフィールへ）。戻り値: Promise<boolean>
+function updateMilliproOshi(ultimateId, favIds) {
+  var ult = (ultimateId && MILLIPRO_TALENTS[ultimateId]) ? ultimateId : null;
+  var favs = [];
+  (Array.isArray(favIds) ? favIds : []).forEach(function (id) {
+    if (MILLIPRO_TALENTS[id] && favs.indexOf(id) === -1) favs.push(id);
+  });
+  favs = favs.slice(0, 10);
+  var ud = null;
+  try { ud = JSON.parse(localStorage.getItem("millipro_userdata")); } catch (e) {}
+  if (!ud || typeof ud !== "object") ud = { createdAt: Date.now() };
+  ud.ultimateOshi = ult;
+  ud.favorites = favs;
+  ud.updatedAt = Date.now();
+  try { localStorage.setItem("millipro_userdata", JSON.stringify(ud)); } catch (e) {}
+  if (isAuthAvailable() && getMilliproUid()) {
+    return updateMilliproProfile({ ultimateOshi: ult, favorites: favs });
+  }
+  return Promise.resolve(true);
+}
+
+// プロフィールの一部をクラウドに保存（ログイン中のみ。未ログインなら何もしない）
+// patch 例: { icon: "😊" } や { playerName: "...", comment: "..." } や { ultimateOshi: "konomi", favorites: [...] }
+function updateMilliproProfile(patch) {
+  if (!isAuthAvailable()) return Promise.resolve(false);
+  var uid = getMilliproUid();
+  if (!uid) return Promise.resolve(false);
+  if (!patch || typeof patch !== "object") return Promise.resolve(false);
+  patch.updatedAt = Date.now();
+  var ref = firebase.database().ref("millipro/users/" + uid + "/profile");
+  return ref.once("value").then(function (snap) {
+    var p = snap.val();
+    if (p && typeof p === "object") return ref.update(patch);
+    return ref.set(patch);
+  }).then(function () { return true; }).catch(function (e) {
+    console.warn("profile update failed:", e);
+    return false;
+  });
+}
+
+// プロフィールを保証する（無ければローカルの playerId / 名前 / アイコン / 一言 / 最推し / 推しで作成）→ Promise<profile>
+// ★ 2026-08-15: 最推し/推し（ultimateOshi / favorites）のバックフィル対応
 function ensureMilliproProfile(uid) {
   var ud = null;
   try { ud = JSON.parse(localStorage.getItem("millipro_userdata")); } catch (e) {}
@@ -168,6 +236,8 @@ function ensureMilliproProfile(uid) {
   var localName = ud && ud.playerName;
   var localIcon = ud && ud.icon;
   var localComment = ud && ud.comment;
+  var localUltimateOshi = ud && MILLIPRO_TALENTS[ud.ultimateOshi] ? ud.ultimateOshi : null;
+  var localFavorites = (ud && Array.isArray(ud.favorites)) ? ud.favorites.filter(function (id) { return MILLIPRO_TALENTS[id]; }).slice(0, 10) : [];
 
   return firebase.database().ref("millipro/users/" + uid + "/profile").once("value").then(function (snap) {
     var p = snap.val();
@@ -178,6 +248,8 @@ function ensureMilliproProfile(uid) {
       if (!p.playerName && localName) { p.playerName = localName; changed = true; }
       if (!p.icon && localIcon) { p.icon = localIcon; changed = true; }
       if (!p.comment && localComment) { p.comment = localComment; changed = true; }
+      if (!p.ultimateOshi && localUltimateOshi) { p.ultimateOshi = localUltimateOshi; changed = true; }
+      if (!p.favorites && localFavorites.length) { p.favorites = localFavorites; changed = true; }
       if (changed) firebase.database().ref("millipro/users/" + uid + "/profile").set(p);
       return p;
     }
@@ -186,6 +258,8 @@ function ensureMilliproProfile(uid) {
       playerName: localName || "",
       icon: localIcon || "",
       comment: localComment || "",
+      ultimateOshi: localUltimateOshi,
+      favorites: localFavorites,
       updatedAt: now
     };
     firebase.database().ref("millipro/users/" + uid + "/profile").set(np);
@@ -193,7 +267,8 @@ function ensureMilliproProfile(uid) {
   });
 }
 
-// profile の playerId / playerName / icon / comment をこの端末の localStorage に反映（他項目は保持）
+// profile の playerId / playerName / icon / comment / 最推し / 推し をこの端末の localStorage に反映（他項目は保持）
+// ★ 2026-08-15: 最推し/推しの反映対応
 function applyMilliproProfile(profile) {
   var ud = null;
   try { ud = JSON.parse(localStorage.getItem("millipro_userdata")); } catch (e) {}
@@ -202,6 +277,10 @@ function applyMilliproProfile(profile) {
   if (profile.playerName) ud.playerName = profile.playerName;
   if (profile.icon) ud.icon = profile.icon;
   if (profile.comment) ud.comment = profile.comment;
+  if (profile.ultimateOshi && MILLIPRO_TALENTS[profile.ultimateOshi]) ud.ultimateOshi = profile.ultimateOshi;
+  if (Array.isArray(profile.favorites)) {
+    ud.favorites = profile.favorites.filter(function (id) { return MILLIPRO_TALENTS[id]; }).slice(0, 10);
+  }
   ud.updatedAt = Date.now();
   localStorage.setItem("millipro_userdata", JSON.stringify(ud));
   return ud;

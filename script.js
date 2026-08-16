@@ -293,8 +293,27 @@
   }
 
   /* ============ 推しカラー ============ */
+  // 共有推し（Millipro Chronicle 連携）との ID 変換。
+  // 本サイトのメンバーID（raco/liz/tsukuri）と共有ID（rako/rizu/tukuri）は異なる
+  var MP_OSHI_MAP = { raco: "rako", liz: "rizu", tsukuri: "tukuri" };
+  function mpOshiToTalent(id) { return MP_OSHI_MAP[id] || id; }
+  function mpTalentToOshi(id) {
+    for (var k in MP_OSHI_MAP) if (MP_OSHI_MAP[k] === id) return k;
+    return id;
+  }
+  function getSharedOshi() {
+    if (typeof getMilliproOshi !== "function") return null;
+    try { return getMilliproOshi(); } catch (e) { return null; }
+  }
+  // ローカル選択（milli-oshi）優先。無ければ共有の最推しを返す
   function getOshi() {
-    try { return localStorage.getItem("milli-oshi") || ""; } catch (e) { return ""; }
+    try {
+      var local = localStorage.getItem("milli-oshi");
+      if (local) return local;
+    } catch (e) {}
+    var shared = getSharedOshi();
+    if (shared && shared.ultimateOshi) return mpTalentToOshi(shared.ultimateOshi);
+    return "";
   }
 
   function setOshi(id) {
@@ -303,6 +322,12 @@
     var select = $("#oshiSelect");
     if (select && select.value !== id) select.value = id;
     colorOshiSelect(select);
+    // ログイン中は共有プロフィールへ書き戻し（推しリストは既存値を維持）
+    if (typeof updateMilliproOshi === "function") {
+      var shared = getSharedOshi();
+      var favs = (shared && shared.favorites) || [];
+      updateMilliproOshi(id ? mpOshiToTalent(id) : null, favs);
+    }
   }
 
   function applyOshi(id) {
@@ -1893,7 +1918,30 @@
     (songs.covers || []).forEach(function (g) {
       if (g.urls.length) tryAdd(g.title, g.urls[0].id, g.urls.map(function (u) { return u.memberId; }), g.en);
     });
-    picks = picks.slice(0, 4);
+    // 推しバイアス: ローカル推し + 共有の最推し/推しメンバーの曲を優先して4枠を埋める
+    var oshiIds = {};
+    try {
+      var localOshi = localStorage.getItem("milli-oshi");
+      if (localOshi) oshiIds[localOshi] = 1;
+    } catch (e) {}
+    var shared = getSharedOshi();
+    if (shared) {
+      if (shared.ultimateOshi) { var t0 = mpTalentToOshi(shared.ultimateOshi); if (t0) oshiIds[t0] = 1; }
+      (shared.favorites || []).forEach(function (fid) { var t = mpTalentToOshi(fid); if (t) oshiIds[t] = 1; });
+    }
+    var hasOshi = false;
+    for (var oid in oshiIds) { if (oshiIds[oid]) { hasOshi = true; break; } }
+    if (hasOshi) {
+      var oshiPicks = [];
+      var normalPicks = [];
+      picks.forEach(function (p) {
+        var hit = p.memberIds.some(function (mid) { return oshiIds[mid]; });
+        (hit ? oshiPicks : normalPicks).push(p);
+      });
+      picks = oshiPicks.concat(normalPicks).slice(0, 4);
+    } else {
+      picks = picks.slice(0, 4);
+    }
     if (!picks.length) {
       box.parentElement.style.display = "none";
       return;

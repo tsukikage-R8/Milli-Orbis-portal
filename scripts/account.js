@@ -135,8 +135,78 @@
       '<div class="acct-status-btn"><button type="button" class="btn" onclick="mpOpenAccount()">' + T("account.openLogin") + "</button></div>";
   }
 
+  /* ---------- 推し表示（ローカル推し + 共有の最推し/推し） ---------- */
+
+  var OSHI_ID_MAP = { raco: "rako", liz: "rizu", tsukuri: "tukuri" };
+  var OSHI_ID_INV = { rako: "raco", rizu: "liz", tukuri: "tsukuri" };
+
+  function oshiTalentToLocal(tid) { return OSHI_ID_INV[tid] || tid; }
+
+  function memberOf(id) {
+    if (typeof MEMBERS === "undefined" || !MEMBERS) return null;
+    for (var i = 0; i < MEMBERS.length; i++) {
+      if (MEMBERS[i].id === id) return MEMBERS[i];
+    }
+    return null;
+  }
+
+  function memberLabel(m) {
+    if (!m) return "";
+    if (isEn()) {
+      return (typeof window.mName === "function") ? window.mName(m) : (m.nameEn || m.name || "");
+    }
+    return m.name || m.nameEn || "";
+  }
+
+  function renderOshi() {
+    var el = $("acctOshi");
+    if (!el) return;
+    var localOshi = "";
+    try { localOshi = localStorage.getItem("milli-oshi") || ""; } catch (e) {}
+    var shared = null;
+    if (typeof getMilliproOshi === "function") {
+      try { shared = getMilliproOshi(); } catch (e) {}
+    }
+    var ultId = "";
+    var favIds = [];
+    if (shared && shared.ultimateOshi) {
+      ultId = oshiTalentToLocal(shared.ultimateOshi);
+    } else if (localOshi) {
+      ultId = localOshi;
+    }
+    if (shared && Array.isArray(shared.favorites)) {
+      favIds = shared.favorites.map(oshiTalentToLocal).filter(function (id) {
+        return id !== ultId && memberOf(id) !== null;
+      });
+    } else if (localOshi && memberOf(localOshi)) {
+      favIds = [];
+    }
+    var ultM = memberOf(ultId);
+    var linked = !!(shared && shared.ultimateOshi);
+    var html = '<div class="acct-oshi-title">' + T("account.oshi") + "</div>";
+    if (!ultM && !favIds.length) {
+      html += '<div class="placeholder">' + T("account.oshiNone") + "<br><small>" + T("account.oshiHint") + "</small></div>";
+    } else {
+      var items = [];
+      if (ultM) {
+        items.push('<span class="acct-oshi-chip is-ult" style="--mc:' + esc(ultM.color || "#75b1c0") + '">' +
+          T("account.oshiUlt") + ": " + esc(memberLabel(ultM)) + "</span>");
+      }
+      favIds.forEach(function (id) {
+        var m = memberOf(id);
+        if (m) {
+          items.push('<span class="acct-oshi-chip" style="--mc:' + esc(m.color || "#75b1c0") + '">' + esc(memberLabel(m)) + "</span>");
+        }
+      });
+      html += '<div class="acct-oshi-list">' + items.join("") + "</div>";
+      html += '<small class="acct-oshi-note">' + (linked ? T("account.oshiSyncNote") : T("account.oshiHint")) + "</small>";
+    }
+    el.innerHTML = html;
+  }
+
   function render() {
     renderStatus();
+    renderOshi();
     renderFavs();
     renderBms();
   }

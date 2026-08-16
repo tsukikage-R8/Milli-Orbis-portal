@@ -728,6 +728,7 @@ fs.writeFileSync(path.join(outDir, "account.html"), simplePage({
   body: `
   <section class="section">
     <div class="acct-status card" id="acctStatus"></div>
+    <div class="acct-oshi card" id="acctOshi"></div>
     <h2 class="acct-block-title" data-i18n="account.favs">お気に入り</h2>
     <div id="acctFavs" class="acct-list"></div>
     <h2 class="acct-block-title" data-i18n="account.bms">ブックマーク</h2>
