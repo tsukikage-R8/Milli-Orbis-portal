@@ -11,7 +11,32 @@
             曲の key が既存カバーと一致すれば同一曲に統合、一致しなければ新規曲として表示される。
    ============================================ */
 window.SONGS_EXTRA = {
-  "meta": {},
+  "meta": {
+    "ヒバナ-deco*27shortby": {
+      "title": "ヒバナ -Reloaded-",
+      "artist": "DECO*27",
+      "album": "アンドロイドガール",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ed/ce/7a/edce7af7-1bf6-5ac2-9ea6-2ac853af7053/5021732654168.jpg/600x600bb.jpg"
+    },
+    "モニタリング-deco*27shortby": {
+      "title": "モニタリング (Best Friend Remix)",
+      "artist": "DECO*27",
+      "album": "モニタリング (Best Friend Remix) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/af/0c/c1/af0cc1d0-56a8-1f38-2be8-898e0c7fe40a/4511820-61088.jpg/600x600bb.jpg"
+    },
+    "嫌々-halvesshortby": {
+      "title": "嫌々",
+      "artist": "HALVES",
+      "album": "嫌々 - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/48/b8/f4/48b8f4c8-726b-b8c7-e5a1-8c53a057d38c/4547366665369.jpg/600x600bb.jpg"
+    },
+    "プレイ-gigashortby": {
+      "title": "プレイ",
+      "artist": "Giga",
+      "album": "プレイ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/7f/c0/527fc024-af02-12cd-6f12-df4031485abe/199350480300.jpg/600x600bb.jpg"
+    }
+  },
   "karaoke": [
     {
       "id": "iq8oPWGGE58",

@@ -320,17 +320,6 @@ window.KARAOKE = [
     }
   },
   {
-    "id": "Ir1w0DDIWPc",
-    "memberId": "yura",
-    "publishedAt": "2026-06-24",
-    "title": "阿良々木月火（井口裕香）【白金ディスコ 】off vocal \"偽物語\"OP (耳コピカラオケ)",
-    "duration": 255,
-    "songs": [],
-    "en": {
-      "title": "Tsukihi Araragi (Yuka Iguchi) [Shirokane Disco] off vocal \"Nisemonogatari\" OP (Mimikopika Karaoke)"
-    }
-  },
-  {
     "id": "0JS-ORkJx5w",
     "memberId": "koma",
     "publishedAt": "2026-06-24",

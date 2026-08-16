@@ -31,6 +31,11 @@ const KARAOKE_PLAYLISTS = {
 };
 
 const BASE = "https://www.googleapis.com/youtube/v3";
+
+/* 歌枠プレイリストに紛れ込んだ無関係動画（ミリプロメンバー外のカラオケ等）を除外 */
+const EXCLUDE_VIDEO_IDS = new Set([
+  "Ir1w0DDIWPc"   // 阿良々木月火（井口裕香）【白金ディスコ】off vocal カラオケ（ゆらぎゆらプレイリストに誤混入）
+]);
 const retry = (fn, n = 3) =>
   fn().catch((err) => {
     if (n <= 1) throw err;
@@ -106,6 +111,10 @@ async function main() {
     console.log(`playlist ${memberId}: ${items.length} items`);
     const seen = new Set();
     items.forEach((v) => {
+      if (EXCLUDE_VIDEO_IDS.has(v.id)) {
+        console.log(`excluded: ${memberId} ${v.id} (${v.title})`);
+        return;
+      }
       if (seen.has(v.id)) return;
       seen.add(v.id);
       all.push({ ...v, memberId });
