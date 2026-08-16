@@ -752,7 +752,7 @@ const MEMBERS = [
       "2026/8/15 ミリプロ加入発表"
     ],
     tags: { stream: "まほろばなし", clip: "", art: "まほろ絵" },
-    links: { yt: "https://www.youtube.com/user/bambinoonico", x: "https://x.com/kano_2525", tiktok: "" },
+    links: { yt: "https://www.youtube.com/@Kano_", x: "https://x.com/kano_2525", tiktok: "" },
     img: "",
     logo: "",
     icon: "",
@@ -833,6 +833,7 @@ const GROUP_ICON = {
 };
 
 const COUNTDOWN = [
+  { id: "mahoro-debut", label: "鹿乃まほろ 初配信", date: "2026-08-22T20:00:00", note: "ミリプロSONA加入後初の配信！", url: "https://youtu.be/YzfwW0zTSpE", featured: true, en: { label: "Kano Mahoro's Debut Stream", note: "Her first stream after joining MilliPro SONA!" } },
   { id: "milpro-presents", label: "ミリプロプレゼンツ ～超重大発表配信～", date: "2026-08-16T21:00:00", note: "ミリ創作コンテスト結果発表＆重大告知！", url: "https://youtu.be/4lba9sduOzI", featured: true, en: { label: "MilliPro Presents ~Super Major Announcement Stream~", note: "Milli Creation contest results & big announcement!" } },
   { id: "resort", label: "ミリプロリゾート", date: "2026-08-29T10:00:00", note: "秋葉原UDXにて開催", url: "https://milpr.com/news/milpr_resort", en: { label: "MilliPro Resort", note: "Held at Akihabara UDX" } },
   { id: "tsukuri-birthday", label: "眠雲ツクリ 誕生日", date: "2026-09-03T00:00:00", note: "つくらうど、お祝いだ！", url: "tsukuri.html", en: { label: "Tsukuri's Birthday", note: "Congratulations, Tsukuloud!" } },
@@ -849,6 +850,46 @@ const NEWS = [
     desc: "ミリプロサマー2026のリアルイベントが秋葉原UDXで開催されます。",
     url: "https://milpr.com/news/milpr_resort",
     en: { tag: "Event", title: "MilliPro Resort Announced", desc: "A real-life event for MilliPro Summer 2026 will be held at Akihabara UDX." }
+  },
+  {
+    date: "2026-08-16",
+    tag: "重大発表",
+    title: "【重大発表】鹿乃まほろ ミリプロSONAに加入決定！",
+    desc: "Virtual Artist 鹿乃まほろ（@kano_2525）のミリプロSONA加入が決定しました。2026年8月22日20時より初配信を実施予定です！",
+    url: "https://x.com/Mil_Pro_/status/2088968988860813750",
+    en: { tag: "Major Announcement", title: "[Major Announcement] Kano Mahoro Joins MilliPro SONA!", desc: "Virtual Artist Kano Mahoro (@kano_2525) has joined MilliPro SONA. Her debut stream is scheduled for August 22, 2026 at 8 PM JST!" }
+  },
+  {
+    date: "2026-08-16",
+    tag: "重大発表",
+    title: "【重大発表】ミリプロ新グループ「ミリプロSONA」設立！",
+    desc: "音ノ乃のの、あくび・でもんすぺーど、鹿乃まほろの3名が所属する新グループ「ミリプロSONA」の設立が発表されました。",
+    url: "https://x.com/Mil_Pro_/status/2088969048700899793",
+    en: { tag: "Major Announcement", title: "[Major Announcement] New MilliPro Group \"MilliPro SONA\" Founded!", desc: "The new group \"MilliPro SONA\" was announced, comprising Nono Nono, Akubi Demonspade, and Kano Mahoro." }
+  },
+  {
+    date: "2026-08-16",
+    tag: "配信",
+    title: "【お知らせ】3Dお披露目配信決定！",
+    desc: "音ノ瀬らこ、ゆらぎゆら、虹深°ぬふ、小廻こま、眠雲ツクリ、雨夜リズの3Dお披露目配信が決定しました。2026年9月実施予定で、各メンバーのチャンネルにて配信予定です。",
+    url: "https://x.com/Mil_Pro_/status/2088967029294612927",
+    en: { tag: "Stream", title: "[Notice] 3D Debut Streams Announced!", desc: "3D debut streams have been announced for Otonose Raco, Yuragi Yura, Nijipuka Nuhu, Komawari Koma, Nemukumo Tsukuri, and Amayo Liz. Scheduled for September 2026 on each member's channel." }
+  },
+  {
+    date: "2026-08-16",
+    tag: "イベント",
+    title: "鹿乃まほろ ファンミーティング第8部参加決定！",
+    desc: "8月29日(土)に秋葉原UDXギャラリーで開催される「ミリプロリゾート」のファンミーティング第8部に鹿乃まほろの参加が決定。POP UP展示では鹿乃まほろが描いた絵日記も展示予定！",
+    url: "https://x.com/Mil_Pro_/status/2088971188920050018",
+    en: { tag: "Event", title: "Kano Mahoro Joins Fan Meeting Part 8!", desc: "Kano Mahoro will appear in Fan Meeting Part 8 of \"MilliPro Resort\" at the Akihabara UDX gallery on Saturday, August 29. Her illustrated diary will also be on display at the POP UP exhibit!" }
+  },
+  {
+    date: "2026-08-16",
+    tag: "イベント",
+    title: "ミリプロサマー2026 後半スケジュール発表！",
+    desc: "ミリプロサマー2026後半のスケジュールが発表されました。まだまだミリプロと一緒に夏を楽しみましょう！",
+    url: "https://x.com/Mil_Pro_/status/2088971545511444730",
+    en: { tag: "Event", title: "MilliPro Summer 2026 Second Half Schedule Announced!", desc: "The second-half schedule for MilliPro Summer 2026 has been announced. Let's keep enjoying summer with MilliPro!" }
   },
   {
     date: "2026-08-16",
@@ -920,6 +961,7 @@ const EVENTS = [
   { type: "event", date: "2026-08-11", title: "ミリプロサマー2026 夏曲歌枠リレー", desc: "総勢10名による夏曲歌枠リレー（各メンバーチャンネル）", url: "https://milpr.com/news/millipro_summer_2026", en: { title: "MilliPro Summer 2026 Summer-Song Karaoke Relay", desc: "A relay of summer-song karaoke streams by all 10 talents (on each member's channel)" } },
   { type: "event", date: "2026-08-16", title: "ミリプロ夏祭り in ナイトプール", desc: "ミリプロマイクラサーバーで開催（各メンバーチャンネル）", url: "https://milpr.com/news/millipro_summer_2026", en: { title: "MilliPro Summer Festival in the Night Pool", desc: "Held on the MilliPro Minecraft server (on each member's channel)" } },
   { type: "event", date: "2026-08-16", title: "ミリプロプレゼンツ 超重大発表配信", desc: "ミリ創作コンテスト結果発表＆重大告知（ミリプロ公式YouTube）", url: "https://youtu.be/4lba9sduOzI", en: { title: "MilliPro Presents Super Major Announcement Stream", desc: "Milli Creation contest results & major announcement (MilliPro official YouTube)" } },
+  { type: "event", date: "2026-08-22", title: "鹿乃まほろ 初配信", desc: "ミリプロSONA加入後初の配信（20:00〜・鹿乃まほろチャンネル）", url: "https://youtu.be/YzfwW0zTSpE", en: { title: "Kano Mahoro's Debut Stream", desc: "Her first stream after joining MilliPro SONA (8 PM JST, on her own channel)" } },
   { type: "event", date: "2026-08-29", title: "ミリプロリゾート", desc: "秋葉原UDXギャラリーにて開催（POP UP展示＆グッズ販売）", url: "https://milpr.com/news/milpr_resort", en: { title: "MilliPro Resort", desc: "Held at the Akihabara UDX gallery (POP UP exhibit & goods sales)" } },
   { type: "event", date: "2026-08-29", title: "ミリプロTCG サマーカップ 2026", desc: "ミリプロリゾート内で開催（ミリプロTCG初の公式大会）", url: "https://milpr.com/millipro_resort", en: { title: "MilliPro TCG Summer Cup 2026", desc: "Held inside MilliPro Resort (the first official MilliPro TCG tournament)" } },
   { type: "event", date: "2026-08-30", title: "ミリプロサマー2026 閉会式", desc: "公式YouTubeチャンネルにて", url: "https://milpr.com/news/millipro_summer_2026", en: { title: "MilliPro Summer 2026 Closing Ceremony", desc: "On the official YouTube channel" } },
@@ -946,6 +988,11 @@ const EVENTS = [
 ];
 
 const X_POSTS = [
+  "https://x.com/Mil_Pro_/status/2088968988860813750",
+  "https://x.com/Mil_Pro_/status/2088969048700899793",
+  "https://x.com/Mil_Pro_/status/2088967029294612927",
+  "https://x.com/Mil_Pro_/status/2088971188920050018",
+  "https://x.com/Mil_Pro_/status/2088971545511444730",
   "https://x.com/Mil_Pro_/status/2088551273322733973",
   "https://x.com/Mil_Pro_/status/2086061757869805859",
   "https://x.com/Mil_Pro_/status/2085935896235499775",

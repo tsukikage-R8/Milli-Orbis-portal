@@ -71,7 +71,8 @@ const inFutureWindow = (when) => {
 // 検索APIで取得できないがwiki等で確認済みの配信予定（API結果に含まれない場合のみ補完）
 const MANUAL_EXTRA_STREAMS = [
   { id: "4Ie_l2SI0NM", memberId: "raco", member: "音ノ瀬らこ", channelTitle: "音ノ瀬らこ / OtonoseRaco", title: "???? / 音ノ瀬らこfeat.ゆらぎゆら (cover)", thumb: "", scheduledStartTime: "2026-08-15T20:00:00+09:00", status: "upcoming" },
-  { id: "UhO0Vt03ZMg", memberId: "liz", member: "雨夜リズ", channelTitle: "雨夜リズ / Amayo Liz", title: "【ストリヌ/Minecraft 】影MOD入れたから街ぶらる【雨夜リズ/ミリプロ】", thumb: "", scheduledStartTime: "2026-08-15T20:00:00+09:00", status: "upcoming" }
+  { id: "UhO0Vt03ZMg", memberId: "liz", member: "雨夜リズ", channelTitle: "雨夜リズ / Amayo Liz", title: "【ストリヌ/Minecraft 】影MOD入れたから街ぶらる【雨夜リズ/ミリプロ】", thumb: "", scheduledStartTime: "2026-08-15T20:00:00+09:00", status: "upcoming" },
+  { id: "YzfwW0zTSpE", memberId: "mahoro", member: "鹿乃まほろ", channelTitle: "鹿乃まほろ / Kano Mahoro", title: "【#鹿乃まほろ初配信】みんなの毎日を、まほろばに！【鹿乃まほろ/ミリプロ】", thumb: "https://i.ytimg.com/vi/YzfwW0zTSpE/hqdefault.jpg", scheduledStartTime: "2026-08-22T20:00:00+09:00", status: "upcoming" }
 ];
 
 async function main() {

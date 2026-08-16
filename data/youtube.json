@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-16T12:13:01.201Z",
+  "updatedAt": "2026-08-16T13:20:00.000Z",
   "streams": [
+    {
+      "id": "YzfwW0zTSpE",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【#鹿乃まほろ初配信】みんなの毎日を、まほろばに！【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/YzfwW0zTSpE/hqdefault.jpg",
+      "scheduledStartTime": "2026-08-22T11:00:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "[#KanoMahoroDebutStream] Making everyone's daily life a \"Mahoroba\"! [Kano Mahoro/MilliPro]"
+      }
+    },
     {
       "id": "4lba9sduOzI",
       "memberId": "official",
