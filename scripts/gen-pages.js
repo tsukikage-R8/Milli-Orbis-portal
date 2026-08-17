@@ -203,7 +203,21 @@ function fxHtml(kind) {
       '<span class="fx-r-ring"></span>' +
       "</span>" +
       '<span class="fx-locktext">LOCK ON</span>' +
-      '<span class="fx-lockflash"></span>'
+      '<span class="fx-lockflash"></span>',
+    straw:
+      '<span class="fx-straw" style="left:10%;animation-delay:0s">' + DECO_SVG.ichigo + "</span>" +
+      '<span class="fx-straw" style="left:30%;animation-delay:1.2s;width:24px;height:24px">' + DECO_SVG.ichigo + "</span>" +
+      '<span class="fx-straw" style="left:52%;animation-delay:0.6s;width:36px;height:36px">' + DECO_SVG.ichigo + "</span>" +
+      '<span class="fx-straw" style="left:72%;animation-delay:1.8s;width:26px;height:26px">' + DECO_SVG.ichigo + "</span>" +
+      '<span class="fx-straw" style="left:90%;animation-delay:0.9s">' + DECO_SVG.ichigo + "</span>" +
+      '<span class="fx-heart" style="left:16%;top:24%;animation-delay:0.3s"></span>' +
+      '<span class="fx-heart" style="left:70%;top:18%;animation-delay:1.2s;animation-duration:5.5s"></span>' +
+      '<span class="fx-heart" style="left:46%;top:64%;animation-delay:1.8s;animation-duration:6s"></span>' +
+      '<span class="fx-spark" style="left:26%;top:40%;animation-delay:0.8s"></span>' +
+      '<span class="fx-spark" style="left:84%;top:52%;animation-delay:1.5s"></span>' +
+      '<span class="fx-antler" style="right:9%;top:12%"></span>' +
+      '<span class="fx-antler" style="left:8%;bottom:16%;width:64px;height:64px;animation-delay:1.2s;animation-duration:7s;opacity:0.7"></span>' +
+      '<span class="fx-flash"></span>'
   };
   var html = V[kind];
   if (!html) return "";
@@ -405,6 +419,7 @@ function decoHtml(m) {
   if (d.shape === "cross") s += '<span class="d-cross" style="left:82%;top:20%"></span>';
   if (d.shape === "wheel") s += '<span class="d-wheel" style="left:84%;top:12%"></span>';
   if (d.shape === "zzz") s += '<span class="d-zzz" style="left:16%;top:62%">Z</span><span class="d-zzz" style="left:27%;top:74%;font-size:2.1rem;animation-delay:1.1s">z</span><span class="d-zzz" style="left:37%;top:84%;font-size:1.4rem;animation-delay:2.1s">z</span>';
+  if (d.shape === "straw") s += '<span class="d-straw" style="left:50%;top:62%;transform:translateX(-50%)">' + (DECO_SVG.ichigo || "") + "</span>";
   return '<div class="page-deco" aria-hidden="true">' + s + "</div>";
 }
 

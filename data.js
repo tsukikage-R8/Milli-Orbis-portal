@@ -25,7 +25,10 @@ const DECO_SVG = {
   cloud: '<svg viewBox="0 0 100 100" aria-hidden="true"><path fill="currentColor" d="M70,66 A16,16 0 0 0 68,34 A22,22 0 0 0 26,30 A15,15 0 0 0 28,66 Z"/></svg>',
   pen: '<svg viewBox="0 0 100 100" aria-hidden="true"><g><circle cx="50" cy="52" r="32" fill="none" stroke="currentColor" stroke-width="7"/><circle cx="26" cy="34" r="7" fill="currentColor"/><circle cx="68" cy="28" r="7" fill="currentColor"/><circle cx="80" cy="54" r="7" fill="currentColor"/><circle cx="60" cy="76" r="7" fill="currentColor"/><circle cx="50" cy="58" r="8" fill="none" stroke="currentColor" stroke-width="7"/></g></svg>',
   rainbow: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round"><path stroke-width="9" d="M10,86 A40,40 0 0 1 90,86"/><path stroke-width="7" opacity="0.8" d="M24,86 A26,26 0 0 1 76,86"/><path stroke-width="5" opacity="0.6" d="M36,86 A14,14 0 0 1 64,86"/></g></svg>',
-  ring: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="7"><circle cx="50" cy="50" r="34"/><circle cx="50" cy="50" r="7"/></g></svg>'
+  ring: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="7"><circle cx="50" cy="50" r="34"/><circle cx="50" cy="50" r="7"/></g></svg>',
+  ichigo: '<svg viewBox="0 0 100 100" aria-hidden="true"><path fill="currentColor" d="M50,90 C30,72 14,58 14,40 C14,26 24,16 36,16 C42,16 47,19 50,25 C53,19 58,16 64,16 C76,16 86,26 86,40 C86,58 70,72 50,90 Z"/><g fill="#6fbf73"><path d="M50,33 C45,25 37,20 28,21 C37,25 43,30 47,36 C45,27 41,20 37,13 C41,20 47,27 50,33 Z"/><path d="M50,33 C55,25 63,20 72,21 C63,25 57,30 53,36 C55,27 59,20 63,13 C59,20 53,27 50,33 Z"/><path d="M46,28 C46,20 48,13 50,8 C52,13 54,20 54,28 C51,32 49,32 46,28 Z"/></g><g fill="#ffe14d"><ellipse cx="30" cy="44" rx="2.6" ry="3.6"/><ellipse cx="50" cy="38" rx="2.6" ry="3.6"/><ellipse cx="70" cy="44" rx="2.6" ry="3.6"/><ellipse cx="38" cy="58" rx="2.6" ry="3.6"/><ellipse cx="62" cy="58" rx="2.6" ry="3.6"/><ellipse cx="50" cy="72" rx="2.6" ry="3.6"/><ellipse cx="30" cy="62" rx="2.2" ry="3"/><ellipse cx="70" cy="62" rx="2.2" ry="3"/></g></svg>',
+  ribbon: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="currentColor"><path d="M50,40 C38,24 12,28 14,46 C16,60 34,58 50,44 C66,58 84,60 86,46 C88,28 62,24 50,40 Z"/><path d="M50,44 C48,56 42,68 34,80 L44,82 C48,70 51,58 52,46 Z"/><path d="M50,44 C52,56 58,68 66,80 L56,82 C52,70 49,58 48,46 Z"/><rect x="44" y="33" width="12" height="21" rx="6"/></g></svg>',
+  antler: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><path d="M22,90 C26,66 28,48 36,30 C40,20 47,14 56,10"/><path d="M31,60 C24,54 18,52 12,48"/><path d="M33,44 C27,38 24,34 22,26"/><path d="M39,30 C45,24 49,20 54,16"/></g></svg>'
 };
 
 /* グッズジャンル別の手描きSVGアイコン（画像掲載はしない方針 §9 のため、
@@ -772,7 +775,20 @@ const MEMBERS = [
       likes: "???",
       dislikes: "???",
       catchphrase: "Making everyone's everyday a mahoroba!"
-    }
+    },
+    deco: {
+      label: "ichigo",
+      shape: "straw",
+      floats: [
+        { k: "ribbon", x: 8, y: 14, size: 56, dur: 15 },
+        { k: "ichigo", x: 88, y: 10, size: 68, dur: 13 },
+        { k: "antler", x: 13, y: 74, size: 52, dur: 14 },
+        { k: "note", x: 82, y: 84, size: 48, dur: 12 },
+        { k: "ichigo", x: 76, y: 42, size: 38, dur: 16 },
+        { k: "heart", x: 26, y: 38, size: 32, dur: 15 }
+      ]
+    },
+    fx: "straw"
   },
   {
     id: "milchan",

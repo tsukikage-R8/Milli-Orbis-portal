@@ -364,6 +364,7 @@
     if (d.shape === "cross") s += '<span class="d-cross" style="left:82%;top:20%"></span>';
     if (d.shape === "wheel") s += '<span class="d-wheel" style="left:84%;top:12%"></span>';
     if (d.shape === "zzz") s += '<span class="d-zzz" style="left:16%;top:62%">Z</span><span class="d-zzz" style="left:27%;top:74%;font-size:2.1rem;animation-delay:1.1s">z</span><span class="d-zzz" style="left:37%;top:84%;font-size:1.4rem;animation-delay:2.1s">z</span>';
+    if (d.shape === "straw") s += '<span class="d-straw" style="left:50%;top:62%;transform:translateX(-50%)">' + (DECO_SVG.ichigo || "") + "</span>";
     return s;
   }
 
