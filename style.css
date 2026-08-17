@@ -1491,17 +1491,7 @@ footer {
 }
 footer p { font-size: 0.78rem; color: var(--muted); margin: 4px 0; }
 footer .disclaimer { font-weight: 700; color: #8a6d3b; }
-footer .credits-btn {
-  background: none;
-  border: none;
-  padding: 0;
-  color: var(--accent);
-  font-size: inherit;
-  font-family: inherit;
-  text-decoration: underline;
-  cursor: pointer;
-}
-footer .credits-btn:hover { text-decoration: none; }
+.credits-btn { cursor: pointer; }
 /* ============================================================
    タレントページ
    ============================================================ */

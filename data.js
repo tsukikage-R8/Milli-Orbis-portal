@@ -1421,7 +1421,7 @@ const QUIZ = [
    role: 関わり方（en.role で英語表記）、links: 掲載リンク */
 const CREDITS = [
   {
-    name: "しむか。",
+    name: "しむか。 様",
     role: "情報提供・参考",
     en: {
       role: "Information & Reference"
