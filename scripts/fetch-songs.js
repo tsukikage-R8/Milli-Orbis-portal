@@ -26,7 +26,9 @@ const PLAYLISTS = {
   yura: { playlistId: "PLAOJZw9w-IQs1CfU_sreS9n1KefB77oV5", memberId: "yura" },
   nuhu: { playlistId: "PL8lnm2jOyoCCdDW7Wp6AJpL7MD-BCELqN", memberId: "nuhu" },
   tsukuri: { playlistId: "PLQA45rTkdhdeDeoBYz9xK6f_51kPzDB8R", memberId: "tsukuri" },
-  liz: { playlistId: "PL8EAIbSZy-jkAp1LF2ocnAVtex4MWA4rU", memberId: "liz" }
+  liz: { playlistId: "PL8EAIbSZy-jkAp1LF2ocnAVtex4MWA4rU", memberId: "liz" },
+  mahoro: { playlistId: "PLBQuo9fQ-4eMX8TSweBQhoduIPt6wEnHI", memberId: "mahoro" },
+  mahoroOriginal: { playlistId: "PLBQuo9fQ-4ePammIzWmZc7uPQc2cN8SWA", memberId: "mahoro" }
 };
 
 const BASE = "https://www.googleapis.com/youtube/v3/playlistItems";
@@ -110,7 +112,7 @@ function collabMembers(title, ownerId) {
    いずれもメンバー全員（夕霧レイを除く）が参加している全体曲 */
 const ALL_BUT_REI = Object.keys(MEMBER_NAMES).filter((id) => id !== "rei");
 const GROUP_OVERRIDES = {
-  snowhalation: { title: "Snow halation（ミリプロ全体カバー）", members: ALL_BUT_REI },
+  snowhalation: { title: "Snow halation（ミリプロ全体カバー）", members: ALL_BUT_REI.filter((id) => id !== "mahoro") },
   milestone: { title: "Mile Stone / Million Production（ミリプロ全体曲）", members: ALL_BUT_REI }
 };
 
@@ -118,7 +120,7 @@ async function main() {
   const official = await fetchPlaylist(PLAYLISTS.official.playlistId);
   const byMember = {};
   for (const [key, cfg] of Object.entries(PLAYLISTS)) {
-    if (key === "official") continue;
+    if (key === "official" || key === "mahoroOriginal") continue;
     byMember[cfg.memberId] = await fetchPlaylist(cfg.playlistId);
     console.log(`playlist ${key}: ${byMember[cfg.memberId].length} items`);
   }
@@ -136,6 +138,15 @@ async function main() {
     } else {
       coverFromOfficial.push(v);
     }
+  });
+
+  // まほろのオリジナル曲プレイリスト → 公式楽曲（members: ["mahoro"]）
+  const mahoroOriginal = await fetchPlaylist(PLAYLISTS.mahoroOriginal.playlistId);
+  console.log(`playlist mahoroOriginal: ${mahoroOriginal.length} items`);
+  mahoroOriginal.forEach((v) => {
+    if (officialSeen.has(v.id)) return;
+    officialSeen.add(v.id);
+    officialList.push({ id: v.id, title: v.title, publishedAt: v.publishedAt, members: ["mahoro"] });
   });
 
   // 歌ってみた: 公式カバー＋メンバープレイリストをタイトルキーで統合 → 複数メンバーで歌われた曲は1カードにまとめる
@@ -161,6 +172,7 @@ async function main() {
   // メンバーの歌ってみたプレイリスト（オリジナル曲の再掲はカバーに含めない）
   Object.entries(byMember).forEach(([memberId, items]) => {
     items.forEach((v) => {
+      if (officialSeen.has(v.id)) return;
       if (officialRule(v.title)) return;
       const ids = [memberId].concat(collabMembers(v.title, memberId));
       addCover(v.title, v.id, v.publishedAt, ids);

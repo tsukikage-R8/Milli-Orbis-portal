@@ -69,6 +69,9 @@ function displayTitle(t) {
   s = s.replace(/\s*\/\s*[^/]*?\(cover\)$/i, "");   // / 夕霧レイ (cover)
   s = s.replace(/\s*-\s*cover\s*$/i, "");           // - cover
   s = s.replace(/\s+covered by\s+[^/]*$/i, "");     // covered by 音ノ乃のの
+  // 末尾の「 / メンバー名」（カバー表記なし）を除去
+  const names = Object.values(MEMBER_NAMES).concat(MEMBER_ALIASES.map((a) => a[0]));
+  s = s.replace(new RegExp("\\s*[/／]\\s*(?:" + names.map((n) => n.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|") + ")\\s*$"), "");
   s = s.replace(/\s*\(.*?\)\s*$/g, "").trim();
   s = s.replace(/https?:\/\/\S+/gi, "").trim();       // URL を除去
   s = s.replace(/[\s\/|｜]+$/, "");                  // 末尾のスラッシュ等を除去

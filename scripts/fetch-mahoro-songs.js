@@ -169,8 +169,8 @@ async function main() {
     lastDate = d;
     dateById.set(v.id, d);
   });
-  console.log("channel videos:", channelVideos.length, "/ playlist ids found:", channelVideos.filter((v) => plIds.has(v.id)).length);
   const plIds = new Set([...originals, ...covers].map((v) => v.id));
+  console.log("channel videos:", channelVideos.length, "/ playlist ids found:", channelVideos.filter((v) => plIds.has(v.id)).length);
 
   /* RSS フィードの正確な公開日（最新15件）で上書き */
   for (const pl of [ORIGINAL_PL, COVER_PL]) {

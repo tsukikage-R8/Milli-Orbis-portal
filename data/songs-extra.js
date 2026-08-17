@@ -91,7 +91,7 @@ window.SONGS_EXTRA = {
       "duration": 2443,
       "songs": [
         {
-          "key": "StaRt",
+          "key": "start",
           "title": "StaRt / Mrs.GREEN APPLE",
           "start": 247,
           "end": 606
@@ -106,13 +106,13 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "1・2・3",
+          "key": "123",
           "title": "1・2・3 / After the Rain",
           "start": 962,
           "end": 1419
         },
         {
-          "key": "Booo!",
+          "key": "booo!",
           "title": "Booo! / TOKOTOKO",
           "start": 1420,
           "end": 1766
@@ -154,7 +154,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "強風オールバック",
+          "key": "強風オルバック",
           "title": "強風オールバック / ゆこぴ",
           "start": 801,
           "end": 1214,
@@ -262,7 +262,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "サラマンダー",
+          "key": "サラマンダ",
           "title": "サラマンダー / DECO*27",
           "start": 5777,
           "end": 6776,
@@ -289,7 +289,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "愛言葉Ⅲ",
+          "key": "愛言葉ⅲ",
           "title": "愛言葉Ⅲ / DECO*27",
           "start": 1309,
           "end": 2102,
@@ -298,7 +298,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "オドループ",
+          "key": "オドルプ",
           "title": "オドループ / フレデリック",
           "start": 2103,
           "end": 2762,
@@ -307,7 +307,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "トンデモワンダーズ",
+          "key": "トンデモワンダズ",
           "title": "トンデモワンダーズ / sasakure",
           "start": 2763,
           "end": 3265,
@@ -316,7 +316,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "GONG",
+          "key": "gong",
           "title": "GONG / WANIMA",
           "start": 3266,
           "end": 3889
@@ -337,7 +337,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "シュガーソングとビターステップ",
+          "key": "シュガソングとビタステップ",
           "title": "シュガーソングとビターステップ / UNISON SQUARE GARDEN",
           "start": 4816,
           "end": 5878,
@@ -481,7 +481,7 @@ window.SONGS_EXTRA = {
       "duration": 2628,
       "songs": [
         {
-          "key": "ロケットサイダー",
+          "key": "ロケットサイダ",
           "title": "ロケットサイダー / ナユタン星人",
           "start": 92,
           "end": 323,
@@ -517,7 +517,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "サマータイムレコード",
+          "key": "サマタイムレコド",
           "title": "サマータイムレコード / じん",
           "start": 1137,
           "end": 1480,
@@ -571,7 +571,7 @@ window.SONGS_EXTRA = {
       "duration": 4994,
       "songs": [
         {
-          "key": "Help me, ERINNNNNN!!",
+          "key": "helpme,erinnnnnn!!",
           "title": "Help me, ERINNNNNN!! / ビートまりお",
           "start": 328,
           "end": 772,
@@ -598,7 +598,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "レッツゴー陰陽師",
+          "key": "レッツゴ陰陽師",
           "title": "レッツゴー陰陽師 / 矢部野彦麿&琴姫With坊主ダンサーズ",
           "start": 1394,
           "end": 1781,
@@ -607,7 +607,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "ようこそジャパリパークへ",
+          "key": "ようこそジャパリパクへ",
           "title": "ようこそジャパリパークへ / どうぶつビスケッツ×PPP",
           "start": 1782,
           "end": 2111,
@@ -643,7 +643,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "おとせサンダー",
+          "key": "おとせサンダ",
           "title": "おとせサンダー / ぼっちぼろまる",
           "start": 3145,
           "end": 3727,
@@ -670,7 +670,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "Bling-Bang-Bang-Born",
+          "key": "bling-bang-bang-born",
           "title": "Bling-Bang-Bang-Born / Creepy Nuts",
           "start": 4207,
           "end": 4994
@@ -703,7 +703,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "ハイドアンド・シーク",
+          "key": "ハイドアンドシク",
           "title": "ハイドアンド・シーク / NOMELON NOLEMON",
           "start": 619,
           "end": 1008,
@@ -748,7 +748,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "わたしのアール",
+          "key": "わたしのアル",
           "title": "わたしのアール / 和田たけあき",
           "start": 2189,
           "end": 2538,
@@ -829,7 +829,7 @@ window.SONGS_EXTRA = {
       "duration": 11081,
       "songs": [
         {
-          "key": "チェリーポップ",
+          "key": "チェリポップ",
           "title": "チェリーポップ / DECO*27",
           "start": 572,
           "end": 802,
@@ -847,7 +847,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "ようこそジャパリパークへ",
+          "key": "ようこそジャパリパクへ",
           "title": "ようこそジャパリパークへ / どうぶつビスケッツ×PPP",
           "start": 995,
           "end": 1349,
@@ -856,7 +856,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "パンダヒーロー",
+          "key": "パンダヒロ",
           "title": "パンダヒーロー / ハチ",
           "start": 1350,
           "end": 1665,
@@ -883,7 +883,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "ワールズエンド・ダンスホール",
+          "key": "ワルズエンドダンスホル",
           "title": "ワールズエンド・ダンスホール / ヒトリエ",
           "start": 2591,
           "end": 2803,
@@ -901,7 +901,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "ジャンキーナイトタウンオーケストラ",
+          "key": "ジャンキナイトタウンオケストラ",
           "title": "ジャンキーナイトタウンオーケストラ / すりぃ",
           "start": 3314,
           "end": 3600,
@@ -937,7 +937,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "ポニーテールとシュシュ",
+          "key": "ポニテルとシュシュ",
           "title": "ポニーテールとシュシュ / AKB48",
           "start": 4390,
           "end": 4656,
@@ -946,7 +946,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "トンデモワンダーズ",
+          "key": "トンデモワンダズ",
           "title": "トンデモワンダーズ / sasakure",
           "start": 4657,
           "end": 4851,
@@ -991,7 +991,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "GONG",
+          "key": "gong",
           "title": "GONG / WANIMA",
           "start": 6266,
           "end": 7012
@@ -1006,7 +1006,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "シン・タンタカタンタンタンタンメン",
+          "key": "シンタンタカタンタンタンタンメン",
           "title": "シン・タンタカタンタンタンタンメン / ぼっちぼろまる",
           "start": 7504,
           "end": 7960,
@@ -1060,7 +1060,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "サインはB",
+          "key": "サインはb",
           "title": "サインはB / B",
           "start": 9675,
           "end": 11081,
@@ -1078,13 +1078,13 @@ window.SONGS_EXTRA = {
       "duration": 6000,
       "songs": [
         {
-          "key": "1・2・3",
+          "key": "123",
           "title": "1・2・3 / After the Rain",
           "start": 522,
           "end": 1149
         },
         {
-          "key": "愛言葉Ⅲ",
+          "key": "愛言葉ⅲ",
           "title": "愛言葉Ⅲ / DECO*27",
           "start": 1150,
           "end": 1782,
@@ -1093,7 +1093,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "セプテンバーさん",
+          "key": "セプテンバさん",
           "title": "セプテンバーさん / RADWIMPS",
           "start": 1783,
           "end": 2221,
@@ -1120,7 +1120,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "絶頂讃歌",
+          "key": "絶頂讃",
           "title": "絶頂讃歌 / 和ぬか",
           "start": 4776,
           "end": 5162,
@@ -1165,7 +1165,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "IRIS OUT",
+          "key": "irisout",
           "title": "IRIS OUT / 米津玄師",
           "start": 990,
           "end": 1506,
@@ -1174,7 +1174,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "MAD HEAD LOVE",
+          "key": "madheadlove",
           "title": "MAD HEAD LOVE / 米津玄師",
           "start": 1507,
           "end": 2175,
@@ -1183,7 +1183,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "絶頂讃歌",
+          "key": "絶頂讃",
           "title": "絶頂讃歌 / 和ぬか",
           "start": 2176,
           "end": 2425,
@@ -1210,7 +1210,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "Help me, ERINNNNNN!!",
+          "key": "helpme,erinnnnnn!!",
           "title": "Help me, ERINNNNNN!! / ビートまりお",
           "start": 3320,
           "end": 4145,
@@ -1228,7 +1228,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "セプテンバーさん",
+          "key": "セプテンバさん",
           "title": "セプテンバーさん / RADWIMPS",
           "start": 4409,
           "end": 5099,
@@ -1255,7 +1255,7 @@ window.SONGS_EXTRA = {
       "duration": 9299,
       "songs": [
         {
-          "key": "ピースサイン",
+          "key": "ピスサイン",
           "title": "ピースサイン / 米津玄師",
           "start": 573,
           "end": 857,
@@ -1282,7 +1282,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "Butter-Fly",
+          "key": "butter-fly",
           "title": "Butter-Fly / 和田光司",
           "start": 1459,
           "end": 1741,
@@ -1345,7 +1345,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "ゴーストルール",
+          "key": "ゴストルル",
           "title": "ゴーストルール / DECO*27",
           "start": 3621,
           "end": 4101,
@@ -1408,7 +1408,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "ブレーメン",
+          "key": "ブレメン",
           "title": "ブレーメン / N-buna",
           "start": 1310,
           "end": 1746,
@@ -1426,7 +1426,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "ノーダウト",
+          "key": "ノダウト",
           "title": "ノーダウト / Official髭男dism",
           "start": 2233,
           "end": 3074,
@@ -1462,7 +1462,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "倍倍FIGHT!",
+          "key": "倍倍fight!",
           "title": "倍倍FIGHT! / CANDY TUNE",
           "start": 4038,
           "end": 7421,
@@ -1498,7 +1498,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "きょういくばんぐみのテーマ",
+          "key": "きょういくばんぐみのテマ",
           "title": "きょういくばんぐみのテーマ / やみのおねえさん",
           "start": 1103,
           "end": 1267,
@@ -1507,7 +1507,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "Mrs.pumpkinの滑稽な夢",
+          "key": "mrs.pumpkinの滑稽な夢",
           "title": "Mrs.pumpkinの滑稽な夢 / ハチ",
           "start": 1268,
           "end": 1535,
@@ -1543,7 +1543,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "チルノのパーフェクトさんすう教室",
+          "key": "チルノのパフェクトさんすう教室",
           "title": "チルノのパーフェクトさんすう教室 / IOSYS",
           "start": 2430,
           "end": 2705,
@@ -1552,7 +1552,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "Help me, ERINNNNNN!!",
+          "key": "helpme,erinnnnnn!!",
           "title": "Help me, ERINNNNNN!! / ビートまりお",
           "start": 2706,
           "end": 3133,
@@ -1588,7 +1588,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "おやすみ泣き声、さよなら歌姫",
+          "key": "おやすみ泣き声、さよなら姫",
           "title": "おやすみ泣き声、さよなら歌姫 / クリープハイプ",
           "start": 3846,
           "end": 4083,
@@ -1597,7 +1597,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "マツケンサンバⅡ",
+          "key": "マツケンサンバⅱ",
           "title": "マツケンサンバⅡ / 松平健",
           "start": 4084,
           "end": 4383,
@@ -1624,7 +1624,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "ようこそジャパリパークへ",
+          "key": "ようこそジャパリパクへ",
           "title": "ようこそジャパリパークへ / どうぶつビスケッツ×PPP",
           "start": 5127,
           "end": 5550,
@@ -1633,7 +1633,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "さよーならまたいつか！",
+          "key": "さよならまたいつか！",
           "title": "さよーならまたいつか！ / 米津玄師",
           "start": 5551,
           "end": 5756,
@@ -1642,7 +1642,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "ゴーゴー幽霊船",
+          "key": "ゴゴ幽霊船",
           "title": "ゴーゴー幽霊船 / 米津玄師",
           "start": 5757,
           "end": 6046,
@@ -1651,7 +1651,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "Butter-Fly",
+          "key": "butter-fly",
           "title": "Butter-Fly / 和田光司",
           "start": 6047,
           "end": 6301,
@@ -1696,7 +1696,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "右に曲ガール",
+          "key": "右に曲ガル",
           "title": "右に曲ガール / Sou",
           "start": 7386,
           "end": 7622,
@@ -1705,7 +1705,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "ノーダウト",
+          "key": "ノダウト",
           "title": "ノーダウト / Official髭男dism",
           "start": 7623,
           "end": 8218,
@@ -1741,7 +1741,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "パンダヒーロー",
+          "key": "パンダヒロ",
           "title": "パンダヒーロー / ハチ",
           "start": 8890,
           "end": 9433,
@@ -1801,7 +1801,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "絶頂讃歌",
+          "key": "絶頂讃",
           "title": "絶頂讃歌 / 和ぬか",
           "start": 11073,
           "end": 11391,
@@ -1810,7 +1810,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "StaRt",
+          "key": "start",
           "title": "StaRt / Mrs. GREEN APPLE",
           "start": 11392,
           "end": 11611
@@ -1885,13 +1885,13 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "Blieve",
+          "key": "blieve",
           "title": "Blieve",
           "start": 2491,
           "end": 2736
         },
         {
-          "key": "God knows…",
+          "key": "godknows…",
           "title": "God knows… / ハルヒ",
           "start": 2737,
           "end": 2895,
@@ -1936,7 +1936,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "KICK BACK",
+          "key": "kickback",
           "title": "KICK BACK / 米津玄師",
           "start": 725,
           "end": 1009,
@@ -1945,7 +1945,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "いけないボーダーライン",
+          "key": "いけないボダライン",
           "title": "いけないボーダーライン / ワルキューレ",
           "start": 1010,
           "end": 1412,
@@ -1999,7 +1999,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "おやすみ泣き声、さよなら歌姫",
+          "key": "おやすみ泣き声、さよなら姫",
           "title": "おやすみ泣き声、さよなら歌姫 / クリープハイプ",
           "start": 3081,
           "end": 3406,
@@ -2017,7 +2017,7 @@ window.SONGS_EXTRA = {
       "duration": 6646,
       "songs": [
         {
-          "key": "KICK BACK",
+          "key": "kickback",
           "title": "KICK BACK / 米津玄師",
           "start": 358,
           "end": 694,
@@ -2026,7 +2026,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "IRIS OUT",
+          "key": "irisout",
           "title": "IRIS OUT / 米津玄師",
           "start": 695,
           "end": 1096,
@@ -2035,7 +2035,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "いけないボーダーライン",
+          "key": "いけないボダライン",
           "title": "いけないボーダーライン / ワルキューレ",
           "start": 1097,
           "end": 1526,
@@ -2080,7 +2080,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "God knows...",
+          "key": "godknows...",
           "title": "God knows... / 涼宮ハルヒ(CV：平野綾)",
           "start": 944,
           "end": 1317,
@@ -2089,7 +2089,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "Snow halation",
+          "key": "snowhalation",
           "title": "Snow halation / μ's",
           "start": 1318,
           "end": 1675
@@ -2104,7 +2104,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "ノーダウト",
+          "key": "ノダウト",
           "title": "ノーダウト / Official髭男dism",
           "start": 2054,
           "end": 2361,
@@ -2122,7 +2122,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "IRIS OUT",
+          "key": "irisout",
           "title": "IRIS OUT / 米津玄師",
           "start": 2672,
           "end": 2938,
@@ -2131,13 +2131,13 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "Catch the Moment",
+          "key": "catchthemoment",
           "title": "Catch the Moment / LiSA",
           "start": 2939,
           "end": 3274
         },
         {
-          "key": "ブラック★ロックシューター",
+          "key": "ブラック★ロックシュタ",
           "title": "ブラック★ロックシューター / ryo(supercell) feat. 初音ミク",
           "start": 3275,
           "end": 3663,
@@ -2191,7 +2191,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "IRIS OUT",
+          "key": "irisout",
           "title": "IRIS OUT / 米津玄師",
           "start": 1631,
           "end": 1891,
@@ -2200,13 +2200,13 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "Bad Apple!! feat. nomico",
+          "key": "badapple!!feat.nomico",
           "title": "Bad Apple!! feat. nomico / Alstroemeria Records",
           "start": 1892,
           "end": 2161
         },
         {
-          "key": "美少女無罪♡パイレーツ",
+          "key": "美少女無罪♡パイレツ",
           "title": "美少女無罪♡パイレーツ / 宝鐘マリン",
           "start": 2162,
           "end": 2517,
@@ -2278,7 +2278,7 @@ window.SONGS_EXTRA = {
       "duration": 4823,
       "songs": [
         {
-          "key": "KICK BACK",
+          "key": "kickback",
           "title": "KICK BACK / 米津玄師",
           "start": 189,
           "end": 484,
@@ -2296,7 +2296,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "God knows...",
+          "key": "godknows...",
           "title": "God knows... / 涼宮ハルヒ(CV：平野綾)",
           "start": 855,
           "end": 1187,
@@ -2305,7 +2305,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "JANE DOE",
+          "key": "janedoe",
           "title": "JANE DOE / 米津玄師 × 宇多田ヒカル",
           "start": 1188,
           "end": 1521,
@@ -2347,13 +2347,13 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "Sincerely",
+          "key": "sincerely",
           "title": "Sincerely / TRUE",
           "start": 2947,
           "end": 3435
         },
         {
-          "key": "ワールドイズマイン",
+          "key": "ワルドイズマイン",
           "title": "ワールドイズマイン / ryo(supercell) feat. 初音ミク",
           "start": 3436,
           "end": 4823,
@@ -2380,7 +2380,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "ヒステリックナイトガール",
+          "key": "ヒステリックナイトガル",
           "title": "ヒステリックナイトガール / PSYQUI feat. Such",
           "start": 526,
           "end": 944,
@@ -2407,7 +2407,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "Bunny Girl",
+          "key": "bunnygirl",
           "title": "Bunny Girl / AKASAKI",
           "start": 1643,
           "end": 1981
@@ -2458,7 +2458,7 @@ window.SONGS_EXTRA = {
       "duration": 5156,
       "songs": [
         {
-          "key": "ブラック★ロックシューター",
+          "key": "ブラック★ロックシュタ",
           "title": "ブラック★ロックシューター / ryo(supercell) feat. 初音ミク",
           "start": 272,
           "end": 644,
@@ -2467,7 +2467,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "JANE DOE",
+          "key": "janedoe",
           "title": "JANE DOE / 米津玄師 × 宇多田ヒカル",
           "start": 645,
           "end": 972,
@@ -2476,7 +2476,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "IRIS OUT",
+          "key": "irisout",
           "title": "IRIS OUT / 米津玄師",
           "start": 973,
           "end": 1239,
@@ -2494,7 +2494,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "バレリーコ",
+          "key": "バレリコ",
           "title": "バレリーコ / みきとP feat. GUMI",
           "start": 1510,
           "end": 1815,
@@ -2521,7 +2521,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "サマータイムレコード",
+          "key": "サマタイムレコド",
           "title": "サマータイムレコード / じん feat. IA",
           "start": 2540,
           "end": 2984,
@@ -2530,7 +2530,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "ドライフラワー",
+          "key": "ドライフラワ",
           "title": "ドライフラワー / 優里",
           "start": 2985,
           "end": 3437,
@@ -2566,7 +2566,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "One Last Kiss",
+          "key": "onelastkiss",
           "title": "One Last Kiss / 宇多田ヒカル",
           "start": 4417,
           "end": 5156,
@@ -2773,7 +2773,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "IRIS OUT",
+          "key": "irisout",
           "title": "IRIS OUT / 米津玄師(ワンコーラス)",
           "start": 3056,
           "end": 3150,
@@ -3097,7 +3097,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "モザイクロール",
+          "key": "モザイクロル",
           "title": "モザイクロール / DECO*27",
           "start": 832,
           "end": 1208,
@@ -3142,7 +3142,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "ボルテッカー",
+          "key": "ボルテッカ",
           "title": "ボルテッカー / DECO*27（オマケアカペラ）",
           "start": 3052,
           "end": 3087,
@@ -3250,7 +3250,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "かまってちょーだい",
+          "key": "かまってちょだい",
           "title": "かまってちょーだい / Mono palette.",
           "start": 2651,
           "end": 3489,
@@ -3268,7 +3268,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "Booo!",
+          "key": "booo!",
           "title": "Booo! / TOKOTOKO（西沢さんP）",
           "start": 4008,
           "end": 4668,
@@ -3304,7 +3304,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "ワールドイズマイン",
+          "key": "ワルドイズマイン",
           "title": "ワールドイズマイン / ryo",
           "start": 6660,
           "end": 7243,
@@ -3313,7 +3313,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "キュートな彼女",
+          "key": "キュトな彼女",
           "title": "キュートな彼女 / Syudou",
           "start": 7244,
           "end": 7681,
@@ -3367,7 +3367,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "Bling‐Bang-Bang-Born",
+          "key": "bling‐bang-bang-born",
           "title": "Bling‐Bang-Bang-Born / Creepy Nuts（1番のみ）",
           "start": 2330,
           "end": 2517,
@@ -3385,7 +3385,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "絶頂讃歌",
+          "key": "絶頂讃",
           "title": "絶頂讃歌 / 和ぬか",
           "start": 2763,
           "end": 3187,
@@ -3394,13 +3394,13 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "One day",
+          "key": "oneday",
           "title": "One day / The ROOTLESS",
           "start": 3188,
           "end": 3512
         },
         {
-          "key": "恋愛サーキュレーション",
+          "key": "恋愛サキュレション",
           "title": "恋愛サーキュレーション / 花澤香菜",
           "start": 3513,
           "end": 4223,
@@ -3427,7 +3427,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "シル・ヴ・プレジデント",
+          "key": "シルヴプレジデント",
           "title": "シル・ヴ・プレジデント / P丸様",
           "start": 5325,
           "end": 5613,
@@ -3553,7 +3553,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "チューリングラブ",
+          "key": "チュリングラブ",
           "title": "チューリングラブ / ナナヲアカリ",
           "start": 5947,
           "end": 6308,
@@ -3562,7 +3562,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "Queen",
+          "key": "queen",
           "title": "Queen / Kanaria",
           "start": 6309,
           "end": 6739
@@ -3613,7 +3613,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "恋愛サーキュレーション",
+          "key": "恋愛サキュレション",
           "title": "恋愛サーキュレーション / 花澤香菜",
           "start": 8824,
           "end": 9322,
@@ -3658,7 +3658,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "YELL",
+          "key": "yell",
           "title": "YELL / いきものがかり",
           "start": 10536,
           "end": 11042,
@@ -3694,7 +3694,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "CH4GE",
+          "key": "ch4ge",
           "title": "CH4GE / Giga",
           "start": 12078,
           "end": 12157,
@@ -3703,7 +3703,7 @@ window.SONGS_EXTRA = {
           }
         },
         {
-          "key": "絶頂讃歌",
+          "key": "絶頂讃",
           "title": "絶頂讃歌 / 和ぬか",
           "start": 12158,
           "end": 12539,

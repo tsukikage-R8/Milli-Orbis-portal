@@ -239,8 +239,14 @@
     list.forEach(function (g) {
       var videos = (g.urls || []).filter(function (u) { return !u.karaoke; });
       var karaoke = (g.urls || []).filter(function (u) { return u.karaoke; });
+      /* コラボ動画（同じ動画を複数メンバーで歌唱）は1カードにまとめる */
+      var byVideo = {};
       videos.forEach(function (u) {
-        cards.push({ date: u.publishedAt || "", html: songCardHtml(g, [u]) });
+        (byVideo[u.id] = byVideo[u.id] || []).push(u);
+      });
+      Object.keys(byVideo).forEach(function (id) {
+        var us = byVideo[id];
+        cards.push({ date: us[0].publishedAt || "", html: songCardHtml(g, us) });
       });
       if (karaoke.length) {
         var kdate = "";
@@ -291,6 +297,12 @@
         ytBtnHtml(v.id) +
         "</div>" };
     });
+  }
+
+  function officialHtml() {
+    var cards = officialCards();
+    if (!cards.length) return '<div class="placeholder">' + T("songs.none") + "</div>";
+    return gridHtml(cards);
   }
 
   /* ---- 歌枠: 配信単位カード（収録曲とタイムスタンプ） ---- */
@@ -386,7 +398,9 @@
     coverList.forEach(function (g) {
       var videos = (g.urls || []).filter(function (u) { return !u.karaoke; });
       var karaoke = (g.urls || []).filter(function (u) { return u.karaoke; });
-      n += videos.length + (karaoke.length ? 1 : 0);
+      var seen = {};
+      videos.forEach(function (u) { seen[u.id] = true; });
+      n += Object.keys(seen).length + (karaoke.length ? 1 : 0);
     });
     return n;
   }
