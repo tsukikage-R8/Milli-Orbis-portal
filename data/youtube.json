@@ -1,14 +1,26 @@
 {
-  "updatedAt": "2026-08-17T08:28:12.850Z",
+  "updatedAt": "2026-08-17T12:16:37.577Z",
   "streams": [
+    {
+      "id": "MjEEUFaxIhc",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【黄昏の森/Minecraft 】こまつくりーずで異世界転生‼️❓【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/MjEEUFaxIhc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-17T08:58:41Z",
+      "status": "live",
+      "en": {
+        "title": "[Twilight Forest/Minecraft] Reincarnation in another world with Komakurizu!! ️❓ [Ameya Liz/MilliPro]"
+      }
+    },
     {
       "id": "wfXt3CcBrzQ",
       "memberId": "koma",
       "member": "小廻こま",
       "title": "【 黄昏の森 】クリアで告知!?こまつくりーず黄昏の森#1【小廻こま/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/wfXt3CcBrzQ/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-17T09:00:00Z",
-      "status": "upcoming",
+      "scheduledStartTime": "2026-08-17T09:01:02Z",
+      "status": "live",
       "en": {
         "title": "[Twilight Forest] Announcement on clear!? Komakuri Komai Twilight Forest #1 [Komakoma/MilliPro]"
       }
@@ -19,8 +31,8 @@
       "member": "眠雲ツクリ",
       "title": "〖 Minecraft 〗クリアで告知!?こまつくりーず黄昏の森#1〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/TimzN-NIhYI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-17T09:00:00Z",
-      "status": "upcoming",
+      "scheduledStartTime": "2026-08-17T09:02:09Z",
+      "status": "live",
       "en": {
         "title": "〖 Minecraft 〗 Announcement on clearing!? Top Crease Twilight Forest #1 〖 Sleeping Cloud Tsukuri / Millipro 〗"
       }
@@ -83,6 +95,18 @@
       "status": "upcoming",
       "en": {
         "title": "☁Street Collection 2026 now accepting orders! 🔧"
+      }
+    },
+    {
+      "id": "IcmQ_uC8h5I",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "はいしんよていち！",
+      "thumb": "https://i.ytimg.com/vi/IcmQ_uC8h5I/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-28T10:00:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "Haishin Yoteichi!"
       }
     },
     {
@@ -196,13 +220,26 @@
   ],
   "videos": [
     {
+      "id": "IcmQ_uC8h5I",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "はいしんよていち！",
+      "thumb": "https://i.ytimg.com/vi/IcmQ_uC8h5I/hqdefault_live.jpg",
+      "publishedAt": "2026-08-17T11:42:03Z",
+      "live": false,
+      "en": {
+        "title": "Haishin Yoteichi!"
+      }
+    },
+    {
       "id": "TimzN-NIhYI",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
       "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
       "title": "〖 Minecraft 〗クリアで告知!?こまつくりーず黄昏の森#1〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/TimzN-NIhYI/hqdefault_live.jpg",
-      "publishedAt": "2026-08-17T08:02:56Z",
+      "publishedAt": "2026-08-17T09:02:09Z",
       "live": false,
       "en": {
         "title": "〖 Minecraft 〗 Announcement on clearing!? Top Crease Twilight Forest #1 〖 Sleeping Cloud Tsukuri / Millipro 〗"
@@ -215,10 +252,36 @@
       "channelTitle": "小廻こま / Komawari Koma",
       "title": "【 黄昏の森 】クリアで告知!?こまつくりーず黄昏の森#1【小廻こま/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/wfXt3CcBrzQ/hqdefault_live.jpg",
-      "publishedAt": "2026-08-17T08:01:21Z",
+      "publishedAt": "2026-08-17T09:01:02Z",
       "live": false,
       "en": {
         "title": "[Twilight Forest] Announcement on clear!? Komakuri Komai Twilight Forest #1 [Komakoma/MilliPro]"
+      }
+    },
+    {
+      "id": "3K7ANAXS1gg",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "マイクラアイテム人狼！誰が人狼でしょう？【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/3K7ANAXS1gg/hqdefault.jpg",
+      "publishedAt": "2026-08-17T09:00:18Z",
+      "live": false,
+      "en": {
+        "title": "Minecraft item werewolf! Who is the werewolf? [#MilliPro]"
+      }
+    },
+    {
+      "id": "MjEEUFaxIhc",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【黄昏の森/Minecraft 】こまつくりーずで異世界転生‼️❓【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/MjEEUFaxIhc/hqdefault_live.jpg",
+      "publishedAt": "2026-08-17T08:58:41Z",
+      "live": false,
+      "en": {
+        "title": "[Twilight Forest/Minecraft] Reincarnation in another world with Komakurizu!! ️❓ [Ameya Liz/MilliPro]"
       }
     },
     {
@@ -257,7 +320,7 @@
       "publishedAt": "2026-08-16T17:39:43Z",
       "live": false,
       "en": {
-        "title": "[Strinu/Minecraft] Looks like it's the last day🍓 [Ameya Liz/MilliPro]"
+        "title": "[Strinu/Minecraft] Looks like it's the last day🍓 [Riz Ameya/MilliPro]"
       }
     },
     {
@@ -545,46 +608,44 @@
       "en": {
         "title": "Konoya's first appearance # Minecraft"
       }
-    },
-    {
-      "id": "QID-cK9__vg",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【VLOG】沖縄で人生最高のアクティビティを体験したら面白すぎたｗｗｗ【#ミリプロサマー2026】",
-      "thumb": "https://i.ytimg.com/vi/QID-cK9__vg/hqdefault.jpg",
-      "publishedAt": "2026-08-16T05:52:09Z",
-      "live": false,
-      "en": {
-        "title": "[VLOG] It was so much fun to experience the best activity of my life in Okinawa lol [#Millipro Summer 2026]"
-      }
-    },
-    {
-      "id": "SpFQlaZHoys",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ストリヌ 〗 待ってろカジノ#7〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/SpFQlaZHoys/hqdefault.jpg",
-      "publishedAt": "2026-08-15T20:06:06Z",
-      "live": false,
-      "en": {
-        "title": "〖 Strine 〗 Wait for it Casino #7 〖 Nemugumo Tsukuri / Millipro 〗"
-      }
-    },
-    {
-      "id": "VbQsKSoywf0",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【ストリヌ】第7話「一日ぶりの外の世界、ただいま！」【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/VbQsKSoywf0/hqdefault.jpg",
-      "publishedAt": "2026-08-15T17:47:36Z",
-      "live": false,
-      "en": {
-        "title": "[Strinu] Episode 7 “The outside world for the first time in a day, now!” [Yuragi Yura/MilliPro]"
-      }
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "MjEEUFaxIhc",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【黄昏の森/Minecraft 】こまつくりーずで異世界転生‼️❓【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/MjEEUFaxIhc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-17T08:58:41Z",
+      "status": "live",
+      "en": {
+        "title": "[Twilight Forest/Minecraft] Reincarnation in another world with Komakurizu!! ️❓ [Ameya Liz/MilliPro]"
+      }
+    },
+    {
+      "id": "wfXt3CcBrzQ",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 黄昏の森 】クリアで告知!?こまつくりーず黄昏の森#1【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/wfXt3CcBrzQ/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-17T09:01:02Z",
+      "status": "live",
+      "en": {
+        "title": "[Twilight Forest] Announcement on clear!? Komakuri Komai Twilight Forest #1 [Komakoma/MilliPro]"
+      }
+    },
+    {
+      "id": "TimzN-NIhYI",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 Minecraft 〗クリアで告知!?こまつくりーず黄昏の森#1〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/TimzN-NIhYI/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-17T09:02:09Z",
+      "status": "live",
+      "en": {
+        "title": "〖 Minecraft 〗 Announcement on clearing!? Top Crease Twilight Forest #1 〖 Sleeping Cloud Tsukuri / Millipro 〗"
+      }
+    }
+  ]
 }
