@@ -222,6 +222,7 @@ window.I18N = {
     "footer.yt": "本サイトは YouTube の利用規約に同意の上でご利用ください: ", 
     "footer.copy": "© 2026 Milli Orbis（非公式ファンサイト）",
     "footer.admin": "作成・管理者：",
+    "credits.title": "クレジット",
 
     /* アカウント連携ポップアップ */
     "login.title": "アカウント連携",
@@ -634,6 +635,7 @@ window.I18N = {
     "footer.yt": "By using this site you agree to the YouTube Terms of Service: ", 
     "footer.copy": "© 2026 Milli Orbis (unofficial fan site)",
     "footer.admin": "Created & managed by:",
+    "credits.title": "Credits",
 
     /* Account popup */
     "login.title": "Account Link",

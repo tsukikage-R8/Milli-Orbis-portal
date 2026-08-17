@@ -196,11 +196,12 @@
     return seen.join("・");
   }
 
-  /* ---- 歌ってみた: 曲単位カード（歌枠由来のバージョンも統合表示） ---- */
-  function songCardHtml(g) {
-    var primary = g.urls[0] || { id: "", publishedAt: "" };
+  /* ---- 歌ってみた: 曲カード（受け取った urls をバージョンとして表示） ---- */
+  function songCardHtml(g, urls) {
+    var list = urls && urls.length ? urls : g.urls;
+    var primary = list[0] || { id: "", publishedAt: "" };
     var art = artistOf(g);
-    var versions = g.urls.map(function (u) {
+    var versions = list.map(function (u) {
       var href = SD.videoUrl(u.id, u.start);
       var badge = u.karaoke ? '<span class="song-kind song-kind-karaoke">' + T("songs.karaokeBadge") + "</span>" : "";
       var ts = u.karaoke && u.start ? '<span class="song-ts">' + SD.fmtTs(u.start) + "〜" + (u.end ? SD.fmtTs(u.end) : "") + "</span>" : "";
@@ -215,13 +216,13 @@
       (isNew(primary.publishedAt) ? '<span class="song-new">NEW</span>' : "") +
       '<div class="song-title">' + highlight(tt(g)) + "</div>" +
       (art ? '<div class="song-artist">' + highlight(art) + "</div>" : "") +
-      (g.urls.length > 1 ? '<div class="song-collab">' + T("songs.collab") + "</div>" : "") +
+      (list.length > 1 ? '<div class="song-collab">' + T("songs.collab") + "</div>" : "") +
       '<div class="song-versions">' + versions + "</div>" +
       ytBtnHtml(primary.id) +
       "</div>";
   }
 
-  /* ---- 歌ってみた: 曲単位カード（歌枠由来のバージョンも統合表示） ---- */
+  /* ---- 歌ってみた: 歌みた動画は動画ごとに1カード、歌枠由来のバージョンは曲単位で1カードに統合 ---- */
   function coverCards() {
     var list = coverList.slice();
     if (keyword) {
@@ -234,9 +235,20 @@
     if (memberFilter) {
       list = list.filter(function (g) { return g.urls.some(function (u) { return u.memberId === memberFilter; }); });
     }
-    return list.map(function (g) {
-      return { date: (g.urls[0] && g.urls[0].publishedAt) || "", html: songCardHtml(g) };
+    var cards = [];
+    list.forEach(function (g) {
+      var videos = (g.urls || []).filter(function (u) { return !u.karaoke; });
+      var karaoke = (g.urls || []).filter(function (u) { return u.karaoke; });
+      videos.forEach(function (u) {
+        cards.push({ date: u.publishedAt || "", html: songCardHtml(g, [u]) });
+      });
+      if (karaoke.length) {
+        var kdate = "";
+        karaoke.forEach(function (u) { if (u.publishedAt && u.publishedAt > kdate) kdate = u.publishedAt; });
+        cards.push({ date: kdate, html: songCardHtml(g, karaoke) });
+      }
     });
+    return cards;
   }
 
   function coversHtml() {
@@ -369,11 +381,21 @@
     return gridHtml(cards);
   }
 
+  function coverCardCount() {
+    var n = 0;
+    coverList.forEach(function (g) {
+      var videos = (g.urls || []).filter(function (u) { return !u.karaoke; });
+      var karaoke = (g.urls || []).filter(function (u) { return u.karaoke; });
+      n += videos.length + (karaoke.length ? 1 : 0);
+    });
+    return n;
+  }
+
   function render() {
     var n = view === "all"
-      ? coverList.length + (data.official || []).length + karaokeStreams.length
+      ? coverCardCount() + (data.official || []).length + karaokeStreams.length
       : view === "official" ? (data.official || []).length
-        : view === "karaoke" ? karaokeStreams.length : coverList.length;
+        : view === "karaoke" ? karaokeStreams.length : coverCardCount();
     tabLabel.textContent = view === "all" ? T("songs.tabLabelAll", { n: n }) :
       view === "covers" ? T("songs.tabLabelCovers", { n: n }) :
         view === "official" ? T("songs.tabLabelOfficial", { n: n }) : T("songs.tabLabelKaraoke", { n: n });

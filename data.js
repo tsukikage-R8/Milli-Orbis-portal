@@ -845,8 +845,6 @@ const GROUP_INFO = [
     desc: "ミリプロ設立当初は「〇期生」のナンバリング順でデビューしていました。現在は後述の「NOVA」「UNI」「SONA」というコンセプト・属性ごとのグループ（ユニット）を中心とした活動体制へ移行しています。",
     members: [
       { id: "konomi", note: "設立メンバー / CEO兼クリエイター" },
-      { id: "nono" },
-      { id: "akubi" },
       { id: "koma" }
     ],
     en: {
@@ -1416,5 +1414,21 @@ const QUIZ = [
       exp: "60K right before her first stream, breaking 70K that day. All eyes are on the story the Sniper of the Mist is writing.",
       linkLabel: "Yugiri Ray Member Guide"
     }
+  }
+];
+
+/* クレジット（情報提供・参考などのデータ提供・協力へのお礼を掲載する専用スペース）
+   role: 関わり方（en.role で英語表記）、links: 掲載リンク */
+const CREDITS = [
+  {
+    name: "しむか。",
+    role: "情報提供・参考",
+    en: {
+      role: "Information & Reference"
+    },
+    links: [
+      { label: "眠雲ツクリ 歌枠セトリ (note)", url: "https://note.com/usg_2325/n/nec071c13d76a" },
+      { label: "X (@SiMc4_Mili)", url: "https://x.com/SiMc4_Mili" }
+    ]
   }
 ];

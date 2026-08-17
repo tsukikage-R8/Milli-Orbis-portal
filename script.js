@@ -1191,6 +1191,35 @@
     return MEMBERS.filter(function (m) { return m.id === id; })[0];
   }
 
+  /* ============ クレジット（モーダル表示） ============ */
+  function renderCredits() {
+    var box = $("#creditsList");
+    if (!box || typeof CREDITS === "undefined") return;
+    box.innerHTML = CREDITS.map(function (c) {
+      var links = (c.links || []).map(function (l) {
+        return '<a class="credits-link" href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.label) + "</a>";
+      }).join("");
+      return '<div class="credits-item">' +
+        '<div class="credits-name">' + esc(c.name) + "</div>" +
+        '<div class="credits-role">' + esc(loc(c, "role")) + "</div>" +
+        (links ? '<div class="credits-links">' + links + "</div>" : "") +
+        "</div>";
+    }).join("");
+  }
+
+  function initCredits() {
+    var modal = $("#creditsModal");
+    if (!modal) return;
+    var btn = $("#creditsBtn");
+    if (btn) btn.addEventListener("click", function () {
+      renderCredits();
+      modal.classList.add("open");
+    });
+    var closeBtn = $("#creditsClose");
+    if (closeBtn) closeBtn.addEventListener("click", function () { modal.classList.remove("open"); });
+    modal.addEventListener("click", function (e) { if (e.target === modal) modal.classList.remove("open"); });
+  }
+
   /* ============ メンバー比較表（members.html） ============ */
   function renderMemberCompare() {
     var box = $("#memberCompare");
@@ -2164,6 +2193,7 @@
     renderMembers();
     renderGroups();
     renderMemberCompare();
+    initCredits();
     renderLaunchers();
     renderGoods();
     renderGameFeature();
