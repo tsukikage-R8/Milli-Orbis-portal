@@ -157,7 +157,7 @@ const MEMBERS = [
   },
   {
     id: "nono",
-    gen: "1期生",
+    gen: "ミリプロSONA",
     name: "音ノ乃のの",
     nameEn: "Nonono Nono",
     color: "#6d609d",
@@ -200,7 +200,7 @@ const MEMBERS = [
     voice: "assets/voices/音ノ乃のの.mp3",
     intro: "",
     en: {
-      gen: "Gen 1",
+      gen: "MilliPro SONA",
       catch: "I want to shine like a diamond! ♢ VSinger",
       fanName: "Nonono-tai (Nono's Squad)",
       calls: "Nono-chan / Nonochi",
@@ -220,7 +220,7 @@ const MEMBERS = [
   },
   {
     id: "akubi",
-    gen: "2期生",
+    gen: "ミリプロSONA",
     name: "あくび・でもんすぺーど",
     nameEn: "Akubi Demonspade",
     color: "#5c1125",
@@ -263,7 +263,7 @@ const MEMBERS = [
     voice: "assets/voices/あくび・でもんすぺーど.mp3",
     intro: "",
     en: {
-      gen: "Gen 2",
+      gen: "MilliPro SONA",
       catch: "Kneel, you lot! I am Akubi Demonspade-sama!",
       fanName: "Bii Clan",
       calls: "Akubi-sama / Aku-sama / Bii-sama",
@@ -732,7 +732,7 @@ const MEMBERS = [
   },
   {
     id: "mahoro",
-    gen: "SONA",
+    gen: "ミリプロSONA",
     name: "鹿乃まほろ",
     nameEn: "Kano Mahoro",
     color: "#e0455e",
@@ -763,7 +763,7 @@ const MEMBERS = [
     voice: "",
     intro: "",
     en: {
-      gen: "SONA",
+      gen: "MilliPro SONA",
       catch: "A singer active since 2010 as an utaite. Major debut in 2015, member of MKLNtic. Joined Miripro SONA in August 2026",
       fanName: "???",
       calls: "???",
@@ -830,7 +830,8 @@ const GROUP_ICON = {
   "2期生": "images/icon/group/期生.webp",
   "3期生": "images/icon/group/期生.webp",
   "ミリプロNOVA": "images/icon/group/nova.webp",
-  "ミリプロUNI": "images/icon/group/uni.webp"
+  "ミリプロUNI": "images/icon/group/uni.webp",
+  "ミリプロSONA": "images/icon/group/SONA.png"
 };
 
 const COUNTDOWN = [
@@ -1015,6 +1016,8 @@ const HISTORY = [
   { date: "2026/7/11", title: "夕霧レイ デビュー（ミリプロUNI）", en: { title: "Yugiri Ray debuts (MilliPro UNI)" } },
   { date: "2026/7", title: "あくび・でもんすぺーど、チャンネル登録者数50万人突破", en: { title: "Akubi Demonspade surpasses 500K subscribers" } },
   { date: "2026/8/5", title: "夕霧レイ、チャンネル登録者数10万人突破", desc: "デビューから約1か月での突破", en: { title: "Yugiri Ray surpasses 100K subscribers", desc: "About 1 month after debut" } },
+  { date: "2026/8/16", title: "新グループ「ミリプロSONA」設立", desc: "音ノ乃のの・あくび・でもんすぺーど・鹿乃まほろの3名が所属", en: { title: "New group \"MilliPro SONA\" founded", desc: "Comprising Nono Nono, Akubi Demonspade, and Kano Mahoro" } },
+  { date: "2026/8/22", title: "鹿乃まほろ デビュー（ミリプロSONA）", en: { title: "Kano Mahoro debuts (MilliPro SONA)" } },
   { date: "2026/8/13", title: "英語学習アプリ「Risdom」とコラボ開始", desc: "甘狼このみが登場するゲーム型英語学習アプリ「Risdom（リズダム）」とのコラボ", en: { title: "Collaboration with the English-learning app \"Risdom\" begins", desc: "A collab with the game-based English-learning app \"Risdom\", featuring Amakami Konomi" } }
 ];
 
