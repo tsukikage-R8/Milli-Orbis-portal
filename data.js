@@ -732,26 +732,27 @@ const MEMBERS = [
   },
   {
     id: "mahoro",
-    gen: "新メンバー",
+    gen: "SONA",
     name: "鹿乃まほろ",
     nameEn: "Kano Mahoro",
     color: "#e0455e",
     subColor: "#fde8ec",
     birthday: "12-24",
-    debut: "2026-08-15",
-    catch: "苺のように甘く、歌で世界を癒す。いちごモチーフの新人シンガー",
-    fanName: "まほろいちご",
+    debut: "2026-08-22",
+    catch: "2010年より歌い手として活動するシンガー。2015年メジャーデビュー、MKLNtic メンバー。2026年8月にミリプロSONAへ加入",
+    fanName: "？？？",
     fanMark: '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><g fill="#e0455e"><path d="M12 20.4C6.8 16.4 3.6 12.9 3.6 9.2 3.6 6.6 5.6 4.6 8.2 4.6c1.5 0 2.9.7 3.8 1.9.9-1.2 2.3-1.9 3.8-1.9 2.6 0 4.6 2 4.6 4.6 0 3.7-3.2 7.2-8.4 11.2z"/></g><g fill="#ffe14d"><path d="M8.3 4.7c.3-1 .9-1.8 1.7-2.3-.1 1.2-.7 2.2-1.7 2.3z"/><path d="M12.4 4.3c.5-.9 1.2-1.5 2.1-1.9-.2 1.2-.9 2.1-2.1 1.9z"/></g></svg>',
-    calls: "まほろちゃん / まほろ",
-    profile: "いちごモチーフ・赤系カラーの新人タレント。実力派歌い手「鹿乃」としても活動しており、透明感のある歌声が特徴。音楽ユニットMKLNticのメンバーでもある。",
-    skills: "歌うこと（歌い手として長年活動）",
+    calls: "？？？",
+    profile: "2010年にニコニコ動画で歌い手として活動を開始し、2015年にメジャーデビューしたシンガー。2022年から音楽ユニットMKLNticのメンバーとしても活動。2026年7月にインクストゥエンターを退所し、同年8月にミリプロSONAへ加入。",
+    skills: "作詞作曲・歌唱・ギター（本人プロフィールより）",
     phrases: [],
-    likes: "苺スイーツ、音楽、歌",
+    likes: "？？？",
     dislikes: "？？？",
     achievements: [
-      "2026/8/15 ミリプロ加入発表"
+      "2026/8/16 ミリプロSONA加入発表",
+      "2026/8/22 初配信予定"
     ],
-    tags: { stream: "まほろばなし", clip: "", art: "まほろ絵" },
+    tags: { stream: "", clip: "", art: "" },
     links: { yt: "https://www.youtube.com/@Kano_", x: "https://x.com/kano_2525", tiktok: "" },
     img: "",
     logo: "images/rogo/mahororogo.png",
@@ -762,13 +763,13 @@ const MEMBERS = [
     voice: "",
     intro: "",
     en: {
-      gen: "New Member",
-      catch: "Sweet as a strawberry, healing the world through song. A strawberry-motif new singer",
-      fanName: "Mahoro Ichigo",
-      calls: "Mahoro-chan / Mahoro",
-      profile: "A new talent with a strawberry motif and red color scheme. Also active as the talented utaite \"Kano\", known for her transparent voice. A member of the music unit MKLNtic.",
-      skills: "Singing (years of experience as an utaite)",
-      likes: "Strawberry sweets, music, singing",
+      gen: "SONA",
+      catch: "A singer active since 2010 as an utaite. Major debut in 2015, member of MKLNtic. Joined Miripro SONA in August 2026",
+      fanName: "???",
+      calls: "???",
+      profile: "A singer who started her utaite activities on Nico Nico Douga in 2010 and made her major debut in 2015. Since 2022 she has also been a member of the music unit MKLNtic. She left Inkst Entertainment in July 2026 and joined Miripro SONA in August of the same year.",
+      skills: "Songwriting, singing, guitar (from her own profile)",
+      likes: "???",
       dislikes: "???",
       catchphrase: "Making everyone's everyday a mahoroba!"
     }
@@ -894,10 +895,10 @@ const NEWS = [
   {
     date: "2026-08-16",
     tag: "新メンバー",
-    title: "【新人加入】鹿乃まほろ ミリプロに加入！",
-    desc: "苺モチーフ・赤系カラーの新人シンガー「鹿乃まほろ」の加入が正式に発表されました。実力派歌い手「鹿乃」としても活動中。",
+    title: "【加入発表】鹿乃まほろ ミリプロSONAに加入！",
+    desc: "2010年より歌い手として活動するシンガー「鹿乃まほろ」のミリプロSONA加入が正式に発表されました。2015年メジャーデビュー、MKLNticメンバーとしても活動中。",
     url: "https://x.com/kano_2525",
-    en: { tag: "New Member", title: "[New Member] Kano Mahoro Joins MilliPro!", desc: "The strawberry-motif new singer \"Kano Mahoro\" has officially joined MilliPro. She is also active as the talented utaite \"Kano\"." }
+    en: { tag: "New Member", title: "[Joining Announcement] Kano Mahoro Joins MilliPro SONA!", desc: "The singer \"Kano Mahoro\", active as an utaite since 2010, has officially joined MilliPro SONA. Major debut in 2015, also active as a member of MKLNtic." }
   },
   {
     date: "2026-08-15",
