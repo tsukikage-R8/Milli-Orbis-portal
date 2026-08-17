@@ -44,7 +44,9 @@ window.SongData = (function () {
   }
 
   function videoUrl(id, start) {
-    return "https://www.youtube.com/watch?v=" + id + (start ? "&t=" + start : "");
+    return start
+      ? "https://www.youtube.com/watch?v=" + id + "&t=" + start
+      : "https://milli-unishare.onrender.com/#watch=" + id;
   }
 
   function fmtTs(sec) {

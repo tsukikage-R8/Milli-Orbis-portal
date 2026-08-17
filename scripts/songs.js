@@ -75,6 +75,7 @@
 
   var PLAY_SVG = '<svg width="30" height="30" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>';
   var YT_SVG = '<svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4L15.8 12l-6.2 3.6z"/></svg>';
+  var UNI_SVG = '<svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>';
   var STAR_SVG = '<svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.2 6.8.9-5 4.8 1.3 6.8L12 18.2 5.9 21.2l1.3-6.8-5-4.8 6.8-.9z"/></svg>';
 
   /* お気に入り☆ボタン（カード右上・サムネの上に重ねる） */
@@ -104,7 +105,7 @@
   }
 
   function ytBtnHtml(id) {
-    return '<a class="btn btn-ghost song-ytbtn" href="https://www.youtube.com/watch?v=' + id + '" target="_blank" rel="noopener">' + YT_SVG + " " + T("songs.youtube") + "</a>";
+    return '<a class="btn btn-ghost song-ytbtn" href="https://milli-unishare.onrender.com/#watch=' + id + '" target="_blank" rel="noopener">' + UNI_SVG + " " + T("songs.uniWatch") + "</a>";
   }
 
   /* メンバー検索対象: 名前・読み・ファンネーム・呼称・英語名 */
