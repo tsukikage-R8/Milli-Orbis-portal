@@ -56,20 +56,20 @@ window.KARAOKE_SHAZAM = {
   },
   "qkj1pQjIl44": {
     "status": "error",
-    "attempts": 2,
-    "attemptedAt": "2026-08-17T15:24:40.430781+00:00",
+    "attempts": 3,
+    "attemptedAt": "2026-08-17T16:25:39.448234+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: HTTP Error 502: Bad Gateway / https://pipedapi.reallya"
   },
   "5Ub76uMbqMw": {
     "status": "error",
-    "attempts": 2,
-    "attemptedAt": "2026-08-17T15:24:51.240699+00:00",
-    "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: HTTP Error 502: Bad Gateway / https://pipedapi.reallya"
+    "attempts": 3,
+    "attemptedAt": "2026-08-17T16:25:51.483518+00:00",
+    "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: Expecting value: line 2 column 1 (char 1) / https://pi"
   },
   "o4vfYWV92aY": {
     "status": "error",
-    "attempts": 2,
-    "attemptedAt": "2026-08-17T15:25:06.186647+00:00",
-    "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: Expecting value: line 2 column 1 (char 1) / https://pi"
+    "attempts": 3,
+    "attemptedAt": "2026-08-17T16:26:01.790186+00:00",
+    "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: HTTP Error 502: Bad Gateway / https://pipedapi.reallya"
   }
 };
