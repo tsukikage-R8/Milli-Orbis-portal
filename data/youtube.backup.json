@@ -1,78 +1,6 @@
 {
-  "updatedAt": "2026-08-16T16:09:52.474Z",
+  "updatedAt": "2026-08-16T20:07:24.566Z",
   "streams": [
-    {
-      "id": "4FbOsEcYFFg",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【マイクラ￤ストリヌ】最終日！悔いなく全部を全力で楽しむぞ🔥🔥🔥【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/4FbOsEcYFFg/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-16T13:09:40Z",
-      "status": "live",
-      "en": {
-        "title": "[Minecraft Strine] Last day! I will enjoy everything to the fullest without regrets 🔥🔥🔥 [#AmakamiLive]"
-      }
-    },
-    {
-      "id": "RSsQfObjmp0",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【ストリヌ】最終回「しっぷぅ騎士団」【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/RSsQfObjmp0/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-16T13:09:42Z",
-      "status": "live",
-      "en": {
-        "title": "[Strinu] Final episode “Shippuu Knights” [Yuragiyura/Millipro]"
-      }
-    },
-    {
-      "id": "rFqMbbCzJt4",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 ストリヌ 〗 ありがとうストリヌ！お洋服を届けてカジノへ #8〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/rFqMbbCzJt4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-16T13:17:04Z",
-      "status": "live",
-      "en": {
-        "title": "〖 Strine 〗 Thank you, Strine! Deliver the clothes and go to the casino #8〖 Nemugumo Tsukuri / Millipro〗"
-      }
-    },
-    {
-      "id": "_7Qz4mu1UF4",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 ストリヌ 】最終日、異世界楽しかった #9 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/_7Qz4mu1UF4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-16T13:29:48Z",
-      "status": "live",
-      "en": {
-        "title": "[Strinu] The last day was fun in another world #9 [Rei Yugiri / Millipro]"
-      }
-    },
-    {
-      "id": "WCGKc5VZQmQ",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 ストリヌ 】あっという間の異世界生活でした！！#9【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/WCGKc5VZQmQ/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-16T13:31:30Z",
-      "status": "live",
-      "en": {
-        "title": "[Strinu] Life in another world went by so quickly! ! #9 [Komawarikoma/Millipro]"
-      }
-    },
-    {
-      "id": "Z3DGZGF_NtI",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【ストリヌ/Minecraft 】もう最終日らしい🍓【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Z3DGZGF_NtI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-16T15:52:44Z",
-      "status": "live",
-      "en": {
-        "title": "[Strinu/Minecraft] Looks like it's the last day🍓 [Ameya Liz/MilliPro]"
-      }
-    },
     {
       "id": "YzfwW0zTSpE",
       "memberId": "mahoro",
@@ -244,16 +172,29 @@
   ],
   "videos": [
     {
-      "id": "momKVRfq50s",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【雑談 】雨夜さん実は隠していたことがあります。。。。。。【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/momKVRfq50s/hqdefault.jpg",
-      "publishedAt": "2026-08-16T16:05:42Z",
-      "live": true,
+      "id": "rFqMbbCzJt4",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ストリヌ 〗 ありがとうストリヌ！お洋服を届けてカジノへ #8〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/rFqMbbCzJt4/hqdefault.jpg",
+      "publishedAt": "2026-08-16T19:27:54Z",
+      "live": false,
       "en": {
-        "title": "[Chat] Ameya-san, there's actually something that I've been hiding. . . . . . [Ameya Liz/MilliPro]"
+        "title": "〖 Strine 〗 Thank you, Strine! Deliver the clothes and go to the casino #8〖 Nemugumo Tsukuri / Millipro〗"
+      }
+    },
+    {
+      "id": "_7Qz4mu1UF4",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 ストリヌ 】最終日、異世界楽しかった #9 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/_7Qz4mu1UF4/hqdefault.jpg",
+      "publishedAt": "2026-08-16T18:21:29Z",
+      "live": false,
+      "en": {
+        "title": "[Strinu] The last day was fun in another world #9 [Rei Yugiri / Millipro]"
       }
     },
     {
@@ -262,11 +203,76 @@
       "member": "雨夜リズ",
       "channelTitle": "雨夜リズ / Amayo Liz",
       "title": "【ストリヌ/Minecraft 】もう最終日らしい🍓【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Z3DGZGF_NtI/hqdefault_live.jpg",
-      "publishedAt": "2026-08-16T15:52:44Z",
+      "thumb": "https://i.ytimg.com/vi/Z3DGZGF_NtI/hqdefault.jpg",
+      "publishedAt": "2026-08-16T17:39:43Z",
       "live": false,
       "en": {
         "title": "[Strinu/Minecraft] Looks like it's the last day🍓 [Ameya Liz/MilliPro]"
+      }
+    },
+    {
+      "id": "4FbOsEcYFFg",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【マイクラ￤ストリヌ】最終日！悔いなく全部を全力で楽しむぞ🔥🔥🔥【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/4FbOsEcYFFg/hqdefault.jpg",
+      "publishedAt": "2026-08-16T17:38:22Z",
+      "live": false,
+      "en": {
+        "title": "[Minecraft Strine] Last day! I will enjoy everything to the fullest without regrets 🔥🔥🔥 [#AmakamiLive]"
+      }
+    },
+    {
+      "id": "WCGKc5VZQmQ",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 ストリヌ 】あっという間の異世界生活でした！！#9【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/WCGKc5VZQmQ/hqdefault.jpg",
+      "publishedAt": "2026-08-16T17:34:04Z",
+      "live": false,
+      "en": {
+        "title": "[Strinu] Life in another world went by so quickly! ! #9 [Komawarikoma/Millipro]"
+      }
+    },
+    {
+      "id": "2ZpI9IoeHek",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "【ストリヌ】最終回：莉犬さんありがとう【#あくび・でもんすぺーど】",
+      "thumb": "https://i.ytimg.com/vi/2ZpI9IoeHek/hqdefault.jpg",
+      "publishedAt": "2026-08-16T17:33:18Z",
+      "live": false,
+      "en": {
+        "title": "[Strinu] Final episode: Thank you Riinu [#Yawn/Monster Speed]"
+      }
+    },
+    {
+      "id": "RSsQfObjmp0",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【ストリヌ】最終回「しっぷぅ騎士団」【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/RSsQfObjmp0/hqdefault.jpg",
+      "publishedAt": "2026-08-16T17:32:23Z",
+      "live": false,
+      "en": {
+        "title": "[Strinu] Final episode “Shippuu Knights” [Yuragiyura/Millipro]"
+      }
+    },
+    {
+      "id": "momKVRfq50s",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【謝罪】雨夜さん実は隠していたことがあります。。。。。。【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/momKVRfq50s/hqdefault.jpg",
+      "publishedAt": "2026-08-16T16:05:42Z",
+      "live": false,
+      "en": {
+        "title": "[Apology] Mr. Ameya, there is actually something that I was hiding. . . . . . [Ameya Liz/MilliPro]"
       }
     },
     {
@@ -283,58 +289,6 @@
       }
     },
     {
-      "id": "2ZpI9IoeHek",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "【ストリヌ】最終回：莉犬さんありがとう【#あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/2ZpI9IoeHek/hqdefault_live.jpg",
-      "publishedAt": "2026-08-16T13:52:46Z",
-      "live": false,
-      "en": {
-        "title": "[Strinu] Final episode: Thank you Riinu [#Yawn/Monster Speed]"
-      }
-    },
-    {
-      "id": "WCGKc5VZQmQ",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 ストリヌ 】あっという間の異世界生活でした！！#9【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/WCGKc5VZQmQ/hqdefault_live.jpg",
-      "publishedAt": "2026-08-16T13:31:30Z",
-      "live": false,
-      "en": {
-        "title": "[Strinu] Life in another world went by so quickly! ! #9 [Komawarikoma/Millipro]"
-      }
-    },
-    {
-      "id": "_7Qz4mu1UF4",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 ストリヌ 】最終日、異世界楽しかった #9 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/_7Qz4mu1UF4/hqdefault_live.jpg",
-      "publishedAt": "2026-08-16T13:29:48Z",
-      "live": false,
-      "en": {
-        "title": "[Strinu] The last day was fun in another world #9 [Rei Yugiri / Millipro]"
-      }
-    },
-    {
-      "id": "rFqMbbCzJt4",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ストリヌ 〗 ありがとうストリヌ！お洋服を届けてカジノへ #8〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/rFqMbbCzJt4/hqdefault_live.jpg",
-      "publishedAt": "2026-08-16T13:17:04Z",
-      "live": false,
-      "en": {
-        "title": "〖 Strine 〗 Thank you, Strine! Deliver the clothes and go to the casino #8〖 Nemugumo Tsukuri / Millipro〗"
-      }
-    },
-    {
       "id": "4lba9sduOzI",
       "memberId": "official",
       "member": "ミリプロ公式",
@@ -345,32 +299,6 @@
       "live": true,
       "en": {
         "title": "[#MilliPro Summer 2026] MilliPro Presents - Super important announcement delivered by MilliPro -"
-      }
-    },
-    {
-      "id": "RSsQfObjmp0",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【ストリヌ】最終回「しっぷぅ騎士団」【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/RSsQfObjmp0/hqdefault_live.jpg",
-      "publishedAt": "2026-08-16T13:09:42Z",
-      "live": false,
-      "en": {
-        "title": "[Strinu] Final episode “Shippuu Knights” [Yuragiyura/Millipro]"
-      }
-    },
-    {
-      "id": "4FbOsEcYFFg",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【マイクラ￤ストリヌ】最終日！悔いなく全部を全力で楽しむぞ🔥🔥🔥【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/4FbOsEcYFFg/hqdefault_live.jpg",
-      "publishedAt": "2026-08-16T13:09:40Z",
-      "live": false,
-      "en": {
-        "title": "[Minecraft Strine] Last day! I will enjoy everything to the fullest without regrets 🔥🔥🔥 [#AmakamiLive]"
       }
     },
     {
@@ -634,78 +562,5 @@
       }
     }
   ],
-  "live": [
-    {
-      "id": "4FbOsEcYFFg",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【マイクラ￤ストリヌ】最終日！悔いなく全部を全力で楽しむぞ🔥🔥🔥【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/4FbOsEcYFFg/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-16T13:09:40Z",
-      "status": "live",
-      "en": {
-        "title": "[Minecraft Strine] Last day! I will enjoy everything to the fullest without regrets 🔥🔥🔥 [#AmakamiLive]"
-      }
-    },
-    {
-      "id": "RSsQfObjmp0",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【ストリヌ】最終回「しっぷぅ騎士団」【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/RSsQfObjmp0/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-16T13:09:42Z",
-      "status": "live",
-      "en": {
-        "title": "[Strinu] Final episode “Shippuu Knights” [Yuragiyura/Millipro]"
-      }
-    },
-    {
-      "id": "rFqMbbCzJt4",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 ストリヌ 〗 ありがとうストリヌ！お洋服を届けてカジノへ #8〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/rFqMbbCzJt4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-16T13:17:04Z",
-      "status": "live",
-      "en": {
-        "title": "〖 Strine 〗 Thank you, Strine! Deliver the clothes and go to the casino #8〖 Nemugumo Tsukuri / Millipro〗"
-      }
-    },
-    {
-      "id": "_7Qz4mu1UF4",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 ストリヌ 】最終日、異世界楽しかった #9 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/_7Qz4mu1UF4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-16T13:29:48Z",
-      "status": "live",
-      "en": {
-        "title": "[Strinu] The last day was fun in another world #9 [Rei Yugiri / Millipro]"
-      }
-    },
-    {
-      "id": "WCGKc5VZQmQ",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 ストリヌ 】あっという間の異世界生活でした！！#9【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/WCGKc5VZQmQ/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-16T13:31:30Z",
-      "status": "live",
-      "en": {
-        "title": "[Strinu] Life in another world went by so quickly! ! #9 [Komawarikoma/Millipro]"
-      }
-    },
-    {
-      "id": "Z3DGZGF_NtI",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【ストリヌ/Minecraft 】もう最終日らしい🍓【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Z3DGZGF_NtI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-16T15:52:44Z",
-      "status": "live",
-      "en": {
-        "title": "[Strinu/Minecraft] Looks like it's the last day🍓 [Ameya Liz/MilliPro]"
-      }
-    }
-  ]
+  "live": []
 }

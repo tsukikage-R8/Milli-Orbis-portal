@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-08-16",
+  "generatedAt": "2026-08-17",
   "songs": {
     "カゲロウデイズfeat.": {
       "title": "カゲロウデイズ",
