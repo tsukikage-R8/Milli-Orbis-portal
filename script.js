@@ -177,7 +177,7 @@
       var vc = e.target.closest(".fav-video");
       if (vc) {
         var fStart = parseInt(vc.dataset.start, 10);
-        window.open(fStart ? "https://www.youtube.com/watch?v=" + vc.dataset.vid + "&t=" + fStart : "https://milli-unishare.onrender.com/#watch=" + vc.dataset.vid, "_blank");
+        window.open("https://milli-unishare.onrender.com/#watch=" + vc.dataset.vid + (fStart ? "&t=" + fStart : ""), "_blank");
       }
     });
   }
