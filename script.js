@@ -1068,19 +1068,43 @@
   function renderNews() {
     var box = $("#newsList");
     if (!box) return;
-    box.innerHTML = NEWS.map(function (n) {
-      return '<div class="news-item card"><div class="news-head"><span class="news-date">' +
-        fmtDate(new Date(n.date)) + '</span><span class="news-tag">' + esc(loc(n, "tag")) + "</span>" +
-        bmBtnHtml("nw:" + n.date + ":" + loc(n, "title"),
-          ' data-bm-kind="news" data-bm-date="' + n.date + '" data-bm-tag="' + esc(loc(n, "tag")) + '"' +
-          ' data-bm-title="' + esc(loc(n, "title")) + '" data-bm-desc="' + esc(loc(n, "desc") || "") + '"' +
-          ' data-bm-url="' + esc(n.url || "") + '"') +
-        "</div>" +
-        '<div class="news-title">' + esc(loc(n, "title")) + "</div>" +
-        '<div class="news-desc">' + esc(loc(n, "desc")) + "</div>" +
-        (n.url ? '<a class="btn btn-ghost" href="' + n.url + '" target="_blank" rel="noopener">' + T("news.more") + "</a>" : "") +
-        "</div>";
+    var EXPANDED = 2;
+    var html = NEWS.map(function (n, i) {
+      var more = n.url ? '<a class="btn btn-ghost news-more" href="' + n.url + '" target="_blank" rel="noopener">' + T("news.more") + "</a>" : "";
+      var bm = bmBtnHtml("nw:" + n.date + ":" + loc(n, "title"),
+        ' data-bm-kind="news" data-bm-date="' + n.date + '" data-bm-tag="' + esc(loc(n, "tag")) + '"' +
+        ' data-bm-title="' + esc(loc(n, "title")) + '" data-bm-desc="' + esc(loc(n, "desc") || "") + '"' +
+        ' data-bm-url="' + esc(n.url || "") + '"');
+      var head = '<div class="news-head"><span class="news-tag">' + esc(loc(n, "tag")) + "</span>" +
+        '<span class="news-date">' + fmtDate(new Date(n.date)) + "</span>" + bm + "</div>";
+      var body = '<div class="news-title">' + esc(loc(n, "title")) + "</div>" +
+        '<div class="news-desc">' + esc(loc(n, "desc")) + "</div>" + more;
+      var cls = "news-item card" + (i >= EXPANDED ? " collapsed" : "");
+      return '<div class="' + cls + '" data-news-idx="' + i + '">' + head + body + "</div>";
     }).join("");
+    var hidden = NEWS.length - EXPANDED;
+    if (hidden > 0) {
+      html += '<button class="news-toggle" type="button" data-collapsed="1">' +
+        T("news.toggle", { count: hidden }) + "</button>";
+    }
+    box.innerHTML = html;
+    var toggle = box.querySelector(".news-toggle");
+    if (toggle) {
+      toggle.addEventListener("click", function () {
+        var collapsed = toggle.dataset.collapsed === "1";
+        box.querySelectorAll(".news-item.collapsed").forEach(function (el) {
+          el.classList.toggle("show", collapsed);
+          el.classList.toggle("collapsed", !collapsed);
+        });
+        toggle.dataset.collapsed = collapsed ? "0" : "1";
+        toggle.textContent = collapsed ? T("news.collapse") : T("news.toggle", { count: hidden });
+      });
+    }
+    box.querySelectorAll(".news-item .news-title, .news-item .news-desc").forEach(function (el) {
+      el.addEventListener("click", function () {
+        el.closest(".news-item").classList.toggle("desc-open");
+      });
+    });
   }
 
   /* ============ X埋め込み ============ */
@@ -1132,6 +1156,39 @@
         '<span class="btn">' + T("members.detail") + "</span>" +
         "</a>";
     }).join("");
+  }
+
+  /* ============ グループ・期生まとめ ============ */
+  function renderGroups() {
+    var box = $("#groupList");
+    if (!box) return;
+    box.innerHTML = GROUP_INFO.map(function (g) {
+      var memberChips = g.members.map(function (gm) {
+        var m = memberById(gm.id);
+        if (!m) return "";
+        var note = gm.note ? '<span class="gp-note">' + esc(gm.note) + "</span>" : "";
+        return '<a class="gp-member" href="' + m.id + '.html" style="--mc:' + m.color + ";--mc-soft:" + m.subColor + '">' +
+          '<span class="gp-member-face" style="background:' + m.subColor + '">' +
+          '<img src="' + (m.icon || m.img) + '" alt="' + esc(mName(m)) + '" loading="lazy">' +
+          "</span>" +
+          '<span class="gp-member-name">' + esc(mName(m)) + "</span>" + note +
+          "</a>";
+      }).join("");
+      var badge = g.badge === "new" ? '<span class="gp-badge">' + T("groups.new") + "</span>" : "";
+      var icon = g.icon ? '<img class="gp-icon" src="' + esc(g.icon) + '" alt="" loading="lazy">' : "";
+      return '<div class="gp-card card">' +
+        '<div class="gp-head">' + icon +
+        '<div class="gp-title-wrap"><h3 class="gp-name">' + esc(loc(g, "name")) + "</h3>" +
+        "</div>" + badge + "</div>" +
+        '<p class="gp-desc">' + esc(loc(g, "desc")) + "</p>" +
+        '<p class="gp-label">' + T("groups.members") + "</p>" +
+        '<div class="gp-members">' + memberChips + "</div>" +
+        "</div>";
+    }).join("");
+  }
+
+  function memberById(id) {
+    return MEMBERS.filter(function (m) { return m.id === id; })[0];
   }
 
   /* ============ メンバー比較表（members.html） ============ */
@@ -2105,6 +2162,7 @@
     renderNews();
     renderXPosts();
     renderMembers();
+    renderGroups();
     renderMemberCompare();
     renderLaunchers();
     renderGoods();

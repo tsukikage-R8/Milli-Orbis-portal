@@ -1,4 +1,4 @@
-/* 自動生成: node scripts/fetch-songs.js（変更しないでください） */
+/* 自動生成: node scripts/fetch-mahoro-songs.js（変更しないでください） */
 window.SONGS = {
   "generatedAt": "2026-08-17",
   "official": [
@@ -53,6 +53,17 @@ window.SONGS = {
       }
     },
     {
+      "id": "NcwH_Uxgm6E",
+      "title": "【崩壊3rd】Fairy Winking - 【エリシア イメージソング】",
+      "publishedAt": "2025-11-22",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "[Collapse 3rd] Fairy Winking -"
+      }
+    },
+    {
       "id": "Xb9MKKcVTK8",
       "title": "HYPE SEEKER / 音ノ乃のの (official)",
       "publishedAt": "2025-09-29",
@@ -64,11 +75,30 @@ window.SONGS = {
       }
     },
     {
+      "id": "-Ki0jav4fQg",
+      "title": "【鳴潮】Pale moonlight",
+      "publishedAt": "2025-09-25",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "[Narushio] Pale moonlight -"
+      }
+    },
+    {
       "id": "d-IGBfIo3lM",
       "title": "HYPE SEEKER",
       "publishedAt": "2025-08-29",
       "members": [
         "nono"
+      ]
+    },
+    {
+      "id": "7F6NVTxPrsI",
+      "title": "「Hiraeth」Music Video",
+      "publishedAt": "2025-07-02",
+      "members": [
+        "mahoro"
       ]
     },
     {
@@ -83,6 +113,28 @@ window.SONGS = {
       }
     },
     {
+      "id": "9m3ste7cWs0",
+      "title": "「ドッペル原画と複製ゲンガー」Music Video",
+      "publishedAt": "2025-02-11",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "“Doppel original picture and reproduction Gengar” Music Video"
+      }
+    },
+    {
+      "id": "YiABCz7hPQE",
+      "title": "【崩壊：スターレイル】To the Moon / 【HoYoFair】",
+      "publishedAt": "2025-01-01",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "[Collapse: Star Rail] To the Moon"
+      }
+    },
+    {
       "id": "uUX8zLoK3TI",
       "title": "ののの音々ネ！/音ノ乃のの (official)",
       "publishedAt": "2024-12-22",
@@ -91,6 +143,17 @@ window.SONGS = {
       ],
       "en": {
         "title": "Nono's sounds! /Otononono (official)"
+      }
+    },
+    {
+      "id": "duivaVC0boc",
+      "title": "「愛と哀」Music Video",
+      "publishedAt": "2024-10-23",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "“Love and Sorrow” Music Video"
       }
     },
     {
@@ -105,6 +168,17 @@ window.SONGS = {
       }
     },
     {
+      "id": "yIkVTnt5kxs",
+      "title": "「メトメ」Music Video",
+      "publishedAt": "2024-08-28",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "“Metome” Music Video"
+      }
+    },
+    {
       "id": "Hy4aFw7NHiw",
       "title": "約束/音ノ乃のの (official)",
       "publishedAt": "2024-05-04",
@@ -114,6 +188,248 @@ window.SONGS = {
       "en": {
         "title": "Promise/Otononono (official)"
       }
+    },
+    {
+      "id": "QeDLf05ejus",
+      "title": "「ステレオフォニック」Music Video",
+      "publishedAt": "2024-04-20",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "\"Stereophonic\" Music Video"
+      }
+    },
+    {
+      "id": "DTF5L6NHBDA",
+      "title": "【スノウブレイク：禁域降臨イメージソング】狙え！海に降臨",
+      "publishedAt": "2023-11-03",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "[Snow Break: Forbidden Region Image Song] Aim! Descending to the sea ["
+      }
+    },
+    {
+      "id": "cJ-eRHxhE6A",
+      "title": "【原神MV - 宵宮】今宵Dance～花火やねん",
+      "publishedAt": "2022-12-31",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "[Genshin MV - Yoimiya] Tonight Dance ~ Fireworks ["
+      }
+    },
+    {
+      "id": "bSibPLEYTY8",
+      "title": "「いちごいちえ Celebration」【OFFICIAL】「宇崎ちゃんは遊びたい！ω」OP",
+      "publishedAt": "2022-10-07",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "“Ichigo Ichie Celebration” [OFFICIAL] “Uzaki-chan wants to play!ω” OP"
+      }
+    },
+    {
+      "id": "ZkDEkUf6jlg",
+      "title": "それはきっと夏だった",
+      "publishedAt": "2021-08-18",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "It must have been summer"
+      }
+    },
+    {
+      "id": "UX8_xSOZfUc",
+      "title": "「コンパスソング」【OFFICIAL】「装甲娘戦機」ED",
+      "publishedAt": "2021-08-18",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "\"Compass Song\" [OFFICIAL] \"Armor Musume Senki\" ED"
+      }
+    },
+    {
+      "id": "dioEcz621Jg",
+      "title": "/KANO 2020remix",
+      "publishedAt": "2021-08-18",
+      "members": [
+        "mahoro"
+      ]
+    },
+    {
+      "id": "GPo-g6tHH_4",
+      "title": "「ルカルカ☆ナイトフィーバー」【OFFICIAL】",
+      "publishedAt": "2020-08-18",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "“Luka Luka☆Night Fever” [OFFICIAL]"
+      }
+    },
+    {
+      "id": "LS61xdsolis",
+      "title": "「午前0時の無力な神様」【OFFICIAL】",
+      "publishedAt": "2020-08-18",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "“The helpless god at midnight” [OFFICIAL]"
+      }
+    },
+    {
+      "id": "34nCX5AEXWY",
+      "title": "「なだめスかし Negotiation」【OFFICIAL】「宇崎ちゃんは遊びたい！」OP",
+      "publishedAt": "2020-08-18",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "“Nadamesukashi Negotiation” [OFFICIAL] “Uzaki-chan wants to play!” OP"
+      }
+    },
+    {
+      "id": "XXOEO_i8tMk",
+      "title": "『「Q」&「A」』【OFFICIAL】",
+      "publishedAt": "2019-08-19",
+      "members": [
+        "mahoro"
+      ]
+    },
+    {
+      "id": "QqSDGg_MlTw",
+      "title": "「HOPE」【OFFICIAL】",
+      "publishedAt": "2019-08-19",
+      "members": [
+        "mahoro"
+      ]
+    },
+    {
+      "id": "yvtyw-HAyHA",
+      "title": "「HOPE」(short ver.)【OFFICIAL】",
+      "publishedAt": "2018-10-25",
+      "members": [
+        "mahoro"
+      ]
+    },
+    {
+      "id": "DdedCMxUBl8",
+      "title": "「Daisy Blue」【OFFICIAL】",
+      "publishedAt": "2018-08-19",
+      "members": [
+        "mahoro"
+      ]
+    },
+    {
+      "id": "Fppdf8foYoA",
+      "title": "「Ivy」 【OFFICIAL】",
+      "publishedAt": "2018-08-19",
+      "members": [
+        "mahoro"
+      ]
+    },
+    {
+      "id": "-J4PaiGgEPA",
+      "title": "「春に落ちて」【OFFICIAL】",
+      "publishedAt": "2018-08-19",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "“Falling in Spring” [OFFICIAL]"
+      }
+    },
+    {
+      "id": "l4Rp9GNXhU4",
+      "title": "「RERE」 【OFFICIAL】",
+      "publishedAt": "2017-08-19",
+      "members": [
+        "mahoro"
+      ]
+    },
+    {
+      "id": "z7EkuWkEyPc",
+      "title": "サンクチュアリ",
+      "publishedAt": "2017-08-19",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "[MV] Sanctuary ["
+      }
+    },
+    {
+      "id": "A8jUgcSgcQg",
+      "title": "「day by day」(short ver.) 【OFFICIAL】",
+      "publishedAt": "2017-08-19",
+      "members": [
+        "mahoro"
+      ]
+    },
+    {
+      "id": "vDaBppdt5rw",
+      "title": "「29-Q」(short ver.) 【OFFICIAL】",
+      "publishedAt": "2017-08-19",
+      "members": [
+        "mahoro"
+      ]
+    },
+    {
+      "id": "6BXKh4f6Vhw",
+      "title": "「プリマステラ」 【OFFICIAL】",
+      "publishedAt": "2016-08-19",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "\"Plymouth Stella\" [OFFICIAL]"
+      }
+    },
+    {
+      "id": "im2tTHtR5YU",
+      "title": "「nameless」 【OFFICIAL】",
+      "publishedAt": "2016-08-19",
+      "members": [
+        "mahoro"
+      ]
+    },
+    {
+      "id": "UstE6yTlwcU",
+      "title": "「ディアブレイブ」 【OFFICIAL】",
+      "publishedAt": "2015-11-06",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "“Dear Brave” [OFFICIAL]"
+      }
+    },
+    {
+      "id": "X0QIH_tp4Hg",
+      "title": "「ディアブレイブ」 （short ver.） 【OFFICIAL】",
+      "publishedAt": "2015-10-09",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "“Dear Brave” (short ver.) [OFFICIAL]"
+      }
+    },
+    {
+      "id": "GNkPJvVEm0s",
+      "title": "「Stella-rium」 【OFFICIAL】",
+      "publishedAt": "2015-05-20",
+      "members": [
+        "mahoro"
+      ]
     }
   ],
   "covers": [
@@ -380,6 +696,11 @@ window.SONGS = {
           "id": "FicuKhVOyoY",
           "memberId": "tsukuri",
           "publishedAt": "2026-05-19"
+        },
+        {
+          "id": "YpfofCA_zLk",
+          "memberId": "mahoro",
+          "publishedAt": "2026-07-26"
         }
       ],
       "en": {
@@ -856,6 +1177,11 @@ window.SONGS = {
           "id": "8FchJH33Gm0",
           "memberId": "tsukuri",
           "publishedAt": "2025-11-20"
+        },
+        {
+          "id": "phxzj8rk9O8",
+          "memberId": "mahoro",
+          "publishedAt": "2026-04-11"
         }
       ],
       "en": {
@@ -933,6 +1259,16 @@ window.SONGS = {
           "id": "mZ-PnGIXxpk",
           "memberId": "yura",
           "publishedAt": "2025-11-07"
+        },
+        {
+          "id": "aoOoKlStRnU",
+          "memberId": "mahoro",
+          "publishedAt": "2025-09-09"
+        },
+        {
+          "id": "NJ7IgcvZ-00",
+          "memberId": "mahoro",
+          "publishedAt": "2025-08-30"
         }
       ],
       "en": {
@@ -1073,6 +1409,11 @@ window.SONGS = {
           "id": "UgpV6bWtt9Q",
           "memberId": "raco",
           "publishedAt": "2025-08-10"
+        },
+        {
+          "id": "cDavhDfUJ9I",
+          "memberId": "mahoro",
+          "publishedAt": "2025-08-09"
         }
       ],
       "en": {
@@ -1301,6 +1642,11 @@ window.SONGS = {
           "id": "u5RRk9DZs3M",
           "memberId": "nono",
           "publishedAt": "2025-06-03"
+        },
+        {
+          "id": "N-ZTFGlD8Rg",
+          "memberId": "mahoro",
+          "publishedAt": "2021-08-18"
         }
       ]
     },
@@ -1542,6 +1888,11 @@ window.SONGS = {
           "id": "nj0BQtn8ADA",
           "memberId": "raco",
           "publishedAt": "2025-02-03"
+        },
+        {
+          "id": "05O0zGnA0fw",
+          "memberId": "mahoro",
+          "publishedAt": "2025-08-17"
         }
       ],
       "en": {
@@ -1629,6 +1980,11 @@ window.SONGS = {
           "id": "CkqeBR9eWDU",
           "memberId": "raco",
           "publishedAt": "2024-10-11"
+        },
+        {
+          "id": "XEydcO-m0Dw",
+          "memberId": "mahoro",
+          "publishedAt": "2025-08-17"
         }
       ],
       "en": {
@@ -1950,6 +2306,11 @@ window.SONGS = {
           "id": "A4CGHw0xzh4",
           "memberId": "akubi",
           "publishedAt": "2024-03-15"
+        },
+        {
+          "id": "yXxccEqgAO4",
+          "memberId": "mahoro",
+          "publishedAt": "2021-08-18"
         }
       ]
     },
@@ -2286,6 +2647,1140 @@ window.SONGS = {
           "publishedAt": "2026-06-27"
         }
       ]
+    },
+    {
+      "title": "p.h.",
+      "key": "p.h.",
+      "urls": [
+        {
+          "id": "mKhOBDgi2Nk",
+          "memberId": "mahoro",
+          "publishedAt": "2025-10-11"
+        }
+      ]
+    },
+    {
+      "title": "コノハの世界事情",
+      "key": "コノハの世界事情",
+      "urls": [
+        {
+          "id": "8l4mPYhRMJw",
+          "memberId": "mahoro",
+          "publishedAt": "2025-07-24"
+        }
+      ],
+      "en": {
+        "title": "Konoha's world affairs"
+      }
+    },
+    {
+      "title": "ドライフラワー",
+      "key": "ドライフラワ",
+      "urls": [
+        {
+          "id": "kak80VO92M0",
+          "memberId": "mahoro",
+          "publishedAt": "2026-07-19"
+        }
+      ],
+      "en": {
+        "title": "dried flowers"
+      }
+    },
+    {
+      "title": "雨き声残響",
+      "key": "雨き声残響",
+      "urls": [
+        {
+          "id": "RKQ1JFF9IMY",
+          "memberId": "mahoro",
+          "publishedAt": "2026-07-12"
+        }
+      ],
+      "en": {
+        "title": "reverberation of rainy voices"
+      }
+    },
+    {
+      "title": "春を告げる",
+      "key": "春を告げる",
+      "urls": [
+        {
+          "id": "X8ZKPqsAvAc",
+          "memberId": "mahoro",
+          "publishedAt": "2026-05-02"
+        }
+      ],
+      "en": {
+        "title": "announce spring"
+      }
+    },
+    {
+      "title": "ライラック",
+      "key": "ライラック",
+      "urls": [
+        {
+          "id": "6eKfxC5kI38",
+          "memberId": "mahoro",
+          "publishedAt": "2026-03-29"
+        }
+      ],
+      "en": {
+        "title": "lilac"
+      }
+    },
+    {
+      "title": "アイロニ",
+      "key": "アイロニ",
+      "urls": [
+        {
+          "id": "7VaHhYBZO_8",
+          "memberId": "mahoro",
+          "publishedAt": "2025-12-27"
+        },
+        {
+          "id": "l3j2Ud8Mo4A",
+          "memberId": "mahoro",
+          "publishedAt": "2015-08-20"
+        }
+      ],
+      "en": {
+        "title": "irony"
+      }
+    },
+    {
+      "title": "心拍数#0822",
+      "key": "心拍数#0822",
+      "urls": [
+        {
+          "id": "4n5WKs61dzA",
+          "memberId": "mahoro",
+          "publishedAt": "2025-08-22"
+        }
+      ],
+      "en": {
+        "title": "Heart rate #0822"
+      }
+    },
+    {
+      "title": "glow",
+      "key": "glow",
+      "urls": [
+        {
+          "id": "JiqQAZi5aFI",
+          "memberId": "mahoro",
+          "publishedAt": "2025-08-06"
+        }
+      ]
+    },
+    {
+      "title": "ワールズエンド・ダンスホール",
+      "key": "ワルズエンドダンスホル",
+      "urls": [
+        {
+          "id": "sFF_rAulKgo",
+          "memberId": "mahoro",
+          "publishedAt": "2025-07-19"
+        }
+      ],
+      "en": {
+        "title": "world's end dance hall"
+      }
+    },
+    {
+      "title": "失恋ソング沢山聴いて 泣いてばかりの私はもう。",
+      "key": "失恋ソング沢山聴いて泣いてばかりの私はもう。",
+      "urls": [
+        {
+          "id": "CYMRgYyFLbw",
+          "memberId": "mahoro",
+          "publishedAt": "2025-08-17"
+        }
+      ],
+      "en": {
+        "title": "I listen to so many heartbreak songs and just cry."
+      }
+    },
+    {
+      "title": "モニタリング - DECO*27",
+      "key": "モニタリング-deco*27",
+      "urls": [
+        {
+          "id": "YYQMvQwl6yg",
+          "memberId": "mahoro",
+          "publishedAt": "2025-08-17"
+        }
+      ],
+      "en": {
+        "title": "Monitoring - DECO*27"
+      }
+    },
+    {
+      "title": "みむかｩわナイストライ - Mimukauwa Nice Try",
+      "key": "みむかｩわナイストライ-mimukauwanicetry",
+      "urls": [
+        {
+          "id": "7JPT77tuYGo",
+          "memberId": "mahoro",
+          "publishedAt": "2025-08-17"
+        }
+      ],
+      "en": {
+        "title": "Mimukauwa Nice Try - Mimukauwa Nice Try"
+      }
+    },
+    {
+      "title": "モエチャッカファイア",
+      "key": "モエチャッカファイア",
+      "urls": [
+        {
+          "id": "u94em1yyfKA",
+          "memberId": "mahoro",
+          "publishedAt": "2025-08-17"
+        }
+      ],
+      "en": {
+        "title": "moe chukka fire"
+      }
+    },
+    {
+      "title": "お呪い - なきそ",
+      "key": "お呪い-なきそ",
+      "urls": [
+        {
+          "id": "yN7ggoScX48",
+          "memberId": "mahoro",
+          "publishedAt": "2024-08-17"
+        }
+      ],
+      "en": {
+        "title": "Curse - Nakiso"
+      }
+    },
+    {
+      "title": "うぉんちゅーばっど - jon-YAKITORY",
+      "key": "うぉんちゅばっど-jon-yakitory",
+      "urls": [
+        {
+          "id": "LxDZXxsWg9U",
+          "memberId": "mahoro",
+          "publishedAt": "2024-08-17"
+        }
+      ],
+      "en": {
+        "title": "Wonchu Bad - jon-YAKITORY"
+      }
+    },
+    {
+      "title": "ラビットホール - DECO*27",
+      "key": "ラビットホル-deco*27",
+      "urls": [
+        {
+          "id": "sjS5hzweb6Q",
+          "memberId": "mahoro",
+          "publishedAt": "2024-08-17"
+        }
+      ],
+      "en": {
+        "title": "Rabbit Hole - DECO*27"
+      }
+    },
+    {
+      "title": "ド屑 - なきそ",
+      "key": "ド屑-なきそ",
+      "urls": [
+        {
+          "id": "vVJjJmZcIJc",
+          "memberId": "mahoro",
+          "publishedAt": "2024-08-17"
+        }
+      ],
+      "en": {
+        "title": "Do-Kusu - Nakiso"
+      }
+    },
+    {
+      "title": "寝起きヤシの木 - Yukopi",
+      "key": "寝起きヤシの木-yukopi",
+      "urls": [
+        {
+          "id": "dZeagYFiXAI",
+          "memberId": "mahoro",
+          "publishedAt": "2024-08-17"
+        }
+      ],
+      "en": {
+        "title": "Waking up palm tree - Yukopi"
+      }
+    },
+    {
+      "title": "INTERNET OVERDOSE",
+      "key": "internetoverdose",
+      "urls": [
+        {
+          "id": "_KMr_p_T5ow",
+          "memberId": "mahoro",
+          "publishedAt": "2023-08-18"
+        }
+      ]
+    },
+    {
+      "title": "アイドル - YOASOBI",
+      "key": "アイドル-yoasobi",
+      "urls": [
+        {
+          "id": "5Ht_7PxB7LM",
+          "memberId": "mahoro",
+          "publishedAt": "2023-08-18"
+        }
+      ],
+      "en": {
+        "title": "Idol - YOASOBI"
+      }
+    },
+    {
+      "title": "強風オールバック",
+      "key": "強風オルバック",
+      "urls": [
+        {
+          "id": "95IHn2aicV8",
+          "memberId": "mahoro",
+          "publishedAt": "2023-08-18"
+        }
+      ],
+      "en": {
+        "title": "strong wind all back"
+      }
+    },
+    {
+      "title": "Beat Eater - ポリスピカデリー",
+      "key": "beateater-ポリスピカデリ",
+      "urls": [
+        {
+          "id": "8pGbxewZbbU",
+          "memberId": "mahoro",
+          "publishedAt": "2023-08-18"
+        }
+      ],
+      "en": {
+        "title": "Beat Eater - Police Piccadilly"
+      }
+    },
+    {
+      "title": "私は、私達は - Guiano",
+      "key": "私は、私達は-guiano",
+      "urls": [
+        {
+          "id": "lPP4FSvNQlg",
+          "memberId": "mahoro",
+          "publishedAt": "2023-08-18"
+        }
+      ],
+      "en": {
+        "title": "I, We - Guiano"
+      }
+    },
+    {
+      "title": "カタオモイ - Aimer",
+      "key": "カタオモイ-aimer",
+      "urls": [
+        {
+          "id": "fbvvS8e1KgI",
+          "memberId": "mahoro",
+          "publishedAt": "2023-08-18"
+        }
+      ],
+      "en": {
+        "title": "Kataomoi - Aimer"
+      }
+    },
+    {
+      "title": "ちゅ、多様性。",
+      "key": "ちゅ、多様性。",
+      "urls": [
+        {
+          "id": "ZB1pBPY556A",
+          "memberId": "mahoro",
+          "publishedAt": "2023-08-18"
+        }
+      ],
+      "en": {
+        "title": "Tsk, diversity."
+      }
+    },
+    {
+      "title": "Trust On Me -Theme Of E.T.E-",
+      "key": "trustonme-themeofe.t.e",
+      "urls": [
+        {
+          "id": "AG5a1Wx1lRI",
+          "memberId": "mahoro",
+          "publishedAt": "2023-08-18"
+        }
+      ]
+    },
+    {
+      "title": "マスターピース",
+      "key": "マスタピス",
+      "urls": [
+        {
+          "id": "Sx5oG-V21DY",
+          "memberId": "mahoro",
+          "publishedAt": "2022-08-18"
+        }
+      ],
+      "en": {
+        "title": "master piece"
+      }
+    },
+    {
+      "title": "シンデレラボーイ",
+      "key": "シンデレラボイ",
+      "urls": [
+        {
+          "id": "YGgahso4Zto",
+          "memberId": "mahoro",
+          "publishedAt": "2022-08-18"
+        }
+      ],
+      "en": {
+        "title": "cinderella boy"
+      }
+    },
+    {
+      "title": "「Sincerely」acoustic",
+      "key": "sincerelyacoustic",
+      "urls": [
+        {
+          "id": "b4xYPg121qU",
+          "memberId": "mahoro",
+          "publishedAt": "2022-08-18"
+        }
+      ]
+    },
+    {
+      "title": "僕が死のうと思ったのは",
+      "key": "僕が死のうと思ったのは",
+      "urls": [
+        {
+          "id": "V5Uo57bIK6I",
+          "memberId": "mahoro",
+          "publishedAt": "2022-08-18"
+        }
+      ],
+      "en": {
+        "title": "I thought I was going to die"
+      }
+    },
+    {
+      "title": "無理に笑わなくて良いよ",
+      "key": "無理に笑わなくて良いよ",
+      "urls": [
+        {
+          "id": "ydwWBIgNzEc",
+          "memberId": "mahoro",
+          "publishedAt": "2022-08-18"
+        }
+      ],
+      "en": {
+        "title": "You don't have to force yourself to smile"
+      }
+    },
+    {
+      "title": "「Oz./yama」",
+      "key": "oz.yama",
+      "urls": [
+        {
+          "id": "oFKvFwzDgew",
+          "memberId": "mahoro",
+          "publishedAt": "2022-08-18"
+        }
+      ]
+    },
+    {
+      "title": "CHO-DARI-",
+      "key": "cho-dari",
+      "urls": [
+        {
+          "id": "GAG3qwmJe80",
+          "memberId": "mahoro",
+          "publishedAt": "2022-08-18"
+        }
+      ]
+    },
+    {
+      "title": "フォニイ / phony",
+      "key": "フォニイphony",
+      "urls": [
+        {
+          "id": "SSy-z9N7A-k",
+          "memberId": "mahoro",
+          "publishedAt": "2022-08-18"
+        }
+      ],
+      "en": {
+        "title": "phonii / phony"
+      }
+    },
+    {
+      "title": "ダーリンダンス",
+      "key": "ダリンダンス",
+      "urls": [
+        {
+          "id": "_PVZr0iJiug",
+          "memberId": "mahoro",
+          "publishedAt": "2022-08-18"
+        }
+      ],
+      "en": {
+        "title": "darling dance"
+      }
+    },
+    {
+      "title": "水星記 coverd by",
+      "key": "水星記dby",
+      "urls": [
+        {
+          "id": "W_Xdo61JpJs",
+          "memberId": "mahoro",
+          "publishedAt": "2022-08-18"
+        }
+      ],
+      "en": {
+        "title": "Mercury covered by"
+      }
+    },
+    {
+      "title": "てねてね / 悒うつぼ",
+      "key": "てねてね悒うつぼ",
+      "urls": [
+        {
+          "id": "fo8xEgcVxZ0",
+          "memberId": "mahoro",
+          "publishedAt": "2021-08-18"
+        }
+      ],
+      "en": {
+        "title": "Tenetene/Yuu Utsubo"
+      }
+    },
+    {
+      "title": "bullet / Cö shu Nie",
+      "key": "bulletcöshunie",
+      "urls": [
+        {
+          "id": "O3NrUlugHYU",
+          "memberId": "mahoro",
+          "publishedAt": "2021-08-18"
+        }
+      ]
+    },
+    {
+      "title": "ヴァンパイア",
+      "key": "ヴァンパイア",
+      "urls": [
+        {
+          "id": "Baaxtxzc9gw",
+          "memberId": "mahoro",
+          "publishedAt": "2021-08-18"
+        },
+        {
+          "id": "6XZek8E_SiE",
+          "memberId": "mahoro",
+          "publishedAt": "2021-08-18"
+        }
+      ],
+      "en": {
+        "title": "vampire"
+      }
+    },
+    {
+      "title": "キュートなカノジョ",
+      "key": "キュトなカノジョ",
+      "urls": [
+        {
+          "id": "fGInotMcu_M",
+          "memberId": "mahoro",
+          "publishedAt": "2021-08-18"
+        }
+      ],
+      "en": {
+        "title": "cute girlfriend"
+      }
+    },
+    {
+      "title": "45秒で何ができる？",
+      "key": "45秒で何ができる？",
+      "urls": [
+        {
+          "id": "n4w2a__O4GQ",
+          "memberId": "mahoro",
+          "publishedAt": "2021-08-18"
+        }
+      ],
+      "en": {
+        "title": "What can you do in 45 seconds?"
+      }
+    },
+    {
+      "title": "グッバイ宣言",
+      "key": "グッバイ宣言",
+      "urls": [
+        {
+          "id": "cLJL6uRezSI",
+          "memberId": "mahoro",
+          "publishedAt": "2021-08-18"
+        }
+      ],
+      "en": {
+        "title": "Goodbye declaration"
+      }
+    },
+    {
+      "title": "浮気されたけどまだ好きって曲。/りりあ。",
+      "key": "浮気されたけどまだ好きって曲。りりあ。",
+      "urls": [
+        {
+          "id": "471XhgCPYqE",
+          "memberId": "mahoro",
+          "publishedAt": "2021-08-18"
+        }
+      ],
+      "en": {
+        "title": "It's a song about being cheated on but still loving each other. /Liria."
+      }
+    },
+    {
+      "title": "テロメアの産声",
+      "key": "テロメアの産声",
+      "urls": [
+        {
+          "id": "fokontvrio0",
+          "memberId": "mahoro",
+          "publishedAt": "2021-08-18"
+        }
+      ],
+      "en": {
+        "title": "Birth cry of telomeres"
+      }
+    },
+    {
+      "title": "SAKURA/いきものがかり　acoustic",
+      "key": "sakuraいきものがかりacoustic",
+      "urls": [
+        {
+          "id": "uEeSOh5jOk0",
+          "memberId": "mahoro",
+          "publishedAt": "2021-08-18"
+        }
+      ],
+      "en": {
+        "title": "SAKURA/Ikimonogakari acoustic"
+      }
+    },
+    {
+      "title": "どりーみんチュチュ / Dreamin Chuchu",
+      "key": "どりみんチュチュdreaminchuchu",
+      "urls": [
+        {
+          "id": "zZ0r3RgZzXA",
+          "memberId": "mahoro",
+          "publishedAt": "2021-08-18"
+        }
+      ],
+      "en": {
+        "title": "Dreamin Chuchu"
+      }
+    },
+    {
+      "title": "嘘つきは恋のはじまり",
+      "key": "嘘つきは恋のはじまり",
+      "urls": [
+        {
+          "id": "CD1AvkqS8oE",
+          "memberId": "mahoro",
+          "publishedAt": "2021-08-18"
+        }
+      ],
+      "en": {
+        "title": "Liar is the beginning of love"
+      }
+    },
+    {
+      "title": "会いたい《想见你想见你想见你》",
+      "key": "会いたい《想见你想见你想见你》",
+      "urls": [
+        {
+          "id": "1aXRcZaOtFw",
+          "memberId": "mahoro",
+          "publishedAt": "2020-08-18"
+        }
+      ],
+      "en": {
+        "title": "I want to meet you."
+      }
+    },
+    {
+      "title": "花に亡霊 - ヨルシカ",
+      "key": "花に亡霊-ヨルシカ",
+      "urls": [
+        {
+          "id": "Do47UIW_TXw",
+          "memberId": "mahoro",
+          "publishedAt": "2020-08-18"
+        }
+      ],
+      "en": {
+        "title": "Ghost in the Flower - Yorushika"
+      }
+    },
+    {
+      "title": "猫猫的宇宙論",
+      "key": "猫猫的宇宙論",
+      "urls": [
+        {
+          "id": "qxNkMzlV-FU",
+          "memberId": "mahoro",
+          "publishedAt": "2020-08-18"
+        }
+      ],
+      "en": {
+        "title": "cat-cat cosmology"
+      }
+    },
+    {
+      "title": "別の人の彼女になったよ",
+      "key": "別の人の彼女になったよ",
+      "urls": [
+        {
+          "id": "gkVCUuPuF8I",
+          "memberId": "mahoro",
+          "publishedAt": "2020-08-18"
+        }
+      ],
+      "en": {
+        "title": "I became someone else's girlfriend"
+      }
+    },
+    {
+      "title": "この世界を愛したい",
+      "key": "この世界を愛したい",
+      "urls": [
+        {
+          "id": "I8yBbwRurAE",
+          "memberId": "mahoro",
+          "publishedAt": "2020-08-18"
+        }
+      ],
+      "en": {
+        "title": "I want to love this world"
+      }
+    },
+    {
+      "title": "灰色と青",
+      "key": "灰色と青",
+      "urls": [
+        {
+          "id": "pCa_oSjBU1A",
+          "memberId": "mahoro",
+          "publishedAt": "2020-08-18"
+        }
+      ],
+      "en": {
+        "title": "gray and blue"
+      }
+    },
+    {
+      "title": "愛にできることはまだあるかい",
+      "key": "愛にできることはまだあるかい",
+      "urls": [
+        {
+          "id": "ImSW1g02FUk",
+          "memberId": "mahoro",
+          "publishedAt": "2020-08-18"
+        }
+      ],
+      "en": {
+        "title": "Is there still anything that love can do?"
+      }
+    },
+    {
+      "title": "地球最後の告白を",
+      "key": "地球最後の告白を",
+      "urls": [
+        {
+          "id": "paVYNlZ5Xuk",
+          "memberId": "mahoro",
+          "publishedAt": "2019-08-19"
+        }
+      ],
+      "en": {
+        "title": "Earth's last confession"
+      }
+    },
+    {
+      "title": "乙女解剖",
+      "key": "乙女解剖",
+      "urls": [
+        {
+          "id": "beqCLV4-_jo",
+          "memberId": "mahoro",
+          "publishedAt": "2019-08-19"
+        }
+      ],
+      "en": {
+        "title": "maiden anatomy"
+      }
+    },
+    {
+      "title": "それがあなたの幸せとしても",
+      "key": "それがあなたの幸せとしても",
+      "urls": [
+        {
+          "id": "HqIx1CVPBsI",
+          "memberId": "mahoro",
+          "publishedAt": "2019-08-19"
+        }
+      ],
+      "en": {
+        "title": "Even if it's your happiness"
+      }
+    },
+    {
+      "title": "君がいる世界へ 一花依世界 日本語版 【",
+      "key": "君がいる世界へ一花依世界日本語版【",
+      "urls": [
+        {
+          "id": "t6o2TpzpPGU",
+          "memberId": "mahoro",
+          "publishedAt": "2019-08-19"
+        }
+      ],
+      "en": {
+        "title": "To the world where you are, Ichikayori world Japanese version ["
+      }
+    },
+    {
+      "title": "メルティランドナイトメア",
+      "key": "メルティランドナイトメア",
+      "urls": [
+        {
+          "id": "T6Rz-s5UA04",
+          "memberId": "mahoro",
+          "publishedAt": "2018-08-19"
+        }
+      ],
+      "en": {
+        "title": "Melty Land Nightmare"
+      }
+    },
+    {
+      "title": "ハイタ",
+      "key": "ハイタ",
+      "urls": [
+        {
+          "id": "y-bPf-6OHws",
+          "memberId": "mahoro",
+          "publishedAt": "2018-08-19"
+        }
+      ],
+      "en": {
+        "title": "Haita"
+      }
+    },
+    {
+      "title": "打上花火",
+      "key": "打上花火",
+      "urls": [
+        {
+          "id": "_kj5xKz8CDM",
+          "memberId": "mahoro",
+          "publishedAt": "2018-08-19"
+        }
+      ],
+      "en": {
+        "title": "fireworks launch"
+      }
+    },
+    {
+      "title": "おねがいダーリン",
+      "key": "おねがいダリン",
+      "urls": [
+        {
+          "id": "eRPU3BcW3Mo",
+          "memberId": "mahoro",
+          "publishedAt": "2017-08-19"
+        }
+      ],
+      "en": {
+        "title": "Onegai darling"
+      }
+    },
+    {
+      "title": "ドリームレス・ドリームス",
+      "key": "ドリムレスドリムス",
+      "urls": [
+        {
+          "id": "VZfDyna9NJc",
+          "memberId": "mahoro",
+          "publishedAt": "2017-08-19"
+        }
+      ],
+      "en": {
+        "title": "Dreamless Dreams"
+      }
+    },
+    {
+      "title": "メリュー",
+      "key": "メリュ",
+      "urls": [
+        {
+          "id": "u6umcwDxX3k",
+          "memberId": "mahoro",
+          "publishedAt": "2016-08-19"
+        }
+      ],
+      "en": {
+        "title": "Meryu"
+      }
+    },
+    {
+      "title": "放課後のプレアデス",
+      "key": "放課後のプレアデス",
+      "urls": [
+        {
+          "id": "CaMKMdkLbck",
+          "memberId": "mahoro",
+          "publishedAt": "2015-08-20"
+        }
+      ],
+      "en": {
+        "title": "Pleiades after school"
+      }
+    },
+    {
+      "title": "さようなら、花泥棒さん",
+      "key": "さようなら、花泥棒さん",
+      "urls": [
+        {
+          "id": "PIrx5lqQbGU",
+          "memberId": "mahoro",
+          "publishedAt": "2015-08-20"
+        }
+      ],
+      "en": {
+        "title": "Goodbye, flower thief"
+      }
+    },
+    {
+      "title": "マッシュルームマザー",
+      "key": "マッシュルムマザ",
+      "urls": [
+        {
+          "id": "I7jnsXxHs8k",
+          "memberId": "mahoro",
+          "publishedAt": "2015-08-20"
+        }
+      ],
+      "en": {
+        "title": "mushroom mother"
+      }
+    },
+    {
+      "title": "東京レトロ",
+      "key": "東京レトロ",
+      "urls": [
+        {
+          "id": "ikQEvpAej9U",
+          "memberId": "mahoro",
+          "publishedAt": "2015-08-20"
+        }
+      ],
+      "en": {
+        "title": "tokyo retro"
+      }
+    },
+    {
+      "title": "繰り返し一粒",
+      "key": "繰り返し一粒",
+      "urls": [
+        {
+          "id": "G08jGFu6b0A",
+          "memberId": "mahoro",
+          "publishedAt": "2015-08-20"
+        }
+      ],
+      "en": {
+        "title": "Repeat one drop"
+      }
+    },
+    {
+      "title": "小夜子",
+      "key": "小夜子",
+      "urls": [
+        {
+          "id": "3Li-FfypZYE",
+          "memberId": "mahoro",
+          "publishedAt": "2015-08-20"
+        }
+      ],
+      "en": {
+        "title": "Sayoko"
+      }
+    },
+    {
+      "title": "刹那プラス",
+      "key": "刹那プラス",
+      "urls": [
+        {
+          "id": "VSKV3_7IQto",
+          "memberId": "mahoro",
+          "publishedAt": "2015-08-20"
+        }
+      ],
+      "en": {
+        "title": "Setsuna Plus"
+      }
+    },
+    {
+      "title": "クライヤ",
+      "key": "クライヤ",
+      "urls": [
+        {
+          "id": "CybFOypDQjY",
+          "memberId": "mahoro",
+          "publishedAt": "2015-08-20"
+        }
+      ],
+      "en": {
+        "title": "Cryer"
+      }
+    },
+    {
+      "title": "サディスティック・ラブ",
+      "key": "サディスティックラブ",
+      "urls": [
+        {
+          "id": "A21pdideWjs",
+          "memberId": "mahoro",
+          "publishedAt": "2015-08-20"
+        }
+      ],
+      "en": {
+        "title": "sadistic love"
+      }
+    },
+    {
+      "title": "ワールド・コーリング",
+      "key": "ワルドコリング",
+      "urls": [
+        {
+          "id": "zgqu6_nyRGY",
+          "memberId": "mahoro",
+          "publishedAt": "2015-08-20"
+        }
+      ],
+      "en": {
+        "title": "world calling"
+      }
+    },
+    {
+      "title": "二次元ドリームフィーバー",
+      "key": "二次元ドリムフィバ",
+      "urls": [
+        {
+          "id": "19IErf6pn9E",
+          "memberId": "mahoro",
+          "publishedAt": "2015-08-20"
+        }
+      ],
+      "en": {
+        "title": "2D dream fever"
+      }
+    },
+    {
+      "title": "放課後ストライド",
+      "key": "放課後ストライド",
+      "urls": [
+        {
+          "id": "3U9lk3fsm88",
+          "memberId": "mahoro",
+          "publishedAt": "2015-08-20"
+        }
+      ],
+      "en": {
+        "title": "after school stride"
+      }
+    },
+    {
+      "title": "有頂天ビバーチェ",
+      "key": "有頂天ビバチェ",
+      "urls": [
+        {
+          "id": "pJI1q1JGhbc",
+          "memberId": "mahoro",
+          "publishedAt": "2015-08-20"
+        }
+      ],
+      "en": {
+        "title": "Ecstatic Vivace"
+      }
+    },
+    {
+      "title": "メリーメリー",
+      "key": "メリメリ",
+      "urls": [
+        {
+          "id": "vxZtflYGjA8",
+          "memberId": "mahoro",
+          "publishedAt": "2015-08-20"
+        }
+      ],
+      "en": {
+        "title": "merry merry"
+      }
+    },
+    {
+      "title": "センチメンタルな愛慕心",
+      "key": "センチメンタルな愛慕心",
+      "urls": [
+        {
+          "id": "RfDN1JMMCM4",
+          "memberId": "mahoro",
+          "publishedAt": "2015-08-20"
+        }
+      ],
+      "en": {
+        "title": "sentimental love"
+      }
+    },
+    {
+      "title": "ケッペキショウ",
+      "key": "ケッペキショウ",
+      "urls": [
+        {
+          "id": "eyiYja05RAI",
+          "memberId": "mahoro",
+          "publishedAt": "2015-08-20"
+        }
+      ],
+      "en": {
+        "title": "Keppekisho"
+      }
+    },
+    {
+      "title": "ハロ/ハワユ",
+      "key": "ハロハワユ",
+      "urls": [
+        {
+          "id": "URG6YnTPcac",
+          "memberId": "mahoro",
+          "publishedAt": "2015-08-20"
+        }
+      ],
+      "en": {
+        "title": "halo/hawayu"
+      }
     }
   ]
 };

@@ -233,12 +233,14 @@ const navDrop = (home) => `
           <a href="account.html" data-i18n="nav.account">マイページ</a>
         </div>
       </div>
+      <a href="${home}#groups" data-i18n="nav.groups">グループ・期生</a>
       <a href="quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
       <a href="songs.html" data-i18n="nav.songs">曲データベース</a>
       <a href="account.html" data-i18n="nav.account">マイページ</a>`;
 
 const mobileNav = (home) => `
       <a href="${home}#home">Home</a>
+      <a href="${home}#groups" data-i18n="nav.groups">グループ・期生</a>
       <a href="${home}#members">Member Guide</a>
       <a class="mobile-sub" href="konomi.html" data-i18n-name="konomi">甘狼このみ</a>
       <a class="mobile-sub" href="nono.html" data-i18n-name="nono">音ノ乃のの</a>

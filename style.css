@@ -952,6 +952,42 @@ img { max-width: 100%; }
 .news-title { font-weight: 900; font-size: 1.02rem; font-family: var(--font-display); }
 .news-desc { font-size: 0.88rem; color: var(--muted); margin: 6px 0 10px; }
 
+.news-item.collapsed { display: none; }
+.news-item.collapsed.show { display: block; animation: newsIn 0.35s ease both; }
+@keyframes newsIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.news-toggle {
+  display: block;
+  width: 100%;
+  margin-top: 12px;
+  padding: 12px;
+  border: 2px dashed var(--accent);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.5);
+  color: var(--accent-deep);
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+.news-toggle:hover { background: var(--accent-soft); }
+.news-toggle:active { transform: scale(0.98); }
+.news-item .news-title,
+.news-item .news-desc { cursor: pointer; }
+.news-item .news-desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.news-item.desc-open .news-desc {
+  display: block;
+  -webkit-line-clamp: unset;
+}
+
 .xpost-list { display: flex; flex-direction: column; gap: 12px; }
 .xpost-card {
   background: #fff;
@@ -1145,6 +1181,113 @@ img { max-width: 100%; }
   background: var(--mc-soft, var(--accent-soft));
   border-radius: 999px;
   padding: 2px 8px;
+}
+
+/* ---------- グループ・期生まとめ ---------- */
+.group-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+.gp-card {
+  padding: 18px;
+  border-radius: 22px;
+  position: relative;
+}
+.gp-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.gp-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 16px;
+  object-fit: cover;
+  border: 2px solid #fff;
+  outline: 2px solid rgba(0, 0, 0, 0.12);
+  box-shadow: var(--pop-shadow);
+  flex: none;
+}
+.gp-name {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 1.12rem;
+  margin: 0;
+  line-height: 1.3;
+}
+.gp-badge {
+  margin-left: auto;
+  font-size: 0.62rem;
+  font-weight: 900;
+  color: var(--accent-deep, #c0392b);
+  background: var(--accent-soft, #ffeaea);
+  border-radius: 999px;
+  padding: 3px 10px;
+  letter-spacing: 0.06em;
+  flex: none;
+}
+.gp-desc {
+  font-size: 0.86rem;
+  line-height: 1.7;
+  color: var(--text);
+  margin: 0 0 12px;
+}
+.gp-label {
+  font-size: 0.68rem;
+  font-weight: 800;
+  color: var(--muted);
+  margin: 0 0 8px;
+  letter-spacing: 0.05em;
+}
+.gp-members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.gp-member {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px 6px 6px;
+  border-radius: 999px;
+  background: var(--mc-soft, var(--accent-soft));
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: var(--text);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.gp-member:hover {
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: var(--pop-shadow);
+}
+.gp-member-face {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #fff;
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gp-member-face img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gp-note {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+@media (min-width: 760px) {
+  .group-list { grid-template-columns: repeat(2, 1fr); }
+  .gp-card { padding: 22px; }
 }
 
 /* ---------- ランチャー（図形バッジ） ---------- */
@@ -4397,6 +4540,36 @@ mark.song-hl {
   border-top: 1px dashed var(--border);
   padding-top: 8px;
 }
+.song-krest {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+}
+.song-krest.show {
+  display: flex;
+  animation: songKrestIn 0.3s ease both;
+}
+@keyframes songKrestIn {
+  from { opacity: 0; transform: translateY(-6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.song-setlist-toggle {
+  margin-top: 4px;
+  padding: 8px 10px;
+  border: 1.5px dashed var(--accent);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.55);
+  color: var(--accent-deep);
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 0.78rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.song-setlist-toggle:hover { background: var(--accent-soft); }
+.song-setlist-toggle .song-setlist-less { display: none; }
+.song-setlist-toggle.open .song-setlist-more { display: none; }
+.song-setlist-toggle.open .song-setlist-less { display: inline; }
 .song-kitem {
   display: flex;
   align-items: center;

@@ -834,6 +834,77 @@ const GROUP_ICON = {
   "ミリプロSONA": "images/icon/group/SONA.png"
 };
 
+/* グループ・期生まとめ（新規の方がミリプロの体制を理解しやすいように表示）
+   gen: MEMBERS の gen 値、members: 所属メンバー（GEN の場合は期生の gen 値のみ） */
+const GROUP_INFO = [
+  {
+    id: "gen",
+    name: "期生",
+    nameEn: "Generations",
+    icon: "images/icon/group/期生.webp",
+    desc: "ミリプロ設立当初は「〇期生」のナンバリング順でデビューしていました。現在は後述の「NOVA」「UNI」「SONA」というコンセプト・属性ごとのグループ（ユニット）を中心とした活動体制へ移行しています。",
+    members: [
+      { id: "konomi", note: "設立メンバー / CEO兼クリエイター" },
+      { id: "nono" },
+      { id: "akubi" },
+      { id: "koma" }
+    ],
+    en: {
+      name: "Generations",
+      desc: "In the early days of MilliPro, talents debuted in numbered \"Generations\". Today, activities are centered around concept-based groups (units) called \"NOVA\", \"UNI\", and \"SONA\"."
+    }
+  },
+  {
+    id: "nova",
+    name: "ミリプロNOVA",
+    nameEn: "MilliPro NOVA",
+    icon: "images/icon/group/nova.webp",
+    desc: "「Nova（新星）」を意味します。研究生から目標（登録者数など）を達成して正規デビューを果たしたメンバーなど、新たな輝きを放つタレントで構成されたグループです。",
+    members: [
+      { id: "raco" },
+      { id: "yura" },
+      { id: "nuhu" }
+    ],
+    en: {
+      name: "MilliPro NOVA",
+      desc: "Named after \"Nova (new star)\". A group of talents who shine anew — including members who debuted as full talents after reaching goals (such as subscriber counts) as trainees."
+    }
+  },
+  {
+    id: "uni",
+    name: "ミリプロUNI",
+    nameEn: "MilliPro UNI",
+    icon: "images/icon/group/uni.webp",
+    desc: "「Unique / Universe / Unity」などの意味合いを持つ音楽特化型ユニット。メンバーそれぞれに「天気（雲・雨・霧）」を連想させるモチーフや名前が取り入れられているのが特徴です。",
+    members: [
+      { id: "tsukuri", note: "［モチーフ：雲］" },
+      { id: "liz", note: "［モチーフ：雨］" },
+      { id: "rei", note: "［モチーフ：霧］" }
+    ],
+    en: {
+      name: "MilliPro UNI",
+      desc: "A music-specialized unit whose name evokes \"Unique / Universe / Unity\". Each member features weather motifs (clouds, rain, fog) in their names and themes."
+    }
+  },
+  {
+    id: "sona",
+    name: "ミリプロSONA",
+    nameEn: "MilliPro SONA",
+    icon: "images/icon/group/SONA.png",
+    badge: "new",
+    desc: "音楽（Sound）と個性（Persona）を掛け合わせた新ユニット。メンバー一人ひとりの個性とアーティスト性を軸に、それぞれの強みや魅力を最大限に活かす「個としての活動（ソロ・アーティスト活動）」を中心に輝ける場所として設立されました。",
+    members: [
+      { id: "nono" },
+      { id: "akubi" },
+      { id: "mahoro", note: "※ミリプロ加入と同時に所属" }
+    ],
+    en: {
+      name: "MilliPro SONA",
+      desc: "A new unit combining Sound and Persona. Founded as a place where each member's individuality and artistry shine through \"solo artist activities\" that maximize their strengths and appeal."
+    }
+  }
+];
+
 const COUNTDOWN = [
   { id: "mahoro-debut", label: "鹿乃まほろ 初配信", date: "2026-08-22T20:00:00", note: "ミリプロSONA加入後初の配信！", url: "https://youtu.be/YzfwW0zTSpE", featured: true, en: { label: "Kano Mahoro's Debut Stream", note: "Her first stream after joining MilliPro SONA!" } },
   { id: "milpro-presents", label: "ミリプロプレゼンツ ～超重大発表配信～", date: "2026-08-16T21:00:00", note: "ミリ創作コンテスト結果発表＆重大告知！", url: "https://youtu.be/4lba9sduOzI", featured: true, en: { label: "MilliPro Presents ~Super Major Announcement Stream~", note: "Milli Creation contest results & big announcement!" } },
@@ -900,46 +971,6 @@ const NEWS = [
     desc: "2010年より歌い手として活動するシンガー「鹿乃まほろ」のミリプロSONA加入が正式に発表されました。2015年メジャーデビュー、MKLNticメンバーとしても活動中。",
     url: "https://x.com/kano_2525",
     en: { tag: "New Member", title: "[Joining Announcement] Kano Mahoro Joins MilliPro SONA!", desc: "The singer \"Kano Mahoro\", active as an utaite since 2010, has officially joined MilliPro SONA. Major debut in 2015, also active as a member of MKLNtic." }
-  },
-  {
-    date: "2026-08-15",
-    tag: "新メンバー",
-    title: "【新人加入発表】みんなの心に癒しの魔法を！",
-    desc: "ミリプロに新たなタレントの加入が発表されました。続報をお待ちください！",
-    url: "https://x.com/Mil_Pro_/status/2088551273322733973",
-    en: { tag: "New Member", title: "[New Member Announcement] A healing magic for everyone's heart!", desc: "The joining of a new MilliPro talent has been announced. Stay tuned for more!" }
-  },
-  {
-    date: "2026-08-13",
-    tag: "コラボ",
-    title: "Risdom（リズダム）× ミリプロ コラボ開催決定！",
-    desc: "ゲーム型英語学習アプリ「Risdom（リズダム）」とのコラボがスタート。コラボを記念して甘狼このみが登場します。",
-    url: "https://milpr.com/news/konomi_Risdom",
-    en: { tag: "Collab", title: "Risdom × MilliPro Collaboration Announced!", desc: "A collaboration with the game-based English learning app \"Risdom\" has started. Amakami Konomi will appear to celebrate the collab." }
-  },
-  {
-    date: "2026-08-08",
-    tag: "グッズ",
-    title: "虹深°ぬふ 1周年記念グッズ 受注開始！",
-    desc: "ぬふちゃん1周年を記念して、描き下ろしイラスト商品を含む全6点のグッズの受注がスタート。",
-    url: "https://milpr.com/news/nufu_1st_anniversary",
-    en: { tag: "Goods", title: "Nijipuka Nuhu 1st Anniversary Goods Now on Pre-order!", desc: "To celebrate Nuhu's 1st anniversary, pre-orders for 6 goods items including new illustrated merchandise have started." }
-  },
-  {
-    date: "2026-08-08",
-    tag: "書籍",
-    title: "『キャラが動き出すイラストの教科書』発売決定！",
-    desc: "虹深°ぬふによるイラスト本の発売が決定しました。",
-    url: "https://milpr.com/news/nuhubook1",
-    en: { tag: "Book", title: "\"Characters Come to Life: The Illustration Textbook\" Release Announced!", desc: "An illustration book by Nijipuka Nuhu is set to be released." }
-  },
-{
-    date: "2026-08-07",
-    tag: "達成",
-    title: "夕霧レイ チャンネル登録者数10万人突破！",
-    desc: "デビューから約1か月での快挙。",
-    url: "https://milpr.com/news/rei_100k",
-    en: { tag: "Milestone", title: "Yugiri Ray Surpasses 100K Subscribers!", desc: "An amazing feat just about 1 month after debut." }
   }
 ];
 
@@ -995,10 +1026,7 @@ const X_POSTS = [
   "https://x.com/Mil_Pro_/status/2088967029294612927",
   "https://x.com/Mil_Pro_/status/2088971188920050018",
   "https://x.com/Mil_Pro_/status/2088971545511444730",
-  "https://x.com/Mil_Pro_/status/2088551273322733973",
-  "https://x.com/Mil_Pro_/status/2086061757869805859",
-  "https://x.com/Mil_Pro_/status/2085935896235499775",
-  "https://x.com/Mil_Pro_/status/2078068096661627227"
+  "https://x.com/Mil_Pro_/status/2088551273322733973"
 ];
 
 const HISTORY = [

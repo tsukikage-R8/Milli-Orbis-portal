@@ -322,6 +322,22 @@
       }).join("");
       var shz = shazamRows(st);
       var setlist = songs + (songs && shz ? '<div class="song-shazam-divider">' + T("songs.shazamLabel") + "</div>" : "") + shz;
+      /* セットリスト折りたたみ: 最初の2行のみ表示、残りはトグルで展開 */
+      var VISIBLE = 2;
+      var rows = setlist.split("");
+      var items = setlist.match(/<div class="song-kitem[\s\S]*?<\/div>|<div class="song-shazam-divider">[\s\S]*?<\/div>/g) || [];
+      var setHtml = "";
+      var restHtml = "";
+      items.forEach(function (it, i) {
+        if (i < VISIBLE) setHtml += it;
+        else restHtml += it;
+      });
+      var toggle = restHtml
+        ? '<button type="button" class="song-setlist-toggle" data-open="0">' +
+          '<span class="song-setlist-more">' + T("songs.setlistShow", { n: items.length - VISIBLE }) + "</span>" +
+          '<span class="song-setlist-less">' + T("songs.setlistHide") + "</span>" +
+          "</button>"
+        : "";
       return { date: st.publishedAt || "", html:
         '<div class="song-card card">' +
         thumbHtml(st.id) +
@@ -330,7 +346,10 @@
         '<div class="song-title">' + highlight(tt(st)) + "</div>" +
         '<div class="song-members">' + memberChipHtml(st.memberId, "") + "</div>" +
         '<div class="song-meta">' + esc(st.publishedAt) + (shz ? ' <span class="song-shazam-badge">' + T("songs.shazamDone") + "</span>" : "") + "</div>" +
-        '<div class="song-klist">' + setlist + "</div>" +
+        '<div class="song-klist">' + setHtml +
+        (restHtml ? '<div class="song-krest">' + restHtml + "</div>" : "") +
+        toggle +
+        "</div>" +
         ytBtnHtml(st.id) +
         "</div>" };
     });
@@ -388,6 +407,15 @@
 
   /* サムネ・再生ボタン → iframe再生 / 歌枠セトリ行 → タイムスタンプ付きで再生 / リンク系は既定動作 */
   listBox.addEventListener("click", function (e) {
+    var toggle = e.target.closest(".song-setlist-toggle");
+    if (toggle) {
+      var open = toggle.dataset.open === "1";
+      toggle.dataset.open = open ? "0" : "1";
+      toggle.classList.toggle("open", !open);
+      var rest = toggle.closest(".song-klist").querySelector(".song-krest");
+      if (rest) rest.classList.toggle("show", !open);
+      return;
+    }
     if (e.target.closest("a")) return;
     var wrap = e.target.closest(".song-thumb-wrap");
     if (wrap) { playInWrap(wrap); return; }
