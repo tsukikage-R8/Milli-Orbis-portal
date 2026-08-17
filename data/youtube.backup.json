@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T00:29:05.358Z",
+  "updatedAt": "2026-08-17T04:29:15.516Z",
   "streams": [
     {
       "id": "YzfwW0zTSpE",
@@ -38,18 +38,6 @@
       }
     },
     {
-      "id": "FQUAaVHIEEo",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "☁ストリートコレクション 2026 受注受付中！ 🔧",
-      "thumb": "https://i.ytimg.com/vi/FQUAaVHIEEo/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-23T14:59:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "☁Street Collection 2026 now accepting orders! 🔧"
-      }
-    },
-    {
       "id": "8zRJYa59A60",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -59,6 +47,18 @@
       "status": "upcoming",
       "en": {
         "title": "☁ Fan meeting general sale decided 🔧"
+      }
+    },
+    {
+      "id": "FQUAaVHIEEo",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "☁ストリートコレクション 2026 受注受付中！ 🔧",
+      "thumb": "https://i.ytimg.com/vi/FQUAaVHIEEo/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-23T14:59:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "☁Street Collection 2026 now accepting orders! 🔧"
       }
     },
     {
@@ -207,7 +207,7 @@
       "publishedAt": "2026-08-16T17:39:43Z",
       "live": false,
       "en": {
-        "title": "[Strinu/Minecraft] Looks like it's the last day🍓 [Riz Ameya/MilliPro]"
+        "title": "[Strinu/Minecraft] Looks like it's the last day🍓 [Ameya Liz/MilliPro]"
       }
     },
     {
