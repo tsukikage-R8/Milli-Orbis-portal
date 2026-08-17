@@ -756,7 +756,7 @@ const MEMBERS = [
     img: "",
     logo: "images/rogo/mahororogo.png",
     icon: "images/icon/mahoro_profile.jpg",
-    catchphrase: "苺より甘く、あなたの心に届けたい",
+    catchphrase: "みんなの毎日を、まほろばに！",
     introVoice: "",
     featuredVideos: [],
     voice: "",
@@ -770,7 +770,7 @@ const MEMBERS = [
       skills: "Singing (years of experience as an utaite)",
       likes: "Strawberry sweets, music, singing",
       dislikes: "???",
-      catchphrase: "Sweeter than a strawberry, reaching your heart"
+      catchphrase: "Making everyone's everyday a mahoroba!"
     }
   },
   {
