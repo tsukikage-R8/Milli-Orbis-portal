@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T20:12:58.261Z",
+  "updatedAt": "2026-08-18T00:28:59.722Z",
   "streams": [
     {
       "id": "YzfwW0zTSpE",
@@ -38,18 +38,6 @@
       }
     },
     {
-      "id": "8zRJYa59A60",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "☁ファンミーティング 一般販売決定🔧",
-      "thumb": "https://i.ytimg.com/vi/8zRJYa59A60/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-23T14:59:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "☁ Fan meeting general sale decided 🔧"
-      }
-    },
-    {
       "id": "FQUAaVHIEEo",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -59,6 +47,18 @@
       "status": "upcoming",
       "en": {
         "title": "☁Street Collection 2026 now accepting orders! 🔧"
+      }
+    },
+    {
+      "id": "8zRJYa59A60",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "☁ファンミーティング 一般販売決定🔧",
+      "thumb": "https://i.ytimg.com/vi/8zRJYa59A60/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-23T14:59:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "☁ Fan meeting general sale decided 🔧"
       }
     },
     {
@@ -184,6 +184,32 @@
   ],
   "videos": [
     {
+      "id": "jrR6CbvlEno",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【ドッキリ検証】雑談配信中にめっちゃカメレオンしてても視聴者は気づかない説ｗｗｗ",
+      "thumb": "https://i.ytimg.com/vi/jrR6CbvlEno/hqdefault.jpg",
+      "publishedAt": "2026-08-17T21:04:52Z",
+      "live": true,
+      "en": {
+        "title": "[Prank verification] Even if you act like a chameleon while chatting, viewers won't notice lol"
+      }
+    },
+    {
+      "id": "_1w9vUatWT4",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【実写企画】\"あの\"守り神を作る…！？",
+      "thumb": "https://i.ytimg.com/vi/_1w9vUatWT4/hqdefault.jpg",
+      "publishedAt": "2026-08-17T19:52:37Z",
+      "live": false,
+      "en": {
+        "title": "[Live-action project] Creating \"that\" guardian deity...! ?"
+      }
+    },
+    {
       "id": "wfXt3CcBrzQ",
       "memberId": "koma",
       "member": "小廻こま",
@@ -219,7 +245,7 @@
       "publishedAt": "2026-08-17T17:44:52Z",
       "live": false,
       "en": {
-        "title": "[Twilight Forest/Minecraft] Reincarnation in another world with Komakurizu!! ️❓ [Ameya Liz/MilliPro]"
+        "title": "[Twilight Forest/Minecraft] Reincarnation in another world with Komazukurizu!! ️❓ [Ameya Liz/MilliPro]"
       }
     },
     {
@@ -232,7 +258,7 @@
       "publishedAt": "2026-08-17T16:11:04Z",
       "live": true,
       "en": {
-        "title": "[Chat] Looking back on recent events [Yuragiyura/MilliPro]"
+        "title": "[Chat] Looking back on recent events [Yuragi Yura/MilliPro]"
       }
     },
     {
@@ -297,7 +323,7 @@
       "publishedAt": "2026-08-16T17:39:43Z",
       "live": false,
       "en": {
-        "title": "[Strinu/Minecraft] Looks like it's the last day🍓 [Riz Ameya/MilliPro]"
+        "title": "[Strinu/Minecraft] Looks like it's the last day🍓 [Ameya Liz/MilliPro]"
       }
     },
     {
@@ -545,32 +571,6 @@
       "live": false,
       "en": {
         "title": "[Minecraft] Summer festival! Yakisoba! Shaved ice! [Komawarikoma/MilliPro] #⁠MilliPro Summer 2026"
-      }
-    },
-    {
-      "id": "DQcZGR_OWaY",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "前の人より長いアニソンタイトルを言え！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/DQcZGR_OWaY/hqdefault.jpg",
-      "publishedAt": "2026-08-16T09:00:32Z",
-      "live": false,
-      "en": {
-        "title": "Give me a longer anime song title than the previous person! [#MilliPro]"
-      }
-    },
-    {
-      "id": "NFweI8JIbZQ",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【雑談】ミリプロ公式配信のリハまでのんびり┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/NFweI8JIbZQ/hqdefault.jpg",
-      "publishedAt": "2026-08-16T07:20:18Z",
-      "live": true,
-      "en": {
-        "title": "[Chat] Relax until rehearsal on the official MilliPro distribution ┊︎ #Otononono #Nononya"
       }
     }
   ],

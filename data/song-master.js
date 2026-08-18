@@ -87,12 +87,12 @@ window.SONG_MASTER = {
       }
     },
     "シスラブ＆": {
-      "title": "水曜日の約束-another story- (feat. 成海聖奈 (CV:雨宮天))",
-      "artist": "HoneyWorks",
-      "album": "シス×ラブ / 水曜日の秘密-another story- - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e5/bd/d6/e5bdd6a5-ea22-999e-c4a3-e4b609f24346/4580074473567.jpg/600x600bb.jpg",
+      "title": "シス×ラブ",
+      "artist": "Kureiji Ollie & アーニャ・メルフィッサ",
+      "album": "ほろはにヶ丘高校 -Covers-",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/11/0d/96/110d962f-5d25-c552-ebd8-dd750e48af36/4582729912438_art.png/600x600bb.jpg",
       "en": {
-        "title": "Wednesday Promise -another story- (feat. Sena Narumi (CV: Sora Amemiya))"
+        "title": "Sis x Love"
       }
     },
     "花女花譜": {
@@ -342,12 +342,12 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/2b/64/8e2b64e9-85f2-2486-364d-e4b72c40f4c9/PCSP_06085_A.jpg/600x600bb.jpg"
     },
     "モニタリング-deco*27shortby": {
-      "title": "だれかの心臓になれたなら",
-      "artist": "まふまふ",
-      "album": "だれかの心臓になれたなら - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c4/59/15/c4591582-c115-0454-4222-fcbceca6b7e7/PCSP_03350.jpg/600x600bb.jpg",
+      "title": "どこかで日は昇る (Album Mix)",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "ENSEMBLE",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/56/d4/1e/56d41e84-b659-a170-6712-cfc8d47691a0/00602567503408.rgb.jpg/600x600bb.jpg",
       "en": {
-        "title": "If I could become someone's heart"
+        "title": "The sun will rise somewhere (Album Mix)"
       }
     },
     "specialz": {
@@ -474,12 +474,12 @@ window.SONG_MASTER = {
       }
     },
     "男の子の目的は何？": {
-      "title": "いい感じ",
-      "artist": "ケツメイシ",
-      "album": "KETSUNOPOLIS 10",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
+      "title": "ツバメ (feat. ミドリーズ)",
+      "artist": "YOASOBI",
+      "album": "ツバメ (feat. ミドリーズ) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg",
       "en": {
-        "title": "Feels good"
+        "title": "Swallow (feat. Midleys)"
       }
     },
     "1000年生きてる": {
@@ -1044,12 +1044,12 @@ window.SONG_MASTER = {
       }
     },
     "夏色えがおで1,2,jump!": {
-      "title": "夏色えがおで1,2,Jump! (MAKI Mix)",
-      "artist": "西木野真姫(CV.Pile)",
-      "album": "ラブライブ! Solo Live! Collection from μ's 西木野真姫 TRUE DIVA",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/aa/3a/75aa3a6b-ef2e-0163-b929-4053a8218926/4540774200597.png/600x600bb.jpg",
+      "title": "夏色えがおで1,2,Jump!",
+      "artist": "μ's",
+      "album": "μ's Complete BEST BOX Chapter.01",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/42/d5/c642d5f1-c39c-fa71-9e82-0687bb89c8bb/4540774907212.png/600x600bb.jpg",
       "en": {
-        "title": "Natsuiro Egaode 1,2,Jump! (MAKI Mix)"
+        "title": "Summer color picture 1,2,Jump!"
       }
     },
     "恋するフォチュンクッキ＆あつまる＆ぴこぴこぐらむ＆ほし": {
@@ -1101,12 +1101,12 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5b/16/2c/5b162ca7-fd06-103b-c8db-344b24fd2a80/4547366806434.jpg/600x600bb.jpg"
     },
     "ドライフラワacoustic.": {
-      "title": "ドライフラワー",
-      "artist": "Uru",
-      "album": "ファーストラヴ",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4a/d7/ff/4ad7ff26-851c-2a36-6a56-7cb51fb0c004/4547366496147.jpg/600x600bb.jpg",
+      "title": "クリスマスイブ",
+      "artist": "優里",
+      "album": "クリスマスイブ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/47/73/9c/47739cae-c18c-4ab6-1a47-1c46c8ba3153/4547366593389.jpg/600x600bb.jpg",
       "en": {
-        "title": "dried flowers"
+        "title": "christmas eve"
       }
     },
     "雨き声残響acoustic.": {
@@ -1608,12 +1608,12 @@ window.SONG_MASTER = {
       }
     },
     "メリュいました": {
-      "title": "突破口",
-      "artist": "SUPER BEAVER",
-      "album": "突破口 / 自慢になりたい - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5e/a6/f1/5ea6f10f-a8b4-d2ac-2a93-13afdb904358/4547366478778.jpg/600x600bb.jpg",
+      "title": "だから僕は音楽を辞めた",
+      "artist": "ヨルシカ",
+      "album": "だから僕は音楽を辞めた",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/64/ab/ba/64abba45-d080-0e8a-c24b-313e597c63cb/PA00076158_0_91679_jacket.jpg/600x600bb.jpg",
       "en": {
-        "title": "breakthrough"
+        "title": "That's why I quit music"
       }
     },
     "放課後のプレアデスいました": {
@@ -1739,16 +1739,16 @@ window.SONG_MASTER = {
       "album": "絶望性:ヒーロー治療薬【通常盤】 (feat. Soraru) - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/b7/02/9ab702b7-14b9-de10-c826-3793b4ed97c6/5021732646163.jpg/600x600bb.jpg",
       "en": {
-        "title": "Hopelessness: Hero Cure (feat. Soraru)"
+        "title": "Despair: Hero Cure (feat. Soraru)"
       }
     },
     "ハロハワユいました": {
-      "title": "ドーナツホール (COVER)",
-      "artist": "米津玄師",
-      "album": "YANKEE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg",
+      "title": "シャルル",
+      "artist": "96猫",
+      "album": "O2O",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0f/99/87/0f99875e-1689-639e-4e52-9ff6afa60714/jacket_SRXX02478B00Z_550.jpg/600x600bb.jpg",
       "en": {
-        "title": "Donut hole (COVER)"
+        "title": "charles"
       }
     },
     "クエスチョン": {

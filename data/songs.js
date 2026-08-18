@@ -2699,7 +2699,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Announcement of spring (yama)/acoustic cover. Kano"
+        "title": "Announcement of spring (yama) / acoustic cover. Kano"
       }
     },
     {
@@ -2741,7 +2741,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Ironi (Scop)/acoustic cover. Kano"
+        "title": "Ironi (scoop) / acoustic cover. Kano"
       }
     },
     {
@@ -3554,7 +3554,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "To the world where you are Ichikayori world Japanese version"
+        "title": "To the world where you are, Ichikayori world Japanese version"
       }
     },
     {
