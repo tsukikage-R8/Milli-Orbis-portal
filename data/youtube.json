@@ -1,26 +1,14 @@
 {
-  "updatedAt": "2026-08-18T08:19:58.145Z",
+  "updatedAt": "2026-08-18T12:18:47.660Z",
   "streams": [
-    {
-      "id": "rOW1QWR7r2Y",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 Minecraft 】神社建築⛩御神木を完成させたい🌸【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/rOW1QWR7r2Y/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-18T06:52:20Z",
-      "status": "live",
-      "en": {
-        "title": "[Minecraft] Shrine construction⛩I want to complete the sacred tree🌸 [Yuragiyura/MilliPro]"
-      }
-    },
     {
       "id": "cl3J_a5ltu8",
       "memberId": "koma",
       "member": "小廻こま",
       "title": "【 黄昏の森 】クリアで告知!?ボスをひたすら倒したい#2【小廻こま/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/cl3J_a5ltu8/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-18T09:00:00Z",
-      "status": "upcoming",
+      "scheduledStartTime": "2026-08-18T09:00:38Z",
+      "status": "live",
       "en": {
         "title": "[Twilight Forest] Announcement after clearing!? I want to defeat the boss #2 [Komakoma/MilliPro]"
       }
@@ -31,10 +19,22 @@
       "member": "ゆらぎゆら",
       "title": "【雑談】最近の出来事振り返る【ゆらぎゆら/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/dKQnRSprjoA/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-18T11:00:00Z",
-      "status": "upcoming",
+      "scheduledStartTime": "2026-08-18T11:03:14Z",
+      "status": "live",
       "en": {
         "title": "[Chat] Looking back on recent events [Yuragiyura/MilliPro]"
+      }
+    },
+    {
+      "id": "yoPXNBdttoc",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "【歌枠】お願いします配信させてください神様泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣",
+      "thumb": "https://i.ytimg.com/vi/yoPXNBdttoc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-18T11:46:39Z",
+      "status": "live",
+      "en": {
+        "title": "[Song Frame] Please, let me deliver it, God, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry,"
       }
     },
     {
@@ -220,16 +220,107 @@
   ],
   "videos": [
     {
+      "id": "yoPXNBdttoc",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【歌枠】お願いします配信させてください神様泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣",
+      "thumb": "https://i.ytimg.com/vi/yoPXNBdttoc/hqdefault_live.jpg",
+      "publishedAt": "2026-08-18T11:46:39Z",
+      "live": true,
+      "en": {
+        "title": "[Song Frame] Please, let me deliver it, God, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry,"
+      }
+    },
+    {
+      "id": "FLWoWshQEWM",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【歌枠】なんと、激レア通常歌枠です【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/FLWoWshQEWM/hqdefault.jpg",
+      "publishedAt": "2026-08-18T11:09:22Z",
+      "live": false,
+      "en": {
+        "title": "[Song frame] This is a super rare regular song frame [#AmakamiLive]"
+      }
+    },
+    {
+      "id": "dKQnRSprjoA",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【雑談】最近の出来事振り返る【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/dKQnRSprjoA/hqdefault_live.jpg",
+      "publishedAt": "2026-08-18T11:03:14Z",
+      "live": true,
+      "en": {
+        "title": "[Chat] Looking back on recent events [Yuragiyura/MilliPro]"
+      }
+    },
+    {
+      "id": "_1w9vUatWT4",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【実写企画】\"あの\"守り神を作る…！？",
+      "thumb": "https://i.ytimg.com/vi/_1w9vUatWT4/hqdefault.jpg",
+      "publishedAt": "2026-08-18T10:00:07Z",
+      "live": false,
+      "en": {
+        "title": "[Live-action project] Creating \"that\" guardian deity...! ?"
+      }
+    },
+    {
+      "id": "jrR6CbvlEno",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【ドッキリ検証】雑談配信中にめっちゃカメレオンしてても視聴者は気づかない説ｗｗｗ",
+      "thumb": "https://i.ytimg.com/vi/jrR6CbvlEno/hqdefault.jpg",
+      "publishedAt": "2026-08-18T09:30:06Z",
+      "live": true,
+      "en": {
+        "title": "[Prank verification] Even if you act like a chameleon while chatting, viewers won't notice lol"
+      }
+    },
+    {
+      "id": "rOW1QWR7r2Y",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 Minecraft 】神社建築⛩御神木を完成させたい🌸【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/rOW1QWR7r2Y/hqdefault.jpg",
+      "publishedAt": "2026-08-18T09:20:26Z",
+      "live": false,
+      "en": {
+        "title": "[Minecraft] Shrine construction⛩I want to complete the sacred tree🌸 [Yuragiyura/MilliPro]"
+      }
+    },
+    {
       "id": "cl3J_a5ltu8",
       "memberId": "koma",
       "member": "小廻こま",
       "channelTitle": "小廻こま / Komawari Koma",
       "title": "【 黄昏の森 】クリアで告知!?ボスをひたすら倒したい#2【小廻こま/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/cl3J_a5ltu8/hqdefault_live.jpg",
-      "publishedAt": "2026-08-18T07:42:15Z",
+      "publishedAt": "2026-08-18T09:00:38Z",
       "live": false,
       "en": {
         "title": "[Twilight Forest] Announcement after clearing!? I want to defeat the boss #2 [Komakoma/MilliPro]"
+      }
+    },
+    {
+      "id": "D7gKtPUtPuw",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【アニメ】承認してください、ジーニーさん！#ミリプロ #anime",
+      "thumb": "https://i.ytimg.com/vi/D7gKtPUtPuw/hqdefault.jpg",
+      "publishedAt": "2026-08-18T09:00:33Z",
+      "live": false,
+      "en": {
+        "title": "[Anime] Please approve, Genie-san! #milipro #anime"
       }
     },
     {
@@ -243,45 +334,6 @@
       "live": false,
       "en": {
         "title": "Convenience store clerk #minecraft"
-      }
-    },
-    {
-      "id": "rOW1QWR7r2Y",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 Minecraft 】神社建築⛩御神木を完成させたい🌸【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/rOW1QWR7r2Y/hqdefault_live.jpg",
-      "publishedAt": "2026-08-18T06:52:20Z",
-      "live": false,
-      "en": {
-        "title": "[Minecraft] Shrine construction⛩I want to complete the sacred tree🌸 [Yuragiyura/MilliPro]"
-      }
-    },
-    {
-      "id": "jrR6CbvlEno",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【ドッキリ検証】雑談配信中にめっちゃカメレオンしてても視聴者は気づかない説ｗｗｗ",
-      "thumb": "https://i.ytimg.com/vi/jrR6CbvlEno/hqdefault.jpg",
-      "publishedAt": "2026-08-17T21:04:52Z",
-      "live": true,
-      "en": {
-        "title": "[Prank verification] Even if you act like a chameleon while chatting, viewers won't notice lol"
-      }
-    },
-    {
-      "id": "_1w9vUatWT4",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【実写企画】\"あの\"守り神を作る…！？",
-      "thumb": "https://i.ytimg.com/vi/_1w9vUatWT4/hqdefault.jpg",
-      "publishedAt": "2026-08-17T19:52:37Z",
-      "live": false,
-      "en": {
-        "title": "[Live-action project] Creating \"that\" guardian deity...! ?"
       }
     },
     {
@@ -321,19 +373,6 @@
       "live": false,
       "en": {
         "title": "[Twilight Forest/Minecraft] Reincarnation in another world with Komakurizu!! ️❓ [Ameya Liz/MilliPro]"
-      }
-    },
-    {
-      "id": "dKQnRSprjoA",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【雑談】最近の出来事振り返る【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/dKQnRSprjoA/hqdefault_live.jpg",
-      "publishedAt": "2026-08-17T16:11:04Z",
-      "live": true,
-      "en": {
-        "title": "[Chat] Looking back on recent events [Yuragiyura/MilliPro]"
       }
     },
     {
@@ -399,19 +438,6 @@
       "live": false,
       "en": {
         "title": "[Strinu/Minecraft] Looks like it's the last day🍓 [Riz Ameya/MilliPro]"
-      }
-    },
-    {
-      "id": "4FbOsEcYFFg",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【マイクラ￤ストリヌ】最終日！悔いなく全部を全力で楽しむぞ🔥🔥🔥【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/4FbOsEcYFFg/hqdefault.jpg",
-      "publishedAt": "2026-08-16T17:38:22Z",
-      "live": false,
-      "en": {
-        "title": "[Minecraft Strine] Last day! I will enjoy everything to the fullest without regrets 🔥🔥🔥 [#AmakamiLive]"
       }
     },
     {
@@ -519,19 +545,6 @@
       }
     },
     {
-      "id": "vNx5mvewRoA",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【マイクラ】ナツいアツのプールなナイト！【#⁠ミリプロサマー2026】",
-      "thumb": "https://i.ytimg.com/vi/vNx5mvewRoA/hqdefault.jpg",
-      "publishedAt": "2026-08-16T12:38:43Z",
-      "live": false,
-      "en": {
-        "title": "[Minecraft] A hot pool night! [#⁠Millipro Summer 2026]"
-      }
-    },
-    {
       "id": "Q-KAvQqUD7I",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
@@ -595,32 +608,43 @@
       "en": {
         "title": "[Minecraft] Apparently you can go to the night pool with Minecraft 🎵 [#⁠MilliPro Summer 2026]"
       }
-    },
-    {
-      "id": "MCNzEgcyOws",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【マイクラ】今年の夏も満喫するぞ～！【#⁠ミリプロサマー2026】",
-      "thumb": "https://i.ytimg.com/vi/MCNzEgcyOws/hqdefault.jpg",
-      "publishedAt": "2026-08-16T12:20:46Z",
-      "live": false,
-      "en": {
-        "title": "[Minecraft] Let's enjoy this summer too! [#⁠Millipro Summer 2026]"
-      }
     }
   ],
   "live": [
     {
-      "id": "rOW1QWR7r2Y",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 Minecraft 】神社建築⛩御神木を完成させたい🌸【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/rOW1QWR7r2Y/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-18T06:52:20Z",
+      "id": "cl3J_a5ltu8",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 黄昏の森 】クリアで告知!?ボスをひたすら倒したい#2【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/cl3J_a5ltu8/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-18T09:00:38Z",
       "status": "live",
       "en": {
-        "title": "[Minecraft] Shrine construction⛩I want to complete the sacred tree🌸 [Yuragiyura/MilliPro]"
+        "title": "[Twilight Forest] Announcement after clearing!? I want to defeat the boss #2 [Komakoma/MilliPro]"
+      }
+    },
+    {
+      "id": "dKQnRSprjoA",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【雑談】最近の出来事振り返る【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/dKQnRSprjoA/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-18T11:03:14Z",
+      "status": "live",
+      "en": {
+        "title": "[Chat] Looking back on recent events [Yuragiyura/MilliPro]"
+      }
+    },
+    {
+      "id": "yoPXNBdttoc",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "【歌枠】お願いします配信させてください神様泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣",
+      "thumb": "https://i.ytimg.com/vi/yoPXNBdttoc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-18T11:46:39Z",
+      "status": "live",
+      "en": {
+        "title": "[Song Frame] Please, let me deliver it, God, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry,"
       }
     }
   ]
