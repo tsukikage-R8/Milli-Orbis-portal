@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-08-18T16:16:33.019Z",
+  "updatedAt": "2026-08-18T20:09:38.109Z",
   "streams": [
     {
-      "id": "cl3J_a5ltu8",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 黄昏の森 】クリアで告知!?ボスをひたすら倒したい#2【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/cl3J_a5ltu8/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-18T09:00:38Z",
-      "status": "live",
+      "id": "8y2v7uLYRN4",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "水曜ゆらゆら歌枠｜夏！夏！歌！老人会！【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/8y2v7uLYRN4/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-19T12:00:00Z",
+      "status": "upcoming",
       "en": {
-        "title": "[Twilight Forest] Announcement after clearing!? I want to defeat the boss #2 [Komakoma/MilliPro]"
+        "title": "Wednesday Yurayura song slot | Summer! summer! song! Elderly people’s party! [Yuragiyura / Millipro]"
       }
     },
     {
@@ -196,16 +196,16 @@
   ],
   "videos": [
     {
-      "id": "VOXMc7Cg2w8",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【歌枠】久々の縦型ですよ〜【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/VOXMc7Cg2w8/hqdefault_live.jpg",
-      "publishedAt": "2026-08-18T14:59:14Z",
+      "id": "cl3J_a5ltu8",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 黄昏の森 】クリアで告知!?ボスをひたすら倒したい#2【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/cl3J_a5ltu8/hqdefault.jpg",
+      "publishedAt": "2026-08-18T19:50:00Z",
       "live": false,
       "en": {
-        "title": "[Song frame] It’s been a long time since I’ve done a vertical song ~ [Riz Ameya/MilliPro]"
+        "title": "[Twilight Forest] Announcement after clearing!? I want to defeat the boss #2 [Komakoma/MilliPro]"
       }
     },
     {
@@ -214,11 +214,37 @@
       "member": "眠雲ツクリ",
       "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
       "title": "〖 Minecraft 〗クリアで告知!?ボス倒しまくりの黄昏の森#2〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/4VV_Gr9HQRc/hqdefault_live.jpg",
-      "publishedAt": "2026-08-18T14:28:03Z",
+      "thumb": "https://i.ytimg.com/vi/4VV_Gr9HQRc/hqdefault.jpg",
+      "publishedAt": "2026-08-18T19:39:07Z",
       "live": false,
       "en": {
         "title": "[Minecraft] Announcement after clearing!? Twilight Forest with lots of boss defeats #2 [Nemugumo Tsukuri / Millipro]"
+      }
+    },
+    {
+      "id": "8y2v7uLYRN4",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "水曜ゆらゆら歌枠｜夏！夏！歌！老人会！【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/8y2v7uLYRN4/hqdefault_live.jpg",
+      "publishedAt": "2026-08-18T17:27:26Z",
+      "live": false,
+      "en": {
+        "title": "Wednesday Yurayura song slot | Summer! summer! song! Elderly people’s party! [Yuragiyura / Millipro]"
+      }
+    },
+    {
+      "id": "VOXMc7Cg2w8",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【歌枠】久々の縦型ですよ〜【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/VOXMc7Cg2w8/hqdefault.jpg",
+      "publishedAt": "2026-08-18T16:30:45Z",
+      "live": false,
+      "en": {
+        "title": "[Song frame] It’s been a long time since I’ve done a vertical song ~ [Riz Ameya/MilliPro]"
       }
     },
     {
@@ -300,19 +326,6 @@
       }
     },
     {
-      "id": "cl3J_a5ltu8",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 黄昏の森 】クリアで告知!?ボスをひたすら倒したい#2【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/cl3J_a5ltu8/hqdefault_live.jpg",
-      "publishedAt": "2026-08-18T09:00:38Z",
-      "live": false,
-      "en": {
-        "title": "[Twilight Forest] Announcement after clearing!? I want to defeat the boss #2 [Komakoma/MilliPro]"
-      }
-    },
-    {
       "id": "D7gKtPUtPuw",
       "memberId": "official",
       "member": "ミリプロ公式",
@@ -348,7 +361,7 @@
       "publishedAt": "2026-08-17T17:54:16Z",
       "live": false,
       "en": {
-        "title": "[Twilight Forest] Announcement on clear!? Komakuri Komai Twilight Forest #1 [Komakoma/MilliPro]"
+        "title": "[Twilight Forest] Clear announcement!?Komakuri Komai Twilight Forest #1 [Komakoma/MilliPro]"
       }
     },
     {
@@ -439,7 +452,7 @@
       "publishedAt": "2026-08-16T17:39:43Z",
       "live": false,
       "en": {
-        "title": "[Strinu/Minecraft] Looks like it's the last day🍓 [Riz Ameya/MilliPro]"
+        "title": "[Strinu/Minecraft] Looks like it's the last day🍓 [Ameya Liz/MilliPro]"
       }
     },
     {
@@ -571,33 +584,7 @@
       "en": {
         "title": "[Minecraft] It's summer! It's a swimsuit! It’s a night pool! ! ! [#⁠Millipro Summer 2026]"
       }
-    },
-    {
-      "id": "tFy_PqQNxyg",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 マイクラ 】夏祭りは全力で楽しむ派です【#⁠ミリプロサマー2026】",
-      "thumb": "https://i.ytimg.com/vi/tFy_PqQNxyg/hqdefault.jpg",
-      "publishedAt": "2026-08-16T12:27:41Z",
-      "live": false,
-      "en": {
-        "title": "[Minecraft] I am a person who enjoys summer festivals to the fullest [#⁠MilliPro Summer 2026]"
-      }
     }
   ],
-  "live": [
-    {
-      "id": "cl3J_a5ltu8",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 黄昏の森 】クリアで告知!?ボスをひたすら倒したい#2【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/cl3J_a5ltu8/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-18T09:00:38Z",
-      "status": "live",
-      "en": {
-        "title": "[Twilight Forest] Announcement after clearing!? I want to defeat the boss #2 [Komakoma/MilliPro]"
-      }
-    }
-  ]
+  "live": []
 }

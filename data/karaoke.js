@@ -1,11 +1,22 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "8y2v7uLYRN4",
+    "memberId": "yura",
+    "publishedAt": "2026-08-18",
+    "title": "水曜ゆらゆら歌枠｜夏！夏！歌！老人会！【 ゆらぎゆら / ミリプロ 】",
+    "duration": 0,
+    "songs": [],
+    "en": {
+      "title": "Wednesday Yurayura song slot | Summer! summer! song! Elderly people’s party! [Yuragiyura / Millipro]"
+    }
+  },
+  {
     "id": "VOXMc7Cg2w8",
     "memberId": "liz",
     "publishedAt": "2026-08-18",
     "title": "【歌枠】久々の縦型ですよ〜【雨夜リズ/ミリプロ】",
-    "duration": 3388,
+    "duration": 3391,
     "songs": [],
     "en": {
       "title": "[Song frame] It’s been a long time since I’ve done a vertical song ~ [Riz Ameya/MilliPro]"

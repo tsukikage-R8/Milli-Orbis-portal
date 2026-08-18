@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T12:18:47.660Z",
+  "updatedAt": "2026-08-18T16:16:33.019Z",
   "streams": [
     {
       "id": "cl3J_a5ltu8",
@@ -11,30 +11,6 @@
       "status": "live",
       "en": {
         "title": "[Twilight Forest] Announcement after clearing!? I want to defeat the boss #2 [Komakoma/MilliPro]"
-      }
-    },
-    {
-      "id": "dKQnRSprjoA",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【雑談】最近の出来事振り返る【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/dKQnRSprjoA/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-18T11:03:14Z",
-      "status": "live",
-      "en": {
-        "title": "[Chat] Looking back on recent events [Yuragiyura/MilliPro]"
-      }
-    },
-    {
-      "id": "yoPXNBdttoc",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【歌枠】お願いします配信させてください神様泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣",
-      "thumb": "https://i.ytimg.com/vi/yoPXNBdttoc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-18T11:46:39Z",
-      "status": "live",
-      "en": {
-        "title": "[Song Frame] Please, let me deliver it, God, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry,"
       }
     },
     {
@@ -220,16 +196,55 @@
   ],
   "videos": [
     {
+      "id": "VOXMc7Cg2w8",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【歌枠】久々の縦型ですよ〜【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/VOXMc7Cg2w8/hqdefault_live.jpg",
+      "publishedAt": "2026-08-18T14:59:14Z",
+      "live": false,
+      "en": {
+        "title": "[Song frame] It’s been a long time since I’ve done a vertical song ~ [Riz Ameya/MilliPro]"
+      }
+    },
+    {
+      "id": "4VV_Gr9HQRc",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 Minecraft 〗クリアで告知!?ボス倒しまくりの黄昏の森#2〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/4VV_Gr9HQRc/hqdefault_live.jpg",
+      "publishedAt": "2026-08-18T14:28:03Z",
+      "live": false,
+      "en": {
+        "title": "[Minecraft] Announcement after clearing!? Twilight Forest with lots of boss defeats #2 [Nemugumo Tsukuri / Millipro]"
+      }
+    },
+    {
       "id": "yoPXNBdttoc",
       "memberId": "konomi",
       "member": "甘狼このみ",
       "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
       "title": "【歌枠】お願いします配信させてください神様泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣",
-      "thumb": "https://i.ytimg.com/vi/yoPXNBdttoc/hqdefault_live.jpg",
-      "publishedAt": "2026-08-18T11:46:39Z",
+      "thumb": "https://i.ytimg.com/vi/yoPXNBdttoc/hqdefault.jpg",
+      "publishedAt": "2026-08-18T14:21:18Z",
       "live": true,
       "en": {
         "title": "[Song Frame] Please, let me deliver it, God, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry,"
+      }
+    },
+    {
+      "id": "dKQnRSprjoA",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【雑談】最近の出来事振り返る【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/dKQnRSprjoA/hqdefault.jpg",
+      "publishedAt": "2026-08-18T13:48:52Z",
+      "live": true,
+      "en": {
+        "title": "[Chat] Looking back on recent events [Yuragi Yura/MilliPro]"
       }
     },
     {
@@ -243,19 +258,6 @@
       "live": false,
       "en": {
         "title": "[Song frame] This is a super rare regular song frame [#AmakamiLive]"
-      }
-    },
-    {
-      "id": "dKQnRSprjoA",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【雑談】最近の出来事振り返る【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/dKQnRSprjoA/hqdefault_live.jpg",
-      "publishedAt": "2026-08-18T11:03:14Z",
-      "live": true,
-      "en": {
-        "title": "[Chat] Looking back on recent events [Yuragiyura/MilliPro]"
       }
     },
     {
@@ -372,7 +374,7 @@
       "publishedAt": "2026-08-17T17:44:52Z",
       "live": false,
       "en": {
-        "title": "[Twilight Forest/Minecraft] Reincarnation in another world with Komakurizu!! ️❓ [Ameya Liz/MilliPro]"
+        "title": "[Twilight Forest/Minecraft] Reincarnation in another world with Komazukurizu!! ️❓ [Ameya Liz/MilliPro]"
       }
     },
     {
@@ -493,19 +495,6 @@
       }
     },
     {
-      "id": "VOXMc7Cg2w8",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【雑談】雨夜さん実はみんなに隠してたことがあって。。【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/VOXMc7Cg2w8/hqdefault_live.jpg",
-      "publishedAt": "2026-08-16T14:58:27Z",
-      "live": true,
-      "en": {
-        "title": "[Chat] Ameya-san, there's actually something I've been hiding from everyone. . [Ameya Liz/MilliPro]"
-      }
-    },
-    {
       "id": "4lba9sduOzI",
       "memberId": "official",
       "member": "ミリプロ公式",
@@ -595,19 +584,6 @@
       "en": {
         "title": "[Minecraft] I am a person who enjoys summer festivals to the fullest [#⁠MilliPro Summer 2026]"
       }
-    },
-    {
-      "id": "h1QtwXWz7tY",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【Minecraft】マイクラでナイトプールに行けるらしい🎵【#⁠ミリプロサマー2026】",
-      "thumb": "https://i.ytimg.com/vi/h1QtwXWz7tY/hqdefault.jpg",
-      "publishedAt": "2026-08-16T12:26:32Z",
-      "live": false,
-      "en": {
-        "title": "[Minecraft] Apparently you can go to the night pool with Minecraft 🎵 [#⁠MilliPro Summer 2026]"
-      }
     }
   ],
   "live": [
@@ -621,30 +597,6 @@
       "status": "live",
       "en": {
         "title": "[Twilight Forest] Announcement after clearing!? I want to defeat the boss #2 [Komakoma/MilliPro]"
-      }
-    },
-    {
-      "id": "dKQnRSprjoA",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【雑談】最近の出来事振り返る【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/dKQnRSprjoA/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-18T11:03:14Z",
-      "status": "live",
-      "en": {
-        "title": "[Chat] Looking back on recent events [Yuragiyura/MilliPro]"
-      }
-    },
-    {
-      "id": "yoPXNBdttoc",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【歌枠】お願いします配信させてください神様泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣",
-      "thumb": "https://i.ytimg.com/vi/yoPXNBdttoc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-18T11:46:39Z",
-      "status": "live",
-      "en": {
-        "title": "[Song Frame] Please, let me deliver it, God, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry,"
       }
     }
   ]
