@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-08-18T04:22:44.500Z",
+  "updatedAt": "2026-08-18T08:19:58.145Z",
   "streams": [
+    {
+      "id": "rOW1QWR7r2Y",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 Minecraft 】神社建築⛩御神木を完成させたい🌸【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/rOW1QWR7r2Y/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-18T06:52:20Z",
+      "status": "live",
+      "en": {
+        "title": "[Minecraft] Shrine construction⛩I want to complete the sacred tree🌸 [Yuragiyura/MilliPro]"
+      }
+    },
+    {
+      "id": "cl3J_a5ltu8",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 黄昏の森 】クリアで告知!?ボスをひたすら倒したい#2【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/cl3J_a5ltu8/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-18T09:00:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "[Twilight Forest] Announcement after clearing!? I want to defeat the boss #2 [Komakoma/MilliPro]"
+      }
+    },
     {
       "id": "dKQnRSprjoA",
       "memberId": "yura",
@@ -195,6 +219,45 @@
     }
   ],
   "videos": [
+    {
+      "id": "cl3J_a5ltu8",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 黄昏の森 】クリアで告知!?ボスをひたすら倒したい#2【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/cl3J_a5ltu8/hqdefault_live.jpg",
+      "publishedAt": "2026-08-18T07:42:15Z",
+      "live": false,
+      "en": {
+        "title": "[Twilight Forest] Announcement after clearing!? I want to defeat the boss #2 [Komakoma/MilliPro]"
+      }
+    },
+    {
+      "id": "uYGLm51QIpI",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "コンビニの店員 #マイクラ",
+      "thumb": "https://i.ytimg.com/vi/uYGLm51QIpI/hqdefault.jpg",
+      "publishedAt": "2026-08-18T07:00:31Z",
+      "live": false,
+      "en": {
+        "title": "Convenience store clerk #minecraft"
+      }
+    },
+    {
+      "id": "rOW1QWR7r2Y",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 Minecraft 】神社建築⛩御神木を完成させたい🌸【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/rOW1QWR7r2Y/hqdefault_live.jpg",
+      "publishedAt": "2026-08-18T06:52:20Z",
+      "live": false,
+      "en": {
+        "title": "[Minecraft] Shrine construction⛩I want to complete the sacred tree🌸 [Yuragiyura/MilliPro]"
+      }
+    },
     {
       "id": "jrR6CbvlEno",
       "memberId": "konomi",
@@ -545,46 +608,20 @@
       "en": {
         "title": "[Minecraft] Let's enjoy this summer too! [#⁠Millipro Summer 2026]"
       }
-    },
-    {
-      "id": "ISlVs2qDnZY",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 Minecraft 〗屋台食いつくしVlog #⁠ミリプロサマー2026〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/ISlVs2qDnZY/hqdefault.jpg",
-      "publishedAt": "2026-08-16T12:19:04Z",
-      "live": false,
-      "en": {
-        "title": "〖 Minecraft 〗 Food stall eating Vlog #⁠ MilliPro Summer 2026 〖 Nemugumo Tsukuri / MilliPro 〗"
-      }
-    },
-    {
-      "id": "N6Ud1I17Tdg",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "【マイクラ】夏を私物化するミリプロ【#⁠ミリプロサマー2026】",
-      "thumb": "https://i.ytimg.com/vi/N6Ud1I17Tdg/hqdefault.jpg",
-      "publishedAt": "2026-08-16T12:14:02Z",
-      "live": false,
-      "en": {
-        "title": "[Minecraft] MilliPro makes summer personal [#⁠MilliPro Summer 2026]"
-      }
-    },
-    {
-      "id": "1u5VDoGVqLw",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 Minecraft 】夏祭りだ！焼きそば！かき氷！【小廻こま/ミリプロ】#⁠ミリプロサマー2026",
-      "thumb": "https://i.ytimg.com/vi/1u5VDoGVqLw/hqdefault.jpg",
-      "publishedAt": "2026-08-16T12:13:49Z",
-      "live": false,
-      "en": {
-        "title": "[Minecraft] Summer festival! Yakisoba! Shaved ice! [Komawarikoma/MilliPro] #⁠MilliPro Summer 2026"
-      }
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "rOW1QWR7r2Y",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 Minecraft 】神社建築⛩御神木を完成させたい🌸【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/rOW1QWR7r2Y/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-18T06:52:20Z",
+      "status": "live",
+      "en": {
+        "title": "[Minecraft] Shrine construction⛩I want to complete the sacred tree🌸 [Yuragiyura/MilliPro]"
+      }
+    }
+  ]
 }
