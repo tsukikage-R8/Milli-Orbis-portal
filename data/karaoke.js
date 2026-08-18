@@ -1,6 +1,17 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "VOXMc7Cg2w8",
+    "memberId": "liz",
+    "publishedAt": "2026-08-18",
+    "title": "【歌枠】久々の縦型ですよ〜【雨夜リズ/ミリプロ】",
+    "duration": 3388,
+    "songs": [],
+    "en": {
+      "title": "[Song frame] It’s been a long time since I’ve done a vertical song ~ [Riz Ameya/MilliPro]"
+    }
+  },
+  {
     "id": "vos7X7sJ5Dg",
     "memberId": "koma",
     "publishedAt": "2026-08-14",

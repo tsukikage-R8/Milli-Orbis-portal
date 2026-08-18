@@ -342,12 +342,12 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/2b/64/8e2b64e9-85f2-2486-364d-e4b72c40f4c9/PCSP_06085_A.jpg/600x600bb.jpg"
     },
     "モニタリング-deco*27shortby": {
-      "title": "どこかで日は昇る (Album Mix)",
-      "artist": "Mrs. GREEN APPLE",
-      "album": "ENSEMBLE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/56/d4/1e/56d41e84-b659-a170-6712-cfc8d47691a0/00602567503408.rgb.jpg/600x600bb.jpg",
+      "title": "だれかの心臓になれたなら",
+      "artist": "まふまふ",
+      "album": "だれかの心臓になれたなら - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c4/59/15/c4591582-c115-0454-4222-fcbceca6b7e7/PCSP_03350.jpg/600x600bb.jpg",
       "en": {
-        "title": "The sun will rise somewhere (Album Mix)"
+        "title": "If I could become someone's heart"
       }
     },
     "specialz": {
@@ -479,7 +479,7 @@ window.SONG_MASTER = {
       "album": "ツバメ (feat. ミドリーズ) - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg",
       "en": {
-        "title": "Swallow (feat. Midleys)"
+        "title": "Tsubame (feat. Midleys)"
       }
     },
     "1000年生きてる": {
@@ -1164,13 +1164,10 @@ window.SONG_MASTER = {
       }
     },
     "チェリポップ.": {
-      "title": "メランコリーキッチン",
-      "artist": "米津玄師",
-      "album": "YANKEE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg",
-      "en": {
-        "title": "melancholy kitchen"
-      }
+      "title": "Can't You See Me?",
+      "artist": "TOMORROW X TOGETHER",
+      "album": "The Dream Chapter: ETERNITY - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/58/11/b1/5811b15d-6c29-c30f-3495-10ef21365008/20UMGIM36654.rgb.jpg/600x600bb.jpg"
     },
     "glowacoustic.": {
       "title": "春に落ちて",
@@ -1308,7 +1305,7 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg"
     },
     "trustonme-themeofe.t.e": {
-      "title": "Trust On Me -Theme of E.T.E- (feat. MARiA) [Instrumental]",
+      "title": "Trust On Me -Theme of E.T.E- (feat. MARiA)",
       "artist": "小室哲哉",
       "album": "Trust On Me -Theme of E.T.E- (feat. MARiA) - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d6/db/f6/d6dbf678-2d9d-0d39-22a9-f2e60809f800/PCSP_04640_A.jpg/600x600bb.jpg"
@@ -1582,9 +1579,9 @@ window.SONG_MASTER = {
     },
     "打上花火": {
       "title": "打上花火",
-      "artist": "米津玄師",
-      "album": "BOOTLEG",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1b/7a/5e/1b7a5e77-b0c4-6e32-f3ee-c09c70f8378e/jacket_SRCL09571B00Z_550.jpg/600x600bb.jpg",
+      "artist": "DAOKO×米津玄師",
+      "album": "打上花火 - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a8/cf/1f/a8cf1f9a-d988-7c3d-b618-6ab53d12bc0d/TFCC-89632WW.jpg/600x600bb.jpg",
       "en": {
         "title": "fireworks launch"
       }
@@ -1608,12 +1605,12 @@ window.SONG_MASTER = {
       }
     },
     "メリュいました": {
-      "title": "だから僕は音楽を辞めた",
-      "artist": "ヨルシカ",
-      "album": "だから僕は音楽を辞めた",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/64/ab/ba/64abba45-d080-0e8a-c24b-313e597c63cb/PA00076158_0_91679_jacket.jpg/600x600bb.jpg",
+      "title": "青い春",
+      "artist": "SUPER BEAVER",
+      "album": "27",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2d/4a/7a/2d4a7a8c-9101-e1f7-9f93-e488f7bbd137/082705_J.jpg/600x600bb.jpg",
       "en": {
-        "title": "That's why I quit music"
+        "title": "blue spring"
       }
     },
     "放課後のプレアデスいました": {
@@ -1739,16 +1736,16 @@ window.SONG_MASTER = {
       "album": "絶望性:ヒーロー治療薬【通常盤】 (feat. Soraru) - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/b7/02/9ab702b7-14b9-de10-c826-3793b4ed97c6/5021732646163.jpg/600x600bb.jpg",
       "en": {
-        "title": "Despair: Hero Cure (feat. Soraru)"
+        "title": "Hopelessness: Hero Cure (feat. Soraru)"
       }
     },
     "ハロハワユいました": {
-      "title": "シャルル",
-      "artist": "96猫",
-      "album": "O2O",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0f/99/87/0f99875e-1689-639e-4e52-9ff6afa60714/jacket_SRXX02478B00Z_550.jpg/600x600bb.jpg",
+      "title": "ドーナツホール (COVER)",
+      "artist": "米津玄師",
+      "album": "YANKEE",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg",
       "en": {
-        "title": "charles"
+        "title": "Donut hole (COVER)"
       }
     },
     "クエスチョン": {
