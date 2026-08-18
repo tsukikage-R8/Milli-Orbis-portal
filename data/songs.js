@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-songs.js（変更しないでください） */
 window.SONGS = {
-  "generatedAt": "2026-08-17",
+  "generatedAt": "2026-08-18",
   "official": [
     {
       "id": "1UdnoJ6qgPs",
@@ -54,13 +54,13 @@ window.SONGS = {
     },
     {
       "id": "NcwH_Uxgm6E",
-      "title": "【崩壊3rd】Fairy Winking - 【エリシア イメージソング】",
+      "title": "【崩壊3rd】Fairy Winking - 鹿乃 【エリシア イメージソング】",
       "publishedAt": "2025-11-22",
       "members": [
         "mahoro"
       ],
       "en": {
-        "title": "[Collapse 3rd] Fairy Winking - [Elysia Image Song]"
+        "title": "[Collapse 3rd] Fairy Winking - Kano [Elysia Image Song]"
       }
     },
     {
@@ -76,13 +76,13 @@ window.SONGS = {
     },
     {
       "id": "-Ki0jav4fQg",
-      "title": "【鳴潮】Pale moonlight",
+      "title": "【鳴潮】Pale moonlight - 鹿乃",
       "publishedAt": "2025-09-25",
       "members": [
         "mahoro"
       ],
       "en": {
-        "title": "【Narushio】Pale moonlight"
+        "title": "[Narushio] Pale moonlight - Kano"
       }
     },
     {
@@ -95,11 +95,14 @@ window.SONGS = {
     },
     {
       "id": "7F6NVTxPrsI",
-      "title": "「Hiraeth」Music Video",
-      "publishedAt": "2025-07-02",
+      "title": "鹿乃「Hiraeth」Music Video",
+      "publishedAt": "2025-07-03",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "Kano “Hiraeth” Music Video"
+      }
     },
     {
       "id": "On5N72vpDFU",
@@ -114,24 +117,24 @@ window.SONGS = {
     },
     {
       "id": "9m3ste7cWs0",
-      "title": "「ドッペル原画と複製ゲンガー」Music Video",
-      "publishedAt": "2025-02-11",
+      "title": "鹿乃「ドッペル原画と複製ゲンガー」Music Video",
+      "publishedAt": "2025-02-10",
       "members": [
         "mahoro"
       ],
       "en": {
-        "title": "“Doppel original picture and reproduction Gengar” Music Video"
+        "title": "Kano “Doppel original picture and reproduction Gengar” Music Video"
       }
     },
     {
       "id": "YiABCz7hPQE",
-      "title": "【崩壊：スターレイル】To the Moon / 【HoYoFair】",
-      "publishedAt": "2025-01-01",
+      "title": "【崩壊：スターレイル】To the Moon / 鹿乃【HoYoFair】",
+      "publishedAt": "2025-01-02",
       "members": [
         "mahoro"
       ],
       "en": {
-        "title": "[Collapse: Star Rail] To the Moon / [HoYoFair]"
+        "title": "[Collapse: Star Rail] To the Moon / Kano [HoYoFair]"
       }
     },
     {
@@ -147,13 +150,13 @@ window.SONGS = {
     },
     {
       "id": "duivaVC0boc",
-      "title": "「愛と哀」Music Video",
+      "title": "鹿乃「愛と哀」Music Video",
       "publishedAt": "2024-10-23",
       "members": [
         "mahoro"
       ],
       "en": {
-        "title": "“Love and Sorrow” Music Video"
+        "title": "Kano “Love and Sorrow” Music Video"
       }
     },
     {
@@ -169,13 +172,13 @@ window.SONGS = {
     },
     {
       "id": "yIkVTnt5kxs",
-      "title": "「メトメ」Music Video",
+      "title": "鹿乃「メトメ」Music Video",
       "publishedAt": "2024-08-28",
       "members": [
         "mahoro"
       ],
       "en": {
-        "title": "“Metome” Music Video"
+        "title": "Kano “Metome” Music Video"
       }
     },
     {
@@ -191,245 +194,278 @@ window.SONGS = {
     },
     {
       "id": "QeDLf05ejus",
-      "title": "「ステレオフォニック」Music Video",
-      "publishedAt": "2024-04-20",
+      "title": "鹿乃「ステレオフォニック」Music Video",
+      "publishedAt": "2024-04-19",
       "members": [
         "mahoro"
       ],
       "en": {
-        "title": "\"Stereophonic\" Music Video"
+        "title": "Kano “Stereophonic” Music Video"
       }
     },
     {
       "id": "DTF5L6NHBDA",
-      "title": "【スノウブレイク：禁域降臨イメージソング】狙え！海に降臨",
+      "title": "【スノウブレイク：禁域降臨イメージソング】狙え！海に降臨【鹿乃】",
       "publishedAt": "2023-11-03",
       "members": [
         "mahoro"
       ],
       "en": {
-        "title": "[Snow Break: Forbidden Region Image Song] Aim! Descending to the sea"
+        "title": "[Snow Break: Forbidden Region Image Song] Aim! Descending to the sea [Kano]"
       }
     },
     {
       "id": "cJ-eRHxhE6A",
-      "title": "【原神MV - 宵宮】今宵Dance～花火やねん",
-      "publishedAt": "2022-12-31",
+      "title": "【原神MV - 宵宮】今宵Dance～花火やねん【鹿乃】",
+      "publishedAt": "2023-01-03",
       "members": [
         "mahoro"
       ],
       "en": {
-        "title": "[Genshin MV - Yoimiya] Tonight Dance ~ Fireworks"
+        "title": "[Genshin MV - Yoimiya] Tonight Dance ~ Fireworks [Kano]"
       }
     },
     {
       "id": "bSibPLEYTY8",
-      "title": "「いちごいちえ Celebration」【OFFICIAL】「宇崎ちゃんは遊びたい！ω」OP",
+      "title": "鹿乃「いちごいちえ Celebration」【OFFICIAL】「宇崎ちゃんは遊びたい！ω」OP",
       "publishedAt": "2022-10-07",
       "members": [
         "mahoro"
       ],
       "en": {
-        "title": "“Ichigo Ichie Celebration” [OFFICIAL] “Uzaki-chan wants to play!ω” OP"
-      }
-    },
-    {
-      "id": "dioEcz621Jg",
-      "title": "/KANO 2020remix",
-      "publishedAt": "2021-08-18",
-      "members": [
-        "mahoro"
-      ]
-    },
-    {
-      "id": "ZkDEkUf6jlg",
-      "title": "それはきっと夏だった",
-      "publishedAt": "2021-08-18",
-      "members": [
-        "mahoro"
-      ],
-      "en": {
-        "title": "It must have been summer"
-      }
-    },
-    {
-      "id": "UX8_xSOZfUc",
-      "title": "「コンパスソング」【OFFICIAL】「装甲娘戦機」ED",
-      "publishedAt": "2021-08-18",
-      "members": [
-        "mahoro"
-      ],
-      "en": {
-        "title": "\"Compass Song\" [OFFICIAL] \"Armor Musume Senki\" ED"
-      }
-    },
-    {
-      "id": "GPo-g6tHH_4",
-      "title": "「ルカルカ☆ナイトフィーバー」【OFFICIAL】",
-      "publishedAt": "2020-08-18",
-      "members": [
-        "mahoro"
-      ],
-      "en": {
-        "title": "“Luka Luka☆Night Fever” [OFFICIAL]"
-      }
-    },
-    {
-      "id": "LS61xdsolis",
-      "title": "「午前0時の無力な神様」【OFFICIAL】",
-      "publishedAt": "2020-08-18",
-      "members": [
-        "mahoro"
-      ],
-      "en": {
-        "title": "“The helpless god at midnight” [OFFICIAL]"
-      }
-    },
-    {
-      "id": "34nCX5AEXWY",
-      "title": "「なだめスかし Negotiation」【OFFICIAL】「宇崎ちゃんは遊びたい！」OP",
-      "publishedAt": "2020-08-18",
-      "members": [
-        "mahoro"
-      ],
-      "en": {
-        "title": "“Nadamesukashi Negotiation” [OFFICIAL] “Uzaki-chan wants to play!” OP"
-      }
-    },
-    {
-      "id": "XXOEO_i8tMk",
-      "title": "『「Q」&「A」』【OFFICIAL】",
-      "publishedAt": "2019-08-19",
-      "members": [
-        "mahoro"
-      ]
-    },
-    {
-      "id": "QqSDGg_MlTw",
-      "title": "「HOPE」【OFFICIAL】",
-      "publishedAt": "2019-08-19",
-      "members": [
-        "mahoro"
-      ]
-    },
-    {
-      "id": "yvtyw-HAyHA",
-      "title": "「HOPE」(short ver.)【OFFICIAL】",
-      "publishedAt": "2018-10-25",
-      "members": [
-        "mahoro"
-      ]
-    },
-    {
-      "id": "DdedCMxUBl8",
-      "title": "「Daisy Blue」【OFFICIAL】",
-      "publishedAt": "2018-08-19",
-      "members": [
-        "mahoro"
-      ]
-    },
-    {
-      "id": "Fppdf8foYoA",
-      "title": "「Ivy」 【OFFICIAL】",
-      "publishedAt": "2018-08-19",
-      "members": [
-        "mahoro"
-      ]
-    },
-    {
-      "id": "-J4PaiGgEPA",
-      "title": "「春に落ちて」【OFFICIAL】",
-      "publishedAt": "2018-08-19",
-      "members": [
-        "mahoro"
-      ],
-      "en": {
-        "title": "“Falling in Spring” [OFFICIAL]"
-      }
-    },
-    {
-      "id": "l4Rp9GNXhU4",
-      "title": "「RERE」 【OFFICIAL】",
-      "publishedAt": "2017-08-19",
-      "members": [
-        "mahoro"
-      ]
-    },
-    {
-      "id": "z7EkuWkEyPc",
-      "title": "サンクチュアリ",
-      "publishedAt": "2017-08-19",
-      "members": [
-        "mahoro"
-      ],
-      "en": {
-        "title": "sanctuary"
-      }
-    },
-    {
-      "id": "A8jUgcSgcQg",
-      "title": "「day by day」(short ver.) 【OFFICIAL】",
-      "publishedAt": "2017-08-19",
-      "members": [
-        "mahoro"
-      ]
-    },
-    {
-      "id": "vDaBppdt5rw",
-      "title": "「29-Q」(short ver.) 【OFFICIAL】",
-      "publishedAt": "2017-08-19",
-      "members": [
-        "mahoro"
-      ]
-    },
-    {
-      "id": "6BXKh4f6Vhw",
-      "title": "「プリマステラ」 【OFFICIAL】",
-      "publishedAt": "2016-08-19",
-      "members": [
-        "mahoro"
-      ],
-      "en": {
-        "title": "\"Plymouth Stella\" [OFFICIAL]"
-      }
-    },
-    {
-      "id": "im2tTHtR5YU",
-      "title": "「nameless」 【OFFICIAL】",
-      "publishedAt": "2016-08-19",
-      "members": [
-        "mahoro"
-      ]
-    },
-    {
-      "id": "UstE6yTlwcU",
-      "title": "「ディアブレイブ」 【OFFICIAL】",
-      "publishedAt": "2015-11-06",
-      "members": [
-        "mahoro"
-      ],
-      "en": {
-        "title": "“Dear Brave” [OFFICIAL]"
+        "title": "Kano “Ichigo Ichie Celebration” [OFFICIAL] “Uzaki-chan wants to play! ω” OP"
       }
     },
     {
       "id": "X0QIH_tp4Hg",
-      "title": "「ディアブレイブ」 （short ver.） 【OFFICIAL】",
-      "publishedAt": "2015-10-09",
+      "title": "【MV】 鹿乃 「ディアブレイブ」 （short ver.） 【OFFICIAL】",
+      "publishedAt": "2021-03-22",
       "members": [
         "mahoro"
       ],
       "en": {
-        "title": "“Dear Brave” (short ver.) [OFFICIAL]"
+        "title": "[MV] Kano “Dear Brave” (short ver.) [OFFICIAL]"
+      }
+    },
+    {
+      "id": "yvtyw-HAyHA",
+      "title": "【MV】鹿乃「HOPE」(short ver.)【OFFICIAL】",
+      "publishedAt": "2021-03-22",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "[MV] Kano “HOPE” (short ver.) [OFFICIAL]"
       }
     },
     {
       "id": "GNkPJvVEm0s",
-      "title": "「Stella-rium」 【OFFICIAL】",
-      "publishedAt": "2015-05-20",
+      "title": "【MV】 鹿乃 「Stella-rium」 【OFFICIAL】",
+      "publishedAt": "2021-03-15",
       "members": [
         "mahoro"
-      ]
+      ],
+      "en": {
+        "title": "[MV] Kano “Stella-rium” [OFFICIAL]"
+      }
+    },
+    {
+      "id": "UstE6yTlwcU",
+      "title": "【MV】 鹿乃 「ディアブレイブ」  【OFFICIAL】",
+      "publishedAt": "2021-03-15",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "[MV] Kano “Dear Brave” [OFFICIAL]"
+      }
+    },
+    {
+      "id": "6BXKh4f6Vhw",
+      "title": "【MV】 鹿乃 「プリマステラ」 【OFFICIAL】",
+      "publishedAt": "2021-03-15",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "[MV] Kano “Prima Stella” [OFFICIAL]"
+      }
+    },
+    {
+      "id": "im2tTHtR5YU",
+      "title": "【MV】 鹿乃 「nameless」 【OFFICIAL】",
+      "publishedAt": "2021-03-15",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "[MV] Kano “nameless” [OFFICIAL]"
+      }
+    },
+    {
+      "id": "l4Rp9GNXhU4",
+      "title": "【MV】 鹿乃 「RERE」 【OFFICIAL】",
+      "publishedAt": "2021-03-15",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "[MV] Kano “RERE” [OFFICIAL]"
+      }
+    },
+    {
+      "id": "z7EkuWkEyPc",
+      "title": "【MV】サンクチュアリ【鹿乃】",
+      "publishedAt": "2021-03-15",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "[MV] Sanctuary [Kano]"
+      }
+    },
+    {
+      "id": "A8jUgcSgcQg",
+      "title": "【MV】 鹿乃 「day by day」(short ver.) 【OFFICIAL】",
+      "publishedAt": "2021-03-15",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "[MV] Kano “day by day” (short ver.) [OFFICIAL]"
+      }
+    },
+    {
+      "id": "vDaBppdt5rw",
+      "title": "【MV】 鹿乃 「29-Q」(short ver.) 【OFFICIAL】",
+      "publishedAt": "2021-03-15",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "[MV] Kano “29-Q” (short ver.) [OFFICIAL]"
+      }
+    },
+    {
+      "id": "DdedCMxUBl8",
+      "title": "【MV】鹿乃「Daisy Blue」【OFFICIAL】",
+      "publishedAt": "2021-03-15",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "[MV] Kano “Daisy Blue” [OFFICIAL]"
+      }
+    },
+    {
+      "id": "Fppdf8foYoA",
+      "title": "【MV】 鹿乃 「Ivy」 【OFFICIAL】",
+      "publishedAt": "2021-03-15",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "[MV] Kano “Ivy” [OFFICIAL]"
+      }
+    },
+    {
+      "id": "-J4PaiGgEPA",
+      "title": "【MV】鹿乃「春に落ちて」【OFFICIAL】",
+      "publishedAt": "2021-03-15",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "[MV] Kano “Fall in Spring” [OFFICIAL]"
+      }
+    },
+    {
+      "id": "XXOEO_i8tMk",
+      "title": "【MV】鹿乃『「Q」&「A」』【OFFICIAL】",
+      "publishedAt": "2021-03-15",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "[MV] Kano “Q” & “A” [OFFICIAL]"
+      }
+    },
+    {
+      "id": "QqSDGg_MlTw",
+      "title": "【MV】鹿乃「HOPE」【OFFICIAL】",
+      "publishedAt": "2021-03-15",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "[MV] Kano “HOPE” [OFFICIAL]"
+      }
+    },
+    {
+      "id": "GPo-g6tHH_4",
+      "title": "【MV】鹿乃「ルカルカ☆ナイトフィーバー」【OFFICIAL】",
+      "publishedAt": "2021-03-15",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "[MV] Kano “Luka Luka☆Night Fever” [OFFICIAL]"
+      }
+    },
+    {
+      "id": "LS61xdsolis",
+      "title": "鹿乃「午前0時の無力な神様」【OFFICIAL】",
+      "publishedAt": "2021-03-15",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "Kano “The helpless god at midnight” [OFFICIAL]"
+      }
+    },
+    {
+      "id": "34nCX5AEXWY",
+      "title": "鹿乃「なだめスかし Negotiation」【OFFICIAL】「宇崎ちゃんは遊びたい！」OP",
+      "publishedAt": "2021-03-15",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "Kano “Nadame Sukashi Negotiation” [OFFICIAL] “Uzaki-chan wants to play!” OP"
+      }
+    },
+    {
+      "id": "dioEcz621Jg",
+      "title": "鹿乃/KANO 2020remix",
+      "publishedAt": "2021-03-15",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "KANO 2020remix"
+      }
+    },
+    {
+      "id": "ZkDEkUf6jlg",
+      "title": "それはきっと夏だった/鹿乃",
+      "publishedAt": "2021-03-15",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "It must have been summer/Kano"
+      }
+    },
+    {
+      "id": "UX8_xSOZfUc",
+      "title": "鹿乃「コンパスソング」【OFFICIAL】「装甲娘戦機」ED",
+      "publishedAt": "2021-03-15",
+      "members": [
+        "mahoro"
+      ],
+      "en": {
+        "title": "Kano “Compass Song” [OFFICIAL] “Armor Musume Senki” ED"
+      }
     }
   ],
   "covers": [
@@ -464,7 +500,7 @@ window.SONGS = {
       ]
     },
     {
-      "title": "名前のない怪物 / あくび・でもんすぺーど",
+      "title": "名前のない怪物",
       "key": "名前のない怪物",
       "urls": [
         {
@@ -474,7 +510,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Nameless Monster / Yawn Monster Speed"
+        "title": "monster with no name"
       }
     },
     {
@@ -548,7 +584,7 @@ window.SONGS = {
       }
     },
     {
-      "title": "I’m a mess / あくび・でもんすぺーど",
+      "title": "I’m a mess",
       "key": "i’mamess",
       "urls": [
         {
@@ -556,10 +592,7 @@ window.SONGS = {
           "memberId": "akubi",
           "publishedAt": "2026-06-28"
         }
-      ],
-      "en": {
-        "title": "I’m a mess / Yawn/Demon Speed"
-      }
+      ]
     },
     {
       "title": "プラネテス",
@@ -696,11 +729,6 @@ window.SONGS = {
           "id": "FicuKhVOyoY",
           "memberId": "tsukuri",
           "publishedAt": "2026-05-19"
-        },
-        {
-          "id": "YpfofCA_zLk",
-          "memberId": "mahoro",
-          "publishedAt": "2026-07-26"
         }
       ],
       "en": {
@@ -722,7 +750,7 @@ window.SONGS = {
       }
     },
     {
-      "title": "おやすみ泣き声、さよなら歌姫 / あくび・でもんすぺーど",
+      "title": "おやすみ泣き声、さよなら歌姫",
       "key": "おやすみ泣き声、さよなら姫",
       "urls": [
         {
@@ -732,11 +760,11 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Goodnight Cry, Goodbye Diva / Yawn/Demon Speed"
+        "title": "Goodnight cry, goodbye diva"
       }
     },
     {
-      "title": "ロミオとシンデレラ / あくび・でもんすぺーど",
+      "title": "ロミオとシンデレラ",
       "key": "ロミオとシンデレラ",
       "urls": [
         {
@@ -751,7 +779,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Romeo and Cinderella / Yawn Spade"
+        "title": "romeo and cinderella"
       }
     },
     {
@@ -1106,7 +1134,7 @@ window.SONGS = {
       }
     },
     {
-      "title": "サムライハート (Some Like It Hot!!) / あくび・でもんすぺーど",
+      "title": "サムライハート",
       "key": "サムライハト",
       "urls": [
         {
@@ -1116,7 +1144,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Samurai Heart (Some Like It Hot!!) / Yawn Monster Speed"
+        "title": "samurai heart"
       }
     },
     {
@@ -1177,11 +1205,6 @@ window.SONGS = {
           "id": "8FchJH33Gm0",
           "memberId": "tsukuri",
           "publishedAt": "2025-11-20"
-        },
-        {
-          "id": "phxzj8rk9O8",
-          "memberId": "mahoro",
-          "publishedAt": "2026-04-11"
         }
       ],
       "en": {
@@ -1259,16 +1282,6 @@ window.SONGS = {
           "id": "mZ-PnGIXxpk",
           "memberId": "yura",
           "publishedAt": "2025-11-07"
-        },
-        {
-          "id": "aoOoKlStRnU",
-          "memberId": "mahoro",
-          "publishedAt": "2025-09-09"
-        },
-        {
-          "id": "NJ7IgcvZ-00",
-          "memberId": "mahoro",
-          "publishedAt": "2025-08-30"
         }
       ],
       "en": {
@@ -1397,7 +1410,7 @@ window.SONGS = {
       }
     },
     {
-      "title": "チェリーポップ / あくび・でもんすぺーど",
+      "title": "チェリーポップ",
       "key": "チェリポップ",
       "urls": [
         {
@@ -1409,15 +1422,10 @@ window.SONGS = {
           "id": "UgpV6bWtt9Q",
           "memberId": "raco",
           "publishedAt": "2025-08-10"
-        },
-        {
-          "id": "cDavhDfUJ9I",
-          "memberId": "mahoro",
-          "publishedAt": "2025-08-09"
         }
       ],
       "en": {
-        "title": "Cherry Pop / Yawn/Demon Speed"
+        "title": "cherry pop"
       }
     },
     {
@@ -1639,14 +1647,14 @@ window.SONGS = {
       "key": "unravel",
       "urls": [
         {
+          "id": "N-ZTFGlD8Rg",
+          "memberId": "mahoro",
+          "publishedAt": "2020-10-04"
+        },
+        {
           "id": "u5RRk9DZs3M",
           "memberId": "nono",
           "publishedAt": "2025-06-03"
-        },
-        {
-          "id": "N-ZTFGlD8Rg",
-          "memberId": "mahoro",
-          "publishedAt": "2021-08-18"
         }
       ]
     },
@@ -1888,11 +1896,6 @@ window.SONGS = {
           "id": "nj0BQtn8ADA",
           "memberId": "raco",
           "publishedAt": "2025-02-03"
-        },
-        {
-          "id": "05O0zGnA0fw",
-          "memberId": "mahoro",
-          "publishedAt": "2025-08-17"
         }
       ],
       "en": {
@@ -1980,11 +1983,6 @@ window.SONGS = {
           "id": "CkqeBR9eWDU",
           "memberId": "raco",
           "publishedAt": "2024-10-11"
-        },
-        {
-          "id": "XEydcO-m0Dw",
-          "memberId": "mahoro",
-          "publishedAt": "2025-08-17"
         }
       ],
       "en": {
@@ -2310,7 +2308,7 @@ window.SONGS = {
         {
           "id": "yXxccEqgAO4",
           "memberId": "mahoro",
-          "publishedAt": "2021-08-18"
+          "publishedAt": "2020-10-29"
         }
       ]
     },
@@ -2649,8 +2647,22 @@ window.SONGS = {
       ]
     },
     {
-      "title": "ドライフラワー",
-      "key": "ドライフラワ",
+      "title": "DAYBREAK FRONTLINE（Orangestar）/ acoustic cover. 鹿乃",
+      "key": "daybreakfrontlineacoustic.",
+      "urls": [
+        {
+          "id": "YpfofCA_zLk",
+          "memberId": "mahoro",
+          "publishedAt": "2026-07-26"
+        }
+      ],
+      "en": {
+        "title": "DAYBREAK FRONTLINE (Orangestar)/acoustic cover. Kano"
+      }
+    },
+    {
+      "title": "ドライフラワー（優里）/ acoustic cover. 鹿乃",
+      "key": "ドライフラワacoustic.",
       "urls": [
         {
           "id": "kak80VO92M0",
@@ -2659,12 +2671,12 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "dried flowers"
+        "title": "Dried flower (Yuri) / acoustic cover. Kano"
       }
     },
     {
-      "title": "雨き声残響",
-      "key": "雨き声残響",
+      "title": "雨き声残響（Orangestar）/ acoustic cover. 鹿乃",
+      "key": "雨き声残響acoustic.",
       "urls": [
         {
           "id": "RKQ1JFF9IMY",
@@ -2673,12 +2685,12 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "reverberation of rainy voices"
+        "title": "Rain Voice Reverberation (Orangestar) / acoustic cover. Kano"
       }
     },
     {
-      "title": "春を告げる",
-      "key": "春を告げる",
+      "title": "春を告げる（yama）/ acoustic cover. 鹿乃",
+      "key": "春を告げるacoustic.",
       "urls": [
         {
           "id": "X8ZKPqsAvAc",
@@ -2687,12 +2699,26 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "announce spring"
+        "title": "Announcement of spring (yama)/acoustic cover. Kano"
       }
     },
     {
-      "title": "ライラック",
-      "key": "ライラック",
+      "title": "妄想感傷代償連盟（DECO*27）/ acoustic cover. 鹿乃",
+      "key": "妄想感傷代償連盟acoustic.",
+      "urls": [
+        {
+          "id": "phxzj8rk9O8",
+          "memberId": "mahoro",
+          "publishedAt": "2026-04-11"
+        }
+      ],
+      "en": {
+        "title": "Delusional Sentiment Compensation Federation (DECO*27)/acoustic cover. Kano"
+      }
+    },
+    {
+      "title": "ライラック（Mrs. GREEN APPLE）/ acoustic cover. 鹿乃",
+      "key": "ライラックacoustic.",
       "urls": [
         {
           "id": "6eKfxC5kI38",
@@ -2701,255 +2727,320 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "lilac"
+        "title": "Lilac (Mrs. GREEN APPLE) / acoustic cover. Kano"
       }
     },
     {
-      "title": "アイロニ",
-      "key": "アイロニ",
+      "title": "アイロニ（すこっぷ）/ acoustic cover. 鹿乃",
+      "key": "アイロニacoustic.",
       "urls": [
         {
           "id": "7VaHhYBZO_8",
           "memberId": "mahoro",
-          "publishedAt": "2025-12-27"
-        },
-        {
-          "id": "l3j2Ud8Mo4A",
-          "memberId": "mahoro",
-          "publishedAt": "2015-08-20"
+          "publishedAt": "2025-12-28"
         }
       ],
       "en": {
-        "title": "irony"
+        "title": "Ironi (Scop)/acoustic cover. Kano"
       }
     },
     {
-      "title": "p.h.",
-      "key": "p.h.",
+      "title": "p.h.  / 鹿乃 cover.",
+      "key": "p.h..",
       "urls": [
         {
           "id": "mKhOBDgi2Nk",
           "memberId": "mahoro",
           "publishedAt": "2025-10-11"
         }
-      ]
+      ],
+      "en": {
+        "title": "p.h. / Kano cover."
+      }
     },
     {
-      "title": "心拍数#0822",
-      "key": "心拍数#0822",
+      "title": "プロポーズ（なとり）/ 鹿乃 cover.",
+      "key": "プロポズ.",
+      "urls": [
+        {
+          "id": "aoOoKlStRnU",
+          "memberId": "mahoro",
+          "publishedAt": "2025-09-09"
+        },
+        {
+          "id": "NJ7IgcvZ-00",
+          "memberId": "mahoro",
+          "publishedAt": "2025-08-30"
+        }
+      ],
+      "en": {
+        "title": "Proposal (Natori)/Kano cover."
+      }
+    },
+    {
+      "title": "心拍数#0822（一之瀬ユウ）/ acoustic cover. 鹿乃",
+      "key": "心拍数#0822acoustic.",
       "urls": [
         {
           "id": "4n5WKs61dzA",
           "memberId": "mahoro",
-          "publishedAt": "2025-08-22"
+          "publishedAt": "2025-08-21"
         }
       ],
       "en": {
-        "title": "Heart rate #0822"
+        "title": "Heart rate #0822 (Yu Ichinose) / acoustic cover. Kano"
       }
     },
     {
-      "title": "glow",
-      "key": "glow",
+      "title": "チェリーポップ （DECO*27） / 鹿乃 cover.",
+      "key": "チェリポップ.",
+      "urls": [
+        {
+          "id": "cDavhDfUJ9I",
+          "memberId": "mahoro",
+          "publishedAt": "2025-08-08"
+        }
+      ],
+      "en": {
+        "title": "Cherry Pop (DECO*27) / Kano cover."
+      }
+    },
+    {
+      "title": "glow（keeno） / acoustic cover. 鹿乃",
+      "key": "glowacoustic.",
       "urls": [
         {
           "id": "JiqQAZi5aFI",
           "memberId": "mahoro",
           "publishedAt": "2025-08-06"
         }
-      ]
+      ],
+      "en": {
+        "title": "glow (keeno) / acoustic cover. Kano"
+      }
     },
     {
-      "title": "コノハの世界事情",
-      "key": "コノハの世界事情",
+      "title": "コノハの世界事情 cover. 鹿乃",
+      "key": "コノハの世界事情.",
       "urls": [
         {
           "id": "8l4mPYhRMJw",
           "memberId": "mahoro",
-          "publishedAt": "2025-07-24"
+          "publishedAt": "2025-07-23"
         }
       ],
       "en": {
-        "title": "Konoha's world affairs"
+        "title": "Konoha's world affairs cover. Kano"
       }
     },
     {
-      "title": "ワールズエンド・ダンスホール",
-      "key": "ワルズエンドダンスホル",
+      "title": "ワールズエンド・ダンスホール (World's End Dancehall)  鹿乃cover.",
+      "key": "ワルズエンドダンスホル.",
       "urls": [
         {
           "id": "sFF_rAulKgo",
           "memberId": "mahoro",
-          "publishedAt": "2025-07-19"
+          "publishedAt": "2025-07-18"
         }
       ],
       "en": {
-        "title": "world's end dance hall"
+        "title": "World's End Dancehall (World's End Dancehall) Kano cover."
       }
     },
     {
-      "title": "失恋ソング沢山聴いて 泣いてばかりの私はもう。",
-      "key": "失恋ソング沢山聴いて泣いてばかりの私はもう。",
+      "title": "失恋ソング沢山聴いて 泣いてばかりの私はもう。/ cover. 鹿乃",
+      "key": "失恋ソング沢山聴いて泣いてばかりの私はもう。.",
       "urls": [
         {
           "id": "CYMRgYyFLbw",
           "memberId": "mahoro",
-          "publishedAt": "2025-08-17"
+          "publishedAt": "2025-07-18"
         }
       ],
       "en": {
-        "title": "I listen to so many heartbreak songs and just cry."
+        "title": "I listen to so many heartbreak songs and just cry. / cover. Kano"
       }
     },
     {
-      "title": "モニタリング - DECO*27",
+      "title": "テトリス / 鹿乃 cover.",
+      "key": "テトリス.",
+      "urls": [
+        {
+          "id": "05O0zGnA0fw",
+          "memberId": "mahoro",
+          "publishedAt": "2025-02-06"
+        }
+      ],
+      "en": {
+        "title": "Tetris / Kano cover."
+      }
+    },
+    {
+      "title": "モニタリング - DECO*27 / 鹿乃 cover",
       "key": "モニタリング-deco*27",
       "urls": [
         {
           "id": "YYQMvQwl6yg",
           "memberId": "mahoro",
-          "publishedAt": "2025-08-17"
+          "publishedAt": "2025-02-02"
         }
       ],
       "en": {
-        "title": "Monitoring - DECO*27"
+        "title": "Monitoring - DECO*27 / Kano cover"
       }
     },
     {
-      "title": "みむかｩわナイストライ - Mimukauwa Nice Try",
-      "key": "みむかｩわナイストライ-mimukauwanicetry",
+      "title": "みむかｩわナイストライ - Mimukauwa Nice Try / 鹿乃 cover.",
+      "key": "みむかｩわナイストライ-mimukauwanicetry.",
       "urls": [
         {
           "id": "7JPT77tuYGo",
           "memberId": "mahoro",
-          "publishedAt": "2025-08-17"
+          "publishedAt": "2025-01-25"
         }
       ],
       "en": {
-        "title": "Mimukauwa Nice Try - Mimukauwa Nice Try"
+        "title": "Mimukauwa Nice Try - Mimukauwa Nice Try / Kano cover."
       }
     },
     {
-      "title": "モエチャッカファイア",
-      "key": "モエチャッカファイア",
+      "title": "モエチャッカファイア（弌誠）/ 鹿乃 cover.",
+      "key": "モエチャッカファイア.",
       "urls": [
         {
           "id": "u94em1yyfKA",
           "memberId": "mahoro",
-          "publishedAt": "2025-08-17"
+          "publishedAt": "2024-12-13"
         }
       ],
       "en": {
-        "title": "moe chukka fire"
+        "title": "Moe Chakka Fire (Masei) / Kano cover."
       }
     },
     {
-      "title": "お呪い - なきそ",
+      "title": "ずうっといっしょ！（キタニタツヤ ）/ 鹿乃 cover.- ALWAYS BE WITH YOU XD",
+      "key": "ずうっといっしょ！.-alwaysbewithyouxd",
+      "urls": [
+        {
+          "id": "XEydcO-m0Dw",
+          "memberId": "mahoro",
+          "publishedAt": "2024-11-23"
+        }
+      ],
+      "en": {
+        "title": "Together forever! (Tatsuya Kitani) / Kano cover.- ALWAYS BE WITH YOU XD"
+      }
+    },
+    {
+      "title": "お呪い - なきそ / 鹿乃 cover",
       "key": "お呪い-なきそ",
       "urls": [
         {
           "id": "yN7ggoScX48",
           "memberId": "mahoro",
-          "publishedAt": "2024-08-17"
+          "publishedAt": "2024-06-14"
         }
       ],
       "en": {
-        "title": "Curse - Nakiso"
+        "title": "Curse - Nakiso / Kano cover"
       }
     },
     {
-      "title": "うぉんちゅーばっど - jon-YAKITORY",
+      "title": "うぉんちゅーばっど - jon-YAKITORY / 鹿乃 cover（Want You Bad）",
       "key": "うぉんちゅばっど-jon-yakitory",
       "urls": [
         {
           "id": "LxDZXxsWg9U",
           "memberId": "mahoro",
-          "publishedAt": "2024-08-17"
+          "publishedAt": "2024-05-16"
         }
       ],
       "en": {
-        "title": "Wonchu Bad - jon-YAKITORY"
+        "title": "Watch Bad - jon-YAKITORY / Kano cover (Want You Bad)"
       }
     },
     {
-      "title": "ラビットホール - DECO*27",
+      "title": "ラビットホール - DECO*27/ 鹿乃 cover（Rabbit Hole）",
       "key": "ラビットホル-deco*27",
       "urls": [
         {
           "id": "sjS5hzweb6Q",
           "memberId": "mahoro",
-          "publishedAt": "2024-08-17"
+          "publishedAt": "2024-05-06"
         }
       ],
       "en": {
-        "title": "Rabbit Hole - DECO*27"
+        "title": "Rabbit Hole - DECO*27/ Kano cover (Rabbit Hole)"
       }
     },
     {
-      "title": "ド屑 - なきそ",
+      "title": "ド屑 - なきそ / 鹿乃 cover",
       "key": "ド屑-なきそ",
       "urls": [
         {
           "id": "vVJjJmZcIJc",
           "memberId": "mahoro",
-          "publishedAt": "2024-08-17"
+          "publishedAt": "2024-04-27"
         }
       ],
       "en": {
-        "title": "Do-Kusu - Nakiso"
+        "title": "Dokuzu - Nakiso / Kano cover"
       }
     },
     {
-      "title": "寝起きヤシの木 - Yukopi",
+      "title": "寝起きヤシの木 - Yukopi / 鹿乃 cover",
       "key": "寝起きヤシの木-yukopi",
       "urls": [
         {
           "id": "dZeagYFiXAI",
           "memberId": "mahoro",
-          "publishedAt": "2024-08-17"
+          "publishedAt": "2023-08-20"
         }
       ],
       "en": {
-        "title": "Waking up palm tree - Yukopi"
+        "title": "Waking up palm tree - Yukopi / Kano cover"
       }
     },
     {
-      "title": "INTERNET OVERDOSE",
+      "title": "INTERNET OVERDOSE / 鹿乃 cover",
       "key": "internetoverdose",
       "urls": [
         {
           "id": "_KMr_p_T5ow",
           "memberId": "mahoro",
-          "publishedAt": "2023-08-18"
+          "publishedAt": "2023-08-08"
         }
-      ]
+      ],
+      "en": {
+        "title": "INTERNET OVERDOSE / Kano cover"
+      }
     },
     {
-      "title": "アイドル - YOASOBI",
+      "title": "アイドル - YOASOBI / 鹿乃 cover（推しの子OP）",
       "key": "アイドル-yoasobi",
       "urls": [
         {
           "id": "5Ht_7PxB7LM",
           "memberId": "mahoro",
-          "publishedAt": "2023-08-18"
+          "publishedAt": "2023-06-29"
         }
       ],
       "en": {
-        "title": "Idol - YOASOBI"
+        "title": "Idol - YOASOBI / Kano cover (Oshinoko OP)"
       }
     },
     {
-      "title": "強風オールバック",
+      "title": "強風オールバック / 鹿乃 cover",
       "key": "強風オルバック",
       "urls": [
         {
           "id": "95IHn2aicV8",
           "memberId": "mahoro",
-          "publishedAt": "2023-08-18"
+          "publishedAt": "2023-06-10"
         }
       ],
       "en": {
-        "title": "strong wind all back"
+        "title": "Strong wind all back / Kano cover"
       }
     },
     {
@@ -2959,7 +3050,7 @@ window.SONGS = {
         {
           "id": "8pGbxewZbbU",
           "memberId": "mahoro",
-          "publishedAt": "2023-08-18"
+          "publishedAt": "2023-05-05"
         }
       ],
       "en": {
@@ -2973,7 +3064,7 @@ window.SONGS = {
         {
           "id": "lPP4FSvNQlg",
           "memberId": "mahoro",
-          "publishedAt": "2023-08-18"
+          "publishedAt": "2023-04-29"
         }
       ],
       "en": {
@@ -2987,7 +3078,7 @@ window.SONGS = {
         {
           "id": "fbvvS8e1KgI",
           "memberId": "mahoro",
-          "publishedAt": "2023-08-18"
+          "publishedAt": "2023-04-15"
         }
       ],
       "en": {
@@ -2995,17 +3086,17 @@ window.SONGS = {
       }
     },
     {
-      "title": "ちゅ、多様性。",
+      "title": "ちゅ、多様性。covered by 鹿乃（チェンソーマンED）",
       "key": "ちゅ、多様性。",
       "urls": [
         {
           "id": "ZB1pBPY556A",
           "memberId": "mahoro",
-          "publishedAt": "2023-08-18"
+          "publishedAt": "2023-01-22"
         }
       ],
       "en": {
-        "title": "Tsk, diversity."
+        "title": "Tsk, diversity. covered by Kano (Chainsaw Man ED)"
       }
     },
     {
@@ -3015,87 +3106,93 @@ window.SONGS = {
         {
           "id": "AG5a1Wx1lRI",
           "memberId": "mahoro",
-          "publishedAt": "2023-08-18"
+          "publishedAt": "2022-10-23"
         }
       ]
     },
     {
-      "title": "マスターピース",
-      "key": "マスタピス",
+      "title": "マスターピース（Greatest Works of Art） cover. 鹿乃",
+      "key": "マスタピス.",
       "urls": [
         {
           "id": "Sx5oG-V21DY",
           "memberId": "mahoro",
-          "publishedAt": "2022-08-18"
+          "publishedAt": "2022-07-16"
         }
       ],
       "en": {
-        "title": "master piece"
+        "title": "Masterpiece (Greatest Works of Art) cover. Kano"
       }
     },
     {
-      "title": "シンデレラボーイ",
-      "key": "シンデレラボイ",
+      "title": "シンデレラボーイ cover. 鹿乃",
+      "key": "シンデレラボイ.",
       "urls": [
         {
           "id": "YGgahso4Zto",
           "memberId": "mahoro",
-          "publishedAt": "2022-08-18"
+          "publishedAt": "2022-06-11"
         }
       ],
       "en": {
-        "title": "cinderella boy"
+        "title": "Cinderella Boy cover. Kano"
       }
     },
     {
-      "title": "「Sincerely」acoustic",
-      "key": "sincerelyacoustic",
+      "title": "「Sincerely」acoustic arrange cover. 鹿乃（ヴァイオレット・エヴァーガーデンOP）",
+      "key": "sincerelyacousticarrange.",
       "urls": [
         {
           "id": "b4xYPg121qU",
           "memberId": "mahoro",
-          "publishedAt": "2022-08-18"
+          "publishedAt": "2022-05-07"
         }
-      ]
+      ],
+      "en": {
+        "title": "“Sincerely” acoustic arrange cover. Kano (Violet Evergarden OP)"
+      }
     },
     {
-      "title": "僕が死のうと思ったのは",
-      "key": "僕が死のうと思ったのは",
+      "title": "僕が死のうと思ったのは cover. 鹿乃",
+      "key": "僕が死のうと思ったのは.",
       "urls": [
         {
           "id": "V5Uo57bIK6I",
           "memberId": "mahoro",
-          "publishedAt": "2022-08-18"
+          "publishedAt": "2022-04-09"
         }
       ],
       "en": {
-        "title": "I thought I was going to die"
+        "title": "The thing that made me want to die was cover. Kano"
       }
     },
     {
-      "title": "無理に笑わなくて良いよ",
-      "key": "無理に笑わなくて良いよ",
+      "title": "無理に笑わなくて良いよ cover. 鹿乃",
+      "key": "無理に笑わなくて良いよ.",
       "urls": [
         {
           "id": "ydwWBIgNzEc",
           "memberId": "mahoro",
-          "publishedAt": "2022-08-18"
+          "publishedAt": "2022-04-01"
         }
       ],
       "en": {
-        "title": "You don't have to force yourself to smile"
+        "title": "You don't have to force yourself to smile cover. Kano"
       }
     },
     {
-      "title": "「Oz./yama」",
+      "title": "「Oz./yama」covered by 鹿乃（王様ランキングED）",
       "key": "oz.yama",
       "urls": [
         {
           "id": "oFKvFwzDgew",
           "memberId": "mahoro",
-          "publishedAt": "2022-08-18"
+          "publishedAt": "2021-11-25"
         }
-      ]
+      ],
+      "en": {
+        "title": "“Oz./yama” covered by Kano (King Ranking ED)"
+      }
     },
     {
       "title": "CHO-DARI-",
@@ -3104,7 +3201,7 @@ window.SONGS = {
         {
           "id": "GAG3qwmJe80",
           "memberId": "mahoro",
-          "publishedAt": "2022-08-18"
+          "publishedAt": "2021-10-06"
         }
       ]
     },
@@ -3115,7 +3212,7 @@ window.SONGS = {
         {
           "id": "SSy-z9N7A-k",
           "memberId": "mahoro",
-          "publishedAt": "2022-08-18"
+          "publishedAt": "2021-09-25"
         }
       ],
       "en": {
@@ -3129,7 +3226,7 @@ window.SONGS = {
         {
           "id": "_PVZr0iJiug",
           "memberId": "mahoro",
-          "publishedAt": "2022-08-18"
+          "publishedAt": "2021-09-10"
         }
       ],
       "en": {
@@ -3137,17 +3234,17 @@ window.SONGS = {
       }
     },
     {
-      "title": "水星記 coverd by",
+      "title": "水星記 coverd by 鹿乃",
       "key": "水星記dby",
       "urls": [
         {
           "id": "W_Xdo61JpJs",
           "memberId": "mahoro",
-          "publishedAt": "2022-08-18"
+          "publishedAt": "2021-08-28"
         }
       ],
       "en": {
-        "title": "Mercury covered by"
+        "title": "Mercury Covered by Kano"
       }
     },
     {
@@ -3157,7 +3254,7 @@ window.SONGS = {
         {
           "id": "fo8xEgcVxZ0",
           "memberId": "mahoro",
-          "publishedAt": "2021-08-18"
+          "publishedAt": "2021-06-25"
         }
       ],
       "en": {
@@ -3171,7 +3268,7 @@ window.SONGS = {
         {
           "id": "O3NrUlugHYU",
           "memberId": "mahoro",
-          "publishedAt": "2021-08-18"
+          "publishedAt": "2021-06-12"
         }
       ]
     },
@@ -3182,12 +3279,12 @@ window.SONGS = {
         {
           "id": "Baaxtxzc9gw",
           "memberId": "mahoro",
-          "publishedAt": "2021-08-18"
+          "publishedAt": "2021-05-31"
         },
         {
           "id": "6XZek8E_SiE",
           "memberId": "mahoro",
-          "publishedAt": "2021-08-18"
+          "publishedAt": "2021-05-02"
         }
       ],
       "en": {
@@ -3201,7 +3298,7 @@ window.SONGS = {
         {
           "id": "fGInotMcu_M",
           "memberId": "mahoro",
-          "publishedAt": "2021-08-18"
+          "publishedAt": "2021-05-21"
         }
       ],
       "en": {
@@ -3215,7 +3312,7 @@ window.SONGS = {
         {
           "id": "n4w2a__O4GQ",
           "memberId": "mahoro",
-          "publishedAt": "2021-08-18"
+          "publishedAt": "2021-05-15"
         }
       ],
       "en": {
@@ -3229,7 +3326,7 @@ window.SONGS = {
         {
           "id": "cLJL6uRezSI",
           "memberId": "mahoro",
-          "publishedAt": "2021-08-18"
+          "publishedAt": "2021-04-24"
         }
       ],
       "en": {
@@ -3243,7 +3340,7 @@ window.SONGS = {
         {
           "id": "471XhgCPYqE",
           "memberId": "mahoro",
-          "publishedAt": "2021-08-18"
+          "publishedAt": "2021-04-09"
         }
       ],
       "en": {
@@ -3257,7 +3354,7 @@ window.SONGS = {
         {
           "id": "fokontvrio0",
           "memberId": "mahoro",
-          "publishedAt": "2021-08-18"
+          "publishedAt": "2021-03-15"
         }
       ],
       "en": {
@@ -3265,521 +3362,535 @@ window.SONGS = {
       }
     },
     {
-      "title": "SAKURA/いきものがかり　acoustic",
-      "key": "sakuraいきものがかりacoustic",
+      "title": "SAKURA/いきものがかり　acoustic arrange cover 鹿乃",
+      "key": "sakuraいきものがかりacousticarrange",
       "urls": [
         {
           "id": "uEeSOh5jOk0",
           "memberId": "mahoro",
-          "publishedAt": "2021-08-18"
+          "publishedAt": "2021-02-10"
         }
       ],
       "en": {
-        "title": "SAKURA/Ikimonogakari acoustic"
+        "title": "SAKURA/Ikimonogakari acoustic arrange cover Kano"
       }
     },
     {
-      "title": "どりーみんチュチュ / Dreamin Chuchu",
-      "key": "どりみんチュチュdreaminchuchu",
+      "title": "どりーみんチュチュ / Dreamin Chuchu cover.鹿乃",
+      "key": "どりみんチュチュdreaminchuchu.",
       "urls": [
         {
           "id": "zZ0r3RgZzXA",
           "memberId": "mahoro",
-          "publishedAt": "2021-08-18"
+          "publishedAt": "2020-12-13"
         }
       ],
       "en": {
-        "title": "Dreamin Chuchu"
+        "title": "Dreamin Chuchu cover.Kano"
       }
     },
     {
-      "title": "嘘つきは恋のはじまり",
-      "key": "嘘つきは恋のはじまり",
+      "title": "嘘つきは恋のはじまり arrange ver. /鹿乃×40mP",
+      "key": "嘘つきは恋のはじまりarrangever.40mp",
       "urls": [
         {
           "id": "CD1AvkqS8oE",
           "memberId": "mahoro",
-          "publishedAt": "2021-08-18"
+          "publishedAt": "2020-10-29"
         }
       ],
       "en": {
-        "title": "Liar is the beginning of love"
+        "title": "Liar is the beginning of love arrange ver. / Kano × 40mP"
       }
     },
     {
-      "title": "会いたい《想见你想见你想见你》",
+      "title": "会いたい《想见你想见你想见你》/ cover 鹿乃",
       "key": "会いたい《想见你想见你想见你》",
       "urls": [
         {
           "id": "1aXRcZaOtFw",
           "memberId": "mahoro",
-          "publishedAt": "2020-08-18"
+          "publishedAt": "2020-06-27"
         }
       ],
       "en": {
-        "title": "I want to meet you."
+        "title": "I want to meet you《Thinking about you》/cover Kano"
       }
     },
     {
-      "title": "花に亡霊 - ヨルシカ",
+      "title": "花に亡霊 - ヨルシカ/cover 鹿乃",
       "key": "花に亡霊-ヨルシカ",
       "urls": [
         {
           "id": "Do47UIW_TXw",
           "memberId": "mahoro",
-          "publishedAt": "2020-08-18"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "Ghost in the Flower - Yorushika"
+        "title": "Ghost in the Flower - Yorushika/cover Kano"
       }
     },
     {
-      "title": "猫猫的宇宙論",
-      "key": "猫猫的宇宙論",
+      "title": "猫猫的宇宙論 cover.鹿乃",
+      "key": "猫猫的宇宙論.",
       "urls": [
         {
           "id": "qxNkMzlV-FU",
           "memberId": "mahoro",
-          "publishedAt": "2020-08-18"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "cat-cat cosmology"
+        "title": "Cat and cat cosmology cover.Kano"
       }
     },
     {
-      "title": "別の人の彼女になったよ",
-      "key": "別の人の彼女になったよ",
+      "title": "別の人の彼女になったよ arrange cover.鹿乃",
+      "key": "別の人の彼女になったよarrange.",
       "urls": [
         {
           "id": "gkVCUuPuF8I",
           "memberId": "mahoro",
-          "publishedAt": "2020-08-18"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "I became someone else's girlfriend"
+        "title": "I became someone else's girlfriend arrange cover.Kano"
       }
     },
     {
-      "title": "この世界を愛したい",
-      "key": "この世界を愛したい",
+      "title": "この世界を愛したい cover.鹿乃",
+      "key": "この世界を愛したい.",
       "urls": [
         {
           "id": "I8yBbwRurAE",
           "memberId": "mahoro",
-          "publishedAt": "2020-08-18"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "I want to love this world"
+        "title": "I want to love this world cover.Kano"
       }
     },
     {
-      "title": "灰色と青",
-      "key": "灰色と青",
+      "title": "灰色と青 cover.鹿乃",
+      "key": "灰色と青.",
       "urls": [
         {
           "id": "pCa_oSjBU1A",
           "memberId": "mahoro",
-          "publishedAt": "2020-08-18"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "gray and blue"
+        "title": "Gray and blue cover.Kano"
       }
     },
     {
-      "title": "愛にできることはまだあるかい",
-      "key": "愛にできることはまだあるかい",
+      "title": "愛にできることはまだあるかい acoustic cover.鹿乃",
+      "key": "愛にできることはまだあるかいacoustic.",
       "urls": [
         {
           "id": "ImSW1g02FUk",
           "memberId": "mahoro",
-          "publishedAt": "2020-08-18"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "Is there still anything that love can do?"
+        "title": "Is there still anything that love can do? acoustic cover.Kano"
       }
     },
     {
-      "title": "地球最後の告白を",
-      "key": "地球最後の告白を",
+      "title": "地球最後の告白を acoustic cover.鹿乃",
+      "key": "地球最後の告白をacoustic.",
       "urls": [
         {
           "id": "paVYNlZ5Xuk",
           "memberId": "mahoro",
-          "publishedAt": "2019-08-19"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "Earth's last confession"
+        "title": "Earth's last confession acoustic cover.Kano"
       }
     },
     {
-      "title": "乙女解剖",
-      "key": "乙女解剖",
+      "title": "乙女解剖 歌いました",
+      "key": "乙女解剖いました",
       "urls": [
         {
           "id": "beqCLV4-_jo",
           "memberId": "mahoro",
-          "publishedAt": "2019-08-19"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "maiden anatomy"
+        "title": "Maiden Anatomy sang"
       }
     },
     {
-      "title": "それがあなたの幸せとしても",
-      "key": "それがあなたの幸せとしても",
+      "title": "それがあなたの幸せとしても acoustic cover.鹿乃",
+      "key": "それがあなたの幸せとしてもacoustic.",
       "urls": [
         {
           "id": "HqIx1CVPBsI",
           "memberId": "mahoro",
-          "publishedAt": "2019-08-19"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "Even if it's your happiness"
+        "title": "Even if it's your happiness, acoustic cover.Kano"
       }
     },
     {
-      "title": "君がいる世界へ 一花依世界 日本語版 【",
-      "key": "君がいる世界へ一花依世界日本語版【",
+      "title": "君がいる世界へ 一花依世界 日本語版",
+      "key": "君がいる世界へ一花依世界日本語版",
       "urls": [
         {
           "id": "t6o2TpzpPGU",
           "memberId": "mahoro",
-          "publishedAt": "2019-08-19"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "To the world where you are, Ichikayori world Japanese version ["
+        "title": "To the world where you are Ichikayori world Japanese version"
       }
     },
     {
-      "title": "メルティランドナイトメア",
+      "title": "メルティランドナイトメア 　cover　鹿乃",
       "key": "メルティランドナイトメア",
       "urls": [
         {
           "id": "T6Rz-s5UA04",
           "memberId": "mahoro",
-          "publishedAt": "2018-08-19"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "Melty Land Nightmare"
+        "title": "Melty Land Nightmare cover Kano"
       }
     },
     {
-      "title": "ハイタ",
+      "title": "ハイタ 歌ってみた",
       "key": "ハイタ",
       "urls": [
         {
           "id": "y-bPf-6OHws",
           "memberId": "mahoro",
-          "publishedAt": "2018-08-19"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "Haita"
+        "title": "Haita I tried singing"
       }
     },
     {
-      "title": "打上花火",
+      "title": "打上花火　歌ってみた",
       "key": "打上花火",
       "urls": [
         {
           "id": "_kj5xKz8CDM",
           "memberId": "mahoro",
-          "publishedAt": "2018-08-19"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "fireworks launch"
+        "title": "Fireworks - I tried singing"
       }
     },
     {
-      "title": "おねがいダーリン",
+      "title": "おねがいダーリン　歌ってみた",
       "key": "おねがいダリン",
       "urls": [
         {
           "id": "eRPU3BcW3Mo",
           "memberId": "mahoro",
-          "publishedAt": "2017-08-19"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "Onegai darling"
+        "title": "Onegai darling, I tried singing it"
       }
     },
     {
-      "title": "ドリームレス・ドリームス",
+      "title": "ドリームレス・ドリームス　歌ってみた",
       "key": "ドリムレスドリムス",
       "urls": [
         {
           "id": "VZfDyna9NJc",
           "memberId": "mahoro",
-          "publishedAt": "2017-08-19"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "Dreamless Dreams"
+        "title": "I tried singing Dreamless Dreams"
       }
     },
     {
-      "title": "メリュー",
-      "key": "メリュ",
+      "title": "メリュー　歌いました",
+      "key": "メリュいました",
       "urls": [
         {
           "id": "u6umcwDxX3k",
           "memberId": "mahoro",
-          "publishedAt": "2016-08-19"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "Meryu"
+        "title": "Meryu sang"
       }
     },
     {
-      "title": "放課後のプレアデス",
-      "key": "放課後のプレアデス",
+      "title": "放課後のプレアデス　歌いました",
+      "key": "放課後のプレアデスいました",
       "urls": [
         {
           "id": "CaMKMdkLbck",
           "memberId": "mahoro",
-          "publishedAt": "2015-08-20"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "Pleiades after school"
+        "title": "I sang Pleiades after school."
       }
     },
     {
-      "title": "さようなら、花泥棒さん",
-      "key": "さようなら、花泥棒さん",
+      "title": "さようなら、花泥棒さん　歌いました",
+      "key": "さようなら、花泥棒さんいました",
       "urls": [
         {
           "id": "PIrx5lqQbGU",
           "memberId": "mahoro",
-          "publishedAt": "2015-08-20"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "Goodbye, flower thief"
+        "title": "Goodbye, flower thief, I sang"
       }
     },
     {
-      "title": "マッシュルームマザー",
-      "key": "マッシュルムマザ",
+      "title": "マッシュルームマザー　歌いました",
+      "key": "マッシュルムマザいました",
       "urls": [
         {
           "id": "I7jnsXxHs8k",
           "memberId": "mahoro",
-          "publishedAt": "2015-08-20"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "mushroom mother"
+        "title": "Mushroom Mother sang"
       }
     },
     {
-      "title": "東京レトロ",
-      "key": "東京レトロ",
+      "title": "東京レトロ　歌いました",
+      "key": "東京レトロいました",
       "urls": [
         {
           "id": "ikQEvpAej9U",
           "memberId": "mahoro",
-          "publishedAt": "2015-08-20"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "tokyo retro"
+        "title": "Tokyo Retro Sang"
       }
     },
     {
-      "title": "繰り返し一粒",
-      "key": "繰り返し一粒",
+      "title": "繰り返し一粒　歌いました",
+      "key": "繰り返し一粒いました",
       "urls": [
         {
           "id": "G08jGFu6b0A",
           "memberId": "mahoro",
-          "publishedAt": "2015-08-20"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "Repeat one drop"
+        "title": "I sang one song over and over again"
       }
     },
     {
-      "title": "小夜子",
-      "key": "小夜子",
+      "title": "小夜子　歌いました",
+      "key": "小夜子いました",
       "urls": [
         {
           "id": "3Li-FfypZYE",
           "memberId": "mahoro",
-          "publishedAt": "2015-08-20"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "Sayoko"
+        "title": "Sayoko sang"
       }
     },
     {
-      "title": "刹那プラス",
-      "key": "刹那プラス",
+      "title": "刹那プラス　歌いました",
+      "key": "刹那プラスいました",
       "urls": [
         {
           "id": "VSKV3_7IQto",
           "memberId": "mahoro",
-          "publishedAt": "2015-08-20"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "Setsuna Plus"
+        "title": "Setsuna Plus sang"
       }
     },
     {
-      "title": "クライヤ",
-      "key": "クライヤ",
+      "title": "クライヤ　歌いました",
+      "key": "クライヤいました",
       "urls": [
         {
           "id": "CybFOypDQjY",
           "memberId": "mahoro",
-          "publishedAt": "2015-08-20"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "Cryer"
+        "title": "Cryer sang"
       }
     },
     {
-      "title": "サディスティック・ラブ",
-      "key": "サディスティックラブ",
+      "title": "アイロニ　歌いました",
+      "key": "アイロニいました",
+      "urls": [
+        {
+          "id": "l3j2Ud8Mo4A",
+          "memberId": "mahoro",
+          "publishedAt": "2020-05-31"
+        }
+      ],
+      "en": {
+        "title": "I sang Irony"
+      }
+    },
+    {
+      "title": "サディスティック・ラブ　歌いました",
+      "key": "サディスティックラブいました",
       "urls": [
         {
           "id": "A21pdideWjs",
           "memberId": "mahoro",
-          "publishedAt": "2015-08-20"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "sadistic love"
+        "title": "Sadistic Love Sang"
       }
     },
     {
-      "title": "ワールド・コーリング",
-      "key": "ワルドコリング",
+      "title": "ワールド・コーリング　歌いました",
+      "key": "ワルドコリングいました",
       "urls": [
         {
           "id": "zgqu6_nyRGY",
           "memberId": "mahoro",
-          "publishedAt": "2015-08-20"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "world calling"
+        "title": "World Calling Sang"
       }
     },
     {
-      "title": "二次元ドリームフィーバー",
-      "key": "二次元ドリムフィバ",
+      "title": "二次元ドリームフィーバー　歌いました",
+      "key": "二次元ドリムフィバいました",
       "urls": [
         {
           "id": "19IErf6pn9E",
           "memberId": "mahoro",
-          "publishedAt": "2015-08-20"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "2D dream fever"
+        "title": "2D Dream Fever sang"
       }
     },
     {
-      "title": "放課後ストライド",
-      "key": "放課後ストライド",
+      "title": "放課後ストライド　歌いました",
+      "key": "放課後ストライドいました",
       "urls": [
         {
           "id": "3U9lk3fsm88",
           "memberId": "mahoro",
-          "publishedAt": "2015-08-20"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "after school stride"
+        "title": "After School Stride Sang"
       }
     },
     {
-      "title": "有頂天ビバーチェ",
-      "key": "有頂天ビバチェ",
+      "title": "有頂天ビバーチェ　歌いました",
+      "key": "有頂天ビバチェいました",
       "urls": [
         {
           "id": "pJI1q1JGhbc",
           "memberId": "mahoro",
-          "publishedAt": "2015-08-20"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "Ecstatic Vivace"
+        "title": "I sang Uchoten Vivace"
       }
     },
     {
-      "title": "メリーメリー",
-      "key": "メリメリ",
+      "title": "メリーメリー　歌いました",
+      "key": "メリメリいました",
       "urls": [
         {
           "id": "vxZtflYGjA8",
           "memberId": "mahoro",
-          "publishedAt": "2015-08-20"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "merry merry"
+        "title": "Merry Merry sang"
       }
     },
     {
-      "title": "センチメンタルな愛慕心",
-      "key": "センチメンタルな愛慕心",
+      "title": "センチメンタルな愛慕心　歌いました",
+      "key": "センチメンタルな愛慕心いました",
       "urls": [
         {
           "id": "RfDN1JMMCM4",
           "memberId": "mahoro",
-          "publishedAt": "2015-08-20"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "sentimental love"
+        "title": "I sang a sentimental love"
       }
     },
     {
-      "title": "ケッペキショウ",
-      "key": "ケッペキショウ",
+      "title": "ケッペキショウ　歌いました",
+      "key": "ケッペキショウいました",
       "urls": [
         {
           "id": "eyiYja05RAI",
           "memberId": "mahoro",
-          "publishedAt": "2015-08-20"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "Keppekisho"
+        "title": "Keppekisho sang"
       }
     },
     {
-      "title": "ハロ/ハワユ",
-      "key": "ハロハワユ",
+      "title": "ハロ/ハワユ 歌いました",
+      "key": "ハロハワユいました",
       "urls": [
         {
           "id": "URG6YnTPcac",
           "memberId": "mahoro",
-          "publishedAt": "2015-08-20"
+          "publishedAt": "2020-05-31"
         }
       ],
       "en": {
-        "title": "halo/hawayu"
+        "title": "Hello/Hawayu sang"
       }
     }
   ]
