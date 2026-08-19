@@ -16,7 +16,7 @@ window.KARAOKE = [
     "memberId": "tsukuri",
     "publishedAt": "2026-08-19",
     "title": "〖 歌雑談 〗歌も雑談もしたい人間によるごちゃまぜ枠〖 眠雲ツクリ / ミリプロ 〗",
-    "duration": 0,
+    "duration": 8418,
     "songs": [],
     "en": {
       "title": "[Song Chat] A jumble of people who want to sing and chat [Nemugumo Tsukuri / MilliPro]"
@@ -27,7 +27,7 @@ window.KARAOKE = [
     "memberId": "yura",
     "publishedAt": "2026-08-18",
     "title": "水曜ゆらゆら歌枠｜夏！夏！歌！老人会！【 ゆらぎゆら / ミリプロ 】",
-    "duration": 0,
+    "duration": 7054,
     "songs": [],
     "en": {
       "title": "Wednesday Yurayura song slot | Summer! summer! song! Elderly people’s party! [Yuragiyura / Millipro]"
