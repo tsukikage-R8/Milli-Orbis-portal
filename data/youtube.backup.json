@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T00:28:57.998Z",
+  "updatedAt": "2026-08-19T04:24:07.998Z",
   "streams": [
     {
       "id": "8y2v7uLYRN4",
@@ -50,18 +50,6 @@
       }
     },
     {
-      "id": "8zRJYa59A60",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "☁ファンミーティング 一般販売決定🔧",
-      "thumb": "https://i.ytimg.com/vi/8zRJYa59A60/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-23T14:59:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "☁ Fan meeting general sale decided 🔧"
-      }
-    },
-    {
       "id": "FQUAaVHIEEo",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -71,6 +59,18 @@
       "status": "upcoming",
       "en": {
         "title": "☁Street Collection 2026 now accepting orders! 🔧"
+      }
+    },
+    {
+      "id": "8zRJYa59A60",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "☁ファンミーティング 一般販売決定🔧",
+      "thumb": "https://i.ytimg.com/vi/8zRJYa59A60/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-23T14:59:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "☁ Fan meeting general sale decided 🔧"
       }
     },
     {
@@ -244,7 +244,7 @@
       "publishedAt": "2026-08-18T16:30:45Z",
       "live": false,
       "en": {
-        "title": "[Song frame] It’s been a long time since I’ve done a vertical song ~ [Riz Ameya/MilliPro]"
+        "title": "[Song frame] It's been a long time since I've done a vertical song ~ [Riz Ameya/MilliPro]"
       }
     },
     {
@@ -270,7 +270,7 @@
       "publishedAt": "2026-08-18T13:48:52Z",
       "live": true,
       "en": {
-        "title": "[Chat] Looking back on recent events [Yuragi Yura/MilliPro]"
+        "title": "[Chat] Looking back on recent events [Yuragiyura/MilliPro]"
       }
     },
     {
@@ -361,7 +361,7 @@
       "publishedAt": "2026-08-17T17:54:16Z",
       "live": false,
       "en": {
-        "title": "[Twilight Forest] Clear announcement!?Komakuri Komai Twilight Forest #1 [Komakoma/MilliPro]"
+        "title": "[Twilight Forest] Announcement on clear!? Komakuri Komai Twilight Forest #1 [Komakoma/MilliPro]"
       }
     },
     {
@@ -387,7 +387,7 @@
       "publishedAt": "2026-08-17T17:44:52Z",
       "live": false,
       "en": {
-        "title": "[Twilight Forest/Minecraft] Reincarnation in another world with Komazukurizu!! ️❓ [Ameya Liz/MilliPro]"
+        "title": "[Twilight Forest/Minecraft] Reincarnation in another world with Komakurizu!! ️❓ [Ameya Liz/MilliPro]"
       }
     },
     {
