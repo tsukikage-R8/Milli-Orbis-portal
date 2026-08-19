@@ -1,6 +1,28 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "yoPXNBdttoc",
+    "memberId": "konomi",
+    "publishedAt": "2026-08-19",
+    "title": "【歌枠】お願いします配信させてください神様泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣",
+    "duration": 8768,
+    "songs": [],
+    "en": {
+      "title": "[Song Frame] Please, let me deliver it, God, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry,"
+    }
+  },
+  {
+    "id": "lkHVqtUjrac",
+    "memberId": "tsukuri",
+    "publishedAt": "2026-08-19",
+    "title": "〖 歌雑談 〗歌も雑談もしたい人間によるごちゃまぜ枠〖 眠雲ツクリ / ミリプロ 〗",
+    "duration": 0,
+    "songs": [],
+    "en": {
+      "title": "[Song Chat] A jumble of people who want to sing and chat [Nemugumo Tsukuri / MilliPro]"
+    }
+  },
+  {
     "id": "8y2v7uLYRN4",
     "memberId": "yura",
     "publishedAt": "2026-08-18",
