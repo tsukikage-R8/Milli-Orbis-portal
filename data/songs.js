@@ -288,7 +288,7 @@ window.SONGS = {
         "mahoro"
       ],
       "en": {
-        "title": "[MV] Kano “Prima Stella” [OFFICIAL]"
+        "title": "[MV] Kano “Primastella” [OFFICIAL]"
       }
     },
     {
@@ -3503,7 +3503,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Is there still anything that love can do? acoustic cover.Kano"
+        "title": "Is there anything more that love can do? acoustic cover.Kano"
       }
     },
     {

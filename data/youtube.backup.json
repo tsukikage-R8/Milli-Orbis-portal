@@ -1,54 +1,6 @@
 {
-  "updatedAt": "2026-08-19T12:18:33.199Z",
+  "updatedAt": "2026-08-19T16:16:25.780Z",
   "streams": [
-    {
-      "id": "gi9-IdHgLMQ",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【Artist Pro 22 Gen2】はじめてXPPenでイラスト描くよ〜！🎨",
-      "thumb": "https://i.ytimg.com/vi/gi9-IdHgLMQ/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-19T11:00:08Z",
-      "status": "live",
-      "en": {
-        "title": "[Artist Pro 22 Gen2] I'm drawing an illustration with XPPen for the first time! 🎨"
-      }
-    },
-    {
-      "id": "d97bnZy7eOs",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【お絵描き】ルーレットで出たポケモンを美少女化していくの巻。【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/d97bnZy7eOs/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-19T11:32:26Z",
-      "status": "live",
-      "en": {
-        "title": "[Drawing] A volume about turning the Pokemon that appeared on the roulette wheel into beautiful girls. [#AmakamiLive/#Millipro]"
-      }
-    },
-    {
-      "id": "lkHVqtUjrac",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 歌雑談 〗歌も雑談もしたい人間によるごちゃまぜ枠〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/lkHVqtUjrac/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-19T11:33:19Z",
-      "status": "live",
-      "en": {
-        "title": "[Song Chat] A jumble of people who want to sing and chat [Nemugumo Tsukuri / MilliPro]"
-      }
-    },
-    {
-      "id": "8y2v7uLYRN4",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "水曜ゆらゆら歌枠｜夏！夏！歌！老人会！【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/8y2v7uLYRN4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-19T12:03:35Z",
-      "status": "live",
-      "en": {
-        "title": "Wednesday Yurayura song slot | Summer! summer! song! Elderly people’s party! [Yuragiyura / Millipro]"
-      }
-    },
     {
       "id": "cNqV21vD6mA",
       "memberId": "yura",
@@ -244,26 +196,13 @@
   ],
   "videos": [
     {
-      "id": "_oeuVl_BTZc",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 雑談 】最近の振り返り等 ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/_oeuVl_BTZc/hqdefault.jpg",
-      "publishedAt": "2026-08-19T12:13:20Z",
-      "live": true,
-      "en": {
-        "title": "[Chat] Recent reviews, etc. ⟡.· [Rei Yugiri / MilliPro]"
-      }
-    },
-    {
       "id": "8y2v7uLYRN4",
       "memberId": "yura",
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
       "title": "水曜ゆらゆら歌枠｜夏！夏！歌！老人会！【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/8y2v7uLYRN4/hqdefault_live.jpg",
-      "publishedAt": "2026-08-19T12:03:35Z",
+      "thumb": "https://i.ytimg.com/vi/8y2v7uLYRN4/hqdefault.jpg",
+      "publishedAt": "2026-08-19T14:46:25Z",
       "live": false,
       "en": {
         "title": "Wednesday Yurayura song slot | Summer! summer! song! Elderly people’s party! [Yuragiyura / Millipro]"
@@ -275,24 +214,24 @@
       "member": "眠雲ツクリ",
       "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
       "title": "〖 歌雑談 〗歌も雑談もしたい人間によるごちゃまぜ枠〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/lkHVqtUjrac/hqdefault_live.jpg",
-      "publishedAt": "2026-08-19T11:33:19Z",
+      "thumb": "https://i.ytimg.com/vi/lkHVqtUjrac/hqdefault.jpg",
+      "publishedAt": "2026-08-19T14:02:20Z",
       "live": true,
       "en": {
         "title": "[Song Chat] A jumble of people who want to sing and chat [Nemugumo Tsukuri / MilliPro]"
       }
     },
     {
-      "id": "d97bnZy7eOs",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【お絵描き】ルーレットで出たポケモンを美少女化していくの巻。【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/d97bnZy7eOs/hqdefault_live.jpg",
-      "publishedAt": "2026-08-19T11:32:26Z",
+      "id": "7OAV0PdHO4w",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【歌枠】久々の縦型ですよ〜【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/7OAV0PdHO4w/hqdefault_live.jpg",
+      "publishedAt": "2026-08-19T13:19:22Z",
       "live": false,
       "en": {
-        "title": "[Drawing] A volume about turning the Pokemon that appeared on the roulette wheel into beautiful girls. [#AmakamiLive/#Millipro]"
+        "title": "[Song frame] It's been a long time since I've done a vertical song ~ [Riz Ameya/MilliPro]"
       }
     },
     {
@@ -301,11 +240,24 @@
       "member": "虹深°ぬふ",
       "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
       "title": "【Artist Pro 22 Gen2】はじめてXPPenでイラスト描くよ〜！🎨",
-      "thumb": "https://i.ytimg.com/vi/gi9-IdHgLMQ/hqdefault_live.jpg",
-      "publishedAt": "2026-08-19T11:00:08Z",
+      "thumb": "https://i.ytimg.com/vi/gi9-IdHgLMQ/hqdefault.jpg",
+      "publishedAt": "2026-08-19T13:08:07Z",
       "live": false,
       "en": {
         "title": "[Artist Pro 22 Gen2] I'm drawing an illustration with XPPen for the first time! 🎨"
+      }
+    },
+    {
+      "id": "_oeuVl_BTZc",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 雑談 】最近の振り返り等 ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/_oeuVl_BTZc/hqdefault.jpg",
+      "publishedAt": "2026-08-19T12:13:20Z",
+      "live": true,
+      "en": {
+        "title": "[Chat] Recent reviews, etc. ⟡.· [Rei Yugiri / MilliPro]"
       }
     },
     {
@@ -465,6 +417,19 @@
       }
     },
     {
+      "id": "uYGLm51QIpI",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "コンビニの店員 #マイクラ",
+      "thumb": "https://i.ytimg.com/vi/uYGLm51QIpI/hqdefault.jpg",
+      "publishedAt": "2026-08-18T07:00:31Z",
+      "live": false,
+      "en": {
+        "title": "Convenience store clerk #minecraft"
+      }
+    },
+    {
       "id": "cNqV21vD6mA",
       "memberId": "yura",
       "member": "ゆらぎゆら",
@@ -619,69 +584,7 @@
       "en": {
         "title": "[Apology] Mr. Ameya, there is actually something that I was hiding. . . . . . [Ameya Liz/MilliPro]"
       }
-    },
-    {
-      "id": "4lba9sduOzI",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【#ミリプロサマー2026】ミリプロプレゼンツ ～ミリプロが贈る超重大発表配信～",
-      "thumb": "https://i.ytimg.com/vi/4lba9sduOzI/hqdefault.jpg",
-      "publishedAt": "2026-08-16T13:09:59Z",
-      "live": true,
-      "en": {
-        "title": "[#MilliPro Summer 2026] MilliPro Presents - Super important announcement delivered by MilliPro -"
-      }
     }
   ],
-  "live": [
-    {
-      "id": "gi9-IdHgLMQ",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【Artist Pro 22 Gen2】はじめてXPPenでイラスト描くよ〜！🎨",
-      "thumb": "https://i.ytimg.com/vi/gi9-IdHgLMQ/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-19T11:00:08Z",
-      "status": "live",
-      "en": {
-        "title": "[Artist Pro 22 Gen2] I'm drawing an illustration with XPPen for the first time! 🎨"
-      }
-    },
-    {
-      "id": "d97bnZy7eOs",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【お絵描き】ルーレットで出たポケモンを美少女化していくの巻。【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/d97bnZy7eOs/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-19T11:32:26Z",
-      "status": "live",
-      "en": {
-        "title": "[Drawing] A volume about turning the Pokemon that appeared on the roulette wheel into beautiful girls. [#AmakamiLive/#Millipro]"
-      }
-    },
-    {
-      "id": "lkHVqtUjrac",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 歌雑談 〗歌も雑談もしたい人間によるごちゃまぜ枠〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/lkHVqtUjrac/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-19T11:33:19Z",
-      "status": "live",
-      "en": {
-        "title": "[Song Chat] A jumble of people who want to sing and chat [Nemugumo Tsukuri / MilliPro]"
-      }
-    },
-    {
-      "id": "8y2v7uLYRN4",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "水曜ゆらゆら歌枠｜夏！夏！歌！老人会！【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/8y2v7uLYRN4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-19T12:03:35Z",
-      "status": "live",
-      "en": {
-        "title": "Wednesday Yurayura song slot | Summer! summer! song! Elderly people’s party! [Yuragiyura / Millipro]"
-      }
-    }
-  ]
+  "live": []
 }
