@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-08-18",
+  "generatedAt": "2026-08-19",
   "songs": {
     "カゲロウデイズfeat.": {
       "title": "カゲロウデイズ",
@@ -1608,12 +1608,12 @@ window.SONG_MASTER = {
       }
     },
     "メリュいました": {
-      "title": "青い春",
-      "artist": "SUPER BEAVER",
-      "album": "27",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2d/4a/7a/2d4a7a8c-9101-e1f7-9f93-e488f7bbd137/082705_J.jpg/600x600bb.jpg",
+      "title": "だから僕は音楽を辞めた",
+      "artist": "ヨルシカ",
+      "album": "だから僕は音楽を辞めた",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/64/ab/ba/64abba45-d080-0e8a-c24b-313e597c63cb/PA00076158_0_91679_jacket.jpg/600x600bb.jpg",
       "en": {
-        "title": "blue spring"
+        "title": "That's why I quit music"
       }
     },
     "放課後のプレアデスいました": {
