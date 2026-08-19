@@ -19,7 +19,7 @@ window.KARAOKE = [
     "duration": 3391,
     "songs": [],
     "en": {
-      "title": "[Song frame] It’s been a long time since I’ve done a vertical song ~ [Riz Ameya/MilliPro]"
+      "title": "[Song frame] It's been a long time since I've done a vertical song ~ [Riz Ameya/MilliPro]"
     }
   },
   {
