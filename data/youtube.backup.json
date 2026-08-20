@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T12:20:05.518Z",
+  "updatedAt": "2026-08-20T16:19:15.904Z",
   "streams": [
     {
       "id": "aRY8oq9fQTY",
@@ -10,7 +10,7 @@
       "scheduledStartTime": "2026-08-20T08:59:07Z",
       "status": "live",
       "en": {
-        "title": "[Twilight Forest] Announcement after clearing!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
+        "title": "[Twilight Forest] Announcement when cleared!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
       }
     },
     {
@@ -38,27 +38,27 @@
       }
     },
     {
-      "id": "5tlYrJ-nMjc",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【40万人耐久】歌いながらイラストを完成させろ！マルチタスクお絵描き！！🔥 【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/5tlYrJ-nMjc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-20T09:59:59Z",
+      "id": "taxwVPExYXk",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【雑談】絵のリハビリしながら※アーカイブメン限【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/taxwVPExYXk/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-20T14:15:27Z",
       "status": "live",
       "en": {
-        "title": "[400,000 people endurance] Complete the illustration while singing! Multitasking drawing! ! 🔥 [Niji Deep ° Nufu/Millipro]"
+        "title": "[Chat] While rehabilitating my painting *Archivemen only [Yuragiyura/MilliPro]"
       }
     },
     {
-      "id": "cNqV21vD6mA",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 XPPen Artist 16 3rd 】初めての液タブ！久しぶりのお絵描き♪【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/cNqV21vD6mA/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-20T10:59:38Z",
+      "id": "HUYZ99IaHfk",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【作業雑談】ちるすんのよ┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/HUYZ99IaHfk/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-20T14:53:15Z",
       "status": "live",
       "en": {
-        "title": "[XPPen Artist 16 3rd] My first liquid tab! It’s been a while since I drew ♪ [Yuragi Yura / MilliPro]"
+        "title": "[Work chat] Chirusunno ┊︎ #Otononono #Nononya"
       }
     },
     {
@@ -83,18 +83,6 @@
       "status": "upcoming",
       "en": {
         "title": "[📢Goods information] Millipro Street Collection orders now available!"
-      }
-    },
-    {
-      "id": "dHnc-b8UT34",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【お知らせ】ミリプロリゾート from Akihabara to ??? の開催が決定！",
-      "thumb": "https://i.ytimg.com/vi/dHnc-b8UT34/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-23T14:45:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[Notice] Millipro Resort from Akihabara to ??? will be held!"
       }
     },
     {
@@ -244,6 +232,71 @@
   ],
   "videos": [
     {
+      "id": "6Q0MOxYQjYk",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【📢出演告知】暴力的にカワイイ in お台場 “PSYQUI feat.音ノ乃のの” として出演❕",
+      "thumb": "https://i.ytimg.com/vi/6Q0MOxYQjYk/hqdefault_live.jpg",
+      "publishedAt": "2026-08-20T16:03:05Z",
+      "live": false,
+      "en": {
+        "title": "[📢Performance announcement] Violently Kawaii in Odaiba Appearing as “PSYQUI feat.Otononono”❕"
+      }
+    },
+    {
+      "id": "HUYZ99IaHfk",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【作業雑談】ちるすんのよ┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/HUYZ99IaHfk/hqdefault_live.jpg",
+      "publishedAt": "2026-08-20T14:53:15Z",
+      "live": true,
+      "en": {
+        "title": "[Work chat] Chirusunno ┊︎ #Otononono #Nononya"
+      }
+    },
+    {
+      "id": "taxwVPExYXk",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【雑談】絵のリハビリしながら※アーカイブメン限【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/taxwVPExYXk/hqdefault_live.jpg",
+      "publishedAt": "2026-08-20T14:15:27Z",
+      "live": true,
+      "en": {
+        "title": "[Chat] While rehabilitating my painting *Archivemen only [Yuragiyura/MilliPro]"
+      }
+    },
+    {
+      "id": "5tlYrJ-nMjc",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【40万人耐久】歌いながらイラストを完成させろ！マルチタスクお絵描き！！🔥 【虹深°ぬふ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/5tlYrJ-nMjc/hqdefault.jpg",
+      "publishedAt": "2026-08-20T13:54:14Z",
+      "live": false,
+      "en": {
+        "title": "[400,000 people endurance] Complete the illustration while singing! Multitasking drawing! ! 🔥 [Niji Deep ° Nufu/Millipro]"
+      }
+    },
+    {
+      "id": "cNqV21vD6mA",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 XPPen Artist 16 3rd 】初めての液タブ！久しぶりのお絵描き♪【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/cNqV21vD6mA/hqdefault.jpg",
+      "publishedAt": "2026-08-20T13:44:01Z",
+      "live": false,
+      "en": {
+        "title": "[XPPen Artist 16 3rd] My first liquid tab! It’s been a while since I drew ♪ [Yuragi Yura / MilliPro]"
+      }
+    },
+    {
       "id": "zVecJkknXHE",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -254,32 +307,6 @@
       "live": false,
       "en": {
         "title": "Kawibawibo/Otononono ┊︎#Otononono #Shorts original song #shorts #original"
-      }
-    },
-    {
-      "id": "cNqV21vD6mA",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 XPPen Artist 16 3rd 】初めての液タブ！久しぶりのお絵描き♪【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/cNqV21vD6mA/hqdefault_live.jpg",
-      "publishedAt": "2026-08-20T10:59:38Z",
-      "live": false,
-      "en": {
-        "title": "[XPPen Artist 16 3rd] My first liquid tab! It’s been a while since I drew ♪ [Yuragi Yura / MilliPro]"
-      }
-    },
-    {
-      "id": "5tlYrJ-nMjc",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【40万人耐久】歌いながらイラストを完成させろ！マルチタスクお絵描き！！🔥 【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/5tlYrJ-nMjc/hqdefault_live.jpg",
-      "publishedAt": "2026-08-20T09:59:59Z",
-      "live": false,
-      "en": {
-        "title": "[400,000 people endurance] Complete the illustration while singing! Multitasking drawing! ! 🔥 [Niji Deep ° Nufu/Millipro]"
       }
     },
     {
@@ -331,7 +358,7 @@
       "publishedAt": "2026-08-20T08:59:07Z",
       "live": false,
       "en": {
-        "title": "[Twilight Forest] Announcement after clearing!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
+        "title": "[Twilight Forest] Announcement when cleared!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
       }
     },
     {
@@ -526,7 +553,7 @@
       "publishedAt": "2026-08-18T13:48:52Z",
       "live": true,
       "en": {
-        "title": "[Chat] Looking back on recent events [Yuragiyura/MilliPro]"
+        "title": "[Chat] Looking back on recent events [Yuragi Yura/MilliPro]"
       }
     },
     {
@@ -569,19 +596,6 @@
       }
     },
     {
-      "id": "rOW1QWR7r2Y",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 Minecraft 】神社建築⛩御神木を完成させたい🌸【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/rOW1QWR7r2Y/hqdefault.jpg",
-      "publishedAt": "2026-08-18T09:20:26Z",
-      "live": false,
-      "en": {
-        "title": "[Minecraft] Shrine construction⛩I want to complete the sacred tree🌸 [Yuragiyura/MilliPro]"
-      }
-    },
-    {
       "id": "D7gKtPUtPuw",
       "memberId": "official",
       "member": "ミリプロ公式",
@@ -606,32 +620,6 @@
       "en": {
         "title": "[Twilight Forest] Clear announcement!?Komakuri Komai Twilight Forest #1 [Komakoma/MilliPro]"
       }
-    },
-    {
-      "id": "TimzN-NIhYI",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 Minecraft 〗クリアで告知!?こまつくりーず黄昏の森#1〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/TimzN-NIhYI/hqdefault.jpg",
-      "publishedAt": "2026-08-17T17:53:12Z",
-      "live": false,
-      "en": {
-        "title": "〖 Minecraft 〗 Announcement on clearing!? Top Crease Twilight Forest #1 〖 Sleeping Cloud Tsukuri / Millipro 〗"
-      }
-    },
-    {
-      "id": "MjEEUFaxIhc",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【黄昏の森/Minecraft 】こまつくりーずで異世界転生‼️❓【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/MjEEUFaxIhc/hqdefault.jpg",
-      "publishedAt": "2026-08-17T17:44:52Z",
-      "live": false,
-      "en": {
-        "title": "[Twilight Forest/Minecraft] Reincarnation in another world with Komakurizu!! ️❓ [Ameya Liz/MilliPro]"
-      }
     }
   ],
   "live": [
@@ -644,7 +632,7 @@
       "scheduledStartTime": "2026-08-20T08:59:07Z",
       "status": "live",
       "en": {
-        "title": "[Twilight Forest] Announcement after clearing!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
+        "title": "[Twilight Forest] Announcement when cleared!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
       }
     },
     {
@@ -672,27 +660,27 @@
       }
     },
     {
-      "id": "5tlYrJ-nMjc",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【40万人耐久】歌いながらイラストを完成させろ！マルチタスクお絵描き！！🔥 【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/5tlYrJ-nMjc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-20T09:59:59Z",
+      "id": "taxwVPExYXk",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【雑談】絵のリハビリしながら※アーカイブメン限【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/taxwVPExYXk/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-20T14:15:27Z",
       "status": "live",
       "en": {
-        "title": "[400,000 people endurance] Complete the illustration while singing! Multitasking drawing! ! 🔥 [Niji Deep ° Nufu/Millipro]"
+        "title": "[Chat] While rehabilitating my painting *Archivemen only [Yuragiyura/MilliPro]"
       }
     },
     {
-      "id": "cNqV21vD6mA",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 XPPen Artist 16 3rd 】初めての液タブ！久しぶりのお絵描き♪【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/cNqV21vD6mA/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-20T10:59:38Z",
+      "id": "HUYZ99IaHfk",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【作業雑談】ちるすんのよ┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/HUYZ99IaHfk/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-20T14:53:15Z",
       "status": "live",
       "en": {
-        "title": "[XPPen Artist 16 3rd] My first liquid tab! It’s been a while since I drew ♪ [Yuragi Yura / MilliPro]"
+        "title": "[Work chat] Chirusunno ┊︎ #Otononono #Nononya"
       }
     }
   ]

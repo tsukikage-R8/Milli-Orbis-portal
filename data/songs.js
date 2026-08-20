@@ -211,7 +211,7 @@ window.SONGS = {
         "mahoro"
       ],
       "en": {
-        "title": "[Snow Break: Forbidden Region Image Song] Aim! Descending to the sea [Kano]"
+        "title": "【スノウブレイク：禁域降臨イメージソング】狙え！ Descending to the sea [Kano]"
       }
     },
     {
@@ -288,7 +288,7 @@ window.SONGS = {
         "mahoro"
       ],
       "en": {
-        "title": "[MV] Kano “Primastella” [OFFICIAL]"
+        "title": "[MV] Kano “Prima Stella” [OFFICIAL]"
       }
     },
     {
@@ -2555,6 +2555,30 @@ window.SONGS = {
       }
     },
     {
+      "title": "気分上々↑↑／小廻こま × 眠雲ツクリ × 雨夜リズ（cover）",
+      "key": "気分上々↑↑",
+      "urls": [
+        {
+          "id": "Dn2GGmOHKak",
+          "memberId": "koma",
+          "publishedAt": "2026-08-20"
+        },
+        {
+          "id": "Dn2GGmOHKak",
+          "memberId": "liz",
+          "publishedAt": "2026-08-20"
+        },
+        {
+          "id": "Dn2GGmOHKak",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-08-20"
+        }
+      ],
+      "en": {
+        "title": "Feeling great↑↑／Komawarikoma × Nemugumo Tsukuri × Ameya Liz (cover)"
+      }
+    },
+    {
       "title": "夏色えがおで1,2,Jump!",
       "key": "夏色えがおで1,2,jump!",
       "urls": [
@@ -2638,6 +2662,30 @@ window.SONGS = {
       ],
       "en": {
         "title": "Bonapeite♡S / Blend A"
+      }
+    },
+    {
+      "title": "Femme Fatale／小廻こま × 眠雲ツクリ × 雨夜リズ（cover）",
+      "key": "femmefatale",
+      "urls": [
+        {
+          "id": "4YNtwk_YR_0",
+          "memberId": "koma",
+          "publishedAt": "2026-08-20"
+        },
+        {
+          "id": "4YNtwk_YR_0",
+          "memberId": "liz",
+          "publishedAt": "2026-08-20"
+        },
+        {
+          "id": "4YNtwk_YR_0",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-08-20"
+        }
+      ],
+      "en": {
+        "title": "Femme Fatale／Komawarikoma × Nemugumo Tsukuri × Ameya Liz (cover)"
       }
     },
     {
@@ -2919,7 +2967,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Moe Chakka Fire (Masei) / Kano cover."
+        "title": "Moe Chukka Fire (Masei) / Kano cover."
       }
     },
     {
