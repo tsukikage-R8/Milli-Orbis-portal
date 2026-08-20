@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-songs.js（変更しないでください） */
 window.SONGS = {
-  "generatedAt": "2026-08-19",
+  "generatedAt": "2026-08-20",
   "official": [
     {
       "id": "1UdnoJ6qgPs",
@@ -288,7 +288,7 @@ window.SONGS = {
         "mahoro"
       ],
       "en": {
-        "title": "[MV] Kano “Primastella” [OFFICIAL]"
+        "title": "[MV] Kano “Prima Stella” [OFFICIAL]"
       }
     },
     {
@@ -2704,7 +2704,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Announcement of spring (yama) / acoustic cover. Kano"
+        "title": "Announcement of spring (yama)/acoustic cover. Kano"
       }
     },
     {
@@ -2919,7 +2919,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Moe Chakka Fire (Masei) / Kano cover."
+        "title": "Moe Chukka Fire (Masei) / Kano cover."
       }
     },
     {
@@ -3180,10 +3180,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2022-04-01"
         }
-      ],
-      "en": {
-        "title": "You don't have to force yourself to smile cover. Kano"
-      }
+      ]
     },
     {
       "title": "「Oz./yama」covered by 鹿乃（王様ランキングED）",
