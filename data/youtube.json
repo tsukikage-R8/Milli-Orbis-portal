@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-08-20T04:23:41.532Z",
+  "updatedAt": "2026-08-20T08:21:49.716Z",
   "streams": [
+    {
+      "id": "aRY8oq9fQTY",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 黄昏の森 】クリアで告知!?最終決戦は目の前だ#3【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/aRY8oq9fQTY/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-20T09:00:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "[Twilight Forest] Announcement when cleared!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
+      }
+    },
     {
       "id": "cNqV21vD6mA",
       "memberId": "yura",
@@ -86,18 +98,6 @@
       }
     },
     {
-      "id": "WEI1si3sFaA",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "🌊ミリプロリゾート開催決定！",
-      "thumb": "https://i.ytimg.com/vi/WEI1si3sFaA/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-29T13:30:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "🌊 Millipro Resort will be held!"
-      }
-    },
-    {
       "id": "24ZLgKWtJ14",
       "memberId": "yura",
       "member": "ゆらぎゆら",
@@ -107,6 +107,18 @@
       "status": "upcoming",
       "en": {
         "title": "❥Summary of Yuragi Yura's Membership Benefits🌙Yuragi Yura's Membership 🫧*Check the summary section!"
+      }
+    },
+    {
+      "id": "8F-C9ivtBnE",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【告知】🎂誕生日記念グッズ販売中！",
+      "thumb": "https://i.ytimg.com/vi/8F-C9ivtBnE/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-01T14:45:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "[Announcement] 🎂Birthday commemorative goods are now on sale!"
       }
     },
     {
@@ -196,6 +208,45 @@
   ],
   "videos": [
     {
+      "id": "Qm6cnKewsU4",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "お兄ちゃんスイッチ #マイクラ",
+      "thumb": "https://i.ytimg.com/vi/Qm6cnKewsU4/hqdefault.jpg",
+      "publishedAt": "2026-08-20T07:00:00Z",
+      "live": false,
+      "en": {
+        "title": "Big brother switch #minecraft"
+      }
+    },
+    {
+      "id": "odhtD0giUPU",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "トルコアイスとゆらぎ #minecraft",
+      "thumb": "https://i.ytimg.com/vi/odhtD0giUPU/hqdefault.jpg",
+      "publishedAt": "2026-08-20T06:49:54Z",
+      "live": false,
+      "en": {
+        "title": "Turkish ice cream and fluctuation #minecraft"
+      }
+    },
+    {
+      "id": "8F-C9ivtBnE",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【告知】🎂誕生日記念グッズ販売中！",
+      "thumb": "https://i.ytimg.com/vi/8F-C9ivtBnE/hqdefault_live.jpg",
+      "publishedAt": "2026-08-20T06:47:37Z",
+      "live": false,
+      "en": {
+        "title": "[Announcement] 🎂Birthday commemorative goods are now on sale!"
+      }
+    },
+    {
       "id": "aRY8oq9fQTY",
       "memberId": "koma",
       "member": "小廻こま",
@@ -205,7 +256,7 @@
       "publishedAt": "2026-08-20T04:07:08Z",
       "live": false,
       "en": {
-        "title": "[Twilight Forest] Announcement after clearing!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
+        "title": "[Twilight Forest] Announcement when cleared!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
       }
     },
     {
@@ -361,7 +412,7 @@
       "publishedAt": "2026-08-18T13:48:52Z",
       "live": true,
       "en": {
-        "title": "[Chat] Looking back on recent events [Yuragiyura/MilliPro]"
+        "title": "[Chat] Looking back on recent events [Yuragi Yura/MilliPro]"
       }
     },
     {
@@ -430,19 +481,6 @@
       }
     },
     {
-      "id": "uYGLm51QIpI",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "コンビニの店員 #マイクラ",
-      "thumb": "https://i.ytimg.com/vi/uYGLm51QIpI/hqdefault.jpg",
-      "publishedAt": "2026-08-18T07:00:31Z",
-      "live": false,
-      "en": {
-        "title": "Convenience store clerk #minecraft"
-      }
-    },
-    {
       "id": "cNqV21vD6mA",
       "memberId": "yura",
       "member": "ゆらぎゆら",
@@ -491,7 +529,7 @@
       "publishedAt": "2026-08-17T17:44:52Z",
       "live": false,
       "en": {
-        "title": "[Twilight Forest/Minecraft] Reincarnation in another world with Komakurizu!! ️❓ [Ameya Liz/MilliPro]"
+        "title": "[Twilight Forest/Minecraft] Reincarnation in another world with Komazukurizu!! ️❓ [Ameya Liz/MilliPro]"
       }
     },
     {
@@ -543,7 +581,7 @@
       "publishedAt": "2026-08-16T17:39:43Z",
       "live": false,
       "en": {
-        "title": "[Strinu/Minecraft] Looks like it's the last day🍓 [Riz Ameya/MilliPro]"
+        "title": "[Strinu/Minecraft] Looks like it's the last day🍓 [Ameya Liz/MilliPro]"
       }
     },
     {
@@ -557,32 +595,6 @@
       "live": false,
       "en": {
         "title": "[Strinu] Life in another world went by so quickly! ! #9 [Komawarikoma/Millipro]"
-      }
-    },
-    {
-      "id": "2ZpI9IoeHek",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "【ストリヌ】最終回：莉犬さんありがとう【#あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/2ZpI9IoeHek/hqdefault.jpg",
-      "publishedAt": "2026-08-16T17:33:18Z",
-      "live": false,
-      "en": {
-        "title": "[Strinu] Final episode: Thank you Riinu [#Yawn/Monster Speed]"
-      }
-    },
-    {
-      "id": "RSsQfObjmp0",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【ストリヌ】最終回「しっぷぅ騎士団」【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/RSsQfObjmp0/hqdefault.jpg",
-      "publishedAt": "2026-08-16T17:32:23Z",
-      "live": false,
-      "en": {
-        "title": "[Strinu] Final episode “Shippuu Knights” [Yuragiyura/Millipro]"
       }
     }
   ],
