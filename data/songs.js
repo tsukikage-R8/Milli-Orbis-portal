@@ -3180,7 +3180,10 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2022-04-01"
         }
-      ]
+      ],
+      "en": {
+        "title": "You don't have to force yourself to smile cover. Kano"
+      }
     },
     {
       "title": "「Oz./yama」covered by 鹿乃（王様ランキングED）",

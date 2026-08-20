@@ -471,12 +471,12 @@ window.SONG_MASTER = {
       }
     },
     "男の子の目的は何？": {
-      "title": "ツバメ (feat. ミドリーズ)",
-      "artist": "YOASOBI",
-      "album": "ツバメ (feat. ミドリーズ) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg",
+      "title": "恋のスーパーボール",
+      "artist": "aiko",
+      "album": "時のシルエット",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/b5/19/5b/b5195b36-a3f6-c92b-bc50-5abfca0ded58/dj.ieadmwsc.jpg/600x600bb.jpg",
       "en": {
-        "title": "Tsubame (feat. Midleys)"
+        "title": "love super ball"
       }
     },
     "1000年生きてる": {
@@ -803,6 +803,15 @@ window.SONG_MASTER = {
         "title": "tightly"
       }
     },
+    "青と夏": {
+      "title": "群青",
+      "artist": "YOASOBI",
+      "album": "群青 - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ae/7e/4a/ae7e4a28-fd46-9617-1066-fcbd124303d6/195497105656.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Gunjo"
+      }
+    },
     "アイドル": {
       "title": "アイドル",
       "artist": "YOASOBI",
@@ -813,10 +822,13 @@ window.SONG_MASTER = {
       }
     },
     "悪魔の踊り方": {
-      "title": "MANIHEKE",
-      "artist": "アイリフドーパ",
-      "album": "GENTEN - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ab/2e/1e/ab2e1e1a-7f81-2ef1-2feb-74f1930d1a9c/199806597972.jpg/600x600bb.jpg"
+      "title": "名モ無キ休日 (feat. HaiM-BerG) [Remix]",
+      "artist": "KC",
+      "album": "名モ無キ休日 (feat. HaiM-BerG) [Remix] - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/3e/fa/703efa90-f68b-976d-0998-ddb7f492fe9d/4550755311822_cover.png/600x600bb.jpg",
+      "en": {
+        "title": "Nameless Holiday (feat. HaiM-BerG) [Remix]"
+      }
     },
     "絶頂讃": {
       "title": "絶頂讃歌",
@@ -1593,12 +1605,12 @@ window.SONG_MASTER = {
       }
     },
     "メリュいました": {
-      "title": "突破口",
+      "title": "青い春",
       "artist": "SUPER BEAVER",
-      "album": "突破口 / 自慢になりたい - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5e/a6/f1/5ea6f10f-a8b4-d2ac-2a93-13afdb904358/4547366478778.jpg/600x600bb.jpg",
+      "album": "27",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2d/4a/7a/2d4a7a8c-9101-e1f7-9f93-e488f7bbd137/082705_J.jpg/600x600bb.jpg",
       "en": {
-        "title": "breakthrough"
+        "title": "blue spring"
       }
     },
     "放課後のプレアデスいました": {

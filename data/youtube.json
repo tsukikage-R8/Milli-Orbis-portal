@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T00:29:30.012Z",
+  "updatedAt": "2026-08-20T04:23:41.532Z",
   "streams": [
     {
       "id": "cNqV21vD6mA",
@@ -50,18 +50,6 @@
       }
     },
     {
-      "id": "FQUAaVHIEEo",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "☁ストリートコレクション 2026 受注受付中！ 🔧",
-      "thumb": "https://i.ytimg.com/vi/FQUAaVHIEEo/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-23T14:59:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "☁Street Collection 2026 now accepting orders! 🔧"
-      }
-    },
-    {
       "id": "8zRJYa59A60",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -71,6 +59,18 @@
       "status": "upcoming",
       "en": {
         "title": "☁ Fan meeting general sale decided 🔧"
+      }
+    },
+    {
+      "id": "FQUAaVHIEEo",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "☁ストリートコレクション 2026 受注受付中！ 🔧",
+      "thumb": "https://i.ytimg.com/vi/FQUAaVHIEEo/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-23T14:59:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "☁Street Collection 2026 now accepting orders! 🔧"
       }
     },
     {
@@ -195,6 +195,19 @@
     }
   ],
   "videos": [
+    {
+      "id": "aRY8oq9fQTY",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 黄昏の森 】クリアで告知!?最終決戦は目の前だ#3【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/aRY8oq9fQTY/hqdefault_live.jpg",
+      "publishedAt": "2026-08-20T04:07:08Z",
+      "live": false,
+      "en": {
+        "title": "[Twilight Forest] Announcement after clearing!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
+      }
+    },
     {
       "id": "8y2v7uLYRN4",
       "memberId": "yura",
@@ -570,19 +583,6 @@
       "live": false,
       "en": {
         "title": "[Strinu] Final episode “Shippuu Knights” [Yuragiyura/Millipro]"
-      }
-    },
-    {
-      "id": "momKVRfq50s",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【謝罪】雨夜さん実は隠していたことがあります。。。。。。【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/momKVRfq50s/hqdefault.jpg",
-      "publishedAt": "2026-08-16T16:05:42Z",
-      "live": false,
-      "en": {
-        "title": "[Apology] Mr. Ameya, there is actually something that I was hiding. . . . . . [Ameya Liz/MilliPro]"
       }
     }
   ],
