@@ -288,7 +288,7 @@ window.SONGS = {
         "mahoro"
       ],
       "en": {
-        "title": "[MV] Kano “Primastella” [OFFICIAL]"
+        "title": "[MV] Kano “Prima Stella” [OFFICIAL]"
       }
     },
     {
@@ -2704,7 +2704,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Announcement of spring (yama) / acoustic cover. Kano"
+        "title": "Announcement of spring (yama)/acoustic cover. Kano"
       }
     },
     {
@@ -2919,7 +2919,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Moe Chakka Fire (Masei) / Kano cover."
+        "title": "Moe Chukka Fire (Masei) / Kano cover."
       }
     },
     {

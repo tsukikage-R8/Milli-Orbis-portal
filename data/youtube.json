@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T08:21:49.716Z",
+  "updatedAt": "2026-08-20T12:20:05.518Z",
   "streams": [
     {
       "id": "aRY8oq9fQTY",
@@ -7,10 +7,46 @@
       "member": "小廻こま",
       "title": "【 黄昏の森 】クリアで告知!?最終決戦は目の前だ#3【小廻こま/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/aRY8oq9fQTY/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-20T09:00:00Z",
-      "status": "upcoming",
+      "scheduledStartTime": "2026-08-20T08:59:07Z",
+      "status": "live",
       "en": {
-        "title": "[Twilight Forest] Announcement when cleared!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
+        "title": "[Twilight Forest] Announcement after clearing!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
+      }
+    },
+    {
+      "id": "uyoE8a7QbiM",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【黄昏の森/Minecraft 】もうそろクリアも目の前👀【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/uyoE8a7QbiM/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-20T09:12:11Z",
+      "status": "live",
+      "en": {
+        "title": "[Twilight Forest/Minecraft] Clearing is just around the corner 👀 [Riz Ameya/MilliPro]"
+      }
+    },
+    {
+      "id": "LMZAFBU34iI",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 Minecraft 〗クリアで告知!?最終回迎えられる、のか？#3〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/LMZAFBU34iI/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-20T09:31:48Z",
+      "status": "live",
+      "en": {
+        "title": "[Minecraft] Announcement after clearing!? Will it be the final round? #3〖 Sleeping Cloud Tsukuri / Millipro〗"
+      }
+    },
+    {
+      "id": "5tlYrJ-nMjc",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "title": "【40万人耐久】歌いながらイラストを完成させろ！マルチタスクお絵描き！！🔥 【虹深°ぬふ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/5tlYrJ-nMjc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-20T09:59:59Z",
+      "status": "live",
+      "en": {
+        "title": "[400,000 people endurance] Complete the illustration while singing! Multitasking drawing! ! 🔥 [Niji Deep ° Nufu/Millipro]"
       }
     },
     {
@@ -19,8 +55,8 @@
       "member": "ゆらぎゆら",
       "title": "【 XPPen Artist 16 3rd 】初めての液タブ！久しぶりのお絵描き♪【 ゆらぎゆら / ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/cNqV21vD6mA/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-20T11:00:00Z",
-      "status": "upcoming",
+      "scheduledStartTime": "2026-08-20T10:59:38Z",
+      "status": "live",
       "en": {
         "title": "[XPPen Artist 16 3rd] My first liquid tab! It’s been a while since I drew ♪ [Yuragi Yura / MilliPro]"
       }
@@ -208,6 +244,97 @@
   ],
   "videos": [
     {
+      "id": "zVecJkknXHE",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "カウィバウィボ/音ノ乃のの ┊︎#音ノ乃のの #Shortsオリ曲 #shorts #オリジナル",
+      "thumb": "https://i.ytimg.com/vi/zVecJkknXHE/hqdefault.jpg",
+      "publishedAt": "2026-08-20T12:10:14Z",
+      "live": false,
+      "en": {
+        "title": "Kawibawibo/Otononono ┊︎#Otononono #Shorts original song #shorts #original"
+      }
+    },
+    {
+      "id": "cNqV21vD6mA",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 XPPen Artist 16 3rd 】初めての液タブ！久しぶりのお絵描き♪【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/cNqV21vD6mA/hqdefault_live.jpg",
+      "publishedAt": "2026-08-20T10:59:38Z",
+      "live": false,
+      "en": {
+        "title": "[XPPen Artist 16 3rd] My first liquid tab! It’s been a while since I drew ♪ [Yuragi Yura / MilliPro]"
+      }
+    },
+    {
+      "id": "5tlYrJ-nMjc",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【40万人耐久】歌いながらイラストを完成させろ！マルチタスクお絵描き！！🔥 【虹深°ぬふ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/5tlYrJ-nMjc/hqdefault_live.jpg",
+      "publishedAt": "2026-08-20T09:59:59Z",
+      "live": false,
+      "en": {
+        "title": "[400,000 people endurance] Complete the illustration while singing! Multitasking drawing! ! 🔥 [Niji Deep ° Nufu/Millipro]"
+      }
+    },
+    {
+      "id": "LMZAFBU34iI",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 Minecraft 〗クリアで告知!?最終回迎えられる、のか？#3〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/LMZAFBU34iI/hqdefault_live.jpg",
+      "publishedAt": "2026-08-20T09:31:48Z",
+      "live": false,
+      "en": {
+        "title": "[Minecraft] Announcement after clearing!? Will it be the final round? #3〖 Sleeping Cloud Tsukuri / Millipro〗"
+      }
+    },
+    {
+      "id": "uyoE8a7QbiM",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【黄昏の森/Minecraft 】もうそろクリアも目の前👀【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/uyoE8a7QbiM/hqdefault_live.jpg",
+      "publishedAt": "2026-08-20T09:12:11Z",
+      "live": false,
+      "en": {
+        "title": "[Twilight Forest/Minecraft] Clearing is just around the corner 👀 [Riz Ameya/MilliPro]"
+      }
+    },
+    {
+      "id": "M3Gm1oHqpq4",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【3文字以心伝心】危険な単語を？ぎりぎり回避ｗｗｗ【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/M3Gm1oHqpq4/hqdefault.jpg",
+      "publishedAt": "2026-08-20T09:00:33Z",
+      "live": false,
+      "en": {
+        "title": "[Three letters in heart] Dangerous words? Barely avoided lol [#MilliPro]"
+      }
+    },
+    {
+      "id": "aRY8oq9fQTY",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 黄昏の森 】クリアで告知!?最終決戦は目の前だ#3【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/aRY8oq9fQTY/hqdefault_live.jpg",
+      "publishedAt": "2026-08-20T08:59:07Z",
+      "live": false,
+      "en": {
+        "title": "[Twilight Forest] Announcement after clearing!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
+      }
+    },
+    {
       "id": "Qm6cnKewsU4",
       "memberId": "konomi",
       "member": "甘狼このみ",
@@ -244,19 +371,6 @@
       "live": false,
       "en": {
         "title": "[Announcement] 🎂Birthday commemorative goods are now on sale!"
-      }
-    },
-    {
-      "id": "aRY8oq9fQTY",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 黄昏の森 】クリアで告知!?最終決戦は目の前だ#3【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/aRY8oq9fQTY/hqdefault_live.jpg",
-      "publishedAt": "2026-08-20T04:07:08Z",
-      "live": false,
-      "en": {
-        "title": "[Twilight Forest] Announcement when cleared!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
       }
     },
     {
@@ -412,7 +526,7 @@
       "publishedAt": "2026-08-18T13:48:52Z",
       "live": true,
       "en": {
-        "title": "[Chat] Looking back on recent events [Yuragi Yura/MilliPro]"
+        "title": "[Chat] Looking back on recent events [Yuragiyura/MilliPro]"
       }
     },
     {
@@ -481,19 +595,6 @@
       }
     },
     {
-      "id": "cNqV21vD6mA",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 XPPen Artist 16 3rd 】初めての液タブ！久しぶりのお絵描き♪【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/cNqV21vD6mA/hqdefault_live.jpg",
-      "publishedAt": "2026-08-18T03:57:45Z",
-      "live": false,
-      "en": {
-        "title": "[XPPen Artist 16 3rd] My first liquid tab! It’s been a while since I drew ♪ [Yuragi Yura / MilliPro]"
-      }
-    },
-    {
       "id": "wfXt3CcBrzQ",
       "memberId": "koma",
       "member": "小廻こま",
@@ -529,74 +630,70 @@
       "publishedAt": "2026-08-17T17:44:52Z",
       "live": false,
       "en": {
-        "title": "[Twilight Forest/Minecraft] Reincarnation in another world with Komazukurizu!! ️❓ [Ameya Liz/MilliPro]"
-      }
-    },
-    {
-      "id": "3K7ANAXS1gg",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "マイクラアイテム人狼！誰が人狼でしょう？【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/3K7ANAXS1gg/hqdefault.jpg",
-      "publishedAt": "2026-08-17T09:00:18Z",
-      "live": false,
-      "en": {
-        "title": "Minecraft item werewolf! Who is the werewolf? [#MilliPro]"
-      }
-    },
-    {
-      "id": "rFqMbbCzJt4",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ストリヌ 〗 ありがとうストリヌ！お洋服を届けてカジノへ #8〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/rFqMbbCzJt4/hqdefault.jpg",
-      "publishedAt": "2026-08-16T19:27:54Z",
-      "live": false,
-      "en": {
-        "title": "〖 Strine 〗 Thank you, Strine! Deliver the clothes and go to the casino #8〖 Nemugumo Tsukuri / Millipro〗"
-      }
-    },
-    {
-      "id": "_7Qz4mu1UF4",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 ストリヌ 】最終日、異世界楽しかった #9 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/_7Qz4mu1UF4/hqdefault.jpg",
-      "publishedAt": "2026-08-16T18:21:29Z",
-      "live": false,
-      "en": {
-        "title": "[Strinu] The last day was fun in another world #9 [Rei Yugiri / Millipro]"
-      }
-    },
-    {
-      "id": "Z3DGZGF_NtI",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【ストリヌ/Minecraft 】もう最終日らしい🍓【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Z3DGZGF_NtI/hqdefault.jpg",
-      "publishedAt": "2026-08-16T17:39:43Z",
-      "live": false,
-      "en": {
-        "title": "[Strinu/Minecraft] Looks like it's the last day🍓 [Ameya Liz/MilliPro]"
-      }
-    },
-    {
-      "id": "WCGKc5VZQmQ",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 ストリヌ 】あっという間の異世界生活でした！！#9【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/WCGKc5VZQmQ/hqdefault.jpg",
-      "publishedAt": "2026-08-16T17:34:04Z",
-      "live": false,
-      "en": {
-        "title": "[Strinu] Life in another world went by so quickly! ! #9 [Komawarikoma/Millipro]"
+        "title": "[Twilight Forest/Minecraft] Reincarnation in another world with Komakurizu!! ️❓ [Ameya Liz/MilliPro]"
       }
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "aRY8oq9fQTY",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 黄昏の森 】クリアで告知!?最終決戦は目の前だ#3【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/aRY8oq9fQTY/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-20T08:59:07Z",
+      "status": "live",
+      "en": {
+        "title": "[Twilight Forest] Announcement after clearing!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
+      }
+    },
+    {
+      "id": "uyoE8a7QbiM",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【黄昏の森/Minecraft 】もうそろクリアも目の前👀【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/uyoE8a7QbiM/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-20T09:12:11Z",
+      "status": "live",
+      "en": {
+        "title": "[Twilight Forest/Minecraft] Clearing is just around the corner 👀 [Riz Ameya/MilliPro]"
+      }
+    },
+    {
+      "id": "LMZAFBU34iI",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 Minecraft 〗クリアで告知!?最終回迎えられる、のか？#3〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/LMZAFBU34iI/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-20T09:31:48Z",
+      "status": "live",
+      "en": {
+        "title": "[Minecraft] Announcement after clearing!? Will it be the final round? #3〖 Sleeping Cloud Tsukuri / Millipro〗"
+      }
+    },
+    {
+      "id": "5tlYrJ-nMjc",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "title": "【40万人耐久】歌いながらイラストを完成させろ！マルチタスクお絵描き！！🔥 【虹深°ぬふ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/5tlYrJ-nMjc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-20T09:59:59Z",
+      "status": "live",
+      "en": {
+        "title": "[400,000 people endurance] Complete the illustration while singing! Multitasking drawing! ! 🔥 [Niji Deep ° Nufu/Millipro]"
+      }
+    },
+    {
+      "id": "cNqV21vD6mA",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 XPPen Artist 16 3rd 】初めての液タブ！久しぶりのお絵描き♪【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/cNqV21vD6mA/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-20T10:59:38Z",
+      "status": "live",
+      "en": {
+        "title": "[XPPen Artist 16 3rd] My first liquid tab! It’s been a while since I drew ♪ [Yuragi Yura / MilliPro]"
+      }
+    }
+  ]
 }
