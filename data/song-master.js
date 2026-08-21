@@ -408,13 +408,10 @@ window.SONG_MASTER = {
       }
     },
     "プレイ-gigashortby": {
-      "title": "アンドロメダ",
-      "artist": "aiko",
-      "album": "暁のラブレター",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/39/e1/2d/39e12d27-a080-b9b7-962f-08d2676e085f/dj.rvhspbob.jpg/600x600bb.jpg",
-      "en": {
-        "title": "andromeda"
-      }
+      "title": "PLAY",
+      "artist": "SEKAI NO OWARI",
+      "album": "Tree",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/07/46/dd/0746dd80-255e-7c83-5247-d9592d25ba9d/TFCC-86501.jpg/600x600bb.jpg"
     },
     "モニタリング": {
       "title": "モニタリング",
@@ -613,9 +610,9 @@ window.SONG_MASTER = {
     },
     "メンタルチェンソ": {
       "title": "メンタルチェンソー",
-      "artist": "P丸様。",
-      "album": "Sunny!!",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a9/57/ab/a957abfc-fd6b-c3ec-3db2-15d2c46d2328/21UMGIM13559.rgb.jpg/600x600bb.jpg",
+      "artist": "かいりきベア",
+      "album": "バグエフェクト",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3d/6d/3d/3d6d3d46-9361-9a4f-4916-c6f31109d456/4550714315878_cover.png/600x600bb.jpg",
       "en": {
         "title": "mental chainsaw"
       }
@@ -822,12 +819,12 @@ window.SONG_MASTER = {
       }
     },
     "悪魔の踊り方": {
-      "title": "名モ無キ休日 (feat. HaiM-BerG) [Remix]",
-      "artist": "KC",
-      "album": "名モ無キ休日 (feat. HaiM-BerG) [Remix] - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/3e/fa/703efa90-f68b-976d-0998-ddb7f492fe9d/4550755311822_cover.png/600x600bb.jpg",
+      "title": "悪魔の踊り方 (feat. 小豆沢こはね, 白石杏, 東雲彰人, 青柳冬弥 & 鏡音リン)",
+      "artist": "Vivid BAD SQUAD",
+      "album": "Vivid BAD SQUAD SEKAI ALBUM Vol. 1",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/27/eb/b5/27ebb5b5-1441-146d-dc30-f83370de9d7a/4511820-95571.jpg/600x600bb.jpg",
       "en": {
-        "title": "Nameless Holiday (feat. HaiM-BerG) [Remix]"
+        "title": "How the Devil Dances (feat. Kohane Azusawa, An Shiraishi, Akito Shinonome, Fuyuya Aoyagi & Rin Kagamine)"
       }
     },
     "絶頂讃": {
@@ -924,12 +921,12 @@ window.SONG_MASTER = {
       }
     },
     "マシャルマキシマイザ": {
-      "title": "マーシャル・マキシマイザー (feat. 可不)",
-      "artist": "柊マグネタイト",
-      "album": "KAF+YOU KAFU COMPILATION ALBUM シンメトリー",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6a/25/39/6a2539f1-882e-9822-3876-14ec354ca6e6/ANTCD-46511.jpg/600x600bb.jpg",
+      "title": "マーシャル・マキシマイザー",
+      "artist": "和楽器バンド",
+      "album": "ボカロ三昧2",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/94/55/17/945517eb-0a00-26fc-39c3-105f68516291/22UMGIM81445.rgb.jpg/600x600bb.jpg",
       "en": {
-        "title": "Marshall Maximizer (feat. Kafu)"
+        "title": "marshall maximizer"
       }
     },
     "きゅうくらりん": {
@@ -1182,10 +1179,13 @@ window.SONG_MASTER = {
       }
     },
     "チェリポップ.": {
-      "title": "Can't You See Me?",
-      "artist": "TOMORROW X TOGETHER",
-      "album": "The Dream Chapter: ETERNITY - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/58/11/b1/5811b15d-6c29-c30f-3495-10ef21365008/20UMGIM36654.rgb.jpg/600x600bb.jpg"
+      "title": "メランコリーキッチン",
+      "artist": "米津玄師",
+      "album": "YANKEE",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg",
+      "en": {
+        "title": "melancholy kitchen"
+      }
     },
     "glowacoustic.": {
       "title": "春に落ちて",
@@ -1697,7 +1697,7 @@ window.SONG_MASTER = {
       "album": "ツキミソウ - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/39/33/1a/39331a3d-a1e5-f1e8-904e-8be6438e13a3/20UM1IM05202.rgb.jpg/600x600bb.jpg",
       "en": {
-        "title": "Tsukimisou"
+        "title": "Tsukimiso"
       }
     },
     "サディスティックラブいました": {
@@ -1754,7 +1754,7 @@ window.SONG_MASTER = {
       "album": "絶望性:ヒーロー治療薬【通常盤】 (feat. Soraru) - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/b7/02/9ab702b7-14b9-de10-c826-3793b4ed97c6/5021732646163.jpg/600x600bb.jpg",
       "en": {
-        "title": "Despair: Hero Cure (feat. Soraru)"
+        "title": "Hopelessness: Hero Cure (feat. Soraru)"
       }
     },
     "ハロハワユいました": {

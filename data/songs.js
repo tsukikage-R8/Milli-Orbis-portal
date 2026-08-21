@@ -288,7 +288,7 @@ window.SONGS = {
         "mahoro"
       ],
       "en": {
-        "title": "[MV] Kano “Primastella” [OFFICIAL]"
+        "title": "[MV] Kano “Prima Stella” [OFFICIAL]"
       }
     },
     {
@@ -2575,7 +2575,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Feeling great↑↑／Komawarikoma × Nemugumo Tsukuri × Ameya Liz (cover)"
+        "title": "Feeling great↑↑/Komawarikoma × Nemugumo Tsukuri × Ameya Riz (cover)"
       }
     },
     {
@@ -2685,7 +2685,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Femme Fatale/Komai Koma × Nemugumo Tsukuri × Ameya Liz (cover)"
+        "title": "Femme Fatale／Komawarikoma × Nemugumo Tsukuri × Ameya Liz (cover)"
       }
     },
     {
@@ -2752,7 +2752,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Announcement of spring (yama)/acoustic cover. Kano"
+        "title": "Announcement of spring (yama) / acoustic cover. Kano"
       }
     },
     {
@@ -3551,7 +3551,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Is there anything more that love can do? acoustic cover.Kano"
+        "title": "Is there still anything that love can do? acoustic cover.Kano"
       }
     },
     {
@@ -3607,7 +3607,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "To the world where you are Ichikayori world Japanese version"
+        "title": "To the world where you are, Ichikayori world Japanese version"
       }
     },
     {

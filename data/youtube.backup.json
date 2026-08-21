@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-08-21T04:25:52.819Z",
+  "updatedAt": "2026-08-21T08:23:12.109Z",
   "streams": [
+    {
+      "id": "vC2X2gKIKHs",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【高評価3000耐久】3000いいね達成するまで歌い続けます！！！🔥【歌枠 / KARAOKE / ゆらぎゆら】",
+      "thumb": "https://i.ytimg.com/vi/vC2X2gKIKHs/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-21T11:00:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "[Highly rated 3000 Endurance] I will continue singing until I reach 3000 likes! ! ! 🔥 [Song frame / KARAOKE / Yuragi Yura]"
+      }
+    },
     {
       "id": "YzfwW0zTSpE",
       "memberId": "mahoro",
@@ -10,7 +22,7 @@
       "scheduledStartTime": "2026-08-22T11:00:00Z",
       "status": "upcoming",
       "en": {
-        "title": "[#Mahoro Kano's first delivery] Everyone's daily life on Mahoroba! [Mahoro Kano/MilliPro]"
+        "title": "[#Mahoro Kano's first broadcast] Everyone's daily life on Mahoroba! [Mahoro Kano/MilliPro]"
       }
     },
     {
@@ -137,12 +149,12 @@
       "id": "_kaShsLH0O8",
       "memberId": "nono",
       "member": "音ノ乃のの",
-      "title": "【お知らせ】Million Production × カラオケBanBanグループ",
+      "title": "【📢お知らせ】Million Production × カラオケBanBanグループ",
       "thumb": "https://i.ytimg.com/vi/_kaShsLH0O8/hqdefault_live.jpg",
       "scheduledStartTime": "2026-09-24T14:45:00Z",
       "status": "upcoming",
       "en": {
-        "title": "[Notice] Million Production × Karaoke BanBan Group"
+        "title": "[📢Notice] Million Production × Karaoke BanBan Group"
       }
     },
     {
@@ -154,7 +166,7 @@
       "scheduledStartTime": "2026-09-27T14:59:00Z",
       "status": "upcoming",
       "en": {
-        "title": "[📢Performance announcement] Violently Cute in Odaiba Appearing as “PSYQUI feat.Otononono”❕"
+        "title": "[📢Performance announcement] Violently Kawaii in Odaiba Appearing as “PSYQUI feat.Otononono”❕"
       }
     },
     {
@@ -196,6 +208,32 @@
   ],
   "videos": [
     {
+      "id": "vC2X2gKIKHs",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【高評価3000耐久】3000いいね達成するまで歌い続けます！！！🔥【歌枠 / KARAOKE / ゆらぎゆら】",
+      "thumb": "https://i.ytimg.com/vi/vC2X2gKIKHs/hqdefault_live.jpg",
+      "publishedAt": "2026-08-21T07:54:08Z",
+      "live": false,
+      "en": {
+        "title": "[Highly rated 3000 Endurance] I will continue singing until I reach 3000 likes! ! ! 🔥 [Song frame / KARAOKE / Yuragi Yura]"
+      }
+    },
+    {
+      "id": "3S_ogcNEdZM",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "謎のポーション #マイクラ",
+      "thumb": "https://i.ytimg.com/vi/3S_ogcNEdZM/hqdefault.jpg",
+      "publishedAt": "2026-08-21T07:00:34Z",
+      "live": false,
+      "en": {
+        "title": "Mysterious potion #minecraft"
+      }
+    },
+    {
       "id": "LMZAFBU34iI",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -219,6 +257,19 @@
       "live": false,
       "en": {
         "title": "[Twilight Forest] Announcement after clearing!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
+      }
+    },
+    {
+      "id": "uyoE8a7QbiM",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【黄昏の森/Minecraft 】もうそろクリアも目の前👀【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/uyoE8a7QbiM/hqdefault.jpg",
+      "publishedAt": "2026-08-20T18:41:12Z",
+      "live": false,
+      "en": {
+        "title": "[Twilight Forest/Minecraft] Clearing is just around the corner 👀 [Riz Ameya/MilliPro]"
       }
     },
     {
@@ -508,19 +559,6 @@
       }
     },
     {
-      "id": "dKQnRSprjoA",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【雑談】最近の出来事振り返る【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/dKQnRSprjoA/hqdefault.jpg",
-      "publishedAt": "2026-08-18T13:48:52Z",
-      "live": true,
-      "en": {
-        "title": "[Chat] Looking back on recent events [Yuragiyura/MilliPro]"
-      }
-    },
-    {
       "id": "FLWoWshQEWM",
       "memberId": "konomi",
       "member": "甘狼このみ",
@@ -547,19 +585,6 @@
       }
     },
     {
-      "id": "jrR6CbvlEno",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【ドッキリ検証】雑談配信中にめっちゃカメレオンしてても視聴者は気づかない説ｗｗｗ",
-      "thumb": "https://i.ytimg.com/vi/jrR6CbvlEno/hqdefault.jpg",
-      "publishedAt": "2026-08-18T09:30:06Z",
-      "live": true,
-      "en": {
-        "title": "[Prank verification] Even if you act like a chameleon while chatting, viewers won't notice lol"
-      }
-    },
-    {
       "id": "D7gKtPUtPuw",
       "memberId": "official",
       "member": "ミリプロ公式",
@@ -570,19 +595,6 @@
       "live": false,
       "en": {
         "title": "[Anime] Please approve, Genie-san! #milipro #anime"
-      }
-    },
-    {
-      "id": "wfXt3CcBrzQ",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 黄昏の森 】クリアで告知!?こまつくりーず黄昏の森#1【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/wfXt3CcBrzQ/hqdefault.jpg",
-      "publishedAt": "2026-08-17T17:54:16Z",
-      "live": false,
-      "en": {
-        "title": "[Twilight Forest] Announcement on clear!? Komakuri Komai Twilight Forest #1 [Komakoma/MilliPro]"
       }
     }
   ],
