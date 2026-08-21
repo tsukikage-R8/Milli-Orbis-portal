@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T20:14:40.976Z",
+  "updatedAt": "2026-08-21T00:32:27.084Z",
   "streams": [
     {
       "id": "YzfwW0zTSpE",
@@ -26,18 +26,6 @@
       }
     },
     {
-      "id": "8zRJYa59A60",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "☁ファンミーティング 一般販売決定🔧",
-      "thumb": "https://i.ytimg.com/vi/8zRJYa59A60/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-23T14:59:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "☁ Fan meeting general sale decided 🔧"
-      }
-    },
-    {
       "id": "FQUAaVHIEEo",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -47,6 +35,18 @@
       "status": "upcoming",
       "en": {
         "title": "☁Street Collection 2026 now accepting orders! 🔧"
+      }
+    },
+    {
+      "id": "8zRJYa59A60",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "☁ファンミーティング 一般販売決定🔧",
+      "thumb": "https://i.ytimg.com/vi/8zRJYa59A60/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-23T14:59:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "☁ Fan meeting general sale decided 🔧"
       }
     },
     {
@@ -270,7 +270,7 @@
       "publishedAt": "2026-08-20T16:03:05Z",
       "live": false,
       "en": {
-        "title": "[📢Performance announcement] Violently Cute in Odaiba Appearing as “PSYQUI feat.Otononono”❕"
+        "title": "[📢Performance announcement] Violently Kawaii in Odaiba Appearing as “PSYQUI feat.Otononono”❕"
       }
     },
     {
@@ -400,7 +400,7 @@
       "publishedAt": "2026-08-19T13:19:22Z",
       "live": false,
       "en": {
-        "title": "[Song frame] It’s been a long time since I’ve done a vertical song ~ [Riz Ameya/MilliPro]"
+        "title": "[Song frame] It's been a long time since I've done a vertical song ~ [Riz Ameya/MilliPro]"
       }
     },
     {
@@ -491,7 +491,7 @@
       "publishedAt": "2026-08-18T16:30:45Z",
       "live": false,
       "en": {
-        "title": "[Song frame] It’s been a long time since I’ve done a vertical song ~ [Riz Ameya/MilliPro]"
+        "title": "[Song frame] It's been a long time since I've done a vertical song ~ [Riz Ameya/MilliPro]"
       }
     },
     {
@@ -582,7 +582,7 @@
       "publishedAt": "2026-08-17T17:54:16Z",
       "live": false,
       "en": {
-        "title": "[Twilight Forest] Clear announcement!?Komakuri Komai Twilight Forest #1 [Komakoma/MilliPro]"
+        "title": "[Twilight Forest] Announcement on clear!? Komakuri Komai Twilight Forest #1 [Komakoma/MilliPro]"
       }
     }
   ],
