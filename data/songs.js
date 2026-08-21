@@ -470,6 +470,44 @@ window.SONGS = {
   ],
   "covers": [
     {
+      "title": "イケナイ太陽",
+      "key": "イケナイ太陽",
+      "urls": [
+        {
+          "id": "621K-5_WPVA",
+          "memberId": "official",
+          "publishedAt": "2026-08-21"
+        }
+      ],
+      "en": {
+        "title": "naughty sun"
+      }
+    },
+    {
+      "title": "夏色えがおで1,2,Jump!",
+      "key": "夏色えがおで1,2,jump!",
+      "urls": [
+        {
+          "id": "g4qGSYgxHLU",
+          "memberId": "nuhu",
+          "publishedAt": "2026-08-19"
+        },
+        {
+          "id": "g4qGSYgxHLU",
+          "memberId": "official",
+          "publishedAt": "2026-08-21"
+        },
+        {
+          "id": "g4qGSYgxHLU",
+          "memberId": "raco",
+          "publishedAt": "2026-08-16"
+        }
+      ],
+      "en": {
+        "title": "Summer color picture 1,2,Jump!"
+      }
+    },
+    {
       "title": "カゲロウデイズ",
       "key": "カゲロウデイズfeat.",
       "urls": [
@@ -2576,25 +2614,6 @@ window.SONGS = {
       ],
       "en": {
         "title": "Feeling great↑↑/Komawarikoma × Nemugumo Tsukuri × Ameya Riz (cover)"
-      }
-    },
-    {
-      "title": "夏色えがおで1,2,Jump!",
-      "key": "夏色えがおで1,2,jump!",
-      "urls": [
-        {
-          "id": "g4qGSYgxHLU",
-          "memberId": "nuhu",
-          "publishedAt": "2026-08-19"
-        },
-        {
-          "id": "g4qGSYgxHLU",
-          "memberId": "raco",
-          "publishedAt": "2026-08-16"
-        }
-      ],
-      "en": {
-        "title": "Summer color picture 1,2,Jump!"
       }
     },
     {

@@ -1,16 +1,52 @@
 {
-  "updatedAt": "2026-08-21T08:23:12.109Z",
+  "updatedAt": "2026-08-21T12:20:00.528Z",
   "streams": [
+    {
+      "id": "m9XsXa_2wsY",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "【85万人耐久歌枠】達成したら、とってもうれしい告知があります！！！！",
+      "thumb": "https://i.ytimg.com/vi/m9XsXa_2wsY/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-21T09:03:16Z",
+      "status": "live",
+      "en": {
+        "title": "Once we reach the [850,000-person endurance singing limit], we will have a very exciting announcement! ! ! !"
+      }
+    },
     {
       "id": "vC2X2gKIKHs",
       "memberId": "yura",
       "member": "ゆらぎゆら",
       "title": "【高評価3000耐久】3000いいね達成するまで歌い続けます！！！🔥【歌枠 / KARAOKE / ゆらぎゆら】",
       "thumb": "https://i.ytimg.com/vi/vC2X2gKIKHs/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-21T11:00:00Z",
-      "status": "upcoming",
+      "scheduledStartTime": "2026-08-21T11:16:29Z",
+      "status": "live",
       "en": {
         "title": "[Highly rated 3000 Endurance] I will continue singing until I reach 3000 likes! ! ! 🔥 [Song frame / KARAOKE / Yuragi Yura]"
+      }
+    },
+    {
+      "id": "XGjct-9Lvyc",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 ぷよテト2 】ぬふには気を付けろ ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/XGjct-9Lvyc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-21T11:32:36Z",
+      "status": "live",
+      "en": {
+        "title": "[Puyo Teto 2] Be careful of Nufu ⟡.· [Rei Yugiri / MilliPro]"
+      }
+    },
+    {
+      "id": "hTvRdINVhXI",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【同時視聴】ふんふんふん(機嫌良い音)┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/hTvRdINVhXI/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-21T13:00:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "[Simultaneous viewing] Funfunfun (good mood sound) ┊︎ #Otononono #Nononya"
       }
     },
     {
@@ -22,7 +58,7 @@
       "scheduledStartTime": "2026-08-22T11:00:00Z",
       "status": "upcoming",
       "en": {
-        "title": "[#Mahoro Kano's first broadcast] Everyone's daily life on Mahoroba! [Mahoro Kano/MilliPro]"
+        "title": "[#Mahoro Kano's first delivery] Everyone's daily life on Mahoroba! [Mahoro Kano/MilliPro]"
       }
     },
     {
@@ -208,16 +244,133 @@
   ],
   "videos": [
     {
+      "id": "XGjct-9Lvyc",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 ぷよテト2 】ぬふには気を付けろ ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/XGjct-9Lvyc/hqdefault_live.jpg",
+      "publishedAt": "2026-08-21T11:32:36Z",
+      "live": false,
+      "en": {
+        "title": "[Puyo Teto 2] Be careful of Nufu ⟡.· [Rei Yugiri / MilliPro]"
+      }
+    },
+    {
       "id": "vC2X2gKIKHs",
       "memberId": "yura",
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
       "title": "【高評価3000耐久】3000いいね達成するまで歌い続けます！！！🔥【歌枠 / KARAOKE / ゆらぎゆら】",
       "thumb": "https://i.ytimg.com/vi/vC2X2gKIKHs/hqdefault_live.jpg",
-      "publishedAt": "2026-08-21T07:54:08Z",
+      "publishedAt": "2026-08-21T11:16:29Z",
       "live": false,
       "en": {
         "title": "[Highly rated 3000 Endurance] I will continue singing until I reach 3000 likes! ! ! 🔥 [Song frame / KARAOKE / Yuragi Yura]"
+      }
+    },
+    {
+      "id": "621K-5_WPVA",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "イケナイ太陽 / ミリプロ (Cover)",
+      "thumb": "https://i.ytimg.com/vi/621K-5_WPVA/hqdefault.jpg",
+      "publishedAt": "2026-08-21T11:00:07Z",
+      "live": false,
+      "en": {
+        "title": "Ikenai Taiyo / Millipro (Cover)"
+      }
+    },
+    {
+      "id": "hTvRdINVhXI",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【同時視聴】ふんふんふん(機嫌良い音)┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/hTvRdINVhXI/hqdefault_live.jpg",
+      "publishedAt": "2026-08-21T10:52:43Z",
+      "live": false,
+      "en": {
+        "title": "[Simultaneous viewing] Funfunfun (good mood sound) ┊︎ #Otononono #Nononya"
+      }
+    },
+    {
+      "id": "E_DAFCbFGzs",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "音ノ乃のの Special Live Performance【YouTube Music Weekend 12.0】",
+      "thumb": "https://i.ytimg.com/vi/E_DAFCbFGzs/hqdefault.jpg",
+      "publishedAt": "2026-08-21T09:30:06Z",
+      "live": false,
+      "en": {
+        "title": "Otononono Special Live Performance [YouTube Music Weekend 12.0]"
+      }
+    },
+    {
+      "id": "m9XsXa_2wsY",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【85万人耐久歌枠】達成したら、とってもうれしい告知があります！！！！",
+      "thumb": "https://i.ytimg.com/vi/m9XsXa_2wsY/hqdefault_live.jpg",
+      "publishedAt": "2026-08-21T09:03:16Z",
+      "live": false,
+      "en": {
+        "title": "Once we reach the [850,000-person endurance singing limit], we will have a very exciting announcement! ! ! !"
+      }
+    },
+    {
+      "id": "MicPstrpcLQ",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "幸せになってね😉【眠雲ツクリ/ミリプロ】#分かっちゃいないね #歌ってみた #vtuber",
+      "thumb": "https://i.ytimg.com/vi/MicPstrpcLQ/hqdefault.jpg",
+      "publishedAt": "2026-08-21T09:02:25Z",
+      "live": false,
+      "en": {
+        "title": "Be happy😉 [Nemugumo Tsukuri/MilliPro] #You don't understand #I tried singing #vtuber"
+      }
+    },
+    {
+      "id": "Nw2BlfLD4vQ",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】マグマ2択チャレンジ！迫るマグマにパニック!?【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/Nw2BlfLD4vQ/hqdefault.jpg",
+      "publishedAt": "2026-08-21T09:00:28Z",
+      "live": false,
+      "en": {
+        "title": "[Minecraft] Magma 2 choice challenge! Panic over approaching magma!? [#MilliPro]"
+      }
+    },
+    {
+      "id": "NqLiTA2so-I",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "オリジナル楽曲『ルミナス』3DのGB素材✨️#ルミナス_音ノ瀬らこ",
+      "thumb": "https://i.ytimg.com/vi/NqLiTA2so-I/hqdefault.jpg",
+      "publishedAt": "2026-08-21T09:00:15Z",
+      "live": false,
+      "en": {
+        "title": "Original song “Luminous” 3D GB material✨️#Luminous_Rako Otonose"
+      }
+    },
+    {
+      "id": "NpXRWuHalnc",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【病み曲】『メンヘラ楽曲メドレー』歌ってみた【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/NpXRWuHalnc/hqdefault.jpg",
+      "publishedAt": "2026-08-21T09:00:12Z",
+      "live": false,
+      "en": {
+        "title": "[Sick song] I tried singing “Menhera song medley” [Ameya Riz/MilliPro]"
       }
     },
     {
@@ -256,7 +409,7 @@
       "publishedAt": "2026-08-20T18:42:31Z",
       "live": false,
       "en": {
-        "title": "[Twilight Forest] Announcement after clearing!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
+        "title": "[Twilight Forest] Announcement when cleared!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
       }
     },
     {
@@ -348,19 +501,6 @@
       "live": false,
       "en": {
         "title": "[XPPen Artist 16 3rd] My first liquid tab! It’s been a while since I drew ♪ [Yuragi Yura / MilliPro]"
-      }
-    },
-    {
-      "id": "zVecJkknXHE",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "カウィバウィボ/音ノ乃のの ┊︎#音ノ乃のの #Shortsオリ曲 #shorts #オリジナル",
-      "thumb": "https://i.ytimg.com/vi/zVecJkknXHE/hqdefault.jpg",
-      "publishedAt": "2026-08-20T12:10:14Z",
-      "live": false,
-      "en": {
-        "title": "Kawibawibo/Otononono ┊︎#Otononono #Shorts original song #shorts #original"
       }
     },
     {
@@ -492,111 +632,44 @@
       "en": {
         "title": "[Minecraft] Magma 2 choice challenge! Can you reach the goal safely!? [#MilliPro]"
       }
-    },
-    {
-      "id": "OUYg9K34gZY",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "以心伝心 #マイクラ",
-      "thumb": "https://i.ytimg.com/vi/OUYg9K34gZY/hqdefault.jpg",
-      "publishedAt": "2026-08-19T07:00:01Z",
-      "live": false,
-      "en": {
-        "title": "Ishindenshin #Minecraft"
-      }
-    },
-    {
-      "id": "cl3J_a5ltu8",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 黄昏の森 】クリアで告知!?ボスをひたすら倒したい#2【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/cl3J_a5ltu8/hqdefault.jpg",
-      "publishedAt": "2026-08-18T19:50:00Z",
-      "live": false,
-      "en": {
-        "title": "[Twilight Forest] Announcement after clearing!? I want to defeat the boss #2 [Komakoma/MilliPro]"
-      }
-    },
-    {
-      "id": "4VV_Gr9HQRc",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 Minecraft 〗クリアで告知!?ボス倒しまくりの黄昏の森#2〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/4VV_Gr9HQRc/hqdefault.jpg",
-      "publishedAt": "2026-08-18T19:39:07Z",
-      "live": false,
-      "en": {
-        "title": "[Minecraft] Announcement after clearing!? Twilight Forest with lots of boss defeats #2 [Nemugumo Tsukuri / Millipro]"
-      }
-    },
-    {
-      "id": "VOXMc7Cg2w8",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【歌枠】久々の縦型ですよ〜【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/VOXMc7Cg2w8/hqdefault.jpg",
-      "publishedAt": "2026-08-18T16:30:45Z",
-      "live": false,
-      "en": {
-        "title": "[Song frame] It’s been a long time since I’ve done a vertical song ~ [Riz Ameya/MilliPro]"
-      }
-    },
-    {
-      "id": "yoPXNBdttoc",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【歌枠】お願いします配信させてください神様泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣",
-      "thumb": "https://i.ytimg.com/vi/yoPXNBdttoc/hqdefault.jpg",
-      "publishedAt": "2026-08-18T14:21:18Z",
-      "live": true,
-      "en": {
-        "title": "[Song Frame] Please, let me deliver it, God, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry, cry,"
-      }
-    },
-    {
-      "id": "FLWoWshQEWM",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【歌枠】なんと、激レア通常歌枠です【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/FLWoWshQEWM/hqdefault.jpg",
-      "publishedAt": "2026-08-18T11:09:22Z",
-      "live": false,
-      "en": {
-        "title": "[Song frame] This is a super rare regular song frame [#AmakamiLive]"
-      }
-    },
-    {
-      "id": "_1w9vUatWT4",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【実写企画】\"あの\"守り神を作る…！？",
-      "thumb": "https://i.ytimg.com/vi/_1w9vUatWT4/hqdefault.jpg",
-      "publishedAt": "2026-08-18T10:00:07Z",
-      "live": false,
-      "en": {
-        "title": "[Live-action project] Creating \"that\" guardian deity...! ?"
-      }
-    },
-    {
-      "id": "D7gKtPUtPuw",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【アニメ】承認してください、ジーニーさん！#ミリプロ #anime",
-      "thumb": "https://i.ytimg.com/vi/D7gKtPUtPuw/hqdefault.jpg",
-      "publishedAt": "2026-08-18T09:00:33Z",
-      "live": false,
-      "en": {
-        "title": "[Anime] Please approve, Genie-san! #milipro #anime"
-      }
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "m9XsXa_2wsY",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "【85万人耐久歌枠】達成したら、とってもうれしい告知があります！！！！",
+      "thumb": "https://i.ytimg.com/vi/m9XsXa_2wsY/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-21T09:03:16Z",
+      "status": "live",
+      "en": {
+        "title": "Once we reach the [850,000-person endurance singing limit], we will have a very exciting announcement! ! ! !"
+      }
+    },
+    {
+      "id": "vC2X2gKIKHs",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【高評価3000耐久】3000いいね達成するまで歌い続けます！！！🔥【歌枠 / KARAOKE / ゆらぎゆら】",
+      "thumb": "https://i.ytimg.com/vi/vC2X2gKIKHs/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-21T11:16:29Z",
+      "status": "live",
+      "en": {
+        "title": "[Highly rated 3000 Endurance] I will continue singing until I reach 3000 likes! ! ! 🔥 [Song frame / KARAOKE / Yuragi Yura]"
+      }
+    },
+    {
+      "id": "XGjct-9Lvyc",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 ぷよテト2 】ぬふには気を付けろ ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/XGjct-9Lvyc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-21T11:32:36Z",
+      "status": "live",
+      "en": {
+        "title": "[Puyo Teto 2] Be careful of Nufu ⟡.· [Rei Yugiri / MilliPro]"
+      }
+    }
+  ]
 }

@@ -1,14 +1,25 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "m9XsXa_2wsY",
+    "memberId": "konomi",
+    "publishedAt": "2026-08-21",
+    "title": "【85万人耐久歌枠】達成したら、とってもうれしい告知があります！！！！",
+    "duration": 23347,
+    "songs": [],
+    "en": {
+      "title": "Once we reach the [850,000-person endurance singing limit], we will have a very exciting announcement! ! ! !"
+    }
+  },
+  {
     "id": "vC2X2gKIKHs",
     "memberId": "yura",
     "publishedAt": "2026-08-21",
-    "title": "【高評価3000耐久】3000いいね達成するまで歌い続けます！！！🔥【歌枠 / KARAOKE / ゆらぎゆら】",
-    "duration": 0,
+    "title": "【高評価5000耐久】5000いいね達成するまで歌い続けます！！！🔥【歌枠 / KARAOKE / ゆらぎゆら】",
+    "duration": 12835,
     "songs": [],
     "en": {
-      "title": "[Highly rated 3000 Endurance] I will continue singing until I reach 3000 likes! ! ! 🔥 [Song frame / KARAOKE / Yuragi Yura]"
+      "title": "[Highly rated 5000 Endurance] I will continue singing until I reach 5000 likes! ! ! 🔥 [Song frame / KARAOKE / Yuragi Yura]"
     }
   },
   {
