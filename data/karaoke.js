@@ -1,6 +1,17 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "vC2X2gKIKHs",
+    "memberId": "yura",
+    "publishedAt": "2026-08-21",
+    "title": "【高評価3000耐久】3000いいね達成するまで歌い続けます！！！🔥【歌枠 / KARAOKE / ゆらぎゆら】",
+    "duration": 0,
+    "songs": [],
+    "en": {
+      "title": "[Highly rated 3000 Endurance] I will continue singing until I reach 3000 likes! ! ! 🔥 [Song frame / KARAOKE / Yuragi Yura]"
+    }
+  },
+  {
     "id": "yoPXNBdttoc",
     "memberId": "konomi",
     "publishedAt": "2026-08-19",
