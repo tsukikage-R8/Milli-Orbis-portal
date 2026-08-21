@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-08-21T16:17:14.885Z",
+  "updatedAt": "2026-08-21T20:11:27.037Z",
   "streams": [
-    {
-      "id": "8zJ9e6Q9YlI",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【飲酒雑談】途中からメン限になるらしい【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8zJ9e6Q9YlI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-21T15:44:43Z",
-      "status": "live",
-      "en": {
-        "title": "[Drinking chat] Apparently it will be limited to men in the middle [Rako Otonose/MilliPro]"
-      }
-    },
     {
       "id": "YzfwW0zTSpE",
       "memberId": "mahoro",
@@ -22,7 +10,7 @@
       "scheduledStartTime": "2026-08-22T11:00:00Z",
       "status": "upcoming",
       "en": {
-        "title": "[#Mahoro Kano's first delivery] Everyone's daily life on Mahoroba! [Mahoro Kano/MilliPro]"
+        "title": "[#Mahoro Kano's first broadcast] Everyone's daily life on Mahoroba! [Mahoro Kano/MilliPro]"
       }
     },
     {
@@ -208,6 +196,19 @@
   ],
   "videos": [
     {
+      "id": "8zJ9e6Q9YlI",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【飲酒雑談】途中からメン限になるらしい【音ノ瀬らこ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/8zJ9e6Q9YlI/hqdefault.jpg",
+      "publishedAt": "2026-08-21T17:18:31Z",
+      "live": true,
+      "en": {
+        "title": "[Drinking chat] Apparently it will be limited to men in the middle [Rako Otonose/MilliPro]"
+      }
+    },
+    {
       "id": "m9XsXa_2wsY",
       "memberId": "konomi",
       "member": "甘狼このみ",
@@ -218,19 +219,6 @@
       "live": false,
       "en": {
         "title": "Once we reach the [850,000-person endurance singing limit], we will have a very exciting announcement! ! ! !"
-      }
-    },
-    {
-      "id": "8zJ9e6Q9YlI",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【飲酒雑談】途中からメン限になるらしい【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8zJ9e6Q9YlI/hqdefault_live.jpg",
-      "publishedAt": "2026-08-21T15:44:43Z",
-      "live": true,
-      "en": {
-        "title": "[Drinking chat] Apparently it will be limited to men in the middle [Rako Otonose/MilliPro]"
       }
     },
     {
@@ -386,7 +374,7 @@
       "publishedAt": "2026-08-20T18:42:31Z",
       "live": false,
       "en": {
-        "title": "[Twilight Forest] Announcement when cleared!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
+        "title": "[Twilight Forest] Announcement after clearing!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
       }
     },
     {
@@ -598,18 +586,5 @@
       }
     }
   ],
-  "live": [
-    {
-      "id": "8zJ9e6Q9YlI",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【飲酒雑談】途中からメン限になるらしい【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8zJ9e6Q9YlI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-21T15:44:43Z",
-      "status": "live",
-      "en": {
-        "title": "[Drinking chat] Apparently it will be limited to men in the middle [Rako Otonose/MilliPro]"
-      }
-    }
-  ]
+  "live": []
 }

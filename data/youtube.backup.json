@@ -1,52 +1,16 @@
 {
-  "updatedAt": "2026-08-21T12:20:00.528Z",
+  "updatedAt": "2026-08-21T16:17:14.885Z",
   "streams": [
     {
-      "id": "m9XsXa_2wsY",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【85万人耐久歌枠】達成したら、とってもうれしい告知があります！！！！",
-      "thumb": "https://i.ytimg.com/vi/m9XsXa_2wsY/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-21T09:03:16Z",
+      "id": "8zJ9e6Q9YlI",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "title": "【飲酒雑談】途中からメン限になるらしい【音ノ瀬らこ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/8zJ9e6Q9YlI/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-21T15:44:43Z",
       "status": "live",
       "en": {
-        "title": "Once we reach the [850,000-person endurance singing limit], we will have a very exciting announcement! ! ! !"
-      }
-    },
-    {
-      "id": "vC2X2gKIKHs",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【高評価3000耐久】3000いいね達成するまで歌い続けます！！！🔥【歌枠 / KARAOKE / ゆらぎゆら】",
-      "thumb": "https://i.ytimg.com/vi/vC2X2gKIKHs/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-21T11:16:29Z",
-      "status": "live",
-      "en": {
-        "title": "[Highly rated 3000 Endurance] I will continue singing until I reach 3000 likes! ! ! 🔥 [Song frame / KARAOKE / Yuragi Yura]"
-      }
-    },
-    {
-      "id": "XGjct-9Lvyc",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 ぷよテト2 】ぬふには気を付けろ ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/XGjct-9Lvyc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-21T11:32:36Z",
-      "status": "live",
-      "en": {
-        "title": "[Puyo Teto 2] Be careful of Nufu ⟡.· [Rei Yugiri / MilliPro]"
-      }
-    },
-    {
-      "id": "hTvRdINVhXI",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【同時視聴】ふんふんふん(機嫌良い音)┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/hTvRdINVhXI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-21T13:00:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[Simultaneous viewing] Funfunfun (good mood sound) ┊︎ #Otononono #Nononya"
+        "title": "[Drinking chat] Apparently it will be limited to men in the middle [Rako Otonose/MilliPro]"
       }
     },
     {
@@ -101,12 +65,12 @@
       "id": "IcmQ_uC8h5I",
       "memberId": "konomi",
       "member": "甘狼このみ",
-      "title": "はいしんよていち！",
+      "title": "【#甘狼このみ新衣装】ついに、天使になってしまったのかもしれません【#あまかみらいぶ / #ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/IcmQ_uC8h5I/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-28T10:00:00Z",
       "status": "upcoming",
       "en": {
-        "title": "Haishin Yoteichi!"
+        "title": "[#AmaokaKonomi new costume] Maybe she has finally become an angel [#AmakamiLive / #MilliPro]"
       }
     },
     {
@@ -244,16 +208,29 @@
   ],
   "videos": [
     {
-      "id": "XGjct-9Lvyc",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 ぷよテト2 】ぬふには気を付けろ ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/XGjct-9Lvyc/hqdefault_live.jpg",
-      "publishedAt": "2026-08-21T11:32:36Z",
+      "id": "m9XsXa_2wsY",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【85万人耐久歌枠】達成したら、とってもうれしい告知があります！！！！",
+      "thumb": "https://i.ytimg.com/vi/m9XsXa_2wsY/hqdefault.jpg",
+      "publishedAt": "2026-08-21T15:52:51Z",
       "live": false,
       "en": {
-        "title": "[Puyo Teto 2] Be careful of Nufu ⟡.· [Rei Yugiri / MilliPro]"
+        "title": "Once we reach the [850,000-person endurance singing limit], we will have a very exciting announcement! ! ! !"
+      }
+    },
+    {
+      "id": "8zJ9e6Q9YlI",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【飲酒雑談】途中からメン限になるらしい【音ノ瀬らこ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/8zJ9e6Q9YlI/hqdefault_live.jpg",
+      "publishedAt": "2026-08-21T15:44:43Z",
+      "live": true,
+      "en": {
+        "title": "[Drinking chat] Apparently it will be limited to men in the middle [Rako Otonose/MilliPro]"
       }
     },
     {
@@ -261,12 +238,38 @@
       "memberId": "yura",
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【高評価3000耐久】3000いいね達成するまで歌い続けます！！！🔥【歌枠 / KARAOKE / ゆらぎゆら】",
-      "thumb": "https://i.ytimg.com/vi/vC2X2gKIKHs/hqdefault_live.jpg",
-      "publishedAt": "2026-08-21T11:16:29Z",
+      "title": "【高評価5000耐久】5000いいね達成するまで歌い続けます！！！🔥【歌枠 / KARAOKE / ゆらぎゆら】",
+      "thumb": "https://i.ytimg.com/vi/vC2X2gKIKHs/hqdefault.jpg",
+      "publishedAt": "2026-08-21T15:02:26Z",
       "live": false,
       "en": {
-        "title": "[Highly rated 3000 Endurance] I will continue singing until I reach 3000 likes! ! ! 🔥 [Song frame / KARAOKE / Yuragi Yura]"
+        "title": "[Highly rated 5000 Endurance] I will continue singing until I reach 5000 likes! ! ! 🔥 [Song frame / KARAOKE / Yuragi Yura]"
+      }
+    },
+    {
+      "id": "hTvRdINVhXI",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【同時視聴】ふんふんふん(機嫌良い音)┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/hTvRdINVhXI/hqdefault.jpg",
+      "publishedAt": "2026-08-21T14:39:01Z",
+      "live": false,
+      "en": {
+        "title": "[Simultaneous viewing] Funfunfun (good mood sound) ┊︎ #Otononono #Nononya"
+      }
+    },
+    {
+      "id": "XGjct-9Lvyc",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 ぷよテト2 】ぬふには気を付けろ ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/XGjct-9Lvyc/hqdefault.jpg",
+      "publishedAt": "2026-08-21T14:08:14Z",
+      "live": false,
+      "en": {
+        "title": "[Puyo Teto 2] Be careful of Nufu ⟡.· [Rei Yugiri / MilliPro]"
       }
     },
     {
@@ -283,19 +286,6 @@
       }
     },
     {
-      "id": "hTvRdINVhXI",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【同時視聴】ふんふんふん(機嫌良い音)┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/hTvRdINVhXI/hqdefault_live.jpg",
-      "publishedAt": "2026-08-21T10:52:43Z",
-      "live": false,
-      "en": {
-        "title": "[Simultaneous viewing] Funfunfun (good mood sound) ┊︎ #Otononono #Nononya"
-      }
-    },
-    {
       "id": "E_DAFCbFGzs",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -306,19 +296,6 @@
       "live": false,
       "en": {
         "title": "Otononono Special Live Performance [YouTube Music Weekend 12.0]"
-      }
-    },
-    {
-      "id": "m9XsXa_2wsY",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【85万人耐久歌枠】達成したら、とってもうれしい告知があります！！！！",
-      "thumb": "https://i.ytimg.com/vi/m9XsXa_2wsY/hqdefault_live.jpg",
-      "publishedAt": "2026-08-21T09:03:16Z",
-      "live": false,
-      "en": {
-        "title": "Once we reach the [850,000-person endurance singing limit], we will have a very exciting announcement! ! ! !"
       }
     },
     {
@@ -619,56 +596,19 @@
       "en": {
         "title": "[Chat] Recent reviews, etc. ⟡.· [Rei Yugiri / MilliPro]"
       }
-    },
-    {
-      "id": "ayo6V7ppQus",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】マグマ2択チャレンジ！無事にゴールに辿り着けるか!?【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ayo6V7ppQus/hqdefault.jpg",
-      "publishedAt": "2026-08-19T09:00:28Z",
-      "live": false,
-      "en": {
-        "title": "[Minecraft] Magma 2 choice challenge! Can you reach the goal safely!? [#MilliPro]"
-      }
     }
   ],
   "live": [
     {
-      "id": "m9XsXa_2wsY",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【85万人耐久歌枠】達成したら、とってもうれしい告知があります！！！！",
-      "thumb": "https://i.ytimg.com/vi/m9XsXa_2wsY/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-21T09:03:16Z",
+      "id": "8zJ9e6Q9YlI",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "title": "【飲酒雑談】途中からメン限になるらしい【音ノ瀬らこ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/8zJ9e6Q9YlI/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-21T15:44:43Z",
       "status": "live",
       "en": {
-        "title": "Once we reach the [850,000-person endurance singing limit], we will have a very exciting announcement! ! ! !"
-      }
-    },
-    {
-      "id": "vC2X2gKIKHs",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【高評価3000耐久】3000いいね達成するまで歌い続けます！！！🔥【歌枠 / KARAOKE / ゆらぎゆら】",
-      "thumb": "https://i.ytimg.com/vi/vC2X2gKIKHs/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-21T11:16:29Z",
-      "status": "live",
-      "en": {
-        "title": "[Highly rated 3000 Endurance] I will continue singing until I reach 3000 likes! ! ! 🔥 [Song frame / KARAOKE / Yuragi Yura]"
-      }
-    },
-    {
-      "id": "XGjct-9Lvyc",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 ぷよテト2 】ぬふには気を付けろ ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/XGjct-9Lvyc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-21T11:32:36Z",
-      "status": "live",
-      "en": {
-        "title": "[Puyo Teto 2] Be careful of Nufu ⟡.· [Rei Yugiri / MilliPro]"
+        "title": "[Drinking chat] Apparently it will be limited to men in the middle [Rako Otonose/MilliPro]"
       }
     }
   ]
