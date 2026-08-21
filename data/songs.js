@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-songs.js（変更しないでください） */
 window.SONGS = {
-  "generatedAt": "2026-08-20",
+  "generatedAt": "2026-08-21",
   "official": [
     {
       "id": "1UdnoJ6qgPs",
@@ -211,7 +211,7 @@ window.SONGS = {
         "mahoro"
       ],
       "en": {
-        "title": "【スノウブレイク：禁域降臨イメージソング】狙え！ Descending to the sea [Kano]"
+        "title": "[Snow Break: Forbidden Region Image Song] Aim! Descending to the sea [Kano]"
       }
     },
     {
@@ -288,7 +288,7 @@ window.SONGS = {
         "mahoro"
       ],
       "en": {
-        "title": "[MV] Kano “Prima Stella” [OFFICIAL]"
+        "title": "[MV] Kano “Primastella” [OFFICIAL]"
       }
     },
     {
@@ -2685,7 +2685,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Femme Fatale／Komawarikoma × Nemugumo Tsukuri × Ameya Liz (cover)"
+        "title": "Femme Fatale/Komai Koma × Nemugumo Tsukuri × Ameya Liz (cover)"
       }
     },
     {
@@ -2752,7 +2752,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Announcement of spring (yama) / acoustic cover. Kano"
+        "title": "Announcement of spring (yama)/acoustic cover. Kano"
       }
     },
     {
@@ -3607,7 +3607,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "To the world where you are, Ichikayori world Japanese version"
+        "title": "To the world where you are Ichikayori world Japanese version"
       }
     },
     {

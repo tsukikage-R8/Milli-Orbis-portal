@@ -1,66 +1,6 @@
 {
-  "updatedAt": "2026-08-20T16:19:15.904Z",
+  "updatedAt": "2026-08-20T20:14:40.976Z",
   "streams": [
-    {
-      "id": "aRY8oq9fQTY",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 黄昏の森 】クリアで告知!?最終決戦は目の前だ#3【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/aRY8oq9fQTY/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-20T08:59:07Z",
-      "status": "live",
-      "en": {
-        "title": "[Twilight Forest] Announcement when cleared!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
-      }
-    },
-    {
-      "id": "uyoE8a7QbiM",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【黄昏の森/Minecraft 】もうそろクリアも目の前👀【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/uyoE8a7QbiM/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-20T09:12:11Z",
-      "status": "live",
-      "en": {
-        "title": "[Twilight Forest/Minecraft] Clearing is just around the corner 👀 [Riz Ameya/MilliPro]"
-      }
-    },
-    {
-      "id": "LMZAFBU34iI",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 Minecraft 〗クリアで告知!?最終回迎えられる、のか？#3〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/LMZAFBU34iI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-20T09:31:48Z",
-      "status": "live",
-      "en": {
-        "title": "[Minecraft] Announcement after clearing!? Will it be the final round? #3〖 Sleeping Cloud Tsukuri / Millipro〗"
-      }
-    },
-    {
-      "id": "taxwVPExYXk",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【雑談】絵のリハビリしながら※アーカイブメン限【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/taxwVPExYXk/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-20T14:15:27Z",
-      "status": "live",
-      "en": {
-        "title": "[Chat] While rehabilitating my painting *Archivemen only [Yuragiyura/MilliPro]"
-      }
-    },
-    {
-      "id": "HUYZ99IaHfk",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【作業雑談】ちるすんのよ┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/HUYZ99IaHfk/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-20T14:53:15Z",
-      "status": "live",
-      "en": {
-        "title": "[Work chat] Chirusunno ┊︎ #Otononono #Nononya"
-      }
-    },
     {
       "id": "YzfwW0zTSpE",
       "memberId": "mahoro",
@@ -206,6 +146,18 @@
       }
     },
     {
+      "id": "6Q0MOxYQjYk",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【📢出演告知】暴力的にカワイイ in お台場 “PSYQUI feat.音ノ乃のの” として出演❕",
+      "thumb": "https://i.ytimg.com/vi/6Q0MOxYQjYk/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-27T14:59:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "[📢Performance announcement] Violently Cute in Odaiba Appearing as “PSYQUI feat.Otononono”❕"
+      }
+    },
+    {
       "id": "M_IG20Hhx2M",
       "memberId": "konomi",
       "member": "甘狼このみ",
@@ -215,6 +167,18 @@
       "status": "upcoming",
       "en": {
         "title": "[📢Notice] “Let’s learn through love with Konomi Amaro!” Now accepting reservations for “Junior High School English Vocabulary & Idioms 1800”!"
+      }
+    },
+    {
+      "id": "mABBk-9aZbw",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【📢出演告知】音ノ乃のの渡韓します！",
+      "thumb": "https://i.ytimg.com/vi/mABBk-9aZbw/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-10T14:59:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "[📢Performance announcement] Otonono will be coming to Korea!"
       }
     },
     {
@@ -232,6 +196,71 @@
   ],
   "videos": [
     {
+      "id": "LMZAFBU34iI",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 Minecraft 〗クリアで告知!?最終回迎えられる、のか？#3〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/LMZAFBU34iI/hqdefault.jpg",
+      "publishedAt": "2026-08-20T18:43:38Z",
+      "live": false,
+      "en": {
+        "title": "[Minecraft] Announcement after clearing!? Will it be the final round? #3〖 Sleeping Cloud Tsukuri / Millipro〗"
+      }
+    },
+    {
+      "id": "aRY8oq9fQTY",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 黄昏の森 】クリアで告知!?最終決戦は目の前だ#3【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/aRY8oq9fQTY/hqdefault.jpg",
+      "publishedAt": "2026-08-20T18:42:31Z",
+      "live": false,
+      "en": {
+        "title": "[Twilight Forest] Announcement after clearing!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
+      }
+    },
+    {
+      "id": "taxwVPExYXk",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【雑談】絵のリハビリしながら※後日アーカイブメン限【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/taxwVPExYXk/hqdefault.jpg",
+      "publishedAt": "2026-08-20T17:55:35Z",
+      "live": true,
+      "en": {
+        "title": "[Chat] While rehabilitating my painting *Later, only for archive members [Yuragiyura/MilliPro]"
+      }
+    },
+    {
+      "id": "HUYZ99IaHfk",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【作業雑談】ちるすんのよ┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/HUYZ99IaHfk/hqdefault.jpg",
+      "publishedAt": "2026-08-20T17:13:45Z",
+      "live": true,
+      "en": {
+        "title": "[Work chat] Chirusunno ┊︎ #Otononono #Nononya"
+      }
+    },
+    {
+      "id": "mABBk-9aZbw",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【📢出演告知】音ノ乃のの渡韓します！",
+      "thumb": "https://i.ytimg.com/vi/mABBk-9aZbw/hqdefault_live.jpg",
+      "publishedAt": "2026-08-20T16:42:58Z",
+      "live": false,
+      "en": {
+        "title": "[📢Performance announcement] Otonono will be coming to Korea!"
+      }
+    },
+    {
       "id": "6Q0MOxYQjYk",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -241,33 +270,7 @@
       "publishedAt": "2026-08-20T16:03:05Z",
       "live": false,
       "en": {
-        "title": "[📢Performance announcement] Violently Kawaii in Odaiba Appearing as “PSYQUI feat.Otononono”❕"
-      }
-    },
-    {
-      "id": "HUYZ99IaHfk",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【作業雑談】ちるすんのよ┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/HUYZ99IaHfk/hqdefault_live.jpg",
-      "publishedAt": "2026-08-20T14:53:15Z",
-      "live": true,
-      "en": {
-        "title": "[Work chat] Chirusunno ┊︎ #Otononono #Nononya"
-      }
-    },
-    {
-      "id": "taxwVPExYXk",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【雑談】絵のリハビリしながら※アーカイブメン限【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/taxwVPExYXk/hqdefault_live.jpg",
-      "publishedAt": "2026-08-20T14:15:27Z",
-      "live": true,
-      "en": {
-        "title": "[Chat] While rehabilitating my painting *Archivemen only [Yuragiyura/MilliPro]"
+        "title": "[📢Performance announcement] Violently Cute in Odaiba Appearing as “PSYQUI feat.Otononono”❕"
       }
     },
     {
@@ -310,32 +313,6 @@
       }
     },
     {
-      "id": "LMZAFBU34iI",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 Minecraft 〗クリアで告知!?最終回迎えられる、のか？#3〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/LMZAFBU34iI/hqdefault_live.jpg",
-      "publishedAt": "2026-08-20T09:31:48Z",
-      "live": false,
-      "en": {
-        "title": "[Minecraft] Announcement after clearing!? Will it be the final round? #3〖 Sleeping Cloud Tsukuri / Millipro〗"
-      }
-    },
-    {
-      "id": "uyoE8a7QbiM",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【黄昏の森/Minecraft 】もうそろクリアも目の前👀【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/uyoE8a7QbiM/hqdefault_live.jpg",
-      "publishedAt": "2026-08-20T09:12:11Z",
-      "live": false,
-      "en": {
-        "title": "[Twilight Forest/Minecraft] Clearing is just around the corner 👀 [Riz Ameya/MilliPro]"
-      }
-    },
-    {
       "id": "M3Gm1oHqpq4",
       "memberId": "official",
       "member": "ミリプロ公式",
@@ -346,19 +323,6 @@
       "live": false,
       "en": {
         "title": "[Three letters in heart] Dangerous words? Barely avoided lol [#MilliPro]"
-      }
-    },
-    {
-      "id": "aRY8oq9fQTY",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 黄昏の森 】クリアで告知!?最終決戦は目の前だ#3【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/aRY8oq9fQTY/hqdefault_live.jpg",
-      "publishedAt": "2026-08-20T08:59:07Z",
-      "live": false,
-      "en": {
-        "title": "[Twilight Forest] Announcement when cleared!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
       }
     },
     {
@@ -553,7 +517,7 @@
       "publishedAt": "2026-08-18T13:48:52Z",
       "live": true,
       "en": {
-        "title": "[Chat] Looking back on recent events [Yuragi Yura/MilliPro]"
+        "title": "[Chat] Looking back on recent events [Yuragiyura/MilliPro]"
       }
     },
     {
@@ -622,66 +586,5 @@
       }
     }
   ],
-  "live": [
-    {
-      "id": "aRY8oq9fQTY",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 黄昏の森 】クリアで告知!?最終決戦は目の前だ#3【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/aRY8oq9fQTY/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-20T08:59:07Z",
-      "status": "live",
-      "en": {
-        "title": "[Twilight Forest] Announcement when cleared!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
-      }
-    },
-    {
-      "id": "uyoE8a7QbiM",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【黄昏の森/Minecraft 】もうそろクリアも目の前👀【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/uyoE8a7QbiM/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-20T09:12:11Z",
-      "status": "live",
-      "en": {
-        "title": "[Twilight Forest/Minecraft] Clearing is just around the corner 👀 [Riz Ameya/MilliPro]"
-      }
-    },
-    {
-      "id": "LMZAFBU34iI",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 Minecraft 〗クリアで告知!?最終回迎えられる、のか？#3〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/LMZAFBU34iI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-20T09:31:48Z",
-      "status": "live",
-      "en": {
-        "title": "[Minecraft] Announcement after clearing!? Will it be the final round? #3〖 Sleeping Cloud Tsukuri / Millipro〗"
-      }
-    },
-    {
-      "id": "taxwVPExYXk",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【雑談】絵のリハビリしながら※アーカイブメン限【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/taxwVPExYXk/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-20T14:15:27Z",
-      "status": "live",
-      "en": {
-        "title": "[Chat] While rehabilitating my painting *Archivemen only [Yuragiyura/MilliPro]"
-      }
-    },
-    {
-      "id": "HUYZ99IaHfk",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【作業雑談】ちるすんのよ┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/HUYZ99IaHfk/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-20T14:53:15Z",
-      "status": "live",
-      "en": {
-        "title": "[Work chat] Chirusunno ┊︎ #Otononono #Nononya"
-      }
-    }
-  ]
+  "live": []
 }

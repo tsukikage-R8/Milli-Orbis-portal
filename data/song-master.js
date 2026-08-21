@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-08-20",
+  "generatedAt": "2026-08-21",
   "songs": {
     "カゲロウデイズfeat.": {
       "title": "カゲロウデイズ",
@@ -822,10 +822,13 @@ window.SONG_MASTER = {
       }
     },
     "悪魔の踊り方": {
-      "title": "MANIHEKE",
-      "artist": "アイリフドーパ",
-      "album": "GENTEN - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ab/2e/1e/ab2e1e1a-7f81-2ef1-2feb-74f1930d1a9c/199806597972.jpg/600x600bb.jpg"
+      "title": "名モ無キ休日 (feat. HaiM-BerG) [Remix]",
+      "artist": "KC",
+      "album": "名モ無キ休日 (feat. HaiM-BerG) [Remix] - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/3e/fa/703efa90-f68b-976d-0998-ddb7f492fe9d/4550755311822_cover.png/600x600bb.jpg",
+      "en": {
+        "title": "Nameless Holiday (feat. HaiM-BerG) [Remix]"
+      }
     },
     "絶頂讃": {
       "title": "絶頂讃歌",
@@ -1166,7 +1169,7 @@ window.SONG_MASTER = {
       "album": "EXIT TUNES PRESENTS 神曲を歌ってみた 3",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/e5/8f/99/e58f9960-afd0-8caa-9b09-b3f0c0243df3/QWCE_00175_itunes.png/600x600bb.jpg",
       "en": {
-        "title": "Hello/Hawayu (Cover) feat.Kano"
+        "title": "Hello/Hawayu (Cover) feat. Kano"
       }
     },
     "心拍数#0822acoustic.": {
@@ -1179,10 +1182,10 @@ window.SONG_MASTER = {
       }
     },
     "チェリポップ.": {
-      "title": "Stick With You",
+      "title": "Can't You See Me?",
       "artist": "TOMORROW X TOGETHER",
-      "album": "7TH YEAR: A Moment of Stillness in the Thorns - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ec/58/93/ec589377-1a12-c92f-dc42-777ddc1cc583/26UMGIM43336.rgb.jpg/600x600bb.jpg"
+      "album": "The Dream Chapter: ETERNITY - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/58/11/b1/5811b15d-6c29-c30f-3495-10ef21365008/20UMGIM36654.rgb.jpg/600x600bb.jpg"
     },
     "glowacoustic.": {
       "title": "春に落ちて",
@@ -1698,10 +1701,13 @@ window.SONG_MASTER = {
       }
     },
     "サディスティックラブいました": {
-      "title": "HOWEVER",
-      "artist": "GLAY",
-      "album": "HOWEVER - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/99/b6/af/99b6af9f-2d9a-c0c8-ec22-3c626e5d3d34/HOWEVER_itunes.jpg/600x600bb.jpg"
+      "title": "声をきかせて",
+      "artist": "BIGBANG",
+      "album": "声をきかせて - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/92/e9/a592e9a6-333c-b96b-a14b-55c683580a2b/00044002457172.rgb.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Let me hear your voice"
+      }
     },
     "ワルドコリングいました": {
       "title": "from the edge (feat. LiSA)",
@@ -1748,7 +1754,7 @@ window.SONG_MASTER = {
       "album": "絶望性:ヒーロー治療薬【通常盤】 (feat. Soraru) - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/b7/02/9ab702b7-14b9-de10-c826-3793b4ed97c6/5021732646163.jpg/600x600bb.jpg",
       "en": {
-        "title": "Hopelessness: Hero Cure (feat. Soraru)"
+        "title": "Despair: Hero Cure (feat. Soraru)"
       }
     },
     "ハロハワユいました": {
