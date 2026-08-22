@@ -1,26 +1,14 @@
 {
-  "updatedAt": "2026-08-22T08:14:22.076Z",
+  "updatedAt": "2026-08-22T12:13:46.931Z",
   "streams": [
-    {
-      "id": "eDn3FU4UNsQ",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 #BtH歌枠リレー 〗夏の乗り越え方、それは...〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/eDn3FU4UNsQ/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-22T09:30:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "〖 #BtH song relay 〗How to get through summer, that is... 〖 Nemugumo Tsukuri / Millipro〗"
-      }
-    },
     {
       "id": "YzfwW0zTSpE",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
       "title": "【#鹿乃まほろ初配信】みんなの毎日を、まほろばに！【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/YzfwW0zTSpE/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-22T11:00:00Z",
-      "status": "upcoming",
+      "scheduledStartTime": "2026-08-22T11:00:46Z",
+      "status": "live",
       "en": {
         "title": "[#Mahoro Kano's first delivery] Everyone's daily life on Mahoroba! [Mahoro Kano/MilliPro]"
       }
@@ -110,6 +98,18 @@
       }
     },
     {
+      "id": "dHnc-b8UT34",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【📢グッズ告知】ミリプロ サマーコレクション 2026！",
+      "thumb": "https://i.ytimg.com/vi/dHnc-b8UT34/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-02T14:59:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "[📢Goods Announcement] MilliPro Summer Collection 2026!"
+      }
+    },
+    {
       "id": "RjOQyuyucgc",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -122,6 +122,18 @@
       }
     },
     {
+      "id": "pKv7C5ZJTAw",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【歌枠】やるぞ！うおお！┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/pKv7C5ZJTAw/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-05T12:00:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "[Song frame] Let's do it! Wow! ┊︎#Otononono#Nononoya"
+      }
+    },
+    {
       "id": "V_8Z9GWJRGE",
       "memberId": "nuhu",
       "member": "虹深°ぬふ",
@@ -131,6 +143,18 @@
       "status": "upcoming",
       "en": {
         "title": "[📢Goods information] 1st anniversary goods are now on sale✨"
+      }
+    },
+    {
+      "id": "YKE2uQ2XpX0",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【歌枠】いんぐりっしゅよ～ん┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/YKE2uQ2XpX0/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-12T12:00:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "[Song frame] Ingrishuyo~n┊︎#Otononono#Nononya"
       }
     },
     {
@@ -204,9 +228,138 @@
       "en": {
         "title": "⋆⸜ Summer Street Collection goods on sale 🌻 ⸝⋆"
       }
+    },
+    {
+      "id": "h9nYQNJBBts",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【📢お知らせ】Princess Viral』REMIXバージョンの制作が決定！",
+      "thumb": "https://i.ytimg.com/vi/h9nYQNJBBts/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-11-01T14:59:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "[📢Notice] Production of “Princess Viral” REMIX version has been decided!"
+      }
     }
   ],
   "videos": [
+    {
+      "id": "YzfwW0zTSpE",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【#鹿乃まほろ初配信】みんなの毎日を、まほろばに！【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/YzfwW0zTSpE/hqdefault_live.jpg",
+      "publishedAt": "2026-08-22T11:00:46Z",
+      "live": true,
+      "en": {
+        "title": "[#Mahoro Kano's first delivery] Everyone's daily life on Mahoroba! [Mahoro Kano/MilliPro]"
+      }
+    },
+    {
+      "id": "pKv7C5ZJTAw",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【歌枠】やるぞ！うおお！┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/pKv7C5ZJTAw/hqdefault_live.jpg",
+      "publishedAt": "2026-08-22T10:58:34Z",
+      "live": false,
+      "en": {
+        "title": "[Song frame] Let's do it! Wow! ┊︎#Otononono#Nononoya"
+      }
+    },
+    {
+      "id": "YKE2uQ2XpX0",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【歌枠】いんぐりっしゅよ～ん┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/YKE2uQ2XpX0/hqdefault_live.jpg",
+      "publishedAt": "2026-08-22T10:56:44Z",
+      "live": false,
+      "en": {
+        "title": "[Song frame] Ingrishuyo~n┊︎#Otononono#Nononya"
+      }
+    },
+    {
+      "id": "eDn3FU4UNsQ",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 #BtH歌枠リレー 〗夏の乗り越え方、それは...〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/eDn3FU4UNsQ/hqdefault.jpg",
+      "publishedAt": "2026-08-22T10:05:19Z",
+      "live": false,
+      "en": {
+        "title": "〖 #BtH song relay 〗How to get through summer, that is... 〖 Nemugumo Tsukuri / Millipro〗"
+      }
+    },
+    {
+      "id": "ICFpc7vpCaQ",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "計算が難しい…… #minecraft",
+      "thumb": "https://i.ytimg.com/vi/ICFpc7vpCaQ/hqdefault.jpg",
+      "publishedAt": "2026-08-22T09:17:11Z",
+      "live": false,
+      "en": {
+        "title": "Calculation is difficult... #minecraft"
+      }
+    },
+    {
+      "id": "QDRFDoO5rns",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【アニメ】授業中の内職 #ミリプロ #anime",
+      "thumb": "https://i.ytimg.com/vi/QDRFDoO5rns/hqdefault.jpg",
+      "publishedAt": "2026-08-22T09:00:31Z",
+      "live": false,
+      "en": {
+        "title": "[Anime] Home work during class #MilliPro #anime"
+      }
+    },
+    {
+      "id": "dGwCHksK67Q",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "「テトリス」全員ヤバイ奴で合唱してみた！【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/dGwCHksK67Q/hqdefault.jpg",
+      "publishedAt": "2026-08-22T09:00:21Z",
+      "live": false,
+      "en": {
+        "title": "“Tetris” We tried singing along with all the bad guys! [Komakoma/MilliPro]"
+      }
+    },
+    {
+      "id": "h9nYQNJBBts",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【📢お知らせ】Princess Viral』REMIXバージョンの制作が決定！",
+      "thumb": "https://i.ytimg.com/vi/h9nYQNJBBts/hqdefault_live.jpg",
+      "publishedAt": "2026-08-22T08:44:13Z",
+      "live": false,
+      "en": {
+        "title": "[📢Notice] Production of “Princess Viral” REMIX version has been decided!"
+      }
+    },
+    {
+      "id": "94xJrn4Kswk",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "ハロ/ハワユ - 鹿乃まほろ cover.",
+      "thumb": "https://i.ytimg.com/vi/94xJrn4Kswk/hqdefault.jpg",
+      "publishedAt": "2026-08-22T01:31:22Z",
+      "live": false,
+      "en": {
+        "title": "Hello/Hawayu - Mahoro Kano cover."
+      }
+    },
     {
       "id": "8zJ9e6Q9YlI",
       "memberId": "raco",
@@ -217,7 +370,7 @@
       "publishedAt": "2026-08-21T17:18:31Z",
       "live": true,
       "en": {
-        "title": "[Drinking chat] It seems that it will be limited to men from the middle [Rako Otonose/MilliPro]"
+        "title": "[Drinking chat] Apparently it will be limited to men in the middle [Rako Otonose/MilliPro]"
       }
     },
     {
@@ -269,7 +422,7 @@
       "publishedAt": "2026-08-21T14:08:14Z",
       "live": false,
       "en": {
-        "title": "[Puyo Teto 2] Be careful of Nufu ⟡. · [Rei Yugiri / MilliPro]"
+        "title": "[Puyo Teto 2] Be careful of Nufu ⟡.· [Rei Yugiri / MilliPro]"
       }
     },
     {
@@ -364,19 +517,6 @@
       }
     },
     {
-      "id": "eDn3FU4UNsQ",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 #BtH歌枠リレー 〗夏の乗り越え方、それは...〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/eDn3FU4UNsQ/hqdefault_live.jpg",
-      "publishedAt": "2026-08-20T18:49:53Z",
-      "live": false,
-      "en": {
-        "title": "〖 #BtH song relay 〗How to get through summer, that is... 〖 Nemugumo Tsukuri / Millipro〗"
-      }
-    },
-    {
       "id": "LMZAFBU34iI",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -426,45 +566,6 @@
       "live": true,
       "en": {
         "title": "[Chat] While rehabilitating my painting *Later, only for archive members [Yuragiyura/MilliPro]"
-      }
-    },
-    {
-      "id": "HUYZ99IaHfk",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【作業雑談】ちるすんのよ┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/HUYZ99IaHfk/hqdefault.jpg",
-      "publishedAt": "2026-08-20T17:13:45Z",
-      "live": true,
-      "en": {
-        "title": "[Work chat] Chirusunno ┊︎ #Otononono #Nononya"
-      }
-    },
-    {
-      "id": "mABBk-9aZbw",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【📢出演告知】音ノ乃のの渡韓します！",
-      "thumb": "https://i.ytimg.com/vi/mABBk-9aZbw/hqdefault_live.jpg",
-      "publishedAt": "2026-08-20T16:42:58Z",
-      "live": false,
-      "en": {
-        "title": "[📢Performance announcement] Otonono will be coming to Korea!"
-      }
-    },
-    {
-      "id": "6Q0MOxYQjYk",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【📢出演告知】暴力的にカワイイ in お台場 “PSYQUI feat.音ノ乃のの” として出演❕",
-      "thumb": "https://i.ytimg.com/vi/6Q0MOxYQjYk/hqdefault_live.jpg",
-      "publishedAt": "2026-08-20T16:03:05Z",
-      "live": false,
-      "en": {
-        "title": "[📢Performance announcement] Violently Kawaii in Odaiba Appearing as “PSYQUI feat.Otononono”❕"
       }
     },
     {
@@ -531,72 +632,20 @@
       "en": {
         "title": "Turkish ice cream and fluctuation #minecraft"
       }
-    },
-    {
-      "id": "8F-C9ivtBnE",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【告知】🎂誕生日記念グッズ販売中！",
-      "thumb": "https://i.ytimg.com/vi/8F-C9ivtBnE/hqdefault_live.jpg",
-      "publishedAt": "2026-08-20T06:47:37Z",
-      "live": false,
-      "en": {
-        "title": "[Announcement] 🎂Birthday commemorative goods are now on sale!"
-      }
-    },
-    {
-      "id": "8y2v7uLYRN4",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "水曜ゆらゆら歌枠｜夏！夏！歌！老人会！【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/8y2v7uLYRN4/hqdefault.jpg",
-      "publishedAt": "2026-08-19T14:46:25Z",
-      "live": false,
-      "en": {
-        "title": "Wednesday Yurayura song slot | Summer! summer! song! Elderly people’s party! [Yuragiyura / Millipro]"
-      }
-    },
-    {
-      "id": "lkHVqtUjrac",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 歌雑談 〗歌も雑談もしたい人間によるごちゃまぜ枠〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/lkHVqtUjrac/hqdefault.jpg",
-      "publishedAt": "2026-08-19T14:02:20Z",
-      "live": true,
-      "en": {
-        "title": "[Song Chat] A jumble of people who want to sing and chat [Nemugumo Tsukuri / MilliPro]"
-      }
-    },
-    {
-      "id": "7OAV0PdHO4w",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【歌枠】久々の縦型ですよ〜【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/7OAV0PdHO4w/hqdefault_live.jpg",
-      "publishedAt": "2026-08-19T13:19:22Z",
-      "live": false,
-      "en": {
-        "title": "[Song frame] It’s been a long time since I’ve done a vertical song ~ [Riz Ameya/MilliPro]"
-      }
-    },
-    {
-      "id": "gi9-IdHgLMQ",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【Artist Pro 22 Gen2】はじめてXPPenでイラスト描くよ〜！🎨",
-      "thumb": "https://i.ytimg.com/vi/gi9-IdHgLMQ/hqdefault.jpg",
-      "publishedAt": "2026-08-19T13:08:07Z",
-      "live": false,
-      "en": {
-        "title": "[Artist Pro 22 Gen2] I'm drawing an illustration with XPPen for the first time! 🎨"
-      }
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "YzfwW0zTSpE",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【#鹿乃まほろ初配信】みんなの毎日を、まほろばに！【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/YzfwW0zTSpE/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-22T11:00:46Z",
+      "status": "live",
+      "en": {
+        "title": "[#Mahoro Kano's first delivery] Everyone's daily life on Mahoroba! [Mahoro Kano/MilliPro]"
+      }
+    }
+  ]
 }

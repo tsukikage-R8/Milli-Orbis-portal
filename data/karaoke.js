@@ -23,6 +23,17 @@ window.KARAOKE = [
     }
   },
   {
+    "id": "F2IFCh1k9OA",
+    "memberId": "raco",
+    "publishedAt": "2026-08-22",
+    "title": "【歌枠】高評価7000耐久！達成したら告知！【音ノ瀬らこ /ミリプロ】",
+    "duration": 0,
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Highly rated 7000 durability! Let me know when you achieve it! [Rako Otonose/MilliPro]"
+    }
+  },
+  {
     "id": "m9XsXa_2wsY",
     "memberId": "konomi",
     "publishedAt": "2026-08-21",

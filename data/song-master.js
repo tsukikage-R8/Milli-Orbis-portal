@@ -96,21 +96,21 @@ window.SONG_MASTER = {
       }
     },
     "点描の唄mrs.greenapple": {
-      "title": "点描の唄",
-      "artist": "石崎ひゅーい",
-      "album": "night milk",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/77/9c/8e779cb1-6db7-e22b-5eda-aa827cb48e38/4547366719338.jpg/600x600bb.jpg",
+      "title": "点描の唄 (feat. 井上苑子)",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "青と夏 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/34/27/08/3427087f-2d39-4847-9b19-052dd3589014/18UMGIM36633.rgb.jpg/600x600bb.jpg",
       "en": {
-        "title": "Pointillist song"
+        "title": "Pointillist Song (feat. Sonoko Inoue)"
       }
     },
     "シスラブ＆": {
-      "title": "水曜日の約束",
-      "artist": "Gero",
-      "album": "TOKYO HAZE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0d/a9/e1/0da9e172-47a2-23ca-4e76-4f3ce85b6ba9/5021732654755.jpg/600x600bb.jpg",
+      "title": "シス×ラブ",
+      "artist": "Kureiji Ollie & アーニャ・メルフィッサ",
+      "album": "ほろはにヶ丘高校 -Covers-",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/11/0d/96/110d962f-5d25-c552-ebd8-dd750e48af36/4582729912438_art.png/600x600bb.jpg",
       "en": {
-        "title": "Wednesday's promise"
+        "title": "Sis x Love"
       }
     },
     "花女花譜": {
@@ -691,9 +691,9 @@ window.SONG_MASTER = {
     },
     "stay": {
       "title": "Stay",
-      "artist": "KAIRO & Penelope Cru",
-      "album": "I Need Your Love",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/eb/f0/8e/ebf08ed8-4c6e-6a36-74a0-b294851b3189/1200214821449.jpg/600x600bb.jpg"
+      "artist": "Zedd & アレッシア・カーラ",
+      "album": "Stay - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/08/90/e50890a8-205e-a810-dcda-44b614f99f5f/00602557442878.rgb.jpg/600x600bb.jpg"
     },
     "粛聖!!ロリ神レクイエム☆": {
       "title": "粛聖!! ロリ神レクイエム☆",
@@ -1488,12 +1488,12 @@ window.SONG_MASTER = {
       }
     },
     "会いたい《想见你想见你想见你》": {
-      "title": "输入法记得你 (DJAh版)",
-      "artist": "Djah",
-      "album": "输入法记得你 (DJAh版) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/db/ac/91/dbac91a9-3522-f309-47b3-984242807517/25UM1IM17374.rgb.jpg/600x600bb.jpg",
+      "title": "输入法记得你",
+      "artist": "Li2c",
+      "album": "输入法记得你 - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/ef/3b/deef3b63-9414-375e-c91e-91c22b4864f8/25UM1IM01170.rgb.jpg/600x600bb.jpg",
       "en": {
-        "title": "How to get import information (DJAh version)"
+        "title": "How to get import law"
       }
     },
     "花に亡霊-ヨルシカ": {
@@ -1710,12 +1710,12 @@ window.SONG_MASTER = {
       }
     },
     "サディスティックラブいました": {
-      "title": "ロマンティックいか焼き",
-      "artist": "乃木坂46",
-      "album": "君の名は希望 TypeA - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/7d/dd/43/7ddd4350-cf79-9a75-e00d-8ddc662dae61/jacket_SRXX01035B00Z_550.jpg/600x600bb.jpg",
+      "title": "声をきかせて",
+      "artist": "BIGBANG",
+      "album": "声をきかせて - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/92/e9/a592e9a6-333c-b96b-a14b-55c683580a2b/00044002457172.rgb.jpg/600x600bb.jpg",
       "en": {
-        "title": "romantic squid"
+        "title": "Let me hear your voice"
       }
     },
     "ワルドコリングいました": {
@@ -1763,7 +1763,7 @@ window.SONG_MASTER = {
       "album": "絶望性:ヒーロー治療薬【通常盤】 (feat. Soraru) - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/b7/02/9ab702b7-14b9-de10-c826-3793b4ed97c6/5021732646163.jpg/600x600bb.jpg",
       "en": {
-        "title": "Hopelessness: Hero Cure (feat. Soraru)"
+        "title": "Despair: Hero Cure (feat. Soraru)"
       }
     },
     "ハロハワユいました": {
@@ -2023,9 +2023,9 @@ window.SONG_MASTER = {
     },
     "名言": {
       "title": "名言",
-      "artist": "ムーズムズ",
-      "album": "Flashing Magic",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/43/43/e5434398-c661-4d88-dab2-db7b33c58d59/4538182538401_cov.jpg/600x600bb.jpg",
+      "artist": "銀河草莓May",
+      "album": "名言 - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/93/57/0793572d-35e2-6bfb-0d3c-19d8328d33f7/4711499306493.jpg/600x600bb.jpg",
       "en": {
         "title": "Famous saying"
       }

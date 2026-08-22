@@ -288,7 +288,7 @@ window.SONGS = {
         "mahoro"
       ],
       "en": {
-        "title": "[MV] Kano “Prima Stella” [OFFICIAL]"
+        "title": "[MV] Kano “Primastella” [OFFICIAL]"
       }
     },
     {
@@ -469,6 +469,20 @@ window.SONGS = {
     }
   ],
   "covers": [
+    {
+      "title": "ハロ/ハワユ - 鹿乃まほろ cover.",
+      "key": "ハロハワユ-.",
+      "urls": [
+        {
+          "id": "94xJrn4Kswk",
+          "memberId": "mahoro",
+          "publishedAt": "2026-08-22"
+        }
+      ],
+      "en": {
+        "title": "Hello/Hawayu - Mahoro Kano cover."
+      }
+    },
     {
       "title": "イケナイ太陽",
       "key": "イケナイ太陽",
@@ -2613,7 +2627,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Feeling great↑↑/Komawarikoma × Nemugumo Tsukuri × Ameya Riz (cover)"
+        "title": "Feeling great↑↑／Komawarikoma × Nemugumo Tsukuri × Ameya Liz (cover)"
       }
     },
     {
@@ -2704,7 +2718,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Femme Fatale／Komawarikoma × Nemugumo Tsukuri × Ameya Liz (cover)"
+        "title": "Femme Fatale/Komai Koma × Nemugumo Tsukuri × Ameya Liz (cover)"
       }
     },
     {
@@ -2771,7 +2785,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Announcement of spring (yama) / acoustic cover. Kano"
+        "title": "Announcement of spring (yama)/acoustic cover. Kano"
       }
     },
     {
@@ -3570,7 +3584,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Is there still anything that love can do? acoustic cover.Kano"
+        "title": "Is there anything more that love can do? acoustic cover.Kano"
       }
     },
     {
@@ -3626,7 +3640,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "To the world where you are, Ichikayori world Japanese version"
+        "title": "To the world where you are Ichikayori world Japanese version"
       }
     },
     {
