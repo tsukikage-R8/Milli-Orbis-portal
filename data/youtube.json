@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T00:29:08.835Z",
+  "updatedAt": "2026-08-22T04:20:01.918Z",
   "streams": [
     {
       "id": "YzfwW0zTSpE",
@@ -26,18 +26,6 @@
       }
     },
     {
-      "id": "8zRJYa59A60",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "☁ファンミーティング 一般販売決定🔧",
-      "thumb": "https://i.ytimg.com/vi/8zRJYa59A60/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-23T14:59:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "☁ Fan meeting general sale decided 🔧"
-      }
-    },
-    {
       "id": "FQUAaVHIEEo",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -47,6 +35,18 @@
       "status": "upcoming",
       "en": {
         "title": "☁Street Collection 2026 now accepting orders! 🔧"
+      }
+    },
+    {
+      "id": "8zRJYa59A60",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "☁ファンミーティング 一般販売決定🔧",
+      "thumb": "https://i.ytimg.com/vi/8zRJYa59A60/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-23T14:59:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "☁ Fan meeting general sale decided 🔧"
       }
     },
     {
@@ -374,7 +374,7 @@
       "publishedAt": "2026-08-20T18:42:31Z",
       "live": false,
       "en": {
-        "title": "[Twilight Forest] Announcement when cleared!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
+        "title": "[Twilight Forest] Announcement after clearing!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
       }
     },
     {
