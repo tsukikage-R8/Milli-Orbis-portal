@@ -450,13 +450,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "蝶々結び",
+      "title": "StarRingChild",
       "artist": "Aimer",
-      "album": "蝶々結び - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg",
-      "en": {
-        "title": "butterfly knot"
-      }
+      "album": "Midnight Sun",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cf/4d/09/cf4d09ff-c6e8-0964-d493-cf0841a9216a/4560429727163.jpg/600x600bb.jpg"
     },
     "-error-niki": {
       "title": "-ERROR (feat. Kradness)",
@@ -1710,12 +1707,12 @@ window.SONG_MASTER = {
       }
     },
     "サディスティックラブいました": {
-      "title": "声をきかせて",
-      "artist": "BIGBANG",
-      "album": "声をきかせて - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/92/e9/a592e9a6-333c-b96b-a14b-55c683580a2b/00044002457172.rgb.jpg/600x600bb.jpg",
+      "title": "ロマンティックいか焼き",
+      "artist": "乃木坂46",
+      "album": "君の名は希望 TypeA - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/7d/dd/43/7ddd4350-cf79-9a75-e00d-8ddc662dae61/jacket_SRXX01035B00Z_550.jpg/600x600bb.jpg",
       "en": {
-        "title": "Let me hear your voice"
+        "title": "romantic squid"
       }
     },
     "ワルドコリングいました": {

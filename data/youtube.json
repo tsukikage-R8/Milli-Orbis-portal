@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-08-22T04:20:01.918Z",
+  "updatedAt": "2026-08-22T08:14:22.076Z",
   "streams": [
+    {
+      "id": "eDn3FU4UNsQ",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 #BtH歌枠リレー 〗夏の乗り越え方、それは...〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/eDn3FU4UNsQ/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-22T09:30:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "〖 #BtH song relay 〗How to get through summer, that is... 〖 Nemugumo Tsukuri / Millipro〗"
+      }
+    },
     {
       "id": "YzfwW0zTSpE",
       "memberId": "mahoro",
@@ -26,18 +38,6 @@
       }
     },
     {
-      "id": "FQUAaVHIEEo",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "☁ストリートコレクション 2026 受注受付中！ 🔧",
-      "thumb": "https://i.ytimg.com/vi/FQUAaVHIEEo/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-23T14:59:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "☁Street Collection 2026 now accepting orders! 🔧"
-      }
-    },
-    {
       "id": "8zRJYa59A60",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -47,6 +47,18 @@
       "status": "upcoming",
       "en": {
         "title": "☁ Fan meeting general sale decided 🔧"
+      }
+    },
+    {
+      "id": "FQUAaVHIEEo",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "☁ストリートコレクション 2026 受注受付中！ 🔧",
+      "thumb": "https://i.ytimg.com/vi/FQUAaVHIEEo/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-23T14:59:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "☁Street Collection 2026 now accepting orders! 🔧"
       }
     },
     {
@@ -205,7 +217,7 @@
       "publishedAt": "2026-08-21T17:18:31Z",
       "live": true,
       "en": {
-        "title": "[Drinking chat] Apparently it will be limited to men in the middle [Rako Otonose/MilliPro]"
+        "title": "[Drinking chat] It seems that it will be limited to men from the middle [Rako Otonose/MilliPro]"
       }
     },
     {
@@ -257,7 +269,7 @@
       "publishedAt": "2026-08-21T14:08:14Z",
       "live": false,
       "en": {
-        "title": "[Puyo Teto 2] Be careful of Nufu ⟡.· [Rei Yugiri / MilliPro]"
+        "title": "[Puyo Teto 2] Be careful of Nufu ⟡. · [Rei Yugiri / MilliPro]"
       }
     },
     {
@@ -352,6 +364,19 @@
       }
     },
     {
+      "id": "eDn3FU4UNsQ",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 #BtH歌枠リレー 〗夏の乗り越え方、それは...〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/eDn3FU4UNsQ/hqdefault_live.jpg",
+      "publishedAt": "2026-08-20T18:49:53Z",
+      "live": false,
+      "en": {
+        "title": "〖 #BtH song relay 〗How to get through summer, that is... 〖 Nemugumo Tsukuri / Millipro〗"
+      }
+    },
+    {
       "id": "LMZAFBU34iI",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -374,7 +399,7 @@
       "publishedAt": "2026-08-20T18:42:31Z",
       "live": false,
       "en": {
-        "title": "[Twilight Forest] Announcement after clearing!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
+        "title": "[Twilight Forest] Announcement when cleared!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
       }
     },
     {
@@ -570,19 +595,6 @@
       "live": false,
       "en": {
         "title": "[Artist Pro 22 Gen2] I'm drawing an illustration with XPPen for the first time! 🎨"
-      }
-    },
-    {
-      "id": "_oeuVl_BTZc",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 雑談 】最近の振り返り等 ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/_oeuVl_BTZc/hqdefault.jpg",
-      "publishedAt": "2026-08-19T12:13:20Z",
-      "live": true,
-      "en": {
-        "title": "[Chat] Recent reviews, etc. ⟡.· [Rei Yugiri / MilliPro]"
       }
     }
   ],
