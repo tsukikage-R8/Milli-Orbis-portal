@@ -288,7 +288,7 @@ window.SONGS = {
         "mahoro"
       ],
       "en": {
-        "title": "[MV] Kano “Primastella” [OFFICIAL]"
+        "title": "[MV] Kano “Prima Stella” [OFFICIAL]"
       }
     },
     {
@@ -3486,7 +3486,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "I want to meet you《thinking about you》/cover Kano"
+        "title": "I want to meet you《Thinking about you》/cover Kano"
       }
     },
     {

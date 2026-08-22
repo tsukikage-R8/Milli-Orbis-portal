@@ -1,6 +1,28 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "YKE2uQ2XpX0",
+    "memberId": "nono",
+    "publishedAt": "2026-08-22",
+    "title": "【歌枠】いんぐりっしゅよ～ん┊︎#音ノ乃のの #ののん家",
+    "duration": 0,
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Ingrishuyo~n┊︎#Otononono#Nononya"
+    }
+  },
+  {
+    "id": "pKv7C5ZJTAw",
+    "memberId": "nono",
+    "publishedAt": "2026-08-22",
+    "title": "【歌枠】やるぞ！うおお！┊︎#音ノ乃のの #ののん家",
+    "duration": 0,
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Let's do it! Wow! ┊︎#Otononono#Nononoya"
+    }
+  },
+  {
     "id": "m9XsXa_2wsY",
     "memberId": "konomi",
     "publishedAt": "2026-08-21",
