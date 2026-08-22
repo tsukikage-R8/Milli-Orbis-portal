@@ -1,16 +1,28 @@
 {
-  "updatedAt": "2026-08-22T12:13:46.931Z",
+  "updatedAt": "2026-08-22T16:08:59.820Z",
   "streams": [
     {
-      "id": "YzfwW0zTSpE",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【#鹿乃まほろ初配信】みんなの毎日を、まほろばに！【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/YzfwW0zTSpE/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-22T11:00:46Z",
+      "id": "4PLABRhPfXI",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【飲酒】酒飲む前におつまみ2袋食べちゃった【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/4PLABRhPfXI/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-22T13:35:03Z",
       "status": "live",
       "en": {
-        "title": "[#Mahoro Kano's first delivery] Everyone's daily life on Mahoroba! [Mahoro Kano/MilliPro]"
+        "title": "[Drinking] I ate two bags of snacks before drinking alcohol [Yuragi Yura/MilliPro]"
+      }
+    },
+    {
+      "id": "F2IFCh1k9OA",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "title": "【歌枠】高評価7000耐久！達成したら告知！【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/F2IFCh1k9OA/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-23T10:30:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "[Song frame] Highly rated 7000 durability! Let me know when you achieve it! [Rako Otonose/MilliPro]"
       }
     },
     {
@@ -244,16 +256,55 @@
   ],
   "videos": [
     {
+      "id": "F2IFCh1k9OA",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【歌枠】高評価7000耐久！達成したら告知！【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/F2IFCh1k9OA/hqdefault_live.jpg",
+      "publishedAt": "2026-08-22T14:17:07Z",
+      "live": false,
+      "en": {
+        "title": "[Song frame] Highly rated 7000 durability! Let me know when you achieve it! [Rako Otonose/MilliPro]"
+      }
+    },
+    {
+      "id": "4PLABRhPfXI",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【飲酒】酒飲む前におつまみ2袋食べちゃった【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/4PLABRhPfXI/hqdefault_live.jpg",
+      "publishedAt": "2026-08-22T13:35:03Z",
+      "live": false,
+      "en": {
+        "title": "[Drinking] I ate two bags of snacks before drinking alcohol [Yuragi Yura/MilliPro]"
+      }
+    },
+    {
       "id": "YzfwW0zTSpE",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
       "channelTitle": "鹿乃まほろ / Kano Mahoro",
       "title": "【#鹿乃まほろ初配信】みんなの毎日を、まほろばに！【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/YzfwW0zTSpE/hqdefault_live.jpg",
-      "publishedAt": "2026-08-22T11:00:46Z",
+      "thumb": "https://i.ytimg.com/vi/YzfwW0zTSpE/hqdefault.jpg",
+      "publishedAt": "2026-08-22T12:37:42Z",
       "live": true,
       "en": {
-        "title": "[#Mahoro Kano's first delivery] Everyone's daily life on Mahoroba! [Mahoro Kano/MilliPro]"
+        "title": "[#Mahoro Kano's first broadcast] Everyone's daily life on Mahoroba! [Mahoro Kano/MilliPro]"
+      }
+    },
+    {
+      "id": "94xJrn4Kswk",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "ハロ/ハワユ - 鹿乃まほろ cover.",
+      "thumb": "https://i.ytimg.com/vi/94xJrn4Kswk/hqdefault.jpg",
+      "publishedAt": "2026-08-22T12:35:21Z",
+      "live": false,
+      "en": {
+        "title": "Hello/Hawayu - Mahoro Kano cover."
       }
     },
     {
@@ -345,19 +396,6 @@
       "live": false,
       "en": {
         "title": "[📢Notice] Production of “Princess Viral” REMIX version has been decided!"
-      }
-    },
-    {
-      "id": "94xJrn4Kswk",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "ハロ/ハワユ - 鹿乃まほろ cover.",
-      "thumb": "https://i.ytimg.com/vi/94xJrn4Kswk/hqdefault.jpg",
-      "publishedAt": "2026-08-22T01:31:22Z",
-      "live": false,
-      "en": {
-        "title": "Hello/Hawayu - Mahoro Kano cover."
       }
     },
     {
@@ -517,6 +555,19 @@
       }
     },
     {
+      "id": "Vr_f7y9YtTQ",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "？？？？ / 音ノ瀬らこ (cover)",
+      "thumb": "https://i.ytimg.com/vi/Vr_f7y9YtTQ/hqdefault.jpg",
+      "publishedAt": "2026-08-21T03:41:57Z",
+      "live": false,
+      "en": {
+        "title": "? ? ? ? / Rako Otonose (cover)"
+      }
+    },
+    {
       "id": "LMZAFBU34iI",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -539,7 +590,7 @@
       "publishedAt": "2026-08-20T18:42:31Z",
       "live": false,
       "en": {
-        "title": "[Twilight Forest] Announcement when cleared!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
+        "title": "[Twilight Forest] Announcement after clearing!? The final battle is right in front of you #3 [Komakoma/MilliPro]"
       }
     },
     {
@@ -593,58 +644,19 @@
       "en": {
         "title": "[XPPen Artist 16 3rd] My first liquid tab! It’s been a while since I drew ♪ [Yuragi Yura / MilliPro]"
       }
-    },
-    {
-      "id": "M3Gm1oHqpq4",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【3文字以心伝心】危険な単語を？ぎりぎり回避ｗｗｗ【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/M3Gm1oHqpq4/hqdefault.jpg",
-      "publishedAt": "2026-08-20T09:00:33Z",
-      "live": false,
-      "en": {
-        "title": "[Three letters in heart] Dangerous words? Barely avoided lol [#MilliPro]"
-      }
-    },
-    {
-      "id": "Qm6cnKewsU4",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "お兄ちゃんスイッチ #マイクラ",
-      "thumb": "https://i.ytimg.com/vi/Qm6cnKewsU4/hqdefault.jpg",
-      "publishedAt": "2026-08-20T07:00:00Z",
-      "live": false,
-      "en": {
-        "title": "Big brother switch #minecraft"
-      }
-    },
-    {
-      "id": "odhtD0giUPU",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "トルコアイスとゆらぎ #minecraft",
-      "thumb": "https://i.ytimg.com/vi/odhtD0giUPU/hqdefault.jpg",
-      "publishedAt": "2026-08-20T06:49:54Z",
-      "live": false,
-      "en": {
-        "title": "Turkish ice cream and fluctuation #minecraft"
-      }
     }
   ],
   "live": [
     {
-      "id": "YzfwW0zTSpE",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【#鹿乃まほろ初配信】みんなの毎日を、まほろばに！【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/YzfwW0zTSpE/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-22T11:00:46Z",
+      "id": "4PLABRhPfXI",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【飲酒】酒飲む前におつまみ2袋食べちゃった【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/4PLABRhPfXI/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-22T13:35:03Z",
       "status": "live",
       "en": {
-        "title": "[#Mahoro Kano's first delivery] Everyone's daily life on Mahoroba! [Mahoro Kano/MilliPro]"
+        "title": "[Drinking] I ate two bags of snacks before drinking alcohol [Yuragi Yura/MilliPro]"
       }
     }
   ]
