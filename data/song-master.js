@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-08-21",
+  "generatedAt": "2026-08-22",
   "songs": {
     "イケナイ太陽": {
       "title": "イケナイ太陽",
@@ -426,13 +426,10 @@ window.SONG_MASTER = {
       }
     },
     "プレイ-gigashortby": {
-      "title": "アンドロメダ",
-      "artist": "aiko",
-      "album": "暁のラブレター",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/39/e1/2d/39e12d27-a080-b9b7-962f-08d2676e085f/dj.rvhspbob.jpg/600x600bb.jpg",
-      "en": {
-        "title": "andromeda"
-      }
+      "title": "PLAY",
+      "artist": "SEKAI NO OWARI",
+      "album": "Tree",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/07/46/dd/0746dd80-255e-7c83-5247-d9592d25ba9d/TFCC-86501.jpg/600x600bb.jpg"
     },
     "モニタリング": {
       "title": "モニタリング",
@@ -945,12 +942,12 @@ window.SONG_MASTER = {
       }
     },
     "マシャルマキシマイザ": {
-      "title": "マーシャル・マキシマイザー (feat. 可不)",
-      "artist": "柊マグネタイト",
-      "album": "KAF+YOU KAFU COMPILATION ALBUM シンメトリー",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6a/25/39/6a2539f1-882e-9822-3876-14ec354ca6e6/ANTCD-46511.jpg/600x600bb.jpg",
+      "title": "マーシャル・マキシマイザー",
+      "artist": "和楽器バンド",
+      "album": "ボカロ三昧2",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/94/55/17/945517eb-0a00-26fc-39c3-105f68516291/22UMGIM81445.rgb.jpg/600x600bb.jpg",
       "en": {
-        "title": "Marshall Maximizer (feat. Kafu)"
+        "title": "marshall maximizer"
       }
     },
     "きゅうくらりん": {
@@ -1194,10 +1191,13 @@ window.SONG_MASTER = {
       }
     },
     "チェリポップ.": {
-      "title": "Can't You See Me?",
-      "artist": "TOMORROW X TOGETHER",
-      "album": "The Dream Chapter: ETERNITY - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/58/11/b1/5811b15d-6c29-c30f-3495-10ef21365008/20UMGIM36654.rgb.jpg/600x600bb.jpg"
+      "title": "メランコリーキッチン",
+      "artist": "米津玄師",
+      "album": "YANKEE",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg",
+      "en": {
+        "title": "melancholy kitchen"
+      }
     },
     "glowacoustic.": {
       "title": "春に落ちて",
@@ -1766,7 +1766,7 @@ window.SONG_MASTER = {
       "album": "絶望性:ヒーロー治療薬【通常盤】 (feat. Soraru) - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/b7/02/9ab702b7-14b9-de10-c826-3793b4ed97c6/5021732646163.jpg/600x600bb.jpg",
       "en": {
-        "title": "Despair: Hero Cure (feat. Soraru)"
+        "title": "Hopelessness: Hero Cure (feat. Soraru)"
       }
     },
     "ハロハワユいました": {
