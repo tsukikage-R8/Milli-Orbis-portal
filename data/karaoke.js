@@ -1,6 +1,14 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "ZKziA4Tu-rM",
+    "memberId": "liz",
+    "publishedAt": "2026-08-23",
+    "title": "【歌枠】歌ってみたが出るらしい【雨夜リズ/ミリプロ】",
+    "duration": 2472,
+    "songs": []
+  },
+  {
     "id": "YKE2uQ2XpX0",
     "memberId": "nono",
     "publishedAt": "2026-08-22",
@@ -62,14 +70,6 @@ window.KARAOKE = [
     "publishedAt": "2026-08-18",
     "title": "水曜ゆらゆら歌枠｜夏！夏！歌！老人会！【 ゆらぎゆら / ミリプロ 】",
     "duration": 7054,
-    "songs": []
-  },
-  {
-    "id": "VOXMc7Cg2w8",
-    "memberId": "liz",
-    "publishedAt": "2026-08-18",
-    "title": "【歌枠】久々の縦型ですよ〜【雨夜リズ/ミリプロ】",
-    "duration": 3391,
     "songs": []
   },
   {

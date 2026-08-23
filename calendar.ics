@@ -7,23 +7,31 @@ X-WR-CALNAME:Milli Orbis イベントカレンダー
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
 UID:milli-orbis-e7226c9d@milli-orbis-portal.onrender.com
-DTSTAMP:20260823T081700Z
-DTSTART:20260823T103000Z
-DTEND:20260823T123000Z
+DTSTAMP:20260823T121600Z
+DTSTART:20260823T103100Z
+DTEND:20260823T123100Z
 SUMMARY:【歌枠】高評価7000耐久！達成したら告知！【音ノ瀬らこ /ミリプロ】
 URL:https://milli-unishare.onrender.com/#watch=F2IFCh1k9OA
 END:VEVENT
 BEGIN:VEVENT
+UID:milli-orbis-53e33fca@milli-orbis-portal.onrender.com
+DTSTAMP:20260823T121600Z
+DTSTART:20260823T103100Z
+DTEND:20260823T123100Z
+SUMMARY:【お絵描き】今日は、息抜きDayとします🎶【 #あまかみらいぶ / #ミリプロ 】
+URL:https://milli-unishare.onrender.com/#watch=le73KwJQN9E
+END:VEVENT
+BEGIN:VEVENT
 UID:milli-orbis-43ff3252@milli-orbis-portal.onrender.com
-DTSTAMP:20260823T081700Z
-DTSTART:20260823T120000Z
-DTEND:20260823T140000Z
+DTSTAMP:20260823T121600Z
+DTSTART:20260823T123500Z
+DTEND:20260823T143500Z
 SUMMARY:【雑談】初配信ありがとうございましたヽ(.⊿·)【鹿乃まほろ/ミリプロ】
 URL:https://milli-unishare.onrender.com/#watch=ZuklosiIA0A
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-79d17f37@milli-orbis-portal.onrender.com
-DTSTAMP:20260823T081700Z
+DTSTAMP:20260823T121600Z
 DTSTART:20260823T140000Z
 DTEND:20260823T160000Z
 SUMMARY:【📢グッズ情報】ミリプロストリートコレクション受注開始！
@@ -31,7 +39,7 @@ URL:https://milli-unishare.onrender.com/#watch=nElUBc_Ji-Y
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-15cad2e3@milli-orbis-portal.onrender.com
-DTSTAMP:20260823T081700Z
+DTSTAMP:20260823T121600Z
 DTSTART:20260823T145900Z
 DTEND:20260823T165900Z
 SUMMARY:☁ファンミーティング 一般販売決定🔧
@@ -39,7 +47,7 @@ URL:https://milli-unishare.onrender.com/#watch=8zRJYa59A60
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-19da2734@milli-orbis-portal.onrender.com
-DTSTAMP:20260823T081700Z
+DTSTAMP:20260823T121600Z
 DTSTART:20260823T145900Z
 DTEND:20260823T165900Z
 SUMMARY:☁ストリートコレクション 2026 受注受付中！ 🔧
@@ -47,7 +55,7 @@ URL:https://milli-unishare.onrender.com/#watch=FQUAaVHIEEo
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-506e9925@milli-orbis-portal.onrender.com
-DTSTAMP:20260823T081700Z
+DTSTAMP:20260823T121600Z
 DTSTART:20260828T100000Z
 DTEND:20260828T120000Z
 SUMMARY:【#甘狼このみ新衣装】ついに、天使になってしまったのかもしれません【#あまかみらいぶ / #ミリプロ 】
@@ -55,7 +63,7 @@ URL:https://milli-unishare.onrender.com/#watch=IcmQ_uC8h5I
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-2c321633@milli-orbis-portal.onrender.com
-DTSTAMP:20260823T081700Z
+DTSTAMP:20260823T121600Z
 DTSTART:20260830T120000Z
 DTEND:20260830T140000Z
 SUMMARY:【歌枠】みんなありがとう～50万人記念歌配信！【鹿乃まほろ/ミリプロ】
@@ -63,7 +71,7 @@ URL:https://milli-unishare.onrender.com/#watch=aH1DIRyDnfc
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-5c07abfe@milli-orbis-portal.onrender.com
-DTSTAMP:20260823T081700Z
+DTSTAMP:20260823T121600Z
 DTSTART:20260830T150000Z
 DTEND:20260830T170000Z
 SUMMARY:❥‬ゆらぎのメンバーシップ特典のまとめ🌙Yuragi Yura&#39\;s Membership 🫧※概要欄をチェック！
@@ -71,7 +79,7 @@ URL:https://milli-unishare.onrender.com/#watch=24ZLgKWtJ14
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-6ff67c75@milli-orbis-portal.onrender.com
-DTSTAMP:20260823T081700Z
+DTSTAMP:20260823T121600Z
 DTSTART:20260901T144500Z
 DTEND:20260901T164500Z
 SUMMARY:【告知】🎂誕生日記念グッズ販売中！
@@ -79,7 +87,7 @@ URL:https://milli-unishare.onrender.com/#watch=8F-C9ivtBnE
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-4a54b7d0@milli-orbis-portal.onrender.com
-DTSTAMP:20260823T081700Z
+DTSTAMP:20260823T121600Z
 DTSTART:20260902T140000Z
 DTEND:20260902T160000Z
 SUMMARY:【📢グッズ情報】ミリプロサマーコレクション2026受注開始！
@@ -87,7 +95,7 @@ URL:https://milli-unishare.onrender.com/#watch=8XDNCdSicJ8
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-cf4c73ba@milli-orbis-portal.onrender.com
-DTSTAMP:20260823T081700Z
+DTSTAMP:20260823T121600Z
 DTSTART:20260902T145900Z
 DTEND:20260902T165900Z
 SUMMARY:【📢グッズ告知】ミリプロ サマーコレクション 2026！
@@ -95,7 +103,7 @@ URL:https://milli-unishare.onrender.com/#watch=dHnc-b8UT34
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-4bc26d6b@milli-orbis-portal.onrender.com
-DTSTAMP:20260823T081700Z
+DTSTAMP:20260823T121600Z
 DTSTART:20260902T145900Z
 DTEND:20260902T165900Z
 SUMMARY:☁ミリプロ サマーコレクション 2026 受注受付中！🔧
@@ -103,7 +111,7 @@ URL:https://milli-unishare.onrender.com/#watch=RjOQyuyucgc
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-5b41e6d6@milli-orbis-portal.onrender.com
-DTSTAMP:20260823T081700Z
+DTSTAMP:20260823T121600Z
 DTSTART:20260905T120000Z
 DTEND:20260905T140000Z
 SUMMARY:【歌枠】やるぞ！うおお！┊︎#音ノ乃のの #ののん家
@@ -111,7 +119,7 @@ URL:https://milli-unishare.onrender.com/#watch=pKv7C5ZJTAw
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-5f87bbac@milli-orbis-portal.onrender.com
-DTSTAMP:20260823T081700Z
+DTSTAMP:20260823T121600Z
 DTSTART:20260908T145900Z
 DTEND:20260908T165900Z
 SUMMARY:【📢グッズ情報】1周年記念グッズが販売中✨
@@ -119,7 +127,7 @@ URL:https://milli-unishare.onrender.com/#watch=V_8Z9GWJRGE
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-be3776a9@milli-orbis-portal.onrender.com
-DTSTAMP:20260823T081700Z
+DTSTAMP:20260823T121600Z
 DTSTART:20260912T120000Z
 DTEND:20260912T140000Z
 SUMMARY:【歌枠】いんぐりっしゅよ～ん┊︎#音ノ乃のの #ののん家
@@ -127,7 +135,7 @@ URL:https://milli-unishare.onrender.com/#watch=YKE2uQ2XpX0
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-1f07f315@milli-orbis-portal.onrender.com
-DTSTAMP:20260823T081700Z
+DTSTAMP:20260823T121600Z
 DTSTART:20260922T150000Z
 DTEND:20260922T170000Z
 SUMMARY:【🌸グッズ情報】鹿乃まほろ加入記念グッズ🍓🦌
@@ -135,7 +143,7 @@ URL:https://milli-unishare.onrender.com/#watch=0PISw7uR4UU
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-d0cce4df@milli-orbis-portal.onrender.com
-DTSTAMP:20260823T081700Z
+DTSTAMP:20260823T121600Z
 DTSTART:20260924T133000Z
 DTEND:20260924T153000Z
 SUMMARY:🎤Million Production × カラオケBanBanグループ　コラボ開催！
@@ -143,15 +151,23 @@ URL:https://milli-unishare.onrender.com/#watch=mZl7QBu4ZlM
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-fa359caa@milli-orbis-portal.onrender.com
-DTSTAMP:20260823T081700Z
+DTSTAMP:20260823T121600Z
 DTSTART:20260924T144500Z
 DTEND:20260924T164500Z
 SUMMARY:【📢お知らせ】Million Production × カラオケBanBanグループ
 URL:https://milli-unishare.onrender.com/#watch=_kaShsLH0O8
 END:VEVENT
 BEGIN:VEVENT
+UID:milli-orbis-40fca9b@milli-orbis-portal.onrender.com
+DTSTAMP:20260823T121600Z
+DTSTART:20260925T070000Z
+DTEND:20260925T090000Z
+SUMMARY:【マイクラ肝試し2026】ホラーは任せなさい┊︎#音ノ乃のの #ののん家 #マイクラ肝試し2026
+URL:https://milli-unishare.onrender.com/#watch=2GU-VrNT16I
+END:VEVENT
+BEGIN:VEVENT
 UID:milli-orbis-e8183be9@milli-orbis-portal.onrender.com
-DTSTAMP:20260823T081700Z
+DTSTAMP:20260823T121600Z
 DTSTART:20260927T145900Z
 DTEND:20260927T165900Z
 SUMMARY:【📢出演告知】暴力的にカワイイ in お台場 “PSYQUI feat.音ノ乃のの” として出演❕
@@ -159,7 +175,7 @@ URL:https://milli-unishare.onrender.com/#watch=6Q0MOxYQjYk
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-912963cb@milli-orbis-portal.onrender.com
-DTSTAMP:20260823T081700Z
+DTSTAMP:20260823T121600Z
 DTSTART:20260930T143000Z
 DTEND:20260930T163000Z
 SUMMARY:【📢お知らせ】『甘狼このみと「好き」で学ぼう！中学英単語＆熟語1800』予約受付中！
@@ -167,7 +183,7 @@ URL:https://milli-unishare.onrender.com/#watch=M_IG20Hhx2M
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-1277183d@milli-orbis-portal.onrender.com
-DTSTAMP:20260823T081700Z
+DTSTAMP:20260823T121600Z
 DTSTART:20261010T145900Z
 DTEND:20261010T165900Z
 SUMMARY:【📢出演告知】音ノ乃のの渡韓します！
@@ -175,7 +191,7 @@ URL:https://milli-unishare.onrender.com/#watch=mABBk-9aZbw
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-6211c7a9@milli-orbis-portal.onrender.com
-DTSTAMP:20260823T081700Z
+DTSTAMP:20260823T121600Z
 DTSTART:20261031T143000Z
 DTEND:20261031T163000Z
 SUMMARY:⋆⸜  サマーストリートコレクションコレクショングッズ販売中🌻  ⸝⋆
@@ -183,7 +199,7 @@ URL:https://milli-unishare.onrender.com/#watch=OCDhtDgFVUU
 END:VEVENT
 BEGIN:VEVENT
 UID:milli-orbis-1352df82@milli-orbis-portal.onrender.com
-DTSTAMP:20260823T081700Z
+DTSTAMP:20260823T121600Z
 DTSTART:20261101T145900Z
 DTEND:20261101T165900Z
 SUMMARY:【📢お知らせ】Princess Viral』REMIXバージョンの制作が決定！

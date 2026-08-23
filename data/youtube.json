@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T08:15:10.296Z",
+  "updatedAt": "2026-08-23T12:14:00.248Z",
   "streams": [
     {
       "id": "F2IFCh1k9OA",
@@ -7,8 +7,17 @@
       "member": "音ノ瀬らこ",
       "title": "【歌枠】高評価7000耐久！達成したら告知！【音ノ瀬らこ /ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/F2IFCh1k9OA/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-23T10:30:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-08-23T10:31:28Z",
+      "status": "live"
+    },
+    {
+      "id": "le73KwJQN9E",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "【お絵描き】今日は、息抜きDayとします🎶【 #あまかみらいぶ / #ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/le73KwJQN9E/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-23T10:31:29Z",
+      "status": "live"
     },
     {
       "id": "ZuklosiIA0A",
@@ -16,7 +25,7 @@
       "member": "鹿乃まほろ",
       "title": "【雑談】初配信ありがとうございましたヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/ZuklosiIA0A/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-23T12:00:00Z",
+      "scheduledStartTime": "2026-08-23T12:35:00Z",
       "status": "upcoming"
     },
     {
@@ -188,6 +197,15 @@
       "status": "upcoming"
     },
     {
+      "id": "2GU-VrNT16I",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【マイクラ肝試し2026】ホラーは任せなさい┊︎#音ノ乃のの #ののん家 #マイクラ肝試し2026",
+      "thumb": "https://i.ytimg.com/vi/2GU-VrNT16I/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-25T07:00:00Z",
+      "status": "upcoming"
+    },
+    {
       "id": "6Q0MOxYQjYk",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -241,6 +259,96 @@
   ],
   "videos": [
     {
+      "id": "ZKziA4Tu-rM",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【歌枠】歌ってみたが出るらしい【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ZKziA4Tu-rM/hqdefault.jpg",
+      "publishedAt": "2026-08-23T12:07:44Z",
+      "live": false
+    },
+    {
+      "id": "4YNtwk_YR_0",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "Femme Fatale／小廻こま × 眠雲ツクリ × 雨夜リズ（cover）",
+      "thumb": "https://i.ytimg.com/vi/4YNtwk_YR_0/hqdefault.jpg",
+      "publishedAt": "2026-08-23T12:00:06Z",
+      "live": false
+    },
+    {
+      "id": "le73KwJQN9E",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【お絵描き】今日は、息抜きDayとします🎶【 #あまかみらいぶ / #ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/le73KwJQN9E/hqdefault_live.jpg",
+      "publishedAt": "2026-08-23T10:31:29Z",
+      "live": false
+    },
+    {
+      "id": "F2IFCh1k9OA",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【歌枠】高評価7000耐久！達成したら告知！【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/F2IFCh1k9OA/hqdefault_live.jpg",
+      "publishedAt": "2026-08-23T10:31:28Z",
+      "live": false
+    },
+    {
+      "id": "QID-cK9__vg",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【VLOG】沖縄で人生最高のアクティビティを体験したら面白すぎたｗｗｗ【#ミリプロサマー2026】",
+      "thumb": "https://i.ytimg.com/vi/QID-cK9__vg/hqdefault.jpg",
+      "publishedAt": "2026-08-23T10:00:06Z",
+      "live": false
+    },
+    {
+      "id": "2GU-VrNT16I",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【マイクラ肝試し2026】ホラーは任せなさい┊︎#音ノ乃のの #ののん家 #マイクラ肝試し2026",
+      "thumb": "https://i.ytimg.com/vi/2GU-VrNT16I/hqdefault_live.jpg",
+      "publishedAt": "2026-08-23T09:24:08Z",
+      "live": false
+    },
+    {
+      "id": "ucw8Enep_6M",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "「ヴァンパイア」全員ヤバい奴で合唱してみた！【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ucw8Enep_6M/hqdefault.jpg",
+      "publishedAt": "2026-08-23T09:00:30Z",
+      "live": false
+    },
+    {
+      "id": "mPg0JNkmn94",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】当てはまったら降りるゲーム！！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/mPg0JNkmn94/hqdefault.jpg",
+      "publishedAt": "2026-08-23T09:00:21Z",
+      "live": false
+    },
+    {
+      "id": "rCJmMy1WJt8",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "『神っぽいな』ヤバい奴いても合唱にしたらいい感じになる説【夕霧レイ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/rCJmMy1WJt8/hqdefault.jpg",
+      "publishedAt": "2026-08-23T09:00:11Z",
+      "live": false
+    },
+    {
       "id": "sA7R-yScY50",
       "memberId": "koma",
       "member": "小廻こま",
@@ -278,16 +386,6 @@
       "title": "【飲酒】酒飲む前におつまみ2袋食べちゃった【ゆらぎゆら/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/4PLABRhPfXI/hqdefault.jpg",
       "publishedAt": "2026-08-22T17:04:50Z",
-      "live": false
-    },
-    {
-      "id": "F2IFCh1k9OA",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【歌枠】高評価7000耐久！達成したら告知！【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/F2IFCh1k9OA/hqdefault_live.jpg",
-      "publishedAt": "2026-08-22T14:17:07Z",
       "live": false
     },
     {
@@ -451,16 +549,6 @@
       "live": false
     },
     {
-      "id": "E_DAFCbFGzs",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "音ノ乃のの Special Live Performance【YouTube Music Weekend 12.0】",
-      "thumb": "https://i.ytimg.com/vi/E_DAFCbFGzs/hqdefault.jpg",
-      "publishedAt": "2026-08-21T09:30:06Z",
-      "live": false
-    },
-    {
       "id": "MicPstrpcLQ",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -469,77 +557,26 @@
       "thumb": "https://i.ytimg.com/vi/MicPstrpcLQ/hqdefault.jpg",
       "publishedAt": "2026-08-21T09:02:25Z",
       "live": false
-    },
-    {
-      "id": "Nw2BlfLD4vQ",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】マグマ2択チャレンジ！迫るマグマにパニック!?【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Nw2BlfLD4vQ/hqdefault.jpg",
-      "publishedAt": "2026-08-21T09:00:28Z",
-      "live": false
-    },
-    {
-      "id": "NqLiTA2so-I",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "オリジナル楽曲『ルミナス』3DのGB素材✨️#ルミナス_音ノ瀬らこ",
-      "thumb": "https://i.ytimg.com/vi/NqLiTA2so-I/hqdefault.jpg",
-      "publishedAt": "2026-08-21T09:00:15Z",
-      "live": false
-    },
-    {
-      "id": "NpXRWuHalnc",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【病み曲】『メンヘラ楽曲メドレー』歌ってみた【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/NpXRWuHalnc/hqdefault.jpg",
-      "publishedAt": "2026-08-21T09:00:12Z",
-      "live": false
-    },
-    {
-      "id": "3S_ogcNEdZM",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "謎のポーション #マイクラ",
-      "thumb": "https://i.ytimg.com/vi/3S_ogcNEdZM/hqdefault.jpg",
-      "publishedAt": "2026-08-21T07:00:34Z",
-      "live": false
-    },
-    {
-      "id": "Vr_f7y9YtTQ",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "？？？？ / 音ノ瀬らこ (cover)",
-      "thumb": "https://i.ytimg.com/vi/Vr_f7y9YtTQ/hqdefault.jpg",
-      "publishedAt": "2026-08-21T03:41:57Z",
-      "live": false
-    },
-    {
-      "id": "LMZAFBU34iI",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 Minecraft 〗クリアで告知!?最終回迎えられる、のか？#3〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/LMZAFBU34iI/hqdefault.jpg",
-      "publishedAt": "2026-08-20T18:43:38Z",
-      "live": false
-    },
-    {
-      "id": "aRY8oq9fQTY",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 黄昏の森 】クリアで告知!?最終決戦は目の前だ#3【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/aRY8oq9fQTY/hqdefault.jpg",
-      "publishedAt": "2026-08-20T18:42:31Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "F2IFCh1k9OA",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "title": "【歌枠】高評価7000耐久！達成したら告知！【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/F2IFCh1k9OA/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-23T10:31:28Z",
+      "status": "live"
+    },
+    {
+      "id": "le73KwJQN9E",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "【お絵描き】今日は、息抜きDayとします🎶【 #あまかみらいぶ / #ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/le73KwJQN9E/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-23T10:31:29Z",
+      "status": "live"
+    }
+  ]
 }

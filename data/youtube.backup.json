@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T04:25:04.124Z",
+  "updatedAt": "2026-08-23T08:15:10.296Z",
   "streams": [
     {
       "id": "F2IFCh1k9OA",
@@ -8,6 +8,15 @@
       "title": "【歌枠】高評価7000耐久！達成したら告知！【音ノ瀬らこ /ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/F2IFCh1k9OA/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-23T10:30:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "ZuklosiIA0A",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【雑談】初配信ありがとうございましたヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ZuklosiIA0A/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-23T12:00:00Z",
       "status": "upcoming"
     },
     {
@@ -53,6 +62,15 @@
       "title": "【#甘狼このみ新衣装】ついに、天使になってしまったのかもしれません【#あまかみらいぶ / #ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/IcmQ_uC8h5I/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-28T10:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "aH1DIRyDnfc",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【歌枠】みんなありがとう～50万人記念歌配信！【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/aH1DIRyDnfc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-30T12:00:00Z",
       "status": "upcoming"
     },
     {
@@ -137,6 +155,15 @@
       "title": "【歌枠】いんぐりっしゅよ～ん┊︎#音ノ乃のの #ののん家",
       "thumb": "https://i.ytimg.com/vi/YKE2uQ2XpX0/hqdefault_live.jpg",
       "scheduledStartTime": "2026-09-12T12:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "0PISw7uR4UU",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【🌸グッズ情報】鹿乃まほろ加入記念グッズ🍓🦌",
+      "thumb": "https://i.ytimg.com/vi/0PISw7uR4UU/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-22T15:00:00Z",
       "status": "upcoming"
     },
     {

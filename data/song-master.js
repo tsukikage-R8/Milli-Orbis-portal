@@ -90,10 +90,13 @@ window.SONG_MASTER = {
       }
     },
     "点描の唄mrs.greenapple": {
-      "title": "点描の唄 (feat. 井上苑子)",
-      "artist": "Mrs. GREEN APPLE",
-      "album": "青と夏 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/34/27/08/3427087f-2d39-4847-9b19-052dd3589014/18UMGIM36633.rgb.jpg/600x600bb.jpg"
+      "title": "点描の唄",
+      "artist": "石崎ひゅーい",
+      "album": "night milk",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/77/9c/8e779cb1-6db7-e22b-5eda-aa827cb48e38/4547366719338.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Pointillist song"
+      }
     },
     "シスラブ＆": {
       "title": "水曜日の約束",
@@ -1140,10 +1143,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/c6/f9/e6/c6f9e687-9fd0-5e42-dea9-e99f47389896/KRHS-37260_Pfeat_GloriousWo.jpg/600x600bb.jpg"
     },
     "チェリポップ.": {
-      "title": "メランコリーキッチン",
-      "artist": "米津玄師",
-      "album": "YANKEE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg"
+      "title": "Can't You See Me?",
+      "artist": "TOMORROW X TOGETHER",
+      "album": "The Dream Chapter: ETERNITY - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/58/11/b1/5811b15d-6c29-c30f-3495-10ef21365008/20UMGIM36654.rgb.jpg/600x600bb.jpg"
     },
     "glowacoustic.": {
       "title": "春に落ちて",
@@ -1563,10 +1566,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/39/33/1a/39331a3d-a1e5-f1e8-904e-8be6438e13a3/20UM1IM05202.rgb.jpg/600x600bb.jpg"
     },
     "サディスティックラブいました": {
-      "title": "ロマンティックいか焼き",
-      "artist": "乃木坂46",
-      "album": "君の名は希望 TypeA - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/7d/dd/43/7ddd4350-cf79-9a75-e00d-8ddc662dae61/jacket_SRXX01035B00Z_550.jpg/600x600bb.jpg"
+      "title": "声をきかせて",
+      "artist": "BIGBANG",
+      "album": "声をきかせて - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/92/e9/a592e9a6-333c-b96b-a14b-55c683580a2b/00044002457172.rgb.jpg/600x600bb.jpg"
     },
     "ワルドコリングいました": {
       "title": "from the edge (feat. LiSA)",
@@ -1861,9 +1864,9 @@ window.SONG_MASTER = {
     },
     "名言": {
       "title": "名言",
-      "artist": "ムーズムズ",
-      "album": "Flashing Magic",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/43/43/e5434398-c661-4d88-dab2-db7b33c58d59/4538182538401_cov.jpg/600x600bb.jpg",
+      "artist": "銀河草莓May",
+      "album": "名言 - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/93/57/0793572d-35e2-6bfb-0d3c-19d8328d33f7/4711499306493.jpg/600x600bb.jpg",
       "en": {
         "title": "Famous saying"
       }
