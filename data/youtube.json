@@ -1,69 +1,6 @@
 {
-  "updatedAt": "2026-08-23T12:14:00.248Z",
+  "updatedAt": "2026-08-23T16:10:06.410Z",
   "streams": [
-    {
-      "id": "F2IFCh1k9OA",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【歌枠】高評価7000耐久！達成したら告知！【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/F2IFCh1k9OA/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-23T10:31:28Z",
-      "status": "live"
-    },
-    {
-      "id": "le73KwJQN9E",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【お絵描き】今日は、息抜きDayとします🎶【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/le73KwJQN9E/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-23T10:31:29Z",
-      "status": "live"
-    },
-    {
-      "id": "ZuklosiIA0A",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【雑談】初配信ありがとうございましたヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ZuklosiIA0A/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-23T12:35:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "nElUBc_Ji-Y",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【📢グッズ情報】ミリプロストリートコレクション受注開始！",
-      "thumb": "https://i.ytimg.com/vi/nElUBc_Ji-Y/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-23T14:00:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[📢Goods information] Millipro Street Collection orders now available!"
-      }
-    },
-    {
-      "id": "8zRJYa59A60",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "☁ファンミーティング 一般販売決定🔧",
-      "thumb": "https://i.ytimg.com/vi/8zRJYa59A60/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-23T14:59:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "☁ Fan meeting general sale decided 🔧"
-      }
-    },
-    {
-      "id": "FQUAaVHIEEo",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "☁ストリートコレクション 2026 受注受付中！ 🔧",
-      "thumb": "https://i.ytimg.com/vi/FQUAaVHIEEo/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-23T14:59:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "☁Street Collection 2026 now accepting orders! 🔧"
-      }
-    },
     {
       "id": "IcmQ_uC8h5I",
       "memberId": "konomi",
@@ -227,6 +164,15 @@
       }
     },
     {
+      "id": "sNJXQzJShuA",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "title": "【📢イラスト技法書発売決定】現在予約販売中です！✨",
+      "thumb": "https://i.ytimg.com/vi/sNJXQzJShuA/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-05T14:25:00Z",
+      "status": "upcoming"
+    },
+    {
       "id": "mABBk-9aZbw",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -259,6 +205,56 @@
   ],
   "videos": [
     {
+      "id": "F2IFCh1k9OA",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【歌枠】高評価7000耐久！達成したら告知！【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/F2IFCh1k9OA/hqdefault.jpg",
+      "publishedAt": "2026-08-23T15:10:29Z",
+      "live": false
+    },
+    {
+      "id": "sNJXQzJShuA",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【📢イラスト技法書発売決定】現在予約販売中です！✨",
+      "thumb": "https://i.ytimg.com/vi/sNJXQzJShuA/hqdefault_live.jpg",
+      "publishedAt": "2026-08-23T14:26:15Z",
+      "live": false
+    },
+    {
+      "id": "ZuklosiIA0A",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【雑談】初配信ありがとうございましたヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ZuklosiIA0A/hqdefault.jpg",
+      "publishedAt": "2026-08-23T14:09:17Z",
+      "live": true
+    },
+    {
+      "id": "Dn2GGmOHKak",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "気分上々↑↑／小廻こま × 眠雲ツクリ × 雨夜リズ（cover）",
+      "thumb": "https://i.ytimg.com/vi/Dn2GGmOHKak/hqdefault.jpg",
+      "publishedAt": "2026-08-23T12:30:07Z",
+      "live": false
+    },
+    {
+      "id": "C8T1Iw-mqb4",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "Ready Steady - Giga covered by 雨夜リズ × 小廻こま × 眠雲ツクリ",
+      "thumb": "https://i.ytimg.com/vi/C8T1Iw-mqb4/hqdefault.jpg",
+      "publishedAt": "2026-08-23T12:15:06Z",
+      "live": false
+    },
+    {
       "id": "ZKziA4Tu-rM",
       "memberId": "liz",
       "member": "雨夜リズ",
@@ -276,26 +272,6 @@
       "title": "Femme Fatale／小廻こま × 眠雲ツクリ × 雨夜リズ（cover）",
       "thumb": "https://i.ytimg.com/vi/4YNtwk_YR_0/hqdefault.jpg",
       "publishedAt": "2026-08-23T12:00:06Z",
-      "live": false
-    },
-    {
-      "id": "le73KwJQN9E",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【お絵描き】今日は、息抜きDayとします🎶【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/le73KwJQN9E/hqdefault_live.jpg",
-      "publishedAt": "2026-08-23T10:31:29Z",
-      "live": false
-    },
-    {
-      "id": "F2IFCh1k9OA",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【歌枠】高評価7000耐久！達成したら告知！【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/F2IFCh1k9OA/hqdefault_live.jpg",
-      "publishedAt": "2026-08-23T10:31:28Z",
       "live": false
     },
     {
@@ -367,16 +343,6 @@
       "thumb": "https://i.ytimg.com/vi/0PISw7uR4UU/hqdefault_live.jpg",
       "publishedAt": "2026-08-23T02:44:24Z",
       "live": false
-    },
-    {
-      "id": "ZuklosiIA0A",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【雑談】初配信ありがとうございましたヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ZuklosiIA0A/hqdefault_live.jpg",
-      "publishedAt": "2026-08-23T02:23:48Z",
-      "live": true
     },
     {
       "id": "4PLABRhPfXI",
@@ -537,46 +503,7 @@
       "thumb": "https://i.ytimg.com/vi/XGjct-9Lvyc/hqdefault.jpg",
       "publishedAt": "2026-08-21T14:08:14Z",
       "live": false
-    },
-    {
-      "id": "621K-5_WPVA",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "イケナイ太陽 / ミリプロ (Cover)",
-      "thumb": "https://i.ytimg.com/vi/621K-5_WPVA/hqdefault.jpg",
-      "publishedAt": "2026-08-21T11:00:07Z",
-      "live": false
-    },
-    {
-      "id": "MicPstrpcLQ",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "幸せになってね😉【眠雲ツクリ/ミリプロ】#分かっちゃいないね #歌ってみた #vtuber",
-      "thumb": "https://i.ytimg.com/vi/MicPstrpcLQ/hqdefault.jpg",
-      "publishedAt": "2026-08-21T09:02:25Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "F2IFCh1k9OA",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【歌枠】高評価7000耐久！達成したら告知！【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/F2IFCh1k9OA/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-23T10:31:28Z",
-      "status": "live"
-    },
-    {
-      "id": "le73KwJQN9E",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【お絵描き】今日は、息抜きDayとします🎶【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/le73KwJQN9E/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-23T10:31:29Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }

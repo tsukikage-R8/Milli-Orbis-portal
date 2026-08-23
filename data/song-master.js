@@ -2,6 +2,30 @@
 window.SONG_MASTER = {
   "generatedAt": "2026-08-23",
   "songs": {
+    "気分上々↑↑": {
+      "title": "115万キロのフィルム",
+      "artist": "Official髭男dism",
+      "album": "エスカパレード",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/e8/2d/40e82dfb-55b4-7016-1127-357ab78d3f7f/jk.jpg/600x600bb.jpg",
+      "en": {
+        "title": "1.15 million kilometers of film"
+      }
+    },
+    "readysteady-giga": {
+      "title": "Ready Steady (Instrumental)",
+      "artist": "Giga",
+      "album": "Ready Steady (feat. 初音ミク, 鏡音リン, 鏡音レン) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/81/50/62/815062a0-6414-169e-a684-6ad01c081c9f/195497315376.jpg/600x600bb.jpg"
+    },
+    "femmefatale": {
+      "title": "115万キロのフィルム",
+      "artist": "Official髭男dism",
+      "album": "エスカパレード",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/e8/2d/40e82dfb-55b4-7016-1127-357ab78d3f7f/jk.jpg/600x600bb.jpg",
+      "en": {
+        "title": "1.15 million kilometers of film"
+      }
+    },
     "イケナイ太陽": {
       "title": "イケナイ太陽",
       "artist": "ORANGE RANGE",
@@ -90,13 +114,10 @@ window.SONG_MASTER = {
       }
     },
     "点描の唄mrs.greenapple": {
-      "title": "点描の唄",
-      "artist": "石崎ひゅーい",
-      "album": "night milk",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/77/9c/8e779cb1-6db7-e22b-5eda-aa827cb48e38/4547366719338.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Pointillist song"
-      }
+      "title": "点描の唄 (feat. 井上苑子)",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "青と夏 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/34/27/08/3427087f-2d39-4847-9b19-052dd3589014/18UMGIM36633.rgb.jpg/600x600bb.jpg"
     },
     "シスラブ＆": {
       "title": "水曜日の約束",
@@ -465,10 +486,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "恋のスーパーボール",
-      "artist": "aiko",
-      "album": "時のシルエット",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/b5/19/5b/b5195b36-a3f6-c92b-bc50-5abfca0ded58/dj.ieadmwsc.jpg/600x600bb.jpg"
+      "title": "ツバメ (feat. ミドリーズ)",
+      "artist": "YOASOBI",
+      "album": "ツバメ (feat. ミドリーズ) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg"
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -604,9 +625,9 @@ window.SONG_MASTER = {
     },
     "メンタルチェンソ": {
       "title": "メンタルチェンソー",
-      "artist": "かいりきベア",
-      "album": "バグエフェクト",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3d/6d/3d/3d6d3d46-9361-9a4f-4916-c6f31109d456/4550714315878_cover.png/600x600bb.jpg",
+      "artist": "P丸様。",
+      "album": "Sunny!!",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a9/57/ab/a957abfc-fd6b-c3ec-3db2-15d2c46d2328/21UMGIM13559.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "mental chainsaw"
       }
@@ -1028,15 +1049,6 @@ window.SONG_MASTER = {
         "title": "A faint flower"
       }
     },
-    "気分上々↑↑": {
-      "title": "115万キロのフィルム",
-      "artist": "Official髭男dism",
-      "album": "エスカパレード",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/e8/2d/40e82dfb-55b4-7016-1127-357ab78d3f7f/jk.jpg/600x600bb.jpg",
-      "en": {
-        "title": "1.15 million kilometers of film"
-      }
-    },
     "恋するフォチュンクッキ＆あつまる＆ぴこぴこぐらむ＆ほし": {
       "title": "恋するフォーチュンクッキー",
       "artist": "AKB48",
@@ -1077,15 +1089,6 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/41/50/36/4150366d-bfed-4237-3942-36b562d21c6a/198704412271_Cover.jpg/600x600bb.jpg",
       "en": {
         "title": "Bonapeite♡S (Cover)"
-      }
-    },
-    "femmefatale": {
-      "title": "115万キロのフィルム",
-      "artist": "Official髭男dism",
-      "album": "エスカパレード",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/e8/2d/40e82dfb-55b4-7016-1127-357ab78d3f7f/jk.jpg/600x600bb.jpg",
-      "en": {
-        "title": "1.15 million kilometers of film"
       }
     },
     "tiger-hana": {
@@ -1143,10 +1146,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/c6/f9/e6/c6f9e687-9fd0-5e42-dea9-e99f47389896/KRHS-37260_Pfeat_GloriousWo.jpg/600x600bb.jpg"
     },
     "チェリポップ.": {
-      "title": "Can't You See Me?",
+      "title": "Stick With You",
       "artist": "TOMORROW X TOGETHER",
-      "album": "The Dream Chapter: ETERNITY - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/58/11/b1/5811b15d-6c29-c30f-3495-10ef21365008/20UMGIM36654.rgb.jpg/600x600bb.jpg"
+      "album": "7TH YEAR: A Moment of Stillness in the Thorns - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ec/58/93/ec589377-1a12-c92f-dc42-777ddc1cc583/26UMGIM43336.rgb.jpg/600x600bb.jpg"
     },
     "glowacoustic.": {
       "title": "春に落ちて",
@@ -1864,9 +1867,9 @@ window.SONG_MASTER = {
     },
     "名言": {
       "title": "名言",
-      "artist": "銀河草莓May",
-      "album": "名言 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/93/57/0793572d-35e2-6bfb-0d3c-19d8328d33f7/4711499306493.jpg/600x600bb.jpg",
+      "artist": "ムーズムズ",
+      "album": "Flashing Magic",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/43/43/e5434398-c661-4d88-dab2-db7b33c58d59/4538182538401_cov.jpg/600x600bb.jpg",
       "en": {
         "title": "Famous saying"
       }

@@ -29,7 +29,7 @@ window.KARAOKE = [
     "memberId": "raco",
     "publishedAt": "2026-08-22",
     "title": "【歌枠】高評価7000耐久！達成したら告知！【音ノ瀬らこ /ミリプロ】",
-    "duration": 0,
+    "duration": 16169,
     "songs": []
   },
   {

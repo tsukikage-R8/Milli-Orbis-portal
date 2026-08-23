@@ -374,6 +374,69 @@ window.SONGS = {
   ],
   "covers": [
     {
+      "title": "気分上々↑↑／小廻こま × 眠雲ツクリ × 雨夜リズ（cover）",
+      "key": "気分上々↑↑",
+      "urls": [
+        {
+          "id": "Dn2GGmOHKak",
+          "memberId": "koma",
+          "publishedAt": "2026-08-23"
+        },
+        {
+          "id": "Dn2GGmOHKak",
+          "memberId": "liz",
+          "publishedAt": "2026-08-23"
+        },
+        {
+          "id": "Dn2GGmOHKak",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-08-23"
+        }
+      ]
+    },
+    {
+      "title": "Ready Steady - Giga",
+      "key": "readysteady-giga",
+      "urls": [
+        {
+          "id": "C8T1Iw-mqb4",
+          "memberId": "koma",
+          "publishedAt": "2026-08-23"
+        },
+        {
+          "id": "C8T1Iw-mqb4",
+          "memberId": "liz",
+          "publishedAt": "2026-08-23"
+        },
+        {
+          "id": "C8T1Iw-mqb4",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-08-23"
+        }
+      ]
+    },
+    {
+      "title": "Femme Fatale／小廻こま × 眠雲ツクリ × 雨夜リズ（cover）",
+      "key": "femmefatale",
+      "urls": [
+        {
+          "id": "4YNtwk_YR_0",
+          "memberId": "koma",
+          "publishedAt": "2026-08-23"
+        },
+        {
+          "id": "4YNtwk_YR_0",
+          "memberId": "liz",
+          "publishedAt": "2026-08-23"
+        },
+        {
+          "id": "4YNtwk_YR_0",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-08-23"
+        }
+      ]
+    },
+    {
       "title": "ハロ/ハワユ - 鹿乃まほろ cover.",
       "key": "ハロハワユ-.",
       "urls": [
@@ -2490,27 +2553,6 @@ window.SONGS = {
       }
     },
     {
-      "title": "気分上々↑↑／小廻こま × 眠雲ツクリ × 雨夜リズ（cover）",
-      "key": "気分上々↑↑",
-      "urls": [
-        {
-          "id": "Dn2GGmOHKak",
-          "memberId": "koma",
-          "publishedAt": "2026-08-20"
-        },
-        {
-          "id": "Dn2GGmOHKak",
-          "memberId": "liz",
-          "publishedAt": "2026-08-20"
-        },
-        {
-          "id": "Dn2GGmOHKak",
-          "memberId": "tsukuri",
-          "publishedAt": "2026-08-20"
-        }
-      ]
-    },
-    {
       "title": "恋するフォーチュンクッキー",
       "key": "恋するフォチュンクッキ＆あつまる＆ぴこぴこぐらむ＆ほし",
       "urls": [
@@ -2576,27 +2618,6 @@ window.SONGS = {
       "en": {
         "title": "Bonapeite♡S / Blend A"
       }
-    },
-    {
-      "title": "Femme Fatale／小廻こま × 眠雲ツクリ × 雨夜リズ（cover）",
-      "key": "femmefatale",
-      "urls": [
-        {
-          "id": "4YNtwk_YR_0",
-          "memberId": "koma",
-          "publishedAt": "2026-08-20"
-        },
-        {
-          "id": "4YNtwk_YR_0",
-          "memberId": "liz",
-          "publishedAt": "2026-08-20"
-        },
-        {
-          "id": "4YNtwk_YR_0",
-          "memberId": "tsukuri",
-          "publishedAt": "2026-08-20"
-        }
-      ]
     },
     {
       "title": "Tiger  -  HANA",
