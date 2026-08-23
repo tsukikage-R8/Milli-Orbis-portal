@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T20:09:00.792Z",
+  "updatedAt": "2026-08-23T00:31:27.035Z",
   "streams": [
     {
       "id": "sA7R-yScY50",
@@ -32,18 +32,6 @@
       }
     },
     {
-      "id": "8zRJYa59A60",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "☁ファンミーティング 一般販売決定🔧",
-      "thumb": "https://i.ytimg.com/vi/8zRJYa59A60/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-23T14:59:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "☁ Fan meeting general sale decided 🔧"
-      }
-    },
-    {
       "id": "FQUAaVHIEEo",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -53,6 +41,18 @@
       "status": "upcoming",
       "en": {
         "title": "☁Street Collection 2026 now accepting orders! 🔧"
+      }
+    },
+    {
+      "id": "8zRJYa59A60",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "☁ファンミーティング 一般販売決定🔧",
+      "thumb": "https://i.ytimg.com/vi/8zRJYa59A60/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-23T14:59:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "☁ Fan meeting general sale decided 🔧"
       }
     },
     {
@@ -98,15 +98,6 @@
       }
     },
     {
-      "id": "dHnc-b8UT34",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【📢グッズ告知】ミリプロ サマーコレクション 2026！",
-      "thumb": "https://i.ytimg.com/vi/dHnc-b8UT34/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-02T14:59:00Z",
-      "status": "upcoming"
-    },
-    {
       "id": "RjOQyuyucgc",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -117,6 +108,15 @@
       "en": {
         "title": "☁ Millipro Summer Collection 2026 now accepting orders! 🔧"
       }
+    },
+    {
+      "id": "dHnc-b8UT34",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【📢グッズ告知】ミリプロ サマーコレクション 2026！",
+      "thumb": "https://i.ytimg.com/vi/dHnc-b8UT34/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-02T14:59:00Z",
+      "status": "upcoming"
     },
     {
       "id": "pKv7C5ZJTAw",

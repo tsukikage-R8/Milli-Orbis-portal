@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-08-22",
+  "generatedAt": "2026-08-23",
   "songs": {
     "イケナイ太陽": {
       "title": "イケナイ太陽",
@@ -96,13 +96,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/34/27/08/3427087f-2d39-4847-9b19-052dd3589014/18UMGIM36633.rgb.jpg/600x600bb.jpg"
     },
     "シスラブ＆": {
-      "title": "シス×ラブ",
-      "artist": "Kureiji Ollie & アーニャ・メルフィッサ",
-      "album": "ほろはにヶ丘高校 -Covers-",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/11/0d/96/110d962f-5d25-c552-ebd8-dd750e48af36/4582729912438_art.png/600x600bb.jpg",
-      "en": {
-        "title": "Sis x Love"
-      }
+      "title": "水曜日の約束",
+      "artist": "Gero",
+      "album": "TOKYO HAZE",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0d/a9/e1/0da9e172-47a2-23ca-4e76-4f3ce85b6ba9/5021732654755.jpg/600x600bb.jpg"
     },
     "花女花譜": {
       "title": "花女",
@@ -432,10 +429,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "蝶々結び",
+      "title": "StarRingChild",
       "artist": "Aimer",
-      "album": "蝶々結び - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg"
+      "album": "Midnight Sun",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cf/4d/09/cf4d09ff-c6e8-0964-d493-cf0841a9216a/4560429727163.jpg/600x600bb.jpg"
     },
     "-error-niki": {
       "title": "-ERROR (feat. Kradness)",
@@ -1566,10 +1563,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/39/33/1a/39331a3d-a1e5-f1e8-904e-8be6438e13a3/20UM1IM05202.rgb.jpg/600x600bb.jpg"
     },
     "サディスティックラブいました": {
-      "title": "ロマンティックいか焼き",
-      "artist": "乃木坂46",
-      "album": "君の名は希望 TypeA - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/7d/dd/43/7ddd4350-cf79-9a75-e00d-8ddc662dae61/jacket_SRXX01035B00Z_550.jpg/600x600bb.jpg"
+      "title": "声をきかせて",
+      "artist": "BIGBANG",
+      "album": "声をきかせて - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/92/e9/a592e9a6-333c-b96b-a14b-55c683580a2b/00044002457172.rgb.jpg/600x600bb.jpg"
     },
     "ワルドコリングいました": {
       "title": "from the edge (feat. LiSA)",
