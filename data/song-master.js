@@ -1867,9 +1867,9 @@ window.SONG_MASTER = {
     },
     "名言": {
       "title": "名言",
-      "artist": "銀河草莓May",
-      "album": "名言 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/93/57/0793572d-35e2-6bfb-0d3c-19d8328d33f7/4711499306493.jpg/600x600bb.jpg",
+      "artist": "ムーズムズ",
+      "album": "Flashing Magic",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/43/43/e5434398-c661-4d88-dab2-db7b33c58d59/4538182538401_cov.jpg/600x600bb.jpg",
       "en": {
         "title": "Famous saying"
       }
