@@ -120,10 +120,13 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/34/27/08/3427087f-2d39-4847-9b19-052dd3589014/18UMGIM36633.rgb.jpg/600x600bb.jpg"
     },
     "シスラブ＆": {
-      "title": "水曜日の約束",
-      "artist": "Gero",
-      "album": "TOKYO HAZE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0d/a9/e1/0da9e172-47a2-23ca-4e76-4f3ce85b6ba9/5021732654755.jpg/600x600bb.jpg"
+      "title": "シス×ラブ",
+      "artist": "Kureiji Ollie & アーニャ・メルフィッサ",
+      "album": "ほろはにヶ丘高校 -Covers-",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/11/0d/96/110d962f-5d25-c552-ebd8-dd750e48af36/4582729912438_art.png/600x600bb.jpg",
+      "en": {
+        "title": "Sis x Love"
+      }
     },
     "花女花譜": {
       "title": "花女",
