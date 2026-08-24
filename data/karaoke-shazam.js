@@ -19,22 +19,22 @@ window.KARAOKE_SHAZAM = {
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: Expecting value: line 2 column 1 (char 1) / https://pi"
   },
   "BaTCxD0c_q0": {
-    "status": "error",
-    "attempts": 4,
-    "attemptedAt": "2026-08-24T05:06:01.523112+00:00",
+    "status": "skip",
+    "attempts": 5,
+    "attemptedAt": "2026-08-24T09:05:17.077031+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: Expecting value: line 2 column 1 (char 1) / https://pi"
   },
   "ghXTTcqN6Ok": {
     "status": "error",
-    "attempts": 3,
-    "attemptedAt": "2026-08-24T05:06:11.132157+00:00",
+    "attempts": 4,
+    "attemptedAt": "2026-08-24T09:05:27.078927+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: Expecting value: line 2 column 1 (char 1) / https://pi"
   },
   "n0zn1mfG078": {
-    "status": "skip",
-    "attempts": 5,
-    "attemptedAt": "2026-08-16T21:19:42.451018+00:00",
-    "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ss"
+    "status": "error",
+    "attempts": 1,
+    "attemptedAt": "2026-08-24T09:05:36.885551+00:00",
+    "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: Expecting value: line 2 column 1 (char 1) / https://pi"
   },
   "o0kE3JhM6NA": {
     "status": "skip",
