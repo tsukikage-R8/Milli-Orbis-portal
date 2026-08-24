@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T20:08:21.140Z",
+  "updatedAt": "2026-08-24T00:30:57.964Z",
   "streams": [
     {
       "id": "IcmQ_uC8h5I",
@@ -53,15 +53,6 @@
       }
     },
     {
-      "id": "dHnc-b8UT34",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【📢グッズ告知】ミリプロ サマーコレクション 2026！",
-      "thumb": "https://i.ytimg.com/vi/dHnc-b8UT34/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-02T14:59:00Z",
-      "status": "upcoming"
-    },
-    {
       "id": "RjOQyuyucgc",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -72,6 +63,15 @@
       "en": {
         "title": "☁ Millipro Summer Collection 2026 now accepting orders! 🔧"
       }
+    },
+    {
+      "id": "dHnc-b8UT34",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【📢グッズ告知】ミリプロ サマーコレクション 2026！",
+      "thumb": "https://i.ytimg.com/vi/dHnc-b8UT34/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-02T14:59:00Z",
+      "status": "upcoming"
     },
     {
       "id": "pKv7C5ZJTAw",

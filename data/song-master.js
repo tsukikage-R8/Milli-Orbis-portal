@@ -486,10 +486,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "恋のスーパーボール",
-      "artist": "aiko",
-      "album": "時のシルエット",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/b5/19/5b/b5195b36-a3f6-c92b-bc50-5abfca0ded58/dj.ieadmwsc.jpg/600x600bb.jpg"
+      "title": "ツバメ (feat. ミドリーズ)",
+      "artist": "YOASOBI",
+      "album": "ツバメ (feat. ミドリーズ) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg"
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -625,9 +625,9 @@ window.SONG_MASTER = {
     },
     "メンタルチェンソ": {
       "title": "メンタルチェンソー",
-      "artist": "かいりきベア",
-      "album": "バグエフェクト",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3d/6d/3d/3d6d3d46-9361-9a4f-4916-c6f31109d456/4550714315878_cover.png/600x600bb.jpg",
+      "artist": "P丸様。",
+      "album": "Sunny!!",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a9/57/ab/a957abfc-fd6b-c3ec-3db2-15d2c46d2328/21UMGIM13559.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "mental chainsaw"
       }
@@ -1867,9 +1867,9 @@ window.SONG_MASTER = {
     },
     "名言": {
       "title": "名言",
-      "artist": "ムーズムズ",
-      "album": "Flashing Magic",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/43/43/e5434398-c661-4d88-dab2-db7b33c58d59/4538182538401_cov.jpg/600x600bb.jpg",
+      "artist": "銀河草莓May",
+      "album": "名言 - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/93/57/0793572d-35e2-6bfb-0d3c-19d8328d33f7/4711499306493.jpg/600x600bb.jpg",
       "en": {
         "title": "Famous saying"
       }
