@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-08-24T12:20:50.357Z",
+  "updatedAt": "2026-08-24T16:21:05.990Z",
   "streams": [
-    {
-      "id": "7zoaJ6LqTlI",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【マイクラ】目指せ1000万ミリコイン！！！【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/7zoaJ6LqTlI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-24T11:32:15Z",
-      "status": "live"
-    },
     {
       "id": "IcmQ_uC8h5I",
       "memberId": "konomi",
@@ -214,14 +205,34 @@
   ],
   "videos": [
     {
-      "id": "zviYyQaqtXk",
+      "id": "8MsV5aly5CY",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【飲酒雑談】ふむ┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/8MsV5aly5CY/hqdefault_live.jpg",
+      "publishedAt": "2026-08-24T16:06:25Z",
+      "live": true
+    },
+    {
+      "id": "_ZrBcrW5XWg",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "起きてんならおいで【あくび・でもんすぺーど】",
+      "thumb": "https://i.ytimg.com/vi/_ZrBcrW5XWg/hqdefault_live.jpg",
+      "publishedAt": "2026-08-24T15:42:15Z",
+      "live": false
+    },
+    {
+      "id": "7qYeeRTid6A",
       "memberId": "yura",
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【口癖禁止】『一旦』言ったら即終了！？【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/zviYyQaqtXk/hqdefault_live.jpg",
-      "publishedAt": "2026-08-24T12:19:02Z",
-      "live": false
+      "title": "【雑談】いったんね？【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/7qYeeRTid6A/hqdefault.jpg",
+      "publishedAt": "2026-08-24T14:44:12Z",
+      "live": true
     },
     {
       "id": "7zoaJ6LqTlI",
@@ -229,8 +240,18 @@
       "member": "音ノ瀬らこ",
       "channelTitle": "音ノ瀬らこ / Otonose Raco",
       "title": "【マイクラ】目指せ1000万ミリコイン！！！【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/7zoaJ6LqTlI/hqdefault_live.jpg",
-      "publishedAt": "2026-08-24T11:32:15Z",
+      "thumb": "https://i.ytimg.com/vi/7zoaJ6LqTlI/hqdefault.jpg",
+      "publishedAt": "2026-08-24T14:39:43Z",
+      "live": false
+    },
+    {
+      "id": "zviYyQaqtXk",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【口癖禁止】『一旦』言ったら即終了！？【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/zviYyQaqtXk/hqdefault.jpg",
+      "publishedAt": "2026-08-24T12:25:40Z",
       "live": false
     },
     {
@@ -482,47 +503,7 @@
       "thumb": "https://i.ytimg.com/vi/h9nYQNJBBts/hqdefault_live.jpg",
       "publishedAt": "2026-08-22T08:44:13Z",
       "live": false
-    },
-    {
-      "id": "aH1DIRyDnfc",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【歌枠】みんなありがとう～50万人記念歌配信！【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/aH1DIRyDnfc/hqdefault_live.jpg",
-      "publishedAt": "2026-08-22T07:29:09Z",
-      "live": true
-    },
-    {
-      "id": "8zJ9e6Q9YlI",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【飲酒雑談】途中からメン限になるらしい【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8zJ9e6Q9YlI/hqdefault.jpg",
-      "publishedAt": "2026-08-21T17:18:31Z",
-      "live": true
-    },
-    {
-      "id": "m9XsXa_2wsY",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【85万人耐久歌枠】達成したら、とってもうれしい告知があります！！！！",
-      "thumb": "https://i.ytimg.com/vi/m9XsXa_2wsY/hqdefault.jpg",
-      "publishedAt": "2026-08-21T15:52:51Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "7zoaJ6LqTlI",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【マイクラ】目指せ1000万ミリコイン！！！【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/7zoaJ6LqTlI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-24T11:32:15Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
