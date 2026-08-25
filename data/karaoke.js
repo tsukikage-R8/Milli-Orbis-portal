@@ -1,6 +1,14 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "UQi3DEDW90w",
+    "memberId": "yura",
+    "publishedAt": "2026-08-25",
+    "title": "【歌枠】6000高評価で歌ってみた完全解禁！🔥情報解禁耐久【ゆらぎゆら/ミリプロ】",
+    "duration": 0,
+    "songs": []
+  },
+  {
     "id": "ZKziA4Tu-rM",
     "memberId": "liz",
     "publishedAt": "2026-08-23",

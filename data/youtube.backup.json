@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-08-25T12:21:10.729Z",
+  "updatedAt": "2026-08-25T16:22:02.236Z",
   "streams": [
-    {
-      "id": "8G4Mu2P8TM0",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【40万人ありがとう】絵を描くかもな～… 【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8G4Mu2P8TM0/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-25T09:30:26Z",
-      "status": "live"
-    },
-    {
-      "id": "Zt2jhEynx4Y",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 VALORANT 】初めてのソロランク ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Zt2jhEynx4Y/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-25T10:30:29Z",
-      "status": "live"
-    },
-    {
-      "id": "XbWL4SICA_k",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【リズム天国 ミラクルスターズ】歌い手なんだし余裕だよね！…だよね？【鹿乃まほろ/ミリプロ】#1",
-      "thumb": "https://i.ytimg.com/vi/XbWL4SICA_k/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-25T11:02:06Z",
-      "status": "live"
-    },
-    {
-      "id": "JfKiXOmkSSY",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 日本事故物件監視協会3 -Japan Stigmatized Property- 〗この業務がしたかったんです〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/JfKiXOmkSSY/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-25T11:02:26Z",
-      "status": "live"
-    },
     {
       "id": "IcmQ_uC8h5I",
       "memberId": "konomi",
@@ -241,23 +205,23 @@
   ],
   "videos": [
     {
-      "id": "Vr_f7y9YtTQ",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "ライラック / 音ノ瀬らこ (cover)",
-      "thumb": "https://i.ytimg.com/vi/Vr_f7y9YtTQ/hqdefault.jpg",
-      "publishedAt": "2026-08-25T12:00:07Z",
-      "live": false
+      "id": "w608ywG0s9Q",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【雑談】ついにあれが届いたよ。。。。。【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/w608ywG0s9Q/hqdefault.jpg",
+      "publishedAt": "2026-08-25T16:18:45Z",
+      "live": true
     },
     {
-      "id": "JfKiXOmkSSY",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 日本事故物件監視協会3 -Japan Stigmatized Property- 〗この業務がしたかったんです〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/JfKiXOmkSSY/hqdefault_live.jpg",
-      "publishedAt": "2026-08-25T11:02:26Z",
+      "id": "Zt2jhEynx4Y",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 VALORANT 】初めてのソロランク ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/Zt2jhEynx4Y/hqdefault.jpg",
+      "publishedAt": "2026-08-25T15:45:04Z",
       "live": false
     },
     {
@@ -266,18 +230,18 @@
       "member": "鹿乃まほろ",
       "channelTitle": "鹿乃まほろ / Kano Mahoro",
       "title": "【リズム天国 ミラクルスターズ】歌い手なんだし余裕だよね！…だよね？【鹿乃まほろ/ミリプロ】#1",
-      "thumb": "https://i.ytimg.com/vi/XbWL4SICA_k/hqdefault_live.jpg",
-      "publishedAt": "2026-08-25T11:02:06Z",
+      "thumb": "https://i.ytimg.com/vi/XbWL4SICA_k/hqdefault.jpg",
+      "publishedAt": "2026-08-25T15:07:00Z",
       "live": false
     },
     {
-      "id": "Zt2jhEynx4Y",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 VALORANT 】初めてのソロランク ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Zt2jhEynx4Y/hqdefault_live.jpg",
-      "publishedAt": "2026-08-25T10:30:29Z",
+      "id": "JfKiXOmkSSY",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 日本事故物件監視協会3 -Japan Stigmatized Property- 〗この業務がしたかったんです〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/JfKiXOmkSSY/hqdefault.jpg",
+      "publishedAt": "2026-08-25T13:22:40Z",
       "live": false
     },
     {
@@ -286,8 +250,18 @@
       "member": "虹深°ぬふ",
       "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
       "title": "【40万人ありがとう】絵を描くかもな～… 【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8G4Mu2P8TM0/hqdefault_live.jpg",
-      "publishedAt": "2026-08-25T09:30:26Z",
+      "thumb": "https://i.ytimg.com/vi/8G4Mu2P8TM0/hqdefault.jpg",
+      "publishedAt": "2026-08-25T12:47:04Z",
+      "live": false
+    },
+    {
+      "id": "Vr_f7y9YtTQ",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "ライラック / 音ノ瀬らこ (cover)",
+      "thumb": "https://i.ytimg.com/vi/Vr_f7y9YtTQ/hqdefault.jpg",
+      "publishedAt": "2026-08-25T12:00:07Z",
       "live": false
     },
     {
@@ -529,54 +503,7 @@
       "thumb": "https://i.ytimg.com/vi/94xJrn4Kswk/hqdefault.jpg",
       "publishedAt": "2026-08-22T12:35:21Z",
       "live": false
-    },
-    {
-      "id": "pKv7C5ZJTAw",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【歌枠】やるぞ！うおお！┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/pKv7C5ZJTAw/hqdefault_live.jpg",
-      "publishedAt": "2026-08-22T10:58:34Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "8G4Mu2P8TM0",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【40万人ありがとう】絵を描くかもな～… 【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8G4Mu2P8TM0/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-25T09:30:26Z",
-      "status": "live"
-    },
-    {
-      "id": "Zt2jhEynx4Y",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 VALORANT 】初めてのソロランク ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Zt2jhEynx4Y/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-25T10:30:29Z",
-      "status": "live"
-    },
-    {
-      "id": "XbWL4SICA_k",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【リズム天国 ミラクルスターズ】歌い手なんだし余裕だよね！…だよね？【鹿乃まほろ/ミリプロ】#1",
-      "thumb": "https://i.ytimg.com/vi/XbWL4SICA_k/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-25T11:02:06Z",
-      "status": "live"
-    },
-    {
-      "id": "JfKiXOmkSSY",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 日本事故物件監視協会3 -Japan Stigmatized Property- 〗この業務がしたかったんです〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/JfKiXOmkSSY/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-25T11:02:26Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
