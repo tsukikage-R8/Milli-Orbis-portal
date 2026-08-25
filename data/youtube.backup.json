@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-08-25T04:26:23.525Z",
+  "updatedAt": "2026-08-25T08:26:40.251Z",
   "streams": [
+    {
+      "id": "JfKiXOmkSSY",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 日本事故物件監視協会3 -Japan Stigmatized Property- 〗この業務がしたかったんです〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/JfKiXOmkSSY/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-25T11:00:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "XbWL4SICA_k",
       "memberId": "mahoro",
@@ -62,6 +71,15 @@
       }
     },
     {
+      "id": "dHnc-b8UT34",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【📢グッズ告知】ミリプロ サマーコレクション 2026！",
+      "thumb": "https://i.ytimg.com/vi/dHnc-b8UT34/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-02T14:59:00Z",
+      "status": "upcoming"
+    },
+    {
       "id": "RjOQyuyucgc",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -72,15 +90,6 @@
       "en": {
         "title": "☁ Millipro Summer Collection 2026 now accepting orders! 🔧"
       }
-    },
-    {
-      "id": "dHnc-b8UT34",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【📢グッズ告知】ミリプロ サマーコレクション 2026！",
-      "thumb": "https://i.ytimg.com/vi/dHnc-b8UT34/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-02T14:59:00Z",
-      "status": "upcoming"
     },
     {
       "id": "pKv7C5ZJTAw",
@@ -214,6 +223,16 @@
   ],
   "videos": [
     {
+      "id": "JfKiXOmkSSY",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 日本事故物件監視協会3 -Japan Stigmatized Property- 〗この業務がしたかったんです〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/JfKiXOmkSSY/hqdefault_live.jpg",
+      "publishedAt": "2026-08-25T08:09:53Z",
+      "live": false
+    },
+    {
       "id": "XbWL4SICA_k",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
@@ -252,16 +271,6 @@
       "thumb": "https://i.ytimg.com/vi/7qYeeRTid6A/hqdefault.jpg",
       "publishedAt": "2026-08-24T14:44:12Z",
       "live": true
-    },
-    {
-      "id": "7zoaJ6LqTlI",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【マイクラ】目指せ1000万ミリコイン！！！【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/7zoaJ6LqTlI/hqdefault.jpg",
-      "publishedAt": "2026-08-24T14:39:43Z",
-      "live": false
     },
     {
       "id": "zviYyQaqtXk",
