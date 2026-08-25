@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-08-25T00:30:30.776Z",
+  "updatedAt": "2026-08-25T04:26:23.525Z",
   "streams": [
+    {
+      "id": "XbWL4SICA_k",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【リズム天国 ミラクルスターズ】歌い手なんだし余裕だよね！…だよね？【鹿乃まほろ/ミリプロ】#1",
+      "thumb": "https://i.ytimg.com/vi/XbWL4SICA_k/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-25T11:00:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "IcmQ_uC8h5I",
       "memberId": "konomi",
@@ -53,15 +62,6 @@
       }
     },
     {
-      "id": "dHnc-b8UT34",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【📢グッズ告知】ミリプロ サマーコレクション 2026！",
-      "thumb": "https://i.ytimg.com/vi/dHnc-b8UT34/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-02T14:59:00Z",
-      "status": "upcoming"
-    },
-    {
       "id": "RjOQyuyucgc",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -72,6 +72,15 @@
       "en": {
         "title": "☁ Millipro Summer Collection 2026 now accepting orders! 🔧"
       }
+    },
+    {
+      "id": "dHnc-b8UT34",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【📢グッズ告知】ミリプロ サマーコレクション 2026！",
+      "thumb": "https://i.ytimg.com/vi/dHnc-b8UT34/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-02T14:59:00Z",
+      "status": "upcoming"
     },
     {
       "id": "pKv7C5ZJTAw",
