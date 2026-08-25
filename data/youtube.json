@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T20:15:24.689Z",
+  "updatedAt": "2026-08-25T00:30:30.776Z",
   "streams": [
     {
       "id": "IcmQ_uC8h5I",
@@ -204,6 +204,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "XbWL4SICA_k",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【リズム天国 ミラクルスターズ】歌い手なんだし余裕だよね！…だよね？【鹿乃まほろ/ミリプロ】#1",
+      "thumb": "https://i.ytimg.com/vi/XbWL4SICA_k/hqdefault_live.jpg",
+      "publishedAt": "2026-08-24T22:21:18Z",
+      "live": false
+    },
     {
       "id": "_ZrBcrW5XWg",
       "memberId": "akubi",
@@ -492,16 +502,6 @@
       "title": "「テトリス」全員ヤバイ奴で合唱してみた！【小廻こま/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/dGwCHksK67Q/hqdefault.jpg",
       "publishedAt": "2026-08-22T09:00:21Z",
-      "live": false
-    },
-    {
-      "id": "h9nYQNJBBts",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【📢お知らせ】Princess Viral』REMIXバージョンの制作が決定！",
-      "thumb": "https://i.ytimg.com/vi/h9nYQNJBBts/hqdefault_live.jpg",
-      "publishedAt": "2026-08-22T08:44:13Z",
       "live": false
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T16:21:05.990Z",
+  "updatedAt": "2026-08-24T20:15:24.689Z",
   "streams": [
     {
       "id": "IcmQ_uC8h5I",
@@ -205,24 +205,24 @@
   ],
   "videos": [
     {
-      "id": "8MsV5aly5CY",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【飲酒雑談】ふむ┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/8MsV5aly5CY/hqdefault_live.jpg",
-      "publishedAt": "2026-08-24T16:06:25Z",
-      "live": true
-    },
-    {
       "id": "_ZrBcrW5XWg",
       "memberId": "akubi",
       "member": "あくび・でもんすぺーど",
       "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
       "title": "起きてんならおいで【あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/_ZrBcrW5XWg/hqdefault_live.jpg",
-      "publishedAt": "2026-08-24T15:42:15Z",
+      "thumb": "https://i.ytimg.com/vi/_ZrBcrW5XWg/hqdefault.jpg",
+      "publishedAt": "2026-08-24T17:10:47Z",
       "live": false
+    },
+    {
+      "id": "8MsV5aly5CY",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【飲酒雑談】ふむ┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/8MsV5aly5CY/hqdefault.jpg",
+      "publishedAt": "2026-08-24T16:26:08Z",
+      "live": true
     },
     {
       "id": "7qYeeRTid6A",

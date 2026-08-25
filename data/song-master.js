@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-08-24",
+  "generatedAt": "2026-08-25",
   "songs": {
     "気分上々↑↑": {
       "title": "115万キロのフィルム",
@@ -456,10 +456,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "蝶々結び",
+      "title": "StarRingChild",
       "artist": "Aimer",
-      "album": "蝶々結び - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg"
+      "album": "Midnight Sun",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cf/4d/09/cf4d09ff-c6e8-0964-d493-cf0841a9216a/4560429727163.jpg/600x600bb.jpg"
     },
     "-error-niki": {
       "title": "-ERROR (feat. Kradness)",
@@ -489,10 +489,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "ツバメ (feat. ミドリーズ)",
-      "artist": "YOASOBI",
-      "album": "ツバメ (feat. ミドリーズ) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg"
+      "title": "恋のスーパーボール",
+      "artist": "aiko",
+      "album": "時のシルエット",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/b5/19/5b/b5195b36-a3f6-c92b-bc50-5abfca0ded58/dj.ieadmwsc.jpg/600x600bb.jpg"
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -1914,10 +1914,13 @@ window.SONG_MASTER = {
       }
     },
     "愛をこめて花束を": {
-      "title": "AI WO KOMETE HANATABAWO",
+      "title": "愛をこめて花束を",
       "artist": "Superfly",
       "album": "Superfly",
-      "cover": "https://cdn-images.dzcdn.net/images/cover/53c5777e36d9f7d549246096f0beb01d/500x500-000000-80-0-0.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/a8/b4/a0/mzi.snoeojdw.jpg/600x600bb.jpg",
+      "en": {
+        "title": "A bouquet of flowers with love"
+      }
     },
     "bling-bang-bang-born": {
       "title": "Bling-Bang-Bang-Born",
