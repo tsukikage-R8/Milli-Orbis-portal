@@ -2553,6 +2553,20 @@ window.SONGS = {
       }
     },
     {
+      "title": "ライラック",
+      "key": "ライラック",
+      "urls": [
+        {
+          "id": "Vr_f7y9YtTQ",
+          "memberId": "raco",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "en": {
+        "title": "lilac"
+      }
+    },
+    {
       "title": "恋するフォーチュンクッキー",
       "key": "恋するフォチュンクッキ＆あつまる＆ぴこぴこぐらむ＆ほし",
       "urls": [
