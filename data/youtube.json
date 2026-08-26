@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T00:31:34.236Z",
+  "updatedAt": "2026-08-26T04:27:48.767Z",
   "streams": [
     {
       "id": "UQi3DEDW90w",
@@ -62,15 +62,6 @@
       }
     },
     {
-      "id": "dHnc-b8UT34",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【📢グッズ告知】ミリプロ サマーコレクション 2026！",
-      "thumb": "https://i.ytimg.com/vi/dHnc-b8UT34/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-02T14:59:00Z",
-      "status": "upcoming"
-    },
-    {
       "id": "RjOQyuyucgc",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -81,6 +72,15 @@
       "en": {
         "title": "☁ Millipro Summer Collection 2026 now accepting orders! 🔧"
       }
+    },
+    {
+      "id": "dHnc-b8UT34",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【📢グッズ告知】ミリプロ サマーコレクション 2026！",
+      "thumb": "https://i.ytimg.com/vi/dHnc-b8UT34/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-02T14:59:00Z",
+      "status": "upcoming"
     },
     {
       "id": "pKv7C5ZJTAw",
@@ -213,6 +213,26 @@
     }
   ],
   "videos": [
+    {
+      "id": "iJfuAA6NMNo",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 歌枠 】最後に告知アリ！アニソン縛り ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/iJfuAA6NMNo/hqdefault_live.jpg",
+      "publishedAt": "2026-08-26T04:06:10Z",
+      "live": false
+    },
+    {
+      "id": "ACYi4lMKuG4",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【リズム天国 ミラクルスターズ】歌い手だし余裕…おや？難易度の様子が…？【鹿乃まほろ/ミリプロ】#2",
+      "thumb": "https://i.ytimg.com/vi/ACYi4lMKuG4/hqdefault_live.jpg",
+      "publishedAt": "2026-08-26T03:17:12Z",
+      "live": false
+    },
     {
       "id": "UQi3DEDW90w",
       "memberId": "yura",
@@ -492,26 +512,6 @@
       "thumb": "https://i.ytimg.com/vi/0PISw7uR4UU/hqdefault_live.jpg",
       "publishedAt": "2026-08-23T02:44:24Z",
       "live": false
-    },
-    {
-      "id": "4PLABRhPfXI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【飲酒】酒飲む前におつまみ2袋食べちゃった【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/4PLABRhPfXI/hqdefault.jpg",
-      "publishedAt": "2026-08-22T17:04:50Z",
-      "live": false
-    },
-    {
-      "id": "YzfwW0zTSpE",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【#鹿乃まほろ初配信】みんなの毎日を、まほろばに！【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/YzfwW0zTSpE/hqdefault.jpg",
-      "publishedAt": "2026-08-22T12:37:42Z",
-      "live": true
     }
   ],
   "live": []
