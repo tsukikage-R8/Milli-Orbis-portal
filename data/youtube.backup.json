@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-08-25T16:22:02.236Z",
+  "updatedAt": "2026-08-25T20:14:18.250Z",
   "streams": [
+    {
+      "id": "UQi3DEDW90w",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【歌枠】6000高評価で歌ってみた完全解禁！🔥情報解禁耐久【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/UQi3DEDW90w/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-26T10:00:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "IcmQ_uC8h5I",
       "memberId": "konomi",
@@ -204,6 +213,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "UQi3DEDW90w",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【歌枠】6000高評価で歌ってみた完全解禁！🔥情報解禁耐久【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/UQi3DEDW90w/hqdefault_live.jpg",
+      "publishedAt": "2026-08-25T18:16:43Z",
+      "live": false
+    },
     {
       "id": "w608ywG0s9Q",
       "memberId": "liz",
@@ -493,16 +512,6 @@
       "thumb": "https://i.ytimg.com/vi/YzfwW0zTSpE/hqdefault.jpg",
       "publishedAt": "2026-08-22T12:37:42Z",
       "live": true
-    },
-    {
-      "id": "94xJrn4Kswk",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "ハロ/ハワユ - 鹿乃まほろ cover.",
-      "thumb": "https://i.ytimg.com/vi/94xJrn4Kswk/hqdefault.jpg",
-      "publishedAt": "2026-08-22T12:35:21Z",
-      "live": false
     }
   ],
   "live": []
