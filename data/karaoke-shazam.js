@@ -86,8 +86,8 @@ window.KARAOKE_SHAZAM = {
   },
   "rptI94XKQGw": {
     "status": "error",
-    "attempts": 2,
-    "attemptedAt": "2026-08-26T01:04:34.377002+00:00",
+    "attempts": 3,
+    "attemptedAt": "2026-08-26T03:53:32.696789+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: Expecting value: line 2 column 1 (char 1) / https://pi"
   },
   "tgutNmpSxac": {
@@ -248,8 +248,8 @@ window.KARAOKE_SHAZAM = {
   },
   "XR-zaknUesk": {
     "status": "error",
-    "attempts": 2,
-    "attemptedAt": "2026-08-23T08:48:24.441983+00:00",
+    "attempts": 3,
+    "attemptedAt": "2026-08-26T03:53:41.654347+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: Expecting value: line 2 column 1 (char 1) / https://pi"
   },
   "z98ZKGJGP3A": {
@@ -266,8 +266,8 @@ window.KARAOKE_SHAZAM = {
   },
   "UQi3DEDW90w": {
     "status": "error",
-    "attempts": 3,
-    "attemptedAt": "2026-08-26T01:04:24.183453+00:00",
-    "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: <urlopen error [Errno -3] Temporary failure in name resolution> / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: Expecting value: line 2 colu"
+    "attempts": 4,
+    "attemptedAt": "2026-08-26T03:53:23.699508+00:00",
+    "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: Expecting value: line 2 column 1 (char 1) / https://pi"
   }
 };
