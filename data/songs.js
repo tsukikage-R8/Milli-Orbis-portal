@@ -374,6 +374,20 @@ window.SONGS = {
   ],
   "covers": [
     {
+      "title": "ライラック",
+      "key": "ライラック",
+      "urls": [
+        {
+          "id": "Vr_f7y9YtTQ",
+          "memberId": "raco",
+          "publishedAt": "2026-08-26"
+        }
+      ],
+      "en": {
+        "title": "lilac"
+      }
+    },
+    {
       "title": "気分上々↑↑／小廻こま × 眠雲ツクリ × 雨夜リズ（cover）",
       "key": "気分上々↑↑",
       "urls": [
@@ -2550,20 +2564,6 @@ window.SONGS = {
       ],
       "en": {
         "title": "A faint flower"
-      }
-    },
-    {
-      "title": "ライラック",
-      "key": "ライラック",
-      "urls": [
-        {
-          "id": "Vr_f7y9YtTQ",
-          "memberId": "raco",
-          "publishedAt": "2026-08-25"
-        }
-      ],
-      "en": {
-        "title": "lilac"
       }
     },
     {

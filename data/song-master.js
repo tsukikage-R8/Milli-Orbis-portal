@@ -2,6 +2,15 @@
 window.SONG_MASTER = {
   "generatedAt": "2026-08-26",
   "songs": {
+    "ライラック": {
+      "title": "ライラック",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "ライラック - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4c/3b/b2/4c3bb247-3be8-0c57-aa9a-7f1775a7b7a8/24UMGIM32931.rgb.jpg/600x600bb.jpg",
+      "en": {
+        "title": "lilac"
+      }
+    },
     "気分上々↑↑": {
       "title": "115万キロのフィルム",
       "artist": "Official髭男dism",
@@ -1050,15 +1059,6 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/68/f6/5b68f64c-c7d5-e95d-18ac-c13915e44fe7/199999632047.png/600x600bb.jpg",
       "en": {
         "title": "A faint flower"
-      }
-    },
-    "ライラック": {
-      "title": "ライラック",
-      "artist": "Mrs. GREEN APPLE",
-      "album": "ライラック - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4c/3b/b2/4c3bb247-3be8-0c57-aa9a-7f1775a7b7a8/24UMGIM32931.rgb.jpg/600x600bb.jpg",
-      "en": {
-        "title": "lilac"
       }
     },
     "恋するフォチュンクッキ＆あつまる＆ぴこぴこぐらむ＆ほし": {

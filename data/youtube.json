@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T04:27:48.767Z",
+  "updatedAt": "2026-08-26T08:27:11.725Z",
   "streams": [
     {
       "id": "UQi3DEDW90w",
@@ -8,6 +8,24 @@
       "title": "【歌枠】6000高評価で歌ってみた完全解禁！🔥情報解禁耐久【ゆらぎゆら/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/UQi3DEDW90w/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-26T10:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "iJfuAA6NMNo",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 歌枠 】最後に告知アリ！アニソン縛り ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/iJfuAA6NMNo/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-26T10:30:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "ACYi4lMKuG4",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【リズム天国 ミラクルスターズ】歌い手だし余裕…おや？難易度の様子が…？【鹿乃まほろ/ミリプロ】#2",
+      "thumb": "https://i.ytimg.com/vi/ACYi4lMKuG4/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-26T11:00:00Z",
       "status": "upcoming"
     },
     {
@@ -62,6 +80,15 @@
       }
     },
     {
+      "id": "dHnc-b8UT34",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【📢グッズ告知】ミリプロ サマーコレクション 2026！",
+      "thumb": "https://i.ytimg.com/vi/dHnc-b8UT34/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-02T14:59:00Z",
+      "status": "upcoming"
+    },
+    {
       "id": "RjOQyuyucgc",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -72,15 +99,6 @@
       "en": {
         "title": "☁ Millipro Summer Collection 2026 now accepting orders! 🔧"
       }
-    },
-    {
-      "id": "dHnc-b8UT34",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【📢グッズ告知】ミリプロ サマーコレクション 2026！",
-      "thumb": "https://i.ytimg.com/vi/dHnc-b8UT34/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-02T14:59:00Z",
-      "status": "upcoming"
     },
     {
       "id": "pKv7C5ZJTAw",
@@ -213,6 +231,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "EY-Qvy10YN0",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "本物のゆらぎはどれだ！？ #minecraft",
+      "thumb": "https://i.ytimg.com/vi/EY-Qvy10YN0/hqdefault.jpg",
+      "publishedAt": "2026-08-26T08:08:47Z",
+      "live": false
+    },
     {
       "id": "iJfuAA6NMNo",
       "memberId": "rei",
@@ -364,6 +392,16 @@
       "live": false
     },
     {
+      "id": "bvCjx04W9L8",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【ガチ回答】ミリプロに入りたい人・VTuberになりたい人からの50の質問に答えました",
+      "thumb": "https://i.ytimg.com/vi/bvCjx04W9L8/hqdefault.jpg",
+      "publishedAt": "2026-08-24T09:45:55Z",
+      "live": false
+    },
+    {
       "id": "pZ8u7MEiqxY",
       "memberId": "official",
       "member": "ミリプロ公式",
@@ -491,26 +529,6 @@
       "title": "『神っぽいな』ヤバい奴いても合唱にしたらいい感じになる説【夕霧レイ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/rCJmMy1WJt8/hqdefault.jpg",
       "publishedAt": "2026-08-23T09:00:11Z",
-      "live": false
-    },
-    {
-      "id": "sA7R-yScY50",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 雑談 】朝と昼の間【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/sA7R-yScY50/hqdefault.jpg",
-      "publishedAt": "2026-08-23T03:12:49Z",
-      "live": true
-    },
-    {
-      "id": "0PISw7uR4UU",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【🌸グッズ情報】鹿乃まほろ加入記念グッズ🍓🦌",
-      "thumb": "https://i.ytimg.com/vi/0PISw7uR4UU/hqdefault_live.jpg",
-      "publishedAt": "2026-08-23T02:44:24Z",
       "live": false
     }
   ],
