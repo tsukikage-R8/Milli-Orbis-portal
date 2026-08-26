@@ -2,6 +2,12 @@
 window.SONG_MASTER = {
   "generatedAt": "2026-08-26",
   "songs": {
+    "スパクル": {
+      "title": "スパークル",
+      "artist": "RADWIMPS",
+      "album": "人間開花",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/69/d7/ad/69d7ad92-4684-1d74-68b1-395858a1ab04/16UMGIM76109.rgb.jpg/600x600bb.jpg"
+    },
     "ライラック": {
       "title": "ライラック",
       "artist": "Mrs. GREEN APPLE",
@@ -462,10 +468,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "蝶々結び",
+      "title": "StarRingChild",
       "artist": "Aimer",
-      "album": "蝶々結び - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg"
+      "album": "Midnight Sun",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cf/4d/09/cf4d09ff-c6e8-0964-d493-cf0841a9216a/4560429727163.jpg/600x600bb.jpg"
     },
     "-error-niki": {
       "title": "-ERROR (feat. Kradness)",
@@ -495,10 +501,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "ツバメ (feat. ミドリーズ)",
-      "artist": "YOASOBI",
-      "album": "ツバメ (feat. ミドリーズ) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg"
+      "title": "恋のスーパーボール",
+      "artist": "aiko",
+      "album": "時のシルエット",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/b5/19/5b/b5195b36-a3f6-c92b-bc50-5abfca0ded58/dj.ieadmwsc.jpg/600x600bb.jpg"
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -726,13 +732,10 @@ window.SONG_MASTER = {
       }
     },
     "みむかｩわナイストライ": {
-      "title": "み む かゥ わ ナ イ ス ト ラ イ (feat. 初音ミク)",
-      "artist": "ぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬ",
-      "album": "み む かゥ わ ナ イ ス ト ラ イ (feat. 初音ミク) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/01/9b/22/019b220a-490f-f455-9c70-7726351224f4/4550755554953_cover.png/600x600bb.jpg",
-      "en": {
-        "title": "Mi Kau Wa Nice Try (feat. Hatsune Miku)"
-      }
+      "title": "み む かゥ わ ナ イ ス ト ラ イ (feat. 安心爱Channel)",
+      "artist": "Dyako",
+      "album": "み む かゥ わ ナ イ ス ト ラ イ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/7b/c0/d27bc026-644d-1fc2-4312-d46a76ffca7b/artwork.jpg/600x600bb.jpg"
     },
     "booo!": {
       "title": "Booo!",
@@ -1275,7 +1278,7 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg"
     },
     "trustonme-themeofe.t.e": {
-      "title": "Trust On Me -Theme of E.T.E- (feat. MARiA)",
+      "title": "Trust On Me -Theme of E.T.E- (feat. MARiA) [Instrumental]",
       "artist": "小室哲哉",
       "album": "Trust On Me -Theme of E.T.E- (feat. MARiA) - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d6/db/f6/d6dbf678-2d9d-0d39-22a9-f2e60809f800/PCSP_04640_A.jpg/600x600bb.jpg"

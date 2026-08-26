@@ -374,6 +374,17 @@ window.SONGS = {
   ],
   "covers": [
     {
+      "title": "スパークル",
+      "key": "スパクル",
+      "urls": [
+        {
+          "id": "BJEztk4f4aA",
+          "memberId": "rei",
+          "publishedAt": "2026-08-26"
+        }
+      ]
+    },
+    {
       "title": "ライラック",
       "key": "ライラック",
       "urls": [
