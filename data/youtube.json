@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-08-26T12:23:19.363Z",
+  "updatedAt": "2026-08-26T16:40:02.646Z",
   "streams": [
-    {
-      "id": "UQi3DEDW90w",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【歌枠】6000高評価で歌ってみた完全解禁！🔥情報解禁耐久【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/UQi3DEDW90w/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-26T10:00:34Z",
-      "status": "live"
-    },
-    {
-      "id": "ACYi4lMKuG4",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【リズム天国 ミラクルスターズ】歌い手だし余裕…おや？難易度の様子が…？【鹿乃まほろ/ミリプロ】#2",
-      "thumb": "https://i.ytimg.com/vi/ACYi4lMKuG4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-26T11:00:09Z",
-      "status": "live"
-    },
-    {
-      "id": "wGI-l716AKc",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 Snowed Under | 雪葬 〗夏にやりたいことNo.1〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/wGI-l716AKc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-26T11:02:20Z",
-      "status": "live"
-    },
     {
       "id": "IcmQ_uC8h5I",
       "memberId": "konomi",
@@ -35,6 +8,15 @@
       "title": "【#甘狼このみ新衣装】ついに、天使になってしまったのかもしれません【#あまかみらいぶ / #ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/IcmQ_uC8h5I/hqdefault_live.jpg",
       "scheduledStartTime": "2026-08-28T10:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "C0goUsjfeTE",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【メン限雑談】8月もおつかれさまでした。色々、ありましたね【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/C0goUsjfeTE/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-28T13:00:00Z",
       "status": "upcoming"
     },
     {
@@ -232,23 +214,23 @@
   ],
   "videos": [
     {
-      "id": "BJEztk4f4aA",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "スパークル / 夕霧レイ (cover)",
-      "thumb": "https://i.ytimg.com/vi/BJEztk4f4aA/hqdefault.jpg",
-      "publishedAt": "2026-08-26T12:00:06Z",
+      "id": "ACYi4lMKuG4",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【リズム天国 ミラクルスターズ】歌い手だし余裕…おや？難易度の様子が…？【鹿乃まほろ/ミリプロ】#2",
+      "thumb": "https://i.ytimg.com/vi/ACYi4lMKuG4/hqdefault.jpg",
+      "publishedAt": "2026-08-26T15:13:22Z",
       "live": false
     },
     {
-      "id": "iJfuAA6NMNo",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 歌枠 】最後に告知アリ！アニソン縛り ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/iJfuAA6NMNo/hqdefault_live.jpg",
-      "publishedAt": "2026-08-26T11:55:56Z",
+      "id": "DtiRYzp1Gzc",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "いま暇～？はなそー＾＾【あくび・でもんすぺーど】",
+      "thumb": "https://i.ytimg.com/vi/DtiRYzp1Gzc/hqdefault.jpg",
+      "publishedAt": "2026-08-26T15:05:40Z",
       "live": false
     },
     {
@@ -257,18 +239,18 @@
       "member": "眠雲ツクリ",
       "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
       "title": "〖 Snowed Under | 雪葬 〗夏にやりたいことNo.1〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/wGI-l716AKc/hqdefault_live.jpg",
-      "publishedAt": "2026-08-26T11:02:20Z",
+      "thumb": "https://i.ytimg.com/vi/wGI-l716AKc/hqdefault.jpg",
+      "publishedAt": "2026-08-26T14:51:52Z",
       "live": false
     },
     {
-      "id": "ACYi4lMKuG4",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【リズム天国 ミラクルスターズ】歌い手だし余裕…おや？難易度の様子が…？【鹿乃まほろ/ミリプロ】#2",
-      "thumb": "https://i.ytimg.com/vi/ACYi4lMKuG4/hqdefault_live.jpg",
-      "publishedAt": "2026-08-26T11:00:09Z",
+      "id": "iJfuAA6NMNo",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 歌枠 】最後に告知アリ！アニソン縛り ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/iJfuAA6NMNo/hqdefault.jpg",
+      "publishedAt": "2026-08-26T13:42:39Z",
       "live": false
     },
     {
@@ -277,8 +259,18 @@
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
       "title": "【歌枠】6000高評価で歌ってみた完全解禁！🔥情報解禁耐久【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/UQi3DEDW90w/hqdefault_live.jpg",
-      "publishedAt": "2026-08-26T10:00:34Z",
+      "thumb": "https://i.ytimg.com/vi/UQi3DEDW90w/hqdefault.jpg",
+      "publishedAt": "2026-08-26T13:06:38Z",
+      "live": false
+    },
+    {
+      "id": "BJEztk4f4aA",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "スパークル / 夕霧レイ (cover)",
+      "thumb": "https://i.ytimg.com/vi/BJEztk4f4aA/hqdefault.jpg",
+      "publishedAt": "2026-08-26T12:00:06Z",
       "live": false
     },
     {
@@ -319,16 +311,6 @@
       "title": "本物のゆらぎはどれだ！？ #minecraft",
       "thumb": "https://i.ytimg.com/vi/EY-Qvy10YN0/hqdefault.jpg",
       "publishedAt": "2026-08-26T08:08:47Z",
-      "live": false
-    },
-    {
-      "id": "DtiRYzp1Gzc",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "いま暇～？はなそー＾＾【あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/DtiRYzp1Gzc/hqdefault_live.jpg",
-      "publishedAt": "2026-08-26T02:42:08Z",
       "live": false
     },
     {
@@ -532,33 +514,5 @@
       "live": false
     }
   ],
-  "live": [
-    {
-      "id": "UQi3DEDW90w",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【歌枠】6000高評価で歌ってみた完全解禁！🔥情報解禁耐久【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/UQi3DEDW90w/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-26T10:00:34Z",
-      "status": "live"
-    },
-    {
-      "id": "ACYi4lMKuG4",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【リズム天国 ミラクルスターズ】歌い手だし余裕…おや？難易度の様子が…？【鹿乃まほろ/ミリプロ】#2",
-      "thumb": "https://i.ytimg.com/vi/ACYi4lMKuG4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-26T11:00:09Z",
-      "status": "live"
-    },
-    {
-      "id": "wGI-l716AKc",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 Snowed Under | 雪葬 〗夏にやりたいことNo.1〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/wGI-l716AKc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-26T11:02:20Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }

@@ -5,7 +5,7 @@ window.KARAOKE = [
     "memberId": "yura",
     "publishedAt": "2026-08-25",
     "title": "【歌枠】6000高評価で歌ってみた完全解禁！🔥情報解禁耐久【ゆらぎゆら/ミリプロ】",
-    "duration": 0,
+    "duration": 10428,
     "songs": []
   },
   {

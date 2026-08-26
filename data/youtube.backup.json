@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T08:27:11.725Z",
+  "updatedAt": "2026-08-26T12:23:19.363Z",
   "streams": [
     {
       "id": "UQi3DEDW90w",
@@ -7,17 +7,8 @@
       "member": "ゆらぎゆら",
       "title": "【歌枠】6000高評価で歌ってみた完全解禁！🔥情報解禁耐久【ゆらぎゆら/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/UQi3DEDW90w/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-26T10:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "iJfuAA6NMNo",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 歌枠 】最後に告知アリ！アニソン縛り ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/iJfuAA6NMNo/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-26T10:30:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-08-26T10:00:34Z",
+      "status": "live"
     },
     {
       "id": "ACYi4lMKuG4",
@@ -25,8 +16,17 @@
       "member": "鹿乃まほろ",
       "title": "【リズム天国 ミラクルスターズ】歌い手だし余裕…おや？難易度の様子が…？【鹿乃まほろ/ミリプロ】#2",
       "thumb": "https://i.ytimg.com/vi/ACYi4lMKuG4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-26T11:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-08-26T11:00:09Z",
+      "status": "live"
+    },
+    {
+      "id": "wGI-l716AKc",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 Snowed Under | 雪葬 〗夏にやりたいことNo.1〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/wGI-l716AKc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-26T11:02:20Z",
+      "status": "live"
     },
     {
       "id": "IcmQ_uC8h5I",
@@ -232,6 +232,86 @@
   ],
   "videos": [
     {
+      "id": "BJEztk4f4aA",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "スパークル / 夕霧レイ (cover)",
+      "thumb": "https://i.ytimg.com/vi/BJEztk4f4aA/hqdefault.jpg",
+      "publishedAt": "2026-08-26T12:00:06Z",
+      "live": false
+    },
+    {
+      "id": "iJfuAA6NMNo",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 歌枠 】最後に告知アリ！アニソン縛り ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/iJfuAA6NMNo/hqdefault_live.jpg",
+      "publishedAt": "2026-08-26T11:55:56Z",
+      "live": false
+    },
+    {
+      "id": "wGI-l716AKc",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 Snowed Under | 雪葬 〗夏にやりたいことNo.1〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/wGI-l716AKc/hqdefault_live.jpg",
+      "publishedAt": "2026-08-26T11:02:20Z",
+      "live": false
+    },
+    {
+      "id": "ACYi4lMKuG4",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【リズム天国 ミラクルスターズ】歌い手だし余裕…おや？難易度の様子が…？【鹿乃まほろ/ミリプロ】#2",
+      "thumb": "https://i.ytimg.com/vi/ACYi4lMKuG4/hqdefault_live.jpg",
+      "publishedAt": "2026-08-26T11:00:09Z",
+      "live": false
+    },
+    {
+      "id": "UQi3DEDW90w",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【歌枠】6000高評価で歌ってみた完全解禁！🔥情報解禁耐久【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/UQi3DEDW90w/hqdefault_live.jpg",
+      "publishedAt": "2026-08-26T10:00:34Z",
+      "live": false
+    },
+    {
+      "id": "bvCjx04W9L8",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【ガチ回答】ミリプロに入りたい人・VTuberになりたい人からの50の質問に答えました",
+      "thumb": "https://i.ytimg.com/vi/bvCjx04W9L8/hqdefault.jpg",
+      "publishedAt": "2026-08-26T10:00:06Z",
+      "live": false
+    },
+    {
+      "id": "75z_JOk5__M",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【のののshortsオリ曲】『カウィバウィボ』歌ってみた！【音ノ瀬らこ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/75z_JOk5__M/hqdefault.jpg",
+      "publishedAt": "2026-08-26T09:00:36Z",
+      "live": false
+    },
+    {
+      "id": "SZJZXImK7IU",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】当てはまったら降りるゲーム！！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/SZJZXImK7IU/hqdefault.jpg",
+      "publishedAt": "2026-08-26T09:00:35Z",
+      "live": false
+    },
+    {
       "id": "EY-Qvy10YN0",
       "memberId": "yura",
       "member": "ゆらぎゆら",
@@ -242,33 +322,13 @@
       "live": false
     },
     {
-      "id": "iJfuAA6NMNo",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 歌枠 】最後に告知アリ！アニソン縛り ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/iJfuAA6NMNo/hqdefault_live.jpg",
-      "publishedAt": "2026-08-26T04:06:10Z",
-      "live": false
-    },
-    {
-      "id": "ACYi4lMKuG4",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【リズム天国 ミラクルスターズ】歌い手だし余裕…おや？難易度の様子が…？【鹿乃まほろ/ミリプロ】#2",
-      "thumb": "https://i.ytimg.com/vi/ACYi4lMKuG4/hqdefault_live.jpg",
-      "publishedAt": "2026-08-26T03:17:12Z",
-      "live": false
-    },
-    {
-      "id": "UQi3DEDW90w",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【歌枠】6000高評価で歌ってみた完全解禁！🔥情報解禁耐久【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/UQi3DEDW90w/hqdefault_live.jpg",
-      "publishedAt": "2026-08-25T18:16:43Z",
+      "id": "DtiRYzp1Gzc",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "いま暇～？はなそー＾＾【あくび・でもんすぺーど】",
+      "thumb": "https://i.ytimg.com/vi/DtiRYzp1Gzc/hqdefault_live.jpg",
+      "publishedAt": "2026-08-26T02:42:08Z",
       "live": false
     },
     {
@@ -392,16 +452,6 @@
       "live": false
     },
     {
-      "id": "bvCjx04W9L8",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【ガチ回答】ミリプロに入りたい人・VTuberになりたい人からの50の質問に答えました",
-      "thumb": "https://i.ytimg.com/vi/bvCjx04W9L8/hqdefault.jpg",
-      "publishedAt": "2026-08-24T09:45:55Z",
-      "live": false
-    },
-    {
       "id": "pZ8u7MEiqxY",
       "memberId": "official",
       "member": "ミリプロ公式",
@@ -480,57 +530,35 @@
       "thumb": "https://i.ytimg.com/vi/4YNtwk_YR_0/hqdefault.jpg",
       "publishedAt": "2026-08-23T12:00:06Z",
       "live": false
-    },
-    {
-      "id": "QID-cK9__vg",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【VLOG】沖縄で人生最高のアクティビティを体験したら面白すぎたｗｗｗ【#ミリプロサマー2026】",
-      "thumb": "https://i.ytimg.com/vi/QID-cK9__vg/hqdefault.jpg",
-      "publishedAt": "2026-08-23T10:00:06Z",
-      "live": false
-    },
-    {
-      "id": "2GU-VrNT16I",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【マイクラ肝試し2026】ホラーは任せなさい┊︎#音ノ乃のの #ののん家 #マイクラ肝試し2026",
-      "thumb": "https://i.ytimg.com/vi/2GU-VrNT16I/hqdefault_live.jpg",
-      "publishedAt": "2026-08-23T09:24:08Z",
-      "live": false
-    },
-    {
-      "id": "ucw8Enep_6M",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "「ヴァンパイア」全員ヤバい奴で合唱してみた！【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ucw8Enep_6M/hqdefault.jpg",
-      "publishedAt": "2026-08-23T09:00:30Z",
-      "live": false
-    },
-    {
-      "id": "mPg0JNkmn94",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】当てはまったら降りるゲーム！！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/mPg0JNkmn94/hqdefault.jpg",
-      "publishedAt": "2026-08-23T09:00:21Z",
-      "live": false
-    },
-    {
-      "id": "rCJmMy1WJt8",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "『神っぽいな』ヤバい奴いても合唱にしたらいい感じになる説【夕霧レイ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/rCJmMy1WJt8/hqdefault.jpg",
-      "publishedAt": "2026-08-23T09:00:11Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "UQi3DEDW90w",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【歌枠】6000高評価で歌ってみた完全解禁！🔥情報解禁耐久【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/UQi3DEDW90w/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-26T10:00:34Z",
+      "status": "live"
+    },
+    {
+      "id": "ACYi4lMKuG4",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【リズム天国 ミラクルスターズ】歌い手だし余裕…おや？難易度の様子が…？【鹿乃まほろ/ミリプロ】#2",
+      "thumb": "https://i.ytimg.com/vi/ACYi4lMKuG4/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-26T11:00:09Z",
+      "status": "live"
+    },
+    {
+      "id": "wGI-l716AKc",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 Snowed Under | 雪葬 〗夏にやりたいことNo.1〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/wGI-l716AKc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-26T11:02:20Z",
+      "status": "live"
+    }
+  ]
 }
