@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-08-26T22:32:41.402Z",
+  "updatedAt": "2026-08-27T05:19:49.989Z",
   "streams": [
+    {
+      "id": "0_6aKS8F718",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【歌枠】重大告知あり‼️高評価2000耐久歌枠【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/0_6aKS8F718/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-27T10:30:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "IcmQ_uC8h5I",
       "memberId": "konomi",
@@ -53,15 +62,6 @@
       }
     },
     {
-      "id": "dHnc-b8UT34",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【📢グッズ告知】ミリプロ サマーコレクション 2026！",
-      "thumb": "https://i.ytimg.com/vi/dHnc-b8UT34/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-02T14:59:00Z",
-      "status": "upcoming"
-    },
-    {
       "id": "RjOQyuyucgc",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -72,6 +72,15 @@
       "en": {
         "title": "☁ Millipro Summer Collection 2026 now accepting orders! 🔧"
       }
+    },
+    {
+      "id": "dHnc-b8UT34",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【📢グッズ告知】ミリプロ サマーコレクション 2026！",
+      "thumb": "https://i.ytimg.com/vi/dHnc-b8UT34/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-02T14:59:00Z",
+      "status": "upcoming"
     },
     {
       "id": "pKv7C5ZJTAw",
@@ -182,18 +191,6 @@
       "status": "upcoming"
     },
     {
-      "id": "OCDhtDgFVUU",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "⋆⸜  サマーストリートコレクションコレクショングッズ販売中🌻  ⸝⋆",
-      "thumb": "https://i.ytimg.com/vi/OCDhtDgFVUU/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-31T14:30:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "⋆⸜ Summer Street Collection goods on sale 🌻 ⸝⋆"
-      }
-    },
-    {
       "id": "h9nYQNJBBts",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -204,6 +201,36 @@
     }
   ],
   "videos": [
+    {
+      "id": "88dUBcRyO8w",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【LIVE ver.】Princess Viral from YouTube Music Weekend 12.0",
+      "thumb": "https://i.ytimg.com/vi/88dUBcRyO8w/hqdefault.jpg",
+      "publishedAt": "2026-08-27T05:07:23Z",
+      "live": false
+    },
+    {
+      "id": "L9TLS_vnfCQ",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【Risdom / リズダム】ゲームにこのが登場！？！？自分を引いてプレイするぞーーーー！！！！【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/L9TLS_vnfCQ/hqdefault_live.jpg",
+      "publishedAt": "2026-08-27T04:15:10Z",
+      "live": false
+    },
+    {
+      "id": "0_6aKS8F718",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【歌枠】重大告知あり‼️高評価2000耐久歌枠【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/0_6aKS8F718/hqdefault_live.jpg",
+      "publishedAt": "2026-08-27T00:08:26Z",
+      "live": false
+    },
     {
       "id": "WjLOKtmLti8",
       "memberId": "raco",
@@ -472,36 +499,6 @@
       "title": "【📢イラスト技法書発売決定】現在予約販売中です！✨",
       "thumb": "https://i.ytimg.com/vi/sNJXQzJShuA/hqdefault_live.jpg",
       "publishedAt": "2026-08-23T14:26:15Z",
-      "live": false
-    },
-    {
-      "id": "ZuklosiIA0A",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【雑談】初配信ありがとうございましたヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ZuklosiIA0A/hqdefault.jpg",
-      "publishedAt": "2026-08-23T14:09:17Z",
-      "live": true
-    },
-    {
-      "id": "Dn2GGmOHKak",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "気分上々↑↑／小廻こま × 眠雲ツクリ × 雨夜リズ（cover）",
-      "thumb": "https://i.ytimg.com/vi/Dn2GGmOHKak/hqdefault.jpg",
-      "publishedAt": "2026-08-23T12:30:07Z",
-      "live": false
-    },
-    {
-      "id": "C8T1Iw-mqb4",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "Ready Steady - Giga covered by 雨夜リズ × 小廻こま × 眠雲ツクリ",
-      "thumb": "https://i.ytimg.com/vi/C8T1Iw-mqb4/hqdefault.jpg",
-      "publishedAt": "2026-08-23T12:15:06Z",
       "live": false
     }
   ],
