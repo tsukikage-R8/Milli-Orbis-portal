@@ -104,8 +104,8 @@ window.KARAOKE_SHAZAM = {
   },
   "Iy_Eh0FIlwU": {
     "status": "error",
-    "attempts": 1,
-    "attemptedAt": "2026-08-26T23:05:40.073662+00:00",
+    "attempts": 2,
+    "attemptedAt": "2026-08-27T00:29:05.420012+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: Expecting value: line 2 column 1 (char 1) / https://pi"
   },
   "8y2v7uLYRN4": {
@@ -254,8 +254,8 @@ window.KARAOKE_SHAZAM = {
   },
   "z98ZKGJGP3A": {
     "status": "error",
-    "attempts": 1,
-    "attemptedAt": "2026-08-23T08:48:48.848098+00:00",
+    "attempts": 2,
+    "attemptedAt": "2026-08-27T00:29:14.924454+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: Expecting value: line 2 column 1 (char 1) / https://pi"
   },
   "ZKziA4Tu-rM": {
@@ -268,6 +268,12 @@ window.KARAOKE_SHAZAM = {
     "status": "skip",
     "attempts": 5,
     "attemptedAt": "2026-08-26T05:00:21.583503+00:00",
+    "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: Expecting value: line 2 column 1 (char 1) / https://pi"
+  },
+  "9uhChi7bPgY": {
+    "status": "error",
+    "attempts": 1,
+    "attemptedAt": "2026-08-27T00:29:24.764401+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: Expecting value: line 2 column 1 (char 1) / https://pi"
   }
 };
