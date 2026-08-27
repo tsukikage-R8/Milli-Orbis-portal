@@ -1,6 +1,14 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "0_6aKS8F718",
+    "memberId": "liz",
+    "publishedAt": "2026-08-27",
+    "title": "【歌枠】重大告知あり‼️高評価2000耐久歌枠【雨夜リズ/ミリプロ】",
+    "duration": 0,
+    "songs": []
+  },
+  {
     "id": "UQi3DEDW90w",
     "memberId": "yura",
     "publishedAt": "2026-08-25",
