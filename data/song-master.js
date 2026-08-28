@@ -2,6 +2,12 @@
 window.SONG_MASTER = {
   "generatedAt": "2026-08-28",
   "songs": {
+    "ハッピシンセサイザ": {
+      "title": "ハッピーシンセサイザ",
+      "artist": "EasyPop",
+      "album": "ハッピーシンセサイザ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e8/54/8e/e8548ebe-3db7-e56c-dd2e-e75026b2a02e/PA00116257_0_164493_jacket.jpg/600x600bb.jpg"
+    },
     "スパクル": {
       "title": "スパークル",
       "artist": "RADWIMPS",
@@ -50,8 +56,8 @@ window.SONG_MASTER = {
     "夏色えがおで1,2,jump!": {
       "title": "夏色えがおで1,2,Jump!",
       "artist": "μ's",
-      "album": "μ's Complete BEST BOX Chapter.01",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/42/d5/c642d5f1-c39c-fa71-9e82-0687bb89c8bb/4540774907212.png/600x600bb.jpg",
+      "album": "夏色えがおで1,2,Jump! - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/89/b6/3d/89b63dc5-c717-6312-b37c-138f98f4abed/4540774408450.png/600x600bb.jpg",
       "en": {
         "title": "Summer color picture 1,2,Jump!"
       }
@@ -384,10 +390,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/2b/64/8e2b64e9-85f2-2486-364d-e4b72c40f4c9/PCSP_06085_A.jpg/600x600bb.jpg"
     },
     "モニタリング-deco*27shortby": {
-      "title": "翼の折れたエンジェル",
-      "artist": "LANA",
-      "album": "翼の折れたエンジェル - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/81/cd/24/81cd24ef-8161-20a3-2e95-aff3b06ec402/ANTCD-A0000020304.jpg/600x600bb.jpg"
+      "title": "だれかの心臓になれたなら",
+      "artist": "まふまふ",
+      "album": "だれかの心臓になれたなら - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c4/59/15/c4591582-c115-0454-4222-fcbceca6b7e7/PCSP_03350.jpg/600x600bb.jpg"
     },
     "specialz": {
       "title": "SPECIALZ",
@@ -420,13 +426,10 @@ window.SONG_MASTER = {
       }
     },
     "嫌々-halvesshortby": {
-      "title": "ダーリン",
-      "artist": "Mrs. GREEN APPLE",
-      "album": "ダーリン - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7b/b9/27/7bb92776-1f4a-06c6-e36e-de889f2b8620/25UMGIM01757.rgb.jpg/600x600bb.jpg",
-      "en": {
-        "title": "darling"
-      }
+      "title": "アンコール",
+      "artist": "YOASOBI",
+      "album": "THE BOOK",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7f/8c/90/7f8c90dd-e11f-30d5-271d-4b72eee970bd/195497666737.jpg/600x600bb.jpg"
     },
     "メルト": {
       "title": "メルト -MIKU EXPO 2014 in INDONESIA Live-",
@@ -643,9 +646,9 @@ window.SONG_MASTER = {
     },
     "メンタルチェンソ": {
       "title": "メンタルチェンソー",
-      "artist": "かいりきベア",
-      "album": "バグエフェクト",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3d/6d/3d/3d6d3d46-9361-9a4f-4916-c6f31109d456/4550714315878_cover.png/600x600bb.jpg",
+      "artist": "P丸様。",
+      "album": "Sunny!!",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a9/57/ab/a957abfc-fd6b-c3ec-3db2-15d2c46d2328/21UMGIM13559.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "mental chainsaw"
       }
@@ -1167,10 +1170,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/c6/f9/e6/c6f9e687-9fd0-5e42-dea9-e99f47389896/KRHS-37260_Pfeat_GloriousWo.jpg/600x600bb.jpg"
     },
     "チェリポップ.": {
-      "title": "Can't You See Me?",
-      "artist": "TOMORROW X TOGETHER",
-      "album": "The Dream Chapter: ETERNITY - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/58/11/b1/5811b15d-6c29-c30f-3495-10ef21365008/20UMGIM36654.rgb.jpg/600x600bb.jpg"
+      "title": "メランコリーキッチン",
+      "artist": "米津玄師",
+      "album": "YANKEE",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg"
     },
     "glowacoustic.": {
       "title": "春に落ちて",
@@ -1460,8 +1463,8 @@ window.SONG_MASTER = {
     "愛にできることはまだあるかいacoustic.": {
       "title": "黄金魂",
       "artist": "湘南乃風",
-      "album": "湘南乃風 〜Single Best〜",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f0/51/bd/f051bdf9-0cbd-9b5b-88b6-322cad0c3da6/20UMGIM21307.rgb.jpg/600x600bb.jpg"
+      "album": "湘南乃風 〜JOKER〜",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/1d/62/3c/1d623cea-ec46-4238-c671-e1d2439c89f4/20UMGIM21306.rgb.jpg/600x600bb.jpg"
     },
     "地球最後の告白をacoustic.": {
       "title": "ドラマツルギー (feat. 星乃一歌 & 初音ミク)",
@@ -1488,10 +1491,10 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "花束",
+      "title": "ハッピーエンド",
       "artist": "back number",
-      "album": "スーパースター",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/26/b6/e7/26b6e7e2-1cbb-4dde-edfb-e44e1f881cbd/00602577303739.rgb.jpg/600x600bb.jpg"
+      "album": "ハッピーエンド - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d9/55/96/d955961f-f9f7-4aa9-720f-36ddc0c46d0c/00602577303951.rgb.jpg/600x600bb.jpg"
     },
     "メルティランドナイトメア": {
       "title": "メルティランドナイトメア (Cover)",
@@ -1500,10 +1503,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fc/85/60/fc8560f1-00e3-b41a-d1bb-c169fa236ce4/PCSP_04901.jpg/600x600bb.jpg"
     },
     "ハイタ": {
-      "title": "マリーゴールド",
+      "title": "君はロックを聴かない",
       "artist": "あいみょん",
-      "album": "マリーゴールド - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/67/34/90/67349087-0609-2be4-4963-fd4682ae8c46/190295600341.jpg/600x600bb.jpg"
+      "album": "青春のエキサイトメント",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d8/7b/7c/d87b7cfd-c88c-1003-bc5d-883882043e33/190295747138.jpg/600x600bb.jpg"
     },
     "打上花火": {
       "title": "打上花火",
@@ -1530,13 +1533,10 @@ window.SONG_MASTER = {
       }
     },
     "メリュいました": {
-      "title": "だから僕は音楽を辞めた",
-      "artist": "ヨルシカ",
-      "album": "だから僕は音楽を辞めた",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/64/ab/ba/64abba45-d080-0e8a-c24b-313e597c63cb/PA00076158_0_91679_jacket.jpg/600x600bb.jpg",
-      "en": {
-        "title": "That's why I quit music"
-      }
+      "title": "W●RK",
+      "artist": "ꉈꀧ꒒꒒ꁄꍈꍈꀧ꒦ꉈ ꉣꅔꎡꅔꁕꁄ, 椎名林檎 & 常田大希",
+      "album": "W●RK - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/68/be/82/68be82ce-6780-5304-a0a5-4f5d40fd13fc/4547366684209.jpg/600x600bb.jpg"
     },
     "放課後のプレアデスいました": {
       "title": "Stella-rium",
@@ -1572,10 +1572,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e5/46/8a/e5468a74-37db-65a2-a8c6-aaf67552fdfd/4547366526615.jpg/600x600bb.jpg"
     },
     "刹那プラスいました": {
-      "title": "Goodbye",
-      "artist": "SEKAI NO OWARI",
-      "album": "Lip",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d9/84/41/d9844177-0101-4300-7bd7-a73b54692231/TFCC-86663WW.jpg/600x600bb.jpg"
+      "title": "助演男優賞",
+      "artist": "Creepy Nuts",
+      "album": "助演男優賞 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9a/9d/62/9a9d62eb-51a1-be7a-0b52-1913090579d4/4948722525264_cover.jpg/600x600bb.jpg"
     },
     "クライヤいました": {
       "title": "115万キロのフィルム",
@@ -1865,8 +1865,8 @@ window.SONG_MASTER = {
     "やさしさに包まれたなら": {
       "title": "やさしさに包まれたなら",
       "artist": "荒井由実",
-      "album": "40周年記念ベストアルバム 日本の恋と、ユーミンと。",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/9d/29/a59d2913-c2a1-4d9c-78b2-0fa914eb3336/00602567997542.rgb.jpg/600x600bb.jpg",
+      "album": "MISSLIM",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/52/9c/a0/529ca062-8a63-d1d7-5e6b-6774ba415dc2/00602567988229.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "If you are surrounded by kindness"
       }
@@ -1900,9 +1900,9 @@ window.SONG_MASTER = {
     },
     "夢を叶えてドラえもん": {
       "title": "夢をかなえてドラえもん",
-      "artist": "mao & ひまわりキッズ",
-      "album": "テレビアニメ放送40周年記念ドラえもん うたのコレクション",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/c2/7c/f4/c27cf448-7264-b818-07fc-549405508045/COCX-40818.jpg/600x600bb.jpg",
+      "artist": "mao",
+      "album": "テレビ朝日系アニメ「ドラえもん」主題歌 夢をかなえてドラえもん - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/ac/d3/20/acd3206f-2684-b149-8e82-1c6f52054217/COCC-16954.jpg/600x600bb.jpg",
       "en": {
         "title": "Doraemon make your dreams come true"
       }

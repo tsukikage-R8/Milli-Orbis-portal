@@ -374,6 +374,17 @@ window.SONGS = {
   ],
   "covers": [
     {
+      "title": "ハッピーシンセサイザ",
+      "key": "ハッピシンセサイザ",
+      "urls": [
+        {
+          "id": "TcJQmNLJ5GI",
+          "memberId": "konomi",
+          "publishedAt": "2026-08-28"
+        }
+      ]
+    },
+    {
       "title": "スパークル",
       "key": "スパクル",
       "urls": [
