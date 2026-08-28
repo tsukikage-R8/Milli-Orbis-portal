@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-08-27T05:19:49.989Z",
+  "updatedAt": "2026-08-27T18:26:52.004Z",
   "streams": [
-    {
-      "id": "0_6aKS8F718",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【歌枠】重大告知あり‼️高評価2000耐久歌枠【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/0_6aKS8F718/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-27T10:30:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "IcmQ_uC8h5I",
       "memberId": "konomi",
@@ -62,6 +53,15 @@
       }
     },
     {
+      "id": "dHnc-b8UT34",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【📢グッズ告知】ミリプロ サマーコレクション 2026！",
+      "thumb": "https://i.ytimg.com/vi/dHnc-b8UT34/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-02T14:59:00Z",
+      "status": "upcoming"
+    },
+    {
       "id": "RjOQyuyucgc",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -72,15 +72,6 @@
       "en": {
         "title": "☁ Millipro Summer Collection 2026 now accepting orders! 🔧"
       }
-    },
-    {
-      "id": "dHnc-b8UT34",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【📢グッズ告知】ミリプロ サマーコレクション 2026！",
-      "thumb": "https://i.ytimg.com/vi/dHnc-b8UT34/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-02T14:59:00Z",
-      "status": "upcoming"
     },
     {
       "id": "pKv7C5ZJTAw",
@@ -202,14 +193,34 @@
   ],
   "videos": [
     {
-      "id": "88dUBcRyO8w",
+      "id": "vfeD5iRmgkk",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 飲酒┆Minecraft】所持金０から、ぼっち夏祭りを誰より楽しむ【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/vfeD5iRmgkk/hqdefault.jpg",
+      "publishedAt": "2026-08-27T18:07:26Z",
+      "live": false
+    },
+    {
+      "id": "WwDq_YQFwXM",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【マイクラ】待ってろ！！1000万ミリコイン！！！【音ノ瀬らこ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/WwDq_YQFwXM/hqdefault.jpg",
+      "publishedAt": "2026-08-27T17:58:13Z",
+      "live": false
+    },
+    {
+      "id": "RaQo-306wIs",
       "memberId": "nono",
       "member": "音ノ乃のの",
       "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【LIVE ver.】Princess Viral from YouTube Music Weekend 12.0",
-      "thumb": "https://i.ytimg.com/vi/88dUBcRyO8w/hqdefault.jpg",
-      "publishedAt": "2026-08-27T05:07:23Z",
-      "live": false
+      "title": "【雑談】歌について┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/RaQo-306wIs/hqdefault.jpg",
+      "publishedAt": "2026-08-27T17:46:43Z",
+      "live": true
     },
     {
       "id": "L9TLS_vnfCQ",
@@ -217,18 +228,68 @@
       "member": "甘狼このみ",
       "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
       "title": "【Risdom / リズダム】ゲームにこのが登場！？！？自分を引いてプレイするぞーーーー！！！！【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/L9TLS_vnfCQ/hqdefault_live.jpg",
-      "publishedAt": "2026-08-27T04:15:10Z",
+      "thumb": "https://i.ytimg.com/vi/L9TLS_vnfCQ/hqdefault.jpg",
+      "publishedAt": "2026-08-27T14:25:22Z",
       "live": false
     },
     {
-      "id": "0_6aKS8F718",
+      "id": "MG3I1rUs5v8",
       "memberId": "liz",
       "member": "雨夜リズ",
       "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【歌枠】重大告知あり‼️高評価2000耐久歌枠【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/0_6aKS8F718/hqdefault_live.jpg",
-      "publishedAt": "2026-08-27T00:08:26Z",
+      "title": "NET CHOOSE SHOW／雨夜リズ（official）",
+      "thumb": "https://i.ytimg.com/vi/MG3I1rUs5v8/hqdefault.jpg",
+      "publishedAt": "2026-08-27T12:30:07Z",
+      "live": false
+    },
+    {
+      "id": "88dUBcRyO8w",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【LIVE ver.】Princess Viral from YouTube Music Weekend 12.0",
+      "thumb": "https://i.ytimg.com/vi/88dUBcRyO8w/hqdefault.jpg",
+      "publishedAt": "2026-08-27T11:00:06Z",
+      "live": false
+    },
+    {
+      "id": "YNGwghzhJec",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【Live ver】 なんと今年もYouTube Music Weekend 12.0に出演させていただいて「Princess Viral」披露させていただきました。┊︎#音ノ乃のの",
+      "thumb": "https://i.ytimg.com/vi/YNGwghzhJec/hqdefault.jpg",
+      "publishedAt": "2026-08-27T10:01:42Z",
+      "live": false
+    },
+    {
+      "id": "VUhofnsV2VI",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "分かっちゃいないね？新衣装が出るって、コト……【#甘狼このみ】",
+      "thumb": "https://i.ytimg.com/vi/VUhofnsV2VI/hqdefault.jpg",
+      "publishedAt": "2026-08-27T09:00:38Z",
+      "live": false
+    },
+    {
+      "id": "t5lEVjSvqOo",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】当てはまったら降りるゲーム！！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/t5lEVjSvqOo/hqdefault.jpg",
+      "publishedAt": "2026-08-27T09:00:31Z",
+      "live": false
+    },
+    {
+      "id": "FQ4ACiTCC7U",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "Pay Attention to Me!😠#shorts #animation #illustration",
+      "thumb": "https://i.ytimg.com/vi/FQ4ACiTCC7U/hqdefault.jpg",
+      "publishedAt": "2026-08-27T09:00:24Z",
       "live": false
     },
     {
@@ -429,76 +490,6 @@
       "title": "起きてんならおいで【あくび・でもんすぺーど】",
       "thumb": "https://i.ytimg.com/vi/_ZrBcrW5XWg/hqdefault.jpg",
       "publishedAt": "2026-08-24T17:10:47Z",
-      "live": false
-    },
-    {
-      "id": "8MsV5aly5CY",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【飲酒雑談】ふむ┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/8MsV5aly5CY/hqdefault.jpg",
-      "publishedAt": "2026-08-24T16:26:08Z",
-      "live": true
-    },
-    {
-      "id": "7qYeeRTid6A",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【雑談】いったんね？【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/7qYeeRTid6A/hqdefault.jpg",
-      "publishedAt": "2026-08-24T14:44:12Z",
-      "live": true
-    },
-    {
-      "id": "7zoaJ6LqTlI",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【マイクラ】目指せ1000万ミリコイン！！！【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/7zoaJ6LqTlI/hqdefault.jpg",
-      "publishedAt": "2026-08-24T14:39:43Z",
-      "live": false
-    },
-    {
-      "id": "zviYyQaqtXk",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【口癖禁止】『一旦』言ったら即終了！？【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/zviYyQaqtXk/hqdefault.jpg",
-      "publishedAt": "2026-08-24T12:25:40Z",
-      "live": false
-    },
-    {
-      "id": "pZ8u7MEiqxY",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】英単語縛りのヒントから答えれるかな？【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/pZ8u7MEiqxY/hqdefault.jpg",
-      "publishedAt": "2026-08-24T09:00:24Z",
-      "live": false
-    },
-    {
-      "id": "F2IFCh1k9OA",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【歌枠】高評価7000耐久！達成したら告知！【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/F2IFCh1k9OA/hqdefault.jpg",
-      "publishedAt": "2026-08-23T15:10:29Z",
-      "live": false
-    },
-    {
-      "id": "sNJXQzJShuA",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【📢イラスト技法書発売決定】現在予約販売中です！✨",
-      "thumb": "https://i.ytimg.com/vi/sNJXQzJShuA/hqdefault_live.jpg",
-      "publishedAt": "2026-08-23T14:26:15Z",
       "live": false
     }
   ],

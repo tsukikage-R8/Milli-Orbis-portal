@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-08-27",
+  "generatedAt": "2026-08-28",
   "songs": {
     "スパクル": {
       "title": "スパークル",
@@ -48,10 +48,13 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/6b/50/9c/6b509c4b-6550-40f7-2086-008eaed86c5f/jacket_SRCL07315B00Z_550.jpg/600x600bb.jpg"
     },
     "夏色えがおで1,2,jump!": {
-      "title": "夏色えがおで 1,2,Jump!",
-      "artist": "流田Project",
-      "album": "流's the COVER",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c4/94/cb/c494cbb1-e621-8475-9dba-b64acdff1c2a/5021732651365.jpg/600x600bb.jpg"
+      "title": "夏色えがおで1,2,Jump!",
+      "artist": "μ's",
+      "album": "μ's Complete BEST BOX Chapter.01",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/42/d5/c642d5f1-c39c-fa71-9e82-0687bb89c8bb/4540774907212.png/600x600bb.jpg",
+      "en": {
+        "title": "Summer color picture 1,2,Jump!"
+      }
     },
     "カゲロウデイズfeat.": {
       "title": "カゲロウデイズ",
@@ -501,10 +504,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "恋のスーパーボール",
-      "artist": "aiko",
-      "album": "時のシルエット",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/b5/19/5b/b5195b36-a3f6-c92b-bc50-5abfca0ded58/dj.ieadmwsc.jpg/600x600bb.jpg"
+      "title": "ツバメ (feat. ミドリーズ)",
+      "artist": "YOASOBI",
+      "album": "ツバメ (feat. ミドリーズ) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg"
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -1485,10 +1488,10 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "僕は君の事が好きだけど君は僕を別に好きじゃないみたい",
+      "title": "花束",
       "artist": "back number",
-      "album": "シャンデリア",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b8/72/c7/b872c749-c8ca-8e23-98fa-08e73f9cad83/00602577303760.rgb.jpg/600x600bb.jpg"
+      "album": "スーパースター",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/26/b6/e7/26b6e7e2-1cbb-4dde-edfb-e44e1f881cbd/00602577303739.rgb.jpg/600x600bb.jpg"
     },
     "メルティランドナイトメア": {
       "title": "メルティランドナイトメア (Cover)",
@@ -1569,10 +1572,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e5/46/8a/e5468a74-37db-65a2-a8c6-aaf67552fdfd/4547366526615.jpg/600x600bb.jpg"
     },
     "刹那プラスいました": {
-      "title": "助演男優賞",
-      "artist": "Creepy Nuts",
-      "album": "助演男優賞 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9a/9d/62/9a9d62eb-51a1-be7a-0b52-1913090579d4/4948722525264_cover.jpg/600x600bb.jpg"
+      "title": "Goodbye",
+      "artist": "SEKAI NO OWARI",
+      "album": "Lip",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d9/84/41/d9844177-0101-4300-7bd7-a73b54692231/TFCC-86663WW.jpg/600x600bb.jpg"
     },
     "クライヤいました": {
       "title": "115万キロのフィルム",
