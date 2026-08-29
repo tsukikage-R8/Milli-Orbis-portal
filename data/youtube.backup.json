@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-08-28T03:53:07.311Z",
+  "updatedAt": "2026-08-28T15:43:42.476Z",
   "streams": [
-    {
-      "id": "IcmQ_uC8h5I",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【#甘狼このみ新衣装】ついに、天使になってしまったのかもしれません【#あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/IcmQ_uC8h5I/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-28T10:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "aH1DIRyDnfc",
       "memberId": "mahoro",
@@ -30,6 +21,15 @@
       "en": {
         "title": "❥Summary of Yuragi Yura's Membership Benefits🌙Yuragi Yura's Membership 🫧*Check the summary section!"
       }
+    },
+    {
+      "id": "XuJyXMVtfpo",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【雑談】一緒にまったり話そうヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/XuJyXMVtfpo/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-31T13:00:00Z",
+      "status": "upcoming"
     },
     {
       "id": "8F-C9ivtBnE",
@@ -192,6 +192,106 @@
     }
   ],
   "videos": [
+    {
+      "id": "pVv9DrYL1r8",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【JSP3】初見マルチどんちゃん騒ぎホラー【日本事故物件監視協会3】",
+      "thumb": "https://i.ytimg.com/vi/pVv9DrYL1r8/hqdefault.jpg",
+      "publishedAt": "2026-08-28T15:21:08Z",
+      "live": false
+    },
+    {
+      "id": "XwzoXN1BY5g",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 JSP3 】初見2人でマルチプレイ！日本事故物件監視協会3 ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/XwzoXN1BY5g/hqdefault.jpg",
+      "publishedAt": "2026-08-28T14:54:39Z",
+      "live": false
+    },
+    {
+      "id": "XuJyXMVtfpo",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【雑談】一緒にまったり話そうヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/XuJyXMVtfpo/hqdefault_live.jpg",
+      "publishedAt": "2026-08-28T14:31:24Z",
+      "live": true
+    },
+    {
+      "id": "rIUuTVM8M1s",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 白栄大学 0号館 〗ついに大学デビュー、友達できるかな〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/rIUuTVM8M1s/hqdefault.jpg",
+      "publishedAt": "2026-08-28T14:24:14Z",
+      "live": false
+    },
+    {
+      "id": "IYvojg79F70",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 部屋訪問 】 リスナーさんのお部屋にお邪魔します！！！！！！！ 【 #ゆらふぃら生態観測 】",
+      "thumb": "https://i.ytimg.com/vi/IYvojg79F70/hqdefault.jpg",
+      "publishedAt": "2026-08-28T13:53:43Z",
+      "live": false
+    },
+    {
+      "id": "IcmQ_uC8h5I",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【#甘狼このみ新衣装】ついに、天使になってしまったのかもしれません【#あまかみらいぶ / #ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/IcmQ_uC8h5I/hqdefault.jpg",
+      "publishedAt": "2026-08-28T11:49:01Z",
+      "live": false
+    },
+    {
+      "id": "TcJQmNLJ5GI",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "ハッピーシンセサイザ / 甘狼このみ（cover）",
+      "thumb": "https://i.ytimg.com/vi/TcJQmNLJ5GI/hqdefault.jpg",
+      "publishedAt": "2026-08-28T11:30:06Z",
+      "live": false
+    },
+    {
+      "id": "VxlsuW3A4Ww",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【アニメ】1億円使い切れチャレンジ！#ミリプロ #anime",
+      "thumb": "https://i.ytimg.com/vi/VxlsuW3A4Ww/hqdefault.jpg",
+      "publishedAt": "2026-08-28T09:00:38Z",
+      "live": false
+    },
+    {
+      "id": "8v_bCP_tAFQ",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【最後まで分かったら超すごい！？】だんだん懐かしくなる夏曲メドレー【夕霧レイ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/8v_bCP_tAFQ/hqdefault.jpg",
+      "publishedAt": "2026-08-28T09:00:13Z",
+      "live": false
+    },
+    {
+      "id": "Wbo1kReryzM",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【カウィバウィボ】ののちゃんのオリ曲歌ってみた！【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/Wbo1kReryzM/hqdefault.jpg",
+      "publishedAt": "2026-08-28T09:00:11Z",
+      "live": false
+    },
     {
       "id": "vfeD5iRmgkk",
       "memberId": "yura",
@@ -390,106 +490,6 @@
       "title": "【マイクラ】当てはまったら降りるゲーム！！【#ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/SZJZXImK7IU/hqdefault.jpg",
       "publishedAt": "2026-08-26T09:00:35Z",
-      "live": false
-    },
-    {
-      "id": "EY-Qvy10YN0",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "本物のゆらぎはどれだ！？ #minecraft",
-      "thumb": "https://i.ytimg.com/vi/EY-Qvy10YN0/hqdefault.jpg",
-      "publishedAt": "2026-08-26T08:08:47Z",
-      "live": false
-    },
-    {
-      "id": "w608ywG0s9Q",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【雑談】ついにあれが届いたよ。。。。。【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/w608ywG0s9Q/hqdefault.jpg",
-      "publishedAt": "2026-08-25T16:18:45Z",
-      "live": true
-    },
-    {
-      "id": "Zt2jhEynx4Y",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 VALORANT 】初めてのソロランク ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Zt2jhEynx4Y/hqdefault.jpg",
-      "publishedAt": "2026-08-25T15:45:04Z",
-      "live": false
-    },
-    {
-      "id": "XbWL4SICA_k",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【リズム天国 ミラクルスターズ】歌い手なんだし余裕だよね！…だよね？【鹿乃まほろ/ミリプロ】#1",
-      "thumb": "https://i.ytimg.com/vi/XbWL4SICA_k/hqdefault.jpg",
-      "publishedAt": "2026-08-25T15:07:00Z",
-      "live": false
-    },
-    {
-      "id": "JfKiXOmkSSY",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 日本事故物件監視協会3 -Japan Stigmatized Property- 〗この業務がしたかったんです〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/JfKiXOmkSSY/hqdefault.jpg",
-      "publishedAt": "2026-08-25T13:22:40Z",
-      "live": false
-    },
-    {
-      "id": "8G4Mu2P8TM0",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【40万人ありがとう】絵を描くかもな～… 【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8G4Mu2P8TM0/hqdefault.jpg",
-      "publishedAt": "2026-08-25T12:47:04Z",
-      "live": false
-    },
-    {
-      "id": "Vr_f7y9YtTQ",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "ライラック / 音ノ瀬らこ (cover)",
-      "thumb": "https://i.ytimg.com/vi/Vr_f7y9YtTQ/hqdefault.jpg",
-      "publishedAt": "2026-08-25T12:00:07Z",
-      "live": false
-    },
-    {
-      "id": "aSNvJcJd3E4",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【みんなで】 『メズマライザー』クセ強い奴らでも合唱にしたらいい感じになる説【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/aSNvJcJd3E4/hqdefault.jpg",
-      "publishedAt": "2026-08-25T09:00:34Z",
-      "live": false
-    },
-    {
-      "id": "jmhAPvwMXI4",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【アニメ】チームワークで絶対に落とすな...！#ミリプロ #anime",
-      "thumb": "https://i.ytimg.com/vi/jmhAPvwMXI4/hqdefault.jpg",
-      "publishedAt": "2026-08-25T09:00:15Z",
-      "live": false
-    },
-    {
-      "id": "_ZrBcrW5XWg",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "起きてんならおいで【あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/_ZrBcrW5XWg/hqdefault.jpg",
-      "publishedAt": "2026-08-24T17:10:47Z",
       "live": false
     }
   ],
