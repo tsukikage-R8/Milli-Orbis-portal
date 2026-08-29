@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T00:11:22.957Z",
+  "updatedAt": "2026-08-29T10:30:50.575Z",
   "streams": [
     {
       "id": "aH1DIRyDnfc",
@@ -192,6 +192,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "BAN5FapVnF0",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【高速山手線ゲーム】ガチNGがガチすぎるｗｗｗ【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/BAN5FapVnF0/hqdefault.jpg",
+      "publishedAt": "2026-08-29T09:00:00Z",
+      "live": false
+    },
     {
       "id": "Ezm3RJdtqWY",
       "memberId": "liz",
@@ -480,16 +490,6 @@
       "title": "スパークル / 夕霧レイ (cover)",
       "thumb": "https://i.ytimg.com/vi/BJEztk4f4aA/hqdefault.jpg",
       "publishedAt": "2026-08-26T12:00:06Z",
-      "live": false
-    },
-    {
-      "id": "bvCjx04W9L8",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【ガチ回答】ミリプロに入りたい人・VTuberになりたい人からの50の質問に答えました",
-      "thumb": "https://i.ytimg.com/vi/bvCjx04W9L8/hqdefault.jpg",
-      "publishedAt": "2026-08-26T10:00:06Z",
       "live": false
     }
   ],
