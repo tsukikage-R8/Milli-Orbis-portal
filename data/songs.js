@@ -374,785 +374,306 @@ window.SONGS = {
   ],
   "covers": [
     {
-      "title": "IRIS OUT",
-      "key": "irisout",
+      "title": "ハッピーシンセサイザ",
+      "key": "ハッピシンセサイザ",
       "urls": [
         {
-          "id": "9jF60mq9Qdk",
-          "memberId": "nono",
-          "publishedAt": "2025-10-05"
-        }
-      ]
-    },
-    {
-      "title": "かくれんぼ",
-      "key": "かくれんぼ",
-      "urls": [
-        {
-          "id": "00aOOAgwjdM",
-          "memberId": "raco",
-          "publishedAt": "2025-06-09"
-        }
-      ],
-      "en": {
-        "title": "hide and seek"
-      }
-    },
-    {
-      "title": "オーバーライド",
-      "key": "オバライド",
-      "urls": [
-        {
-          "id": "8o45-VyOf_U",
-          "memberId": "raco",
-          "publishedAt": "2024-06-01"
-        }
-      ],
-      "en": {
-        "title": "override"
-      }
-    },
-    {
-      "title": "マーシャル・マキシマイザー",
-      "key": "マシャルマキシマイザ",
-      "urls": [
-        {
-          "id": "1HdUN5AP5BY",
-          "memberId": "nono",
-          "publishedAt": "2023-12-25"
-        }
-      ],
-      "en": {
-        "title": "marshall maximizer"
-      }
-    },
-    {
-      "title": "絶頂讃歌",
-      "key": "絶頂讃",
-      "urls": [
-        {
-          "id": "ykmdgbsh-8E",
-          "memberId": "nono",
-          "publishedAt": "2024-07-01"
-        }
-      ],
-      "en": {
-        "title": "climax hymn"
-      }
-    },
-    {
-      "title": "INSANE",
-      "key": "insane",
-      "urls": [
-        {
-          "id": "1Y4oEkZIxCo",
-          "memberId": "nono",
-          "publishedAt": "2024-10-27"
-        }
-      ]
-    },
-    {
-      "title": "ロストワンの号哭",
-      "key": "ロストワンの号哭",
-      "urls": [
-        {
-          "id": "GkSxwyWsWoE",
-          "memberId": "raco",
-          "publishedAt": "2025-12-09"
-        }
-      ],
-      "en": {
-        "title": "Cry of the Lost One"
-      }
-    },
-    {
-      "title": "悪魔の踊り方／あくび・でもんすぺーど（cover）",
-      "key": "悪魔の踊り方",
-      "urls": [
-        {
-          "id": "kpyynMWu-o0",
-          "memberId": "akubi",
-          "publishedAt": "2024-09-09"
-        }
-      ],
-      "en": {
-        "title": "How the Devil Dances/Yawn Demon Speed (cover)"
-      }
-    },
-    {
-      "title": "アスノヨゾラ哨戒班",
-      "key": "アスノヨゾラ哨戒班",
-      "urls": [
-        {
-          "id": "8HQCK3ORyQQ",
-          "memberId": "raco",
-          "publishedAt": "2024-10-27"
-        }
-      ],
-      "en": {
-        "title": "Asuno Yozora Patrol Team"
-      }
-    },
-    {
-      "title": "夜明けと蛍／小廻こま（cover）",
-      "key": "夜明けと蛍",
-      "urls": [
-        {
-          "id": "ssvo2Umq0sc",
-          "memberId": "koma",
-          "publishedAt": "2026-03-22"
-        },
-        {
-          "id": "z-SpGAf-jwA",
-          "memberId": "raco",
-          "publishedAt": "2026-06-08"
-        }
-      ]
-    },
-    {
-      "title": "トンデモワンダーズ",
-      "key": "トンデモワンダズ",
-      "urls": [
-        {
-          "id": "g5Y9wMxEwKw",
-          "memberId": "akubi",
-          "publishedAt": "2025-08-12"
-        },
-        {
-          "id": "g5Y9wMxEwKw",
-          "memberId": "koma",
-          "publishedAt": "2026-07-05"
-        },
-        {
-          "id": "g5Y9wMxEwKw",
+          "id": "TcJQmNLJ5GI",
           "memberId": "konomi",
-          "publishedAt": "2025-06-05"
-        },
-        {
-          "id": "g5Y9wMxEwKw",
-          "memberId": "nono",
-          "publishedAt": "2025-05-14"
-        },
-        {
-          "id": "g5Y9wMxEwKw",
-          "memberId": "official",
-          "publishedAt": "2025-05-09"
-        },
-        {
-          "id": "g5Y9wMxEwKw",
-          "memberId": "raco",
-          "publishedAt": "2025-06-03"
-        }
-      ],
-      "en": {
-        "title": "Tondemo Wonders"
-      }
-    },
-    {
-      "title": "「ロウワー/ぬゆり」",
-      "key": "ロウワぬゆり",
-      "urls": [
-        {
-          "id": "Xbfcg5WS0dg",
-          "memberId": "nono",
-          "publishedAt": "2024-02-22"
-        }
-      ],
-      "en": {
-        "title": "\"Lower/Nuyuri\""
-      }
-    },
-    {
-      "title": "STAY",
-      "key": "stay",
-      "urls": [
-        {
-          "id": "_oz38KjIs-o",
-          "memberId": "nono",
-          "publishedAt": "2025-03-03"
+          "publishedAt": "2026-08-28"
         }
       ]
     },
     {
-      "title": "ノンブレス・オブリージュ",
-      "key": "ノンブレスオブリジュ",
+      "title": "スパークル",
+      "key": "スパクル",
       "urls": [
         {
-          "id": "hxXBx9xwBAs",
-          "memberId": "raco",
-          "publishedAt": "2025-11-20"
-        }
-      ],
-      "en": {
-        "title": "Nobresse oblige"
-      }
-    },
-    {
-      "title": "ロキ",
-      "key": "ロキ",
-      "urls": [
-        {
-          "id": "McQ8pkr-X6o",
-          "memberId": "akubi",
-          "publishedAt": "2025-03-10"
-        },
-        {
-          "id": "McQ8pkr-X6o",
-          "memberId": "nono",
-          "publishedAt": "2025-03-10"
-        }
-      ],
-      "en": {
-        "title": "loki"
-      }
-    },
-    {
-      "title": "ローリンガール／眠雲ツクリ（cover）",
-      "key": "ロリンガル",
-      "urls": [
-        {
-          "id": "UHf4Szx02iM",
-          "memberId": "tsukuri",
-          "publishedAt": "2025-08-19"
-        }
-      ],
-      "en": {
-        "title": "Rolling Girl/Nemugumo Tsukuri (cover)"
-      }
-    },
-    {
-      "title": "サムライハート",
-      "key": "サムライハト",
-      "urls": [
-        {
-          "id": "hec0ZRHedwY",
-          "memberId": "akubi",
-          "publishedAt": "2025-12-07"
+          "id": "BJEztk4f4aA",
+          "memberId": "rei",
+          "publishedAt": "2026-08-26"
         }
       ]
     },
     {
-      "title": "のだ",
-      "key": "のだ＆＆",
+      "title": "ライラック",
+      "key": "ライラック",
       "urls": [
         {
-          "id": "HEWHqWlpJn0",
-          "memberId": "nuhu",
-          "publishedAt": "2026-03-31"
-        },
-        {
-          "id": "HEWHqWlpJn0",
+          "id": "Vr_f7y9YtTQ",
           "memberId": "raco",
-          "publishedAt": "2026-03-31"
-        },
-        {
-          "id": "HEWHqWlpJn0",
-          "memberId": "yura",
-          "publishedAt": "2026-03-31"
+          "publishedAt": "2026-08-26"
         }
       ],
       "en": {
-        "title": "Noda"
+        "title": "lilac"
       }
     },
     {
-      "title": "ボルテッカー／小廻こま（cover）",
-      "key": "ボルテッカ",
+      "title": "気分上々↑↑／小廻こま × 眠雲ツクリ × 雨夜リズ（cover）",
+      "key": "気分上々↑↑",
       "urls": [
         {
-          "id": "rHp4we1uqr0",
+          "id": "Dn2GGmOHKak",
           "memberId": "koma",
-          "publishedAt": "2025-03-07"
-        }
-      ],
-      "en": {
-        "title": "Volticker/Komawarikoma (cover)"
-      }
-    },
-    {
-      "title": "生きる",
-      "key": "生きる",
-      "urls": [
-        {
-          "id": "QA6h5fXe-Y8",
-          "memberId": "nono",
-          "publishedAt": "2023-12-09"
-        }
-      ],
-      "en": {
-        "title": "live"
-      }
-    },
-    {
-      "title": "心予報",
-      "key": "心予報",
-      "urls": [
-        {
-          "id": "qybR84ferv8",
-          "memberId": "nono",
-          "publishedAt": "2025-05-09"
-        }
-      ],
-      "en": {
-        "title": "heart forecast"
-      }
-    },
-    {
-      "title": "チェリーポップ",
-      "key": "チェリポップ",
-      "urls": [
-        {
-          "id": "hkQcDSTLbwA",
-          "memberId": "akubi",
-          "publishedAt": "2025-09-27"
+          "publishedAt": "2026-08-23"
         },
         {
-          "id": "UgpV6bWtt9Q",
-          "memberId": "raco",
-          "publishedAt": "2025-08-10"
-        }
-      ]
-    },
-    {
-      "title": "テレパシ",
-      "key": "テレパシ",
-      "urls": [
-        {
-          "id": "b9a2l3QI_64",
-          "memberId": "raco",
-          "publishedAt": "2025-04-08"
-        }
-      ],
-      "en": {
-        "title": "telepathy"
-      }
-    },
-    {
-      "title": "プロポーズ",
-      "key": "プロポズ",
-      "urls": [
-        {
-          "id": "VpV6ODuqZ04",
-          "memberId": "akubi",
-          "publishedAt": "2025-08-11"
+          "id": "Dn2GGmOHKak",
+          "memberId": "liz",
+          "publishedAt": "2026-08-23"
         },
         {
-          "id": "vbWpR-lj-mY",
-          "memberId": "raco",
-          "publishedAt": "2025-10-06"
-        },
-        {
-          "id": "mZ-PnGIXxpk",
-          "memberId": "yura",
-          "publishedAt": "2025-11-07"
-        }
-      ],
-      "en": {
-        "title": "proposal"
-      }
-    },
-    {
-      "title": "わたしの一番かわいいところ",
-      "key": "わたしの一番かわいいところ",
-      "urls": [
-        {
-          "id": "HEmqwBrP6gE",
-          "memberId": "akubi",
-          "publishedAt": "2025-08-12"
-        },
-        {
-          "id": "HEmqwBrP6gE",
-          "memberId": "konomi",
-          "publishedAt": "2024-12-28"
-        },
-        {
-          "id": "HEmqwBrP6gE",
-          "memberId": "nono",
-          "publishedAt": "2024-12-26"
-        },
-        {
-          "id": "HEmqwBrP6gE",
-          "memberId": "official",
-          "publishedAt": "2024-12-25"
-        },
-        {
-          "id": "HEmqwBrP6gE",
-          "memberId": "raco",
-          "publishedAt": "2024-12-26"
-        }
-      ],
-      "en": {
-        "title": "the cutest thing about me"
-      }
-    },
-    {
-      "title": "ロミオとシンデレラ／眠雲ツクリ（cover）",
-      "key": "ロミオとシンデレラ",
-      "urls": [
-        {
-          "id": "MxrnywtLkR0",
-          "memberId": "akubi",
-          "publishedAt": "2026-05-28"
-        },
-        {
-          "id": "Hs-gxOofX1s",
+          "id": "Dn2GGmOHKak",
           "memberId": "tsukuri",
-          "publishedAt": "2025-10-16"
+          "publishedAt": "2026-08-23"
         }
       ]
     },
     {
-      "title": "KING",
-      "key": "king",
+      "title": "Ready Steady - Giga",
+      "key": "readysteady-giga",
       "urls": [
         {
-          "id": "A4CGHw0xzh4",
-          "memberId": "akubi",
-          "publishedAt": "2024-03-15"
+          "id": "C8T1Iw-mqb4",
+          "memberId": "koma",
+          "publishedAt": "2026-08-23"
         },
         {
-          "id": "yXxccEqgAO4",
+          "id": "C8T1Iw-mqb4",
+          "memberId": "liz",
+          "publishedAt": "2026-08-23"
+        },
+        {
+          "id": "C8T1Iw-mqb4",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-08-23"
+        }
+      ]
+    },
+    {
+      "title": "Femme Fatale／小廻こま × 眠雲ツクリ × 雨夜リズ（cover）",
+      "key": "femmefatale",
+      "urls": [
+        {
+          "id": "4YNtwk_YR_0",
+          "memberId": "koma",
+          "publishedAt": "2026-08-23"
+        },
+        {
+          "id": "4YNtwk_YR_0",
+          "memberId": "liz",
+          "publishedAt": "2026-08-23"
+        },
+        {
+          "id": "4YNtwk_YR_0",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-08-23"
+        }
+      ]
+    },
+    {
+      "title": "ハロ/ハワユ - 鹿乃まほろ cover.",
+      "key": "ハロハワユ-.",
+      "urls": [
+        {
+          "id": "94xJrn4Kswk",
           "memberId": "mahoro",
-          "publishedAt": "2020-10-29"
+          "publishedAt": "2026-08-22"
         }
       ]
     },
     {
-      "title": "花の塔 / さユり",
-      "key": "花の塔さユり",
+      "title": "夏色えがおで1,2,Jump!",
+      "key": "夏色えがおで1,2,jump!",
       "urls": [
         {
-          "id": "LqdUhTK2sCY",
-          "memberId": "raco",
-          "publishedAt": "2025-03-07"
-        },
-        {
-          "id": "LqdUhTK2sCY",
-          "memberId": "yura",
-          "publishedAt": "2025-03-07"
-        }
-      ],
-      "en": {
-        "title": "Flower Tower / Sayuri"
-      }
-    },
-    {
-      "title": "アンノウン・マザーグース／眠雲ツクリ（cover）",
-      "key": "アンノウンマザグス",
-      "urls": [
-        {
-          "id": "0OsSgw7Vxx8",
-          "memberId": "tsukuri",
-          "publishedAt": "2025-04-12"
-        }
-      ],
-      "en": {
-        "title": "Unknown Mother Goose/Nemugumo Tsukuri (cover)"
-      }
-    },
-    {
-      "title": "ポニーテールとシュシュ",
-      "key": "ポニテルとシュシュ",
-      "urls": [
-        {
-          "id": "OH0g_7k-7aI",
-          "memberId": "akubi",
-          "publishedAt": "2025-08-12"
-        },
-        {
-          "id": "OH0g_7k-7aI",
-          "memberId": "koma",
-          "publishedAt": "2026-07-05"
-        },
-        {
-          "id": "OH0g_7k-7aI",
-          "memberId": "konomi",
-          "publishedAt": "2026-04-01"
-        },
-        {
-          "id": "OH0g_7k-7aI",
-          "memberId": "nono",
-          "publishedAt": "2025-08-16"
-        },
-        {
-          "id": "OH0g_7k-7aI",
-          "memberId": "official",
-          "publishedAt": "2025-08-02"
-        },
-        {
-          "id": "OH0g_7k-7aI",
-          "memberId": "raco",
-          "publishedAt": "2025-08-10"
-        },
-        {
-          "id": "OH0g_7k-7aI",
-          "memberId": "tsukuri",
-          "publishedAt": "2025-08-02"
-        }
-      ],
-      "en": {
-        "title": "ponytail and scrunchie"
-      }
-    },
-    {
-      "title": "劣等上等",
-      "key": "劣等上等＆",
-      "urls": [
-        {
-          "id": "xqq4Z4P8WcQ",
-          "memberId": "raco",
-          "publishedAt": "2024-12-09"
-        },
-        {
-          "id": "xqq4Z4P8WcQ",
-          "memberId": "yura",
-          "publishedAt": "2024-12-09"
-        }
-      ],
-      "en": {
-        "title": "inferior superior"
-      }
-    },
-    {
-      "title": "サインはB",
-      "key": "サインはb",
-      "urls": [
-        {
-          "id": "HJ-4iMdfa5o",
-          "memberId": "akubi",
-          "publishedAt": "2024-04-01"
-        },
-        {
-          "id": "HJ-4iMdfa5o",
-          "memberId": "konomi",
-          "publishedAt": "2024-04-01"
-        },
-        {
-          "id": "HJ-4iMdfa5o",
-          "memberId": "nono",
-          "publishedAt": "2024-04-01"
-        },
-        {
-          "id": "YROSKLYLXCk",
+          "id": "g4qGSYgxHLU",
           "memberId": "nuhu",
-          "publishedAt": "2024-12-26"
-        }
-      ],
-      "en": {
-        "title": "Sign is B"
-      }
-    },
-    {
-      "title": "UNDEAD",
-      "key": "undead",
-      "urls": [
-        {
-          "id": "BY4ZyFll-aE",
-          "memberId": "raco",
-          "publishedAt": "2025-03-15"
-        }
-      ]
-    },
-    {
-      "title": "いーあるふぁんくらぶ／小廻こま（cover）",
-      "key": "いあるふぁんくらぶ",
-      "urls": [
-        {
-          "id": "gctwAgW0fC4",
-          "memberId": "koma",
-          "publishedAt": "2025-08-01"
-        }
-      ],
-      "en": {
-        "title": "Iaru Fun Club/Komawarikoma (cover)"
-      }
-    },
-    {
-      "title": "祝福",
-      "key": "祝福",
-      "urls": [
-        {
-          "id": "GPo2s-QrOI4",
-          "memberId": "nono",
-          "publishedAt": "2023-12-09"
-        }
-      ],
-      "en": {
-        "title": "blessing"
-      }
-    },
-    {
-      "title": "デーモンロード",
-      "key": "デモンロド",
-      "urls": [
-        {
-          "id": "2TMyd-D2sC0",
-          "memberId": "nono",
-          "publishedAt": "2023-08-15"
-        }
-      ],
-      "en": {
-        "title": "demon lord"
-      }
-    },
-    {
-      "title": "いますぐ輪廻",
-      "key": "いますぐ輪廻",
-      "urls": [
-        {
-          "id": "xs1qSE9xIlo",
-          "memberId": "nono",
-          "publishedAt": "2025-08-25"
+          "publishedAt": "2026-08-19"
         },
         {
-          "id": "_pfPo_zpvFc",
-          "memberId": "raco",
-          "publishedAt": "2025-10-13"
-        }
-      ],
-      "en": {
-        "title": "Reincarnation now"
-      }
-    },
-    {
-      "title": "デビルじゃないもん／あくび・でもんすぺーど＆音ノ乃のの",
-      "key": "デビルじゃないもん＆",
-      "urls": [
-        {
-          "id": "j6YRSUIg9pM",
-          "memberId": "akubi",
-          "publishedAt": "2024-06-16"
-        },
-        {
-          "id": "j6YRSUIg9pM",
-          "memberId": "nono",
-          "publishedAt": "2024-06-16"
-        }
-      ],
-      "en": {
-        "title": "Not a Devil/Yawn Monster Speed & Otononono"
-      }
-    },
-    {
-      "title": "青と夏／あくび・でもんすぺーど（cover）",
-      "key": "青と夏",
-      "urls": [
-        {
-          "id": "DjNbcHCxVD4",
-          "memberId": "akubi",
-          "publishedAt": "2024-09-09"
-        }
-      ],
-      "en": {
-        "title": "Blue and Summer/Yawn Monster Speed (cover)"
-      }
-    },
-    {
-      "title": "ずうっといっしょ！",
-      "key": "ずうっといっしょ！",
-      "urls": [
-        {
-          "id": "D-Y4wLfTsNU",
-          "memberId": "konomi",
-          "publishedAt": "2024-12-28"
-        },
-        {
-          "id": "f_sZJ47Yi7I",
-          "memberId": "nuhu",
-          "publishedAt": "2025-05-01"
-        },
-        {
-          "id": "CkqeBR9eWDU",
-          "memberId": "raco",
-          "publishedAt": "2024-10-11"
-        }
-      ],
-      "en": {
-        "title": "Together forever!"
-      }
-    },
-    {
-      "title": "ANIMA",
-      "key": "anima",
-      "urls": [
-        {
-          "id": "W5MuSzyfkc0",
-          "memberId": "raco",
-          "publishedAt": "2026-01-24"
-        }
-      ]
-    },
-    {
-      "title": "テトリス",
-      "key": "テトリス",
-      "urls": [
-        {
-          "id": "8ehOrvMO7nc",
-          "memberId": "konomi",
-          "publishedAt": "2024-12-21"
-        },
-        {
-          "id": "nj0BQtn8ADA",
-          "memberId": "raco",
-          "publishedAt": "2025-02-03"
-        }
-      ],
-      "en": {
-        "title": "Tetris"
-      }
-    },
-    {
-      "title": "リードコントロール",
-      "key": "リドコントロル",
-      "urls": [
-        {
-          "id": "SlSzGxrsqsU",
-          "memberId": "nono",
-          "publishedAt": "2025-06-14"
-        }
-      ],
-      "en": {
-        "title": "lead control"
-      }
-    },
-    {
-      "title": "­ ­",
-      "key": "­­",
-      "urls": [
-        {
-          "id": "OfUzGXUkLMI",
+          "id": "g4qGSYgxHLU",
           "memberId": "official",
-          "publishedAt": "2025-08-30"
+          "publishedAt": "2026-08-21"
         },
         {
-          "id": "OfUzGXUkLMI",
+          "id": "g4qGSYgxHLU",
           "memberId": "raco",
-          "publishedAt": "2025-08-30"
+          "publishedAt": "2026-08-16"
+        }
+      ],
+      "en": {
+        "title": "Summer color picture 1,2,Jump!"
+      }
+    },
+    {
+      "title": "イケナイ太陽",
+      "key": "イケナイ太陽",
+      "urls": [
+        {
+          "id": "621K-5_WPVA",
+          "memberId": "official",
+          "publishedAt": "2026-08-21"
         }
       ]
     },
     {
-      "title": "モニタリング",
-      "key": "モニタリング",
+      "title": "カゲロウデイズ",
+      "key": "カゲロウデイズfeat.",
       "urls": [
         {
-          "id": "YKU9ZVGdjsU",
-          "memberId": "nono",
-          "publishedAt": "2025-10-11"
-        },
-        {
-          "id": "6on9a7HF4jo",
+          "id": "4Ie_l2SI0NM",
           "memberId": "raco",
-          "publishedAt": "2025-10-17"
+          "publishedAt": "2026-08-15"
         },
         {
-          "id": "8YPV-evzmWc",
-          "memberId": "tsukuri",
-          "publishedAt": "2025-10-04"
+          "id": "4Ie_l2SI0NM",
+          "memberId": "yura",
+          "publishedAt": "2026-08-15"
         }
       ],
       "en": {
-        "title": "monitoring"
+        "title": "Kagerou Days"
+      }
+    },
+    {
+      "title": "あぶく",
+      "key": "あぶく",
+      "urls": [
+        {
+          "id": "HIqDEryZgVk",
+          "memberId": "nono",
+          "publishedAt": "2026-08-15"
+        }
+      ],
+      "en": {
+        "title": "Bubbles"
+      }
+    },
+    {
+      "title": "Zzz",
+      "key": "zzz",
+      "urls": [
+        {
+          "id": "JLTCG0i4zfs",
+          "memberId": "nuhu",
+          "publishedAt": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "title": "名前のない怪物",
+      "key": "名前のない怪物",
+      "urls": [
+        {
+          "id": "5Iop35AqZ88",
+          "memberId": "akubi",
+          "publishedAt": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "title": "Surges／眠雲ツクリ（cover）",
+      "key": "surges",
+      "urls": [
+        {
+          "id": "dchqbTKOnjU",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-07-18"
+        }
+      ],
+      "en": {
+        "title": "Surges/Nemugumo Tsukuri (cover)"
+      }
+    },
+    {
+      "title": "怪獣の花唄",
+      "key": "怪獣の花唄",
+      "urls": [
+        {
+          "id": "cphW85uNiuI",
+          "memberId": "rei",
+          "publishedAt": "2026-07-11"
+        }
+      ],
+      "en": {
+        "title": "Monster's Flower Song"
+      }
+    },
+    {
+      "title": "MOTTAI／小廻こま（cover）",
+      "key": "mottai",
+      "urls": [
+        {
+          "id": "yUe_--CyBP0",
+          "memberId": "koma",
+          "publishedAt": "2026-07-10"
+        }
+      ],
+      "en": {
+        "title": "MOTTAI/Komawarikoma (cover)"
+      }
+    },
+    {
+      "title": "ラグトレイン／眠雲ツクリ（cover）",
+      "key": "ラグトレイン",
+      "urls": [
+        {
+          "id": "XogPaIFnJDo",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-07-04"
+        }
+      ],
+      "en": {
+        "title": "Rag Train/Nemugumo Tsukuri (cover)"
+      }
+    },
+    {
+      "title": "フロムトーキョー",
+      "key": "フロムトキョ",
+      "urls": [
+        {
+          "id": "GgIbQ5mHAQk",
+          "memberId": "raco",
+          "publishedAt": "2026-07-04"
+        }
+      ],
+      "en": {
+        "title": "From Tokyo"
+      }
+    },
+    {
+      "title": "シス×ラブ",
+      "key": "シスラブ＆",
+      "urls": [
+        {
+          "id": "srWPlYD9-lQ",
+          "memberId": "raco",
+          "publishedAt": "2026-07-04"
+        },
+        {
+          "id": "srWPlYD9-lQ",
+          "memberId": "yura",
+          "publishedAt": "2026-07-04"
+        }
+      ],
+      "en": {
+        "title": "Sis x Love"
+      }
+    },
+    {
+      "title": "プラネテス",
+      "key": "プラネテス",
+      "urls": [
+        {
+          "id": "V6-KLtR0t18",
+          "memberId": "nono",
+          "publishedAt": "2026-07-04"
+        }
+      ],
+      "en": {
+        "title": "Planetes"
       }
     },
     {
@@ -1167,214 +688,55 @@ window.SONGS = {
       ]
     },
     {
-      "title": "愛包ダンスホール",
-      "key": "愛包ダンスホル",
+      "title": "点描の唄 / Mrs. GREEN APPLE",
+      "key": "点描の唄mrs.greenapple",
       "urls": [
         {
-          "id": "Ye2N2th77r0",
+          "id": "8v1zfbXMvWY",
           "memberId": "raco",
-          "publishedAt": "2024-06-12"
-        }
-      ],
-      "en": {
-        "title": "Aibao dance hall"
-      }
-    },
-    {
-      "title": "メンタルチェンソー",
-      "key": "メンタルチェンソ",
-      "urls": [
-        {
-          "id": "MGqwVyUMUVc",
-          "memberId": "raco",
-          "publishedAt": "2025-04-08"
-        }
-      ],
-      "en": {
-        "title": "mental chainsaw"
-      }
-    },
-    {
-      "title": "unravel",
-      "key": "unravel",
-      "urls": [
-        {
-          "id": "N-ZTFGlD8Rg",
-          "memberId": "mahoro",
-          "publishedAt": "2020-10-04"
+          "publishedAt": "2026-06-13"
         },
         {
-          "id": "u5RRk9DZs3M",
-          "memberId": "nono",
-          "publishedAt": "2025-06-03"
-        }
-      ]
-    },
-    {
-      "title": "だから僕は音楽を辞めた",
-      "key": "だから僕は音楽を辞めた",
-      "urls": [
-        {
-          "id": "Lcou3LpxQvY",
-          "memberId": "nono",
-          "publishedAt": "2025-10-07"
-        }
-      ],
-      "en": {
-        "title": "That's why I quit music"
-      }
-    },
-    {
-      "title": "みむかｩわナイストライ",
-      "key": "みむかｩわナイストライ",
-      "urls": [
-        {
-          "id": "Fnf8sCKhVvI",
-          "memberId": "konomi",
-          "publishedAt": "2025-01-30"
-        },
-        {
-          "id": "AMBOYLBGXIQ",
-          "memberId": "nono",
-          "publishedAt": "2025-01-05"
-        }
-      ],
-      "en": {
-        "title": "Mimuka Nice try"
-      }
-    },
-    {
-      "title": "DAYBREAK FRONTLINE／眠雲ツクリ（cover）",
-      "key": "daybreakfrontline",
-      "urls": [
-        {
-          "id": "FicuKhVOyoY",
-          "memberId": "tsukuri",
-          "publishedAt": "2026-05-19"
-        }
-      ],
-      "en": {
-        "title": "DAYBREAK FRONTLINE/Nemugumo Tsukuri (cover)"
-      }
-    },
-    {
-      "title": "夜に駆ける",
-      "key": "夜に駆ける",
-      "urls": [
-        {
-          "id": "DHNxzf3pGDo",
-          "memberId": "nono",
-          "publishedAt": "2023-08-09"
-        }
-      ],
-      "en": {
-        "title": "run into the night"
-      }
-    },
-    {
-      "title": "ヤミタイガール - れるりり",
-      "key": "ヤミタイガル-れるりり",
-      "urls": [
-        {
-          "id": "g5dmsdj-btY",
-          "memberId": "liz",
-          "publishedAt": "2025-05-18"
-        }
-      ],
-      "en": {
-        "title": "Yami Tiger Girl - Reruri"
-      }
-    },
-    {
-      "title": "ただ君に晴れ",
-      "key": "ただ君に晴れ",
-      "urls": [
-        {
-          "id": "bU4i5h2qqoc",
+          "id": "8v1zfbXMvWY",
           "memberId": "yura",
-          "publishedAt": "2025-08-13"
+          "publishedAt": "2026-06-13"
         }
       ],
       "en": {
-        "title": "It's just sunny for you"
+        "title": "Pointillist Song / Mrs. GREEN APPLE"
       }
     },
     {
-      "title": "死神",
-      "key": "死神",
+      "title": "花女/花譜",
+      "key": "花女花譜",
       "urls": [
         {
-          "id": "UHiaOvm7DQ0",
-          "memberId": "nono",
-          "publishedAt": "2026-01-08"
+          "id": "3VoAG_NPhno",
+          "memberId": "yura",
+          "publishedAt": "2026-06-09"
         }
       ],
       "en": {
-        "title": "grim reaper"
+        "title": "Flower woman/Flower record"
       }
     },
     {
-      "title": "妄想感傷代償連盟／眠雲ツクリ（cover）",
-      "key": "妄想感傷代償連盟",
+      "title": "夜明けと蛍",
+      "key": "夜明けと蛍",
       "urls": [
         {
-          "id": "8FchJH33Gm0",
-          "memberId": "tsukuri",
-          "publishedAt": "2025-11-20"
-        }
-      ],
-      "en": {
-        "title": "Delusional Sentiment Compensation Federation/Nemugumo Tsukuri (cover)"
-      }
-    },
-    {
-      "title": "SPECIALZ",
-      "key": "specialz",
-      "urls": [
-        {
-          "id": "TG6Hq_ALDGE",
-          "memberId": "nono",
-          "publishedAt": "2025-11-20"
-        }
-      ]
-    },
-    {
-      "title": "Dec.",
-      "key": "dec.",
-      "urls": [
-        {
-          "id": "5KQK9rsErMg",
-          "memberId": "nono",
-          "publishedAt": "2024-10-07"
-        }
-      ]
-    },
-    {
-      "title": "青空のラプソディ／小廻こま（cover）",
-      "key": "青空のラプソディ",
-      "urls": [
-        {
-          "id": "DhAXdhSiSjE",
+          "id": "ssvo2Umq0sc",
           "memberId": "koma",
-          "publishedAt": "2025-10-12"
-        }
-      ],
-      "en": {
-        "title": "Rhapsody of the Blue Sky/Komawarikoma (cover)"
-      }
-    },
-    {
-      "title": "男の子の目的は何？／小廻こま（cover）",
-      "key": "男の子の目的は何？",
-      "urls": [
+          "publishedAt": "2026-03-22"
+        },
         {
-          "id": "2cUDY8t53PM",
-          "memberId": "koma",
-          "publishedAt": "2025-09-22"
+          "id": "z-SpGAf-jwA",
+          "memberId": "raco",
+          "publishedAt": "2026-06-08"
         }
       ],
       "en": {
-        "title": "What is the boy's purpose? /Komawarikoma (cover)"
+        "title": "dawn and fireflies"
       }
     },
     {
@@ -1392,18 +754,108 @@ window.SONGS = {
       }
     },
     {
-      "title": "クローバー♧クラブ -C♧C-／小廻こま（cover）",
-      "key": "クロバ♧クラブ-c♧c",
+      "title": "ロミオとシンデレラ",
+      "key": "ロミオとシンデレラ",
       "urls": [
         {
-          "id": "E57Q4477Usw",
-          "memberId": "koma",
-          "publishedAt": "2026-03-13"
+          "id": "MxrnywtLkR0",
+          "memberId": "akubi",
+          "publishedAt": "2026-05-28"
+        },
+        {
+          "id": "Hs-gxOofX1s",
+          "memberId": "tsukuri",
+          "publishedAt": "2025-10-16"
+        }
+      ]
+    },
+    {
+      "title": "ブラック★ロックシューター - ryo（supercell）",
+      "key": "ブラック★ロックシュタ-ryo",
+      "urls": [
+        {
+          "id": "fyCFKNG5lM8",
+          "memberId": "liz",
+          "publishedAt": "2026-05-19"
         }
       ],
       "en": {
-        "title": "Clover♧Club -C♧C-/Komawarikoma (cover)"
+        "title": "Black★Rock Shooter – ryo (supercell)"
       }
+    },
+    {
+      "title": "DAYBREAK FRONTLINE／眠雲ツクリ（cover）",
+      "key": "daybreakfrontline",
+      "urls": [
+        {
+          "id": "FicuKhVOyoY",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-05-19"
+        }
+      ],
+      "en": {
+        "title": "DAYBREAK FRONTLINE/Nemugumo Tsukuri (cover)"
+      }
+    },
+    {
+      "title": "フィナーレ。",
+      "key": "フィナレ。",
+      "urls": [
+        {
+          "id": "um3dzDKONYA",
+          "memberId": "nono",
+          "publishedAt": "2026-05-05"
+        }
+      ],
+      "en": {
+        "title": "Finale."
+      }
+    },
+    {
+      "title": "おやすみ泣き声、さよなら歌姫",
+      "key": "おやすみ泣き声、さよなら姫",
+      "urls": [
+        {
+          "id": "urWhy4EO0UQ",
+          "memberId": "akubi",
+          "publishedAt": "2026-05-03"
+        }
+      ]
+    },
+    {
+      "title": "愛言葉Ⅳ",
+      "key": "愛言葉ⅳ",
+      "urls": [
+        {
+          "id": "log5cuEG0jE",
+          "memberId": "raco",
+          "publishedAt": "2026-04-08"
+        }
+      ],
+      "en": {
+        "title": "Love words Ⅳ"
+      }
+    },
+    {
+      "title": "POP IN 2",
+      "key": "popin2＆＆",
+      "urls": [
+        {
+          "id": "9yClH5ihXXU",
+          "memberId": "nuhu",
+          "publishedAt": "2026-03-31"
+        },
+        {
+          "id": "9yClH5ihXXU",
+          "memberId": "raco",
+          "publishedAt": "2026-03-31"
+        },
+        {
+          "id": "9yClH5ihXXU",
+          "memberId": "yura",
+          "publishedAt": "2026-03-31"
+        }
+      ]
     },
     {
       "title": "神のまにまに",
@@ -1430,72 +882,202 @@ window.SONGS = {
       }
     },
     {
-      "title": "おやすみ泣き声、さよなら歌姫",
-      "key": "おやすみ泣き声、さよなら姫",
+      "title": "のだ",
+      "key": "のだ＆＆",
       "urls": [
         {
-          "id": "urWhy4EO0UQ",
-          "memberId": "akubi",
-          "publishedAt": "2026-05-03"
+          "id": "HEWHqWlpJn0",
+          "memberId": "nuhu",
+          "publishedAt": "2026-03-31"
+        },
+        {
+          "id": "HEWHqWlpJn0",
+          "memberId": "raco",
+          "publishedAt": "2026-03-31"
+        },
+        {
+          "id": "HEWHqWlpJn0",
+          "memberId": "yura",
+          "publishedAt": "2026-03-31"
+        }
+      ],
+      "en": {
+        "title": "Noda"
+      }
+    },
+    {
+      "title": "ワールドイズマイン - ryo（supercell）",
+      "key": "ワルドイズマイン-ryo",
+      "urls": [
+        {
+          "id": "taW4Inotz00",
+          "memberId": "liz",
+          "publishedAt": "2026-03-20"
+        }
+      ],
+      "en": {
+        "title": "World is Mine - ryo (supercell)"
+      }
+    },
+    {
+      "title": "クローバー♧クラブ -C♧C-／小廻こま（cover）",
+      "key": "クロバ♧クラブ-c♧c",
+      "urls": [
+        {
+          "id": "E57Q4477Usw",
+          "memberId": "koma",
+          "publishedAt": "2026-03-13"
+        }
+      ],
+      "en": {
+        "title": "Clover♧Club -C♧C-/Komawarikoma (cover)"
+      }
+    },
+    {
+      "title": "magnet／眠雲ツクリ × 雨夜リズ（cover）",
+      "key": "magnet",
+      "urls": [
+        {
+          "id": "rjT-NkMjoNk",
+          "memberId": "liz",
+          "publishedAt": "2026-03-08"
+        },
+        {
+          "id": "rjT-NkMjoNk",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-03-08"
+        }
+      ],
+      "en": {
+        "title": "magnet/Nemugumo Tsukuri × Ameya Riz (cover)"
+      }
+    },
+    {
+      "title": "Gimme×Gimme - 八王子P × Giga",
+      "key": "gimmegimme-八王子pgiga",
+      "urls": [
+        {
+          "id": "JZzPZdafddU",
+          "memberId": "liz",
+          "publishedAt": "2026-03-08"
+        },
+        {
+          "id": "JZzPZdafddU",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-03-08"
+        }
+      ],
+      "en": {
+        "title": "Gimme×Gimme - Hachioji P × Giga"
+      }
+    },
+    {
+      "title": "プロポーズ - 内緒のピアス",
+      "key": "プロポズ-内緒のピアス",
+      "urls": [
+        {
+          "id": "1PTdUD3r1BY",
+          "memberId": "liz",
+          "publishedAt": "2026-02-21"
+        }
+      ],
+      "en": {
+        "title": "Proposal - Secret Earrings"
+      }
+    },
+    {
+      "title": "snooze／眠雲ツクリ（cover）",
+      "key": "snooze",
+      "urls": [
+        {
+          "id": "ZhLVhkaT8TY",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-02-20"
+        }
+      ],
+      "en": {
+        "title": "snooze/Nemugumo Tsukuri (cover)"
+      }
+    },
+    {
+      "title": "ワールドイズマイン",
+      "key": "ワルドイズマイン",
+      "urls": [
+        {
+          "id": "gFYHMAmcO8Q",
+          "memberId": "konomi",
+          "publishedAt": "2026-02-16"
+        }
+      ],
+      "en": {
+        "title": "world is mine"
+      }
+    },
+    {
+      "title": "ANIMA",
+      "key": "anima",
+      "urls": [
+        {
+          "id": "W5MuSzyfkc0",
+          "memberId": "raco",
+          "publishedAt": "2026-01-24"
         }
       ]
     },
     {
-      "title": "完全感覚Dreamer",
-      "key": "完全感覚dreamer",
+      "title": "ガチャガチャきゅ～と・ふぃぎゅ@メイト／小廻こま（cover）",
+      "key": "ガチャガチャきゅ～とふぃぎゅ@メイト",
       "urls": [
         {
-          "id": "3dJWzjbzwzY",
+          "id": "aI_xfBX3J5g",
+          "memberId": "koma",
+          "publishedAt": "2026-01-17"
+        }
+      ],
+      "en": {
+        "title": "Gachagacha Cute Figu@mate/Komawarikoma (cover)"
+      }
+    },
+    {
+      "title": "スキスキ絶頂症 - koyori",
+      "key": "スキスキ絶頂症-koyori",
+      "urls": [
+        {
+          "id": "Qj_IXGtFTgc",
+          "memberId": "liz",
+          "publishedAt": "2026-01-17"
+        }
+      ],
+      "en": {
+        "title": "Suki Suki Climax - koyori"
+      }
+    },
+    {
+      "title": "死神",
+      "key": "死神",
+      "urls": [
+        {
+          "id": "UHiaOvm7DQ0",
+          "memberId": "nono",
+          "publishedAt": "2026-01-08"
+        }
+      ],
+      "en": {
+        "title": "grim reaper"
+      }
+    },
+    {
+      "title": "小悪魔だってかまわない！",
+      "key": "小悪魔だってかまわない！",
+      "urls": [
+        {
+          "id": "4WCHsobeMOY",
           "memberId": "nono",
           "publishedAt": "2025-12-26"
         }
       ],
       "en": {
-        "title": "Complete sensation Dreamer"
-      }
-    },
-    {
-      "title": "フィナーレ。",
-      "key": "フィナレ。",
-      "urls": [
-        {
-          "id": "um3dzDKONYA",
-          "memberId": "nono",
-          "publishedAt": "2026-05-05"
-        }
-      ],
-      "en": {
-        "title": "Finale."
-      }
-    },
-    {
-      "title": "Booo!",
-      "key": "booo!",
-      "urls": [
-        {
-          "id": "2hTqfAVMIEk",
-          "memberId": "konomi",
-          "publishedAt": "2024-07-19"
-        },
-        {
-          "id": "R38eZmK3xfY",
-          "memberId": "nono",
-          "publishedAt": "2025-01-27"
-        }
-      ]
-    },
-    {
-      "title": "神っぽいな",
-      "key": "神っぽいな",
-      "urls": [
-        {
-          "id": "k4U1mjvmBtI",
-          "memberId": "akubi",
-          "publishedAt": "2025-02-01"
-        }
-      ],
-      "en": {
-        "title": "Looks like a god"
+        "title": "I don't mind being a little devil!"
       }
     },
     {
@@ -1553,57 +1135,518 @@ window.SONGS = {
       }
     },
     {
-      "title": "フィクサー／あくび・でもんすぺーど（cover）",
-      "key": "フィクサ",
+      "title": "The Cute!!!",
+      "key": "thecute!!!",
       "urls": [
         {
-          "id": "UNDur4sv8_Y",
-          "memberId": "akubi",
-          "publishedAt": "2025-01-12"
-        }
-      ],
-      "en": {
-        "title": "Fixer/Yawn Monster Speed (cover)"
-      }
-    },
-    {
-      "title": "少女レイ",
-      "key": "少女レイ",
-      "urls": [
-        {
-          "id": "HvAeHfEh2Xg",
-          "memberId": "yura",
-          "publishedAt": "2024-09-15"
-        }
-      ],
-      "en": {
-        "title": "girl rei"
-      }
-    },
-    {
-      "title": "snooze／眠雲ツクリ（cover）",
-      "key": "snooze",
-      "urls": [
-        {
-          "id": "ZhLVhkaT8TY",
-          "memberId": "tsukuri",
-          "publishedAt": "2026-02-20"
-        }
-      ],
-      "en": {
-        "title": "snooze/Nemugumo Tsukuri (cover)"
-      }
-    },
-    {
-      "title": "Tot Ⅿusica",
-      "key": "totⅿusica",
-      "urls": [
-        {
-          "id": "FHo0tlgHMfM",
-          "memberId": "nono",
-          "publishedAt": "2024-05-31"
+          "id": "mvEs3YAbgo0",
+          "memberId": "konomi",
+          "publishedAt": "2025-12-26"
         }
       ]
+    },
+    {
+      "title": "完全感覚Dreamer",
+      "key": "完全感覚dreamer",
+      "urls": [
+        {
+          "id": "3dJWzjbzwzY",
+          "memberId": "nono",
+          "publishedAt": "2025-12-26"
+        }
+      ],
+      "en": {
+        "title": "Complete sensation Dreamer"
+      }
+    },
+    {
+      "title": "ロストワンの号哭",
+      "key": "ロストワンの号哭",
+      "urls": [
+        {
+          "id": "GkSxwyWsWoE",
+          "memberId": "raco",
+          "publishedAt": "2025-12-09"
+        }
+      ],
+      "en": {
+        "title": "Cry of the Lost One"
+      }
+    },
+    {
+      "title": "サムライハート",
+      "key": "サムライハト",
+      "urls": [
+        {
+          "id": "hec0ZRHedwY",
+          "memberId": "akubi",
+          "publishedAt": "2025-12-07"
+        }
+      ]
+    },
+    {
+      "title": "Catch You Catch Me",
+      "key": "catchyoucatchme",
+      "urls": [
+        {
+          "id": "9ZsILJCHx58",
+          "memberId": "nuhu",
+          "publishedAt": "2025-11-30"
+        }
+      ]
+    },
+    {
+      "title": "ヒバナ - DECO*27 short cover by 雨夜リズ",
+      "key": "ヒバナ-deco*27shortby",
+      "urls": [
+        {
+          "id": "tFU5ja5S5EY",
+          "memberId": "liz",
+          "publishedAt": "2025-11-29"
+        }
+      ],
+      "en": {
+        "title": "Hibana - DECO*27 short cover by Ameya Riz"
+      }
+    },
+    {
+      "title": "妄想感傷代償連盟／眠雲ツクリ（cover）",
+      "key": "妄想感傷代償連盟",
+      "urls": [
+        {
+          "id": "8FchJH33Gm0",
+          "memberId": "tsukuri",
+          "publishedAt": "2025-11-20"
+        }
+      ],
+      "en": {
+        "title": "Delusional Sentiment Compensation Federation/Nemugumo Tsukuri (cover)"
+      }
+    },
+    {
+      "title": "モニタリング (Best Friend Remix) - DECO*27 short cover by 雨夜リズ",
+      "key": "モニタリング-deco*27shortby",
+      "urls": [
+        {
+          "id": "AfNaFi0CYio",
+          "memberId": "liz",
+          "publishedAt": "2025-11-20"
+        }
+      ],
+      "en": {
+        "title": "Monitoring (Best Friend Remix) - DECO*27 short cover by Ameya Riz"
+      }
+    },
+    {
+      "title": "G4L - Giga",
+      "key": "g4l-giga",
+      "urls": [
+        {
+          "id": "7b5P-9jQhmg",
+          "memberId": "liz",
+          "publishedAt": "2025-11-20"
+        }
+      ]
+    },
+    {
+      "title": "ノンブレス・オブリージュ",
+      "key": "ノンブレスオブリジュ",
+      "urls": [
+        {
+          "id": "hxXBx9xwBAs",
+          "memberId": "raco",
+          "publishedAt": "2025-11-20"
+        }
+      ],
+      "en": {
+        "title": "Nobresse oblige"
+      }
+    },
+    {
+      "title": "SPECIALZ",
+      "key": "specialz",
+      "urls": [
+        {
+          "id": "TG6Hq_ALDGE",
+          "memberId": "nono",
+          "publishedAt": "2025-11-20"
+        }
+      ]
+    },
+    {
+      "title": "嫌々 - HALVES short cover by 雨夜リズ",
+      "key": "嫌々-halvesshortby",
+      "urls": [
+        {
+          "id": "2GxFJXx1fm8",
+          "memberId": "liz",
+          "publishedAt": "2025-11-07"
+        }
+      ],
+      "en": {
+        "title": "Unwilling - HALVES short cover by Ameya Riz"
+      }
+    },
+    {
+      "title": "メルト",
+      "key": "メルト",
+      "urls": [
+        {
+          "id": "8g7LySI4GDI",
+          "memberId": "yura",
+          "publishedAt": "2025-11-07"
+        }
+      ],
+      "en": {
+        "title": "melt"
+      }
+    },
+    {
+      "title": "プロポーズ",
+      "key": "プロポズ",
+      "urls": [
+        {
+          "id": "VpV6ODuqZ04",
+          "memberId": "akubi",
+          "publishedAt": "2025-08-11"
+        },
+        {
+          "id": "vbWpR-lj-mY",
+          "memberId": "raco",
+          "publishedAt": "2025-10-06"
+        },
+        {
+          "id": "mZ-PnGIXxpk",
+          "memberId": "yura",
+          "publishedAt": "2025-11-07"
+        }
+      ],
+      "en": {
+        "title": "proposal"
+      }
+    },
+    {
+      "title": "プレイ (PLAY) - Giga short cover by 雨夜リズ",
+      "key": "プレイ-gigashortby",
+      "urls": [
+        {
+          "id": "f1NBS_HkLOs",
+          "memberId": "liz",
+          "publishedAt": "2025-10-20"
+        }
+      ],
+      "en": {
+        "title": "PLAY - Giga short cover by Ameya Riz"
+      }
+    },
+    {
+      "title": "モニタリング",
+      "key": "モニタリング",
+      "urls": [
+        {
+          "id": "YKU9ZVGdjsU",
+          "memberId": "nono",
+          "publishedAt": "2025-10-11"
+        },
+        {
+          "id": "6on9a7HF4jo",
+          "memberId": "raco",
+          "publishedAt": "2025-10-17"
+        },
+        {
+          "id": "8YPV-evzmWc",
+          "memberId": "tsukuri",
+          "publishedAt": "2025-10-04"
+        }
+      ],
+      "en": {
+        "title": "monitoring"
+      }
+    },
+    {
+      "title": "いますぐ輪廻",
+      "key": "いますぐ輪廻",
+      "urls": [
+        {
+          "id": "xs1qSE9xIlo",
+          "memberId": "nono",
+          "publishedAt": "2025-08-25"
+        },
+        {
+          "id": "_pfPo_zpvFc",
+          "memberId": "raco",
+          "publishedAt": "2025-10-13"
+        }
+      ],
+      "en": {
+        "title": "Reincarnation now"
+      }
+    },
+    {
+      "title": "青空のラプソディ／小廻こま（cover）",
+      "key": "青空のラプソディ",
+      "urls": [
+        {
+          "id": "DhAXdhSiSjE",
+          "memberId": "koma",
+          "publishedAt": "2025-10-12"
+        }
+      ],
+      "en": {
+        "title": "Rhapsody of the Blue Sky/Komawarikoma (cover)"
+      }
+    },
+    {
+      "title": "だから僕は音楽を辞めた",
+      "key": "だから僕は音楽を辞めた",
+      "urls": [
+        {
+          "id": "Lcou3LpxQvY",
+          "memberId": "nono",
+          "publishedAt": "2025-10-07"
+        }
+      ],
+      "en": {
+        "title": "That's why I quit music"
+      }
+    },
+    {
+      "title": "おやすみ泣き声、さよなら歌姫  - クリープハイプ short cover by 雨夜リズ",
+      "key": "おやすみ泣き声、さよなら姫-クリプハイプshortby",
+      "urls": [
+        {
+          "id": "-piezDLZU-c",
+          "memberId": "liz",
+          "publishedAt": "2025-10-05"
+        }
+      ],
+      "en": {
+        "title": "Goodnight Cry, Goodbye Diva - Creep Hype short cover by Ameya Riz"
+      }
+    },
+    {
+      "title": "IRIS OUT",
+      "key": "irisout",
+      "urls": [
+        {
+          "id": "9jF60mq9Qdk",
+          "memberId": "nono",
+          "publishedAt": "2025-10-05"
+        }
+      ]
+    },
+    {
+      "title": "-ERROR - niki",
+      "key": "-error-niki",
+      "urls": [
+        {
+          "id": "crDo4vrANXk",
+          "memberId": "liz",
+          "publishedAt": "2025-10-04"
+        }
+      ]
+    },
+    {
+      "title": "チェリーポップ",
+      "key": "チェリポップ",
+      "urls": [
+        {
+          "id": "hkQcDSTLbwA",
+          "memberId": "akubi",
+          "publishedAt": "2025-09-27"
+        },
+        {
+          "id": "UgpV6bWtt9Q",
+          "memberId": "raco",
+          "publishedAt": "2025-08-10"
+        }
+      ]
+    },
+    {
+      "title": "男の子の目的は何？／小廻こま（cover）",
+      "key": "男の子の目的は何？",
+      "urls": [
+        {
+          "id": "2cUDY8t53PM",
+          "memberId": "koma",
+          "publishedAt": "2025-09-22"
+        }
+      ],
+      "en": {
+        "title": "What is the boy's purpose? /Komawarikoma (cover)"
+      }
+    },
+    {
+      "title": "1000年生きてる／眠雲ツクリ（cover）",
+      "key": "1000年生きてる",
+      "urls": [
+        {
+          "id": "vC4afYz_IME",
+          "memberId": "tsukuri",
+          "publishedAt": "2025-09-03"
+        }
+      ],
+      "en": {
+        "title": "Living for 1000 years/Nemugumo Tsukuri (cover)"
+      }
+    },
+    {
+      "title": "­ ­",
+      "key": "­­",
+      "urls": [
+        {
+          "id": "OfUzGXUkLMI",
+          "memberId": "official",
+          "publishedAt": "2025-08-30"
+        },
+        {
+          "id": "OfUzGXUkLMI",
+          "memberId": "raco",
+          "publishedAt": "2025-08-30"
+        }
+      ]
+    },
+    {
+      "title": "メランコリック",
+      "key": "メランコリック",
+      "urls": [
+        {
+          "id": "CdDbvVbwuNA",
+          "memberId": "konomi",
+          "publishedAt": "2025-08-30"
+        }
+      ],
+      "en": {
+        "title": "melancholic"
+      }
+    },
+    {
+      "title": "ローリンガール／眠雲ツクリ（cover）",
+      "key": "ロリンガル",
+      "urls": [
+        {
+          "id": "UHf4Szx02iM",
+          "memberId": "tsukuri",
+          "publishedAt": "2025-08-19"
+        }
+      ],
+      "en": {
+        "title": "Rolling Girl/Nemugumo Tsukuri (cover)"
+      }
+    },
+    {
+      "title": "ラビットホール",
+      "key": "ラビットホル",
+      "urls": [
+        {
+          "id": "UvRgYD14qao",
+          "memberId": "nono",
+          "publishedAt": "2025-08-16"
+        }
+      ],
+      "en": {
+        "title": "rabbit hole"
+      }
+    },
+    {
+      "title": "ただ君に晴れ",
+      "key": "ただ君に晴れ",
+      "urls": [
+        {
+          "id": "bU4i5h2qqoc",
+          "memberId": "yura",
+          "publishedAt": "2025-08-13"
+        }
+      ],
+      "en": {
+        "title": "It's just sunny for you"
+      }
+    },
+    {
+      "title": "ドレミファロンド",
+      "key": "ドレミファロンド",
+      "urls": [
+        {
+          "id": "ytyUGAtfskk",
+          "memberId": "nuhu",
+          "publishedAt": "2025-08-08"
+        }
+      ],
+      "en": {
+        "title": "Doremi Farondo"
+      }
+    },
+    {
+      "title": "ポニーテールとシュシュ",
+      "key": "ポニテルとシュシュ",
+      "urls": [
+        {
+          "id": "OH0g_7k-7aI",
+          "memberId": "akubi",
+          "publishedAt": "2025-08-12"
+        },
+        {
+          "id": "OH0g_7k-7aI",
+          "memberId": "koma",
+          "publishedAt": "2026-07-05"
+        },
+        {
+          "id": "OH0g_7k-7aI",
+          "memberId": "konomi",
+          "publishedAt": "2026-04-01"
+        },
+        {
+          "id": "OH0g_7k-7aI",
+          "memberId": "nono",
+          "publishedAt": "2025-08-16"
+        },
+        {
+          "id": "OH0g_7k-7aI",
+          "memberId": "official",
+          "publishedAt": "2025-08-02"
+        },
+        {
+          "id": "OH0g_7k-7aI",
+          "memberId": "raco",
+          "publishedAt": "2025-08-10"
+        },
+        {
+          "id": "OH0g_7k-7aI",
+          "memberId": "tsukuri",
+          "publishedAt": "2025-08-02"
+        }
+      ],
+      "en": {
+        "title": "ponytail and scrunchie"
+      }
+    },
+    {
+      "title": "いーあるふぁんくらぶ／小廻こま（cover）",
+      "key": "いあるふぁんくらぶ",
+      "urls": [
+        {
+          "id": "gctwAgW0fC4",
+          "memberId": "koma",
+          "publishedAt": "2025-08-01"
+        }
+      ],
+      "en": {
+        "title": "Iaru Fun Club/Komawarikoma (cover)"
+      }
+    },
+    {
+      "title": "リードコントロール",
+      "key": "リドコントロル",
+      "urls": [
+        {
+          "id": "SlSzGxrsqsU",
+          "memberId": "nono",
+          "publishedAt": "2025-06-14"
+        }
+      ],
+      "en": {
+        "title": "lead control"
+      }
     },
     {
       "title": "深海少女 -deep sea girl-",
@@ -1620,17 +1663,142 @@ window.SONGS = {
       }
     },
     {
-      "title": "愛言葉Ⅳ",
-      "key": "愛言葉ⅳ",
+      "title": "かくれんぼ",
+      "key": "かくれんぼ",
       "urls": [
         {
-          "id": "log5cuEG0jE",
+          "id": "00aOOAgwjdM",
           "memberId": "raco",
-          "publishedAt": "2026-04-08"
+          "publishedAt": "2025-06-09"
         }
       ],
       "en": {
-        "title": "Love words Ⅳ"
+        "title": "hide and seek"
+      }
+    },
+    {
+      "title": "unravel",
+      "key": "unravel",
+      "urls": [
+        {
+          "id": "N-ZTFGlD8Rg",
+          "memberId": "mahoro",
+          "publishedAt": "2020-10-04"
+        },
+        {
+          "id": "u5RRk9DZs3M",
+          "memberId": "nono",
+          "publishedAt": "2025-06-03"
+        }
+      ]
+    },
+    {
+      "title": "ヤミタイガール - れるりり",
+      "key": "ヤミタイガル-れるりり",
+      "urls": [
+        {
+          "id": "g5dmsdj-btY",
+          "memberId": "liz",
+          "publishedAt": "2025-05-18"
+        }
+      ],
+      "en": {
+        "title": "Yami Tiger Girl - Reruri"
+      }
+    },
+    {
+      "title": "トンデモワンダーズ",
+      "key": "トンデモワンダズ",
+      "urls": [
+        {
+          "id": "g5Y9wMxEwKw",
+          "memberId": "akubi",
+          "publishedAt": "2025-08-12"
+        },
+        {
+          "id": "g5Y9wMxEwKw",
+          "memberId": "koma",
+          "publishedAt": "2026-07-05"
+        },
+        {
+          "id": "g5Y9wMxEwKw",
+          "memberId": "konomi",
+          "publishedAt": "2025-06-05"
+        },
+        {
+          "id": "g5Y9wMxEwKw",
+          "memberId": "nono",
+          "publishedAt": "2025-05-14"
+        },
+        {
+          "id": "g5Y9wMxEwKw",
+          "memberId": "official",
+          "publishedAt": "2025-05-09"
+        },
+        {
+          "id": "g5Y9wMxEwKw",
+          "memberId": "raco",
+          "publishedAt": "2025-06-03"
+        }
+      ],
+      "en": {
+        "title": "Tondemo Wonders"
+      }
+    },
+    {
+      "title": "心予報",
+      "key": "心予報",
+      "urls": [
+        {
+          "id": "qybR84ferv8",
+          "memberId": "nono",
+          "publishedAt": "2025-05-09"
+        }
+      ],
+      "en": {
+        "title": "heart forecast"
+      }
+    },
+    {
+      "title": "アンノウン・マザーグース／眠雲ツクリ（cover）",
+      "key": "アンノウンマザグス",
+      "urls": [
+        {
+          "id": "0OsSgw7Vxx8",
+          "memberId": "tsukuri",
+          "publishedAt": "2025-04-12"
+        }
+      ],
+      "en": {
+        "title": "Unknown Mother Goose/Nemugumo Tsukuri (cover)"
+      }
+    },
+    {
+      "title": "テレパシ",
+      "key": "テレパシ",
+      "urls": [
+        {
+          "id": "b9a2l3QI_64",
+          "memberId": "raco",
+          "publishedAt": "2025-04-08"
+        }
+      ],
+      "en": {
+        "title": "telepathy"
+      }
+    },
+    {
+      "title": "メンタルチェンソー",
+      "key": "メンタルチェンソ",
+      "urls": [
+        {
+          "id": "MGqwVyUMUVc",
+          "memberId": "raco",
+          "publishedAt": "2025-04-08"
+        }
+      ],
+      "en": {
+        "title": "mental chainsaw"
       }
     },
     {
@@ -1645,6 +1813,359 @@ window.SONGS = {
       ],
       "en": {
         "title": "take heart"
+      }
+    },
+    {
+      "title": "雑魚",
+      "key": "雑魚",
+      "urls": [
+        {
+          "id": "cgN55YdBaTg",
+          "memberId": "konomi",
+          "publishedAt": "2025-03-21"
+        }
+      ],
+      "en": {
+        "title": "small fry"
+      }
+    },
+    {
+      "title": "UNDEAD",
+      "key": "undead",
+      "urls": [
+        {
+          "id": "BY4ZyFll-aE",
+          "memberId": "raco",
+          "publishedAt": "2025-03-15"
+        }
+      ]
+    },
+    {
+      "title": "ロキ",
+      "key": "ロキ",
+      "urls": [
+        {
+          "id": "McQ8pkr-X6o",
+          "memberId": "akubi",
+          "publishedAt": "2025-03-10"
+        },
+        {
+          "id": "McQ8pkr-X6o",
+          "memberId": "nono",
+          "publishedAt": "2025-03-10"
+        }
+      ],
+      "en": {
+        "title": "loki"
+      }
+    },
+    {
+      "title": "ボルテッカー／小廻こま（cover）",
+      "key": "ボルテッカ",
+      "urls": [
+        {
+          "id": "rHp4we1uqr0",
+          "memberId": "koma",
+          "publishedAt": "2025-03-07"
+        }
+      ],
+      "en": {
+        "title": "Volticker/Komawarikoma (cover)"
+      }
+    },
+    {
+      "title": "花の塔 / さユり",
+      "key": "花の塔さユり",
+      "urls": [
+        {
+          "id": "LqdUhTK2sCY",
+          "memberId": "raco",
+          "publishedAt": "2025-03-07"
+        },
+        {
+          "id": "LqdUhTK2sCY",
+          "memberId": "yura",
+          "publishedAt": "2025-03-07"
+        }
+      ],
+      "en": {
+        "title": "Flower Tower / Sayuri"
+      }
+    },
+    {
+      "title": "STAY",
+      "key": "stay",
+      "urls": [
+        {
+          "id": "_oz38KjIs-o",
+          "memberId": "nono",
+          "publishedAt": "2025-03-03"
+        }
+      ]
+    },
+    {
+      "title": "粛聖!! ロリ神レクイエム☆",
+      "key": "粛聖!!ロリ神レクイエム☆",
+      "urls": [
+        {
+          "id": "tUm_sr4H3P4",
+          "memberId": "konomi",
+          "publishedAt": "2025-02-14"
+        }
+      ],
+      "en": {
+        "title": "Seishi!! Loli God Requiem ☆"
+      }
+    },
+    {
+      "title": "テトリス",
+      "key": "テトリス",
+      "urls": [
+        {
+          "id": "8ehOrvMO7nc",
+          "memberId": "konomi",
+          "publishedAt": "2024-12-21"
+        },
+        {
+          "id": "nj0BQtn8ADA",
+          "memberId": "raco",
+          "publishedAt": "2025-02-03"
+        }
+      ],
+      "en": {
+        "title": "Tetris"
+      }
+    },
+    {
+      "title": "神っぽいな",
+      "key": "神っぽいな",
+      "urls": [
+        {
+          "id": "k4U1mjvmBtI",
+          "memberId": "akubi",
+          "publishedAt": "2025-02-01"
+        }
+      ],
+      "en": {
+        "title": "Looks like a god"
+      }
+    },
+    {
+      "title": "みむかｩわナイストライ",
+      "key": "みむかｩわナイストライ",
+      "urls": [
+        {
+          "id": "Fnf8sCKhVvI",
+          "memberId": "konomi",
+          "publishedAt": "2025-01-30"
+        },
+        {
+          "id": "AMBOYLBGXIQ",
+          "memberId": "nono",
+          "publishedAt": "2025-01-05"
+        }
+      ],
+      "en": {
+        "title": "Mimuka Nice try"
+      }
+    },
+    {
+      "title": "Booo!",
+      "key": "booo!",
+      "urls": [
+        {
+          "id": "2hTqfAVMIEk",
+          "memberId": "konomi",
+          "publishedAt": "2024-07-19"
+        },
+        {
+          "id": "R38eZmK3xfY",
+          "memberId": "nono",
+          "publishedAt": "2025-01-27"
+        }
+      ]
+    },
+    {
+      "title": "フィクサー／あくび・でもんすぺーど（cover）",
+      "key": "フィクサ",
+      "urls": [
+        {
+          "id": "UNDur4sv8_Y",
+          "memberId": "akubi",
+          "publishedAt": "2025-01-12"
+        }
+      ],
+      "en": {
+        "title": "Fixer/Yawn Monster Speed (cover)"
+      }
+    },
+    {
+      "title": "ずうっといっしょ！",
+      "key": "ずうっといっしょ！",
+      "urls": [
+        {
+          "id": "D-Y4wLfTsNU",
+          "memberId": "konomi",
+          "publishedAt": "2024-12-28"
+        },
+        {
+          "id": "f_sZJ47Yi7I",
+          "memberId": "nuhu",
+          "publishedAt": "2025-05-01"
+        },
+        {
+          "id": "CkqeBR9eWDU",
+          "memberId": "raco",
+          "publishedAt": "2024-10-11"
+        }
+      ],
+      "en": {
+        "title": "Together forever!"
+      }
+    },
+    {
+      "title": "わたしの一番かわいいところ",
+      "key": "わたしの一番かわいいところ",
+      "urls": [
+        {
+          "id": "HEmqwBrP6gE",
+          "memberId": "akubi",
+          "publishedAt": "2025-08-12"
+        },
+        {
+          "id": "HEmqwBrP6gE",
+          "memberId": "konomi",
+          "publishedAt": "2024-12-28"
+        },
+        {
+          "id": "HEmqwBrP6gE",
+          "memberId": "nono",
+          "publishedAt": "2024-12-26"
+        },
+        {
+          "id": "HEmqwBrP6gE",
+          "memberId": "official",
+          "publishedAt": "2024-12-25"
+        },
+        {
+          "id": "HEmqwBrP6gE",
+          "memberId": "raco",
+          "publishedAt": "2024-12-26"
+        }
+      ],
+      "en": {
+        "title": "the cutest thing about me"
+      }
+    },
+    {
+      "title": "劣等上等",
+      "key": "劣等上等＆",
+      "urls": [
+        {
+          "id": "xqq4Z4P8WcQ",
+          "memberId": "raco",
+          "publishedAt": "2024-12-09"
+        },
+        {
+          "id": "xqq4Z4P8WcQ",
+          "memberId": "yura",
+          "publishedAt": "2024-12-09"
+        }
+      ],
+      "en": {
+        "title": "inferior superior"
+      }
+    },
+    {
+      "title": "ド屑",
+      "key": "ド屑",
+      "urls": [
+        {
+          "id": "25AAYo1krlI",
+          "memberId": "yura",
+          "publishedAt": "2024-11-04"
+        }
+      ],
+      "en": {
+        "title": "rubbish"
+      }
+    },
+    {
+      "title": "陽キャJKに憧れる陰キャJKの歌",
+      "key": "陽キャjkに憧れる陰キャjkの",
+      "urls": [
+        {
+          "id": "jE4S0JgJy3I",
+          "memberId": "konomi",
+          "publishedAt": "2024-11-03"
+        }
+      ],
+      "en": {
+        "title": "A song about a negative JK who admires a positive JK."
+      }
+    },
+    {
+      "title": "INSANE",
+      "key": "insane",
+      "urls": [
+        {
+          "id": "1Y4oEkZIxCo",
+          "memberId": "nono",
+          "publishedAt": "2024-10-27"
+        }
+      ]
+    },
+    {
+      "title": "アスノヨゾラ哨戒班",
+      "key": "アスノヨゾラ哨戒班",
+      "urls": [
+        {
+          "id": "8HQCK3ORyQQ",
+          "memberId": "raco",
+          "publishedAt": "2024-10-27"
+        }
+      ],
+      "en": {
+        "title": "Asuno Yozora Patrol Team"
+      }
+    },
+    {
+      "title": "Dec.",
+      "key": "dec.",
+      "urls": [
+        {
+          "id": "5KQK9rsErMg",
+          "memberId": "nono",
+          "publishedAt": "2024-10-07"
+        }
+      ]
+    },
+    {
+      "title": "少女レイ",
+      "key": "少女レイ",
+      "urls": [
+        {
+          "id": "HvAeHfEh2Xg",
+          "memberId": "yura",
+          "publishedAt": "2024-09-15"
+        }
+      ],
+      "en": {
+        "title": "girl rei"
+      }
+    },
+    {
+      "title": "ぎゅっと。",
+      "key": "ぎゅっと。",
+      "urls": [
+        {
+          "id": "Dcov9zht9aY",
+          "memberId": "konomi",
+          "publishedAt": "2024-09-15"
+        }
+      ],
+      "en": {
+        "title": "tightly."
       }
     },
     {
@@ -1667,99 +2188,190 @@ window.SONGS = {
       }
     },
     {
-      "title": "あぶく",
-      "key": "あぶく",
+      "title": "悪魔の踊り方／あくび・でもんすぺーど（cover）",
+      "key": "悪魔の踊り方",
       "urls": [
         {
-          "id": "HIqDEryZgVk",
+          "id": "kpyynMWu-o0",
+          "memberId": "akubi",
+          "publishedAt": "2024-09-09"
+        }
+      ],
+      "en": {
+        "title": "How the Devil Dances/Yawn Demon Speed (cover)"
+      }
+    },
+    {
+      "title": "青と夏／あくび・でもんすぺーど（cover）",
+      "key": "青と夏",
+      "urls": [
+        {
+          "id": "DjNbcHCxVD4",
+          "memberId": "akubi",
+          "publishedAt": "2024-09-09"
+        }
+      ],
+      "en": {
+        "title": "Blue and Summer/Yawn Monster Speed (cover)"
+      }
+    },
+    {
+      "title": "絶頂讃歌",
+      "key": "絶頂讃",
+      "urls": [
+        {
+          "id": "ykmdgbsh-8E",
           "memberId": "nono",
-          "publishedAt": "2026-08-15"
+          "publishedAt": "2024-07-01"
         }
       ],
       "en": {
-        "title": "Bubbles"
+        "title": "climax hymn"
       }
     },
     {
-      "title": "magnet／眠雲ツクリ × 雨夜リズ（cover）",
-      "key": "magnet",
+      "title": "過去を喰らう / 花譜",
+      "key": "過去を喰らう花譜",
       "urls": [
         {
-          "id": "rjT-NkMjoNk",
-          "memberId": "liz",
-          "publishedAt": "2026-03-08"
-        },
-        {
-          "id": "rjT-NkMjoNk",
-          "memberId": "tsukuri",
-          "publishedAt": "2026-03-08"
-        }
-      ],
-      "en": {
-        "title": "magnet/Nemugumo Tsukuri × Ameya Riz (cover)"
-      }
-    },
-    {
-      "title": "POP IN 2",
-      "key": "popin2＆＆",
-      "urls": [
-        {
-          "id": "9yClH5ihXXU",
-          "memberId": "nuhu",
-          "publishedAt": "2026-03-31"
-        },
-        {
-          "id": "9yClH5ihXXU",
-          "memberId": "raco",
-          "publishedAt": "2026-03-31"
-        },
-        {
-          "id": "9yClH5ihXXU",
+          "id": "nyfRz_j65oM",
           "memberId": "yura",
-          "publishedAt": "2026-03-31"
+          "publishedAt": "2024-06-30"
+        }
+      ],
+      "en": {
+        "title": "Eat the past / Kafu"
+      }
+    },
+    {
+      "title": "デビルじゃないもん／あくび・でもんすぺーど＆音ノ乃のの",
+      "key": "デビルじゃないもん＆",
+      "urls": [
+        {
+          "id": "j6YRSUIg9pM",
+          "memberId": "akubi",
+          "publishedAt": "2024-06-16"
+        },
+        {
+          "id": "j6YRSUIg9pM",
+          "memberId": "nono",
+          "publishedAt": "2024-06-16"
+        }
+      ],
+      "en": {
+        "title": "Not a Devil/Yawn Monster Speed & Otononono"
+      }
+    },
+    {
+      "title": "愛包ダンスホール",
+      "key": "愛包ダンスホル",
+      "urls": [
+        {
+          "id": "Ye2N2th77r0",
+          "memberId": "raco",
+          "publishedAt": "2024-06-12"
+        }
+      ],
+      "en": {
+        "title": "Aibao dance hall"
+      }
+    },
+    {
+      "title": "オーバーライド",
+      "key": "オバライド",
+      "urls": [
+        {
+          "id": "8o45-VyOf_U",
+          "memberId": "raco",
+          "publishedAt": "2024-06-01"
+        }
+      ],
+      "en": {
+        "title": "override"
+      }
+    },
+    {
+      "title": "Tot Ⅿusica",
+      "key": "totⅿusica",
+      "urls": [
+        {
+          "id": "FHo0tlgHMfM",
+          "memberId": "nono",
+          "publishedAt": "2024-05-31"
         }
       ]
     },
     {
-      "title": "小悪魔だってかまわない！",
-      "key": "小悪魔だってかまわない！",
+      "title": "サインはB",
+      "key": "サインはb",
       "urls": [
         {
-          "id": "4WCHsobeMOY",
+          "id": "HJ-4iMdfa5o",
+          "memberId": "akubi",
+          "publishedAt": "2024-04-01"
+        },
+        {
+          "id": "HJ-4iMdfa5o",
+          "memberId": "konomi",
+          "publishedAt": "2024-04-01"
+        },
+        {
+          "id": "HJ-4iMdfa5o",
           "memberId": "nono",
-          "publishedAt": "2025-12-26"
+          "publishedAt": "2024-04-01"
+        },
+        {
+          "id": "YROSKLYLXCk",
+          "memberId": "nuhu",
+          "publishedAt": "2024-12-26"
         }
       ],
       "en": {
-        "title": "I don't mind being a little devil!"
+        "title": "Sign is B"
       }
     },
     {
-      "title": "メルト",
-      "key": "メルト",
+      "title": "恋愛サーキュレーション",
+      "key": "恋愛サキュレション",
       "urls": [
         {
-          "id": "8g7LySI4GDI",
-          "memberId": "yura",
-          "publishedAt": "2025-11-07"
+          "id": "Lw8bY6neidA",
+          "memberId": "konomi",
+          "publishedAt": "2024-03-15"
         }
       ],
       "en": {
-        "title": "melt"
+        "title": "love circulation"
       }
     },
     {
-      "title": "ラビットホール",
-      "key": "ラビットホル",
+      "title": "KING",
+      "key": "king",
       "urls": [
         {
-          "id": "UvRgYD14qao",
+          "id": "A4CGHw0xzh4",
+          "memberId": "akubi",
+          "publishedAt": "2024-03-15"
+        },
+        {
+          "id": "yXxccEqgAO4",
+          "memberId": "mahoro",
+          "publishedAt": "2020-10-29"
+        }
+      ]
+    },
+    {
+      "title": "「ロウワー/ぬゆり」",
+      "key": "ロウワぬゆり",
+      "urls": [
+        {
+          "id": "Xbfcg5WS0dg",
           "memberId": "nono",
-          "publishedAt": "2025-08-16"
+          "publishedAt": "2024-02-22"
         }
       ],
       "en": {
-        "title": "rabbit hole"
+        "title": "\"Lower/Nuyuri\""
       }
     },
     {
@@ -1777,6 +2389,76 @@ window.SONGS = {
       }
     },
     {
+      "title": "寝起きヤシの木",
+      "key": "寝起きヤシの木兎鞠まり",
+      "urls": [
+        {
+          "id": "vUpiTCZandE",
+          "memberId": "konomi",
+          "publishedAt": "2023-12-25"
+        }
+      ],
+      "en": {
+        "title": "waking up palm tree"
+      }
+    },
+    {
+      "title": "マーシャル・マキシマイザー",
+      "key": "マシャルマキシマイザ",
+      "urls": [
+        {
+          "id": "1HdUN5AP5BY",
+          "memberId": "nono",
+          "publishedAt": "2023-12-25"
+        }
+      ],
+      "en": {
+        "title": "marshall maximizer"
+      }
+    },
+    {
+      "title": "祝福",
+      "key": "祝福",
+      "urls": [
+        {
+          "id": "GPo2s-QrOI4",
+          "memberId": "nono",
+          "publishedAt": "2023-12-09"
+        }
+      ],
+      "en": {
+        "title": "blessing"
+      }
+    },
+    {
+      "title": "生きる",
+      "key": "生きる",
+      "urls": [
+        {
+          "id": "QA6h5fXe-Y8",
+          "memberId": "nono",
+          "publishedAt": "2023-12-09"
+        }
+      ],
+      "en": {
+        "title": "live"
+      }
+    },
+    {
+      "title": "きゅうくらりん",
+      "key": "きゅうくらりん",
+      "urls": [
+        {
+          "id": "Xdc-2kleB6E",
+          "memberId": "konomi",
+          "publishedAt": "2023-12-09"
+        }
+      ],
+      "en": {
+        "title": "Kyukurarin"
+      }
+    },
+    {
       "title": "キャットラビング",
       "key": "キャットラビング",
       "urls": [
@@ -1791,22 +2473,31 @@ window.SONGS = {
       }
     },
     {
-      "title": "点描の唄 / Mrs. GREEN APPLE",
-      "key": "点描の唄mrs.greenapple",
+      "title": "デーモンロード",
+      "key": "デモンロド",
       "urls": [
         {
-          "id": "8v1zfbXMvWY",
-          "memberId": "raco",
-          "publishedAt": "2026-06-13"
-        },
-        {
-          "id": "8v1zfbXMvWY",
-          "memberId": "yura",
-          "publishedAt": "2026-06-13"
+          "id": "2TMyd-D2sC0",
+          "memberId": "nono",
+          "publishedAt": "2023-08-15"
         }
       ],
       "en": {
-        "title": "Pointillist Song / Mrs. GREEN APPLE"
+        "title": "demon lord"
+      }
+    },
+    {
+      "title": "夜に駆ける",
+      "key": "夜に駆ける",
+      "urls": [
+        {
+          "id": "DHNxzf3pGDo",
+          "memberId": "nono",
+          "publishedAt": "2023-08-09"
+        }
+      ],
+      "en": {
+        "title": "run into the night"
       }
     },
     {
@@ -1834,106 +2525,6 @@ window.SONGS = {
       }
     },
     {
-      "title": "ガチャガチャきゅ～と・ふぃぎゅ@メイト／小廻こま（cover）",
-      "key": "ガチャガチャきゅ～とふぃぎゅ@メイト",
-      "urls": [
-        {
-          "id": "aI_xfBX3J5g",
-          "memberId": "koma",
-          "publishedAt": "2026-01-17"
-        }
-      ],
-      "en": {
-        "title": "Gachagacha Cute Figu@mate/Komawarikoma (cover)"
-      }
-    },
-    {
-      "title": "メランコリック",
-      "key": "メランコリック",
-      "urls": [
-        {
-          "id": "CdDbvVbwuNA",
-          "memberId": "konomi",
-          "publishedAt": "2025-08-30"
-        }
-      ],
-      "en": {
-        "title": "melancholic"
-      }
-    },
-    {
-      "title": "カゲロウデイズ",
-      "key": "カゲロウデイズfeat.",
-      "urls": [
-        {
-          "id": "4Ie_l2SI0NM",
-          "memberId": "raco",
-          "publishedAt": "2026-08-15"
-        },
-        {
-          "id": "4Ie_l2SI0NM",
-          "memberId": "yura",
-          "publishedAt": "2026-08-15"
-        }
-      ],
-      "en": {
-        "title": "Kagerou Days"
-      }
-    },
-    {
-      "title": "ドレミファロンド",
-      "key": "ドレミファロンド",
-      "urls": [
-        {
-          "id": "ytyUGAtfskk",
-          "memberId": "nuhu",
-          "publishedAt": "2025-08-08"
-        }
-      ],
-      "en": {
-        "title": "Doremi Farondo"
-      }
-    },
-    {
-      "title": "怪獣の花唄",
-      "key": "怪獣の花唄",
-      "urls": [
-        {
-          "id": "cphW85uNiuI",
-          "memberId": "rei",
-          "publishedAt": "2026-07-11"
-        }
-      ],
-      "en": {
-        "title": "Monster's Flower Song"
-      }
-    },
-    {
-      "title": "イケナイ太陽",
-      "key": "イケナイ太陽",
-      "urls": [
-        {
-          "id": "621K-5_WPVA",
-          "memberId": "official",
-          "publishedAt": "2026-08-21"
-        }
-      ]
-    },
-    {
-      "title": "雑魚",
-      "key": "雑魚",
-      "urls": [
-        {
-          "id": "cgN55YdBaTg",
-          "memberId": "konomi",
-          "publishedAt": "2025-03-21"
-        }
-      ],
-      "en": {
-        "title": "small fry"
-      }
-    },
-    {
       "title": "可愛くてごめん",
       "key": "可愛くてごめん",
       "urls": [
@@ -1946,594 +2537,6 @@ window.SONGS = {
       "en": {
         "title": "Sorry for being cute"
       }
-    },
-    {
-      "title": "Surges／眠雲ツクリ（cover）",
-      "key": "surges",
-      "urls": [
-        {
-          "id": "dchqbTKOnjU",
-          "memberId": "tsukuri",
-          "publishedAt": "2026-07-18"
-        }
-      ],
-      "en": {
-        "title": "Surges/Nemugumo Tsukuri (cover)"
-      }
-    },
-    {
-      "title": "陽キャJKに憧れる陰キャJKの歌",
-      "key": "陽キャjkに憧れる陰キャjkの",
-      "urls": [
-        {
-          "id": "jE4S0JgJy3I",
-          "memberId": "konomi",
-          "publishedAt": "2024-11-03"
-        }
-      ],
-      "en": {
-        "title": "A song about a negative JK who admires a positive JK."
-      }
-    },
-    {
-      "title": "MOTTAI／小廻こま（cover）",
-      "key": "mottai",
-      "urls": [
-        {
-          "id": "yUe_--CyBP0",
-          "memberId": "koma",
-          "publishedAt": "2026-07-10"
-        }
-      ],
-      "en": {
-        "title": "MOTTAI/Komawarikoma (cover)"
-      }
-    },
-    {
-      "title": "1000年生きてる／眠雲ツクリ（cover）",
-      "key": "1000年生きてる",
-      "urls": [
-        {
-          "id": "vC4afYz_IME",
-          "memberId": "tsukuri",
-          "publishedAt": "2025-09-03"
-        }
-      ],
-      "en": {
-        "title": "Living for 1000 years/Nemugumo Tsukuri (cover)"
-      }
-    },
-    {
-      "title": "過去を喰らう / 花譜",
-      "key": "過去を喰らう花譜",
-      "urls": [
-        {
-          "id": "nyfRz_j65oM",
-          "memberId": "yura",
-          "publishedAt": "2024-06-30"
-        }
-      ],
-      "en": {
-        "title": "Eat the past / Kafu"
-      }
-    },
-    {
-      "title": "きゅうくらりん",
-      "key": "きゅうくらりん",
-      "urls": [
-        {
-          "id": "Xdc-2kleB6E",
-          "memberId": "konomi",
-          "publishedAt": "2023-12-09"
-        }
-      ],
-      "en": {
-        "title": "Kyukurarin"
-      }
-    },
-    {
-      "title": "ド屑",
-      "key": "ド屑",
-      "urls": [
-        {
-          "id": "25AAYo1krlI",
-          "memberId": "yura",
-          "publishedAt": "2024-11-04"
-        }
-      ],
-      "en": {
-        "title": "rubbish"
-      }
-    },
-    {
-      "title": "寝起きヤシの木",
-      "key": "寝起きヤシの木兎鞠まり",
-      "urls": [
-        {
-          "id": "vUpiTCZandE",
-          "memberId": "konomi",
-          "publishedAt": "2023-12-25"
-        }
-      ],
-      "en": {
-        "title": "waking up palm tree"
-      }
-    },
-    {
-      "title": "ブラック★ロックシューター - ryo（supercell）",
-      "key": "ブラック★ロックシュタ-ryo",
-      "urls": [
-        {
-          "id": "fyCFKNG5lM8",
-          "memberId": "liz",
-          "publishedAt": "2026-05-19"
-        }
-      ],
-      "en": {
-        "title": "Black★Rock Shooter – ryo (supercell)"
-      }
-    },
-    {
-      "title": "Gimme×Gimme - 八王子P × Giga",
-      "key": "gimmegimme-八王子pgiga",
-      "urls": [
-        {
-          "id": "JZzPZdafddU",
-          "memberId": "liz",
-          "publishedAt": "2026-03-08"
-        },
-        {
-          "id": "JZzPZdafddU",
-          "memberId": "tsukuri",
-          "publishedAt": "2026-03-08"
-        }
-      ],
-      "en": {
-        "title": "Gimme×Gimme - Hachioji P × Giga"
-      }
-    },
-    {
-      "title": "名前のない怪物",
-      "key": "名前のない怪物",
-      "urls": [
-        {
-          "id": "5Iop35AqZ88",
-          "memberId": "akubi",
-          "publishedAt": "2026-08-04"
-        }
-      ]
-    },
-    {
-      "title": "フロムトーキョー",
-      "key": "フロムトキョ",
-      "urls": [
-        {
-          "id": "GgIbQ5mHAQk",
-          "memberId": "raco",
-          "publishedAt": "2026-07-04"
-        }
-      ],
-      "en": {
-        "title": "From Tokyo"
-      }
-    },
-    {
-      "title": "ハロ/ハワユ - 鹿乃まほろ cover.",
-      "key": "ハロハワユ-.",
-      "urls": [
-        {
-          "id": "94xJrn4Kswk",
-          "memberId": "mahoro",
-          "publishedAt": "2026-08-22"
-        }
-      ]
-    },
-    {
-      "title": "ラグトレイン／眠雲ツクリ（cover）",
-      "key": "ラグトレイン",
-      "urls": [
-        {
-          "id": "XogPaIFnJDo",
-          "memberId": "tsukuri",
-          "publishedAt": "2026-07-04"
-        }
-      ],
-      "en": {
-        "title": "Rag Train/Nemugumo Tsukuri (cover)"
-      }
-    },
-    {
-      "title": "ぎゅっと。",
-      "key": "ぎゅっと。",
-      "urls": [
-        {
-          "id": "Dcov9zht9aY",
-          "memberId": "konomi",
-          "publishedAt": "2024-09-15"
-        }
-      ],
-      "en": {
-        "title": "tightly."
-      }
-    },
-    {
-      "title": "シス×ラブ",
-      "key": "シスラブ＆",
-      "urls": [
-        {
-          "id": "srWPlYD9-lQ",
-          "memberId": "raco",
-          "publishedAt": "2026-07-04"
-        },
-        {
-          "id": "srWPlYD9-lQ",
-          "memberId": "yura",
-          "publishedAt": "2026-07-04"
-        }
-      ],
-      "en": {
-        "title": "Sis x Love"
-      }
-    },
-    {
-      "title": "粛聖!! ロリ神レクイエム☆",
-      "key": "粛聖!!ロリ神レクイエム☆",
-      "urls": [
-        {
-          "id": "tUm_sr4H3P4",
-          "memberId": "konomi",
-          "publishedAt": "2025-02-14"
-        }
-      ],
-      "en": {
-        "title": "Seishi!! Loli God Requiem ☆"
-      }
-    },
-    {
-      "title": "-ERROR - niki",
-      "key": "-error-niki",
-      "urls": [
-        {
-          "id": "crDo4vrANXk",
-          "memberId": "liz",
-          "publishedAt": "2025-10-04"
-        }
-      ]
-    },
-    {
-      "title": "ワールドイズマイン",
-      "key": "ワルドイズマイン",
-      "urls": [
-        {
-          "id": "gFYHMAmcO8Q",
-          "memberId": "konomi",
-          "publishedAt": "2026-02-16"
-        }
-      ],
-      "en": {
-        "title": "world is mine"
-      }
-    },
-    {
-      "title": "プラネテス",
-      "key": "プラネテス",
-      "urls": [
-        {
-          "id": "V6-KLtR0t18",
-          "memberId": "nono",
-          "publishedAt": "2026-07-04"
-        }
-      ],
-      "en": {
-        "title": "Planetes"
-      }
-    },
-    {
-      "title": "ヒバナ - DECO*27 short cover by 雨夜リズ",
-      "key": "ヒバナ-deco*27shortby",
-      "urls": [
-        {
-          "id": "tFU5ja5S5EY",
-          "memberId": "liz",
-          "publishedAt": "2025-11-29"
-        }
-      ],
-      "en": {
-        "title": "Hibana - DECO*27 short cover by Ameya Riz"
-      }
-    },
-    {
-      "title": "スキスキ絶頂症 - koyori",
-      "key": "スキスキ絶頂症-koyori",
-      "urls": [
-        {
-          "id": "Qj_IXGtFTgc",
-          "memberId": "liz",
-          "publishedAt": "2026-01-17"
-        }
-      ],
-      "en": {
-        "title": "Suki Suki Climax - koyori"
-      }
-    },
-    {
-      "title": "G4L - Giga",
-      "key": "g4l-giga",
-      "urls": [
-        {
-          "id": "7b5P-9jQhmg",
-          "memberId": "liz",
-          "publishedAt": "2025-11-20"
-        }
-      ]
-    },
-    {
-      "title": "ワールドイズマイン - ryo（supercell）",
-      "key": "ワルドイズマイン-ryo",
-      "urls": [
-        {
-          "id": "taW4Inotz00",
-          "memberId": "liz",
-          "publishedAt": "2026-03-20"
-        }
-      ],
-      "en": {
-        "title": "World is Mine - ryo (supercell)"
-      }
-    },
-    {
-      "title": "おやすみ泣き声、さよなら歌姫  - クリープハイプ short cover by 雨夜リズ",
-      "key": "おやすみ泣き声、さよなら姫-クリプハイプshortby",
-      "urls": [
-        {
-          "id": "-piezDLZU-c",
-          "memberId": "liz",
-          "publishedAt": "2025-10-05"
-        }
-      ],
-      "en": {
-        "title": "Goodnight Cry, Goodbye Diva - Creep Hype short cover by Ameya Riz"
-      }
-    },
-    {
-      "title": "恋愛サーキュレーション",
-      "key": "恋愛サキュレション",
-      "urls": [
-        {
-          "id": "Lw8bY6neidA",
-          "memberId": "konomi",
-          "publishedAt": "2024-03-15"
-        }
-      ],
-      "en": {
-        "title": "love circulation"
-      }
-    },
-    {
-      "title": "プロポーズ - 内緒のピアス",
-      "key": "プロポズ-内緒のピアス",
-      "urls": [
-        {
-          "id": "1PTdUD3r1BY",
-          "memberId": "liz",
-          "publishedAt": "2026-02-21"
-        }
-      ],
-      "en": {
-        "title": "Proposal - Secret Earrings"
-      }
-    },
-    {
-      "title": "花女/花譜",
-      "key": "花女花譜",
-      "urls": [
-        {
-          "id": "3VoAG_NPhno",
-          "memberId": "yura",
-          "publishedAt": "2026-06-09"
-        }
-      ],
-      "en": {
-        "title": "Flower woman/Flower record"
-      }
-    },
-    {
-      "title": "嫌々 - HALVES short cover by 雨夜リズ",
-      "key": "嫌々-halvesshortby",
-      "urls": [
-        {
-          "id": "2GxFJXx1fm8",
-          "memberId": "liz",
-          "publishedAt": "2025-11-07"
-        }
-      ],
-      "en": {
-        "title": "Unwilling - HALVES short cover by Ameya Riz"
-      }
-    },
-    {
-      "title": "Catch You Catch Me",
-      "key": "catchyoucatchme",
-      "urls": [
-        {
-          "id": "9ZsILJCHx58",
-          "memberId": "nuhu",
-          "publishedAt": "2025-11-30"
-        }
-      ]
-    },
-    {
-      "title": "気分上々↑↑／小廻こま × 眠雲ツクリ × 雨夜リズ（cover）",
-      "key": "気分上々↑↑",
-      "urls": [
-        {
-          "id": "Dn2GGmOHKak",
-          "memberId": "koma",
-          "publishedAt": "2026-08-23"
-        },
-        {
-          "id": "Dn2GGmOHKak",
-          "memberId": "liz",
-          "publishedAt": "2026-08-23"
-        },
-        {
-          "id": "Dn2GGmOHKak",
-          "memberId": "tsukuri",
-          "publishedAt": "2026-08-23"
-        }
-      ]
-    },
-    {
-      "title": "モニタリング (Best Friend Remix) - DECO*27 short cover by 雨夜リズ",
-      "key": "モニタリング-deco*27shortby",
-      "urls": [
-        {
-          "id": "AfNaFi0CYio",
-          "memberId": "liz",
-          "publishedAt": "2025-11-20"
-        }
-      ],
-      "en": {
-        "title": "Monitoring (Best Friend Remix) - DECO*27 short cover by Ameya Riz"
-      }
-    },
-    {
-      "title": "ライラック",
-      "key": "ライラック",
-      "urls": [
-        {
-          "id": "Vr_f7y9YtTQ",
-          "memberId": "raco",
-          "publishedAt": "2026-08-26"
-        }
-      ],
-      "en": {
-        "title": "lilac"
-      }
-    },
-    {
-      "title": "Femme Fatale／小廻こま × 眠雲ツクリ × 雨夜リズ（cover）",
-      "key": "femmefatale",
-      "urls": [
-        {
-          "id": "4YNtwk_YR_0",
-          "memberId": "koma",
-          "publishedAt": "2026-08-23"
-        },
-        {
-          "id": "4YNtwk_YR_0",
-          "memberId": "liz",
-          "publishedAt": "2026-08-23"
-        },
-        {
-          "id": "4YNtwk_YR_0",
-          "memberId": "tsukuri",
-          "publishedAt": "2026-08-23"
-        }
-      ]
-    },
-    {
-      "title": "夏色えがおで1,2,Jump!",
-      "key": "夏色えがおで1,2,jump!",
-      "urls": [
-        {
-          "id": "g4qGSYgxHLU",
-          "memberId": "nuhu",
-          "publishedAt": "2026-08-19"
-        },
-        {
-          "id": "g4qGSYgxHLU",
-          "memberId": "official",
-          "publishedAt": "2026-08-21"
-        },
-        {
-          "id": "g4qGSYgxHLU",
-          "memberId": "raco",
-          "publishedAt": "2026-08-16"
-        }
-      ],
-      "en": {
-        "title": "Summer color picture 1,2,Jump!"
-      }
-    },
-    {
-      "title": "The Cute!!!",
-      "key": "thecute!!!",
-      "urls": [
-        {
-          "id": "mvEs3YAbgo0",
-          "memberId": "konomi",
-          "publishedAt": "2025-12-26"
-        }
-      ]
-    },
-    {
-      "title": "スパークル",
-      "key": "スパクル",
-      "urls": [
-        {
-          "id": "BJEztk4f4aA",
-          "memberId": "rei",
-          "publishedAt": "2026-08-26"
-        }
-      ]
-    },
-    {
-      "title": "プレイ (PLAY) - Giga short cover by 雨夜リズ",
-      "key": "プレイ-gigashortby",
-      "urls": [
-        {
-          "id": "f1NBS_HkLOs",
-          "memberId": "liz",
-          "publishedAt": "2025-10-20"
-        }
-      ],
-      "en": {
-        "title": "PLAY - Giga short cover by Ameya Riz"
-      }
-    },
-    {
-      "title": "Ready Steady - Giga",
-      "key": "readysteady-giga",
-      "urls": [
-        {
-          "id": "C8T1Iw-mqb4",
-          "memberId": "koma",
-          "publishedAt": "2026-08-23"
-        },
-        {
-          "id": "C8T1Iw-mqb4",
-          "memberId": "liz",
-          "publishedAt": "2026-08-23"
-        },
-        {
-          "id": "C8T1Iw-mqb4",
-          "memberId": "tsukuri",
-          "publishedAt": "2026-08-23"
-        }
-      ]
-    },
-    {
-      "title": "Zzz",
-      "key": "zzz",
-      "urls": [
-        {
-          "id": "JLTCG0i4zfs",
-          "memberId": "nuhu",
-          "publishedAt": "2026-08-10"
-        }
-      ]
-    },
-    {
-      "title": "ハッピーシンセサイザ",
-      "key": "ハッピシンセサイザ",
-      "urls": [
-        {
-          "id": "TcJQmNLJ5GI",
-          "memberId": "konomi",
-          "publishedAt": "2026-08-28"
-        }
-      ]
     },
     {
       "title": "世界一可愛い私",
