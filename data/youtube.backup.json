@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-08-30T15:34:16.270Z",
+  "updatedAt": "2026-08-30T18:52:36.499Z",
   "streams": [
-    {
-      "id": "N84GlfQLugk",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 VALORANT 】深夜のドパガキーズ with こまリズ(眠雲？) ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/N84GlfQLugk/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-30T15:02:08Z",
-      "status": "live"
-    },
     {
       "id": "S8ZqRPpfgO8",
       "memberId": "koma",
@@ -226,13 +217,23 @@
   ],
   "videos": [
     {
+      "id": "Xb40EfHAhxA",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【VALORANT】みてーかっちょいい武器買った【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/Xb40EfHAhxA/hqdefault.jpg",
+      "publishedAt": "2026-08-30T17:22:07Z",
+      "live": false
+    },
+    {
       "id": "N84GlfQLugk",
       "memberId": "rei",
       "member": "夕霧レイ",
       "channelTitle": "夕霧レイ / YugiriRay",
       "title": "【 VALORANT 】深夜のドパガキーズ with こまリズ(眠雲？) ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/N84GlfQLugk/hqdefault_live.jpg",
-      "publishedAt": "2026-08-30T15:02:08Z",
+      "thumb": "https://i.ytimg.com/vi/N84GlfQLugk/hqdefault.jpg",
+      "publishedAt": "2026-08-30T17:21:20Z",
       "live": false
     },
     {
@@ -514,27 +515,7 @@
       "thumb": "https://i.ytimg.com/vi/WwDq_YQFwXM/hqdefault.jpg",
       "publishedAt": "2026-08-27T17:58:13Z",
       "live": false
-    },
-    {
-      "id": "RaQo-306wIs",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【雑談】歌について┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/RaQo-306wIs/hqdefault.jpg",
-      "publishedAt": "2026-08-27T17:46:43Z",
-      "live": true
     }
   ],
-  "live": [
-    {
-      "id": "N84GlfQLugk",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 VALORANT 】深夜のドパガキーズ with こまリズ(眠雲？) ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/N84GlfQLugk/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-30T15:02:08Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }

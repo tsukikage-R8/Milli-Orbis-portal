@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T18:52:36.499Z",
+  "updatedAt": "2026-08-30T22:10:51.040Z",
   "streams": [
     {
       "id": "S8ZqRPpfgO8",
@@ -7,8 +7,8 @@
       "member": "小廻こま",
       "title": "【 ラジオ体操 】みんな起きれるかな？＾＾【小廻こま/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/S8ZqRPpfgO8/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-30T22:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-08-30T22:00:30Z",
+      "status": "live"
     },
     {
       "id": "oyf6Rx9t-w4",
@@ -217,6 +217,16 @@
   ],
   "videos": [
     {
+      "id": "S8ZqRPpfgO8",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 ラジオ体操 】みんな起きれるかな？＾＾【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/S8ZqRPpfgO8/hqdefault_live.jpg",
+      "publishedAt": "2026-08-30T22:00:30Z",
+      "live": false
+    },
+    {
       "id": "Xb40EfHAhxA",
       "memberId": "liz",
       "member": "雨夜リズ",
@@ -234,16 +244,6 @@
       "title": "【 VALORANT 】深夜のドパガキーズ with こまリズ(眠雲？) ⟡.· 【夕霧レイ / ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/N84GlfQLugk/hqdefault.jpg",
       "publishedAt": "2026-08-30T17:21:20Z",
-      "live": false
-    },
-    {
-      "id": "S8ZqRPpfgO8",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 ラジオ体操 】みんな起きれるかな？＾＾【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/S8ZqRPpfgO8/hqdefault_live.jpg",
-      "publishedAt": "2026-08-30T15:00:18Z",
       "live": false
     },
     {
@@ -517,5 +517,15 @@
       "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "S8ZqRPpfgO8",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 ラジオ体操 】みんな起きれるかな？＾＾【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/S8ZqRPpfgO8/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-30T22:00:30Z",
+      "status": "live"
+    }
+  ]
 }

@@ -24,10 +24,13 @@ window.SONG_MASTER = {
       }
     },
     "気分上々↑↑": {
-      "title": "怪物",
-      "artist": "YOASOBI",
-      "album": "怪物 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9e/ab/2c/9eab2c24-8289-1bd7-548d-e6b871fcf169/195497732630.jpg/600x600bb.jpg"
+      "title": "115万キロのフィルム",
+      "artist": "Official髭男dism",
+      "album": "エスカパレード",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/e8/2d/40e82dfb-55b4-7016-1127-357ab78d3f7f/jk.jpg/600x600bb.jpg",
+      "en": {
+        "title": "1.15 million kilometers of film"
+      }
     },
     "readysteady-giga": {
       "title": "Ready Steady (Instrumental)",
@@ -36,19 +39,19 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/81/50/62/815062a0-6414-169e-a684-6ad01c081c9f/195497315376.jpg/600x600bb.jpg"
     },
     "femmefatale": {
-      "title": "怪物",
-      "artist": "YOASOBI",
-      "album": "怪物 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9e/ab/2c/9eab2c24-8289-1bd7-548d-e6b871fcf169/195497732630.jpg/600x600bb.jpg"
+      "title": "115万キロのフィルム",
+      "artist": "Official髭男dism",
+      "album": "エスカパレード",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/e8/2d/40e82dfb-55b4-7016-1127-357ab78d3f7f/jk.jpg/600x600bb.jpg",
+      "en": {
+        "title": "1.15 million kilometers of film"
+      }
     },
     "夏色えがおで1,2,jump!": {
-      "title": "夏色えがおで1,2,Jump!",
-      "artist": "μ's",
-      "album": "夏色えがおで1,2,Jump! - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/89/b6/3d/89b63dc5-c717-6312-b37c-138f98f4abed/4540774408450.png/600x600bb.jpg",
-      "en": {
-        "title": "Summer color picture 1,2,Jump!"
-      }
+      "title": "夏色えがおで 1,2,Jump!",
+      "artist": "流田Project",
+      "album": "流's the COVER",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c4/94/cb/c494cbb1-e621-8475-9dba-b64acdff1c2a/5021732651365.jpg/600x600bb.jpg"
     },
     "イケナイ太陽": {
       "title": "イケナイ太陽",
@@ -267,10 +270,13 @@ window.SONG_MASTER = {
       }
     },
     "magnet": {
-      "title": "怪物",
-      "artist": "YOASOBI",
-      "album": "怪物 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9e/ab/2c/9eab2c24-8289-1bd7-548d-e6b871fcf169/195497732630.jpg/600x600bb.jpg"
+      "title": "115万キロのフィルム",
+      "artist": "Official髭男dism",
+      "album": "エスカパレード",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/e8/2d/40e82dfb-55b4-7016-1127-357ab78d3f7f/jk.jpg/600x600bb.jpg",
+      "en": {
+        "title": "1.15 million kilometers of film"
+      }
     },
     "gimmegimme-八王子pgiga": {
       "title": "Gimme×Gimme feat. 初音ミク・鏡音リン",
@@ -1566,10 +1572,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e5/46/8a/e5468a74-37db-65a2-a8c6-aaf67552fdfd/4547366526615.jpg/600x600bb.jpg"
     },
     "刹那プラスいました": {
-      "title": "Goodbye",
-      "artist": "SEKAI NO OWARI",
-      "album": "Lip",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d9/84/41/d9844177-0101-4300-7bd7-a73b54692231/TFCC-86663WW.jpg/600x600bb.jpg"
+      "title": "助演男優賞",
+      "artist": "Creepy Nuts",
+      "album": "助演男優賞 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9a/9d/62/9a9d62eb-51a1-be7a-0b52-1913090579d4/4948722525264_cover.jpg/600x600bb.jpg"
     },
     "クライヤいました": {
       "title": "115万キロのフィルム",
@@ -1728,10 +1734,13 @@ window.SONG_MASTER = {
       }
     },
     "すぱなちゃっと読み": {
-      "title": "かわいいさがしてくれますか?",
-      "artist": "CUTIE STREET",
-      "album": "かわいいさがしてくれますか? / きゅーすとのうた - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d1/69/1f/d1691f30-ba88-fd0f-2b68-afc85832bf94/199538602296.jpg/600x600bb.jpg"
+      "title": "愛してみてよ減るもんじゃないし",
+      "artist": "ねぐせ。",
+      "album": "愛してみてよ減るもんじゃないし - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/70/6c/d9/706cd9d0-5c42-0b18-c42a-f11647046025/197188388706.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Try to love me, it won't diminish"
+      }
     },
     "狂乱heykids!!": {
       "title": "狂乱 Hey Kids!!",
@@ -1891,9 +1900,9 @@ window.SONG_MASTER = {
     },
     "夢を叶えてドラえもん": {
       "title": "夢をかなえてドラえもん",
-      "artist": "mao & ひまわりキッズ",
-      "album": "テレビアニメ放送40周年記念ドラえもん うたのコレクション",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/c2/7c/f4/c27cf448-7264-b818-07fc-549405508045/COCX-40818.jpg/600x600bb.jpg",
+      "artist": "mao",
+      "album": "テレビ朝日系アニメ「ドラえもん」主題歌 夢をかなえてドラえもん - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/ac/d3/20/acd3206f-2684-b149-8e82-1c6f52054217/COCC-16954.jpg/600x600bb.jpg",
       "en": {
         "title": "Doraemon make your dreams come true"
       }
