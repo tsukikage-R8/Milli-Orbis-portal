@@ -24,10 +24,13 @@ window.SONG_MASTER = {
       }
     },
     "気分上々↑↑": {
-      "title": "怪物",
-      "artist": "YOASOBI",
-      "album": "怪物 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9e/ab/2c/9eab2c24-8289-1bd7-548d-e6b871fcf169/195497732630.jpg/600x600bb.jpg"
+      "title": "115万キロのフィルム",
+      "artist": "Official髭男dism",
+      "album": "エスカパレード",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/e8/2d/40e82dfb-55b4-7016-1127-357ab78d3f7f/jk.jpg/600x600bb.jpg",
+      "en": {
+        "title": "1.15 million kilometers of film"
+      }
     },
     "readysteady-giga": {
       "title": "Ready Steady (Instrumental)",
@@ -843,10 +846,10 @@ window.SONG_MASTER = {
       }
     },
     "悪魔の踊り方": {
-      "title": "悪魔の踊り方 (feat. 小豆沢こはね, 白石杏, 東雲彰人, 青柳冬弥 & 鏡音リン)",
-      "artist": "Vivid BAD SQUAD",
-      "album": "Vivid BAD SQUAD SEKAI ALBUM Vol. 1",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/27/eb/b5/27ebb5b5-1441-146d-dc30-f83370de9d7a/4511820-95571.jpg/600x600bb.jpg"
+      "title": "MANIHEKE",
+      "artist": "アイリフドーパ",
+      "album": "GENTEN - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ab/2e/1e/ab2e1e1a-7f81-2ef1-2feb-74f1930d1a9c/199806597972.jpg/600x600bb.jpg"
     },
     "青と夏": {
       "title": "群青",

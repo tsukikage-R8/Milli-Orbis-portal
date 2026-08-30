@@ -1,44 +1,23 @@
 {
-  "updatedAt": "2026-08-30T09:30:43.075Z",
+  "updatedAt": "2026-08-30T15:34:16.270Z",
   "streams": [
     {
-      "id": "kYfSIgGCCGM",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "title": "【#ミリプロサマー2026】閉会式！最高の夏を振り返ろう！",
-      "thumb": "https://i.ytimg.com/vi/kYfSIgGCCGM/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-30T10:00:00Z",
-      "status": "upcoming"
+      "id": "N84GlfQLugk",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 VALORANT 】深夜のドパガキーズ with こまリズ(眠雲？) ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/N84GlfQLugk/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-30T15:02:08Z",
+      "status": "live"
     },
     {
-      "id": "aH1DIRyDnfc",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【歌枠】みんなありがとう～50万人記念歌配信！【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/aH1DIRyDnfc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-30T12:00:00Z",
+      "id": "S8ZqRPpfgO8",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 ラジオ体操 】みんな起きれるかな？＾＾【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/S8ZqRPpfgO8/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-30T22:00:00Z",
       "status": "upcoming"
-    },
-    {
-      "id": "L3Z9xzBZY8s",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 ※冒頭30分無料🩵ゆらとASMR以上 / KU100 】お耳の実験させてください♡【 ゆらぎゆら /  ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/L3Z9xzBZY8s/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-30T13:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "24ZLgKWtJ14",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "❥‬ゆらぎのメンバーシップ特典のまとめ🌙Yuragi Yura&#39;s Membership 🫧※概要欄をチェック！",
-      "thumb": "https://i.ytimg.com/vi/24ZLgKWtJ14/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-30T15:00:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "❥Summary of Yuragi Yura's Membership Benefits🌙Yuragi Yura's Membership 🫧*Check the summary section!"
-      }
     },
     {
       "id": "oyf6Rx9t-w4",
@@ -80,6 +59,15 @@
       }
     },
     {
+      "id": "pnSTro7MCbQ",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "間もなく終了9/2〆✨サマーコレクション✨",
+      "thumb": "https://i.ytimg.com/vi/pnSTro7MCbQ/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-02T14:59:00Z",
+      "status": "upcoming"
+    },
+    {
       "id": "RjOQyuyucgc",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -111,6 +99,15 @@
       "en": {
         "title": "[📢Goods information] 1st anniversary goods are now on sale✨"
       }
+    },
+    {
+      "id": "hV4VEiD2bw0",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 #ゆらぎゆら3Dお披露目 】あなたと一緒に、まだ見ぬ海へ。【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/hV4VEiD2bw0/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-12T11:00:00Z",
+      "status": "upcoming"
     },
     {
       "id": "YKE2uQ2XpX0",
@@ -158,6 +155,24 @@
       "title": "【マイクラ肝試し2026】ホラーは任せなさい┊︎#音ノ乃のの #ののん家 #マイクラ肝試し2026",
       "thumb": "https://i.ytimg.com/vi/2GU-VrNT16I/hqdefault_live.jpg",
       "scheduledStartTime": "2026-09-25T07:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "t_VMOsim60o",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【#小廻こま3Dお披露目】よってらっしゃい見てらっしゃい！！【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/t_VMOsim60o/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-26T10:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "WjtcVv76D4s",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 #眠雲ツクリ3Dお披露目 〗これからも、思い出たくさんつくってあげる！〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/WjtcVv76D4s/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-26T11:00:00Z",
       "status": "upcoming"
     },
     {
@@ -211,13 +226,93 @@
   ],
   "videos": [
     {
+      "id": "N84GlfQLugk",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 VALORANT 】深夜のドパガキーズ with こまリズ(眠雲？) ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/N84GlfQLugk/hqdefault_live.jpg",
+      "publishedAt": "2026-08-30T15:02:08Z",
+      "live": false
+    },
+    {
+      "id": "S8ZqRPpfgO8",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 ラジオ体操 】みんな起きれるかな？＾＾【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/S8ZqRPpfgO8/hqdefault_live.jpg",
+      "publishedAt": "2026-08-30T15:00:18Z",
+      "live": false
+    },
+    {
+      "id": "HtK9Nx07i9Q",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 歌枠 】告知あり！40万人耐久させていただきます！【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/HtK9Nx07i9Q/hqdefault.jpg",
+      "publishedAt": "2026-08-30T14:12:42Z",
+      "live": false
+    },
+    {
+      "id": "aH1DIRyDnfc",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【歌枠】みんなありがとう～50万人記念歌配信！【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/aH1DIRyDnfc/hqdefault.jpg",
+      "publishedAt": "2026-08-30T14:10:46Z",
+      "live": true
+    },
+    {
+      "id": "L3Z9xzBZY8s",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 ※冒頭30分無料🩵ゆらとASMR以上 / KU100 】お耳の実験させてください♡【 ゆらぎゆら /  ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/L3Z9xzBZY8s/hqdefault.jpg",
+      "publishedAt": "2026-08-30T13:40:15Z",
+      "live": false
+    },
+    {
+      "id": "TyTZykarmew",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "八月の夜 / あくび・でもんすぺーど - cover",
+      "thumb": "https://i.ytimg.com/vi/TyTZykarmew/hqdefault.jpg",
+      "publishedAt": "2026-08-30T12:39:48Z",
+      "live": false
+    },
+    {
+      "id": "kYfSIgGCCGM",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【#ミリプロサマー2026】閉会式！最高の夏を振り返ろう！",
+      "thumb": "https://i.ytimg.com/vi/kYfSIgGCCGM/hqdefault.jpg",
+      "publishedAt": "2026-08-30T11:06:03Z",
+      "live": false
+    },
+    {
+      "id": "pg51NHr6jmk",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【赤面注意】ミリプロ演技派女優は誰！？シチュボで勝負したらカオスになったwww",
+      "thumb": "https://i.ytimg.com/vi/pg51NHr6jmk/hqdefault.jpg",
+      "publishedAt": "2026-08-30T11:00:06Z",
+      "live": false
+    },
+    {
       "id": "BwT-_jTq6FA",
       "memberId": "rei",
       "member": "夕霧レイ",
       "channelTitle": "夕霧レイ / YugiriRay",
       "title": "【 パワプロ2026 】#4 ドカ寝起きなのでまったり. ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/BwT-_jTq6FA/hqdefault_live.jpg",
-      "publishedAt": "2026-08-30T09:28:53Z",
+      "thumb": "https://i.ytimg.com/vi/BwT-_jTq6FA/hqdefault.jpg",
+      "publishedAt": "2026-08-30T09:44:16Z",
       "live": false
     },
     {
@@ -238,36 +333,6 @@
       "title": "夏休みの宿題、やらなきゃいけない作業、溜まってる人、強制集合。【#あまかみらいぶ】",
       "thumb": "https://i.ytimg.com/vi/LzuCcBs7pRQ/hqdefault.jpg",
       "publishedAt": "2026-08-30T07:33:52Z",
-      "live": false
-    },
-    {
-      "id": "kYfSIgGCCGM",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【#ミリプロサマー2026】閉会式！最高の夏を振り返ろう！",
-      "thumb": "https://i.ytimg.com/vi/kYfSIgGCCGM/hqdefault_live.jpg",
-      "publishedAt": "2026-08-30T04:28:35Z",
-      "live": false
-    },
-    {
-      "id": "L3Z9xzBZY8s",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 ※冒頭30分無料🩵ゆらとASMR以上 / KU100 】お耳の実験させてください♡【 ゆらぎゆら /  ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/L3Z9xzBZY8s/hqdefault_live.jpg",
-      "publishedAt": "2026-08-29T15:33:37Z",
-      "live": false
-    },
-    {
-      "id": "pg51NHr6jmk",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【赤面注意】ミリプロ演技派女優は誰！？シチュボで勝負したらカオスになったwww",
-      "thumb": "https://i.ytimg.com/vi/pg51NHr6jmk/hqdefault.jpg",
-      "publishedAt": "2026-08-29T12:33:53Z",
       "live": false
     },
     {
@@ -421,6 +486,16 @@
       "live": false
     },
     {
+      "id": "Vf9oYfBoOSE",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "???",
+      "thumb": "https://i.ytimg.com/vi/Vf9oYfBoOSE/hqdefault.jpg",
+      "publishedAt": "2026-08-28T02:33:28Z",
+      "live": false
+    },
+    {
       "id": "vfeD5iRmgkk",
       "memberId": "yura",
       "member": "ゆらぎゆら",
@@ -449,67 +524,17 @@
       "thumb": "https://i.ytimg.com/vi/RaQo-306wIs/hqdefault.jpg",
       "publishedAt": "2026-08-27T17:46:43Z",
       "live": true
-    },
-    {
-      "id": "L9TLS_vnfCQ",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【Risdom / リズダム】ゲームにこのが登場！？！？自分を引いてプレイするぞーーーー！！！！【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/L9TLS_vnfCQ/hqdefault.jpg",
-      "publishedAt": "2026-08-27T14:25:22Z",
-      "live": false
-    },
-    {
-      "id": "MG3I1rUs5v8",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "NET CHOOSE SHOW／雨夜リズ（official）",
-      "thumb": "https://i.ytimg.com/vi/MG3I1rUs5v8/hqdefault.jpg",
-      "publishedAt": "2026-08-27T12:30:07Z",
-      "live": false
-    },
-    {
-      "id": "88dUBcRyO8w",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【LIVE ver.】Princess Viral from YouTube Music Weekend 12.0",
-      "thumb": "https://i.ytimg.com/vi/88dUBcRyO8w/hqdefault.jpg",
-      "publishedAt": "2026-08-27T11:00:06Z",
-      "live": false
-    },
-    {
-      "id": "YNGwghzhJec",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【Live ver】 なんと今年もYouTube Music Weekend 12.0に出演させていただいて「Princess Viral」披露させていただきました。┊︎#音ノ乃のの",
-      "thumb": "https://i.ytimg.com/vi/YNGwghzhJec/hqdefault.jpg",
-      "publishedAt": "2026-08-27T10:01:42Z",
-      "live": false
-    },
-    {
-      "id": "VUhofnsV2VI",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "分かっちゃいないね？新衣装が出るって、コト……【#甘狼このみ】",
-      "thumb": "https://i.ytimg.com/vi/VUhofnsV2VI/hqdefault.jpg",
-      "publishedAt": "2026-08-27T09:00:38Z",
-      "live": false
-    },
-    {
-      "id": "FQ4ACiTCC7U",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "Pay Attention to Me!😠#shorts #animation #illustration",
-      "thumb": "https://i.ytimg.com/vi/FQ4ACiTCC7U/hqdefault.jpg",
-      "publishedAt": "2026-08-27T09:00:24Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "N84GlfQLugk",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 VALORANT 】深夜のドパガキーズ with こまリズ(眠雲？) ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/N84GlfQLugk/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-30T15:02:08Z",
+      "status": "live"
+    }
+  ]
 }
