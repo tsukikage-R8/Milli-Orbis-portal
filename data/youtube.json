@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-08-30T01:57:14.814Z",
+  "updatedAt": "2026-08-30T09:30:43.075Z",
   "streams": [
     {
-      "id": "LzuCcBs7pRQ",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "夏休みの宿題、やらなきゃいけない作業、溜まってる人、強制集合。【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/LzuCcBs7pRQ/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-30T04:00:00Z",
+      "id": "kYfSIgGCCGM",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "title": "【#ミリプロサマー2026】閉会式！最高の夏を振り返ろう！",
+      "thumb": "https://i.ytimg.com/vi/kYfSIgGCCGM/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-08-30T10:00:00Z",
       "status": "upcoming"
     },
     {
@@ -211,13 +211,23 @@
   ],
   "videos": [
     {
-      "id": "L3Z9xzBZY8s",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 ※冒頭30分無料🩵ゆらとASMR以上 / KU100 】お耳の実験させてください♡【 ゆらぎゆら /  ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/L3Z9xzBZY8s/hqdefault_live.jpg",
-      "publishedAt": "2026-08-29T15:33:37Z",
+      "id": "BwT-_jTq6FA",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 パワプロ2026 】#4 ドカ寝起きなのでまったり. ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/BwT-_jTq6FA/hqdefault_live.jpg",
+      "publishedAt": "2026-08-30T09:28:53Z",
+      "live": false
+    },
+    {
+      "id": "YBPKRa5gH2k",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】隠れてるミリプロメンバーを探せ！！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/YBPKRa5gH2k/hqdefault.jpg",
+      "publishedAt": "2026-08-30T09:00:12Z",
       "live": false
     },
     {
@@ -226,8 +236,28 @@
       "member": "甘狼このみ",
       "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
       "title": "夏休みの宿題、やらなきゃいけない作業、溜まってる人、強制集合。【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/LzuCcBs7pRQ/hqdefault_live.jpg",
-      "publishedAt": "2026-08-29T12:47:15Z",
+      "thumb": "https://i.ytimg.com/vi/LzuCcBs7pRQ/hqdefault.jpg",
+      "publishedAt": "2026-08-30T07:33:52Z",
+      "live": false
+    },
+    {
+      "id": "kYfSIgGCCGM",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【#ミリプロサマー2026】閉会式！最高の夏を振り返ろう！",
+      "thumb": "https://i.ytimg.com/vi/kYfSIgGCCGM/hqdefault_live.jpg",
+      "publishedAt": "2026-08-30T04:28:35Z",
+      "live": false
+    },
+    {
+      "id": "L3Z9xzBZY8s",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 ※冒頭30分無料🩵ゆらとASMR以上 / KU100 】お耳の実験させてください♡【 ゆらぎゆら /  ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/L3Z9xzBZY8s/hqdefault_live.jpg",
+      "publishedAt": "2026-08-29T15:33:37Z",
       "live": false
     },
     {
@@ -471,16 +501,6 @@
       "live": false
     },
     {
-      "id": "t5lEVjSvqOo",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】当てはまったら降りるゲーム！！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/t5lEVjSvqOo/hqdefault.jpg",
-      "publishedAt": "2026-08-27T09:00:31Z",
-      "live": false
-    },
-    {
       "id": "FQ4ACiTCC7U",
       "memberId": "nuhu",
       "member": "虹深°ぬふ",
@@ -488,26 +508,6 @@
       "title": "Pay Attention to Me!😠#shorts #animation #illustration",
       "thumb": "https://i.ytimg.com/vi/FQ4ACiTCC7U/hqdefault.jpg",
       "publishedAt": "2026-08-27T09:00:24Z",
-      "live": false
-    },
-    {
-      "id": "WjLOKtmLti8",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【マイクラ】目指せ1000万ミリコイン！！！【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/WjLOKtmLti8/hqdefault.jpg",
-      "publishedAt": "2026-08-26T21:13:07Z",
-      "live": false
-    },
-    {
-      "id": "ACYi4lMKuG4",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【リズム天国 ミラクルスターズ】歌い手だし余裕…おや？難易度の様子が…？【鹿乃まほろ/ミリプロ】#2",
-      "thumb": "https://i.ytimg.com/vi/ACYi4lMKuG4/hqdefault.jpg",
-      "publishedAt": "2026-08-26T15:13:22Z",
       "live": false
     }
   ],
