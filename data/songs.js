@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-songs.js（変更しないでください） */
 window.SONGS = {
-  "generatedAt": "2026-08-29",
+  "generatedAt": "2026-08-30",
   "official": [
     {
       "id": "1UdnoJ6qgPs",
