@@ -1,15 +1,15 @@
 /* 自動生成: python tools/analyze-karaoke.py（変更しないでください） */
 window.KARAOKE_SHAZAM = {
   "vos7X7sJ5Dg": {
-    "status": "skip",
-    "attempts": 5,
-    "attemptedAt": "2026-08-23T20:41:01.040697+00:00",
+    "status": "error",
+    "attempts": 1,
+    "attemptedAt": "2026-08-30T22:44:42.212202+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: Expecting value: line 2 column 1 (char 1) / https://pi"
   },
   "6t5oqLio_Ts": {
-    "status": "skip",
-    "attempts": 5,
-    "attemptedAt": "2026-08-23T20:41:10.739727+00:00",
+    "status": "error",
+    "attempts": 1,
+    "attemptedAt": "2026-08-30T22:44:52.640998+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: Expecting value: line 2 column 1 (char 1) / https://pi"
   },
   "R7rxlZ7VRWc": {
@@ -259,9 +259,9 @@ window.KARAOKE_SHAZAM = {
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: Expecting value: line 2 column 1 (char 1) / https://pi"
   },
   "ZKziA4Tu-rM": {
-    "status": "skip",
-    "attempts": 5,
-    "attemptedAt": "2026-08-23T21:20:48.974613+00:00",
+    "status": "error",
+    "attempts": 1,
+    "attemptedAt": "2026-08-30T22:44:12.411513+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: Expecting value: line 2 column 1 (char 1) / https://pi"
   },
   "UQi3DEDW90w": {
