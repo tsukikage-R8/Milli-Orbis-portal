@@ -374,6 +374,28 @@ window.SONGS = {
   ],
   "covers": [
     {
+      "title": "NET CHOOSE SHOW／雨夜リズ（official）",
+      "key": "netchooseshow",
+      "urls": [
+        {
+          "id": "MG3I1rUs5v8",
+          "memberId": "liz",
+          "publishedAt": "2026-08-31"
+        }
+      ]
+    },
+    {
+      "title": "八月の夜",
+      "key": "八月の夜",
+      "urls": [
+        {
+          "id": "fuUpxIEihkc",
+          "memberId": "akubi",
+          "publishedAt": "2026-08-31"
+        }
+      ]
+    },
+    {
       "title": "ハッピーシンセサイザ",
       "key": "ハッピシンセサイザ",
       "urls": [

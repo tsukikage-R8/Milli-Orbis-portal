@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-08-30T22:10:51.040Z",
+  "updatedAt": "2026-08-31T01:52:55.068Z",
   "streams": [
-    {
-      "id": "S8ZqRPpfgO8",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 ラジオ体操 】みんな起きれるかな？＾＾【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/S8ZqRPpfgO8/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-30T22:00:30Z",
-      "status": "live"
-    },
     {
       "id": "oyf6Rx9t-w4",
       "memberId": "nono",
@@ -217,13 +208,23 @@
   ],
   "videos": [
     {
+      "id": "fuUpxIEihkc",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "八月の夜 / あくび・でもんすぺーど - cover",
+      "thumb": "https://i.ytimg.com/vi/fuUpxIEihkc/hqdefault.jpg",
+      "publishedAt": "2026-08-31T00:47:56Z",
+      "live": false
+    },
+    {
       "id": "S8ZqRPpfgO8",
       "memberId": "koma",
       "member": "小廻こま",
       "channelTitle": "小廻こま / Komawari Koma",
       "title": "【 ラジオ体操 】みんな起きれるかな？＾＾【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/S8ZqRPpfgO8/hqdefault_live.jpg",
-      "publishedAt": "2026-08-30T22:00:30Z",
+      "thumb": "https://i.ytimg.com/vi/S8ZqRPpfgO8/hqdefault.jpg",
+      "publishedAt": "2026-08-30T23:15:22Z",
       "live": false
     },
     {
@@ -505,27 +506,7 @@
       "thumb": "https://i.ytimg.com/vi/vfeD5iRmgkk/hqdefault.jpg",
       "publishedAt": "2026-08-27T18:07:26Z",
       "live": false
-    },
-    {
-      "id": "WwDq_YQFwXM",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【マイクラ】待ってろ！！1000万ミリコイン！！！【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/WwDq_YQFwXM/hqdefault.jpg",
-      "publishedAt": "2026-08-27T17:58:13Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "S8ZqRPpfgO8",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 ラジオ体操 】みんな起きれるかな？＾＾【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/S8ZqRPpfgO8/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-30T22:00:30Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }

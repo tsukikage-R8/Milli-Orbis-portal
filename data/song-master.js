@@ -2,6 +2,18 @@
 window.SONG_MASTER = {
   "generatedAt": "2026-08-31",
   "songs": {
+    "netchooseshow": {
+      "title": "NET CHOOSE SHOW",
+      "artist": "雨夜リズ",
+      "album": "NET CHOOSE SHOW - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0f/45/04/0f450497-102f-3bfc-9e7b-f8aed02d27c7/PA00225408_0_252573_jacket.jpg/600x600bb.jpg"
+    },
+    "八月の夜": {
+      "title": "八月の夜",
+      "artist": "Silent Siren",
+      "album": "八月の夜 - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/0f/bf/f9/0fbff976-495a-53ff-41ec-aec034cde80c/mucd5304_T_0707.jpg/600x600bb.jpg"
+    },
     "ハッピシンセサイザ": {
       "title": "ハッピーシンセサイザ",
       "artist": "EasyPop",
@@ -24,10 +36,13 @@ window.SONG_MASTER = {
       }
     },
     "気分上々↑↑": {
-      "title": "怪物",
-      "artist": "YOASOBI",
-      "album": "怪物 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9e/ab/2c/9eab2c24-8289-1bd7-548d-e6b871fcf169/195497732630.jpg/600x600bb.jpg"
+      "title": "115万キロのフィルム",
+      "artist": "Official髭男dism",
+      "album": "エスカパレード",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/e8/2d/40e82dfb-55b4-7016-1127-357ab78d3f7f/jk.jpg/600x600bb.jpg",
+      "en": {
+        "title": "1.15 million kilometers of film"
+      }
     },
     "readysteady-giga": {
       "title": "Ready Steady (Instrumental)",
@@ -264,10 +279,13 @@ window.SONG_MASTER = {
       }
     },
     "magnet": {
-      "title": "怪物",
-      "artist": "YOASOBI",
-      "album": "怪物 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9e/ab/2c/9eab2c24-8289-1bd7-548d-e6b871fcf169/195497732630.jpg/600x600bb.jpg"
+      "title": "115万キロのフィルム",
+      "artist": "Official髭男dism",
+      "album": "エスカパレード",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/e8/2d/40e82dfb-55b4-7016-1127-357ab78d3f7f/jk.jpg/600x600bb.jpg",
+      "en": {
+        "title": "1.15 million kilometers of film"
+      }
     },
     "gimmegimme-八王子pgiga": {
       "title": "Gimme×Gimme feat. 初音ミク・鏡音リン",
@@ -468,10 +486,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "蝶々結び",
+      "title": "StarRingChild",
       "artist": "Aimer",
-      "album": "蝶々結び - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg"
+      "album": "Midnight Sun",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cf/4d/09/cf4d09ff-c6e8-0964-d493-cf0841a9216a/4560429727163.jpg/600x600bb.jpg"
     },
     "だから僕は音楽を辞めた": {
       "title": "だから僕は音楽を辞めた",
@@ -501,10 +519,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "恋のスーパーボール",
-      "artist": "aiko",
-      "album": "時のシルエット",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/b5/19/5b/b5195b36-a3f6-c92b-bc50-5abfca0ded58/dj.ieadmwsc.jpg/600x600bb.jpg"
+      "title": "ツバメ (feat. ミドリーズ)",
+      "artist": "YOASOBI",
+      "album": "ツバメ (feat. ミドリーズ) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg"
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -640,18 +658,18 @@ window.SONG_MASTER = {
     },
     "メンタルチェンソ": {
       "title": "メンタルチェンソー",
-      "artist": "かいりきベア",
-      "album": "バグエフェクト",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3d/6d/3d/3d6d3d46-9361-9a4f-4916-c6f31109d456/4550714315878_cover.png/600x600bb.jpg",
+      "artist": "P丸様。",
+      "album": "Sunny!!",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a9/57/ab/a957abfc-fd6b-c3ec-3db2-15d2c46d2328/21UMGIM13559.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "mental chainsaw"
       }
     },
     "心做し": {
       "title": "心做し",
-      "artist": "majiko",
-      "album": "Contrast",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bd/8b/76/bd8b76ea-22b4-e327-18c6-62264dd7b359/QWCE_00400_itunes.png/600x600bb.jpg",
+      "artist": "Sou",
+      "album": "深層から",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/35/5b/6e/355b6ed6-1ca5-41c3-5084-52d7e47b4eaa/19UMGIM61586.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "take heart"
       }
@@ -840,10 +858,10 @@ window.SONG_MASTER = {
       }
     },
     "悪魔の踊り方": {
-      "title": "MANIHEKE",
-      "artist": "アイリフドーパ",
-      "album": "GENTEN - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ab/2e/1e/ab2e1e1a-7f81-2ef1-2feb-74f1930d1a9c/199806597972.jpg/600x600bb.jpg"
+      "title": "Daydream Recovery",
+      "artist": "琴吹羽音",
+      "album": "Come Back",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/27/93/cf/2793cf30-2686-c5a9-6c8e-758384c05894/4550756560281_cover.png/600x600bb.jpg"
     },
     "青と夏": {
       "title": "群青",
@@ -957,13 +975,10 @@ window.SONG_MASTER = {
       }
     },
     "マシャルマキシマイザ": {
-      "title": "マーシャル・マキシマイザー",
-      "artist": "和楽器バンド",
-      "album": "ボカロ三昧2",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/94/55/17/945517eb-0a00-26fc-39c3-105f68516291/22UMGIM81445.rgb.jpg/600x600bb.jpg",
-      "en": {
-        "title": "marshall maximizer"
-      }
+      "title": "マーシャル・マキシマイザー (feat. 可不)",
+      "artist": "柊マグネタイト",
+      "album": "KAF+YOU KAFU COMPILATION ALBUM シンメトリー",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6a/25/39/6a2539f1-882e-9822-3876-14ec354ca6e6/ANTCD-46511.jpg/600x600bb.jpg"
     },
     "祝福": {
       "title": "祝福",
@@ -1271,8 +1286,8 @@ window.SONG_MASTER = {
     "カタオモイ-aimer": {
       "title": "カタオモイ",
       "artist": "Aimer",
-      "album": "BEST SELECTION \"blanc\"",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ab/ab/9b/abab9b3b-41cd-a0c0-29c0-6a1464501c0b/4547366306514.jpg/600x600bb.jpg"
+      "album": "daydream",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/46/4a/84/464a843d-14cc-e5e2-a9d6-763eb558e104/4547366270358.jpg/600x600bb.jpg"
     },
     "ちゅ、多様性。": {
       "title": "MAD HEAD LOVE",
@@ -1497,12 +1512,12 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fc/85/60/fc8560f1-00e3-b41a-d1bb-c169fa236ce4/PCSP_04901.jpg/600x600bb.jpg"
     },
     "ハイタ": {
-      "title": "ハイタ",
-      "artist": "ルワン",
-      "album": "ハイタ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/5c/96/92/5c96922c-e44d-1e98-87bb-168d1c4bc943/C_Waboku.jpg/600x600bb.jpg",
+      "title": "ライラック",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "ライラック - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4c/3b/b2/4c3bb247-3be8-0c57-aa9a-7f1775a7b7a8/24UMGIM32931.rgb.jpg/600x600bb.jpg",
       "en": {
-        "title": "Haita"
+        "title": "lilac"
       }
     },
     "打上花火": {
@@ -1569,10 +1584,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e5/46/8a/e5468a74-37db-65a2-a8c6-aaf67552fdfd/4547366526615.jpg/600x600bb.jpg"
     },
     "刹那プラスいました": {
-      "title": "Goodbye",
-      "artist": "SEKAI NO OWARI",
-      "album": "Lip",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d9/84/41/d9844177-0101-4300-7bd7-a73b54692231/TFCC-86663WW.jpg/600x600bb.jpg"
+      "title": "助演男優賞",
+      "artist": "Creepy Nuts",
+      "album": "助演男優賞 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9a/9d/62/9a9d62eb-51a1-be7a-0b52-1913090579d4/4948722525264_cover.jpg/600x600bb.jpg"
     },
     "クライヤいました": {
       "title": "115万キロのフィルム",
@@ -1590,10 +1605,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/39/33/1a/39331a3d-a1e5-f1e8-904e-8be6438e13a3/20UM1IM05202.rgb.jpg/600x600bb.jpg"
     },
     "サディスティックラブいました": {
-      "title": "声をきかせて",
-      "artist": "BIGBANG",
-      "album": "声をきかせて - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/92/e9/a592e9a6-333c-b96b-a14b-55c683580a2b/00044002457172.rgb.jpg/600x600bb.jpg"
+      "title": "ロマンティックいか焼き",
+      "artist": "乃木坂46",
+      "album": "君の名は希望 TypeA - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/7d/dd/43/7ddd4350-cf79-9a75-e00d-8ddc662dae61/jacket_SRXX01035B00Z_550.jpg/600x600bb.jpg"
     },
     "ワルドコリングいました": {
       "title": "from the edge (feat. LiSA)",
@@ -1731,10 +1746,13 @@ window.SONG_MASTER = {
       }
     },
     "すぱなちゃっと読み": {
-      "title": "かわいいさがしてくれますか?",
-      "artist": "CUTIE STREET",
-      "album": "かわいいさがしてくれますか? / きゅーすとのうた - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d1/69/1f/d1691f30-ba88-fd0f-2b68-afc85832bf94/199538602296.jpg/600x600bb.jpg"
+      "title": "愛してみてよ減るもんじゃないし",
+      "artist": "ねぐせ。",
+      "album": "愛してみてよ減るもんじゃないし - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/70/6c/d9/706cd9d0-5c42-0b18-c42a-f11647046025/197188388706.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Try to love me, it won't diminish"
+      }
     },
     "狂乱heykids!!": {
       "title": "狂乱 Hey Kids!!",
@@ -1859,8 +1877,8 @@ window.SONG_MASTER = {
     "やさしさに包まれたなら": {
       "title": "やさしさに包まれたなら",
       "artist": "荒井由実",
-      "album": "MISSLIM",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/52/9c/a0/529ca062-8a63-d1d7-5e6b-6774ba415dc2/00602567988229.rgb.jpg/600x600bb.jpg",
+      "album": "40周年記念ベストアルバム 日本の恋と、ユーミンと。",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/9d/29/a59d2913-c2a1-4d9c-78b2-0fa914eb3336/00602567997542.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "If you are surrounded by kindness"
       }

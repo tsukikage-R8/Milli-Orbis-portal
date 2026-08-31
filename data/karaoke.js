@@ -1,6 +1,14 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "R1gsnScnFXo",
+    "memberId": "yura",
+    "publishedAt": "2026-08-31",
+    "title": "【歌枠┆雑談】21:00の歌みた公開までに「２７万人」達成できるのか！？【ゆらぎゆら/ミリプロ】",
+    "duration": 0,
+    "songs": []
+  },
+  {
     "id": "0_6aKS8F718",
     "memberId": "liz",
     "publishedAt": "2026-08-27",
