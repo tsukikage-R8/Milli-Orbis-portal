@@ -5,7 +5,7 @@ window.KARAOKE = [
     "memberId": "yura",
     "publishedAt": "2026-08-31",
     "title": "【歌枠┆雑談】21:00の歌みた公開までに「２７万人」達成できるのか！？【ゆらぎゆら/ミリプロ】",
-    "duration": 0,
+    "duration": 7040,
     "songs": []
   },
   {
