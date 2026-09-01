@@ -6,7 +6,7 @@ generate-cursor-packs.py — Windowsカーソル配布用 zip生成
 - Scheme名: MilliOrbis-{CapEnglish} (例: MilliOrbis-Mahoro, MilliOrbis-MilliChan)
 - 出力: dist/cursors/MilliOrbis-*.zip (Git管理外) + 各フォルダに install.inf/README.md/preview.png を配置（検証用）
 """
-import os, pathlib, zipfile, textwrap, shutil, re
+import os, pathlib, zipfile, textwrap, shutil, re, json, struct, argparse
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CURSORS_ROOT = ROOT / "images" / "cursors"
@@ -179,6 +179,60 @@ MIT License — Copyright (c) Milli Orbis
 - INF template: [david-ly gist](https://gist.github.com/david-ly/687922256a5c6a7b7b98a52980a984a1) (MIT), [Der-Floh/Cursor-Installer-Creator](https://github.com/Der-Floh/Cursor-Installer-Creator)
 """
 
+README_MAC_TEMPLATE = """# MilliOrbis {JP} Cursors for Mac
+
+![preview](preview.png)
+
+**{JP}（{EN}）** のオリジナルカーソル 15種（`arrow` / `appstar` / `beam` / `cross` / `hand` / `help` / `move` / `no` / `pen` / `person` / `sizenesw` / `sizens` / `sizenwse` / `sizewe` / `wait`）を Mac で使えます。サイト内のカーソル切替は Mac のブラウザでも既に動作しますが、**システム全体**で使う場合は下記手順で適用してください。
+
+## インストール（Mac）— Mousecape で適用
+
+> **完全自動の `.cape` は将来対応予定** — 現状は `png` セットを Mousecape に読み込む方式です。
+
+1. [Mousecape](https://github.com/alexzielenski/Mousecape/releases) をダウンロード → `Mousecape.zip` を解凍 → `Mousecape.app` を `Applications` に移動 → 起動
+2. 初回は `System Settings → Privacy & Security → Accessibility` で `Mousecape` を許可（ONにする）
+3. 本 `MilliOrbis-{EN}-mac.zip` を解凍 → フォルダ内の `png/` にある 15枚の `png` を Mousecape の `File → New Cape` で作成した新規 Cape にドラッグ＆ドロップ（対応: `arrow=Arrow`, `hand=Pointing Hand`, `beam=IBeam`, `wait=Wait` 等は `hotspot.json` の座標を参照）
+4. Mousecape で Cape を選択 → `Apply`
+
+> `hotspot.json` には各 `png` のホットスポット座標（矢印先端等）が入っています。Mousecape の各スロットで `Hotspot` を手動設定する際の参考にしてください。
+
+## サイト内での利用（Macでも即時）
+
+Mac の Chrome / Safari でも `cursors.html` の `サイトで試す` ボタンやヘッダーの `カーソル` から即時切り替えできます（CSS `png` フォールバック）。
+
+## ファイル
+
+- `png/*.png` — 15種の透過PNG（32px）
+- `hotspot.json` — 各pngのホットスポット座標
+- `preview.png` — プレビュー
+"""
+
+README_CHROMEBOOK_TEMPLATE = """# MilliOrbis {JP} Cursors for Chromebook
+
+![preview](preview.png)
+
+**{JP}（{EN}）** のオリジナルカーソル 15種を Chromebook の Chrome ブラウザで使えます。
+
+> **Chromebook のシステム全体**ではカスタム画像のカーソルは OS制限で直接変更できません。**Chromeブラウザ内**でのみ有効です（Chromebookの主用途はブラウザのため実用上は十分です）。
+
+## インストール（Chromebook）— 拡張で適用
+
+1. Chromeウェブストアで [Custom Cursor for Chrome](https://chrome.google.com/webstore/detail/custom-cursor-for-chrome/ogdlpmhglpejoiomcodnpjnfgcpmgale) を `Add to Chrome` → `Add extension`
+2. 拡張の管理画面（`chrome://extensions` → `Details` → `Extension options` または拡張アイコン → `Manage`）で `Upload cursor` から本 `MilliOrbis-{EN}-chromebook.zip` を解凍した `png/` 内の `png` を登録
+   - 対応: `arrow=Normal`, `hand=Pointer`, `beam=Text`, `wait=Busy` 等（詳細は `hotspot.json` を参照）
+3. 必要なら `Chromebook Settings → Accessibility → Cursor` でサイズ調整
+
+## サイト内での利用
+
+Chromebook でも `cursors.html` の `サイトで試す` やヘッダーの `カーソル` から即時切り替えできます。
+
+## ファイル
+
+- `png/*.png` — 15種の透過PNG（32px）
+- `hotspot.json` — 各pngのホットスポット座標
+- `preview.png` — プレビュー
+"""
+
 LICENSE_TEXT = """MIT License
 
 Copyright (c) 2026 Milli Orbis
@@ -216,13 +270,48 @@ echo Done. Open Settings -> Bluetooth ^& devices -> Mouse -> Additional mouse se
 pause
 """
 
+def _extract_hotspots(cur_path):
+    """Read xHot,yHot from .cur file header (first entry)"""
+    try:
+        data = cur_path.read_bytes()
+        import struct
+        reserved, typ, count = struct.unpack_from("<HHH", data, 0)
+        if count < 1:
+            return [0,0]
+        bW,bH,bC,bR,wPlanes,wBitCount,dwBytes,dwOff = struct.unpack_from("<BBBBHHII", data, 6)
+        # ICONDIRENTRY is 16 bytes, image data starts at dwOff
+        # BITMAPINFOHEADER is 40 bytes, hotspot is not in BMP but in cur entry? For .cur, hotspot is wPlanes/xHot and wBitCount/yHot? Actually CUR uses wPlanes as xHot, wBitCount as yHot
+        xHot = wPlanes
+        yHot = wBitCount
+        return [xHot, yHot]
+    except Exception:
+        return [0,0]
+
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--win", action="store_true", help="Generate Windows zips")
+    parser.add_argument("--mac", action="store_true", help="Generate Mac zips")
+    parser.add_argument("--chromebook", action="store_true", help="Generate Chromebook zips")
+    parser.add_argument("--all", action="store_true", help="Generate all")
+    args = parser.parse_args()
+    do_win = args.win or args.all or (not args.win and not args.mac and not args.chromebook)
+    do_mac = args.mac or args.all
+    do_cb = args.chromebook or args.all
+
     CURSORS_ROOT.mkdir(parents=True, exist_ok=True)
     DIST_ROOT.mkdir(parents=True, exist_ok=True)
-    # Clean dist
-    if DIST_ROOT.exists():
+    # Clean dist subfolders based on flags
+    if args.all and DIST_ROOT.exists():
         shutil.rmtree(DIST_ROOT)
-    DIST_ROOT.mkdir(parents=True, exist_ok=True)
+        DIST_ROOT.mkdir(parents=True, exist_ok=True)
+    (DIST_ROOT / "win").mkdir(parents=True, exist_ok=True)
+    (DIST_ROOT / "mac").mkdir(parents=True, exist_ok=True)
+    (DIST_ROOT / "chromebook").mkdir(parents=True, exist_ok=True)
+    # Keep legacy flat for backward compat (win)
+    # Clean legacy flat zips if regenerating win
+    if do_win:
+        for p in DIST_ROOT.glob("*.zip"):
+            p.unlink()
 
     for tid, en, jp in TALENTS:
         cur_folder_name = CUR_FOLDER[tid]
@@ -255,46 +344,117 @@ def main():
             # fallback
             print(f"no preview source for {tid}")
 
-        # Now create zip in dist
-        zip_name = f"MilliOrbis-{en}.zip"
-        zip_path = DIST_ROOT / zip_name
-        # Zip structure: MilliOrbis-EN/ (folder) containing 15 cur + inf + readme + license + bat + preview
-        with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
-            base = f"MilliOrbis-{en}/"
+        # Now create zips per OS
+        # -- Win
+        if do_win:
+            zip_name = f"MilliOrbis-{en}.zip"
+            for out_dir in [DIST_ROOT, DIST_ROOT / "win"]:
+                out_dir.mkdir(parents=True, exist_ok=True)
+                zip_path = out_dir / zip_name
+                with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
+                    base = f"MilliOrbis-{en}/"
+                    for fname in FIFTEEN:
+                        src = cur_dir / fname
+                        if src.exists():
+                            zf.write(src, base + fname)
+                    zf.write(cur_dir / "install.inf", base + "install.inf")
+                    zf.write(cur_dir / "README.md", base + "README.md")
+                    zf.write(cur_dir / "LICENSE", base + "LICENSE")
+                    zf.write(cur_dir / "install.bat", base + "install.bat")
+                    if dst_preview.exists():
+                        zf.write(dst_preview, base + "preview.png")
+                print(f"generated win {zip_path} ({zip_path.stat().st_size} bytes)")
+        # -- Mac / Chromebook: png + hotspot.json
+        # Generate png dir + hotspot.json once per talent
+        # Ensure png extraction (Pillow) – use existing root png as preview but also extract 15 pngs
+        if do_mac or do_cb:
+            from PIL import Image
+            png_dir = cur_dir / "png"
+            png_dir.mkdir(exist_ok=True)
+            hotspot = {}
             for fname in FIFTEEN:
-                src = cur_dir / fname
-                if src.exists():
-                    zf.write(src, base + fname)
-            zf.write(cur_dir / "install.inf", base + "install.inf")
-            zf.write(cur_dir / "README.md", base + "README.md")
-            zf.write(cur_dir / "LICENSE", base + "LICENSE")
-            zf.write(cur_dir / "install.bat", base + "install.bat")
-            if dst_preview.exists():
-                zf.write(dst_preview, base + "preview.png")
-        print(f"generated {zip_path} ({zip_path.stat().st_size} bytes)")
+                cur_path = cur_dir / fname
+                png_name = fname.replace(".cur", ".png")
+                dst_png = png_dir / png_name
+                try:
+                    im = Image.open(cur_path)
+                    im.save(dst_png, "PNG")
+                    hotspot[png_name] = _extract_hotspots(cur_path)
+                except Exception as e:
+                    # fallback copy existing root png for arrow
+                    if png_name == "arrow.png" and (CURSORS_ROOT / f"{cur_folder_name}.png").exists():
+                        shutil.copy(CURSORS_ROOT / f"{cur_folder_name}.png", dst_png)
+                        hotspot[png_name] = [1,1]
+                    else:
+                        print(f" png extract failed {tid}/{fname}: {e}")
+            # also copy preview
+            if src_png.exists():
+                shutil.copy(src_png, png_dir / "preview.png")
+            (cur_dir / "hotspot.json").write_text(json.dumps(hotspot, indent=2, ensure_ascii=False), encoding="utf-8")
+            shutil.copy(cur_dir / "hotspot.json", png_dir / "hotspot.json")
+            # Generate mac/chromebook zips
+            for kind, readme_tmpl in [("mac", README_MAC_TEMPLATE), ("chromebook", README_CHROMEBOOK_TEMPLATE)]:
+                if (kind == "mac" and not do_mac) or (kind == "chromebook" and not do_cb):
+                    continue
+                readme_mac = readme_tmpl.format(JP=jp, EN=en)
+                # write README for this kind (overwrite generic for now, but keep win README separately? Use per-kind readme in zip)
+                out_sub = DIST_ROOT / kind
+                out_sub.mkdir(parents=True, exist_ok=True)
+                zip_path = out_sub / f"MilliOrbis-{en}-{kind}.zip"
+                with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
+                    base = f"MilliOrbis-{en}-{kind}/"
+                    # include pngs
+                    for p in png_dir.glob("*.png"):
+                        zf.write(p, base + "png/" + p.name)
+                    zf.write(cur_dir / "hotspot.json", base + "hotspot.json")
+                    # Also include preview at top
+                    if dst_preview.exists():
+                        zf.write(dst_preview, base + "preview.png")
+                    zf.writestr(base + "README.md", readme_mac)
+                    zf.writestr(base + "LICENSE", LICENSE_TEXT)
+                print(f"generated {kind} {zip_path} ({zip_path.stat().st_size} bytes)")
 
-    # Create bundle zip
-    bundle_path = DIST_ROOT / "MilliOrbis-Cursors-All.zip"
-    with zipfile.ZipFile(bundle_path, "w", zipfile.ZIP_DEFLATED) as zf:
-        for tid, en, jp in TALENTS:
-            scheme = f"MilliOrbis-{en}"
-            cur_dir = CURSORS_ROOT / CUR_FOLDER[tid]
-            base = f"MilliOrbis-{en}/"
-            for fname in FIFTEEN:
-                src = cur_dir / fname
-                if src.exists():
-                    zf.write(src, base + fname)
-            zf.write(cur_dir / "install.inf", base + "install.inf")
-            zf.write(cur_dir / "README.md", base + "README.md")
-            # Only once for bundle root license
-        # Add bundle README
-        bundle_readme = "# MilliOrbis Cursors — All Talents Bundle\n\n各タレントフォルダに `install.inf` が入っています。各フォルダで右クリック → インストール してください。\n\n- Scheme名: `MilliOrbis-{Konomi|Nono|...}`\n- 1タレントあたり15種\n- Windows 10/11 対応\n"
-        zf.writestr("README.md", bundle_readme)
-        zf.writestr("LICENSE", LICENSE_TEXT)
-    print(f"generated bundle {bundle_path} ({bundle_path.stat().st_size} bytes)")
+    # Create bundle zips
+    if do_win:
+        bundle_path = DIST_ROOT / "MilliOrbis-Cursors-All.zip"
+        # also win subfolder
+        for bpath in [DIST_ROOT / "MilliOrbis-Cursors-All.zip", DIST_ROOT / "win" / "MilliOrbis-Cursors-All.zip"]:
+            bpath.parent.mkdir(parents=True, exist_ok=True)
+            with zipfile.ZipFile(bpath, "w", zipfile.ZIP_DEFLATED) as zf:
+                for tid, en, jp in TALENTS:
+                    cur_dir = CURSORS_ROOT / CUR_FOLDER[tid]
+                    base = f"MilliOrbis-{en}/"
+                    for fname in FIFTEEN:
+                        src = cur_dir / fname
+                        if src.exists():
+                            zf.write(src, base + fname)
+                    zf.write(cur_dir / "install.inf", base + "install.inf")
+                    zf.write(cur_dir / "README.md", base + "README.md")
+                bundle_readme = "# MilliOrbis Cursors — All Talents Bundle\n\n各タレントフォルダに `install.inf` が入っています。各フォルダで右クリック → インストール してください。\n\n- Scheme名: `MilliOrbis-{Konomi|Nono|...}`\n- 1タレントあたり15種\n- Windows 10/11 対応\n"
+                zf.writestr("README.md", bundle_readme)
+                zf.writestr("LICENSE", LICENSE_TEXT)
+            print(f"generated bundle {bpath} ({bpath.stat().st_size} bytes)")
+    if do_mac:
+        for kind in ["mac", "chromebook"]:
+            if (kind == "mac" and not do_mac) or (kind == "chromebook" and not do_cb):
+                continue
+            bundle_path = DIST_ROOT / kind / f"MilliOrbis-Cursors-All-{kind}.zip"
+            bundle_path.parent.mkdir(parents=True, exist_ok=True)
+            with zipfile.ZipFile(bundle_path, "w", zipfile.ZIP_DEFLATED) as zf:
+                for tid, en, jp in TALENTS:
+                    cur_dir = CURSORS_ROOT / CUR_FOLDER[tid]
+                    base = f"MilliOrbis-{en}-{kind}/"
+                    png_dir = cur_dir / "png"
+                    for p in png_dir.glob("*.png"):
+                        zf.write(p, base + "png/" + p.name)
+                    if (cur_dir / "hotspot.json").exists():
+                        zf.write(cur_dir / "hotspot.json", base + "hotspot.json")
+                zf.writestr("README.md", f"# MilliOrbis Cursors — All {kind} Bundle\n\n各タレントの png セットです。\n")
+                zf.writestr("LICENSE", LICENSE_TEXT)
+            print(f"generated bundle {bundle_path} ({bundle_path.stat().st_size} bytes)")
     # List
-    for p in sorted(DIST_ROOT.glob("*.zip")):
-        print(f" - {p.name}: {p.stat().st_size} bytes")
+    for p in sorted(DIST_ROOT.rglob("*.zip")):
+        print(f" - {p.relative_to(DIST_ROOT)}: {p.stat().st_size} bytes")
 
 if __name__ == "__main__":
     main()

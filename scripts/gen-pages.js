@@ -788,15 +788,43 @@ fs.writeFileSync(path.join(outDir, "cursors.html"), simplePage({
   body: `
   <section class="section">
     <div class="card" style="padding:20px 22px;margin-bottom:22px;">
-      <h3 style="font-family:var(--font-display);font-weight:900;margin-bottom:8px;">使い方（Windows 10/11）</h3>
-      <ol style="padding-left:1.2em;line-height:1.9;font-size:0.92rem;">
-        <li>下の一覧から「<b>一括DL（zip）</b>」をダウンロード → 解凍（右クリック → すべて展開）</li>
-        <li>解凍したフォルダ内の <code>install.inf</code> を <b>右クリック → インストール</b>（Win11は <i>その他のオプションを表示 → インストール</i>）→ UACで <b>はい</b></li>
-        <li><code>設定 → Bluetoothとデバイス → マウス → その他のマウス設定 → ポインター</code> で <b>配色</b> から <code>MilliOrbis-○○</code> を選択 → <b>適用</b></li>
-        <li>うまくいかない場合: 右クリックに出ない場合は <code>install.bat</code> を右クリック → 管理者として実行、または手動で各役割を <code>参照</code> から指定</li>
-      </ol>
-      <p style="font-size:0.82rem;color:var(--muted);margin-top:10px;">※ macOS / Linux ではブラウザ内のカーソル切替のみ有効です。<br>※ zipには 15種の <code>.cur</code> + <code>install.inf</code> + <code>README.md</code> + <code>LICENSE</code> + <code>preview.png</code> + <code>install.bat</code> が同梱されています。<br>※ 全タレント一括の <a href="/dist/cursors/MilliOrbis-Cursors-All.zip" download>All.zip</a> も用意しています。</p>
-      <p style="margin-top:12px;"><a href="/dist/cursors/MilliOrbis-Cursors-All.zip" download class="btn">全タレント一括DL（All.zip）</a></p>
+      <h3 style="font-family:var(--font-display);font-weight:900;margin-bottom:8px;">使い方</h3>
+      <p style="font-size:0.82rem;color:var(--muted);margin-bottom:12px;">お使いの機種のタブを選んでください。サイト内のカーソル切替（ヘッダー右の「カーソル」）は <b>Windows / Mac / Chromebook 全てで動作</b>します（ブラウザ内）。</p>
+      <div class="cursor-tabs" id="cursorTabs" style="display:flex;gap:8px;margin-bottom:16px;">
+        <button type="button" class="cursor-tab active" data-tab="win">Windows</button>
+        <button type="button" class="cursor-tab" data-tab="mac">Mac</button>
+        <button type="button" class="cursor-tab" data-tab="chromebook">Chromebook</button>
+      </div>
+      <div id="cursorTabWin">
+        <ol style="padding-left:1.2em;line-height:1.9;font-size:0.92rem;">
+          <li>下の一覧から「<b>一括DL（zip）</b>」をダウンロード → 解凍（右クリック → すべて展開）</li>
+          <li>解凍したフォルダ内の <code>install.inf</code> を <b>右クリック → インストール</b>（Win11は <i>その他のオプションを表示 → インストール</i>）→ UACで <b>はい</b></li>
+          <li><code>設定 → Bluetoothとデバイス → マウス → その他のマウス設定 → ポインター</code> で <b>配色</b> から <code>MilliOrbis-○○</code> を選択 → <b>適用</b></li>
+          <li>うまくいかない場合: <code>install.bat</code> を右クリック → 管理者として実行、または手動で各役割を <code>参照</code> から指定</li>
+        </ol>
+        <p style="font-size:0.82rem;color:var(--muted);margin-top:10px;">※ zipには 15種の <code>.cur</code> + <code>install.inf</code> + <code>README.md</code> + <code>LICENSE</code> + <code>preview.png</code> + <code>install.bat</code> が同梱。<br>※ 全タレント一括の <a href="/dist/cursors/win/MilliOrbis-Cursors-All.zip" download>All.zip (Win)</a> も用意しています。</p>
+        <p style="margin-top:12px;"><a href="/dist/cursors/win/MilliOrbis-Cursors-All.zip" download class="btn">全タレント一括DL（Win All.zip）</a></p>
+      </div>
+      <div id="cursorTabMac" style="display:none;">
+        <p style="font-size:0.92rem;font-weight:700;margin-bottom:8px;">Mac — Mousecape でシステム全体に適用</p>
+        <ol style="padding-left:1.2em;line-height:1.9;font-size:0.92rem;">
+          <li><a href="https://github.com/alexzielenski/Mousecape/releases" target="_blank" rel="noopener">Mousecape</a> をダウンロード → <code>Mousecape.app</code> を Applications に移動 → 起動</li>
+          <li>初回は <code>System Settings → Privacy & Security → Accessibility</code> で Mousecape を許可</li>
+          <li>下の一覧から「<b>Mac用DL</b>」をダウンロード → 解凍 → <code>png/</code> 内の 15枚を Mousecape の <code>File → New Cape</code> にドラッグ＆ドロップ（<code>hotspot.json</code> の座標を Hotspot に設定）→ <code>Apply</code></li>
+        </ol>
+        <p style="font-size:0.82rem;color:var(--muted);margin-top:10px;">※ 完全自動の <code>.cape</code> は将来対応予定。現状は pngセットでの手動適用です。<br>※ サイト内のカーソル切替は Mac のブラウザでも即時有効です。<br>※ 全タレント一括の <a href="/dist/cursors/mac/MilliOrbis-Cursors-All-mac.zip" download>All.zip (Mac)</a> も用意しています。</p>
+        <p style="margin-top:12px;"><a href="/dist/cursors/mac/MilliOrbis-Cursors-All-mac.zip" download class="btn">全タレント一括DL（Mac All.zip）</a></p>
+      </div>
+      <div id="cursorTabChromebook" style="display:none;">
+        <p style="font-size:0.92rem;font-weight:700;margin-bottom:8px;">Chromebook — 拡張でChromeブラウザ内に適用</p>
+        <ol style="padding-left:1.2em;line-height:1.9;font-size:0.92rem;">
+          <li>Chromeウェブストアで <a href="https://chrome.google.com/webstore/detail/custom-cursor-for-chrome/ogdlpmhglpejoiomcodnpjnfgcpmgale" target="_blank" rel="noopener">Custom Cursor for Chrome</a> を <code>Add to Chrome</code></li>
+          <li>拡張の管理画面で <code>Upload cursor</code> から下の「<b>Chromebook用DL</b>」を解凍した <code>png/</code> 内の png を登録（対応表は同梱の README 参照）</li>
+          <li>必要なら <code>Chromebook Settings → Accessibility → Cursor</code> でサイズ調整</li>
+        </ol>
+        <p style="font-size:0.82rem;color:var(--muted);margin-top:10px;">※ ChromebookはOS制限でシステム全体のカスタム画像は非対応のため、<b>Chromeブラウザ内のみ</b>有効です（Chromebookの主用途はブラウザのため実用上は十分です）。<br>※ サイト内のカーソル切替は Chromebook でも有効です。<br>※ 全タレント一括の <a href="/dist/cursors/chromebook/MilliOrbis-Cursors-All-chromebook.zip" download>All.zip (Chromebook)</a> も用意しています。</p>
+        <p style="margin-top:12px;"><a href="/dist/cursors/chromebook/MilliOrbis-Cursors-All-chromebook.zip" download class="btn">全タレント一括DL（Chromebook All.zip）</a></p>
+      </div>
     </div>
     <div id="cursorDistGrid" class="grid" style="grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;"></div>
   </section>`,

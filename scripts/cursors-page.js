@@ -19,9 +19,31 @@
     return CUR_MAP[portalId] || portalId;
   }
   function enName(cid) { return EN_MAP[cid] || cid; }
+  function getTab() {
+    try {
+      var h = (location.hash || "").replace("#","").toLowerCase();
+      if (h === "mac" || h === "chromebook" || h === "win") return h;
+      return localStorage.getItem("milli-cursor-dist-tab") || "win";
+    } catch(e) { return "win"; }
+  }
+  function setTab(tab) {
+    try { localStorage.setItem("milli-cursor-dist-tab", tab); } catch(e) {}
+    if (location.hash !== "#" + tab) history.replaceState(null, "", "#" + tab);
+  }
   function render() {
     var grid = $("#cursorDistGrid");
     if (!grid || typeof MEMBERS === "undefined") return;
+    var activeTab = getTab();
+    // sync tab UI
+    var tabs = document.querySelectorAll(".cursor-tab");
+    for (var ti=0; ti<tabs.length; ti++) tabs[ti].classList.toggle("active", tabs[ti].dataset.tab === activeTab);
+    var winEl = document.getElementById("cursorTabWin");
+    var macEl = document.getElementById("cursorTabMac");
+    var cbEl = document.getElementById("cursorTabChromebook");
+    if (winEl) winEl.style.display = activeTab === "win" ? "" : "none";
+    if (macEl) macEl.style.display = activeTab === "mac" ? "" : "none";
+    if (cbEl) cbEl.style.display = activeTab === "chromebook" ? "" : "none";
+
     var list = [];
     // members
     MEMBERS.forEach(function (m) {
@@ -41,7 +63,10 @@
       var previewPng = "/images/cursors/" + it.cid + ".png";
       var curPng = "/images/cursors/" + it.cid + ".cur";
       var en = enName(it.cid);
-      var zipUrl = "/dist/cursors/MilliOrbis-" + en + ".zip";
+      var zipMap = { win: "/dist/cursors/win/MilliOrbis-" + en + ".zip", mac: "/dist/cursors/mac/MilliOrbis-" + en + "-mac.zip", chromebook: "/dist/cursors/chromebook/MilliOrbis-" + en + "-chromebook.zip" };
+      var zipUrl = zipMap[activeTab] || zipMap.win;
+      var zipLabelMap = { win: "一括DL（zip）", mac: "Mac用DL", chromebook: "Chromebook用DL" };
+      var zipLabel = zipLabelMap[activeTab] || "一括DL（zip）";
       // per-role cur files inside folder
       var folder = "/images/cursors/" + it.cid + "/";
       var roles = [
@@ -53,7 +78,8 @@
       var roleLinks = roles.map(function(r){
         return '<a href="' + folder + encodeURIComponent(r.file) + '" download class="cur-role-link">' + r.label + '</a>';
       }).join(" ");
-      var note = '<span style="font-size:0.72rem;color:var(--muted);">Windows用15種（install.inf同梱）</span>';
+      var noteMap = { win: 'Windows用15種（install.inf同梱）', mac: 'Mac用15png + hotspot.json（Mousecape推奨）', chromebook: 'Chromebook用15png + hotspot.json（拡張用）' };
+      var note = '<span style="font-size:0.72rem;color:var(--muted);">' + noteMap[activeTab] + '</span>';
       // One-click apply button (site cursor)
       var applyBtn = '<button type="button" class="btn btn-ghost cur-apply-btn" data-cur="' + it.cid + '" style="font-size:0.78rem;padding:6px 12px;">サイトで試す</button>';
       return '<div class="card" style="padding:16px 16px 14px;overflow:hidden;">'
@@ -84,6 +110,16 @@
         + '</div></details>'
         + '</div>';
     }).join("");
+    // tab switching
+    var tabs = document.querySelectorAll(".cursor-tab");
+    for (var tj=0; tj<tabs.length; tj++) (function(btn){
+      btn.addEventListener("click", function(){
+        setTab(btn.dataset.tab);
+        render();
+      });
+    })(tabs[tj]);
+    window.addEventListener("hashchange", function(){ render(); });
+
     grid.addEventListener("click", function(e){
       var btn = e.target.closest(".cur-apply-btn");
       if (!btn) return;
