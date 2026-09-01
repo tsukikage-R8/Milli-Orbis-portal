@@ -88,7 +88,13 @@
               if (icon && icon.indexOf("/") === 0) { /* absolute */ }
             }
           }
-          if (s.talentId === "milli-chan") icon = "/images/cursors/milli-chan.png";
+          if (s.talentId === "milli-chan") {
+            // ヘッダープレビューはタレントアイコンを表示（ドロップダウンと統一）
+            try {
+              for (var _k=0; _k<MEMBERS.length; _k++) if (MEMBERS[_k].id==="milchan") { icon = MEMBERS[_k].icon || icon; break; }
+            } catch(e) {}
+            if (!icon || icon.indexOf("milli-chan")>=0) icon = "images/icon/milli%20chan_profile.JPEG";
+          }
           if (!icon) icon = "/images/cursors/" + s.talentId + ".png";
           preview.style.backgroundImage = "url('" + icon + "')";
           preview.style.backgroundSize = "cover";
@@ -144,11 +150,15 @@
         // Handle portal's icon path with encoded space etc. Keep as is, fallback via onerror
         items.push('<button class="cursor-dropdown-item' + active + '" data-id="' + m.id + '" role="menuitem"><img src="' + icon + '" alt="" onerror="this.src=\'/images/cursors/default.png\'"><span>' + esc(m.name) + '</span><span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg></span></button>');
       }
-      // ミリちゃん
+      // ミリちゃん — タレントサイトのアイコンを使用
       {
         var mId = "milli-chan";
         var a = cur.enabled && cur.talentId === mId ? " active" : "";
-        var ic = "/images/cursors/milli-chan.png";
+        var ic = "images/icon/milli%20chan_profile.JPEG";
+        // find milchan member icon if MEMBERS available
+        try {
+          for (var _mi=0; _mi<MEMBERS.length; _mi++) if (MEMBERS[_mi].id==="milchan") { ic = MEMBERS[_mi].icon || ic; break; }
+        } catch(e) {}
         items.push('<button class="cursor-dropdown-item' + a + '" data-id="' + mId + '" role="menuitem"><img src="' + ic + '" alt="" onerror="this.src=\'/images/cursors/default.png\'"><span>ミリちゃん</span><span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg></span></button>');
       }
       dd.innerHTML = items.join("");

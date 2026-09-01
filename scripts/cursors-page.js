@@ -29,10 +29,13 @@
       var icon = m.icon || "/images/cursors/" + cid + ".png";
       list.push({ id: m.id, cid: cid, name: mName(m), color: m.color, icon: icon, isMilliChan:false });
     });
-    // add milli-chan explicitly (not in MEMBERS as milchan but we handle)
+    // add milli-chan explicitly — タレントサイトのアイコンを使用
     var hasMilliChan = list.some(function(x){ return x.cid==="milli-chan"; });
     if (!hasMilliChan) {
-      list.push({ id:"milli-chan", cid:"milli-chan", name:"ミリちゃん", color:"#74a5ae", icon:"/images/cursors/milli-chan.png", isMilliChan:true });
+      // MEMBERSの milchan からアイコンを取得（タレントサイトの画像）
+      var milIcon = "images/icon/milli%20chan_profile.JPEG";
+      try { for (var _mi=0; _mi<MEMBERS.length; _mi++) if (MEMBERS[_mi].id==="milchan") { milIcon = MEMBERS[_mi].icon || milIcon; break; } } catch(e) {}
+      list.push({ id:"milli-chan", cid:"milli-chan", name:"ミリちゃん", color:"#74a5ae", icon: milIcon, isMilliChan:true });
     }
     grid.innerHTML = list.map(function (it) {
       var previewPng = "/images/cursors/" + it.cid + ".png";
