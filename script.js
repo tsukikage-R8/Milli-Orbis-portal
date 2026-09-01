@@ -1076,12 +1076,13 @@
         ' data-bm-kind="news" data-bm-date="' + n.date + '" data-bm-tag="' + esc(loc(n, "tag")) + '"' +
         ' data-bm-title="' + esc(loc(n, "title")) + '" data-bm-desc="' + esc(loc(n, "desc") || "") + '"' +
         ' data-bm-url="' + esc(n.url || "") + '"');
+      var thumb = n.image ? '<a class="news-thumb-wrap" href="' + esc(n.url || "#") + '" target="_blank" rel="noopener"><img class="news-thumb" src="' + esc(n.image) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display=\'none\'"></a>' : "";
       var head = '<div class="news-head"><span class="news-tag">' + esc(loc(n, "tag")) + "</span>" +
         '<span class="news-date">' + fmtDate(new Date(n.date)) + "</span>" + bm + "</div>";
-      var body = '<div class="news-title">' + esc(loc(n, "title")) + "</div>" +
-        '<div class="news-desc">' + esc(loc(n, "desc")) + "</div>" + more;
-      var cls = "news-item card" + (i >= EXPANDED ? " collapsed" : "");
-      return '<div class="' + cls + '" data-news-idx="' + i + '">' + head + body + "</div>";
+      var textBody = '<div class="news-text"><div class="news-title">' + esc(loc(n, "title")) + "</div>" +
+        '<div class="news-desc">' + esc(loc(n, "desc")) + "</div>" + more + "</div>";
+      var cls = "news-item card" + (n.image ? " has-thumb" : "") + (i >= EXPANDED ? " collapsed" : "");
+      return '<div class="' + cls + '" data-news-idx="' + i + '">' + thumb + '<div class="news-main">' + head + textBody + "</div></div>";
     }).join("");
     var hidden = NEWS.length - EXPANDED;
     if (hidden > 0) {
@@ -1792,6 +1793,11 @@
 
   /* ============ 最新グッズ ============ */
   function goodsTile(g) {
+    if (g.image) {
+      var fb = GOODS_ICON[g.kind] ? GOODS_ICON[g.kind] : '<span class="tile-char">' + esc((g.name || "?").charAt(0)) + "</span>";
+      return '<img src="' + esc(g.image) + '" alt="" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit;" onerror="this.style.display=\'none\'; this.insertAdjacentHTML(\'afterend\', \'' + fb.replace(/'/g, "\\'") + '\')">'
+        + '<span style="display:none">' + fb + "</span>";
+    }
     if (GOODS_ICON[g.kind]) return GOODS_ICON[g.kind];
     return '<span class="tile-char">' + esc((g.name || "?").charAt(0)) + "</span>";
   }

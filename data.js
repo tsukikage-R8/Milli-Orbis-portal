@@ -48,18 +48,18 @@ const GOODS_ICON = {
 };
 
 const GOODS = [
-  { name: "虹深°ぬふ 1周年記念グッズ フルセット", memberId: "nuhu", kind: "fullset", price: 19900, oldPrice: 20200, url: "https://shop.milpr.com/products/nufu_1st_anniversary_full", en: { name: "Nijipuka Nuhu 1st Anniversary Goods Full Set" } },
-  { name: "虹深°ぬふ 1周年記念グッズ アクリルスタンド", memberId: "nuhu", kind: "stand", price: 1800, url: "https://shop.milpr.com/products/nufu_1st_anniversary_acrylicstand", en: { name: "Nijipuka Nuhu 1st Anniversary Acrylic Stand" } },
-  { name: "虹深°ぬふ 1周年記念 シチュエーションボイス", memberId: "nuhu", kind: "voice", price: 1000, url: "https://shop.milpr.com/products/nufu_1st_anniversary_voice", en: { name: "Nijipuka Nuhu 1st Anniversary Situation Voice" } },
-  { name: "ミリプロTCG「Million Production OFFICIAL CARD GAME vol.4」1パック", memberId: "", memberLabel: "ミリプロ全員", kind: "card", price: 600, tag: "NEW", url: "https://shop.milpr.com/products/milpr_tcg_vol4", en: { name: "MilliPro TCG \"Million Production OFFICIAL CARD GAME vol.4\" 1 Pack", memberLabel: "All Members" } },
-  { name: "ミリプロTCG「Million Production OFFICIAL CARD GAME vol.4」11パックセット", memberId: "", memberLabel: "ミリプロ全員", kind: "card", price: 6000, tag: "NEW", url: "https://shop.milpr.com/products/milpr_tcg_vol4_11", en: { name: "MilliPro TCG \"Million Production OFFICIAL CARD GAME vol.4\" 11-Pack Set", memberLabel: "All Members" } },
-  { name: "ミリプロ サマーコレクション 2026 プレミアムタレントセット", memberId: "", memberLabel: "ミリプロ全員", kind: "fullset", price: 23400, oldPrice: 23700, tag: "NEW", url: "https://shop.milpr.com/products/summer_2026_talentset_premium", en: { name: "MilliPro Summer Collection 2026 Premium Talent Set", memberLabel: "All Members" } },
-  { name: "ミリプロ サマーコレクション 2026 オーロラアクリルスタンド", memberId: "", memberLabel: "ミリプロ全員", kind: "stand", price: 2200, tag: "NEW", url: "https://shop.milpr.com/products/summer_2026_aurora_acsta", en: { name: "MilliPro Summer Collection 2026 Aurora Acrylic Stand", memberLabel: "All Members" } },
-  { name: "小廻こま 誕生日記念グッズ 2026 フルセット", memberId: "koma", kind: "fullset", price: 12300, url: "https://shop.milpr.com/products/koma_birthday2026_full", en: { name: "Komawari Koma 2026 Birthday Goods Full Set" } },
-  { name: "小廻こま 誕生日記念グッズ 2026 ジオラマアクリルスタンド", memberId: "koma", kind: "stand", price: 3500, url: "https://shop.milpr.com/products/koma_birthday2026_diorama_acsta", en: { name: "Komawari Koma 2026 Birthday Diorama Acrylic Stand" } },
-  { name: "小廻こま 誕生日記念グッズ 2026 アクリルスタンド", memberId: "koma", kind: "stand", price: 1800, url: "https://shop.milpr.com/products/koma_birthday2026_acrylicstand", en: { name: "Komawari Koma 2026 Birthday Acrylic Stand" } },
-  { name: "あくび・でもんすぺーど 50万人記念グッズ フルセット", memberId: "akubi", kind: "fullset", price: 11500, tag: "NEW", url: "https://shop.milpr.com/products/akubi_50_full", en: { name: "Akubi Demonspade 500K Subscriber Goods Full Set" } },
-  { name: "あくび・でもんすぺーど 50万人記念グッズ メタルチャームネックレス", memberId: "akubi", kind: "necklace", price: 5000, tag: "NEW", url: "https://shop.milpr.com/products/akubi_50_necklace", en: { name: "Akubi Demonspade 500K Subscriber Metal Charm Necklace" } }
+  { name: "甘狼このみ 新衣装記念グッズ 2026 フルセット", memberId: "konomi", kind: "fullset", price: 10700, image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/02_7982ae83-0cee-4592-be32-8892c86692d3.png?v=1787774601", url: "https://shop.milpr.com/products/konomi_new_costume_full", en: { name: "Konomi New Costume 2026 Full Set" } },
+  { name: "甘狼このみ 新衣装記念グッズ 2026 アクリルスタンド", memberId: "konomi", kind: "stand", price: 1800, image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/04_457ede2e-856e-4222-87fb-35fe8d89312f.png?v=1787774008", url: "https://shop.milpr.com/products/konomi_new_costume_acrylicstand", en: { name: "Konomi New Costume Acrylic Stand" } },
+  { name: "甘狼このみ 新衣装記念グッズ 2026 アクリルボード", memberId: "konomi", kind: "clearfile", price: 4000, image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/03_4049b3a4-357a-4292-a095-ed83248f0daf.png?v=1787773753", url: "https://shop.milpr.com/products/konomi_new_costume_acrylicboard", en: { name: "Konomi New Costume Acrylic Board" } },
+  { name: "甘狼このみ 新衣装記念グッズ 2026 ぽんぽんモチーフキーホルダー", memberId: "konomi", kind: "keyholder", price: 2400, image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/06_163bea6a-f125-4220-a5ba-b098a20c8d96.png?v=1787774557", url: "https://shop.milpr.com/products/konomi_new_costume_motifkeychain", en: { name: "Konomi New Costume Motif Keychain" } },
+  { name: "鹿乃まほろ加入記念グッズ フルセット", memberId: "mahoro", kind: "fullset", price: 14900, image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/309e51fdc0d9afb1b98a02d994406f88_5f5215d1-db83-4a8b-bc45-5e75ce46d108.png?v=1787294601", url: "https://shop.milpr.com/products/mahoro_join_full", en: { name: "Mahoro Join Full Set" } },
+  { name: "鹿乃まほろ加入記念グッズ アクリルスタンドA", memberId: "mahoro", kind: "stand", price: 1800, image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/A_4da56c70-ffeb-405d-9f4f-1fe53e9d78db.png?v=1787294460", url: "https://shop.milpr.com/products/mahoro_join_acrylicstand_a", en: { name: "Mahoro Acrylic Stand A" } },
+  { name: "鹿乃まほろ加入記念グッズ 両面ダイカットクッション", memberId: "mahoro", kind: "bodypillow", price: 3000, image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/31f8843f3a94295fa9a855f6edb8c7f6.png?v=1787294597", url: "https://shop.milpr.com/products/mahoro_join_diecut_cushion", en: { name: "Mahoro Die-Cut Cushion" } },
+  { name: "鹿乃まほろ加入記念グッズ アクリルボード", memberId: "mahoro", kind: "clearfile", price: 4000, image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/1310cf3e6d145e2430b0a5d6e6c7ffa4.png?v=1787294511", url: "https://shop.milpr.com/products/mahoro_join_acrylicboard", en: { name: "Mahoro Acrylic Board" } },
+  { name: "虹深°ぬふ 1周年記念グッズ フルセット", memberId: "nuhu", kind: "fullset", price: 19900, oldPrice: 20200, image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/9ba14fa6ded9002ed301e5b212275fa1_5c96e218-5e03-4b1c-8155-95f08f7701c7.png?v=1786126142", url: "https://shop.milpr.com/products/nufu_1st_anniversary_full", en: { name: "Nijipuka Nuhu 1st Anniversary Goods Full Set" } },
+  { name: "ミリプロTCG「Million Production OFFICIAL CARD GAME vol.4」1パック", memberId: "", memberLabel: "ミリプロ全員", kind: "card", price: 600, tag: "NEW", image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/06_ad8f6c7b-0b1d-4082-b40e-fd6bc44650ba.png?v=1770747189", url: "https://shop.milpr.com/products/milpr_tcg_vol4", en: { name: "MilliPro TCG \"Million Production OFFICIAL CARD GAME vol.4\" 1 Pack", memberLabel: "All Members" } },
+  { name: "小廻こま 誕生日記念グッズ 2026 フルセット", memberId: "koma", kind: "fullset", price: 12300, image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/02_7982ae83-0cee-4592-be32-8892c86692d3.png?v=1787774601", url: "https://shop.milpr.com/products/koma_birthday2026_full", en: { name: "Komawari Koma 2026 Birthday Goods Full Set" } },
+  { name: "あくび・でもんすぺーど 50万人記念グッズ フルセット", memberId: "akubi", kind: "fullset", price: 11500, tag: "NEW", image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/02_cf0074ba-51d7-4fb5-a0b6-234b001faf12.png?v=1736245919", url: "https://shop.milpr.com/products/akubi_50_full", en: { name: "Akubi Demonspade 500K Subscriber Goods Full Set" } }
 ];
 
 
@@ -946,33 +946,37 @@ const NEWS = [
     date: "2026-09-01",
     tag: "サイト更新",
     title: "【サイト更新】オリジナルカーソル配布＆Milli Orbisアカウント強化",
-    desc: "本サイトで推しメンバーのオリジナルマウスカーソル（フル15種＋Windows標準名13種）を配布開始。ヘッダーの「カーソル」ボタンからサイト内でも即時切り替えできます。Milli Orbisアカウントは Google / X ログインに対応し、複数ログイン方法の紐付け・解除も可能になりました。",
+    desc: "推しカーソル（Win/Mac/Chromebook 15種）を一括DLで配布開始。ヘッダーの「カーソル」からサイト内でも即時切り替えできます。",
+    image: "/images/cursors/mahoro.png",
     url: "cursors.html",
-    en: { tag: "Site Update", title: "[Update] Original Cursors & Milli Orbis Account Upgrade", desc: "Original mouse cursors (15 types + 13 Windows standard names) are now available. Switch cursors instantly from the header. Milli Orbis Account now supports Google / X login with linking." }
+    en: { tag: "Site Update", title: "[Update] Original Cursors & Milli Orbis Account Upgrade", desc: "15-type cursors for Win/Mac/Chromebook now available. Switch instantly from the header." }
   },
   {
     date: "2026-08-30",
     tag: "イベント",
     title: "ミリプロサマー2026 閉会式 レポート",
-    desc: "公式YouTubeチャンネルで閉会式が配信されました。夏の思い出を振り返り、秋の展開へ期待が高まります。",
+    desc: "公式YouTubeチャンネルで閉会式が配信。夏の思い出を振り返り秋へ。",
+    image: "https://storage.googleapis.com/production-os-assets/assets/3b9750a2-02c4-4637-a244-f25491f98cdf",
     url: "https://milpr.com/news/millipro_summer_2026",
-    en: { tag: "Event", title: "MilliPro Summer 2026 Closing Ceremony Report", desc: "The closing ceremony was streamed on the official YouTube channel, looking back on summer memories and forward to autumn." }
+    en: { tag: "Event", title: "MilliPro Summer 2026 Closing Ceremony Report", desc: "Closing ceremony streamed on official YouTube." }
   },
   {
     date: "2026-08-29",
     tag: "イベント",
     title: "ミリプロリゾート 開催",
-    desc: "ミリプロサマー2026のリアルイベントが秋葉原UDXで開催されました。POP UP展示＆グッズ販売、ファンミーティング第8部に鹿乃まほろも参加。",
+    desc: "秋葉原UDXでPOP UP展示＆グッズ販売。ファンミ第8部に鹿乃まほろも参加。",
+    image: "https://storage.googleapis.com/production-os-assets/assets/4feef867-f93c-4115-9822-be6fc6e808e6",
     url: "https://milpr.com/news/milpr_resort",
-    en: { tag: "Event", title: "MilliPro Resort Held", desc: "The real-life event was held at Akihabara UDX with exhibits, goods sales, and fan meeting Part 8 featuring Kano Mahoro." }
+    en: { tag: "Event", title: "MilliPro Resort Held", desc: "Held at Akihabara UDX with exhibits and fan meeting feat. Kano Mahoro." }
   },
   {
     date: "2026-08-16",
     tag: "重大発表",
     title: "【重大発表】鹿乃まほろ ミリプロSONAに加入決定！",
-    desc: "Virtual Artist 鹿乃まほろ（@kano_2525）のミリプロSONA加入が決定しました。2026年8月22日20時より初配信を実施予定です！",
+    desc: "鹿乃まほろの加入決定。8/22 20時に初配信！",
+    image: "https://storage.googleapis.com/studio-design-asset-files/projects/6kq9B6lgap/s-1120x1431_v-fms_webp_09ec6ce5-0ba3-431f-b096-0290832bfd43.png",
     url: "https://x.com/Mil_Pro_/status/2088968988860813750",
-    en: { tag: "Major Announcement", title: "[Major Announcement] Kano Mahoro Joins MilliPro SONA!", desc: "Virtual Artist Kano Mahoro (@kano_2525) has joined MilliPro SONA. Her debut stream is scheduled for August 22, 2026 at 8 PM JST!" }
+    en: { tag: "Major Announcement", title: "[Major Announcement] Kano Mahoro Joins MilliPro SONA!", desc: "Kano Mahoro has joined MilliPro SONA. Debut Aug 22 8PM JST!" }
   },
   {
     date: "2026-08-16",
