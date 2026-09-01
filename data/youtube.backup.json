@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-08-31T18:17:11.019Z",
+  "updatedAt": "2026-08-31T23:27:59.690Z",
   "streams": [
+    {
+      "id": "Y6TZvXxqIkc",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "#1【ほの暮しの庭】今日からはじまるほのぼのスローライフ……？【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/Y6TZvXxqIkc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-01T10:00:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "8F-C9ivtBnE",
       "memberId": "koma",
@@ -225,6 +234,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "Y6TZvXxqIkc",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "#1【ほの暮しの庭】今日からはじまるほのぼのスローライフ……？【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/Y6TZvXxqIkc/hqdefault_live.jpg",
+      "publishedAt": "2026-08-31T19:59:03Z",
+      "live": false
+    },
     {
       "id": "XuJyXMVtfpo",
       "memberId": "mahoro",
@@ -513,16 +532,6 @@
       "title": "〖 白栄大学 0号館 〗ついに大学デビュー、友達できるかな〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/rIUuTVM8M1s/hqdefault.jpg",
       "publishedAt": "2026-08-28T14:24:14Z",
-      "live": false
-    },
-    {
-      "id": "IYvojg79F70",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 部屋訪問 】 リスナーさんのお部屋にお邪魔します！！！！！！！ 【 #ゆらふぃら生態観測 】",
-      "thumb": "https://i.ytimg.com/vi/IYvojg79F70/hqdefault.jpg",
-      "publishedAt": "2026-08-28T13:53:43Z",
       "live": false
     }
   ],
