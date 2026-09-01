@@ -956,7 +956,7 @@ const NEWS = [
     tag: "イベント",
     title: "ミリプロサマー2026 閉会式 レポート",
     desc: "公式YouTubeチャンネルで閉会式が配信。夏の思い出を振り返り秋へ。",
-    image: "https://storage.googleapis.com/production-os-assets/assets/3b9750a2-02c4-4637-a244-f25491f98cdf",
+    image: "https://storage.googleapis.com/production-os-assets/assets/4feef867-f93c-4115-9822-be6fc6e808e6",
     url: "https://milpr.com/news/millipro_summer_2026",
     en: { tag: "Event", title: "MilliPro Summer 2026 Closing Ceremony Report", desc: "Closing ceremony streamed on official YouTube." }
   },

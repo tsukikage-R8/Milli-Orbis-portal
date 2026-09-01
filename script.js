@@ -1069,7 +1069,7 @@
   function renderNews() {
     var box = $("#newsList");
     if (!box) return;
-    var EXPANDED = 2;
+    var EXPANDED = 4;
     var html = NEWS.map(function (n, i) {
       var more = n.url ? '<a class="btn btn-ghost news-more" href="' + n.url + '" target="_blank" rel="noopener">' + T("news.more") + "</a>" : "";
       var bm = bmBtnHtml("nw:" + n.date + ":" + loc(n, "title"),
