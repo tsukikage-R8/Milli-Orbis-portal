@@ -110,7 +110,16 @@
       <a href="songs.html" data-i18n="nav.songs">曲データベース</a>
       <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
       <a href="account.html" data-i18n="nav.account">マイページ</a>
+      <a href="cursors.html">カーソル配布</a>
       <a href="index.html#links">Official Links</a>
+      <div class="mobile-cursor-box" id="mobileCursorBox" style="margin-top:12px;padding:12px 10px;background:var(--accent-soft);border-radius:14px;border:2px dashed var(--accent);">
+        <div style="font-family:var(--font-display);font-weight:900;font-size:0.82rem;margin-bottom:8px;">カーソル</div>
+        <div style="display:flex;gap:8px;align-items:center;">
+          <select id="mobileCursorSelect" style="flex:1;min-width:0;padding:7px 10px;border:2px solid var(--accent);border-radius:999px;background:#fff;font-weight:700;font-size:0.82rem;"></select>
+          <button type="button" id="mobileCursorOff" style="padding:7px 12px;border-radius:999px;border:2px solid var(--accent);background:#fff;font-weight:800;font-size:0.78rem;cursor:pointer;">OFF</button>
+        </div>
+        <div style="font-size:0.72rem;color:var(--muted);margin-top:6px;">PCではヘッダーの「カーソル」ボタンからも切り替えできます</div>
+      </div>
   </nav>
 </header>
 

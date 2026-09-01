@@ -203,6 +203,55 @@
     return String(s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
   }
 
+  // Mobile select (hamburger)
+  function initMobileCursor() {
+    var sel = document.getElementById("mobileCursorSelect");
+    var off = document.getElementById("mobileCursorOff");
+    if (!sel) return;
+    var members = [];
+    if (typeof MEMBERS !== "undefined") {
+      for (var i = 0; i < MEMBERS.length; i++) {
+        var id = MEMBERS[i].id;
+        if (id === "milchan") continue;
+        members.push(MEMBERS[i]);
+      }
+    }
+    function renderMobile() {
+      var cur = getCursorSettings() || { enabled: false, talentId: "default" };
+      sel.innerHTML = "";
+      members.forEach(function (m) {
+        var opt = document.createElement("option");
+        opt.value = m.id;
+        opt.textContent = m.name;
+        if (cur.enabled && cur.talentId === m.id) opt.selected = true;
+        sel.appendChild(opt);
+      });
+      var optM = document.createElement("option");
+      optM.value = "milli-chan";
+      optM.textContent = "ミリちゃん";
+      if (cur.enabled && cur.talentId === "milli-chan") optM.selected = true;
+      sel.appendChild(optM);
+      // opacity when OFF
+      sel.style.opacity = cur.enabled ? "1" : "0.45";
+      if (off) off.style.opacity = cur.enabled ? "1" : "0.45";
+    }
+    renderMobile();
+    sel.addEventListener("change", function () {
+      var s = { enabled: true, talentId: sel.value };
+      saveCursorSettings(s);
+      applyCursor(s);
+      renderMobile();
+    });
+    if (off) off.addEventListener("click", function () {
+      var s = { enabled: false, talentId: "default" };
+      saveCursorSettings(s);
+      applyCursor(s);
+      renderMobile();
+    });
+    // sync when header dropdown changes
+    document.addEventListener("click", function () { setTimeout(renderMobile, 200); });
+  }
+
   // Expose globally for other scripts
   window.CursorStore = {
     get: getCursorSettings,
@@ -212,15 +261,18 @@
   };
   window.initCursor = initCursor;
   window.initCursorTopBar = initCursorTopBar;
+  window.initMobileCursor = initMobileCursor;
 
   // Auto-init on DOMContentLoaded (defer-safe)
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", function () {
       initCursor();
       try { initCursorTopBar(); } catch (e) {}
+      try { initMobileCursor(); } catch (e) {}
     });
   } else {
     initCursor();
     try { initCursorTopBar(); } catch (e) {}
+    try { initMobileCursor(); } catch (e) {}
   }
 })();
