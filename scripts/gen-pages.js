@@ -283,9 +283,17 @@ const headerActions = (memberHome) => `
     <div class="header-actions">
       <a id="liveBadge" class="live-badge" href="#" target="_blank" rel="noopener">● LIVE</a>
       <button type="button" class="notif-bell" id="notifBell" aria-label="通知設定" data-i18n-aria="header.notif">🔔</button>
-  <button type="button" class="profile-btn" id="profile-btn" onclick="mpOpenAccount()" aria-label="アカウント連携" data-i18n-aria="header.profile">
+  <button type="button" class="profile-btn" id="profile-btn" onclick="mpOpenAccount()" aria-label="Milli Orbisアカウント" data-i18n-aria="header.profile">
         <span class="profile-icon" id="profile-header-icon">?</span>
       </button>
+      <div class="cursor-top-wrap" id="cursorTopWrap" style="display:none">
+        <button id="cursorTopBtn" class="cursor-top-btn" aria-label="カーソル選択" aria-expanded="false" aria-haspopup="true">
+          <span class="cursor-top-preview" id="cursorTopPreview" style="width:18px;height:18px;border-radius:50%;background:#7a4fc4;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.2);display:inline-block;flex-shrink:0"></span>
+          <span id="cursorTopLabel">カーソル</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="opacity:0.6"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div id="cursorDropdown" class="cursor-dropdown" role="menu" aria-hidden="true"></div>
+      </div>
       <select id="oshiSelect" class="oshi-select" aria-label="推しメンバーを選択" data-i18n-aria="header.oshi"></select>
       <button type="button" class="theme-toggle" id="themeToggle" aria-label="ダークモード切替" data-i18n-aria="header.theme">🌙</button>
       ${langToggleHtml}
@@ -298,12 +306,12 @@ const loginPopupHtml = `
 <div id="login-popup" class="login-popup">
   <div class="login-popup-card">
     <div class="login-popup-header">
-      <span class="login-popup-title" data-i18n="login.title">アカウント連携</span>
+      <span class="login-popup-title" data-i18n="login.title">Milli Orbisアカウント</span>
       <button class="login-popup-close" id="mp-popup-close" aria-label="閉じる" data-i18n-aria="login.close">&times;</button>
     </div>
     <div class="login-popup-body">
       <p class="login-popup-desc" data-i18n-html="login.desc">
-        ログイン（または連携IDの設定）で、Milli Games / Milli Unishare / Millipro Chronicle と同じアカウントを共有できます。<br>
+        Milli Orbisアカウントでログイン（または連携IDの設定）すると、Milli Games / Milli Unishare / Millipro Chronicle と同じアカウントを共有できます。<br>
         未ログインでも本サイトの全機能は利用できます。
       </p>
       <div id="mp-account-ok" style="display:none;">
@@ -346,6 +354,11 @@ const loginPopupHtml = `
       </div>
       <p class="mp-edit-locked" id="mp-edit-locked" style="display:none;" data-i18n="login.locked">名前・アイコンの変更はログイン後に使えます。</p>
       <div id="mp-account-form">
+        <div class="mp-oauth-row">
+          <button type="button" class="mp-oauth-btn mp-oauth-google" onclick="mpOAuthLogin('google')" aria-label="Googleでログイン"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google</button>
+          <button type="button" class="mp-oauth-btn mp-oauth-x" onclick="mpOAuthLogin('twitter')" aria-label="Xでログイン">𝕏 X</button>
+        </div>
+        <div class="mp-sep"><span data-i18n="login.or">または</span></div>
         <div class="mp-tabs">
           <button type="button" id="mp-tab-login" class="mp-tab active" onclick="mpTab('login')" data-i18n="login.tabLogin">ログイン</button>
           <button type="button" id="mp-tab-signup" class="mp-tab" onclick="mpTab('signup')" data-i18n="login.tabSignup">新規登録</button>
@@ -369,6 +382,8 @@ const loginPopupHtml = `
           <button type="button" class="btn mp-submit" onclick="mpSubmit(true)" data-i18n="login.btnRegister">登録する</button>
         </div>
         <p id="mp-msg" class="mp-msg"></p>
+        <div id="mp-link-providers" class="mp-link-providers"></div>
+        <p id="mp-link-msg" class="mp-msg"></p>
         <div class="mp-sep"><span data-i18n="login.or">または</span></div>
         <div class="mp-row mp-row-label" data-i18n="login.linkIdLabel">連携ID（ログイン不要）:</div>
         <div class="mp-setid-row">
@@ -533,6 +548,7 @@ ${loginPopupHtml}
 <script src="data.js"></script>
 ${i18nScriptTags}
 <script src="scripts/fav-store.js"></script>
+<script src="scripts/cursor.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
@@ -618,6 +634,7 @@ ${loginPopupHtml}
 <script src="data.js"></script>
 ${i18nScriptTags}
 <script src="scripts/fav-store.js"></script>
+<script src="scripts/cursor.js"></script>
 <script src="script.js"></script>
 ${o.scripts}
 </body>
@@ -754,6 +771,27 @@ fs.writeFileSync(path.join(outDir, "account.html"), simplePage({
   scripts: '<script src="scripts/account.js"></script>'
 }), "utf8");
 console.log("generated: account.html");
+
+fs.writeFileSync(path.join(outDir, "cursors.html"), simplePage({
+  file: "cursors.html",
+  title: "オリジナルカーソル配布",
+  desc: "Milli Orbis オリジナルマウスカーソルを配布しています。推しメンバーのカーソルをWindowsで使えます。サイト内でもカーソルを切り替えられます。",
+  body: `
+  <section class="section">
+    <div class="card" style="padding:20px 22px;margin-bottom:22px;">
+      <h3 style="font-family:var(--font-display);font-weight:900;margin-bottom:8px;">使い方</h3>
+      <ol style="padding-left:1.2em;line-height:1.9;font-size:0.92rem;">
+        <li>下の一覧から好きなメンバーの「一括DL」または個別ファイルをダウンロード</li>
+        <li><b>Windows:</b> 設定 → Bluetoothとデバイス → マウス → マウスポインターの追加設定 → ポインター → 参照 から <code>.cur</code> を指定</li>
+        <li>サイト内ではヘッダー右の「カーソル」ボタンから即時切り替えできます（PCのみ）</li>
+      </ol>
+      <p style="font-size:0.82rem;color:var(--muted);margin-top:10px;">※ macOS / Linux ではブラウザ内カーソルのみ有効です。Windows フルセット（15種）は各キャラフォルダを一括DLしてください。</p>
+    </div>
+    <div id="cursorDistGrid" class="grid" style="grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;"></div>
+  </section>`,
+  scripts: '<script src="scripts/cursors-page.js"></script>'
+}), "utf8");
+console.log("generated: cursors.html");
 
 for (const m of MEMBERS) {
   fs.writeFileSync(path.join(outDir, m.id + ".html"), page(m), "utf8");

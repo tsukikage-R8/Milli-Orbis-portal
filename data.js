@@ -738,42 +738,55 @@ const MEMBERS = [
     gen: "ミリプロSONA",
     name: "鹿乃まほろ",
     nameEn: "Kano Mahoro",
-    color: "#e0455e",
+    color: "#EF454A",
     subColor: "#fde8ec",
     birthday: "12-24",
     debut: "2026-08-22",
-    catch: "2010年より歌い手として活動するシンガー。2015年メジャーデビュー、MKLNtic メンバー。2026年8月にミリプロSONAへ加入",
-    fanName: "？？？",
-    fanMark: '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><g fill="#e0455e"><path d="M12 20.4C6.8 16.4 3.6 12.9 3.6 9.2 3.6 6.6 5.6 4.6 8.2 4.6c1.5 0 2.9.7 3.8 1.9.9-1.2 2.3-1.9 3.8-1.9 2.6 0 4.6 2 4.6 4.6 0 3.7-3.2 7.2-8.4 11.2z"/></g><g fill="#ffe14d"><path d="M8.3 4.7c.3-1 .9-1.8 1.7-2.3-.1 1.2-.7 2.2-1.7 2.3z"/><path d="M12.4 4.3c.5-.9 1.2-1.5 2.1-1.9-.2 1.2-.9 2.1-2.1 1.9z"/></g></svg>',
-    calls: "？？？",
-    profile: "2010年にニコニコ動画で歌い手として活動を開始し、2015年にメジャーデビューしたシンガー。2022年から音楽ユニットMKLNticのメンバーとしても活動。2026年7月にインクストゥエンターを退所し、同年8月にミリプロSONAへ加入。",
-    skills: "作詞作曲・歌唱・ギター（本人プロフィールより）",
-    phrases: [],
-    likes: "？？？",
-    dislikes: "？？？",
+    catch: "みんなの毎日を、まほろばに！ Virtual Artist 鹿乃まほろ",
+    fanName: "鹿友",
+    fanMark: "🍓🦌",
+    calls: "まほろちゃん",
+    profile: "Virtual Artist。2010年にニコニコ動画で歌い手として活動を開始し、2015年にメジャーデビュー。2022年から音楽ユニットMKLNticのメンバーとしても活動。2026年7月にインクストゥエンターを退所し、同年8月にミリプロSONAへ加入。身長150cm。",
+    skills: "作詞作曲・歌唱・ギター",
+    phrases: ["みんなの毎日を、まほろばに！", "聞こえない音が聞こえる（人の話は聞こえない）"],
+    likes: "歌うこと、ギター、癒しの魔法（配信でお届け中）",
+    dislikes: "—",
     achievements: [
-      "2026/8/16 ミリプロSONA加入発表",
-      "2026/8/22 初配信予定"
+      "2010年 ニコニコ動画で歌い手として活動開始",
+      "2015年 メジャーデビュー",
+      "2022年 音楽ユニットMKLNtic メンバーとして活動開始",
+      "2026年7月 インクストゥエンター退所",
+      "2026年8月16日 ミリプロSONA加入発表",
+      "2026年8月22日 初配信（20:00〜・YouTube @Kano_）"
     ],
-    tags: { stream: "", clip: "", art: "" },
+    tags: { stream: "#まほろたいむ", clip: "#まほろくりっぷ", art: "#まほろしか描かん" },
     links: { yt: "https://www.youtube.com/@Kano_", x: "https://x.com/kano_2525", tiktok: "" },
-    img: "",
+    img: "images/talents/mahoro.webp",
     logo: "images/rogo/mahororogo.png",
     icon: "images/icon/mahoro_profile.jpg",
     catchphrase: "みんなの毎日を、まほろばに！",
     introVoice: "",
-    featuredVideos: [],
+    featuredVideos: ["YzfwW0zTSpE"],
     voice: "",
-    intro: "",
+    intro: "みんなの心に癒しの魔法を！",
     en: {
       gen: "MilliPro SONA",
-      catch: "A singer active since 2010 as an utaite. Major debut in 2015, member of MKLNtic. Joined Miripro SONA in August 2026",
-      fanName: "???",
-      calls: "???",
-      profile: "A singer who started her utaite activities on Nico Nico Douga in 2010 and made her major debut in 2015. Since 2022 she has also been a member of the music unit MKLNtic. She left Inkst Entertainment in July 2026 and joined Miripro SONA in August of the same year.",
-      skills: "Songwriting, singing, guitar (from her own profile)",
-      likes: "???",
-      dislikes: "???",
+      catch: "Making your every day a mahoroba! Virtual Artist Kano Mahoro",
+      fanName: "Shikayu",
+      calls: "Mahoro-chan",
+      profile: "Virtual Artist. Started as an utaite on Nico Nico Douga in 2010, major debut in 2015. Member of the music unit MKLNtic since 2022. Left Inkst Entertainment in July 2026 and joined MilliPro SONA in August. Height: 150cm.",
+      skills: "Songwriting, singing, guitar",
+      phrases: ["Making your every day a mahoroba!", "I can hear inaudible sounds (but not people's talk)"],
+      likes: "Singing, guitar, healing magic",
+      dislikes: "—",
+      achievements: [
+        "2010 Started as an utaite on Nico Nico Douga",
+        "2015 Major debut",
+        "2022 Joined music unit MKLNtic",
+        "July 2026 Left Inkst Entertainment",
+        "Aug 16, 2026 Announced joining MilliPro SONA",
+        "Aug 22, 2026 Debut stream (8PM JST @Kano_)"
+      ],
       catchphrase: "Making everyone's everyday a mahoroba!"
     },
     deco: {
@@ -920,23 +933,38 @@ const GROUP_INFO = [
 ];
 
 const COUNTDOWN = [
-  { id: "mahoro-debut", label: "鹿乃まほろ 初配信", date: "2026-08-22T20:00:00", note: "ミリプロSONA加入後初の配信！", url: "https://youtu.be/YzfwW0zTSpE", featured: true, en: { label: "Kano Mahoro's Debut Stream", note: "Her first stream after joining MilliPro SONA!" } },
-  { id: "milpro-presents", label: "ミリプロプレゼンツ ～超重大発表配信～", date: "2026-08-16T21:00:00", note: "ミリ創作コンテスト結果発表＆重大告知！", url: "https://youtu.be/4lba9sduOzI", featured: true, en: { label: "MilliPro Presents ~Super Major Announcement Stream~", note: "Milli Creation contest results & big announcement!" } },
-  { id: "resort", label: "ミリプロリゾート", date: "2026-08-29T10:00:00", note: "秋葉原UDXにて開催", url: "https://milpr.com/news/milpr_resort", en: { label: "MilliPro Resort", note: "Held at Akihabara UDX" } },
-  { id: "tsukuri-birthday", label: "眠雲ツクリ 誕生日", date: "2026-09-03T00:00:00", note: "つくらうど、お祝いだ！", url: "tsukuri.html", en: { label: "Tsukuri's Birthday", note: "Congratulations, Tsukuloud!" } },
+  { id: "tsukuri-birthday", label: "眠雲ツクリ 誕生日", date: "2026-09-03T00:00:00", note: "つくらうど、お祝いだ！", url: "tsukuri.html", featured: true, en: { label: "Tsukuri's Birthday", note: "Congratulations, Tsukuloud!" } },
+  { id: "koma-birthday", label: "小廻こま 誕生日", date: "2026-08-01T00:00:00", note: "こまめいと、お祝いだ！（アーカイブ公開中）", url: "koma.html", en: { label: "Koma's Birthday", note: "Happy Birthday, Komamate! (Archive available)" } },
   { id: "akubi-birthday", label: "あくび・でもんすぺーど 誕生日", date: "2026-10-31T00:00:00", note: "びぃの一族、お祝いだ！", url: "akubi.html", en: { label: "Akubi Demonspade's Birthday", note: "Congratulations, Bii Clan!" } },
   { id: "yura-birthday", label: "ゆらぎゆら 誕生日", date: "2026-11-03T00:00:00", note: "ゆらふぃら、お祝いだ！", url: "yura.html", en: { label: "Yuragi Yura's Birthday", note: "Congratulations, Yurafira!" } },
-  { id: "nuhu-birthday", label: "虹深°ぬふ 誕生日", date: "2026-11-30T00:00:00", note: "ぷかぬファミリー、お祝いだ！", url: "nuhu.html", en: { label: "Nijipuka Nuhu's Birthday", note: "Congratulations, Pukanu Family!" } }
+  { id: "nuhu-birthday", label: "虹深°ぬふ 誕生日", date: "2026-11-30T00:00:00", note: "ぷかぬファミリー、お祝いだ！", url: "nuhu.html", en: { label: "Nijipuka Nuhu's Birthday", note: "Congratulations, Pukanu Family!" } },
+  { id: "mahoro-birthday", label: "鹿乃まほろ 誕生日", date: "2026-12-24T00:00:00", note: "鹿友、お祝いだ！", url: "mahoro.html", en: { label: "Kano Mahoro's Birthday", note: "Happy Birthday, Shikayu!" } }
 ];
 
 const NEWS = [
   {
+    date: "2026-09-01",
+    tag: "サイト更新",
+    title: "【サイト更新】オリジナルカーソル配布＆Milli Orbisアカウント強化",
+    desc: "本サイトで推しメンバーのオリジナルマウスカーソル（フル15種＋Windows標準名13種）を配布開始。ヘッダーの「カーソル」ボタンからサイト内でも即時切り替えできます。Milli Orbisアカウントは Google / X ログインに対応し、複数ログイン方法の紐付け・解除も可能になりました。",
+    url: "cursors.html",
+    en: { tag: "Site Update", title: "[Update] Original Cursors & Milli Orbis Account Upgrade", desc: "Original mouse cursors (15 types + 13 Windows standard names) are now available. Switch cursors instantly from the header. Milli Orbis Account now supports Google / X login with linking." }
+  },
+  {
+    date: "2026-08-30",
+    tag: "イベント",
+    title: "ミリプロサマー2026 閉会式 レポート",
+    desc: "公式YouTubeチャンネルで閉会式が配信されました。夏の思い出を振り返り、秋の展開へ期待が高まります。",
+    url: "https://milpr.com/news/millipro_summer_2026",
+    en: { tag: "Event", title: "MilliPro Summer 2026 Closing Ceremony Report", desc: "The closing ceremony was streamed on the official YouTube channel, looking back on summer memories and forward to autumn." }
+  },
+  {
     date: "2026-08-29",
     tag: "イベント",
     title: "ミリプロリゾート 開催",
-    desc: "ミリプロサマー2026のリアルイベントが秋葉原UDXで開催されます。",
+    desc: "ミリプロサマー2026のリアルイベントが秋葉原UDXで開催されました。POP UP展示＆グッズ販売、ファンミーティング第8部に鹿乃まほろも参加。",
     url: "https://milpr.com/news/milpr_resort",
-    en: { tag: "Event", title: "MilliPro Resort Announced", desc: "A real-life event for MilliPro Summer 2026 will be held at Akihabara UDX." }
+    en: { tag: "Event", title: "MilliPro Resort Held", desc: "The real-life event was held at Akihabara UDX with exhibits, goods sales, and fan meeting Part 8 featuring Kano Mahoro." }
   },
   {
     date: "2026-08-16",
@@ -1031,7 +1059,9 @@ const EVENTS = [
   { type: "anniversary", member: "nuhu", title: "虹深°ぬふ デビュー記念日", url: "nuhu.html", en: { title: "Nijipuka Nuhu's Debut Anniversary" } },
   { type: "anniversary", member: "tsukuri", title: "眠雲ツクリ デビュー記念日", url: "tsukuri.html", en: { title: "Nemukumo Tsukuri's Debut Anniversary" } },
   { type: "anniversary", member: "liz", title: "雨夜リズ デビュー記念日", url: "liz.html", en: { title: "Amayo Liz's Debut Anniversary" } },
-  { type: "anniversary", member: "rei", title: "夕霧レイ デビュー記念日", url: "rei.html", en: { title: "Yugiri Ray's Debut Anniversary" } }
+  { type: "anniversary", member: "rei", title: "夕霧レイ デビュー記念日", url: "rei.html", en: { title: "Yugiri Ray's Debut Anniversary" } },
+  { type: "anniversary", member: "mahoro", title: "鹿乃まほろ デビュー記念日", url: "mahoro.html", en: { title: "Kano Mahoro's Debut Anniversary" } },
+  { type: "birthday", member: "mahoro", title: "鹿乃まほろ 誕生日", url: "mahoro.html", en: { title: "Kano Mahoro's Birthday" } }
 ];
 
 const X_POSTS = [
@@ -1060,6 +1090,8 @@ const HISTORY = [
   { date: "2026/8/5", title: "夕霧レイ、チャンネル登録者数10万人突破", desc: "デビューから約1か月での突破", en: { title: "Yugiri Ray surpasses 100K subscribers", desc: "About 1 month after debut" } },
   { date: "2026/8/16", title: "新グループ「ミリプロSONA」設立", desc: "音ノ乃のの・あくび・でもんすぺーど・鹿乃まほろの3名が所属", en: { title: "New group \"MilliPro SONA\" founded", desc: "Comprising Nono Nono, Akubi Demonspade, and Kano Mahoro" } },
   { date: "2026/8/22", title: "鹿乃まほろ デビュー（ミリプロSONA）", en: { title: "Kano Mahoro debuts (MilliPro SONA)" } },
+  { date: "2026/8/29", title: "ミリプロリゾート 開催", desc: "秋葉原UDXにてPOP UP展示＆ファンミーティング（鹿乃まほろも参加）", en: { title: "MilliPro Resort held", desc: "POP UP exhibit & fan meeting at Akihabara UDX (feat. Kano Mahoro)" } },
+  { date: "2026/9/01", title: "本サイト 大幅アップデート（カーソル配布・Milli Orbisアカウント強化）", desc: "オリジナルカーソル配布開始、鹿乃まほろページ完全化、お知らせ最新化、スマホ表示改善", en: { title: "Major site update (Cursors & Account)", desc: "Original cursors, Mahoro page complete, news update, mobile improvements" } },
   { date: "2026/8/13", title: "英語学習アプリ「Risdom」とコラボ開始", desc: "甘狼このみが登場するゲーム型英語学習アプリ「Risdom（リズダム）」とのコラボ", en: { title: "Collaboration with the English-learning app \"Risdom\" begins", desc: "A collab with the game-based English-learning app \"Risdom\", featuring Amakami Konomi" } }
 ];
 
