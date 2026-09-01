@@ -13,10 +13,12 @@
   }
   // portal -> cur file mapping (liz->rizu, raco->rako, tsukuri->tsukuri)
   var CUR_MAP = { liz: "rizu", raco: "rako", tsukuri: "tsukuri", konomi:"konomi", nono:"nono", akubi:"akubi", koma:"koma", yura:"yura", nuhu:"nuhu", rei:"rei", mahoro:"mahoro" };
+  var EN_MAP = { konomi:"Konomi", nono:"Nono", akubi:"Akubi", koma:"Koma", rako:"Rako", yura:"Yura", nuhu:"Nuhu", tsukuri:"Tsukuri", rizu:"Rizu", rei:"Rei", mahoro:"Mahoro", "milli-chan":"MilliChan" };
   function curId(portalId) {
     if (portalId === "milchan") return "milli-chan";
     return CUR_MAP[portalId] || portalId;
   }
+  function enName(cid) { return EN_MAP[cid] || cid; }
   function render() {
     var grid = $("#cursorDistGrid");
     if (!grid || typeof MEMBERS === "undefined") return;
@@ -35,6 +37,8 @@
     grid.innerHTML = list.map(function (it) {
       var previewPng = "/images/cursors/" + it.cid + ".png";
       var curPng = "/images/cursors/" + it.cid + ".cur";
+      var en = enName(it.cid);
+      var zipUrl = "/dist/cursors/MilliOrbis-" + en + ".zip";
       // per-role cur files inside folder
       var folder = "/images/cursors/" + it.cid + "/";
       var roles = [
@@ -46,12 +50,7 @@
       var roleLinks = roles.map(function(r){
         return '<a href="' + folder + encodeURIComponent(r.file) + '" download class="cur-role-link">' + r.label + '</a>';
       }).join(" ");
-      var fullSetLinks = "";
-      // show Windows standard names
-      var stdNames = ["Busy.cur","Working in Background.cur","Help Select.cur","Normal Select.cur","Link Select.cur","Text Select.cur","Precision Select.cur","Move.cur","Horizontal Resize.cur","Vertical Resize.cur","Diagonal Resize 1.cur","Diagonal Resize 2.cur","Unavailable.cur"];
-      // Only for those that have 30 files (akubi etc) show note
-      var hasFull = ["konomi","nono","akubi","koma","rizu","tsukuri","milli-chan"].indexOf(it.cid) >= 0;
-      var note = hasFull ? '<span style="font-size:0.72rem;color:var(--muted);">フル15種 + Windows標準名13種 計28種</span>' : '<span style="font-size:0.72rem;color:var(--muted);">基本15種</span>';
+      var note = '<span style="font-size:0.72rem;color:var(--muted);">Windows用15種（install.inf同梱）</span>';
       // One-click apply button (site cursor)
       var applyBtn = '<button type="button" class="btn btn-ghost cur-apply-btn" data-cur="' + it.cid + '" style="font-size:0.78rem;padding:6px 12px;">サイトで試す</button>';
       return '<div class="card" style="padding:16px 16px 14px;overflow:hidden;">'
@@ -61,31 +60,24 @@
         + '</span>'
         + '<div style="flex:1;min-width:0;">'
         + '<div style="font-family:var(--font-display);font-weight:900;font-size:1rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + esc(it.name) + '</div>'
-        + '<div style="font-size:0.72rem;color:var(--muted);">' + esc(it.cid) + '.cur / .png</div>'
+        + '<div style="font-size:0.72rem;color:var(--muted);">MilliOrbis-' + esc(en) + '</div>'
         + '</div>'
         + '<span style="width:36px;height:36px;border-radius:8px;background:#fff;border:2px solid ' + esc(it.color||"#75b1c0") + ';display:flex;align-items:center;justify-content:center;flex:none;overflow:hidden;">'
         + '<img src="' + previewPng + '" alt="cursor" style="width:28px;height:28px;object-fit:contain;" onerror="this.style.display=\'none\'">'
         + '</span>'
         + '</div>'
         + '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px;">'
-        + '<a href="' + curPng + '" download class="btn" style="font-size:0.82rem;padding:7px 14px;">通常DL</a>'
-        + '<a href="' + previewPng + '" download class="btn btn-ghost" style="font-size:0.82rem;padding:7px 14px;">PNG</a>'
+        + '<a href="' + zipUrl + '" download class="btn" style="font-size:0.82rem;padding:7px 14px;">一括DL（zip）</a>'
+        + '<a href="' + folder + 'install.inf" download class="btn btn-ghost" style="font-size:0.82rem;padding:7px 14px;">INF</a>'
+        + '<a href="' + folder + 'preview.png" download class="btn btn-ghost" style="font-size:0.78rem;padding:6px 10px;">preview</a>'
         + applyBtn
         + '</div>'
-        + '<div style="font-size:0.78rem;font-weight:700;margin-bottom:6px;">ロール別:</div>'
+        + '<div style="font-size:0.78rem;font-weight:700;margin-bottom:6px;">ロール別（個別DL）:</div>'
         + '<div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px;">' + roleLinks + '</div>'
-        + '<div style="margin-bottom:8px;">' + note + '</div>'
+        + '<div style="margin-bottom:8px;">' + note + ' <a href="' + zipUrl + '" download style="font-size:0.72rem;color:var(--accent-deep);font-weight:700;">zipで全15種を入手 →</a></div>'
         + '<details style="font-size:0.78rem;"><summary style="cursor:pointer;font-weight:700;">全ファイル一覧を表示</summary>'
         + '<div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:8px;">'
-        + stdNames.map(function(n){ return '<a href="' + folder + encodeURIComponent(n) + '" download style="font-size:0.72rem;padding:3px 8px;border:1px solid var(--border);border-radius:999px;background:#fff;">' + esc(n) + '</a>'; }).join("")
-        + '<a href="' + folder + 'appstar.cur" download style="font-size:0.72rem;padding:3px 8px;border:1px solid var(--border);border-radius:999px;background:#fff;">appstar.cur</a>'
-        + '<a href="' + folder + 'cross.cur" download style="font-size:0.72rem;padding:3px 8px;border:1px solid var(--border);border-radius:999px;background:#fff;">cross.cur</a>'
-        + '<a href="' + folder + 'help.cur" download style="font-size:0.72rem;padding:3px 8px;border:1px solid var(--border);border-radius:999px;background:#fff;">help.cur</a>'
-        + '<a href="' + folder + 'move.cur" download style="font-size:0.72rem;padding:3px 8px;border:1px solid var(--border);border-radius:999px;background:#fff;">move.cur</a>'
-        + '<a href="' + folder + 'no.cur" download style="font-size:0.72rem;padding:3px 8px;border:1px solid var(--border);border-radius:999px;background:#fff;">no.cur</a>'
-        + '<a href="' + folder + 'pen.cur" download style="font-size:0.72rem;padding:3px 8px;border:1px solid var(--border);border-radius:999px;background:#fff;">pen.cur</a>'
-        + '<a href="' + folder + 'person.cur" download style="font-size:0.72rem;padding:3px 8px;border:1px solid var(--border);border-radius:999px;background:#fff;">person.cur</a>'
-        + '<a href="' + folder + 'sizenesw.cur" download style="font-size:0.72rem;padding:3px 8px;border:1px solid var(--border);border-radius:999px;background:#fff;">sizenesw.cur</a>'
+        + '<span style="font-size:0.72rem;color:var(--muted);">15種: appstar, arrow, beam, cross, hand, help, move, no, pen, person, sizenesw, sizens, sizenwse, sizewe, wait — <a href="' + zipUrl + '" download>zip推奨</a></span>'
         + '</div></details>'
         + '</div>';
     }).join("");

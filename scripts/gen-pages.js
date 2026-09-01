@@ -788,13 +788,15 @@ fs.writeFileSync(path.join(outDir, "cursors.html"), simplePage({
   body: `
   <section class="section">
     <div class="card" style="padding:20px 22px;margin-bottom:22px;">
-      <h3 style="font-family:var(--font-display);font-weight:900;margin-bottom:8px;">使い方</h3>
+      <h3 style="font-family:var(--font-display);font-weight:900;margin-bottom:8px;">使い方（Windows 10/11）</h3>
       <ol style="padding-left:1.2em;line-height:1.9;font-size:0.92rem;">
-        <li>下の一覧から好きなメンバーの「一括DL」または個別ファイルをダウンロード</li>
-        <li><b>Windows:</b> 設定 → Bluetoothとデバイス → マウス → マウスポインターの追加設定 → ポインター → 参照 から <code>.cur</code> を指定</li>
-        <li>サイト内ではヘッダー右の「カーソル」ボタンから即時切り替えできます（PCのみ）</li>
+        <li>下の一覧から「<b>一括DL（zip）</b>」をダウンロード → 解凍（右クリック → すべて展開）</li>
+        <li>解凍したフォルダ内の <code>install.inf</code> を <b>右クリック → インストール</b>（Win11は <i>その他のオプションを表示 → インストール</i>）→ UACで <b>はい</b></li>
+        <li><code>設定 → Bluetoothとデバイス → マウス → その他のマウス設定 → ポインター</code> で <b>配色</b> から <code>MilliOrbis-○○</code> を選択 → <b>適用</b></li>
+        <li>うまくいかない場合: 右クリックに出ない場合は <code>install.bat</code> を右クリック → 管理者として実行、または手動で各役割を <code>参照</code> から指定</li>
       </ol>
-      <p style="font-size:0.82rem;color:var(--muted);margin-top:10px;">※ macOS / Linux ではブラウザ内カーソルのみ有効です。Windows フルセット（15種）は各キャラフォルダを一括DLしてください。</p>
+      <p style="font-size:0.82rem;color:var(--muted);margin-top:10px;">※ macOS / Linux ではブラウザ内のカーソル切替のみ有効です。<br>※ zipには 15種の <code>.cur</code> + <code>install.inf</code> + <code>README.md</code> + <code>LICENSE</code> + <code>preview.png</code> + <code>install.bat</code> が同梱されています。<br>※ 全タレント一括の <a href="/dist/cursors/MilliOrbis-Cursors-All.zip" download>All.zip</a> も用意しています。</p>
+      <p style="margin-top:12px;"><a href="/dist/cursors/MilliOrbis-Cursors-All.zip" download class="btn">全タレント一括DL（All.zip）</a></p>
     </div>
     <div id="cursorDistGrid" class="grid" style="grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;"></div>
   </section>`,
