@@ -52,7 +52,7 @@ const GOODS = [
   { name: "甘狼このみ 新衣装記念グッズ 2026 アクリルスタンド", memberId: "konomi", kind: "stand", price: 1800, image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/04_457ede2e-856e-4222-87fb-35fe8d89312f.png?v=1787774008", url: "https://shop.milpr.com/products/konomi_new_costume_acrylicstand", en: { name: "Konomi New Costume Acrylic Stand" } },
   { name: "甘狼このみ 新衣装記念グッズ 2026 アクリルボード", memberId: "konomi", kind: "clearfile", price: 4000, image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/03_4049b3a4-357a-4292-a095-ed83248f0daf.png?v=1787773753", url: "https://shop.milpr.com/products/konomi_new_costume_acrylicboard", en: { name: "Konomi New Costume Acrylic Board" } },
   { name: "甘狼このみ 新衣装記念グッズ 2026 ぽんぽんモチーフキーホルダー", memberId: "konomi", kind: "keyholder", price: 2400, image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/06_163bea6a-f125-4220-a5ba-b098a20c8d96.png?v=1787774557", url: "https://shop.milpr.com/products/konomi_new_costume_motifkeychain", en: { name: "Konomi New Costume Motif Keychain" } },
-  { name: "鹿乃まほろ加入記念グッズ フルセット", memberId: "mahoro", kind: "fullset", price: 14900, image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/309e51fdc0d9afb1b98a02d994406f88_5f5215d1-db83-4a8b-bc45-5e75ce46d108.png?v=1787294601", url: "https://shop.milpr.com/products/mahoro_join_full", en: { name: "Mahoro Join Full Set" } },
+  { name: "鹿乃まほろ加入記念グッズ フルセット", memberId: "mahoro", kind: "fullset", price: 14900, image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/309e51fdc0d9afb1b98a02d994406f88_5f5215d1-db83-4a84-9ba0-2edb0ee82fa0.png?v=1787320856", url: "https://shop.milpr.com/products/mahoro_join_full", en: { name: "Mahoro Join Full Set" } },
   { name: "鹿乃まほろ加入記念グッズ アクリルスタンドA", memberId: "mahoro", kind: "stand", price: 1800, image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/A_4da56c70-ffeb-405d-9f4f-1fe53e9d78db.png?v=1787294460", url: "https://shop.milpr.com/products/mahoro_join_acrylicstand_a", en: { name: "Mahoro Acrylic Stand A" } },
   { name: "鹿乃まほろ加入記念グッズ 両面ダイカットクッション", memberId: "mahoro", kind: "bodypillow", price: 3000, image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/31f8843f3a94295fa9a855f6edb8c7f6.png?v=1787294597", url: "https://shop.milpr.com/products/mahoro_join_diecut_cushion", en: { name: "Mahoro Die-Cut Cushion" } },
   { name: "鹿乃まほろ加入記念グッズ アクリルボード", memberId: "mahoro", kind: "clearfile", price: 4000, image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/1310cf3e6d145e2430b0a5d6e6c7ffa4.png?v=1787294511", url: "https://shop.milpr.com/products/mahoro_join_acrylicboard", en: { name: "Mahoro Acrylic Board" } },
@@ -1014,9 +1014,28 @@ const NEWS = [
     date: "2026-08-16",
     tag: "新メンバー",
     title: "【加入発表】鹿乃まほろ ミリプロSONAに加入！",
-    desc: "2010年より歌い手として活動するシンガー「鹿乃まほろ」のミリプロSONA加入が正式に発表されました。2015年メジャーデビュー、MKLNticメンバーとしても活動中。",
+    desc: "鹿乃まほろの加入が正式発表。2015年メジャーデビュー、MKLNticとしても活動中。",
+    image: "https://storage.googleapis.com/studio-design-asset-files/projects/6kq9B6lgap/s-1120x1431_v-fms_webp_09ec6ce5-0ba3-431f-b096-0290832bfd43.png",
     url: "https://x.com/kano_2525",
-    en: { tag: "New Member", title: "[Joining Announcement] Kano Mahoro Joins MilliPro SONA!", desc: "The singer \"Kano Mahoro\", active as an utaite since 2010, has officially joined MilliPro SONA. Major debut in 2015, also active as a member of MKLNtic." }
+    en: { tag: "New Member", title: "[Joining Announcement] Kano Mahoro Joins MilliPro SONA!", desc: "Kano Mahoro has officially joined MilliPro SONA." }
+  },
+  {
+    date: "2026-08-28",
+    tag: "グッズ",
+    title: "甘狼このみ 新衣装記念グッズ 受注開始",
+    desc: "新衣装記念のフルセットやアクリルスタンドなど8種が受注開始。受注期間8/28〜9/28。",
+    image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/02_7982ae83-0cee-4592-be32-8892c86692d3.png?v=1787774601",
+    url: "https://shop.milpr.com/collections/all?q=konomi_new_costume",
+    en: { tag: "Goods", title: "Konomi New Costume Goods Now Available", desc: "8 new goods including full set and acrylic stand now on sale. Order period Aug 28 - Sep 28." }
+  },
+  {
+    date: "2026-08-22",
+    tag: "グッズ",
+    title: "鹿乃まほろ加入記念グッズ 受注開始",
+    desc: "加入記念のフルセットやクッションなど10種が受注開始。受注期間8/22〜9/22。",
+    image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/309e51fdc0d9afb1b98a02d994406f88_5f5215d1-db83-4a84-9ba0-2edb0ee82fa0.png?v=1787320856",
+    url: "https://shop.milpr.com/collections/all?q=mahoro_join",
+    en: { tag: "Goods", title: "Mahoro Join Goods Now Available", desc: "10 join goods including full set and cushion now on sale. Order period Aug 22 - Sep 22." }
   }
 ];
 
@@ -1069,12 +1088,9 @@ const EVENTS = [
 ];
 
 const X_POSTS = [
-  "https://x.com/Mil_Pro_/status/2088968988860813750",
-  "https://x.com/Mil_Pro_/status/2088969048700899793",
-  "https://x.com/Mil_Pro_/status/2088967029294612927",
-  "https://x.com/Mil_Pro_/status/2088971188920050018",
   "https://x.com/Mil_Pro_/status/2088971545511444730",
-  "https://x.com/Mil_Pro_/status/2088551273322733973"
+  "https://x.com/Mil_Pro_/status/2088971188920050018",
+  "https://x.com/Mil_Pro_/status/2088969048700899793"
 ];
 
 const HISTORY = [
