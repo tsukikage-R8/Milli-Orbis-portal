@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-09-01T08:57:04.592Z",
+  "updatedAt": "2026-09-01T15:38:18.487Z",
   "streams": [
-    {
-      "id": "5CqMFPtDXV4",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【作業雑談】ショート動画作るぜ🔥【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/5CqMFPtDXV4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-01T08:00:55Z",
-      "status": "live"
-    },
-    {
-      "id": "Y6TZvXxqIkc",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "#1【ほの暮しの庭】今日からはじまるほのぼのスローライフ……？【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Y6TZvXxqIkc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-01T10:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "O4CqjyJ6nmo",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【めっちゃカメレオン】絵うまんちゅチームvsゲームうまんちゅチーム！？！？【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/O4CqjyJ6nmo/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-01T12:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "8F-C9ivtBnE",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【告知】🎂誕生日記念グッズ販売中！",
-      "thumb": "https://i.ytimg.com/vi/8F-C9ivtBnE/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-01T14:45:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "wh4UF6M-Lbk",
       "memberId": "nono",
@@ -253,13 +217,33 @@
   ],
   "videos": [
     {
+      "id": "MQ3yXOmRn18",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【雑談】だべる～┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/MQ3yXOmRn18/hqdefault.jpg",
+      "publishedAt": "2026-09-01T14:29:43Z",
+      "live": true
+    },
+    {
+      "id": "Y6TZvXxqIkc",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "#1【ほの暮しの庭】今日からはじまるほのぼのスローライフ……？【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/Y6TZvXxqIkc/hqdefault.jpg",
+      "publishedAt": "2026-09-01T13:39:41Z",
+      "live": false
+    },
+    {
       "id": "O4CqjyJ6nmo",
       "memberId": "konomi",
       "member": "甘狼このみ",
       "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
       "title": "【めっちゃカメレオン】絵うまんちゅチームvsゲームうまんちゅチーム！？！？【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/O4CqjyJ6nmo/hqdefault_live.jpg",
-      "publishedAt": "2026-09-01T08:05:38Z",
+      "thumb": "https://i.ytimg.com/vi/O4CqjyJ6nmo/hqdefault.jpg",
+      "publishedAt": "2026-09-01T13:25:43Z",
       "live": false
     },
     {
@@ -268,9 +252,19 @@
       "member": "虹深°ぬふ",
       "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
       "title": "【作業雑談】ショート動画作るぜ🔥【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/5CqMFPtDXV4/hqdefault_live.jpg",
-      "publishedAt": "2026-09-01T08:00:55Z",
+      "thumb": "https://i.ytimg.com/vi/5CqMFPtDXV4/hqdefault.jpg",
+      "publishedAt": "2026-09-01T11:42:35Z",
       "live": true
+    },
+    {
+      "id": "5eWP8hZiEwM",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【アニメ】プリントを後ろに回すとき#ミリプロ #anime",
+      "thumb": "https://i.ytimg.com/vi/5eWP8hZiEwM/hqdefault.jpg",
+      "publishedAt": "2026-09-01T09:00:24Z",
+      "live": false
     },
     {
       "id": "wh4UF6M-Lbk",
@@ -280,16 +274,6 @@
       "title": "【歌枠】告知アリ！Vaundy縛り歌枠！┊︎#音ノ乃のの #ののん家",
       "thumb": "https://i.ytimg.com/vi/wh4UF6M-Lbk/hqdefault_live.jpg",
       "publishedAt": "2026-09-01T06:30:37Z",
-      "live": false
-    },
-    {
-      "id": "Y6TZvXxqIkc",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "#1【ほの暮しの庭】今日からはじまるほのぼのスローライフ……？【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Y6TZvXxqIkc/hqdefault_live.jpg",
-      "publishedAt": "2026-08-31T19:59:03Z",
       "live": false
     },
     {
@@ -531,37 +515,7 @@
       "thumb": "https://i.ytimg.com/vi/LzuCcBs7pRQ/hqdefault.jpg",
       "publishedAt": "2026-08-30T07:33:52Z",
       "live": false
-    },
-    {
-      "id": "BAN5FapVnF0",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【高速山手線ゲーム】ガチNGがガチすぎるｗｗｗ【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/BAN5FapVnF0/hqdefault.jpg",
-      "publishedAt": "2026-08-29T09:00:00Z",
-      "live": false
-    },
-    {
-      "id": "Ezm3RJdtqWY",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【雑談】ついに今日会えるね。。。。。。【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Ezm3RJdtqWY/hqdefault.jpg",
-      "publishedAt": "2026-08-28T23:19:57Z",
-      "live": true
     }
   ],
-  "live": [
-    {
-      "id": "5CqMFPtDXV4",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【作業雑談】ショート動画作るぜ🔥【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/5CqMFPtDXV4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-01T08:00:55Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
