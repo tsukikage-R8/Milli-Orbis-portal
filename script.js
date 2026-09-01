@@ -1794,9 +1794,7 @@
   /* ============ 最新グッズ ============ */
   function goodsTile(g) {
     if (g.image) {
-      var fb = GOODS_ICON[g.kind] ? GOODS_ICON[g.kind] : '<span class="tile-char">' + esc((g.name || "?").charAt(0)) + "</span>";
-      return '<img src="' + esc(g.image) + '" alt="" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit;" onerror="this.style.display=\'none\'; this.insertAdjacentHTML(\'afterend\', \'' + fb.replace(/'/g, "\\'") + '\')">'
-        + '<span style="display:none">' + fb + "</span>";
+      return '<img src="' + esc(g.image) + '" alt="" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit;" onerror="this.onerror=null;this.src=\'data:image/svg+xml;utf8,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text x=%2750%27 y=%2755%27 text-anchor=%27middle%27 font-size=%2720%27 fill=%27%2375b1c0%27>?</text></svg>\'">';
     }
     if (GOODS_ICON[g.kind]) return GOODS_ICON[g.kind];
     return '<span class="tile-char">' + esc((g.name || "?").charAt(0)) + "</span>";
