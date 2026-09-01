@@ -57,9 +57,9 @@ const GOODS = [
   { name: "鹿乃まほろ加入記念グッズ 両面ダイカットクッション", memberId: "mahoro", kind: "bodypillow", price: 3000, image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/31f8843f3a94295fa9a855f6edb8c7f6.png?v=1787294597", url: "https://shop.milpr.com/products/mahoro_join_diecut_cushion", en: { name: "Mahoro Die-Cut Cushion" } },
   { name: "鹿乃まほろ加入記念グッズ アクリルボード", memberId: "mahoro", kind: "clearfile", price: 4000, image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/1310cf3e6d145e2430b0a5d6e6c7ffa4.png?v=1787294511", url: "https://shop.milpr.com/products/mahoro_join_acrylicboard", en: { name: "Mahoro Acrylic Board" } },
   { name: "虹深°ぬふ 1周年記念グッズ フルセット", memberId: "nuhu", kind: "fullset", price: 19900, oldPrice: 20200, image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/9ba14fa6ded9002ed301e5b212275fa1_5c96e218-5e03-4b1c-8155-95f08f7701c7.png?v=1786126142", url: "https://shop.milpr.com/products/nufu_1st_anniversary_full", en: { name: "Nijipuka Nuhu 1st Anniversary Goods Full Set" } },
-  { name: "ミリプロTCG「Million Production OFFICIAL CARD GAME vol.4」1パック", memberId: "", memberLabel: "ミリプロ全員", kind: "card", price: 600, tag: "NEW", image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/06_ad8f6c7b-0b1d-4082-b40e-fd6bc44650ba.png?v=1770747189", url: "https://shop.milpr.com/products/milpr_tcg_vol4", en: { name: "MilliPro TCG \"Million Production OFFICIAL CARD GAME vol.4\" 1 Pack", memberLabel: "All Members" } },
-  { name: "小廻こま 誕生日記念グッズ 2026 フルセット", memberId: "koma", kind: "fullset", price: 12300, image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/02_7982ae83-0cee-4592-be32-8892c86692d3.png?v=1787774601", url: "https://shop.milpr.com/products/koma_birthday2026_full", en: { name: "Komawari Koma 2026 Birthday Goods Full Set" } },
-  { name: "あくび・でもんすぺーど 50万人記念グッズ フルセット", memberId: "akubi", kind: "fullset", price: 11500, tag: "NEW", image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/02_cf0074ba-51d7-4fb5-a0b6-234b001faf12.png?v=1736245919", url: "https://shop.milpr.com/products/akubi_50_full", en: { name: "Akubi Demonspade 500K Subscriber Goods Full Set" } }
+  { name: "ミリプロTCG「Million Production OFFICIAL CARD GAME vol.4」1パック", memberId: "", memberLabel: "ミリプロ全員", kind: "card", price: 600, tag: "NEW", image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/TOP_5e995fac-1f3c-4a2e-8cce-3dd543dd5eb8.png?v=1785646187", url: "https://shop.milpr.com/products/milpr_tcg_vol4", en: { name: "MilliPro TCG \"Million Production OFFICIAL CARD GAME vol.4\" 1 Pack", memberLabel: "All Members" } },
+  { name: "小廻こま 誕生日記念グッズ 2026 フルセット", memberId: "koma", kind: "fullset", price: 12300, image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/f39b00c28c5b09160900f2447ecdf82b_3184bcf1-10f7-4d14-90b3-94a519e5f058.png?v=1785505493", url: "https://shop.milpr.com/products/koma_birthday2026_full", en: { name: "Komawari Koma 2026 Birthday Goods Full Set" } },
+  { name: "あくび・でもんすぺーど 50万人記念グッズ フルセット", memberId: "akubi", kind: "fullset", price: 11500, tag: "NEW", image: "https://cdn.shopify.com/s/files/1/0741/9215/9010/files/20260703__akubidemonspade_50mannnin_goods_square_fix_touka-7_cae9dd49-ba27-4efd-aa61-c9a93e5e110c.png?v=1784896691", url: "https://shop.milpr.com/products/akubi_50_full", en: { name: "Akubi Demonspade 500K Subscriber Goods Full Set" } }
 ];
 
 
@@ -947,7 +947,7 @@ const NEWS = [
     tag: "サイト更新",
     title: "【サイト更新】オリジナルカーソル配布＆Milli Orbisアカウント強化",
     desc: "推しカーソル（Win/Mac/Chromebook 15種）を一括DLで配布開始。ヘッダーの「カーソル」からサイト内でも即時切り替えできます。",
-    image: "/images/cursors/mahoro.png",
+    image: "https://milli-orbis-portal.onrender.com/images/Milli-Orbis-OGP.png",
     url: "cursors.html",
     en: { tag: "Site Update", title: "[Update] Original Cursors & Milli Orbis Account Upgrade", desc: "15-type cursors for Win/Mac/Chromebook now available. Switch instantly from the header." }
   },
