@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T15:38:18.487Z",
+  "updatedAt": "2026-09-01T18:55:19.797Z",
   "streams": [
     {
       "id": "wh4UF6M-Lbk",
@@ -42,6 +42,15 @@
       "en": {
         "title": "☁ Millipro Summer Collection 2026 now accepting orders! 🔧"
       }
+    },
+    {
+      "id": "KYrJTUAMsDM",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "title": "【めっちゃカメレオン】視聴者参加型！全員打ち抜くまで告知できません⁉️【音ノ瀬らこ /夕霧レイ 】",
+      "thumb": "https://i.ytimg.com/vi/KYrJTUAMsDM/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-04T11:00:00Z",
+      "status": "upcoming"
     },
     {
       "id": "pKv7C5ZJTAw",
@@ -216,6 +225,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "KYrJTUAMsDM",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【めっちゃカメレオン】視聴者参加型！全員打ち抜くまで告知できません⁉️【音ノ瀬らこ /夕霧レイ 】",
+      "thumb": "https://i.ytimg.com/vi/KYrJTUAMsDM/hqdefault_live.jpg",
+      "publishedAt": "2026-09-01T15:54:56Z",
+      "live": false
+    },
     {
       "id": "MQ3yXOmRn18",
       "memberId": "nono",
@@ -504,16 +523,6 @@
       "title": "【マイクラ】隠れてるミリプロメンバーを探せ！！【#ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/YBPKRa5gH2k/hqdefault.jpg",
       "publishedAt": "2026-08-30T09:00:12Z",
-      "live": false
-    },
-    {
-      "id": "LzuCcBs7pRQ",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "夏休みの宿題、やらなきゃいけない作業、溜まってる人、強制集合。【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/LzuCcBs7pRQ/hqdefault.jpg",
-      "publishedAt": "2026-08-30T07:33:52Z",
       "live": false
     }
   ],

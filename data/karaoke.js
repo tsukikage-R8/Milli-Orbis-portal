@@ -9,6 +9,14 @@ window.KARAOKE = [
     "songs": []
   },
   {
+    "id": "beMkuWTFABw",
+    "memberId": "tsukuri",
+    "publishedAt": "2026-09-01",
+    "title": "〖 誕生日歌枠 〗重大告知アリ！初出し＋コーラスマシマシ最強セトリをお届け〖 眠雲ツクリ / ミリプロ 〗",
+    "duration": 0,
+    "songs": []
+  },
+  {
     "id": "R1gsnScnFXo",
     "memberId": "yura",
     "publishedAt": "2026-08-31",
