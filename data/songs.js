@@ -2611,6 +2611,22 @@ window.SONGS = {
       }
     },
     {
+      "title": "III",
+      "key": "iii",
+      "urls": [
+        {
+          "id": "CjXemr360js",
+          "memberId": "nono",
+          "publishedAt": "2026-08-31"
+        },
+        {
+          "id": "CjXemr360js",
+          "memberId": "raco",
+          "publishedAt": "2026-08-31"
+        }
+      ]
+    },
+    {
       "title": "あの夏が飽和する。/カンザキイオリ",
       "key": "あの夏が飽和する。カンザキイオリ",
       "urls": [

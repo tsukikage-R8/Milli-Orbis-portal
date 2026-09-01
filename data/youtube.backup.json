@@ -1,51 +1,6 @@
 {
-  "updatedAt": "2026-08-31T10:09:42.523Z",
+  "updatedAt": "2026-08-31T18:17:11.019Z",
   "streams": [
-    {
-      "id": "PHrdltoMtFc",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【お絵描き】リスナーさんにもらったアドバイスで絵をよくしていくの巻！【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/PHrdltoMtFc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-31T10:01:08Z",
-      "status": "live"
-    },
-    {
-      "id": "R1gsnScnFXo",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【歌枠┆雑談】21:00の歌みた公開までに「２７万人」達成できるのか！？【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/R1gsnScnFXo/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-31T10:02:56Z",
-      "status": "live"
-    },
-    {
-      "id": "CbQ5Cy0Z0Aw",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 雑談 】8月おわりのとーきんぐ【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/CbQ5Cy0Z0Aw/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-31T10:03:05Z",
-      "status": "live"
-    },
-    {
-      "id": "oyf6Rx9t-w4",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【#ののらこ飲酒雑談】告知あるぞ～飲むぞ～┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/oyf6Rx9t-w4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-31T11:15:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "XuJyXMVtfpo",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【雑談】一緒にまったり話そうヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/XuJyXMVtfpo/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-31T13:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "8F-C9ivtBnE",
       "memberId": "koma",
@@ -66,6 +21,15 @@
       "en": {
         "title": "[📢Goods information] Millipro Summer Collection 2026 orders now available!"
       }
+    },
+    {
+      "id": "dHnc-b8UT34",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【📢グッズ告知】ミリプロ サマーコレクション 2026！",
+      "thumb": "https://i.ytimg.com/vi/dHnc-b8UT34/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-02T14:59:00Z",
+      "status": "upcoming"
     },
     {
       "id": "pnSTro7MCbQ",
@@ -262,13 +226,53 @@
   ],
   "videos": [
     {
-      "id": "CbQ5Cy0Z0Aw",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 雑談 】8月おわりのとーきんぐ【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/CbQ5Cy0Z0Aw/hqdefault_live.jpg",
-      "publishedAt": "2026-08-31T10:03:05Z",
+      "id": "XuJyXMVtfpo",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【雑談】一緒にまったり話そうヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/XuJyXMVtfpo/hqdefault.jpg",
+      "publishedAt": "2026-08-31T18:02:53Z",
+      "live": true
+    },
+    {
+      "id": "s7iheKg-fno",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 VALORANT 】プラチナに行くことにする with ドパガキーズ ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/s7iheKg-fno/hqdefault.jpg",
+      "publishedAt": "2026-08-31T17:16:36Z",
+      "live": false
+    },
+    {
+      "id": "ocp6FSvQoCo",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【VALORANT】頭しか狙いたくない！🔥",
+      "thumb": "https://i.ytimg.com/vi/ocp6FSvQoCo/hqdefault.jpg",
+      "publishedAt": "2026-08-31T17:04:34Z",
+      "live": false
+    },
+    {
+      "id": "oyf6Rx9t-w4",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【#ののらこ飲酒雑談】告知あるぞ～飲むぞ～┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/oyf6Rx9t-w4/hqdefault.jpg",
+      "publishedAt": "2026-08-31T15:56:45Z",
+      "live": true
+    },
+    {
+      "id": "ocjjzlpR7Ig",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【飲酒雑談】ののと二次会です！！！！！！！【音ノ瀬らこ /音ノ乃のの】",
+      "thumb": "https://i.ytimg.com/vi/ocjjzlpR7Ig/hqdefault.jpg",
+      "publishedAt": "2026-08-31T14:47:37Z",
       "live": true
     },
     {
@@ -277,18 +281,48 @@
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
       "title": "【歌枠┆雑談】21:00の歌みた公開までに「２７万人」達成できるのか！？【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/R1gsnScnFXo/hqdefault_live.jpg",
-      "publishedAt": "2026-08-31T10:02:56Z",
+      "thumb": "https://i.ytimg.com/vi/R1gsnScnFXo/hqdefault.jpg",
+      "publishedAt": "2026-08-31T13:09:46Z",
       "live": true
     },
     {
-      "id": "PHrdltoMtFc",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【お絵描き】リスナーさんにもらったアドバイスで絵をよくしていくの巻！【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/PHrdltoMtFc/hqdefault_live.jpg",
-      "publishedAt": "2026-08-31T10:01:08Z",
+      "id": "CjXemr360js",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "III covered by 音ノ乃のの＆音ノ瀬らこ",
+      "thumb": "https://i.ytimg.com/vi/CjXemr360js/hqdefault.jpg",
+      "publishedAt": "2026-08-31T12:30:06Z",
+      "live": false
+    },
+    {
+      "id": "CbQ5Cy0Z0Aw",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 雑談 】8月おわりのとーきんぐ【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/CbQ5Cy0Z0Aw/hqdefault.jpg",
+      "publishedAt": "2026-08-31T12:17:14Z",
+      "live": true
+    },
+    {
+      "id": "mYhEOSjvJTA",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "あの夏が飽和する。/カンザキイオリ covered by ゆらぎゆら",
+      "thumb": "https://i.ytimg.com/vi/mYhEOSjvJTA/hqdefault.jpg",
+      "publishedAt": "2026-08-31T12:00:06Z",
+      "live": false
+    },
+    {
+      "id": "fuUpxIEihkc",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "八月の夜 / あくび・でもんすぺーど - cover",
+      "thumb": "https://i.ytimg.com/vi/fuUpxIEihkc/hqdefault.jpg",
+      "publishedAt": "2026-08-31T11:00:06Z",
       "live": false
     },
     {
@@ -309,16 +343,6 @@
       "title": "【マイクラ】狙い撃ちがエグい!?当てはまったら降りるゲーム！！【#ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/Y0Vf4HE_nXo/hqdefault.jpg",
       "publishedAt": "2026-08-31T09:00:03Z",
-      "live": false
-    },
-    {
-      "id": "fuUpxIEihkc",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "八月の夜 / あくび・でもんすぺーど - cover",
-      "thumb": "https://i.ytimg.com/vi/fuUpxIEihkc/hqdefault.jpg",
-      "publishedAt": "2026-08-31T00:47:56Z",
       "live": false
     },
     {
@@ -432,16 +456,6 @@
       "live": false
     },
     {
-      "id": "oyf6Rx9t-w4",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【#ののらこ飲酒雑談】告知あるぞ～飲むぞ～┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/oyf6Rx9t-w4/hqdefault_live.jpg",
-      "publishedAt": "2026-08-29T11:24:27Z",
-      "live": true
-    },
-    {
       "id": "BAN5FapVnF0",
       "memberId": "official",
       "member": "ミリプロ公式",
@@ -472,16 +486,6 @@
       "live": false
     },
     {
-      "id": "CjXemr360js",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "？？？ covered by 音ノ乃のの＆音ノ瀬らこ",
-      "thumb": "https://i.ytimg.com/vi/CjXemr360js/hqdefault.jpg",
-      "publishedAt": "2026-08-28T19:06:58Z",
-      "live": false
-    },
-    {
       "id": "pVv9DrYL1r8",
       "memberId": "nuhu",
       "member": "虹深°ぬふ",
@@ -502,16 +506,6 @@
       "live": false
     },
     {
-      "id": "XuJyXMVtfpo",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【雑談】一緒にまったり話そうヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/XuJyXMVtfpo/hqdefault_live.jpg",
-      "publishedAt": "2026-08-28T14:31:24Z",
-      "live": true
-    },
-    {
       "id": "rIUuTVM8M1s",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -530,65 +524,7 @@
       "thumb": "https://i.ytimg.com/vi/IYvojg79F70/hqdefault.jpg",
       "publishedAt": "2026-08-28T13:53:43Z",
       "live": false
-    },
-    {
-      "id": "IcmQ_uC8h5I",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【#甘狼このみ新衣装】ついに、天使になってしまったのかもしれません【#あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/IcmQ_uC8h5I/hqdefault.jpg",
-      "publishedAt": "2026-08-28T11:49:01Z",
-      "live": false
-    },
-    {
-      "id": "TcJQmNLJ5GI",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "ハッピーシンセサイザ / 甘狼このみ（cover）",
-      "thumb": "https://i.ytimg.com/vi/TcJQmNLJ5GI/hqdefault.jpg",
-      "publishedAt": "2026-08-28T11:30:06Z",
-      "live": false
-    },
-    {
-      "id": "8v_bCP_tAFQ",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【最後まで分かったら超すごい！？】だんだん懐かしくなる夏曲メドレー【夕霧レイ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8v_bCP_tAFQ/hqdefault.jpg",
-      "publishedAt": "2026-08-28T09:00:13Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "PHrdltoMtFc",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【お絵描き】リスナーさんにもらったアドバイスで絵をよくしていくの巻！【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/PHrdltoMtFc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-31T10:01:08Z",
-      "status": "live"
-    },
-    {
-      "id": "R1gsnScnFXo",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【歌枠┆雑談】21:00の歌みた公開までに「２７万人」達成できるのか！？【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/R1gsnScnFXo/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-31T10:02:56Z",
-      "status": "live"
-    },
-    {
-      "id": "CbQ5Cy0Z0Aw",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 雑談 】8月おわりのとーきんぐ【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/CbQ5Cy0Z0Aw/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-08-31T10:03:05Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
