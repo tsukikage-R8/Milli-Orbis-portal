@@ -522,13 +522,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "いい感じ",
-      "artist": "ケツメイシ",
-      "album": "KETSUNOPOLIS 10",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Feels good"
-      }
+      "title": "ツバメ (feat. ミドリーズ)",
+      "artist": "YOASOBI",
+      "album": "ツバメ (feat. ミドリーズ) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg"
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -673,9 +670,9 @@ window.SONG_MASTER = {
     },
     "心做し": {
       "title": "心做し",
-      "artist": "majiko",
-      "album": "Contrast",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bd/8b/76/bd8b76ea-22b4-e327-18c6-62264dd7b359/QWCE_00400_itunes.png/600x600bb.jpg",
+      "artist": "Sou",
+      "album": "深層から",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/35/5b/6e/355b6ed6-1ca5-41c3-5084-52d7e47b4eaa/19UMGIM61586.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "take heart"
       }
@@ -716,8 +713,8 @@ window.SONG_MASTER = {
     "花の塔さユり": {
       "title": "花の塔",
       "artist": "さユり",
-      "album": "花の塔 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c9/c0/14/c9c014de-4689-087a-35b5-f481e34ea5be/4547366570861.jpg/600x600bb.jpg",
+      "album": "酸欠少女",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/12/a3/fd/12a3fdf5-e49c-4a91-f888-ee9910358b97/4547366578379.jpg/600x600bb.jpg",
       "en": {
         "title": "flower tower"
       }
@@ -1067,6 +1064,12 @@ window.SONG_MASTER = {
         "title": "I'm the cutest in the world"
       }
     },
+    "iii": {
+      "title": "I I I",
+      "artist": "宝鐘マリン & Kobo Kanaeru",
+      "album": "I I I - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/8a/54/b18a54c6-28e7-7630-bcfe-954e08867c66/4582729914913_art.jpg/600x600bb.jpg"
+    },
     "slashyama": {
       "title": "slash",
       "artist": "yama",
@@ -1087,12 +1090,6 @@ window.SONG_MASTER = {
       "en": {
         "title": "A faint flower"
       }
-    },
-    "iii": {
-      "title": "I I I",
-      "artist": "宝鐘マリン & Kobo Kanaeru",
-      "album": "I I I - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/8a/54/b18a54c6-28e7-7630-bcfe-954e08867c66/4582729914913_art.jpg/600x600bb.jpg"
     },
     "あの夏が飽和する。カンザキイオリ": {
       "title": "あの夏が飽和する",
@@ -1149,10 +1146,13 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5b/16/2c/5b162ca7-fd06-103b-c8db-344b24fd2a80/4547366806434.jpg/600x600bb.jpg"
     },
     "ドライフラワacoustic.": {
-      "title": "クリスマスイブ",
-      "artist": "優里",
-      "album": "クリスマスイブ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/47/73/9c/47739cae-c18c-4ab6-1a47-1c46c8ba3153/4547366593389.jpg/600x600bb.jpg"
+      "title": "ドライフラワー",
+      "artist": "Uru",
+      "album": "ファーストラヴ",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4a/d7/ff/4ad7ff26-851c-2a36-6a56-7cb51fb0c004/4547366496147.jpg/600x600bb.jpg",
+      "en": {
+        "title": "dried flowers"
+      }
     },
     "雨き声残響acoustic.": {
       "title": "セトリ (feat. Gang Boy)",
@@ -1892,8 +1892,8 @@ window.SONG_MASTER = {
     "やさしさに包まれたなら": {
       "title": "やさしさに包まれたなら",
       "artist": "荒井由実",
-      "album": "MISSLIM",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/52/9c/a0/529ca062-8a63-d1d7-5e6b-6774ba415dc2/00602567988229.rgb.jpg/600x600bb.jpg",
+      "album": "40周年記念ベストアルバム 日本の恋と、ユーミンと。",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/9d/29/a59d2913-c2a1-4d9c-78b2-0fa914eb3336/00602567997542.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "If you are surrounded by kindness"
       }

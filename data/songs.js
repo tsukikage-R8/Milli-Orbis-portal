@@ -535,6 +535,11 @@ window.SONGS = {
       "urls": [
         {
           "id": "621K-5_WPVA",
+          "memberId": "nono",
+          "publishedAt": "2026-09-01"
+        },
+        {
+          "id": "621K-5_WPVA",
           "memberId": "official",
           "publishedAt": "2026-08-21"
         }
@@ -2575,6 +2580,22 @@ window.SONGS = {
       }
     },
     {
+      "title": "III",
+      "key": "iii",
+      "urls": [
+        {
+          "id": "CjXemr360js",
+          "memberId": "nono",
+          "publishedAt": "2026-09-01"
+        },
+        {
+          "id": "CjXemr360js",
+          "memberId": "raco",
+          "publishedAt": "2026-09-01"
+        }
+      ]
+    },
+    {
       "title": "slash",
       "key": "slashyama",
       "urls": [
@@ -2609,22 +2630,6 @@ window.SONGS = {
       "en": {
         "title": "A faint flower"
       }
-    },
-    {
-      "title": "III",
-      "key": "iii",
-      "urls": [
-        {
-          "id": "CjXemr360js",
-          "memberId": "nono",
-          "publishedAt": "2026-08-31"
-        },
-        {
-          "id": "CjXemr360js",
-          "memberId": "raco",
-          "publishedAt": "2026-08-31"
-        }
-      ]
     },
     {
       "title": "あの夏が飽和する。/カンザキイオリ",

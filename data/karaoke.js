@@ -1,6 +1,14 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "wh4UF6M-Lbk",
+    "memberId": "nono",
+    "publishedAt": "2026-09-01",
+    "title": "【歌枠】告知アリ！Vaundy縛り歌枠！┊︎#音ノ乃のの #ののん家",
+    "duration": 0,
+    "songs": []
+  },
+  {
     "id": "R1gsnScnFXo",
     "memberId": "yura",
     "publishedAt": "2026-08-31",
