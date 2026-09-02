@@ -2580,6 +2580,17 @@ window.SONGS = {
       }
     },
     {
+      "title": "おもかげ",
+      "key": "おもかげ",
+      "urls": [
+        {
+          "id": "QlaGDL69HjY",
+          "memberId": "nono",
+          "publishedAt": "2026-09-02"
+        }
+      ]
+    },
+    {
       "title": "III",
       "key": "iii",
       "urls": [

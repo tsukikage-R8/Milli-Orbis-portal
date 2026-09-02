@@ -5,7 +5,7 @@ window.KARAOKE = [
     "memberId": "nono",
     "publishedAt": "2026-09-01",
     "title": "【歌枠】告知アリ！Vaundy縛り歌枠！┊︎#音ノ乃のの #ののん家",
-    "duration": 0,
+    "duration": 3559,
     "songs": []
   },
   {
