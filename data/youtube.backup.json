@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T18:55:19.797Z",
+  "updatedAt": "2026-09-01T22:08:34.723Z",
   "streams": [
     {
       "id": "wh4UF6M-Lbk",
@@ -23,6 +23,15 @@
       }
     },
     {
+      "id": "ikcdM5AaKbA",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 誕生日カウントダウン 〗一番はやくお祝いして！！！〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/ikcdM5AaKbA/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-02T14:00:00Z",
+      "status": "upcoming"
+    },
+    {
       "id": "pnSTro7MCbQ",
       "memberId": "yura",
       "member": "ゆらぎゆら",
@@ -42,6 +51,15 @@
       "en": {
         "title": "☁ Millipro Summer Collection 2026 now accepting orders! 🔧"
       }
+    },
+    {
+      "id": "beMkuWTFABw",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 誕生日歌枠 〗重大告知アリ！初出し＋コーラスマシマシ最強セトリをお届け〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/beMkuWTFABw/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-03T10:00:00Z",
+      "status": "upcoming"
     },
     {
       "id": "KYrJTUAMsDM",
@@ -225,6 +243,26 @@
     }
   ],
   "videos": [
+    {
+      "id": "beMkuWTFABw",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 誕生日歌枠 〗重大告知アリ！初出し＋コーラスマシマシ最強セトリをお届け〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/beMkuWTFABw/hqdefault_live.jpg",
+      "publishedAt": "2026-09-01T20:55:14Z",
+      "live": false
+    },
+    {
+      "id": "ikcdM5AaKbA",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 誕生日カウントダウン 〗一番はやくお祝いして！！！〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/ikcdM5AaKbA/hqdefault_live.jpg",
+      "publishedAt": "2026-09-01T20:49:47Z",
+      "live": false
+    },
     {
       "id": "KYrJTUAMsDM",
       "memberId": "raco",
@@ -503,26 +541,6 @@
       "title": "【赤面注意】ミリプロ演技派女優は誰！？シチュボで勝負したらカオスになったwww",
       "thumb": "https://i.ytimg.com/vi/pg51NHr6jmk/hqdefault.jpg",
       "publishedAt": "2026-08-30T11:00:06Z",
-      "live": false
-    },
-    {
-      "id": "BwT-_jTq6FA",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 パワプロ2026 】#4 ドカ寝起きなのでまったり. ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/BwT-_jTq6FA/hqdefault.jpg",
-      "publishedAt": "2026-08-30T09:44:16Z",
-      "live": false
-    },
-    {
-      "id": "YBPKRa5gH2k",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】隠れてるミリプロメンバーを探せ！！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/YBPKRa5gH2k/hqdefault.jpg",
-      "publishedAt": "2026-08-30T09:00:12Z",
       "live": false
     }
   ],
