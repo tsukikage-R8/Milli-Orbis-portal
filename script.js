@@ -1806,9 +1806,29 @@
     var box = $("#goodsTrack");
     if (!box || !GOODS.length) return;
     var list = GOODS;
+    // 裏側で販売期間をチェック: available===false のものは非表示（常設は permanent で常に残す）
+    function isAvailable(g) {
+      if (g.permanent) return true;
+      if (g.available === false) return false;
+      return true;
+    }
+    list = list.filter(isAvailable);
     if (oshiFilterOn()) {
       var oshi = getOshi();
-      if (oshi) list = GOODS.filter(function (g) { return g.memberId === oshi; });
+      if (oshi) {
+        var filtered = GOODS.filter(function (g) { return isAvailable(g) && g.memberId === oshi; });
+        // 常設の全員向け（TCG等）は常に含める
+        var permanentAll = GOODS.filter(function (g) { return isAvailable(g) && g.permanent && g.memberId === ""; });
+        permanentAll.forEach(function (p) { if (filtered.indexOf(p) === -1) filtered.push(p); });
+        // 該当タレントの常設ウェルカムボイスがあれば含める（上記で既に memberId===oshi で含まれる）
+        // それでも空なら常設全員向けのみを表示
+        if (filtered.length === 0) {
+          filtered = permanentAll.length ? permanentAll : GOODS.filter(function (g) { return isAvailable(g) && g.memberId === ""; }).slice(0, 2);
+        }
+        list = filtered;
+      }
+    } else {
+      list = GOODS.filter(isAvailable);
     }
     box.innerHTML = list.map(function (g) {
       var m = g.memberId ? getMember(g.memberId) : null;
