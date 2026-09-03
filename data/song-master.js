@@ -1431,10 +1431,13 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2d/41/62/2d416235-b7e4-0584-13ae-9c860fdea99e/859755770290_cover.jpg/600x600bb.jpg"
     },
     "テロメアの産声": {
-      "title": "テロメアの産声 (feat. 初音ミク)",
-      "artist": "Heavenz",
-      "album": "Actor Reactor",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/67/8f/cd/678fcd20-21ad-4f96-eecf-ef85d489b4c0/4511820-95411.jpg/600x600bb.jpg"
+      "title": "テロメアの産声",
+      "artist": "KK",
+      "album": "BEST OF KKBOX",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ed/3d/c2/ed3dc2a2-6d18-0fe8-a4f7-c9c1ee407d3b/PCSP_06060.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Birth cry of telomeres"
+      }
     },
     "sakuraいきものがかりacousticarrange": {
       "title": "Give me a brains",

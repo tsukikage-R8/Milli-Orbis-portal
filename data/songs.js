@@ -374,6 +374,17 @@ window.SONGS = {
   ],
   "covers": [
     {
+      "title": "ワールド・ランプシェード ／眠雲ツクリ（cover）",
+      "key": "ワルドランプシェド",
+      "urls": [
+        {
+          "id": "dkfixC4fq-w",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-09-03"
+        }
+      ]
+    },
+    {
       "title": "NET CHOOSE SHOW／雨夜リズ（official）",
       "key": "netchooseshow",
       "urls": [
@@ -2730,17 +2741,6 @@ window.SONGS = {
       "en": {
         "title": "Bonapeite♡S / Blend A"
       }
-    },
-    {
-      "title": "ワールド・ランプシェード ／眠雲ツクリ（cover）",
-      "key": "ワルドランプシェド",
-      "urls": [
-        {
-          "id": "dkfixC4fq-w",
-          "memberId": "tsukuri",
-          "publishedAt": "2026-09-01"
-        }
-      ]
     },
     {
       "title": "Tiger  -  HANA",
