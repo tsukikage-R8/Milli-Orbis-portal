@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-09-03T15:19:45.329Z",
+  "updatedAt": "2026-09-03T18:56:15.384Z",
   "streams": [
-    {
-      "id": "EBHirQ-TYLQ",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【VALORANT】こまちゃんと！目指せプラチナ（ゴールド3Start）【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/EBHirQ-TYLQ/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-03T14:28:49Z",
-      "status": "live"
-    },
-    {
-      "id": "9asNysw7mbI",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 VALORANT 】まほろちゃんと激アツduo【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/9asNysw7mbI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-03T14:29:19Z",
-      "status": "live"
-    },
     {
       "id": "1L6MNxu8iQ0",
       "memberId": "nuhu",
@@ -234,8 +216,8 @@
       "member": "小廻こま",
       "channelTitle": "小廻こま / Komawari Koma",
       "title": "【 VALORANT 】まほろちゃんと激アツduo【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/9asNysw7mbI/hqdefault_live.jpg",
-      "publishedAt": "2026-09-03T14:29:19Z",
+      "thumb": "https://i.ytimg.com/vi/9asNysw7mbI/hqdefault.jpg",
+      "publishedAt": "2026-09-03T18:22:15Z",
       "live": false
     },
     {
@@ -244,8 +226,8 @@
       "member": "鹿乃まほろ",
       "channelTitle": "鹿乃まほろ / Kano Mahoro",
       "title": "【VALORANT】こまちゃんと！目指せプラチナ（ゴールド3Start）【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/EBHirQ-TYLQ/hqdefault_live.jpg",
-      "publishedAt": "2026-09-03T14:28:49Z",
+      "thumb": "https://i.ytimg.com/vi/EBHirQ-TYLQ/hqdefault.jpg",
+      "publishedAt": "2026-09-03T18:17:46Z",
       "live": false
     },
     {
@@ -529,24 +511,5 @@
       "live": true
     }
   ],
-  "live": [
-    {
-      "id": "EBHirQ-TYLQ",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【VALORANT】こまちゃんと！目指せプラチナ（ゴールド3Start）【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/EBHirQ-TYLQ/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-03T14:28:49Z",
-      "status": "live"
-    },
-    {
-      "id": "9asNysw7mbI",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 VALORANT 】まほろちゃんと激アツduo【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/9asNysw7mbI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-03T14:29:19Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
