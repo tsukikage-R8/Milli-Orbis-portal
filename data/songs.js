@@ -2618,6 +2618,17 @@ window.SONGS = {
       ]
     },
     {
+      "title": "Help me, ERINNNNNN!!／小廻こま（cover）",
+      "key": "helpme,erinnnnnn!!",
+      "urls": [
+        {
+          "id": "Vf9oYfBoOSE",
+          "memberId": "koma",
+          "publishedAt": "2026-09-03"
+        }
+      ]
+    },
+    {
       "title": "Legend of Mermaid",
       "key": "legendofmermaid",
       "urls": [
