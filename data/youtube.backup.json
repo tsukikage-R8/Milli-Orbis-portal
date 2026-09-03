@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T01:41:58.332Z",
+  "updatedAt": "2026-09-03T08:20:36.131Z",
   "streams": [
     {
       "id": "beMkuWTFABw",
@@ -8,6 +8,15 @@
       "title": "〖 誕生日歌枠 〗重大告知アリ！初出し＋コーラスマシマシ最強セトリをお届け〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/beMkuWTFABw/hqdefault_live.jpg",
       "scheduledStartTime": "2026-09-03T10:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "1L6MNxu8iQ0",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "title": "【お絵描きコラボ】🐺🍫⇄🌈🐙 モチーフ交換！？",
+      "thumb": "https://i.ytimg.com/vi/1L6MNxu8iQ0/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-04T10:00:00Z",
       "status": "upcoming"
     },
     {
@@ -202,6 +211,26 @@
   ],
   "videos": [
     {
+      "id": "ePV16QaKTYI",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "別れ話の湿度で友情を深めるゆらぎゆら #minecraft",
+      "thumb": "https://i.ytimg.com/vi/ePV16QaKTYI/hqdefault.jpg",
+      "publishedAt": "2026-09-03T05:57:32Z",
+      "live": false
+    },
+    {
+      "id": "1L6MNxu8iQ0",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【お絵描きコラボ】🐺🍫⇄🌈🐙 モチーフ交換！？",
+      "thumb": "https://i.ytimg.com/vi/1L6MNxu8iQ0/hqdefault_live.jpg",
+      "publishedAt": "2026-09-03T05:21:08Z",
+      "live": false
+    },
+    {
       "id": "ikcdM5AaKbA",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -289,6 +318,16 @@
       "title": "【APEX 】ゆら大声禁止┆突発コラボ w/鹿乃まほろ【 ゆらぎゆら/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/H4Wsd8LSjMI/hqdefault.jpg",
       "publishedAt": "2026-09-02T07:48:28Z",
+      "live": false
+    },
+    {
+      "id": "lSbndj8gieg",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "？？？ / 音ノ瀬らこ＆夕霧レイ (cover)",
+      "thumb": "https://i.ytimg.com/vi/lSbndj8gieg/hqdefault.jpg",
+      "publishedAt": "2026-09-02T05:52:02Z",
       "live": false
     },
     {
@@ -469,36 +508,6 @@
       "title": "【3人で】以心伝心『ザムザ』歌ってみた【雨夜リズ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/QJiQxMXLFdE/hqdefault.jpg",
       "publishedAt": "2026-08-31T09:35:45Z",
-      "live": false
-    },
-    {
-      "id": "Y0Vf4HE_nXo",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】狙い撃ちがエグい!?当てはまったら降りるゲーム！！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Y0Vf4HE_nXo/hqdefault.jpg",
-      "publishedAt": "2026-08-31T09:00:03Z",
-      "live": false
-    },
-    {
-      "id": "S8ZqRPpfgO8",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 ラジオ体操 】みんな起きれるかな？＾＾【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/S8ZqRPpfgO8/hqdefault.jpg",
-      "publishedAt": "2026-08-30T23:15:22Z",
-      "live": false
-    },
-    {
-      "id": "Xb40EfHAhxA",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【VALORANT】みてーかっちょいい武器買った【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Xb40EfHAhxA/hqdefault.jpg",
-      "publishedAt": "2026-08-30T17:22:07Z",
       "live": false
     }
   ],

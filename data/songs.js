@@ -2732,8 +2732,8 @@ window.SONGS = {
       }
     },
     {
-      "title": "???",
-      "key": "???",
+      "title": "ワールド・ランプシェード ／眠雲ツクリ（cover）",
+      "key": "ワルドランプシェド",
       "urls": [
         {
           "id": "dkfixC4fq-w",

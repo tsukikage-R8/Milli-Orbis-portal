@@ -1148,12 +1148,6 @@ window.SONG_MASTER = {
         "title": "Bonapeite♡S (Cover)"
       }
     },
-    "???": {
-      "title": "???",
-      "artist": "Shurkn Pap",
-      "album": "STYLISH NINJA - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/dc/0b/e7/dc0be7a8-a7a1-5530-f9c1-9a0f2b424160/859754717708_cover.jpg/600x600bb.jpg"
-    },
     "tiger-hana": {
       "title": "Tiger – HANA with HONEYs Ver.",
       "artist": "HANA",

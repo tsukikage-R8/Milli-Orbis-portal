@@ -1,14 +1,23 @@
 {
-  "updatedAt": "2026-09-03T08:20:36.131Z",
+  "updatedAt": "2026-09-03T15:19:45.329Z",
   "streams": [
     {
-      "id": "beMkuWTFABw",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 誕生日歌枠 〗重大告知アリ！初出し＋コーラスマシマシ最強セトリをお届け〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/beMkuWTFABw/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-03T10:00:00Z",
-      "status": "upcoming"
+      "id": "EBHirQ-TYLQ",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【VALORANT】こまちゃんと！目指せプラチナ（ゴールド3Start）【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/EBHirQ-TYLQ/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-03T14:28:49Z",
+      "status": "live"
+    },
+    {
+      "id": "9asNysw7mbI",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 VALORANT 】まほろちゃんと激アツduo【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/9asNysw7mbI/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-03T14:29:19Z",
+      "status": "live"
     },
     {
       "id": "1L6MNxu8iQ0",
@@ -29,12 +38,21 @@
       "status": "upcoming"
     },
     {
+      "id": "t5GDlA3rUYM",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【めっちゃカメレオン】夕霧レイ視点！視聴者の皆を全員打ち抜くまで告知できません⁉️⟡.· 【 夕霧レイ/音ノ瀬らこ 】",
+      "thumb": "https://i.ytimg.com/vi/t5GDlA3rUYM/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-04T11:00:00Z",
+      "status": "upcoming"
+    },
+    {
       "id": "pKv7C5ZJTAw",
       "memberId": "nono",
       "member": "音ノ乃のの",
       "title": "【歌枠】やるぞ！うおお！┊︎#音ノ乃のの #ののん家",
       "thumb": "https://i.ytimg.com/vi/pKv7C5ZJTAw/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-05T12:00:00Z",
+      "scheduledStartTime": "2026-09-08T12:00:00Z",
       "status": "upcoming"
     },
     {
@@ -68,21 +86,21 @@
       "status": "upcoming"
     },
     {
-      "id": "YKE2uQ2XpX0",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【歌枠】いんぐりっしゅよ～ん┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/YKE2uQ2XpX0/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-12T12:00:00Z",
-      "status": "upcoming"
-    },
-    {
       "id": "A3okHjHt2To",
       "memberId": "nuhu",
       "member": "虹深°ぬふ",
       "title": "【#にじぷかぬふ3Dお披露目】たっくさん動くところ見ててね👀【虹深°ぬふ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/A3okHjHt2To/hqdefault_live.jpg",
       "scheduledStartTime": "2026-09-12T12:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "YKE2uQ2XpX0",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【歌枠】いんぐりっしゅよ～ん┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/YKE2uQ2XpX0/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-20T12:00:00Z",
       "status": "upcoming"
     },
     {
@@ -211,6 +229,86 @@
   ],
   "videos": [
     {
+      "id": "9asNysw7mbI",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 VALORANT 】まほろちゃんと激アツduo【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/9asNysw7mbI/hqdefault_live.jpg",
+      "publishedAt": "2026-09-03T14:29:19Z",
+      "live": false
+    },
+    {
+      "id": "EBHirQ-TYLQ",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【VALORANT】こまちゃんと！目指せプラチナ（ゴールド3Start）【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/EBHirQ-TYLQ/hqdefault_live.jpg",
+      "publishedAt": "2026-09-03T14:28:49Z",
+      "live": false
+    },
+    {
+      "id": "beMkuWTFABw",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 誕生日歌枠 〗重大告知アリ！初出し＋コーラスマシマシ最強セトリをお届け〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/beMkuWTFABw/hqdefault.jpg",
+      "publishedAt": "2026-09-03T12:23:04Z",
+      "live": false
+    },
+    {
+      "id": "dkfixC4fq-w",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "ワールド・ランプシェード ／眠雲ツクリ（cover）",
+      "thumb": "https://i.ytimg.com/vi/dkfixC4fq-w/hqdefault.jpg",
+      "publishedAt": "2026-09-03T12:00:07Z",
+      "live": false
+    },
+    {
+      "id": "t5GDlA3rUYM",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【めっちゃカメレオン】夕霧レイ視点！視聴者の皆を全員打ち抜くまで告知できません⁉️⟡.· 【 夕霧レイ/音ノ瀬らこ 】",
+      "thumb": "https://i.ytimg.com/vi/t5GDlA3rUYM/hqdefault_live.jpg",
+      "publishedAt": "2026-09-03T11:40:27Z",
+      "live": false
+    },
+    {
+      "id": "HAY6YqpAY0o",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【お絵描き】ミリプロ後輩メンの水着デザインしてみた結果・・・【甘狼このみ】",
+      "thumb": "https://i.ytimg.com/vi/HAY6YqpAY0o/hqdefault.jpg",
+      "publishedAt": "2026-09-03T10:00:06Z",
+      "live": false
+    },
+    {
+      "id": "Ju5E-U96w4o",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "ロクデナシ様の『スピカ』歌ってみた【音ノ瀬らこ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/Ju5E-U96w4o/hqdefault.jpg",
+      "publishedAt": "2026-09-03T09:00:29Z",
+      "live": false
+    },
+    {
+      "id": "8GHeVgL1evk",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【高速山手線ゲーム】ファンサして！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/8GHeVgL1evk/hqdefault.jpg",
+      "publishedAt": "2026-09-03T09:00:18Z",
+      "live": false
+    },
+    {
       "id": "ePV16QaKTYI",
       "memberId": "yura",
       "member": "ゆらぎゆら",
@@ -281,16 +379,6 @@
       "live": false
     },
     {
-      "id": "HAY6YqpAY0o",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【お絵描き】ミリプロ後輩メンの水着デザインしてみた結果・・・【甘狼このみ】",
-      "thumb": "https://i.ytimg.com/vi/HAY6YqpAY0o/hqdefault.jpg",
-      "publishedAt": "2026-09-02T10:52:49Z",
-      "live": false
-    },
-    {
       "id": "jQj96UUuFfg",
       "memberId": "nuhu",
       "member": "虹深°ぬふ",
@@ -328,16 +416,6 @@
       "title": "？？？ / 音ノ瀬らこ＆夕霧レイ (cover)",
       "thumb": "https://i.ytimg.com/vi/lSbndj8gieg/hqdefault.jpg",
       "publishedAt": "2026-09-02T05:52:02Z",
-      "live": false
-    },
-    {
-      "id": "beMkuWTFABw",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 誕生日歌枠 〗重大告知アリ！初出し＋コーラスマシマシ最強セトリをお届け〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/beMkuWTFABw/hqdefault_live.jpg",
-      "publishedAt": "2026-09-01T20:55:14Z",
       "live": false
     },
     {
@@ -449,67 +527,26 @@
       "thumb": "https://i.ytimg.com/vi/ocjjzlpR7Ig/hqdefault.jpg",
       "publishedAt": "2026-08-31T14:47:37Z",
       "live": true
-    },
-    {
-      "id": "R1gsnScnFXo",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【歌枠┆雑談】21:00の歌みた公開までに「２７万人」達成できるのか！？【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/R1gsnScnFXo/hqdefault.jpg",
-      "publishedAt": "2026-08-31T13:09:46Z",
-      "live": true
-    },
-    {
-      "id": "CjXemr360js",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "III covered by 音ノ乃のの＆音ノ瀬らこ",
-      "thumb": "https://i.ytimg.com/vi/CjXemr360js/hqdefault.jpg",
-      "publishedAt": "2026-08-31T12:30:06Z",
-      "live": false
-    },
-    {
-      "id": "CbQ5Cy0Z0Aw",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 雑談 】8月おわりのとーきんぐ【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/CbQ5Cy0Z0Aw/hqdefault.jpg",
-      "publishedAt": "2026-08-31T12:17:14Z",
-      "live": true
-    },
-    {
-      "id": "mYhEOSjvJTA",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "あの夏が飽和する。/カンザキイオリ covered by ゆらぎゆら",
-      "thumb": "https://i.ytimg.com/vi/mYhEOSjvJTA/hqdefault.jpg",
-      "publishedAt": "2026-08-31T12:00:06Z",
-      "live": false
-    },
-    {
-      "id": "fuUpxIEihkc",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "八月の夜 / あくび・でもんすぺーど - cover",
-      "thumb": "https://i.ytimg.com/vi/fuUpxIEihkc/hqdefault.jpg",
-      "publishedAt": "2026-08-31T11:00:06Z",
-      "live": false
-    },
-    {
-      "id": "QJiQxMXLFdE",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【3人で】以心伝心『ザムザ』歌ってみた【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/QJiQxMXLFdE/hqdefault.jpg",
-      "publishedAt": "2026-08-31T09:35:45Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "EBHirQ-TYLQ",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【VALORANT】こまちゃんと！目指せプラチナ（ゴールド3Start）【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/EBHirQ-TYLQ/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-03T14:28:49Z",
+      "status": "live"
+    },
+    {
+      "id": "9asNysw7mbI",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 VALORANT 】まほろちゃんと激アツduo【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/9asNysw7mbI/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-03T14:29:19Z",
+      "status": "live"
+    }
+  ]
 }
