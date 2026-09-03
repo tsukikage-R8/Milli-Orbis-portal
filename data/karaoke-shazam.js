@@ -62,14 +62,14 @@ window.KARAOKE_SHAZAM = {
   },
   "5Ub76uMbqMw": {
     "status": "error",
-    "attempts": 2,
-    "attemptedAt": "2026-09-02T23:00:58.019290+00:00",
+    "attempts": 3,
+    "attemptedAt": "2026-09-03T02:16:58.800508+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: Expecting value: line 2 column 1 (char 1) / https://pi"
   },
   "o4vfYWV92aY": {
-    "status": "skip",
-    "attempts": 5,
-    "attemptedAt": "2026-08-25T16:54:36.716921+00:00",
+    "status": "error",
+    "attempts": 1,
+    "attemptedAt": "2026-09-03T02:17:08.746332+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: Expecting value: line 2 column 1 (char 1) / https://pi"
   },
   "CcDz4_xq0xs": {
@@ -109,9 +109,9 @@ window.KARAOKE_SHAZAM = {
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: Expecting value: line 2 column 1 (char 1) / https://pi"
   },
   "8y2v7uLYRN4": {
-    "status": "error",
-    "attempts": 4,
-    "attemptedAt": "2026-09-02T23:00:39.131759+00:00",
+    "status": "skip",
+    "attempts": 5,
+    "attemptedAt": "2026-09-03T02:16:49.196353+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: Expecting value: line 2 column 1 (char 1) / https://pi"
   },
   "VOXMc7Cg2w8": {
