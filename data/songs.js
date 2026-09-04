@@ -374,6 +374,33 @@ window.SONGS = {
   ],
   "covers": [
     {
+      "title": "III",
+      "key": "iii",
+      "urls": [
+        {
+          "id": "CjXemr360js",
+          "memberId": "nono",
+          "publishedAt": "2026-09-04"
+        },
+        {
+          "id": "CjXemr360js",
+          "memberId": "raco",
+          "publishedAt": "2026-09-04"
+        }
+      ]
+    },
+    {
+      "title": "あの夏が飽和する。/カンザキイオリ",
+      "key": "あの夏が飽和する。カンザキイオリ",
+      "urls": [
+        {
+          "id": "mYhEOSjvJTA",
+          "memberId": "yura",
+          "publishedAt": "2026-09-04"
+        }
+      ]
+    },
+    {
       "title": "ワールド・ランプシェード ／眠雲ツクリ（cover）",
       "key": "ワルドランプシェド",
       "urls": [
@@ -2602,22 +2629,6 @@ window.SONGS = {
       ]
     },
     {
-      "title": "III",
-      "key": "iii",
-      "urls": [
-        {
-          "id": "CjXemr360js",
-          "memberId": "nono",
-          "publishedAt": "2026-09-01"
-        },
-        {
-          "id": "CjXemr360js",
-          "memberId": "raco",
-          "publishedAt": "2026-09-01"
-        }
-      ]
-    },
-    {
       "title": "slash",
       "key": "slashyama",
       "urls": [
@@ -2663,17 +2674,6 @@ window.SONGS = {
       "en": {
         "title": "A faint flower"
       }
-    },
-    {
-      "title": "あの夏が飽和する。/カンザキイオリ",
-      "key": "あの夏が飽和する。カンザキイオリ",
-      "urls": [
-        {
-          "id": "mYhEOSjvJTA",
-          "memberId": "yura",
-          "publishedAt": "2026-08-31"
-        }
-      ]
     },
     {
       "title": "恋するフォーチュンクッキー",

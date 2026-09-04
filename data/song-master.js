@@ -2,6 +2,18 @@
 window.SONG_MASTER = {
   "generatedAt": "2026-09-04",
   "songs": {
+    "iii": {
+      "title": "I I I",
+      "artist": "宝鐘マリン & Kobo Kanaeru",
+      "album": "I I I - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/8a/54/b18a54c6-28e7-7630-bcfe-954e08867c66/4582729914913_art.jpg/600x600bb.jpg"
+    },
+    "あの夏が飽和する。カンザキイオリ": {
+      "title": "あの夏が飽和する",
+      "artist": "カンザキイオリ",
+      "album": "白紙",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/14/d0/dd/14d0dde4-ba9f-cf81-03ee-bf50c1e908eb/ANTCD-46527.jpg/600x600bb.jpg"
+    },
     "netchooseshow": {
       "title": "NET CHOOSE SHOW",
       "artist": "雨夜リズ",
@@ -16,9 +28,9 @@ window.SONG_MASTER = {
     },
     "ハッピシンセサイザ": {
       "title": "ハッピーシンセサイザ",
-      "artist": "EasyPop",
-      "album": "ハッピーシンセサイザ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e8/54/8e/e8548ebe-3db7-e56c-dd2e-e75026b2a02e/PA00116257_0_164493_jacket.jpg/600x600bb.jpg"
+      "artist": "伊東歌詞太郎",
+      "album": "二律背反",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/ff/19/e9/ff19e98c-fc5b-63b7-e41d-63d657357081/TFCC-86506.jpg/600x600bb.jpg"
     },
     "スパクル": {
       "title": "スパークル",
@@ -193,18 +205,30 @@ window.SONG_MASTER = {
     },
     "ブラック★ロックシュタ-ryo": {
       "title": "ブラック★ロックシューター (Cover)",
-      "artist": "カグラナナ",
-      "album": "Astrolabe",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/96/be/05/96be050c-85f1-0650-97d3-ddcf4c99cff1/4582599509264_cover.png/600x600bb.jpg",
+      "artist": "Lamu",
+      "album": "New Beginning - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7b/41/45/7b4145b0-fbe0-af88-fbec-375a0f3f6747/4571640608223_cover.png/600x600bb.jpg",
       "en": {
         "title": "Black★Rock Shooter (Cover)"
       }
     },
+    "daybreakfrontline": {
+      "title": "DAYBREAK FRONTLINE (feat. 小豆沢こはね, 白石杏, 東雲彰人, 青柳冬弥 & Hatsune Miku)",
+      "artist": "Vivid BAD SQUAD",
+      "album": "Vivid BAD SQUAD SEKAI ALBUM vol.2",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/88/1a/19/881a1906-be30-d547-7651-b0518a6bb446/4511820-60049.jpg/600x600bb.jpg",
+      "en": {
+        "title": "DAYBREAK FRONTLINE (feat. Kohane Azusawa, An Shiraishi, Akito Shinonome, Toya Aoyagi & Hatsune Miku)"
+      }
+    },
     "フィナレ。": {
-      "title": "フィナーレ",
-      "artist": "トビー・フォックス",
-      "album": "Undertale サウンドトラック",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/28/59/d3/2859d3e1-1982-9730-3762-3c50a1447ec1/811576030076.png/600x600bb.jpg"
+      "title": "フィナーレ。",
+      "artist": "eill",
+      "album": "プレロマンス / フィナーレ。 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5d/c4/3b/5dc43ba7-a92b-af19-6cda-64d366e9407c/PCSP_04381_A.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Finale."
+      }
     },
     "おやすみ泣き声、さよなら姫": {
       "title": "愛の標識",
@@ -396,10 +420,10 @@ window.SONG_MASTER = {
       }
     },
     "モニタリング-deco*27shortby": {
-      "title": "だれかの心臓になれたなら",
-      "artist": "まふまふ",
-      "album": "だれかの心臓になれたなら - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c4/59/15/c4591582-c115-0454-4222-fcbceca6b7e7/PCSP_03350.jpg/600x600bb.jpg"
+      "title": "吉原ラメント (feat. 重音テト)",
+      "artist": "亜沙",
+      "album": "吉原ラメント (feat. 重音テト) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/25/64/6f/25646f35-e08e-ea49-3952-f49a5d52f9ba/KRHS-92035.jpg/600x600bb.jpg"
     },
     "g4l-giga": {
       "title": "G4L",
@@ -708,10 +732,10 @@ window.SONG_MASTER = {
       }
     },
     "stay": {
-      "title": "Stay",
-      "artist": "Zedd & アレッシア・カーラ",
-      "album": "Stay - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/08/90/e50890a8-205e-a810-dcda-44b614f99f5f/00602557442878.rgb.jpg/600x600bb.jpg"
+      "title": "STAY",
+      "artist": "ジャスティン・ビーバー & ザ・キッド・ラロイ",
+      "album": "SWAG LIVE FROM COACHELLA (Weekend I)",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/06/1c/73/061c7321-52c9-5532-4fb5-5d704e43e7a9/ticket.efkjkgmd.jpg/600x600bb.jpg"
     },
     "粛聖!!ロリ神レクイエム☆": {
       "title": "粛聖!! ロリ神レクイエム☆",
@@ -911,8 +935,8 @@ window.SONG_MASTER = {
     "totⅿusica": {
       "title": "Tot Musica",
       "artist": "Ado",
-      "album": "ウタの歌 ONE PIECE FILM RED (All Video Version)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/d4/bf/da/d4bfda5d-b92c-b27f-2777-0716fc5b12b2/22UMGIM74128.rgb.jpg/600x600bb.jpg"
+      "album": "ウタの歌 ONE PIECE FILM RED",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/42/a3/cc/42a3cc35-fdb7-2ae7-02f3-e5a90f32eb8e/22UMGIM74128.rgb.jpg/600x600bb.jpg"
     },
     "サインはb": {
       "title": "サインはB -New Arrange Ver.-",
@@ -1061,12 +1085,6 @@ window.SONG_MASTER = {
       "album": "Northern lights - EP",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/5a/09/cc/mzi.pbyoqgta.jpg/600x600bb.jpg"
     },
-    "iii": {
-      "title": "I I I",
-      "artist": "宝鐘マリン & Kobo Kanaeru",
-      "album": "I I I - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/8a/54/b18a54c6-28e7-7630-bcfe-954e08867c66/4582729914913_art.jpg/600x600bb.jpg"
-    },
     "slashyama": {
       "title": "slash",
       "artist": "yama",
@@ -1087,12 +1105,6 @@ window.SONG_MASTER = {
       "en": {
         "title": "A faint flower"
       }
-    },
-    "あの夏が飽和する。カンザキイオリ": {
-      "title": "あの夏が飽和する",
-      "artist": "カンザキイオリ",
-      "album": "白紙",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/14/d0/dd/14d0dde4-ba9f-cf81-03ee-bf50c1e908eb/ANTCD-46527.jpg/600x600bb.jpg"
     },
     "恋するフォチュンクッキ＆あつまる＆ぴこぴこぐらむ＆ほし": {
       "title": "恋するフォーチュンクッキー",
@@ -1199,8 +1211,8 @@ window.SONG_MASTER = {
     "glowacoustic.": {
       "title": "春に落ちて",
       "artist": "鹿乃",
-      "album": "春に落ちて - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/21/5f/ec/215fec98-57c4-5462-aa28-80f9a32a0b7a/cover.jpg/600x600bb.jpg"
+      "album": "rye",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f5/33/c3/f533c341-433a-b4e1-2c61-18cd3c9e15a2/cover.jpg/600x600bb.jpg"
     },
     "コノハの世界事情.": {
       "title": "evergreen",
@@ -1302,10 +1314,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/46/4a/84/464a843d-14cc-e5e2-a9d6-763eb558e104/4547366270358.jpg/600x600bb.jpg"
     },
     "ちゅ、多様性。": {
-      "title": "願い〜あの頃のキミへ〜",
-      "artist": "當山 みれい",
-      "album": "願い E.P.",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/55/8b/98/558b9848-812d-6adc-5262-faf7a275c623/jacket_SRXX02373B00Z_550.jpg/600x600bb.jpg"
+      "title": "MAD HEAD LOVE",
+      "artist": "米津玄師",
+      "album": "YANKEE",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg"
     },
     "trustonme-themeofe.t.e": {
       "title": "Trust On Me -Theme of E.T.E- (feat. MARiA)",
@@ -1320,10 +1332,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/81/36/af/8136afa9-cf94-f4d5-8460-9510c8f6e99f/PA00077485_0_180113_jacket.jpg/600x600bb.jpg"
     },
     "僕が死のうと思ったのは.": {
-      "title": "ブルーアンビエンス (feat. asmi)",
-      "artist": "Mrs. GREEN APPLE",
-      "album": "Unity - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/45/11/66/45116621-c965-642d-43ef-b8cf33711bde/22UMGIM58754.rgb.jpg/600x600bb.jpg"
+      "title": "IRIS OUT",
+      "artist": "米津玄師",
+      "album": "IRIS OUT - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/f9/f1/e0f9f1f3-a088-b28d-6760-a28accabc705/4547366775181.jpg/600x600bb.jpg"
     },
     "無理に笑わなくて良いよ.": {
       "title": "ハロ/ハワユ",
@@ -1390,9 +1402,9 @@ window.SONG_MASTER = {
     },
     "キュトなカノジョ": {
       "title": "キュートなカノジョ",
-      "artist": "超学生",
-      "album": "キュートなカノジョ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/af/e6/a6/afe6a6e7-102b-c2c3-2ac9-49de87ee7a2e/PCSP_04035.jpg/600x600bb.jpg",
+      "artist": "IZUMI",
+      "album": "PALETTE5",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a1/92/22/a1922258-5ccd-edba-3fdb-67721181c362/PCSP_03942.jpg/600x600bb.jpg",
       "en": {
         "title": "cute girlfriend"
       }
@@ -1419,13 +1431,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2d/41/62/2d416235-b7e4-0584-13ae-9c860fdea99e/859755770290_cover.jpg/600x600bb.jpg"
     },
     "テロメアの産声": {
-      "title": "テロメアの産声",
-      "artist": "KK",
-      "album": "BEST OF KKBOX",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ed/3d/c2/ed3dc2a2-6d18-0fe8-a4f7-c9c1ee407d3b/PCSP_06060.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Birth cry of telomeres"
-      }
+      "title": "テロメアの産声 (feat. 初音ミク)",
+      "artist": "Heavenz",
+      "album": "Actor Reactor",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/67/8f/cd/678fcd20-21ad-4f96-eecf-ef85d489b4c0/4511820-95411.jpg/600x600bb.jpg"
     },
     "sakuraいきものがかりacousticarrange": {
       "title": "Give me a brains",
@@ -1440,10 +1449,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/96/49/b8/9649b86f-4487-c635-0f68-4f7659a41285/PCCA_06172_A.jpg/600x600bb.jpg"
     },
     "嘘つきは恋のはじまりarrangever.40mp": {
-      "title": "バンド",
-      "artist": "back number",
-      "album": "もしも生まれ変わったならそっとこんな声になって",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/10/23/a7/1023a79c-dc39-dd88-2d4e-6e259455b76f/24UMGIM90423.rgb.jpg/600x600bb.jpg"
+      "title": "Sharon",
+      "artist": "Official髭男dism",
+      "album": "Rejoice",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5e/35/b0/5e35b0e7-4c59-d77b-5856-5edc4413adae/PCCA_06304_A.jpg/600x600bb.jpg"
     },
     "会いたい《想见你想见你想见你》": {
       "title": "输入法记得你",
@@ -1482,10 +1491,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d2/29/9d/d2299deb-aca4-2229-de3b-d976635c6bb6/3617053072846.jpg/600x600bb.jpg"
     },
     "愛にできることはまだあるかいacoustic.": {
-      "title": "アトノマツリ",
-      "artist": "乃木坂46",
-      "album": "ここにはないもの (Special Edition)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/cb/91/ae/cb91ae8f-24d7-16b6-374f-322a704cc5cb/4547366595635.jpg/600x600bb.jpg"
+      "title": "ここから、かなたから~bambi-no cover~",
+      "artist": "鹿乃",
+      "album": "Stella-rium - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dc/b4/66/dcb466bf-c37a-4c50-a2bb-5c144f4d4a45/1000565791_Stella-rium.jpg/600x600bb.jpg"
     },
     "地球最後の告白をacoustic.": {
       "title": "ドラマツルギー (feat. 星乃一歌 & 初音ミク)",
@@ -1521,10 +1530,13 @@ window.SONG_MASTER = {
       }
     },
     "メルティランドナイトメア": {
-      "title": "メルティランドナイトメア (Cover)",
-      "artist": "そらる",
-      "album": "そらるの歌ってみた[2016-2018]",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fc/85/60/fc8560f1-00e3-b41a-d1bb-c169fa236ce4/PCSP_04901.jpg/600x600bb.jpg"
+      "title": "メルティランドナイトメア",
+      "artist": "はるまきごはん",
+      "album": "ネオドリームトラベラー",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a5/51/fd/a551fdf6-679a-842a-e46f-1588a06ed75f/dj.qqkpaffo.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Melty Land Nightmare"
+      }
     },
     "ハイタ": {
       "title": "君はロックを聴かない",
@@ -1626,16 +1638,16 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/fb/8c/50/fb8c5074-9f14-0149-4fe9-158269743006/jacket_VVXX00465B00Z_550.jpg/600x600bb.jpg"
     },
     "二次元ドリムフィバいました": {
-      "title": "それぞれ。",
-      "artist": "Hey! Say! JUMP",
-      "album": "P.U! - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/be/da/84/beda8465-b39c-f4ba-40af-dca52787fa5d/4517331076520.jpg/600x600bb.jpg"
+      "title": "We are All Stars!",
+      "artist": "ウタヒメドリーム オールスターズ【夢咲いぶき(CV:山﨑玲奈), 桜木舞華(CV:鈴木杏奈), 真白清美(CV:其原有沙), HiREN(CV:花耶), 水月ひかり(CV:礒部花凜), 高木凛(CV:鷲見友美ジェナ), 萩原ひまわり(CV:倉知玲鳳), SAKURAKO(CV:竹内夢), 扇紬(CV:西田ひらり), 森川奈緒(CV:小山奈桜)】",
+      "album": "アンノウンミー - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0d/5e/e4/0d5ee469-3ef5-a341-45d9-394c45bd18f9/PA00222991_0_250177_jacket.jpg/600x600bb.jpg"
     },
     "放課後ストライドいました": {
-      "title": "迅雷鉄火",
-      "artist": "放課後クライマックスガールズ & ストレイライト",
-      "album": "THE IDOLM@STER SHINY COLORS \"円環 -Halo around-\" 02 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/3f/cd/503fcd45-0942-f32d-8df6-952d4feeaf26/195533021056.png/600x600bb.jpg"
+      "title": "裸足じゃイラレナイ",
+      "artist": "放課後クライマックスガールズ",
+      "album": "THE IDOLM@STER SHINY COLORS Song for Prism 裸足じゃイラレナイ / 明日もBeautiful Day【アルストロメリア盤】 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ba/be/bb/babebb29-259b-0aa0-b719-539c8d80f7ae/4540774244768.jpg/600x600bb.jpg"
     },
     "メリメリいました": {
       "title": "メリーメリー",
@@ -1685,8 +1697,8 @@ window.SONG_MASTER = {
     "ウタカタララバイ": {
       "title": "ウタカタララバイ",
       "artist": "Ado",
-      "album": "ウタの歌 ONE PIECE FILM RED (All Video Version)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/d4/bf/da/d4bfda5d-b92c-b27f-2777-0716fc5b12b2/22UMGIM74128.rgb.jpg/600x600bb.jpg",
+      "album": "Adoのベストアドバム",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/be/c3/a6bec30f-8698-b206-73ad-a559e3f3edc6/25UMGIM35010.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "Utakatararabai"
       }
@@ -1860,10 +1872,10 @@ window.SONG_MASTER = {
       }
     },
     "すぱなチャット": {
-      "title": "SHAMPOO",
-      "artist": "PUNPEE, BIM & Elle Teresa",
-      "album": "Iced Out - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3f/2f/d4/3f2fd442-0514-722f-1dba-dd0f2403a098/4573268541708_cover.png/600x600bb.jpg"
+      "title": "Streamer",
+      "artist": "すとぷり",
+      "album": "Streamer - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/23/6c/30/236c30da-7cc3-24bd-d526-0dcf2eccf69a/20UMGIM70644.rgb.jpg/600x600bb.jpg"
     },
     "エイリアンエイリアン": {
       "title": "エイリアンエイリアン",
@@ -1886,8 +1898,8 @@ window.SONG_MASTER = {
     "やさしさに包まれたなら": {
       "title": "やさしさに包まれたなら",
       "artist": "荒井由実",
-      "album": "MISSLIM",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/52/9c/a0/529ca062-8a63-d1d7-5e6b-6774ba415dc2/00602567988229.rgb.jpg/600x600bb.jpg",
+      "album": "40周年記念ベストアルバム 日本の恋と、ユーミンと。",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/9d/29/a59d2913-c2a1-4d9c-78b2-0fa914eb3336/00602567997542.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "If you are surrounded by kindness"
       }
