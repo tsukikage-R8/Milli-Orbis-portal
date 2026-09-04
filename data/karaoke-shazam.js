@@ -103,10 +103,10 @@ window.KARAOKE_SHAZAM = {
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error timed out> / https://pipedapi.reallyawe"
   },
   "Iy_Eh0FIlwU": {
-    "status": "skip",
-    "attempts": 5,
-    "attemptedAt": "2026-08-28T04:25:53.098160+00:00",
-    "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: Expecting value: line 2 column 1 (char 1) / https://pi"
+    "status": "error",
+    "attempts": 1,
+    "attemptedAt": "2026-09-04T18:09:25.786563+00:00",
+    "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error timed out> / https://pipedapi.reallyawe"
   },
   "8y2v7uLYRN4": {
     "status": "skip",
@@ -127,15 +127,15 @@ window.KARAOKE_SHAZAM = {
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: Expecting value: line 2 column 1 (char 1) / https://pi"
   },
   "yoPXNBdttoc": {
-    "status": "error",
-    "attempts": 4,
-    "attemptedAt": "2026-09-04T15:38:48.301810+00:00",
-    "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error timed out> / https://pipedapi.reallyawe"
+    "status": "skip",
+    "attempts": 5,
+    "attemptedAt": "2026-09-04T18:08:20.964043+00:00",
+    "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: 音声ストリームがありません / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error timed out> / https://pipedapi.reallyaweso.me: HTTP Error 502: B"
   },
   "lkHVqtUjrac": {
-    "status": "error",
-    "attempts": 4,
-    "attemptedAt": "2026-09-04T15:39:17.330129+00:00",
+    "status": "skip",
+    "attempts": 5,
+    "attemptedAt": "2026-09-04T18:08:56.412467+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error timed out> / https://pipedapi.reallyawe"
   },
   "zXhjrkBhLSs": {
