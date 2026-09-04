@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T21:57:13.292Z",
+  "updatedAt": "2026-09-04T01:35:46.051Z",
   "streams": [
     {
       "id": "1L6MNxu8iQ0",
@@ -11,20 +11,20 @@
       "status": "upcoming"
     },
     {
-      "id": "KYrJTUAMsDM",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【めっちゃカメレオン】視聴者参加型！全員打ち抜くまで告知できません⁉️【音ノ瀬らこ /夕霧レイ 】",
-      "thumb": "https://i.ytimg.com/vi/KYrJTUAMsDM/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-04T11:00:00Z",
-      "status": "upcoming"
-    },
-    {
       "id": "t5GDlA3rUYM",
       "memberId": "rei",
       "member": "夕霧レイ",
       "title": "【めっちゃカメレオン】夕霧レイ視点！視聴者の皆を全員打ち抜くまで告知できません⁉️⟡.· 【 夕霧レイ/音ノ瀬らこ 】",
       "thumb": "https://i.ytimg.com/vi/t5GDlA3rUYM/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-04T11:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "KYrJTUAMsDM",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "title": "【めっちゃカメレオン】視聴者参加型！全員打ち抜くまで告知できません⁉️【音ノ瀬らこ /夕霧レイ 】",
+      "thumb": "https://i.ytimg.com/vi/KYrJTUAMsDM/hqdefault_live.jpg",
       "scheduledStartTime": "2026-09-04T11:00:00Z",
       "status": "upcoming"
     },
