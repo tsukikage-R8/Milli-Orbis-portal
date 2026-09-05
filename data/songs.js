@@ -1,7 +1,18 @@
 /* 自動生成: node scripts/fetch-songs.js（変更しないでください） */
 window.SONGS = {
-  "generatedAt": "2026-08-17",
+  "generatedAt": "2026-08-28",
   "official": [
+    {
+      "id": "MG3I1rUs5v8",
+      "title": "NET CHOOSE SHOW／雨夜リズ（official）",
+      "publishedAt": "2026-08-27",
+      "members": [
+        "liz"
+      ],
+      "en": {
+        "title": "NET CHOOSE SHOW / Amayo Liz (official)"
+      }
+    },
     {
       "id": "1UdnoJ6qgPs",
       "title": "おきらくスーパースター／小廻こま（official）",

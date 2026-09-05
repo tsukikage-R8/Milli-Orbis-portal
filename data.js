@@ -782,7 +782,7 @@ const MEMBERS = [
     catchphrase: "みんなの毎日を、まほろばに！",
     introVoice: "",
     featuredVideos: ["YzfwW0zTSpE"],
-    voice: "",
+    voice: "assets/voices/鹿乃まほろ.mp3",
     intro: "みんなの心に癒しの魔法を！",
     en: {
       gen: "MilliPro SONA",

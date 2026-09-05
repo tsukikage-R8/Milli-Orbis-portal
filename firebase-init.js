@@ -430,18 +430,26 @@ function mp_hide(id) {
 function mpRender(uid) {
   var hb = document.getElementById('acctBtn')
   if (hb) {
-    var info = mpProfileInfo()
+    var info = uid ? mpProfileInfo() : { pid: '', name: '', icon: '', comment: '', email: '' }
+    // ヘッダーのプロフィール丸アイコン (#profile-header-icon) も同様に未ログイン時はデフォルト表示
+    var headerIcon = document.getElementById('profile-header-icon')
+    if (headerIcon) {
+      if (uid && info.icon) renderUserIcon(headerIcon, info)
+      else if (uid && info.name) headerIcon.textContent = info.name.charAt(0)
+      else headerIcon.innerHTML = '<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>'
+    }
     hb.textContent = ''
     var ico = document.createElement('span')
     ico.className = 'acct-btn-ico'
-    renderUserIcon(ico, info)
+    if (uid) renderUserIcon(ico, info)
+    else ico.innerHTML = '<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>'
     var nm = document.createElement('span')
     nm.className = 'acct-btn-name'
-    nm.textContent = info.name || (info.pid ? '連携済み' : '')
+    nm.textContent = uid ? (info.name || (info.pid ? '連携済み' : '')) : ''
     hb.appendChild(ico)
     if (nm.textContent) hb.appendChild(nm)
     hb.dataset.logged = uid ? '1' : '0'
-    hb.title = info.pid ? ('連携ID: ' + info.pid) : 'アカウント連携'
+    hb.title = uid && info.pid ? ('連携ID: ' + info.pid) : 'アカウント連携'
   }
   var guest = document.getElementById('mp-account-guest')
   var ok = document.getElementById('mp-account-ok')

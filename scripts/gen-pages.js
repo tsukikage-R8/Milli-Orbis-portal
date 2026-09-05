@@ -709,6 +709,11 @@ fs.writeFileSync(path.join(outDir, "songs.html"), simplePage({
       <a class="unishare-cta" href="https://milli-unishare.onrender.com/" target="_blank" rel="noopener">
         <img src="images/icon/Milli%20Unishare-icon.PNG" alt="Milli Unishare" loading="lazy">
         <span data-i18n="songs.unishare">通常動画・ショート・ライブ配信のデータベースはこちら</span>
+      </a>
+      <a class="millivibe-cta" href="https://milli-unishare.onrender.com/millivibe" target="_blank" rel="noopener">
+        <span class="mv-badge" data-i18n="songs.millivibeBadge">新サービス</span>
+        <img src="images/rogo/Millivibe-rogo.png" alt="Millivibe" loading="lazy">
+        <span data-i18n="songs.millivibe">曲を聴けるサブスク風サイトはこちら</span>
       </a>`,
   body: `
   <section class="section">

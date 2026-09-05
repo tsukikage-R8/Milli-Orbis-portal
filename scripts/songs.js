@@ -200,6 +200,10 @@
   function songCardHtml(g, urls) {
     var list = urls && urls.length ? urls : g.urls;
     var primary = list[0] || { id: "", publishedAt: "" };
+    // 混在時に karaoke が先頭に来ても非karaokeを優先（防御）
+    if (primary.karaoke) {
+      for (var _pi = 0; _pi < list.length; _pi++) { if (!list[_pi].karaoke) { primary = list[_pi]; break; } }
+    }
     var art = artistOf(g);
     var versions = list.map(function (u) {
       var href = SD.videoUrl(u.id, u.start);
@@ -222,8 +226,11 @@
       "</div>";
   }
 
-  /* ---- 歌ってみた: 歌みた動画は動画ごとに1カード、歌枠由来のバージョンは曲単位で1カードに統合 ---- */
-  function coverCards() {
+  /* ---- 歌ってみた: 歌みた動画は動画ごとに1カード。
+     歌枠由来のバージョンは「すべて」「歌枠」タブでのみ集約カードとして表示し、
+     「歌ってみた」タブには含めない（タイトルは合っているのに歌枠サムネ/タイムスタンプになるバグの修正） ---- */
+  function coverCards(opts) {
+    var includeKaraoke = !opts || opts.includeKaraoke !== false;
     var list = coverList.slice();
     if (keyword) {
       list = list.filter(function (g) {
@@ -248,7 +255,7 @@
         var us = byVideo[id];
         cards.push({ date: us[0].publishedAt || "", html: songCardHtml(g, us) });
       });
-      if (karaoke.length) {
+      if (includeKaraoke && karaoke.length) {
         var kdate = "";
         karaoke.forEach(function (u) { if (u.publishedAt && u.publishedAt > kdate) kdate = u.publishedAt; });
         cards.push({ date: kdate, html: songCardHtml(g, karaoke) });
@@ -258,7 +265,7 @@
   }
 
   function coversHtml() {
-    var cards = coverCards();
+    var cards = coverCards({ includeKaraoke: false });
     if (!cards.length) return '<div class="placeholder">' + T("songs.none") + "</div>";
     return gridHtml(cards);
   }
@@ -393,23 +400,24 @@
     return gridHtml(cards);
   }
 
-  function coverCardCount() {
+  function coverCardCount(opts) {
+    var includeKaraoke = !opts || opts.includeKaraoke !== false;
     var n = 0;
     coverList.forEach(function (g) {
       var videos = (g.urls || []).filter(function (u) { return !u.karaoke; });
       var karaoke = (g.urls || []).filter(function (u) { return u.karaoke; });
       var seen = {};
       videos.forEach(function (u) { seen[u.id] = true; });
-      n += Object.keys(seen).length + (karaoke.length ? 1 : 0);
+      n += Object.keys(seen).length + (includeKaraoke && karaoke.length ? 1 : 0);
     });
     return n;
   }
 
   function render() {
     var n = view === "all"
-      ? coverCardCount() + (data.official || []).length + karaokeStreams.length
+      ? coverCardCount({ includeKaraoke: true }) + (data.official || []).length + karaokeStreams.length
       : view === "official" ? (data.official || []).length
-        : view === "karaoke" ? karaokeStreams.length : coverCardCount();
+        : view === "karaoke" ? karaokeStreams.length : coverCardCount({ includeKaraoke: false });
     tabLabel.textContent = view === "all" ? T("songs.tabLabelAll", { n: n }) :
       view === "covers" ? T("songs.tabLabelCovers", { n: n }) :
         view === "official" ? T("songs.tabLabelOfficial", { n: n }) : T("songs.tabLabelKaraoke", { n: n });
