@@ -852,18 +852,18 @@
   }
   function setNotifEnabled(on) {
     try { localStorage.setItem("milli-notif", on ? "on" : "off"); } catch (e) {}
-    var b = $("#notifBell");
-    if (b) {
+    var bells = $$("#notifBell, #mobileNotifBell");
+    bells.forEach(function (b) {
       b.classList.toggle("is-on", on);
       b.setAttribute("aria-label", on ? T("header.bellOn") : T("header.bellOff"));
       b.title = on ? T("header.bellOnTitle") : T("header.bellOffTitle");
-    }
+    });
   }
   function initNotifBell() {
-    var b = $("#notifBell");
-    if (!b) return;
+    var bells = $$("#notifBell, #mobileNotifBell");
+    if (!bells.length) return;
     setNotifEnabled(notifEnabled());
-    b.addEventListener("click", function () {
+    bells.forEach(function (b) { b.addEventListener("click", function () {
       if (!("Notification" in window)) { alert(T("notif.unsupported")); return; }
       if (notifEnabled()) {
         setNotifEnabled(false);
@@ -882,7 +882,7 @@
         if (p === "granted") grant();
         else alert(T("notif.onFailed"));
       });
-    });
+    }); });
   }
   function checkDailyNotif() {
     if (!("Notification" in window) || Notification.permission !== "granted" || !notifEnabled()) return;
@@ -1966,25 +1966,29 @@
 
   /* ============ ダークモード ============ */
   function initTheme() {
-    var btn = $("#themeToggle");
-    if (!btn) return;
+    var btns = $$("#themeToggle, #mobileThemeToggle");
+    if (!btns.length) return;
     var sync = function () {
       var dark = document.documentElement.dataset.theme === "dark";
-      btn.textContent = dark ? "☀️" : "🌙";
-      btn.setAttribute("aria-label", dark ? T("header.themeLight") : T("header.themeDark"));
+      btns.forEach(function (b) {
+        b.textContent = dark ? "☀️" : "🌙";
+        b.setAttribute("aria-label", dark ? T("header.themeLight") : T("header.themeDark"));
+      });
     };
     sync();
-    btn.addEventListener("click", function () {
-      var dark = document.documentElement.dataset.theme === "dark";
-      if (dark) {
-        delete document.documentElement.dataset.theme;
-        try { localStorage.setItem("milli-theme", "light"); } catch (e) {}
-      } else {
-        document.documentElement.dataset.theme = "dark";
-        try { localStorage.setItem("milli-theme", "dark"); } catch (e) {}
-      }
-      sync();
-      applyOshi(getOshi());
+    btns.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var dark = document.documentElement.dataset.theme === "dark";
+        if (dark) {
+          delete document.documentElement.dataset.theme;
+          try { localStorage.setItem("milli-theme", "light"); } catch (e) {}
+        } else {
+          document.documentElement.dataset.theme = "dark";
+          try { localStorage.setItem("milli-theme", "dark"); } catch (e) {}
+        }
+        sync();
+        applyOshi(getOshi());
+      });
     });
   }
 

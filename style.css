@@ -5014,21 +5014,21 @@ html.cursor-custom.cursor-miri .watch-loading, html.cursor-custom.cursor-miri .l
 @media (prefers-reduced-motion: reduce) {
   html.cursor-custom * { cursor: auto !important; }
 }
-/* ── トップバーのカーソル選択（PC/タブレットのみ・オリジナルUI） ── */
-.cursor-top-wrap { position: relative; display: none; }
-@media (min-width: 768px) {
-  .cursor-top-wrap { display: block; }
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-  .cursor-top-wrap { display: none !important; }
-}
-@media (min-width: 1025px) and (max-width: 1130px) {
-  #cursorTopLabel { display: none; }
-  .cursor-top-btn { padding: 6px 8px; min-width: 36px; justify-content: center; }
-}
-@media (max-width: 1024px) {
-  .oshi-select { max-width: 72px !important; }
-}
+/* ── 統合カーソル+推し（PC/タブレット共通・常時表示） ── */
+.oshi-cursor-wrap { position: relative; display: inline-flex; flex:none; }
+.oshi-cursor-btn { display:inline-flex; align-items:center; gap:6px; padding:6px 8px; border:1px solid #e5e5e5; border-radius:999px; background:#fff; cursor:pointer; transition:border-color 0.15s, box-shadow 0.15s; white-space:nowrap; }
+.oshi-cursor-btn:hover { border-color:#7a4fc4; box-shadow:0 2px 8px rgba(122,79,196,0.15); }
+.oshi-cursor-btn[aria-expanded="true"] { border-color:#7a4fc4; background:#f8f2ff; }
+.oshi-cursor-preview { width:18px; height:18px; border-radius:50%; border:2px solid #fff; box-shadow:0 1px 4px rgba(0,0,0,0.2); display:inline-block; flex-shrink:0; background:#7a4fc4; background-size:cover; background-position:center; }
+.oshi-dot { width:12px; height:12px; border-radius:50%; border:2px solid #fff; outline:1px solid var(--accent); background:var(--accent); display:inline-block; flex-shrink:0; }
+.oshi-cursor-dropdown { position:absolute; top:calc(100% + 8px); right:0; width:280px; max-height:380px; overflow-y:auto; background:#fff; border:1px solid #e8e8e8; border-radius:14px; box-shadow:0 12px 32px rgba(0,0,0,0.12); z-index:100; padding:8px; display:none; }
+.oshi-cursor-dropdown.open { display:block; }
+.oshi-section-title { font-family:var(--font-display); font-weight:900; font-size:0.78rem; color:var(--muted); padding:6px 6px 4px; letter-spacing:0.04em; }
+.oshi-dropdown-item { display:flex; align-items:center; gap:10px; width:100%; padding:7px 10px; border:none; border-radius:8px; background:transparent; text-align:left; cursor:pointer; transition:background 0.12s; font-size:0.84rem; font-weight:700; }
+.oshi-dropdown-item:hover { background:#f3f0ff; }
+.oshi-dropdown-item.active { background:#ede7ff; }
+.oshi-dropdown-item .oshi-dot-sm { width:12px; height:12px; border-radius:50%; flex:none; border:2px solid #fff; outline:1px solid rgba(0,0,0,0.12); }
+.cursor-top-wrap, .oshi-select, .cursor-dropdown { display:none !important; }
 .cursor-top-btn {
   display: inline-flex;
   align-items: center;

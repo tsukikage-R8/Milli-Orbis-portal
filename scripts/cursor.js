@@ -59,7 +59,7 @@
       var id = (s.talentId && s.talentId !== "default") ? s.talentId : "";
       if (id) html.classList.add("cursor-" + id);
     }
-    // トップバーの表示を更新
+    // トップバーの表示を更新（旧 + 新統合）
     try {
       var label = document.getElementById("cursorTopLabel");
       var preview = document.getElementById("cursorTopPreview");
@@ -84,12 +84,10 @@
             for (var kk = 0; kk < MEMBERS.length; kk++) if (MEMBERS[kk].id === s.talentId) { mm = MEMBERS[kk]; break; }
             if (mm) {
               icon = mm.icon || "";
-              // prefer icon path as is
               if (icon && icon.indexOf("/") === 0) { /* absolute */ }
             }
           }
           if (s.talentId === "milli-chan") {
-            // ヘッダープレビューはタレントアイコンを表示（ドロップダウンと統一）
             try {
               for (var _k=0; _k<MEMBERS.length; _k++) if (MEMBERS[_k].id==="milchan") { icon = MEMBERS[_k].icon || icon; break; }
             } catch(e) {}
@@ -117,6 +115,46 @@
         else active = el.dataset.id === s.talentId;
         el.classList.toggle("active", active);
       }
+      // 新統合ボタン用
+      var oshiPrev = document.getElementById("oshiCursorPreview");
+      if (oshiPrev) {
+        if (s && s.enabled && s.talentId && s.talentId !== "default") {
+          var icon2 = "";
+          if (typeof MEMBERS !== "undefined") {
+            var mm2 = null;
+            for (var kk2 = 0; kk2 < MEMBERS.length; kk2++) if (MEMBERS[kk2].id === s.talentId) { mm2 = MEMBERS[kk2]; break; }
+            if (mm2) icon2 = mm2.icon || "";
+          }
+          if (s.talentId === "milli-chan") {
+            try { for (var _k2=0; _k2<MEMBERS.length; _k2++) if (MEMBERS[_k2].id==="milchan") { icon2 = MEMBERS[_k2].icon || icon2; break; } } catch(e2) {}
+            if (!icon2 || icon2.indexOf("milli-chan")>=0) icon2 = "images/icon/milli%20chan_profile.JPEG";
+          }
+          if (!icon2) icon2 = "/images/cursors/" + s.talentId + ".png";
+          oshiPrev.style.backgroundImage = "url('" + icon2 + "')";
+          oshiPrev.style.backgroundSize = "cover";
+          oshiPrev.style.backgroundColor = "#fff";
+        } else if (s && s.enabled) {
+          oshiPrev.style.backgroundImage = "url('/images/cursors/default.png')";
+          oshiPrev.style.backgroundSize = "cover";
+          oshiPrev.style.backgroundColor = "#fff";
+        } else {
+          oshiPrev.style.backgroundImage = "";
+          oshiPrev.style.backgroundColor = "#7a4fc4";
+        }
+      }
+      // oshiDot は script.js の colorOshiSelect と applyOshi でも更新されるが、ここでも同期
+      try {
+        var oshiDot = document.getElementById("oshiDot");
+        if (oshiDot && typeof getOshi === "function") {
+          var oshiId = getOshi();
+          var mOshi = null;
+          if (oshiId && typeof MEMBERS !== "undefined") {
+            for (var oi=0; oi<MEMBERS.length; oi++) if (MEMBERS[oi].id === oshiId) { mOshi = MEMBERS[oi]; break; }
+          }
+          oshiDot.style.background = mOshi ? mOshi.color : "var(--accent)";
+          oshiDot.style.outlineColor = mOshi ? mOshi.color : "var(--accent)";
+        }
+      } catch(eo) {}
     } catch (e) {}
   }
 
@@ -262,6 +300,128 @@
     document.addEventListener("click", function () { setTimeout(renderMobile, 200); });
   }
 
+  // Combined oshi+cursor dropdown
+  function initOshiCursor() {
+    var wrap = document.getElementById("oshiCursorWrap");
+    var btn = document.getElementById("oshiCursorBtn");
+    var dd = document.getElementById("oshiCursorDropdown");
+    if (!wrap || !btn || !dd) return;
+    var members = [];
+    if (typeof MEMBERS !== "undefined") {
+      for (var i = 0; i < MEMBERS.length; i++) {
+        if (MEMBERS[i].id === "milchan") continue;
+        members.push(MEMBERS[i]);
+      }
+    }
+    function renderCombined() {
+      var cur = getCursorSettings() || { enabled: false, talentId: "default" };
+      var oshiId = "";
+      try { oshiId = typeof getOshi === "function" ? getOshi() : ""; } catch(e) { oshiId = ""; }
+      var html = "";
+      html += '<div class="oshi-section-title">カーソル</div>';
+      var offActive = !cur.enabled ? ' active' : '';
+      html += '<button class="cursor-dropdown-item' + offActive + '" data-cur="__off" role="menuitem"><span style="width:28px;height:28px;border-radius:50%;background:#eee;display:flex;align-items:center;justify-content:center;font-size:12px">🚫</span><span>OFF（標準）</span><span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg></span></button>';
+      for (var mi=0; mi<members.length; mi++) {
+        var m = members[mi];
+        var active = cur.enabled && cur.talentId === m.id ? ' active' : '';
+        var icon = m.icon || ("/images/cursors/" + m.id + ".png");
+        html += '<button class="cursor-dropdown-item' + active + '" data-cur="' + m.id + '" role="menuitem"><img src="' + icon + '" alt="" onerror="this.src=\'/images/cursors/default.png\'"><span>' + esc(m.name) + '</span><span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg></span></button>';
+      }
+      // milli-chan cursor
+      {
+        var mId = "milli-chan";
+        var a = cur.enabled && cur.talentId === mId ? ' active' : '';
+        var ic = "images/icon/milli%20chan_profile.JPEG";
+        try { for (var _mi=0; _mi<MEMBERS.length; _mi++) if (MEMBERS[_mi].id==="milchan") { ic = MEMBERS[_mi].icon || ic; break; } } catch(e) {}
+        html += '<button class="cursor-dropdown-item' + a + '" data-cur="' + mId + '" role="menuitem"><img src="' + ic + '" alt="" onerror="this.src=\'/images/cursors/default.png\'"><span>ミリちゃん</span><span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg></span></button>';
+      }
+      html += '<div class="drop-sep" style="height:2px;margin:8px 4px;background:repeating-linear-gradient(90deg, var(--accent) 0 8px, transparent 8px 14px);"></div>';
+      html += '<div class="oshi-section-title">推し（背景）</div>';
+      html += '<button class="oshi-dropdown-item' + (!oshiId ? ' active' : '') + '" data-oshi="" role="menuitem"><span class="oshi-dot-sm" style="background:#f6f1e9;border-color:var(--accent);"></span><span>未選択（デフォルト）</span><span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg></span></button>';
+      for (var oi=0; oi<members.length; oi++) {
+        var mo = members[oi];
+        var act = oshiId === mo.id ? ' active' : '';
+        html += '<button class="oshi-dropdown-item' + act + '" data-oshi="' + mo.id + '" role="menuitem"><span class="oshi-dot-sm" style="background:' + mo.color + '"></span><span>' + esc(mo.name) + '</span><span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg></span></button>';
+      }
+      // milli-chan as oshi? not a talent for oshi, skip
+      dd.innerHTML = html;
+      // cursor handlers
+      dd.querySelectorAll("[data-cur]").forEach(function(el){
+        el.addEventListener("click", function(){
+          var id = el.dataset.cur;
+          if (id === "__off") {
+            var s = { enabled:false, talentId:"default" };
+            saveCursorSettings(s); applyCursor(s);
+          } else {
+            var s2 = { enabled:true, talentId:id };
+            saveCursorSettings(s2); applyCursor(s2);
+          }
+          renderCombined();
+          // keep dropdown open for oshi selection, don't close
+        });
+      });
+      // oshi handlers
+      dd.querySelectorAll("[data-oshi]").forEach(function(el){
+        el.addEventListener("click", function(){
+          var id = el.dataset.oshi;
+          try {
+            if (typeof setOshi === "function") setOshi(id);
+            else {
+              try { localStorage.setItem("milli-oshi", id); } catch(e) {}
+              if (typeof applyOshi === "function") applyOshi(id);
+            }
+          } catch(e) {}
+          renderCombined();
+          // sync hidden select
+          var sel = document.getElementById("oshiSelect");
+          if (sel) sel.value = id;
+          // update dot
+          applyCursor(getCursorSettings());
+        });
+      });
+    }
+    renderCombined();
+    btn.addEventListener("click", function(e){
+      e.stopPropagation();
+      var open = dd.classList.contains("open");
+      dd.classList.toggle("open", !open);
+      btn.setAttribute("aria-expanded", String(!open));
+      dd.setAttribute("aria-hidden", String(open));
+      if (!open) renderCombined();
+    });
+    document.addEventListener("click", function(e){
+      if (!wrap.contains(e.target)) {
+        dd.classList.remove("open");
+        btn.setAttribute("aria-expanded", "false");
+        dd.setAttribute("aria-hidden", "true");
+      }
+    });
+    document.addEventListener("keydown", function(e){
+      if (e.key === "Escape") {
+        dd.classList.remove("open");
+        btn.setAttribute("aria-expanded", "false");
+        dd.setAttribute("aria-hidden", "true");
+      }
+    });
+    // sync when external changes (e.g., mobile select)
+    document.addEventListener("milli-oshi-change", renderCombined);
+    // also watch storage changes
+    window.addEventListener("storage", renderCombined);
+    // wrap setOshi to sync combined dropdown when oshi changes via other UI
+    try {
+      if (typeof window.setOshi === "function" && !window.setOshi._wrappedForOshiCursor) {
+        var _origSetOshi = window.setOshi;
+        window.setOshi = function(id){
+          var r = _origSetOshi.apply(this, arguments);
+          try { renderCombined(); } catch(e) {}
+          try { applyCursor(getCursorSettings()); } catch(e) {}
+          return r;
+        };
+        window.setOshi._wrappedForOshiCursor = true;
+      }
+    } catch(e) {}
+  }
+
   // Expose globally for other scripts
   window.CursorStore = {
     get: getCursorSettings,
@@ -272,6 +432,7 @@
   window.initCursor = initCursor;
   window.initCursorTopBar = initCursorTopBar;
   window.initMobileCursor = initMobileCursor;
+  window.initOshiCursor = initOshiCursor;
 
   // Auto-init on DOMContentLoaded (defer-safe)
   if (document.readyState === "loading") {
@@ -279,10 +440,12 @@
       initCursor();
       try { initCursorTopBar(); } catch (e) {}
       try { initMobileCursor(); } catch (e) {}
+      try { initOshiCursor(); } catch (e) {}
     });
   } else {
     initCursor();
     try { initCursorTopBar(); } catch (e) {}
     try { initMobileCursor(); } catch (e) {}
+    try { initOshiCursor(); } catch (e) {}
   }
 })();

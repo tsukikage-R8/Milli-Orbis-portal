@@ -275,13 +275,11 @@ const mobileNav = (home) => `
       <a href="account.html" data-i18n="nav.account">マイページ</a>
       <a href="cursors.html">カーソル配布</a>
       <a href="${home}#links">Official Links</a>
-      <div class="mobile-cursor-box" id="mobileCursorBox" style="margin-top:12px;padding:12px 10px;background:var(--accent-soft);border-radius:14px;border:2px dashed var(--accent);">
-        <div style="font-family:var(--font-display);font-weight:900;font-size:0.82rem;margin-bottom:8px;">カーソル</div>
-        <div style="display:flex;gap:8px;align-items:center;">
-          <select id="mobileCursorSelect" style="flex:1;min-width:0;padding:7px 10px;border:2px solid var(--accent);border-radius:999px;background:#fff;font-weight:700;font-size:0.82rem;"></select>
-          <button type="button" id="mobileCursorOff" style="padding:7px 12px;border-radius:999px;border:2px solid var(--accent);background:#fff;font-weight:800;font-size:0.78rem;cursor:pointer;">OFF</button>
-        </div>
-        <div style="font-size:0.72rem;color:var(--muted);margin-top:6px;">PCではヘッダーの「カーソル」ボタンからも切り替えできます</div>
+      <div class="mobile-settings" style="margin-top:14px;padding:12px;background:var(--card);border-radius:12px;border:2px solid var(--border);display:flex;gap:8px;align-items:center;justify-content:space-between;flex-wrap:wrap;">
+        <button type="button" class="notif-bell" id="mobileNotifBell" aria-label="通知設定" data-i18n-aria="header.notif">🔔</button>
+        <button type="button" class="theme-toggle" id="mobileThemeToggle" aria-label="ダークモード切替" data-i18n-aria="header.theme">🌙</button>
+        <button type="button" class="lang-toggle" id="mobileLangToggle" aria-label="言語切替" data-i18n-aria="header.lang">EN</button>
+        <span style="font-size:0.78rem;color:var(--muted);font-weight:700;">通知 / テーマ / 言語</span>
       </div>`;
 
 /* 言語切替ボタン（全ページ共通のヘッダー用） */
@@ -291,21 +289,18 @@ const langToggleHtml = `
 const headerActions = (memberHome) => `
     <div class="header-actions">
       <a id="liveBadge" class="live-badge" href="#" target="_blank" rel="noopener">● LIVE</a>
-      <button type="button" class="notif-bell" id="notifBell" aria-label="通知設定" data-i18n-aria="header.notif">🔔</button>
   <button type="button" class="profile-btn" id="profile-btn" onclick="mpOpenAccount()" aria-label="Milli Orbisアカウント" data-i18n-aria="header.profile">
         <span class="profile-icon" id="profile-header-icon">?</span>
       </button>
-      <div class="cursor-top-wrap" id="cursorTopWrap" style="display:none">
-        <button id="cursorTopBtn" class="cursor-top-btn" aria-label="カーソル選択" aria-expanded="false" aria-haspopup="true">
-          <span class="cursor-top-preview" id="cursorTopPreview" style="width:18px;height:18px;border-radius:50%;background:#7a4fc4;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.2);display:inline-block;flex-shrink:0"></span>
-          <span id="cursorTopLabel">カーソル</span>
+      <div class="oshi-cursor-wrap" id="oshiCursorWrap">
+        <button id="oshiCursorBtn" class="oshi-cursor-btn" aria-label="カーソルと推しを選択" aria-expanded="false" aria-haspopup="true">
+          <span id="oshiCursorPreview" class="oshi-cursor-preview" style="width:18px;height:18px;border-radius:50%;background:#7a4fc4;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.2);display:inline-block;flex-shrink:0"></span>
+          <span id="oshiDot" class="oshi-dot" style="width:12px;height:12px;border-radius:50%;background:var(--accent);border:2px solid #fff;outline:1px solid var(--accent);display:inline-block;flex-shrink:0"></span>
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="opacity:0.6"><path d="M6 9l6 6 6-6"/></svg>
         </button>
-        <div id="cursorDropdown" class="cursor-dropdown" role="menu" aria-hidden="true"></div>
+        <div id="oshiCursorDropdown" class="oshi-cursor-dropdown" role="menu" aria-hidden="true"></div>
       </div>
-      <select id="oshiSelect" class="oshi-select" aria-label="推しメンバーを選択" data-i18n-aria="header.oshi"></select>
-      <button type="button" class="theme-toggle" id="themeToggle" aria-label="ダークモード切替" data-i18n-aria="header.theme">🌙</button>
-      ${langToggleHtml}
+      <select id="oshiSelect" class="oshi-select" aria-label="推しメンバーを選択" data-i18n-aria="header.oshi" style="display:none"></select>
       <button id="hamburger" class="hamburger" aria-label="メニュー" data-i18n-aria="header.menu">
         <svg viewBox="0 0 28 20" width="30" height="22" aria-hidden="true"><path d="M2 3h24M2 10h24M2 17h24" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/></svg>
       </button>
