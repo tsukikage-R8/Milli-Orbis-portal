@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-09-05T01:37:06.827Z",
+  "updatedAt": "2026-09-05T07:53:14.903Z",
   "streams": [
+    {
+      "id": "paYLb_ElVA4",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "【PUBG LAND 2026】大会本番いくぞ～～🔥🔥たくさん銃を撃ちます【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/paYLb_ElVA4/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-05T09:00:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "g_UNz60C8H4",
       "memberId": "nono",
@@ -219,6 +228,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "paYLb_ElVA4",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【PUBG LAND 2026】大会本番いくぞ～～🔥🔥たくさん銃を撃ちます【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/paYLb_ElVA4/hqdefault_live.jpg",
+      "publishedAt": "2026-09-05T02:41:59Z",
+      "live": false
+    },
     {
       "id": "1f-kSxfpmK4",
       "memberId": "raco",
@@ -508,16 +527,6 @@
       "thumb": "https://i.ytimg.com/vi/5CqMFPtDXV4/hqdefault.jpg",
       "publishedAt": "2026-09-01T11:42:35Z",
       "live": true
-    },
-    {
-      "id": "5eWP8hZiEwM",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【アニメ】プリントを後ろに回すとき#ミリプロ #anime",
-      "thumb": "https://i.ytimg.com/vi/5eWP8hZiEwM/hqdefault.jpg",
-      "publishedAt": "2026-09-01T09:00:24Z",
-      "live": false
     }
   ],
   "live": []

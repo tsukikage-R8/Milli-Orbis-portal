@@ -1,6 +1,14 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "6q9mf4_ufvI",
+    "memberId": "yura",
+    "publishedAt": "2026-09-05",
+    "title": "【歌枠┆雑談】久しぶりに声出しだ～！！！！【ゆらぎゆら/ミリプロ】",
+    "duration": 5281,
+    "songs": []
+  },
+  {
     "id": "wh4UF6M-Lbk",
     "memberId": "nono",
     "publishedAt": "2026-09-01",

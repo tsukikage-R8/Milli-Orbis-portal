@@ -2696,6 +2696,22 @@ window.SONGS = {
       }
     },
     {
+      "title": "Surges",
+      "key": "surges＆",
+      "urls": [
+        {
+          "id": "lSbndj8gieg",
+          "memberId": "raco",
+          "publishedAt": "2026-09-05"
+        },
+        {
+          "id": "lSbndj8gieg",
+          "memberId": "rei",
+          "publishedAt": "2026-09-05"
+        }
+      ]
+    },
+    {
       "title": "恋するフォーチュンクッキー",
       "key": "恋するフォチュンクッキ＆あつまる＆ぴこぴこぐらむ＆ほし",
       "urls": [
