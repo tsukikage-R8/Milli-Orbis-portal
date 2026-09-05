@@ -244,12 +244,36 @@
 
   function initHeader() {
     var burger = $("#hamburger");
+    var backdrop = $("#drawerBackdrop");
+    function setDrawer(open) {
+      var nav = $("#mobileNav");
+      if (!nav) return;
+      nav.classList.toggle("open", open);
+      nav.setAttribute("aria-hidden", String(!open));
+      if (backdrop) { backdrop.classList.toggle("open", open); backdrop.setAttribute("aria-hidden", String(!open)); }
+      if (burger) burger.setAttribute("aria-expanded", String(open));
+      document.body.style.overflow = open ? "hidden" : "";
+    }
     if (burger) {
-      burger.addEventListener("click", function () {
+      burger.addEventListener("click", function (e) {
+        e.stopPropagation();
         var nav = $("#mobileNav");
-        if (nav) nav.classList.toggle("open");
+        var isOpen = nav && nav.classList.contains("open");
+        setDrawer(!isOpen);
       });
     }
+    if (backdrop) backdrop.addEventListener("click", function(){ setDrawer(false); });
+    document.addEventListener("click", function(e){
+      var nav=$("#mobileNav");
+      if(!nav || !nav.classList.contains("open")) return;
+      if(nav.contains(e.target) || (burger && burger.contains(e.target))) return;
+      // ヘッダー外(メインやbackdrop外)を押したら閉じる
+      setDrawer(false);
+    });
+    document.addEventListener("keydown", function(e){ if(e.key==="Escape"){ var nav=$("#mobileNav"); if(nav && nav.classList.contains("open")) setDrawer(false); }});
+    // ドロワー内リンククリックで閉じる
+    var mNav = $("#mobileNav");
+    if (mNav) mNav.addEventListener("click", function(e){ if(e.target.closest("a")) setDrawer(false); });
 
     $$(".nav-drop").forEach(function (drop) {
       var btn = $(".nav-drop-btn", drop);
@@ -2247,6 +2271,9 @@
     });
     setOshiFilter(oshiFilterOn());
   }
+
+  // 外部(カーソル統合UI)から呼べるよう公開
+  try { window.getOshi = getOshi; window.setOshi = setOshi; window.applyOshi = applyOshi; } catch(e) {}
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", boot);

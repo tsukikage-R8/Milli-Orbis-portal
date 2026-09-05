@@ -538,12 +538,13 @@ function mpSaveProfile() {
 
 // アカウント連携ポップアップ
 function mpOpen() {
-  mp_show('acctModal')
+  mp_show('login-popup')
   mpRender(getMilliproUid())
 }
 
 // 全ポップアップを閉じる
 function mpClose() {
+  mp_hide('login-popup')
   mp_hide('acctModal')
   mp_hide('loginModal')
   mp_hide('signupModal')
@@ -551,7 +552,7 @@ function mpClose() {
 }
 
 function mpToggle() {
-  var m = document.getElementById('acctModal')
+  var m = document.getElementById('login-popup') || document.getElementById('acctModal')
   if (!m) return
   if (m.classList.contains('open')) mpClose(); else mpOpen()
 }
@@ -559,12 +560,12 @@ function mpToggle() {
 // ログイン / 新規登録 を別ポップアップで開く
 function mpOpenLogin() {
   mpClose()
-  mp_show('loginModal')
+  mp_show('login-popup')
 }
 
 function mpOpenSignup() {
   mpClose()
-  mp_show('signupModal')
+  mp_show('login-popup')
 }
 
 function mpTogglePw(id) {
@@ -757,6 +758,19 @@ function mpUnlinkProvider(provider) {
 })();
 
 initFirebase()
+
+// login-popup の閉じる挙動（HTMLのIDに合わせる）
+;(function(){
+  function bindPopupClose(){
+    var popup = document.getElementById('login-popup');
+    var btn = document.getElementById('mp-popup-close');
+    if(btn) btn.addEventListener('click', function(){ mpClose(); });
+    if(popup) popup.addEventListener('click', function(e){ if(e.target===popup) mpClose(); });
+    document.addEventListener('keydown', function(e){ if(e.key==='Escape'){ var p=document.getElementById('login-popup'); if(p && p.classList.contains('open')) mpClose(); }});
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', bindPopupClose);
+  else bindPopupClose();
+})();
 
 onMilliproAuth(function (uid) {
   if (uid) {

@@ -248,14 +248,25 @@ const navDrop = (home) => `
         </div>
       </div>
       <a href="${home}#groups" data-i18n="nav.groups">グループ・期生</a>
-      <a href="quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
       <a href="songs.html" data-i18n="nav.songs">曲データベース</a>
-      <a href="account.html" data-i18n="nav.account">マイページ</a>`;
+      <a href="${home}#calendar">Event Calendar</a>
+      <a href="${home}#links">Official Links</a>`;
 
 const mobileNav = (home) => `
+      <div class="drawer-section-label">設定</div>
+      <div class="drawer-settings">
+        <button type="button" class="notif-bell" id="mobileNotifBell" aria-label="通知設定" data-i18n-aria="header.notif">🔔</button>
+        <button type="button" class="theme-toggle" id="mobileThemeToggle" aria-label="ダークモード切替" data-i18n-aria="header.theme">🌙</button>
+        <button type="button" class="lang-toggle" id="mobileLangToggle" aria-label="言語切替" data-i18n-aria="header.lang">EN</button>
+        <span style="font-size:0.78rem;color:var(--muted);font-weight:700;">通知 / テーマ / 言語</span>
+      </div>
+      <div class="drawer-section-label">セクション</div>
       <a href="${home}#home">Home</a>
       <a href="${home}#groups" data-i18n="nav.groups">グループ・期生</a>
       <a href="${home}#members">Member Guide</a>
+      <a href="${home}#calendar">Event Calendar</a>
+      <a href="${home}#links">Official Links</a>
+      <div class="drawer-section-label">Member Guide</div>
       <a class="mobile-sub" href="konomi.html" data-i18n-name="konomi">甘狼このみ</a>
       <a class="mobile-sub" href="nono.html" data-i18n-name="nono">音ノ乃のの</a>
       <a class="mobile-sub" href="akubi.html" data-i18n-name="akubi">あくび・でもんすぺーど</a>
@@ -268,19 +279,12 @@ const mobileNav = (home) => `
       <a class="mobile-sub" href="rei.html" data-i18n-name="rei">夕霧レイ</a>
       <a class="mobile-sub" href="mahoro.html" data-i18n-name="mahoro">鹿乃まほろ</a>
       <a class="mobile-sub" href="milchan.html" data-i18n-name="milchan">ミリちゃん</a>
-      <a href="${home}#calendar">Event Calendar</a>
+      <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
+      <div class="drawer-section-label">コンテンツ</div>
       <a href="quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
       <a href="songs.html" data-i18n="nav.songs">曲データベース</a>
-      <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
-      <a href="account.html" data-i18n="nav.account">マイページ</a>
       <a href="cursors.html">カーソル配布</a>
-      <a href="${home}#links">Official Links</a>
-      <div class="mobile-settings" style="margin-top:14px;padding:12px;background:var(--card);border-radius:12px;border:2px solid var(--border);display:flex;gap:8px;align-items:center;justify-content:space-between;flex-wrap:wrap;">
-        <button type="button" class="notif-bell" id="mobileNotifBell" aria-label="通知設定" data-i18n-aria="header.notif">🔔</button>
-        <button type="button" class="theme-toggle" id="mobileThemeToggle" aria-label="ダークモード切替" data-i18n-aria="header.theme">🌙</button>
-        <button type="button" class="lang-toggle" id="mobileLangToggle" aria-label="言語切替" data-i18n-aria="header.lang">EN</button>
-        <span style="font-size:0.78rem;color:var(--muted);font-weight:700;">通知 / テーマ / 言語</span>
-      </div>`;
+      <a href="account.html" data-i18n="nav.account">マイページ</a>`;
 
 /* 言語切替ボタン（全ページ共通のヘッダー用） */
 const langToggleHtml = `
@@ -295,13 +299,13 @@ const headerActions = (memberHome) => `
       <div class="oshi-cursor-wrap" id="oshiCursorWrap">
         <button id="oshiCursorBtn" class="oshi-cursor-btn" aria-label="カーソルと推しを選択" aria-expanded="false" aria-haspopup="true">
           <span id="oshiCursorPreview" class="oshi-cursor-preview" style="width:18px;height:18px;border-radius:50%;background:#7a4fc4;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.2);display:inline-block;flex-shrink:0"></span>
-          <span id="oshiDot" class="oshi-dot" style="width:12px;height:12px;border-radius:50%;background:var(--accent);border:2px solid #fff;outline:1px solid var(--accent);display:inline-block;flex-shrink:0"></span>
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="opacity:0.6"><path d="M6 9l6 6 6-6"/></svg>
+          <span id="oshiDot" class="oshi-dot" style="width:18px;height:18px;border-radius:50%;background:var(--accent);border:2px solid #fff;outline:1px solid var(--accent);display:inline-block;flex-shrink:0;background-size:cover;background-position:center;"></span>
+          <span class="oshi-cursor-label">表示</span>
         </button>
         <div id="oshiCursorDropdown" class="oshi-cursor-dropdown" role="menu" aria-hidden="true"></div>
       </div>
       <select id="oshiSelect" class="oshi-select" aria-label="推しメンバーを選択" data-i18n-aria="header.oshi" style="display:none"></select>
-      <button id="hamburger" class="hamburger" aria-label="メニュー" data-i18n-aria="header.menu">
+      <button id="hamburger" class="hamburger" aria-label="メニュー" data-i18n-aria="header.menu" aria-expanded="false" aria-controls="mobileNav">
         <svg viewBox="0 0 28 20" width="30" height="22" aria-hidden="true"><path d="M2 3h24M2 10h24M2 17h24" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/></svg>
       </button>
     </div>`;
@@ -481,12 +485,11 @@ ${decoHtml(m)}
     <nav class="nav">
       <a href="index.html#home">Home</a>
       ${navDrop("index.html")}
-      <a href="index.html#calendar">Event Calendar</a>
-      <a href="index.html#links">Official Links</a>
     </nav>
     ${headerActions()}
   </div>
-  <nav id="mobileNav" class="mobile-nav">
+  <div id="drawerBackdrop" class="drawer-backdrop" aria-hidden="true"></div>
+  <nav id="mobileNav" class="mobile-nav" aria-hidden="true">
     ${mobileNav("index.html")}
   </nav>
 </header>
@@ -600,12 +603,11 @@ function simplePage(o) {
     <nav class="nav">
       <a href="index.html#home">Home</a>
       ${navDrop("index.html")}
-      <a href="index.html#calendar">Event Calendar</a>
-      <a href="index.html#links">Official Links</a>
     </nav>
     ${headerActions()}
   </div>
-  <nav id="mobileNav" class="mobile-nav">
+  <div id="drawerBackdrop" class="drawer-backdrop" aria-hidden="true"></div>
+  <nav id="mobileNav" class="mobile-nav" aria-hidden="true">
     ${mobileNav("index.html")}
   </nav>
 </header>
