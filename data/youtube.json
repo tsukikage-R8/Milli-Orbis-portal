@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T11:25:33.610Z",
+  "updatedAt": "2026-09-05T14:04:29.571Z",
   "streams": [
     {
       "id": "g_UNz60C8H4",
@@ -25,8 +25,8 @@
       "member": "音ノ瀬らこ",
       "title": "【めっちゃカメレオン】一緒に遊ぶぞー！！！【音ノ瀬らこ /ゆらぎゆら 】",
       "thumb": "https://i.ytimg.com/vi/1f-kSxfpmK4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-05T12:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-09-05T12:00:41Z",
+      "status": "live"
     },
     {
       "id": "-bSYot2qUzg",
@@ -34,8 +34,17 @@
       "member": "ゆらぎゆら",
       "title": "【めっちゃカメレオン】お前たち、準備は良いか？ w/音ノ瀬らこ【 ゆらぎゆら/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/-bSYot2qUzg/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-05T12:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-09-05T12:01:05Z",
+      "status": "live"
+    },
+    {
+      "id": "12OziPHmZyk",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 VALORANT 】最近風邪を引いた話 ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/12OziPHmZyk/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-05T13:00:41Z",
+      "status": "live"
     },
     {
       "id": "pKv7C5ZJTAw",
@@ -229,6 +238,36 @@
   ],
   "videos": [
     {
+      "id": "12OziPHmZyk",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 VALORANT 】最近風邪を引いた話 ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/12OziPHmZyk/hqdefault_live.jpg",
+      "publishedAt": "2026-09-05T13:00:41Z",
+      "live": false
+    },
+    {
+      "id": "-bSYot2qUzg",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【めっちゃカメレオン】お前たち、準備は良いか？ w/音ノ瀬らこ【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/-bSYot2qUzg/hqdefault_live.jpg",
+      "publishedAt": "2026-09-05T12:01:05Z",
+      "live": false
+    },
+    {
+      "id": "1f-kSxfpmK4",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【めっちゃカメレオン】一緒に遊ぶぞー！！！【音ノ瀬らこ /ゆらぎゆら 】",
+      "thumb": "https://i.ytimg.com/vi/1f-kSxfpmK4/hqdefault_live.jpg",
+      "publishedAt": "2026-09-05T12:00:41Z",
+      "live": false
+    },
+    {
       "id": "6q9mf4_ufvI",
       "memberId": "yura",
       "member": "ゆらぎゆら",
@@ -286,26 +325,6 @@
       "title": "【夕霧レイと】引いた言葉が歌詞に含まれる曲歌ってみた【雨夜リズ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/CfjpZKp7PYU/hqdefault.jpg",
       "publishedAt": "2026-09-05T09:00:02Z",
-      "live": false
-    },
-    {
-      "id": "1f-kSxfpmK4",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【めっちゃカメレオン】一緒に遊ぶぞー！！！【音ノ瀬らこ /ゆらぎゆら 】",
-      "thumb": "https://i.ytimg.com/vi/1f-kSxfpmK4/hqdefault_live.jpg",
-      "publishedAt": "2026-09-04T17:16:50Z",
-      "live": false
-    },
-    {
-      "id": "-bSYot2qUzg",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【めっちゃカメレオン】お前たち、準備は良いか？ w/音ノ瀬らこ【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/-bSYot2qUzg/hqdefault_live.jpg",
-      "publishedAt": "2026-09-04T15:01:05Z",
       "live": false
     },
     {
@@ -517,16 +536,6 @@
       "thumb": "https://i.ytimg.com/vi/H4Wsd8LSjMI/hqdefault.jpg",
       "publishedAt": "2026-09-02T07:48:28Z",
       "live": false
-    },
-    {
-      "id": "MQ3yXOmRn18",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【雑談】だべる～┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/MQ3yXOmRn18/hqdefault.jpg",
-      "publishedAt": "2026-09-01T14:29:43Z",
-      "live": true
     }
   ],
   "live": [
@@ -546,6 +555,33 @@
       "title": "【PUBG LAND 2026】大会本番いくぞ～～🔥🔥たくさん銃を撃ちます【#あまかみらいぶ】",
       "thumb": "https://i.ytimg.com/vi/paYLb_ElVA4/hqdefault_live.jpg",
       "scheduledStartTime": "2026-09-05T09:02:47Z",
+      "status": "live"
+    },
+    {
+      "id": "1f-kSxfpmK4",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "title": "【めっちゃカメレオン】一緒に遊ぶぞー！！！【音ノ瀬らこ /ゆらぎゆら 】",
+      "thumb": "https://i.ytimg.com/vi/1f-kSxfpmK4/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-05T12:00:41Z",
+      "status": "live"
+    },
+    {
+      "id": "-bSYot2qUzg",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【めっちゃカメレオン】お前たち、準備は良いか？ w/音ノ瀬らこ【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/-bSYot2qUzg/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-05T12:01:05Z",
+      "status": "live"
+    },
+    {
+      "id": "12OziPHmZyk",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 VALORANT 】最近風邪を引いた話 ⟡.· 【夕霧レイ / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/12OziPHmZyk/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-05T13:00:41Z",
       "status": "live"
     }
   ]

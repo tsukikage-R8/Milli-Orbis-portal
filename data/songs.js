@@ -374,6 +374,22 @@ window.SONGS = {
   ],
   "covers": [
     {
+      "title": "Surges",
+      "key": "surges＆",
+      "urls": [
+        {
+          "id": "lSbndj8gieg",
+          "memberId": "raco",
+          "publishedAt": "2026-09-05"
+        },
+        {
+          "id": "lSbndj8gieg",
+          "memberId": "rei",
+          "publishedAt": "2026-09-05"
+        }
+      ]
+    },
+    {
       "title": "Help me, ERINNNNNN!!／小廻こま（cover）",
       "key": "helpme,erinnnnnn!!",
       "urls": [
@@ -2694,22 +2710,6 @@ window.SONGS = {
       "en": {
         "title": "A faint flower"
       }
-    },
-    {
-      "title": "Surges",
-      "key": "surges＆",
-      "urls": [
-        {
-          "id": "lSbndj8gieg",
-          "memberId": "raco",
-          "publishedAt": "2026-09-05"
-        },
-        {
-          "id": "lSbndj8gieg",
-          "memberId": "rei",
-          "publishedAt": "2026-09-05"
-        }
-      ]
     },
     {
       "title": "恋するフォーチュンクッキー",
