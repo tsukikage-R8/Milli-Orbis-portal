@@ -221,15 +221,6 @@ window.SONG_MASTER = {
         "title": "Black★Rock Shooter (Cover)"
       }
     },
-    "daybreakfrontline": {
-      "title": "DAYBREAK FRONTLINE (feat. 小豆沢こはね, 白石杏, 東雲彰人, 青柳冬弥 & Hatsune Miku)",
-      "artist": "Vivid BAD SQUAD",
-      "album": "Vivid BAD SQUAD SEKAI ALBUM vol.2",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/88/1a/19/881a1906-be30-d547-7651-b0518a6bb446/4511820-60049.jpg/600x600bb.jpg",
-      "en": {
-        "title": "DAYBREAK FRONTLINE (feat. Kohane Azusawa, An Shiraishi, Akito Shinonome, Toya Aoyagi & Hatsune Miku)"
-      }
-    },
     "フィナレ。": {
       "title": "フィナーレ。",
       "artist": "eill",
@@ -240,19 +231,19 @@ window.SONG_MASTER = {
       }
     },
     "おやすみ泣き声、さよなら姫": {
-      "title": "栞",
+      "title": "愛の標識",
       "artist": "クリープハイプ",
-      "album": "泣きたくなるほど嬉しい日々に",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/5e/11/dc/5e11dcbd-42fa-f7e2-7623-8707947b84b4/00602567936688.rgb.jpg/600x600bb.jpg",
+      "album": "死ぬまで一生愛されてると思ってたよ",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5e/20/07/5e200773-e433-51b4-4aca-4701a4ab08d9/VICL-63865.jpg/600x600bb.jpg",
       "en": {
-        "title": "bookmark"
+        "title": "love sign"
       }
     },
     "愛言葉ⅳ": {
       "title": "愛言葉Ⅳ",
-      "artist": "DECO*27",
-      "album": "愛言葉Ⅳ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/92/46/b1/9246b172-c303-b082-7ac2-8b78ffe89711/4511820-95551.jpg/600x600bb.jpg",
+      "artist": "ときのそら",
+      "album": "holo*27 Covers Vol.1",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d9/84/c3/d984c37b-cfba-9892-3560-ee5ccc2642c4/TFCC-86897WW.jpg/600x600bb.jpg",
       "en": {
         "title": "Love words Ⅳ"
       }
@@ -483,10 +474,13 @@ window.SONG_MASTER = {
       }
     },
     "プレイ-gigashortby": {
-      "title": "アンドロメダ",
-      "artist": "aiko",
-      "album": "暁のラブレター",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/39/e1/2d/39e12d27-a080-b9b7-962f-08d2676e085f/dj.rvhspbob.jpg/600x600bb.jpg"
+      "title": "踊ろうぜ",
+      "artist": "ヨルシカ",
+      "album": "だから僕は音楽を辞めた",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/64/ab/ba/64abba45-d080-0e8a-c24b-313e597c63cb/PA00076158_0_91679_jacket.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Let's dance"
+      }
     },
     "モニタリング": {
       "title": "モニタリング",
@@ -682,9 +676,9 @@ window.SONG_MASTER = {
     },
     "メンタルチェンソ": {
       "title": "メンタルチェンソー",
-      "artist": "P丸様。",
-      "album": "Sunny!!",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a9/57/ab/a957abfc-fd6b-c3ec-3db2-15d2c46d2328/21UMGIM13559.rgb.jpg/600x600bb.jpg",
+      "artist": "かいりきベア",
+      "album": "バグエフェクト",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3d/6d/3d/3d6d3d46-9361-9a4f-4916-c6f31109d456/4550714315878_cover.png/600x600bb.jpg",
       "en": {
         "title": "mental chainsaw"
       }
@@ -1411,9 +1405,9 @@ window.SONG_MASTER = {
     },
     "キュトなカノジョ": {
       "title": "キュートなカノジョ",
-      "artist": "IZUMI",
-      "album": "PALETTE5",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a1/92/22/a1922258-5ccd-edba-3fdb-67721181c362/PCSP_03942.jpg/600x600bb.jpg",
+      "artist": "春猿火",
+      "album": "CREAM PUFF LIVE 2",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0d/24/18/0d241844-7ee4-5192-cd81-ca07eae4607a/ANTCD-46565.jpg/600x600bb.jpg",
       "en": {
         "title": "cute girlfriend"
       }
@@ -1530,13 +1524,10 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "かくれんぼ",
-      "artist": "優里",
-      "album": "かくれんぼ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/be/53/46/be534605-c062-2cea-0e91-137f517a1e42/079175_J.jpg/600x600bb.jpg",
-      "en": {
-        "title": "hide and seek"
-      }
+      "title": "ヒロイン",
+      "artist": "back number",
+      "album": "ヒロイン - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/d1/f0/5dd1f0aa-4b50-e6b1-73b1-fb740989afba/00602577303906.rgb.jpg/600x600bb.jpg"
     },
     "メルティランドナイトメア": {
       "title": "メルティランドナイトメア",
@@ -1569,10 +1560,13 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2e/1c/72/2e1c7246-1edf-0702-3f83-b4d1215173c2/QWCE_00564.jpg/600x600bb.jpg"
     },
     "ドリムレスドリムス": {
-      "title": "ドリームレス・ドリームス (セルフカバー)",
+      "title": "ドリームレス・ドリームス",
       "artist": "はるまきごはん",
-      "album": "ドリームレス・ドリームス - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/57/66/41/57664152-76a0-a1bf-2788-1a9a0654bab5/00602557805970.rgb.jpg/600x600bb.jpg"
+      "album": "ネオドリームトラベラー",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a5/51/fd/a551fdf6-679a-842a-e46f-1588a06ed75f/dj.qqkpaffo.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Dreamless Dreams"
+      }
     },
     "メリュいました": {
       "title": "突破口",

@@ -1,50 +1,23 @@
 {
-  "updatedAt": "2026-09-05T14:04:29.571Z",
+  "updatedAt": "2026-09-05T17:45:17.418Z",
   "streams": [
     {
-      "id": "g_UNz60C8H4",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【#PUBGLAND 2026】生まれたての小鹿です。┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/g_UNz60C8H4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-05T09:02:08Z",
-      "status": "live"
-    },
-    {
-      "id": "paYLb_ElVA4",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【PUBG LAND 2026】大会本番いくぞ～～🔥🔥たくさん銃を撃ちます【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/paYLb_ElVA4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-05T09:02:47Z",
-      "status": "live"
-    },
-    {
-      "id": "1f-kSxfpmK4",
+      "id": "_JkHDl-_DVw",
       "memberId": "raco",
       "member": "音ノ瀬らこ",
-      "title": "【めっちゃカメレオン】一緒に遊ぶぞー！！！【音ノ瀬らこ /ゆらぎゆら 】",
-      "thumb": "https://i.ytimg.com/vi/1f-kSxfpmK4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-05T12:00:41Z",
-      "status": "live"
+      "title": "【対談】オリ曲「ルミナス」の制作秘話大公開!?【夏代孝明 × 音ノ瀬らこ】",
+      "thumb": "https://i.ytimg.com/vi/_JkHDl-_DVw/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-06T09:00:00Z",
+      "status": "upcoming"
     },
     {
-      "id": "-bSYot2qUzg",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【めっちゃカメレオン】お前たち、準備は良いか？ w/音ノ瀬らこ【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/-bSYot2qUzg/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-05T12:01:05Z",
-      "status": "live"
-    },
-    {
-      "id": "12OziPHmZyk",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 VALORANT 】最近風邪を引いた話 ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/12OziPHmZyk/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-05T13:00:41Z",
-      "status": "live"
+      "id": "BNybJ5Kttzs",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【How to Fish】ゆらちゃんと！話題の魚釣り×銃撃ゲームやるよ【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/BNybJ5Kttzs/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-07T11:00:00Z",
+      "status": "upcoming"
     },
     {
       "id": "pKv7C5ZJTAw",
@@ -200,6 +173,15 @@
       "status": "upcoming"
     },
     {
+      "id": "8XDNCdSicJ8",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "title": "【📢グッズ情報】NOVA水族館コレクション2026受注開始！",
+      "thumb": "https://i.ytimg.com/vi/8XDNCdSicJ8/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-05T14:00:00Z",
+      "status": "upcoming"
+    },
+    {
       "id": "sNJXQzJShuA",
       "memberId": "nuhu",
       "member": "虹深°ぬふ",
@@ -244,17 +226,7 @@
       "channelTitle": "夕霧レイ / YugiriRay",
       "title": "【 VALORANT 】最近風邪を引いた話 ⟡.· 【夕霧レイ / ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/12OziPHmZyk/hqdefault_live.jpg",
-      "publishedAt": "2026-09-05T13:00:41Z",
-      "live": false
-    },
-    {
-      "id": "-bSYot2qUzg",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【めっちゃカメレオン】お前たち、準備は良いか？ w/音ノ瀬らこ【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/-bSYot2qUzg/hqdefault_live.jpg",
-      "publishedAt": "2026-09-05T12:01:05Z",
+      "publishedAt": "2026-09-05T16:01:06Z",
       "live": false
     },
     {
@@ -263,8 +235,38 @@
       "member": "音ノ瀬らこ",
       "channelTitle": "音ノ瀬らこ / Otonose Raco",
       "title": "【めっちゃカメレオン】一緒に遊ぶぞー！！！【音ノ瀬らこ /ゆらぎゆら 】",
-      "thumb": "https://i.ytimg.com/vi/1f-kSxfpmK4/hqdefault_live.jpg",
-      "publishedAt": "2026-09-05T12:00:41Z",
+      "thumb": "https://i.ytimg.com/vi/1f-kSxfpmK4/hqdefault.jpg",
+      "publishedAt": "2026-09-05T14:53:11Z",
+      "live": false
+    },
+    {
+      "id": "-bSYot2qUzg",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【めっちゃカメレオン】お前たち、準備は良いか？ w/音ノ瀬らこ【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/-bSYot2qUzg/hqdefault.jpg",
+      "publishedAt": "2026-09-05T14:46:36Z",
+      "live": false
+    },
+    {
+      "id": "BNybJ5Kttzs",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【How to Fish】ゆらちゃんと！話題の魚釣り×銃撃ゲームやるよ【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/BNybJ5Kttzs/hqdefault_live.jpg",
+      "publishedAt": "2026-09-05T14:46:17Z",
+      "live": false
+    },
+    {
+      "id": "g_UNz60C8H4",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【#PUBGLAND 2026】生まれたての小鹿です。┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/g_UNz60C8H4/hqdefault.jpg",
+      "publishedAt": "2026-09-05T14:38:00Z",
       "live": false
     },
     {
@@ -285,26 +287,6 @@
       "title": "Surges / 音ノ瀬らこ＆夕霧レイ (cover)",
       "thumb": "https://i.ytimg.com/vi/lSbndj8gieg/hqdefault.jpg",
       "publishedAt": "2026-09-05T11:00:07Z",
-      "live": false
-    },
-    {
-      "id": "paYLb_ElVA4",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【PUBG LAND 2026】大会本番いくぞ～～🔥🔥たくさん銃を撃ちます【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/paYLb_ElVA4/hqdefault_live.jpg",
-      "publishedAt": "2026-09-05T09:02:47Z",
-      "live": false
-    },
-    {
-      "id": "g_UNz60C8H4",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【#PUBGLAND 2026】生まれたての小鹿です。┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/g_UNz60C8H4/hqdefault_live.jpg",
-      "publishedAt": "2026-09-05T09:02:08Z",
       "live": false
     },
     {
@@ -395,6 +377,16 @@
       "title": "【VALORANT】こまちゃんと！目指せプラチナ（ゴールド3Start）【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/EBHirQ-TYLQ/hqdefault.jpg",
       "publishedAt": "2026-09-03T18:17:46Z",
+      "live": false
+    },
+    {
+      "id": "_JkHDl-_DVw",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【対談】オリ曲「ルミナス」の制作秘話大公開!?【夏代孝明 × 音ノ瀬らこ】",
+      "thumb": "https://i.ytimg.com/vi/_JkHDl-_DVw/hqdefault_live.jpg",
+      "publishedAt": "2026-09-03T14:53:05Z",
       "live": false
     },
     {
@@ -526,63 +518,7 @@
       "thumb": "https://i.ytimg.com/vi/6UNsgZF2lMM/hqdefault.jpg",
       "publishedAt": "2026-09-02T09:00:30Z",
       "live": false
-    },
-    {
-      "id": "H4Wsd8LSjMI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【APEX 】ゆら大声禁止┆突発コラボ w/鹿乃まほろ【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/H4Wsd8LSjMI/hqdefault.jpg",
-      "publishedAt": "2026-09-02T07:48:28Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "g_UNz60C8H4",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【#PUBGLAND 2026】生まれたての小鹿です。┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/g_UNz60C8H4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-05T09:02:08Z",
-      "status": "live"
-    },
-    {
-      "id": "paYLb_ElVA4",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【PUBG LAND 2026】大会本番いくぞ～～🔥🔥たくさん銃を撃ちます【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/paYLb_ElVA4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-05T09:02:47Z",
-      "status": "live"
-    },
-    {
-      "id": "1f-kSxfpmK4",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【めっちゃカメレオン】一緒に遊ぶぞー！！！【音ノ瀬らこ /ゆらぎゆら 】",
-      "thumb": "https://i.ytimg.com/vi/1f-kSxfpmK4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-05T12:00:41Z",
-      "status": "live"
-    },
-    {
-      "id": "-bSYot2qUzg",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【めっちゃカメレオン】お前たち、準備は良いか？ w/音ノ瀬らこ【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/-bSYot2qUzg/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-05T12:01:05Z",
-      "status": "live"
-    },
-    {
-      "id": "12OziPHmZyk",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 VALORANT 】最近風邪を引いた話 ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/12OziPHmZyk/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-05T13:00:41Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
