@@ -142,7 +142,7 @@
             }
           }
           if (mOshi && mOshi.icon) {
-            oshiDot.style.backgroundImage = "url('" + mOshi.icon + "')";
+            oshiDot.style.backgroundImage = "url('" + normalizeIconPath(mOshi.icon) + "')";
             oshiDot.style.backgroundSize = "cover";
             oshiDot.style.backgroundPosition = "center";
             oshiDot.style.backgroundColor = "#fff";
@@ -299,6 +299,13 @@
     document.addEventListener("click", function () { setTimeout(renderMobile, 200); });
   }
 
+  function normalizeIconPath(p) {
+    if (!p) return p;
+    if (p.indexOf("http") === 0 || p.indexOf("/") === 0 || p.indexOf("data:") === 0) return p;
+    if (p.indexOf("images/") === 0) return "/" + p;
+    return p;
+  }
+
   // Combined oshi+cursor dropdown
   function initOshiCursor() {
     var wrap = document.getElementById("oshiCursorWrap");
@@ -341,7 +348,7 @@
       for (var oi=0; oi<members.length; oi++) {
         var mo = members[oi];
         var act = oshiId === mo.id ? ' active' : '';
-        var oshiIcon = mo.icon || "";
+        var oshiIcon = normalizeIconPath(mo.icon || "");
         html += '<button class="oshi-dropdown-item' + act + '" data-oshi="' + mo.id + '" role="menuitem"><img src="' + oshiIcon + '" alt="" style="width:28px;height:28px;border-radius:50%;object-fit:cover;border:2px solid #eee;flex-shrink:0;" onerror="this.style.display=\'none\'"><span>' + esc(mo.name) + '</span><span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg></span></button>';
       }
       // milli-chan as oshi? not a talent for oshi, skip
