@@ -16,6 +16,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
 <link rel="stylesheet" href="../style.css">
 <style>
 .goods-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}
@@ -142,6 +145,8 @@
 (function(){
   var map=L.map('map', { minZoom:4, maxZoom:18 }).setView([36.2,138.0],5);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution:'&copy; OpenStreetMap contributors / 地理院地図', maxZoom:18 }).addTo(map);
+  setTimeout(function(){ map.invalidateSize(); }, 100);
+  window.addEventListener("resize", function(){ map.invalidateSize(); });
   // optional GSI switch: L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {attribution:'地理院地図'} )
   var cluster=L.markerClusterGroup();
   fetch('../data/sightings.json').then(function(r){return r.json()}).then(function(data){
