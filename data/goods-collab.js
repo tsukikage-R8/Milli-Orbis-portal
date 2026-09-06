@@ -236,7 +236,7 @@ const GOODS_COLLAB = [
       "rawOrder": "※店舗予約 2026年9月2日 12:00 ～2026年9月23日 23:59",
       "rawShip": "※販売期間 2026年11月6日 ～2026年11月29日"
     },
-    "status": "onSale",
+    "status": "upcoming",
     "permanent": false,
     "tag": null,
     "tags": [],
@@ -266,7 +266,7 @@ const GOODS_COLLAB = [
       "rawOrder": "※店舗予約 2026年9月2日 12:00 ～2026年9月23日 23:59",
       "rawShip": "※販売期間 2026年11月6日 ～2026年11月29日"
     },
-    "status": "onSale",
+    "status": "upcoming",
     "permanent": false,
     "tag": null,
     "tags": [],
@@ -296,7 +296,7 @@ const GOODS_COLLAB = [
       "rawOrder": "※店舗予約 2026年9月2日 12:00 ～2026年9月23日 23:59",
       "rawShip": "※販売期間 2026年11月6日 ～2026年11月29日"
     },
-    "status": "onSale",
+    "status": "upcoming",
     "permanent": false,
     "tag": null,
     "tags": [],
@@ -326,7 +326,7 @@ const GOODS_COLLAB = [
       "rawOrder": "※店舗予約 2026年9月2日 12:00 ～2026年9月23日 23:59",
       "rawShip": "※販売期間 2026年11月6日 ～2026年11月29日"
     },
-    "status": "onSale",
+    "status": "upcoming",
     "permanent": false,
     "tag": null,
     "tags": [],
@@ -356,7 +356,7 @@ const GOODS_COLLAB = [
       "rawOrder": "※店舗予約 2026年9月2日 12:00 ～2026年9月23日 23:59",
       "rawShip": "※販売期間 2026年11月6日 ～2026年11月29日"
     },
-    "status": "onSale",
+    "status": "upcoming",
     "permanent": false,
     "tag": null,
     "tags": [],

@@ -165,6 +165,7 @@
 </div>
 <div style="display:flex;gap:8px;align-items:center;margin:8px 0;color:var(--muted);font-size:.82rem"><span id="countLabel"></span><span id="statusInfo" style="margin-left:auto"></span></div>
 <div id="upcomingBox" class="goods-upcoming" style="display:none"></div>
+<h3 id="onSaleHead" style="font-family:var(--font-display);font-weight:900;font-size:1.05rem;margin:22px 0 10px">現在販売中</h3>
 <div id="grid" class="goods-grid"></div>
 <div style="text-align:center;margin:16px 0"><button id="moreBtn" class="btn btn-ghost" style="display:none">もっと見る</button></div>
 <p style="margin:16px 0;text-align:center;color:var(--muted);font-size:.8rem">画像はShopify CDNへのホットリンクで表示（保存せず参照）。出典: ミリプロオフィシャルショップ / PR TIMES / アニメイト / eeo Store / KADOKAWA / セガ・タイトー（全948件: 公式767+既存コラボ5+外部コラボ176）</p>
@@ -257,6 +258,7 @@
     });
     if(upcoming.length){ upBox.style.display=""; upBox.innerHTML='<h3>近日販売予定 <span style="font-weight:700;color:var(--muted);font-size:.82rem">'+upcoming.length+'件</span></h3><div class="goods-grid">'+upcoming.map(cardHtml).join("")+'</div>'; } else { upBox.style.display="none"; upBox.innerHTML=""; }
     curList=onSale; curPage=1;
+    document.getElementById("onSaleHead").innerHTML='現在販売中 <span style="font-weight:700;color:var(--muted);font-size:.82rem">'+onSale.length+'件</span>';
     countLabel.textContent="表示: "+curList.length+"件 (全"+GOODS_ALL.length+"件中) / 販売中: "+GOODS_ALL.filter(function(g){return g.status!=="soldout"}).length+"件・販売終了: "+GOODS_ALL.filter(function(g){return g.status==="soldout"}).length+"件";
     renderPage();
   }
