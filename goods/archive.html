@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>過去アーカイブ | MilliDex</title>
+<meta name="description" content="ミリプロの過去グッズを網羅。有志の追加依頼も受付。">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MilliDex">
+<meta property="og:title" content="過去アーカイブ | MilliDex">
+<meta property="og:description" content="ミリプロの過去グッズを網羅。有志の追加依頼も受付。">
+<meta property="og:url" content="https://milli-orbis-portal.onrender.com/goods/archive.html">
+<meta property="og:image" content="https://milli-orbis-portal.onrender.com/images/MilliDex-ogp.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="過去アーカイブ | MilliDex">
+<meta name="twitter:description" content="ミリプロの過去グッズを網羅。有志の追加依頼も受付。">
+<meta name="twitter:image" content="https://milli-orbis-portal.onrender.com/images/MilliDex-ogp.png">
+<link rel="icon" href="../images/icon/Milli%20Orbis.ico" sizes="any">
+<link rel="apple-touch-icon" sizes="192x192" href="../images/icon/Milli%20Orbis-192.png">
+<link rel="apple-touch-icon" sizes="518x518" href="../images/icon/Milli%20Orbis-518.png">
+<link rel="manifest" href="../manifest.webmanifest">
+<meta name="theme-color" content="#75b1c0">
+<script>try{if(localStorage.getItem("milli-theme")==="dark"||(!localStorage.getItem("milli-theme")&&matchMedia("(prefers-color-scheme: dark)").matches))document.documentElement.dataset.theme="dark";}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<style>
+.goods-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}
+.goods-tabs a{padding:9px 16px;border-radius:999px;border:2px solid var(--border);background:#fff;font-weight:800;font-size:.86rem;color:var(--text);text-decoration:none}
+.goods-tabs a.active{background:var(--accent-deep);color:#fff;border-color:var(--accent-deep)}
+.goods-filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:14px 0;padding:14px;background:rgba(255,255,255,.7);border:2px dashed var(--border);border-radius:16px}
+.goods-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}
+.goods-card{position:relative}
+.goods-more{position:absolute;top:8px;right:8px;width:28px;height:28px;border-radius:50%;background:rgba(255,255,255,.92);border:2px solid var(--border);display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.12);z-index:2;color:var(--muted)}
+.goods-more-menu{position:fixed;min-width:140px;background:#fff;border:2px solid var(--border);border-radius:14px;box-shadow:0 8px 24px rgba(0,0,0,.18);padding:6px;z-index:600;display:none;flex-direction:column;gap:4px}
+.goods-more-menu.show{display:flex}
+.goods-more-menu button{padding:8px 12px;border-radius:999px;border:2px solid var(--border);background:#fff;font-weight:800;font-size:.78rem;cursor:pointer;text-align:left}
+.goods-more-menu button.on{background:var(--accent-deep);color:#fff;border-color:var(--accent-deep)}
+@media (max-width:640px){
+  .goods-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px!important}
+  #timeline .timeline-item div[style*="grid-template-columns"]{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+}
+.millidex-hero-logo{max-width:min(420px,80vw);height:auto;display:block;margin:0 auto 12px;filter:drop-shadow(0 2px 8px rgba(0,0,0,.12))}
+[data-theme="dark"] .millidex-hero-logo{background:rgba(255,255,255,.92);border-radius:14px;padding:6px 10px}
+</style>
+</head>
+<body data-oshi="">
+<header id="siteHeader">
+  <div class="header-inner">
+    <a class="logo" href="../index.html"><img src="../images/rogo/Milli%20Orbis-rogo.png" alt="Milli Orbis"></a>
+    <nav class="nav">
+      <a href="../index.html#home">Home</a>
+      <div class="nav-drop" id="memberDrop">
+        <button type="button" class="nav-drop-btn">Member Guide<span class="caret"></span></button>
+        <div class="nav-drop-menu">
+          <a class="drop-top" href="../index.html#members" data-i18n="nav.memberAll">Member Guide 一覧へ</a>
+          <div class="drop-sep"></div>
+          <a href="../konomi.html" data-i18n-name="konomi">甘狼このみ</a>
+          <a href="../nono.html" data-i18n-name="nono">音ノ乃のの</a>
+          <a href="../akubi.html" data-i18n-name="akubi">あくび・でもんすぺーど</a>
+          <a href="../koma.html" data-i18n-name="koma">小廻こま</a>
+          <a href="../raco.html" data-i18n-name="raco">音ノ瀬らこ</a>
+          <a href="../yura.html" data-i18n-name="yura">ゆらぎゆら</a>
+          <a href="../nuhu.html" data-i18n-name="nuhu">虹深°ぬふ</a>
+          <a href="../tsukuri.html" data-i18n-name="tsukuri">眠雲ツクリ</a>
+          <a href="../liz.html" data-i18n-name="liz">雨夜リズ</a>
+          <a href="../rei.html" data-i18n-name="rei">夕霧レイ</a>
+          <a href="../mahoro.html" data-i18n-name="mahoro">鹿乃まほろ</a>
+          <a href="../milchan.html" data-i18n-name="milchan">ミリちゃん</a>
+          <div class="drop-sep"></div>
+          <a href="../members.html" data-i18n="nav.compare">メンバー比較表</a>
+          <a href="../account.html" data-i18n="nav.account">マイページ</a>
+        </div>
+      </div>
+      <a href="current.html">MilliDex</a>
+      <a href="../index.html#groups" data-i18n="nav.groups">グループ・期生</a>
+      <a href="../songs.html" data-i18n="nav.songs">曲データベース</a>
+      <a href="../index.html#calendar">Event Calendar</a>
+      <a href="../index.html#links">Official Links</a>
+      <a href="../cursors.html">カーソル配布</a>
+    </nav>
+    <div class="header-actions">
+      <a id="liveBadge" class="live-badge" href="#" target="_blank" rel="noopener">● LIVE</a>
+  <button type="button" class="profile-btn" id="profile-btn" onclick="mpOpenAccount()" aria-label="Milli Orbisアカウント" data-i18n-aria="header.profile">
+        <span class="profile-icon" id="profile-header-icon">?</span>
+      </button>
+      <div class="oshi-cursor-wrap" id="oshiCursorWrap">
+        <button id="oshiCursorBtn" class="oshi-cursor-btn" aria-label="カーソルと推しを選択" aria-expanded="false" aria-haspopup="true">
+          <span id="oshiCursorPreview" class="oshi-cursor-preview" style="width:18px;height:18px;border-radius:50%;background:#7a4fc4;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.2);display:inline-block;flex-shrink:0"></span>
+          <span id="oshiDot" class="oshi-dot" style="width:18px;height:18px;border-radius:50%;background:var(--accent);border:2px solid #fff;outline:1px solid var(--accent);display:inline-block;flex-shrink:0;background-size:cover;background-position:center;"></span>
+          <span class="oshi-cursor-label">表示</span>
+        </button>
+        <div id="oshiCursorDropdown" class="oshi-cursor-dropdown" role="menu" aria-hidden="true"></div>
+      </div>
+      <select id="oshiSelect" class="oshi-select" aria-label="推しメンバーを選択" data-i18n-aria="header.oshi" style="display:none"></select>
+<button id="hamburger" class="hamburger" aria-label="メニュー" data-i18n-aria="header.menu" aria-expanded="false" aria-controls="mobileNav">
+        <svg viewBox="0 0 28 20" width="30" height="22" aria-hidden="true"><path d="M2 3h24M2 10h24M2 17h24" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+  <div id="drawerBackdrop" class="drawer-backdrop" aria-hidden="true"></div>
+  <nav id="mobileNav" class="mobile-nav" aria-hidden="true">
+    <div class="drawer-section-label">設定</div>
+      <div class="drawer-settings">
+        <button type="button" class="notif-bell" id="mobileNotifBell" aria-label="通知設定" data-i18n-aria="header.notif">🔔</button>
+        <button type="button" class="theme-toggle" id="mobileThemeToggle" aria-label="ダークモード切替" data-i18n-aria="header.theme">🌙</button>
+        <button type="button" class="lang-toggle" id="mobileLangToggle" aria-label="言語切替" data-i18n-aria="header.lang">EN</button>
+        <span style="font-size:0.78rem;color:var(--muted);font-weight:700;">通知 / テーマ / 言語</span>
+      </div>
+    <div class="drawer-section-label">セクション</div>
+    <a href="../index.html#home">Home</a>
+    <a href="../index.html#groups" data-i18n="nav.groups">グループ・期生</a>
+    <a href="../index.html#members">Member Guide</a>
+    <a href="../index.html#calendar">Event Calendar</a>
+    <a href="../index.html#links">Official Links</a>
+    <div class="drawer-section-label">Member Guide</div>
+    <a class="mobile-sub" href="../konomi.html" data-i18n-name="konomi">甘狼このみ</a>
+    <a class="mobile-sub" href="../nono.html" data-i18n-name="nono">音ノ乃のの</a>
+    <a class="mobile-sub" href="../akubi.html" data-i18n-name="akubi">あくび・でもんすぺーど</a>
+    <a class="mobile-sub" href="../koma.html" data-i18n-name="koma">小廻こま</a>
+    <a class="mobile-sub" href="../raco.html" data-i18n-name="raco">音ノ瀬らこ</a>
+    <a class="mobile-sub" href="../yura.html" data-i18n-name="yura">ゆらぎゆら</a>
+    <a class="mobile-sub" href="../nuhu.html" data-i18n-name="nuhu">虹深°ぬふ</a>
+    <a class="mobile-sub" href="../tsukuri.html" data-i18n-name="tsukuri">眠雲ツクリ</a>
+    <a class="mobile-sub" href="../liz.html" data-i18n-name="liz">雨夜リズ</a>
+    <a class="mobile-sub" href="../rei.html" data-i18n-name="rei">夕霧レイ</a>
+    <a class="mobile-sub" href="../mahoro.html" data-i18n-name="mahoro">鹿乃まほろ</a>
+    <a class="mobile-sub" href="../milchan.html" data-i18n-name="milchan">ミリちゃん</a>
+    <a href="../members.html" data-i18n="nav.compare">メンバー比較表</a>
+    <div class="drawer-section-label">MilliDex</div>
+    <a href="current.html">現在販売中</a>
+    <a href="shops.html" class="mobile-sub">販売箇所検索</a>
+    <a href="map.html" class="mobile-sub">有志マップ</a>
+    <a href="archive.html" class="mobile-sub">過去アーカイブ</a>
+    <a href="mine.html" class="mobile-sub">マイグッズ</a>
+    <div class="drawer-section-label">コンテンツ</div>
+    <a href="../quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
+    <a href="../songs.html" data-i18n="nav.songs">楽曲一覧</a>
+    <a href="../cursors.html">カーソル配布</a>
+    <a href="../account.html" data-i18n="nav.account">マイページ</a>
+  </nav>
+</header>
+<main class="container" style="padding-top:84px">
+<nav class="breadcrumb"><a href="../index.html">Home</a><span>MilliDex</span><span>過去アーカイブ</span></nav>
+<section class="subpage-hero"><img src="../images/MilliDex-rogo.png" alt="MilliDex グッズ・情報データベース" class="millidex-hero-logo" width="594" height="191" loading="eager" decoding="async"><h1 style="font-family:var(--font-display);font-weight:900">過去アーカイブ</h1><p class="section-sub" style="padding-left:0">これまで販売されたグッズを可能な限り網羅。画像はホットリンク、失効時はSVGで表示。</p><p class="cmp-disclaimer">有志による追加依頼は下部のフォームから。運営が確認後に反映（PRレビュー）。</p></section>
+<nav class="goods-tabs"><a href="current.html">現在販売中</a><a href="shops.html">販売箇所検索</a><a href="map.html">有志マップ</a><a href="archive.html" class="active">過去アーカイブ</a><a href="mine.html">マイグッズ</a></nav>
+<div class="goods-filters">
+<label class="milli-search" aria-label="グッズ名で検索"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16a6.47 6.47 0 0 0 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5Zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14Z"/></svg><input type="search" id="q" placeholder="グッズ名で検索" autocomplete="off"></label>
+<div class="milli-select-wrap"><select id="fMember" class="milli-select"><option value="">全タレント</option></select><span class="milli-select-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg></span></div>
+<div class="milli-select-wrap"><select id="fKind" class="milli-select"><option value="">全種類</option></select><span class="milli-select-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg></span></div>
+<div class="milli-select-wrap"><select id="fCategory" class="milli-select"><option value="">全カテゴリ</option></select><span class="milli-select-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg></span></div>
+<div class="milli-select-wrap"><select id="fShop" class="milli-select"><option value="">全販売場所</option><option value="official">公式ショップ</option><option value="animate">アニメイト</option><option value="aeon">イオン</option><option value="eeo">eeo Store</option><option value="book">書籍・コミック</option><option value="crane">プライズ・クレーン</option><option value="olympia">OLYMPIA</option></select><span class="milli-select-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg></span></div>
+<select id="fStatus" style="display:none"><option value="soldout" selected>販売終了のみ</option></select>
+<div class="milli-select-wrap"><select id="fSort" class="milli-select"><option value="deadline">受注終了が近い順</option><option value="new">新着順</option><option value="priceAsc">価格が安い順</option><option value="priceDesc">価格が高い順</option></select><span class="milli-select-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg></span></div>
+<label class="milli-check"><input type="checkbox" id="fOshi"> 推しのみ</label>
+</div>
+<div style="display:flex;gap:8px;align-items:center;margin:8px 0;color:var(--muted);font-size:.82rem"><span id="countLabel"></span><span style="margin-left:auto;display:flex;gap:8px"><button id="viewGrid" class="btn" style="padding:6px 14px;font-size:.8rem">グリッド</button><button id="viewTimeline" class="btn btn-ghost" style="padding:6px 14px;font-size:.8rem">タイムライン</button></span></div>
+<div id="grid" class="goods-grid"></div>
+<div id="timeline" class="timeline" style="display:none"></div>
+<div style="text-align:center;margin:12px 0"><button id="moreBtn" class="btn btn-ghost" style="display:none">もっと見る</button></div>
+<div id="goodsMenu" class="goods-more-menu" role="menu" aria-hidden="true"><button type="button" data-v="have">持ってる</button><button type="button" data-v="want">欲しい</button><button type="button" data-v="">クリア</button></div>
+<p style="margin:16px 0;text-align:center"><span class="btn btn-ghost" style="opacity:.6;cursor:default">過去グッズの追加依頼（準備中）</span></p>
+</main>
+<footer><p class="disclaimer">非公式ファンサイトです。</p><p>© 2026 MilliDex（Milli Orbis内 グッズ・情報データベース・非公式ファンまとめ）</p></footer>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database-compat.js"></script>
+<script src="../firebase-config.js"></script>
+<script src="../firebase-init.js"></script>
+<script src="../data.js"></script>
+<script src="../data/songs.js"></script><script src="../data/goods-archive.js"></script><script src="../data/goods-collab.js?v=20260906" defer></script><script src="../data/i18n.js"></script><script src="../scripts/i18n.js"></script><script src="../scripts/fav-store.js"></script><script src="../scripts/cursor.js"></script>
+<script src="../scripts/contact.js?v=20260906"></script><script src="../script.js"></script>
+<script>
+(function(){
+  var q=document.getElementById("q"), fM=document.getElementById("fMember"), fK=document.getElementById("fKind"), fC=document.getElementById("fCategory"), fS=document.getElementById("fShop"), fSt=document.getElementById("fStatus"), fSort=document.getElementById("fSort"), fOshi=document.getElementById("fOshi"), grid=document.getElementById("grid"), countLabel=document.getElementById("countLabel"), moreBtn=document.getElementById("moreBtn");
+  var all=[];
+  function refreshAll(){ all=[].concat(GOODS).concat(typeof GOODS_ARCHIVE!=="undefined"? GOODS_ARCHIVE:[]).concat(typeof GOODS_COLLAB!=="undefined"? GOODS_COLLAB:[]); }
+  refreshAll();
+  MEMBERS.forEach(function(m){ var o=document.createElement("option"); o.value=m.id; o.textContent=m.name; fM.appendChild(o); });
+  function buildFilterOptions(){
+    var kv=fK.value, cv=fC.value;
+    while(fK.options.length>1) fK.remove(1);
+    while(fC.options.length>1) fC.remove(1);
+    var kinds=[...new Set(all.map(function(g){return g.kind}))].sort(); kinds.forEach(function(k){ var o=document.createElement("option"); o.value=k; o.textContent=k; fK.appendChild(o); });
+    var cats=[...new Set(all.map(function(g){return g.category}).filter(Boolean))].sort(); cats.forEach(function(c){ var o=document.createElement("option"); o.value=c; o.textContent=c; fC.appendChild(o); });
+    fK.value=kv; fC.value=cv;
+  }
+  buildFilterOptions();
+  function tile(g){ if(g.image) return '<img src="'+g.image+'" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'block\'"><div style="display:none;width:100%;height:100%;align-items:center;justify-content:center;color:var(--gc)">'+(GOODS_ICON[g.kind]||"?")+'</div>'; return GOODS_ICON[g.kind]||""; }
+  function tagHtml(g){ if(g.tag==="販売終了"||g.status==="soldout") return '<span class="goods-tag" style="background:#888">販売終了</span>'; if(g.tag==="まもなく終了") return '<span class="goods-tag" style="background:#e67e22">まもなく終了</span>'; return ""; }
+  function fmt(d){ if(!d) return "—"; var t=new Date(d); if(isNaN(t)) return d; return t.getFullYear()+"/"+String(t.getMonth()+1).padStart(2,"0")+"/"+String(t.getDate()).padStart(2,"0"); }
+  var timelineEl=document.getElementById("timeline"), viewGridBtn=document.getElementById("viewGrid"), viewTimelineBtn=document.getElementById("viewTimeline");
+  var viewMode="grid";
+  (function(){ var p=new URLSearchParams(location.search); if(p.get("view")==="timeline") viewMode="timeline"; })();
+  function updateViewBtns(){
+    if(viewMode==="timeline"){ viewGridBtn.classList.remove("btn"); viewGridBtn.classList.add("btn","btn-ghost"); viewTimelineBtn.classList.remove("btn-ghost"); viewTimelineBtn.classList.add("btn"); grid.style.display="none"; timelineEl.style.display=""; }
+    else { viewTimelineBtn.classList.remove("btn"); viewTimelineBtn.classList.add("btn","btn-ghost"); viewGridBtn.classList.remove("btn-ghost"); viewGridBtn.classList.add("btn"); grid.style.display=""; timelineEl.style.display="none"; }
+  }
+  var TL_PAGE=6, tlPage=1, tlGroups=[];
+  function renderTimeline(){
+    // group by year-month of orderFrom or published_at (dateless -> "時期不明" last)
+    var groups={};
+    curList.forEach(function(g){
+      var dStr=g.period&&g.period.orderFrom ? g.period.orderFrom : g.published_at;
+      var d=dStr? new Date(dStr):null; if(d&&isNaN(d)) d=null;
+      var key, sortKey;
+      if(!d){ key="時期不明"; sortKey=-1; }
+      else { key=d.getFullYear()+"年 "+String(d.getMonth()+1).padStart(2,"0")+"月"; sortKey=d.getFullYear()*100 + d.getMonth(); }
+      if(!groups[key]) groups[key]={key:key, sort:sortKey, items:[]};
+      groups[key].items.push(g);
+    });
+    tlGroups=Object.values(groups).sort(function(a,b){return b.sort-a.sort});
+    tlPage=1;
+    renderTimelinePage();
+  }
+  function renderTimelinePage(){
+    if(!tlGroups.length){ timelineEl.innerHTML='<div class="placeholder">該当なし</div>'; moreBtn.style.display="none"; return; }
+    var show=tlGroups.slice(0, tlPage*TL_PAGE);
+    var rest=tlGroups.length-show.length;
+    timelineEl.innerHTML=show.map(function(gr){
+      return '<div class="timeline-item"><div class="timeline-date">'+gr.key+' <span style="font-weight:700;color:var(--muted)">'+gr.items.length+'件</span></div><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;margin-top:8px">'+gr.items.map(function(g){
+        var m=g.memberId? MEMBERS.find(function(x){return x.id===g.memberId}):null; var color=m?m.color:"#75b1c0"; var label=m?m.name:(g.memberLabel||"全員");
+        var mineSt=""; try{mineSt=JSON.parse(localStorage.getItem("milli-goods-mine")||"{}")[g.id]||""}catch(e){}
+        var badge=mineSt==="have"?'<span style="position:absolute;bottom:4px;left:4px;background:var(--accent-deep);color:#fff;font-size:.58rem;font-weight:900;padding:1px 6px;border-radius:999px">持ってる</span>': mineSt==="want"?'<span style="position:absolute;bottom:4px;left:4px;background:#f5a623;color:#fff;font-size:.58rem;font-weight:900;padding:1px 6px;border-radius:999px">欲しい</span>':"";
+        return '<div class="card" style="--gc:'+color+';position:relative;overflow:hidden"><a href="'+g.url+'" target="_blank" rel="noopener" style="text-decoration:none;color:inherit"><div style="height:110px;position:relative;background:linear-gradient(160deg, color-mix(in srgb, var(--gc) 18%, #fff), #fff);display:flex;align-items:center;justify-content:center;overflow:hidden">'+(g.image?'<img src="'+g.image+'" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" style="width:100%;height:100%;object-fit:cover;display:block" onerror="this.style.display=\'none\'">':'<span style="color:var(--gc)">'+(GOODS_ICON[g.kind]||"?")+'</span>')+badge+tagHtml(g)+'</div><div style="padding:8px"><div style="font-size:.72rem;font-weight:900;color:var(--gc)">'+label+'</div><div style="font-size:.78rem;font-weight:800;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden">'+g.name+'</div><div style="font-size:.68rem;color:var(--muted)">'+fmt(g.period&&g.period.orderFrom)+'</div></div></a></div>';
+      }).join("")+'</div></div>';
+    }).join("");
+    moreBtn.style.display= rest>0 ? "" : "none";
+    moreBtn.textContent="もっと見る（残り"+rest+"グループ）";
+  }
+  var pageSize=48, curPage=1, curList=[];
+  function render(){
+    var kw=(q.value||"").toLowerCase().trim(), fm=fM.value, fk=fK.value, fc=fC.value, fs=fS.value, sort=fSort.value, oshiOnly=fOshi.checked;
+    var oshi=""; try{ oshi=localStorage.getItem("milli-oshi")||"";}catch(e){}
+    var list=all.filter(function(g){
+      if(g.status!=="soldout") return false;
+      if(oshiOnly && oshi && g.memberId!==oshi && g.memberId!=="") return false;
+      if(fm && g.memberId!==fm) return false;
+      if(fk && g.kind!==fk) return false;
+      if(fc && g.category!==fc) return false;
+      if(fs && g.shop!==fs) return false;
+      if(kw && g.name.toLowerCase().indexOf(kw)===-1) return false;
+      return true;
+    });
+    list.sort(function(a,b){
+      if(sort==="deadline"){ var da=a.period&&a.period.orderTo? new Date(a.period.orderTo): new Date(8640000000000000); var db=b.period&&b.period.orderTo? new Date(b.period.orderTo): new Date(8640000000000000); return db-da; }
+      if(sort==="priceAsc") return a.price-b.price;
+      if(sort==="priceDesc") return b.price-a.price;
+      if(sort==="new"){ var da=new Date(a.published_at||0), db=new Date(b.published_at||0); return db-da; }
+      return 0;
+    });
+    curList=list; curPage=1;
+    countLabel.textContent="表示: "+list.length+"件 (全"+all.filter(function(g){return g.status==="soldout"}).length+"件中)";
+    if(viewMode==="timeline") renderTimeline();
+    else renderPage();
+  }
+  function cardHtml(g){
+    var m=g.memberId? MEMBERS.find(function(x){return x.id===g.memberId}):null; var label=m? m.name: (g.memberLabel||"全員"); var color=m? m.color:"#75b1c0";
+    var more='<button type="button" class="goods-more" aria-label="メニュー" data-id="'+g.id+'"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><circle cx="12" cy="5" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="12" cy="19" r="2"/></svg></button>';
+    var mineSt=""; try{mineSt=JSON.parse(localStorage.getItem("milli-goods-mine")||"{}")[g.id]||""}catch(e){}
+    var mineBadge=mineSt==="have" ? '<span style="position:absolute;bottom:6px;left:6px;background:var(--accent-deep);color:#fff;font-size:.62rem;font-weight:900;padding:2px 6px;border-radius:999px;z-index:1">持ってる</span>' : mineSt==="want" ? '<span style="position:absolute;bottom:6px;left:6px;background:#f5a623;color:#fff;font-size:.62rem;font-weight:900;padding:2px 6px;border-radius:999px;z-index:1">欲しい</span>' : "";
+    return '<div class="goods-card card" data-id="'+g.id+'" style="--gc:'+color+';position:relative"><a href="'+g.url+'" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:flex;flex-direction:column;flex:1"><span class="goods-tile" style="position:relative">'+tile(g)+more+mineBadge+tagHtml(g)+'</span><span class="goods-body"><span class="goods-member">'+label+'</span><span class="goods-name">'+g.name+'</span><span style="font-size:.74rem;color:var(--muted)">'+(g.period? (g.period.orderFrom||"")+"〜"+(g.period.orderTo||""):"")+'</span><span class="btn btn-ghost" style="margin-top:6px;justify-content:center">公式ページへ</span></span></a></div>';
+  }
+  function renderPage(){
+    if(viewMode==="timeline"){ renderTimeline(); return; }
+    var show=curList.slice(0, curPage*pageSize);
+    grid.innerHTML= show.map(cardHtml).join("") || '<div class="placeholder" style="grid-column:1/-1">該当なし</div>';
+    moreBtn.style.display= show.length < curList.length ? "" : "none";
+    moreBtn.textContent="もっと見る（残り"+(curList.length - show.length)+"件）";
+  }
+  // URL share
+  (function(){
+    var p=new URLSearchParams(location.search);
+    if(p.get("q")) q.value=p.get("q");
+    if(p.get("member")) fM.value=p.get("member");
+    if(p.get("kind")) fK.value=p.get("kind");
+    if(p.get("category")) fC.value=p.get("category");
+    if(p.get("shop")) fS.value=p.get("shop");
+    if(p.get("sort")) fSort.value=p.get("sort");
+    if(p.get("oshi")==="1") fOshi.checked=true;
+  })();
+  function syncUrl(){
+    var p=new URLSearchParams();
+    if(q.value) p.set("q", q.value);
+    if(fM.value) p.set("member", fM.value);
+    if(fK.value) p.set("kind", fK.value);
+    if(fC.value) p.set("category", fC.value);
+    if(fS.value) p.set("shop", fS.value);
+    if(fSort.value!=="deadline") p.set("sort", fSort.value);
+    if(fOshi.checked) p.set("oshi","1");
+    if(viewMode==="timeline") p.set("view","timeline");
+    var qs=p.toString(); history.replaceState(null,"", qs ? "?"+qs : location.pathname);
+  }
+  var _origRender=render; render=function(){ _origRender(); syncUrl(); };
+  moreBtn.addEventListener("click", function(){ if(viewMode==="timeline"){ tlPage++; renderTimelinePage(); } else { curPage++; renderPage(); } });
+  if(viewGridBtn) viewGridBtn.addEventListener("click", function(){ viewMode="grid"; updateViewBtns(); renderPage(); syncUrl(); });
+  if(viewTimelineBtn) viewTimelineBtn.addEventListener("click", function(){ viewMode="timeline"; updateViewBtns(); renderPage(); syncUrl(); });
+  updateViewBtns();
+  [q,fM,fK,fC,fS,fSort,fOshi].forEach(function(el){ if(el) { el.addEventListener("input", render); el.addEventListener("change", render); } });
+  // goods menu (︙ & long-press)
+  (function(){
+    var KEY="milli-goods-mine"; var menu=document.getElementById("goodsMenu"); var curId=null;
+    function openMenu(id,x,y){ curId=id; var st=""; try{st=JSON.parse(localStorage.getItem(KEY)||"{}")[id]||""}catch(e){} menu.querySelectorAll("button").forEach(function(b){ b.classList.toggle("on", b.dataset.v===st); }); menu.style.left=Math.min(x, window.innerWidth-160)+"px"; menu.style.top=Math.min(y, window.innerHeight-120)+"px"; menu.classList.add("show"); menu.setAttribute("aria-hidden","false"); }
+    function closeMenu(){ menu.classList.remove("show"); menu.setAttribute("aria-hidden","true"); curId=null; }
+    menu.addEventListener("click", function(e){ var b=e.target.closest("button"); if(!b||!curId) return; var v=b.dataset.v; var s={}; try{s=JSON.parse(localStorage.getItem(KEY)||"{}")}catch(e){} if(v) s[curId]=v; else delete s[curId]; try{localStorage.setItem(KEY, JSON.stringify(s))}catch(e){} closeMenu(); renderPage(); });
+    document.addEventListener("click", function(e){ if(!e.target.closest(".goods-more") && !e.target.closest("#goodsMenu")) closeMenu(); });
+    document.addEventListener("keydown", function(e){ if(e.key==="Escape") closeMenu(); });
+    grid.addEventListener("click", function(e){ var btn=e.target.closest(".goods-more"); if(btn){ e.preventDefault(); e.stopPropagation(); var r=btn.getBoundingClientRect(); openMenu(btn.dataset.id, r.left, r.bottom+6); }});
+    var t=null;
+    function sp(e, el){ var pt=e.touches?e.touches[0]:e; var id=el.dataset.id; if(!id) return; t=setTimeout(function(){ var r=el.getBoundingClientRect(); openMenu(id, r.left+r.width/2, r.top+r.height/2); t=null; },620); }
+    function cp(){ if(t) clearTimeout(t); t=null; }
+    grid.addEventListener("touchstart", function(e){ var c=e.target.closest(".goods-card"); if(c) sp(e,c); }, {passive:true});
+    grid.addEventListener("touchend", cp); grid.addEventListener("touchmove", cp);
+    grid.addEventListener("mousedown", function(e){ var c=e.target.closest(".goods-card"); if(c&&e.button===0) sp(e,c); });
+    grid.addEventListener("mouseup", cp); grid.addEventListener("mouseleave", cp);
+    grid.addEventListener("contextmenu", function(e){ if(e.target.closest(".goods-card")) e.preventDefault(); });
+    grid.addEventListener("selectstart", function(e){ if(e.target.closest(".goods-card")) e.preventDefault(); });
+    grid.addEventListener("dragstart", function(e){ if(e.target.closest(".goods-card")) e.preventDefault(); });
+  })();
+  render();
+  // collabはdefer読込のため、到着後に合并して再描画（初回は公式分のみ即描画）
+  window.addEventListener("DOMContentLoaded", function(){
+    var before=all.length; refreshAll();
+    if(all.length!==before){ buildFilterOptions(); render(); }
+  });
+})();
+</script>
+</body>
+</html>

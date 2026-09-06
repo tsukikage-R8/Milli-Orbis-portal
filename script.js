@@ -244,12 +244,36 @@
 
   function initHeader() {
     var burger = $("#hamburger");
+    var backdrop = $("#drawerBackdrop");
+    function setDrawer(open) {
+      var nav = $("#mobileNav");
+      if (!nav) return;
+      nav.classList.toggle("open", open);
+      nav.setAttribute("aria-hidden", String(!open));
+      if (backdrop) { backdrop.classList.toggle("open", open); backdrop.setAttribute("aria-hidden", String(!open)); }
+      if (burger) burger.setAttribute("aria-expanded", String(open));
+      document.body.style.overflow = open ? "hidden" : "";
+    }
     if (burger) {
-      burger.addEventListener("click", function () {
+      burger.addEventListener("click", function (e) {
+        e.stopPropagation();
         var nav = $("#mobileNav");
-        if (nav) nav.classList.toggle("open");
+        var isOpen = nav && nav.classList.contains("open");
+        setDrawer(!isOpen);
       });
     }
+    if (backdrop) backdrop.addEventListener("click", function(){ setDrawer(false); });
+    document.addEventListener("click", function(e){
+      var nav=$("#mobileNav");
+      if(!nav || !nav.classList.contains("open")) return;
+      if(nav.contains(e.target) || (burger && burger.contains(e.target))) return;
+      // ヘッダー外(メインやbackdrop外)を押したら閉じる
+      setDrawer(false);
+    });
+    document.addEventListener("keydown", function(e){ if(e.key==="Escape"){ var nav=$("#mobileNav"); if(nav && nav.classList.contains("open")) setDrawer(false); }});
+    // ドロワー内リンククリックで閉じる
+    var mNav = $("#mobileNav");
+    if (mNav) mNav.addEventListener("click", function(e){ if(e.target.closest("a")) setDrawer(false); });
 
     $$(".nav-drop").forEach(function (drop) {
       var btn = $(".nav-drop-btn", drop);
@@ -415,6 +439,11 @@
       list.appendChild(b);
     });
     $("#oshiModal").classList.add("open");
+    var skip = $("#oshiSkip");
+    if (skip && !skip.dataset.wired) {
+      skip.dataset.wired = "1";
+      skip.addEventListener("click", function () { closeModal(); });
+    }
   }
 
   function closeModal() {
@@ -846,24 +875,106 @@
     startReminderWatcher();
   }
 
+  /* ---------- グッズ締切リマインド（5日前/当日） ---------- */
+  function getGoodsReminders() {
+    try { return JSON.parse(localStorage.getItem("milli-goods-reminders") || "[]") || []; } catch (e) { return []; }
+  }
+  function setGoodsReminders(list) {
+    try { localStorage.setItem("milli-goods-reminders", JSON.stringify(list)); } catch (e) {}
+  }
+  function isGoodsReminded(gid) {
+    return getGoodsReminders().some(function (r) { return r.id === gid; });
+  }
+  function toggleGoodsReminder(btn) {
+    if (!("Notification" in window)) { alert(T("notif.unsupported")); return; }
+    var gid = btn.dataset.goodsId;
+    var time = btn.dataset.goodsTime;
+    var title = btn.dataset.goodsTitle || "";
+    if (!gid || !time) return;
+    if (isGoodsReminded(gid)) {
+      setGoodsReminders(getGoodsReminders().filter(function (r) { return r.id !== gid; }));
+      btn.classList.remove("is-active");
+      showToast("🔕 グッズ通知を解除しました");
+      return;
+    }
+    var grant = function () {
+      if (isGoodsReminded(gid)) return;
+      setGoodsReminders(getGoodsReminders().concat([{ id: gid, time: time, title: title }]));
+      btn.classList.add("is-active");
+      showToast("🔔 締切通知を登録しました<br><span style='font-size:.78rem'>5日前と当日に通知します。通知はこのサイトを開いている間に届きます。</span>");
+      startGoodsReminderWatcher();
+    };
+    if (Notification.permission === "granted") grant();
+    else if (Notification.permission === "denied") alert(T("notif.denied"));
+    else Notification.requestPermission().then(function (p) {
+      if (p === "granted") grant();
+      else alert(T("notif.failed"));
+    });
+  }
+  var goodsReminderTimer = null;
+  function startGoodsReminderWatcher() {
+    if (goodsReminderTimer || !("Notification" in window) || Notification.permission !== "granted") return;
+    goodsReminderTimer = setInterval(function () {
+      var now = Date.now();
+      var list = getGoodsReminders();
+      if (!list.length) return;
+      var jst = jstNow();
+      var y = jst.getUTCFullYear(), mo = jst.getUTCMonth(), d = jst.getUTCDate();
+      var todayJst = new Date(Date.UTC(y, mo, d));
+      var sentKey = "milli-goods-notif-sent-" + y + "-" + pad2(mo + 1) + "-" + pad2(d);
+      var sent = [];
+      try { sent = JSON.parse(localStorage.getItem(sentKey) || "[]") || []; } catch (e) {}
+      var changed = false;
+      list.forEach(function (r) {
+        var t = Date.parse(r.time);
+        if (!isFinite(t) || isNaN(t)) return;
+        var orderDay = new Date(t);
+        // normalize to JST date
+        var oj = new Date(orderDay.getTime() + 9 * 3600000);
+        var oy = oj.getUTCFullYear(), om = oj.getUTCMonth(), od = oj.getUTCDate();
+        var orderJst = new Date(Date.UTC(oy, om, od));
+        var diffDays = Math.round((orderJst - todayJst) / 86400000);
+        if (diffDays === 5 || diffDays === 0) {
+          var key = r.id + ":" + diffDays;
+          if (sent.indexOf(key) >= 0) return;
+          sent.push(key);
+          try {
+            var body = diffDays === 5 ? "5日後に受注終了: " + r.title : "本日受注終了: " + r.title;
+            new Notification(diffDays === 5 ? "🔔 グッズ締切 5日前" : "🔔 グッズ締切 当日", { body: body, icon: "images/icon/Milli%20Orbis-192.png" });
+          } catch (e) {}
+        }
+        if (t < now - 86400000) changed = true;
+      });
+      try { localStorage.setItem(sentKey, JSON.stringify(sent)); } catch (e) {}
+      if (changed) {
+        var rest = list.filter(function (r) { var t = Date.parse(r.time); return isFinite(t) && t >= now - 86400000; });
+        setGoodsReminders(rest);
+      }
+    }, 30000);
+  }
+  function initGoodsReminderWatcher() {
+    startGoodsReminderWatcher();
+  }
+  try { window.getGoodsReminders = getGoodsReminders; window.isGoodsReminded = isGoodsReminded; window.toggleGoodsReminder = toggleGoodsReminder; window.startGoodsReminderWatcher = startGoodsReminderWatcher; } catch(e) {}
+
   /* ---------- 通知ベル（当日イベント・誕生日・カウントダウンの自動通知） ---------- */
   function notifEnabled() {
     try { return localStorage.getItem("milli-notif") === "on"; } catch (e) { return false; }
   }
   function setNotifEnabled(on) {
     try { localStorage.setItem("milli-notif", on ? "on" : "off"); } catch (e) {}
-    var b = $("#notifBell");
-    if (b) {
+    var bells = $$("#notifBell, #mobileNotifBell");
+    bells.forEach(function (b) {
       b.classList.toggle("is-on", on);
       b.setAttribute("aria-label", on ? T("header.bellOn") : T("header.bellOff"));
       b.title = on ? T("header.bellOnTitle") : T("header.bellOffTitle");
-    }
+    });
   }
   function initNotifBell() {
-    var b = $("#notifBell");
-    if (!b) return;
+    var bells = $$("#notifBell, #mobileNotifBell");
+    if (!bells.length) return;
     setNotifEnabled(notifEnabled());
-    b.addEventListener("click", function () {
+    bells.forEach(function (b) { b.addEventListener("click", function () {
       if (!("Notification" in window)) { alert(T("notif.unsupported")); return; }
       if (notifEnabled()) {
         setNotifEnabled(false);
@@ -882,7 +993,7 @@
         if (p === "granted") grant();
         else alert(T("notif.onFailed"));
       });
-    });
+    }); });
   }
   function checkDailyNotif() {
     if (!("Notification" in window) || Notification.permission !== "granted" || !notifEnabled()) return;
@@ -1069,19 +1180,20 @@
   function renderNews() {
     var box = $("#newsList");
     if (!box) return;
-    var EXPANDED = 2;
+    var EXPANDED = 4;
     var html = NEWS.map(function (n, i) {
       var more = n.url ? '<a class="btn btn-ghost news-more" href="' + n.url + '" target="_blank" rel="noopener">' + T("news.more") + "</a>" : "";
       var bm = bmBtnHtml("nw:" + n.date + ":" + loc(n, "title"),
         ' data-bm-kind="news" data-bm-date="' + n.date + '" data-bm-tag="' + esc(loc(n, "tag")) + '"' +
         ' data-bm-title="' + esc(loc(n, "title")) + '" data-bm-desc="' + esc(loc(n, "desc") || "") + '"' +
         ' data-bm-url="' + esc(n.url || "") + '"');
+      var thumb = n.image ? '<a class="news-thumb-wrap wide" href="' + esc(n.url || "#") + '" target="_blank" rel="noopener"><img class="news-thumb" src="' + esc(n.image) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest(\'.news-thumb-wrap\').style.display=\'none\'"></a>' : "";
       var head = '<div class="news-head"><span class="news-tag">' + esc(loc(n, "tag")) + "</span>" +
         '<span class="news-date">' + fmtDate(new Date(n.date)) + "</span>" + bm + "</div>";
-      var body = '<div class="news-title">' + esc(loc(n, "title")) + "</div>" +
-        '<div class="news-desc">' + esc(loc(n, "desc")) + "</div>" + more;
-      var cls = "news-item card" + (i >= EXPANDED ? " collapsed" : "");
-      return '<div class="' + cls + '" data-news-idx="' + i + '">' + head + body + "</div>";
+      var textBody = '<div class="news-text"><div class="news-title">' + esc(loc(n, "title")) + "</div>" +
+        '<div class="news-desc">' + esc(loc(n, "desc")) + "</div></div>";
+      var cls = "news-item card" + (n.image ? " has-thumb" : "") + (i >= EXPANDED ? " collapsed" : "");
+      return '<div class="' + cls + '" data-news-idx="' + i + '">' + head + textBody + thumb + more + "</div>";
     }).join("");
     var hidden = NEWS.length - EXPANDED;
     if (hidden > 0) {
@@ -1723,20 +1835,26 @@
       };
       if (audio && m && (m.introVoice || m.voice)) {
         var started = false;
+        var safetyTimer = null;
         var begin = function () {
           if (done) return;
           started = true;
           overlay.classList.remove("standby");
-          audio.addEventListener("ended", finish);
+          audio.addEventListener("ended", function onEnded() {
+            if (safetyTimer) clearTimeout(safetyTimer);
+            finish();
+          });
           var onMeta = function () {
             if (isFinite(audio.duration) && audio.duration > 0) {
-              setTimeout(finish, audio.duration * 1000 + 1500);
+              if (safetyTimer) clearTimeout(safetyTimer);
+              // 鹿乃まほろ(14秒)など長尺ボイスでも最後まで再生しきってから遷移
+              safetyTimer = setTimeout(finish, audio.duration * 1000 + 1500);
             }
           };
           if (audio.readyState >= 1) onMeta();
           else audio.addEventListener("loadedmetadata", onMeta);
-          /* 音声が読み込めない場合でも必ず閉じる安全タイマー */
-          setTimeout(finish, 8000);
+          /* 音声が読み込めない場合の安全タイマー。最長ボイス(まほろ14s)でも切れないよう20秒に */
+          safetyTimer = setTimeout(finish, 20000);
         };
         var tryPlay = function (force) {
           if (started && !force) return;
@@ -1792,6 +1910,9 @@
 
   /* ============ 最新グッズ ============ */
   function goodsTile(g) {
+    if (g.image) {
+      return '<img src="' + esc(g.image) + '" alt="" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit;" onerror="this.onerror=null;this.src=\'data:image/svg+xml;utf8,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text x=%2750%27 y=%2755%27 text-anchor=%27middle%27 font-size=%2720%27 fill=%27%2375b1c0%27>?</text></svg>\'">';
+    }
     if (GOODS_ICON[g.kind]) return GOODS_ICON[g.kind];
     return '<span class="tile-char">' + esc((g.name || "?").charAt(0)) + "</span>";
   }
@@ -1802,9 +1923,31 @@
     var box = $("#goodsTrack");
     if (!box || !GOODS.length) return;
     var list = GOODS;
+    // 裏側で販売期間をチェック: available===false のものは非表示（常設は permanent で常に残す）
+    // 最新グッズ欄には販売終了品を出さない（まもなく終了バッジは表示継続）
+    function isAvailable(g) {
+      if (g.status === "soldout") return false;
+      if (g.permanent) return true;
+      if (g.available === false) return false;
+      return true;
+    }
+    list = list.filter(isAvailable);
     if (oshiFilterOn()) {
       var oshi = getOshi();
-      if (oshi) list = GOODS.filter(function (g) { return g.memberId === oshi; });
+      if (oshi) {
+        var filtered = GOODS.filter(function (g) { return isAvailable(g) && g.memberId === oshi; });
+        // 常設の全員向け（TCG等）は常に含める
+        var permanentAll = GOODS.filter(function (g) { return isAvailable(g) && g.permanent && g.memberId === ""; });
+        permanentAll.forEach(function (p) { if (filtered.indexOf(p) === -1) filtered.push(p); });
+        // 該当タレントの常設ウェルカムボイスがあれば含める（上記で既に memberId===oshi で含まれる）
+        // それでも空なら常設全員向けのみを表示
+        if (filtered.length === 0) {
+          filtered = permanentAll.length ? permanentAll : GOODS.filter(function (g) { return isAvailable(g) && g.memberId === ""; }).slice(0, 2);
+        }
+        list = filtered;
+      }
+    } else {
+      list = GOODS.filter(isAvailable);
     }
     box.innerHTML = list.map(function (g) {
       var m = g.memberId ? getMember(g.memberId) : null;
@@ -1942,25 +2085,29 @@
 
   /* ============ ダークモード ============ */
   function initTheme() {
-    var btn = $("#themeToggle");
-    if (!btn) return;
+    var btns = $$("#themeToggle, #mobileThemeToggle");
+    if (!btns.length) return;
     var sync = function () {
       var dark = document.documentElement.dataset.theme === "dark";
-      btn.textContent = dark ? "☀️" : "🌙";
-      btn.setAttribute("aria-label", dark ? T("header.themeLight") : T("header.themeDark"));
+      btns.forEach(function (b) {
+        b.textContent = dark ? "☀️" : "🌙";
+        b.setAttribute("aria-label", dark ? T("header.themeLight") : T("header.themeDark"));
+      });
     };
     sync();
-    btn.addEventListener("click", function () {
-      var dark = document.documentElement.dataset.theme === "dark";
-      if (dark) {
-        delete document.documentElement.dataset.theme;
-        try { localStorage.setItem("milli-theme", "light"); } catch (e) {}
-      } else {
-        document.documentElement.dataset.theme = "dark";
-        try { localStorage.setItem("milli-theme", "dark"); } catch (e) {}
-      }
-      sync();
-      applyOshi(getOshi());
+    btns.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var dark = document.documentElement.dataset.theme === "dark";
+        if (dark) {
+          delete document.documentElement.dataset.theme;
+          try { localStorage.setItem("milli-theme", "light"); } catch (e) {}
+        } else {
+          document.documentElement.dataset.theme = "dark";
+          try { localStorage.setItem("milli-theme", "dark"); } catch (e) {}
+        }
+        sync();
+        applyOshi(getOshi());
+      });
     });
   }
 
@@ -2209,6 +2356,7 @@
     initOnboarding();
     initFloatActions();
     initReminderWatcher();
+    initGoodsReminderWatcher();
     initRemindAll();
     initNotifBell();
     checkDailyNotif();
@@ -2217,8 +2365,13 @@
       var b = $("#" + id);
       if (b) b.addEventListener("click", toggleOshiFilter);
     });
+    // TODO: お問い合わせハブ再開時に有効化（rules貼付後に戻す）
+    // try { if (window.ContactHub) window.ContactHub.inject(); } catch (e) {}
     setOshiFilter(oshiFilterOn());
   }
+
+  // 外部(カーソル統合UI)から呼べるよう公開
+  try { window.getOshi = getOshi; window.setOshi = setOshi; window.applyOshi = applyOshi; } catch(e) {}
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", boot);

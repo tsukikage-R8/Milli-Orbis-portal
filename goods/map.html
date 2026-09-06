@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>有志マップ | MilliDex</title>
+<meta name="description" content="ファンによる匿名の目撃情報マップ。キュレーション済みのみ表示。">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MilliDex">
+<meta property="og:title" content="有志マップ | MilliDex">
+<meta property="og:description" content="ファンによる匿名の目撃情報マップ。キュレーション済みのみ表示。">
+<meta property="og:url" content="https://milli-orbis-portal.onrender.com/goods/map.html">
+<meta property="og:image" content="https://milli-orbis-portal.onrender.com/images/MilliDex-ogp.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="有志マップ | MilliDex">
+<meta name="twitter:description" content="ファンによる匿名の目撃情報マップ。キュレーション済みのみ表示。">
+<meta name="twitter:image" content="https://milli-orbis-portal.onrender.com/images/MilliDex-ogp.png">
+<link rel="icon" href="../images/icon/Milli%20Orbis.ico" sizes="any">
+<link rel="apple-touch-icon" sizes="192x192" href="../images/icon/Milli%20Orbis-192.png">
+<link rel="apple-touch-icon" sizes="518x518" href="../images/icon/Milli%20Orbis-518.png">
+<link rel="manifest" href="../manifest.webmanifest">
+<meta name="theme-color" content="#75b1c0">
+<script>try{if(localStorage.getItem("milli-theme")==="dark"||(!localStorage.getItem("milli-theme")&&matchMedia("(prefers-color-scheme: dark)").matches))document.documentElement.dataset.theme="dark";}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+<link rel="stylesheet" href="../style.css">
+<style>
+.goods-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}
+.goods-tabs a{padding:9px 16px;border-radius:999px;border:2px solid var(--border);background:#fff;font-weight:800;font-size:.86rem;color:var(--text);text-decoration:none}
+.goods-tabs a.active{background:var(--accent-deep);color:#fff;border-color:var(--accent-deep)}
+#map{height:62vh;min-height:380px;border-radius:16px;border:3px solid #fff;outline:2px solid var(--border)}
+.legend{font-size:.76rem;color:var(--muted);margin:8px 0}
+.millidex-hero-logo{max-width:min(420px,80vw);height:auto;display:block;margin:0 auto 12px;filter:drop-shadow(0 2px 8px rgba(0,0,0,.12))}
+[data-theme="dark"] .millidex-hero-logo{background:rgba(255,255,255,.92);border-radius:14px;padding:6px 10px}
+</style>
+</head>
+<body data-oshi="">
+<header id="siteHeader">
+  <div class="header-inner">
+    <a class="logo" href="../index.html"><img src="../images/rogo/Milli%20Orbis-rogo.png" alt="Milli Orbis"></a>
+    <nav class="nav">
+      <a href="../index.html#home">Home</a>
+      <div class="nav-drop" id="memberDrop">
+        <button type="button" class="nav-drop-btn">Member Guide<span class="caret"></span></button>
+        <div class="nav-drop-menu">
+          <a class="drop-top" href="../index.html#members" data-i18n="nav.memberAll">Member Guide 一覧へ</a>
+          <div class="drop-sep"></div>
+          <a href="../konomi.html" data-i18n-name="konomi">甘狼このみ</a>
+          <a href="../nono.html" data-i18n-name="nono">音ノ乃のの</a>
+          <a href="../akubi.html" data-i18n-name="akubi">あくび・でもんすぺーど</a>
+          <a href="../koma.html" data-i18n-name="koma">小廻こま</a>
+          <a href="../raco.html" data-i18n-name="raco">音ノ瀬らこ</a>
+          <a href="../yura.html" data-i18n-name="yura">ゆらぎゆら</a>
+          <a href="../nuhu.html" data-i18n-name="nuhu">虹深°ぬふ</a>
+          <a href="../tsukuri.html" data-i18n-name="tsukuri">眠雲ツクリ</a>
+          <a href="../liz.html" data-i18n-name="liz">雨夜リズ</a>
+          <a href="../rei.html" data-i18n-name="rei">夕霧レイ</a>
+          <a href="../mahoro.html" data-i18n-name="mahoro">鹿乃まほろ</a>
+          <a href="../milchan.html" data-i18n-name="milchan">ミリちゃん</a>
+          <div class="drop-sep"></div>
+          <a href="../members.html" data-i18n="nav.compare">メンバー比較表</a>
+          <a href="../account.html" data-i18n="nav.account">マイページ</a>
+        </div>
+      </div>
+      <a href="current.html">MilliDex</a>
+      <a href="../index.html#groups" data-i18n="nav.groups">グループ・期生</a>
+      <a href="../songs.html" data-i18n="nav.songs">曲データベース</a>
+      <a href="../index.html#calendar">Event Calendar</a>
+      <a href="../index.html#links">Official Links</a>
+      <a href="../cursors.html">カーソル配布</a>
+    </nav>
+    <div class="header-actions">
+      <a id="liveBadge" class="live-badge" href="#" target="_blank" rel="noopener">● LIVE</a>
+  <button type="button" class="profile-btn" id="profile-btn" onclick="mpOpenAccount()" aria-label="Milli Orbisアカウント" data-i18n-aria="header.profile">
+        <span class="profile-icon" id="profile-header-icon">?</span>
+      </button>
+      <div class="oshi-cursor-wrap" id="oshiCursorWrap">
+        <button id="oshiCursorBtn" class="oshi-cursor-btn" aria-label="カーソルと推しを選択" aria-expanded="false" aria-haspopup="true">
+          <span id="oshiCursorPreview" class="oshi-cursor-preview" style="width:18px;height:18px;border-radius:50%;background:#7a4fc4;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.2);display:inline-block;flex-shrink:0"></span>
+          <span id="oshiDot" class="oshi-dot" style="width:18px;height:18px;border-radius:50%;background:var(--accent);border:2px solid #fff;outline:1px solid var(--accent);display:inline-block;flex-shrink:0;background-size:cover;background-position:center;"></span>
+          <span class="oshi-cursor-label">表示</span>
+        </button>
+        <div id="oshiCursorDropdown" class="oshi-cursor-dropdown" role="menu" aria-hidden="true"></div>
+      </div>
+      <select id="oshiSelect" class="oshi-select" aria-label="推しメンバーを選択" data-i18n-aria="header.oshi" style="display:none"></select>
+<button id="hamburger" class="hamburger" aria-label="メニュー" data-i18n-aria="header.menu" aria-expanded="false" aria-controls="mobileNav">
+        <svg viewBox="0 0 28 20" width="30" height="22" aria-hidden="true"><path d="M2 3h24M2 10h24M2 17h24" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+  <div id="drawerBackdrop" class="drawer-backdrop" aria-hidden="true"></div>
+  <nav id="mobileNav" class="mobile-nav" aria-hidden="true">
+    <div class="drawer-section-label">設定</div>
+      <div class="drawer-settings">
+        <button type="button" class="notif-bell" id="mobileNotifBell" aria-label="通知設定" data-i18n-aria="header.notif">🔔</button>
+        <button type="button" class="theme-toggle" id="mobileThemeToggle" aria-label="ダークモード切替" data-i18n-aria="header.theme">🌙</button>
+        <button type="button" class="lang-toggle" id="mobileLangToggle" aria-label="言語切替" data-i18n-aria="header.lang">EN</button>
+        <span style="font-size:0.78rem;color:var(--muted);font-weight:700;">通知 / テーマ / 言語</span>
+      </div>
+    <div class="drawer-section-label">セクション</div>
+    <a href="../index.html#home">Home</a>
+    <a href="../index.html#groups" data-i18n="nav.groups">グループ・期生</a>
+    <a href="../index.html#members">Member Guide</a>
+    <a href="../index.html#calendar">Event Calendar</a>
+    <a href="../index.html#links">Official Links</a>
+    <div class="drawer-section-label">Member Guide</div>
+    <a class="mobile-sub" href="../konomi.html" data-i18n-name="konomi">甘狼このみ</a>
+    <a class="mobile-sub" href="../nono.html" data-i18n-name="nono">音ノ乃のの</a>
+    <a class="mobile-sub" href="../akubi.html" data-i18n-name="akubi">あくび・でもんすぺーど</a>
+    <a class="mobile-sub" href="../koma.html" data-i18n-name="koma">小廻こま</a>
+    <a class="mobile-sub" href="../raco.html" data-i18n-name="raco">音ノ瀬らこ</a>
+    <a class="mobile-sub" href="../yura.html" data-i18n-name="yura">ゆらぎゆら</a>
+    <a class="mobile-sub" href="../nuhu.html" data-i18n-name="nuhu">虹深°ぬふ</a>
+    <a class="mobile-sub" href="../tsukuri.html" data-i18n-name="tsukuri">眠雲ツクリ</a>
+    <a class="mobile-sub" href="../liz.html" data-i18n-name="liz">雨夜リズ</a>
+    <a class="mobile-sub" href="../rei.html" data-i18n-name="rei">夕霧レイ</a>
+    <a class="mobile-sub" href="../mahoro.html" data-i18n-name="mahoro">鹿乃まほろ</a>
+    <a class="mobile-sub" href="../milchan.html" data-i18n-name="milchan">ミリちゃん</a>
+    <a href="../members.html" data-i18n="nav.compare">メンバー比較表</a>
+    <div class="drawer-section-label">MilliDex</div>
+    <a href="current.html">現在販売中</a>
+    <a href="shops.html" class="mobile-sub">販売箇所検索</a>
+    <a href="map.html" class="mobile-sub">有志マップ</a>
+    <a href="archive.html" class="mobile-sub">過去アーカイブ</a>
+    <a href="mine.html" class="mobile-sub">マイグッズ</a>
+    <div class="drawer-section-label">コンテンツ</div>
+    <a href="../quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
+    <a href="../songs.html" data-i18n="nav.songs">楽曲一覧</a>
+    <a href="../cursors.html">カーソル配布</a>
+    <a href="../account.html" data-i18n="nav.account">マイページ</a>
+  </nav>
+</header>
+<main class="container" style="padding-top:84px">
+<nav class="breadcrumb"><a href="../index.html">Home</a><span>MilliDex</span><span>有志マップ</span></nav>
+<section class="subpage-hero"><img src="../images/MilliDex-rogo.png" alt="MilliDex グッズ・情報データベース" class="millidex-hero-logo" width="594" height="191" loading="eager" decoding="async"><h1 style="font-family:var(--font-display);font-weight:900">有志マップ（キュレーション）</h1><p class="section-sub" style="padding-left:0">ファンからの匿名提供を運営が確認したもののみを表示。目撃時点の情報であり在庫を保証しません。</p></section>
+<nav class="goods-tabs"><a href="current.html">現在販売中</a><a href="shops.html">販売箇所検索</a><a href="map.html" class="active">有志マップ</a><a href="archive.html">過去アーカイブ</a><a href="mine.html">マイグッズ</a></nav>
+<div class="legend">タイル: OpenStreetMap / 地理院地図（出典明記）。提供は <span style="font-weight:800;color:var(--muted)">目撃情報の提供（準備中）</span> から。運営が1日1回精査して反映（PRレビュー）。</div>
+<div id="map"></div>
+<div id="list" style="margin-top:12px;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px"></div>
+</main>
+<footer><p class="disclaimer">非公式のファンサイトです。在庫は各店舗へお問い合わせください。</p><p>© 2026 MilliDex（Milli Orbis内 グッズ・情報データベース・非公式ファンまとめ）</p></footer>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database-compat.js"></script>
+<script src="../firebase-config.js"></script>
+<script src="../firebase-init.js"></script>
+<script src="../data.js"></script>
+<script src="../data/songs.js"></script><script src="../data/i18n.js"></script><script src="../scripts/i18n.js"></script><script src="../scripts/fav-store.js"></script><script src="../scripts/cursor.js"></script>
+<script src="../scripts/contact.js?v=20260906"></script><script src="../script.js"></script>
+<script>
+(function(){
+  var map=L.map('map', { minZoom:4, maxZoom:18 }).setView([36.2,138.0],5);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution:'&copy; OpenStreetMap contributors / 地理院地図', maxZoom:18 }).addTo(map);
+  setTimeout(function(){ map.invalidateSize(); }, 100);
+  window.addEventListener("resize", function(){ map.invalidateSize(); });
+  // optional GSI switch: L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {attribution:'地理院地図'} )
+  var cluster=L.markerClusterGroup();
+  fetch('../data/sightings.json').then(function(r){return r.json()}).then(function(data){
+    var approved=data.filter(function(d){return d.status==="approved" && d.lat && d.lng;});
+    approved.forEach(function(d){
+      var m=d.memberId? MEMBERS.find(function(x){return x.id===d.memberId}):null;
+      var color=m? m.color : "#75b1c0";
+      var icon=L.divIcon({ html:'<span style="width:14px;height:14px;border-radius:50%;background:'+color+';border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.3);display:block"></span>', className:'', iconSize:[14,14] });
+      var mk=L.marker([d.lat,d.lng], {icon:icon});
+      mk.bindPopup('<b>'+d.place+'</b><br>'+d.item+'<br><span style="font-size:.78rem;color:#6f6250">'+d.date+' / '+(d.prefecture||"")+'</span><br><a href="'+(d.gmapsUrl|| "https://www.google.com/maps/search/"+encodeURIComponent(d.place))+'" target="_blank">地図を開く</a> <a href="current.html" style="margin-left:6px">グッズを見る</a><br><span style="font-size:.68rem;color:#c0392b">目撃時点の情報。在庫は店舗へお問い合わせください。</span>');
+      cluster.addLayer(mk);
+    });
+    map.addLayer(cluster);
+    // list below map
+    var list=document.getElementById("list");
+    list.innerHTML=approved.map(function(d){ return '<div class="card" style="padding:10px"><b>'+d.place+'</b><div style="font-size:.78rem;color:var(--muted)">'+d.prefecture+'・'+d.date+'</div><div style="font-size:.82rem">'+d.item+'</div><a href="'+(d.gmapsUrl|| "https://www.google.com/maps/search/"+encodeURIComponent(d.place))+'" target="_blank" class="btn btn-ghost" style="padding:4px 10px;font-size:.74rem;margin-top:6px">地図</a></div>'; }).join("");
+    if(approved.length) map.fitBounds(cluster.getBounds().pad(0.2));
+  });
+})();
+</script>
+</body>
+</html>

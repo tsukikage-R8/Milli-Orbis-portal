@@ -1,0 +1,62 @@
+{
+  "appstar.png": [
+    2,
+    6
+  ],
+  "arrow.png": [
+    2,
+    6
+  ],
+  "beam.png": [
+    8,
+    14
+  ],
+  "cross.png": [
+    9,
+    14
+  ],
+  "hand.png": [
+    6,
+    4
+  ],
+  "help.png": [
+    2,
+    4
+  ],
+  "move.png": [
+    12,
+    13
+  ],
+  "no.png": [
+    10,
+    14
+  ],
+  "pen.png": [
+    2,
+    27
+  ],
+  "person.png": [
+    9,
+    25
+  ],
+  "sizenesw.png": [
+    17,
+    15
+  ],
+  "sizens.png": [
+    7,
+    15
+  ],
+  "sizenwse.png": [
+    11,
+    17
+  ],
+  "sizewe.png": [
+    15,
+    19
+  ],
+  "wait.png": [
+    15,
+    16
+  ]
+}

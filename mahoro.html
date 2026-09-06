@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title data-i18n="pageTitle.member" data-i18n-var-name="mahoro">鹿乃まほろ（Kano Mahoro）| Milli Orbis</title>
-<meta name="description" content="2010年より歌い手として活動するシンガー。2015年メジャーデビュー、MKLNtic メンバー。2026年8月にミリプロSONAへ加入。ミリプロSONAの鹿乃まほろの非公式ファンページ。ファンネーム: ？？？。">
+<meta name="description" content="みんなの毎日を、まほろばに！ Virtual Artist 鹿乃まほろ。ミリプロSONAの鹿乃まほろの非公式ファンページ。ファンネーム: 鹿友。">
 <link rel="icon" href="images/icon/Milli%20Orbis.ico" sizes="any">
 <link rel="apple-touch-icon" sizes="192x192" href="images/icon/Milli%20Orbis-192.png">
 <link rel="apple-touch-icon" sizes="518x518" href="images/icon/Milli%20Orbis-518.png">
@@ -14,14 +14,14 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Milli Orbis">
 <meta property="og:title" content="鹿乃まほろ（Kano Mahoro）| Milli Orbis">
-<meta property="og:description" content="2010年より歌い手として活動するシンガー。2015年メジャーデビュー、MKLNtic メンバー。2026年8月にミリプロSONAへ加入">
+<meta property="og:description" content="みんなの毎日を、まほろばに！ Virtual Artist 鹿乃まほろ">
 <meta property="og:url" content="https://milli-orbis-portal.onrender.com/mahoro.html">
 <meta property="og:image" content="https://milli-orbis-portal.onrender.com/images/Milli-Orbis-OGP.png">
 <meta property="og:image:width" content="1729">
 <meta property="og:image:height" content="910">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="鹿乃まほろ（Kano Mahoro）| Milli Orbis">
-<meta name="twitter:description" content="2010年より歌い手として活動するシンガー。2015年メジャーデビュー、MKLNtic メンバー。2026年8月にミリプロSONAへ加入">
+<meta name="twitter:description" content="みんなの毎日を、まほろばに！ Virtual Artist 鹿乃まほろ">
 <meta name="twitter:image" content="https://milli-orbis-portal.onrender.com/images/Milli-Orbis-OGP.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -58,34 +58,50 @@
           <a href="account.html" data-i18n="nav.account">マイページ</a>
         </div>
       </div>
+      <a href="goods/current.html">MilliDex</a>
       <a href="index.html#groups" data-i18n="nav.groups">グループ・期生</a>
-      <a href="quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
       <a href="songs.html" data-i18n="nav.songs">曲データベース</a>
-      <a href="account.html" data-i18n="nav.account">マイページ</a>
       <a href="index.html#calendar">Event Calendar</a>
       <a href="index.html#links">Official Links</a>
+      <a href="cursors.html">カーソル配布</a>
     </nav>
     
     <div class="header-actions">
       <a id="liveBadge" class="live-badge" href="#" target="_blank" rel="noopener">● LIVE</a>
-      <button type="button" class="notif-bell" id="notifBell" aria-label="通知設定" data-i18n-aria="header.notif">🔔</button>
-  <button type="button" class="profile-btn" id="profile-btn" onclick="mpOpenAccount()" aria-label="アカウント連携" data-i18n-aria="header.profile">
+  <button type="button" class="profile-btn" id="profile-btn" onclick="mpOpenAccount()" aria-label="Milli Orbisアカウント" data-i18n-aria="header.profile">
         <span class="profile-icon" id="profile-header-icon">?</span>
       </button>
-      <select id="oshiSelect" class="oshi-select" aria-label="推しメンバーを選択" data-i18n-aria="header.oshi"></select>
-      <button type="button" class="theme-toggle" id="themeToggle" aria-label="ダークモード切替" data-i18n-aria="header.theme">🌙</button>
-      
-      <button type="button" class="lang-toggle" id="langToggle" aria-label="言語切替" data-i18n-aria="header.lang">EN</button>
-      <button id="hamburger" class="hamburger" aria-label="メニュー" data-i18n-aria="header.menu">
+      <div class="oshi-cursor-wrap" id="oshiCursorWrap">
+        <button id="oshiCursorBtn" class="oshi-cursor-btn" aria-label="カーソルと推しを選択" aria-expanded="false" aria-haspopup="true">
+          <span id="oshiCursorPreview" class="oshi-cursor-preview" style="width:18px;height:18px;border-radius:50%;background:#7a4fc4;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.2);display:inline-block;flex-shrink:0"></span>
+          <span id="oshiDot" class="oshi-dot" style="width:18px;height:18px;border-radius:50%;background:var(--accent);border:2px solid #fff;outline:1px solid var(--accent);display:inline-block;flex-shrink:0;background-size:cover;background-position:center;"></span>
+          <span class="oshi-cursor-label">表示</span>
+        </button>
+        <div id="oshiCursorDropdown" class="oshi-cursor-dropdown" role="menu" aria-hidden="true"></div>
+      </div>
+      <select id="oshiSelect" class="oshi-select" aria-label="推しメンバーを選択" data-i18n-aria="header.oshi" style="display:none"></select>
+      <button id="hamburger" class="hamburger" aria-label="メニュー" data-i18n-aria="header.menu" aria-expanded="false" aria-controls="mobileNav">
         <svg viewBox="0 0 28 20" width="30" height="22" aria-hidden="true"><path d="M2 3h24M2 10h24M2 17h24" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/></svg>
       </button>
     </div>
   </div>
-  <nav id="mobileNav" class="mobile-nav">
+  <div id="drawerBackdrop" class="drawer-backdrop" aria-hidden="true"></div>
+  <nav id="mobileNav" class="mobile-nav" aria-hidden="true">
     
+      <div class="drawer-section-label">設定</div>
+      <div class="drawer-settings">
+        <button type="button" class="notif-bell" id="mobileNotifBell" aria-label="通知設定" data-i18n-aria="header.notif">🔔</button>
+        <button type="button" class="theme-toggle" id="mobileThemeToggle" aria-label="ダークモード切替" data-i18n-aria="header.theme">🌙</button>
+        <button type="button" class="lang-toggle" id="mobileLangToggle" aria-label="言語切替" data-i18n-aria="header.lang">EN</button>
+        <span style="font-size:0.78rem;color:var(--muted);font-weight:700;">通知 / テーマ / 言語</span>
+      </div>
+      <div class="drawer-section-label">セクション</div>
       <a href="index.html#home">Home</a>
       <a href="index.html#groups" data-i18n="nav.groups">グループ・期生</a>
       <a href="index.html#members">Member Guide</a>
+      <a href="index.html#calendar">Event Calendar</a>
+      <a href="index.html#links">Official Links</a>
+      <div class="drawer-section-label">Member Guide</div>
       <a class="mobile-sub" href="konomi.html" data-i18n-name="konomi">甘狼このみ</a>
       <a class="mobile-sub" href="nono.html" data-i18n-name="nono">音ノ乃のの</a>
       <a class="mobile-sub" href="akubi.html" data-i18n-name="akubi">あくび・でもんすぺーど</a>
@@ -98,12 +114,18 @@
       <a class="mobile-sub" href="rei.html" data-i18n-name="rei">夕霧レイ</a>
       <a class="mobile-sub" href="mahoro.html" data-i18n-name="mahoro">鹿乃まほろ</a>
       <a class="mobile-sub" href="milchan.html" data-i18n-name="milchan">ミリちゃん</a>
-      <a href="index.html#calendar">Event Calendar</a>
+      <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
+      <div class="drawer-section-label">MilliDex</div>
+      <a href="goods/current.html">現在販売中</a>
+      <a href="goods/shops.html" class="mobile-sub">販売箇所検索</a>
+      <a href="goods/map.html" class="mobile-sub">有志マップ</a>
+      <a href="goods/archive.html" class="mobile-sub">過去アーカイブ</a>
+      <a href="goods/mine.html" class="mobile-sub">マイグッズ</a>
+      <div class="drawer-section-label">コンテンツ</div>
       <a href="quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
       <a href="songs.html" data-i18n="nav.songs">曲データベース</a>
-      <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
+      <a href="cursors.html">カーソル配布</a>
       <a href="account.html" data-i18n="nav.account">マイページ</a>
-      <a href="index.html#links">Official Links</a>
   </nav>
 </header>
 
@@ -118,17 +140,17 @@
     <div class="heroSweep"></div>
     <div class="talent-hero-inner">
       <img class="talent-hero-logo" src="images/rogo/mahororogo.png" alt="">
-      
+      <img class="talent-hero-art" src="images/talents/mahoro.webp" alt="鹿乃まほろ">
       <h1 data-i18n-name="mahoro">鹿乃まほろ</h1>
       <p class="talent-name-en">Kano Mahoro</p>
       <p class="talent-catch" id="tCatch"></p>
       <p class="talent-tags">
         <img id="tGenIcon" class="group-icon" alt="" hidden>
         <span id="tGen"></span>
-        <span data-i18n-html="t.fanName" data-i18n-var-name="？？？">ファンネーム: ？？？</span>
+        <span data-i18n-html="t.fanName" data-i18n-var-name="鹿友">ファンネーム: 鹿友</span>
       </p>
       <button type="button" class="intro-btn" id="introBtn" data-i18n="t.intro">▶ イントロを見る</button>
-      <button type="button" class="bm-btn talent-hero-bm" aria-label="ブックマーク" data-i18n-aria="bm.aria" data-bm-kind="member" data-bm-key="mb:mahoro" data-bm-id="mahoro" data-bm-name="鹿乃まほろ" data-bm-nameen="Kano Mahoro" data-bm-color="#e0455e" data-bm-img="images/icon/mahoro_profile.jpg"><svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2.5h12a1 1 0 0 1 1 1V22l-7-4.6L5 22V3.5a1 1 0 0 1 1-1z"/></svg></button>
+      <button type="button" class="bm-btn talent-hero-bm" aria-label="ブックマーク" data-i18n-aria="bm.aria" data-bm-kind="member" data-bm-key="mb:mahoro" data-bm-id="mahoro" data-bm-name="鹿乃まほろ" data-bm-nameen="Kano Mahoro" data-bm-color="#EF454A" data-bm-img="images/talents/mahoro.webp"><svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2.5h12a1 1 0 0 1 1 1V22l-7-4.6L5 22V3.5a1 1 0 0 1 1-1z"/></svg></button>
     </div>
   </section>
 
@@ -159,103 +181,198 @@
   <p class="source-note"><span data-i18n="footer.admin">作成・管理者：</span><a href="https://x.com/SunSunmachi" target="_blank" rel="noopener">すんすん（@SunSunmachi）</a></p>
 </footer>
 
-<div id="introOverlay" class="intro-overlay" data-member="mahoro" aria-hidden="true"><button type="button" class="intro-skip" id="introSkip" data-i18n="t.skip">スキップ</button><span class="intro-ring r1"></span><span class="intro-ring r2"></span><span class="intro-ring r3"></span><span class="intro-ring r4"></span><span class="intro-ring r5"></span><div class="intro-fx fx-straw"><span class="fx-straw" style="left:10%;animation-delay:0s"><svg viewBox="0 0 100 100" aria-hidden="true"><path fill="currentColor" d="M50,90 C30,72 14,58 14,40 C14,26 24,16 36,16 C42,16 47,19 50,25 C53,19 58,16 64,16 C76,16 86,26 86,40 C86,58 70,72 50,90 Z"/><g fill="#6fbf73"><path d="M50,33 C45,25 37,20 28,21 C37,25 43,30 47,36 C45,27 41,20 37,13 C41,20 47,27 50,33 Z"/><path d="M50,33 C55,25 63,20 72,21 C63,25 57,30 53,36 C55,27 59,20 63,13 C59,20 53,27 50,33 Z"/><path d="M46,28 C46,20 48,13 50,8 C52,13 54,20 54,28 C51,32 49,32 46,28 Z"/></g><g fill="#ffe14d"><ellipse cx="30" cy="44" rx="2.6" ry="3.6"/><ellipse cx="50" cy="38" rx="2.6" ry="3.6"/><ellipse cx="70" cy="44" rx="2.6" ry="3.6"/><ellipse cx="38" cy="58" rx="2.6" ry="3.6"/><ellipse cx="62" cy="58" rx="2.6" ry="3.6"/><ellipse cx="50" cy="72" rx="2.6" ry="3.6"/><ellipse cx="30" cy="62" rx="2.2" ry="3"/><ellipse cx="70" cy="62" rx="2.2" ry="3"/></g></svg></span><span class="fx-straw" style="left:30%;animation-delay:1.2s;width:24px;height:24px"><svg viewBox="0 0 100 100" aria-hidden="true"><path fill="currentColor" d="M50,90 C30,72 14,58 14,40 C14,26 24,16 36,16 C42,16 47,19 50,25 C53,19 58,16 64,16 C76,16 86,26 86,40 C86,58 70,72 50,90 Z"/><g fill="#6fbf73"><path d="M50,33 C45,25 37,20 28,21 C37,25 43,30 47,36 C45,27 41,20 37,13 C41,20 47,27 50,33 Z"/><path d="M50,33 C55,25 63,20 72,21 C63,25 57,30 53,36 C55,27 59,20 63,13 C59,20 53,27 50,33 Z"/><path d="M46,28 C46,20 48,13 50,8 C52,13 54,20 54,28 C51,32 49,32 46,28 Z"/></g><g fill="#ffe14d"><ellipse cx="30" cy="44" rx="2.6" ry="3.6"/><ellipse cx="50" cy="38" rx="2.6" ry="3.6"/><ellipse cx="70" cy="44" rx="2.6" ry="3.6"/><ellipse cx="38" cy="58" rx="2.6" ry="3.6"/><ellipse cx="62" cy="58" rx="2.6" ry="3.6"/><ellipse cx="50" cy="72" rx="2.6" ry="3.6"/><ellipse cx="30" cy="62" rx="2.2" ry="3"/><ellipse cx="70" cy="62" rx="2.2" ry="3"/></g></svg></span><span class="fx-straw" style="left:52%;animation-delay:0.6s;width:36px;height:36px"><svg viewBox="0 0 100 100" aria-hidden="true"><path fill="currentColor" d="M50,90 C30,72 14,58 14,40 C14,26 24,16 36,16 C42,16 47,19 50,25 C53,19 58,16 64,16 C76,16 86,26 86,40 C86,58 70,72 50,90 Z"/><g fill="#6fbf73"><path d="M50,33 C45,25 37,20 28,21 C37,25 43,30 47,36 C45,27 41,20 37,13 C41,20 47,27 50,33 Z"/><path d="M50,33 C55,25 63,20 72,21 C63,25 57,30 53,36 C55,27 59,20 63,13 C59,20 53,27 50,33 Z"/><path d="M46,28 C46,20 48,13 50,8 C52,13 54,20 54,28 C51,32 49,32 46,28 Z"/></g><g fill="#ffe14d"><ellipse cx="30" cy="44" rx="2.6" ry="3.6"/><ellipse cx="50" cy="38" rx="2.6" ry="3.6"/><ellipse cx="70" cy="44" rx="2.6" ry="3.6"/><ellipse cx="38" cy="58" rx="2.6" ry="3.6"/><ellipse cx="62" cy="58" rx="2.6" ry="3.6"/><ellipse cx="50" cy="72" rx="2.6" ry="3.6"/><ellipse cx="30" cy="62" rx="2.2" ry="3"/><ellipse cx="70" cy="62" rx="2.2" ry="3"/></g></svg></span><span class="fx-straw" style="left:72%;animation-delay:1.8s;width:26px;height:26px"><svg viewBox="0 0 100 100" aria-hidden="true"><path fill="currentColor" d="M50,90 C30,72 14,58 14,40 C14,26 24,16 36,16 C42,16 47,19 50,25 C53,19 58,16 64,16 C76,16 86,26 86,40 C86,58 70,72 50,90 Z"/><g fill="#6fbf73"><path d="M50,33 C45,25 37,20 28,21 C37,25 43,30 47,36 C45,27 41,20 37,13 C41,20 47,27 50,33 Z"/><path d="M50,33 C55,25 63,20 72,21 C63,25 57,30 53,36 C55,27 59,20 63,13 C59,20 53,27 50,33 Z"/><path d="M46,28 C46,20 48,13 50,8 C52,13 54,20 54,28 C51,32 49,32 46,28 Z"/></g><g fill="#ffe14d"><ellipse cx="30" cy="44" rx="2.6" ry="3.6"/><ellipse cx="50" cy="38" rx="2.6" ry="3.6"/><ellipse cx="70" cy="44" rx="2.6" ry="3.6"/><ellipse cx="38" cy="58" rx="2.6" ry="3.6"/><ellipse cx="62" cy="58" rx="2.6" ry="3.6"/><ellipse cx="50" cy="72" rx="2.6" ry="3.6"/><ellipse cx="30" cy="62" rx="2.2" ry="3"/><ellipse cx="70" cy="62" rx="2.2" ry="3"/></g></svg></span><span class="fx-straw" style="left:90%;animation-delay:0.9s"><svg viewBox="0 0 100 100" aria-hidden="true"><path fill="currentColor" d="M50,90 C30,72 14,58 14,40 C14,26 24,16 36,16 C42,16 47,19 50,25 C53,19 58,16 64,16 C76,16 86,26 86,40 C86,58 70,72 50,90 Z"/><g fill="#6fbf73"><path d="M50,33 C45,25 37,20 28,21 C37,25 43,30 47,36 C45,27 41,20 37,13 C41,20 47,27 50,33 Z"/><path d="M50,33 C55,25 63,20 72,21 C63,25 57,30 53,36 C55,27 59,20 63,13 C59,20 53,27 50,33 Z"/><path d="M46,28 C46,20 48,13 50,8 C52,13 54,20 54,28 C51,32 49,32 46,28 Z"/></g><g fill="#ffe14d"><ellipse cx="30" cy="44" rx="2.6" ry="3.6"/><ellipse cx="50" cy="38" rx="2.6" ry="3.6"/><ellipse cx="70" cy="44" rx="2.6" ry="3.6"/><ellipse cx="38" cy="58" rx="2.6" ry="3.6"/><ellipse cx="62" cy="58" rx="2.6" ry="3.6"/><ellipse cx="50" cy="72" rx="2.6" ry="3.6"/><ellipse cx="30" cy="62" rx="2.2" ry="3"/><ellipse cx="70" cy="62" rx="2.2" ry="3"/></g></svg></span><span class="fx-heart" style="left:16%;top:24%;animation-delay:0.3s"></span><span class="fx-heart" style="left:70%;top:18%;animation-delay:1.2s;animation-duration:5.5s"></span><span class="fx-heart" style="left:46%;top:64%;animation-delay:1.8s;animation-duration:6s"></span><span class="fx-spark" style="left:26%;top:40%;animation-delay:0.8s"></span><span class="fx-spark" style="left:84%;top:52%;animation-delay:1.5s"></span><span class="fx-antler" style="right:9%;top:12%"></span><span class="fx-antler" style="left:8%;bottom:16%;width:64px;height:64px;animation-delay:1.2s;animation-duration:7s;opacity:0.7"></span><span class="fx-flash"></span></div><div class="intro-stage"><img class="intro-logo" src="images/rogo/mahororogo.png" alt=""><p class="intro-name" data-i18n-name="mahoro">鹿乃まほろ</p><p class="intro-catch" id="introCatch"></p></div><audio id="introAudio" src="" preload="auto"></audio><button type="button" class="intro-start" id="introStartBtn" data-i18n="t.tapPlay">▶ タップで再生</button></div>
+<div id="introOverlay" class="intro-overlay" data-member="mahoro" aria-hidden="true"><button type="button" class="intro-skip" id="introSkip" data-i18n="t.skip">スキップ</button><span class="intro-ring r1"></span><span class="intro-ring r2"></span><span class="intro-ring r3"></span><span class="intro-ring r4"></span><span class="intro-ring r5"></span><div class="intro-fx fx-straw"><span class="fx-straw" style="left:10%;animation-delay:0s"><svg viewBox="0 0 100 100" aria-hidden="true"><path fill="currentColor" d="M50,90 C30,72 14,58 14,40 C14,26 24,16 36,16 C42,16 47,19 50,25 C53,19 58,16 64,16 C76,16 86,26 86,40 C86,58 70,72 50,90 Z"/><g fill="#6fbf73"><path d="M50,33 C45,25 37,20 28,21 C37,25 43,30 47,36 C45,27 41,20 37,13 C41,20 47,27 50,33 Z"/><path d="M50,33 C55,25 63,20 72,21 C63,25 57,30 53,36 C55,27 59,20 63,13 C59,20 53,27 50,33 Z"/><path d="M46,28 C46,20 48,13 50,8 C52,13 54,20 54,28 C51,32 49,32 46,28 Z"/></g><g fill="#ffe14d"><ellipse cx="30" cy="44" rx="2.6" ry="3.6"/><ellipse cx="50" cy="38" rx="2.6" ry="3.6"/><ellipse cx="70" cy="44" rx="2.6" ry="3.6"/><ellipse cx="38" cy="58" rx="2.6" ry="3.6"/><ellipse cx="62" cy="58" rx="2.6" ry="3.6"/><ellipse cx="50" cy="72" rx="2.6" ry="3.6"/><ellipse cx="30" cy="62" rx="2.2" ry="3"/><ellipse cx="70" cy="62" rx="2.2" ry="3"/></g></svg></span><span class="fx-straw" style="left:30%;animation-delay:1.2s;width:24px;height:24px"><svg viewBox="0 0 100 100" aria-hidden="true"><path fill="currentColor" d="M50,90 C30,72 14,58 14,40 C14,26 24,16 36,16 C42,16 47,19 50,25 C53,19 58,16 64,16 C76,16 86,26 86,40 C86,58 70,72 50,90 Z"/><g fill="#6fbf73"><path d="M50,33 C45,25 37,20 28,21 C37,25 43,30 47,36 C45,27 41,20 37,13 C41,20 47,27 50,33 Z"/><path d="M50,33 C55,25 63,20 72,21 C63,25 57,30 53,36 C55,27 59,20 63,13 C59,20 53,27 50,33 Z"/><path d="M46,28 C46,20 48,13 50,8 C52,13 54,20 54,28 C51,32 49,32 46,28 Z"/></g><g fill="#ffe14d"><ellipse cx="30" cy="44" rx="2.6" ry="3.6"/><ellipse cx="50" cy="38" rx="2.6" ry="3.6"/><ellipse cx="70" cy="44" rx="2.6" ry="3.6"/><ellipse cx="38" cy="58" rx="2.6" ry="3.6"/><ellipse cx="62" cy="58" rx="2.6" ry="3.6"/><ellipse cx="50" cy="72" rx="2.6" ry="3.6"/><ellipse cx="30" cy="62" rx="2.2" ry="3"/><ellipse cx="70" cy="62" rx="2.2" ry="3"/></g></svg></span><span class="fx-straw" style="left:52%;animation-delay:0.6s;width:36px;height:36px"><svg viewBox="0 0 100 100" aria-hidden="true"><path fill="currentColor" d="M50,90 C30,72 14,58 14,40 C14,26 24,16 36,16 C42,16 47,19 50,25 C53,19 58,16 64,16 C76,16 86,26 86,40 C86,58 70,72 50,90 Z"/><g fill="#6fbf73"><path d="M50,33 C45,25 37,20 28,21 C37,25 43,30 47,36 C45,27 41,20 37,13 C41,20 47,27 50,33 Z"/><path d="M50,33 C55,25 63,20 72,21 C63,25 57,30 53,36 C55,27 59,20 63,13 C59,20 53,27 50,33 Z"/><path d="M46,28 C46,20 48,13 50,8 C52,13 54,20 54,28 C51,32 49,32 46,28 Z"/></g><g fill="#ffe14d"><ellipse cx="30" cy="44" rx="2.6" ry="3.6"/><ellipse cx="50" cy="38" rx="2.6" ry="3.6"/><ellipse cx="70" cy="44" rx="2.6" ry="3.6"/><ellipse cx="38" cy="58" rx="2.6" ry="3.6"/><ellipse cx="62" cy="58" rx="2.6" ry="3.6"/><ellipse cx="50" cy="72" rx="2.6" ry="3.6"/><ellipse cx="30" cy="62" rx="2.2" ry="3"/><ellipse cx="70" cy="62" rx="2.2" ry="3"/></g></svg></span><span class="fx-straw" style="left:72%;animation-delay:1.8s;width:26px;height:26px"><svg viewBox="0 0 100 100" aria-hidden="true"><path fill="currentColor" d="M50,90 C30,72 14,58 14,40 C14,26 24,16 36,16 C42,16 47,19 50,25 C53,19 58,16 64,16 C76,16 86,26 86,40 C86,58 70,72 50,90 Z"/><g fill="#6fbf73"><path d="M50,33 C45,25 37,20 28,21 C37,25 43,30 47,36 C45,27 41,20 37,13 C41,20 47,27 50,33 Z"/><path d="M50,33 C55,25 63,20 72,21 C63,25 57,30 53,36 C55,27 59,20 63,13 C59,20 53,27 50,33 Z"/><path d="M46,28 C46,20 48,13 50,8 C52,13 54,20 54,28 C51,32 49,32 46,28 Z"/></g><g fill="#ffe14d"><ellipse cx="30" cy="44" rx="2.6" ry="3.6"/><ellipse cx="50" cy="38" rx="2.6" ry="3.6"/><ellipse cx="70" cy="44" rx="2.6" ry="3.6"/><ellipse cx="38" cy="58" rx="2.6" ry="3.6"/><ellipse cx="62" cy="58" rx="2.6" ry="3.6"/><ellipse cx="50" cy="72" rx="2.6" ry="3.6"/><ellipse cx="30" cy="62" rx="2.2" ry="3"/><ellipse cx="70" cy="62" rx="2.2" ry="3"/></g></svg></span><span class="fx-straw" style="left:90%;animation-delay:0.9s"><svg viewBox="0 0 100 100" aria-hidden="true"><path fill="currentColor" d="M50,90 C30,72 14,58 14,40 C14,26 24,16 36,16 C42,16 47,19 50,25 C53,19 58,16 64,16 C76,16 86,26 86,40 C86,58 70,72 50,90 Z"/><g fill="#6fbf73"><path d="M50,33 C45,25 37,20 28,21 C37,25 43,30 47,36 C45,27 41,20 37,13 C41,20 47,27 50,33 Z"/><path d="M50,33 C55,25 63,20 72,21 C63,25 57,30 53,36 C55,27 59,20 63,13 C59,20 53,27 50,33 Z"/><path d="M46,28 C46,20 48,13 50,8 C52,13 54,20 54,28 C51,32 49,32 46,28 Z"/></g><g fill="#ffe14d"><ellipse cx="30" cy="44" rx="2.6" ry="3.6"/><ellipse cx="50" cy="38" rx="2.6" ry="3.6"/><ellipse cx="70" cy="44" rx="2.6" ry="3.6"/><ellipse cx="38" cy="58" rx="2.6" ry="3.6"/><ellipse cx="62" cy="58" rx="2.6" ry="3.6"/><ellipse cx="50" cy="72" rx="2.6" ry="3.6"/><ellipse cx="30" cy="62" rx="2.2" ry="3"/><ellipse cx="70" cy="62" rx="2.2" ry="3"/></g></svg></span><span class="fx-heart" style="left:16%;top:24%;animation-delay:0.3s"></span><span class="fx-heart" style="left:70%;top:18%;animation-delay:1.2s;animation-duration:5.5s"></span><span class="fx-heart" style="left:46%;top:64%;animation-delay:1.8s;animation-duration:6s"></span><span class="fx-spark" style="left:26%;top:40%;animation-delay:0.8s"></span><span class="fx-spark" style="left:84%;top:52%;animation-delay:1.5s"></span><span class="fx-antler" style="right:9%;top:12%"></span><span class="fx-antler" style="left:8%;bottom:16%;width:64px;height:64px;animation-delay:1.2s;animation-duration:7s;opacity:0.7"></span><span class="fx-flash"></span></div><div class="intro-stage"><img class="intro-logo" src="images/rogo/mahororogo.png" alt=""><img class="intro-art" src="images/talents/mahoro.webp" alt="鹿乃まほろ"><p class="intro-name" data-i18n-name="mahoro">鹿乃まほろ</p><p class="intro-catch" id="introCatch"></p><button type="button" class="intro-voice-btn" id="introVoiceBtn" data-i18n="t.playVoice">🔁 挨拶を再生</button></div><audio id="introAudio" src="assets/voices/鹿乃まほろ.mp3" preload="auto"></audio><button type="button" class="intro-start" id="introStartBtn" data-i18n="t.tapPlay">▶ タップで再生</button></div>
 
 
-<div id="login-popup" class="login-popup">
-  <div class="login-popup-card">
-    <div class="login-popup-header">
-      <span class="login-popup-title" data-i18n="login.title">アカウント連携</span>
-      <button class="login-popup-close" id="mp-popup-close" aria-label="閉じる" data-i18n-aria="login.close">&times;</button>
-    </div>
-    <div class="login-popup-body">
-      <p class="login-popup-desc" data-i18n-html="login.desc">
-        ログイン（または連携IDの設定）で、Milli Games / Milli Unishare / Millipro Chronicle と同じアカウントを共有できます。<br>
-        未ログインでも本サイトの全機能は利用できます。
-      </p>
+<!-- Milli Unishare 参考: アカウント連携 4モーダル構成 -->
+<div id="acctModal" class="acct-overlay" aria-hidden="true">
+  <div class="acct-box">
+    <button class="acct-close" data-close="acctModal" aria-label="閉じる">×</button>
+    <h3><span style="background:linear-gradient(120deg,#4fc3f7,#b48cf2,#f78fc0);-webkit-background-clip:text;background-clip:text;color:transparent;">🔗</span> <span data-i18n="login.title">Milli Orbisアカウント連携</span></h3>
+    <div style="padding:0 22px 18px;overflow-y:auto;">
+      <p class="acct-hint" data-i18n-html="login.desc">Milli Orbisアカウントでログイン（または連携IDの設定）すると、Milli Games / Milli Unishare / Millipro Chronicle と同じアカウントを共有できます。<br>未ログインでも本サイトの全機能は利用できます。</p>
+      <div id="mp-account-guest">
+        <p class="acct-hint" data-i18n="login.guestHint">Milli Orbisアカウントでログインすると、お気に入り・推し・応援履歴を全端末で共有できて便利です。</p>
+        <div class="acct-row">
+          <button type="button" onclick="mpOpenLogin()" data-i18n="login.tabLogin">ログイン</button>
+          <button type="button" onclick="mpOpenSignup()" data-i18n="login.tabSignup">新規登録</button>
+        </div>
+        <p class="acct-hint" style="text-align:center;margin:8px 0;" data-i18n="login.or">— または 連携IDを入力 —</p>
+        <div id="mp-id-input">
+          <div class="acct-pw-wrap"><input id="mp-id" placeholder="連携ID（例: TEST001）" data-i18n-placeholder="login.linkIdPh" autocomplete="off"></div>
+          <button type="button" onclick="mpSetId()" style="width:100%" data-i18n="login.set">連携IDを保存</button>
+        </div>
+        <div class="acct-row" style="margin-top:10px;">
+          <button type="button" class="mp-oauth-btn mp-oauth-google" onclick="mpOAuthLogin('google')" aria-label="Googleでログイン" style="flex:1;display:flex;align-items:center;justify-content:center;gap:6px;padding:10px;border:1px solid #dadce0;border-radius:999px;background:#fff;color:#3c4043;font-weight:700;cursor:pointer;"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google</button>
+          <button type="button" class="mp-oauth-btn mp-oauth-x" onclick="mpOAuthLogin('twitter')" aria-label="Xでログイン" style="flex:1;display:flex;align-items:center;justify-content:center;gap:6px;padding:10px;border-radius:999px;background:#000;color:#fff;font-weight:700;cursor:pointer;">𝕏 X</button>
+        </div>
+        <p id="mp-msg" class="acct-msg"></p>
+      </div>
       <div id="mp-account-ok" style="display:none;">
-        <div class="mp-row" data-i18n-html="login.linkId">連携ID: <b id="mp-pid"></b></div>
-        <div class="mp-btn-row">
-          <button type="button" class="btn" onclick="mpCopyId()" data-i18n="login.copyId">🔗 IDをコピー</button>
-          <button type="button" class="btn btn-ghost" onclick="mpLogout()" data-i18n="login.logout">ログアウト</button>
-        </div>
-        <div class="mp-btn-row">
-          <a class="btn btn-ghost" href="account.html" data-i18n="account.mine">マイページを開く</a>
-        </div>
-      </div>
-      <div id="mp-edit" class="mp-edit">
-        <div class="mp-edit-sep" data-i18n="login.editSep">プロフィール編集（名前・アイコン）</div>
-        <div class="mp-edit-row">
-          <span class="mp-edit-label" data-i18n="login.name">名前</span>
-          <input id="mp-edit-name" class="mp-input" type="text" maxlength="20" placeholder="表示名（20文字まで）" data-i18n-placeholder="login.namePh" autocomplete="off">
-        </div>
-        <div class="mp-edit-row">
-          <span class="mp-edit-label" data-i18n="login.icon">アイコン</span>
-          <span class="mp-edit-icon" id="mp-edit-icon-preview"></span>
-          <label class="btn btn-ghost mp-edit-upload" data-i18n="login.pickImg">画像を選ぶ<input type="file" id="mp-edit-icon-file" accept="image/*" hidden onchange="mpPickIconFile(this)"></label>
-        </div>
-        <div class="mp-emoji-grid">
-          <button type="button" class="mp-emoji-btn" data-emoji="🐺" onclick="mpPickEmoji('🐺')">🐺</button>
-          <button type="button" class="mp-emoji-btn" data-emoji="🍫" onclick="mpPickEmoji('🍫')">🍫</button>
-          <button type="button" class="mp-emoji-btn" data-emoji="🎧" onclick="mpPickEmoji('🎧')">🎧</button>
-          <button type="button" class="mp-emoji-btn" data-emoji="👿" onclick="mpPickEmoji('👿')">👿</button>
-          <button type="button" class="mp-emoji-btn" data-emoji="🐾" onclick="mpPickEmoji('🐾')">🐾</button>
-          <button type="button" class="mp-emoji-btn" data-emoji="🦦" onclick="mpPickEmoji('🦦')">🦦</button>
-          <button type="button" class="mp-emoji-btn" data-emoji="🌙" onclick="mpPickEmoji('🌙')">🌙</button>
-          <button type="button" class="mp-emoji-btn" data-emoji="🧊" onclick="mpPickEmoji('🧊')">🧊</button>
-          <button type="button" class="mp-emoji-btn" data-emoji="🔧" onclick="mpPickEmoji('🔧')">🔧</button>
-          <button type="button" class="mp-emoji-btn" data-emoji="🧸" onclick="mpPickEmoji('🧸')">🧸</button>
-          <button type="button" class="mp-emoji-btn" data-emoji="🦭" onclick="mpPickEmoji('🦭')">🦭</button>
-          <button type="button" class="mp-emoji-btn" data-emoji="✨" onclick="mpPickEmoji('✨')">✨</button>
-        </div>
-        <p class="mp-edit-note" id="mp-edit-note"></p>
-        <button type="button" class="btn mp-submit" onclick="mpSaveProfile()" data-i18n="login.save">プロフィールを保存</button>
-      </div>
-      <p class="mp-edit-locked" id="mp-edit-locked" style="display:none;" data-i18n="login.locked">名前・アイコンの変更はログイン後に使えます。</p>
-      <div id="mp-account-form">
-        <div class="mp-tabs">
-          <button type="button" id="mp-tab-login" class="mp-tab active" onclick="mpTab('login')" data-i18n="login.tabLogin">ログイン</button>
-          <button type="button" id="mp-tab-signup" class="mp-tab" onclick="mpTab('signup')" data-i18n="login.tabSignup">新規登録</button>
-        </div>
-        <div id="mp-panel-login">
-          <input id="mp-email" class="mp-input" type="email" placeholder="メールアドレス" data-i18n-placeholder="login.email" autocomplete="email">
-          <div class="mp-pass-row">
-            <input id="mp-pass" class="mp-input" type="password" placeholder="パスワード" data-i18n-placeholder="login.pass" autocomplete="current-password">
-            <button type="button" class="mp-eye" id="mp-pass-eye" onclick="mpToggle('mp-pass','mp-pass-eye')" aria-label="パスワード表示切替" data-i18n-aria="login.eye">👁</button>
+        <div class="acct-profile">
+          <div id="mp-profile-icon" class="acct-avatar"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
+          <div>
+            <div id="mp-profile-name" style="font-size:15px;font-weight:800;"></div>
+            <div id="mp-profile-msg" style="font-size:12px;color:var(--muted);word-wrap:break-word;"></div>
           </div>
-          <button type="button" class="btn mp-submit" onclick="mpSubmit(false)" data-i18n="login.btnLogin">ログイン</button>
-          <button type="button" class="mp-forgot-btn" onclick="mpOpenReset()" data-i18n="login.forgot">パスワードをお忘れですか？</button>
         </div>
-        <div id="mp-panel-signup" style="display:none;">
-          <input id="mp2-email" class="mp-input" type="email" placeholder="メールアドレス" data-i18n-placeholder="login.email" autocomplete="email">
-          <div class="mp-pass-row">
-            <input id="mp2-pass" class="mp-input" type="password" placeholder="パスワード（6文字以上）" data-i18n-placeholder="login.passPh" autocomplete="new-password">
-            <button type="button" class="mp-eye" id="mp2-pass-eye" onclick="mpToggle('mp2-pass','mp2-pass-eye')" aria-label="パスワード表示切替" data-i18n-aria="login.eye">👁</button>
+        <p style="word-wrap:break-word;font-size:13px;"><span data-i18n="login.linkId">連携ID:</span> <b id="mp-pid"></b></p>
+        <div class="acct-row">
+          <button type="button" onclick="mpCopyId()" data-i18n="login.copyId">コピー</button>
+          <button type="button" onclick="mpStartEdit()" data-i18n="login.editSep">編集</button>
+          <button type="button" onclick="mpLogout()" data-i18n="login.logout" style="background:#999;">ログアウト</button>
+        </div>
+        <div id="mp-link-providers" style="margin-top:12px;"></div>
+        <div id="mp-link-msg" class="acct-msg"></div>
+        <div class="acct-row" style="margin-top:8px;">
+          <button type="button" onclick="mpOpenMypage()" style="width:100%;" data-i18n="account.mine">マイページ（応援・お気に入り）</button>
+        </div>
+        <div id="mp-account-edit" style="display:none;margin-top:14px;padding-top:12px;border-top:2px dashed var(--border);">
+          <p class="acct-hint" data-i18n="login.editNote">⇒ 名前・アイコン・一言を保存（Firebase に反映）</p>
+          <!-- ニックネーム登録: Unishare と同機構 + ポータル独自の絵文字/画像選択 -->
+          <div class="acct-picon-row">
+            <div id="mp-picon-preview" class="acct-avatar" style="width:42px;height:42px;font-size:20px;">?</div>
+            <input id="mp-picon" placeholder="アイコン（文字 or 画像URL）" data-i18n-placeholder="login.iconPh" oninput="mpUpdatePiconPreview()" autocomplete="off">
           </div>
-          <input id="mp2-pass2" class="mp-input" type="password" placeholder="パスワード（確認）" data-i18n-placeholder="login.passConfirm" autocomplete="new-password">
-          <button type="button" class="btn mp-submit" onclick="mpSubmit(true)" data-i18n="login.btnRegister">登録する</button>
+          <div style="display:flex;gap:8px;margin-bottom:8px;">
+            <label class="btn btn-ghost" style="font-size:12px;flex:none;" data-i18n="login.pickImg">画像を選ぶ<input type="file" id="mp-edit-icon-file" accept="image/*" hidden onchange="mpPickIconFile(this)"></label>
+            <span class="acct-hint" style="margin:0;align-self:center;" data-i18n="login.emojiHint">または絵文字:</span>
+          </div>
+          <div class="mp-emoji-grid" style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px;">
+            <button type="button" class="mp-emoji-btn" data-emoji="🐺" onclick="mpPickEmoji('🐺')" style="width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:#fff;cursor:pointer;">🐺</button>
+            <button type="button" class="mp-emoji-btn" data-emoji="🍫" onclick="mpPickEmoji('🍫')" style="width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:#fff;cursor:pointer;">🍫</button>
+            <button type="button" class="mp-emoji-btn" data-emoji="🎧" onclick="mpPickEmoji('🎧')" style="width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:#fff;cursor:pointer;">🎧</button>
+            <button type="button" class="mp-emoji-btn" data-emoji="👿" onclick="mpPickEmoji('👿')" style="width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:#fff;cursor:pointer;">👿</button>
+            <button type="button" class="mp-emoji-btn" data-emoji="🐾" onclick="mpPickEmoji('🐾')" style="width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:#fff;cursor:pointer;">🐾</button>
+            <button type="button" class="mp-emoji-btn" data-emoji="🦦" onclick="mpPickEmoji('🦦')" style="width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:#fff;cursor:pointer;">🦦</button>
+            <button type="button" class="mp-emoji-btn" data-emoji="🌙" onclick="mpPickEmoji('🌙')" style="width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:#fff;cursor:pointer;">🌙</button>
+            <button type="button" class="mp-emoji-btn" data-emoji="🧊" onclick="mpPickEmoji('🧊')" style="width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:#fff;cursor:pointer;">🧊</button>
+            <button type="button" class="mp-emoji-btn" data-emoji="🔧" onclick="mpPickEmoji('🔧')" style="width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:#fff;cursor:pointer;">🔧</button>
+            <button type="button" class="mp-emoji-btn" data-emoji="🧸" onclick="mpPickEmoji('🧸')" style="width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:#fff;cursor:pointer;">🧸</button>
+            <button type="button" class="mp-emoji-btn" data-emoji="🦭" onclick="mpPickEmoji('🦭')" style="width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:#fff;cursor:pointer;">🦭</button>
+            <button type="button" class="mp-emoji-btn" data-emoji="✨" onclick="mpPickEmoji('✨')" style="width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:#fff;cursor:pointer;">✨</button>
+          </div>
+          <input id="mp-pname" placeholder="表示名（ニックネーム）" data-i18n-placeholder="login.namePh" maxlength="20" autocomplete="off">
+          <input id="mp-pmsg" placeholder="一言（自己紹介）" data-i18n-placeholder="login.msgPh" autocomplete="off">
+          <!-- 互換: 旧ID mp-edit-name / mp-edit-icon-preview への同期用 hidden -->
+          <input id="mp-edit-name" style="display:none;">
+          <div class="acct-row" style="margin-top:8px;">
+            <button type="button" onclick="mpSaveProfile()" data-i18n="login.save">保存</button>
+            <button type="button" onclick="mpCancelEdit()" style="background:#999;" data-i18n="login.cancel">キャンセル</button>
+          </div>
+          <p id="mp-edit-note" class="acct-msg"></p>
+          <!-- 旧ID互換 -->
+          <span id="mp-edit-icon-preview" style="display:none;"></span>
         </div>
-        <p id="mp-msg" class="mp-msg"></p>
-        <div class="mp-sep"><span data-i18n="login.or">または</span></div>
-        <div class="mp-row mp-row-label" data-i18n="login.linkIdLabel">連携ID（ログイン不要）:</div>
-        <div class="mp-setid-row">
-          <input id="mp-id" class="mp-input" placeholder="連携ID（例: TEST001）" data-i18n-placeholder="login.linkIdPh" autocomplete="off">
-          <button type="button" class="btn btn-ghost" onclick="mpSetId()" data-i18n="login.set">設定</button>
+        <p id="mp-edit-locked" class="acct-hint" style="display:none;" data-i18n="login.locked">名前・アイコンの変更はログイン後に使えます。</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="loginModal" class="acct-overlay" aria-hidden="true">
+  <div class="acct-box">
+    <button class="acct-close" data-close="loginModal" aria-label="閉じる">×</button>
+    <h3 data-i18n="login.tabLogin">Milli Orbisアカウントにログイン</h3>
+    <div style="padding:0 22px 18px;">
+      <div style="display:flex;gap:8px;margin-bottom:12px;">
+        <button type="button" onclick="VideoApp && VideoApp._oauthLogin ? VideoApp._oauthLogin('google') : mpOAuthLogin('google')" style="flex:1;display:flex;align-items:center;justify-content:center;gap:6px;padding:10px;border:1px solid #dadce0;border-radius:999px;background:#fff;color:#3c4043;font-weight:700;cursor:pointer;"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google</button>
+        <button type="button" onclick="VideoApp && VideoApp._oauthLogin ? VideoApp._oauthLogin('twitter') : mpOAuthLogin('twitter')" style="flex:1;display:flex;align-items:center;justify-content:center;gap:6px;padding:10px;border-radius:999px;background:#000;color:#fff;font-weight:700;cursor:pointer;">𝕏 X</button>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;margin:8px 0;color:var(--muted);font-size:12px;"><span style="flex:1;height:1px;background:var(--border);"></span><span data-i18n="login.or">または</span><span style="flex:1;height:1px;background:var(--border);"></span></div>
+      <input id="mp-email" type="email" placeholder="メールアドレス" data-i18n-placeholder="login.email" autocomplete="email">
+      <div class="acct-pw-wrap">
+        <input id="mp-pass" type="password" placeholder="パスワード" data-i18n-placeholder="login.pass" autocomplete="current-password">
+        <button type="button" class="acct-pw-btn" data-pw="mp-pass" onclick="mpTogglePw('mp-pass')" aria-label="表示切替">👁</button>
+      </div>
+      <!-- 互換: 旧 mpToggle('mp-pass','mp-pass-eye') 呼び出し -->
+      <span id="mp-pass-eye" style="display:none;"></span>
+      <button type="button" onclick="mpSubmitLogin()" style="width:100%;" data-i18n="login.btnLogin">ログイン</button>
+      <p class="acct-msg" id="mp-msg-login"></p>
+      <p id="mp-msg" class="acct-msg" style="display:none;"></p>
+      <p class="acct-hint" style="text-align:center;"><span data-i18n="login.noAccount">Milli Orbisアカウントをお持ちでない場合は</span> <a href="javascript:mpOpenSignup()" data-i18n="login.tabSignup">新規登録</a></p>
+      <p style="text-align:center;margin-top:6px;"><button type="button" class="btn btn-ghost" onclick="mpOpenReset()" style="font-size:12px;padding:6px 12px;" data-i18n="login.forgot">パスワードをお忘れですか？</button></p>
+      <div style="margin-top:14px; padding-top:12px; border-top:2px dashed var(--border);">
+        <div class="acct-row">
+          <button type="button" onclick="mpOpenSignup()" style="flex:1; background:#fff; color:var(--accent-deep); border:2px solid var(--accent); box-shadow:none;" data-i18n="login.goSignup">新規登録はこちら</button>
+          <button type="button" onclick="mpOpenLinkId()" style="flex:1; background:#fff; color:var(--ink); border:2px solid var(--border); box-shadow:none;" data-i18n="login.goLinkId">連携IDで続ける</button>
+        </div>
+        <p class="acct-hint" style="text-align:center; margin:6px 0 0;">連携IDはログインせずに使える簡易IDです</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="signupModal" class="acct-overlay" aria-hidden="true">
+  <div class="acct-box">
+    <button class="acct-close" data-close="signupModal" aria-label="閉じる">×</button>
+    <h3 data-i18n="login.tabSignup">Milli Orbisアカウントに新規登録</h3>
+    <div style="padding:0 22px 18px;">
+      <div style="display:flex;gap:8px;margin-bottom:12px;">
+        <button type="button" onclick="VideoApp && VideoApp._oauthLogin ? VideoApp._oauthLogin('google') : mpOAuthLogin('google')" style="flex:1;display:flex;align-items:center;justify-content:center;gap:6px;padding:10px;border:1px solid #dadce0;border-radius:999px;background:#fff;color:#3c4043;font-weight:700;cursor:pointer;"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google</button>
+        <button type="button" onclick="VideoApp && VideoApp._oauthLogin ? VideoApp._oauthLogin('twitter') : mpOAuthLogin('twitter')" style="flex:1;display:flex;align-items:center;justify-content:center;gap:6px;padding:10px;border-radius:999px;background:#000;color:#fff;font-weight:700;cursor:pointer;">𝕏 X</button>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;margin:8px 0;color:var(--muted);font-size:12px;"><span style="flex:1;height:1px;background:var(--border);"></span><span data-i18n="login.or">または</span><span style="flex:1;height:1px;background:var(--border);"></span></div>
+      <input id="mp-semail" type="email" placeholder="メールアドレス" data-i18n-placeholder="login.email" autocomplete="email">
+      <!-- 互換: 旧 mp2-email -->
+      <input id="mp2-email" type="email" placeholder="メールアドレス" style="display:none;">
+      <div class="acct-pw-wrap">
+        <input id="mp-spass1" type="password" placeholder="パスワード（6文字以上）" data-i18n-placeholder="login.passPh" autocomplete="new-password">
+        <button type="button" class="acct-pw-btn" data-pw="mp-spass1" onclick="mpTogglePw('mp-spass1')" aria-label="表示切替">👁</button>
+      </div>
+      <div class="acct-pw-wrap">
+        <input id="mp-spass2" type="password" placeholder="パスワード（確認）" data-i18n-placeholder="login.passConfirm" autocomplete="new-password">
+        <button type="button" class="acct-pw-btn" data-pw="mp-spass2" onclick="mpTogglePw('mp-spass2')" aria-label="表示切替">👁</button>
+      </div>
+      <input id="mp2-pass" type="password" style="display:none;">
+      <input id="mp2-pass2" type="password" style="display:none;">
+      <span id="mp2-pass-eye" style="display:none;"></span>
+      <button type="button" onclick="mpSubmitSignup()" style="width:100%;" data-i18n="login.btnRegister">Milli Orbisアカウントを作成</button>
+      <p class="acct-msg" id="mp-msg-signup"></p>
+      <p id="mp2-msg" class="acct-msg" style="display:none;"></p>
+      <p class="acct-hint" style="text-align:center;"><span data-i18n="login.hasAccount">既にMilli Orbisアカウントをお持ちの場合は</span> <a href="javascript:mpOpenLogin()" data-i18n="login.tabLogin">ログイン</a></p>
+      <div style="margin-top:14px; padding-top:12px; border-top:2px dashed var(--border);">
+        <div class="acct-row">
+          <button type="button" onclick="mpOpenLogin()" style="flex:1; background:#fff; color:var(--accent-deep); border:2px solid var(--accent); box-shadow:none;" data-i18n="login.goLogin">ログインはこちら</button>
+          <button type="button" onclick="mpOpenLinkId()" style="flex:1; background:#fff; color:var(--ink); border:2px solid var(--border); box-shadow:none;" data-i18n="login.goLinkId">連携IDで続ける</button>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<div id="password-reset-dialog" class="password-reset-dialog hidden" onclick="if(event.target===this)mpCloseReset()">
-  <div class="password-reset-box">
-    <button type="button" class="password-reset-close" id="reset-close-btn" onclick="mpCloseReset()" aria-label="閉じる" data-i18n-aria="login.close">✕</button>
-    <div class="password-reset-title" data-i18n="login.resetTitle">🔑 パスワードを再設定</div>
-    <div class="password-reset-sub" data-i18n="login.resetSub">登録したメールアドレスに再設定用のリンクを送信します。</div>
-    <input class="mp-input" id="reset-email" type="email" placeholder="メールアドレス" data-i18n-placeholder="login.email" autocomplete="email">
-    <button type="button" class="btn mp-submit" id="reset-send-btn" onclick="mpResetSubmit()" data-i18n="login.resetSend">メールを送信</button>
-    <p id="reset-msg" class="mp-msg"></p>
+<div id="mypageModal" class="acct-overlay" aria-hidden="true">
+  <div class="acct-box">
+    <button class="acct-close" data-close="mypageModal" aria-label="閉じる">×</button>
+    <h3>🏷️ <span data-i18n="nav.account">マイページ</span></h3>
+    <div style="padding:0 22px 18px;">
+      <div id="mp-mypage-stats"><p class="acct-hint" data-i18n="account.loading">読み込み中…</p></div>
+      <div class="acct-row" style="margin-top:12px;">
+        <a href="account.html" class="btn" style="width:100%;justify-content:center;text-decoration:none;" data-i18n="account.openPage">マイページを開く</a>
+      </div>
+    </div>
   </div>
+</div>
+
+<div id="password-reset-dialog" class="acct-overlay hidden" aria-hidden="true" onclick="if(event.target===this)mpCloseReset()">
+  <div class="acct-box" style="max-width:400px;">
+    <button type="button" class="acct-close" data-close="password-reset-dialog" onclick="mpCloseReset()" aria-label="閉じる">×</button>
+    <h3 data-i18n="login.resetTitle">🔑 パスワードを再設定</h3>
+    <div style="padding:0 22px 18px;">
+      <p class="acct-hint" data-i18n="login.resetSub">登録したメールアドレスに再設定用のリンクを送信します。</p>
+      <input class="mp-input" id="reset-email" type="email" placeholder="メールアドレス" data-i18n-placeholder="login.email" autocomplete="email">
+      <button type="button" class="btn" style="width:100%;justify-content:center;" id="reset-send-btn" onclick="mpResetSubmit()" data-i18n="login.resetSend">メールを送信</button>
+      <p id="reset-msg" class="acct-msg"></p>
+    </div>
+  </div>
+</div>
+
+<!-- 旧 login-popup 互換レイヤー（非表示）: 旧JSからの参照を壊さないため残す -->
+<div id="login-popup" class="login-popup" style="display:none !important;" aria-hidden="true">
+  <div id="mp-popup-close" style="display:none;"></div>
+  <div id="mp-account-guest-dup" style="display:none;"></div>
+  <div id="mp-account-ok-dup" style="display:none;"></div>
+  <span id="mp-msg-dup" style="display:none;"></span>
 </div>
 
 <div class="float-actions">
@@ -273,6 +390,8 @@
 <script src="data/i18n.js"></script>
 <script src="scripts/i18n.js"></script>
 <script src="scripts/fav-store.js"></script>
+<script src="scripts/cursor.js"></script>
+<script src="scripts/contact.js?v=20260906"></script>
 <script src="script.js"></script>
 </body>
 </html>

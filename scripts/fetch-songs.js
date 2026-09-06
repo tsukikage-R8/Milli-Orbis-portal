@@ -84,7 +84,8 @@ const OFFICIAL_SONGS = [
   { re: /Mile\s*Stone/i, members: [] },
   { re: /Princess\s*Viral/i, members: ["nono"] },
   { re: /ルミナス/, members: ["raco"] },
-  { re: /おきらくスーパースター/, members: ["koma"] }
+  { re: /おきらくスーパースター/, members: ["koma"] },
+  { re: /NET\s*CHOOSE\s*SHOW/i, members: ["liz"] }
 ];
 
 function officialRule(title) {

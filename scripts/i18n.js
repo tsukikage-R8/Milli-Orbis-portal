@@ -110,7 +110,15 @@
     /* メンバー名リンク・タブ（data-i18n-name="memberId"）の切り替え */
     Array.prototype.forEach.call(document.querySelectorAll("[data-i18n-name]"), function (el) {
       var r = resolveMemberName(el.getAttribute("data-i18n-name"));
-      if (r !== null) el.textContent = r;
+      if (r === null) return;
+      var img = el.querySelector("img");
+      if (img) {
+        el.textContent = "";
+        el.appendChild(img);
+        el.appendChild(document.createTextNode(r));
+      } else {
+        el.textContent = r;
+      }
     });
     /* ページタイトル（<title data-i18n="...">） */
     var ti = document.querySelector("title[data-i18n]");
@@ -132,12 +140,14 @@
   }
 
   function initLangToggle() {
-    var b = document.getElementById("langToggle");
-    if (!b) return;
-    b.textContent = getLang() === "ja" ? "EN" : "JA";
-    b.addEventListener("click", function () {
-      setLang(getLang() === "ja" ? "en" : "ja");
-      location.reload();
+    var btns = document.querySelectorAll("#langToggle, #mobileLangToggle");
+    if (!btns.length) return;
+    btns.forEach(function (b) { b.textContent = getLang() === "ja" ? "EN" : "JA"; });
+    btns.forEach(function (b) {
+      b.addEventListener("click", function () {
+        setLang(getLang() === "ja" ? "en" : "ja");
+        location.reload();
+      });
     });
   }
 
