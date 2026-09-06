@@ -546,8 +546,18 @@ function mpSaveProfile() {
 
 // アカウント連携ポップアップ — Milli Unishare 参考: 4モーダル構成 (acct/login/signup/mypage)
 function mpOpen() {
+  var uid = getMilliproUid()
+  // 未ログイン時はログインポップアップを最優先表示（ユーザ要望: ログインが最初）
+  if (uid) mp_show('acctModal')
+  else mp_show('loginModal')
+  mpRender(uid)
+}
+function mpOpenLinkId() {
+  mpClose()
   mp_show('acctModal')
   mpRender(getMilliproUid())
+  // 連携ID入力欄にフォーカス
+  setTimeout(function(){ var el=document.getElementById('mp-id'); if(el) el.focus() }, 300)
 }
 
 // 全ポップアップを閉じる（Unishare と同機構: 4モーダル + 旧 login-popup 互換 + パスワードリセット）
@@ -562,9 +572,12 @@ function mpClose() {
 }
 
 function mpToggle() {
-  var m = document.getElementById('acctModal') || document.getElementById('login-popup')
-  if (!m) return
-  if (m.classList.contains('open')) mpClose(); else mpOpen()
+  var ids = ['acctModal','loginModal','signupModal','mypageModal','login-popup']
+  for (var i=0;i<ids.length;i++) {
+    var m=document.getElementById(ids[i])
+    if (m && m.classList.contains('open')) { mpClose(); return }
+  }
+  mpOpen()
 }
 
 // ログイン / 新規登録 / マイページ を別ポップアップで開く（Unishare と同一API）

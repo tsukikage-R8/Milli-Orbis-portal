@@ -292,6 +292,13 @@
       <p id="mp-msg" class="acct-msg" style="display:none;"></p>
       <p class="acct-hint" style="text-align:center;"><span data-i18n="login.noAccount">Milli Orbisアカウントをお持ちでない場合は</span> <a href="javascript:mpOpenSignup()" data-i18n="login.tabSignup">新規登録</a></p>
       <p style="text-align:center;margin-top:6px;"><button type="button" class="btn btn-ghost" onclick="mpOpenReset()" style="font-size:12px;padding:6px 12px;" data-i18n="login.forgot">パスワードをお忘れですか？</button></p>
+      <div style="margin-top:14px; padding-top:12px; border-top:2px dashed var(--border);">
+        <div class="acct-row">
+          <button type="button" onclick="mpOpenSignup()" style="flex:1; background:#fff; color:var(--accent-deep); border:2px solid var(--accent); box-shadow:none;" data-i18n="login.goSignup">新規登録はこちら</button>
+          <button type="button" onclick="mpOpenLinkId()" style="flex:1; background:#fff; color:var(--ink); border:2px solid var(--border); box-shadow:none;" data-i18n="login.goLinkId">連携IDで続ける</button>
+        </div>
+        <p class="acct-hint" style="text-align:center; margin:6px 0 0;">連携IDはログインせずに使える簡易IDです</p>
+      </div>
     </div>
   </div>
 </div>
@@ -324,6 +331,12 @@
       <p class="acct-msg" id="mp-msg-signup"></p>
       <p id="mp2-msg" class="acct-msg" style="display:none;"></p>
       <p class="acct-hint" style="text-align:center;"><span data-i18n="login.hasAccount">既にMilli Orbisアカウントをお持ちの場合は</span> <a href="javascript:mpOpenLogin()" data-i18n="login.tabLogin">ログイン</a></p>
+      <div style="margin-top:14px; padding-top:12px; border-top:2px dashed var(--border);">
+        <div class="acct-row">
+          <button type="button" onclick="mpOpenLogin()" style="flex:1; background:#fff; color:var(--accent-deep); border:2px solid var(--accent); box-shadow:none;" data-i18n="login.goLogin">ログインはこちら</button>
+          <button type="button" onclick="mpOpenLinkId()" style="flex:1; background:#fff; color:var(--ink); border:2px solid var(--border); box-shadow:none;" data-i18n="login.goLinkId">連携IDで続ける</button>
+        </div>
+      </div>
     </div>
   </div>
 </div>
