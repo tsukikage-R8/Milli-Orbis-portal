@@ -1748,20 +1748,26 @@
       };
       if (audio && m && (m.introVoice || m.voice)) {
         var started = false;
+        var safetyTimer = null;
         var begin = function () {
           if (done) return;
           started = true;
           overlay.classList.remove("standby");
-          audio.addEventListener("ended", finish);
+          audio.addEventListener("ended", function onEnded() {
+            if (safetyTimer) clearTimeout(safetyTimer);
+            finish();
+          });
           var onMeta = function () {
             if (isFinite(audio.duration) && audio.duration > 0) {
-              setTimeout(finish, audio.duration * 1000 + 1500);
+              if (safetyTimer) clearTimeout(safetyTimer);
+              // 鹿乃まほろ(14秒)など長尺ボイスでも最後まで再生しきってから遷移
+              safetyTimer = setTimeout(finish, audio.duration * 1000 + 1500);
             }
           };
           if (audio.readyState >= 1) onMeta();
           else audio.addEventListener("loadedmetadata", onMeta);
-          /* 音声が読み込めない場合でも必ず閉じる安全タイマー */
-          setTimeout(finish, 8000);
+          /* 音声が読み込めない場合の安全タイマー。最長ボイス(まほろ14s)でも切れないよう20秒に */
+          safetyTimer = setTimeout(finish, 20000);
         };
         var tryPlay = function (force) {
           if (started && !force) return;
