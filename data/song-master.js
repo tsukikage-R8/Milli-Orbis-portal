@@ -4,9 +4,9 @@ window.SONG_MASTER = {
   "songs": {
     "surges＆": {
       "title": "Surges",
-      "artist": "Orangestar",
+      "artist": "m",
       "album": "Surges - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f8/93/65/f8936589-9412-28c5-bba5-5de355fe34b7/859757272648_cover.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/8d/1b/d38d1baf-7312-ee15-f952-8fc668c7a9a3/4562424562909.jpg/600x600bb.jpg"
     },
     "iii": {
       "title": "I I I",
@@ -19,12 +19,6 @@ window.SONG_MASTER = {
       "artist": "カンザキイオリ",
       "album": "白紙",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/14/d0/dd/14d0dde4-ba9f-cf81-03ee-bf50c1e908eb/ANTCD-46527.jpg/600x600bb.jpg"
-    },
-    "netchooseshow": {
-      "title": "NET CHOOSE SHOW",
-      "artist": "雨夜リズ",
-      "album": "NET CHOOSE SHOW - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0f/45/04/0f450497-102f-3bfc-9e7b-f8aed02d27c7/PA00225408_0_252573_jacket.jpg/600x600bb.jpg"
     },
     "八月の夜": {
       "title": "八月の夜",
@@ -483,13 +477,10 @@ window.SONG_MASTER = {
       }
     },
     "プレイ-gigashortby": {
-      "title": "踊ろうぜ",
-      "artist": "ヨルシカ",
-      "album": "だから僕は音楽を辞めた",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/64/ab/ba/64abba45-d080-0e8a-c24b-313e597c63cb/PA00076158_0_91679_jacket.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Let's dance"
-      }
+      "title": "アンドロメダ",
+      "artist": "aiko",
+      "album": "暁のラブレター",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/39/e1/2d/39e12d27-a080-b9b7-962f-08d2676e085f/dj.rvhspbob.jpg/600x600bb.jpg"
     },
     "モニタリング": {
       "title": "モニタリング",
@@ -1890,10 +1881,13 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/23/6c/30/236c30da-7cc3-24bd-d526-0dcf2eccf69a/20UMGIM70644.rgb.jpg/600x600bb.jpg"
     },
     "エイリアンエイリアン": {
-      "title": "Alien Alien",
-      "artist": "Nayutalien",
-      "album": "Nayutan Sei Kara No Buttai Y",
-      "cover": "https://cdn-images.dzcdn.net/images/cover/5fcbcac1572f1a22ceec2a1bf083b7d5/500x500-000000-80-0-0.jpg"
+      "title": "エイリアンエイリアン",
+      "artist": "ナユタン星人",
+      "album": "ナユタン星からの物体Y",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/df/90/0a/df900a21-8c01-c600-3898-78572b3a7bd3/4562251593879_cover.png/600x600bb.jpg",
+      "en": {
+        "title": "alien alien"
+      }
     },
     "ようかい体操第一": {
       "title": "ようかい体操第一",
