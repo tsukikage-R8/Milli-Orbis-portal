@@ -392,6 +392,37 @@
     renderCombined();
     btn.addEventListener("click", function(e){
       e.stopPropagation();
+      // スマホではドロップダウンではなく最初の推し選択ポップアップを出す
+      try {
+        if (typeof window !== "undefined" && window.innerWidth <= 720) {
+          var modal = document.getElementById("oshiModal");
+          if (modal) {
+            // 既存の onboarding を再利用: 中身が空なら生成
+            if (!modal.querySelector("#oshiList") || !modal.querySelector("#oshiList").children.length) {
+              try { if (typeof initOnboarding === "function") initOnboarding(); } catch(e2) {}
+              // initOnboarding が getOshi() で return する場合があるので強制でリスト生成
+              var list = document.getElementById("oshiList");
+              if (list && !list.children.length && typeof MEMBERS !== "undefined") {
+                MEMBERS.forEach(function(m){
+                  var b=document.createElement("button");
+                  b.type="button"; b.className="oshi-option";
+                  b.innerHTML=(m.icon?'<span class="oshi-mark"><img src="'+m.icon+'" alt=""></span>':'<span class="oshi-mark">'+m.fanMark+'</span>')+m.name;
+                  b.style.setProperty("--mc", m.color);
+                  b.addEventListener("click", function(){
+                    try { if (typeof setOshi==="function") setOshi(m.id); else localStorage.setItem("milli-oshi", m.id); } catch(e){}
+                    try { if (typeof applyOshi==="function") applyOshi(m.id); } catch(e){}
+                    modal.classList.remove("open");
+                    try { renderCombined(); } catch(e){}
+                  });
+                  list.appendChild(b);
+                });
+              }
+            }
+            modal.classList.add("open");
+            return;
+          }
+        }
+      } catch(e) {}
       var open = dd.classList.contains("open");
       dd.classList.toggle("open", !open);
       btn.setAttribute("aria-expanded", String(!open));
