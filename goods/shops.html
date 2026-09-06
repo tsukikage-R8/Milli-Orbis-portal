@@ -18,14 +18,15 @@
 .japan-map-scroll::-webkit-scrollbar-thumb{background:rgba(0,0,0,.12);border-radius:999px}
 #japan-map{display:block;width:777px;min-width:777px;height:482px;position:relative;margin:0 auto;background:rgba(255,255,255,.55);border:3px solid #fff;outline:2px solid var(--border);border-radius:20px;padding:8px;box-sizing:border-box;flex-shrink:0}
 #japan-map p.area-title{display:none}
-#japan-map div div.area div{border:none;text-align:center;font-size:13px;display:flex;align-items:center;justify-content:center;border-radius:10px;position:absolute;box-sizing:border-box;transition:.2s;font-weight:900;cursor:pointer;box-shadow:0 2px 0 rgba(0,0,0,.08)}
+#japan-map div div.area div{border:2px solid #fff;text-align:center;font-size:13px;display:flex;align-items:center;justify-content:center;border-radius:10px;position:absolute;box-sizing:border-box;transition:transform .18s, filter .18s, box-shadow .18s, background-color .18s;font-weight:900;cursor:pointer;box-shadow:0 2px 0 rgba(0,0,0,.08)}
 #japan-map div div.area div:hover{filter:brightness(1.08);transform:translateY(-1px);box-shadow:0 4px 8px rgba(0,0,0,.12)}
 #japan-map button{border:none; background:none; padding:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; color:inherit; font:inherit; font-weight:900; cursor:pointer}
 #japan-map button p{margin:0; line-height:1}
-#japan-map .has-shop{outline:none}
-#japan-map .active-map{outline:none!important;transform:scale(1.04);box-shadow:0 4px 12px rgba(0,0,0,.18);z-index:3;filter:brightness(1.08)}
-#japan-map .no-shop{opacity:.42}
-#hokkaido-touhoku{width:136px;height:265px;position:absolute;left:638px}
+#japan-map .has-shop{opacity:1}
+#japan-map .no-shop{opacity:.38}
+#japan-map div div.area div.active-map, #japan-map button.active-map{border-color:var(--accent-deep);background-color:var(--accent-deep)!important;filter:brightness(1.05);animation:pulsePref 1.1s ease-in-out infinite alternate; box-shadow:0 0 0 3px rgba(255,255,255,.9), 0 6px 16px rgba(0,0,0,.18);z-index:4}
+@keyframes pulsePref{from{transform:scale(1.04)} to{transform:scale(1.08)}}
+#hokkaido-touhoku{width:136px;height:265px;position:absolute;left:638px;top:0}
 #hokkaido-touhoku div.area div{background-color:#7478c2;color:#fff}
 #hokkaido{width:133px;height:70px}
 #aomori{width:93px;height:43px;left:21px;top:96px}
@@ -34,7 +35,7 @@
 #yamagata{width:67px;height:42px;top:181px;left:3px}
 #miyagi{width:67px;height:42px;top:181px;left:70px}
 #fukushima{width:67px;height:42px;top:223px;left:70px}
-#kantou{width:158px;height:174px;position:absolute;top:265px;left:623px;z-index:2}
+#kantou{width:158px;height:174px;position:absolute;top:268px;left:623px;z-index:2}
 #kantou div.area div{background-color:#31beca;color:#fff}
 #ibaraki{width:52px;height:85px;top:0;left:100px}
 #tochigi{width:50px;height:42px;top:0;left:50px}
