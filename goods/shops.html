@@ -12,36 +12,102 @@
 .goods-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}
 .goods-tabs a{padding:9px 16px;border-radius:999px;border:2px solid var(--border);background:#fff;font-weight:800;font-size:.86rem;color:var(--text);text-decoration:none}
 .goods-tabs a.active{background:var(--accent-deep);color:#fff;border-color:var(--accent-deep)}
-.japan-map-container{display:grid;grid-template-columns:repeat(12,1fr);gap:10px;max-width:900px;margin:14px auto;background:rgba(255,255,255,.6);border:3px solid #fff;outline:2px solid var(--border);border-radius:20px;padding:14px;align-items:start}
-.map-group{display:grid;gap:6px}
-.map-btn{display:flex;align-items:center;justify-content:center;background:#fff;border-radius:10px;color:#fff;font-weight:900;font-size:.74rem;text-decoration:none;box-shadow:0 2px 0 rgba(0,0,0,.08);border:2px solid var(--border);height:42px;transition:transform .15s, box-shadow .15s, filter .15s;position:relative;overflow:hidden}
-.map-btn:hover{transform:translateY(-1px);box-shadow:0 4px 8px rgba(0,0,0,.12);filter:brightness(1.05)}
-.map-btn.active{transform:translateY(1px);box-shadow:0 1px 0 rgba(0,0,0,.12);filter:brightness(.92);outline:3px solid var(--accent-deep);outline-offset:-1px}
-.map-btn.has-shop{border-color:transparent}
-.map-btn.no-shop{opacity:.42;filter:grayscale(.2)}
-.map-btn small{position:absolute;right:4px;bottom:2px;font-size:.52rem;background:rgba(0,0,0,.18);padding:0 4px;border-radius:999px;line-height:1.4}
-.size-2x2{grid-row:span 2;grid-column:span 2;height:auto;min-height:88px;font-size:.86rem}
-.group-green{grid-column:9/12;grid-row:1/3;grid-template-columns:repeat(2,1fr)}
-.group-green .map-btn{background:#72ce97}
-.group-lightgreen{grid-column:9/12;grid-row:3/6;grid-template-columns:repeat(2,1fr)}
-.group-lightgreen .map-btn{background:#8fd14f}
-.p-tokyo{grid-column:span 2}
-.group-purple{grid-column:5/9;grid-row:1/4;grid-template-columns:repeat(3,1fr)}
-.group-purple .map-btn{background:#d48cf2}
-.group-red{grid-column:5/9;grid-row:4/7;grid-template-columns:repeat(3,1fr)}
-.group-red .map-btn{background:#ff7a5c}
-.group-blue{grid-column:1/5;grid-row:4/7;grid-template-columns:repeat(3,1fr)}
-.group-blue .map-btn{background:#7ed6cc}
-.group-magenta{grid-column:1/5;grid-row:7/10;grid-template-columns:repeat(3,1fr)}
-.group-magenta .map-btn{background:#f06be3}
-.p-okinawa{grid-row:4;grid-column:1}
+/* japan_map adapted */
+#japan-map{display:block;width:777px;height:482px;position:relative;margin:14px auto;background:rgba(255,255,255,.55);border:3px solid #fff;outline:2px solid var(--border);border-radius:20px;padding:8px;box-sizing:border-box}
+#japan-map p.area-title{display:none}
+#japan-map div div.area div{border:1px #fff solid;text-align:center;font-size:13px;display:flex;align-items:center;justify-content:center;border-radius:10px;position:absolute;box-sizing:border-box;transition:.2s;font-weight:900;cursor:pointer;box-shadow:0 2px 0 rgba(0,0,0,.08)}
+#japan-map div div.area div:hover{filter:brightness(1.08);transform:translateY(-1px);box-shadow:0 4px 8px rgba(0,0,0,.12)}
+#japan-map button{border:1px #fff solid; background:none; padding:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; color:inherit; font:inherit; font-weight:900; cursor:pointer}
+#japan-map button p{margin:0; line-height:1}
+#japan-map .has-shop{outline:2px solid rgba(255,255,255,.9);outline-offset:-2px}
+#japan-map .active-map{outline:3px solid var(--accent-deep)!important;outline-offset:-1px;transform:scale(1.04);box-shadow:0 4px 12px rgba(0,0,0,.18);z-index:3}
+#japan-map .no-shop{opacity:.42}
+#hokkaido-touhoku{width:136px;height:265px;position:absolute;left:638px}
+#hokkaido-touhoku div.area div{background-color:#7478c2;color:#fff}
+#hokkaido{width:133px;height:70px}
+#aomori{width:93px;height:43px;left:21px;top:96px}
+#akita{width:67px;height:42px;left:3px;top:139px}
+#iwate{width:67px;height:42px;left:70px;top:139px}
+#yamagata{width:67px;height:42px;top:181px;left:3px}
+#miyagi{width:67px;height:42px;top:181px;left:70px}
+#fukushima{width:67px;height:42px;top:223px;left:70px}
+#kantou{width:158px;height:174px;position:absolute;top:265px;left:623px;z-index:2}
+#kantou div.area div{background-color:#31beca;color:#fff}
+#ibaraki{width:52px;height:85px;top:0;left:100px}
+#tochigi{width:50px;height:42px;top:0;left:50px}
+#gunma{width:50px;height:42px;top:0;left:0}
+#saitama{width:100px;height:43px;top:42px;left:0}
+#chiba{width:52px;height:84px;top:85px;left:100px}
+#tokyo{width:100px;height:42px;top:85px;left:0}
+#kanagawa{width:67px;height:42px;top:127px;left:0}
+#tyubu{width:270px;height:211px;position:absolute;left:438px;top:223px}
+#tyubu div.area div{background-color:#4ab969;color:#fff}
+#nigata{width:85px;height:42px;left:185px}
+#toyama{width:67px;height:42px;left:118px}
+#ishikawa{width:50px;height:57px;left:68px}
+#fukui{width:68px;height:42px;left:0;z-index:2}
+#nagano{width:67px;height:85px;left:118px;top:42px}
+#yamanashi{width:67px;height:42px;left:118px;top:127px}
+#gifu{width:50px;height:55px;left:68px;top:57px}
+#shizuoka{width:67px;height:42px;left:118px;top:169px}
+#aichi{width:50px;height:57px;top:112px;left:68px}
+#kinki{width:186px;height:211px;position:absolute;left:320px;top:223px}
+#kinki div.area div{background-color:#b0b72f;color:#fff}
+#kyoto{width:67px;height:84px;left:51px}
+#shiga{width:68px;height:42px;top:42px;left:118px}
+#osaka{width:67px;height:85px;top:84px;left:51px}
+#nara{width:34px;height:85px;top:84px;left:118px}
+#mie{width:34px;height:85px;top:84px;left:152px}
+#wakayama{width:113px;height:42px;top:169px;left:61px}
+#hyougo{width:51px;height:98px;left:0}
+#tyugoku{width:151px;height:98px;position:absolute;left:169px;top:223px}
+#tyugoku div.area div{background-color:#ef9f27;color:#fff}
+#tottori{width:50px;height:49px;left:101px}
+#okayama{width:50px;height:49px;top:49px;left:101px}
+#shimane{width:51px;height:49px;left:50px}
+#hiroshima{width:51px;height:49px;top:49px;left:50px}
+#yamaguchi{width:50px;height:98px;left:0}
+#shikoku{width:184px;height:84px;position:absolute;left:169px;top:350px}
+#shikoku div.area div{background-color:#d08f68;color:#fff}
+#kagawa{width:92px;height:42px;right:0}
+#ehime{width:92px;height:42px;left:0}
+#tokushima{width:92px;height:42px;right:0;top:42px}
+#kouchi{width:92px;height:42px;left:0;top:42px}
+#kyusyu{width:152px;height:247px;position:absolute;left:0;top:235px}
+#kyusyu div.area div{background-color:#ff7575;color:#fff}
+#fukuoka{width:50px;height:50px;left:101px;top:0}
+#saga{width:50px;height:50px;left:51px;top:0}
+#nagasaki{width:50px;height:50px;left:1px;top:0}
+#oita{width:50px;height:50px;left:101px;top:50px}
+#kumamoto{width:50px;height:100px;left:51px;top:50px}
+#miyazaki{width:50px;height:50px;left:101px;top:100px}
+#kagoshima{width:68px;height:49px;left:83px;top:150px}
+#okinawa{width:50px;height:50px;left:1px;top:197px}
 .shop-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
 .shop-card{padding:14px;border-radius:16px}
 .shop-card h3{font-size:.92rem;font-weight:900}
 .chain-badge{font-size:.64rem;font-weight:900;color:#fff;background:var(--accent-deep);border-radius:999px;padding:2px 8px;margin-left:6px;vertical-align:middle}
 .placeholder{grid-column:1/-1;text-align:center;padding:28px;color:var(--muted);background:rgba(255,255,255,.6);border:2px dashed var(--accent);border-radius:16px}
-@media(max-width:768px){.japan-map-container{transform:scale(.96);transform-origin:top center;overflow-x:auto;margin:8px auto}.map-btn{height:38px;font-size:.68rem}.size-2x2{min-height:80px}}
-@media(max-width:520px){.japan-map-container{grid-template-columns:repeat(12,1fr);gap:6px;padding:10px}.map-btn{height:36px}}
+@media screen and (max-width:776px){
+#japan-map{display:flex;width:100%;flex-wrap:wrap;justify-content:space-around;height:auto;padding:8px}
+#japan-map p.area-title{display:inline-block;width:100%;font-size:14px;text-align:center;margin-top:1em;margin-bottom:.6em;color:var(--ink);font-weight:900}
+#hokkaido-touhoku,#kantou,#tyubu,#kinki,#tyugoku,#shikoku,#kyusyu{display:block;position:static;margin:0 1em 0 1em;width:calc(100% - 2em)}
+#japan-map div div.area{display:block;position:relative}
+#hokkaido-touhoku{height:calc(265px + 2em)}
+#kantou{height:calc(174px + 2em)}
+#tyubu{height:calc(211px + 2em)}
+#kinki{height:calc(211px + 2em)}
+#tyugoku{height:calc(98px + 2em)}
+#shikoku{height:calc(84px + 2em)}
+#kyusyu{height:calc(247px + 2em)}
+}
+@media screen and (max-width:500px){
+#japan-map{display:block;width:100%;height:auto;padding:8px}
+#hokkaido-touhoku,#kantou,#tyubu,#kinki,#tyugoku,#shikoku,#kyusyu{display:flex;flex-wrap:wrap;width:100%;height:auto;position:static;margin-left:0;margin-right:0}
+#japan-map div div.area{font-size:12px;display:flex;flex-wrap:wrap;width:100%}
+#japan-map div div.area a,#japan-map div div.area button{height:auto;width:25%}
+#japan-map div div.area div{display:block;border-radius:8px;position:static;height:auto;font-size:13px;width:100%;padding:.6em 0}
+}
 </style>
 </head>
 <body data-oshi="">
@@ -53,66 +119,68 @@
 <section class="subpage-hero"><h1 style="font-family:var(--font-display);font-weight:900">販売箇所検索</h1><p class="section-sub" style="padding-left:0">日本地図から都道府県を選ぶと、その地域でミリプログッズを売っている店が表示されます。最初は店舗は表示されません。</p></section>
 <nav class="goods-tabs"><a href="current.html">現在販売中</a><a href="shops.html" class="active">販売箇所検索</a><a href="map.html">有志マップ</a><a href="archive.html">過去アーカイブ</a><a href="mine.html">マイグッズ</a></nav>
 <div style="display:flex;gap:8px;flex-wrap:wrap;margin:10px 0"><select id="chainSel"><option value="">全チェーン</option><option value="official">公式ショップ</option><option value="animate">アニメイト</option><option value="aeon">イオン</option></select><input type="search" id="kw" placeholder="店舗名で検索（例: アニメイト池袋）" style="flex:1;min-width:160px;padding:8px 12px;border-radius:999px;border:2px solid var(--accent)"><button id="clearPref" class="btn btn-ghost" style="padding:6px 12px">クリア</button></div>
-<div class="japan-map-container" id="japanMap" aria-label="日本地図から都道府県を選択">
-  <div class="map-group group-green">
-    <button type="button" class="map-btn p-hokkaido size-2x2" data-pref="北海道">北海道</button>
-    <button type="button" class="map-btn p-aomori" data-pref="青森県">青森</button>
-    <button type="button" class="map-btn p-akita" data-pref="秋田県">秋田</button>
-    <button type="button" class="map-btn p-iwate" data-pref="岩手県">岩手</button>
-    <button type="button" class="map-btn p-yamagata" data-pref="山形県">山形</button>
-    <button type="button" class="map-btn p-miyagi" data-pref="宮城県">宮城</button>
-    <button type="button" class="map-btn p-fukushima" data-pref="福島県">福島</button>
-  </div>
-  <div class="map-group group-lightgreen">
-    <button type="button" class="map-btn p-gunma" data-pref="群馬県">群馬</button>
-    <button type="button" class="map-btn p-tochigi" data-pref="栃木県">栃木</button>
-    <button type="button" class="map-btn p-saitama" data-pref="埼玉県">埼玉</button>
-    <button type="button" class="map-btn p-ibaraki" data-pref="茨城県">茨城</button>
-    <button type="button" class="map-btn p-tokyo" data-pref="東京都">東京</button>
-    <button type="button" class="map-btn p-chiba" data-pref="千葉県">千葉</button>
-    <button type="button" class="map-btn p-kanagawa" data-pref="神奈川県">神奈川</button>
-  </div>
-  <div class="map-group group-purple">
-    <button type="button" class="map-btn p-ishikawa" data-pref="石川県">石川</button>
-    <button type="button" class="map-btn p-toyama" data-pref="富山県">富山</button>
-    <button type="button" class="map-btn p-niigata" data-pref="新潟県">新潟</button>
-    <button type="button" class="map-btn p-fukui" data-pref="福井県">福井</button>
-    <button type="button" class="map-btn p-gifu" data-pref="岐阜県">岐阜</button>
-    <button type="button" class="map-btn p-nagano" data-pref="長野県">長野</button>
-    <button type="button" class="map-btn p-yamanashi" data-pref="山梨県">山梨</button>
-    <button type="button" class="map-btn p-shizuoka" data-pref="静岡県">静岡</button>
-  </div>
-  <div class="map-group group-red">
-    <button type="button" class="map-btn p-hyogo" data-pref="兵庫県">兵庫</button>
-    <button type="button" class="map-btn p-kyoto" data-pref="京都府">京都</button>
-    <button type="button" class="map-btn p-shiga" data-pref="滋賀県">滋賀</button>
-    <button type="button" class="map-btn p-osaka" data-pref="大阪府">大阪</button>
-    <button type="button" class="map-btn p-nara" data-pref="奈良県">奈良</button>
-    <button type="button" class="map-btn p-mie" data-pref="三重県">三重</button>
-    <button type="button" class="map-btn p-wakayama" data-pref="和歌山県">和歌山</button>
-    <button type="button" class="map-btn p-aichi" data-pref="愛知県">愛知</button>
-  </div>
-  <div class="map-group group-blue">
-    <button type="button" class="map-btn p-tottori" data-pref="鳥取県">鳥取</button>
-    <button type="button" class="map-btn p-shimane" data-pref="島根県">島根</button>
-    <button type="button" class="map-btn p-okayama" data-pref="岡山県">岡山</button>
-    <button type="button" class="map-btn p-hiroshima" data-pref="広島県">広島</button>
-    <button type="button" class="map-btn p-yamaguchi" data-pref="山口県">山口</button>
-    <button type="button" class="map-btn p-ehime" data-pref="愛媛県">愛媛</button>
-    <button type="button" class="map-btn p-kagawa" data-pref="香川県">香川</button>
-    <button type="button" class="map-btn p-kochi" data-pref="高知県">高知</button>
-    <button type="button" class="map-btn p-tokushima" data-pref="徳島県">徳島</button>
-  </div>
-  <div class="map-group group-magenta">
-    <button type="button" class="map-btn p-fukuoka" data-pref="福岡県">福岡</button>
-    <button type="button" class="map-btn p-saga" data-pref="佐賀県">佐賀</button>
-    <button type="button" class="map-btn p-nagasaki" data-pref="長崎県">長崎</button>
-    <button type="button" class="map-btn p-oita" data-pref="大分県">大分</button>
-    <button type="button" class="map-btn p-kumamoto" data-pref="熊本県">熊本</button>
-    <button type="button" class="map-btn p-miyazaki" data-pref="宮崎県">宮崎</button>
-    <button type="button" class="map-btn p-kagoshima" data-pref="鹿児島県">鹿児島</button>
-    <button type="button" class="map-btn p-okinawa" data-pref="沖縄県">沖縄</button>
-  </div>
+<div id="japan-map" class="clearfix">
+<div id="hokkaido-touhoku" class="clearfix"><p class="area-title">北海道・東北</p><div class="area">
+<a href="#" data-pref-link><div id="hokkaido"><button type="button" data-pref="北海道"><p>北海道</p></button></div></a>
+<a href="#" data-pref-link><div id="aomori"><button type="button" data-pref="青森県"><p>青森</p></button></div></a>
+<a href="#" data-pref-link><div id="akita"><button type="button" data-pref="秋田県"><p>秋田</p></button></div></a>
+<a href="#" data-pref-link><div id="iwate"><button type="button" data-pref="岩手県"><p>岩手</p></button></div></a>
+<a href="#" data-pref-link><div id="yamagata"><button type="button" data-pref="山形県"><p>山形</p></button></div></a>
+<a href="#" data-pref-link><div id="miyagi"><button type="button" data-pref="宮城県"><p>宮城</p></button></div></a>
+<a href="#" data-pref-link><div id="fukushima"><button type="button" data-pref="福島県"><p>福島</p></button></div></a>
+</div></div>
+<div id="kantou"><p class="area-title">関東</p><div class="area">
+<a href="#" data-pref-link><div id="gunma"><button type="button" data-pref="群馬県"><p>群馬</p></button></div></a>
+<a href="#" data-pref-link><div id="tochigi"><button type="button" data-pref="栃木県"><p>栃木</p></button></div></a>
+<a href="#" data-pref-link><div id="ibaraki"><button type="button" data-pref="茨城県"><p>茨城</p></button></div></a>
+<a href="#" data-pref-link><div id="saitama"><button type="button" data-pref="埼玉県"><p>埼玉</p></button></div></a>
+<a href="#" data-pref-link><div id="chiba"><button type="button" data-pref="千葉県"><p>千葉</p></button></div></a>
+<a href="#" data-pref-link><div id="tokyo"><button type="button" data-pref="東京都"><p>東京</p></button></div></a>
+<a href="#" data-pref-link><div id="kanagawa"><button type="button" data-pref="神奈川県"><p>神奈川</p></button></div></a>
+</div></div>
+<div id="tyubu" class="clearfix"><p class="area-title">中部</p><div class="area">
+<a href="#" data-pref-link><div id="nigata"><button type="button" data-pref="新潟県"><p>新潟</p></button></div></a>
+<a href="#" data-pref-link><div id="toyama"><button type="button" data-pref="富山県"><p>富山</p></button></div></a>
+<a href="#" data-pref-link><div id="ishikawa"><button type="button" data-pref="石川県"><p>石川</p></button></div></a>
+<a href="#" data-pref-link><div id="fukui"><button type="button" data-pref="福井県"><p>福井</p></button></div></a>
+<a href="#" data-pref-link><div id="nagano"><button type="button" data-pref="長野県"><p>長野</p></button></div></a>
+<a href="#" data-pref-link><div id="gifu"><button type="button" data-pref="岐阜県"><p>岐阜</p></button></div></a>
+<a href="#" data-pref-link><div id="yamanashi"><button type="button" data-pref="山梨県"><p>山梨</p></button></div></a>
+<a href="#" data-pref-link><div id="aichi"><button type="button" data-pref="愛知県"><p>愛知</p></button></div></a>
+<a href="#" data-pref-link><div id="shizuoka"><button type="button" data-pref="静岡県"><p>静岡</p></button></div></a>
+</div></div>
+<div id="kinki" class="clearfix"><p class="area-title">近畿</p><div class="area">
+<a href="#" data-pref-link><div id="kyoto"><button type="button" data-pref="京都府"><p>京都</p></button></div></a>
+<a href="#" data-pref-link><div id="shiga"><button type="button" data-pref="滋賀県"><p>滋賀</p></button></div></a>
+<a href="#" data-pref-link><div id="osaka"><button type="button" data-pref="大阪府"><p>大阪</p></button></div></a>
+<a href="#" data-pref-link><div id="nara"><button type="button" data-pref="奈良県"><p>奈良</p></button></div></a>
+<a href="#" data-pref-link><div id="mie"><button type="button" data-pref="三重県"><p>三重</p></button></div></a>
+<a href="#" data-pref-link><div id="wakayama"><button type="button" data-pref="和歌山県"><p>和歌山</p></button></div></a>
+<a href="#" data-pref-link><div id="hyougo"><button type="button" data-pref="兵庫県"><p>兵庫</p></button></div></a>
+</div></div>
+<div id="tyugoku" class="clearfix"><p class="area-title">中国</p><div class="area">
+<a href="#" data-pref-link><div id="tottori"><button type="button" data-pref="鳥取県"><p>鳥取</p></button></div></a>
+<a href="#" data-pref-link><div id="okayama"><button type="button" data-pref="岡山県"><p>岡山</p></button></div></a>
+<a href="#" data-pref-link><div id="shimane"><button type="button" data-pref="島根県"><p>島根</p></button></div></a>
+<a href="#" data-pref-link><div id="hiroshima"><button type="button" data-pref="広島県"><p>広島</p></button></div></a>
+<a href="#" data-pref-link><div id="yamaguchi"><button type="button" data-pref="山口県"><p>山口</p></button></div></a>
+</div></div>
+<div id="shikoku" class="clearfix"><p class="area-title">四国</p><div class="area">
+<a href="#" data-pref-link><div id="kagawa"><button type="button" data-pref="香川県"><p>香川</p></button></div></a>
+<a href="#" data-pref-link><div id="ehime"><button type="button" data-pref="愛媛県"><p>愛媛</p></button></div></a>
+<a href="#" data-pref-link><div id="tokushima"><button type="button" data-pref="徳島県"><p>徳島</p></button></div></a>
+<a href="#" data-pref-link><div id="kouchi"><button type="button" data-pref="高知県"><p>高知</p></button></div></a>
+</div></div>
+<div id="kyusyu" class="clearfix"><p class="area-title">九州・沖縄</p><div class="area">
+<a href="#" data-pref-link><div id="fukuoka"><button type="button" data-pref="福岡県"><p>福岡</p></button></div></a>
+<a href="#" data-pref-link><div id="saga"><button type="button" data-pref="佐賀県"><p>佐賀</p></button></div></a>
+<a href="#" data-pref-link><div id="nagasaki"><button type="button" data-pref="長崎県"><p>長崎</p></button></div></a>
+<a href="#" data-pref-link><div id="oita"><button type="button" data-pref="大分県"><p>大分</p></button></div></a>
+<a href="#" data-pref-link><div id="kumamoto"><button type="button" data-pref="熊本県"><p>熊本</p></button></div></a>
+<a href="#" data-pref-link><div id="miyazaki"><button type="button" data-pref="宮崎県"><p>宮崎</p></button></div></a>
+<a href="#" data-pref-link><div id="kagoshima"><button type="button" data-pref="鹿児島県"><p>鹿児島</p></button></div></a>
+<a href="#" data-pref-link><div id="okinawa"><button type="button" data-pref="沖縄県"><p>沖縄</p></button></div></a>
+</div></div>
 </div>
 <div id="shopList" class="shop-list" style="margin-top:14px"></div>
 <div id="shopPlaceholder" class="placeholder" style="margin-top:14px">日本地図から都道府県を選択するか、店舗名で検索してください。<br><span style="font-size:.76rem">ミリプロオフィシャルショップはオンラインのため、都道府県選択時に各県で表示されます。</span></div>
@@ -129,21 +197,28 @@
     if(!shopData) return;
     var counts={};
     shopData.forEach(function(s){ if(s.prefecture==="全国") return; counts[s.prefecture]=(counts[s.prefecture]||0)+1; });
-    document.querySelectorAll(".map-btn").forEach(function(b){
-      var pref=b.dataset.pref, cnt=counts[pref]||0;
-      b.classList.toggle("has-shop", cnt>0);
-      b.classList.toggle("no-shop", cnt===0);
-      // show count badge
-      var existing=b.querySelector("small");
-      if(cnt>0){
-        if(!existing){ existing=document.createElement("small"); b.appendChild(existing); }
-        existing.textContent=cnt+"件";
-      } else if(existing){ existing.remove(); }
-      b.classList.toggle("active", pref===selPref);
+    document.querySelectorAll("[data-pref]").forEach(function(b){
+      var pref=b.dataset.pref;
+      var cnt=counts[pref]||0;
+      var parent=b.closest("div[id]");
+      if(parent) {
+        parent.style.opacity=cnt>0? "1" : "0.52";
+        b.title=cnt? pref+" "+cnt+"件" : pref+" 取扱なし";
+      }
+      // active state on parent div
+      if(parent) parent.classList.toggle("active-map", pref===selPref);
+    });
+    // also toggle button active via parent
+    document.querySelectorAll("#japan-map [data-pref]").forEach(function(btn){
+      btn.classList.toggle("active-map", btn.dataset.pref===selPref);
     });
   }
   function render(){
-    document.querySelectorAll(".map-btn").forEach(function(b){ b.classList.toggle("active", b.dataset.pref===selPref); });
+    // active styling
+    document.querySelectorAll("#japan-map [data-pref]").forEach(function(btn){ btn.classList.toggle("active-map", btn.dataset.pref===selPref); });
+    document.querySelectorAll("#japan-map div[id]").forEach(function(div){
+      var btn=div.querySelector("[data-pref]"); if(btn) div.classList.toggle("active-map", btn.dataset.pref===selPref);
+    });
     if(!shopData) return;
     var hasSearch = kw.value.trim() !== "" || chainSel.value !== "";
     if(!selPref && !hasSearch){
@@ -171,12 +246,20 @@
       return '<div class="shop-card card"><h3>'+pin+s.name+'<span class="chain-badge">'+s.chainLabel+'</span></h3><div style="font-size:.78rem;color:var(--muted)">'+(s.prefecture==="全国"?"全国（オンライン）":s.prefecture+'・'+(s.address||""))+'</div><div style="font-size:.74rem;margin-top:4px">'+(s.collab||"")+' '+(s.period? '期間: '+s.period.from+'〜'+(s.period.to||""):"")+'</div><div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap"><a class="btn btn-ghost" style="padding:6px 10px;font-size:.76rem" href="'+s.gmapsUrl+'" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" style="vertical-align:-2px"><path fill="currentColor" d="M12 2.2a7 7 0 0 0-7 7c0 5.2 7 11 7 11s7-5.8 7-11a7 7 0 0 0-7-7Zm0 9.3a2.3 2.3 0 1 1 0-4.6 2.3 2.3 0 0 1 0 4.6Z"/></svg> 地図を開く</a>'+(s.chain==="official"? '<a class="btn" style="padding:6px 10px;font-size:.76rem" href="current.html">グッズを見る</a>':'')+'</div></div>';
     }).join("");
   }
-  document.querySelectorAll(".map-btn").forEach(function(b){
-    b.addEventListener("click", function(){ var pref=b.dataset.pref; selPref= selPref===pref ? "" : pref; render(); });
+  document.querySelectorAll("[data-pref]").forEach(function(btn){
+    btn.addEventListener("click", function(e){
+      e.preventDefault();
+      var pref=btn.dataset.pref;
+      selPref= selPref===pref ? "" : pref;
+      render(); updateCounts();
+      if(selPref) document.getElementById("shopList").scrollIntoView({behavior:"smooth", block:"start"});
+    });
   });
+  // prevent outer <a> navigation
+  document.querySelectorAll("a[data-pref-link]").forEach(function(a){ a.addEventListener("click", function(e){ e.preventDefault(); }); });
   fetch("../data/shops.json").then(function(r){return r.json()}).then(function(data){ shopData=data; updateCounts(); render(); });
   chainSel.addEventListener("change", render); kw.addEventListener("input", render);
-  clear.addEventListener("click", function(){ selPref=""; kw.value=""; chainSel.value=""; render(); });
+  clear.addEventListener("click", function(){ selPref=""; kw.value=""; chainSel.value=""; render(); updateCounts(); });
 })();
 </script>
 </body>
