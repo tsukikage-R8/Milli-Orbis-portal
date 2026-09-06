@@ -30,6 +30,42 @@
     try { localStorage.setItem("milli-cursor-dist-tab", tab); } catch(e) {}
     if (location.hash !== "#" + tab) history.replaceState(null, "", "#" + tab);
   }
+  function dlKeyFromHref(href) {
+    // "/dist/cursors/win/MilliOrbis-Konomi.zip" -> "dist_cursors_win_MilliOrbis-Konomi_zip"
+    // 自分だけ確認用（ページ非表示）。Firebaseコンソールで cursorStats/<key> を見る
+    try {
+      var k = String(href || "").split("?")[0].split("#")[0].replace(/^\/+/, "");
+      k = k.replace(/[^A-Za-z0-9_-]+/g, "_").replace(/_+/g, "_").replace(/^_|_$/g, "");
+      return k || "unknown";
+    } catch (e) { return "unknown"; }
+  }
+  function recordCursorDl(href) {
+    try {
+      if (typeof initFirebase === "function") initFirebase();
+      if (typeof firebaseAvailable !== "function" || !firebaseAvailable()) return;
+      var key = dlKeyFromHref(href);
+      if (!key) return;
+      firebase.database().ref("cursorStats/" + key).transaction(function (c) {
+        return (c || 0) + 1;
+      }).catch(function () {});
+      // 日別も残す（重くなったら消してOK）
+      try {
+        var d = new Date();
+        var dk = d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+        firebase.database().ref("cursorStatsDaily/" + dk + "/" + key).transaction(function (c) {
+          return (c || 0) + 1;
+        }).catch(function () {});
+      } catch (e2) {}
+    } catch (e) {}
+  }
+  // 配布ファイルのDLを計測（表示はしない）。静的ボタン・動的カード両対応の委譲
+  document.addEventListener("click", function (e) {
+    try {
+      var a = e.target && e.target.closest ? e.target.closest('a[download][href*="/dist/cursors/"], a[download][href*="/images/cursors/"]') : null;
+      if (!a) return;
+      recordCursorDl(a.getAttribute("href"));
+    } catch (err) {}
+  });
   function render() {
     var grid = $("#cursorDistGrid");
     if (!grid || typeof MEMBERS === "undefined") return;
