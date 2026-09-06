@@ -1702,6 +1702,15 @@ const COUNTDOWN = [
 
 const NEWS = [
   {
+    date: "2026-09-06",
+    tag: "サイト更新",
+    title: "【サイト更新】「Milli Orbis」をアップデートしました！",
+    desc: "「Milli Orbis」をアップデートしました！内容は以下のとおりです。詳細は別のポストでご紹介します。ぜひご活用ください！・新サービス「MilliDex」の追加・オリジナルカーソルの追加と配布・鹿乃まほろさんページ追加／詳細は管理者のXにて紹介しています。",
+    image: "https://milli-orbis-portal.onrender.com/images/MilliDex-ogp.png",
+    url: "https://x.com/SunSunmachi",
+    en: { tag: "Site Update", title: "[Update] Milli Orbis has been updated!", desc: "New service MilliDex, original cursor distribution, and Kano Mahoro's page added. Details on the admin's X. Enjoy!" }
+  },
+  {
     date: "2026-09-01",
     tag: "サイト更新",
     title: "【サイト更新】オリジナルカーソル配布＆Milli Orbisアカウント強化",
@@ -1847,6 +1856,8 @@ const EVENTS = [
 ];
 
 const X_POSTS = [
+  "https://x.com/Mil_Pro_/status/2095708467248214056",
+  "https://x.com/Mil_Pro_/status/2094983904189178149",
   "https://x.com/Mil_Pro_/status/2088971545511444730",
   "https://x.com/Mil_Pro_/status/2088971188920050018",
   "https://x.com/Mil_Pro_/status/2088969048700899793"
