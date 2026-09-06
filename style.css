@@ -1095,6 +1095,13 @@ img { max-width: 100%; }
   flex-direction: column;
   text-align: left;
   overflow: hidden;
+  content-visibility: auto;
+  contain-intrinsic-size: auto 340px;
+}
+/* 一覧系カードの描画スキップ（スクロール連動・レイアウト保持） */
+.goods-card-ext, .mine-card, .shop-card, .timeline-item {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 340px;
 }
 .goods-tile {
   position: relative;

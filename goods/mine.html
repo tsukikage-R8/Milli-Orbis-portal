@@ -180,7 +180,7 @@
 <script src="../firebase-config.js"></script>
 <script src="../firebase-init.js"></script>
 <script src="../data.js"></script>
-<script src="../data/songs.js"></script><script src="../data/goods-archive.js"></script><script src="../data/goods-collab.js"></script><script src="../data/i18n.js"></script><script src="../scripts/i18n.js"></script><script src="../scripts/fav-store.js"></script><script src="../scripts/cursor.js"></script><script src="../script.js"></script>
+<script src="../data/songs.js"></script><script src="../data/goods-archive.js"></script><script src="../data/goods-collab.js" defer></script><script src="../data/i18n.js"></script><script src="../scripts/i18n.js"></script><script src="../scripts/fav-store.js"></script><script src="../scripts/cursor.js"></script><script src="../script.js"></script>
 <div id="goodsMenu" class="goods-more-menu" role="menu" aria-hidden="true"><button type="button" data-v="have">持ってる</button><button type="button" data-v="want">欲しい</button><button type="button" data-v="">クリア</button></div>
 <script>
 (function(){
@@ -236,12 +236,21 @@
   function save(o){ try{ localStorage.setItem(KEY, JSON.stringify(o)); }catch(e){} }
   var store=load();
   var q=document.getElementById("q"), fM=document.getElementById("fMember"), fK=document.getElementById("fKind"), fC=document.getElementById("fCategory"), fS=document.getElementById("fShop"), fSort=document.getElementById("fSort"), fOshi=document.getElementById("fOshi"), countLabel=document.getElementById("countLabel"), oshiOnly=document.getElementById("oshiOnly"), grid=document.getElementById("grid"), stat=document.getElementById("stat"), barHave=document.getElementById("barHave"), barWant=document.getElementById("barWant"), statWant=document.getElementById("statWant");
-  var allForFilter=[].concat(GOODS); if(typeof GOODS_ARCHIVE!=="undefined") allForFilter=allForFilter.concat(GOODS_ARCHIVE); if(typeof GOODS_COLLAB!=="undefined") allForFilter=allForFilter.concat(GOODS_COLLAB);
-  var kinds=[...new Set(allForFilter.map(function(g){return g.kind}))].sort(); kinds.forEach(function(k){ var o=document.createElement("option"); o.value=k; o.textContent=k; document.getElementById("fKind").appendChild(o); });
-  var cats=[...new Set(allForFilter.map(function(g){return g.category}).filter(Boolean))].sort(); cats.forEach(function(c){ var o=document.createElement("option"); o.value=c; o.textContent=c; document.getElementById("fCategory").appendChild(o); });
+  var allForFilter=[];
+  function refreshFilterBase(){ allForFilter=[].concat(GOODS); if(typeof GOODS_ARCHIVE!=="undefined") allForFilter=allForFilter.concat(GOODS_ARCHIVE); if(typeof GOODS_COLLAB!=="undefined") allForFilter=allForFilter.concat(GOODS_COLLAB); }
+  refreshFilterBase();
+  function buildFilterOptions(){
+    var kv=fK.value, cv=fC.value;
+    while(fK.options.length>1) fK.remove(1);
+    while(fC.options.length>1) fC.remove(1);
+    var kinds=[...new Set(allForFilter.map(function(g){return g.kind}))].sort(); kinds.forEach(function(k){ var o=document.createElement("option"); o.value=k; o.textContent=k; document.getElementById("fKind").appendChild(o); });
+    var cats=[...new Set(allForFilter.map(function(g){return g.category}).filter(Boolean))].sort(); cats.forEach(function(c){ var o=document.createElement("option"); o.value=c; o.textContent=c; document.getElementById("fCategory").appendChild(o); });
+    fK.value=kv; fC.value=cv;
+  }
+  buildFilterOptions();
   MEMBERS.forEach(function(m){ var o=document.createElement("option"); o.value=m.id; o.textContent=m.name; fM.appendChild(o); });
   function allGoods(){ var a=[].concat(GOODS); if(typeof GOODS_ARCHIVE!=="undefined") a=a.concat(GOODS_ARCHIVE); if(typeof GOODS_COLLAB!=="undefined") a=a.concat(GOODS_COLLAB); return a; }
-  function tile(g){ if(g.image) return '<img src="'+g.image+'" alt="" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:12px" onerror="this.style.display=\'none\'">'; return '<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:var(--gc)">'+(GOODS_ICON[g.kind]||"?")+'</div>'; }
+  function tile(g){ if(g.image) return '<img src="'+g.image+'" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:12px" onerror="this.style.display=\'none\'">'; return '<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:var(--gc)">'+(GOODS_ICON[g.kind]||"?")+'</div>'; }
   function fmt(d){ if(!d) return "—"; var t=new Date(d); if(isNaN(t)) return d; return t.getFullYear()+"/"+String(t.getMonth()+1).padStart(2,"0")+"/"+String(t.getDate()).padStart(2,"0"); }
   var pageSize=48, curPage=1, curList=[];
   function render(){
@@ -398,6 +407,11 @@
   // ︙ and long-press for mine (uses same menu as current/archive)
   initGoodsMenu(grid, "mine");
   render();
+  // collabはdefer読込のため、到着後に合并して再描画（初回は公式分のみ即描画）
+  window.addEventListener("DOMContentLoaded", function(){
+    var before=allForFilter.length; refreshFilterBase();
+    if(allForFilter.length!==before){ buildFilterOptions(); render(); }
+  });
 })();
 </script>
 </body>

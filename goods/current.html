@@ -177,19 +177,27 @@
 <script src="../firebase-config.js"></script>
 <script src="../firebase-init.js"></script>
 <script src="../data.js?v=773"></script>
-<script src="../data/goods-collab.js"></script>
+<script src="../data/goods-collab.js" defer></script>
 <script src="../data/songs.js"></script><script src="../data/i18n.js"></script><script src="../scripts/i18n.js"></script><script src="../scripts/fav-store.js"></script><script src="../scripts/cursor.js"></script><script src="../script.js"></script>
 <script>
 (function(){
   var q=$("#q"), fM=$("#fMember"), fK=$("#fKind"), fC=$("#fCategory"), fS=$("#fShop"), fSt=$("#fStatus"), fSort=$("#fSort"), fO=$("#fOshi"), grid=$("#grid"), upBox=$("#upcomingBox"), countLabel=$("#countLabel"), moreBtn=$("#moreBtn");
   function $(s, r){ return (r||document).querySelector(s); }
-  var GOODS_ALL=GOODS.concat(typeof GOODS_COLLAB!=="undefined"?GOODS_COLLAB:[]);
+  function mergeCollab(){ GOODS_ALL=GOODS.concat(typeof GOODS_COLLAB!=="undefined"?GOODS_COLLAB:[]); }
+  var GOODS_ALL=[]; mergeCollab();
   MEMBERS.forEach(function(m){ var o=document.createElement("option"); o.value=m.id; o.textContent=m.name; fM.appendChild(o); });
-  var kinds=[...new Set(GOODS_ALL.map(function(g){return g.kind}))].sort(); kinds.forEach(function(k){ var o=document.createElement("option"); o.value=k; o.textContent=k; fK.appendChild(o); });
-  var cats=[...new Set(GOODS_ALL.map(function(g){return g.category}).filter(Boolean))].sort(); cats.forEach(function(c){ var o=document.createElement("option"); o.value=c; o.textContent=c; fC.appendChild(o); });
+  function buildFilterOptions(){
+    var kv=fK.value, cv=fC.value;
+    while(fK.options.length>1) fK.remove(1);
+    while(fC.options.length>1) fC.remove(1);
+    var kinds=[...new Set(GOODS_ALL.map(function(g){return g.kind}))].sort(); kinds.forEach(function(k){ var o=document.createElement("option"); o.value=k; o.textContent=k; fK.appendChild(o); });
+    var cats=[...new Set(GOODS_ALL.map(function(g){return g.category}).filter(Boolean))].sort(); cats.forEach(function(c){ var o=document.createElement("option"); o.value=c; o.textContent=c; fC.appendChild(o); });
+    fK.value=kv; fC.value=cv;
+  }
+  buildFilterOptions();
   function fmt(d){ if(!d) return "—"; var t=new Date(d); if(isNaN(t)) return d; return t.getFullYear()+"/"+String(t.getMonth()+1).padStart(2,"0")+"/"+String(t.getDate()).padStart(2,"0"); }
   function daysLeft(to){ if(!to) return null; var diff=new Date(to)-new Date(); if(diff<=0) return null; return Math.ceil(diff/86400000); }
-  function tile(g){ if(g.image) return '<img src="'+g.image+'" alt="" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'block\'"><div style="display:none;width:100%;height:100%;align-items:center;justify-content:center;color:var(--gc)">'+(GOODS_ICON[g.kind]||"?")+'</div>'; return GOODS_ICON[g.kind]||""; }
+  function tile(g){ if(g.image) return '<img src="'+g.image+'" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'block\'"><div style="display:none;width:100%;height:100%;align-items:center;justify-content:center;color:var(--gc)">'+(GOODS_ICON[g.kind]||"?")+'</div>'; return GOODS_ICON[g.kind]||""; }
   function tagHtml(g){
     if(g.tag==="販売終了") return '<span class="goods-tag" style="background:#888">販売終了</span>';
     if(g.tag==="まもなく終了") return '<span class="goods-tag" style="background:#e67e22">まもなく終了</span>';
@@ -221,7 +229,7 @@
       var isOn=false; try{ isOn=JSON.parse(localStorage.getItem("milli-goods-reminders")||"[]").some(function(r){return r.id===g.id}); }catch(e){}
       notifyBtn='<button type="button" class="goods-notify-btn'+(isOn?' is-active':'')+'" data-goods-id="'+escAttr(g.id)+'" data-goods-title="'+escAttr(g.name)+'" data-goods-time="'+escAttr(g.period.orderTo)+'">'+(isOn?'🔔 通知ON':'🔔 締切を通知')+'</button>';
     }
-    return '<div class="goods-card card goods-card-ext '+(isOshi?'is-oshi':'')+'" data-id="'+g.id+'" style="--gc:'+color+(isOshi?';--mc:'+color:'')+'"><a href="'+g.url+'" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:flex;flex-direction:column;flex:1"><span class="goods-tile" style="position:relative">'+tile(g)+more+mineBadge+tagHtml(g)+'</span><span class="goods-body"><span class="goods-member">'+label+'</span><span class="goods-name">'+g.name+'</span><span class="goods-price">¥'+g.price.toLocaleString("ja-JP")+(g.oldPrice?' <s style="font-size:.72rem;color:var(--muted)">¥'+g.oldPrice.toLocaleString("ja-JP")+'</s>':"")+'</span>'+per+cd+'<span style="font-size:.72rem;color:var(--muted)">'+(g.place||"")+'</span>'+notifyBtn+'<span class="btn btn-ghost" style="margin-top:6px;justify-content:center">公式ページへ</span></span></a></div>';
+    return '<div class="goods-card card goods-card-ext '+(isOshi?'is-oshi':'')+'" data-id="'+g.id+'" style="--gc:'+color+(isOshi?';--mc:'+color:'')+'"><a href="'+g.url+'" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:flex;flex-direction:column;flex:1"><span class="goods-tile" style="position:relative">'+tile(g)+more+mineBadge+tagHtml(g)+'</span><span class="goods-body"><span class="goods-member">'+label+'</span><span class="goods-name">'+g.name+'</span><span class="goods-price">'+(g.price==null?'—':'¥'+g.price.toLocaleString("ja-JP"))+(g.oldPrice?' <s style="font-size:.72rem;color:var(--muted)">¥'+g.oldPrice.toLocaleString("ja-JP")+'</s>':"")+'</span>'+per+cd+'<span style="font-size:.72rem;color:var(--muted)">'+(g.place||"")+'</span>'+notifyBtn+'<span class="btn btn-ghost" style="margin-top:6px;justify-content:center">公式ページへ</span></span></a></div>';
   }
   var pageSize=48, curPage=1, curList=[];
   function render(){
@@ -321,6 +329,11 @@
     var up=document.getElementById("upcomingBox"); if(up){ up.addEventListener("click", function(e){ var b=e.target.closest(".goods-more"); if(b){ e.preventDefault(); e.stopPropagation(); var r=b.getBoundingClientRect(); openMenu(b.dataset.id, r.left, r.bottom+6); } }); up.addEventListener("touchstart", function(e){ var c=e.target.closest(".goods-card"); if(c) sp(e,c); }, {passive:true}); up.addEventListener("contextmenu", function(e){ if(e.target.closest(".goods-card")) e.preventDefault(); }); up.addEventListener("selectstart", function(e){ if(e.target.closest(".goods-card")) e.preventDefault(); }); }
   })();
   render();
+  // collabはdefer読込のため、到着後に合并して再描画（初回は公式分のみ即描画）
+  window.addEventListener("DOMContentLoaded", function(){
+    var before=GOODS_ALL.length; mergeCollab();
+    if(GOODS_ALL.length!==before){ buildFilterOptions(); render(); }
+  });
 })();
 </script>
 </body>

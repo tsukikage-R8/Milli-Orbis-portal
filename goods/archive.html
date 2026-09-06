@@ -162,45 +162,64 @@
 <script src="../firebase-config.js"></script>
 <script src="../firebase-init.js"></script>
 <script src="../data.js"></script>
-<script src="../data/songs.js"></script><script src="../data/goods-archive.js"></script><script src="../data/goods-collab.js"></script><script src="../data/i18n.js"></script><script src="../scripts/i18n.js"></script><script src="../scripts/fav-store.js"></script><script src="../scripts/cursor.js"></script><script src="../script.js"></script>
+<script src="../data/songs.js"></script><script src="../data/goods-archive.js"></script><script src="../data/goods-collab.js" defer></script><script src="../data/i18n.js"></script><script src="../scripts/i18n.js"></script><script src="../scripts/fav-store.js"></script><script src="../scripts/cursor.js"></script><script src="../script.js"></script>
 <script>
 (function(){
   var q=document.getElementById("q"), fM=document.getElementById("fMember"), fK=document.getElementById("fKind"), fC=document.getElementById("fCategory"), fS=document.getElementById("fShop"), fSt=document.getElementById("fStatus"), fSort=document.getElementById("fSort"), fOshi=document.getElementById("fOshi"), grid=document.getElementById("grid"), countLabel=document.getElementById("countLabel"), moreBtn=document.getElementById("moreBtn");
-  var all=[].concat(GOODS).concat(typeof GOODS_ARCHIVE!=="undefined"? GOODS_ARCHIVE:[]).concat(typeof GOODS_COLLAB!=="undefined"? GOODS_COLLAB:[]);
+  var all=[];
+  function refreshAll(){ all=[].concat(GOODS).concat(typeof GOODS_ARCHIVE!=="undefined"? GOODS_ARCHIVE:[]).concat(typeof GOODS_COLLAB!=="undefined"? GOODS_COLLAB:[]); }
+  refreshAll();
   MEMBERS.forEach(function(m){ var o=document.createElement("option"); o.value=m.id; o.textContent=m.name; fM.appendChild(o); });
-  var kinds=[...new Set(all.map(function(g){return g.kind}))].sort(); kinds.forEach(function(k){ var o=document.createElement("option"); o.value=k; o.textContent=k; fK.appendChild(o); });
-  var cats=[...new Set(all.map(function(g){return g.category}).filter(Boolean))].sort(); cats.forEach(function(c){ var o=document.createElement("option"); o.value=c; o.textContent=c; fC.appendChild(o); });
-  function tile(g){ if(g.image) return '<img src="'+g.image+'" alt="" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'block\'"><div style="display:none;width:100%;height:100%;align-items:center;justify-content:center;color:var(--gc)">'+(GOODS_ICON[g.kind]||"?")+'</div>'; return GOODS_ICON[g.kind]||""; }
+  function buildFilterOptions(){
+    var kv=fK.value, cv=fC.value;
+    while(fK.options.length>1) fK.remove(1);
+    while(fC.options.length>1) fC.remove(1);
+    var kinds=[...new Set(all.map(function(g){return g.kind}))].sort(); kinds.forEach(function(k){ var o=document.createElement("option"); o.value=k; o.textContent=k; fK.appendChild(o); });
+    var cats=[...new Set(all.map(function(g){return g.category}).filter(Boolean))].sort(); cats.forEach(function(c){ var o=document.createElement("option"); o.value=c; o.textContent=c; fC.appendChild(o); });
+    fK.value=kv; fC.value=cv;
+  }
+  buildFilterOptions();
+  function tile(g){ if(g.image) return '<img src="'+g.image+'" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'block\'"><div style="display:none;width:100%;height:100%;align-items:center;justify-content:center;color:var(--gc)">'+(GOODS_ICON[g.kind]||"?")+'</div>'; return GOODS_ICON[g.kind]||""; }
   function tagHtml(g){ if(g.tag==="販売終了"||g.status==="soldout") return '<span class="goods-tag" style="background:#888">販売終了</span>'; if(g.tag==="まもなく終了") return '<span class="goods-tag" style="background:#e67e22">まもなく終了</span>'; return ""; }
   function fmt(d){ if(!d) return "—"; var t=new Date(d); if(isNaN(t)) return d; return t.getFullYear()+"/"+String(t.getMonth()+1).padStart(2,"0")+"/"+String(t.getDate()).padStart(2,"0"); }
   var timelineEl=document.getElementById("timeline"), viewGridBtn=document.getElementById("viewGrid"), viewTimelineBtn=document.getElementById("viewTimeline");
   var viewMode="grid";
   (function(){ var p=new URLSearchParams(location.search); if(p.get("view")==="timeline") viewMode="timeline"; })();
   function updateViewBtns(){
-    if(viewMode==="timeline"){ viewGridBtn.classList.remove("btn"); viewGridBtn.classList.add("btn","btn-ghost"); viewTimelineBtn.classList.remove("btn-ghost"); viewTimelineBtn.classList.add("btn"); grid.style.display="none"; timelineEl.style.display=""; document.getElementById("moreBtn").style.display="none"; }
+    if(viewMode==="timeline"){ viewGridBtn.classList.remove("btn"); viewGridBtn.classList.add("btn","btn-ghost"); viewTimelineBtn.classList.remove("btn-ghost"); viewTimelineBtn.classList.add("btn"); grid.style.display="none"; timelineEl.style.display=""; }
     else { viewTimelineBtn.classList.remove("btn"); viewTimelineBtn.classList.add("btn","btn-ghost"); viewGridBtn.classList.remove("btn-ghost"); viewGridBtn.classList.add("btn"); grid.style.display=""; timelineEl.style.display="none"; }
   }
+  var TL_PAGE=6, tlPage=1, tlGroups=[];
   function renderTimeline(){
-    // group by year-month of orderFrom or published_at
+    // group by year-month of orderFrom or published_at (dateless -> "時期不明" last)
     var groups={};
     curList.forEach(function(g){
       var dStr=g.period&&g.period.orderFrom ? g.period.orderFrom : g.published_at;
-      var d=new Date(dStr); if(isNaN(d)) d=new Date(0);
-      var key=d.getFullYear()+"年 "+String(d.getMonth()+1).padStart(2,"0")+"月";
-      var sortKey=d.getFullYear()*100 + d.getMonth();
+      var d=dStr? new Date(dStr):null; if(d&&isNaN(d)) d=null;
+      var key, sortKey;
+      if(!d){ key="時期不明"; sortKey=-1; }
+      else { key=d.getFullYear()+"年 "+String(d.getMonth()+1).padStart(2,"0")+"月"; sortKey=d.getFullYear()*100 + d.getMonth(); }
       if(!groups[key]) groups[key]={key:key, sort:sortKey, items:[]};
       groups[key].items.push(g);
     });
-    var sortedKeys=Object.values(groups).sort(function(a,b){return b.sort-a.sort});
-    if(!sortedKeys.length){ timelineEl.innerHTML='<div class="placeholder">該当なし</div>'; return; }
-    timelineEl.innerHTML=sortedKeys.map(function(gr){
+    tlGroups=Object.values(groups).sort(function(a,b){return b.sort-a.sort});
+    tlPage=1;
+    renderTimelinePage();
+  }
+  function renderTimelinePage(){
+    if(!tlGroups.length){ timelineEl.innerHTML='<div class="placeholder">該当なし</div>'; moreBtn.style.display="none"; return; }
+    var show=tlGroups.slice(0, tlPage*TL_PAGE);
+    var rest=tlGroups.length-show.length;
+    timelineEl.innerHTML=show.map(function(gr){
       return '<div class="timeline-item"><div class="timeline-date">'+gr.key+' <span style="font-weight:700;color:var(--muted)">'+gr.items.length+'件</span></div><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;margin-top:8px">'+gr.items.map(function(g){
         var m=g.memberId? MEMBERS.find(function(x){return x.id===g.memberId}):null; var color=m?m.color:"#75b1c0"; var label=m?m.name:(g.memberLabel||"全員");
         var mineSt=""; try{mineSt=JSON.parse(localStorage.getItem("milli-goods-mine")||"{}")[g.id]||""}catch(e){}
         var badge=mineSt==="have"?'<span style="position:absolute;bottom:4px;left:4px;background:var(--accent-deep);color:#fff;font-size:.58rem;font-weight:900;padding:1px 6px;border-radius:999px">持ってる</span>': mineSt==="want"?'<span style="position:absolute;bottom:4px;left:4px;background:#f5a623;color:#fff;font-size:.58rem;font-weight:900;padding:1px 6px;border-radius:999px">欲しい</span>':"";
-        return '<div class="card" style="--gc:'+color+';position:relative;overflow:hidden"><a href="'+g.url+'" target="_blank" rel="noopener" style="text-decoration:none;color:inherit"><div style="height:110px;position:relative;background:linear-gradient(160deg, color-mix(in srgb, var(--gc) 18%, #fff), #fff);display:flex;align-items:center;justify-content:center;overflow:hidden">'+(g.image?'<img src="'+g.image+'" alt="" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:100%;object-fit:cover;display:block" onerror="this.style.display=\'none\'">':'<span style="color:var(--gc)">'+(GOODS_ICON[g.kind]||"?")+'</span>')+badge+tagHtml(g)+'</div><div style="padding:8px"><div style="font-size:.72rem;font-weight:900;color:var(--gc)">'+label+'</div><div style="font-size:.78rem;font-weight:800;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden">'+g.name+'</div><div style="font-size:.68rem;color:var(--muted)">'+fmt(g.period&&g.period.orderFrom)+'</div></div></a></div>';
+        return '<div class="card" style="--gc:'+color+';position:relative;overflow:hidden"><a href="'+g.url+'" target="_blank" rel="noopener" style="text-decoration:none;color:inherit"><div style="height:110px;position:relative;background:linear-gradient(160deg, color-mix(in srgb, var(--gc) 18%, #fff), #fff);display:flex;align-items:center;justify-content:center;overflow:hidden">'+(g.image?'<img src="'+g.image+'" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" style="width:100%;height:100%;object-fit:cover;display:block" onerror="this.style.display=\'none\'">':'<span style="color:var(--gc)">'+(GOODS_ICON[g.kind]||"?")+'</span>')+badge+tagHtml(g)+'</div><div style="padding:8px"><div style="font-size:.72rem;font-weight:900;color:var(--gc)">'+label+'</div><div style="font-size:.78rem;font-weight:800;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden">'+g.name+'</div><div style="font-size:.68rem;color:var(--muted)">'+fmt(g.period&&g.period.orderFrom)+'</div></div></a></div>';
       }).join("")+'</div></div>';
     }).join("");
+    moreBtn.style.display= rest>0 ? "" : "none";
+    moreBtn.textContent="もっと見る（残り"+rest+"グループ）";
   }
   var pageSize=48, curPage=1, curList=[];
   function render(){
@@ -266,7 +285,7 @@
     var qs=p.toString(); history.replaceState(null,"", qs ? "?"+qs : location.pathname);
   }
   var _origRender=render; render=function(){ _origRender(); syncUrl(); };
-  moreBtn.addEventListener("click", function(){ curPage++; renderPage(); });
+  moreBtn.addEventListener("click", function(){ if(viewMode==="timeline"){ tlPage++; renderTimelinePage(); } else { curPage++; renderPage(); } });
   if(viewGridBtn) viewGridBtn.addEventListener("click", function(){ viewMode="grid"; updateViewBtns(); renderPage(); syncUrl(); });
   if(viewTimelineBtn) viewTimelineBtn.addEventListener("click", function(){ viewMode="timeline"; updateViewBtns(); renderPage(); syncUrl(); });
   updateViewBtns();
@@ -292,6 +311,11 @@
     grid.addEventListener("dragstart", function(e){ if(e.target.closest(".goods-card")) e.preventDefault(); });
   })();
   render();
+  // collabはdefer読込のため、到着後に合并して再描画（初回は公式分のみ即描画）
+  window.addEventListener("DOMContentLoaded", function(){
+    var before=all.length; refreshAll();
+    if(all.length!==before){ buildFilterOptions(); render(); }
+  });
 })();
 </script>
 </body>

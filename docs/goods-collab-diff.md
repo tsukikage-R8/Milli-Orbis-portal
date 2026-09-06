@@ -67,6 +67,16 @@ https://taito.co.jp/taito-prize/topics/47196
 - [✓] eeo重複判定分の除外可否→全件登録で確定
 - [✓] 問題なければ「実装開始」で `data/goods-collab.js` 作成→3頁配線→検証→dev push まで実施
 
+## E-2. ステータス実態化＋軽量化（2026-09-06 追補）
+
+- ステータス再計算：売り切れ文言・過去`orderTo`・セガぬいぐるみのみ `soldout`（30件）、未来発売2件（イラスト本10/5・ネイル9/18）は `upcoming`、残り144件は `onSale`
+- 表示：current 209件（公式63+コラボ146）／archive 739件（公式709+コラボ30）。販売中コラボの公式品混在は許容済み
+- 価格null 10件（クレーン系）は「—」表示＋ガード追加（`current.html`）。画像なしはSVG継続
+- タイムライン：日付なし→「時期不明」末尾配置（1970年消滅）、月グループ6件ずつ分割表示＋「もっと見る」
+- 軽量化：`content-visibility`（`style.css`）、`decoding="async"`（3頁）、collab `defer`＋到着後再描画（初回は公式分を即描画）
+- 実ブラウザ検証済み（puppeteer）：JSエラーなし、eeo/book/crane/olympia絞り込み・タイトー「—」価格・販売予定7件・所持率948件すべて正常
+- 既知の残存：`goods/*/data/youtube.json` の404はベースラインでも再現する既存症状（本件対象外）
+
 ## E. 実装結果（2026-09-06）
 
 - `data/goods-collab.js` 新設：176件（eeo 147／書籍4／コミック2／イオン1／アニメイト5／タイトー2／セガ6+追加4／OLYMPIA 7→内訳：eeo147・book6・animate5・crane10・olympia7・aeon1）
