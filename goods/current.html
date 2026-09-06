@@ -158,7 +158,7 @@
 <div class="milli-select-wrap"><select id="fMember" class="milli-select"><option value="">全タレント</option></select><span class="milli-select-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg></span></div>
 <div class="milli-select-wrap"><select id="fKind" class="milli-select"><option value="">全種類</option></select><span class="milli-select-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg></span></div>
 <div class="milli-select-wrap"><select id="fCategory" class="milli-select"><option value="">全カテゴリ</option></select><span class="milli-select-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg></span></div>
-<div class="milli-select-wrap"><select id="fShop" class="milli-select"><option value="">全販売場所</option><option value="official">公式ショップ</option><option value="animate">アニメイト</option><option value="aeon">イオン</option></select><span class="milli-select-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg></span></div>
+<div class="milli-select-wrap"><select id="fShop" class="milli-select"><option value="">全販売場所</option><option value="official">公式ショップ</option><option value="animate">アニメイト</option><option value="aeon">イオン</option><option value="eeo">eeo Store</option><option value="book">書籍・コミック</option><option value="crane">プライズ・クレーン</option><option value="olympia">OLYMPIA</option></select><span class="milli-select-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg></span></div>
 <select id="fStatus" style="display:none"><option value="onSale" selected>販売中のみ</option></select>
 <div class="milli-select-wrap"><select id="fSort" class="milli-select"><option value="deadline">受注終了が近い順</option><option value="new">新着順</option><option value="priceAsc">価格が安い順</option><option value="priceDesc">価格が高い順</option></select><span class="milli-select-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg></span></div>
 <label class="milli-check"><input type="checkbox" id="fOshi"> 推しのみ</label>
@@ -167,7 +167,7 @@
 <div id="upcomingBox" class="goods-upcoming" style="display:none"></div>
 <div id="grid" class="goods-grid"></div>
 <div style="text-align:center;margin:16px 0"><button id="moreBtn" class="btn btn-ghost" style="display:none">もっと見る</button></div>
-<p style="margin:16px 0;text-align:center;color:var(--muted);font-size:.8rem">画像はShopify CDNへのホットリンクで表示（保存せず参照）。出典: ミリプロオフィシャルショップ / PR TIMES / アニメイト（全772件: 公式767+コラボ5）</p>
+<p style="margin:16px 0;text-align:center;color:var(--muted);font-size:.8rem">画像はShopify CDNへのホットリンクで表示（保存せず参照）。出典: ミリプロオフィシャルショップ / PR TIMES / アニメイト / eeo Store / KADOKAWA / セガ・タイトー（全948件: 公式767+既存コラボ5+外部コラボ176）</p>
 <div id="goodsMenu" class="goods-more-menu" role="menu" aria-hidden="true"><button type="button" data-v="have">持ってる</button><button type="button" data-v="want">欲しい</button><button type="button" data-v="">クリア</button></div>
 </main>
 <footer><p class="disclaimer">本サイトはファンが運営する非公式のポータルサイトです。ミリプロ公式様とは一切関係ありません。</p><p class="source-note">公式サイト: <a href="https://milpr.com/" target="_blank" rel="noopener">https://milpr.com/</a></p><p>© 2026 MilliDex（Milli Orbis内 グッズ・情報データベース・非公式ファンまとめ）</p></footer>
@@ -177,14 +177,16 @@
 <script src="../firebase-config.js"></script>
 <script src="../firebase-init.js"></script>
 <script src="../data.js?v=773"></script>
+<script src="../data/goods-collab.js"></script>
 <script src="../data/songs.js"></script><script src="../data/i18n.js"></script><script src="../scripts/i18n.js"></script><script src="../scripts/fav-store.js"></script><script src="../scripts/cursor.js"></script><script src="../script.js"></script>
 <script>
 (function(){
   var q=$("#q"), fM=$("#fMember"), fK=$("#fKind"), fC=$("#fCategory"), fS=$("#fShop"), fSt=$("#fStatus"), fSort=$("#fSort"), fO=$("#fOshi"), grid=$("#grid"), upBox=$("#upcomingBox"), countLabel=$("#countLabel"), moreBtn=$("#moreBtn");
   function $(s, r){ return (r||document).querySelector(s); }
+  var GOODS_ALL=GOODS.concat(typeof GOODS_COLLAB!=="undefined"?GOODS_COLLAB:[]);
   MEMBERS.forEach(function(m){ var o=document.createElement("option"); o.value=m.id; o.textContent=m.name; fM.appendChild(o); });
-  var kinds=[...new Set(GOODS.map(function(g){return g.kind}))].sort(); kinds.forEach(function(k){ var o=document.createElement("option"); o.value=k; o.textContent=k; fK.appendChild(o); });
-  var cats=[...new Set(GOODS.map(function(g){return g.category}).filter(Boolean))].sort(); cats.forEach(function(c){ var o=document.createElement("option"); o.value=c; o.textContent=c; fC.appendChild(o); });
+  var kinds=[...new Set(GOODS_ALL.map(function(g){return g.kind}))].sort(); kinds.forEach(function(k){ var o=document.createElement("option"); o.value=k; o.textContent=k; fK.appendChild(o); });
+  var cats=[...new Set(GOODS_ALL.map(function(g){return g.category}).filter(Boolean))].sort(); cats.forEach(function(c){ var o=document.createElement("option"); o.value=c; o.textContent=c; fC.appendChild(o); });
   function fmt(d){ if(!d) return "—"; var t=new Date(d); if(isNaN(t)) return d; return t.getFullYear()+"/"+String(t.getMonth()+1).padStart(2,"0")+"/"+String(t.getDate()).padStart(2,"0"); }
   function daysLeft(to){ if(!to) return null; var diff=new Date(to)-new Date(); if(diff<=0) return null; return Math.ceil(diff/86400000); }
   function tile(g){ if(g.image) return '<img src="'+g.image+'" alt="" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'block\'"><div style="display:none;width:100%;height:100%;align-items:center;justify-content:center;color:var(--gc)">'+(GOODS_ICON[g.kind]||"?")+'</div>'; return GOODS_ICON[g.kind]||""; }
@@ -226,7 +228,7 @@
     var kw=(q.value||"").toLowerCase().trim();
     var fm=fM.value, fk=fK.value, fc=fC.value, fs=fS.value, oOnly=fO.checked, sort=fSort.value;
     var oshi=""; try{ oshi=localStorage.getItem("milli-oshi")||"";}catch(e){}
-    var list=GOODS.filter(function(g){
+    var list=GOODS_ALL.filter(function(g){
       if(g.status==="soldout") return false;
       if(oOnly && oshi && g.memberId!==oshi && g.memberId!=="") return false;
       if(fm && g.memberId!==fm) return false;
@@ -247,7 +249,7 @@
     });
     if(upcoming.length){ upBox.style.display=""; upBox.innerHTML='<h3>近日販売予定 <span style="font-weight:700;color:var(--muted);font-size:.82rem">'+upcoming.length+'件</span></h3><div class="goods-grid">'+upcoming.map(cardHtml).join("")+'</div>'; } else { upBox.style.display="none"; upBox.innerHTML=""; }
     curList=onSale; curPage=1;
-    countLabel.textContent="表示: "+curList.length+"件 (全"+GOODS.length+"件中) / 販売中: "+GOODS.filter(function(g){return g.status!=="soldout"}).length+"件・販売終了: "+GOODS.filter(function(g){return g.status==="soldout"}).length+"件";
+    countLabel.textContent="表示: "+curList.length+"件 (全"+GOODS_ALL.length+"件中) / 販売中: "+GOODS_ALL.filter(function(g){return g.status!=="soldout"}).length+"件・販売終了: "+GOODS_ALL.filter(function(g){return g.status==="soldout"}).length+"件";
     renderPage();
   }
   function renderPage(){

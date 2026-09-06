@@ -143,7 +143,7 @@
 <div class="milli-select-wrap"><select id="fMember" class="milli-select"><option value="">全タレント</option></select><span class="milli-select-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg></span></div>
 <div class="milli-select-wrap"><select id="fKind" class="milli-select"><option value="">全種類</option></select><span class="milli-select-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg></span></div>
 <div class="milli-select-wrap"><select id="fCategory" class="milli-select"><option value="">全カテゴリ</option></select><span class="milli-select-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg></span></div>
-<div class="milli-select-wrap"><select id="fShop" class="milli-select"><option value="">全販売場所</option><option value="official">公式ショップ</option><option value="animate">アニメイト</option><option value="aeon">イオン</option></select><span class="milli-select-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg></span></div>
+<div class="milli-select-wrap"><select id="fShop" class="milli-select"><option value="">全販売場所</option><option value="official">公式ショップ</option><option value="animate">アニメイト</option><option value="aeon">イオン</option><option value="eeo">eeo Store</option><option value="book">書籍・コミック</option><option value="crane">プライズ・クレーン</option><option value="olympia">OLYMPIA</option></select><span class="milli-select-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg></span></div>
 <select id="fStatus" style="display:none"><option value="soldout" selected>販売終了のみ</option></select>
 <div class="milli-select-wrap"><select id="fSort" class="milli-select"><option value="deadline">受注終了が近い順</option><option value="new">新着順</option><option value="priceAsc">価格が安い順</option><option value="priceDesc">価格が高い順</option></select><span class="milli-select-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg></span></div>
 <label class="milli-check"><input type="checkbox" id="fOshi"> 推しのみ</label>
@@ -162,11 +162,11 @@
 <script src="../firebase-config.js"></script>
 <script src="../firebase-init.js"></script>
 <script src="../data.js"></script>
-<script src="../data/songs.js"></script><script src="../data/goods-archive.js"></script><script src="../data/i18n.js"></script><script src="../scripts/i18n.js"></script><script src="../scripts/fav-store.js"></script><script src="../scripts/cursor.js"></script><script src="../script.js"></script>
+<script src="../data/songs.js"></script><script src="../data/goods-archive.js"></script><script src="../data/goods-collab.js"></script><script src="../data/i18n.js"></script><script src="../scripts/i18n.js"></script><script src="../scripts/fav-store.js"></script><script src="../scripts/cursor.js"></script><script src="../script.js"></script>
 <script>
 (function(){
   var q=document.getElementById("q"), fM=document.getElementById("fMember"), fK=document.getElementById("fKind"), fC=document.getElementById("fCategory"), fS=document.getElementById("fShop"), fSt=document.getElementById("fStatus"), fSort=document.getElementById("fSort"), fOshi=document.getElementById("fOshi"), grid=document.getElementById("grid"), countLabel=document.getElementById("countLabel"), moreBtn=document.getElementById("moreBtn");
-  var all=[].concat(GOODS).concat(typeof GOODS_ARCHIVE!=="undefined"? GOODS_ARCHIVE:[]);
+  var all=[].concat(GOODS).concat(typeof GOODS_ARCHIVE!=="undefined"? GOODS_ARCHIVE:[]).concat(typeof GOODS_COLLAB!=="undefined"? GOODS_COLLAB:[]);
   MEMBERS.forEach(function(m){ var o=document.createElement("option"); o.value=m.id; o.textContent=m.name; fM.appendChild(o); });
   var kinds=[...new Set(all.map(function(g){return g.kind}))].sort(); kinds.forEach(function(k){ var o=document.createElement("option"); o.value=k; o.textContent=k; fK.appendChild(o); });
   var cats=[...new Set(all.map(function(g){return g.category}).filter(Boolean))].sort(); cats.forEach(function(c){ var o=document.createElement("option"); o.value=c; o.textContent=c; fC.appendChild(o); });
