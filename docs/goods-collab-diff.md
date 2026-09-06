@@ -75,6 +75,7 @@ https://taito.co.jp/taito-prize/topics/47196
 - タイムライン：日付なし→「時期不明」末尾配置（1970年消滅）、月グループ6件ずつ分割表示＋「もっと見る」
 - 軽量化：`content-visibility`（`style.css`）、`decoding="async"`（3頁）、collab `defer`＋到着後再描画（初回は公式分を即描画）
 - 実ブラウザ検証済み（puppeteer）：JSエラーなし、eeo/book/crane/olympia絞り込み・タイトー「—」価格・販売予定7件・所持率948件すべて正常
+- アニメイト5件に商品画像を設定（一覧頁 `aid=19070` より取得。1BOXは単品画像で代用、全5種はのの代表画像。ホットリンク200確認済み）
 - 既知の残存：`goods/*/data/youtube.json` の404はベースラインでも再現する既存症状（本件対象外）
 
 ## E. 実装結果（2026-09-06）
