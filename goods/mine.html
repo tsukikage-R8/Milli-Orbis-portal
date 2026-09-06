@@ -156,6 +156,11 @@
 <div id="grid" class="mine-grid" style="margin-top:12px"></div>
 <div style="text-align:center;margin:16px 0"><button id="moreBtn" class="btn btn-ghost" style="display:none">もっと見る</button></div>
 <div id="emptyMine" class="placeholder" style="display:none;margin-top:12px">まだ持っているグッズがありません。<br><a href="archive.html" class="btn" style="margin-top:8px">過去アーカイブから登録する →</a></div>
+<div id="onboarding" class="card" style="display:none;margin-top:12px;padding:16px;border:2px dashed var(--accent);background:rgba(255,255,255,.92)">
+  <h3 style="font-family:var(--font-display);font-weight:900;font-size:1rem">マイグッズの使い方 <span style="font-size:.72rem;color:var(--muted)">— 3ステップ</span></h3>
+  <ol style="margin:8px 0 0 18px;font-size:.84rem;line-height:1.8;color:var(--text)"><li><a href="archive.html" style="font-weight:900;color:var(--accent-deep)">過去アーカイブ</a> で持っているグッズの <span style="background:var(--accent-soft);padding:2px 6px;border-radius:999px;font-weight:900">︙ → 持ってる</span> を押す</li><li>ここに <span style="font-weight:900">持っているグッズだけ</span> が表示されます</li><li>検索や絞り込みでコレクションを楽しもう</li></ol>
+  <button id="onboardingClose" class="btn" style="margin-top:10px;padding:6px 14px;font-size:.82rem">わかった</button>
+</div>
 </main>
 <footer><p class="disclaimer">非公式ファンサイトです。</p></footer>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
@@ -277,9 +282,45 @@
     var b=e.target.closest(".mine-btn"); if(b){ var id=b.dataset.id, v=b.dataset.v; if(v) store[id]=v; else delete store[id]; save(store); render(); return; }
     if(e.target.closest(".goods-more")) return;
   });
+  // URL share
+  (function(){
+    var p=new URLSearchParams(location.search);
+    if(p.get("q")) q.value=p.get("q");
+    if(p.get("member")) fM.value=p.get("member");
+    if(p.get("kind")) fK.value=p.get("kind");
+    if(p.get("category")) fC.value=p.get("category");
+    if(p.get("shop")) fS.value=p.get("shop");
+    if(p.get("sort")) fSort.value=p.get("sort");
+    if(p.get("oshi")==="1") fOshi.checked=true;
+  })();
+  function syncUrl(){
+    var p=new URLSearchParams();
+    if(q.value) p.set("q", q.value);
+    if(fM.value) p.set("member", fM.value);
+    if(fK.value) p.set("kind", fK.value);
+    if(fC.value) p.set("category", fC.value);
+    if(fS.value) p.set("shop", fS.value);
+    if(fSort.value!=="deadline") p.set("sort", fSort.value);
+    if(fOshi.checked) p.set("oshi","1");
+    var qs=p.toString(); history.replaceState(null,"", qs ? "?"+qs : location.pathname);
+  }
+  var _origRenderMine=render; render=function(){ _origRenderMine(); syncUrl(); };
   [q,fM,fK,fC,fS,fSort,fOshi].forEach(function(el){ if(el) el.addEventListener("input", render); if(el) el.addEventListener("change", render); });
   document.getElementById("moreBtn").addEventListener("click", function(){ curPage++; renderPage(); });
   var clearBtn=document.getElementById("clearBtn"); if(clearBtn) clearBtn.addEventListener("click", function(){ if(confirm("全ての登録をクリアしますか？")){ store={}; save(store); render(); } });
+  // onboarding
+  (function(){
+    var ob=document.getElementById("onboarding"), close=document.getElementById("onboardingClose");
+    if(close) close.addEventListener("click", function(){ try{localStorage.setItem("milli-mine-onboarding","1")}catch(e){} ob.style.display="none"; });
+    window.updateOnboarding=function(){
+      var dismissed=false; try{dismissed=localStorage.getItem("milli-mine-onboarding")==="1"}catch(e){}
+      var isEmpty = curList.length===0;
+      try{ isEmpty = isEmpty && Object.keys(JSON.parse(localStorage.getItem("milli-goods-mine")||"{}")).filter(function(k){ var v=JSON.parse(localStorage.getItem("milli-goods-mine")||"{}")[k]; return v==="have"; }).length===0; }catch(e){}
+      if(ob) ob.style.display= (isEmpty && !dismissed) ? "" : "none";
+    };
+    var _origRenderPageMine=renderPage;
+    renderPage=function(){ _origRenderPageMine(); updateOnboarding(); };
+  })();
   // ︙ and long-press for mine (uses same menu as current/archive)
   initGoodsMenu(grid, "mine");
   render();

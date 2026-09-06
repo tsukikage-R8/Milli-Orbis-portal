@@ -367,6 +367,22 @@
   });
   // prevent outer <a> navigation
   document.querySelectorAll("a[data-pref-link]").forEach(function(a){ a.addEventListener("click", function(e){ e.preventDefault(); }); });
+  // URL share for shops
+  (function(){
+    var p=new URLSearchParams(location.search);
+    if(p.get("pref")) selPref=p.get("pref");
+    if(p.get("chain")) chainSel.value=p.get("chain");
+    if(p.get("q")) kw.value=p.get("q");
+  })();
+  function syncUrlShops(){
+    var p=new URLSearchParams();
+    if(selPref) p.set("pref", selPref);
+    if(chainSel.value) p.set("chain", chainSel.value);
+    if(kw.value) p.set("q", kw.value);
+    var qs=p.toString(); history.replaceState(null,"", qs ? "?"+qs : location.pathname);
+  }
+  var _origRenderShops=render;
+  render=function(){ _origRenderShops(); syncUrlShops(); };
   fetch("../data/shops.json").then(function(r){return r.json()}).then(function(data){ shopData=data; updateCounts(); render(); });
   chainSel.addEventListener("change", render); kw.addEventListener("input", render);
   clear.addEventListener("click", function(){ selPref=""; kw.value=""; chainSel.value=""; render(); updateCounts(); });

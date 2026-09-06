@@ -1193,6 +1193,9 @@ img { max-width: 100%; }
 }
 .car-dot:hover { background: rgba(0, 0, 0, 0.32); }
 .car-dot.active { width: 24px; border-radius: 999px; background: var(--accent); }
+@keyframes countdownPulse{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
+.goods-countdown--soon{background:#fff3e0!important;border-color:#f5a623!important;color:#e67e22!important}
+.goods-countdown--today{background:#ffeaea!important;border-color:#ff6b6b!important;color:#c0392b!important;animation:countdownPulse 1.2s ease-in-out infinite}
 
 /* ---------- グッズフィルタ（オリジナルUI） ---------- */
 .milli-search{display:flex;align-items:center;gap:8px;flex:1;min-width:220px;background:var(--card);border:3px solid #fff;outline:2px solid rgba(0,0,0,.12);border-radius:999px;padding:8px 14px;box-shadow:var(--shadow);transition:transform .12s}

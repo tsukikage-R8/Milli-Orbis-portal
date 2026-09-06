@@ -202,6 +202,29 @@
     moreBtn.style.display= show.length < curList.length ? "" : "none";
     moreBtn.textContent="もっと見る（残り"+(curList.length - show.length)+"件）";
   }
+  // URL share
+  (function(){
+    var p=new URLSearchParams(location.search);
+    if(p.get("q")) q.value=p.get("q");
+    if(p.get("member")) fM.value=p.get("member");
+    if(p.get("kind")) fK.value=p.get("kind");
+    if(p.get("category")) fC.value=p.get("category");
+    if(p.get("shop")) fS.value=p.get("shop");
+    if(p.get("sort")) fSort.value=p.get("sort");
+    if(p.get("oshi")==="1") fOshi.checked=true;
+  })();
+  function syncUrl(){
+    var p=new URLSearchParams();
+    if(q.value) p.set("q", q.value);
+    if(fM.value) p.set("member", fM.value);
+    if(fK.value) p.set("kind", fK.value);
+    if(fC.value) p.set("category", fC.value);
+    if(fS.value) p.set("shop", fS.value);
+    if(fSort.value!=="deadline") p.set("sort", fSort.value);
+    if(fOshi.checked) p.set("oshi","1");
+    var qs=p.toString(); history.replaceState(null,"", qs ? "?"+qs : location.pathname);
+  }
+  var _origRender=render; render=function(){ _origRender(); syncUrl(); };
   moreBtn.addEventListener("click", function(){ curPage++; renderPage(); });
   [q,fM,fK,fC,fS,fSort,fOshi].forEach(function(el){ if(el) { el.addEventListener("input", render); el.addEventListener("change", render); } });
   // goods menu (︙ & long-press)

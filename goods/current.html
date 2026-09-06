@@ -190,7 +190,12 @@
     var oshiLocal=""; try{ oshiLocal=localStorage.getItem("milli-oshi")||"";}catch(e){}
     var isOshi= oshiLocal && g.memberId===oshiLocal;
     var dl=daysLeft(g.period && g.period.orderTo);
-    var cd= dl!==null && dl<=7 && g.status!=="soldout" ? '<span class="goods-countdown">残り'+dl+'日</span>' : "";
+    var cd="";
+    if(dl!==null && g.status!=="soldout"){
+      if(dl===0) cd='<span class="goods-countdown goods-countdown--today">本日終了</span>';
+      else if(dl<=3) cd='<span class="goods-countdown goods-countdown--soon">残り'+dl+'日</span>';
+      else if(dl<=7) cd='<span class="goods-countdown">残り'+dl+'日</span>';
+    }
     var per=g.period? '<div class="goods-period"><b>受注</b> '+fmt(g.period.orderFrom)+' 〜 '+fmt(g.period.orderTo)+'<br><b>発送</b> '+fmt(g.period.shipFrom)+' 〜 '+fmt(g.period.shipTo)+'</div>' : "";
     if(g.status==="soldout") per+='<div style="font-size:.72rem;color:#888">販売終了</div>';
     var more='<button type="button" class="goods-more" aria-label="メニュー" data-id="'+g.id+'"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><circle cx="12" cy="5" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="12" cy="19" r="2"/></svg></button>';
@@ -233,6 +238,31 @@
     moreBtn.style.display= show.length < curList.length ? "" : "none";
     moreBtn.textContent="もっと見る（残り"+(curList.length - show.length)+"件）";
   }
+  // URL share
+  (function(){
+    var p=new URLSearchParams(location.search);
+    if(p.get("q")) q.value=p.get("q");
+    if(p.get("member")) fM.value=p.get("member");
+    if(p.get("kind")) fK.value=p.get("kind");
+    if(p.get("category")) fC.value=p.get("category");
+    if(p.get("shop")) fS.value=p.get("shop");
+    if(p.get("sort")) fSort.value=p.get("sort");
+    if(p.get("oshi")==="1") fO.checked=true;
+  })();
+  function syncUrl(){
+    var p=new URLSearchParams();
+    if(q.value) p.set("q", q.value);
+    if(fM.value) p.set("member", fM.value);
+    if(fK.value) p.set("kind", fK.value);
+    if(fC.value) p.set("category", fC.value);
+    if(fS.value) p.set("shop", fS.value);
+    if(fSort.value!=="deadline") p.set("sort", fSort.value);
+    if(fO.checked) p.set("oshi","1");
+    var qs=p.toString();
+    history.replaceState(null,"", qs ? "?"+qs : location.pathname);
+  }
+  var _origRender=render;
+  render=function(){ _origRender(); syncUrl(); };
   moreBtn.addEventListener("click", function(){ curPage++; renderPage(); });
   [q,fM,fK,fC,fS,fSt,fSort,fO].forEach(function(el){ el.addEventListener("input", render); el.addEventListener("change", render); });
   // goods menu (︙ & long-press)
