@@ -544,36 +544,47 @@ function mpSaveProfile() {
     .catch(function (e) { console.warn('profile save failed', e) })
 }
 
-// アカウント連携ポップアップ
+// アカウント連携ポップアップ — Milli Unishare 参考: 4モーダル構成 (acct/login/signup/mypage)
 function mpOpen() {
-  mp_show('login-popup')
+  mp_show('acctModal')
   mpRender(getMilliproUid())
 }
 
-// 全ポップアップを閉じる
+// 全ポップアップを閉じる（Unishare と同機構: 4モーダル + 旧 login-popup 互換 + パスワードリセット）
 function mpClose() {
-  mp_hide('login-popup')
   mp_hide('acctModal')
   mp_hide('loginModal')
   mp_hide('signupModal')
   mp_hide('mypageModal')
+  mp_hide('login-popup')
+  var pr = document.getElementById('password-reset-dialog')
+  if (pr) { pr.classList.add('hidden'); pr.classList.remove('open') }
 }
 
 function mpToggle() {
-  var m = document.getElementById('login-popup') || document.getElementById('acctModal')
+  var m = document.getElementById('acctModal') || document.getElementById('login-popup')
   if (!m) return
   if (m.classList.contains('open')) mpClose(); else mpOpen()
 }
 
-// ログイン / 新規登録 を別ポップアップで開く
+// ログイン / 新規登録 / マイページ を別ポップアップで開く（Unishare と同一API）
 function mpOpenLogin() {
   mpClose()
-  mp_show('login-popup')
+  mp_show('loginModal')
+  // 旧 login-popup 互換: タブがある場合はログイン側を表示
+  var t = document.getElementById('mp-tab-login'); if (t && typeof mpTab === 'function') mpTab('login')
 }
 
 function mpOpenSignup() {
   mpClose()
-  mp_show('login-popup')
+  mp_show('signupModal')
+  var t = document.getElementById('mp-tab-signup'); if (t && typeof mpTab === 'function') mpTab('signup')
+}
+
+function mpOpenMypage() {
+  mpClose()
+  // 本ポータルでは mypage は account.html（Unishare は mypage.html）
+  location.href = 'account.html'
 }
 
 function mpTogglePw(id) {
@@ -597,29 +608,43 @@ function mpAuthMsg(e) {
 }
 
 function mpSubmitLogin() {
-  var email = document.getElementById('mp-email').value.trim()
-  var pass = document.getElementById('mp-pass').value
-  var msg = document.getElementById('mp-msg-login')
-  if (!email || !pass) { if (msg) msg.textContent = 'メールとパスワードを入力してください'; return }
+  var emailEl = document.getElementById('mp-email')
+  var passEl = document.getElementById('mp-pass')
+  // 互換: 旧ID mp2-email ではなく mp-email を使うが、フォールバックも
+  var email = emailEl ? emailEl.value.trim() : ''
+  var pass = passEl ? passEl.value : ''
+  var msg = document.getElementById('mp-msg-login') || document.getElementById('mp-msg')
+  var msg2 = document.getElementById('mp-msg')
+  if (!email || !pass) { if (msg) msg.textContent = 'メールとパスワードを入力してください'; if (msg2 && msg2!==msg) msg2.textContent = 'メールとパスワードを入力してください'; return }
   milliproLogin(email, pass).then(function () {
     if (msg) msg.textContent = 'ログインしました...'
+    if (msg2 && msg2!==msg) msg2.textContent = 'ログインしました...'
   }).catch(function (e) {
-    if (msg) msg.textContent = mpAuthMsg(e)
+    var t = mpAuthMsg(e)
+    if (msg) msg.textContent = t
+    if (msg2 && msg2!==msg) msg2.textContent = t
   })
 }
 
 function mpSubmitSignup() {
-  var email = document.getElementById('mp-semail').value.trim()
-  var p1 = document.getElementById('mp-spass1').value
-  var p2 = document.getElementById('mp-spass2').value
-  var msg = document.getElementById('mp-msg-signup')
+  var emailEl = document.getElementById('mp-semail') || document.getElementById('mp2-email')
+  var p1El = document.getElementById('mp-spass1') || document.getElementById('mp2-pass')
+  var p2El = document.getElementById('mp-spass2') || document.getElementById('mp2-pass2')
+  var email = emailEl ? emailEl.value.trim() : ''
+  var p1 = p1El ? p1El.value : ''
+  var p2 = p2El ? p2El.value : ''
+  var msg = document.getElementById('mp-msg-signup') || document.getElementById('mp2-msg') || document.getElementById('mp-msg')
+  var msg2 = document.getElementById('mp-msg')
   if (!email || !p1) { if (msg) msg.textContent = 'メールとパスワードを入力してください'; return }
   if (p1.length < 6) { if (msg) msg.textContent = 'パスワードは6文字以上にしてください'; return }
   if (p1 !== p2) { if (msg) msg.textContent = 'パスワードが一致しません'; return }
   milliproSignup(email, p1).then(function () {
     if (msg) msg.textContent = 'アカウントを作成しました...'
+    if (msg2 && msg2!==msg) msg2.textContent = 'アカウントを作成しました...'
   }).catch(function (e) {
-    if (msg) msg.textContent = mpAuthMsg(e)
+    var t = mpAuthMsg(e)
+    if (msg) msg.textContent = t
+    if (msg2 && msg2!==msg) msg2.textContent = t
   })
 }
 
@@ -676,29 +701,34 @@ function mpOpenAccount() {
   mpOpen()
 }
 
-// ---------- OAuth ポップアップ連携（Milli Orbisアカウント） ----------
+// ---------- OAuth ポップアップ連携（Milli Orbisアカウント） — Unishare 参考 ----------
 function mpOAuthLogin(provider) {
-  var msgEl = document.getElementById("mp-msg");
-  if (msgEl) msgEl.textContent = "処理中…";
+  var msgEl = document.getElementById("mp-msg-login") || document.getElementById("mp-msg-signup") || document.getElementById("mp-msg");
+  var msgEl2 = document.getElementById("mp-msg")
+  var setMsg = function(t){ if(msgEl) msgEl.textContent=t; if(msgEl2 && msgEl2!==msgEl) msgEl2.textContent=t; }
+  setMsg("処理中…")
   var p = null;
   if (provider === "google" && typeof milliproLoginWithGoogle === "function") p = milliproLoginWithGoogle();
   else if (provider === "twitter" && typeof milliproLoginWithTwitter === "function") p = milliproLoginWithTwitter();
-  else { if (msgEl) msgEl.textContent = "未対応のプロバイダです"; return; }
+  else { setMsg("未対応のプロバイダです"); return; }
   p.then(function (result) {
     var uid = (typeof getMilliproUid === "function" ? getMilliproUid() : null) || (result && result.user ? result.user.uid : null);
-    if (!uid) { if (msgEl) msgEl.textContent = "Milli Orbisアカウントにログインしました"; return; }
+    if (!uid) { setMsg("Milli Orbisアカウントにログインしました"); return; }
     if (typeof completeMilliproLogin === "function") {
       return completeMilliproLogin(uid).then(function () {
-        if (msgEl) msgEl.textContent = "Milli Orbisアカウントにログインしました";
+        setMsg("Milli Orbisアカウントにログインしました");
         if (typeof mpRender === "function") mpRender(uid);
         mpRefreshBanner();
+        // ニックネーム未設定なら編集を促す（Unishare と同機構）
+        var prof = _mpProfile || {}
+        if (!prof.playerName) setTimeout(function(){ try{ mpOpen(); mpStartEdit(); }catch(e){} }, 400)
       });
     } else {
-      if (msgEl) msgEl.textContent = "Milli Orbisアカウントにログインしました";
+      setMsg("Milli Orbisアカウントにログインしました");
     }
   }).catch(function (e) {
     var friendly = (typeof oauthErrorMessage === "function" ? oauthErrorMessage(e) : null);
-    if (msgEl) msgEl.textContent = friendly || (e && e.message ? e.message : "ログインに失敗しました");
+    setMsg(friendly || (e && e.message ? e.message : "ログインに失敗しました"));
   });
 }
 
@@ -765,16 +795,168 @@ function mpUnlinkProvider(provider) {
   };
 })();
 
+// ---------- Milli Unishare 参考: ニックネーム/アイコン登録ヘルパー（旧ポータル互換 + 新モーダル） ----------
+var _pendingIconDataUrl = null
+function mpPickEmoji(emoji) {
+  var picon = document.getElementById('mp-picon')
+  var editIcon = document.getElementById('mp-edit-icon-preview')
+  if (picon) { picon.value = emoji; _pendingIconDataUrl = null }
+  // 旧ID互換
+  var oldName = document.getElementById('mp-edit-name')
+  var pname = document.getElementById('mp-pname')
+  if (oldName && pname) oldName.value = pname.value
+  mpUpdatePiconPreview()
+  // プレビューに即反映（emoji は文字として）
+  var preview = document.getElementById('mp-picon-preview') || document.getElementById('mp-edit-icon-preview')
+  if (preview) renderUserIcon(preview, { icon: emoji, playerName: '' })
+}
+function mpPickIconFile(input) {
+  if (!input || !input.files || !input.files[0]) return
+  var file = input.files[0]
+  if (file.size > 2 * 1024 * 1024) { alert('画像は2MB以内にしてください'); return }
+  var reader = new FileReader()
+  reader.onload = function (e) {
+    _pendingIconDataUrl = e.target.result
+    var picon = document.getElementById('mp-picon')
+    if (picon) picon.value = _pendingIconDataUrl
+    var preview = document.getElementById('mp-picon-preview') || document.getElementById('mp-edit-icon-preview')
+    if (preview) renderUserIcon(preview, { icon: _pendingIconDataUrl, playerName: '' })
+  }
+  reader.readAsDataURL(file)
+}
+// 旧タブ切替互換（login-popup 内の mp-tab）
+function mpTab(which) {
+  var l = document.getElementById('mp-tab-login')
+  var s = document.getElementById('mp-tab-signup')
+  var pl = document.getElementById('mp-panel-login')
+  var ps = document.getElementById('mp-panel-signup')
+  if (l) l.classList.toggle('active', which === 'login')
+  if (s) s.classList.toggle('active', which === 'signup')
+  if (pl) pl.style.display = which === 'login' ? '' : 'none'
+  if (ps) ps.style.display = which === 'signup' ? '' : 'none'
+}
+// 旧 mpToggle('mp-pass','mp-pass-eye') 互換
+function mpToggle(a, b) {
+  var id = a || b
+  // mpTogglePw は data-pw 属性方式だが、旧呼び出しは 2引数なので id を解決
+  if (typeof mpTogglePw === 'function') {
+    // 旧: mpToggle('mp-pass','mp-pass-eye') → 新: mpTogglePw('mp-pass')
+    // 新: mpTogglePw('mp-pass') でも動く
+    return mpTogglePw(id)
+  }
+  // フォールバック
+  var inp = document.getElementById(id)
+  if (!inp) return
+  inp.type = inp.type === 'password' ? 'text' : 'password'
+}
+function mpSubmit(isSignup) {
+  if (isSignup) return mpSubmitSignup()
+  return mpSubmitLogin()
+}
+function mpOpenReset() {
+  var d = document.getElementById('password-reset-dialog')
+  if (!d) return
+  d.classList.remove('hidden')
+  d.classList.add('open')
+  d.setAttribute('aria-hidden', 'false')
+  var email = document.getElementById('mp-email') || document.getElementById('mp-semail')
+  var re = document.getElementById('reset-email')
+  if (re && email) re.value = email.value.trim()
+}
+function mpCloseReset() {
+  var d = document.getElementById('password-reset-dialog')
+  if (!d) return
+  d.classList.add('hidden')
+  d.classList.remove('open')
+  d.setAttribute('aria-hidden', 'true')
+}
+function mpResetSubmit() {
+  var emailEl = document.getElementById('reset-email')
+  var msgEl = document.getElementById('reset-msg')
+  var email = emailEl ? emailEl.value.trim() : ''
+  if (!email) { if (msgEl) msgEl.textContent = 'メールアドレスを入力してください'; return }
+  if (msgEl) msgEl.textContent = '送信中…'
+  milliproResetPassword(email).then(function () {
+    if (msgEl) { msgEl.textContent = '再設定メールを送信しました。メールをご確認ください。'; msgEl.classList.add('ok') }
+  }).catch(function (e) {
+    if (msgEl) msgEl.textContent = oauthErrorMessage(e) || (e && e.message) || '送信に失敗しました'
+  })
+}
+
+// プロフィール保存時に _pendingIconDataUrl があれば優先（画像アップロード対応）
+(function(){
+  var _origSave = mpSaveProfile
+  window.mpSaveProfile = function(){
+    var uid = getMilliproUid()
+    if (!uid) { alert('ログインが必要です'); return }
+    // 新IDと旧IDの両方から値を取得
+    var nameEl = document.getElementById('mp-pname') || document.getElementById('mp-edit-name')
+    var iconEl = document.getElementById('mp-picon')
+    var msgEl = document.getElementById('mp-pmsg')
+    var name = nameEl ? nameEl.value.trim() : ''
+    var icon = _pendingIconDataUrl || (iconEl ? iconEl.value.trim() : '')
+    // 旧プレビューも更新
+    if (_pendingIconDataUrl) {
+      var oldPreview = document.getElementById('mp-edit-icon-preview')
+      if (oldPreview) renderUserIcon(oldPreview, { icon: icon })
+    }
+    var msg = msgEl ? msgEl.value.trim() : ''
+    var p = _mpProfile || { playerId: getMilliproPlayerId() || '' }
+    p.playerName = name
+    if (icon) p.icon = icon
+    else if (!_pendingIconDataUrl) { /* アイコン未入力なら既存を保持 */ }
+    p.comment = msg
+    p.updatedAt = Date.now()
+    _mpProfile = p
+    _pendingIconDataUrl = null
+    firebase.database().ref('millipro/users/' + uid + '/profile').set(p)
+      .then(function () {
+        applyMilliproProfile(p)
+        mpRender(uid)
+        mpCancelEdit()
+        alert('プロフィールを保存しました')
+        // ニックネーム未設定だった場合の初回登録完了トースト
+        if (name) {
+          try { localStorage.setItem('milli-nickname-set', '1') } catch(e){}
+        }
+      })
+      .catch(function (e) { console.warn('profile save failed', e); alert(oauthErrorMessage(e)) })
+  }
+})()
+
 initFirebase()
 
-// login-popup の閉じる挙動（HTMLのIDに合わせる）
+// ポップアップの閉じる挙動（Unishare 参考: 4モーダル + 旧 login-popup 互換）
 ;(function(){
   function bindPopupClose(){
-    var popup = document.getElementById('login-popup');
-    var btn = document.getElementById('mp-popup-close');
-    if(btn) btn.addEventListener('click', function(){ mpClose(); });
-    if(popup) popup.addEventListener('click', function(e){ if(e.target===popup) mpClose(); });
-    document.addEventListener('keydown', function(e){ if(e.key==='Escape'){ var p=document.getElementById('login-popup'); if(p && p.classList.contains('open')) mpClose(); }});
+    var ids = ['acctModal','loginModal','signupModal','mypageModal','login-popup']
+    ids.forEach(function(id){
+      var el = document.getElementById(id)
+      if(!el) return
+      // × ボタン（data-close 属性または #mp-popup-close 互換）
+      var closes = el.querySelectorAll('[data-close="'+id+'"], #mp-popup-close, .acct-close')
+      closes.forEach(function(btn){
+        btn.addEventListener('click', function(){ mpClose(); })
+      })
+      el.addEventListener('click', function(e){ if(e.target===el) mpClose(); })
+    })
+    // パスワードリセットは別ID
+    var pr = document.getElementById('password-reset-dialog')
+    if(pr){
+      var prClose = pr.querySelector('#reset-close-btn, [data-close="password-reset-dialog"]')
+      if(prClose) prClose.addEventListener('click', function(){ mpClose(); })
+      pr.addEventListener('click', function(e){ if(e.target===pr) mpClose(); })
+    }
+    document.addEventListener('keydown', function(e){
+      if(e.key==='Escape'){
+        for(var i=0;i<ids.length;i++){
+          var p=document.getElementById(ids[i])
+          if(p && p.classList.contains('open')){ mpClose(); break; }
+        }
+        var pr2=document.getElementById('password-reset-dialog')
+        if(pr2 && (pr2.classList.contains('open') || !pr2.classList.contains('hidden'))) mpClose()
+      }
+    })
   }
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', bindPopupClose);
   else bindPopupClose();
@@ -782,10 +964,21 @@ initFirebase()
 
 onMilliproAuth(function (uid) {
   if (uid) {
-    completeMilliproLogin(uid).then(function () {
+    completeMilliproLogin(uid).then(function (profile) {
       mpRender(uid)
       mpClose()
       mpRefreshBanner()
+      // ニックネーム未登録なら登録を促す（Unishare 同様: 初回ログイン時に編集を開く）
+      var needsNickname = !profile || !profile.playerName
+      if (needsNickname) {
+        var seen = false
+        try { seen = localStorage.getItem('milli-nickname-prompted') === '1' } catch(e){}
+        // 初回のみ自動で編集を開く（2回目以降は手動）
+        if (!seen) {
+          try { localStorage.setItem('milli-nickname-prompted','1') } catch(e){}
+          setTimeout(function(){ try{ mpOpen(); mpStartEdit(); var n=document.getElementById('mp-edit-note')||document.getElementById('mp-picon-preview'); if(n && n.parentElement) { var hint=document.getElementById('mp-edit-note'); if(hint) hint.textContent='ニックネームを登録してください（全サイトで共有されます）'; } }catch(e){} }, 600)
+        }
+      }
     }).catch(function () {
       mpRender(uid)
       mpRefreshBanner()

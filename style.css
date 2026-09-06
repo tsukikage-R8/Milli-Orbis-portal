@@ -4041,6 +4041,199 @@ section[id]:not(#home) { scroll-margin-top: 76px; }
   .mp-welcome { border-radius: 20px; padding: 9px 14px; font-size: 0.84rem; }
 }
 
+/* ============ Milli Unishare 参考: アカウント連携ポップアップ (acct-overlay) ============ */
+.acct-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(40, 30, 25, 0.42);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  z-index: 950;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+}
+.acct-overlay.open { display: flex; animation: fadeUp 0.22s ease; }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.acct-box {
+  width: 100%;
+  max-width: 400px;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.96);
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
+  border: 3px solid #fff;
+  outline: 2px solid var(--accent);
+  border-radius: 26px;
+  box-shadow: 0 24px 70px rgba(59, 68, 104, 0.32);
+  overflow: hidden;
+  position: relative;
+  overflow-y: auto;
+}
+.acct-box h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  padding: 18px 22px 12px;
+  font-size: 16px;
+  font-weight: 900;
+  font-family: var(--font-display);
+  color: var(--text);
+}
+.acct-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(122, 131, 168, 0.12);
+  color: var(--text);
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.acct-close:hover { background: rgba(122, 131, 168, 0.22); }
+.acct-box input {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  border: 2px solid var(--accent);
+  border-radius: 12px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: inherit;
+  background: rgba(255, 255, 255, 0.9);
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.acct-box input:focus { border-color: var(--accent-deep); box-shadow: 0 0 0 3px var(--accent-soft); }
+.acct-box button {
+  border: none;
+  background: var(--accent-deep);
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-size: 13.5px;
+  font-weight: 800;
+  font-family: var(--font-display);
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s, opacity 0.15s;
+  box-shadow: 0 4px 14px rgba(90, 75, 55, 0.2);
+}
+.acct-box button:hover { transform: translateY(-1px); box-shadow: 0 8px 20px rgba(90, 75, 55, 0.25); }
+.acct-box button:active { transform: none; }
+.acct-box button.btn-ghost,
+.acct-box button[style*="background:#999"] {
+  background: #fff !important;
+  color: var(--accent-deep) !important;
+  border: 2px solid var(--accent) !important;
+  box-shadow: none !important;
+}
+.acct-msg { font-size: 12.5px; color: #c25282; margin: 8px 0 0; min-height: 1em; font-weight: 700; }
+.acct-msg.ok { color: #2b7fb0; }
+.acct-hint { font-size: 11.5px; color: var(--muted); margin: 8px 0 10px; line-height: 1.6; }
+.acct-row { display: flex; gap: 8px; margin-bottom: 10px; }
+.acct-row button { flex: 1; }
+.acct-pw-wrap { position: relative; margin-bottom: 8px; }
+.acct-pw-wrap input { margin-bottom: 0; padding-right: 40px; }
+.acct-pw-wrap .acct-pw-btn {
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 4px;
+  color: #888;
+  box-shadow: none;
+}
+.acct-pw-wrap .acct-pw-btn:hover { opacity: 0.7; transform: translateY(-50%); }
+.acct-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px dashed var(--border);
+}
+.acct-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-soft);
+  font-size: 26px;
+  line-height: 1;
+  overflow: hidden;
+  flex-shrink: 0;
+  border: 2px solid #fff;
+  outline: 2px solid var(--accent);
+}
+.acct-avatar img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; }
+#mp-profile-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-soft);
+  font-size: 26px;
+  line-height: 1;
+  overflow: hidden;
+  flex-shrink: 0;
+  border: 2px solid #fff;
+  outline: 2px solid var(--accent);
+}
+#mp-profile-icon img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; }
+.acct-picon-row { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+.acct-picon-row .acct-avatar { flex-shrink: 0; }
+.acct-picon-row input { flex: 1; margin-bottom: 0; }
+/* 旧 login-popup との互換: 中身を acct-box 風に寄せる */
+.login-popup .mp-edit, .login-popup .mp-emoji-grid, .login-popup .mp-edit-row { display: none; }
+:root[data-theme="dark"] .acct-box { background: #1e1a28; border-color: #2c2838; box-shadow: 0 24px 70px rgba(0,0,0,0.5); }
+:root[data-theme="dark"] .acct-box input { background: #15121c; color: var(--text); border-color: #2c2838; }
+:root[data-theme="dark"] .acct-box h3 { color: var(--text); }
+/* パスワードリセットを acct-overlay と同スタイルに */
+.password-reset-dialog {
+  position: fixed;
+  inset: 0;
+  background: rgba(40, 30, 25, 0.42);
+  backdrop-filter: blur(6px);
+  z-index: 960;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+}
+.password-reset-dialog.open, .password-reset-dialog:not(.hidden) { display: flex; }
+.password-reset-box {
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  border: 3px solid #fff;
+  outline: 2px solid var(--accent);
+  border-radius: 26px;
+  box-shadow: 0 24px 70px rgba(59,68,104,0.32);
+  padding: 22px;
+  position: relative;
+}
+:root[data-theme="dark"] .password-reset-box { background: #1e1a28; }
+
 /* ============================================================
    今日のミリプロボックス＋一括リマインド
    ============================================================ */
