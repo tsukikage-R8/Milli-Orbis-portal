@@ -5377,6 +5377,15 @@ html.cursor-custom.cursor-miri .watch-loading, html.cursor-custom.cursor-miri .l
   .oshi-cursor-col + .oshi-cursor-col{ border-left:none; border-top:1px dashed var(--border); padding-left:0; padding-top:8px; }
   .oshi-col-list{ max-height:220px; }
 }
+/* スマホではマウスカーソル不要のため背景選択のみ（PCの背景列だけ） */
+@media (max-width:720px){
+  #oshiCursorPreview{ display:none !important; }
+  .oshi-cursor-cols{ grid-template-columns:1fr !important; }
+  .oshi-cursor-col:first-child{ display:none !important; }
+  .oshi-cursor-col + .oshi-cursor-col{ border-left:none !important; border-top:none !important; padding-left:0 !important; padding-top:0 !important; }
+  .oshi-cursor-label{ display:inline !important; }
+  .oshi-cursor-dropdown{ width:300px; }
+}
 .cursor-top-wrap, .oshi-select, .cursor-dropdown { display:none !important; }
 .cursor-top-btn {
   display: inline-flex;
