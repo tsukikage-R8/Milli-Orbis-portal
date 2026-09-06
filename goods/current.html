@@ -5,11 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>現在販売中のグッズ | Milli Orbis</title>
 <meta name="description" content="ミリプロの現在販売中・販売予定グッズを一括検索。タレント・種類・カテゴリ・販売場所・受注終了順で絞り込み、受注期間と発送期間を一覧表示。">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Milli Orbis">
 <link rel="icon" href="../images/icon/Milli%20Orbis.ico" sizes="any">
 <link rel="apple-touch-icon" sizes="192x192" href="../images/icon/Milli%20Orbis-192.png">
+<link rel="apple-touch-icon" sizes="518x518" href="../images/icon/Milli%20Orbis-518.png">
 <link rel="manifest" href="../manifest.webmanifest">
 <meta name="theme-color" content="#75b1c0">
 <script>try{if(localStorage.getItem("milli-theme")==="dark"||(!localStorage.getItem("milli-theme")&&matchMedia("(prefers-color-scheme: dark)").matches))document.documentElement.dataset.theme="dark";}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../style.css">
 <style>
@@ -27,14 +32,109 @@
 .goods-countdown{font-size:.72rem;font-weight:900;color:#c0392b;background:#fff3f3;border:1px solid #f5c2c2;border-radius:999px;padding:2px 8px;display:inline-block;margin-top:4px}
 .goods-upcoming{margin:22px 0}
 .goods-upcoming h3{font-family:var(--font-display);font-weight:900;font-size:1.05rem;margin-bottom:10px}
+.goods-more{position:absolute;top:8px;right:8px;width:28px;height:28px;border-radius:50%;background:rgba(255,255,255,.92);border:2px solid var(--border);display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.12);z-index:2;color:var(--muted)}
+.goods-more:hover{background:#fff;color:var(--accent-deep)}
+.goods-more-menu{position:fixed;min-width:140px;background:#fff;border:2px solid var(--border);border-radius:14px;box-shadow:0 8px 24px rgba(0,0,0,.18);padding:6px;z-index:600;display:none;flex-direction:column;gap:4px}
+.goods-more-menu.show{display:flex}
+.goods-more-menu button{padding:8px 12px;border-radius:999px;border:2px solid var(--border);background:#fff;font-weight:800;font-size:.78rem;cursor:pointer;text-align:left}
+.goods-more-menu button.on{background:var(--accent-deep);color:#fff;border-color:var(--accent-deep)}
 </style>
 </head>
 <body data-oshi="">
-<header id="siteHeader"><div class="header-inner"><a class="logo" href="../index.html"><img src="../images/rogo/Milli%20Orbis-rogo.png" alt="Milli Orbis"></a>
-<nav class="nav"><a href="../index.html#home">Home</a><a href="current.html" class="current">グッズ</a><a href="../songs.html">曲</a><a href="../members.html">メンバー</a></nav>
-<div class="header-actions"><a id="liveBadge" class="live-badge" href="#" target="_blank" rel="noopener">● LIVE</a><button type="button" class="profile-btn" id="profile-btn" onclick="mpOpenAccount()" aria-label="アカウント"><span class="profile-icon" id="profile-header-icon">?</span></button><div class="oshi-cursor-wrap" id="oshiCursorWrap"><button id="oshiCursorBtn" class="oshi-cursor-btn"><span id="oshiCursorPreview" class="oshi-cursor-preview" style="width:18px;height:18px;border-radius:50%;background:#7a4fc4;border:2px solid #fff;display:inline-block"></span><span id="oshiDot" class="oshi-dot" style="width:18px;height:18px;border-radius:50%;background:var(--accent);border:2px solid #fff;display:inline-block"></span><span class="oshi-cursor-label">表示</span></button><div id="oshiCursorDropdown" class="oshi-cursor-dropdown"></div></div><select id="oshiSelect" class="oshi-select" style="display:none"></select><button id="hamburger" class="hamburger" aria-label="メニュー"><svg viewBox="0 0 28 20" width="30" height="22" aria-hidden="true"><path d="M2 3h24M2 10h24M2 17h24" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/></svg></button></div></div>
-<div id="drawerBackdrop" class="drawer-backdrop"></div>
-<nav id="mobileNav" class="mobile-nav" aria-hidden="true"><div class="drawer-section-label">グッズ</div><a href="current.html" class="mobile-sub">現在販売中</a><a href="shops.html" class="mobile-sub">販売箇所検索</a><a href="map.html" class="mobile-sub">有志マップ</a><a href="archive.html" class="mobile-sub">過去アーカイブ</a><a href="mine.html" class="mobile-sub">マイグッズ</a><div class="drawer-section-label">他</div><a href="../index.html#home">Home</a><a href="../songs.html">曲</a><a href="../members.html">メンバー比較表</a></nav></header>
+<header id="siteHeader">
+  <div class="header-inner">
+    <a class="logo" href="../index.html"><img src="../images/rogo/Milli%20Orbis-rogo.png" alt="Milli Orbis"></a>
+    <nav class="nav">
+      <a href="../index.html#home">Home</a>
+      <div class="nav-drop" id="memberDrop">
+        <button type="button" class="nav-drop-btn">Member Guide<span class="caret"></span></button>
+        <div class="nav-drop-menu">
+          <a class="drop-top" href="../index.html#members" data-i18n="nav.memberAll">Member Guide 一覧へ</a>
+          <div class="drop-sep"></div>
+          <a href="../konomi.html" data-i18n-name="konomi">甘狼このみ</a>
+          <a href="../nono.html" data-i18n-name="nono">音ノ乃のの</a>
+          <a href="../akubi.html" data-i18n-name="akubi">あくび・でもんすぺーど</a>
+          <a href="../koma.html" data-i18n-name="koma">小廻こま</a>
+          <a href="../raco.html" data-i18n-name="raco">音ノ瀬らこ</a>
+          <a href="../yura.html" data-i18n-name="yura">ゆらぎゆら</a>
+          <a href="../nuhu.html" data-i18n-name="nuhu">虹深°ぬふ</a>
+          <a href="../tsukuri.html" data-i18n-name="tsukuri">眠雲ツクリ</a>
+          <a href="../liz.html" data-i18n-name="liz">雨夜リズ</a>
+          <a href="../rei.html" data-i18n-name="rei">夕霧レイ</a>
+          <a href="../mahoro.html" data-i18n-name="mahoro">鹿乃まほろ</a>
+          <a href="../milchan.html" data-i18n-name="milchan">ミリちゃん</a>
+          <div class="drop-sep"></div>
+          <a href="../members.html" data-i18n="nav.compare">メンバー比較表</a>
+          <a href="../account.html" data-i18n="nav.account">マイページ</a>
+        </div>
+      </div>
+      <a href="current.html">グッズ</a>
+      <a href="../index.html#groups" data-i18n="nav.groups">グループ・期生</a>
+      <a href="../songs.html" data-i18n="nav.songs">曲データベース</a>
+      <a href="../index.html#calendar">Event Calendar</a>
+      <a href="../index.html#links">Official Links</a>
+    </nav>
+    <div class="header-actions">
+      <a id="liveBadge" class="live-badge" href="#" target="_blank" rel="noopener">● LIVE</a>
+  <button type="button" class="profile-btn" id="profile-btn" onclick="mpOpenAccount()" aria-label="Milli Orbisアカウント" data-i18n-aria="header.profile">
+        <span class="profile-icon" id="profile-header-icon">?</span>
+      </button>
+      <div class="oshi-cursor-wrap" id="oshiCursorWrap">
+        <button id="oshiCursorBtn" class="oshi-cursor-btn" aria-label="カーソルと推しを選択" aria-expanded="false" aria-haspopup="true">
+          <span id="oshiCursorPreview" class="oshi-cursor-preview" style="width:18px;height:18px;border-radius:50%;background:#7a4fc4;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.2);display:inline-block;flex-shrink:0"></span>
+          <span id="oshiDot" class="oshi-dot" style="width:18px;height:18px;border-radius:50%;background:var(--accent);border:2px solid #fff;outline:1px solid var(--accent);display:inline-block;flex-shrink:0;background-size:cover;background-position:center;"></span>
+          <span class="oshi-cursor-label">表示</span>
+        </button>
+        <div id="oshiCursorDropdown" class="oshi-cursor-dropdown" role="menu" aria-hidden="true"></div>
+      </div>
+      <select id="oshiSelect" class="oshi-select" aria-label="推しメンバーを選択" data-i18n-aria="header.oshi" style="display:none"></select>
+<button id="hamburger" class="hamburger" aria-label="メニュー" data-i18n-aria="header.menu" aria-expanded="false" aria-controls="mobileNav">
+        <svg viewBox="0 0 28 20" width="30" height="22" aria-hidden="true"><path d="M2 3h24M2 10h24M2 17h24" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+  <div id="drawerBackdrop" class="drawer-backdrop" aria-hidden="true"></div>
+  <nav id="mobileNav" class="mobile-nav" aria-hidden="true">
+    <div class="drawer-section-label">設定</div>
+      <div class="drawer-settings">
+        <button type="button" class="notif-bell" id="mobileNotifBell" aria-label="通知設定" data-i18n-aria="header.notif">🔔</button>
+        <button type="button" class="theme-toggle" id="mobileThemeToggle" aria-label="ダークモード切替" data-i18n-aria="header.theme">🌙</button>
+        <button type="button" class="lang-toggle" id="mobileLangToggle" aria-label="言語切替" data-i18n-aria="header.lang">EN</button>
+        <span style="font-size:0.78rem;color:var(--muted);font-weight:700;">通知 / テーマ / 言語</span>
+      </div>
+    <div class="drawer-section-label">セクション</div>
+    <a href="../index.html#home">Home</a>
+    <a href="../index.html#groups" data-i18n="nav.groups">グループ・期生</a>
+    <a href="../index.html#members">Member Guide</a>
+    <a href="../index.html#calendar">Event Calendar</a>
+    <a href="../index.html#links">Official Links</a>
+    <div class="drawer-section-label">Member Guide</div>
+    <a class="mobile-sub" href="../konomi.html" data-i18n-name="konomi">甘狼このみ</a>
+    <a class="mobile-sub" href="../nono.html" data-i18n-name="nono">音ノ乃のの</a>
+    <a class="mobile-sub" href="../akubi.html" data-i18n-name="akubi">あくび・でもんすぺーど</a>
+    <a class="mobile-sub" href="../koma.html" data-i18n-name="koma">小廻こま</a>
+    <a class="mobile-sub" href="../raco.html" data-i18n-name="raco">音ノ瀬らこ</a>
+    <a class="mobile-sub" href="../yura.html" data-i18n-name="yura">ゆらぎゆら</a>
+    <a class="mobile-sub" href="../nuhu.html" data-i18n-name="nuhu">虹深°ぬふ</a>
+    <a class="mobile-sub" href="../tsukuri.html" data-i18n-name="tsukuri">眠雲ツクリ</a>
+    <a class="mobile-sub" href="../liz.html" data-i18n-name="liz">雨夜リズ</a>
+    <a class="mobile-sub" href="../rei.html" data-i18n-name="rei">夕霧レイ</a>
+    <a class="mobile-sub" href="../mahoro.html" data-i18n-name="mahoro">鹿乃まほろ</a>
+    <a class="mobile-sub" href="../milchan.html" data-i18n-name="milchan">ミリちゃん</a>
+    <a href="../members.html" data-i18n="nav.compare">メンバー比較表</a>
+    <div class="drawer-section-label">グッズ</div>
+    <a href="current.html">現在販売中</a>
+    <a href="shops.html" class="mobile-sub">販売箇所検索</a>
+    <a href="map.html" class="mobile-sub">有志マップ</a>
+    <a href="archive.html" class="mobile-sub">過去アーカイブ</a>
+    <a href="mine.html" class="mobile-sub">マイグッズ</a>
+    <div class="drawer-section-label">コンテンツ</div>
+    <a href="../quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
+    <a href="../songs.html" data-i18n="nav.songs">楽曲一覧</a>
+    <a href="../cursors.html">カーソル配布</a>
+    <a href="../account.html" data-i18n="nav.account">マイページ</a>
+  </nav>
+</header>
 <main class="container" style="padding-top:84px">
 <nav class="breadcrumb"><a href="../index.html">Home</a><span>グッズ</span><span>現在販売中</span></nav>
 <section class="subpage-hero"><h1 style="font-family:var(--font-display);font-weight:900">現在販売中・販売予定</h1><p class="section-sub" style="padding-left:0">タレント・種類・カテゴリ・販売場所で絞り込み、受注期間と発送期間を一覧で確認できます。受注終了が近い順にも並べ替え可能。</p><p class="cmp-disclaimer">本ページはファン有志による非公式まとめです。価格・在庫はリンク先の公式ページでご確認ください。</p></section>
@@ -56,9 +156,16 @@
 <div id="grid" class="goods-grid"></div>
 <div style="text-align:center;margin:16px 0"><button id="moreBtn" class="btn btn-ghost" style="display:none">もっと見る</button></div>
 <p style="margin:16px 0;text-align:center;color:var(--muted);font-size:.8rem">画像はShopify CDNへのホットリンクで表示（保存せず参照）。出典: ミリプロオフィシャルショップ / PR TIMES / アニメイト（全772件: 公式767+コラボ5）</p>
+<div id="goodsMenu" class="goods-more-menu" role="menu" aria-hidden="true"><button type="button" data-v="have">持ってる</button><button type="button" data-v="want">欲しい</button><button type="button" data-v="">クリア</button></div>
 </main>
 <footer><p class="disclaimer">本サイトはファンが運営する非公式のポータルサイトです。ミリプロ公式様とは一切関係ありません。</p><p class="source-note">公式サイト: <a href="https://milpr.com/" target="_blank" rel="noopener">https://milpr.com/</a></p><p>© 2026 Milli Orbis（非公式ファンサイト）</p></footer>
-<script src="../data.js?v=773"></script><script src="../data/i18n.js"></script><script src="../scripts/i18n.js"></script><script src="../scripts/fav-store.js"></script><script src="../scripts/cursor.js"></script><script src="../script.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database-compat.js"></script>
+<script src="../firebase-config.js"></script>
+<script src="../firebase-init.js"></script>
+<script src="../data.js?v=773"></script>
+<script src="../data/songs.js"></script><script src="../data/i18n.js"></script><script src="../scripts/i18n.js"></script><script src="../scripts/fav-store.js"></script><script src="../scripts/cursor.js"></script><script src="../script.js"></script>
 <script>
 (function(){
   var q=$("#q"), fM=$("#fMember"), fK=$("#fKind"), fC=$("#fCategory"), fS=$("#fShop"), fSt=$("#fStatus"), fSort=$("#fSort"), fO=$("#fOshi"), grid=$("#grid"), upBox=$("#upcomingBox"), countLabel=$("#countLabel"), moreBtn=$("#moreBtn");
@@ -86,7 +193,10 @@
     var cd= dl!==null && dl<=7 && g.status!=="soldout" ? '<span class="goods-countdown">残り'+dl+'日</span>' : "";
     var per=g.period? '<div class="goods-period"><b>受注</b> '+fmt(g.period.orderFrom)+' 〜 '+fmt(g.period.orderTo)+'<br><b>発送</b> '+fmt(g.period.shipFrom)+' 〜 '+fmt(g.period.shipTo)+'</div>' : "";
     if(g.status==="soldout") per+='<div style="font-size:.72rem;color:#888">販売終了</div>';
-    return '<a class="goods-card card goods-card-ext '+(isOshi?'is-oshi':'')+'" href="'+g.url+'" target="_blank" rel="noopener" style="--gc:'+color+(isOshi?';--mc:'+color:'')+'"><span class="goods-tile">'+tile(g)+'</span>'+tagHtml(g)+'<span class="goods-body"><span class="goods-member">'+label+'</span><span class="goods-name">'+g.name+'</span><span class="goods-price">¥'+g.price.toLocaleString("ja-JP")+(g.oldPrice?' <s style="font-size:.72rem;color:var(--muted)">¥'+g.oldPrice.toLocaleString("ja-JP")+'</s>':"")+'</span>'+per+cd+'<span style="font-size:.72rem;color:var(--muted)">'+(g.place||"")+'</span><span class="btn btn-ghost" style="margin-top:6px;justify-content:center">公式ページへ</span></span></a>';
+    var more='<button type="button" class="goods-more" aria-label="メニュー" data-id="'+g.id+'"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><circle cx="12" cy="5" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="12" cy="19" r="2"/></svg></button>';
+    var mineSt=""; try{mineSt=JSON.parse(localStorage.getItem("milli-goods-mine")||"{}")[g.id]||""}catch(e){}
+    var mineBadge=mineSt==="have" ? '<span style="position:absolute;bottom:6px;left:6px;background:var(--accent-deep);color:#fff;font-size:.62rem;font-weight:900;padding:2px 6px;border-radius:999px;z-index:1">持ってる</span>' : mineSt==="want" ? '<span style="position:absolute;bottom:6px;left:6px;background:#f5a623;color:#fff;font-size:.62rem;font-weight:900;padding:2px 6px;border-radius:999px;z-index:1">欲しい</span>' : "";
+    return '<div class="goods-card card goods-card-ext '+(isOshi?'is-oshi':'')+'" data-id="'+g.id+'" style="--gc:'+color+(isOshi?';--mc:'+color:'')+'"><a href="'+g.url+'" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:flex;flex-direction:column;flex:1"><span class="goods-tile" style="position:relative">'+tile(g)+more+mineBadge+tagHtml(g)+'</span><span class="goods-body"><span class="goods-member">'+label+'</span><span class="goods-name">'+g.name+'</span><span class="goods-price">¥'+g.price.toLocaleString("ja-JP")+(g.oldPrice?' <s style="font-size:.72rem;color:var(--muted)">¥'+g.oldPrice.toLocaleString("ja-JP")+'</s>':"")+'</span>'+per+cd+'<span style="font-size:.72rem;color:var(--muted)">'+(g.place||"")+'</span><span class="btn btn-ghost" style="margin-top:6px;justify-content:center">公式ページへ</span></span></a></div>';
   }
   var pageSize=48, curPage=1, curList=[];
   function render(){
@@ -125,6 +235,25 @@
   }
   moreBtn.addEventListener("click", function(){ curPage++; renderPage(); });
   [q,fM,fK,fC,fS,fSt,fSort,fO].forEach(function(el){ el.addEventListener("input", render); el.addEventListener("change", render); });
+  // goods menu (︙ & long-press)
+  (function(){
+    var KEY="milli-goods-mine"; var menu=document.getElementById("goodsMenu"); var curId=null;
+    function openMenu(id,x,y){ curId=id; var st=""; try{st=JSON.parse(localStorage.getItem(KEY)||"{}")[id]||""}catch(e){} menu.querySelectorAll("button").forEach(function(b){ b.classList.toggle("on", b.dataset.v===st); }); menu.style.left=Math.min(x, window.innerWidth-160)+"px"; menu.style.top=Math.min(y, window.innerHeight-120)+"px"; menu.classList.add("show"); menu.setAttribute("aria-hidden","false"); }
+    function closeMenu(){ menu.classList.remove("show"); menu.setAttribute("aria-hidden","true"); curId=null; }
+    menu.addEventListener("click", function(e){ var b=e.target.closest("button"); if(!b||!curId) return; var v=b.dataset.v; var s={}; try{s=JSON.parse(localStorage.getItem(KEY)||"{}")}catch(e){} if(v) s[curId]=v; else delete s[curId]; try{localStorage.setItem(KEY, JSON.stringify(s))}catch(e){} closeMenu(); renderPage(); });
+    document.addEventListener("click", function(e){ if(!e.target.closest(".goods-more") && !e.target.closest("#goodsMenu")) closeMenu(); });
+    document.addEventListener("keydown", function(e){ if(e.key==="Escape") closeMenu(); });
+    grid.addEventListener("click", function(e){ var btn=e.target.closest(".goods-more"); if(btn){ e.preventDefault(); e.stopPropagation(); var r=btn.getBoundingClientRect(); openMenu(btn.dataset.id, r.left, r.bottom+6); }});
+    var t=null, target=null;
+    function sp(e, el){ var pt=e.touches?e.touches[0]:e; var id=el.dataset.id; if(!id) return; target=el; t=setTimeout(function(){ var r=el.getBoundingClientRect(); openMenu(id, r.left+r.width/2, r.top+r.height/2); t=null; },620); }
+    function cp(){ if(t) clearTimeout(t); t=null; target=null; }
+    grid.addEventListener("touchstart", function(e){ var c=e.target.closest(".goods-card"); if(c) sp(e,c); }, {passive:true});
+    grid.addEventListener("touchend", cp); grid.addEventListener("touchmove", cp);
+    grid.addEventListener("mousedown", function(e){ var c=e.target.closest(".goods-card"); if(c&&e.button===0) sp(e,c); });
+    grid.addEventListener("mouseup", cp); grid.addEventListener("mouseleave", cp);
+    grid.addEventListener("contextmenu", function(e){ if(e.target.closest(".goods-card")) e.preventDefault(); });
+    var up=document.getElementById("upcomingBox"); if(up){ up.addEventListener("click", function(e){ var b=e.target.closest(".goods-more"); if(b){ e.preventDefault(); e.stopPropagation(); var r=b.getBoundingClientRect(); openMenu(b.dataset.id, r.left, r.bottom+6); } }); up.addEventListener("touchstart", function(e){ var c=e.target.closest(".goods-card"); if(c) sp(e,c); }, {passive:true}); up.addEventListener("contextmenu", function(e){ if(e.target.closest(".goods-card")) e.preventDefault(); }); }
+  })();
   render();
 })();
 </script>
