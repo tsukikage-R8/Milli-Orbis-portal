@@ -13,7 +13,10 @@
 .goods-tabs a{padding:9px 16px;border-radius:999px;border:2px solid var(--border);background:#fff;font-weight:800;font-size:.86rem;color:var(--text);text-decoration:none}
 .goods-tabs a.active{background:var(--accent-deep);color:#fff;border-color:var(--accent-deep)}
 /* japan_map adapted */
-#japan-map{display:block;width:777px;height:482px;position:relative;margin:14px auto;background:rgba(255,255,255,.55);border:3px solid #fff;outline:2px solid var(--border);border-radius:20px;padding:8px;box-sizing:border-box}
+.japan-map-scroll{overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;margin:14px -20px;padding:0 20px 8px}
+.japan-map-scroll::-webkit-scrollbar{height:6px}
+.japan-map-scroll::-webkit-scrollbar-thumb{background:rgba(0,0,0,.12);border-radius:999px}
+#japan-map{display:block;width:777px;min-width:777px;height:482px;position:relative;margin:0 auto;background:rgba(255,255,255,.55);border:3px solid #fff;outline:2px solid var(--border);border-radius:20px;padding:8px;box-sizing:border-box;flex-shrink:0}
 #japan-map p.area-title{display:none}
 #japan-map div div.area div{border:1px #fff solid;text-align:center;font-size:13px;display:flex;align-items:center;justify-content:center;border-radius:10px;position:absolute;box-sizing:border-box;transition:.2s;font-weight:900;cursor:pointer;box-shadow:0 2px 0 rgba(0,0,0,.08)}
 #japan-map div div.area div:hover{filter:brightness(1.08);transform:translateY(-1px);box-shadow:0 4px 8px rgba(0,0,0,.12)}
@@ -119,7 +122,7 @@
 <section class="subpage-hero"><h1 style="font-family:var(--font-display);font-weight:900">販売箇所検索</h1><p class="section-sub" style="padding-left:0">日本地図から都道府県を選ぶと、その地域でミリプログッズを売っている店が表示されます。最初は店舗は表示されません。</p></section>
 <nav class="goods-tabs"><a href="current.html">現在販売中</a><a href="shops.html" class="active">販売箇所検索</a><a href="map.html">有志マップ</a><a href="archive.html">過去アーカイブ</a><a href="mine.html">マイグッズ</a></nav>
 <div style="display:flex;gap:8px;flex-wrap:wrap;margin:10px 0"><select id="chainSel"><option value="">全チェーン</option><option value="official">公式ショップ</option><option value="animate">アニメイト</option><option value="aeon">イオン</option></select><input type="search" id="kw" placeholder="店舗名で検索（例: アニメイト池袋）" style="flex:1;min-width:160px;padding:8px 12px;border-radius:999px;border:2px solid var(--accent)"><button id="clearPref" class="btn btn-ghost" style="padding:6px 12px">クリア</button></div>
-<div id="japan-map" class="clearfix">
+<div class="japan-map-scroll"><div id="japan-map" class="clearfix">
 <div id="hokkaido-touhoku" class="clearfix"><p class="area-title">北海道・東北</p><div class="area">
 <a href="#" data-pref-link><div id="hokkaido"><button type="button" data-pref="北海道"><p>北海道</p></button></div></a>
 <a href="#" data-pref-link><div id="aomori"><button type="button" data-pref="青森県"><p>青森</p></button></div></a>
@@ -181,7 +184,7 @@
 <a href="#" data-pref-link><div id="kagoshima"><button type="button" data-pref="鹿児島県"><p>鹿児島</p></button></div></a>
 <a href="#" data-pref-link><div id="okinawa"><button type="button" data-pref="沖縄県"><p>沖縄</p></button></div></a>
 </div></div>
-</div>
+</div></div>
 <div id="shopList" class="shop-list" style="margin-top:14px"></div>
 <div id="shopPlaceholder" class="placeholder" style="margin-top:14px">日本地図から都道府県を選択するか、店舗名で検索してください。<br><span style="font-size:.76rem">ミリプロオフィシャルショップはオンラインのため、都道府県選択時に各県で表示されます。</span></div>
 <p style="margin:14px 0;color:var(--muted);font-size:.78rem">住所・在庫は各店舗へお問い合わせください。オンラインショップは <a href="https://shop.milpr.com/" target="_blank">shop.milpr.com</a></p>
