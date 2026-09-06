@@ -2363,7 +2363,8 @@
       var b = $("#" + id);
       if (b) b.addEventListener("click", toggleOshiFilter);
     });
-    try { if (window.ContactHub) window.ContactHub.inject(); } catch (e) {}
+    // TODO: お問い合わせハブ再開時に有効化（rules貼付後に戻す）
+    // try { if (window.ContactHub) window.ContactHub.inject(); } catch (e) {}
     setOshiFilter(oshiFilterOn());
   }
 
