@@ -167,15 +167,13 @@ README_TEMPLATE = """# MilliOrbis {JP} Cursors for Windows
 
 ## ライセンス
 
-MIT License — Copyright (c) Milli Orbis
-
-- 商用利用・再配布・改変可、クレジット表記のみ必要です。
+- 個人で楽しむ範囲での利用のみ可。**再配布・転載・販売・商用利用はすべて禁止**です。
 - 詳細は同梱の `LICENSE` を参照してください。
-- カーソル画像自体の著作権は Milli Orbis に帰属します。
+- キャラクター等の権利はミリプロ（Million Production）様に、カーソル画像の著作権は作者（すんすん）に帰属します。
 
 ## クレジット
 
-- Cursor design: Milli Orbis
+- Cursor design: すんすん (@SunSunmachi)
 - INF template: [david-ly gist](https://gist.github.com/david-ly/687922256a5c6a7b7b98a52980a984a1) (MIT), [Der-Floh/Cursor-Installer-Creator](https://github.com/Der-Floh/Cursor-Installer-Creator)
 """
 
@@ -204,6 +202,12 @@ Mac の Chrome / Safari でも `cursors.html` の `サイトで試す` ボタン
 - `png/*.png` — 15種の透過PNG（32px、手動登録用フォールバック）
 - `hotspot.json` — 各pngのホットスポット座標
 - `preview.png` — プレビュー
+
+## ライセンス
+
+- 個人で楽しむ範囲での利用のみ可。**再配布・転載・販売・商用利用はすべて禁止**です。
+- 詳細は同梱の `LICENSE` を参照してください。
+- Cursor design: すんすん (@SunSunmachi)
 """
 
 README_CHROMEBOOK_TEMPLATE = """# MilliOrbis {JP} Cursors for Chromebook
@@ -230,29 +234,25 @@ Chromebook でも `cursors.html` の `サイトで試す` やヘッダーの `�
 - `png/*.png` — 15種の透過PNG（32px）
 - `hotspot.json` — 各pngのホットスポット座標
 - `preview.png` — プレビュー
+
+## ライセンス
+
+- 個人で楽しむ範囲での利用のみ可。**再配布・転載・販売・商用利用はすべて禁止**です。
+- 詳細は同梱の `LICENSE` を参照してください。
+- Cursor design: すんすん (@SunSunmachi)
 """
 
-LICENSE_TEXT = """MIT License
+LICENSE_TEXT = """MilliOrbis オリジナルカーソル 利用許諾
 
-Copyright (c) 2026 Milli Orbis
+Copyright (c) 2026 すんすん (@SunSunmachi) / Milli Orbis
+キャラクター等の権利は Million Production（ミリプロ）様に帰属します。
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. 個人で楽しむ範囲（私的利用）に限り、無償で利用できます。
+2. 再配布・転載・販売・貸与（有償・無償を問いません）、加工したものの配布、商用利用はすべて禁止します。
+3. お友だちには配布ファイルではなく、配布ページを教えてあげてください。
+4. 著作権表示の削除・改変は禁止します。
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+※ 本カーソルはファンによる二次創作です。ミリプロ公式様とは関係ありません。
 """
 
 BAT_TEMPLATE = """@echo off
@@ -532,7 +532,7 @@ def main():
                             zf.write(src, base + fname)
                     zf.write(cur_dir / "install.inf", base + "install.inf")
                     zf.write(cur_dir / "README.md", base + "README.md")
-                bundle_readme = "# MilliOrbis Cursors — All Talents Bundle\n\n各タレントフォルダに `install.inf` が入っています。各フォルダで右クリック → インストール してください。\n\n- Scheme名: `MilliOrbis-{Konomi|Nono|...}`\n- 1タレントあたり15種\n- Windows 10/11 対応\n"
+                bundle_readme = "# MilliOrbis Cursors — All Talents Bundle\n\n各タレントフォルダに `install.inf` が入っています。各フォルダで右クリック → インストール してください。\n\n- Scheme名: `MilliOrbis-{Konomi|Nono|...}`\n- 1タレントあたり15種\n- Windows 10/11 対応\n\n## ライセンス\n\n- 個人で楽しむ範囲での利用のみ可。再配布・転載・販売・商用利用はすべて禁止です。詳細は `LICENSE` を参照してください。\n"
                 zf.writestr("README.md", bundle_readme)
                 zf.writestr("LICENSE", LICENSE_TEXT)
             print(f"generated bundle {bpath} ({bpath.stat().st_size} bytes)")
@@ -557,9 +557,9 @@ def main():
                     if (cur_dir / "hotspot.json").exists():
                         zf.write(cur_dir / "hotspot.json", base + "hotspot.json")
                 if kind == "mac":
-                    zf.writestr("README.md", f"# MilliOrbis Cursors — All Mac Bundle\n\n各タレントの .cape (ワンクリック) + png セットです。`*.cape` をダブルクリックで Mousecape に一括登録できます。\n")
+                    zf.writestr("README.md", f"# MilliOrbis Cursors — All Mac Bundle\n\n各タレントの .cape (ワンクリック) + png セットです。`*.cape` をダブルクリックで Mousecape に一括登録できます。\n\n## ライセンス\n\n- 個人で楽しむ範囲での利用のみ可。再配布・転載・販売・商用利用はすべて禁止です。詳細は `LICENSE` を参照してください。\n")
                 else:
-                    zf.writestr("README.md", f"# MilliOrbis Cursors — All {kind} Bundle\n\n各タレントの png セットです。\n")
+                    zf.writestr("README.md", f"# MilliOrbis Cursors — All {kind} Bundle\n\n各タレントの png セットです。\n\n## ライセンス\n\n- 個人で楽しむ範囲での利用のみ可。再配布・転載・販売・商用利用はすべて禁止です。詳細は `LICENSE` を参照してください。\n")
                 zf.writestr("LICENSE", LICENSE_TEXT)
             print(f"generated bundle {bundle_path} ({bundle_path.stat().st_size} bytes)")
     # List

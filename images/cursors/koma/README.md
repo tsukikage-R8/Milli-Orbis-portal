@@ -48,13 +48,11 @@
 
 ## ライセンス
 
-MIT License — Copyright (c) Milli Orbis
-
-- 商用利用・再配布・改変可、クレジット表記のみ必要です。
+- 個人で楽しむ範囲での利用のみ可。**再配布・転載・販売・商用利用はすべて禁止**です。
 - 詳細は同梱の `LICENSE` を参照してください。
-- カーソル画像自体の著作権は Milli Orbis に帰属します。
+- キャラクター等の権利はミリプロ（Million Production）様に、カーソル画像の著作権は作者（すんすん）に帰属します。
 
 ## クレジット
 
-- Cursor design: Milli Orbis
+- Cursor design: すんすん (@SunSunmachi)
 - INF template: [david-ly gist](https://gist.github.com/david-ly/687922256a5c6a7b7b98a52980a984a1) (MIT), [Der-Floh/Cursor-Installer-Creator](https://github.com/Der-Floh/Cursor-Installer-Creator)

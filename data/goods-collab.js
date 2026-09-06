@@ -374,7 +374,7 @@ const GOODS_COLLAB = [
     "category": "プライズ",
     "price": null,
     "oldPrice": null,
-    "image": "https://www.taito.co.jp/Content/images/zone/0/news/201407/a128a7e6-9e16-42b1-8f49-82d69fc055b7_p_01_ja.webp",
+    "image": null, // 直リンク回避（タイトー規約）のためSVG表示。公式URLから確認
     "url": "https://www.taito-olcg.com/pc/%E3%81%99%E3%81%B9%E3%81%A6/?keyword=%E3%83%9F%E3%83%AA%E3%83%97%E3%83%AD",
     "shop": "crane",
     "place": "タイトーオンラインクレーン",
@@ -406,7 +406,7 @@ const GOODS_COLLAB = [
     "category": "プライズ",
     "price": null,
     "oldPrice": null,
-    "image": "https://www.taito.co.jp/Content/images/zone/0/news/201407/d7e7d2f8-7750-43bd-9f2c-df3b32cb4297_p_01_ja.webp",
+    "image": null, // 直リンク回避（タイトー規約）のためSVG表示。公式URLから確認
     "url": "https://www.taito-olcg.com/pc/%E3%81%99%E3%81%B9%E3%81%A6/?keyword=%E3%83%9F%E3%83%AA%E3%83%97%E3%83%AD",
     "shop": "crane",
     "place": "タイトーオンラインクレーン",
@@ -438,7 +438,7 @@ const GOODS_COLLAB = [
     "category": "プライズ",
     "price": null,
     "oldPrice": null,
-    "image": "https://segaplaza.jp/images-v2/prize/B121842_d6906d/large/B121842_01.webp",
+    "image": null, // 直リンク回避（セガ規約:画像等への直接リンクご遠慮）のためSVG表示
     "url": "https://segaplaza.jp/search/?q=%E3%83%9F%E3%83%AA%E3%83%97%E3%83%AD&type=prize&searchtype=title",
     "shop": "crane",
     "place": "セガUFOキャッチャー",
@@ -470,7 +470,7 @@ const GOODS_COLLAB = [
     "category": "プライズ",
     "price": null,
     "oldPrice": null,
-    "image": "https://segaplaza.jp/images-v2/prize/D122313_276207/large/D122313_01.webp",
+    "image": null, // 直リンク回避（セガ規約:画像等への直接リンクご遠慮）のためSVG表示
     "url": "https://segaplaza.jp/search/?q=%E3%83%9F%E3%83%AA%E3%83%97%E3%83%AD&type=prize&searchtype=title",
     "shop": "crane",
     "place": "セガUFOキャッチャー",
@@ -5378,7 +5378,7 @@ const GOODS_COLLAB = [
     "category": "プライズ",
     "price": null,
     "oldPrice": null,
-    "image": "https://segaplaza.jp/images-v2/prize/B121842_d6906d/large/B121842_01.webp",
+    "image": null, // 直リンク回避（セガ規約:画像等への直接リンクご遠慮）のためSVG表示
     "url": "https://segaplaza.jp/prize/B121842/",
     "shop": "crane",
     "place": "セガプライズ",
@@ -5408,7 +5408,7 @@ const GOODS_COLLAB = [
     "category": "プライズ",
     "price": null,
     "oldPrice": null,
-    "image": "https://segaplaza.jp/images-v2/prize/D122313_276207/large/D122313_01.webp",
+    "image": null, // 直リンク回避（セガ規約:画像等への直接リンクご遠慮）のためSVG表示
     "url": "https://segaplaza.jp/prize/D122313/",
     "shop": "crane",
     "place": "セガプライズ",
@@ -5438,7 +5438,7 @@ const GOODS_COLLAB = [
     "category": "プライズ",
     "price": null,
     "oldPrice": null,
-    "image": "https://segaplaza.jp/images-v2/prize/L120313_cbfaf5/large/L120313_01.webp",
+    "image": null, // 直リンク回避（セガ規約:画像等への直接リンクご遠慮）のためSVG表示
     "url": "https://segaplaza.jp/prize/L120313/",
     "shop": "crane",
     "place": "セガプライズ",
