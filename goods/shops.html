@@ -12,21 +12,36 @@
 .goods-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}
 .goods-tabs a{padding:9px 16px;border-radius:999px;border:2px solid var(--border);background:#fff;font-weight:800;font-size:.86rem;color:var(--text);text-decoration:none}
 .goods-tabs a.active{background:var(--accent-deep);color:#fff;border-color:var(--accent-deep)}
-.japan-map-wrap{background:rgba(255,255,255,.75);border:3px solid #fff;outline:2px solid var(--border);border-radius:20px;padding:14px;overflow-x:auto}
-.japan-map{position:relative;width:100%;max-width:720px;height:520px;margin:0 auto;min-width:520px}
-.pref-dot{position:absolute;transform:translate(-50%,-50%);width:58px;height:34px;border-radius:10px;border:2px solid var(--border);background:#fff;font-weight:900;font-size:.62rem;line-height:1.1;display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 2px 0 rgba(0,0,0,.08);transition:all .15s;overflow:hidden}
-.pref-dot small{font-size:.52rem;color:var(--muted);font-weight:700}
-.pref-dot.has-shop{border-color:var(--accent);background:var(--accent-soft)}
-.pref-dot.active{background:var(--accent-deep);color:#fff;border-color:var(--accent-deep);box-shadow:0 3px 0 rgba(0,0,0,.18);transform:translate(-50%,-50%) scale(1.08)}
-.pref-dot.has-shop.active{color:#fff}
-.pref-dot:hover{transform:translate(-50%,-50%) translateY(-1px);box-shadow:0 4px 8px rgba(0,0,0,.12)}
-.region-label{position:absolute;font-weight:900;font-size:.7rem;color:var(--muted);letter-spacing:.06em;pointer-events:none}
+.japan-map-container{display:grid;grid-template-columns:repeat(12,1fr);gap:8px;max-width:900px;margin:14px auto;background:rgba(255,255,255,.6);border:3px solid #fff;outline:2px solid var(--border);border-radius:20px;padding:14px}
+.map-group{display:grid;gap:6px}
+.map-btn{display:flex;align-items:center;justify-content:center;background:#fff;border-radius:10px;color:#fff;font-weight:900;font-size:.74rem;text-decoration:none;box-shadow:0 2px 0 rgba(0,0,0,.08);border:2px solid var(--border);height:42px;transition:transform .15s, box-shadow .15s, filter .15s;position:relative;overflow:hidden}
+.map-btn:hover{transform:translateY(-1px);box-shadow:0 4px 8px rgba(0,0,0,.12);filter:brightness(1.05)}
+.map-btn.active{transform:translateY(1px);box-shadow:0 1px 0 rgba(0,0,0,.12);filter:brightness(.92);outline:3px solid var(--accent-deep);outline-offset:-1px}
+.map-btn.has-shop{border-color:transparent}
+.map-btn.no-shop{opacity:.42;filter:grayscale(.2)}
+.map-btn small{position:absolute;right:4px;bottom:2px;font-size:.52rem;background:rgba(0,0,0,.18);padding:0 4px;border-radius:999px;line-height:1.4}
+.size-2x2{grid-row:span 2;grid-column:span 2;height:auto;min-height:88px;font-size:.86rem}
+.group-green{grid-column:8/11;grid-row:1/5;grid-template-columns:repeat(2,1fr)}
+.group-green .map-btn{background:#72ce97}
+.group-lightgreen{grid-column:9/11;grid-row:5/8;grid-template-columns:repeat(2,1fr)}
+.group-lightgreen .map-btn{background:#8fd14f}
+.p-tokyo{grid-column:span 2}
+.group-purple{grid-column:6/9;grid-row:3/7;grid-template-columns:repeat(3,1fr)}
+.group-purple .map-btn{background:#d48cf2}
+.group-red{grid-column:5/8;grid-row:5/8;grid-template-columns:repeat(3,1fr)}
+.group-red .map-btn{background:#ff7a5c}
+.group-blue{grid-column:3/6;grid-row:5/8;grid-template-columns:repeat(3,1fr)}
+.group-blue .map-btn{background:#7ed6cc}
+.group-magenta{grid-column:1/4;grid-row:5/9;grid-template-columns:repeat(3,1fr)}
+.group-magenta .map-btn{background:#f06be3}
+.p-okinawa{grid-row:4;grid-column:1}
 .shop-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
 .shop-card{padding:14px;border-radius:16px}
 .shop-card h3{font-size:.92rem;font-weight:900}
 .chain-badge{font-size:.64rem;font-weight:900;color:#fff;background:var(--accent-deep);border-radius:999px;padding:2px 8px;margin-left:6px;vertical-align:middle}
 .placeholder{grid-column:1/-1;text-align:center;padding:28px;color:var(--muted);background:rgba(255,255,255,.6);border:2px dashed var(--accent);border-radius:16px}
-@media(max-width:640px){.japan-map{height:460px;min-width:460px}.pref-dot{width:50px;height:30px;font-size:.56rem}}
+@media(max-width:768px){.japan-map-container{transform:scale(.96);transform-origin:top center;overflow-x:auto;margin:8px auto}.map-btn{height:38px;font-size:.68rem}.size-2x2{min-height:80px}}
+@media(max-width:520px){.japan-map-container{grid-template-columns:repeat(12,1fr);gap:6px;padding:10px}.map-btn{height:36px}}
 </style>
 </head>
 <body data-oshi="">
@@ -38,18 +53,67 @@
 <section class="subpage-hero"><h1 style="font-family:var(--font-display);font-weight:900">販売箇所検索</h1><p class="section-sub" style="padding-left:0">日本地図から都道府県を選ぶと、その地域でミリプログッズを売っている店が表示されます。最初は店舗は表示されません。</p></section>
 <nav class="goods-tabs"><a href="current.html">現在販売中</a><a href="shops.html" class="active">販売箇所検索</a><a href="map.html">有志マップ</a><a href="archive.html">過去アーカイブ</a><a href="mine.html">マイグッズ</a></nav>
 <div style="display:flex;gap:8px;flex-wrap:wrap;margin:10px 0"><select id="chainSel"><option value="">全チェーン</option><option value="official">公式ショップ</option><option value="animate">アニメイト</option><option value="aeon">イオン</option></select><input type="search" id="kw" placeholder="店舗名で検索（例: アニメイト池袋）" style="flex:1;min-width:160px;padding:8px 12px;border-radius:999px;border:2px solid var(--accent)"><button id="clearPref" class="btn btn-ghost" style="padding:6px 12px">クリア</button></div>
-<div class="japan-map-wrap"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px"><span style="font-weight:900;font-size:.84rem;color:var(--muted)">都道府県を選択</span><span style="font-size:.72rem;color:var(--muted)">店舗がある県は色付き</span></div>
-<div id="japanMap" class="japan-map" aria-label="日本地図から都道府県を選択">
-<!-- SVG sea background -->
-<svg viewBox="0 0 100 100" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none" aria-hidden="true"><rect x="0" y="0" width="100" height="100" rx="6" fill="rgba(255,255,255,.45)" stroke="rgba(0,0,0,.06)"/></svg>
-<span class="region-label" style="left:68%;top:6%">北海道</span>
-<span class="region-label" style="left:62%;top:24%">東北</span>
-<span class="region-label" style="left:62%;top:44%">関東</span>
-<span class="region-label" style="left:48%;top:42%">中部</span>
-<span class="region-label" style="left:38%;top:52%">近畿</span>
-<span class="region-label" style="left:28%;top:56%">中国・四国</span>
-<span class="region-label" style="left:14%;top:64%">九州・沖縄</span>
-</div></div>
+<div class="japan-map-container" id="japanMap" aria-label="日本地図から都道府県を選択">
+  <div class="map-group group-green">
+    <button type="button" class="map-btn p-hokkaido size-2x2" data-pref="北海道">北海道</button>
+    <button type="button" class="map-btn p-aomori" data-pref="青森県">青森</button>
+    <button type="button" class="map-btn p-akita" data-pref="秋田県">秋田</button>
+    <button type="button" class="map-btn p-iwate" data-pref="岩手県">岩手</button>
+    <button type="button" class="map-btn p-yamagata" data-pref="山形県">山形</button>
+    <button type="button" class="map-btn p-miyagi" data-pref="宮城県">宮城</button>
+    <button type="button" class="map-btn p-fukushima" data-pref="福島県">福島</button>
+  </div>
+  <div class="map-group group-lightgreen">
+    <button type="button" class="map-btn p-gunma" data-pref="群馬県">群馬</button>
+    <button type="button" class="map-btn p-tochigi" data-pref="栃木県">栃木</button>
+    <button type="button" class="map-btn p-saitama" data-pref="埼玉県">埼玉</button>
+    <button type="button" class="map-btn p-ibaraki" data-pref="茨城県">茨城</button>
+    <button type="button" class="map-btn p-tokyo" data-pref="東京都">東京</button>
+    <button type="button" class="map-btn p-chiba" data-pref="千葉県">千葉</button>
+    <button type="button" class="map-btn p-kanagawa" data-pref="神奈川県">神奈川</button>
+  </div>
+  <div class="map-group group-purple">
+    <button type="button" class="map-btn p-ishikawa" data-pref="石川県">石川</button>
+    <button type="button" class="map-btn p-toyama" data-pref="富山県">富山</button>
+    <button type="button" class="map-btn p-niigata" data-pref="新潟県">新潟</button>
+    <button type="button" class="map-btn p-fukui" data-pref="福井県">福井</button>
+    <button type="button" class="map-btn p-gifu" data-pref="岐阜県">岐阜</button>
+    <button type="button" class="map-btn p-nagano" data-pref="長野県">長野</button>
+    <button type="button" class="map-btn p-yamanashi" data-pref="山梨県">山梨</button>
+    <button type="button" class="map-btn p-shizuoka" data-pref="静岡県">静岡</button>
+  </div>
+  <div class="map-group group-red">
+    <button type="button" class="map-btn p-hyogo" data-pref="兵庫県">兵庫</button>
+    <button type="button" class="map-btn p-kyoto" data-pref="京都府">京都</button>
+    <button type="button" class="map-btn p-shiga" data-pref="滋賀県">滋賀</button>
+    <button type="button" class="map-btn p-osaka" data-pref="大阪府">大阪</button>
+    <button type="button" class="map-btn p-nara" data-pref="奈良県">奈良</button>
+    <button type="button" class="map-btn p-mie" data-pref="三重県">三重</button>
+    <button type="button" class="map-btn p-wakayama" data-pref="和歌山県">和歌山</button>
+    <button type="button" class="map-btn p-aichi" data-pref="愛知県">愛知</button>
+  </div>
+  <div class="map-group group-blue">
+    <button type="button" class="map-btn p-tottori" data-pref="鳥取県">鳥取</button>
+    <button type="button" class="map-btn p-shimane" data-pref="島根県">島根</button>
+    <button type="button" class="map-btn p-okayama" data-pref="岡山県">岡山</button>
+    <button type="button" class="map-btn p-hiroshima" data-pref="広島県">広島</button>
+    <button type="button" class="map-btn p-yamaguchi" data-pref="山口県">山口</button>
+    <button type="button" class="map-btn p-ehime" data-pref="愛媛県">愛媛</button>
+    <button type="button" class="map-btn p-kagawa" data-pref="香川県">香川</button>
+    <button type="button" class="map-btn p-kochi" data-pref="高知県">高知</button>
+    <button type="button" class="map-btn p-tokushima" data-pref="徳島県">徳島</button>
+  </div>
+  <div class="map-group group-magenta">
+    <button type="button" class="map-btn p-fukuoka" data-pref="福岡県">福岡</button>
+    <button type="button" class="map-btn p-saga" data-pref="佐賀県">佐賀</button>
+    <button type="button" class="map-btn p-nagasaki" data-pref="長崎県">長崎</button>
+    <button type="button" class="map-btn p-oita" data-pref="大分県">大分</button>
+    <button type="button" class="map-btn p-kumamoto" data-pref="熊本県">熊本</button>
+    <button type="button" class="map-btn p-miyazaki" data-pref="宮崎県">宮崎</button>
+    <button type="button" class="map-btn p-kagoshima" data-pref="鹿児島県">鹿児島</button>
+    <button type="button" class="map-btn p-okinawa" data-pref="沖縄県">沖縄</button>
+  </div>
+</div>
 <div id="shopList" class="shop-list" style="margin-top:14px"></div>
 <div id="shopPlaceholder" class="placeholder" style="margin-top:14px">日本地図から都道府県を選択するか、店舗名で検索してください。<br><span style="font-size:.76rem">ミリプロオフィシャルショップはオンラインのため、都道府県選択時に各県で表示されます。</span></div>
 <p style="margin:14px 0;color:var(--muted);font-size:.78rem">住所・在庫は各店舗へお問い合わせください。オンラインショップは <a href="https://shop.milpr.com/" target="_blank">shop.milpr.com</a></p>
@@ -58,44 +122,28 @@
 <script src="../data.js"></script><script src="../data/i18n.js"></script><script src="../scripts/i18n.js"></script><script src="../scripts/fav-store.js"></script><script src="../scripts/cursor.js"></script><script src="../script.js"></script>
 <script>
 (function(){
-  var prefs=[
-    {n:"北海道",x:78,y:8},{n:"青森県",x:73,y:18},{n:"岩手県",x:78,y:22},{n:"宮城県",x:78,y:28},{n:"秋田県",x:70,y:22},{n:"山形県",x:70,y:28},{n:"福島県",x:70,y:34},
-    {n:"茨城県",x:76,y:42},{n:"栃木県",x:70,y:40},{n:"群馬県",x:65,y:40},{n:"埼玉県",x:70,y:45},{n:"千葉県",x:78,y:47},{n:"東京都",x:70,y:50},{n:"神奈川県",x:70,y:55},
-    {n:"新潟県",x:60,y:34},{n:"富山県",x:54,y:34},{n:"石川県",x:50,y:33},{n:"福井県",x:50,y:38},{n:"山梨県",x:65,y:48},{n:"長野県",x:60,y:40},{n:"岐阜県",x:54,y:42},{n:"静岡県",x:60,y:50},{n:"愛知県",x:55,y:48},{n:"三重県",x:51,y:50},
-    {n:"滋賀県",x:50,y:44},{n:"京都府",x:45,y:43},{n:"大阪府",x:44,y:48},{n:"兵庫県",x:38,y:48},{n:"奈良県",x:44,y:53},{n:"和歌山県",x:43,y:58},
-    {n:"鳥取県",x:33,y:48},{n:"島根県",x:28,y:48},{n:"岡山県",x:33,y:54},{n:"広島県",x:28,y:54},{n:"山口県",x:22,y:54},
-    {n:"徳島県",x:36,y:62},{n:"香川県",x:36,y:58},{n:"愛媛県",x:30,y:60},{n:"高知県",x:30,y:66},
-    {n:"福岡県",x:19,y:58},{n:"佐賀県",x:14,y:58},{n:"長崎県",x:9,y:58},{n:"熊本県",x:15,y:64},{n:"大分県",x:20,y:63},{n:"宮崎県",x:16,y:70},{n:"鹿児島県",x:11,y:70},{n:"沖縄県",x:10,y:84}
-  ];
-  var map=document.getElementById("japanMap"), list=document.getElementById("shopList"), ph=document.getElementById("shopPlaceholder");
+  var list=document.getElementById("shopList"), ph=document.getElementById("shopPlaceholder");
   var chainSel=document.getElementById("chainSel"), kw=document.getElementById("kw"), clear=document.getElementById("clearPref");
-  var selPref=""; var shopData=null; var counts={};
-  function buildMap(){
-    prefs.forEach(function(p){
-      var b=document.createElement("button");
-      b.type="button"; b.className="pref-dot"; b.dataset.pref=p.n; b.style.left=p.x+"%"; b.style.top=p.y+"%";
-      b.innerHTML='<span>'+p.n.replace("県","").replace("府","").replace("都","").replace("道","")+'</span><small data-cnt></small>';
-      // SVG circle accent
-      var svgNS="http://www.w3.org/2000/svg";
-      b.setAttribute("aria-label",p.n+"を選択");
-      b.onclick=function(){ selPref= selPref===p.n ? "" : p.n; render(); };
-      map.appendChild(b);
-    });
-  }
+  var selPref=""; var shopData=null;
   function updateCounts(){
     if(!shopData) return;
-    counts={};
+    var counts={};
     shopData.forEach(function(s){ if(s.prefecture==="全国") return; counts[s.prefecture]=(counts[s.prefecture]||0)+1; });
-    document.querySelectorAll(".pref-dot").forEach(function(b){
+    document.querySelectorAll(".map-btn").forEach(function(b){
       var pref=b.dataset.pref, cnt=counts[pref]||0;
-      var sm=b.querySelector("small");
-      if(sm) sm.textContent=cnt? cnt+"件":"";
       b.classList.toggle("has-shop", cnt>0);
+      b.classList.toggle("no-shop", cnt===0);
+      // show count badge
+      var existing=b.querySelector("small");
+      if(cnt>0){
+        if(!existing){ existing=document.createElement("small"); b.appendChild(existing); }
+        existing.textContent=cnt+"件";
+      } else if(existing){ existing.remove(); }
       b.classList.toggle("active", pref===selPref);
     });
   }
   function render(){
-    document.querySelectorAll(".pref-dot").forEach(function(b){ b.classList.toggle("active", b.dataset.pref===selPref); });
+    document.querySelectorAll(".map-btn").forEach(function(b){ b.classList.toggle("active", b.dataset.pref===selPref); });
     if(!shopData) return;
     var hasSearch = kw.value.trim() !== "" || chainSel.value !== "";
     if(!selPref && !hasSearch){
@@ -105,7 +153,7 @@
     var filtered=shopData.filter(function(s){
       if(chainSel.value && s.chain!==chainSel.value) return false;
       if(selPref){
-        if(s.prefecture==="全国") return true; // online shows for any prefecture
+        if(s.prefecture==="全国") return true;
         if(s.prefecture!==selPref) return false;
       } else {
         if(s.prefecture==="全国" && !hasSearch) return false;
@@ -119,15 +167,16 @@
     }
     ph.style.display="none"; list.style.display="grid";
     list.innerHTML=filtered.map(function(s){
-      // SVG pin icon
       var pin='<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" style="vertical-align:-2px;margin-right:4px"><path fill="currentColor" d="M12 2.5a6.5 6.5 0 0 0-6.5 6.5c0 4.5 6.5 10 6.5 10s6.5-5.5 6.5-10A6.5 6.5 0 0 0 12 2.5Zm0 8.8a3.3 3.3 0 1 1 0-6.6 3.3 3.3 0 0 1 0 6.6Z"/></svg>';
       return '<div class="shop-card card"><h3>'+pin+s.name+'<span class="chain-badge">'+s.chainLabel+'</span></h3><div style="font-size:.78rem;color:var(--muted)">'+(s.prefecture==="全国"?"全国（オンライン）":s.prefecture+'・'+(s.address||""))+'</div><div style="font-size:.74rem;margin-top:4px">'+(s.collab||"")+' '+(s.period? '期間: '+s.period.from+'〜'+(s.period.to||""):"")+'</div><div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap"><a class="btn btn-ghost" style="padding:6px 10px;font-size:.76rem" href="'+s.gmapsUrl+'" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" style="vertical-align:-2px"><path fill="currentColor" d="M12 2.2a7 7 0 0 0-7 7c0 5.2 7 11 7 11s7-5.8 7-11a7 7 0 0 0-7-7Zm0 9.3a2.3 2.3 0 1 1 0-4.6 2.3 2.3 0 0 1 0 4.6Z"/></svg> 地図を開く</a>'+(s.chain==="official"? '<a class="btn" style="padding:6px 10px;font-size:.76rem" href="current.html">グッズを見る</a>':'')+'</div></div>';
     }).join("");
   }
+  document.querySelectorAll(".map-btn").forEach(function(b){
+    b.addEventListener("click", function(){ var pref=b.dataset.pref; selPref= selPref===pref ? "" : pref; render(); });
+  });
   fetch("../data/shops.json").then(function(r){return r.json()}).then(function(data){ shopData=data; updateCounts(); render(); });
   chainSel.addEventListener("change", render); kw.addEventListener("input", render);
   clear.addEventListener("click", function(){ selPref=""; kw.value=""; chainSel.value=""; render(); });
-  buildMap();
 })();
 </script>
 </body>
