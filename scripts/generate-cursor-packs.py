@@ -6,7 +6,7 @@ generate-cursor-packs.py — Windowsカーソル配布用 zip生成
 - Scheme名: MilliOrbis-{CapEnglish} (例: MilliOrbis-Mahoro, MilliOrbis-MilliChan)
 - 出力: dist/cursors/MilliOrbis-*.zip (Git管理外) + 各フォルダに install.inf/README.md/preview.png を配置（検証用）
 """
-import os, pathlib, zipfile, textwrap, shutil, re, json, struct, argparse
+import os, pathlib, zipfile, textwrap, shutil, re, json, struct, argparse, plistlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CURSORS_ROOT = ROOT / "images" / "cursors"
@@ -185,16 +185,14 @@ README_MAC_TEMPLATE = """# MilliOrbis {JP} Cursors for Mac
 
 **{JP}（{EN}）** のオリジナルカーソル 15種（`arrow` / `appstar` / `beam` / `cross` / `hand` / `help` / `move` / `no` / `pen` / `person` / `sizenesw` / `sizens` / `sizenwse` / `sizewe` / `wait`）を Mac で使えます。サイト内のカーソル切替は Mac のブラウザでも既に動作しますが、**システム全体**で使う場合は下記手順で適用してください。
 
-## インストール（Mac）— Mousecape で適用
-
-> **完全自動の `.cape` は将来対応予定** — 現状は `png` セットを Mousecape に読み込む方式です。
+## インストール（Mac）— Mousecape でワンクリック
 
 1. [Mousecape](https://github.com/alexzielenski/Mousecape/releases) をダウンロード → `Mousecape.zip` を解凍 → `Mousecape.app` を `Applications` に移動 → 起動
 2. 初回は `System Settings → Privacy & Security → Accessibility` で `Mousecape` を許可（ONにする）
-3. 本 `MilliOrbis-{EN}-mac.zip` を解凍 → フォルダ内の `png/` にある 15枚の `png` を Mousecape の `File → New Cape` で作成した新規 Cape にドラッグ＆ドロップ（対応: `arrow=Arrow`, `hand=Pointing Hand`, `beam=IBeam`, `wait=Wait` 等は `hotspot.json` の座標を参照）
-4. Mousecape で Cape を選択 → `Apply`
+3. 本 `MilliOrbis-{EN}-mac.zip` を解凍 → 中の `MilliOrbis-{EN}.cape` を **ダブルクリック** → Mousecapeに自動登録されます → リストから `MilliOrbis-{EN}` を選択 → `Apply`
 
-> `hotspot.json` には各 `png` のホットスポット座標（矢印先端等）が入っています。Mousecape の各スロットで `Hotspot` を手動設定する際の参考にしてください。
+> `MilliOrbis-{EN}.cape` は15種を一括登録するMousecape用ファイルです（Windowsの `install.inf` に相当）。ダブルクリックで完了し、手動のドラッグ＆ドロップは不要です。
+> 旧来の手動登録も可能: `png/` 内の15枚を `File → New Cape` にドラッグ＆ドロップ（`hotspot.json` 参照）でも適用できます。
 
 ## サイト内での利用（Macでも即時）
 
@@ -202,7 +200,8 @@ Mac の Chrome / Safari でも `cursors.html` の `サイトで試す` ボタン
 
 ## ファイル
 
-- `png/*.png` — 15種の透過PNG（32px）
+- `MilliOrbis-{EN}.cape` — **ワンクリック登録用**（Mousecapeでダブルクリック）
+- `png/*.png` — 15種の透過PNG（32px、手動登録用フォールバック）
 - `hotspot.json` — 各pngのホットスポット座標
 - `preview.png` — プレビュー
 """
@@ -286,6 +285,92 @@ def _extract_hotspots(cur_path):
         return [xHot, yHot]
     except Exception:
         return [0,0]
+
+# Mac .cape generation: Windows 15 -> Apple identifiers
+CAPE_MAP = {
+    "arrow": "com.apple.coregraphics.Arrow",
+    "beam": "com.apple.coregraphics.IBeam",
+    "cross": "com.apple.coregraphics.Crosshair",
+    "hand": "com.apple.coregraphics.PointingHand",
+    "wait": "com.apple.coregraphics.Wait",
+    "appstar": "com.apple.coregraphics.Wait",
+    "help": "com.apple.coregraphics.Help",
+    "move": "com.apple.coregraphics.Move",
+    "no": "com.apple.coregraphics.NotAllowed",
+    "pen": "com.apple.coregraphics.IBeam",
+    "person": "com.apple.coregraphics.PointingHand",
+    # resize variants map to Apple resize cursors / numeric fallbacks
+    "sizenesw": "com.apple.cursor.3",
+    "sizens": "com.apple.coregraphics.ResizeUpDown",
+    "sizenwse": "com.apple.cursor.5",
+    "sizewe": "com.apple.coregraphics.ResizeLeftRight",
+}
+
+def _build_cape(en, jp, png_dir, hotspot, out_path):
+    """Build minimal Mousecape .cape plist with 15 cursors"""
+    try:
+        from PIL import Image
+    except Exception as e:
+        print(f" cape skip {en}: Pillow missing {e}")
+        return False
+    cursors = {}
+    for png_name, hs in hotspot.items():
+        base = png_name.replace(".png", "")
+        apple_id = CAPE_MAP.get(base)
+        if not apple_id:
+            continue
+        png_path = png_dir / png_name
+        if not png_path.exists():
+            continue
+        # skip duplicate Apple ids (keep first)
+        if apple_id in cursors:
+            continue
+        try:
+            im = Image.open(png_path)
+            w, h = im.size
+        except Exception:
+            w, h = 32, 32
+        # load png bytes as Data
+        data = png_path.read_bytes()
+        # PointsWide/High = image size at 1x
+        # HotSpot from hotspot.json
+        hx, hy = hs if isinstance(hs, (list, tuple)) and len(hs)==2 else (0,0)
+        cursors[apple_id] = {
+            "FrameCount": 1,
+            "FrameDuration": 1.0,
+            "HotSpotX": float(hx),
+            "HotSpotY": float(hy),
+            "PointsWide": float(w),
+            "PointsHigh": float(h),
+            "Representations": [data],
+        }
+    # fallback: ensure at least Arrow exists, else add arrow.png
+    if "com.apple.coregraphics.Arrow" not in cursors:
+        ap = png_dir / "arrow.png"
+        if ap.exists():
+            hs = hotspot.get("arrow.png", [4,4])
+            data = ap.read_bytes()
+            cursors["com.apple.coregraphics.Arrow"] = {
+                "FrameCount": 1, "FrameDuration": 1.0,
+                "HotSpotX": float(hs[0]), "HotSpotY": float(hs[1]),
+                "PointsWide": 32.0, "PointsHigh": 32.0,
+                "Representations": [data],
+            }
+    cape = {
+        "Author": "Milli Orbis",
+        "CapeName": f"MilliOrbis-{en}",
+        "CapeVersion": 1.0,
+        "Identifier": f"com.milli-orbis.{en.lower()}",
+        "Version": 2.0,
+        "MinimumVersion": 2.0,
+        "Cloud": False,
+        "HiDPI": True,
+        "Cursors": cursors,
+    }
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(out_path, "wb") as f:
+        plistlib.dump(cape, f, fmt=plistlib.FMT_XML)
+    return True
 
 def main():
     parser = argparse.ArgumentParser()
@@ -392,6 +477,20 @@ def main():
                 shutil.copy(src_png, png_dir / "preview.png")
             (cur_dir / "hotspot.json").write_text(json.dumps(hotspot, indent=2, ensure_ascii=False), encoding="utf-8")
             shutil.copy(cur_dir / "hotspot.json", png_dir / "hotspot.json")
+            # Generate .cape for Mac (wraps png + hotspot) — Windows-like one-click
+            cape_path = None
+            if do_mac:
+                cape_path = cur_dir / f"MilliOrbis-{en}.cape"
+                ok = _build_cape(en, jp, png_dir, hotspot, cape_path)
+                if ok:
+                    print(f"generated cape {cape_path} ({cape_path.stat().st_size} bytes)")
+                    # also copy standalone .cape to dist/mac for direct download
+                    try:
+                        shutil.copy(cape_path, DIST_ROOT / "mac" / cape_path.name)
+                    except Exception:
+                        pass
+                else:
+                    cape_path = None
             # Generate mac/chromebook zips
             for kind, readme_tmpl in [("mac", README_MAC_TEMPLATE), ("chromebook", README_CHROMEBOOK_TEMPLATE)]:
                 if (kind == "mac" and not do_mac) or (kind == "chromebook" and not do_cb):
@@ -403,7 +502,10 @@ def main():
                 zip_path = out_sub / f"MilliOrbis-{en}-{kind}.zip"
                 with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
                     base = f"MilliOrbis-{en}-{kind}/"
-                    # include pngs
+                    # include .cape for mac (one-click)
+                    if kind == "mac" and cape_path and cape_path.exists():
+                        zf.write(cape_path, base + cape_path.name)
+                    # include pngs (fallback manual)
                     for p in png_dir.glob("*.png"):
                         zf.write(p, base + "png/" + p.name)
                     zf.write(cur_dir / "hotspot.json", base + "hotspot.json")
@@ -445,11 +547,19 @@ def main():
                     cur_dir = CURSORS_ROOT / CUR_FOLDER[tid]
                     base = f"MilliOrbis-{en}-{kind}/"
                     png_dir = cur_dir / "png"
+                    # include .cape for mac bundle
+                    if kind == "mac":
+                        cp = cur_dir / f"MilliOrbis-{en}.cape"
+                        if cp.exists():
+                            zf.write(cp, base + cp.name)
                     for p in png_dir.glob("*.png"):
                         zf.write(p, base + "png/" + p.name)
                     if (cur_dir / "hotspot.json").exists():
                         zf.write(cur_dir / "hotspot.json", base + "hotspot.json")
-                zf.writestr("README.md", f"# MilliOrbis Cursors — All {kind} Bundle\n\n各タレントの png セットです。\n")
+                if kind == "mac":
+                    zf.writestr("README.md", f"# MilliOrbis Cursors — All Mac Bundle\n\n各タレントの .cape (ワンクリック) + png セットです。`*.cape` をダブルクリックで Mousecape に一括登録できます。\n")
+                else:
+                    zf.writestr("README.md", f"# MilliOrbis Cursors — All {kind} Bundle\n\n各タレントの png セットです。\n")
                 zf.writestr("LICENSE", LICENSE_TEXT)
             print(f"generated bundle {bundle_path} ({bundle_path.stat().st_size} bytes)")
     # List

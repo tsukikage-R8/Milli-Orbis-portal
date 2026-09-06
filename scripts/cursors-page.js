@@ -78,7 +78,7 @@
       var roleLinks = roles.map(function(r){
         return '<a href="' + folder + encodeURIComponent(r.file) + '" download class="cur-role-link">' + r.label + '</a>';
       }).join(" ");
-      var noteMap = { win: 'Windows用15種（install.inf同梱）', mac: 'Mac用15png + hotspot.json（Mousecape推奨）', chromebook: 'Chromebook用15png + hotspot.json（拡張用）' };
+      var noteMap = { win: 'Windows用15種（install.inf同梱）', mac: 'Mac用 .cape ワンクリック + 15png手動フォールバック（Mousecape推奨）', chromebook: 'Chromebook用15png + hotspot.json（拡張用）' };
       var note = '<span style="font-size:0.72rem;color:var(--muted);">' + noteMap[activeTab] + '</span>';
       // One-click apply button (site cursor)
       var applyBtn = '<button type="button" class="btn btn-ghost cur-apply-btn" data-cur="' + it.cid + '" style="font-size:0.78rem;padding:6px 12px;">サイトで試す</button>';

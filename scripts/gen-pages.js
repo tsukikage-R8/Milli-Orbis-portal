@@ -897,13 +897,13 @@ fs.writeFileSync(path.join(outDir, "cursors.html"), simplePage({
         <p style="margin-top:12px;"><a href="/dist/cursors/win/MilliOrbis-Cursors-All.zip" download class="btn">全タレント一括DL（Win All.zip）</a></p>
       </div>
       <div id="cursorTabMac" style="display:none;">
-        <p style="font-size:0.92rem;font-weight:700;margin-bottom:8px;">Mac — Mousecape でシステム全体に適用</p>
+        <p style="font-size:0.92rem;font-weight:700;margin-bottom:8px;">Mac — Mousecape でワンクリック（Windowsの install.inf 相当）</p>
         <ol style="padding-left:1.2em;line-height:1.9;font-size:0.92rem;">
           <li><a href="https://github.com/alexzielenski/Mousecape/releases" target="_blank" rel="noopener">Mousecape</a> をダウンロード → <code>Mousecape.app</code> を Applications に移動 → 起動</li>
           <li>初回は <code>System Settings → Privacy & Security → Accessibility</code> で Mousecape を許可</li>
-          <li>下の一覧から「<b>Mac用DL</b>」をダウンロード → 解凍 → <code>png/</code> 内の 15枚を Mousecape の <code>File → New Cape</code> にドラッグ＆ドロップ（<code>hotspot.json</code> の座標を Hotspot に設定）→ <code>Apply</code></li>
+          <li>下の一覧から「<b>Mac用DL</b>」をダウンロード → 解凍 → 中の <code>MilliOrbis-○○.cape</code> を<b>ダブルクリック</b> → Mousecapeに自動登録 → リストから <code>MilliOrbis-○○</code> を選択 → <code>Apply</code></li>
         </ol>
-        <p style="font-size:0.82rem;color:var(--muted);margin-top:10px;">※ 完全自動の <code>.cape</code> は将来対応予定。現状は pngセットでの手動適用です。<br>※ サイト内のカーソル切替は Mac のブラウザでも即時有効です。<br>※ 全タレント一括の <a href="/dist/cursors/mac/MilliOrbis-Cursors-All-mac.zip" download>All.zip (Mac)</a> も用意しています。</p>
+        <p style="font-size:0.82rem;color:var(--muted);margin-top:10px;">※ <code>*.cape</code> はWindowsの <code>install.inf</code> 相当で、ダブルクリックで15種が一括登録されます（手動の <code>png/</code> ドラッグもフォールバックで可能です）。<br>※ サイト内のカーソル切替は Mac のブラウザでも即時有効です。<br>※ 全タレント一括の <a href="/dist/cursors/mac/MilliOrbis-Cursors-All-mac.zip" download>All.zip (Mac)</a> も用意しています。</p>
         <p style="margin-top:12px;"><a href="/dist/cursors/mac/MilliOrbis-Cursors-All-mac.zip" download class="btn">全タレント一括DL（Mac All.zip）</a></p>
       </div>
       <div id="cursorTabChromebook" style="display:none;">
