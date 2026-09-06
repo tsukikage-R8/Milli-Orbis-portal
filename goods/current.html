@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>現在販売中のグッズ | Milli Orbis</title>
+<meta name="description" content="ミリプロの現在販売中・販売予定グッズを一括検索。タレント・種類・カテゴリ・販売場所・受注終了順で絞り込み、受注期間と発送期間を一覧表示。">
+<link rel="icon" href="../images/icon/Milli%20Orbis.ico" sizes="any">
+<link rel="apple-touch-icon" sizes="192x192" href="../images/icon/Milli%20Orbis-192.png">
+<link rel="manifest" href="../manifest.webmanifest">
+<meta name="theme-color" content="#75b1c0">
+<script>try{if(localStorage.getItem("milli-theme")==="dark"||(!localStorage.getItem("milli-theme")&&matchMedia("(prefers-color-scheme: dark)").matches))document.documentElement.dataset.theme="dark";}catch(e){}</script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<style>
+.goods-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}
+.goods-tabs a{padding:9px 16px;border-radius:999px;border:2px solid var(--border);background:#fff;font-weight:800;font-size:.86rem;color:var(--text);text-decoration:none}
+.goods-tabs a.active{background:var(--accent-deep);color:#fff;border-color:var(--accent-deep);box-shadow:var(--pop-shadow)}
+.goods-filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:14px 0;padding:14px;background:rgba(255,255,255,.7);border:2px dashed var(--border);border-radius:16px}
+.goods-filters input[type="search"]{flex:1;min-width:180px;padding:9px 12px;border-radius:999px;border:2px solid var(--accent);font-weight:700}
+.goods-filters select{padding:8px 12px;border-radius:999px;border:2px solid var(--accent);background:#fff;font-weight:700;min-width:130px}
+.goods-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}
+.goods-card-ext{position:relative}
+.goods-card-ext.is-oshi{outline:3px solid var(--mc)}
+.goods-period{font-size:.74rem;color:var(--muted);line-height:1.5;margin-top:4px}
+.goods-period b{color:var(--accent-deep)}
+.goods-countdown{font-size:.72rem;font-weight:900;color:#c0392b;background:#fff3f3;border:1px solid #f5c2c2;border-radius:999px;padding:2px 8px;display:inline-block;margin-top:4px}
+.goods-upcoming{margin:22px 0}
+.goods-upcoming h3{font-family:var(--font-display);font-weight:900;font-size:1.05rem;margin-bottom:10px}
+</style>
+</head>
+<body data-oshi="">
+<header id="siteHeader"><div class="header-inner"><a class="logo" href="../index.html"><img src="../images/rogo/Milli%20Orbis-rogo.png" alt="Milli Orbis"></a>
+<nav class="nav"><a href="../index.html#home">Home</a><a href="current.html" class="current">グッズ</a><a href="../songs.html">曲</a><a href="../members.html">メンバー</a></nav>
+<div class="header-actions"><a id="liveBadge" class="live-badge" href="#" target="_blank" rel="noopener">● LIVE</a><button type="button" class="profile-btn" id="profile-btn" onclick="mpOpenAccount()" aria-label="アカウント"><span class="profile-icon" id="profile-header-icon">?</span></button><div class="oshi-cursor-wrap" id="oshiCursorWrap"><button id="oshiCursorBtn" class="oshi-cursor-btn"><span id="oshiCursorPreview" class="oshi-cursor-preview" style="width:18px;height:18px;border-radius:50%;background:#7a4fc4;border:2px solid #fff;display:inline-block"></span><span id="oshiDot" class="oshi-dot" style="width:18px;height:18px;border-radius:50%;background:var(--accent);border:2px solid #fff;display:inline-block"></span><span class="oshi-cursor-label">表示</span></button><div id="oshiCursorDropdown" class="oshi-cursor-dropdown"></div></div><select id="oshiSelect" class="oshi-select" style="display:none"></select><button id="hamburger" class="hamburger" aria-label="メニュー"><svg viewBox="0 0 28 20" width="30" height="22" aria-hidden="true"><path d="M2 3h24M2 10h24M2 17h24" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/></svg></button></div></div>
+<div id="drawerBackdrop" class="drawer-backdrop"></div>
+<nav id="mobileNav" class="mobile-nav" aria-hidden="true"><div class="drawer-section-label">グッズ</div><a href="current.html" class="mobile-sub">現在販売中</a><a href="shops.html" class="mobile-sub">販売箇所検索</a><a href="map.html" class="mobile-sub">有志マップ</a><a href="archive.html" class="mobile-sub">過去アーカイブ</a><a href="mine.html" class="mobile-sub">マイグッズ</a><div class="drawer-section-label">他</div><a href="../index.html#home">Home</a><a href="../songs.html">曲</a><a href="../members.html">メンバー比較表</a></nav></header>
+<main class="container" style="padding-top:84px">
+<nav class="breadcrumb"><a href="../index.html">Home</a><span>グッズ</span><span>現在販売中</span></nav>
+<section class="subpage-hero"><h1 style="font-family:var(--font-display);font-weight:900">現在販売中・販売予定</h1><p class="section-sub" style="padding-left:0">タレント・種類・カテゴリ・販売場所で絞り込み、受注期間と発送期間を一覧で確認できます。受注終了が近い順にも並べ替え可能。</p><p class="cmp-disclaimer">本ページはファン有志による非公式まとめです。価格・在庫はリンク先の公式ページでご確認ください。</p></section>
+<nav class="goods-tabs" aria-label="グッズタブ">
+<a href="current.html" class="active">現在販売中</a><a href="shops.html">販売箇所検索</a><a href="map.html">有志マップ</a><a href="archive.html">過去アーカイブ</a><a href="mine.html">マイグッズ</a>
+</nav>
+<div class="goods-filters">
+<input type="search" id="q" placeholder="グッズ名で検索" autocomplete="off">
+<select id="fMember"><option value="">全タレント</option></select>
+<select id="fKind"><option value="">全種類</option></select>
+<select id="fCategory"><option value="">全カテゴリ</option></select>
+<select id="fShop"><option value="">全販売場所</option><option value="official">公式ショップ</option><option value="animate">アニメイト</option><option value="aeon">イオン</option></select>
+<select id="fSort"><option value="deadline">受注終了が近い順</option><option value="new">新着順</option><option value="priceAsc">価格が安い順</option><option value="priceDesc">価格が高い順</option></select>
+<label style="font-weight:800;font-size:.84rem;display:flex;gap:6px;align-items:center"><input type="checkbox" id="fOshi"> 推しのみ</label>
+</div>
+<div id="upcomingBox" class="goods-upcoming" style="display:none"></div>
+<div id="grid" class="goods-grid"></div>
+<p style="margin:16px 0;text-align:center;color:var(--muted);font-size:.8rem">画像はShopify CDNへのホットリンクで表示（保存せず参照）。出典: ミリプロオフィシャルショップ / PR TIMES / アニメイト</p>
+</main>
+<footer><p class="disclaimer">本サイトはファンが運営する非公式のポータルサイトです。ミリプロ公式様とは一切関係ありません。</p><p class="source-note">公式サイト: <a href="https://milpr.com/" target="_blank" rel="noopener">https://milpr.com/</a></p><p>© 2026 Milli Orbis（非公式ファンサイト）</p></footer>
+<script src="../data.js"></script><script src="../data/i18n.js"></script><script src="../scripts/i18n.js"></script><script src="../scripts/fav-store.js"></script><script src="../scripts/cursor.js"></script><script src="../script.js"></script>
+<script>
+(function(){
+  var q=$("#q"), fM=$("#fMember"), fK=$("#fKind"), fC=$("#fCategory"), fS=$("#fShop"), fSort=$("#fSort"), fO=$("#fOshi"), grid=$("#grid"), upBox=$("#upcomingBox");
+  function $(s, r){ return (r||document).querySelector(s); }
+  // populate selects
+  MEMBERS.forEach(function(m){ var o=document.createElement("option"); o.value=m.id; o.textContent=m.name; fM.appendChild(o); });
+  var kinds=[...new Set(GOODS.map(function(g){return g.kind}))]; kinds.forEach(function(k){ var o=document.createElement("option"); o.value=k; o.textContent=k; fK.appendChild(o); });
+  var cats=[...new Set(GOODS.map(function(g){return g.category}).filter(Boolean))]; cats.forEach(function(c){ var o=document.createElement("option"); o.value=c; o.textContent=c; fC.appendChild(o); });
+  function fmt(d){ if(!d) return "—"; var t=new Date(d); if(isNaN(t)) return d; return t.getFullYear()+"/"+String(t.getMonth()+1).padStart(2,"0")+"/"+String(t.getDate()).padStart(2,"0"); }
+  function daysLeft(to){ if(!to) return null; var diff=new Date(to)-new Date(); if(diff<=0) return null; return Math.ceil(diff/86400000); }
+  function tile(g){ if(g.image) return '<img src="'+g.image+'" alt="" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'block\'"><div style="display:none;width:100%;height:100%;align-items:center;justify-content:center;color:var(--gc)">'+(GOODS_ICON[g.kind]||"?")+'</div>'; return GOODS_ICON[g.kind]||""; }
+  function cardHtml(g){
+    var m=g.memberId? MEMBERS.find(function(x){return x.id===g.memberId}):null;
+    var label=m? m.name : (g.memberLabel||"ミリプロ全員");
+    var color=m? m.color : "#75b1c0";
+    var oshiLocal=""; try{ oshiLocal=localStorage.getItem("milli-oshi")||"";}catch(e){}
+    var isOshi= oshiLocal && g.memberId===oshiLocal;
+    var dl=daysLeft(g.period && g.period.orderTo);
+    var cd= dl!==null && dl<=7 ? '<span class="goods-countdown">残り'+dl+'日</span>' : "";
+    var per=g.period? '<div class="goods-period"><b>受注</b> '+fmt(g.period.orderFrom)+' 〜 '+fmt(g.period.orderTo)+'<br><b>発送</b> '+fmt(g.period.shipFrom)+' 〜 '+fmt(g.period.shipTo)+'</div>' : "";
+    return '<a class="goods-card card goods-card-ext '+(isOshi?'is-oshi':'')+'" href="'+g.url+'" target="_blank" rel="noopener" style="--gc:'+color+(isOshi?';--mc:'+color:'')+'"><span class="goods-tile">'+tile(g)+'</span>'+(g.tag?'<span class="goods-tag">'+g.tag+'</span>':'')+'<span class="goods-body"><span class="goods-member">'+label+'</span><span class="goods-name">'+g.name+'</span><span class="goods-price">¥'+g.price.toLocaleString("ja-JP")+'</span>'+per+cd+'<span style="font-size:.72rem;color:var(--muted)">'+(g.place||"")+'</span><span class="btn btn-ghost" style="margin-top:6px;justify-content:center">公式ページへ</span></span></a>';
+  }
+  function render(){
+    var kw=(q.value||"").toLowerCase().trim();
+    var fm=fM.value, fk=fK.value, fc=fC.value, fs=fS.value, oOnly=fO.checked, sort=fSort.value;
+    var oshi=""; try{ oshi=localStorage.getItem("milli-oshi")||"";}catch(e){}
+    var list=GOODS.filter(function(g){
+      if(oOnly && oshi && g.memberId!==oshi && g.memberId!=="") return false;
+      if(fm && g.memberId!==fm) return false;
+      if(fk && g.kind!==fk) return false;
+      if(fc && g.category!==fc) return false;
+      if(fs && g.shop!==fs) return false;
+      if(kw && g.name.toLowerCase().indexOf(kw)===-1) return false;
+      return true;
+    });
+    var upcoming=list.filter(function(g){ return g.status==="upcoming" || (g.period&& g.period.orderFrom && new Date(g.period.orderFrom)>new Date()); });
+    var onSale=list.filter(function(g){ return upcoming.indexOf(g)===-1; });
+    onSale.sort(function(a,b){
+      if(sort==="deadline"){ var da=a.period&&a.period.orderTo? new Date(a.period.orderTo): new Date(8640000000000000); var db=b.period&&b.period.orderTo? new Date(b.period.orderTo): new Date(8640000000000000); return da-db; }
+      if(sort==="priceAsc") return a.price-b.price;
+      if(sort==="priceDesc") return b.price-a.price;
+      return 0;
+    });
+    if(upcoming.length){ upBox.style.display=""; upBox.innerHTML='<h3>近日販売予定 <span style="font-weight:700;color:var(--muted);font-size:.82rem">'+upcoming.length+'件</span></h3><div class="goods-grid">'+upcoming.map(cardHtml).join("")+'</div>'; } else { upBox.style.display="none"; upBox.innerHTML=""; }
+    grid.innerHTML= onSale.map(cardHtml).join("") || '<div class="placeholder" style="grid-column:1/-1">該当するグッズがありません</div>';
+  }
+  [q,fM,fK,fC,fS,fSort,fO].forEach(function(el){ el.addEventListener("input", render); el.addEventListener("change", render); });
+  render();
+})();
+</script>
+</body>
+</html>

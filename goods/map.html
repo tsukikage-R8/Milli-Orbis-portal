@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>有志マップ | Milli Orbis</title><meta name="description" content="ファンによる匿名の目撃情報マップ。キュレーション済みのみ表示。">
+<link rel="icon" href="../images/icon/Milli%20Orbis.ico">
+<meta name="theme-color" content="#75b1c0">
+<script>try{if(localStorage.getItem("milli-theme")==="dark"||(!localStorage.getItem("milli-theme")&&matchMedia("(prefers-color-scheme: dark)").matches))document.documentElement.dataset.theme="dark";}catch(e){}</script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+<style>
+.goods-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}
+.goods-tabs a{padding:9px 16px;border-radius:999px;border:2px solid var(--border);background:#fff;font-weight:800;font-size:.86rem;color:var(--text);text-decoration:none}
+.goods-tabs a.active{background:var(--accent-deep);color:#fff;border-color:var(--accent-deep)}
+#map{height:62vh;min-height:380px;border-radius:16px;border:3px solid #fff;outline:2px solid var(--border)}
+.legend{font-size:.76rem;color:var(--muted);margin:8px 0}
+</style>
+</head>
+<body data-oshi="">
+<header id="siteHeader"><div class="header-inner"><a class="logo" href="../index.html"><img src="../images/rogo/Milli%20Orbis-rogo.png" alt="Milli Orbis"></a>
+<nav class="nav"><a href="../index.html#home">Home</a><a href="current.html" class="current">グッズ</a><a href="../songs.html">曲</a></nav>
+<div class="header-actions"><button type="button" class="profile-btn" id="profile-btn" onclick="mpOpenAccount()"><span class="profile-icon" id="profile-header-icon">?</span></button><div class="oshi-cursor-wrap" id="oshiCursorWrap"><button id="oshiCursorBtn" class="oshi-cursor-btn"><span id="oshiCursorPreview" class="oshi-cursor-preview" style="width:18px;height:18px;border-radius:50%;background:#7a4fc4;border:2px solid #fff;display:inline-block"></span><span id="oshiDot" class="oshi-dot" style="width:18px;height:18px;border-radius:50%;background:var(--accent);border:2px solid #fff;display:inline-block"></span></button><div id="oshiCursorDropdown" class="oshi-cursor-dropdown"></div></div><select id="oshiSelect" class="oshi-select" style="display:none"></select><button id="hamburger" class="hamburger"><svg viewBox="0 0 28 20" width="30" height="22"><path d="M2 3h24M2 10h24M2 17h24" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/></svg></button></div></div><div id="drawerBackdrop" class="drawer-backdrop"></div><nav id="mobileNav" class="mobile-nav"><a href="current.html">現在販売中</a><a href="shops.html">販売箇所検索</a><a href="map.html">有志マップ</a><a href="archive.html">過去アーカイブ</a><a href="mine.html">マイグッズ</a></nav></header>
+<main class="container" style="padding-top:84px">
+<nav class="breadcrumb"><a href="../index.html">Home</a><span>グッズ</span><span>有志マップ</span></nav>
+<section class="subpage-hero"><h1 style="font-family:var(--font-display);font-weight:900">有志マップ（キュレーション）</h1><p class="section-sub" style="padding-left:0">ファンからの匿名提供を運営が確認したもののみを表示。目撃時点の情報であり在庫を保証しません。</p></section>
+<nav class="goods-tabs"><a href="current.html">現在販売中</a><a href="shops.html">販売箇所検索</a><a href="map.html" class="active">有志マップ</a><a href="archive.html">過去アーカイブ</a><a href="mine.html">マイグッズ</a></nav>
+<div class="legend">タイル: OpenStreetMap / 地理院地図（出典明記）。提供は <a href="#" id="formLink" target="_blank">Google Form（準備中）</a> から。運営が1日1回精査して反映（PRレビュー）。</div>
+<div id="map"></div>
+<div id="list" style="margin-top:12px;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px"></div>
+</main>
+<footer><p class="disclaimer">非公式のファンサイトです。在庫は各店舗へお問い合わせください。</p></footer>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+<script src="../data.js"></script><script src="../data/i18n.js"></script><script src="../scripts/i18n.js"></script><script src="../scripts/fav-store.js"></script><script src="../scripts/cursor.js"></script><script src="../script.js"></script>
+<script>
+(function(){
+  var map=L.map('map', { minZoom:4, maxZoom:18 }).setView([36.2,138.0],5);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution:'&copy; OpenStreetMap contributors / 地理院地図', maxZoom:18 }).addTo(map);
+  // optional GSI switch: L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {attribution:'地理院地図'} )
+  var cluster=L.markerClusterGroup();
+  fetch('../data/sightings.json').then(function(r){return r.json()}).then(function(data){
+    var approved=data.filter(function(d){return d.status==="approved" && d.lat && d.lng;});
+    approved.forEach(function(d){
+      var m=d.memberId? MEMBERS.find(function(x){return x.id===d.memberId}):null;
+      var color=m? m.color : "#75b1c0";
+      var icon=L.divIcon({ html:'<span style="width:14px;height:14px;border-radius:50%;background:'+color+';border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.3);display:block"></span>', className:'', iconSize:[14,14] });
+      var mk=L.marker([d.lat,d.lng], {icon:icon});
+      mk.bindPopup('<b>'+d.place+'</b><br>'+d.item+'<br><span style="font-size:.78rem;color:#6f6250">'+d.date+' / '+(d.prefecture||"")+'</span><br><a href="'+(d.gmapsUrl|| "https://www.google.com/maps/search/"+encodeURIComponent(d.place))+'" target="_blank">地図を開く</a> <a href="current.html" style="margin-left:6px">グッズを見る</a><br><span style="font-size:.68rem;color:#c0392b">目撃時点の情報。在庫は店舗へお問い合わせください。</span>');
+      cluster.addLayer(mk);
+    });
+    map.addLayer(cluster);
+    // list below map
+    var list=document.getElementById("list");
+    list.innerHTML=approved.map(function(d){ return '<div class="card" style="padding:10px"><b>'+d.place+'</b><div style="font-size:.78rem;color:var(--muted)">'+d.prefecture+'・'+d.date+'</div><div style="font-size:.82rem">'+d.item+'</div><a href="'+(d.gmapsUrl|| "https://www.google.com/maps/search/"+encodeURIComponent(d.place))+'" target="_blank" class="btn btn-ghost" style="padding:4px 10px;font-size:.74rem;margin-top:6px">地図</a></div>'; }).join("");
+    if(approved.length) map.fitBounds(cluster.getBounds().pad(0.2));
+  });
+})();
+</script>
+</body>
+</html>

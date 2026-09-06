@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>販売箇所検索 | Milli Orbis</title><meta name="description" content="都道府県からミリプログッズを売っている店を探せる。アニメイト・イオン・公式ショップを網羅。">
+<link rel="icon" href="../images/icon/Milli%20Orbis.ico"><link rel="manifest" href="../manifest.webmanifest">
+<meta name="theme-color" content="#75b1c0">
+<script>try{if(localStorage.getItem("milli-theme")==="dark"||(!localStorage.getItem("milli-theme")&&matchMedia("(prefers-color-scheme: dark)").matches))document.documentElement.dataset.theme="dark";}catch(e){}</script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<style>
+.goods-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}
+.goods-tabs a{padding:9px 16px;border-radius:999px;border:2px solid var(--border);background:#fff;font-weight:800;font-size:.86rem;color:var(--text);text-decoration:none}
+.goods-tabs a.active{background:var(--accent-deep);color:#fff;border-color:var(--accent-deep)}
+.pref-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(78px,1fr));gap:8px;margin:14px 0}
+.pref-btn{padding:8px 6px;border-radius:10px;border:2px solid var(--border);background:#fff;font-weight:800;font-size:.78rem;cursor:pointer;text-align:center}
+.pref-btn.active{background:var(--accent-soft);border-color:var(--accent-deep);color:var(--accent-deep)}
+.shop-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.shop-card{padding:14px;border-radius:16px}
+.shop-card h3{font-size:.92rem;font-weight:900}
+.chain-badge{font-size:.64rem;font-weight:900;color:#fff;background:var(--accent-deep);border-radius:999px;padding:2px 8px;margin-left:6px;vertical-align:middle}
+</style>
+</head>
+<body data-oshi="">
+<header id="siteHeader"><div class="header-inner"><a class="logo" href="../index.html"><img src="../images/rogo/Milli%20Orbis-rogo.png" alt="Milli Orbis"></a>
+<nav class="nav"><a href="../index.html#home">Home</a><a href="current.html" class="current">グッズ</a><a href="../songs.html">曲</a><a href="../members.html">メンバー</a></nav>
+<div class="header-actions"><a id="liveBadge" class="live-badge" href="#">● LIVE</a><button type="button" class="profile-btn" id="profile-btn" onclick="mpOpenAccount()"><span class="profile-icon" id="profile-header-icon">?</span></button><div class="oshi-cursor-wrap" id="oshiCursorWrap"><button id="oshiCursorBtn" class="oshi-cursor-btn"><span id="oshiCursorPreview" class="oshi-cursor-preview" style="width:18px;height:18px;border-radius:50%;background:#7a4fc4;border:2px solid #fff;display:inline-block"></span><span id="oshiDot" class="oshi-dot" style="width:18px;height:18px;border-radius:50%;background:var(--accent);border:2px solid #fff;display:inline-block"></span></button><div id="oshiCursorDropdown" class="oshi-cursor-dropdown"></div></div><select id="oshiSelect" class="oshi-select" style="display:none"></select><button id="hamburger" class="hamburger"><svg viewBox="0 0 28 20" width="30" height="22"><path d="M2 3h24M2 10h24M2 17h24" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/></svg></button></div></div><div id="drawerBackdrop" class="drawer-backdrop"></div><nav id="mobileNav" class="mobile-nav"><div class="drawer-section-label">グッズ</div><a href="current.html">現在販売中</a><a href="shops.html">販売箇所検索</a><a href="map.html">有志マップ</a><a href="archive.html">過去アーカイブ</a><a href="mine.html">マイグッズ</a></nav></header>
+<main class="container" style="padding-top:84px">
+<nav class="breadcrumb"><a href="../index.html">Home</a><span>グッズ</span><span>販売箇所検索</span></nav>
+<section class="subpage-hero"><h1 style="font-family:var(--font-display);font-weight:900">販売箇所検索</h1><p class="section-sub" style="padding-left:0">都道府県を選ぶと、その地域でミリプログッズを売っている店が表示されます。ミリプロオフィシャルショップは全県で表示。</p></section>
+<nav class="goods-tabs"><a href="current.html">現在販売中</a><a href="shops.html" class="active">販売箇所検索</a><a href="map.html">有志マップ</a><a href="archive.html">過去アーカイブ</a><a href="mine.html">マイグッズ</a></nav>
+<div style="display:flex;gap:8px;flex-wrap:wrap;margin:10px 0"><select id="chainSel"><option value="">全チェーン</option><option value="official">公式ショップ</option><option value="animate">アニメイト</option><option value="aeon">イオン</option></select><input type="search" id="kw" placeholder="店舗名で検索" style="flex:1;min-width:160px;padding:8px 12px;border-radius:999px;border:2px solid var(--accent)"><button id="clearPref" class="btn btn-ghost" style="padding:6px 12px">都道府県クリア</button></div>
+<div id="prefGrid" class="pref-grid"></div>
+<div id="shopList" class="shop-list"></div>
+<p style="margin:14px 0;color:var(--muted);font-size:.78rem">住所・在庫は各店舗へお問い合わせください。オンラインショップは <a href="https://shop.milpr.com/" target="_blank">shop.milpr.com</a></p>
+</main>
+<footer><p class="disclaimer">本サイトはファンが運営する非公式のポータルサイトです。</p></footer>
+<script src="../data.js"></script><script src="../data/i18n.js"></script><script src="../scripts/i18n.js"></script><script src="../scripts/fav-store.js"></script><script src="../scripts/cursor.js"></script><script src="../script.js"></script>
+<script>
+(function(){
+  var prefs=["北海道","青森県","岩手県","宮城県","秋田県","山形県","福島県","茨城県","栃木県","群馬県","埼玉県","千葉県","東京都","神奈川県","新潟県","富山県","石川県","福井県","山梨県","長野県","岐阜県","静岡県","愛知県","三重県","滋賀県","京都府","大阪府","兵庫県","奈良県","和歌山県","鳥取県","島根県","岡山県","広島県","山口県","徳島県","香川県","愛媛県","高知県","福岡県","佐賀県","長崎県","熊本県","大分県","宮崎県","鹿児島県","沖縄県"];
+  var grid=document.getElementById("prefGrid"), list=document.getElementById("shopList"), chainSel=document.getElementById("chainSel"), kw=document.getElementById("kw"), clear=document.getElementById("clearPref");
+  var selPref="";
+  prefs.forEach(function(p){ var b=document.createElement("button"); b.className="pref-btn"; b.textContent=p; b.onclick=function(){ selPref= selPref===p?"":p; render(); }; grid.appendChild(b); });
+  function render(){
+    document.querySelectorAll(".pref-btn").forEach(function(b){ b.classList.toggle("active", b.textContent===selPref); });
+    fetch("../data/shops.json").then(function(r){return r.json()}).then(function(data){
+      var filtered=data.filter(function(s){
+        if(chainSel.value && s.chain!==chainSel.value) return false;
+        if(selPref && s.prefecture!=="全国" && s.prefecture!==selPref) return false;
+        if(kw.value && s.name.indexOf(kw.value)===-1) return false;
+        return true;
+      });
+      // official always on top, then chain
+      filtered.sort(function(a,b){ if(a.chain==="official"&&b.chain!=="official") return -1; if(b.chain==="official"&&a.chain!=="official") return 1; return a.prefecture.localeCompare(b.prefecture); });
+      list.innerHTML=filtered.map(function(s){
+        return '<div class="shop-card card"><h3>'+s.name+'<span class="chain-badge">'+s.chainLabel+'</span></h3><div style="font-size:.78rem;color:var(--muted)">'+(s.prefecture==="全国"?"全国（オンライン）":s.prefecture+'・'+(s.address||""))+'</div><div style="font-size:.74rem;margin-top:4px">'+(s.collab||"")+' '+(s.period? '期間: '+s.period.from+'〜'+(s.period.to||""):"")+'</div><div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap"><a class="btn btn-ghost" style="padding:6px 10px;font-size:.76rem" href="'+s.gmapsUrl+'" target="_blank" rel="noopener">地図を開く</a>'+(s.chain==="official"? '<a class="btn" style="padding:6px 10px;font-size:.76rem" href="current.html">グッズを見る</a>':'')+'</div></div>';
+      }).join("") || '<div class="placeholder" style="grid-column:1/-1">該当する店舗がありません</div>';
+    });
+  }
+  chainSel.addEventListener("change", render); kw.addEventListener("input", render); clear.addEventListener("click", function(){ selPref=""; kw.value=""; chainSel.value=""; render(); });
+  render();
+})();
+</script>
+</body>
+</html>
