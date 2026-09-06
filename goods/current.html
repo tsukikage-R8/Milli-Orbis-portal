@@ -38,6 +38,9 @@
 .goods-more-menu.show{display:flex}
 .goods-more-menu button{padding:8px 12px;border-radius:999px;border:2px solid var(--border);background:#fff;font-weight:800;font-size:.78rem;cursor:pointer;text-align:left}
 .goods-more-menu button.on{background:var(--accent-deep);color:#fff;border-color:var(--accent-deep)}
+.goods-notify-btn{margin-top:6px;padding:5px 10px;border-radius:999px;border:2px solid var(--accent);background:#fff;color:var(--accent-deep);font-weight:800;font-size:.72rem;cursor:pointer;display:inline-flex;align-items:center;gap:4px}
+.goods-notify-btn.is-active{background:var(--accent-deep);color:#fff;border-color:var(--accent-deep)}
+.goods-notify-btn:hover{filter:brightness(1.05)}
 </style>
 </head>
 <body data-oshi="">
@@ -183,6 +186,7 @@
     if(g.status==="soldout") return '<span class="goods-tag" style="background:#888">販売終了</span>';
     return "";
   }
+  function escAttr(s){ return String(s).replace(/&/g,"&amp;").replace(/\"/g,"&quot;").replace(/</g,"&lt;"); }
   function cardHtml(g){
     var m=g.memberId? MEMBERS.find(function(x){return x.id===g.memberId}):null;
     var label=m? m.name : (g.memberLabel||"ミリプロ全員");
@@ -201,7 +205,12 @@
     var more='<button type="button" class="goods-more" aria-label="メニュー" data-id="'+g.id+'"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><circle cx="12" cy="5" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="12" cy="19" r="2"/></svg></button>';
     var mineSt=""; try{mineSt=JSON.parse(localStorage.getItem("milli-goods-mine")||"{}")[g.id]||""}catch(e){}
     var mineBadge=mineSt==="have" ? '<span style="position:absolute;bottom:6px;left:6px;background:var(--accent-deep);color:#fff;font-size:.62rem;font-weight:900;padding:2px 6px;border-radius:999px;z-index:1">持ってる</span>' : mineSt==="want" ? '<span style="position:absolute;bottom:6px;left:6px;background:#f5a623;color:#fff;font-size:.62rem;font-weight:900;padding:2px 6px;border-radius:999px;z-index:1">欲しい</span>' : "";
-    return '<div class="goods-card card goods-card-ext '+(isOshi?'is-oshi':'')+'" data-id="'+g.id+'" style="--gc:'+color+(isOshi?';--mc:'+color:'')+'"><a href="'+g.url+'" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:flex;flex-direction:column;flex:1"><span class="goods-tile" style="position:relative">'+tile(g)+more+mineBadge+tagHtml(g)+'</span><span class="goods-body"><span class="goods-member">'+label+'</span><span class="goods-name">'+g.name+'</span><span class="goods-price">¥'+g.price.toLocaleString("ja-JP")+(g.oldPrice?' <s style="font-size:.72rem;color:var(--muted)">¥'+g.oldPrice.toLocaleString("ja-JP")+'</s>':"")+'</span>'+per+cd+'<span style="font-size:.72rem;color:var(--muted)">'+(g.place||"")+'</span><span class="btn btn-ghost" style="margin-top:6px;justify-content:center">公式ページへ</span></span></a></div>';
+    var notifyBtn="";
+    if(g.period && g.period.orderTo && g.status!=="soldout"){
+      var isOn=false; try{ isOn=JSON.parse(localStorage.getItem("milli-goods-reminders")||"[]").some(function(r){return r.id===g.id}); }catch(e){}
+      notifyBtn='<button type="button" class="goods-notify-btn'+(isOn?' is-active':'')+'" data-goods-id="'+escAttr(g.id)+'" data-goods-title="'+escAttr(g.name)+'" data-goods-time="'+escAttr(g.period.orderTo)+'">'+(isOn?'🔔 通知ON':'🔔 締切を通知')+'</button>';
+    }
+    return '<div class="goods-card card goods-card-ext '+(isOshi?'is-oshi':'')+'" data-id="'+g.id+'" style="--gc:'+color+(isOshi?';--mc:'+color:'')+'"><a href="'+g.url+'" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:flex;flex-direction:column;flex:1"><span class="goods-tile" style="position:relative">'+tile(g)+more+mineBadge+tagHtml(g)+'</span><span class="goods-body"><span class="goods-member">'+label+'</span><span class="goods-name">'+g.name+'</span><span class="goods-price">¥'+g.price.toLocaleString("ja-JP")+(g.oldPrice?' <s style="font-size:.72rem;color:var(--muted)">¥'+g.oldPrice.toLocaleString("ja-JP")+'</s>':"")+'</span>'+per+cd+'<span style="font-size:.72rem;color:var(--muted)">'+(g.place||"")+'</span>'+notifyBtn+'<span class="btn btn-ghost" style="margin-top:6px;justify-content:center">公式ページへ</span></span></a></div>';
   }
   var pageSize=48, curPage=1, curList=[];
   function render(){
@@ -265,6 +274,20 @@
   render=function(){ _origRender(); syncUrl(); };
   moreBtn.addEventListener("click", function(){ curPage++; renderPage(); });
   [q,fM,fK,fC,fS,fSt,fSort,fO].forEach(function(el){ el.addEventListener("input", render); el.addEventListener("change", render); });
+  // goods notify button delegation
+  function handleNotifyClick(e){
+    var b=e.target.closest(".goods-notify-btn"); if(!b) return;
+    e.preventDefault(); e.stopPropagation();
+    if(typeof toggleGoodsReminder==="function") toggleGoodsReminder(b);
+    // update label after toggle
+    try{
+      var on=JSON.parse(localStorage.getItem("milli-goods-reminders")||"[]").some(function(r){return r.id===b.dataset.goodsId});
+      b.classList.toggle("is-active", on);
+      b.textContent= on ? "🔔 通知ON" : "🔔 締切を通知";
+    }catch(err){}
+  }
+  grid.addEventListener("click", handleNotifyClick);
+  var upBoxEl=document.getElementById("upcomingBox"); if(upBoxEl) upBoxEl.addEventListener("click", handleNotifyClick);
   // goods menu (︙ & long-press)
   (function(){
     var KEY="milli-goods-mine"; var menu=document.getElementById("goodsMenu"); var curId=null;

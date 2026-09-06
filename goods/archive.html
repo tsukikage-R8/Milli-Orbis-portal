@@ -140,8 +140,9 @@
 <div class="milli-select-wrap"><select id="fSort" class="milli-select"><option value="deadline">受注終了が近い順</option><option value="new">新着順</option><option value="priceAsc">価格が安い順</option><option value="priceDesc">価格が高い順</option></select><span class="milli-select-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg></span></div>
 <label class="milli-check"><input type="checkbox" id="fOshi"> 推しのみ</label>
 </div>
-<div style="display:flex;gap:8px;align-items:center;margin:8px 0;color:var(--muted);font-size:.82rem"><span id="countLabel"></span></div>
+<div style="display:flex;gap:8px;align-items:center;margin:8px 0;color:var(--muted);font-size:.82rem"><span id="countLabel"></span><span style="margin-left:auto;display:flex;gap:8px"><button id="viewGrid" class="btn" style="padding:6px 14px;font-size:.8rem">グリッド</button><button id="viewTimeline" class="btn btn-ghost" style="padding:6px 14px;font-size:.8rem">タイムライン</button></span></div>
 <div id="grid" class="goods-grid"></div>
+<div id="timeline" class="timeline" style="display:none"></div>
 <div style="text-align:center;margin:12px 0"><button id="moreBtn" class="btn btn-ghost" style="display:none">もっと見る</button></div>
 <div id="goodsMenu" class="goods-more-menu" role="menu" aria-hidden="true"><button type="button" data-v="have">持ってる</button><button type="button" data-v="want">欲しい</button><button type="button" data-v="">クリア</button></div>
 <p style="margin:16px 0;text-align:center"><a class="btn" href="#" id="formLink2" target="_blank">過去グッズの追加を依頼する（Form）</a></p>
@@ -164,6 +165,35 @@
   function tile(g){ if(g.image) return '<img src="'+g.image+'" alt="" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'block\'"><div style="display:none;width:100%;height:100%;align-items:center;justify-content:center;color:var(--gc)">'+(GOODS_ICON[g.kind]||"?")+'</div>'; return GOODS_ICON[g.kind]||""; }
   function tagHtml(g){ if(g.tag==="販売終了"||g.status==="soldout") return '<span class="goods-tag" style="background:#888">販売終了</span>'; if(g.tag==="まもなく終了") return '<span class="goods-tag" style="background:#e67e22">まもなく終了</span>'; return ""; }
   function fmt(d){ if(!d) return "—"; var t=new Date(d); if(isNaN(t)) return d; return t.getFullYear()+"/"+String(t.getMonth()+1).padStart(2,"0")+"/"+String(t.getDate()).padStart(2,"0"); }
+  var timelineEl=document.getElementById("timeline"), viewGridBtn=document.getElementById("viewGrid"), viewTimelineBtn=document.getElementById("viewTimeline");
+  var viewMode="grid";
+  (function(){ var p=new URLSearchParams(location.search); if(p.get("view")==="timeline") viewMode="timeline"; })();
+  function updateViewBtns(){
+    if(viewMode==="timeline"){ viewGridBtn.classList.remove("btn"); viewGridBtn.classList.add("btn","btn-ghost"); viewTimelineBtn.classList.remove("btn-ghost"); viewTimelineBtn.classList.add("btn"); grid.style.display="none"; timelineEl.style.display=""; document.getElementById("moreBtn").style.display="none"; }
+    else { viewTimelineBtn.classList.remove("btn"); viewTimelineBtn.classList.add("btn","btn-ghost"); viewGridBtn.classList.remove("btn-ghost"); viewGridBtn.classList.add("btn"); grid.style.display=""; timelineEl.style.display="none"; }
+  }
+  function renderTimeline(){
+    // group by year-month of orderFrom or published_at
+    var groups={};
+    curList.forEach(function(g){
+      var dStr=g.period&&g.period.orderFrom ? g.period.orderFrom : g.published_at;
+      var d=new Date(dStr); if(isNaN(d)) d=new Date(0);
+      var key=d.getFullYear()+"年 "+String(d.getMonth()+1).padStart(2,"0")+"月";
+      var sortKey=d.getFullYear()*100 + d.getMonth();
+      if(!groups[key]) groups[key]={key:key, sort:sortKey, items:[]};
+      groups[key].items.push(g);
+    });
+    var sortedKeys=Object.values(groups).sort(function(a,b){return b.sort-a.sort});
+    if(!sortedKeys.length){ timelineEl.innerHTML='<div class="placeholder">該当なし</div>'; return; }
+    timelineEl.innerHTML=sortedKeys.map(function(gr){
+      return '<div class="timeline-item"><div class="timeline-date">'+gr.key+' <span style="font-weight:700;color:var(--muted)">'+gr.items.length+'件</span></div><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;margin-top:8px">'+gr.items.map(function(g){
+        var m=g.memberId? MEMBERS.find(function(x){return x.id===g.memberId}):null; var color=m?m.color:"#75b1c0"; var label=m?m.name:(g.memberLabel||"全員");
+        var mineSt=""; try{mineSt=JSON.parse(localStorage.getItem("milli-goods-mine")||"{}")[g.id]||""}catch(e){}
+        var badge=mineSt==="have"?'<span style="position:absolute;bottom:4px;left:4px;background:var(--accent-deep);color:#fff;font-size:.58rem;font-weight:900;padding:1px 6px;border-radius:999px">持ってる</span>': mineSt==="want"?'<span style="position:absolute;bottom:4px;left:4px;background:#f5a623;color:#fff;font-size:.58rem;font-weight:900;padding:1px 6px;border-radius:999px">欲しい</span>':"";
+        return '<div class="card" style="--gc:'+color+';position:relative;overflow:hidden"><a href="'+g.url+'" target="_blank" rel="noopener" style="text-decoration:none;color:inherit"><div style="height:110px;position:relative;background:linear-gradient(160deg, color-mix(in srgb, var(--gc) 18%, #fff), #fff);display:flex;align-items:center;justify-content:center;overflow:hidden">'+(g.image?'<img src="'+g.image+'" alt="" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:100%;object-fit:cover;display:block" onerror="this.style.display=\'none\'">':'<span style="color:var(--gc)">'+(GOODS_ICON[g.kind]||"?")+'</span>')+badge+tagHtml(g)+'</div><div style="padding:8px"><div style="font-size:.72rem;font-weight:900;color:var(--gc)">'+label+'</div><div style="font-size:.78rem;font-weight:800;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden">'+g.name+'</div><div style="font-size:.68rem;color:var(--muted)">'+fmt(g.period&&g.period.orderFrom)+'</div></div></a></div>';
+      }).join("")+'</div></div>';
+    }).join("");
+  }
   var pageSize=48, curPage=1, curList=[];
   function render(){
     var kw=(q.value||"").toLowerCase().trim(), fm=fM.value, fk=fK.value, fc=fC.value, fs=fS.value, sort=fSort.value, oshiOnly=fOshi.checked;
@@ -187,7 +217,8 @@
     });
     curList=list; curPage=1;
     countLabel.textContent="表示: "+list.length+"件 (全"+all.filter(function(g){return g.status==="soldout"}).length+"件中)";
-    renderPage();
+    if(viewMode==="timeline") renderTimeline();
+    else renderPage();
   }
   function cardHtml(g){
     var m=g.memberId? MEMBERS.find(function(x){return x.id===g.memberId}):null; var label=m? m.name: (g.memberLabel||"全員"); var color=m? m.color:"#75b1c0";
@@ -197,6 +228,7 @@
     return '<div class="goods-card card" data-id="'+g.id+'" style="--gc:'+color+';position:relative"><a href="'+g.url+'" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:flex;flex-direction:column;flex:1"><span class="goods-tile" style="position:relative">'+tile(g)+more+mineBadge+tagHtml(g)+'</span><span class="goods-body"><span class="goods-member">'+label+'</span><span class="goods-name">'+g.name+'</span><span style="font-size:.74rem;color:var(--muted)">'+(g.period? (g.period.orderFrom||"")+"〜"+(g.period.orderTo||""):"")+'</span><span class="btn btn-ghost" style="margin-top:6px;justify-content:center">公式ページへ</span></span></a></div>';
   }
   function renderPage(){
+    if(viewMode==="timeline"){ renderTimeline(); return; }
     var show=curList.slice(0, curPage*pageSize);
     grid.innerHTML= show.map(cardHtml).join("") || '<div class="placeholder" style="grid-column:1/-1">該当なし</div>';
     moreBtn.style.display= show.length < curList.length ? "" : "none";
@@ -222,10 +254,14 @@
     if(fS.value) p.set("shop", fS.value);
     if(fSort.value!=="deadline") p.set("sort", fSort.value);
     if(fOshi.checked) p.set("oshi","1");
+    if(viewMode==="timeline") p.set("view","timeline");
     var qs=p.toString(); history.replaceState(null,"", qs ? "?"+qs : location.pathname);
   }
   var _origRender=render; render=function(){ _origRender(); syncUrl(); };
   moreBtn.addEventListener("click", function(){ curPage++; renderPage(); });
+  if(viewGridBtn) viewGridBtn.addEventListener("click", function(){ viewMode="grid"; updateViewBtns(); renderPage(); syncUrl(); });
+  if(viewTimelineBtn) viewTimelineBtn.addEventListener("click", function(){ viewMode="timeline"; updateViewBtns(); renderPage(); syncUrl(); });
+  updateViewBtns();
   [q,fM,fK,fC,fS,fSort,fOshi].forEach(function(el){ if(el) { el.addEventListener("input", render); el.addEventListener("change", render); } });
   // goods menu (︙ & long-press)
   (function(){

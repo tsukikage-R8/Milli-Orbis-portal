@@ -870,6 +870,88 @@
     startReminderWatcher();
   }
 
+  /* ---------- グッズ締切リマインド（5日前/当日） ---------- */
+  function getGoodsReminders() {
+    try { return JSON.parse(localStorage.getItem("milli-goods-reminders") || "[]") || []; } catch (e) { return []; }
+  }
+  function setGoodsReminders(list) {
+    try { localStorage.setItem("milli-goods-reminders", JSON.stringify(list)); } catch (e) {}
+  }
+  function isGoodsReminded(gid) {
+    return getGoodsReminders().some(function (r) { return r.id === gid; });
+  }
+  function toggleGoodsReminder(btn) {
+    if (!("Notification" in window)) { alert(T("notif.unsupported")); return; }
+    var gid = btn.dataset.goodsId;
+    var time = btn.dataset.goodsTime;
+    var title = btn.dataset.goodsTitle || "";
+    if (!gid || !time) return;
+    if (isGoodsReminded(gid)) {
+      setGoodsReminders(getGoodsReminders().filter(function (r) { return r.id !== gid; }));
+      btn.classList.remove("is-active");
+      showToast("🔕 グッズ通知を解除しました");
+      return;
+    }
+    var grant = function () {
+      if (isGoodsReminded(gid)) return;
+      setGoodsReminders(getGoodsReminders().concat([{ id: gid, time: time, title: title }]));
+      btn.classList.add("is-active");
+      showToast("🔔 締切通知を登録しました<br><span style='font-size:.78rem'>5日前と当日に通知します。通知はこのサイトを開いている間に届きます。</span>");
+      startGoodsReminderWatcher();
+    };
+    if (Notification.permission === "granted") grant();
+    else if (Notification.permission === "denied") alert(T("notif.denied"));
+    else Notification.requestPermission().then(function (p) {
+      if (p === "granted") grant();
+      else alert(T("notif.failed"));
+    });
+  }
+  var goodsReminderTimer = null;
+  function startGoodsReminderWatcher() {
+    if (goodsReminderTimer || !("Notification" in window) || Notification.permission !== "granted") return;
+    goodsReminderTimer = setInterval(function () {
+      var now = Date.now();
+      var list = getGoodsReminders();
+      if (!list.length) return;
+      var jst = jstNow();
+      var y = jst.getUTCFullYear(), mo = jst.getUTCMonth(), d = jst.getUTCDate();
+      var todayJst = new Date(Date.UTC(y, mo, d));
+      var sentKey = "milli-goods-notif-sent-" + y + "-" + pad2(mo + 1) + "-" + pad2(d);
+      var sent = [];
+      try { sent = JSON.parse(localStorage.getItem(sentKey) || "[]") || []; } catch (e) {}
+      var changed = false;
+      list.forEach(function (r) {
+        var t = Date.parse(r.time);
+        if (!isFinite(t) || isNaN(t)) return;
+        var orderDay = new Date(t);
+        // normalize to JST date
+        var oj = new Date(orderDay.getTime() + 9 * 3600000);
+        var oy = oj.getUTCFullYear(), om = oj.getUTCMonth(), od = oj.getUTCDate();
+        var orderJst = new Date(Date.UTC(oy, om, od));
+        var diffDays = Math.round((orderJst - todayJst) / 86400000);
+        if (diffDays === 5 || diffDays === 0) {
+          var key = r.id + ":" + diffDays;
+          if (sent.indexOf(key) >= 0) return;
+          sent.push(key);
+          try {
+            var body = diffDays === 5 ? "5日後に受注終了: " + r.title : "本日受注終了: " + r.title;
+            new Notification(diffDays === 5 ? "🔔 グッズ締切 5日前" : "🔔 グッズ締切 当日", { body: body, icon: "images/icon/Milli%20Orbis-192.png" });
+          } catch (e) {}
+        }
+        if (t < now - 86400000) changed = true;
+      });
+      try { localStorage.setItem(sentKey, JSON.stringify(sent)); } catch (e) {}
+      if (changed) {
+        var rest = list.filter(function (r) { var t = Date.parse(r.time); return isFinite(t) && t >= now - 86400000; });
+        setGoodsReminders(rest);
+      }
+    }, 30000);
+  }
+  function initGoodsReminderWatcher() {
+    startGoodsReminderWatcher();
+  }
+  try { window.getGoodsReminders = getGoodsReminders; window.isGoodsReminded = isGoodsReminded; window.toggleGoodsReminder = toggleGoodsReminder; window.startGoodsReminderWatcher = startGoodsReminderWatcher; } catch(e) {}
+
   /* ---------- 通知ベル（当日イベント・誕生日・カウントダウンの自動通知） ---------- */
   function notifEnabled() {
     try { return localStorage.getItem("milli-notif") === "on"; } catch (e) { return false; }
@@ -2267,6 +2349,7 @@
     initOnboarding();
     initFloatActions();
     initReminderWatcher();
+    initGoodsReminderWatcher();
     initRemindAll();
     initNotifBell();
     checkDailyNotif();

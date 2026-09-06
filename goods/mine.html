@@ -27,8 +27,10 @@
 .mine-actions{display:flex;gap:6px;margin-top:8px}
 .mine-btn{flex:1;padding:6px;border-radius:999px;border:2px solid var(--border);background:#fff;font-weight:800;font-size:.74rem;cursor:pointer}
 .mine-btn.on{background:var(--accent-deep);color:#fff;border-color:var(--accent-deep)}
-.progress{height:14px;border-radius:999px;background:#eee;overflow:hidden;flex:1}
-.progress i{display:block;height:100%;background:var(--accent);width:0%}
+.progress{height:14px;border-radius:999px;background:#eee;overflow:hidden;flex:1;display:flex}
+.progress i{display:block;height:100%;width:0%}
+.progress i#barHave{background:var(--accent)}
+.progress i#barWant{background:#f5a623}
 .goods-more{position:absolute;top:8px;right:8px;width:28px;height:28px;border-radius:50%;background:rgba(255,255,255,.92);border:2px solid var(--border);display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.12);z-index:2;color:var(--muted)}
 .goods-more:hover{background:#fff;color:var(--accent-deep)}
 .goods-more-menu{position:fixed;min-width:140px;background:#fff;border:2px solid var(--border);border-radius:14px;box-shadow:0 8px 24px rgba(0,0,0,.18);padding:6px;z-index:600;display:none;flex-direction:column;gap:4px}
@@ -139,7 +141,9 @@
 <nav class="goods-tabs"><a href="current.html">現在販売中</a><a href="shops.html">販売箇所検索</a><a href="map.html">有志マップ</a><a href="archive.html">過去アーカイブ</a><a href="mine.html" class="active">マイグッズ</a></nav>
 <div class="mine-bar">
 <span id="stat" style="font-weight:900"></span>
-<div class="progress" style="min-width:140px"><i id="bar"></i></div>
+<div class="progress" style="min-width:140px"><i id="barHave"></i><i id="barWant"></i></div>
+<span id="statWant" style="font-size:.76rem;color:var(--muted);font-weight:700"></span>
+<button id="shareBtn" class="btn" style="padding:6px 12px;font-size:.8rem">Xで共有</button>
 <button id="clearBtn" class="btn btn-ghost" style="padding:6px 12px;font-size:.8rem">全クリア</button>
 <a href="archive.html" class="btn" style="padding:6px 12px;font-size:.8rem">アーカイブから登録する →</a>
 </div>
@@ -222,7 +226,7 @@
   function load(){ try{ return JSON.parse(localStorage.getItem(KEY)||"{}"); }catch(e){ return {}; } }
   function save(o){ try{ localStorage.setItem(KEY, JSON.stringify(o)); }catch(e){} }
   var store=load();
-  var q=document.getElementById("q"), fM=document.getElementById("fMember"), fK=document.getElementById("fKind"), fC=document.getElementById("fCategory"), fS=document.getElementById("fShop"), fSort=document.getElementById("fSort"), fOshi=document.getElementById("fOshi"), countLabel=document.getElementById("countLabel"), oshiOnly=document.getElementById("oshiOnly"), grid=document.getElementById("grid"), stat=document.getElementById("stat"), bar=document.getElementById("bar");
+  var q=document.getElementById("q"), fM=document.getElementById("fMember"), fK=document.getElementById("fKind"), fC=document.getElementById("fCategory"), fS=document.getElementById("fShop"), fSort=document.getElementById("fSort"), fOshi=document.getElementById("fOshi"), countLabel=document.getElementById("countLabel"), oshiOnly=document.getElementById("oshiOnly"), grid=document.getElementById("grid"), stat=document.getElementById("stat"), barHave=document.getElementById("barHave"), barWant=document.getElementById("barWant"), statWant=document.getElementById("statWant");
   var allForFilter=[].concat(GOODS); if(typeof GOODS_ARCHIVE!=="undefined") allForFilter=allForFilter.concat(GOODS_ARCHIVE);
   var kinds=[...new Set(allForFilter.map(function(g){return g.kind}))].sort(); kinds.forEach(function(k){ var o=document.createElement("option"); o.value=k; o.textContent=k; document.getElementById("fKind").appendChild(o); });
   var cats=[...new Set(allForFilter.map(function(g){return g.category}).filter(Boolean))].sort(); cats.forEach(function(c){ var o=document.createElement("option"); o.value=c; o.textContent=c; document.getElementById("fCategory").appendChild(o); });
@@ -253,13 +257,19 @@
       return 0;
     });
     var have=list.length;
-    var total=allGoods().filter(function(g){ return store[g.id]==="have"; }).length; // for stat, total is all have, but we show filtered have vs all have?
-    // stat should show have / all have, but we keep original total as all goods have? No, per spec, show have / total have
     var allHave=allGoods().filter(function(g){ return store[g.id]==="have"; }).length;
+    var allWant=allGoods().filter(function(g){ return store[g.id]==="want"; }).length;
     var allGoodsCount=allGoods().length;
-    stat.textContent="所持 "+allHave+" / "+allGoodsCount+" ("+(allGoodsCount? Math.round(allHave/allGoodsCount*100):0)+"%)";
-    bar.style.width=(allGoodsCount? (allHave/allGoodsCount*100):0)+"%";
-    bar.style.background= oshi? (MEMBERS.find(function(m){return m.id===oshi})||{color:"#75b1c0"}).color : "var(--accent)";
+    var havePct=allGoodsCount? (allHave/allGoodsCount*100):0;
+    var wantPct=allGoodsCount? (allWant/allGoodsCount*100):0;
+    stat.textContent="所持 "+allHave+" / "+allGoodsCount+" ("+Math.round(havePct)+"%)";
+    if(statWant) statWant.textContent="欲しい "+allWant+" ("+Math.round(wantPct)+"%)";
+    if(barHave){
+      barHave.style.width=havePct+"%";
+      var mc = oshi? (MEMBERS.find(function(m){return m.id===oshi})||{color:"#75b1c0"}).color : "#75b1c0";
+      barHave.style.background=mc;
+    }
+    if(barWant) barWant.style.width=wantPct+"%";
     countLabel.textContent="表示: "+list.length+"件";
     document.getElementById("emptyMine").style.display=list.length? "none":"";
     curList=list; curPage=1; renderPage();
@@ -308,6 +318,61 @@
   [q,fM,fK,fC,fS,fSort,fOshi].forEach(function(el){ if(el) el.addEventListener("input", render); if(el) el.addEventListener("change", render); });
   document.getElementById("moreBtn").addEventListener("click", function(){ curPage++; renderPage(); });
   var clearBtn=document.getElementById("clearBtn"); if(clearBtn) clearBtn.addEventListener("click", function(){ if(confirm("全ての登録をクリアしますか？")){ store={}; save(store); render(); } });
+  // X共有: Canvasで所持率画像生成
+  var shareBtn=document.getElementById("shareBtn");
+  if(shareBtn) shareBtn.addEventListener("click", function(){
+    var allHave=allGoods().filter(function(g){ return store[g.id]==="have"; }).length;
+    var allWant=allGoods().filter(function(g){ return store[g.id]==="want"; }).length;
+    var allGoodsCount=allGoods().length;
+    var oshi=""; try{ oshi=localStorage.getItem("milli-oshi")||"";}catch(e){}
+    var oshiMember= oshi? MEMBERS.find(function(m){return m.id===oshi}):null;
+    var c=document.createElement("canvas"); c.width=1200; c.height=630;
+    var ctx=c.getContext("2d");
+    // bg
+    ctx.fillStyle="#f6f1e9"; ctx.fillRect(0,0,1200,630);
+    // accent bar top
+    ctx.fillStyle= oshiMember ? oshiMember.color : "#75b1c0"; ctx.fillRect(0,0,1200,18);
+    // card bg
+    ctx.fillStyle="rgba(255,255,255,0.94)"; 
+    // rounded rect helper
+    function rr(x,y,w,h,r){ ctx.beginPath(); ctx.moveTo(x+r,y); ctx.lineTo(x+w-r,y); ctx.quadraticCurveTo(x+w,y,x+w,y+r); ctx.lineTo(x+w,y+h-r); ctx.quadraticCurveTo(x+w,y+h,x+w-r,y+h); ctx.lineTo(x+r,y+h); ctx.quadraticCurveTo(x,y+h,x,y+h-r); ctx.lineTo(x,y+r); ctx.quadraticCurveTo(x,y,x+r,y); ctx.closePath(); }
+    ctx.save(); rr(40,40,1120,550,28); ctx.fill(); ctx.restore();
+    ctx.strokeStyle="rgba(0,0,0,0.08)"; ctx.lineWidth=3; ctx.save(); rr(40,40,1120,550,28); ctx.stroke(); ctx.restore();
+    // title
+    ctx.fillStyle="#2a2118"; ctx.font="900 48px 'Noto Sans JP', sans-serif"; ctx.fillText("マイグッズ 所持率", 80, 120);
+    ctx.fillStyle="#6f6250"; ctx.font="700 22px 'Noto Sans JP', sans-serif";
+    ctx.fillText(oshiMember ? "推し: "+oshiMember.name : "全体", 80, 158);
+    ctx.fillText(new Date().toLocaleDateString("ja-JP")+" 時点 / 全"+allGoodsCount+"件中", 80, 188);
+    // numbers
+    ctx.fillStyle="#2a2118"; ctx.font="900 72px 'Noto Sans JP', sans-serif";
+    ctx.fillText(Math.round(allGoodsCount? allHave/allGoodsCount*100:0)+"%", 80, 280);
+    ctx.font="700 26px 'Noto Sans JP', sans-serif";
+    ctx.fillStyle="#3d7f92"; ctx.fillText("持ってる "+allHave+"件", 80, 320);
+    ctx.fillStyle="#e67e22"; ctx.fillText("欲しい "+allWant+"件", 260, 320);
+    // stacked bar
+    var bx=80, by=350, bw=1040, bh=42;
+    ctx.fillStyle="#eee"; ctx.save(); rr(bx,by,bw,bh,21); ctx.fill(); ctx.restore();
+    var haveW=bw * (allGoodsCount? allHave/allGoodsCount:0);
+    var wantW=bw * (allGoodsCount? allWant/allGoodsCount:0);
+    if(haveW>0){
+      ctx.save(); ctx.beginPath(); ctx.moveTo(bx+21,by); ctx.lineTo(bx+haveW,by); ctx.lineTo(bx+haveW,by+bh); ctx.lineTo(bx+21,by+bh); ctx.quadraticCurveTo(bx,by+bh,bx,by+bh-21); ctx.lineTo(bx,by+21); ctx.quadraticCurveTo(bx,by,bx+21,by); ctx.closePath();
+      ctx.fillStyle= oshiMember ? oshiMember.color : "#75b1c0"; ctx.fill(); ctx.restore();
+    }
+    if(wantW>0){
+      ctx.fillStyle="#f5a623"; ctx.fillRect(bx+haveW, by, wantW, bh);
+    }
+    // legend
+    ctx.font="700 18px 'Noto Sans JP', sans-serif";
+    ctx.fillStyle="#3d7f92"; ctx.fillRect(80, 410, 18,18); ctx.fillStyle="#2a2118"; ctx.fillText("持ってる", 108, 425);
+    ctx.fillStyle="#f5a623"; ctx.fillRect(220,410,18,18); ctx.fillStyle="#2a2118"; ctx.fillText("欲しい", 248,425);
+    ctx.fillStyle="#6f6250"; ctx.font="700 18px 'Noto Sans JP', sans-serif"; ctx.fillText("Milli Orbis - milli-orbis-portal.onrender.com/goods/mine.html", 80, 550);
+    // download + tweet
+    var url=c.toDataURL("image/png");
+    var a=document.createElement("a"); a.href=url; a.download="milli-mine-"+Date.now()+".png"; document.body.appendChild(a); a.click(); a.remove();
+    var text="マイグッズ所持率 "+Math.round(allGoodsCount? allHave/allGoodsCount*100:0)+"% (持ってる"+allHave+"/欲しい"+allWant+"/全"+allGoodsCount+") #ミリプロ #MilliOrbis";
+    var tw="https://twitter.com/intent/tweet?text="+encodeURIComponent(text)+"&url="+encodeURIComponent("https://milli-orbis-portal.onrender.com/goods/mine.html");
+    window.open(tw, "_blank");
+  });
   // onboarding
   (function(){
     var ob=document.getElementById("onboarding"), close=document.getElementById("onboardingClose");
