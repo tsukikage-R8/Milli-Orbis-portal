@@ -1,23 +1,14 @@
 {
-  "updatedAt": "2026-09-06T08:09:45.549Z",
+  "updatedAt": "2026-09-06T14:29:07.429Z",
   "streams": [
-    {
-      "id": "_JkHDl-_DVw",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【対談】オリ曲「ルミナス」の制作秘話大公開!?【夏代孝明 × 音ノ瀬らこ】",
-      "thumb": "https://i.ytimg.com/vi/_JkHDl-_DVw/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-06T09:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "5HGN7o9U7fM",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
       "title": "〖 ほの暮しの庭 〗のんびりスローライフのお時間🎶#1〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/5HGN7o9U7fM/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-06T11:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-09-06T11:03:18Z",
+      "status": "live"
     },
     {
       "id": "vVy6r58qdSc",
@@ -25,8 +16,8 @@
       "member": "鹿乃まほろ",
       "title": "【雑談】今週もおつかれさま～！一緒にまったり話そうヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/vVy6r58qdSc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-06T13:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-09-06T13:01:17Z",
+      "status": "live"
     },
     {
       "id": "BNybJ5Kttzs",
@@ -247,6 +238,76 @@
   ],
   "videos": [
     {
+      "id": "vVy6r58qdSc",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【雑談】今週もおつかれさま～！一緒にまったり話そうヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/vVy6r58qdSc/hqdefault_live.jpg",
+      "publishedAt": "2026-09-06T13:01:17Z",
+      "live": true
+    },
+    {
+      "id": "R4oRuHrYY4g",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【歌枠】ちょっとサムネねむちょもの顔真似してみた【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/R4oRuHrYY4g/hqdefault.jpg",
+      "publishedAt": "2026-09-06T12:58:23Z",
+      "live": false
+    },
+    {
+      "id": "5HGN7o9U7fM",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ほの暮しの庭 〗のんびりスローライフのお時間🎶#1〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/5HGN7o9U7fM/hqdefault_live.jpg",
+      "publishedAt": "2026-09-06T11:03:18Z",
+      "live": false
+    },
+    {
+      "id": "_JkHDl-_DVw",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【対談】オリ曲「ルミナス」の制作秘話大公開!?【夏代孝明 × 音ノ瀬らこ】",
+      "thumb": "https://i.ytimg.com/vi/_JkHDl-_DVw/hqdefault.jpg",
+      "publishedAt": "2026-09-06T10:33:30Z",
+      "live": false
+    },
+    {
+      "id": "dniVVkpDu00",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】VTuberが全員幼稚園児になって遊んだらカオスすぎたｗｗｗ【ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/dniVVkpDu00/hqdefault.jpg",
+      "publishedAt": "2026-09-06T10:00:06Z",
+      "live": false
+    },
+    {
+      "id": "baIpgg_ocw4",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】勝者は誰？ダイヤ直下掘りトーナメント【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/baIpgg_ocw4/hqdefault.jpg",
+      "publishedAt": "2026-09-06T09:00:16Z",
+      "live": false
+    },
+    {
+      "id": "npsV1HArmus",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "『スパークル』歌ってみた【夕霧レイ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/npsV1HArmus/hqdefault.jpg",
+      "publishedAt": "2026-09-06T09:00:11Z",
+      "live": false
+    },
+    {
       "id": "oySV1DLxrp0",
       "memberId": "konomi",
       "member": "甘狼このみ",
@@ -264,36 +325,6 @@
       "title": "#2【ほの暮しの庭】この村ほのぼのできなくないですか…？【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/pNA7blKMe34/hqdefault_live.jpg",
       "publishedAt": "2026-09-06T07:02:56Z",
-      "live": false
-    },
-    {
-      "id": "vVy6r58qdSc",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【雑談】今週もおつかれさま～！一緒にまったり話そうヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/vVy6r58qdSc/hqdefault_live.jpg",
-      "publishedAt": "2026-09-06T06:27:51Z",
-      "live": true
-    },
-    {
-      "id": "5HGN7o9U7fM",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ほの暮しの庭 〗のんびりスローライフのお時間🎶#1〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/5HGN7o9U7fM/hqdefault_live.jpg",
-      "publishedAt": "2026-09-06T03:04:54Z",
-      "live": false
-    },
-    {
-      "id": "dniVVkpDu00",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】VTuberが全員幼稚園児になって遊んだらカオスすぎたｗｗｗ【ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/dniVVkpDu00/hqdefault.jpg",
-      "publishedAt": "2026-09-06T00:59:30Z",
       "live": false
     },
     {
@@ -457,16 +488,6 @@
       "live": false
     },
     {
-      "id": "_JkHDl-_DVw",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【対談】オリ曲「ルミナス」の制作秘話大公開!?【夏代孝明 × 音ノ瀬らこ】",
-      "thumb": "https://i.ytimg.com/vi/_JkHDl-_DVw/hqdefault_live.jpg",
-      "publishedAt": "2026-09-03T14:53:05Z",
-      "live": false
-    },
-    {
       "id": "beMkuWTFABw",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -515,37 +536,26 @@
       "thumb": "https://i.ytimg.com/vi/8GHeVgL1evk/hqdefault.jpg",
       "publishedAt": "2026-09-03T09:00:18Z",
       "live": false
-    },
-    {
-      "id": "ePV16QaKTYI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "別れ話の湿度で友情を深めるゆらぎゆら #minecraft",
-      "thumb": "https://i.ytimg.com/vi/ePV16QaKTYI/hqdefault.jpg",
-      "publishedAt": "2026-09-03T05:57:32Z",
-      "live": false
-    },
-    {
-      "id": "ikcdM5AaKbA",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 誕生日カウントダウン 〗一番はやくお祝いして！！！〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/ikcdM5AaKbA/hqdefault.jpg",
-      "publishedAt": "2026-09-02T17:10:18Z",
-      "live": false
-    },
-    {
-      "id": "wh4UF6M-Lbk",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【歌枠】告知アリ！Vaundy縛り歌枠！┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/wh4UF6M-Lbk/hqdefault.jpg",
-      "publishedAt": "2026-09-02T14:00:31Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "5HGN7o9U7fM",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 ほの暮しの庭 〗のんびりスローライフのお時間🎶#1〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/5HGN7o9U7fM/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-06T11:03:18Z",
+      "status": "live"
+    },
+    {
+      "id": "vVy6r58qdSc",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【雑談】今週もおつかれさま～！一緒にまったり話そうヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/vVy6r58qdSc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-06T13:01:17Z",
+      "status": "live"
+    }
+  ]
 }
