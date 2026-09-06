@@ -1217,6 +1217,19 @@ img { max-width: 100%; }
 @media (pointer:coarse){
   .goods-card, .goods-card-ext, .mine-card{ touch-action:manipulation; }
 }
+/* スマホではグッズを2列表示（計画書の見やすさ向上） */
+@media (max-width:640px){
+  .goods-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px!important}
+  .mine-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px!important}
+  .shop-list, #list, #nearbyList{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px!important}
+  .goods-card .goods-name{font-size:.8rem}
+  .goods-card .goods-price{font-size:.92rem}
+  .goods-card .goods-body{padding:8px 4px 4px}
+}
+@media (max-width:380px){
+  .goods-grid{gap:8px!important}
+  .mine-grid{gap:8px!important}
+}
 
 /* ---------- メンバーカード（画像メイン） ---------- */
 .member-grid { grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); }

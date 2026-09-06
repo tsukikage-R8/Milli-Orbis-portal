@@ -29,6 +29,10 @@
 .goods-more-menu.show{display:flex}
 .goods-more-menu button{padding:8px 12px;border-radius:999px;border:2px solid var(--border);background:#fff;font-weight:800;font-size:.78rem;cursor:pointer;text-align:left}
 .goods-more-menu button.on{background:var(--accent-deep);color:#fff;border-color:var(--accent-deep)}
+@media (max-width:640px){
+  .goods-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px!important}
+  #timeline .timeline-item div[style*="grid-template-columns"]{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+}
 </style>
 </head>
 <body data-oshi="">
