@@ -1525,7 +1525,7 @@ const MEMBERS = [
     icon: "images/icon/mahoro_profile.jpg",
     catchphrase: "みんなの毎日を、まほろばに！",
     introVoice: "",
-    featuredVideos: ["YzfwW0zTSpE"],
+    featuredVideos: ["YzfwW0zTSpE", "aH1DIRyDnfc", "94xJrn4Kswk"],
     voice: "assets/voices/鹿乃まほろ.mp3",
     intro: "みんなの心に癒しの魔法を！",
     en: {

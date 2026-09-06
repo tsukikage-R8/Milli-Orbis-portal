@@ -247,6 +247,7 @@ const navDrop = (home) => `
           <a href="account.html" data-i18n="nav.account">マイページ</a>
         </div>
       </div>
+      <a href="goods/current.html">MilliDex</a>
       <a href="${home}#groups" data-i18n="nav.groups">グループ・期生</a>
       <a href="songs.html" data-i18n="nav.songs">曲データベース</a>
       <a href="${home}#calendar">Event Calendar</a>
@@ -281,6 +282,12 @@ const mobileNav = (home) => `
       <a class="mobile-sub" href="mahoro.html" data-i18n-name="mahoro">鹿乃まほろ</a>
       <a class="mobile-sub" href="milchan.html" data-i18n-name="milchan">ミリちゃん</a>
       <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
+      <div class="drawer-section-label">MilliDex</div>
+      <a href="goods/current.html">現在販売中</a>
+      <a href="goods/shops.html" class="mobile-sub">販売箇所検索</a>
+      <a href="goods/map.html" class="mobile-sub">有志マップ</a>
+      <a href="goods/archive.html" class="mobile-sub">過去アーカイブ</a>
+      <a href="goods/mine.html" class="mobile-sub">マイグッズ</a>
       <div class="drawer-section-label">コンテンツ</div>
       <a href="quiz.html" data-i18n="nav.quiz">ミリプロ検定</a>
       <a href="songs.html" data-i18n="nav.songs">曲データベース</a>
@@ -645,6 +652,7 @@ ${loginPopupHtml}
 ${i18nScriptTags}
 <script src="scripts/fav-store.js"></script>
 <script src="scripts/cursor.js"></script>
+<script src="scripts/contact.js?v=20260906"></script>
 <script src="script.js"></script>
 </body>
 </html>
@@ -730,6 +738,7 @@ ${loginPopupHtml}
 ${i18nScriptTags}
 <script src="scripts/fav-store.js"></script>
 <script src="scripts/cursor.js"></script>
+<script src="scripts/contact.js?v=20260906"></script>
 <script src="script.js"></script>
 ${o.scripts}
 </body>

@@ -1924,7 +1924,9 @@
     if (!box || !GOODS.length) return;
     var list = GOODS;
     // 裏側で販売期間をチェック: available===false のものは非表示（常設は permanent で常に残す）
+    // 最新グッズ欄には販売終了品を出さない（まもなく終了バッジは表示継続）
     function isAvailable(g) {
+      if (g.status === "soldout") return false;
       if (g.permanent) return true;
       if (g.available === false) return false;
       return true;
