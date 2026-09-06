@@ -371,7 +371,7 @@ img { max-width: 100%; }
 #siteHeader {
   position: fixed;
   top: 0; left: 0; right: 0;
-  z-index: 200;
+  z-index: 1000;
   background: var(--glass);
   backdrop-filter: blur(14px);
   border-bottom: 3px solid #fff;
