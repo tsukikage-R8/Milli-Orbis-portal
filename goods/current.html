@@ -47,26 +47,35 @@
 <select id="fKind"><option value="">全種類</option></select>
 <select id="fCategory"><option value="">全カテゴリ</option></select>
 <select id="fShop"><option value="">全販売場所</option><option value="official">公式ショップ</option><option value="animate">アニメイト</option><option value="aeon">イオン</option></select>
+<select id="fStatus"><option value="onSale">販売中のみ</option><option value="all">すべて（販売終了含む）</option><option value="soldout">販売終了のみ</option></select>
 <select id="fSort"><option value="deadline">受注終了が近い順</option><option value="new">新着順</option><option value="priceAsc">価格が安い順</option><option value="priceDesc">価格が高い順</option></select>
 <label style="font-weight:800;font-size:.84rem;display:flex;gap:6px;align-items:center"><input type="checkbox" id="fOshi"> 推しのみ</label>
 </div>
+<div style="display:flex;gap:8px;align-items:center;margin:8px 0;color:var(--muted);font-size:.82rem"><span id="countLabel"></span><span id="statusInfo" style="margin-left:auto"></span></div>
 <div id="upcomingBox" class="goods-upcoming" style="display:none"></div>
 <div id="grid" class="goods-grid"></div>
-<p style="margin:16px 0;text-align:center;color:var(--muted);font-size:.8rem">画像はShopify CDNへのホットリンクで表示（保存せず参照）。出典: ミリプロオフィシャルショップ / PR TIMES / アニメイト</p>
+<div style="text-align:center;margin:16px 0"><button id="moreBtn" class="btn btn-ghost" style="display:none">もっと見る</button></div>
+<p style="margin:16px 0;text-align:center;color:var(--muted);font-size:.8rem">画像はShopify CDNへのホットリンクで表示（保存せず参照）。出典: ミリプロオフィシャルショップ / PR TIMES / アニメイト（全772件: 公式767+コラボ5）</p>
 </main>
 <footer><p class="disclaimer">本サイトはファンが運営する非公式のポータルサイトです。ミリプロ公式様とは一切関係ありません。</p><p class="source-note">公式サイト: <a href="https://milpr.com/" target="_blank" rel="noopener">https://milpr.com/</a></p><p>© 2026 Milli Orbis（非公式ファンサイト）</p></footer>
 <script src="../data.js"></script><script src="../data/i18n.js"></script><script src="../scripts/i18n.js"></script><script src="../scripts/fav-store.js"></script><script src="../scripts/cursor.js"></script><script src="../script.js"></script>
 <script>
 (function(){
-  var q=$("#q"), fM=$("#fMember"), fK=$("#fKind"), fC=$("#fCategory"), fS=$("#fShop"), fSort=$("#fSort"), fO=$("#fOshi"), grid=$("#grid"), upBox=$("#upcomingBox");
+  var q=$("#q"), fM=$("#fMember"), fK=$("#fKind"), fC=$("#fCategory"), fS=$("#fShop"), fSt=$("#fStatus"), fSort=$("#fSort"), fO=$("#fOshi"), grid=$("#grid"), upBox=$("#upcomingBox"), countLabel=$("#countLabel"), moreBtn=$("#moreBtn");
   function $(s, r){ return (r||document).querySelector(s); }
-  // populate selects
   MEMBERS.forEach(function(m){ var o=document.createElement("option"); o.value=m.id; o.textContent=m.name; fM.appendChild(o); });
-  var kinds=[...new Set(GOODS.map(function(g){return g.kind}))]; kinds.forEach(function(k){ var o=document.createElement("option"); o.value=k; o.textContent=k; fK.appendChild(o); });
-  var cats=[...new Set(GOODS.map(function(g){return g.category}).filter(Boolean))]; cats.forEach(function(c){ var o=document.createElement("option"); o.value=c; o.textContent=c; fC.appendChild(o); });
+  var kinds=[...new Set(GOODS.map(function(g){return g.kind}))].sort(); kinds.forEach(function(k){ var o=document.createElement("option"); o.value=k; o.textContent=k; fK.appendChild(o); });
+  var cats=[...new Set(GOODS.map(function(g){return g.category}).filter(Boolean))].sort(); cats.forEach(function(c){ var o=document.createElement("option"); o.value=c; o.textContent=c; fC.appendChild(o); });
   function fmt(d){ if(!d) return "—"; var t=new Date(d); if(isNaN(t)) return d; return t.getFullYear()+"/"+String(t.getMonth()+1).padStart(2,"0")+"/"+String(t.getDate()).padStart(2,"0"); }
   function daysLeft(to){ if(!to) return null; var diff=new Date(to)-new Date(); if(diff<=0) return null; return Math.ceil(diff/86400000); }
   function tile(g){ if(g.image) return '<img src="'+g.image+'" alt="" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'block\'"><div style="display:none;width:100%;height:100%;align-items:center;justify-content:center;color:var(--gc)">'+(GOODS_ICON[g.kind]||"?")+'</div>'; return GOODS_ICON[g.kind]||""; }
+  function tagHtml(g){
+    if(g.tag==="販売終了") return '<span class="goods-tag" style="background:#888">販売終了</span>';
+    if(g.tag==="まもなく終了") return '<span class="goods-tag" style="background:#e67e22">まもなく終了</span>';
+    if(g.tag) return '<span class="goods-tag">'+g.tag+'</span>';
+    if(g.status==="soldout") return '<span class="goods-tag" style="background:#888">販売終了</span>';
+    return "";
+  }
   function cardHtml(g){
     var m=g.memberId? MEMBERS.find(function(x){return x.id===g.memberId}):null;
     var label=m? m.name : (g.memberLabel||"ミリプロ全員");
@@ -74,15 +83,19 @@
     var oshiLocal=""; try{ oshiLocal=localStorage.getItem("milli-oshi")||"";}catch(e){}
     var isOshi= oshiLocal && g.memberId===oshiLocal;
     var dl=daysLeft(g.period && g.period.orderTo);
-    var cd= dl!==null && dl<=7 ? '<span class="goods-countdown">残り'+dl+'日</span>' : "";
+    var cd= dl!==null && dl<=7 && g.status!=="soldout" ? '<span class="goods-countdown">残り'+dl+'日</span>' : "";
     var per=g.period? '<div class="goods-period"><b>受注</b> '+fmt(g.period.orderFrom)+' 〜 '+fmt(g.period.orderTo)+'<br><b>発送</b> '+fmt(g.period.shipFrom)+' 〜 '+fmt(g.period.shipTo)+'</div>' : "";
-    return '<a class="goods-card card goods-card-ext '+(isOshi?'is-oshi':'')+'" href="'+g.url+'" target="_blank" rel="noopener" style="--gc:'+color+(isOshi?';--mc:'+color:'')+'"><span class="goods-tile">'+tile(g)+'</span>'+(g.tag?'<span class="goods-tag">'+g.tag+'</span>':'')+'<span class="goods-body"><span class="goods-member">'+label+'</span><span class="goods-name">'+g.name+'</span><span class="goods-price">¥'+g.price.toLocaleString("ja-JP")+'</span>'+per+cd+'<span style="font-size:.72rem;color:var(--muted)">'+(g.place||"")+'</span><span class="btn btn-ghost" style="margin-top:6px;justify-content:center">公式ページへ</span></span></a>';
+    if(g.status==="soldout") per+='<div style="font-size:.72rem;color:#888">販売終了</div>';
+    return '<a class="goods-card card goods-card-ext '+(isOshi?'is-oshi':'')+'" href="'+g.url+'" target="_blank" rel="noopener" style="--gc:'+color+(isOshi?';--mc:'+color:'')+'"><span class="goods-tile">'+tile(g)+'</span>'+tagHtml(g)+'<span class="goods-body"><span class="goods-member">'+label+'</span><span class="goods-name">'+g.name+'</span><span class="goods-price">¥'+g.price.toLocaleString("ja-JP")+(g.oldPrice?' <s style="font-size:.72rem;color:var(--muted)">¥'+g.oldPrice.toLocaleString("ja-JP")+'</s>':"")+'</span>'+per+cd+'<span style="font-size:.72rem;color:var(--muted)">'+(g.place||"")+'</span><span class="btn btn-ghost" style="margin-top:6px;justify-content:center">公式ページへ</span></span></a>';
   }
+  var pageSize=48, curPage=1, curList=[];
   function render(){
     var kw=(q.value||"").toLowerCase().trim();
-    var fm=fM.value, fk=fK.value, fc=fC.value, fs=fS.value, oOnly=fO.checked, sort=fSort.value;
+    var fm=fM.value, fk=fK.value, fc=fC.value, fs=fS.value, fst=fSt.value, oOnly=fO.checked, sort=fSort.value;
     var oshi=""; try{ oshi=localStorage.getItem("milli-oshi")||"";}catch(e){}
     var list=GOODS.filter(function(g){
+      if(fst==="onSale" && g.status==="soldout") return false;
+      if(fst==="soldout" && g.status!=="soldout") return false;
       if(oOnly && oshi && g.memberId!==oshi && g.memberId!=="") return false;
       if(fm && g.memberId!==fm) return false;
       if(fk && g.kind!==fk) return false;
@@ -97,12 +110,22 @@
       if(sort==="deadline"){ var da=a.period&&a.period.orderTo? new Date(a.period.orderTo): new Date(8640000000000000); var db=b.period&&b.period.orderTo? new Date(b.period.orderTo): new Date(8640000000000000); return da-db; }
       if(sort==="priceAsc") return a.price-b.price;
       if(sort==="priceDesc") return b.price-a.price;
+      if(sort==="new"){ var da=new Date(a.published_at||0), db=new Date(b.published_at||0); return db-da; }
       return 0;
     });
     if(upcoming.length){ upBox.style.display=""; upBox.innerHTML='<h3>近日販売予定 <span style="font-weight:700;color:var(--muted);font-size:.82rem">'+upcoming.length+'件</span></h3><div class="goods-grid">'+upcoming.map(cardHtml).join("")+'</div>'; } else { upBox.style.display="none"; upBox.innerHTML=""; }
-    grid.innerHTML= onSale.map(cardHtml).join("") || '<div class="placeholder" style="grid-column:1/-1">該当するグッズがありません</div>';
+    curList=onSale; curPage=1;
+    countLabel.textContent="表示: "+curList.length+"件 (全"+GOODS.length+"件中) / 販売中: "+GOODS.filter(function(g){return g.status!=="soldout"}).length+"件・販売終了: "+GOODS.filter(function(g){return g.status==="soldout"}).length+"件";
+    renderPage();
   }
-  [q,fM,fK,fC,fS,fSort,fO].forEach(function(el){ el.addEventListener("input", render); el.addEventListener("change", render); });
+  function renderPage(){
+    var show=curList.slice(0, curPage*pageSize);
+    grid.innerHTML= show.map(cardHtml).join("") || '<div class="placeholder" style="grid-column:1/-1">該当するグッズがありません</div>';
+    moreBtn.style.display= show.length < curList.length ? "" : "none";
+    moreBtn.textContent="もっと見る（残り"+(curList.length - show.length)+"件）";
+  }
+  moreBtn.addEventListener("click", function(){ curPage++; renderPage(); });
+  [q,fM,fK,fC,fS,fSt,fSort,fO].forEach(function(el){ el.addEventListener("input", render); el.addEventListener("change", render); });
   render();
 })();
 </script>

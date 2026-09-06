@@ -23,30 +23,45 @@
 <nav class="breadcrumb"><a href="../index.html">Home</a><span>グッズ</span><span>過去アーカイブ</span></nav>
 <section class="subpage-hero"><h1 style="font-family:var(--font-display);font-weight:900">過去アーカイブ</h1><p class="section-sub" style="padding-left:0">これまで販売されたグッズを可能な限り網羅。画像はホットリンク、失効時はSVGで表示。</p><p class="cmp-disclaimer">有志による追加依頼は下部のFormから。運営が確認後に反映（PRレビュー）。</p></section>
 <nav class="goods-tabs"><a href="current.html">現在販売中</a><a href="shops.html">販売箇所検索</a><a href="map.html">有志マップ</a><a href="archive.html" class="active">過去アーカイブ</a><a href="mine.html">マイグッズ</a></nav>
-<div class="goods-filters"><input type="search" id="q" placeholder="グッズ名で検索" style="flex:1;min-width:180px;padding:9px 12px;border-radius:999px;border:2px solid var(--accent)"><select id="fMember"><option value="">全タレント</option></select><select id="fKind"><option value="">全種類</option></select><select id="fCategory"><option value="">全カテゴリ</option></select></div>
+<div class="goods-filters"><input type="search" id="q" placeholder="グッズ名で検索" style="flex:1;min-width:180px;padding:9px 12px;border-radius:999px;border:2px solid var(--accent)"><select id="fMember"><option value="">全タレント</option></select><select id="fKind"><option value="">全種類</option></select><select id="fCategory"><option value="">全カテゴリ</option></select><select id="fStatus"><option value="soldout">販売終了のみ</option><option value="all">すべて</option><option value="onSale">販売中のみ</option></select></div>
+<div style="margin:8px 0;color:var(--muted);font-size:.82rem"><span id="countLabel"></span></div>
 <div id="grid" class="goods-grid"></div>
+<div style="text-align:center;margin:12px 0"><button id="moreBtn" class="btn btn-ghost" style="display:none">もっと見る</button></div>
 <p style="margin:16px 0;text-align:center"><a class="btn" href="#" id="formLink2" target="_blank">過去グッズの追加を依頼する（Form）</a></p>
 </main>
 <footer><p class="disclaimer">非公式ファンサイトです。</p></footer>
 <script src="../data.js"></script><script src="../data/goods-archive.js"></script><script src="../data/i18n.js"></script><script src="../scripts/i18n.js"></script><script src="../scripts/fav-store.js"></script><script src="../scripts/cursor.js"></script><script src="../script.js"></script>
 <script>
 (function(){
+  var q=document.getElementById("q"), fM=document.getElementById("fMember"), fK=document.getElementById("fKind"), fC=document.getElementById("fCategory"), fSt=document.getElementById("fStatus"), grid=document.getElementById("grid"), countLabel=document.getElementById("countLabel"), moreBtn=document.getElementById("moreBtn");
   var all=[].concat(GOODS).concat(typeof GOODS_ARCHIVE!=="undefined"? GOODS_ARCHIVE:[]);
-  // archive = status archived or period.to < now and not permanent
-  var now=new Date();
-  var arch=all.filter(function(g){ if(g.status==="archived") return true; if(g.permanent) return false; if(g.period && g.period.orderTo && new Date(g.period.orderTo) < now) return true; return false; });
-  var q=document.getElementById("q"), fM=document.getElementById("fMember"), fK=document.getElementById("fKind"), fC=document.getElementById("fCategory"), grid=document.getElementById("grid");
   MEMBERS.forEach(function(m){ var o=document.createElement("option"); o.value=m.id; o.textContent=m.name; fM.appendChild(o); });
-  var kinds=[...new Set(arch.map(function(g){return g.kind}))]; kinds.forEach(function(k){ var o=document.createElement("option"); o.value=k; o.textContent=k; fK.appendChild(o); });
-  var cats=[...new Set(arch.map(function(g){return g.category}).filter(Boolean))]; cats.forEach(function(c){ var o=document.createElement("option"); o.value=c; o.textContent=c; fC.appendChild(o); });
+  var kinds=[...new Set(all.map(function(g){return g.kind}))].sort(); kinds.forEach(function(k){ var o=document.createElement("option"); o.value=k; o.textContent=k; fK.appendChild(o); });
+  var cats=[...new Set(all.map(function(g){return g.category}).filter(Boolean))].sort(); cats.forEach(function(c){ var o=document.createElement("option"); o.value=c; o.textContent=c; fC.appendChild(o); });
   function tile(g){ if(g.image) return '<img src="'+g.image+'" alt="" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'block\'"><div style="display:none;width:100%;height:100%;align-items:center;justify-content:center;color:var(--gc)">'+(GOODS_ICON[g.kind]||"?")+'</div>'; return GOODS_ICON[g.kind]||""; }
+  function tagHtml(g){ if(g.tag==="販売終了"||g.status==="soldout") return '<span class="goods-tag" style="background:#888">販売終了</span>'; if(g.tag==="まもなく終了") return '<span class="goods-tag" style="background:#e67e22">まもなく終了</span>'; return ""; }
+  var pageSize=48, curPage=1, curList=[];
   function render(){
-    var kw=(q.value||"").toLowerCase().trim(), fm=fM.value, fk=fK.value, fc=fC.value;
-    var list=arch.filter(function(g){ if(fm && g.memberId!==fm) return false; if(fk && g.kind!==fk) return false; if(fc && g.category!==fc) return false; if(kw && g.name.toLowerCase().indexOf(kw)===-1) return false; return true; });
+    var kw=(q.value||"").toLowerCase().trim(), fm=fM.value, fk=fK.value, fc=fC.value, fst=fSt.value;
+    var list=all.filter(function(g){ if(fst==="soldout" && g.status!=="soldout") return false; if(fst==="onSale" && g.status==="soldout") return false; if(fm && g.memberId!==fm) return false; if(fk && g.kind!==fk) return false; if(fc && g.category!==fc) return false; if(kw && g.name.toLowerCase().indexOf(kw)===-1) return false; return true; });
+    // default archive shows soldout first but allow filter
     list.sort(function(a,b){ var da=a.period&&a.period.orderTo? new Date(a.period.orderTo):0; var db=b.period&&b.period.orderTo? new Date(b.period.orderTo):0; return db-da; });
-    grid.innerHTML=list.map(function(g){ var m=g.memberId? MEMBERS.find(function(x){return x.id===g.memberId}):null; var label=m? m.name: (g.memberLabel||"全員"); var color=m? m.color:"#75b1c0"; return '<a class="goods-card card" href="'+g.url+'" target="_blank" rel="noopener" style="--gc:'+color+'"><span class="goods-tile">'+tile(g)+'</span><span class="goods-body"><span class="goods-member">'+label+'</span><span class="goods-name">'+g.name+'</span><span style="font-size:.74rem;color:var(--muted)">'+(g.period? g.period.orderFrom+"〜"+g.period.orderTo:"")+'</span><span class="btn btn-ghost" style="margin-top:6px;justify-content:center">公式ページへ</span></span></a>'; }).join("") || '<div class="placeholder" style="grid-column:1/-1">該当なし（データ拡充中）</div>';
+    curList=list; curPage=1;
+    countLabel.textContent="表示: "+list.length+"件 (全"+all.length+"件中)";
+    renderPage();
   }
-  [q,fM,fK,fC].forEach(function(el){ el.addEventListener("input", render); el.addEventListener("change", render); });
+  function cardHtml(g){
+    var m=g.memberId? MEMBERS.find(function(x){return x.id===g.memberId}):null; var label=m? m.name: (g.memberLabel||"全員"); var color=m? m.color:"#75b1c0";
+    return '<a class="goods-card card" href="'+g.url+'" target="_blank" rel="noopener" style="--gc:'+color+'"><span class="goods-tile">'+tile(g)+'</span>'+tagHtml(g)+'<span class="goods-body"><span class="goods-member">'+label+'</span><span class="goods-name">'+g.name+'</span><span style="font-size:.74rem;color:var(--muted)">'+(g.period? (g.period.orderFrom||"")+"〜"+(g.period.orderTo||""):"")+'</span><span class="btn btn-ghost" style="margin-top:6px;justify-content:center">公式ページへ</span></span></a>';
+  }
+  function renderPage(){
+    var show=curList.slice(0, curPage*pageSize);
+    grid.innerHTML= show.map(cardHtml).join("") || '<div class="placeholder" style="grid-column:1/-1">該当なし</div>';
+    moreBtn.style.display= show.length < curList.length ? "" : "none";
+    moreBtn.textContent="もっと見る（残り"+(curList.length - show.length)+"件）";
+  }
+  moreBtn.addEventListener("click", function(){ curPage++; renderPage(); });
+  [q,fM,fK,fC,fSt].forEach(function(el){ el.addEventListener("input", render); el.addEventListener("change", render); });
   render();
 })();
 </script>
