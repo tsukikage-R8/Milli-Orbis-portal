@@ -1,23 +1,14 @@
 {
-  "updatedAt": "2026-09-06T14:29:07.429Z",
+  "updatedAt": "2026-09-06T17:49:12.455Z",
   "streams": [
     {
-      "id": "5HGN7o9U7fM",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 ほの暮しの庭 〗のんびりスローライフのお時間🎶#1〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/5HGN7o9U7fM/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-06T11:03:18Z",
-      "status": "live"
-    },
-    {
-      "id": "vVy6r58qdSc",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【雑談】今週もおつかれさま～！一緒にまったり話そうヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/vVy6r58qdSc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-06T13:01:17Z",
-      "status": "live"
+      "id": "8tQbO3O_bwo",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 How to Fish 】 話題の命がけバカ釣りゲーで遊ぶ！ w/鹿乃まほろ【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/8tQbO3O_bwo/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-07T11:00:00Z",
+      "status": "upcoming"
     },
     {
       "id": "BNybJ5Kttzs",
@@ -238,13 +229,43 @@
   ],
   "videos": [
     {
+      "id": "paYLb_ElVA4",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【PUBG LAND 2026】大会本番いくぞ～～🔥🔥たくさん銃を撃ちます【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/paYLb_ElVA4/hqdefault.jpg",
+      "publishedAt": "2026-09-06T17:02:04Z",
+      "live": false
+    },
+    {
+      "id": "5HGN7o9U7fM",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ほの暮しの庭 〗のんびりスローライフのお時間🎶#1〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/5HGN7o9U7fM/hqdefault.jpg",
+      "publishedAt": "2026-09-06T16:47:26Z",
+      "live": false
+    },
+    {
+      "id": "8tQbO3O_bwo",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 How to Fish 】 話題の命がけバカ釣りゲーで遊ぶ！ w/鹿乃まほろ【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/8tQbO3O_bwo/hqdefault_live.jpg",
+      "publishedAt": "2026-09-06T15:47:12Z",
+      "live": false
+    },
+    {
       "id": "vVy6r58qdSc",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
       "channelTitle": "鹿乃まほろ / Kano Mahoro",
       "title": "【雑談】今週もおつかれさま～！一緒にまったり話そうヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/vVy6r58qdSc/hqdefault_live.jpg",
-      "publishedAt": "2026-09-06T13:01:17Z",
+      "thumb": "https://i.ytimg.com/vi/vVy6r58qdSc/hqdefault.jpg",
+      "publishedAt": "2026-09-06T14:49:04Z",
       "live": true
     },
     {
@@ -255,16 +276,6 @@
       "title": "【歌枠】ちょっとサムネねむちょもの顔真似してみた【雨夜リズ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/R4oRuHrYY4g/hqdefault.jpg",
       "publishedAt": "2026-09-06T12:58:23Z",
-      "live": false
-    },
-    {
-      "id": "5HGN7o9U7fM",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ほの暮しの庭 〗のんびりスローライフのお時間🎶#1〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/5HGN7o9U7fM/hqdefault_live.jpg",
-      "publishedAt": "2026-09-06T11:03:18Z",
       "live": false
     },
     {
@@ -516,46 +527,7 @@
       "thumb": "https://i.ytimg.com/vi/HAY6YqpAY0o/hqdefault.jpg",
       "publishedAt": "2026-09-03T10:00:06Z",
       "live": false
-    },
-    {
-      "id": "Ju5E-U96w4o",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "ロクデナシ様の『スピカ』歌ってみた【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Ju5E-U96w4o/hqdefault.jpg",
-      "publishedAt": "2026-09-03T09:00:29Z",
-      "live": false
-    },
-    {
-      "id": "8GHeVgL1evk",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【高速山手線ゲーム】ファンサして！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8GHeVgL1evk/hqdefault.jpg",
-      "publishedAt": "2026-09-03T09:00:18Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "5HGN7o9U7fM",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 ほの暮しの庭 〗のんびりスローライフのお時間🎶#1〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/5HGN7o9U7fM/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-06T11:03:18Z",
-      "status": "live"
-    },
-    {
-      "id": "vVy6r58qdSc",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【雑談】今週もおつかれさま～！一緒にまったり話そうヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/vVy6r58qdSc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-06T13:01:17Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }

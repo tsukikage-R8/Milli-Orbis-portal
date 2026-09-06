@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T17:49:12.455Z",
+  "updatedAt": "2026-09-06T21:47:36.502Z",
   "streams": [
     {
       "id": "8tQbO3O_bwo",
@@ -74,6 +74,15 @@
       "title": "【#にじぷかぬふ3Dお披露目】たっくさん動くところ見ててね👀【虹深°ぬふ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/A3okHjHt2To/hqdefault_live.jpg",
       "scheduledStartTime": "2026-09-12T12:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "hHyNursn9mw",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【#ののとノクターン】第1回のゲストはなるみや様！┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/hHyNursn9mw/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-13T12:00:00Z",
       "status": "upcoming"
     },
     {
@@ -228,6 +237,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "hHyNursn9mw",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【#ののとノクターン】第1回のゲストはなるみや様！┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/hHyNursn9mw/hqdefault_live.jpg",
+      "publishedAt": "2026-09-06T21:31:17Z",
+      "live": false
+    },
     {
       "id": "paYLb_ElVA4",
       "memberId": "konomi",
@@ -516,16 +535,6 @@
       "title": "ワールド・ランプシェード ／眠雲ツクリ（cover）",
       "thumb": "https://i.ytimg.com/vi/dkfixC4fq-w/hqdefault.jpg",
       "publishedAt": "2026-09-03T12:00:07Z",
-      "live": false
-    },
-    {
-      "id": "HAY6YqpAY0o",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【お絵描き】ミリプロ後輩メンの水着デザインしてみた結果・・・【甘狼このみ】",
-      "thumb": "https://i.ytimg.com/vi/HAY6YqpAY0o/hqdefault.jpg",
-      "publishedAt": "2026-09-03T10:00:06Z",
       "live": false
     }
   ],
