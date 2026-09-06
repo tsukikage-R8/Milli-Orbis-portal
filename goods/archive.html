@@ -130,8 +130,17 @@
 <nav class="breadcrumb"><a href="../index.html">Home</a><span>グッズ</span><span>過去アーカイブ</span></nav>
 <section class="subpage-hero"><h1 style="font-family:var(--font-display);font-weight:900">過去アーカイブ</h1><p class="section-sub" style="padding-left:0">これまで販売されたグッズを可能な限り網羅。画像はホットリンク、失効時はSVGで表示。</p><p class="cmp-disclaimer">有志による追加依頼は下部のFormから。運営が確認後に反映（PRレビュー）。</p></section>
 <nav class="goods-tabs"><a href="current.html">現在販売中</a><a href="shops.html">販売箇所検索</a><a href="map.html">有志マップ</a><a href="archive.html" class="active">過去アーカイブ</a><a href="mine.html">マイグッズ</a></nav>
-<div class="goods-filters"><input type="search" id="q" placeholder="グッズ名で検索" style="flex:1;min-width:180px;padding:9px 12px;border-radius:999px;border:2px solid var(--accent)"><select id="fMember"><option value="">全タレント</option></select><select id="fKind"><option value="">全種類</option></select><select id="fCategory"><option value="">全カテゴリ</option></select><select id="fStatus"><option value="soldout">販売終了のみ</option><option value="all">すべて</option><option value="onSale">販売中のみ</option></select></div>
-<div style="margin:8px 0;color:var(--muted);font-size:.82rem"><span id="countLabel"></span></div>
+<div class="goods-filters">
+<input type="search" id="q" placeholder="グッズ名で検索" autocomplete="off">
+<select id="fMember"><option value="">全タレント</option></select>
+<select id="fKind"><option value="">全種類</option></select>
+<select id="fCategory"><option value="">全カテゴリ</option></select>
+<select id="fShop"><option value="">全販売場所</option><option value="official">公式ショップ</option><option value="animate">アニメイト</option><option value="aeon">イオン</option></select>
+<select id="fStatus" style="display:none"><option value="soldout" selected>販売終了のみ</option></select>
+<select id="fSort"><option value="deadline">受注終了が近い順</option><option value="new">新着順</option><option value="priceAsc">価格が安い順</option><option value="priceDesc">価格が高い順</option></select>
+<label style="font-weight:800;font-size:.84rem;display:flex;gap:6px;align-items:center"><input type="checkbox" id="fOshi"> 推しのみ</label>
+</div>
+<div style="display:flex;gap:8px;align-items:center;margin:8px 0;color:var(--muted);font-size:.82rem"><span id="countLabel"></span></div>
 <div id="grid" class="goods-grid"></div>
 <div style="text-align:center;margin:12px 0"><button id="moreBtn" class="btn btn-ghost" style="display:none">もっと見る</button></div>
 <div id="goodsMenu" class="goods-more-menu" role="menu" aria-hidden="true"><button type="button" data-v="have">持ってる</button><button type="button" data-v="want">欲しい</button><button type="button" data-v="">クリア</button></div>
@@ -147,21 +156,37 @@
 <script src="../data/songs.js"></script><script src="../data/goods-archive.js"></script><script src="../data/i18n.js"></script><script src="../scripts/i18n.js"></script><script src="../scripts/fav-store.js"></script><script src="../scripts/cursor.js"></script><script src="../script.js"></script>
 <script>
 (function(){
-  var q=document.getElementById("q"), fM=document.getElementById("fMember"), fK=document.getElementById("fKind"), fC=document.getElementById("fCategory"), fSt=document.getElementById("fStatus"), grid=document.getElementById("grid"), countLabel=document.getElementById("countLabel"), moreBtn=document.getElementById("moreBtn");
+  var q=document.getElementById("q"), fM=document.getElementById("fMember"), fK=document.getElementById("fKind"), fC=document.getElementById("fCategory"), fS=document.getElementById("fShop"), fSt=document.getElementById("fStatus"), fSort=document.getElementById("fSort"), fOshi=document.getElementById("fOshi"), grid=document.getElementById("grid"), countLabel=document.getElementById("countLabel"), moreBtn=document.getElementById("moreBtn");
   var all=[].concat(GOODS).concat(typeof GOODS_ARCHIVE!=="undefined"? GOODS_ARCHIVE:[]);
   MEMBERS.forEach(function(m){ var o=document.createElement("option"); o.value=m.id; o.textContent=m.name; fM.appendChild(o); });
   var kinds=[...new Set(all.map(function(g){return g.kind}))].sort(); kinds.forEach(function(k){ var o=document.createElement("option"); o.value=k; o.textContent=k; fK.appendChild(o); });
   var cats=[...new Set(all.map(function(g){return g.category}).filter(Boolean))].sort(); cats.forEach(function(c){ var o=document.createElement("option"); o.value=c; o.textContent=c; fC.appendChild(o); });
   function tile(g){ if(g.image) return '<img src="'+g.image+'" alt="" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'block\'"><div style="display:none;width:100%;height:100%;align-items:center;justify-content:center;color:var(--gc)">'+(GOODS_ICON[g.kind]||"?")+'</div>'; return GOODS_ICON[g.kind]||""; }
   function tagHtml(g){ if(g.tag==="販売終了"||g.status==="soldout") return '<span class="goods-tag" style="background:#888">販売終了</span>'; if(g.tag==="まもなく終了") return '<span class="goods-tag" style="background:#e67e22">まもなく終了</span>'; return ""; }
+  function fmt(d){ if(!d) return "—"; var t=new Date(d); if(isNaN(t)) return d; return t.getFullYear()+"/"+String(t.getMonth()+1).padStart(2,"0")+"/"+String(t.getDate()).padStart(2,"0"); }
   var pageSize=48, curPage=1, curList=[];
   function render(){
-    var kw=(q.value||"").toLowerCase().trim(), fm=fM.value, fk=fK.value, fc=fC.value, fst=fSt.value;
-    var list=all.filter(function(g){ if(fst==="soldout" && g.status!=="soldout") return false; if(fst==="onSale" && g.status==="soldout") return false; if(fm && g.memberId!==fm) return false; if(fk && g.kind!==fk) return false; if(fc && g.category!==fc) return false; if(kw && g.name.toLowerCase().indexOf(kw)===-1) return false; return true; });
-    // default archive shows soldout first but allow filter
-    list.sort(function(a,b){ var da=a.period&&a.period.orderTo? new Date(a.period.orderTo):0; var db=b.period&&b.period.orderTo? new Date(b.period.orderTo):0; return db-da; });
+    var kw=(q.value||"").toLowerCase().trim(), fm=fM.value, fk=fK.value, fc=fC.value, fs=fS.value, sort=fSort.value, oshiOnly=fOshi.checked;
+    var oshi=""; try{ oshi=localStorage.getItem("milli-oshi")||"";}catch(e){}
+    var list=all.filter(function(g){
+      if(g.status!=="soldout") return false;
+      if(oshiOnly && oshi && g.memberId!==oshi && g.memberId!=="") return false;
+      if(fm && g.memberId!==fm) return false;
+      if(fk && g.kind!==fk) return false;
+      if(fc && g.category!==fc) return false;
+      if(fs && g.shop!==fs) return false;
+      if(kw && g.name.toLowerCase().indexOf(kw)===-1) return false;
+      return true;
+    });
+    list.sort(function(a,b){
+      if(sort==="deadline"){ var da=a.period&&a.period.orderTo? new Date(a.period.orderTo): new Date(8640000000000000); var db=b.period&&b.period.orderTo? new Date(b.period.orderTo): new Date(8640000000000000); return db-da; }
+      if(sort==="priceAsc") return a.price-b.price;
+      if(sort==="priceDesc") return b.price-a.price;
+      if(sort==="new"){ var da=new Date(a.published_at||0), db=new Date(b.published_at||0); return db-da; }
+      return 0;
+    });
     curList=list; curPage=1;
-    countLabel.textContent="表示: "+list.length+"件 (全"+all.length+"件中)";
+    countLabel.textContent="表示: "+list.length+"件 (全"+all.filter(function(g){return g.status==="soldout"}).length+"件中)";
     renderPage();
   }
   function cardHtml(g){
@@ -178,7 +203,7 @@
     moreBtn.textContent="もっと見る（残り"+(curList.length - show.length)+"件）";
   }
   moreBtn.addEventListener("click", function(){ curPage++; renderPage(); });
-  [q,fM,fK,fC,fSt].forEach(function(el){ el.addEventListener("input", render); el.addEventListener("change", render); });
+  [q,fM,fK,fC,fS,fSort,fOshi].forEach(function(el){ if(el) { el.addEventListener("input", render); el.addEventListener("change", render); } });
   // goods menu (︙ & long-press)
   (function(){
     var KEY="milli-goods-mine"; var menu=document.getElementById("goodsMenu"); var curId=null;

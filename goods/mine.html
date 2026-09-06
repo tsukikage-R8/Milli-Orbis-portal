@@ -140,13 +140,22 @@
 <div class="mine-bar">
 <span id="stat" style="font-weight:900"></span>
 <div class="progress" style="min-width:140px"><i id="bar"></i></div>
-<select id="fMember"><option value="">全タレント</option></select>
-<label style="font-weight:800"><input type="checkbox" id="oshiOnly"> 推しのみ</label>
-<button id="shareBtn" class="btn" style="padding:6px 12px;font-size:.8rem">Xで共有</button>
 <button id="clearBtn" class="btn btn-ghost" style="padding:6px 12px;font-size:.8rem">全クリア</button>
+<a href="archive.html" class="btn" style="padding:6px 12px;font-size:.8rem">アーカイブから登録する →</a>
 </div>
+<div class="goods-filters">
+<input type="search" id="q" placeholder="グッズ名で検索" autocomplete="off">
+<select id="fMember"><option value="">全タレント</option></select>
+<select id="fKind"><option value="">全種類</option></select>
+<select id="fCategory"><option value="">全カテゴリ</option></select>
+<select id="fShop"><option value="">全販売場所</option><option value="official">公式ショップ</option><option value="animate">アニメイト</option><option value="aeon">イオン</option></select>
+<select id="fSort"><option value="deadline">受注終了が近い順</option><option value="new">新着順</option><option value="priceAsc">価格が安い順</option><option value="priceDesc">価格が高い順</option></select>
+<label style="font-weight:800;font-size:.84rem;display:flex;gap:6px;align-items:center"><input type="checkbox" id="fOshi"> 推しのみ</label>
+</div>
+<div style="display:flex;gap:8px;align-items:center;margin:8px 0;color:var(--muted);font-size:.82rem"><span id="countLabel"></span></div>
 <div id="grid" class="mine-grid" style="margin-top:12px"></div>
 <div style="text-align:center;margin:16px 0"><button id="moreBtn" class="btn btn-ghost" style="display:none">もっと見る</button></div>
+<div id="emptyMine" class="placeholder" style="display:none;margin-top:12px">まだ持っているグッズがありません。<br><a href="archive.html" class="btn" style="margin-top:8px">過去アーカイブから登録する →</a></div>
 </main>
 <footer><p class="disclaimer">非公式ファンサイトです。</p></footer>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
@@ -208,20 +217,46 @@
   function load(){ try{ return JSON.parse(localStorage.getItem(KEY)||"{}"); }catch(e){ return {}; } }
   function save(o){ try{ localStorage.setItem(KEY, JSON.stringify(o)); }catch(e){} }
   var store=load();
-  var fM=document.getElementById("fMember"), oshiOnly=document.getElementById("oshiOnly"), grid=document.getElementById("grid"), stat=document.getElementById("stat"), bar=document.getElementById("bar");
+  var q=document.getElementById("q"), fM=document.getElementById("fMember"), fK=document.getElementById("fKind"), fC=document.getElementById("fCategory"), fS=document.getElementById("fShop"), fSort=document.getElementById("fSort"), fOshi=document.getElementById("fOshi"), countLabel=document.getElementById("countLabel"), oshiOnly=document.getElementById("oshiOnly"), grid=document.getElementById("grid"), stat=document.getElementById("stat"), bar=document.getElementById("bar");
+  var allForFilter=[].concat(GOODS); if(typeof GOODS_ARCHIVE!=="undefined") allForFilter=allForFilter.concat(GOODS_ARCHIVE);
+  var kinds=[...new Set(allForFilter.map(function(g){return g.kind}))].sort(); kinds.forEach(function(k){ var o=document.createElement("option"); o.value=k; o.textContent=k; document.getElementById("fKind").appendChild(o); });
+  var cats=[...new Set(allForFilter.map(function(g){return g.category}).filter(Boolean))].sort(); cats.forEach(function(c){ var o=document.createElement("option"); o.value=c; o.textContent=c; document.getElementById("fCategory").appendChild(o); });
   MEMBERS.forEach(function(m){ var o=document.createElement("option"); o.value=m.id; o.textContent=m.name; fM.appendChild(o); });
   function allGoods(){ var a=[].concat(GOODS); if(typeof GOODS_ARCHIVE!=="undefined") a=a.concat(GOODS_ARCHIVE); return a; }
   function tile(g){ if(g.image) return '<img src="'+g.image+'" alt="" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:12px" onerror="this.style.display=\'none\'">'; return '<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:var(--gc)">'+(GOODS_ICON[g.kind]||"?")+'</div>'; }
+  function fmt(d){ if(!d) return "—"; var t=new Date(d); if(isNaN(t)) return d; return t.getFullYear()+"/"+String(t.getMonth()+1).padStart(2,"0")+"/"+String(t.getDate()).padStart(2,"0"); }
   var pageSize=48, curPage=1, curList=[];
   function render(){
     var oshi=""; try{ oshi=localStorage.getItem("milli-oshi")||"";}catch(e){}
-    var fm=fM.value, of=oshiOnly.checked;
-    var list=allGoods().filter(function(g){ if(fm && g.memberId!==fm) return false; if(of && oshi && g.memberId!==oshi && g.memberId!=="") return false; return true; });
-    var have=list.filter(function(g){ return store[g.id]==="have"; }).length;
-    var total=list.length;
-    stat.textContent="所持 "+have+" / "+total+" ("+(total? Math.round(have/total*100):0)+"%)";
-    bar.style.width=(total? (have/total*100):0)+"%";
+    var kw=(q.value||"").toLowerCase().trim(), fm=fM.value, fk=fK.value, fc=fC.value, fs=fS.value, sort=fSort.value, of=fOshi.checked;
+    var list=allGoods().filter(function(g){ return store[g.id]==="have"; });
+    // apply same filters as current
+    list=list.filter(function(g){
+      if(of && oshi && g.memberId!==oshi && g.memberId!=="") return false;
+      if(fm && g.memberId!==fm) return false;
+      if(fk && g.kind!==fk) return false;
+      if(fc && g.category!==fc) return false;
+      if(fs && g.shop!==fs) return false;
+      if(kw && g.name.toLowerCase().indexOf(kw)===-1) return false;
+      return true;
+    });
+    list.sort(function(a,b){
+      if(sort==="deadline"){ var da=a.period&&a.period.orderTo? new Date(a.period.orderTo): new Date(8640000000000000); var db=b.period&&b.period.orderTo? new Date(b.period.orderTo): new Date(8640000000000000); return da-db; }
+      if(sort==="priceAsc") return a.price-b.price;
+      if(sort==="priceDesc") return b.price-a.price;
+      if(sort==="new"){ var da=new Date(a.published_at||0), db=new Date(b.published_at||0); return db-da; }
+      return 0;
+    });
+    var have=list.length;
+    var total=allGoods().filter(function(g){ return store[g.id]==="have"; }).length; // for stat, total is all have, but we show filtered have vs all have?
+    // stat should show have / all have, but we keep original total as all goods have? No, per spec, show have / total have
+    var allHave=allGoods().filter(function(g){ return store[g.id]==="have"; }).length;
+    var allGoodsCount=allGoods().length;
+    stat.textContent="所持 "+allHave+" / "+allGoodsCount+" ("+(allGoodsCount? Math.round(allHave/allGoodsCount*100):0)+"%)";
+    bar.style.width=(allGoodsCount? (allHave/allGoodsCount*100):0)+"%";
     bar.style.background= oshi? (MEMBERS.find(function(m){return m.id===oshi})||{color:"#75b1c0"}).color : "var(--accent)";
+    countLabel.textContent="表示: "+list.length+"件";
+    document.getElementById("emptyMine").style.display=list.length? "none":"";
     curList=list; curPage=1; renderPage();
   }
   function cardHtmlMine(g){
@@ -242,14 +277,9 @@
     var b=e.target.closest(".mine-btn"); if(b){ var id=b.dataset.id, v=b.dataset.v; if(v) store[id]=v; else delete store[id]; save(store); render(); return; }
     if(e.target.closest(".goods-more")) return;
   });
-  fM.addEventListener("change", render); oshiOnly.addEventListener("change", render);
+  [q,fM,fK,fC,fS,fSort,fOshi].forEach(function(el){ if(el) el.addEventListener("input", render); if(el) el.addEventListener("change", render); });
   document.getElementById("moreBtn").addEventListener("click", function(){ curPage++; renderPage(); });
-  document.getElementById("shareBtn").addEventListener("click", function(){
-    var oshi=""; try{ oshi=localStorage.getItem("milli-oshi")||"";}catch(e){}
-    var txt="マイグッズ所持率 "+stat.textContent+" #MilliOrbis #ミリプロ";
-    window.open("https://twitter.com/intent/tweet?text="+encodeURIComponent(txt)+"&url="+encodeURIComponent(location.href),"_blank");
-  });
-  document.getElementById("clearBtn").addEventListener("click", function(){ if(confirm("全ての登録をクリアしますか？")){ store={}; save(store); render(); } });
+  var clearBtn=document.getElementById("clearBtn"); if(clearBtn) clearBtn.addEventListener("click", function(){ if(confirm("全ての登録をクリアしますか？")){ store={}; save(store); render(); } });
   // ︙ and long-press for mine (uses same menu as current/archive)
   initGoodsMenu(grid, "mine");
   render();
