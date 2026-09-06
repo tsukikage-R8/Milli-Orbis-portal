@@ -3,10 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>現在販売中のグッズ | Milli Orbis</title>
+<title>現在販売中のグッズ | MilliDex</title>
 <meta name="description" content="ミリプロの現在販売中・販売予定グッズを一括検索。タレント・種類・カテゴリ・販売場所・受注終了順で絞り込み、受注期間と発送期間を一覧表示。">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Milli Orbis">
+<meta property="og:site_name" content="MilliDex">
+<!-- TODO: MilliDex OGP準備中。画像が届き次第 og:image / twitter:image を /images/MilliDex-OGP.png に設定 -->
 <link rel="icon" href="../images/icon/Milli%20Orbis.ico" sizes="any">
 <link rel="apple-touch-icon" sizes="192x192" href="../images/icon/Milli%20Orbis-192.png">
 <link rel="apple-touch-icon" sizes="518x518" href="../images/icon/Milli%20Orbis-518.png">
@@ -46,6 +47,8 @@
   .goods-card .goods-name{font-size:.8rem}
   .goods-card .goods-price{font-size:.92rem}
 }
+.millidex-hero-logo{max-width:min(420px,80vw);height:auto;display:block;margin-bottom:8px;filter:drop-shadow(0 2px 8px rgba(0,0,0,.12))}
+[data-theme="dark"] .millidex-hero-logo{background:rgba(255,255,255,.92);border-radius:14px;padding:6px 10px}
 </style>
 </head>
 <body data-oshi="">
@@ -76,7 +79,7 @@
           <a href="../account.html" data-i18n="nav.account">マイページ</a>
         </div>
       </div>
-      <a href="current.html">グッズ</a>
+      <a href="current.html">MilliDex</a>
       <a href="../index.html#groups" data-i18n="nav.groups">グループ・期生</a>
       <a href="../songs.html" data-i18n="nav.songs">曲データベース</a>
       <a href="../index.html#calendar">Event Calendar</a>
@@ -131,7 +134,7 @@
     <a class="mobile-sub" href="../mahoro.html" data-i18n-name="mahoro">鹿乃まほろ</a>
     <a class="mobile-sub" href="../milchan.html" data-i18n-name="milchan">ミリちゃん</a>
     <a href="../members.html" data-i18n="nav.compare">メンバー比較表</a>
-    <div class="drawer-section-label">グッズ</div>
+    <div class="drawer-section-label">MilliDex</div>
     <a href="current.html">現在販売中</a>
     <a href="shops.html" class="mobile-sub">販売箇所検索</a>
     <a href="map.html" class="mobile-sub">有志マップ</a>
@@ -145,8 +148,8 @@
   </nav>
 </header>
 <main class="container" style="padding-top:84px">
-<nav class="breadcrumb"><a href="../index.html">Home</a><span>グッズ</span><span>現在販売中</span></nav>
-<section class="subpage-hero"><h1 style="font-family:var(--font-display);font-weight:900">現在販売中・販売予定</h1><p class="section-sub" style="padding-left:0">タレント・種類・カテゴリ・販売場所で絞り込み、受注期間と発送期間を一覧で確認できます。受注終了が近い順にも並べ替え可能。</p><p class="cmp-disclaimer">本ページはファン有志による非公式まとめです。価格・在庫はリンク先の公式ページでご確認ください。</p></section>
+<nav class="breadcrumb"><a href="../index.html">Home</a><span>MilliDex</span><span>現在販売中</span></nav>
+<section class="subpage-hero"><img src="../images/MilliDex-rogo.png" alt="MilliDex グッズ・情報データベース" class="millidex-hero-logo" width="594" height="191" loading="eager" decoding="async"><h1 style="font-family:var(--font-display);font-weight:900">現在販売中・販売予定</h1><p class="section-sub" style="padding-left:0">タレント・種類・カテゴリ・販売場所で絞り込み、受注期間と発送期間を一覧で確認できます。受注終了が近い順にも並べ替え可能。</p><p class="cmp-disclaimer">本ページはファン有志による非公式まとめです。価格・在庫はリンク先の公式ページでご確認ください。</p></section>
 <nav class="goods-tabs" aria-label="グッズタブ">
 <a href="current.html" class="active">現在販売中</a><a href="shops.html">販売箇所検索</a><a href="map.html">有志マップ</a><a href="archive.html">過去アーカイブ</a><a href="mine.html">マイグッズ</a>
 </nav>
@@ -167,7 +170,7 @@
 <p style="margin:16px 0;text-align:center;color:var(--muted);font-size:.8rem">画像はShopify CDNへのホットリンクで表示（保存せず参照）。出典: ミリプロオフィシャルショップ / PR TIMES / アニメイト（全772件: 公式767+コラボ5）</p>
 <div id="goodsMenu" class="goods-more-menu" role="menu" aria-hidden="true"><button type="button" data-v="have">持ってる</button><button type="button" data-v="want">欲しい</button><button type="button" data-v="">クリア</button></div>
 </main>
-<footer><p class="disclaimer">本サイトはファンが運営する非公式のポータルサイトです。ミリプロ公式様とは一切関係ありません。</p><p class="source-note">公式サイト: <a href="https://milpr.com/" target="_blank" rel="noopener">https://milpr.com/</a></p><p>© 2026 Milli Orbis（非公式ファンサイト）</p></footer>
+<footer><p class="disclaimer">本サイトはファンが運営する非公式のポータルサイトです。ミリプロ公式様とは一切関係ありません。</p><p class="source-note">公式サイト: <a href="https://milpr.com/" target="_blank" rel="noopener">https://milpr.com/</a></p><p>© 2026 MilliDex（Milli Orbis内 グッズ・情報データベース・非公式ファンまとめ）</p></footer>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database-compat.js"></script>

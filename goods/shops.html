@@ -3,10 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>販売箇所検索 | Milli Orbis</title>
+<title>販売箇所検索 | MilliDex</title>
 <meta name="description" content="都道府県からミリプログッズを売っている店を探せる。アニメイト・イオン・公式ショップを網羅。">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Milli Orbis">
+<meta property="og:site_name" content="MilliDex">
+<!-- TODO: MilliDex OGP準備中。画像が届き次第 og:image / twitter:image を /images/MilliDex-OGP.png に設定 -->
 <link rel="icon" href="../images/icon/Milli%20Orbis.ico" sizes="any">
 <link rel="apple-touch-icon" sizes="192x192" href="../images/icon/Milli%20Orbis-192.png">
 <link rel="apple-touch-icon" sizes="518x518" href="../images/icon/Milli%20Orbis-518.png">
@@ -125,6 +126,8 @@
 #japan-map div div.area a,#japan-map div div.area button{height:auto;width:25%}
 #japan-map div div.area div{display:block;border-radius:8px;position:static;height:auto;font-size:13px;width:100%;padding:.6em 0}
 }
+.millidex-hero-logo{max-width:min(420px,80vw);height:auto;display:block;margin-bottom:8px;filter:drop-shadow(0 2px 8px rgba(0,0,0,.12))}
+[data-theme="dark"] .millidex-hero-logo{background:rgba(255,255,255,.92);border-radius:14px;padding:6px 10px}
 </style>
 </head>
 <body data-oshi="">
@@ -155,7 +158,7 @@
           <a href="../account.html" data-i18n="nav.account">マイページ</a>
         </div>
       </div>
-      <a href="current.html">グッズ</a>
+      <a href="current.html">MilliDex</a>
       <a href="../index.html#groups" data-i18n="nav.groups">グループ・期生</a>
       <a href="../songs.html" data-i18n="nav.songs">曲データベース</a>
       <a href="../index.html#calendar">Event Calendar</a>
@@ -210,7 +213,7 @@
     <a class="mobile-sub" href="../mahoro.html" data-i18n-name="mahoro">鹿乃まほろ</a>
     <a class="mobile-sub" href="../milchan.html" data-i18n-name="milchan">ミリちゃん</a>
     <a href="../members.html" data-i18n="nav.compare">メンバー比較表</a>
-    <div class="drawer-section-label">グッズ</div>
+    <div class="drawer-section-label">MilliDex</div>
     <a href="current.html">現在販売中</a>
     <a href="shops.html" class="mobile-sub">販売箇所検索</a>
     <a href="map.html" class="mobile-sub">有志マップ</a>
@@ -224,8 +227,8 @@
   </nav>
 </header>
 <main class="container" style="padding-top:84px">
-<nav class="breadcrumb"><a href="../index.html">Home</a><span>グッズ</span><span>販売箇所検索</span></nav>
-<section class="subpage-hero"><h1 style="font-family:var(--font-display);font-weight:900">販売箇所検索</h1><p class="section-sub" style="padding-left:0">日本地図から都道府県を選ぶと、その地域でミリプログッズを売っている店が表示されます。最初は店舗は表示されません。</p></section>
+<nav class="breadcrumb"><a href="../index.html">Home</a><span>MilliDex</span><span>販売箇所検索</span></nav>
+<section class="subpage-hero"><img src="../images/MilliDex-rogo.png" alt="MilliDex グッズ・情報データベース" class="millidex-hero-logo" width="594" height="191" loading="eager" decoding="async"><h1 style="font-family:var(--font-display);font-weight:900">販売箇所検索</h1><p class="section-sub" style="padding-left:0">日本地図から都道府県を選ぶと、その地域でミリプログッズを売っている店が表示されます。最初は店舗は表示されません。</p></section>
 <nav class="goods-tabs"><a href="current.html">現在販売中</a><a href="shops.html" class="active">販売箇所検索</a><a href="map.html">有志マップ</a><a href="archive.html">過去アーカイブ</a><a href="mine.html">マイグッズ</a></nav>
 <div style="display:flex;gap:8px;flex-wrap:wrap;margin:10px 0;align-items:center"><div class="milli-select-wrap"><select id="chainSel" class="milli-select"><option value="">全チェーン</option><option value="official">公式ショップ</option><option value="animate">アニメイト</option><option value="aeon">イオン</option></select><span class="milli-select-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg></span></div><label class="milli-search" style="flex:1;min-width:180px" aria-label="店舗名で検索"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16a6.47 6.47 0 0 0 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5Zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14Z"/></svg><input type="search" id="kw" placeholder="店舗名で検索（例: アニメイト池袋）" autocomplete="off"></label><button id="geoBtn" class="btn" style="padding:6px 12px">📍 近くのお店</button><button id="clearPref" class="btn btn-ghost" style="padding:6px 12px">クリア</button></div>
 <div id="nearbyBox" style="display:none;margin:10px 0;padding:12px;background:rgba(255,255,255,.85);border:2px dashed var(--accent);border-radius:16px"><h3 style="font-family:var(--font-display);font-weight:900;font-size:.95rem;margin-bottom:8px">📍 近くのお店 <span style="font-weight:700;color:var(--muted);font-size:.78rem">— 現在地から近い3件（位置情報は送信されずブラウザ内で計算）</span></h3><div id="nearbyList" class="shop-list"></div></div>
@@ -296,7 +299,7 @@
 <div id="shopPlaceholder" class="placeholder" style="margin-top:14px">日本地図から都道府県を選択するか、店舗名で検索してください。<br><span style="font-size:.76rem">ミリプロオフィシャルショップはオンラインのため、都道府県選択時に各県で表示されます。</span></div>
 <p style="margin:14px 0;color:var(--muted);font-size:.78rem">住所・在庫は各店舗へお問い合わせください。オンラインショップは <a href="https://shop.milpr.com/" target="_blank">shop.milpr.com</a></p>
 </main>
-<footer><p class="disclaimer">本サイトはファンが運営する非公式のポータルサイトです。</p></footer>
+<footer><p class="disclaimer">本サイトはファンが運営する非公式のポータルサイトです。</p><p>© 2026 MilliDex（Milli Orbis内 グッズ・情報データベース・非公式ファンまとめ）</p></footer>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database-compat.js"></script>
