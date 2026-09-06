@@ -1211,6 +1211,12 @@ img { max-width: 100%; }
 .milli-check{position:relative;display:inline-flex;align-items:center;gap:8px;background:var(--card);border:3px solid #fff;outline:2px solid rgba(0,0,0,.12);border-radius:999px;padding:7px 14px;box-shadow:var(--shadow);font-weight:900;font-family:var(--font-display);font-size:.78rem;cursor:pointer;user-select:none}
 .milli-check input{accent-color:var(--accent-deep);width:16px;height:16px}
 .goods-filters{background:var(--card);border:3px solid #fff;outline:2px solid rgba(0,0,0,.08);border-radius:22px;box-shadow:var(--shadow);padding:14px}
+/* 長押しメニューを邪魔しないようスマホではグッズカードのコピー/選択を禁止 */
+.goods-card, .goods-card-ext, .mine-card, .shop-card{ -webkit-touch-callout:none; -webkit-user-select:none; user-select:none; }
+.goods-card a, .mine-card a{ -webkit-touch-callout:none; }
+@media (pointer:coarse){
+  .goods-card, .goods-card-ext, .mine-card{ touch-action:manipulation; }
+}
 
 /* ---------- メンバーカード（画像メイン） ---------- */
 .member-grid { grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); }

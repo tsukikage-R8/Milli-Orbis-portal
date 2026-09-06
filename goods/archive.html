@@ -280,6 +280,8 @@
     grid.addEventListener("mousedown", function(e){ var c=e.target.closest(".goods-card"); if(c&&e.button===0) sp(e,c); });
     grid.addEventListener("mouseup", cp); grid.addEventListener("mouseleave", cp);
     grid.addEventListener("contextmenu", function(e){ if(e.target.closest(".goods-card")) e.preventDefault(); });
+    grid.addEventListener("selectstart", function(e){ if(e.target.closest(".goods-card")) e.preventDefault(); });
+    grid.addEventListener("dragstart", function(e){ if(e.target.closest(".goods-card")) e.preventDefault(); });
   })();
   render();
 })();

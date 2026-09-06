@@ -305,7 +305,9 @@
     grid.addEventListener("mousedown", function(e){ var c=e.target.closest(".goods-card"); if(c&&e.button===0) sp(e,c); });
     grid.addEventListener("mouseup", cp); grid.addEventListener("mouseleave", cp);
     grid.addEventListener("contextmenu", function(e){ if(e.target.closest(".goods-card")) e.preventDefault(); });
-    var up=document.getElementById("upcomingBox"); if(up){ up.addEventListener("click", function(e){ var b=e.target.closest(".goods-more"); if(b){ e.preventDefault(); e.stopPropagation(); var r=b.getBoundingClientRect(); openMenu(b.dataset.id, r.left, r.bottom+6); } }); up.addEventListener("touchstart", function(e){ var c=e.target.closest(".goods-card"); if(c) sp(e,c); }, {passive:true}); up.addEventListener("contextmenu", function(e){ if(e.target.closest(".goods-card")) e.preventDefault(); }); }
+    grid.addEventListener("selectstart", function(e){ if(e.target.closest(".goods-card")) e.preventDefault(); });
+    grid.addEventListener("dragstart", function(e){ if(e.target.closest(".goods-card")) e.preventDefault(); });
+    var up=document.getElementById("upcomingBox"); if(up){ up.addEventListener("click", function(e){ var b=e.target.closest(".goods-more"); if(b){ e.preventDefault(); e.stopPropagation(); var r=b.getBoundingClientRect(); openMenu(b.dataset.id, r.left, r.bottom+6); } }); up.addEventListener("touchstart", function(e){ var c=e.target.closest(".goods-card"); if(c) sp(e,c); }, {passive:true}); up.addEventListener("contextmenu", function(e){ if(e.target.closest(".goods-card")) e.preventDefault(); }); up.addEventListener("selectstart", function(e){ if(e.target.closest(".goods-card")) e.preventDefault(); }); }
   })();
   render();
 })();
