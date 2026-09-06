@@ -250,7 +250,8 @@ const navDrop = (home) => `
       <a href="${home}#groups" data-i18n="nav.groups">グループ・期生</a>
       <a href="songs.html" data-i18n="nav.songs">曲データベース</a>
       <a href="${home}#calendar">Event Calendar</a>
-      <a href="${home}#links">Official Links</a>`;
+      <a href="${home}#links">Official Links</a>
+      <a href="cursors.html">カーソル配布</a>`;
 
 const mobileNav = (home) => `
       <div class="drawer-section-label">設定</div>
