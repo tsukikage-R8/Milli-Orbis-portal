@@ -752,12 +752,12 @@ fs.writeFileSync(path.join(outDir, "quiz.html"), simplePage({
       <div class="quiz-mode-row">
         <div class="quiz-mode-card">
           <span class="quiz-mode-label" data-i18n="quizp.modeQuick">クイック</span>
-          <p data-i18n="quizp.modeQuickDesc">ランダムに10問だけ出題。<br>隙間時間の腕試しに。</p>
+          <p data-i18n="quizp.modeQuickDesc" data-i18n-html>ランダムに10問だけ出題。<br>隙間時間の腕試しに。</p>
           <button type="button" class="btn quiz-big-btn" id="quizStartBtn" data-i18n="quiz.quick">▶ クイック（10問）</button>
         </div>
         <div class="quiz-mode-card">
           <span class="quiz-mode-label" data-i18n="quizp.modePro">プロ</span>
-          <p data-i18n="quizp.modeProDesc">全25問を出題。<br>ミリプロ博士はプロで決まる！</p>
+          <p data-i18n="quizp.modeProDesc" data-i18n-html>全25問を出題。<br>ミリプロ博士はプロで決まる！</p>
           <button type="button" class="btn btn-ghost quiz-big-btn" id="quizStartPro" data-i18n-html="quiz.pro" data-i18n-var-n="25">▶ プロ（全25問）</button>
         </div>
       </div>
