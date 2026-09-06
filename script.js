@@ -439,6 +439,11 @@
       list.appendChild(b);
     });
     $("#oshiModal").classList.add("open");
+    var skip = $("#oshiSkip");
+    if (skip && !skip.dataset.wired) {
+      skip.dataset.wired = "1";
+      skip.addEventListener("click", function () { closeModal(); });
+    }
   }
 
   function closeModal() {
@@ -2358,6 +2363,7 @@
       var b = $("#" + id);
       if (b) b.addEventListener("click", toggleOshiFilter);
     });
+    try { if (window.ContactHub) window.ContactHub.inject(); } catch (e) {}
     setOshiFilter(oshiFilterOn());
   }
 
