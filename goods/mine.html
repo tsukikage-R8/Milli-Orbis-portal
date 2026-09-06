@@ -144,13 +144,13 @@
 <a href="archive.html" class="btn" style="padding:6px 12px;font-size:.8rem">アーカイブから登録する →</a>
 </div>
 <div class="goods-filters">
-<input type="search" id="q" placeholder="グッズ名で検索" autocomplete="off">
-<select id="fMember"><option value="">全タレント</option></select>
-<select id="fKind"><option value="">全種類</option></select>
-<select id="fCategory"><option value="">全カテゴリ</option></select>
-<select id="fShop"><option value="">全販売場所</option><option value="official">公式ショップ</option><option value="animate">アニメイト</option><option value="aeon">イオン</option></select>
-<select id="fSort"><option value="deadline">受注終了が近い順</option><option value="new">新着順</option><option value="priceAsc">価格が安い順</option><option value="priceDesc">価格が高い順</option></select>
-<label style="font-weight:800;font-size:.84rem;display:flex;gap:6px;align-items:center"><input type="checkbox" id="fOshi"> 推しのみ</label>
+<label class="milli-search" aria-label="グッズ名で検索"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M15.5 14h-.8l-.3-.3A6.5 6.5 0 1 0 14 9.5 6.5 6.5 0 0 0 9.5 14A4.5 4.5 0 0 0 15.5 14Zm-6 0A4.5 4.5 0 1 1 9.5 9.5A4.5 4.5 0 0 1 15.5 14Z"/></svg><input type="search" id="q" placeholder="グッズ名で検索" autocomplete="off"></label>
+<div class="milli-select-wrap"><select id="fMember" class="milli-select"><option value="">全タレント</option></select><span class="milli-select-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg></span></div>
+<div class="milli-select-wrap"><select id="fKind" class="milli-select"><option value="">全種類</option></select><span class="milli-select-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg></span></div>
+<div class="milli-select-wrap"><select id="fCategory" class="milli-select"><option value="">全カテゴリ</option></select><span class="milli-select-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg></span></div>
+<div class="milli-select-wrap"><select id="fShop" class="milli-select"><option value="">全販売場所</option><option value="official">公式ショップ</option><option value="animate">アニメイト</option><option value="aeon">イオン</option></select><span class="milli-select-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg></span></div>
+<div class="milli-select-wrap"><select id="fSort" class="milli-select"><option value="deadline">受注終了が近い順</option><option value="new">新着順</option><option value="priceAsc">価格が安い順</option><option value="priceDesc">価格が高い順</option></select><span class="milli-select-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg></span></div>
+<label class="milli-check"><input type="checkbox" id="fOshi"> 推しのみ</label>
 </div>
 <div style="display:flex;gap:8px;align-items:center;margin:8px 0;color:var(--muted);font-size:.82rem"><span id="countLabel"></span></div>
 <div id="grid" class="mine-grid" style="margin-top:12px"></div>
