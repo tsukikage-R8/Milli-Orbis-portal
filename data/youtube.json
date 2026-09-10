@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-09-10T08:27:06.035Z",
+  "updatedAt": "2026-09-10T15:19:18.120Z",
   "streams": [
+    {
+      "id": "JPjI0f7UgWc",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 Assetto Corsa 】初めてのアセコル！車教えてけろ！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/JPjI0f7UgWc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-10T13:32:42Z",
+      "status": "live"
+    },
+    {
+      "id": "BLToJkkzKis",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【日本事故物件監視協会3】ホラー苦手な夕霧レイと監視するよ【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/BLToJkkzKis/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-10T14:06:23Z",
+      "status": "live"
+    },
+    {
+      "id": "Rz-dIgdArOg",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "title": "【UNDERTALE】#2 何もかもすべて忘れた【#あくび・でもんすぺーど】",
+      "thumb": "https://i.ytimg.com/vi/Rz-dIgdArOg/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-10T14:30:49Z",
+      "status": "live"
+    },
     {
       "id": "9d0t0z_cECo",
       "memberId": "raco",
@@ -199,6 +226,86 @@
   ],
   "videos": [
     {
+      "id": "Rz-dIgdArOg",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "【UNDERTALE】#2 何もかもすべて忘れた【#あくび・でもんすぺーど】",
+      "thumb": "https://i.ytimg.com/vi/Rz-dIgdArOg/hqdefault_live.jpg",
+      "publishedAt": "2026-09-10T14:30:49Z",
+      "live": false
+    },
+    {
+      "id": "BLToJkkzKis",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【日本事故物件監視協会3】ホラー苦手な夕霧レイと監視するよ【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/BLToJkkzKis/hqdefault_live.jpg",
+      "publishedAt": "2026-09-10T14:06:23Z",
+      "live": false
+    },
+    {
+      "id": "JPjI0f7UgWc",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 Assetto Corsa 】初めてのアセコル！車教えてけろ！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/JPjI0f7UgWc/hqdefault_live.jpg",
+      "publishedAt": "2026-09-10T13:32:42Z",
+      "live": false
+    },
+    {
+      "id": "pydhRdM_cQ8",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【雑談】エアコン壊れてて灼熱配信【虹深°ぬふ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/pydhRdM_cQ8/hqdefault.jpg",
+      "publishedAt": "2026-09-10T12:17:01Z",
+      "live": true
+    },
+    {
+      "id": "2eedpcQ33wY",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【 夕霧レイ と】引いた言葉が歌詞に含まれる曲歌ってみた！【 音ノ瀬らこ / ミリプ口 】",
+      "thumb": "https://i.ytimg.com/vi/2eedpcQ33wY/hqdefault.jpg",
+      "publishedAt": "2026-09-10T09:00:29Z",
+      "live": false
+    },
+    {
+      "id": "2YPViNR52Z4",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【初オリジナル楽曲】『NET CHOOSE SHOW』たくさん聞いてね🐸【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/2YPViNR52Z4/hqdefault.jpg",
+      "publishedAt": "2026-09-10T09:00:28Z",
+      "live": false
+    },
+    {
+      "id": "qbA7Sn0pUoU",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "数字当てゲームで甘々セリフを読むのは誰だ！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/qbA7Sn0pUoU/hqdefault.jpg",
+      "publishedAt": "2026-09-10T09:00:25Z",
+      "live": false
+    },
+    {
+      "id": "rrsZg192IPg",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "【とくべチュ、して】以心伝心で歌ってみた🔅☁️🌂【眠雲ツクリ/ミリプロ】#とくべチュして #歌ってみた #shorts",
+      "thumb": "https://i.ytimg.com/vi/rrsZg192IPg/hqdefault.jpg",
+      "publishedAt": "2026-09-10T09:00:02Z",
+      "live": false
+    },
+    {
       "id": "9e_5QVOwxA4",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -359,16 +466,6 @@
       "live": false
     },
     {
-      "id": "b2QL9Mu77Sg",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【音ノ瀬らこと】引いた言葉が歌詞に含まれる曲歌ってみた！【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/b2QL9Mu77Sg/hqdefault.jpg",
-      "publishedAt": "2026-09-07T09:00:28Z",
-      "live": false
-    },
-    {
       "id": "2P_32JxeiF0",
       "memberId": "official",
       "member": "ミリプロ公式",
@@ -427,77 +524,35 @@
       "thumb": "https://i.ytimg.com/vi/vVy6r58qdSc/hqdefault.jpg",
       "publishedAt": "2026-09-06T14:49:04Z",
       "live": true
-    },
-    {
-      "id": "R4oRuHrYY4g",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【歌枠】かなりちるのうた【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/R4oRuHrYY4g/hqdefault.jpg",
-      "publishedAt": "2026-09-06T12:58:23Z",
-      "live": false
-    },
-    {
-      "id": "_JkHDl-_DVw",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【対談】オリ曲「ルミナス」の制作秘話大公開!?【夏代孝明 × 音ノ瀬らこ】",
-      "thumb": "https://i.ytimg.com/vi/_JkHDl-_DVw/hqdefault.jpg",
-      "publishedAt": "2026-09-06T10:33:30Z",
-      "live": false
-    },
-    {
-      "id": "dniVVkpDu00",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】VTuberが全員幼稚園児になって遊んだらカオスすぎたｗｗｗ【ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/dniVVkpDu00/hqdefault.jpg",
-      "publishedAt": "2026-09-06T10:00:06Z",
-      "live": false
-    },
-    {
-      "id": "baIpgg_ocw4",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】勝者は誰？ダイヤ直下掘りトーナメント【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/baIpgg_ocw4/hqdefault.jpg",
-      "publishedAt": "2026-09-06T09:00:16Z",
-      "live": false
-    },
-    {
-      "id": "npsV1HArmus",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "『スパークル』歌ってみた【夕霧レイ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/npsV1HArmus/hqdefault.jpg",
-      "publishedAt": "2026-09-06T09:00:11Z",
-      "live": false
-    },
-    {
-      "id": "oySV1DLxrp0",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "週末の宿題、やらなきゃいけない作業、溜まってる人、強制集合。【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/oySV1DLxrp0/hqdefault.jpg",
-      "publishedAt": "2026-09-06T07:18:37Z",
-      "live": false
-    },
-    {
-      "id": "12OziPHmZyk",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 VALORANT 】最近風邪を引いた話 ⟡.· 【夕霧レイ / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/12OziPHmZyk/hqdefault.jpg",
-      "publishedAt": "2026-09-05T19:18:00Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "JPjI0f7UgWc",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 Assetto Corsa 】初めてのアセコル！車教えてけろ！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/JPjI0f7UgWc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-10T13:32:42Z",
+      "status": "live"
+    },
+    {
+      "id": "BLToJkkzKis",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【日本事故物件監視協会3】ホラー苦手な夕霧レイと監視するよ【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/BLToJkkzKis/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-10T14:06:23Z",
+      "status": "live"
+    },
+    {
+      "id": "Rz-dIgdArOg",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "title": "【UNDERTALE】#2 何もかもすべて忘れた【#あくび・でもんすぺーど】",
+      "thumb": "https://i.ytimg.com/vi/Rz-dIgdArOg/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-10T14:30:49Z",
+      "status": "live"
+    }
+  ]
 }
