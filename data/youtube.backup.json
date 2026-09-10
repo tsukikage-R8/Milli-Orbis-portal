@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-09-10T15:19:18.120Z",
+  "updatedAt": "2026-09-10T18:44:46.299Z",
   "streams": [
-    {
-      "id": "JPjI0f7UgWc",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 Assetto Corsa 】初めてのアセコル！車教えてけろ！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/JPjI0f7UgWc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-10T13:32:42Z",
-      "status": "live"
-    },
-    {
-      "id": "BLToJkkzKis",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【日本事故物件監視協会3】ホラー苦手な夕霧レイと監視するよ【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/BLToJkkzKis/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-10T14:06:23Z",
-      "status": "live"
-    },
-    {
-      "id": "Rz-dIgdArOg",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "title": "【UNDERTALE】#2 何もかもすべて忘れた【#あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/Rz-dIgdArOg/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-10T14:30:49Z",
-      "status": "live"
-    },
     {
       "id": "9d0t0z_cECo",
       "memberId": "raco",
@@ -226,23 +199,23 @@
   ],
   "videos": [
     {
-      "id": "Rz-dIgdArOg",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "【UNDERTALE】#2 何もかもすべて忘れた【#あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/Rz-dIgdArOg/hqdefault_live.jpg",
-      "publishedAt": "2026-09-10T14:30:49Z",
-      "live": false
-    },
-    {
       "id": "BLToJkkzKis",
       "memberId": "liz",
       "member": "雨夜リズ",
       "channelTitle": "雨夜リズ / Amayo Liz",
       "title": "【日本事故物件監視協会3】ホラー苦手な夕霧レイと監視するよ【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/BLToJkkzKis/hqdefault_live.jpg",
-      "publishedAt": "2026-09-10T14:06:23Z",
+      "thumb": "https://i.ytimg.com/vi/BLToJkkzKis/hqdefault.jpg",
+      "publishedAt": "2026-09-10T17:00:28Z",
+      "live": false
+    },
+    {
+      "id": "Rz-dIgdArOg",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "【UNDERTALE】#2 何もかもすべて忘れた【#あくび・でもんすぺーど】",
+      "thumb": "https://i.ytimg.com/vi/Rz-dIgdArOg/hqdefault.jpg",
+      "publishedAt": "2026-09-10T16:05:19Z",
       "live": false
     },
     {
@@ -251,8 +224,8 @@
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
       "title": "【 Assetto Corsa 】初めてのアセコル！車教えてけろ！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/JPjI0f7UgWc/hqdefault_live.jpg",
-      "publishedAt": "2026-09-10T13:32:42Z",
+      "thumb": "https://i.ytimg.com/vi/JPjI0f7UgWc/hqdefault.jpg",
+      "publishedAt": "2026-09-10T15:48:36Z",
       "live": false
     },
     {
@@ -526,33 +499,5 @@
       "live": true
     }
   ],
-  "live": [
-    {
-      "id": "JPjI0f7UgWc",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 Assetto Corsa 】初めてのアセコル！車教えてけろ！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/JPjI0f7UgWc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-10T13:32:42Z",
-      "status": "live"
-    },
-    {
-      "id": "BLToJkkzKis",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【日本事故物件監視協会3】ホラー苦手な夕霧レイと監視するよ【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/BLToJkkzKis/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-10T14:06:23Z",
-      "status": "live"
-    },
-    {
-      "id": "Rz-dIgdArOg",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "title": "【UNDERTALE】#2 何もかもすべて忘れた【#あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/Rz-dIgdArOg/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-10T14:30:49Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
