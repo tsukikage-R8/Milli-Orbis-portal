@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-09-11T15:20:56.718Z",
+  "updatedAt": "2026-09-11T18:48:14.715Z",
   "streams": [
-    {
-      "id": "PihWaSk2m4M",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 ほの暮しの庭 〗お祭り楽しんで、残暑を乗り越える#4〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/PihWaSk2m4M/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-11T10:01:21Z",
-      "status": "live"
-    },
-    {
-      "id": "vQffqjWuMAc",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【歌枠】明日は3Dお披露目だー！！【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/vQffqjWuMAc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-11T12:49:46Z",
-      "status": "live"
-    },
     {
       "id": "9d0t0z_cECo",
       "memberId": "raco",
@@ -217,6 +199,26 @@
   ],
   "videos": [
     {
+      "id": "PihWaSk2m4M",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ほの暮しの庭 〗お祭り楽しんで、残暑を乗り越える#4〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/PihWaSk2m4M/hqdefault.jpg",
+      "publishedAt": "2026-09-11T16:52:09Z",
+      "live": false
+    },
+    {
+      "id": "vQffqjWuMAc",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【歌枠】明日は3Dお披露目だー！！【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/vQffqjWuMAc/hqdefault.jpg",
+      "publishedAt": "2026-09-11T15:51:52Z",
+      "live": false
+    },
+    {
       "id": "cCH6xQXYSZg",
       "memberId": "rei",
       "member": "夕霧レイ",
@@ -227,16 +229,6 @@
       "live": false
     },
     {
-      "id": "vQffqjWuMAc",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【歌枠】明日は3Dお披露目だー！！【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/vQffqjWuMAc/hqdefault_live.jpg",
-      "publishedAt": "2026-09-11T12:49:46Z",
-      "live": false
-    },
-    {
       "id": "T5Q0uHZR4k8",
       "memberId": "yura",
       "member": "ゆらぎゆら",
@@ -244,16 +236,6 @@
       "title": "【歌枠】3Dお披露目前夜祭♪【ゆらぎゆら/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/T5Q0uHZR4k8/hqdefault.jpg",
       "publishedAt": "2026-09-11T12:25:45Z",
-      "live": false
-    },
-    {
-      "id": "PihWaSk2m4M",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ほの暮しの庭 〗お祭り楽しんで、残暑を乗り越える#4〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/PihWaSk2m4M/hqdefault_live.jpg",
-      "publishedAt": "2026-09-11T10:01:21Z",
       "live": false
     },
     {
@@ -517,24 +499,5 @@
       "live": false
     }
   ],
-  "live": [
-    {
-      "id": "PihWaSk2m4M",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 ほの暮しの庭 〗お祭り楽しんで、残暑を乗り越える#4〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/PihWaSk2m4M/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-11T10:01:21Z",
-      "status": "live"
-    },
-    {
-      "id": "vQffqjWuMAc",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【歌枠】明日は3Dお披露目だー！！【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/vQffqjWuMAc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-11T12:49:46Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
