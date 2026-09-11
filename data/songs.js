@@ -585,11 +585,6 @@ window.SONGS = {
           "id": "g4qGSYgxHLU",
           "memberId": "raco",
           "publishedAt": "2026-08-16"
-        },
-        {
-          "id": "g4qGSYgxHLU",
-          "memberId": "yura",
-          "publishedAt": "2026-09-04"
         }
       ],
       "en": {
@@ -1231,7 +1226,7 @@ window.SONGS = {
         {
           "id": "yynYqcLJYPk",
           "memberId": "yura",
-          "publishedAt": "2026-09-04"
+          "publishedAt": "2025-12-26"
         }
       ],
       "en": {
@@ -1718,11 +1713,6 @@ window.SONGS = {
           "id": "OH0g_7k-7aI",
           "memberId": "tsukuri",
           "publishedAt": "2025-08-02"
-        },
-        {
-          "id": "OH0g_7k-7aI",
-          "memberId": "yura",
-          "publishedAt": "2026-09-04"
         }
       ],
       "en": {
@@ -1848,11 +1838,6 @@ window.SONGS = {
           "id": "g5Y9wMxEwKw",
           "memberId": "raco",
           "publishedAt": "2025-06-03"
-        },
-        {
-          "id": "g5Y9wMxEwKw",
-          "memberId": "yura",
-          "publishedAt": "2026-09-04"
         }
       ],
       "en": {
@@ -2165,11 +2150,6 @@ window.SONGS = {
           "id": "HEmqwBrP6gE",
           "memberId": "raco",
           "publishedAt": "2024-12-26"
-        },
-        {
-          "id": "HEmqwBrP6gE",
-          "memberId": "yura",
-          "publishedAt": "2026-09-04"
         }
       ],
       "en": {

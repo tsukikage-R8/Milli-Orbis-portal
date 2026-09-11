@@ -1,6 +1,14 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "T5Q0uHZR4k8",
+    "memberId": "yura",
+    "publishedAt": "2026-09-11",
+    "title": "【歌枠】3Dお披露目前夜祭♪【ゆらぎゆら/ミリプロ】",
+    "duration": 0,
+    "songs": []
+  },
+  {
     "id": "R4oRuHrYY4g",
     "memberId": "liz",
     "publishedAt": "2026-09-06",
