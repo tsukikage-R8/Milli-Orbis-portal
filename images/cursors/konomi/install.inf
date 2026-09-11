@@ -30,7 +30,7 @@ sizewe.cur
 wait.cur
 
 [Cursors.Reg]
-HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%","%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%hand%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%vert%,%10%\%CUR_DIR%\%horz%,%10%\%CUR_DIR%\%dgn1%,%10%\%CUR_DIR%\%dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%"
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%hand%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%vert%,%10%\%CUR_DIR%\%horz%,%10%\%CUR_DIR%\%dgn1%,%10%\%CUR_DIR%\%dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%"
 
 [Strings]
 CUR_DIR     = "Cursors\MilliOrbis-Konomi"

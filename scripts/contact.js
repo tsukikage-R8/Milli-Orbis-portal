@@ -346,7 +346,7 @@
       + stepLabel(3, "内容を入力する", "form")
       + field("サイト名・サービス名" + (sel === "other" ? "（必須）" : "（「その他」の場合のみ）"), input("serviceNote", "例：○○（URLがあれば本文へ）"))
       + field("件名（任意）", input("subject", "例：誤字の報告"))
-      + field("本文（必須）", textarea("body", "お問い合わせ内容を記入してください", 5))
+      + field("本文（必須）", textarea("body", "お問い合わせ内容を記入してください", 5), "返信・連絡が必要な場合は、本文中にその旨を明記してください（メールアドレス、またはご記入のXアカウント宛にご連絡します）。")
       + field("メールアドレス（必須）", input("email", "例：name@example.com", "", "email"), "迷惑行為防止のため必須です。返信に使います。")
       + field("Xアカウント（任意）", input("xAccount", "例：@SunSunmachi"), "XのDMでの連絡を希望する方はご記入ください。")
       + '<input data-f="company" type="text" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;top:0" aria-hidden="true">'
@@ -630,7 +630,7 @@
       }
       return (pg.target === "other" ? field("サイト名・サービス名", input("serviceNote", "例：○○（URLがあれば本文へ）")) : "")
         + field("件名（任意）", input("subject", "例：誤字の報告"))
-        + field("本文（必須）", textarea("body", "お問い合わせ内容を記入してください", 5))
+        + field("本文（必須）", textarea("body", "お問い合わせ内容を記入してください", 5), "返信・連絡が必要な場合は、本文中にその旨を明記してください（メールアドレス、またはご記入のXアカウント宛にご連絡します）。")
         + field("メールアドレス（必須）", input("email", "例：name@example.com", "", "email"), "迷惑行為防止のため必須です。返信に使います。")
         + field("Xアカウント（任意）", input("xAccount", "例：@SunSunmachi"), "XのDMでの連絡を希望する方はご記入ください。");
     }
