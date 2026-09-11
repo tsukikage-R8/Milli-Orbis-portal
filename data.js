@@ -1697,6 +1697,15 @@ const COUNTDOWN = [
 
 const NEWS = [
   {
+    date: "2026-09-09",
+    tag: "重大発表",
+    title: "【お知らせ】ミリプロに、新しい星が加わります！",
+    desc: "ミリプロ公式Xにて「ミリプロに、新しい星が加わります。続報をお楽しみに🐢💨」と発表。続報に注目！",
+    image: "https://pbs.twimg.com/media/HRs0RCDbwAA1Qwm?format=jpg&name=large",
+    url: "https://x.com/Mil_Pro_/status/2097610970613117371",
+    en: { tag: "Major Announcement", title: "[Notice] A new star will join MilliPro!", desc: "Announced on official X: 'A new star will join MilliPro. Stay tuned!' 🐢💨" }
+  },
+  {
     date: "2026-09-06",
     tag: "サイト更新",
     title: "【サイト更新】「Milli Orbis」をアップデートしました！",
@@ -1851,11 +1860,9 @@ const EVENTS = [
 ];
 
 const X_POSTS = [
+  "https://x.com/Mil_Pro_/status/2097610970613117371",
   "https://x.com/Mil_Pro_/status/2095708467248214056",
-  "https://x.com/Mil_Pro_/status/2094983904189178149",
-  "https://x.com/Mil_Pro_/status/2088971545511444730",
-  "https://x.com/Mil_Pro_/status/2088971188920050018",
-  "https://x.com/Mil_Pro_/status/2088969048700899793"
+  "https://x.com/Mil_Pro_/status/2094983904189178149"
 ];
 
 const HISTORY = [
