@@ -96,6 +96,7 @@ function isOAuthInAppBrowser() {
 }
 
 function signInWithOAuthProvider(provider) {
+  try { if (typeof initFirebase === 'function') initFirebase() } catch (e) {}
   if (!isAuthAvailable()) return Promise.reject(new Error('auth unavailable'))
   if (isOAuthInAppBrowser()) return firebase.auth().signInWithRedirect(provider)
   return firebase.auth().signInWithPopup(provider).catch(function (e) {
@@ -107,6 +108,7 @@ function signInWithOAuthProvider(provider) {
 }
 
 function milliproLoginWithGoogle() {
+  try { if (typeof initFirebase === 'function') initFirebase() } catch (e) {}
   if (!isAuthAvailable()) return Promise.reject(new Error('auth unavailable'))
   var provider = new firebase.auth.GoogleAuthProvider()
   try { provider.setCustomParameters({ prompt: 'select_account' }) } catch (e) {}
@@ -114,6 +116,7 @@ function milliproLoginWithGoogle() {
 }
 
 function milliproLoginWithTwitter() {
+  try { if (typeof initFirebase === 'function') initFirebase() } catch (e) {}
   if (!isAuthAvailable()) return Promise.reject(new Error('auth unavailable'))
   var provider = new firebase.auth.TwitterAuthProvider()
   return signInWithOAuthProvider(provider)
@@ -125,9 +128,14 @@ function consumeMilliproRedirectResult() {
 }
 
 function oauthErrorMessage(e) {
-  if (!e || !e.code) return (e && e.message) || 'エラーが発生しました。'
+  if (!e || !e.code) {
+    if (e && e.message === 'auth unavailable') return 'ログイン機能の準備ができていません。ページを再読み込みしてください。'
+    return (e && e.message) || 'エラーが発生しました。'
+  }
   if (e.code === 'auth/popup-closed-by-user' || e.code === 'auth/cancelled-popup-request') return 'ログインがキャンセルされました。'
   if (e.code === 'auth/popup-blocked') return 'ポップアップがブロックされました。リダイレクトで再試行しています...'
+  if (e.code === 'auth/unauthorized-domain') return 'このドメインが承認されていません。管理者にお問い合わせください。'
+  if (e.code === 'auth/operation-not-supported-in-this-environment') return 'この環境ではポップアップが使えません。別のブラウザをお試しください。'
   if (e.code === 'auth/account-exists-with-different-credential') return 'このメールアドレスは既に別のログイン方法（メール/ Google / X）で登録されています。元の方法でログインした後、マイページで紐付けてください。'
   if (e.code === 'auth/credential-already-in-use') return 'この Google/X アカウントは既に別のアカウントに紐付けられています。'
   if (e.code === 'auth/requires-recent-login') return 'セキュリティのため再ログインが必要です。一度ログアウトして再ログインしてください。'
@@ -265,6 +273,7 @@ function milliproResetPassword(email) {
 }
 
 // プロフィールを保証する（無ければローカルの playerId / 名前 / アイコン / 一言 / 最推し / 推しで作成）→ Promise<profile>
+// Auth の displayName / photoURL も初期値に使う（Google/X 初回ログイン用）
 function ensureMilliproProfile(uid) {
   var ud = null
   try { ud = JSON.parse(localStorage.getItem('millipro_userdata')) } catch (e) {}
@@ -274,15 +283,17 @@ function ensureMilliproProfile(uid) {
   var localComment = ud && (ud.comment || ud.playerMessage)
   var localUltimateOshi = ud && MILLIPRO_TALENTS[mpTalentId(ud.ultimateOshi)] ? mpTalentId(ud.ultimateOshi) : null
   var localFavorites = mpNormalizeTalentIds(ud && ud.favorites)
+  var authName = mpAuthDisplayName()
+  var authPhoto = mpAuthPhotoURL()
 
   return firebase.database().ref('millipro/users/' + uid + '/profile').once('value').then(function (snap) {
     var p = snap.val()
     var now = Date.now()
     if (p && typeof p === 'object') {
       var changed = false
+      if (!p.playerName && (localName || authName)) { p.playerName = localName || authName; changed = true }
+      if (!p.icon && (p.playerIcon || localIcon || authPhoto)) { p.icon = p.playerIcon || localIcon || authPhoto; changed = true }
       if (!p.playerId) { p.playerId = localId || newPlayerIdFallback(); changed = true }
-      if (!p.playerName && localName) { p.playerName = localName; changed = true }
-      if (!p.icon && (p.playerIcon || localIcon)) { p.icon = p.playerIcon || localIcon; changed = true }
       if (!p.comment && (p.playerMessage || localComment)) { p.comment = p.playerMessage || localComment; changed = true }
       if (!p.ultimateOshi && localUltimateOshi) { p.ultimateOshi = localUltimateOshi; changed = true }
       if (!p.favorites && localFavorites.length) { p.favorites = localFavorites; changed = true }
@@ -291,8 +302,8 @@ function ensureMilliproProfile(uid) {
     }
     var np = {
       playerId: localId || newPlayerIdFallback(),
-      playerName: localName || '',
-      icon: localIcon || '',
+      playerName: localName || authName || '',
+      icon: localIcon || authPhoto || '',
       comment: localComment || '',
       ultimateOshi: localUltimateOshi,
       favorites: localFavorites,
@@ -378,7 +389,23 @@ function mpPushCheer(videoId) {
 var _mpAfterLogin = null
 function mpSetAfterLogin(cb) { _mpAfterLogin = cb }
 
-// プロフィール情報（localStorage + ログイン中はメール）をまとめて返す
+// Firebase Auth の表示名・画像を取得（Google / X のアバター用フォールバック）
+function mpAuthUser() {
+  try {
+    if (isAuthAvailable() && firebase.auth().currentUser) return firebase.auth().currentUser
+  } catch (e) {}
+  return null
+}
+function mpAuthPhotoURL() {
+  var u = mpAuthUser()
+  return (u && u.photoURL) ? u.photoURL : ''
+}
+function mpAuthDisplayName() {
+  var u = mpAuthUser()
+  return (u && u.displayName) ? u.displayName : ''
+}
+
+// プロフィール情報（localStorage + ログイン中はメール / Auth画像・表示名も返す）
 function mpProfileInfo() {
   var ud = null
   try { ud = JSON.parse(localStorage.getItem('millipro_userdata')) } catch (e) {}
@@ -387,22 +414,40 @@ function mpProfileInfo() {
   var icon = ud && ud.icon ? ud.icon : ''
   var comment = ud && ud.comment ? ud.comment : ''
   var email = ''
+  var photoURL = ''
+  var displayName = ''
   try {
-    if (isAuthAvailable() && firebase.auth().currentUser) email = firebase.auth().currentUser.email || ''
+    var au = mpAuthUser()
+    if (au) {
+      email = au.email || ''
+      photoURL = au.photoURL || ''
+      displayName = au.displayName || ''
+    }
   } catch (e) {}
-  return { pid: pid, name: name, icon: icon, comment: comment, email: email }
+  if (!name && displayName) name = displayName
+  if (!icon && photoURL) icon = photoURL
+  return { pid: pid, name: name, icon: icon, comment: comment, email: email, photoURL: photoURL, displayName: displayName }
 }
 
 // アイコン（画像URL / dataURL）を表示。未設定なら名前の頭文字 or デフォルト
+// 優先: カスタムicon → photoURL(Auth) → 名前の頭文字 → デフォルトSVG
+function mpEscapeAttr(s) {
+  return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/"/g, '%22').replace(/</g, '%3C').replace(/>/g, '%3E')
+}
 function renderUserIcon(el, user) {
   if (!el) return
-  var icon = user && user.icon
+  var icon = user && (user.icon || user.photoURL)
+  var label = user && (user.playerName || user.displayName || user.name)
+  if (!icon && label) {
+    // playerName が画像URLの場合も画像として扱う（旧データ互換）
+    if (/^(https?:\/\/|data:image\/)/i.test(label)) icon = label
+  }
   if (typeof icon === 'string' && /^(https?:\/\/|data:image\/)/i.test(icon)) {
-    el.innerHTML = '<img src="' + icon + '" alt="icon">'
+    el.innerHTML = '<img src="' + mpEscapeAttr(icon) + '" alt="icon" referrerpolicy="no-referrer">'
   } else if (icon) {
     el.textContent = icon
-  } else if (user && user.playerName) {
-    el.textContent = user.playerName.charAt(0)
+  } else if (label) {
+    el.textContent = String(label).charAt(0)
   } else {
     el.innerHTML = '<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>'
   }
@@ -427,17 +472,29 @@ function mp_hide(id) {
   if (m) m.classList.remove('open')
 }
 
+function mpUpdateHeaderIcon(uid, info) {
+  var headerIcon = document.getElementById('profile-header-icon')
+  if (!headerIcon) return
+  if (uid) {
+    var view = info || mpProfileInfo()
+    // カスタムicon → Auth画像 → 名前頭文字 の順で表示
+    renderUserIcon(headerIcon, view)
+  } else {
+    headerIcon.innerHTML = '<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>'
+  }
+  var headerBtn = document.getElementById('profile-btn')
+  if (headerBtn) {
+    headerBtn.dataset.logged = uid ? '1' : '0'
+    headerBtn.title = (uid && info && info.pid) ? ('連携ID: ' + info.pid) : 'アカウント連携'
+  }
+}
+
 function mpRender(uid) {
+  var info = uid ? mpProfileInfo() : { pid: '', name: '', icon: '', comment: '', email: '', photoURL: '', displayName: '' }
+  // ヘッダー右上の丸アイコンは常に更新（#acctBtn の有無に依存しない）
+  mpUpdateHeaderIcon(uid, info)
   var hb = document.getElementById('acctBtn')
   if (hb) {
-    var info = uid ? mpProfileInfo() : { pid: '', name: '', icon: '', comment: '', email: '' }
-    // ヘッダーのプロフィール丸アイコン (#profile-header-icon) も同様に未ログイン時はデフォルト表示
-    var headerIcon = document.getElementById('profile-header-icon')
-    if (headerIcon) {
-      if (uid && info.icon) renderUserIcon(headerIcon, info)
-      else if (uid && info.name) headerIcon.textContent = info.name.charAt(0)
-      else headerIcon.innerHTML = '<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>'
-    }
     hb.textContent = ''
     var ico = document.createElement('span')
     ico.className = 'acct-btn-ico'
@@ -469,17 +526,22 @@ function mpRender(uid) {
 // Firebase の profile（名前・アイコン・一言）をアカウント表示に反映
 function mpLoadProfile(uid) {
   var nameEl = document.getElementById('mp-profile-name')
-  if (!nameEl) return
+  if (!nameEl) { if (uid) mpUpdateHeaderIcon(uid, null); return }
   var render = function (p) {
     _mpProfile = p
-    nameEl.textContent = p.playerName || '名無し'
+    var authPhoto = mpAuthPhotoURL()
+    var authName = mpAuthDisplayName()
+    var effName = p.playerName || authName || '名無し'
+    var effIcon = p.icon || p.playerIcon || authPhoto || ''
+    nameEl.textContent = effName
     var msgEl = document.getElementById('mp-profile-msg')
     if (msgEl) msgEl.textContent = p.comment || p.playerMessage || ''
     var iconEl = document.getElementById('mp-profile-icon')
     if (iconEl) {
-      var ic = p.icon || p.playerIcon || ''
-      renderUserIcon(iconEl, { icon: ic, playerName: p.playerName || '' })
+      renderUserIcon(iconEl, { icon: effIcon, playerName: effName, photoURL: authPhoto, displayName: authName })
     }
+    // ヘッダーも最新のプロフィールで更新
+    try { mpUpdateHeaderIcon(uid, { pid: p.playerId || getMilliproPlayerId() || '', name: effName, icon: effIcon, comment: p.comment || '', photoURL: authPhoto, displayName: authName }) } catch (e) {}
   }
   if (_mpProfile) { render(_mpProfile); return }
   if (!uid || !firebaseAvailable()) return
@@ -490,17 +552,32 @@ function mpLoadProfile(uid) {
 }
 
 // プロフィール編集画面へ
+function mpNeedsProfileSetup(profile) {
+  var p = profile || _mpProfile || {}
+  var hasName = !!(p.playerName && String(p.playerName).trim())
+  var hasIcon = !!(p.icon || p.playerIcon)
+  return (!hasName || !hasIcon)
+}
 function mpStartEdit() {
   var p = _mpProfile || {}
   var nameEl = document.getElementById('mp-pname')
   var iconEl = document.getElementById('mp-picon')
   var msgEl = document.getElementById('mp-pmsg')
   if (!nameEl || !iconEl || !msgEl) return
+  var authPhoto = mpAuthPhotoURL()
+  var authName = mpAuthDisplayName()
   nameEl.value = p.playerName || ''
-  iconEl.value = ''
+  // 短い絵文字/URLだけ入力欄に戻す（dataURL長文は空のまま）
+  var curIcon = p.icon || p.playerIcon || ''
+  iconEl.value = (curIcon && curIcon.length < 500) ? curIcon : ''
   msgEl.value = p.comment || p.playerMessage || ''
+  var hint = document.getElementById('mp-edit-note')
+  if (hint && mpNeedsProfileSetup(p)) {
+    if (!p.playerName) hint.textContent = 'ニックネームを登録してください（全サイトで共有されます）'
+    else if (!curIcon) hint.textContent = 'アイコンを設定してください（絵文字・画像URL・画像アップロード）'
+  }
   var preview = document.getElementById('mp-picon-preview')
-  if (preview) renderUserIcon(preview, { icon: p.icon || p.playerIcon || p.playerName || '', playerName: p.playerName || '' })
+  if (preview) renderUserIcon(preview, { icon: curIcon || authPhoto || p.playerName || authName || '', playerName: p.playerName || authName || '', photoURL: authPhoto, displayName: authName })
   var edit = document.getElementById('mp-account-edit')
   var ok = document.getElementById('mp-account-ok')
   if (edit) edit.style.display = 'block'
@@ -664,7 +741,8 @@ function mpSubmitSignup() {
 function mpLogout() {
   milliproLogout().then(function () {
     _mpProfile = null
-    mpRender(getMilliproUid())
+    try { mpUpdateHeaderIcon(null, null) } catch (e) {}
+    mpRender(null)
     mpRefreshBanner()
   })
 }
@@ -732,9 +810,9 @@ function mpOAuthLogin(provider) {
         setMsg("Milli Orbisアカウントにログインしました");
         if (typeof mpRender === "function") mpRender(uid);
         mpRefreshBanner();
-        // ニックネーム未設定なら編集を促す（Unishare と同機構）
+        // ニックネーム・アイコン未設定なら編集を促す（メール登録時と同様）
         var prof = _mpProfile || {}
-        if (!prof.playerName) setTimeout(function(){ try{ mpOpen(); mpStartEdit(); }catch(e){} }, 400)
+        if (mpNeedsProfileSetup(prof)) setTimeout(function(){ try{ mpOpen(); mpStartEdit(); }catch(e){} }, 400)
       });
     } else {
       setMsg("Milli Orbisアカウントにログインしました");
@@ -981,15 +1059,15 @@ onMilliproAuth(function (uid) {
       mpRender(uid)
       mpClose()
       mpRefreshBanner()
-      // ニックネーム未登録なら登録を促す（Unishare 同様: 初回ログイン時に編集を開く）
-      var needsNickname = !profile || !profile.playerName
-      if (needsNickname) {
+      // ニックネーム・アイコン未登録なら登録を促す（初回ログイン時に編集を開く）
+      var needsSetup = !profile || mpNeedsProfileSetup(profile)
+      if (needsSetup) {
         var seen = false
         try { seen = localStorage.getItem('milli-nickname-prompted') === '1' } catch(e){}
         // 初回のみ自動で編集を開く（2回目以降は手動）
         if (!seen) {
           try { localStorage.setItem('milli-nickname-prompted','1') } catch(e){}
-          setTimeout(function(){ try{ mpOpen(); mpStartEdit(); var n=document.getElementById('mp-edit-note')||document.getElementById('mp-picon-preview'); if(n && n.parentElement) { var hint=document.getElementById('mp-edit-note'); if(hint) hint.textContent='ニックネームを登録してください（全サイトで共有されます）'; } }catch(e){} }, 600)
+          setTimeout(function(){ try{ mpOpen(); mpStartEdit(); }catch(e){} }, 600)
         }
       }
     }).catch(function () {
