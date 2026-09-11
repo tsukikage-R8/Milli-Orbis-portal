@@ -6,6 +6,25 @@ eval(dataSrc.replace(/^const (\w+) =/gm, "globalThis.$1 ="));
 
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
+// Cloudflare移行: 旧Render→Pages ハイブリッド用（再生成時も維持すること）
+function redirectHead(canonical) {
+  var newBase = (typeof SITE_CONFIG !== "undefined" && SITE_CONFIG.siteUrl) ? SITE_CONFIG.siteUrl : "https://milli-orbis-portal.pages.dev";
+  return '<link rel="canonical" href="' + canonical + '">\n'
+    + '<!-- 旧Render URLから移行: https://milli-orbis-portal.onrender.com は本ファイルのJSで pages.dev へ301相当リダイレクト -->\n'
+    + '<script>\n(function(){\n  try {\n    var NEW_BASE = \'' + newBase + '\';\n'
+    + '    var isOldHost = location.hostname.indexOf(\'onrender.com\') !== -1;\n'
+    + '    var isCrawler = /Twitterbot|facebookexternalhit|Slackbot|Discordbot|LinkedInBot|LineBot|SkypeUriPreview/i.test(navigator.userAgent);\n'
+    + '    if (isOldHost && !isCrawler) {\n      var newUrl = NEW_BASE + location.pathname + location.search + location.hash;\n      location.replace(newUrl);\n    }\n  } catch(e){}\n})();\n</script>';
+}
+function migrateBanner(canonical) {
+  return '<!-- Cloudflare移行: 旧RenderでJS無効/遅延時に表示するfallbackバナー -->\n'
+    + '<div id="oldHostBanner" style="display:none;position:fixed;top:0;left:0;right:0;z-index:200;background:#fff3cd;color:#664d03;border:1px solid #ffecb5;padding:10px 14px;text-align:center;font-size:13px;box-shadow:0 2px 8px rgba(0,0,0,0.08)">\n'
+    + '移行しました: 新サイトは <a href="' + canonical + '" style="color:#0d6efd;font-weight:800">' + canonical + '</a> です。自動で切り替わらない方はこちらをクリックしてください。\n</div>\n'
+    + '<script>\n(function(){\n  try{\n    if(location.hostname.indexOf(\'onrender.com\')!==-1){\n      var b=document.getElementById(\'oldHostBanner\');\n      if(b) b.style.display=\'block\';\n'
+    + '      setTimeout(function(){\n        if(location.hostname.indexOf(\'onrender.com\')!==-1 && b){ b.style.background=\'#ffe69c\'; }\n      },3000);\n    }\n  }catch(e){}\n})();\n</script>\n'
+    + '<noscript><div style="background:#fff3cd;color:#664d03;border:1px solid #ffecb5;padding:10px 14px;text-align:center;font-size:13px;">移行しました: 新サイトは <a href="' + canonical + '" style="color:#0d6efd;font-weight:800">' + canonical + '</a> です。</div></noscript>';
+}
+
 function tabs(m) {
   return MEMBERS.map((x) =>
     '<a class="t-tab' + (x.id === m.id ? " active" : "") + '" href="' + x.id + '.html" data-i18n-name="' + x.id + '">' +
@@ -568,12 +587,14 @@ function page(m) {
 <meta name="twitter:title" content="${m.name}（${m.nameEn}）| Milli Orbis">
 <meta name="twitter:description" content="${esc(m.catch)}">
 <meta name="twitter:image" content="${SITE_CONFIG.siteUrl}${SITE_CONFIG.ogImage}">
+${redirectHead(SITE_CONFIG.siteUrl + "/" + m.id + ".html")}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body data-member="${m.id}" data-oshi="">
+${migrateBanner(SITE_CONFIG.siteUrl + "/" + m.id + ".html")}
 ${decoHtml(m)}
 <header id="siteHeader">
   <div class="header-inner">
@@ -688,12 +709,14 @@ function simplePage(o) {
 <meta name="twitter:title" content="${o.title} | Milli Orbis">
 <meta name="twitter:description" content="${esc(o.desc)}">
 <meta name="twitter:image" content="${SITE_CONFIG.siteUrl}${SITE_CONFIG.ogImage}">
+${redirectHead(SITE_CONFIG.siteUrl + "/" + o.file)}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body data-member="" data-oshi="">
+${migrateBanner(SITE_CONFIG.siteUrl + "/" + o.file)}
 <header id="siteHeader">
   <div class="header-inner">
     <a class="logo" href="index.html"><img src="images/rogo/Milli%20Orbis-rogo.png" alt="Milli Orbis"></a>
@@ -804,11 +827,11 @@ fs.writeFileSync(path.join(outDir, "songs.html"), simplePage({
   di18n: "pageDesc.songs",
   desc: "ミリプロの楽曲・歌動画をまとめたデータベース。歌ってみた・公式楽曲・歌枠を曲単位で検索でき、元曲から誰が歌っているかも調べられます。",
   cta: `
-      <a class="unishare-cta" href="https://milli-unishare.onrender.com/" target="_blank" rel="noopener">
+      <a class="unishare-cta" href="https://milli-unishare.pages.dev/" target="_blank" rel="noopener">
         <img src="images/icon/Milli%20Unishare-icon.PNG" alt="Milli Unishare" loading="lazy">
         <span data-i18n="songs.unishare">通常動画・ショート・ライブ配信のデータベースはこちら</span>
       </a>
-      <a class="millivibe-cta" href="https://milli-unishare.onrender.com/millivibe" target="_blank" rel="noopener">
+      <a class="millivibe-cta" href="https://milli-unishare.pages.dev/millivibe" target="_blank" rel="noopener">
         <span class="mv-badge" data-i18n="songs.millivibeBadge">新サービス</span>
         <img src="images/rogo/Millivibe-rogo.png" alt="Millivibe" loading="lazy">
         <span data-i18n="songs.millivibe">曲を聴けるサブスク風サイトはこちら</span>
