@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-09-10",
+  "generatedAt": "2026-09-11",
   "songs": {
     "surges＆": {
       "title": "Surges",
@@ -1314,10 +1314,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/46/4a/84/464a843d-14cc-e5e2-a9d6-763eb558e104/4547366270358.jpg/600x600bb.jpg"
     },
     "ちゅ、多様性。": {
-      "title": "MAD HEAD LOVE",
-      "artist": "米津玄師",
-      "album": "YANKEE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg"
+      "title": "願い〜あの頃のキミへ〜",
+      "artist": "當山 みれい",
+      "album": "願い E.P.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/55/8b/98/558b9848-812d-6adc-5262-faf7a275c623/jacket_SRXX02373B00Z_550.jpg/600x600bb.jpg"
     },
     "trustonme-themeofe.t.e": {
       "title": "Trust On Me -Theme of E.T.E- (feat. MARiA)",
@@ -1697,8 +1697,8 @@ window.SONG_MASTER = {
     "ウタカタララバイ": {
       "title": "ウタカタララバイ",
       "artist": "Ado",
-      "album": "ウタの歌 ONE PIECE FILM RED",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/42/a3/cc/42a3cc35-fdb7-2ae7-02f3-e5a90f32eb8e/22UMGIM74128.rgb.jpg/600x600bb.jpg",
+      "album": "Adoのベストアドバム",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/be/c3/a6bec30f-8698-b206-73ad-a559e3f3edc6/25UMGIM35010.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "Utakatararabai"
       }
