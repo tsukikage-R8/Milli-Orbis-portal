@@ -247,6 +247,8 @@
         arr.sort(function(a,b){return (b.createdAt||0)-(a.createdAt||0);});
         liveCache=arr;
         render();
+      },function(err){
+        try{ if(typeof console!=="undefined"&&console.warn) console.warn("sightingsLive read failed:", err && err.code); }catch(e){}
       });
     }
   }catch(e){}

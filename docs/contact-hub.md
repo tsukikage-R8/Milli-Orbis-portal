@@ -9,7 +9,7 @@
   - ② MilliDexへのお問い合わせ：`有志マップ／過去グッズ申請`
 - 投稿は共有 Firebase（millipro-shared）の `contactQueue` に `status:pending` で蓄積。
   運営がコンソールで精査し、`data/sightings.json`・グッズデータへ手動反映する（既存PRレビュー運用と接続）。
-- ただし `target:map`（有志マップ目撃情報）は **承認なし即時反映**：公開ノード `sightingsLive` へ直接記録され、`goods/map.html` が購読して即表示する。連絡先・uid・UAは送らない。
+- ただし `target:map`（有志マップ目撃情報）は **承認なし即時反映**：公開ノード `sightingsLive` へ直接記録され、`goods/map.html` が購読して即表示する。連絡先・uid・UAは送らない。同時に管理用の控えを `mapInbox` へ残す（通常問い合わせの `contactQueue` とは分離）。
 - 未ログイン投稿を許可（honeypot＋1分1件制限）。荒らし時はログイン必須へ切替可能な作り。
 
 ## 2. データ仕様 `contactQueue/{pushId}`
@@ -22,7 +22,7 @@
 | `email` | string | ①のみ○ | ①のみ必須（迷惑行為防止）。形式 `*@*.*`・5〜200字 |
 | `serviceNote` | string | △ | `target:other` 時のサイト名等（最大100字） |
 | `subject` | string | △ | ①のみ件名（最大100字） |
-| `body` | string | ○ | 本文（最大2000字。②map/goodsでは補足・コメント欄） |
+| `body` | string | ○（mapのみ任意） | 本文（最大2000字。②map/goodsでは補足・コメント欄。mapは空可） |
 | `fields` | object | ○ | 種別固有項目（下表。値は文字列・最大200字/項目） |
 | `contact` | string | — | 連絡先（最大200字）。①ではXアカウント、②ではX IDやメール等の任意記入 |
 | `uid` | string/null | ○ | Firebase uid（未ログインは `null`。匿名表示の運用） |
@@ -53,6 +53,20 @@
 
 ※ `contact`／`email`／`uid` の保持をルールで禁止（公開ノードのため）。
 
+## 2c. データ仕様 `mapInbox/{pushId}`（有志マップの控え・管理者のみ閲覧）
+
+| field | 型 | 必須 | 内容 |
+|---|---|---|---|
+| `entry` | string | ○ | `millidex` 固定 |
+| `target` | string | ○ | `map` 固定 |
+| `fields` | object | ○ | `shop`（店舗名・必須）／`pref`（都道府県・必須）／`date`（任意）／`item`（グッズ名・必須）／`member`（任意） |
+| `body` | string | — | 補足（空なら省略。2000字以内） |
+| `uid` | string | — | 投稿者のuidまたは連携ID（匿名運用の参考） |
+| `status` | string | ○ | `pending`（対応済みは `approved`／`rejected` に更新） |
+| `createdAt` | number | ○ | `Date.now()`（`sightingsLive` 側と同一値） |
+
+※ 通常問い合わせの `contactQueue` とは別ノードにして混ざらないようにしている。
+
 ## 3. 貼付用 Realtime Database ルール（コンソール作業）
 
 既存ルールに以下を**追記**して公開する。`contactQueue` 以外には触らないこと。
@@ -72,6 +86,7 @@
 
 ```json
 "sightingsLive": {
+  ".read": true,
   "$id": {
     ".read": true,
     ".write": "!data.exists()",
@@ -80,13 +95,26 @@
 }
 ```
 
+※ 親レベルの `.read: true` が必須。子（`$id`）だけに書いても一覧購読は権限エラーになる（2026-09の不具合原因）。
 ※ `sightingsLive` は公開読取のため `contact`／`email`／`uid` の保持を禁止している。
+
+```json
+"mapInbox": {
+  "$msg": {
+    ".write": "!data.exists()",
+    ".validate": "newData.hasChildren(['entry','target','fields','status','createdAt']) && newData.child('entry').val() === 'millidex' && newData.child('target').val() === 'map' && newData.child('status').val() === 'pending' && newData.child('createdAt').isNumber() && newData.child('fields/shop').isString() && newData.child('fields/shop').val().length >= 1 && newData.child('fields/shop').val().length <= 200 && newData.child('fields/pref').isString() && newData.child('fields/pref').val().length >= 1 && newData.child('fields/pref').val().length <= 10 && newData.child('fields/item').isString() && newData.child('fields/item').val().length >= 1 && newData.child('fields/item').val().length <= 200 && (!newData.hasChild('body') || (newData.child('body').isString() && newData.child('body').val().length <= 2000)) && (!newData.hasChild('uid') || newData.child('uid').isString())"
+  }
+}
+```
+
+※ `.read` なし（一覧閲覧・承認操作は Firebase コンソールで行う）。荒らし発生時は `.write` に `"auth != null &&"` を付与してログイン必須化する。
 
 ## 4. 運用手順
 
-1. Firebaseコンソール → Realtime Database → `contactQueue` で `status:pending` を確認
-2. 内容精査：
-   - `target:map` → **即時反映済み**（`sightingsLive`）。ピンの位置ずれはコンソールで該当レコードの `lat`／`lng` を修正。不正投稿はレコードごと削除
+1. Firebaseコンソール → Realtime Database → `contactQueue` で `status:pending` を確認（通常問い合わせ）
+2. 有志マップは `mapInbox` で `status:pending` を確認（`contactQueue` には来ない）
+3. 内容精査：
+   - `target:map` → **即時反映済み**（`sightingsLive`）。ピンの位置ずれはコンソールで該当レコードの `lat`／`lng` を修正。不正投稿は `sightingsLive` と `mapInbox` の両方からレコードごと削除
    - `target:goods` → 妥当ならグッズデータへ追記 → PR
    - `target:orbis|unishare|games|other` → 対応（返信が必要なら `contact` 欄宛て）
 3. 対応済みレコードの `status` を `approved`／`rejected` に更新
@@ -102,7 +130,7 @@
 
 - `scripts/contact.js`：`pushContact(entry, target, data)`／honeypot（`company` 欄）／1分1件制限（localStorage `milli-contact-last`）／未設定・rules未適用時の画面案内
 - 下書き自動保存：入力のたびに `milli-contact-draft-{service,millidex}` へ保存。再描画・誤クローズ・リロードでも復元、送信成功で削除
-- `target:map` は `sightingsLive` へ公開レコードをpush（送信時にNominatimでジオコーディング、失敗時は県庁所在地フォールバック）。連絡先欄なし
+- `target:map` は `sightingsLive` へ公開レコードをpush（送信時にNominatimでジオコーディング、失敗時は県庁所在地フォールバック）＋ `mapInbox` へ控えを二重保存（`sightingsLive` 優先・控え失敗は警告のみ）。連絡先欄なし。補足コメントは任意（空なら `body` を送らない）
 - `goods/map.html`：`sightings.json`（既存承認分）＋`sightingsLive`（購読・即時反映）をマージ表示。全出力項目をエスケープ（XSS対策）
 - モーダルは `acct-overlay`／`acct-box` 意匠を流用し `scripts/contact.js` 内で生成（各頁HTMLは触らない）
 - 専用ページ `contact.html`：`ContactHub.renderPageForm()` でインライン描画（`?entry=`・`?target=` で初期選択可）。他画面からの導線は未設置

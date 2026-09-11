@@ -84,10 +84,17 @@
       }
     },
     "sightingsLive": {
+      ".read": true,
       "$id": {
         ".read": true,
         ".write": "!data.exists()",
         ".validate": "newData.hasChildren(['entry','target','place','prefecture','item','lat','lng','createdAt']) && newData.child('entry').val() === 'millidex' && newData.child('target').val() === 'map' && newData.child('place').isString() && newData.child('place').val().length >= 1 && newData.child('place').val().length <= 200 && newData.child('prefecture').isString() && newData.child('prefecture').val().length >= 1 && newData.child('prefecture').val().length <= 10 && newData.child('item').isString() && newData.child('item').val().length >= 1 && newData.child('item').val().length <= 200 && newData.child('lat').isNumber() && newData.child('lat').val() >= -90 && newData.child('lat').val() <= 90 && newData.child('lng').isNumber() && newData.child('lng').val() >= -180 && newData.child('lng').val() <= 180 && newData.child('createdAt').isNumber() && (!newData.hasChild('body') || (newData.child('body').isString() && newData.child('body').val().length <= 2000)) && !newData.hasChild('contact') && !newData.hasChild('email') && !newData.hasChild('uid')"
+      }
+    },
+    "mapInbox": {
+      "$msg": {
+        ".write": "!data.exists()",
+        ".validate": "newData.hasChildren(['entry','target','fields','status','createdAt']) && newData.child('entry').val() === 'millidex' && newData.child('target').val() === 'map' && newData.child('status').val() === 'pending' && newData.child('createdAt').isNumber() && newData.child('fields/shop').isString() && newData.child('fields/shop').val().length >= 1 && newData.child('fields/shop').val().length <= 200 && newData.child('fields/pref').isString() && newData.child('fields/pref').val().length >= 1 && newData.child('fields/pref').val().length <= 10 && newData.child('fields/item').isString() && newData.child('fields/item').val().length >= 1 && newData.child('fields/item').val().length <= 200 && (!newData.hasChild('body') || (newData.child('body').isString() && newData.child('body').val().length <= 2000)) && (!newData.hasChild('uid') || newData.child('uid').isString())"
       }
     }
   }

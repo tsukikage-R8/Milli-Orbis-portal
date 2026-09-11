@@ -9,6 +9,7 @@
 
   var QUEUE = "contactQueue";
   var LIVE_QUEUE = "sightingsLive"; // 有志マップ即時反映用（公開読取・連絡先なし）
+  var INBOX_QUEUE = "mapInbox"; // 有志マップの控え（管理者のみ閲覧・通常問い合わせと分離）
   var RATE_KEY = "milli-contact-last";
   var RATE_MS = 60000;
   var TARGETS = ["orbis", "unishare", "games", "other", "map", "goods"];
@@ -127,7 +128,8 @@
     if (entry !== "service" && entry !== "millidex") return Promise.resolve({ ok: false, error: "entry" });
     if (TARGETS.indexOf(target) === -1) return Promise.resolve({ ok: false, error: "target" });
     var body = trimStr(d.body, 2000);
-    if (!body) return Promise.resolve({ ok: false, error: "empty" });
+    var bodyOptional = (entry === "millidex" && target === "map");
+    if (!body && !bodyOptional) return Promise.resolve({ ok: false, error: "empty" });
     if (rateBlocked()) return Promise.resolve({ ok: false, error: "rate" });
     var kind = "other", email = null;
     if (entry === "service") {
@@ -146,20 +148,39 @@
     if (target === "goods" && !fields.item) return Promise.resolve({ ok: false, error: "required" });
     if (entry === "millidex" && target === "map") {
       // 有志マップは承認なし即時反映：公開ノードへ（連絡先・uid・UAは送らない）
+      // 控えを mapInbox にも残す（通常問い合わせと分離して管理用）
       return geocodeShop(fields.shop, fields.pref).then(function (ll) {
         if (!ll) return { ok: false, error: "db" };
         var database2 = db();
         if (!database2) return { ok: false, error: "unavailable" };
+        var now = Date.now();
         var rec2 = {
           entry: "millidex", target: "map",
           place: fields.shop, prefecture: fields.pref,
-          date: fields.date || null, item: fields.item,
-          memberId: fields.member || null, body: body,
-          lat: ll.lat, lng: ll.lng, createdAt: Date.now()
+          item: fields.item,
+          lat: ll.lat, lng: ll.lng, createdAt: now
         };
+        if (fields.date) rec2.date = fields.date;
+        if (fields.member) rec2.memberId = fields.member;
+        if (body) rec2.body = body;
         return database2.ref(LIVE_QUEUE).push(rec2).then(function () {
-          markSent();
-          return { ok: true };
+          var inboxRec = {
+            entry: "millidex", target: "map",
+            fields: { shop: fields.shop, pref: fields.pref, item: fields.item },
+            status: "pending", createdAt: now
+          };
+          if (fields.date) inboxRec.fields.date = fields.date;
+          if (fields.member) inboxRec.fields.member = fields.member;
+          if (body) inboxRec.body = body;
+          try { var u = getUid(); if (u) inboxRec.uid = u; } catch (e2) {}
+          return database2.ref(INBOX_QUEUE).push(inboxRec).then(function () {
+            markSent();
+            return { ok: true };
+          }).catch(function (e3) {
+            try { if (typeof console !== "undefined" && console.warn) console.warn("mapInbox write failed", e3); } catch (e4) {}
+            markSent();
+            return { ok: true };
+          });
         }).catch(function () {
           return { ok: false, error: "db" };
         });
@@ -386,7 +407,7 @@
         + field("目撃日（任意）", input("date", "例：2026-09-06", "", "date"))
         + field("グッズ名（必須）", input("item", "例：レトロポップver. 缶バッジ"))
         + field("タレント（任意）", '<select class="mo-field" data-f="member">' + memberOptions() + "</select>")
-        + field("補足・コメント", textarea("body", "在庫状況・売場の場所など", 3))
+        + field("補足・コメント（任意）", textarea("body", "在庫状況・売場の場所など", 3))
         + '<p class="acct-hint" style="margin:2px 0 0">投稿はそのまま公開されます。個人情報は書かないでください。</p>';
     } else {
       area.innerHTML = field("グッズ名（必須）", input("item", "例：○○記念グッズ アクリルスタンド"))
@@ -596,7 +617,7 @@
             + field("目撃日（任意）", input("date", "例：2026-09-06", "", "date"))
             + field("グッズ名（必須）", input("item", "例：レトロポップver. 缶バッジ"))
             + field("タレント（任意）", '<select class="mo-field" data-f="member">' + memberOptions() + "</select>")
-            + field("補足・コメント", textarea("body", "在庫状況・売場の場所など", 3))
+            + field("補足・コメント（任意）", textarea("body", "在庫状況・売場の場所など", 3))
             + '<p class="acct-hint" style="margin:2px 0 0">投稿はそのまま公開されます。個人情報は書かないでください。</p>';
         }
         return field("グッズ名（必須）", input("item", "例：○○記念グッズ アクリルスタンド"))
