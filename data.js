@@ -1,6 +1,6 @@
 const SITE_CONFIG = {
   name: "Milli Orbis",
-  siteUrl: "https://milli-orbis-portal.onrender.com",
+  siteUrl: "https://milli-orbis-portal.pages.dev",
   ogImage: "/images/Milli-Orbis-OGP.png",
   tagline: "ここを開けば、今のミリプロのすべてにアクセスできる",
   disclaimer: "本サイトはファンが運営する非公式のポータルサイトです。ミリプロ公式様とは一切関係ありません。",
@@ -1697,11 +1697,20 @@ const COUNTDOWN = [
 
 const NEWS = [
   {
+    date: "2026-09-09",
+    tag: "重大発表",
+    title: "【お知らせ】ミリプロに、新しい星が加わります！",
+    desc: "ミリプロ公式Xにて「ミリプロに、新しい星が加わります。続報をお楽しみに🐢💨」と発表。続報に注目！",
+    image: "https://pbs.twimg.com/media/HRs0RCDbwAA1Qwm?format=jpg&name=large",
+    url: "https://x.com/Mil_Pro_/status/2097610970613117371",
+    en: { tag: "Major Announcement", title: "[Notice] A new star will join MilliPro!", desc: "Announced on official X: 'A new star will join MilliPro. Stay tuned!' 🐢💨" }
+  },
+  {
     date: "2026-09-06",
     tag: "サイト更新",
     title: "【サイト更新】「Milli Orbis」をアップデートしました！",
     desc: "「Milli Orbis」をアップデートしました！内容は以下のとおりです。詳細は別のポストでご紹介します。ぜひご活用ください！・新サービス「MilliDex」の追加・オリジナルカーソルの追加と配布・鹿乃まほろさんページ追加／詳細は管理者のXにて紹介しています。",
-    image: "https://milli-orbis-portal.onrender.com/images/MilliDex-ogp-v2.png",
+    image: "https://milli-orbis-portal.pages.dev/images/MilliDex-ogp-v2.png",
     url: "https://x.com/SunSunmachi",
     en: { tag: "Site Update", title: "[Update] Milli Orbis has been updated!", desc: "New service MilliDex, original cursor distribution, and Kano Mahoro's page added. Details on the admin's X. Enjoy!" }
   },
@@ -1710,7 +1719,7 @@ const NEWS = [
     tag: "サイト更新",
     title: "【サイト更新】オリジナルカーソル配布＆Milli Orbisアカウント強化",
     desc: "推しカーソル（Win/Mac/Chromebook 15種）を一括DLで配布開始。ヘッダーの「カーソル」からサイト内でも即時切り替えできます。",
-    image: "https://milli-orbis-portal.onrender.com/images/Milli-Orbis-OGP.png",
+    image: "https://milli-orbis-portal.pages.dev/images/Milli-Orbis-OGP.png",
     url: "cursors.html",
     en: { tag: "Site Update", title: "[Update] Original Cursors & Milli Orbis Account Upgrade", desc: "15-type cursors for Win/Mac/Chromebook now available. Switch instantly from the header." }
   },
@@ -1803,7 +1812,7 @@ const NEWS = [
 ];
 
 const LAUNCHERS = [
-  { icon: "images/icon/Milli%20Unishare-icon.PNG", shape: { char: "U", grad: ["#00bec4", "#00878c"] }, name: "Milli Unishare", desc: "配信・動画の情報を共有するファンサービス", url: "https://milli-unishare.onrender.com/", en: { desc: "A fan service for sharing stream and video info" } },
+  { icon: "images/icon/Milli%20Unishare-icon.PNG", shape: { char: "U", grad: ["#00bec4", "#00878c"] }, name: "Milli Unishare", desc: "配信・動画の情報を共有するファンサービス", url: "https://milli-unishare.pages.dev/", en: { desc: "A fan service for sharing stream and video info" } },
   { icon: "images/icon/Millipro%20Chronicle-icon.jpeg", shape: { char: "C", grad: ["#f7cb0e", "#e6a700"] }, name: "Millipro Chronicle", desc: "ミリプロの歴史を記録するファン資料集（準備中）", url: "", en: { desc: "A fan archive recording MilliPro history (in preparation)" } },
   { icon: "images/icon/Milli%20Games-icon.png", shape: { char: "G", grad: ["#8575bf", "#5f4f9e"] }, name: "Milli Games", desc: "ミリプロ関連のファンゲーム集", url: "https://milli-games.onrender.com/index.html", en: { desc: "A collection of MilliPro fan games" } }
 ];
@@ -1851,11 +1860,9 @@ const EVENTS = [
 ];
 
 const X_POSTS = [
+  "https://x.com/Mil_Pro_/status/2097610970613117371",
   "https://x.com/Mil_Pro_/status/2095708467248214056",
-  "https://x.com/Mil_Pro_/status/2094983904189178149",
-  "https://x.com/Mil_Pro_/status/2088971545511444730",
-  "https://x.com/Mil_Pro_/status/2088971188920050018",
-  "https://x.com/Mil_Pro_/status/2088969048700899793"
+  "https://x.com/Mil_Pro_/status/2094983904189178149"
 ];
 
 const HISTORY = [
@@ -1876,7 +1883,7 @@ const HISTORY = [
   { date: "2026/8/16", title: "新グループ「ミリプロSONA」設立", desc: "音ノ乃のの・あくび・でもんすぺーど・鹿乃まほろの3名が所属", en: { title: "New group \"MilliPro SONA\" founded", desc: "Comprising Nono Nono, Akubi Demonspade, and Kano Mahoro" } },
   { date: "2026/8/22", title: "鹿乃まほろ デビュー（ミリプロSONA）", en: { title: "Kano Mahoro debuts (MilliPro SONA)" } },
   { date: "2026/8/29", title: "ミリプロリゾート 開催", desc: "秋葉原UDXにてPOP UP展示＆ファンミーティング（鹿乃まほろも参加）", en: { title: "MilliPro Resort held", desc: "POP UP exhibit & fan meeting at Akihabara UDX (feat. Kano Mahoro)" } },
-  { date: "2026/9/01", title: "本サイト 大幅アップデート（カーソル配布・Milli Orbisアカウント強化）", desc: "オリジナルカーソル配布開始、鹿乃まほろページ完全化、お知らせ最新化、スマホ表示改善", image: "https://milli-orbis-portal.onrender.com/dist/announce/x-cursor-scatter-1600x900.png", en: { title: "Major site update (Cursors & Account)", desc: "Original cursors, Mahoro page complete, news update, mobile improvements" } },
+  { date: "2026/9/01", title: "本サイト 大幅アップデート（カーソル配布・Milli Orbisアカウント強化）", desc: "オリジナルカーソル配布開始、鹿乃まほろページ完全化、お知らせ最新化、スマホ表示改善", image: "https://milli-orbis-portal.pages.dev/dist/announce/x-cursor-scatter-1600x900.png", en: { title: "Major site update (Cursors & Account)", desc: "Original cursors, Mahoro page complete, news update, mobile improvements" } },
   { date: "2026/8/13", title: "英語学習アプリ「Risdom」とコラボ開始", desc: "甘狼このみが登場するゲーム型英語学習アプリ「Risdom（リズダム）」とのコラボ", en: { title: "Collaboration with the English-learning app \"Risdom\" begins", desc: "A collab with the game-based English-learning app \"Risdom\", featuring Amakami Konomi" } }
 ];
 
