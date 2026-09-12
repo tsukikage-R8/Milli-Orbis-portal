@@ -144,10 +144,13 @@ window.SONG_MASTER = {
       }
     },
     "シスラブ＆": {
-      "title": "水曜日の約束",
-      "artist": "Gero",
-      "album": "TOKYO HAZE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0d/a9/e1/0da9e172-47a2-23ca-4e76-4f3ce85b6ba9/5021732654755.jpg/600x600bb.jpg"
+      "title": "シス×ラブ",
+      "artist": "Kureiji Ollie & アーニャ・メルフィッサ",
+      "album": "ほろはにヶ丘高校 -Covers-",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/11/0d/96/110d962f-5d25-c552-ebd8-dd750e48af36/4582729912438_art.png/600x600bb.jpg",
+      "en": {
+        "title": "Sis x Love"
+      }
     },
     "プラネテス": {
       "title": "プラネテス",
@@ -447,10 +450,13 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/aa/33/55/aa335541-9932-d73c-6b1e-62bd484fc83d/4547366642308.jpg/600x600bb.jpg"
     },
     "嫌々-halvesshortby": {
-      "title": "アンコール",
-      "artist": "YOASOBI",
-      "album": "THE BOOK",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7f/8c/90/7f8c90dd-e11f-30d5-271d-4b72eee970bd/195497666737.jpg/600x600bb.jpg"
+      "title": "ダーリン",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "ダーリン - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7b/b9/27/7bb92776-1f4a-06c6-e36e-de889f2b8620/25UMGIM01757.rgb.jpg/600x600bb.jpg",
+      "en": {
+        "title": "darling"
+      }
     },
     "メルト": {
       "title": "メルト -MIKU EXPO 2014 in INDONESIA Live-",
@@ -495,10 +501,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "ZERO",
-      "artist": "B'z",
-      "album": "ZERO - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2e/06/31/2e06318a-f63d-1273-9d2f-653017f40f5e/BMDR-129.jpg/600x600bb.jpg"
+      "title": "StarRingChild",
+      "artist": "Aimer",
+      "album": "Midnight Sun",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cf/4d/09/cf4d09ff-c6e8-0964-d493-cf0841a9216a/4560429727163.jpg/600x600bb.jpg"
     },
     "だから僕は音楽を辞めた": {
       "title": "だから僕は音楽を辞めた",
@@ -984,13 +990,10 @@ window.SONG_MASTER = {
       }
     },
     "マシャルマキシマイザ": {
-      "title": "マーシャル・マキシマイザー",
-      "artist": "吉乃",
-      "album": "PALETTE5",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a1/92/22/a1922258-5ccd-edba-3fdb-67721181c362/PCSP_03942.jpg/600x600bb.jpg",
-      "en": {
-        "title": "marshall maximizer"
-      }
+      "title": "マーシャル・マキシマイザー (feat. 可不)",
+      "artist": "柊マグネタイト",
+      "album": "KAF+YOU KAFU COMPILATION ALBUM シンメトリー",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6a/25/39/6a2539f1-882e-9822-3876-14ec354ca6e6/ANTCD-46511.jpg/600x600bb.jpg"
     },
     "祝福": {
       "title": "祝福",
@@ -1149,10 +1152,13 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5b/16/2c/5b162ca7-fd06-103b-c8db-344b24fd2a80/4547366806434.jpg/600x600bb.jpg"
     },
     "ドライフラワacoustic.": {
-      "title": "クリスマスイブ",
-      "artist": "優里",
-      "album": "クリスマスイブ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/47/73/9c/47739cae-c18c-4ab6-1a47-1c46c8ba3153/4547366593389.jpg/600x600bb.jpg"
+      "title": "ドライフラワー",
+      "artist": "Uru",
+      "album": "ファーストラヴ",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4a/d7/ff/4ad7ff26-851c-2a36-6a56-7cb51fb0c004/4547366496147.jpg/600x600bb.jpg",
+      "en": {
+        "title": "dried flowers"
+      }
     },
     "雨き声残響acoustic.": {
       "title": "セトリ (feat. Gang Boy)",
@@ -1323,10 +1329,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/81/36/af/8136afa9-cf94-f4d5-8460-9510c8f6e99f/PA00077485_0_180113_jacket.jpg/600x600bb.jpg"
     },
     "僕が死のうと思ったのは.": {
-      "title": "愛を伝えたいだとか",
-      "artist": "あいみょん",
-      "album": "青春のエキサイトメント",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d8/7b/7c/d87b7cfd-c88c-1003-bc5d-883882043e33/190295747138.jpg/600x600bb.jpg"
+      "title": "IRIS OUT",
+      "artist": "米津玄師",
+      "album": "IRIS OUT - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/f9/f1/e0f9f1f3-a088-b28d-6760-a28accabc705/4547366775181.jpg/600x600bb.jpg"
     },
     "無理に笑わなくて良いよ.": {
       "title": "ハロ/ハワユ",

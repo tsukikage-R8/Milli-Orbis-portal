@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-09-12T08:10:13.120Z",
+  "updatedAt": "2026-09-12T14:29:02.008Z",
   "streams": [
-    {
-      "id": "9d0t0z_cECo",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【 #音ノ瀬らこ3Dお披露目】君に元気をおすそ分けしに来たよ！【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/9d0t0z_cECo/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-12T10:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "hV4VEiD2bw0",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 #ゆらぎゆら3Dお披露目 】あなたと一緒に、まだ見ぬ海へ。【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/hV4VEiD2bw0/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-12T11:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "A3okHjHt2To",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【#にじぷかぬふ3Dお披露目】たっくさん動くところ見ててね👀【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/A3okHjHt2To/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-12T12:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "hHyNursn9mw",
       "memberId": "nono",
@@ -198,6 +171,56 @@
     }
   ],
   "videos": [
+    {
+      "id": "A3okHjHt2To",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【#にじぷかぬふ3Dお披露目】たっくさん動くところ見ててね👀【虹深°ぬふ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/A3okHjHt2To/hqdefault.jpg",
+      "publishedAt": "2026-09-12T14:03:17Z",
+      "live": false
+    },
+    {
+      "id": "hV4VEiD2bw0",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 #ゆらぎゆら3Dお披露目 】あなたと一緒に、まだ見ぬ海へ。【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/hV4VEiD2bw0/hqdefault.jpg",
+      "publishedAt": "2026-09-12T11:57:32Z",
+      "live": false
+    },
+    {
+      "id": "9d0t0z_cECo",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【 #音ノ瀬らこ3Dお披露目】君に元気をおすそ分けしに来たよ！【音ノ瀬らこ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/9d0t0z_cECo/hqdefault.jpg",
+      "publishedAt": "2026-09-12T10:55:06Z",
+      "live": false
+    },
+    {
+      "id": "mBY2AwNoW5s",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【アニメ】一緒にゴールしよ！#ミリプロ #anime",
+      "thumb": "https://i.ytimg.com/vi/mBY2AwNoW5s/hqdefault.jpg",
+      "publishedAt": "2026-09-12T09:00:28Z",
+      "live": false
+    },
+    {
+      "id": "szrTDsvSrR0",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【初オリジナル楽曲】『NET CHOOSE SHOW』 のダンスとってもかっこいい〜🌂#animation #shorts【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/szrTDsvSrR0/hqdefault.jpg",
+      "publishedAt": "2026-09-12T09:00:00Z",
+      "live": false
+    },
     {
       "id": "PihWaSk2m4M",
       "memberId": "tsukuri",
@@ -446,56 +469,6 @@
       "title": "【 Night Shippers 】配達バイトのホラゲーらしい【小廻こま/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/02awXqdLNOQ/hqdefault.jpg",
       "publishedAt": "2026-09-08T15:10:02Z",
-      "live": false
-    },
-    {
-      "id": "3fOVYO-ClXM",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "未来予測装置！？画面にゲージが出る世界 #minecraft",
-      "thumb": "https://i.ytimg.com/vi/3fOVYO-ClXM/hqdefault.jpg",
-      "publishedAt": "2026-09-08T11:03:17Z",
-      "live": false
-    },
-    {
-      "id": "xXZxNzExbvQ",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "イガク、クセ強い奴だけで歌ったらどうなんの！？ 【あくび・でもんすぺーど / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/xXZxNzExbvQ/hqdefault.jpg",
-      "publishedAt": "2026-09-08T09:28:34Z",
-      "live": false
-    },
-    {
-      "id": "bGxNgznISo0",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】安全な床を選んで生き残れ！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/bGxNgznISo0/hqdefault.jpg",
-      "publishedAt": "2026-09-08T09:00:06Z",
-      "live": false
-    },
-    {
-      "id": "fWkq-34lFBo",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 雑談 〗お誕生日にいただいたスパチャを読み読み〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/fWkq-34lFBo/hqdefault.jpg",
-      "publishedAt": "2026-09-07T14:12:25Z",
-      "live": true
-    },
-    {
-      "id": "BNybJ5Kttzs",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【How to Fish】ゆらちゃんと！話題の魚釣り×銃撃ゲームやるよ【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/BNybJ5Kttzs/hqdefault.jpg",
-      "publishedAt": "2026-09-07T13:41:45Z",
       "live": false
     }
   ],
