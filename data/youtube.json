@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T17:55:02.889Z",
+  "updatedAt": "2026-09-12T21:44:46.189Z",
   "streams": [
     {
       "id": "hHyNursn9mw",
@@ -171,6 +171,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "6yl_OWGIYLE",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【衝撃】あまりにも大型すぎる新メンバーを丸裸にしてみたらヤバすぎたwww",
+      "thumb": "https://i.ytimg.com/vi/6yl_OWGIYLE/hqdefault.jpg",
+      "publishedAt": "2026-09-12T20:11:16Z",
+      "live": false
+    },
     {
       "id": "A3okHjHt2To",
       "memberId": "nuhu",
@@ -459,16 +469,6 @@
       "title": "【 Night Shippers 】今話題の⁉バケモノが住む街で配達するホラーゲーム👻 【 #ゆまの酒盛り 】",
       "thumb": "https://i.ytimg.com/vi/PKXFq4Jeel8/hqdefault.jpg",
       "publishedAt": "2026-09-08T15:14:46Z",
-      "live": false
-    },
-    {
-      "id": "02awXqdLNOQ",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 Night Shippers 】配達バイトのホラゲーらしい【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/02awXqdLNOQ/hqdefault.jpg",
-      "publishedAt": "2026-09-08T15:10:02Z",
       "live": false
     }
   ],
