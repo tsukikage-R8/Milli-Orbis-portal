@@ -5,7 +5,7 @@ window.KARAOKE = [
     "memberId": "yura",
     "publishedAt": "2026-09-13",
     "title": "【おうち3D】3Dお披露目ありがとう！今日はゆっくり後夜祭♪【ゆらぎゆら/ミリプロ】",
-    "duration": 9877,
+    "duration": 9685,
     "songs": []
   },
   {
