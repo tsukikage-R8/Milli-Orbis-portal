@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-09-13T01:37:59.430Z",
+  "updatedAt": "2026-09-13T08:34:41.351Z",
   "streams": [
+    {
+      "id": "AEY7OFm1qqk",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 ほの暮しの庭 〗豊の秋！！！はじまる！！！#5〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/AEY7OFm1qqk/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-13T10:30:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "hHyNursn9mw",
       "memberId": "nono",
@@ -171,6 +180,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "AEY7OFm1qqk",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ほの暮しの庭 〗豊の秋！！！はじまる！！！#5〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/AEY7OFm1qqk/hqdefault_live.jpg",
+      "publishedAt": "2026-09-13T08:31:01Z",
+      "live": false
+    },
     {
       "id": "6yl_OWGIYLE",
       "memberId": "official",
@@ -459,16 +478,6 @@
       "title": "#2【ほの暮しの庭】この村ほのぼのできなくないですか…？【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/pNA7blKMe34/hqdefault.jpg",
       "publishedAt": "2026-09-08T16:17:43Z",
-      "live": false
-    },
-    {
-      "id": "PKXFq4Jeel8",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 Night Shippers 】今話題の⁉バケモノが住む街で配達するホラーゲーム👻 【 #ゆまの酒盛り 】",
-      "thumb": "https://i.ytimg.com/vi/PKXFq4Jeel8/hqdefault.jpg",
-      "publishedAt": "2026-09-08T15:14:46Z",
       "live": false
     }
   ],

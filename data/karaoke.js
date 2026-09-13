@@ -1,6 +1,14 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "lpD3yTeGWzQ",
+    "memberId": "yura",
+    "publishedAt": "2026-09-13",
+    "title": "【おうち3D】3Dお披露目ありがとう！今日はゆっくり後夜祭♪【ゆらぎゆら/ミリプロ】",
+    "duration": 9877,
+    "songs": []
+  },
+  {
     "id": "vQffqjWuMAc",
     "memberId": "raco",
     "publishedAt": "2026-09-11",

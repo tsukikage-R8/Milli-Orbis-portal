@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T08:34:41.351Z",
+  "updatedAt": "2026-09-13T15:09:47.703Z",
   "streams": [
     {
       "id": "AEY7OFm1qqk",
@@ -7,17 +7,17 @@
       "member": "眠雲ツクリ",
       "title": "〖 ほの暮しの庭 〗豊の秋！！！はじまる！！！#5〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/AEY7OFm1qqk/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-13T10:30:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-09-13T10:32:12Z",
+      "status": "live"
     },
     {
-      "id": "hHyNursn9mw",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【#ののとノクターン】第1回のゲストはなるみや様！┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/hHyNursn9mw/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-13T12:00:00Z",
-      "status": "upcoming"
+      "id": "lpD3yTeGWzQ",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【おうち3D】3Dお披露目ありがとう！今日はゆっくり後夜祭♪【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/lpD3yTeGWzQ/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-13T12:33:42Z",
+      "status": "live"
     },
     {
       "id": "pKv7C5ZJTAw",
@@ -181,13 +181,53 @@
   ],
   "videos": [
     {
+      "id": "hHyNursn9mw",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【#ののとノクターン】第1回のゲストはなるみや様！┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/hHyNursn9mw/hqdefault.jpg",
+      "publishedAt": "2026-09-13T15:07:37Z",
+      "live": false
+    },
+    {
+      "id": "KISmMEKMBjk",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【雑談】今週もおつかれさま～！ちょっとご相談してもいいですかヽ(.⊿·)？【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/KISmMEKMBjk/hqdefault.jpg",
+      "publishedAt": "2026-09-13T14:46:49Z",
+      "live": true
+    },
+    {
+      "id": "lpD3yTeGWzQ",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【おうち3D】3Dお披露目ありがとう！今日はゆっくり後夜祭♪【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/lpD3yTeGWzQ/hqdefault_live.jpg",
+      "publishedAt": "2026-09-13T12:33:42Z",
+      "live": false
+    },
+    {
+      "id": "57JbDc9aefw",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "サウダージ / あくび・でもんすぺーど - cover",
+      "thumb": "https://i.ytimg.com/vi/57JbDc9aefw/hqdefault.jpg",
+      "publishedAt": "2026-09-13T11:00:06Z",
+      "live": false
+    },
+    {
       "id": "AEY7OFm1qqk",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
       "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
       "title": "〖 ほの暮しの庭 〗豊の秋！！！はじまる！！！#5〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/AEY7OFm1qqk/hqdefault_live.jpg",
-      "publishedAt": "2026-09-13T08:31:01Z",
+      "publishedAt": "2026-09-13T10:32:12Z",
       "live": false
     },
     {
@@ -197,7 +237,17 @@
       "channelTitle": "ミリプロ - MillionProduction -",
       "title": "【衝撃】あまりにも大型すぎる新メンバーを丸裸にしてみたらヤバすぎたwww",
       "thumb": "https://i.ytimg.com/vi/6yl_OWGIYLE/hqdefault.jpg",
-      "publishedAt": "2026-09-12T20:11:16Z",
+      "publishedAt": "2026-09-13T10:00:06Z",
+      "live": false
+    },
+    {
+      "id": "5v_KnqzZI5Q",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】先にゴールに辿り着くのは誰？！ブーブージョッキー！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/5v_KnqzZI5Q/hqdefault.jpg",
+      "publishedAt": "2026-09-13T09:00:25Z",
       "live": false
     },
     {
@@ -429,57 +479,26 @@
       "thumb": "https://i.ytimg.com/vi/AxKbURZpmPU/hqdefault.jpg",
       "publishedAt": "2026-09-09T11:52:39Z",
       "live": false
-    },
-    {
-      "id": "GLU0JIrSqn0",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "ラグトレイン covered by 音ノ乃のの (Shorts ver.)",
-      "thumb": "https://i.ytimg.com/vi/GLU0JIrSqn0/hqdefault.jpg",
-      "publishedAt": "2026-09-09T09:00:06Z",
-      "live": false
-    },
-    {
-      "id": "j0En6hmc0l0",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】マグマ2択チャレンジ！迫るマグマにパニック!?【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/j0En6hmc0l0/hqdefault.jpg",
-      "publishedAt": "2026-09-09T09:00:02Z",
-      "live": false
-    },
-    {
-      "id": "CiFzk0xZYPo",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ほの暮しの庭 〗畑と犬と釣りと#2〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/CiFzk0xZYPo/hqdefault.jpg",
-      "publishedAt": "2026-09-08T18:42:28Z",
-      "live": false
-    },
-    {
-      "id": "4Y4sps7GDDg",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 飲酒雑談 】らこレイに聞きたいことある？ ⟡.· 【 夕霧レイ/音ノ瀬らこ 】",
-      "thumb": "https://i.ytimg.com/vi/4Y4sps7GDDg/hqdefault.jpg",
-      "publishedAt": "2026-09-08T16:39:52Z",
-      "live": true
-    },
-    {
-      "id": "pNA7blKMe34",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "#2【ほの暮しの庭】この村ほのぼのできなくないですか…？【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/pNA7blKMe34/hqdefault.jpg",
-      "publishedAt": "2026-09-08T16:17:43Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "AEY7OFm1qqk",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 ほの暮しの庭 〗豊の秋！！！はじまる！！！#5〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/AEY7OFm1qqk/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-13T10:32:12Z",
+      "status": "live"
+    },
+    {
+      "id": "lpD3yTeGWzQ",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【おうち3D】3Dお披露目ありがとう！今日はゆっくり後夜祭♪【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/lpD3yTeGWzQ/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-13T12:33:42Z",
+      "status": "live"
+    }
+  ]
 }
