@@ -1,23 +1,14 @@
 {
-  "updatedAt": "2026-09-13T15:09:47.703Z",
+  "updatedAt": "2026-09-13T18:23:00.801Z",
   "streams": [
     {
-      "id": "AEY7OFm1qqk",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 ほの暮しの庭 〗豊の秋！！！はじまる！！！#5〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/AEY7OFm1qqk/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-13T10:32:12Z",
-      "status": "live"
-    },
-    {
-      "id": "lpD3yTeGWzQ",
+      "id": "3QuFncR0U80",
       "memberId": "yura",
       "member": "ゆらぎゆら",
-      "title": "【おうち3D】3Dお披露目ありがとう！今日はゆっくり後夜祭♪【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/lpD3yTeGWzQ/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-13T12:33:42Z",
-      "status": "live"
+      "title": "【 Minecraft 】初！ソロエンドラ討伐(耐久!?)🏹【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/3QuFncR0U80/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-14T11:00:00Z",
+      "status": "upcoming"
     },
     {
       "id": "pKv7C5ZJTAw",
@@ -181,6 +172,36 @@
   ],
   "videos": [
     {
+      "id": "3QuFncR0U80",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 Minecraft 】初！ソロエンドラ討伐(耐久!?)🏹【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/3QuFncR0U80/hqdefault_live.jpg",
+      "publishedAt": "2026-09-13T17:43:00Z",
+      "live": false
+    },
+    {
+      "id": "AEY7OFm1qqk",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ほの暮しの庭 〗豊の秋！！！はじまる！！！#5〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/AEY7OFm1qqk/hqdefault.jpg",
+      "publishedAt": "2026-09-13T17:13:51Z",
+      "live": false
+    },
+    {
+      "id": "lpD3yTeGWzQ",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【おうち3D】3Dお披露目ありがとう！今日はゆっくり後夜祭♪【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/lpD3yTeGWzQ/hqdefault.jpg",
+      "publishedAt": "2026-09-13T15:28:14Z",
+      "live": false
+    },
+    {
       "id": "hHyNursn9mw",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -201,16 +222,6 @@
       "live": true
     },
     {
-      "id": "lpD3yTeGWzQ",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【おうち3D】3Dお披露目ありがとう！今日はゆっくり後夜祭♪【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/lpD3yTeGWzQ/hqdefault_live.jpg",
-      "publishedAt": "2026-09-13T12:33:42Z",
-      "live": false
-    },
-    {
       "id": "57JbDc9aefw",
       "memberId": "akubi",
       "member": "あくび・でもんすぺーど",
@@ -218,16 +229,6 @@
       "title": "サウダージ / あくび・でもんすぺーど - cover",
       "thumb": "https://i.ytimg.com/vi/57JbDc9aefw/hqdefault.jpg",
       "publishedAt": "2026-09-13T11:00:06Z",
-      "live": false
-    },
-    {
-      "id": "AEY7OFm1qqk",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ほの暮しの庭 〗豊の秋！！！はじまる！！！#5〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/AEY7OFm1qqk/hqdefault_live.jpg",
-      "publishedAt": "2026-09-13T10:32:12Z",
       "live": false
     },
     {
@@ -469,36 +470,7 @@
       "thumb": "https://i.ytimg.com/vi/9e_5QVOwxA4/hqdefault.jpg",
       "publishedAt": "2026-09-09T18:23:44Z",
       "live": false
-    },
-    {
-      "id": "AxKbURZpmPU",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 しっぷぅ騎士団 】再集結⁉️二次会「めっちゃカメレオン」を遊び尽くす🤩【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/AxKbURZpmPU/hqdefault.jpg",
-      "publishedAt": "2026-09-09T11:52:39Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "AEY7OFm1qqk",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 ほの暮しの庭 〗豊の秋！！！はじまる！！！#5〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/AEY7OFm1qqk/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-13T10:32:12Z",
-      "status": "live"
-    },
-    {
-      "id": "lpD3yTeGWzQ",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【おうち3D】3Dお披露目ありがとう！今日はゆっくり後夜祭♪【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/lpD3yTeGWzQ/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-13T12:33:42Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
