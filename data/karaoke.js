@@ -5,7 +5,7 @@ window.KARAOKE = [
     "memberId": "tsukuri",
     "publishedAt": "2026-09-14",
     "title": "〖 歌枠 〗たのしみ告知あり！のんびりうたうにょ～～ん〖 眠雲ツクリ / ミリプロ 〗",
-    "duration": 0,
+    "duration": 7655,
     "songs": []
   },
   {
