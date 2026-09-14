@@ -1,6 +1,14 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "2xL3Hl_mLUw",
+    "memberId": "yura",
+    "publishedAt": "2026-09-14",
+    "title": "【さユり縛り歌枠】告知あり。【ゆらぎゆら/ミリプロ】",
+    "duration": 0,
+    "songs": []
+  },
+  {
     "id": "HRLfi6uwx6A",
     "memberId": "tsukuri",
     "publishedAt": "2026-09-14",
