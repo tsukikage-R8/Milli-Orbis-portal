@@ -382,6 +382,17 @@ window.SONGS = {
   ],
   "covers": [
     {
+      "title": "サウダージ",
+      "key": "サウダジ",
+      "urls": [
+        {
+          "id": "57JbDc9aefw",
+          "memberId": "akubi",
+          "publishedAt": "2026-09-14"
+        }
+      ]
+    },
+    {
       "title": "Surges",
       "key": "surges＆",
       "urls": [

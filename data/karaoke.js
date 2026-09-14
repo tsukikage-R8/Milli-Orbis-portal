@@ -1,6 +1,14 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "HRLfi6uwx6A",
+    "memberId": "tsukuri",
+    "publishedAt": "2026-09-14",
+    "title": "〖 歌枠 〗たのしみ告知あり！のんびりうたうにょ～～ん〖 眠雲ツクリ / ミリプロ 〗",
+    "duration": 0,
+    "songs": []
+  },
+  {
     "id": "lpD3yTeGWzQ",
     "memberId": "yura",
     "publishedAt": "2026-09-13",
@@ -93,14 +101,6 @@ window.KARAOKE = [
     "memberId": "nono",
     "publishedAt": "2026-08-22",
     "title": "【歌枠】いんぐりっしゅよ～ん┊︎#音ノ乃のの #ののん家",
-    "duration": 0,
-    "songs": []
-  },
-  {
-    "id": "pKv7C5ZJTAw",
-    "memberId": "nono",
-    "publishedAt": "2026-08-22",
-    "title": "【歌枠】やるぞ！うおお！┊︎#音ノ乃のの #ののん家",
     "duration": 0,
     "songs": []
   },
