@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-09-13",
+  "generatedAt": "2026-09-14",
   "songs": {
     "surges＆": {
       "title": "Surges",
@@ -1078,9 +1078,9 @@ window.SONG_MASTER = {
     },
     "おもかげ": {
       "title": "おもかげ",
-      "artist": "林原めぐみ",
-      "album": "Northern lights - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/5a/09/cc/mzi.pbyoqgta.jpg/600x600bb.jpg"
+      "artist": "KG",
+      "album": "Brand New Days",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/65/df/c5/65dfc5d3-8437-3329-c876-08f64f764906/825646279241.jpg/600x600bb.jpg"
     },
     "slashyama": {
       "title": "slash",
@@ -1307,14 +1307,14 @@ window.SONG_MASTER = {
     "カタオモイ-aimer": {
       "title": "カタオモイ",
       "artist": "Aimer",
-      "album": "daydream",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/46/4a/84/464a843d-14cc-e5e2-a9d6-763eb558e104/4547366270358.jpg/600x600bb.jpg"
+      "album": "BEST SELECTION \"blanc\"",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ab/ab/9b/abab9b3b-41cd-a0c0-29c0-6a1464501c0b/4547366306514.jpg/600x600bb.jpg"
     },
     "ちゅ、多様性。": {
-      "title": "MAD HEAD LOVE",
-      "artist": "米津玄師",
-      "album": "YANKEE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg"
+      "title": "願い〜あの頃のキミへ〜",
+      "artist": "當山 みれい",
+      "album": "願い E.P.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/55/8b/98/558b9848-812d-6adc-5262-faf7a275c623/jacket_SRXX02373B00Z_550.jpg/600x600bb.jpg"
     },
     "trustonme-themeofe.t.e": {
       "title": "Trust On Me -Theme of E.T.E- (feat. MARiA)",
@@ -1518,10 +1518,13 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "ヒロイン",
-      "artist": "back number",
-      "album": "ヒロイン - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/d1/f0/5dd1f0aa-4b50-e6b1-73b1-fb740989afba/00602577303906.rgb.jpg/600x600bb.jpg"
+      "title": "かくれんぼ",
+      "artist": "優里",
+      "album": "かくれんぼ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/be/53/46/be534605-c062-2cea-0e91-137f517a1e42/079175_J.jpg/600x600bb.jpg",
+      "en": {
+        "title": "hide and seek"
+      }
     },
     "メルティランドナイトメア": {
       "title": "メルティランドナイトメア",

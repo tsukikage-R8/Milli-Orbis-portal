@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-09-13T18:23:00.801Z",
+  "updatedAt": "2026-09-13T21:51:13.115Z",
   "streams": [
+    {
+      "id": "cVxk8sw0X54",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 雑談 】サンドウィッチたべたよ【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/cVxk8sw0X54/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-13T22:00:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "3QuFncR0U80",
       "memberId": "yura",
@@ -171,6 +180,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "cVxk8sw0X54",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 雑談 】サンドウィッチたべたよ【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/cVxk8sw0X54/hqdefault_live.jpg",
+      "publishedAt": "2026-09-13T21:50:52Z",
+      "live": true
+    },
     {
       "id": "3QuFncR0U80",
       "memberId": "yura",
@@ -459,16 +478,6 @@
       "title": "【とくべチュ、して】以心伝心で歌ってみた🔅☁️🌂【眠雲ツクリ/ミリプロ】#とくべチュして #歌ってみた #shorts",
       "thumb": "https://i.ytimg.com/vi/rrsZg192IPg/hqdefault.jpg",
       "publishedAt": "2026-09-10T09:00:02Z",
-      "live": false
-    },
-    {
-      "id": "9e_5QVOwxA4",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ほの暮しの庭 〗夏ってやつが、来るらしい#3〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/9e_5QVOwxA4/hqdefault.jpg",
-      "publishedAt": "2026-09-09T18:23:44Z",
       "live": false
     }
   ],

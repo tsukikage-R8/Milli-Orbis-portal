@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-09-13T21:51:13.115Z",
+  "updatedAt": "2026-09-14T01:56:19.119Z",
   "streams": [
-    {
-      "id": "cVxk8sw0X54",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 雑談 】サンドウィッチたべたよ【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/cVxk8sw0X54/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-13T22:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "3QuFncR0U80",
       "memberId": "yura",
@@ -186,8 +177,8 @@
       "member": "小廻こま",
       "channelTitle": "小廻こま / Komawari Koma",
       "title": "【 雑談 】サンドウィッチたべたよ【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/cVxk8sw0X54/hqdefault_live.jpg",
-      "publishedAt": "2026-09-13T21:50:52Z",
+      "thumb": "https://i.ytimg.com/vi/cVxk8sw0X54/hqdefault.jpg",
+      "publishedAt": "2026-09-13T23:30:28Z",
       "live": true
     },
     {
