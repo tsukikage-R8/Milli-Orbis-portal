@@ -271,6 +271,24 @@ function fxHtml(kind) {
       '<span class="fx-aoirush" style="left:68%;bottom:-65px;width:38px;height:38px;animation-delay:1.65s;animation-duration:3.4s;--drift:16px"></span>' +
       '<span class="fx-aoirush" style="left:28%;bottom:-60px;width:30px;height:30px;animation-delay:1.7s;animation-duration:3.2s;--drift:-18px"></span>' +
       '<span class="fx-aoirush" style="left:84%;bottom:-65px;width:34px;height:34px;animation-delay:1.8s;animation-duration:3.3s;--drift:14px"></span>' +
+      '<span class="fx-aoirush" style="left:4%;bottom:10%;width:40px;height:40px;animation-delay:0.2s;animation-duration:3.8s;--drift:18px"></span>' +
+      '<span class="fx-aoirush" style="left:16%;bottom:25%;width:52px;height:52px;animation-delay:0.1s;animation-duration:4s;--drift:-16px"></span>' +
+      '<span class="fx-aoirush" style="left:24%;bottom:5%;width:36px;height:36px;animation-delay:0.6s;animation-duration:3.5s;--drift:14px"></span>' +
+      '<span class="fx-aoirush" style="left:33%;bottom:30%;width:60px;height:60px;animation-delay:0.3s;animation-duration:4.1s;--drift:-14px"></span>' +
+      '<span class="fx-aoirush" style="left:40%;bottom:8%;width:34px;height:34px;animation-delay:0.8s;animation-duration:3.4s;--drift:18px"></span>' +
+      '<span class="fx-aoirush" style="left:48%;bottom:28%;width:50px;height:50px;animation-delay:0.45s;animation-duration:3.9s;--drift:-16px"></span>' +
+      '<span class="fx-aoirush" style="left:56%;bottom:6%;width:38px;height:38px;animation-delay:1s;animation-duration:3.5s;--drift:14px"></span>' +
+      '<span class="fx-aoirush" style="left:64%;bottom:32%;width:58px;height:58px;animation-delay:0.65s;animation-duration:4s;--drift:-18px"></span>' +
+      '<span class="fx-aoirush" style="left:72%;bottom:10%;width:36px;height:36px;animation-delay:1.2s;animation-duration:3.4s;--drift:16px"></span>' +
+      '<span class="fx-aoirush" style="left:80%;bottom:26%;width:54px;height:54px;animation-delay:0.85s;animation-duration:3.8s;--drift:-14px"></span>' +
+      '<span class="fx-aoirush" style="left:88%;bottom:8%;width:40px;height:40px;animation-delay:1.4s;animation-duration:3.5s;--drift:18px"></span>' +
+      '<span class="fx-aoirush" style="left:95%;bottom:30%;width:50px;height:50px;animation-delay:1.05s;animation-duration:3.7s;--drift:-16px"></span>' +
+      '<span class="fx-aoirush" style="left:8%;bottom:45%;width:34px;height:34px;animation-delay:0.15s;animation-duration:3s;--drift:14px"></span>' +
+      '<span class="fx-aoirush" style="left:36%;bottom:50%;width:44px;height:44px;animation-delay:0.5s;animation-duration:3.2s;--drift:-14px"></span>' +
+      '<span class="fx-aoirush" style="left:60%;bottom:42%;width:38px;height:38px;animation-delay:0.9s;animation-duration:3s;--drift:16px"></span>' +
+      '<span class="fx-aoirush" style="left:90%;bottom:48%;width:42px;height:42px;animation-delay:1.2s;animation-duration:3.1s;--drift:-18px"></span>' +
+      '<span class="fx-aoirush" style="left:52%;bottom:60%;width:30px;height:30px;animation-delay:0.7s;animation-duration:2.8s;--drift:12px"></span>' +
+      '<span class="fx-aoirush" style="left:20%;bottom:55%;width:32px;height:32px;animation-delay:1.1s;animation-duration:2.9s;--drift:-12px"></span>' +
       '<span class="fx-turtle-in" style="animation-delay:3s">' + DECO_SVG.turtle + "</span>" +
       '<span class="fx-kelp" style="left:4%;animation-delay:0s">' + DECO_SVG.seaweed + "</span>" +
       '<span class="fx-kelp" style="right:5%;animation-delay:1.6s;animation-duration:6s;height:150px">' + DECO_SVG.seaweed + "</span>" +
