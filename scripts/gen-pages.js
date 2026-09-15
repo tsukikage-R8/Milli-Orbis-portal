@@ -240,22 +240,37 @@ function fxHtml(kind) {
     aoi:
       '<span class="fx-aoray" style="left:14%;animation-delay:0s"></span>' +
       '<span class="fx-aoray" style="left:64%;animation-delay:1.4s;animation-duration:7s"></span>' +
-      '<span class="fx-aoirush" style="left:6%;bottom:-40px;width:22px;height:22px;animation-delay:0s;animation-duration:3.2s;--drift:14px"></span>' +
-      '<span class="fx-aoirush" style="left:14%;bottom:-50px;width:34px;height:34px;animation-delay:0.25s;animation-duration:3.8s;--drift:-18px"></span>' +
-      '<span class="fx-aoirush" style="left:22%;bottom:-40px;width:16px;height:16px;animation-delay:0.1s;animation-duration:2.9s;--drift:22px"></span>' +
-      '<span class="fx-aoirush" style="left:30%;bottom:-60px;width:42px;height:42px;animation-delay:0.5s;animation-duration:4.1s;--drift:-12px"></span>' +
-      '<span class="fx-aoirush" style="left:38%;bottom:-40px;width:24px;height:24px;animation-delay:0.7s;animation-duration:3.4s;--drift:16px"></span>' +
-      '<span class="fx-aoirush" style="left:46%;bottom:-50px;width:30px;height:30px;animation-delay:0.35s;animation-duration:3.6s;--drift:-22px"></span>' +
-      '<span class="fx-aoirush" style="left:54%;bottom:-40px;width:18px;height:18px;animation-delay:0.9s;animation-duration:3s;--drift:20px"></span>' +
-      '<span class="fx-aoirush" style="left:62%;bottom:-60px;width:38px;height:38px;animation-delay:0.55s;animation-duration:4.2s;--drift:-14px"></span>' +
-      '<span class="fx-aoirush" style="left:70%;bottom:-40px;width:26px;height:26px;animation-delay:1.1s;animation-duration:3.3s;--drift:18px"></span>' +
-      '<span class="fx-aoirush" style="left:78%;bottom:-50px;width:20px;height:20px;animation-delay:0.8s;animation-duration:3.1s;--drift:-20px"></span>' +
-      '<span class="fx-aoirush" style="left:86%;bottom:-40px;width:32px;height:32px;animation-delay:1.3s;animation-duration:3.7s;--drift:12px"></span>' +
-      '<span class="fx-aoirush" style="left:93%;bottom:-55px;width:24px;height:24px;animation-delay:1s;animation-duration:3.5s;--drift:-16px"></span>' +
-      '<span class="fx-aoirush" style="left:10%;bottom:-60px;width:28px;height:28px;animation-delay:1.5s;animation-duration:3.4s;--drift:20px"></span>' +
-      '<span class="fx-aoirush" style="left:50%;bottom:-55px;width:36px;height:36px;animation-delay:1.65s;animation-duration:3.9s;--drift:-18px"></span>' +
-      '<span class="fx-aoirush" style="left:74%;bottom:-45px;width:22px;height:22px;animation-delay:1.8s;animation-duration:3.2s;--drift:14px"></span>' +
-      '<span class="fx-aoirush" style="left:34%;bottom:-45px;width:26px;height:26px;animation-delay:1.45s;animation-duration:3.6s;--drift:-14px"></span>' +
+      '<span class="fx-aoiwash"></span>' +
+      '<span class="fx-aoirush" style="left:2%;bottom:-40px;width:44px;height:44px;animation-delay:0s;animation-duration:3.4s;--drift:16px"></span>' +
+      '<span class="fx-aoirush" style="left:6%;bottom:-50px;width:26px;height:26px;animation-delay:0.15s;animation-duration:3s;--drift:-20px"></span>' +
+      '<span class="fx-aoirush" style="left:10%;bottom:-40px;width:58px;height:58px;animation-delay:0.05s;animation-duration:3.9s;--drift:12px"></span>' +
+      '<span class="fx-aoirush" style="left:14%;bottom:-55px;width:30px;height:30px;animation-delay:0.3s;animation-duration:3.2s;--drift:-16px"></span>' +
+      '<span class="fx-aoirush" style="left:18%;bottom:-40px;width:48px;height:48px;animation-delay:0.1s;animation-duration:3.7s;--drift:20px"></span>' +
+      '<span class="fx-aoirush" style="left:22%;bottom:-60px;width:22px;height:22px;animation-delay:0.45s;animation-duration:2.9s;--drift:-14px"></span>' +
+      '<span class="fx-aoirush" style="left:26%;bottom:-40px;width:62px;height:62px;animation-delay:0.2s;animation-duration:4s;--drift:14px"></span>' +
+      '<span class="fx-aoirush" style="left:30%;bottom:-50px;width:34px;height:34px;animation-delay:0.55s;animation-duration:3.3s;--drift:-20px"></span>' +
+      '<span class="fx-aoirush" style="left:34%;bottom:-40px;width:52px;height:52px;animation-delay:0.35s;animation-duration:3.8s;--drift:18px"></span>' +
+      '<span class="fx-aoirush" style="left:38%;bottom:-60px;width:24px;height:24px;animation-delay:0.65s;animation-duration:3s;--drift:-12px"></span>' +
+      '<span class="fx-aoirush" style="left:42%;bottom:-40px;width:56px;height:56px;animation-delay:0.4s;animation-duration:4.1s;--drift:16px"></span>' +
+      '<span class="fx-aoirush" style="left:46%;bottom:-50px;width:28px;height:28px;animation-delay:0.75s;animation-duration:3.2s;--drift:-18px"></span>' +
+      '<span class="fx-aoirush" style="left:50%;bottom:-40px;width:64px;height:64px;animation-delay:0.5s;animation-duration:4.2s;--drift:12px"></span>' +
+      '<span class="fx-aoirush" style="left:54%;bottom:-55px;width:32px;height:32px;animation-delay:0.85s;animation-duration:3.4s;--drift:-16px"></span>' +
+      '<span class="fx-aoirush" style="left:58%;bottom:-40px;width:46px;height:46px;animation-delay:0.6s;animation-duration:3.6s;--drift:20px"></span>' +
+      '<span class="fx-aoirush" style="left:62%;bottom:-60px;width:24px;height:24px;animation-delay:0.95s;animation-duration:3s;--drift:-14px"></span>' +
+      '<span class="fx-aoirush" style="left:66%;bottom:-40px;width:54px;height:54px;animation-delay:0.7s;animation-duration:3.9s;--drift:16px"></span>' +
+      '<span class="fx-aoirush" style="left:70%;bottom:-50px;width:30px;height:30px;animation-delay:1.05s;animation-duration:3.3s;--drift:-20px"></span>' +
+      '<span class="fx-aoirush" style="left:74%;bottom:-40px;width:60px;height:60px;animation-delay:0.8s;animation-duration:4s;--drift:14px"></span>' +
+      '<span class="fx-aoirush" style="left:78%;bottom:-55px;width:26px;height:26px;animation-delay:1.15s;animation-duration:3.1s;--drift:-16px"></span>' +
+      '<span class="fx-aoirush" style="left:82%;bottom:-40px;width:48px;height:48px;animation-delay:0.9s;animation-duration:3.7s;--drift:18px"></span>' +
+      '<span class="fx-aoirush" style="left:86%;bottom:-50px;width:32px;height:32px;animation-delay:1.25s;animation-duration:3.4s;--drift:-12px"></span>' +
+      '<span class="fx-aoirush" style="left:90%;bottom:-40px;width:56px;height:56px;animation-delay:1s;animation-duration:3.8s;--drift:16px"></span>' +
+      '<span class="fx-aoirush" style="left:94%;bottom:-55px;width:28px;height:28px;animation-delay:1.35s;animation-duration:3.2s;--drift:-18px"></span>' +
+      '<span class="fx-aoirush" style="left:97%;bottom:-45px;width:44px;height:44px;animation-delay:1.1s;animation-duration:3.6s;--drift:12px"></span>' +
+      '<span class="fx-aoirush" style="left:12%;bottom:-65px;width:36px;height:36px;animation-delay:1.45s;animation-duration:3.3s;--drift:18px"></span>' +
+      '<span class="fx-aoirush" style="left:44%;bottom:-60px;width:40px;height:40px;animation-delay:1.55s;animation-duration:3.5s;--drift:-14px"></span>' +
+      '<span class="fx-aoirush" style="left:68%;bottom:-65px;width:38px;height:38px;animation-delay:1.65s;animation-duration:3.4s;--drift:16px"></span>' +
+      '<span class="fx-aoirush" style="left:28%;bottom:-60px;width:30px;height:30px;animation-delay:1.7s;animation-duration:3.2s;--drift:-18px"></span>' +
+      '<span class="fx-aoirush" style="left:84%;bottom:-65px;width:34px;height:34px;animation-delay:1.8s;animation-duration:3.3s;--drift:14px"></span>' +
       '<span class="fx-turtle-in" style="animation-delay:3s">' + DECO_SVG.turtle + "</span>" +
       '<span class="fx-kelp" style="left:4%;animation-delay:0s">' + DECO_SVG.seaweed + "</span>" +
       '<span class="fx-kelp" style="right:5%;animation-delay:1.6s;animation-duration:6s;height:150px">' + DECO_SVG.seaweed + "</span>" +
