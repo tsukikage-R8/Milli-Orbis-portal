@@ -28,7 +28,9 @@ const DECO_SVG = {
   ring: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="7"><circle cx="50" cy="50" r="34"/><circle cx="50" cy="50" r="7"/></g></svg>',
   ichigo: '<svg viewBox="0 0 100 100" aria-hidden="true"><path fill="currentColor" d="M50,90 C30,72 14,58 14,40 C14,26 24,16 36,16 C42,16 47,19 50,25 C53,19 58,16 64,16 C76,16 86,26 86,40 C86,58 70,72 50,90 Z"/><g fill="#6fbf73"><path d="M50,33 C45,25 37,20 28,21 C37,25 43,30 47,36 C45,27 41,20 37,13 C41,20 47,27 50,33 Z"/><path d="M50,33 C55,25 63,20 72,21 C63,25 57,30 53,36 C55,27 59,20 63,13 C59,20 53,27 50,33 Z"/><path d="M46,28 C46,20 48,13 50,8 C52,13 54,20 54,28 C51,32 49,32 46,28 Z"/></g><g fill="#ffe14d"><ellipse cx="30" cy="44" rx="2.6" ry="3.6"/><ellipse cx="50" cy="38" rx="2.6" ry="3.6"/><ellipse cx="70" cy="44" rx="2.6" ry="3.6"/><ellipse cx="38" cy="58" rx="2.6" ry="3.6"/><ellipse cx="62" cy="58" rx="2.6" ry="3.6"/><ellipse cx="50" cy="72" rx="2.6" ry="3.6"/><ellipse cx="30" cy="62" rx="2.2" ry="3"/><ellipse cx="70" cy="62" rx="2.2" ry="3"/></g></svg>',
   ribbon: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="currentColor"><path d="M50,40 C38,24 12,28 14,46 C16,60 34,58 50,44 C66,58 84,60 86,46 C88,28 62,24 50,40 Z"/><path d="M50,44 C48,56 42,68 34,80 L44,82 C48,70 51,58 52,46 Z"/><path d="M50,44 C52,56 58,68 66,80 L56,82 C52,70 49,58 48,46 Z"/><rect x="44" y="33" width="12" height="21" rx="6"/></g></svg>',
-  antler: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><path d="M22,90 C26,66 28,48 36,30 C40,20 47,14 56,10"/><path d="M31,60 C24,54 18,52 12,48"/><path d="M33,44 C27,38 24,34 22,26"/><path d="M39,30 C45,24 49,20 54,16"/></g></svg>'
+  antler: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><path d="M22,90 C26,66 28,48 36,30 C40,20 47,14 56,10"/><path d="M31,60 C24,54 18,52 12,48"/><path d="M33,44 C27,38 24,34 22,26"/><path d="M39,30 C45,24 49,20 54,16"/></g></svg>',
+  turtle: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="currentColor"><ellipse cx="48" cy="54" rx="25" ry="19"/><circle cx="76" cy="48" r="9"/><path d="M26,50 L10,40 L17,55 L9,62 L25,61 Z"/><path d="M30,66 L22,80 L35,72 Z"/><path d="M60,66 L56,82 L69,71 Z"/><path d="M22,44 L10,42 L19,52 Z"/></g><g stroke="#fff" stroke-width="3" fill="none" opacity="0.9" stroke-linecap="round"><path d="M37,46 L43,62"/><path d="M49,42 L49,64"/><path d="M61,46 L55,62"/></g><circle cx="78" cy="46" r="1.8" fill="#fff"/></svg>',
+  seaweed: '<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round"><path d="M30,96 C24,76 36,66 30,46 C26,33 32,23 30,13"/><path d="M52,96 C58,73 46,61 54,41 C58,29 52,19 56,9"/><path d="M74,96 C70,79 80,69 74,51 C70,41 76,31 74,21"/></g><g fill="currentColor"><ellipse cx="30" cy="12" rx="5" ry="7"/><ellipse cx="56" cy="8" rx="5" ry="7"/><ellipse cx="74" cy="20" rx="4" ry="6"/></g></svg>'
 };
 
 /* グッズジャンル別の手描きSVGアイコン（画像はShopify CDNへのホットリンクで表示、保存せず参照。onerrorでSVGフォールバック §9） */
@@ -1570,7 +1572,7 @@ const MEMBERS = [
     fanName: "",
     fanMark: "🐢🌱",
     calls: "",
-    profile: "ミリプロNOVA所属。2026年9月12日に加入発表。デビュー前・公式タレントページ未公開のため詳細は準備中。立ち絵は仮のものを使用しています。",
+    profile: "ミリプロNOVA所属。2026年9月12日に加入発表。デビュー前のため詳細は準備中。",
     skills: "準備中",
     phrases: [],
     likes: "",
@@ -1585,15 +1587,14 @@ const MEMBERS = [
     icon: "images/icon/aoi_profile.jpg",
     catchphrase: "",
     introVoice: "",
-    fx: "sea",
+    fx: "aoi",
     deco: {
       label: "turtle",
-      shape: "shell",
       floats: [
-        { k: "shell", x: 8, y: 14, size: 64, dur: 13 },
-        { k: "wave", x: 88, y: 10, size: 58, dur: 12 },
-        { k: "bub", x: 12, y: 76, size: 48, dur: 12 },
-        { k: "jelly", x: 82, y: 82, size: 52, dur: 14 }
+        { k: "turtle", x: 8, y: 14, size: 64, dur: 13 },
+        { k: "seaweed", x: 88, y: 10, size: 58, dur: 12 },
+        { k: "seaweed", x: 12, y: 76, size: 48, dur: 14 },
+        { k: "turtle", x: 82, y: 82, size: 44, dur: 15 }
       ]
     },
     featuredVideos: [],
@@ -1604,7 +1605,7 @@ const MEMBERS = [
       catch: "Joined MilliPro NOVA! Debut coming soon",
       fanName: "",
       calls: "",
-      profile: "Member of MilliPro NOVA. Announced on Sep 12, 2026. Details TBA (pre-debut, no official talent page yet). Temporary artwork in use.",
+      profile: "Member of MilliPro NOVA. Announced on Sep 12, 2026. Details TBA (pre-debut).",
       skills: "TBA",
       phrases: [],
       likes: "",

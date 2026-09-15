@@ -236,6 +236,20 @@ function fxHtml(kind) {
       '<span class="fx-spark" style="left:84%;top:52%;animation-delay:1.5s"></span>' +
       '<span class="fx-antler" style="right:9%;top:12%"></span>' +
       '<span class="fx-antler" style="left:8%;bottom:16%;width:64px;height:64px;animation-delay:1.2s;animation-duration:7s;opacity:0.7"></span>' +
+      '<span class="fx-flash"></span>',
+    aoi:
+      '<span class="fx-aoray" style="left:14%;animation-delay:0s"></span>' +
+      '<span class="fx-aoray" style="left:64%;animation-delay:1.4s;animation-duration:7s"></span>' +
+      '<span class="fx-turtle" style="top:16%;animation-delay:0.4s">' + DECO_SVG.turtle + "</span>" +
+      '<span class="fx-turtle" style="top:56%;animation-delay:3.4s;animation-duration:13s;width:70px;opacity:0.75">' + DECO_SVG.turtle + "</span>" +
+      '<span class="fx-aoibub" style="left:16%;bottom:-30px"></span>' +
+      '<span class="fx-aoibub" style="left:38%;bottom:-30px;animation-delay:1.1s;animation-duration:6.5s"></span>' +
+      '<span class="fx-aoibub" style="left:62%;bottom:-30px;animation-delay:2s;animation-duration:5.4s"></span>' +
+      '<span class="fx-aoibub" style="left:84%;bottom:-30px;animation-delay:0.6s;animation-duration:7.2s"></span>' +
+      '<span class="fx-kelp" style="left:4%;animation-delay:0s">' + DECO_SVG.seaweed + "</span>" +
+      '<span class="fx-kelp" style="right:5%;animation-delay:1.6s;animation-duration:6s;height:150px">' + DECO_SVG.seaweed + "</span>" +
+      '<span class="fx-kelp" style="left:44%;animation-delay:0.8s;animation-duration:7.5s;height:110px;opacity:0.7">' + DECO_SVG.seaweed + "</span>" +
+      '<span class="fx-aoifloor"></span>' +
       '<span class="fx-flash"></span>'
   };
   var html = V[kind];
