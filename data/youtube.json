@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-09-15T09:00:43.586Z",
+  "updatedAt": "2026-09-15T15:47:09.561Z",
   "streams": [
-    {
-      "id": "2xL3Hl_mLUw",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【さユり縛り歌枠】告知あり。【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/2xL3Hl_mLUw/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-15T12:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "9LzS0TuBoKk",
       "memberId": "mahoro",
@@ -190,14 +181,24 @@
   ],
   "videos": [
     {
-      "id": "qQ1HSrY1sgE",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【アニメ】PONな居合い斬り#ミリプロ #anime",
-      "thumb": "https://i.ytimg.com/vi/qQ1HSrY1sgE/hqdefault.jpg",
-      "publishedAt": "2026-09-15T09:00:16Z",
+      "id": "HAwYgW2sDpg",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 歌枠 】久々なのでまったり歌っていく ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/HAwYgW2sDpg/hqdefault.jpg",
+      "publishedAt": "2026-09-15T15:12:17Z",
       "live": false
+    },
+    {
+      "id": "ObZSkYruRX8",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【雑談】お家3Dでお披露目の感謝を🔥【虹深°ぬふ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ObZSkYruRX8/hqdefault_live.jpg",
+      "publishedAt": "2026-09-15T15:01:17Z",
+      "live": true
     },
     {
       "id": "2xL3Hl_mLUw",
@@ -205,8 +206,38 @@
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
       "title": "【さユり縛り歌枠】告知あり。【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/2xL3Hl_mLUw/hqdefault_live.jpg",
-      "publishedAt": "2026-09-14T18:53:40Z",
+      "thumb": "https://i.ytimg.com/vi/2xL3Hl_mLUw/hqdefault.jpg",
+      "publishedAt": "2026-09-15T14:33:39Z",
+      "live": false
+    },
+    {
+      "id": "q-pDVsgNnvo",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【お料理雑談】クラシエさんのケーキ屋さんを作る！【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/q-pDVsgNnvo/hqdefault.jpg",
+      "publishedAt": "2026-09-15T11:58:14Z",
+      "live": true
+    },
+    {
+      "id": "dojaTh3uKho",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【初オリジナル楽曲】『NET CHOOSE SHOW』のメイキング映像🌂 #animation #shorts 【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/dojaTh3uKho/hqdefault.jpg",
+      "publishedAt": "2026-09-15T09:00:20Z",
+      "live": false
+    },
+    {
+      "id": "qQ1HSrY1sgE",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【アニメ】PONな居合い斬り#ミリプロ #anime",
+      "thumb": "https://i.ytimg.com/vi/qQ1HSrY1sgE/hqdefault.jpg",
+      "publishedAt": "2026-09-15T09:00:16Z",
       "live": false
     },
     {
@@ -447,46 +478,6 @@
       "title": "【 R.E.P.O. 】ハートサングラスパリピーズで打ち上げ ⟡.· 【 夕霧レイ/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/cCH6xQXYSZg/hqdefault.jpg",
       "publishedAt": "2026-09-11T14:10:42Z",
-      "live": false
-    },
-    {
-      "id": "T5Q0uHZR4k8",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【歌枠】3Dお披露目前夜祭♪【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/T5Q0uHZR4k8/hqdefault.jpg",
-      "publishedAt": "2026-09-11T12:25:45Z",
-      "live": false
-    },
-    {
-      "id": "wlY-Zn-frYg",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "kawaii液タブでノイズ色塗り🎨#shorts #イラスト #illustration #xppen",
-      "thumb": "https://i.ytimg.com/vi/wlY-Zn-frYg/hqdefault.jpg",
-      "publishedAt": "2026-09-11T09:00:37Z",
-      "live": false
-    },
-    {
-      "id": "rCLoDT-I7YE",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【あくびといっしょに】引いた言葉が歌詞に含まれる曲歌ってみた！【夕霧レイ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/rCLoDT-I7YE/hqdefault.jpg",
-      "publishedAt": "2026-09-11T09:00:23Z",
-      "live": false
-    },
-    {
-      "id": "QDJ1NX-M0JY",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "16年前と今の歌声を比べてみた！【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/QDJ1NX-M0JY/hqdefault.jpg",
-      "publishedAt": "2026-09-11T09:00:13Z",
       "live": false
     }
   ],

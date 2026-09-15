@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T02:04:41.194Z",
+  "updatedAt": "2026-09-15T09:00:43.586Z",
   "streams": [
     {
       "id": "2xL3Hl_mLUw",
@@ -189,6 +189,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "qQ1HSrY1sgE",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【アニメ】PONな居合い斬り#ミリプロ #anime",
+      "thumb": "https://i.ytimg.com/vi/qQ1HSrY1sgE/hqdefault.jpg",
+      "publishedAt": "2026-09-15T09:00:16Z",
+      "live": false
+    },
     {
       "id": "2xL3Hl_mLUw",
       "memberId": "yura",
@@ -457,16 +467,6 @@
       "title": "kawaii液タブでノイズ色塗り🎨#shorts #イラスト #illustration #xppen",
       "thumb": "https://i.ytimg.com/vi/wlY-Zn-frYg/hqdefault.jpg",
       "publishedAt": "2026-09-11T09:00:37Z",
-      "live": false
-    },
-    {
-      "id": "M568vBz78oE",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】ダイヤ直下掘りトーナメント！生き残るのは誰だ！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/M568vBz78oE/hqdefault.jpg",
-      "publishedAt": "2026-09-11T09:00:33Z",
       "live": false
     },
     {

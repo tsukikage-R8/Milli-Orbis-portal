@@ -5,7 +5,7 @@ window.KARAOKE = [
     "memberId": "yura",
     "publishedAt": "2026-09-14",
     "title": "【さユり縛り歌枠】告知あり。【ゆらぎゆら/ミリプロ】",
-    "duration": 0,
+    "duration": 8568,
     "songs": []
   },
   {
