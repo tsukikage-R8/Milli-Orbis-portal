@@ -260,6 +260,7 @@ const navDrop = (home) => `
           <a href="liz.html" data-i18n-name="liz">雨夜リズ</a>
           <a href="rei.html" data-i18n-name="rei">夕霧レイ</a>
           <a href="mahoro.html" data-i18n-name="mahoro">鹿乃まほろ</a>
+          <a href="aoi.html" data-i18n-name="aoi">海琳あおい</a>
           <a href="milchan.html" data-i18n-name="milchan">ミリちゃん</a>
           <div class="drop-sep"></div>
           <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
@@ -299,6 +300,7 @@ const mobileNav = (home) => `
       <a class="mobile-sub" href="liz.html" data-i18n-name="liz">雨夜リズ</a>
       <a class="mobile-sub" href="rei.html" data-i18n-name="rei">夕霧レイ</a>
       <a class="mobile-sub" href="mahoro.html" data-i18n-name="mahoro">鹿乃まほろ</a>
+      <a class="mobile-sub" href="aoi.html" data-i18n-name="aoi">海琳あおい</a>
       <a class="mobile-sub" href="milchan.html" data-i18n-name="milchan">ミリちゃん</a>
       <a href="members.html" data-i18n="nav.compare">メンバー比較表</a>
       <div class="drawer-section-label">MilliDex</div>

@@ -83,6 +83,7 @@
     var list = [];
     // members
     MEMBERS.forEach(function (m) {
+      if (m.id === "aoi") return; // カーソル素材なしのため配布グリッドから除外。素材完成後に解除
       var cid = curId(m.id);
       var icon = m.icon || "/images/cursors/" + cid + ".png";
       list.push({ id: m.id, cid: cid, name: mName(m), color: m.color, icon: icon, isMilliChan:false });

@@ -1558,6 +1558,64 @@ const MEMBERS = [
     fx: "straw"
   },
   {
+    id: "aoi",
+    gen: "ミリプロNOVA",
+    name: "海琳あおい",
+    nameEn: "Mitama Aoi",
+    color: "#7BC043",
+    subColor: "#eaf6dc",
+    birthday: "",
+    debut: "",
+    catch: "ミリプロNOVAに加入決定！デビュー準備中",
+    fanName: "",
+    fanMark: "🐢🌱",
+    calls: "",
+    profile: "ミリプロNOVA所属。2026年9月12日に加入発表。デビュー前・公式タレントページ未公開のため詳細は準備中。立ち絵は仮のものを使用しています。",
+    skills: "準備中",
+    phrases: [],
+    likes: "",
+    dislikes: "",
+    achievements: [
+      "2026/9/12 ミリプロNOVA加入発表（公式X @Mil_Pro_）"
+    ],
+    tags: { stream: "", clip: "", art: "" },
+    links: { yt: "https://www.youtube.com/@MitamaAoi", x: "https://x.com/MitamaAoi", tiktok: "" },
+    img: "images/talents/aoi.png",
+    logo: "",
+    icon: "images/icon/aoi_profile.jpg",
+    catchphrase: "",
+    introVoice: "",
+    fx: "sea",
+    deco: {
+      label: "turtle",
+      shape: "shell",
+      floats: [
+        { k: "shell", x: 8, y: 14, size: 64, dur: 13 },
+        { k: "wave", x: 88, y: 10, size: 58, dur: 12 },
+        { k: "bub", x: 12, y: 76, size: 48, dur: 12 },
+        { k: "jelly", x: 82, y: 82, size: 52, dur: 14 }
+      ]
+    },
+    featuredVideos: [],
+    voice: "",
+    intro: "",
+    en: {
+      gen: "MilliPro NOVA",
+      catch: "Joined MilliPro NOVA! Debut coming soon",
+      fanName: "",
+      calls: "",
+      profile: "Member of MilliPro NOVA. Announced on Sep 12, 2026. Details TBA (pre-debut, no official talent page yet). Temporary artwork in use.",
+      skills: "TBA",
+      phrases: [],
+      likes: "",
+      dislikes: "",
+      achievements: [
+        "Sep 12, 2026 Announced joining MilliPro NOVA (official X @Mil_Pro_)"
+      ],
+      catchphrase: ""
+    }
+  },
+  {
     id: "milchan",
     gen: "事務所スタッフ・マスコット",
     name: "ミリちゃん",
@@ -1644,7 +1702,8 @@ const GROUP_INFO = [
     members: [
       { id: "raco" },
       { id: "yura" },
-      { id: "nuhu" }
+      { id: "nuhu" },
+      { id: "aoi", note: "2026/9/12 加入発表・デビュー前" }
     ],
     en: {
       name: "MilliPro NOVA",
@@ -1696,6 +1755,15 @@ const COUNTDOWN = [
 ];
 
 const NEWS = [
+  {
+    date: "2026-09-12",
+    tag: "重大発表",
+    title: "海琳あおい ミリプロNOVA加入決定！",
+    desc: "ミリプロ公式Xにて「新たな仲間がミリプロに加わります🌟 海琳あおい（@MitamaAoi）ミリプロNOVAに加入決定！🐢🌱」と発表。デビュー前・公式タレントページ未公開のため詳細は準備中。",
+    image: "",
+    url: "https://milpr.com/news/aoi_debut",
+    en: { tag: "Major Announcement", title: "Mitama Aoi joins MilliPro NOVA!", desc: "Announced on official X. Pre-debut, details TBA. 🐢🌱" }
+  },
   {
     date: "2026-09-09",
     tag: "重大発表",
@@ -1883,8 +1951,9 @@ const HISTORY = [
   { date: "2026/8/16", title: "新グループ「ミリプロSONA」設立", desc: "音ノ乃のの・あくび・でもんすぺーど・鹿乃まほろの3名が所属", en: { title: "New group \"MilliPro SONA\" founded", desc: "Comprising Nono Nono, Akubi Demonspade, and Kano Mahoro" } },
   { date: "2026/8/22", title: "鹿乃まほろ デビュー（ミリプロSONA）", en: { title: "Kano Mahoro debuts (MilliPro SONA)" } },
   { date: "2026/8/29", title: "ミリプロリゾート 開催", desc: "秋葉原UDXにてPOP UP展示＆ファンミーティング（鹿乃まほろも参加）", en: { title: "MilliPro Resort held", desc: "POP UP exhibit & fan meeting at Akihabara UDX (feat. Kano Mahoro)" } },
+  { date: "2026/8/13", title: "英語学習アプリ「Risdom」とコラボ開始", desc: "甘狼このみが登場するゲーム型英語学習アプリ「Risdom（リズダム）」とのコラボ", en: { title: "Collaboration with the English-learning app \"Risdom\" begins", desc: "A collab with the game-based English-learning app \"Risdom\", featuring Amakami Konomi" } },
   { date: "2026/9/01", title: "本サイト 大幅アップデート（カーソル配布・Milli Orbisアカウント強化）", desc: "オリジナルカーソル配布開始、鹿乃まほろページ完全化、お知らせ最新化、スマホ表示改善", image: "https://milli-orbis-portal.pages.dev/dist/announce/x-cursor-scatter-1600x900.png", en: { title: "Major site update (Cursors & Account)", desc: "Original cursors, Mahoro page complete, news update, mobile improvements" } },
-  { date: "2026/8/13", title: "英語学習アプリ「Risdom」とコラボ開始", desc: "甘狼このみが登場するゲーム型英語学習アプリ「Risdom（リズダム）」とのコラボ", en: { title: "Collaboration with the English-learning app \"Risdom\" begins", desc: "A collab with the game-based English-learning app \"Risdom\", featuring Amakami Konomi" } }
+  { date: "2026/9/12", title: "海琳あおい ミリプロNOVA加入発表（デビュー前）", desc: "公式Xにて発表。デビュー日・詳細は未公開のため本サイトも準備中表示", en: { title: "Mitama Aoi announced for MilliPro NOVA (pre-debut)", desc: "Announced on official X. Details TBA." } }
 ];
 
 const YOUTUBE = {
