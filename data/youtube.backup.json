@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-09-14T17:06:54.362Z",
+  "updatedAt": "2026-09-14T22:48:43.801Z",
   "streams": [
+    {
+      "id": "2xL3Hl_mLUw",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【さユり縛り歌枠】告知あり。【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/2xL3Hl_mLUw/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-15T12:00:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "9LzS0TuBoKk",
       "memberId": "mahoro",
@@ -181,13 +190,23 @@
   ],
   "videos": [
     {
+      "id": "2xL3Hl_mLUw",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【さユり縛り歌枠】告知あり。【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/2xL3Hl_mLUw/hqdefault_live.jpg",
+      "publishedAt": "2026-09-14T18:53:40Z",
+      "live": false
+    },
+    {
       "id": "3QuFncR0U80",
       "memberId": "yura",
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
       "title": "【 Minecraft 】初！ソロエンドラ討伐(耐久!?)🏹【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/3QuFncR0U80/hqdefault_live.jpg",
-      "publishedAt": "2026-09-14T16:47:56Z",
+      "thumb": "https://i.ytimg.com/vi/3QuFncR0U80/hqdefault.jpg",
+      "publishedAt": "2026-09-14T17:14:54Z",
       "live": false
     },
     {
@@ -468,16 +487,6 @@
       "title": "16年前と今の歌声を比べてみた！【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/QDJ1NX-M0JY/hqdefault.jpg",
       "publishedAt": "2026-09-11T09:00:13Z",
-      "live": false
-    },
-    {
-      "id": "BLToJkkzKis",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【日本事故物件監視協会3】ホラー苦手な夕霧レイと監視するよ【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/BLToJkkzKis/hqdefault.jpg",
-      "publishedAt": "2026-09-10T17:00:28Z",
       "live": false
     }
   ],
