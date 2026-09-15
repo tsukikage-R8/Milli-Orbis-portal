@@ -1587,6 +1587,7 @@ const MEMBERS = [
     icon: "images/icon/aoi_profile.jpg",
     catchphrase: "",
     introVoice: "",
+    introDelay: 6.5,
     fx: "aoi",
     deco: {
       label: "turtle",

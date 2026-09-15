@@ -240,12 +240,23 @@ function fxHtml(kind) {
     aoi:
       '<span class="fx-aoray" style="left:14%;animation-delay:0s"></span>' +
       '<span class="fx-aoray" style="left:64%;animation-delay:1.4s;animation-duration:7s"></span>' +
-      '<span class="fx-turtle" style="top:16%;animation-delay:0.4s">' + DECO_SVG.turtle + "</span>" +
-      '<span class="fx-turtle" style="top:56%;animation-delay:3.4s;animation-duration:13s;width:70px;opacity:0.75">' + DECO_SVG.turtle + "</span>" +
-      '<span class="fx-aoibub" style="left:16%;bottom:-30px"></span>' +
-      '<span class="fx-aoibub" style="left:38%;bottom:-30px;animation-delay:1.1s;animation-duration:6.5s"></span>' +
-      '<span class="fx-aoibub" style="left:62%;bottom:-30px;animation-delay:2s;animation-duration:5.4s"></span>' +
-      '<span class="fx-aoibub" style="left:84%;bottom:-30px;animation-delay:0.6s;animation-duration:7.2s"></span>' +
+      '<span class="fx-aoirush" style="left:6%;bottom:-40px;width:22px;height:22px;animation-delay:0s;animation-duration:3.2s;--drift:14px"></span>' +
+      '<span class="fx-aoirush" style="left:14%;bottom:-50px;width:34px;height:34px;animation-delay:0.25s;animation-duration:3.8s;--drift:-18px"></span>' +
+      '<span class="fx-aoirush" style="left:22%;bottom:-40px;width:16px;height:16px;animation-delay:0.1s;animation-duration:2.9s;--drift:22px"></span>' +
+      '<span class="fx-aoirush" style="left:30%;bottom:-60px;width:42px;height:42px;animation-delay:0.5s;animation-duration:4.1s;--drift:-12px"></span>' +
+      '<span class="fx-aoirush" style="left:38%;bottom:-40px;width:24px;height:24px;animation-delay:0.7s;animation-duration:3.4s;--drift:16px"></span>' +
+      '<span class="fx-aoirush" style="left:46%;bottom:-50px;width:30px;height:30px;animation-delay:0.35s;animation-duration:3.6s;--drift:-22px"></span>' +
+      '<span class="fx-aoirush" style="left:54%;bottom:-40px;width:18px;height:18px;animation-delay:0.9s;animation-duration:3s;--drift:20px"></span>' +
+      '<span class="fx-aoirush" style="left:62%;bottom:-60px;width:38px;height:38px;animation-delay:0.55s;animation-duration:4.2s;--drift:-14px"></span>' +
+      '<span class="fx-aoirush" style="left:70%;bottom:-40px;width:26px;height:26px;animation-delay:1.1s;animation-duration:3.3s;--drift:18px"></span>' +
+      '<span class="fx-aoirush" style="left:78%;bottom:-50px;width:20px;height:20px;animation-delay:0.8s;animation-duration:3.1s;--drift:-20px"></span>' +
+      '<span class="fx-aoirush" style="left:86%;bottom:-40px;width:32px;height:32px;animation-delay:1.3s;animation-duration:3.7s;--drift:12px"></span>' +
+      '<span class="fx-aoirush" style="left:93%;bottom:-55px;width:24px;height:24px;animation-delay:1s;animation-duration:3.5s;--drift:-16px"></span>' +
+      '<span class="fx-aoirush" style="left:10%;bottom:-60px;width:28px;height:28px;animation-delay:1.5s;animation-duration:3.4s;--drift:20px"></span>' +
+      '<span class="fx-aoirush" style="left:50%;bottom:-55px;width:36px;height:36px;animation-delay:1.65s;animation-duration:3.9s;--drift:-18px"></span>' +
+      '<span class="fx-aoirush" style="left:74%;bottom:-45px;width:22px;height:22px;animation-delay:1.8s;animation-duration:3.2s;--drift:14px"></span>' +
+      '<span class="fx-aoirush" style="left:34%;bottom:-45px;width:26px;height:26px;animation-delay:1.45s;animation-duration:3.6s;--drift:-14px"></span>' +
+      '<span class="fx-turtle-in" style="animation-delay:3s">' + DECO_SVG.turtle + "</span>" +
       '<span class="fx-kelp" style="left:4%;animation-delay:0s">' + DECO_SVG.seaweed + "</span>" +
       '<span class="fx-kelp" style="right:5%;animation-delay:1.6s;animation-duration:6s;height:150px">' + DECO_SVG.seaweed + "</span>" +
       '<span class="fx-kelp" style="left:44%;animation-delay:0.8s;animation-duration:7.5s;height:110px;opacity:0.7">' + DECO_SVG.seaweed + "</span>" +

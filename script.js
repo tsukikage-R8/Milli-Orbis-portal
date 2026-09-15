@@ -1807,7 +1807,7 @@
 
     /* キャッチコピーを一文字ずつ表示する準備（音声に合わせて順に出現） */
     if (m && m.catchphrase && catchBox) {
-      var delay = 2.1;
+      var delay = 2.1 + (m.introDelay || 0);
       catchBox.innerHTML = loc(m, "catchphrase").split("").map(function (c) {
         if (c === " ") { delay += 0.05; return " "; }
         var d = delay;
@@ -1828,6 +1828,7 @@
       overlay.classList.remove("close");
       overlay.classList.add("show", "play");
       var done = false;
+      var introDelayMs = (m && m.introDelay ? m.introDelay * 1000 : 0);
       var finish = function () {
         if (done) return;
         done = true;
@@ -1891,9 +1892,16 @@
             tryPlay(true);
           });
         }
-        tryPlay();
+        /* 序盤演出（泡ラッシュ等）の後にボイスを出す指定がある場合は遅延 */
+        if (introDelayMs) {
+          setTimeout(function () {
+            if (!done && overlay.classList.contains("show")) tryPlay();
+          }, introDelayMs);
+        } else {
+          tryPlay();
+        }
       } else {
-        setTimeout(finish, 7000);
+        setTimeout(finish, 7000 + introDelayMs);
       }
     }
 
