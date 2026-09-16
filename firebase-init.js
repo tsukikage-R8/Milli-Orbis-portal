@@ -188,6 +188,7 @@ var MILLIPRO_TALENTS = {
   rei: { name: '夕霧レイ' },
   koma: { name: '小廻こま' },
   mahoro: { name: '鹿乃まほろ' },
+  aoi: { name: '海琳あおい' },
 };
 
 // 旧表記 tukuri との互換エイリアス（正式は tsukuri）。

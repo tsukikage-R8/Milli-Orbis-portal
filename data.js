@@ -1582,8 +1582,9 @@ const MEMBERS = [
     ],
     tags: { stream: "", clip: "", art: "" },
     links: { yt: "https://www.youtube.com/@MitamaAoi", x: "https://x.com/MitamaAoi", tiktok: "" },
-    img: "images/talents/aoi.png",
-    logo: "",
+    img: "images/talents/aoi.webp",
+    // TODO(aoi-logo): 現行logoは告知画像からの仮切り抜き。公式ロゴ素材が出たら差し替え (2026-09-16)
+    logo: "images/rogo/aoirogo.webp",
     icon: "images/icon/aoi_profile.jpg",
     catchphrase: "",
     introVoice: "",
