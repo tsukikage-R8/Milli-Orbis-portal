@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-09-16T08:52:54.089Z",
+  "updatedAt": "2026-09-16T15:38:42.322Z",
   "streams": [
-    {
-      "id": "90T0qzDQ5C0",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 雑談 〗歌ってみたをみんなで聴こう！！見よう！！！の会〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/90T0qzDQ5C0/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-16T11:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "9LzS0TuBoKk",
       "memberId": "mahoro",
@@ -190,14 +181,54 @@
   ],
   "videos": [
     {
+      "id": "o0ZgHA22i9Y",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【おうち3D】3Dお披露目の振り返り＆スパチャ読み！【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/o0ZgHA22i9Y/hqdefault.jpg",
+      "publishedAt": "2026-09-16T15:22:06Z",
+      "live": false
+    },
+    {
       "id": "90T0qzDQ5C0",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
       "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
       "title": "〖 雑談 〗歌ってみたをみんなで聴こう！！見よう！！！の会〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/90T0qzDQ5C0/hqdefault_live.jpg",
-      "publishedAt": "2026-09-15T18:30:24Z",
+      "thumb": "https://i.ytimg.com/vi/90T0qzDQ5C0/hqdefault.jpg",
+      "publishedAt": "2026-09-16T13:44:48Z",
       "live": true
+    },
+    {
+      "id": "_Wk15NfJJ8A",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【全部聞いたことある??】2026年上半期ボカロバズ曲メドレー！ #歌ってみた 【 #海琳あおい / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/_Wk15NfJJ8A/hqdefault.jpg",
+      "publishedAt": "2026-09-16T09:01:22Z",
+      "live": false
+    },
+    {
+      "id": "VuJpaSzmXvI",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "【低音コンビで】引いた言葉に含まれる歌詞を歌ってみた！【あくび・でもんすぺーど/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/VuJpaSzmXvI/hqdefault.jpg",
+      "publishedAt": "2026-09-16T09:00:28Z",
+      "live": false
+    },
+    {
+      "id": "c4VJ8qCdYMQ",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】先にゴールに辿り着くのは誰？！ブーブージョッキー！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/c4VJ8qCdYMQ/hqdefault.jpg",
+      "publishedAt": "2026-09-16T09:00:00Z",
+      "live": false
     },
     {
       "id": "ObZSkYruRX8",
@@ -410,6 +441,16 @@
       "live": false
     },
     {
+      "id": "M4cIUF0q6Kg",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【パクリ疑惑...？】睨めっ娘 / 友成空 #歌ってみた 【 #海琳あおい / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/M4cIUF0q6Kg/hqdefault.jpg",
+      "publishedAt": "2026-09-13T09:01:19Z",
+      "live": false
+    },
+    {
       "id": "5v_KnqzZI5Q",
       "memberId": "official",
       "member": "ミリプロ公式",
@@ -430,63 +471,13 @@
       "live": false
     },
     {
-      "id": "hV4VEiD2bw0",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 #ゆらぎゆら3Dお披露目 】あなたと一緒に、まだ見ぬ海へ。【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/hV4VEiD2bw0/hqdefault.jpg",
-      "publishedAt": "2026-09-12T11:57:32Z",
-      "live": false
-    },
-    {
-      "id": "9d0t0z_cECo",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【 #音ノ瀬らこ3Dお披露目】君に元気をおすそ分けしに来たよ！【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/9d0t0z_cECo/hqdefault.jpg",
-      "publishedAt": "2026-09-12T10:55:06Z",
-      "live": false
-    },
-    {
-      "id": "mBY2AwNoW5s",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【アニメ】一緒にゴールしよ！#ミリプロ #anime",
-      "thumb": "https://i.ytimg.com/vi/mBY2AwNoW5s/hqdefault.jpg",
-      "publishedAt": "2026-09-12T09:00:28Z",
-      "live": false
-    },
-    {
-      "id": "szrTDsvSrR0",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【初オリジナル楽曲】『NET CHOOSE SHOW』 のダンスとってもかっこいい〜🌂#animation #shorts【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/szrTDsvSrR0/hqdefault.jpg",
-      "publishedAt": "2026-09-12T09:00:00Z",
-      "live": false
-    },
-    {
-      "id": "PihWaSk2m4M",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ほの暮しの庭 〗お祭り楽しんで、残暑を乗り越える#4〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/PihWaSk2m4M/hqdefault.jpg",
-      "publishedAt": "2026-09-11T16:52:09Z",
-      "live": false
-    },
-    {
-      "id": "vQffqjWuMAc",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【歌枠】明日は3Dお披露目だー！！【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/vQffqjWuMAc/hqdefault.jpg",
-      "publishedAt": "2026-09-11T15:51:52Z",
+      "id": "f0M1I8kqVLY",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【ティザーPV】海琳あおい / Mitama Aoi【ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/f0M1I8kqVLY/hqdefault.jpg",
+      "publishedAt": "2026-09-12T13:00:06Z",
       "live": false
     }
   ],
