@@ -329,6 +329,7 @@
       html += '<button class="cursor-dropdown-item' + offActive + '" data-cur="__off" role="menuitem"><span style="width:28px;height:28px;border-radius:50%;background:#eee;display:flex;align-items:center;justify-content:center;font-size:12px">🚫</span><span>OFF（標準）</span><span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg></span></button>';
       for (var mi=0; mi<members.length; mi++) {
         var m = members[mi];
+        if (m.id === "aoi") continue; // カーソル素材なし（推し背景としては選択可）。素材完成後に解除
         var active = cur.enabled && cur.talentId === m.id ? ' active' : '';
         var pngMap = {raco:"rako", liz:"rizu"};
         var cid = pngMap[m.id] || m.id;
