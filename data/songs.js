@@ -1201,6 +1201,11 @@ window.SONGS = {
         },
         {
           "id": "yynYqcLJYPk",
+          "memberId": "aoi",
+          "publishedAt": "2025-12-26"
+        },
+        {
+          "id": "yynYqcLJYPk",
           "memberId": "koma",
           "publishedAt": "2026-07-05"
         },
