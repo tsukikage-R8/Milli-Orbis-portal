@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T08:57:39.585Z",
+  "updatedAt": "2026-09-17T15:44:41.630Z",
   "streams": [
     {
       "id": "9e35m9mlk2A",
@@ -7,7 +7,16 @@
       "member": "眠雲ツクリ",
       "title": "〖 ほの暮しの庭 〗秋はまだ、ここからだッ！#6〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/9e35m9mlk2A/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-17T11:00:00Z",
+      "scheduledStartTime": "2026-09-17T11:01:56Z",
+      "status": "live"
+    },
+    {
+      "id": "Ct9U2imDjok",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 朝歌枠 】皆にいってらっしゃいをする歌枠 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/Ct9U2imDjok/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-17T21:30:00Z",
       "status": "upcoming"
     },
     {
@@ -190,13 +199,53 @@
   ],
   "videos": [
     {
+      "id": "EnqLGcwECms",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 雑談 】普通に雑談する ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/EnqLGcwECms/hqdefault.jpg",
+      "publishedAt": "2026-09-17T15:18:15Z",
+      "live": true
+    },
+    {
+      "id": "Ct9U2imDjok",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 朝歌枠 】皆にいってらっしゃいをする歌枠 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/Ct9U2imDjok/hqdefault_live.jpg",
+      "publishedAt": "2026-09-17T13:08:30Z",
+      "live": false
+    },
+    {
+      "id": "bdCqJ5VPU8Y",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【雑談】おひさしぶりだね　さみしかった？",
+      "thumb": "https://i.ytimg.com/vi/bdCqJ5VPU8Y/hqdefault.jpg",
+      "publishedAt": "2026-09-17T12:53:22Z",
+      "live": true
+    },
+    {
+      "id": "rXuSYrvh3HU",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【歌枠＋雑談】告知あり！歌枠だよ【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/rXuSYrvh3HU/hqdefault.jpg",
+      "publishedAt": "2026-09-17T12:29:18Z",
+      "live": true
+    },
+    {
       "id": "9e35m9mlk2A",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
       "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
       "title": "〖 ほの暮しの庭 〗秋はまだ、ここからだッ！#6〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/9e35m9mlk2A/hqdefault_live.jpg",
-      "publishedAt": "2026-09-17T08:09:05Z",
+      "publishedAt": "2026-09-17T11:01:56Z",
       "live": false
     },
     {
@@ -206,7 +255,17 @@
       "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
       "title": "【検証】話題のGPT-5.6の命令通りに絵を描いたら神絵になる説！？【甘狼このみ】",
       "thumb": "https://i.ytimg.com/vi/DPy3UNzFBeI/hqdefault.jpg",
-      "publishedAt": "2026-09-17T04:43:59Z",
+      "publishedAt": "2026-09-17T10:00:06Z",
+      "live": false
+    },
+    {
+      "id": "DR16vSnOzWc",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "誰を恋人にしたい？Tier表を作れ！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/DR16vSnOzWc/hqdefault.jpg",
+      "publishedAt": "2026-09-17T09:00:21Z",
       "live": false
     },
     {
@@ -438,57 +497,17 @@
       "thumb": "https://i.ytimg.com/vi/hHyNursn9mw/hqdefault.jpg",
       "publishedAt": "2026-09-13T15:07:37Z",
       "live": false
-    },
-    {
-      "id": "KISmMEKMBjk",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【雑談】今週もおつかれさま～！ちょっとご相談してもいいですかヽ(.⊿·)？【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/KISmMEKMBjk/hqdefault.jpg",
-      "publishedAt": "2026-09-13T14:46:49Z",
-      "live": true
-    },
-    {
-      "id": "57JbDc9aefw",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "サウダージ / あくび・でもんすぺーど - cover",
-      "thumb": "https://i.ytimg.com/vi/57JbDc9aefw/hqdefault.jpg",
-      "publishedAt": "2026-09-13T11:00:06Z",
-      "live": false
-    },
-    {
-      "id": "6yl_OWGIYLE",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【衝撃】あまりにも大型すぎる新メンバーを丸裸にしてみたらヤバすぎたwww",
-      "thumb": "https://i.ytimg.com/vi/6yl_OWGIYLE/hqdefault.jpg",
-      "publishedAt": "2026-09-13T10:00:06Z",
-      "live": false
-    },
-    {
-      "id": "M4cIUF0q6Kg",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【パクリ疑惑...？】睨めっ娘 / 友成空 #歌ってみた 【 #海琳あおい / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/M4cIUF0q6Kg/hqdefault.jpg",
-      "publishedAt": "2026-09-13T09:01:19Z",
-      "live": false
-    },
-    {
-      "id": "5v_KnqzZI5Q",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】先にゴールに辿り着くのは誰？！ブーブージョッキー！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/5v_KnqzZI5Q/hqdefault.jpg",
-      "publishedAt": "2026-09-13T09:00:25Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "9e35m9mlk2A",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 ほの暮しの庭 〗秋はまだ、ここからだッ！#6〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/9e35m9mlk2A/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-17T11:01:56Z",
+      "status": "live"
+    }
+  ]
 }
