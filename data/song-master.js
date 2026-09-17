@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-09-16",
+  "generatedAt": "2026-09-17",
   "songs": {
     "サウダジ": {
       "title": "サウダージ",
@@ -543,13 +543,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "いい感じ",
-      "artist": "ケツメイシ",
-      "album": "KETSUNOPOLIS 10",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Feels good"
-      }
+      "title": "メロリ",
+      "artist": "Hey! Say! JUMP",
+      "album": "S say",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/ca/56/a8ca56fa-2106-4056-1ffa-dc4a0fa0af2e/4517331098560.jpg/600x600bb.jpg"
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -1215,10 +1212,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/c6/f9/e6/c6f9e687-9fd0-5e42-dea9-e99f47389896/KRHS-37260_Pfeat_GloriousWo.jpg/600x600bb.jpg"
     },
     "チェリポップ.": {
-      "title": "メランコリーキッチン",
-      "artist": "米津玄師",
-      "album": "YANKEE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg"
+      "title": "365日",
+      "artist": "Mr.Children",
+      "album": "Mr.Children 2005 - 2010 <macro>",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/f5/31/e2f531ef-3d22-44f2-2f3c-7170725eec29/dj.mxqqwpdb.jpg/600x600bb.jpg"
     },
     "glowacoustic.": {
       "title": "春に落ちて",
@@ -1449,10 +1446,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/67/8f/cd/678fcd20-21ad-4f96-eecf-ef85d489b4c0/4511820-95411.jpg/600x600bb.jpg"
     },
     "sakuraいきものがかりacousticarrange": {
-      "title": "Give me a brains",
-      "artist": "RAXISS",
-      "album": "俺の城 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/fb/75/aefb756e-7db7-80fa-9a0d-e161bdc4505d/bigup14157593.jpg/600x600bb.jpg"
+      "title": "Es (feat. 初音ミク)",
+      "artist": "PALZ",
+      "album": "Es (feat. 初音ミク) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d7/b0/32/d7b0320a-2222-d541-d57c-a5b16ea87705/4550757724903_cover.png/600x600bb.jpg"
     },
     "どりみんチュチュdreaminchuchu.": {
       "title": "どりーみんチュチュ",
@@ -1683,10 +1680,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/b7/02/9ab702b7-14b9-de10-c826-3793b4ed97c6/5021732646163.jpg/600x600bb.jpg"
     },
     "ハロハワユいました": {
-      "title": "ドーナツホール (COVER)",
-      "artist": "米津玄師",
-      "album": "YANKEE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg"
+      "title": "シャルル",
+      "artist": "96猫",
+      "album": "O2O",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0f/99/87/0f99875e-1689-639e-4e52-9ff6afa60714/jacket_SRXX02478B00Z_550.jpg/600x600bb.jpg"
     },
     "クエスチョン": {
       "title": "クエスチョン",
