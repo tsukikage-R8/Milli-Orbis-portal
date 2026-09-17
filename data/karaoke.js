@@ -1,6 +1,14 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "rXuSYrvh3HU",
+    "memberId": "liz",
+    "publishedAt": "2026-09-17",
+    "title": "【歌枠】告知あり！歌枠だよ【雨夜リズ/ミリプロ】",
+    "duration": 0,
+    "songs": []
+  },
+  {
     "id": "2xL3Hl_mLUw",
     "memberId": "yura",
     "publishedAt": "2026-09-14",

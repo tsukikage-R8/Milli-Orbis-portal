@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-09-17T02:00:00.981Z",
+  "updatedAt": "2026-09-17T08:57:39.585Z",
   "streams": [
+    {
+      "id": "9e35m9mlk2A",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 ほの暮しの庭 〗秋はまだ、ここからだッ！#6〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/9e35m9mlk2A/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-17T11:00:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "9LzS0TuBoKk",
       "memberId": "mahoro",
@@ -180,6 +189,26 @@
     }
   ],
   "videos": [
+    {
+      "id": "9e35m9mlk2A",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ほの暮しの庭 〗秋はまだ、ここからだッ！#6〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/9e35m9mlk2A/hqdefault_live.jpg",
+      "publishedAt": "2026-09-17T08:09:05Z",
+      "live": false
+    },
+    {
+      "id": "DPy3UNzFBeI",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【検証】話題のGPT-5.6の命令通りに絵を描いたら神絵になる説！？【甘狼このみ】",
+      "thumb": "https://i.ytimg.com/vi/DPy3UNzFBeI/hqdefault.jpg",
+      "publishedAt": "2026-09-17T04:43:59Z",
+      "live": false
+    },
     {
       "id": "o0ZgHA22i9Y",
       "memberId": "raco",
@@ -458,26 +487,6 @@
       "title": "【マイクラ】先にゴールに辿り着くのは誰？！ブーブージョッキー！【#ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/5v_KnqzZI5Q/hqdefault.jpg",
       "publishedAt": "2026-09-13T09:00:25Z",
-      "live": false
-    },
-    {
-      "id": "A3okHjHt2To",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【#にじぷかぬふ3Dお披露目】たっくさん動くところ見ててね👀【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/A3okHjHt2To/hqdefault.jpg",
-      "publishedAt": "2026-09-12T14:03:17Z",
-      "live": false
-    },
-    {
-      "id": "f0M1I8kqVLY",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【ティザーPV】海琳あおい / Mitama Aoi【ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/f0M1I8kqVLY/hqdefault.jpg",
-      "publishedAt": "2026-09-12T13:00:06Z",
       "live": false
     }
   ],
