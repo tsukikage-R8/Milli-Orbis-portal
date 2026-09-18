@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-09-17T22:29:28.494Z",
+  "updatedAt": "2026-09-18T01:47:25.186Z",
   "streams": [
-    {
-      "id": "Ct9U2imDjok",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 朝歌枠 】皆にいってらっしゃいをする歌枠 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/Ct9U2imDjok/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-17T21:46:12Z",
-      "status": "live"
-    },
     {
       "id": "9LzS0TuBoKk",
       "memberId": "mahoro",
@@ -195,8 +186,8 @@
       "member": "夕霧レイ",
       "channelTitle": "夕霧レイ / YugiriRay",
       "title": "【 朝歌枠 】皆にいってらっしゃいをする歌枠 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/Ct9U2imDjok/hqdefault_live.jpg",
-      "publishedAt": "2026-09-17T21:46:12Z",
+      "thumb": "https://i.ytimg.com/vi/Ct9U2imDjok/hqdefault.jpg",
+      "publishedAt": "2026-09-17T23:11:49Z",
       "live": false
     },
     {
@@ -490,15 +481,5 @@
       "live": false
     }
   ],
-  "live": [
-    {
-      "id": "Ct9U2imDjok",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 朝歌枠 】皆にいってらっしゃいをする歌枠 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/Ct9U2imDjok/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-17T21:46:12Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
