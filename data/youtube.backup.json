@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T08:32:34.800Z",
+  "updatedAt": "2026-09-18T15:17:39.539Z",
   "streams": [
     {
       "id": "9LzS0TuBoKk",
@@ -35,6 +35,15 @@
       "title": "【歌枠】いんぐりっしゅよ～ん┊︎#音ノ乃のの #ののん家",
       "thumb": "https://i.ytimg.com/vi/YKE2uQ2XpX0/hqdefault_live.jpg",
       "scheduledStartTime": "2026-09-20T12:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "VdBuZtOFF6M",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "【#マイクラ肝試し2026】南ノ迷宮・北ノ迷宮！このこまとまれぐで肝試し・・・・これ大丈夫【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/VdBuZtOFF6M/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-20T13:00:00Z",
       "status": "upcoming"
     },
     {
@@ -180,6 +189,46 @@
     }
   ],
   "videos": [
+    {
+      "id": "gOq4b15I6EM",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "【偏見】実は結婚してるし育児で忙しそう。【あくび・でもんすぺーど /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/gOq4b15I6EM/hqdefault_live.jpg",
+      "publishedAt": "2026-09-18T14:42:26Z",
+      "live": false
+    },
+    {
+      "id": "VdBuZtOFF6M",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【#マイクラ肝試し2026】南ノ迷宮・北ノ迷宮！このこまとまれぐで肝試し・・・・これ大丈夫【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/VdBuZtOFF6M/hqdefault_live.jpg",
+      "publishedAt": "2026-09-18T11:49:08Z",
+      "live": false
+    },
+    {
+      "id": "w8jQnf2Fp0g",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】マグマ2択チャレンジ！選択を間違えたら即終了！？【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/w8jQnf2Fp0g/hqdefault.jpg",
+      "publishedAt": "2026-09-18T09:00:20Z",
+      "live": false
+    },
+    {
+      "id": "w9LVwv470nQ",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【オリジナルshort曲】『道連れ』#shorts【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/w9LVwv470nQ/hqdefault.jpg",
+      "publishedAt": "2026-09-18T09:00:09Z",
+      "live": false
+    },
     {
       "id": "Ct9U2imDjok",
       "memberId": "rei",
@@ -438,46 +487,6 @@
       "title": "【マイクラ】マグマ2択チャレンジ！迫るマグマから逃げ切れ！【#ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/h91Ume5CUqA/hqdefault.jpg",
       "publishedAt": "2026-09-14T09:00:07Z",
-      "live": false
-    },
-    {
-      "id": "cVxk8sw0X54",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 雑談 】サンドウィッチたべたよ【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/cVxk8sw0X54/hqdefault.jpg",
-      "publishedAt": "2026-09-13T23:30:28Z",
-      "live": true
-    },
-    {
-      "id": "AEY7OFm1qqk",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ほの暮しの庭 〗豊の秋！！！はじまる！！！#5〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/AEY7OFm1qqk/hqdefault.jpg",
-      "publishedAt": "2026-09-13T17:13:51Z",
-      "live": false
-    },
-    {
-      "id": "lpD3yTeGWzQ",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【おうち3D】3Dお披露目ありがとう！今日はゆっくり後夜祭♪【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/lpD3yTeGWzQ/hqdefault.jpg",
-      "publishedAt": "2026-09-13T15:28:14Z",
-      "live": false
-    },
-    {
-      "id": "hHyNursn9mw",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【#ののとノクターン】第1回のゲストはなるみや様！┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/hHyNursn9mw/hqdefault.jpg",
-      "publishedAt": "2026-09-13T15:07:37Z",
       "live": false
     }
   ],
