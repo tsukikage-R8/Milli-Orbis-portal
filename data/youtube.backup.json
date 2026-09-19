@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-09-19T08:19:50.811Z",
+  "updatedAt": "2026-09-19T14:54:41.603Z",
   "streams": [
-    {
-      "id": "4dW3ypO05g0",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 コラボ歌枠 〗NEROさんと最高な歌をお届け〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/4dW3ypO05g0/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-19T12:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "qbalFQbmNpk",
       "memberId": "mahoro",
@@ -189,6 +180,76 @@
     }
   ],
   "videos": [
+    {
+      "id": "4dW3ypO05g0",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 コラボ歌枠 〗NEROさんと最高な歌をお届け〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/4dW3ypO05g0/hqdefault.jpg",
+      "publishedAt": "2026-09-19T13:24:55Z",
+      "live": false
+    },
+    {
+      "id": "jNswdGq7z2g",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【雑談】ケンタッキーの月見を実食しながら【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/jNswdGq7z2g/hqdefault.jpg",
+      "publishedAt": "2026-09-19T12:06:16Z",
+      "live": true
+    },
+    {
+      "id": "OZgLlveyW8Y",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【大暴走】どっぷり泥酔したVTuberの中で1人だけ“酔ったフリ”してる人狼がいます!!",
+      "thumb": "https://i.ytimg.com/vi/OZgLlveyW8Y/hqdefault.jpg",
+      "publishedAt": "2026-09-19T09:59:51Z",
+      "live": false
+    },
+    {
+      "id": "x6BuWOYAyeo",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【どこまで知ってる？】狂気的なボカロ曲ファンテスト！ #歌ってみた 【 #海琳あおい / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/x6BuWOYAyeo/hqdefault.jpg",
+      "publishedAt": "2026-09-19T09:01:14Z",
+      "live": false
+    },
+    {
+      "id": "16YXLGMX9MM",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【アニメ】ポジティブ女子が眩しすぎる...！#ミリプロ #anime",
+      "thumb": "https://i.ytimg.com/vi/16YXLGMX9MM/hqdefault.jpg",
+      "publishedAt": "2026-09-19T09:00:31Z",
+      "live": false
+    },
+    {
+      "id": "lFOvOJp_m-c",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "『カラオケボカロランキング2026』【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/lFOvOJp_m-c/hqdefault.jpg",
+      "publishedAt": "2026-09-19T09:00:24Z",
+      "live": false
+    },
+    {
+      "id": "Mv9PuGt6KSg",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "スイカを食べたのは誰！？ #minecraft",
+      "thumb": "https://i.ytimg.com/vi/Mv9PuGt6KSg/hqdefault.jpg",
+      "publishedAt": "2026-09-19T08:31:08Z",
+      "live": false
+    },
     {
       "id": "oGKCb4hQ5SM",
       "memberId": "yura",
@@ -400,26 +461,6 @@
       "live": true
     },
     {
-      "id": "dojaTh3uKho",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【初オリジナル楽曲】『NET CHOOSE SHOW』のメイキング映像🌂 #animation #shorts 【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/dojaTh3uKho/hqdefault.jpg",
-      "publishedAt": "2026-09-15T09:00:20Z",
-      "live": false
-    },
-    {
-      "id": "qQ1HSrY1sgE",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【アニメ】PONな居合い斬り#ミリプロ #anime",
-      "thumb": "https://i.ytimg.com/vi/qQ1HSrY1sgE/hqdefault.jpg",
-      "publishedAt": "2026-09-15T09:00:16Z",
-      "live": false
-    },
-    {
       "id": "3QuFncR0U80",
       "memberId": "yura",
       "member": "ゆらぎゆら",
@@ -438,56 +479,6 @@
       "thumb": "https://i.ytimg.com/vi/qbalFQbmNpk/hqdefault_live.jpg",
       "publishedAt": "2026-09-14T16:23:59Z",
       "live": true
-    },
-    {
-      "id": "4dW3ypO05g0",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 コラボ歌枠 〗NEROさんと最高な歌をお届け〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/4dW3ypO05g0/hqdefault_live.jpg",
-      "publishedAt": "2026-09-14T14:29:02Z",
-      "live": false
-    },
-    {
-      "id": "HRLfi6uwx6A",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 歌枠 〗たのしみ告知あり！のんびりうたうにょ～～ん〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/HRLfi6uwx6A/hqdefault.jpg",
-      "publishedAt": "2026-09-14T14:20:48Z",
-      "live": false
-    },
-    {
-      "id": "20iR8QY36SA",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 DUMB WAYS TO BUILD 】withドパガキ㌠ ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/20iR8QY36SA/hqdefault.jpg",
-      "publishedAt": "2026-09-14T14:13:19Z",
-      "live": false
-    },
-    {
-      "id": "_R524vQdHjg",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "歌収録に行き詰まったVTuberのリアル",
-      "thumb": "https://i.ytimg.com/vi/_R524vQdHjg/hqdefault.jpg",
-      "publishedAt": "2026-09-14T09:00:32Z",
-      "live": false
-    },
-    {
-      "id": "h91Ume5CUqA",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】マグマ2択チャレンジ！迫るマグマから逃げ切れ！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/h91Ume5CUqA/hqdefault.jpg",
-      "publishedAt": "2026-09-14T09:00:07Z",
-      "live": false
     }
   ],
   "live": []
