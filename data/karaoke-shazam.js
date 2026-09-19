@@ -128,14 +128,14 @@ window.KARAOKE_SHAZAM = {
   },
   "yoPXNBdttoc": {
     "status": "error",
-    "attempts": 3,
-    "attemptedAt": "2026-09-19T08:55:05.194060+00:00",
+    "attempts": 4,
+    "attemptedAt": "2026-09-19T12:54:17.871108+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "lkHVqtUjrac": {
-    "status": "skip",
-    "attempts": 5,
-    "attemptedAt": "2026-09-12T08:45:18.571796+00:00",
+    "status": "error",
+    "attempts": 1,
+    "attemptedAt": "2026-09-19T12:54:26.565765+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "zXhjrkBhLSs": {
@@ -319,9 +319,9 @@ window.KARAOKE_SHAZAM = {
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "vQffqjWuMAc": {
-    "status": "error",
-    "attempts": 4,
-    "attemptedAt": "2026-09-19T08:54:46.452954+00:00",
+    "status": "skip",
+    "attempts": 5,
+    "attemptedAt": "2026-09-19T12:54:09.003748+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "lpD3yTeGWzQ": {
