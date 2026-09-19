@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-09-18",
+  "generatedAt": "2026-09-19",
   "songs": {
     "サウダジ": {
       "title": "サウダージ",
@@ -459,13 +459,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/aa/33/55/aa335541-9932-d73c-6b1e-62bd484fc83d/4547366642308.jpg/600x600bb.jpg"
     },
     "嫌々-halvesshortby": {
-      "title": "ダーリン",
-      "artist": "Mrs. GREEN APPLE",
-      "album": "ダーリン - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7b/b9/27/7bb92776-1f4a-06c6-e36e-de889f2b8620/25UMGIM01757.rgb.jpg/600x600bb.jpg",
-      "en": {
-        "title": "darling"
-      }
+      "title": "アンコール",
+      "artist": "YOASOBI",
+      "album": "THE BOOK",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7f/8c/90/7f8c90dd-e11f-30d5-271d-4b72eee970bd/195497666737.jpg/600x600bb.jpg"
     },
     "メルト": {
       "title": "メルト -MIKU EXPO 2014 in INDONESIA Live-",
@@ -510,10 +507,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "蝶々結び",
-      "artist": "Aimer",
-      "album": "蝶々結び - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg"
+      "title": "HOWEVER",
+      "artist": "GLAY",
+      "album": "HOWEVER - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/99/b6/af/99b6af9f-2d9a-c0c8-ec22-3c626e5d3d34/HOWEVER_itunes.jpg/600x600bb.jpg"
     },
     "だから僕は音楽を辞めた": {
       "title": "だから僕は音楽を辞めた",
@@ -1449,10 +1446,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/67/8f/cd/678fcd20-21ad-4f96-eecf-ef85d489b4c0/4511820-95411.jpg/600x600bb.jpg"
     },
     "sakuraいきものがかりacousticarrange": {
-      "title": "Give me a brains",
-      "artist": "RAXISS",
-      "album": "俺の城 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/fb/75/aefb756e-7db7-80fa-9a0d-e161bdc4505d/bigup14157593.jpg/600x600bb.jpg"
+      "title": "Es (feat. 初音ミク)",
+      "artist": "PALZ",
+      "album": "Es (feat. 初音ミク) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d7/b0/32/d7b0320a-2222-d541-d57c-a5b16ea87705/4550757724903_cover.png/600x600bb.jpg"
     },
     "どりみんチュチュdreaminchuchu.": {
       "title": "どりーみんチュチュ",
