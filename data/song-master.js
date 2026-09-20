@@ -10,9 +10,9 @@ window.SONG_MASTER = {
     },
     "surges＆": {
       "title": "Surges",
-      "artist": "m",
+      "artist": "Orangestar",
       "album": "Surges - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/8d/1b/d38d1baf-7312-ee15-f952-8fc668c7a9a3/4562424562909.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f8/93/65/f8936589-9412-28c5-bba5-5de355fe34b7/859757272648_cover.jpg/600x600bb.jpg"
     },
     "iii": {
       "title": "I I I",
@@ -214,9 +214,9 @@ window.SONG_MASTER = {
     },
     "ブラック★ロックシュタ-ryo": {
       "title": "ブラック★ロックシューター (Cover)",
-      "artist": "Lamu",
-      "album": "New Beginning - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7b/41/45/7b4145b0-fbe0-af88-fbec-375a0f3f6747/4571640608223_cover.png/600x600bb.jpg",
+      "artist": "カグラナナ",
+      "album": "Astrolabe",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/96/be/05/96be050c-85f1-0650-97d3-ddcf4c99cff1/4582599509264_cover.png/600x600bb.jpg",
       "en": {
         "title": "Black★Rock Shooter (Cover)"
       }
@@ -999,10 +999,13 @@ window.SONG_MASTER = {
       }
     },
     "マシャルマキシマイザ": {
-      "title": "マーシャル・マキシマイザー (feat. 可不)",
-      "artist": "柊マグネタイト",
-      "album": "KAF+YOU KAFU COMPILATION ALBUM シンメトリー",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6a/25/39/6a2539f1-882e-9822-3876-14ec354ca6e6/ANTCD-46511.jpg/600x600bb.jpg"
+      "title": "マーシャル・マキシマイザー",
+      "artist": "吉乃",
+      "album": "PALETTE5",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a1/92/22/a1922258-5ccd-edba-3fdb-67721181c362/PCSP_03942.jpg/600x600bb.jpg",
+      "en": {
+        "title": "marshall maximizer"
+      }
     },
     "祝福": {
       "title": "祝福",
@@ -1142,8 +1145,8 @@ window.SONG_MASTER = {
     "adrenaline!!!trysail": {
       "title": "adrenaline!!!",
       "artist": "TrySail",
-      "album": "adrenaline!!! - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4c/d2/02/4cd2020b-7ece-0750-e67e-db707b14152e/jacket_VVCL01050B00Z_550.jpg/600x600bb.jpg"
+      "album": "TAILWIND",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cd/f4/70/cdf4707d-3197-bd1b-20ee-cdb4fecd08a1/jacket_VVCL01087B00Z_550.jpg/600x600bb.jpg"
     },
     "ぼなぺてぃと♡sブレンドa": {
       "title": "ぼなぺてぃーと♡S (Cover)",
@@ -1316,8 +1319,8 @@ window.SONG_MASTER = {
     "カタオモイ-aimer": {
       "title": "カタオモイ",
       "artist": "Aimer",
-      "album": "BEST SELECTION \"blanc\"",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ab/ab/9b/abab9b3b-41cd-a0c0-29c0-6a1464501c0b/4547366306514.jpg/600x600bb.jpg"
+      "album": "daydream",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/46/4a/84/464a843d-14cc-e5e2-a9d6-763eb558e104/4547366270358.jpg/600x600bb.jpg"
     },
     "ちゅ、多様性。": {
       "title": "願い〜あの頃のキミへ〜",
@@ -1338,10 +1341,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/81/36/af/8136afa9-cf94-f4d5-8460-9510c8f6e99f/PA00077485_0_180113_jacket.jpg/600x600bb.jpg"
     },
     "僕が死のうと思ったのは.": {
-      "title": "YOKAZE",
-      "artist": "変態紳士クラブ",
-      "album": "HERO - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8c/62/4d/8c624de0-718a-9f05-4ca8-6b2d25f29b68/TFDS-00585WW.jpg/600x600bb.jpg"
+      "title": "IRIS OUT",
+      "artist": "米津玄師",
+      "album": "IRIS OUT - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/f9/f1/e0f9f1f3-a088-b28d-6760-a28accabc705/4547366775181.jpg/600x600bb.jpg"
     },
     "無理に笑わなくて良いよ.": {
       "title": "ハロ/ハワユ",
@@ -1527,10 +1530,10 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "シャッター",
-      "artist": "優里",
-      "album": "シャッター - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/5c/ff/ac5cff5d-de3e-8cdc-f8de-95965a9fc894/4547366520002.jpg/600x600bb.jpg"
+      "title": "一花依世界",
+      "artist": "洛天依",
+      "album": "依如初見",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ac/b0/68/acb06846-0c4f-d0f7-801c-678b0e37efd0/193017072921.jpg/600x600bb.jpg"
     },
     "メルティランドナイトメア": {
       "title": "メルティランドナイトメア",
