@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-09-20T14:58:16.861Z",
+  "updatedAt": "2026-09-20T18:20:25.780Z",
   "streams": [
-    {
-      "id": "fc0on0xQzOw",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 #マイクラ肝試し2026 】初参戦！ドキドキが止まらない肝試し【小廻こま/ミリプロ】#このこまとまれ",
-      "thumb": "https://i.ytimg.com/vi/fc0on0xQzOw/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-20T12:55:39Z",
-      "status": "live"
-    },
-    {
-      "id": "VdBuZtOFF6M",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【#マイクラ肝試し2026】南ノ迷宮・北ノ迷宮！「このこまとまれ」で肝試し・・・・これ大丈夫?【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/VdBuZtOFF6M/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-20T12:55:49Z",
-      "status": "live"
-    },
     {
       "id": "0PISw7uR4UU",
       "memberId": "mahoro",
@@ -172,6 +154,26 @@
   ],
   "videos": [
     {
+      "id": "VdBuZtOFF6M",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【#マイクラ肝試し2026】南ノ迷宮・北ノ迷宮！「このこまとまれ」で肝試し・・・・これ大丈夫?【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/VdBuZtOFF6M/hqdefault.jpg",
+      "publishedAt": "2026-09-20T15:23:54Z",
+      "live": false
+    },
+    {
+      "id": "fc0on0xQzOw",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 #マイクラ肝試し2026 】初参戦！ドキドキが止まらない肝試し【小廻こま/ミリプロ】#このこまとまれ",
+      "thumb": "https://i.ytimg.com/vi/fc0on0xQzOw/hqdefault.jpg",
+      "publishedAt": "2026-09-20T15:18:53Z",
+      "live": false
+    },
+    {
       "id": "YKE2uQ2XpX0",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -190,26 +192,6 @@
       "thumb": "https://i.ytimg.com/vi/qbalFQbmNpk/hqdefault.jpg",
       "publishedAt": "2026-09-20T13:06:14Z",
       "live": true
-    },
-    {
-      "id": "VdBuZtOFF6M",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【#マイクラ肝試し2026】南ノ迷宮・北ノ迷宮！「このこまとまれ」で肝試し・・・・これ大丈夫?【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/VdBuZtOFF6M/hqdefault_live.jpg",
-      "publishedAt": "2026-09-20T12:55:49Z",
-      "live": false
-    },
-    {
-      "id": "fc0on0xQzOw",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 #マイクラ肝試し2026 】初参戦！ドキドキが止まらない肝試し【小廻こま/ミリプロ】#このこまとまれ",
-      "thumb": "https://i.ytimg.com/vi/fc0on0xQzOw/hqdefault_live.jpg",
-      "publishedAt": "2026-09-20T12:55:39Z",
-      "live": false
     },
     {
       "id": "oHL-kU7tOwU",
@@ -472,24 +454,5 @@
       "live": false
     }
   ],
-  "live": [
-    {
-      "id": "fc0on0xQzOw",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 #マイクラ肝試し2026 】初参戦！ドキドキが止まらない肝試し【小廻こま/ミリプロ】#このこまとまれ",
-      "thumb": "https://i.ytimg.com/vi/fc0on0xQzOw/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-20T12:55:39Z",
-      "status": "live"
-    },
-    {
-      "id": "VdBuZtOFF6M",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【#マイクラ肝試し2026】南ノ迷宮・北ノ迷宮！「このこまとまれ」で肝試し・・・・これ大丈夫?【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/VdBuZtOFF6M/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-20T12:55:49Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
