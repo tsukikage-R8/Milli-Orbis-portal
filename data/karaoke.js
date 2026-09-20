@@ -116,8 +116,8 @@ window.KARAOKE = [
     "id": "YKE2uQ2XpX0",
     "memberId": "nono",
     "publishedAt": "2026-08-22",
-    "title": "【歌枠】いんぐりっしゅよ～ん┊︎#音ノ乃のの #ののん家",
-    "duration": 0,
+    "title": "【歌枠】病み上がり歌枠に変更┊︎#音ノ乃のの #ののん家",
+    "duration": 7532,
     "songs": []
   },
   {

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T01:54:53.863Z",
+  "updatedAt": "2026-09-20T08:51:21.030Z",
   "streams": [
     {
       "id": "qbalFQbmNpk",
@@ -23,8 +23,17 @@
       "id": "VdBuZtOFF6M",
       "memberId": "konomi",
       "member": "甘狼このみ",
-      "title": "【#マイクラ肝試し2026】南ノ迷宮・北ノ迷宮！このこまとまれぐで肝試し・・・・これ大丈夫【#あまかみらいぶ】",
+      "title": "【#マイクラ肝試し2026】南ノ迷宮・北ノ迷宮！「このこまとまれ」で肝試し・・・・これ大丈夫?【#あまかみらいぶ】",
       "thumb": "https://i.ytimg.com/vi/VdBuZtOFF6M/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-20T13:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "fc0on0xQzOw",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 #マイクラ肝試し2026 】初参戦！ドキドキが止まらない肝試し【小廻こま/ミリプロ】#このこまとまれ",
+      "thumb": "https://i.ytimg.com/vi/fc0on0xQzOw/hqdefault_live.jpg",
       "scheduledStartTime": "2026-09-20T13:00:00Z",
       "status": "upcoming"
     },
@@ -181,6 +190,26 @@
   ],
   "videos": [
     {
+      "id": "e0v60_0VlI0",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "週末の宿題、やらなきゃいけない作業、溜まってる人、強制集合。【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/e0v60_0VlI0/hqdefault.jpg",
+      "publishedAt": "2026-09-20T07:25:24Z",
+      "live": false
+    },
+    {
+      "id": "fc0on0xQzOw",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 #マイクラ肝試し2026 】初参戦！ドキドキが止まらない肝試し【小廻こま/ミリプロ】#このこまとまれ",
+      "thumb": "https://i.ytimg.com/vi/fc0on0xQzOw/hqdefault_live.jpg",
+      "publishedAt": "2026-09-20T02:39:13Z",
+      "live": false
+    },
+    {
       "id": "4dW3ypO05g0",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -275,7 +304,7 @@
       "memberId": "konomi",
       "member": "甘狼このみ",
       "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【#マイクラ肝試し2026】南ノ迷宮・北ノ迷宮！このこまとまれぐで肝試し・・・・これ大丈夫【#あまかみらいぶ】",
+      "title": "【#マイクラ肝試し2026】南ノ迷宮・北ノ迷宮！「このこまとまれ」で肝試し・・・・これ大丈夫?【#あまかみらいぶ】",
       "thumb": "https://i.ytimg.com/vi/VdBuZtOFF6M/hqdefault_live.jpg",
       "publishedAt": "2026-09-18T11:49:08Z",
       "live": false
@@ -458,26 +487,6 @@
       "title": "【お料理雑談】クラシエさんのケーキ屋さんを作る！【雨夜リズ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/q-pDVsgNnvo/hqdefault.jpg",
       "publishedAt": "2026-09-15T11:58:14Z",
-      "live": true
-    },
-    {
-      "id": "3QuFncR0U80",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 Minecraft 】初！ソロエンドラ討伐(耐久!?)🏹【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/3QuFncR0U80/hqdefault.jpg",
-      "publishedAt": "2026-09-14T17:14:54Z",
-      "live": false
-    },
-    {
-      "id": "qbalFQbmNpk",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【雑談】今週もおつかれさまでした！サイン入れしていきますよヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/qbalFQbmNpk/hqdefault_live.jpg",
-      "publishedAt": "2026-09-14T16:23:59Z",
       "live": true
     }
   ],

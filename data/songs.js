@@ -382,6 +382,17 @@ window.SONGS = {
   ],
   "covers": [
     {
+      "title": "ミカヅキ/酸欠少女さユり",
+      "key": "ミカヅキ酸欠少女さユり",
+      "urls": [
+        {
+          "id": "oHL-kU7tOwU",
+          "memberId": "yura",
+          "publishedAt": "2026-09-20"
+        }
+      ]
+    },
+    {
       "title": "サウダージ",
       "key": "サウダジ",
       "urls": [

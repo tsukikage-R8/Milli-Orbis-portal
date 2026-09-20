@@ -1,23 +1,14 @@
 {
-  "updatedAt": "2026-09-20T08:51:21.030Z",
+  "updatedAt": "2026-09-20T14:58:16.861Z",
   "streams": [
     {
-      "id": "qbalFQbmNpk",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【雑談】今週もおつかれさまでした！サイン入れしていきますよヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/qbalFQbmNpk/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-20T10:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "YKE2uQ2XpX0",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【歌枠】いんぐりっしゅよ～ん┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/YKE2uQ2XpX0/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-20T12:00:00Z",
-      "status": "upcoming"
+      "id": "fc0on0xQzOw",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 #マイクラ肝試し2026 】初参戦！ドキドキが止まらない肝試し【小廻こま/ミリプロ】#このこまとまれ",
+      "thumb": "https://i.ytimg.com/vi/fc0on0xQzOw/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-20T12:55:39Z",
+      "status": "live"
     },
     {
       "id": "VdBuZtOFF6M",
@@ -25,17 +16,8 @@
       "member": "甘狼このみ",
       "title": "【#マイクラ肝試し2026】南ノ迷宮・北ノ迷宮！「このこまとまれ」で肝試し・・・・これ大丈夫?【#あまかみらいぶ】",
       "thumb": "https://i.ytimg.com/vi/VdBuZtOFF6M/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-20T13:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "fc0on0xQzOw",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 #マイクラ肝試し2026 】初参戦！ドキドキが止まらない肝試し【小廻こま/ミリプロ】#このこまとまれ",
-      "thumb": "https://i.ytimg.com/vi/fc0on0xQzOw/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-20T13:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-09-20T12:55:49Z",
+      "status": "live"
     },
     {
       "id": "0PISw7uR4UU",
@@ -190,13 +172,33 @@
   ],
   "videos": [
     {
-      "id": "e0v60_0VlI0",
+      "id": "YKE2uQ2XpX0",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【歌枠】病み上がり歌枠に変更┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/YKE2uQ2XpX0/hqdefault.jpg",
+      "publishedAt": "2026-09-20T14:20:41Z",
+      "live": false
+    },
+    {
+      "id": "qbalFQbmNpk",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【雑談】今週もおつかれさまでした！サイン入れしていきますよヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/qbalFQbmNpk/hqdefault.jpg",
+      "publishedAt": "2026-09-20T13:06:14Z",
+      "live": true
+    },
+    {
+      "id": "VdBuZtOFF6M",
       "memberId": "konomi",
       "member": "甘狼このみ",
       "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "週末の宿題、やらなきゃいけない作業、溜まってる人、強制集合。【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/e0v60_0VlI0/hqdefault.jpg",
-      "publishedAt": "2026-09-20T07:25:24Z",
+      "title": "【#マイクラ肝試し2026】南ノ迷宮・北ノ迷宮！「このこまとまれ」で肝試し・・・・これ大丈夫?【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/VdBuZtOFF6M/hqdefault_live.jpg",
+      "publishedAt": "2026-09-20T12:55:49Z",
       "live": false
     },
     {
@@ -206,7 +208,57 @@
       "channelTitle": "小廻こま / Komawari Koma",
       "title": "【 #マイクラ肝試し2026 】初参戦！ドキドキが止まらない肝試し【小廻こま/ミリプロ】#このこまとまれ",
       "thumb": "https://i.ytimg.com/vi/fc0on0xQzOw/hqdefault_live.jpg",
-      "publishedAt": "2026-09-20T02:39:13Z",
+      "publishedAt": "2026-09-20T12:55:39Z",
+      "live": false
+    },
+    {
+      "id": "oHL-kU7tOwU",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "ミカヅキ/酸欠少女さユり covered by ゆらぎゆら",
+      "thumb": "https://i.ytimg.com/vi/oHL-kU7tOwU/hqdefault.jpg",
+      "publishedAt": "2026-09-20T12:00:06Z",
+      "live": false
+    },
+    {
+      "id": "OZgLlveyW8Y",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【大暴走】どっぷり泥酔したVTuberの中で1人だけ“酔ったフリ”してる人狼がいます!!",
+      "thumb": "https://i.ytimg.com/vi/OZgLlveyW8Y/hqdefault.jpg",
+      "publishedAt": "2026-09-20T10:00:07Z",
+      "live": false
+    },
+    {
+      "id": "JxSvejFhoh8",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】正解したら落下！絶対に間違った答えを言え！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/JxSvejFhoh8/hqdefault.jpg",
+      "publishedAt": "2026-09-20T09:00:28Z",
+      "live": false
+    },
+    {
+      "id": "xGiQh0NlrDg",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "通販オタクVTuberによるまじで嫌いな口コミ5選！",
+      "thumb": "https://i.ytimg.com/vi/xGiQh0NlrDg/hqdefault.jpg",
+      "publishedAt": "2026-09-20T09:00:11Z",
+      "live": false
+    },
+    {
+      "id": "e0v60_0VlI0",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "週末の宿題、やらなきゃいけない作業、溜まってる人、強制集合。【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/e0v60_0VlI0/hqdefault.jpg",
+      "publishedAt": "2026-09-20T07:25:24Z",
       "live": false
     },
     {
@@ -228,16 +280,6 @@
       "thumb": "https://i.ytimg.com/vi/jNswdGq7z2g/hqdefault.jpg",
       "publishedAt": "2026-09-19T12:06:16Z",
       "live": true
-    },
-    {
-      "id": "OZgLlveyW8Y",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【大暴走】どっぷり泥酔したVTuberの中で1人だけ“酔ったフリ”してる人狼がいます!!",
-      "thumb": "https://i.ytimg.com/vi/OZgLlveyW8Y/hqdefault.jpg",
-      "publishedAt": "2026-09-19T09:59:51Z",
-      "live": false
     },
     {
       "id": "x6BuWOYAyeo",
@@ -297,16 +339,6 @@
       "title": "【偏見】実は結婚してるし育児で忙しそう。【あくび・でもんすぺーど /ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/gOq4b15I6EM/hqdefault.jpg",
       "publishedAt": "2026-09-18T16:10:39Z",
-      "live": false
-    },
-    {
-      "id": "VdBuZtOFF6M",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【#マイクラ肝試し2026】南ノ迷宮・北ノ迷宮！「このこまとまれ」で肝試し・・・・これ大丈夫?【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/VdBuZtOFF6M/hqdefault_live.jpg",
-      "publishedAt": "2026-09-18T11:49:08Z",
       "live": false
     },
     {
@@ -438,57 +470,26 @@
       "thumb": "https://i.ytimg.com/vi/VuJpaSzmXvI/hqdefault.jpg",
       "publishedAt": "2026-09-16T09:00:28Z",
       "live": false
-    },
-    {
-      "id": "c4VJ8qCdYMQ",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】先にゴールに辿り着くのは誰？！ブーブージョッキー！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/c4VJ8qCdYMQ/hqdefault.jpg",
-      "publishedAt": "2026-09-16T09:00:00Z",
-      "live": false
-    },
-    {
-      "id": "ObZSkYruRX8",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【雑談】お家3Dでお披露目の感謝を🔥【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ObZSkYruRX8/hqdefault.jpg",
-      "publishedAt": "2026-09-15T16:12:17Z",
-      "live": true
-    },
-    {
-      "id": "HAwYgW2sDpg",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 歌枠 】久々なのでまったり歌っていく ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/HAwYgW2sDpg/hqdefault.jpg",
-      "publishedAt": "2026-09-15T15:12:17Z",
-      "live": false
-    },
-    {
-      "id": "2xL3Hl_mLUw",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【さユり縛り歌枠】告知あり。【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/2xL3Hl_mLUw/hqdefault.jpg",
-      "publishedAt": "2026-09-15T14:33:39Z",
-      "live": false
-    },
-    {
-      "id": "q-pDVsgNnvo",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【お料理雑談】クラシエさんのケーキ屋さんを作る！【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/q-pDVsgNnvo/hqdefault.jpg",
-      "publishedAt": "2026-09-15T11:58:14Z",
-      "live": true
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "fc0on0xQzOw",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 #マイクラ肝試し2026 】初参戦！ドキドキが止まらない肝試し【小廻こま/ミリプロ】#このこまとまれ",
+      "thumb": "https://i.ytimg.com/vi/fc0on0xQzOw/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-20T12:55:39Z",
+      "status": "live"
+    },
+    {
+      "id": "VdBuZtOFF6M",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "【#マイクラ肝試し2026】南ノ迷宮・北ノ迷宮！「このこまとまれ」で肝試し・・・・これ大丈夫?【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/VdBuZtOFF6M/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-20T12:55:49Z",
+      "status": "live"
+    }
+  ]
 }
