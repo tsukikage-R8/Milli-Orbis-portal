@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-09-20",
+  "generatedAt": "2026-09-21",
   "songs": {
     "ミカヅキ酸欠少女さユり": {
       "title": "ミカヅキ",
