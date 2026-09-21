@@ -1,6 +1,14 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "4wgmPPZhNGM",
+    "memberId": "raco",
+    "publishedAt": "2026-09-21",
+    "title": "【歌枠】低気圧を許すな【音ノ瀬らこ /ミリプロ】",
+    "duration": 9030,
+    "songs": []
+  },
+  {
     "id": "rXuSYrvh3HU",
     "memberId": "liz",
     "publishedAt": "2026-09-17",

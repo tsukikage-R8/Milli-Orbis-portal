@@ -382,6 +382,17 @@ window.SONGS = {
   ],
   "covers": [
     {
+      "title": "高嶺の花子さん（back number） - 鹿乃まほろ cover.",
+      "key": "高嶺の花子さん-.",
+      "urls": [
+        {
+          "id": "FDzTaSc6haw",
+          "memberId": "mahoro",
+          "publishedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
       "title": "ミカヅキ/酸欠少女さユり",
       "key": "ミカヅキ酸欠少女さユり",
       "urls": [
@@ -2800,17 +2811,6 @@ window.SONGS = {
           "id": "8GrmzSxxJkI",
           "memberId": "liz",
           "publishedAt": "2026-06-27"
-        }
-      ]
-    },
-    {
-      "title": "高嶺の花子さん（back number） - 鹿乃まほろ cover.",
-      "key": "高嶺の花子さん-.",
-      "urls": [
-        {
-          "id": "FDzTaSc6haw",
-          "memberId": "mahoro",
-          "publishedAt": "2026-09-21"
         }
       ]
     },

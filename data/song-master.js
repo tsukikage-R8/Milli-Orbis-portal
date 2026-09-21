@@ -2,6 +2,12 @@
 window.SONG_MASTER = {
   "generatedAt": "2026-09-21",
   "songs": {
+    "高嶺の花子さん-.": {
+      "title": "頭がよくなる歌",
+      "artist": "あの娘はウォンバット",
+      "album": "ときめいて5年 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/ce/81/e3ce819e-7d7a-df59-397f-c610ba419ae0/bigup13919836.jpg/600x600bb.jpg"
+    },
     "ミカヅキ酸欠少女さユり": {
       "title": "ミカヅキ",
       "artist": "さユり",
@@ -513,10 +519,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "地球儀 (with Vaundy)",
+      "title": "蝶々結び",
       "artist": "Aimer",
-      "album": "Walpurgis",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/54/af/b2/54afb286-3614-f2c8-e633-2831bd2fd76b/4547366491647.jpg/600x600bb.jpg"
+      "album": "蝶々結び - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg"
     },
     "だから僕は音楽を辞めた": {
       "title": "だから僕は音楽を辞めた",
@@ -546,13 +552,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "いい感じ",
-      "artist": "ケツメイシ",
-      "album": "KETSUNOPOLIS 10",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Feels good"
-      }
+      "title": "うっせぇわ",
+      "artist": "Ado",
+      "album": "うっせぇわ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cb/82/41/cb8241a3-5324-bbaa-8da2-33c5b29b1c7d/20UMGIM76771.rgb.jpg/600x600bb.jpg"
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -1169,12 +1172,6 @@ window.SONG_MASTER = {
       "album": "HANA",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5b/16/2c/5b162ca7-fd06-103b-c8db-344b24fd2a80/4547366806434.jpg/600x600bb.jpg"
     },
-    "高嶺の花子さん-.": {
-      "title": "頭がよくなる歌",
-      "artist": "あの娘はウォンバット",
-      "album": "ときめいて5年 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/ce/81/e3ce819e-7d7a-df59-397f-c610ba419ae0/bigup13919836.jpg/600x600bb.jpg"
-    },
     "ドライフラワacoustic.": {
       "title": "ドライフラワー",
       "artist": "Uru",
@@ -1341,7 +1338,7 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/55/8b/98/558b9848-812d-6adc-5262-faf7a275c623/jacket_SRXX02373B00Z_550.jpg/600x600bb.jpg"
     },
     "trustonme-themeofe.t.e": {
-      "title": "Trust On Me -Theme of E.T.E- (feat. MARiA)",
+      "title": "Trust On Me -Theme of E.T.E- (feat. MARiA) [Instrumental]",
       "artist": "小室哲哉",
       "album": "Trust On Me -Theme of E.T.E- (feat. MARiA) - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d6/db/f6/d6dbf678-2d9d-0d39-22a9-f2e60809f800/PCSP_04640_A.jpg/600x600bb.jpg"
@@ -1470,10 +1467,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/96/49/b8/9649b86f-4487-c635-0f68-4f7659a41285/PCCA_06172_A.jpg/600x600bb.jpg"
     },
     "嘘つきは恋のはじまりarrangever.40mp": {
-      "title": "Sharon",
-      "artist": "Official髭男dism",
-      "album": "Rejoice",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5e/35/b0/5e35b0e7-4c59-d77b-5856-5edc4413adae/PCCA_06304_A.jpg/600x600bb.jpg"
+      "title": "WanteD! WanteD! (Remastered 2020)",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "5",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/dd/5c/85/dd5c85d8-d3a1-0d7a-0cbb-74944f90f87a/20UMGIM31113.rgb.jpg/600x600bb.jpg"
     },
     "会いたい《想见你想见你想见你》": {
       "title": "输入法记得你",
@@ -1542,10 +1539,10 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "シャッター",
-      "artist": "優里",
-      "album": "シャッター - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/5c/ff/ac5cff5d-de3e-8cdc-f8de-95965a9fc894/4547366520002.jpg/600x600bb.jpg"
+      "title": "ヒロイン",
+      "artist": "back number",
+      "album": "ヒロイン - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/d1/f0/5dd1f0aa-4b50-e6b1-73b1-fb740989afba/00602577303906.rgb.jpg/600x600bb.jpg"
     },
     "メルティランドナイトメア": {
       "title": "メルティランドナイトメア",
