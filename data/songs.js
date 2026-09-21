@@ -2804,6 +2804,17 @@ window.SONGS = {
       ]
     },
     {
+      "title": "高嶺の花子さん（back number） - 鹿乃まほろ cover.",
+      "key": "高嶺の花子さん-.",
+      "urls": [
+        {
+          "id": "FDzTaSc6haw",
+          "memberId": "mahoro",
+          "publishedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
       "title": "DAYBREAK FRONTLINE（Orangestar）/ acoustic cover. 鹿乃",
       "key": "daybreakfrontlineacoustic.",
       "urls": [

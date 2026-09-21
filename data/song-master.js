@@ -1169,6 +1169,12 @@ window.SONG_MASTER = {
       "album": "HANA",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5b/16/2c/5b162ca7-fd06-103b-c8db-344b24fd2a80/4547366806434.jpg/600x600bb.jpg"
     },
+    "高嶺の花子さん-.": {
+      "title": "頭がよくなる歌",
+      "artist": "あの娘はウォンバット",
+      "album": "ときめいて5年 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/ce/81/e3ce819e-7d7a-df59-397f-c610ba419ae0/bigup13919836.jpg/600x600bb.jpg"
+    },
     "ドライフラワacoustic.": {
       "title": "ドライフラワー",
       "artist": "Uru",
