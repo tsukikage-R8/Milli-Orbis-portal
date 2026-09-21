@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-09-21T09:21:03.270Z",
+  "updatedAt": "2026-09-21T17:16:14.992Z",
   "streams": [
-    {
-      "id": "MDuWbEigLss",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 雑談 〗こまつくりーず歌みたリレーを聴く！！！〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/MDuWbEigLss/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-21T11:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "0PISw7uR4UU",
       "memberId": "mahoro",
@@ -163,6 +154,66 @@
   ],
   "videos": [
     {
+      "id": "4wgmPPZhNGM",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【歌枠】低気圧を許すな【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/4wgmPPZhNGM/hqdefault.jpg",
+      "publishedAt": "2026-09-21T16:55:41Z",
+      "live": false
+    },
+    {
+      "id": "TO8_F1F3WWU",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【#マイクラ肝試し2026】こまと街ぶらデート💗【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/TO8_F1F3WWU/hqdefault.jpg",
+      "publishedAt": "2026-09-21T16:51:33Z",
+      "live": false
+    },
+    {
+      "id": "JDREgFjpAMM",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 #マイクラ肝試し2026 】おれのﾏｯﾏと探索デートだ！【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/JDREgFjpAMM/hqdefault.jpg",
+      "publishedAt": "2026-09-21T16:50:36Z",
+      "live": false
+    },
+    {
+      "id": "W7gi6mpCqBQ",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "【BOMBANANA!】どっからどう見てもサイヤ人です【#あくび・でもんすぺーど】",
+      "thumb": "https://i.ytimg.com/vi/W7gi6mpCqBQ/hqdefault.jpg",
+      "publishedAt": "2026-09-21T14:08:23Z",
+      "live": false
+    },
+    {
+      "id": "MDuWbEigLss",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 雑談 〗こまつくりーず歌みたリレーを聴く！！！〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/MDuWbEigLss/hqdefault.jpg",
+      "publishedAt": "2026-09-21T13:35:27Z",
+      "live": true
+    },
+    {
+      "id": "Ln5SdNiSs6M",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【歌枠】リハビリんぬ┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/Ln5SdNiSs6M/hqdefault.jpg",
+      "publishedAt": "2026-09-21T13:08:38Z",
+      "live": false
+    },
+    {
       "id": "1YKqfm-gI4U",
       "memberId": "koma",
       "member": "小廻こま",
@@ -191,16 +242,6 @@
       "thumb": "https://i.ytimg.com/vi/K2EgoVcn4zk/hqdefault.jpg",
       "publishedAt": "2026-09-21T09:00:02Z",
       "live": false
-    },
-    {
-      "id": "MDuWbEigLss",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 雑談 〗こまつくりーず歌みたリレーを聴く！！！〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/MDuWbEigLss/hqdefault_live.jpg",
-      "publishedAt": "2026-09-21T07:48:15Z",
-      "live": true
     },
     {
       "id": "VdBuZtOFF6M",
@@ -301,16 +342,6 @@
       "thumb": "https://i.ytimg.com/vi/4dW3ypO05g0/hqdefault.jpg",
       "publishedAt": "2026-09-19T13:24:55Z",
       "live": false
-    },
-    {
-      "id": "jNswdGq7z2g",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【雑談】ケンタッキーの月見を実食しながら【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/jNswdGq7z2g/hqdefault.jpg",
-      "publishedAt": "2026-09-19T12:06:16Z",
-      "live": true
     },
     {
       "id": "x6BuWOYAyeo",
@@ -421,46 +452,6 @@
       "thumb": "https://i.ytimg.com/vi/EnqLGcwECms/hqdefault.jpg",
       "publishedAt": "2026-09-17T15:18:15Z",
       "live": true
-    },
-    {
-      "id": "bdCqJ5VPU8Y",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【雑談】おひさしぶりだね　さみしかった？",
-      "thumb": "https://i.ytimg.com/vi/bdCqJ5VPU8Y/hqdefault.jpg",
-      "publishedAt": "2026-09-17T12:53:22Z",
-      "live": true
-    },
-    {
-      "id": "rXuSYrvh3HU",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【歌枠＋雑談】告知あり！歌枠だよ【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/rXuSYrvh3HU/hqdefault.jpg",
-      "publishedAt": "2026-09-17T12:29:18Z",
-      "live": true
-    },
-    {
-      "id": "DPy3UNzFBeI",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【検証】話題のGPT-5.6の命令通りに絵を描いたら神絵になる説！？【甘狼このみ】",
-      "thumb": "https://i.ytimg.com/vi/DPy3UNzFBeI/hqdefault.jpg",
-      "publishedAt": "2026-09-17T10:00:06Z",
-      "live": false
-    },
-    {
-      "id": "o0ZgHA22i9Y",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【おうち3D】3Dお披露目の振り返り＆スパチャ読み！【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/o0ZgHA22i9Y/hqdefault.jpg",
-      "publishedAt": "2026-09-16T15:22:06Z",
-      "live": false
     }
   ],
   "live": []
