@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-09-21T17:16:14.992Z",
+  "updatedAt": "2026-09-21T22:53:28.372Z",
   "streams": [
+    {
+      "id": "8fLC9Uf7q5s",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "【#マイクラ肝試し2026】こまらこ元気っ子組と過去マップ探索へ出かける。の巻。【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/8fLC9Uf7q5s/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-22T11:00:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "0PISw7uR4UU",
       "memberId": "mahoro",
@@ -153,6 +162,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "8fLC9Uf7q5s",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【#マイクラ肝試し2026】こまらこ元気っ子組と過去マップ探索へ出かける。の巻。【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/8fLC9Uf7q5s/hqdefault_live.jpg",
+      "publishedAt": "2026-09-21T18:17:31Z",
+      "live": false
+    },
     {
       "id": "4wgmPPZhNGM",
       "memberId": "raco",
@@ -442,16 +461,6 @@
       "thumb": "https://i.ytimg.com/vi/9e35m9mlk2A/hqdefault.jpg",
       "publishedAt": "2026-09-17T17:46:13Z",
       "live": false
-    },
-    {
-      "id": "EnqLGcwECms",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 雑談 】普通に雑談する ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/EnqLGcwECms/hqdefault.jpg",
-      "publishedAt": "2026-09-17T15:18:15Z",
-      "live": true
     }
   ],
   "live": []
