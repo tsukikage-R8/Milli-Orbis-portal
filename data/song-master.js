@@ -2,6 +2,18 @@
 window.SONG_MASTER = {
   "generatedAt": "2026-09-22",
   "songs": {
+    "ラグトレイン": {
+      "title": "ラグトレイン",
+      "artist": "稲葉曇",
+      "album": "ラグトレイン - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b4/ac/d1/b4acd1c8-b1b7-ef7b-cf6f-8516f91a59b5/088792_J.jpg/600x600bb.jpg"
+    },
+    "おもかげ": {
+      "title": "おもかげ",
+      "artist": "KG",
+      "album": "Brand New Days",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/65/df/c5/65dfc5d3-8437-3329-c876-08f64f764906/825646279241.jpg/600x600bb.jpg"
+    },
     "高嶺の花子さん-.": {
       "title": "頭がよくなる歌",
       "artist": "あの娘はウォンバット",
@@ -143,15 +155,6 @@ window.SONG_MASTER = {
         "title": "Monster's Flower Song"
       }
     },
-    "ラグトレイン": {
-      "title": "花鳥風月 (Album Mix)",
-      "artist": "ケツメイシ",
-      "album": "ケツノポリス3",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/95/7e/c0/mzi.lmvojsks.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Kachofuugetsu (Album Mix)"
-      }
-    },
     "フロムトキョ": {
       "title": "フロムトーキョー",
       "artist": "夏代孝明",
@@ -226,9 +229,9 @@ window.SONG_MASTER = {
     },
     "ブラック★ロックシュタ-ryo": {
       "title": "ブラック★ロックシューター (Cover)",
-      "artist": "Lamu",
-      "album": "New Beginning - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7b/41/45/7b4145b0-fbe0-af88-fbec-375a0f3f6747/4571640608223_cover.png/600x600bb.jpg",
+      "artist": "カグラナナ",
+      "album": "Astrolabe",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/96/be/05/96be050c-85f1-0650-97d3-ddcf4c99cff1/4582599509264_cover.png/600x600bb.jpg",
       "en": {
         "title": "Black★Rock Shooter (Cover)"
       }
@@ -552,13 +555,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "いい感じ",
-      "artist": "ケツメイシ",
-      "album": "KETSUNOPOLIS 10",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Feels good"
-      }
+      "title": "ツバメ (feat. ミドリーズ)",
+      "artist": "YOASOBI",
+      "album": "ツバメ (feat. ミドリーズ) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg"
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -1099,12 +1099,6 @@ window.SONG_MASTER = {
       "en": {
         "title": "I'm the cutest in the world"
       }
-    },
-    "おもかげ": {
-      "title": "おもかげ",
-      "artist": "KG",
-      "album": "Brand New Days",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/65/df/c5/65dfc5d3-8437-3329-c876-08f64f764906/825646279241.jpg/600x600bb.jpg"
     },
     "slashyama": {
       "title": "slash",
@@ -1692,10 +1686,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/b7/02/9ab702b7-14b9-de10-c826-3793b4ed97c6/5021732646163.jpg/600x600bb.jpg"
     },
     "ハロハワユいました": {
-      "title": "ドーナツホール (COVER)",
-      "artist": "米津玄師",
-      "album": "YANKEE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg"
+      "title": "シャルル",
+      "artist": "96猫",
+      "album": "O2O",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0f/99/87/0f99875e-1689-639e-4e52-9ff6afa60714/jacket_SRXX02478B00Z_550.jpg/600x600bb.jpg"
     },
     "クエスチョン": {
       "title": "クエスチョン",
@@ -1971,13 +1965,10 @@ window.SONG_MASTER = {
       }
     },
     "恋のメガラバ": {
-      "title": "恋のメガラバ (feat. TAKANOR & Cobalt)",
-      "artist": "Hommarju",
-      "album": "ウマウマできるトランスを作ってみた6~どうしてこうなった!~",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/f9/2a/66/f92a6671-87e7-8db1-89df-c86ff3ddec85/QWCE_00123_itunes.png/600x600bb.jpg",
-      "en": {
-        "title": "Mega Love of Love (feat. TAKANOR & Cobalt)"
-      }
+      "title": "恋のメガラバ (Cover)",
+      "artist": "ノートンビート",
+      "album": "恋のメガラバ (Cover) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/01/8c/ff/018cff56-966e-44ec-3cc2-e7405195fe7a/4550714572035_cover.png/600x600bb.jpg"
     },
     "栞": {
       "title": "栞",
