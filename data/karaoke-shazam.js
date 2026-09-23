@@ -7,15 +7,15 @@ window.KARAOKE_SHAZAM = {
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "6t5oqLio_Ts": {
-    "status": "error",
-    "attempts": 4,
-    "attemptedAt": "2026-09-23T23:06:58.487995+00:00",
+    "status": "skip",
+    "attempts": 5,
+    "attemptedAt": "2026-09-23T23:26:56.797323+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "R7rxlZ7VRWc": {
-    "status": "error",
-    "attempts": 4,
-    "attemptedAt": "2026-09-23T23:07:07.901267+00:00",
+    "status": "skip",
+    "attempts": 5,
+    "attemptedAt": "2026-09-23T23:27:06.084828+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "BaTCxD0c_q0": {
@@ -290,8 +290,8 @@ window.KARAOKE_SHAZAM = {
   },
   "wh4UF6M-Lbk": {
     "status": "error",
-    "attempts": 3,
-    "attemptedAt": "2026-09-23T23:06:49.098611+00:00",
+    "attempts": 4,
+    "attemptedAt": "2026-09-23T23:26:47.577902+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "beMkuWTFABw": {
