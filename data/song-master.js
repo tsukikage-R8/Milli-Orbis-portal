@@ -522,10 +522,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "HOWEVER",
-      "artist": "GLAY",
-      "album": "HOWEVER - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/99/b6/af/99b6af9f-2d9a-c0c8-ec22-3c626e5d3d34/HOWEVER_itunes.jpg/600x600bb.jpg"
+      "title": "蝶々結び",
+      "artist": "Aimer",
+      "album": "蝶々結び - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg"
     },
     "だから僕は音楽を辞めた": {
       "title": "だから僕は音楽を辞めた",
@@ -555,10 +555,13 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "ツバメ (feat. ミドリーズ)",
-      "artist": "YOASOBI",
-      "album": "ツバメ (feat. ミドリーズ) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg"
+      "title": "いい感じ",
+      "artist": "ケツメイシ",
+      "album": "KETSUNOPOLIS 10",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Feels good"
+      }
     },
     "1000年生きてる": {
       "title": "筆舌",
