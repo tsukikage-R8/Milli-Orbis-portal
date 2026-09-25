@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-09-25T09:08:23.607Z",
+  "updatedAt": "2026-09-25T16:00:22.339Z",
   "streams": [
-    {
-      "id": "8wAnB-DKmp8",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 雑談 】あしたは3Dお披露目！どきどきだ【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8wAnB-DKmp8/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-25T09:00:50Z",
-      "status": "live"
-    },
-    {
-      "id": "xVpRapqd4JY",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 歌枠 】激アツ告知アリ！歌うにょ ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/xVpRapqd4JY/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-25T10:30:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "VFjJFumKf_k",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 #マイクラ肝試し2026 】よわよわ狼と肝試しだ！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/VFjJFumKf_k/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-25T11:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "t_VMOsim60o",
       "memberId": "koma",
@@ -142,6 +115,76 @@
   ],
   "videos": [
     {
+      "id": "xVpRapqd4JY",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 歌枠 】激アツ告知アリ！歌うにょ ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/xVpRapqd4JY/hqdefault.jpg",
+      "publishedAt": "2026-09-25T14:24:55Z",
+      "live": false
+    },
+    {
+      "id": "QLvwXn9raZI",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【#マイクラ肝試し2026】こわ～～～い御山があるんだとさ・・・・・【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/QLvwXn9raZI/hqdefault.jpg",
+      "publishedAt": "2026-09-25T14:06:35Z",
+      "live": false
+    },
+    {
+      "id": "VFjJFumKf_k",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 #マイクラ肝試し2026 】よわよわ狼と肝試しだ！【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/VFjJFumKf_k/hqdefault.jpg",
+      "publishedAt": "2026-09-25T14:00:33Z",
+      "live": false
+    },
+    {
+      "id": "Uvz0tf2tGIE",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "狂乱 Hey Kids!! / 夕霧レイ(cover)",
+      "thumb": "https://i.ytimg.com/vi/Uvz0tf2tGIE/hqdefault.jpg",
+      "publishedAt": "2026-09-25T12:30:09Z",
+      "live": false
+    },
+    {
+      "id": "8wAnB-DKmp8",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 雑談 】あしたは3Dお披露目！どきどきだ【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/8wAnB-DKmp8/hqdefault.jpg",
+      "publishedAt": "2026-09-25T10:50:50Z",
+      "live": true
+    },
+    {
+      "id": "3IsFnWRGfhA",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【MInecraft】マイクラ肝試し２０２６楽しむぞー！！【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/3IsFnWRGfhA/hqdefault.jpg",
+      "publishedAt": "2026-09-25T10:08:05Z",
+      "live": false
+    },
+    {
+      "id": "z0GPIelevxU",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "引きこもりVTuberが、ディズニーシーで大興奮しました。【マイクラ】",
+      "thumb": "https://i.ytimg.com/vi/z0GPIelevxU/hqdefault.jpg",
+      "publishedAt": "2026-09-25T10:00:09Z",
+      "live": false
+    },
+    {
       "id": "qD6JZQPGTt4",
       "memberId": "raco",
       "member": "音ノ瀬らこ",
@@ -172,16 +215,6 @@
       "live": false
     },
     {
-      "id": "8wAnB-DKmp8",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 雑談 】あしたは3Dお披露目！どきどきだ【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8wAnB-DKmp8/hqdefault_live.jpg",
-      "publishedAt": "2026-09-25T09:00:50Z",
-      "live": true
-    },
-    {
       "id": "D6XyDJshntw",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -199,36 +232,6 @@
       "title": "【アニメ】アンタに言ってんの！！！#ミリプロ #anime",
       "thumb": "https://i.ytimg.com/vi/iQywe7IS4Bs/hqdefault.jpg",
       "publishedAt": "2026-09-25T09:00:05Z",
-      "live": false
-    },
-    {
-      "id": "3IsFnWRGfhA",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【MInecraft】マイクラ肝試し２０２６楽しむぞー！！【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/3IsFnWRGfhA/hqdefault_live.jpg",
-      "publishedAt": "2026-09-25T08:56:08Z",
-      "live": false
-    },
-    {
-      "id": "xVpRapqd4JY",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 歌枠 】激アツ告知アリ！歌うにょ ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/xVpRapqd4JY/hqdefault_live.jpg",
-      "publishedAt": "2026-09-25T08:54:05Z",
-      "live": false
-    },
-    {
-      "id": "VFjJFumKf_k",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 #マイクラ肝試し2026 】よわよわ狼と肝試しだ！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/VFjJFumKf_k/hqdefault_live.jpg",
-      "publishedAt": "2026-09-25T08:30:47Z",
       "live": false
     },
     {
@@ -269,16 +272,6 @@
       "title": "【絶体絶命】迫りくるマグマから2択だけで逃げ切れるのか！？【マイクラ】",
       "thumb": "https://i.ytimg.com/vi/wAWXlt9_oL4/hqdefault.jpg",
       "publishedAt": "2026-09-24T09:00:04Z",
-      "live": false
-    },
-    {
-      "id": "z0GPIelevxU",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "引きこもりVTuberが、ディズニーシーで大興奮しました。【マイクラ】",
-      "thumb": "https://i.ytimg.com/vi/z0GPIelevxU/hqdefault.jpg",
-      "publishedAt": "2026-09-24T05:48:43Z",
       "live": false
     },
     {
@@ -412,16 +405,6 @@
       "live": false
     },
     {
-      "id": "TO8_F1F3WWU",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【#マイクラ肝試し2026】こまと街ぶらデート💗【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/TO8_F1F3WWU/hqdefault.jpg",
-      "publishedAt": "2026-09-21T16:51:33Z",
-      "live": false
-    },
-    {
       "id": "W7gi6mpCqBQ",
       "memberId": "akubi",
       "member": "あくび・でもんすぺーど",
@@ -430,27 +413,7 @@
       "thumb": "https://i.ytimg.com/vi/W7gi6mpCqBQ/hqdefault.jpg",
       "publishedAt": "2026-09-21T14:08:23Z",
       "live": false
-    },
-    {
-      "id": "MDuWbEigLss",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 雑談 〗こまつくりーず歌みたリレーを聴く！！！〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/MDuWbEigLss/hqdefault.jpg",
-      "publishedAt": "2026-09-21T13:35:27Z",
-      "live": true
     }
   ],
-  "live": [
-    {
-      "id": "8wAnB-DKmp8",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 雑談 】あしたは3Dお披露目！どきどきだ【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8wAnB-DKmp8/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-25T09:00:50Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
