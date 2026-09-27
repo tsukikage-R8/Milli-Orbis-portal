@@ -165,13 +165,10 @@ window.SONG_MASTER = {
       }
     },
     "シスラブ＆": {
-      "title": "シス×ラブ",
-      "artist": "Kureiji Ollie & アーニャ・メルフィッサ",
-      "album": "ほろはにヶ丘高校 -Covers-",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/11/0d/96/110d962f-5d25-c552-ebd8-dd750e48af36/4582729912438_art.png/600x600bb.jpg",
-      "en": {
-        "title": "Sis x Love"
-      }
+      "title": "シス×ラブ (feat. Hanon & Kotoha)",
+      "artist": "HoneyWorks",
+      "album": "水声少女 (feat. Hanon & Kotoha)",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/73/bf/57/73bf57dc-de29-08d6-c30f-364f82ebc286/4562251594791_cover.jpg/600x600bb.jpg"
     },
     "プラネテス": {
       "title": "プラネテス",
@@ -229,9 +226,9 @@ window.SONG_MASTER = {
     },
     "ブラック★ロックシュタ-ryo": {
       "title": "ブラック★ロックシューター (Cover)",
-      "artist": "Lamu",
-      "album": "New Beginning - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7b/41/45/7b4145b0-fbe0-af88-fbec-375a0f3f6747/4571640608223_cover.png/600x600bb.jpg",
+      "artist": "カグラナナ",
+      "album": "Astrolabe",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/96/be/05/96be050c-85f1-0650-97d3-ddcf4c99cff1/4582599509264_cover.png/600x600bb.jpg",
       "en": {
         "title": "Black★Rock Shooter (Cover)"
       }
@@ -1578,10 +1575,13 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2e/1c/72/2e1c7246-1edf-0702-3f83-b4d1215173c2/QWCE_00564.jpg/600x600bb.jpg"
     },
     "ドリムレスドリムス": {
-      "title": "ドリームレス・ドリームス (セルフカバー)",
+      "title": "ドリームレス・ドリームス",
       "artist": "はるまきごはん",
-      "album": "ドリームレス・ドリームス - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/57/66/41/57664152-76a0-a1bf-2788-1a9a0654bab5/00602557805970.rgb.jpg/600x600bb.jpg"
+      "album": "ネオドリームトラベラー",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a5/51/fd/a551fdf6-679a-842a-e46f-1588a06ed75f/dj.qqkpaffo.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Dreamless Dreams"
+      }
     },
     "メリュいました": {
       "title": "突破口",
@@ -1623,10 +1623,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e5/46/8a/e5468a74-37db-65a2-a8c6-aaf67552fdfd/4547366526615.jpg/600x600bb.jpg"
     },
     "刹那プラスいました": {
-      "title": "Goodbye",
-      "artist": "SEKAI NO OWARI",
-      "album": "Lip",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d9/84/41/d9844177-0101-4300-7bd7-a73b54692231/TFCC-86663WW.jpg/600x600bb.jpg"
+      "title": "助演男優賞",
+      "artist": "Creepy Nuts",
+      "album": "助演男優賞 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9a/9d/62/9a9d62eb-51a1-be7a-0b52-1913090579d4/4948722525264_cover.jpg/600x600bb.jpg"
     },
     "クライヤいました": {
       "title": "115万キロのフィルム",
@@ -1644,10 +1644,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/39/33/1a/39331a3d-a1e5-f1e8-904e-8be6438e13a3/20UM1IM05202.rgb.jpg/600x600bb.jpg"
     },
     "サディスティックラブいました": {
-      "title": "ロマンティックいか焼き",
-      "artist": "乃木坂46",
-      "album": "君の名は希望 TypeA - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/7d/dd/43/7ddd4350-cf79-9a75-e00d-8ddc662dae61/jacket_SRXX01035B00Z_550.jpg/600x600bb.jpg"
+      "title": "声をきかせて",
+      "artist": "BIGBANG",
+      "album": "声をきかせて - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/92/e9/a592e9a6-333c-b96b-a14b-55c683580a2b/00044002457172.rgb.jpg/600x600bb.jpg"
     },
     "ワルドコリングいました": {
       "title": "from the edge (feat. LiSA)",
@@ -1715,8 +1715,8 @@ window.SONG_MASTER = {
     "ウタカタララバイ": {
       "title": "ウタカタララバイ",
       "artist": "Ado",
-      "album": "ウタの歌 ONE PIECE FILM RED",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/42/a3/cc/42a3cc35-fdb7-2ae7-02f3-e5a90f32eb8e/22UMGIM74128.rgb.jpg/600x600bb.jpg",
+      "album": "Adoのベストアドバム",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/be/c3/a6bec30f-8698-b206-73ad-a559e3f3edc6/25UMGIM35010.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "Utakatararabai"
       }
