@@ -1,23 +1,14 @@
 {
-  "updatedAt": "2026-09-27T02:05:33.980Z",
+  "updatedAt": "2026-09-27T09:34:55.321Z",
   "streams": [
-    {
-      "id": "lDer-rtZywg",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "週末の宿題、やらなきゃいけない作業、溜まってる人、強制集合。【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/lDer-rtZywg/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-27T04:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "x0Avn4-e-jI",
       "memberId": "raco",
       "member": "音ノ瀬らこ",
       "title": "【歌枠】45万人耐久だァー‼️🔥【音ノ瀬らこ /ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/x0Avn4-e-jI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-27T07:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-09-27T07:02:53Z",
+      "status": "live"
     },
     {
       "id": "XtUynAmn8HA",
@@ -25,6 +16,15 @@
       "member": "甘狼このみ",
       "title": "【雑談】新衣装グッズにサインを描きながらお話✏【#あまかみらいぶ】",
       "thumb": "https://i.ytimg.com/vi/XtUynAmn8HA/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-27T11:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "sBJk5o0zugg",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【Wardogs】4人で話題のゲームで遊びます！ / あねまちゃん・叶さん・しろまんた先生【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/sBJk5o0zugg/hqdefault_live.jpg",
       "scheduledStartTime": "2026-09-27T11:00:00Z",
       "status": "upcoming"
     },
@@ -133,13 +133,43 @@
   ],
   "videos": [
     {
-      "id": "fESLeDOor5I",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【同時視聴『 超かぐや姫 』】お待たせした、やっと見ます。【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/fESLeDOor5I/hqdefault_live.jpg",
-      "publishedAt": "2026-09-26T17:05:25Z",
+      "id": "EmZYUAzbvug",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "【デビットビット】全部自分で作ってみた【眠雲ツクリ/ミリプロ】#デビットビット",
+      "thumb": "https://i.ytimg.com/vi/EmZYUAzbvug/hqdefault.jpg",
+      "publishedAt": "2026-09-27T09:10:23Z",
+      "live": false
+    },
+    {
+      "id": "luZ4OoFP1OQ",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】正解したら落とされる！絶対に間違った答えを言え！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/luZ4OoFP1OQ/hqdefault.jpg",
+      "publishedAt": "2026-09-27T09:00:32Z",
+      "live": false
+    },
+    {
+      "id": "rlM21jZOLVo",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "さすがに甘狼このみでも英語を教えるなんて・・・・・【#甘狼このみ】",
+      "thumb": "https://i.ytimg.com/vi/rlM21jZOLVo/hqdefault.jpg",
+      "publishedAt": "2026-09-27T09:00:18Z",
+      "live": false
+    },
+    {
+      "id": "lDer-rtZywg",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "週末の宿題、やらなきゃいけない作業、溜まってる人、強制集合。【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/lDer-rtZywg/hqdefault.jpg",
+      "publishedAt": "2026-09-27T07:17:47Z",
       "live": false
     },
     {
@@ -149,7 +179,27 @@
       "channelTitle": "音ノ瀬らこ / Otonose Raco",
       "title": "【歌枠】45万人耐久だァー‼️🔥【音ノ瀬らこ /ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/x0Avn4-e-jI/hqdefault_live.jpg",
-      "publishedAt": "2026-09-26T16:53:42Z",
+      "publishedAt": "2026-09-27T07:02:53Z",
+      "live": false
+    },
+    {
+      "id": "sBJk5o0zugg",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Wardogs】4人で話題のゲームで遊びます！ / あねまちゃん・叶さん・しろまんた先生【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/sBJk5o0zugg/hqdefault_live.jpg",
+      "publishedAt": "2026-09-27T05:36:57Z",
+      "live": false
+    },
+    {
+      "id": "fESLeDOor5I",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【同時視聴『 超かぐや姫 』】お待たせした、やっと見ます。【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/fESLeDOor5I/hqdefault_live.jpg",
+      "publishedAt": "2026-09-26T17:05:25Z",
       "live": false
     },
     {
@@ -180,16 +230,6 @@
       "title": "〖 #眠雲ツクリ3Dお披露目 〗これからも、思い出たくさんつくってあげる！〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/WjtcVv76D4s/hqdefault.jpg",
       "publishedAt": "2026-09-26T12:44:58Z",
-      "live": false
-    },
-    {
-      "id": "lDer-rtZywg",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "週末の宿題、やらなきゃいけない作業、溜まってる人、強制集合。【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/lDer-rtZywg/hqdefault_live.jpg",
-      "publishedAt": "2026-09-26T12:42:10Z",
       "live": false
     },
     {
@@ -363,16 +403,6 @@
       "live": false
     },
     {
-      "id": "BoQQ83uhttE",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "引きこもりVTuberが、ディズニーランドに遊びに行く方法。【マイクラ】",
-      "thumb": "https://i.ytimg.com/vi/BoQQ83uhttE/hqdefault.jpg",
-      "publishedAt": "2026-09-24T10:00:11Z",
-      "live": false
-    },
-    {
       "id": "wAWXlt9_oL4",
       "memberId": "official",
       "member": "ミリプロ公式",
@@ -401,37 +431,17 @@
       "thumb": "https://i.ytimg.com/vi/-KzVJh8KHAo/hqdefault.jpg",
       "publishedAt": "2026-09-23T12:59:07Z",
       "live": false
-    },
-    {
-      "id": "4nl4Cpg1HQ0",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【雑談】サインかきながらぺちゃくちゃしゃべる┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/4nl4Cpg1HQ0/hqdefault.jpg",
-      "publishedAt": "2026-09-23T12:21:46Z",
-      "live": true
-    },
-    {
-      "id": "MpiBj_5kQuE",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 #マイクラ肝試し2026 】あっちこっち連れまわし隊！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/MpiBj_5kQuE/hqdefault.jpg",
-      "publishedAt": "2026-09-23T11:45:37Z",
-      "live": false
-    },
-    {
-      "id": "3ykCuRHPaXU",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【恐怖】絶対に怒らせてはいけないAI『Verity』とみんな居なくなった…",
-      "thumb": "https://i.ytimg.com/vi/3ykCuRHPaXU/hqdefault.jpg",
-      "publishedAt": "2026-09-23T10:00:07Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "x0Avn4-e-jI",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "title": "【歌枠】45万人耐久だァー‼️🔥【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/x0Avn4-e-jI/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-27T07:02:53Z",
+      "status": "live"
+    }
+  ]
 }
