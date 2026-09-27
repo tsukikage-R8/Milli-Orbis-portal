@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-09-26",
+  "generatedAt": "2026-09-27",
   "songs": {
     "ラグトレイン": {
       "title": "ラグトレイン",
@@ -525,10 +525,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "HOWEVER",
-      "artist": "GLAY",
-      "album": "HOWEVER - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/99/b6/af/99b6af9f-2d9a-c0c8-ec22-3c626e5d3d34/HOWEVER_itunes.jpg/600x600bb.jpg"
+      "title": "蝶々結び",
+      "artist": "Aimer",
+      "album": "蝶々結び - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg"
     },
     "だから僕は音楽を辞めた": {
       "title": "だから僕は音楽を辞めた",
