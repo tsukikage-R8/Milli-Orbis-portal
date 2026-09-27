@@ -1,51 +1,6 @@
 {
-  "updatedAt": "2026-09-27T09:34:55.321Z",
+  "updatedAt": "2026-09-27T15:53:20.245Z",
   "streams": [
-    {
-      "id": "x0Avn4-e-jI",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【歌枠】45万人耐久だァー‼️🔥【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/x0Avn4-e-jI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-27T07:02:53Z",
-      "status": "live"
-    },
-    {
-      "id": "XtUynAmn8HA",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【雑談】新衣装グッズにサインを描きながらお話✏【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/XtUynAmn8HA/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-27T11:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "sBJk5o0zugg",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Wardogs】4人で話題のゲームで遊びます！ / あねまちゃん・叶さん・しろまんた先生【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/sBJk5o0zugg/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-27T11:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "fESLeDOor5I",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【同時視聴『 超かぐや姫 』】お待たせした、やっと見ます。【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/fESLeDOor5I/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-27T11:30:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "6Q0MOxYQjYk",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【📢出演告知】暴力的にカワイイ in お台場 “PSYQUI feat.音ノ乃のの” として出演❕",
-      "thumb": "https://i.ytimg.com/vi/6Q0MOxYQjYk/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-27T14:59:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "tUZw65HEVPc",
       "memberId": "konomi",
@@ -133,6 +88,66 @@
   ],
   "videos": [
     {
+      "id": "sBJk5o0zugg",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Wardogs】4人で話題のゲームで遊びます！ / あねまちゃん・叶さん・しろまんた先生【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/sBJk5o0zugg/hqdefault.jpg",
+      "publishedAt": "2026-09-27T15:38:30Z",
+      "live": false
+    },
+    {
+      "id": "fESLeDOor5I",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【同時視聴『 超かぐや姫 』】お待たせした、やっと見ます。【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/fESLeDOor5I/hqdefault.jpg",
+      "publishedAt": "2026-09-27T14:59:49Z",
+      "live": false
+    },
+    {
+      "id": "XtUynAmn8HA",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【雑談】新衣装グッズにサインを描きながらお話✏【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/XtUynAmn8HA/hqdefault.jpg",
+      "publishedAt": "2026-09-27T14:20:26Z",
+      "live": true
+    },
+    {
+      "id": "AC7i7JGKRnE",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "これから / 眠雲ツクリ 【#眠雲ツクリ3Dお披露目】",
+      "thumb": "https://i.ytimg.com/vi/AC7i7JGKRnE/hqdefault.jpg",
+      "publishedAt": "2026-09-27T12:00:11Z",
+      "live": false
+    },
+    {
+      "id": "-Z3JcUR8p-o",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【大混乱】有名キャラの目元だけ見て絵を完成させられる!?うろ覚えで描いたらヤバすぎたｗｗｗ",
+      "thumb": "https://i.ytimg.com/vi/-Z3JcUR8p-o/hqdefault.jpg",
+      "publishedAt": "2026-09-27T10:00:08Z",
+      "live": false
+    },
+    {
+      "id": "x0Avn4-e-jI",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【歌枠】45万人耐久だァー‼️🔥【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/x0Avn4-e-jI/hqdefault.jpg",
+      "publishedAt": "2026-09-27T09:55:24Z",
+      "live": false
+    },
+    {
       "id": "EmZYUAzbvug",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -173,36 +188,6 @@
       "live": false
     },
     {
-      "id": "x0Avn4-e-jI",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【歌枠】45万人耐久だァー‼️🔥【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/x0Avn4-e-jI/hqdefault_live.jpg",
-      "publishedAt": "2026-09-27T07:02:53Z",
-      "live": false
-    },
-    {
-      "id": "sBJk5o0zugg",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Wardogs】4人で話題のゲームで遊びます！ / あねまちゃん・叶さん・しろまんた先生【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/sBJk5o0zugg/hqdefault_live.jpg",
-      "publishedAt": "2026-09-27T05:36:57Z",
-      "live": false
-    },
-    {
-      "id": "fESLeDOor5I",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【同時視聴『 超かぐや姫 』】お待たせした、やっと見ます。【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/fESLeDOor5I/hqdefault_live.jpg",
-      "publishedAt": "2026-09-26T17:05:25Z",
-      "live": false
-    },
-    {
       "id": "BzfDRA8S67w",
       "memberId": "liz",
       "member": "雨夜リズ",
@@ -213,16 +198,6 @@
       "live": false
     },
     {
-      "id": "XtUynAmn8HA",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【雑談】新衣装グッズにサインを描きながらお話✏【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/XtUynAmn8HA/hqdefault_live.jpg",
-      "publishedAt": "2026-09-26T12:55:50Z",
-      "live": true
-    },
-    {
       "id": "WjtcVv76D4s",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -230,16 +205,6 @@
       "title": "〖 #眠雲ツクリ3Dお披露目 〗これからも、思い出たくさんつくってあげる！〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/WjtcVv76D4s/hqdefault.jpg",
       "publishedAt": "2026-09-26T12:44:58Z",
-      "live": false
-    },
-    {
-      "id": "-Z3JcUR8p-o",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【大混乱】有名キャラの目元だけ見て絵を完成させられる!?うろ覚えで描いたらヤバすぎたｗｗｗ",
-      "thumb": "https://i.ytimg.com/vi/-Z3JcUR8p-o/hqdefault.jpg",
-      "publishedAt": "2026-09-26T11:58:53Z",
       "live": false
     },
     {
@@ -421,27 +386,7 @@
       "thumb": "https://i.ytimg.com/vi/-8B1LyFNFxU/hqdefault.jpg",
       "publishedAt": "2026-09-23T13:37:02Z",
       "live": false
-    },
-    {
-      "id": "-KzVJh8KHAo",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 #マイクラ肝試し2026 】連れまわしてもらい隊 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/-KzVJh8KHAo/hqdefault.jpg",
-      "publishedAt": "2026-09-23T12:59:07Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "x0Avn4-e-jI",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【歌枠】45万人耐久だァー‼️🔥【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/x0Avn4-e-jI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-27T07:02:53Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
