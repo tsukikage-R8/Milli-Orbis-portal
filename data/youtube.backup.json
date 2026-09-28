@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-09-27T19:21:17.415Z",
+  "updatedAt": "2026-09-27T22:37:26.936Z",
   "streams": [
+    {
+      "id": "vUEQrpry9E4",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 おうち3D 】ぷち振り返り＆おためしおうち3D【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/vUEQrpry9E4/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-27T22:00:01Z",
+      "status": "live"
+    },
     {
       "id": "tUZw65HEVPc",
       "memberId": "konomi",
@@ -87,6 +96,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "vUEQrpry9E4",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 おうち3D 】ぷち振り返り＆おためしおうち3D【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/vUEQrpry9E4/hqdefault_live.jpg",
+      "publishedAt": "2026-09-27T22:00:01Z",
+      "live": false
+    },
     {
       "id": "sBJk5o0zugg",
       "memberId": "mahoro",
@@ -376,17 +395,17 @@
       "thumb": "https://i.ytimg.com/vi/wAWXlt9_oL4/hqdefault.jpg",
       "publishedAt": "2026-09-24T09:00:04Z",
       "live": false
-    },
-    {
-      "id": "-8B1LyFNFxU",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 NTE 】新キャラ・新コンテンツにわくわくなのだ～！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/-8B1LyFNFxU/hqdefault.jpg",
-      "publishedAt": "2026-09-23T13:37:02Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "vUEQrpry9E4",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 おうち3D 】ぷち振り返り＆おためしおうち3D【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/vUEQrpry9E4/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-09-27T22:00:01Z",
+      "status": "live"
+    }
+  ]
 }

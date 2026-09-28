@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-09-27T22:37:26.936Z",
+  "updatedAt": "2026-09-28T02:10:45.249Z",
   "streams": [
-    {
-      "id": "vUEQrpry9E4",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 おうち3D 】ぷち振り返り＆おためしおうち3D【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/vUEQrpry9E4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-27T22:00:01Z",
-      "status": "live"
-    },
     {
       "id": "tUZw65HEVPc",
       "memberId": "konomi",
@@ -102,8 +93,8 @@
       "member": "小廻こま",
       "channelTitle": "小廻こま / Komawari Koma",
       "title": "【 おうち3D 】ぷち振り返り＆おためしおうち3D【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/vUEQrpry9E4/hqdefault_live.jpg",
-      "publishedAt": "2026-09-27T22:00:01Z",
+      "thumb": "https://i.ytimg.com/vi/vUEQrpry9E4/hqdefault.jpg",
+      "publishedAt": "2026-09-27T23:46:26Z",
       "live": false
     },
     {
@@ -397,15 +388,5 @@
       "live": false
     }
   ],
-  "live": [
-    {
-      "id": "vUEQrpry9E4",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 おうち3D 】ぷち振り返り＆おためしおうち3D【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/vUEQrpry9E4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-27T22:00:01Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
