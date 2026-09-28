@@ -709,9 +709,9 @@ window.SONG_MASTER = {
     },
     "心做し": {
       "title": "心做し",
-      "artist": "majiko",
-      "album": "Contrast",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bd/8b/76/bd8b76ea-22b4-e327-18c6-62264dd7b359/QWCE_00400_itunes.png/600x600bb.jpg",
+      "artist": "Sou",
+      "album": "深層から",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/35/5b/6e/355b6ed6-1ca5-41c3-5084-52d7e47b4eaa/19UMGIM61586.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "take heart"
       }
@@ -1542,13 +1542,10 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "かくれんぼ",
+      "title": "シャッター",
       "artist": "優里",
-      "album": "かくれんぼ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/be/53/46/be534605-c062-2cea-0e91-137f517a1e42/079175_J.jpg/600x600bb.jpg",
-      "en": {
-        "title": "hide and seek"
-      }
+      "album": "シャッター - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/5c/ff/ac5cff5d-de3e-8cdc-f8de-95965a9fc894/4547366520002.jpg/600x600bb.jpg"
     },
     "メルティランドナイトメア": {
       "title": "メルティランドナイトメア",
@@ -1560,10 +1557,10 @@ window.SONG_MASTER = {
       }
     },
     "ハイタ": {
-      "title": "君はロックを聴かない",
+      "title": "マリーゴールド",
       "artist": "あいみょん",
-      "album": "青春のエキサイトメント",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d8/7b/7c/d87b7cfd-c88c-1003-bc5d-883882043e33/190295747138.jpg/600x600bb.jpg"
+      "album": "マリーゴールド - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/67/34/90/67349087-0609-2be4-4963-fd4682ae8c46/190295600341.jpg/600x600bb.jpg"
     },
     "打上花火": {
       "title": "打上花火",
@@ -1581,13 +1578,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2e/1c/72/2e1c7246-1edf-0702-3f83-b4d1215173c2/QWCE_00564.jpg/600x600bb.jpg"
     },
     "ドリムレスドリムス": {
-      "title": "ドリームレス・ドリームス",
+      "title": "ドリームレス・ドリームス (セルフカバー)",
       "artist": "はるまきごはん",
-      "album": "ネオドリームトラベラー",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a5/51/fd/a551fdf6-679a-842a-e46f-1588a06ed75f/dj.qqkpaffo.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Dreamless Dreams"
-      }
+      "album": "ドリームレス・ドリームス - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/57/66/41/57664152-76a0-a1bf-2788-1a9a0654bab5/00602557805970.rgb.jpg/600x600bb.jpg"
     },
     "メリュいました": {
       "title": "突破口",
@@ -1629,10 +1623,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e5/46/8a/e5468a74-37db-65a2-a8c6-aaf67552fdfd/4547366526615.jpg/600x600bb.jpg"
     },
     "刹那プラスいました": {
-      "title": "助演男優賞",
-      "artist": "Creepy Nuts",
-      "album": "助演男優賞 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9a/9d/62/9a9d62eb-51a1-be7a-0b52-1913090579d4/4948722525264_cover.jpg/600x600bb.jpg"
+      "title": "Goodbye",
+      "artist": "SEKAI NO OWARI",
+      "album": "Lip",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d9/84/41/d9844177-0101-4300-7bd7-a73b54692231/TFCC-86663WW.jpg/600x600bb.jpg"
     },
     "クライヤいました": {
       "title": "115万キロのフィルム",
@@ -1650,10 +1644,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/39/33/1a/39331a3d-a1e5-f1e8-904e-8be6438e13a3/20UM1IM05202.rgb.jpg/600x600bb.jpg"
     },
     "サディスティックラブいました": {
-      "title": "声をきかせて",
-      "artist": "BIGBANG",
-      "album": "声をきかせて - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/92/e9/a592e9a6-333c-b96b-a14b-55c683580a2b/00044002457172.rgb.jpg/600x600bb.jpg"
+      "title": "ロマンティックいか焼き",
+      "artist": "乃木坂46",
+      "album": "君の名は希望 TypeA - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/7d/dd/43/7ddd4350-cf79-9a75-e00d-8ddc662dae61/jacket_SRXX01035B00Z_550.jpg/600x600bb.jpg"
     },
     "ワルドコリングいました": {
       "title": "from the edge (feat. LiSA)",
@@ -1974,13 +1968,10 @@ window.SONG_MASTER = {
       }
     },
     "恋のメガラバ": {
-      "title": "恋のメガラバ (feat. TAKANOR & Cobalt)",
-      "artist": "Hommarju",
-      "album": "ウマウマできるトランスを作ってみた6~どうしてこうなった!~",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/f9/2a/66/f92a6671-87e7-8db1-89df-c86ff3ddec85/QWCE_00123_itunes.png/600x600bb.jpg",
-      "en": {
-        "title": "Mega Love of Love (feat. TAKANOR & Cobalt)"
-      }
+      "title": "恋のメガラバ (Cover)",
+      "artist": "ノートンビート",
+      "album": "恋のメガラバ (Cover) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/01/8c/ff/018cff56-966e-44ec-3cc2-e7405195fe7a/4550714572035_cover.png/600x600bb.jpg"
     },
     "栞": {
       "title": "栞",

@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-09-28T10:13:36.733Z",
+  "updatedAt": "2026-09-28T18:49:40.804Z",
   "streams": [
-    {
-      "id": "B5txXANsio0",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 Dig, Dig, Die 】よーそろー！どうもお墓荒らしです【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/B5txXANsio0/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-28T11:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "Qzn4vUZk32c",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 妹に運転を教える 】ペーパー3年目ですがやる気はゴールド免許 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/Qzn4vUZk32c/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-28T12:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "tUZw65HEVPc",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【📢グッズ情報】甘狼このみ 新衣装記念グッズ 2026 発売中！",
-      "thumb": "https://i.ytimg.com/vi/tUZw65HEVPc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-28T14:30:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "M_IG20Hhx2M",
       "memberId": "konomi",
@@ -74,6 +47,15 @@
       "status": "upcoming"
     },
     {
+      "id": "nElUBc_Ji-Y",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "title": "【📢グッズ情報】3Dお披露目記念グッズ受注開始！",
+      "thumb": "https://i.ytimg.com/vi/nElUBc_Ji-Y/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-12T14:00:00Z",
+      "status": "upcoming"
+    },
+    {
       "id": "Np7iIJhRB50",
       "memberId": "nuhu",
       "member": "虹深°ぬふ",
@@ -112,6 +94,56 @@
   ],
   "videos": [
     {
+      "id": "qei_BlNv1kU",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "デビットビット / 音ノ瀬らこ (cover)",
+      "thumb": "https://i.ytimg.com/vi/qei_BlNv1kU/hqdefault.jpg",
+      "publishedAt": "2026-09-28T15:42:43Z",
+      "live": false
+    },
+    {
+      "id": "FtROdoYN3qQ",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "声で妹を操れるゲームがあるらしい【あくび・でもんすぺーど / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/FtROdoYN3qQ/hqdefault.jpg",
+      "publishedAt": "2026-09-28T15:40:21Z",
+      "live": false
+    },
+    {
+      "id": "B5txXANsio0",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 Dig, Dig, Die 】よーそろー！どうもお墓荒らしです【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/B5txXANsio0/hqdefault.jpg",
+      "publishedAt": "2026-09-28T14:22:19Z",
+      "live": false
+    },
+    {
+      "id": "5WMqEhlPUpw",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 妹に運転を教える 】ペーパー3年目ですがやる気はゴールド免許 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/5WMqEhlPUpw/hqdefault.jpg",
+      "publishedAt": "2026-09-28T14:02:37Z",
+      "live": false
+    },
+    {
+      "id": "Kqq5vpku-o0",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "実家に顔出さないのにね〜笑┊︎#デビットビット #音ノ乃のの #歌ってみた #shorts",
+      "thumb": "https://i.ytimg.com/vi/Kqq5vpku-o0/hqdefault.jpg",
+      "publishedAt": "2026-09-28T11:35:07Z",
+      "live": false
+    },
+    {
       "id": "zWscAyHNIOs",
       "memberId": "konomi",
       "member": "甘狼このみ",
@@ -129,16 +161,6 @@
       "title": "【📢コラボ情報】「ミリプロ × 100時間カレー」のコラボイベント開催が決定✨",
       "thumb": "https://i.ytimg.com/vi/Np7iIJhRB50/hqdefault_live.jpg",
       "publishedAt": "2026-09-28T09:30:34Z",
-      "live": false
-    },
-    {
-      "id": "B5txXANsio0",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 Dig, Dig, Die 】よーそろー！どうもお墓荒らしです【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/B5txXANsio0/hqdefault_live.jpg",
-      "publishedAt": "2026-09-28T09:13:49Z",
       "live": false
     },
     {
@@ -169,16 +191,6 @@
       "title": "【マイクラ】バレずに顔を出せ！息継ぎが必要なかくれんぼ！",
       "thumb": "https://i.ytimg.com/vi/DaZDk_nTY-Y/hqdefault.jpg",
       "publishedAt": "2026-09-28T09:00:08Z",
-      "live": false
-    },
-    {
-      "id": "Qzn4vUZk32c",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 妹に運転を教える 】ペーパー3年目ですがやる気はゴールド免許 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/Qzn4vUZk32c/hqdefault_live.jpg",
-      "publishedAt": "2026-09-28T08:22:32Z",
       "live": false
     },
     {
@@ -380,36 +392,6 @@
       "thumb": "https://i.ytimg.com/vi/8wAnB-DKmp8/hqdefault.jpg",
       "publishedAt": "2026-09-25T10:50:50Z",
       "live": true
-    },
-    {
-      "id": "3IsFnWRGfhA",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【MInecraft】マイクラ肝試し２０２６楽しむぞー！！【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/3IsFnWRGfhA/hqdefault.jpg",
-      "publishedAt": "2026-09-25T10:08:05Z",
-      "live": false
-    },
-    {
-      "id": "qD6JZQPGTt4",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【#マイクラ肝試し2026】ゆらぎの代打！代わりに楽しませていただきます🎶【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/qD6JZQPGTt4/hqdefault.jpg",
-      "publishedAt": "2026-09-25T09:03:06Z",
-      "live": false
-    },
-    {
-      "id": "2GU-VrNT16I",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【マイクラ肝試し2026】ホラーは任せなさい┊︎#音ノ乃のの #ののん家 #マイクラ肝試し2026",
-      "thumb": "https://i.ytimg.com/vi/2GU-VrNT16I/hqdefault.jpg",
-      "publishedAt": "2026-09-25T09:02:06Z",
-      "live": false
     }
   ],
   "live": []
