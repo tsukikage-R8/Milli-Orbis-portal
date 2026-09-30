@@ -1,31 +1,13 @@
 {
-  "updatedAt": "2026-09-30T10:02:35.542Z",
+  "updatedAt": "2026-09-30T17:04:43.771Z",
   "streams": [
     {
-      "id": "rn5EKqLrLU4",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Wardogs】雑談しながらわんわんしましょꕤ•ᴗ•ಣ【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/rn5EKqLrLU4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-30T10:01:09Z",
-      "status": "live"
-    },
-    {
-      "id": "geTeaF60R4o",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【雑談】３Dお披露目をみんなで振り返るぞーーー！！【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/geTeaF60R4o/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-30T11:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "M_IG20Hhx2M",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【📢お知らせ】『甘狼このみと「好き」で学ぼう！中学英単語＆熟語1800』発売中！",
-      "thumb": "https://i.ytimg.com/vi/M_IG20Hhx2M/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-30T14:30:00Z",
+      "id": "3mwnuXT6UNU",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "title": "【#あくび新衣装】女王様のお出ましだぜっ！【あくび・でもんすぺーど / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/3mwnuXT6UNU/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-02T12:00:00Z",
       "status": "upcoming"
     },
     {
@@ -117,8 +99,8 @@
       "member": "鹿乃まほろ",
       "channelTitle": "鹿乃まほろ / Kano Mahoro",
       "title": "【Wardogs】雑談しながらわんわんしましょꕤ•ᴗ•ಣ【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/rn5EKqLrLU4/hqdefault_live.jpg",
-      "publishedAt": "2026-09-30T10:01:09Z",
+      "thumb": "https://i.ytimg.com/vi/rn5EKqLrLU4/hqdefault.jpg",
+      "publishedAt": "2026-09-30T13:37:37Z",
       "live": true
     },
     {
@@ -128,7 +110,7 @@
       "channelTitle": "雨夜リズ / Amayo Liz",
       "title": "【雑談】３Dお披露目をみんなで振り返るぞーーー！！【雨夜リズ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/geTeaF60R4o/hqdefault_live.jpg",
-      "publishedAt": "2026-09-30T09:39:25Z",
+      "publishedAt": "2026-09-30T12:54:09Z",
       "live": true
     },
     {
@@ -412,15 +394,5 @@
       "live": false
     }
   ],
-  "live": [
-    {
-      "id": "rn5EKqLrLU4",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Wardogs】雑談しながらわんわんしましょꕤ•ᴗ•ಣ【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/rn5EKqLrLU4/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-09-30T10:01:09Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
