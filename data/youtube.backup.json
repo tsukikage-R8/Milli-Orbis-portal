@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-10-01T02:41:42.271Z",
+  "updatedAt": "2026-10-01T10:30:33.864Z",
   "streams": [
+    {
+      "id": "5DjwnyOXSM8",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 雑談 〗#眠雲ツクリ3Dお披露目 、みた？〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/5DjwnyOXSM8/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-01T11:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "oI0TjxQUEjs",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 WARDOGS 】まほろさんと今話題のFPSをプレイしてみる！ ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/oI0TjxQUEjs/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-01T12:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "kpRiqzzWHtY",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【Wardogs】レイちゃんと！レイちゃんに根掘り葉掘りするO⩊O【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/kpRiqzzWHtY/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-01T12:00:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "3mwnuXT6UNU",
       "memberId": "akubi",
@@ -8,6 +35,15 @@
       "title": "【#あくび新衣装】女王様のお出ましだぜっ！【あくび・でもんすぺーど / ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/3mwnuXT6UNU/hqdefault_live.jpg",
       "scheduledStartTime": "2026-10-02T12:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "2pBSFcTxYrg",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【ダレカレ】誰かにとってあなたもわたしも大切なひと【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/2pBSFcTxYrg/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-02T13:00:00Z",
       "status": "upcoming"
     },
     {
@@ -93,6 +129,76 @@
     }
   ],
   "videos": [
+    {
+      "id": "5DjwnyOXSM8",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 雑談 〗#眠雲ツクリ3Dお披露目 、みた？〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/5DjwnyOXSM8/hqdefault_live.jpg",
+      "publishedAt": "2026-10-01T09:08:05Z",
+      "live": true
+    },
+    {
+      "id": "mbjEZttNGBU",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【衝撃の事実⁉️】閉店の時に流れてる曲って...【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/mbjEZttNGBU/hqdefault.jpg",
+      "publishedAt": "2026-10-01T09:01:26Z",
+      "live": false
+    },
+    {
+      "id": "oARzKumpJlU",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "年下の子と付き合うのはあり？なし？【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/oARzKumpJlU/hqdefault.jpg",
+      "publishedAt": "2026-10-01T09:00:33Z",
+      "live": false
+    },
+    {
+      "id": "DJiN3wJo7UU",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "\"POP/STARS\" 歌ってみた！┊︎#音ノ乃のの #popstar #kda #psyqui #shorts #lol #leagueoflegends",
+      "thumb": "https://i.ytimg.com/vi/DJiN3wJo7UU/hqdefault.jpg",
+      "publishedAt": "2026-10-01T09:00:08Z",
+      "live": false
+    },
+    {
+      "id": "oI0TjxQUEjs",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 WARDOGS 】まほろさんと今話題のFPSをプレイしてみる！ ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/oI0TjxQUEjs/hqdefault_live.jpg",
+      "publishedAt": "2026-10-01T08:40:55Z",
+      "live": false
+    },
+    {
+      "id": "2pBSFcTxYrg",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【ダレカレ】誰かにとってあなたもわたしも大切なひと【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/2pBSFcTxYrg/hqdefault_live.jpg",
+      "publishedAt": "2026-10-01T06:56:20Z",
+      "live": false
+    },
+    {
+      "id": "kpRiqzzWHtY",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Wardogs】レイちゃんと！レイちゃんに根掘り葉掘りするO⩊O【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/kpRiqzzWHtY/hqdefault_live.jpg",
+      "publishedAt": "2026-10-01T06:12:54Z",
+      "live": false
+    },
     {
       "id": "geTeaF60R4o",
       "memberId": "liz",
@@ -321,76 +427,6 @@
       "title": "【大混乱】有名キャラの目元だけ見て絵を完成させられる!?うろ覚えで描いたらヤバすぎたｗｗｗ",
       "thumb": "https://i.ytimg.com/vi/-Z3JcUR8p-o/hqdefault.jpg",
       "publishedAt": "2026-09-27T10:00:08Z",
-      "live": false
-    },
-    {
-      "id": "x0Avn4-e-jI",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【歌枠】45万人耐久だァー‼️🔥【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/x0Avn4-e-jI/hqdefault.jpg",
-      "publishedAt": "2026-09-27T09:55:24Z",
-      "live": false
-    },
-    {
-      "id": "EmZYUAzbvug",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "【デビットビット】全部自分で作ってみた【眠雲ツクリ/ミリプロ】#デビットビット",
-      "thumb": "https://i.ytimg.com/vi/EmZYUAzbvug/hqdefault.jpg",
-      "publishedAt": "2026-09-27T09:10:23Z",
-      "live": false
-    },
-    {
-      "id": "luZ4OoFP1OQ",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】正解したら落とされる！絶対に間違った答えを言え！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/luZ4OoFP1OQ/hqdefault.jpg",
-      "publishedAt": "2026-09-27T09:00:32Z",
-      "live": false
-    },
-    {
-      "id": "rlM21jZOLVo",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "さすがに甘狼このみでも英語を教えるなんて・・・・・【#甘狼このみ】",
-      "thumb": "https://i.ytimg.com/vi/rlM21jZOLVo/hqdefault.jpg",
-      "publishedAt": "2026-09-27T09:00:18Z",
-      "live": false
-    },
-    {
-      "id": "lDer-rtZywg",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "週末の宿題、やらなきゃいけない作業、溜まってる人、強制集合。【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/lDer-rtZywg/hqdefault.jpg",
-      "publishedAt": "2026-09-27T07:17:47Z",
-      "live": false
-    },
-    {
-      "id": "BzfDRA8S67w",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【 #雨夜リズ3Dお披露目 】これで一緒に雨宿りできるね【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/BzfDRA8S67w/hqdefault.jpg",
-      "publishedAt": "2026-09-26T13:31:46Z",
-      "live": false
-    },
-    {
-      "id": "WjtcVv76D4s",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 #眠雲ツクリ3Dお披露目 〗これからも、思い出たくさんつくってあげる！〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/WjtcVv76D4s/hqdefault.jpg",
-      "publishedAt": "2026-09-26T12:44:58Z",
       "live": false
     }
   ],
