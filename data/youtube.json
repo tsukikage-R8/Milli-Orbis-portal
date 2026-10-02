@@ -1,6 +1,42 @@
 {
-  "updatedAt": "2026-10-02T02:46:01.384Z",
+  "updatedAt": "2026-10-02T10:05:44.886Z",
   "streams": [
+    {
+      "id": "ubWa583I6W4",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 おうち3D 】ついにおうち3Dマスターしたぞ【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ubWa583I6W4/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-02T11:00:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "[Home 3D] I finally mastered home 3D [Komakoma/MilliPro]"
+      }
+    },
+    {
+      "id": "5XOfbzrBqr0",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 雑談 〗サイン入れ屋さん、開店〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/5XOfbzrBqr0/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-02T11:00:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "〖 Chat 〗 Autograph shop opens 〖 Negumo Tsukuri / MilliPro 〗"
+      }
+    },
+    {
+      "id": "LCoON5HWckw",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 歌枠 】10月も頑張っていこうの歌枠 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/LCoON5HWckw/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-02T11:00:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "[Song frame] Let's do our best in October too ⟡. · [Rei Yugiri/MilliPro]"
+      }
+    },
     {
       "id": "3mwnuXT6UNU",
       "memberId": "akubi",
@@ -8,7 +44,10 @@
       "title": "【#あくび新衣装】女王様のお出ましだぜっ！【あくび・でもんすぺーど / ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/3mwnuXT6UNU/hqdefault_live.jpg",
       "scheduledStartTime": "2026-10-02T12:00:00Z",
-      "status": "upcoming"
+      "status": "upcoming",
+      "en": {
+        "title": "[#yawn new costume] The queen is here! [Yawn/Demon Speed/Millipro]"
+      }
     },
     {
       "id": "2pBSFcTxYrg",
@@ -17,7 +56,10 @@
       "title": "【ダレカレ】誰かにとってあなたもわたしも大切なひと【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/2pBSFcTxYrg/hqdefault_live.jpg",
       "scheduledStartTime": "2026-10-02T13:00:00Z",
-      "status": "upcoming"
+      "status": "upcoming",
+      "en": {
+        "title": "[Dare Kare] You and I are both important to someone [Mahoro Kano/MilliPro]"
+      }
     },
     {
       "id": "RjOQyuyucgc",
@@ -26,7 +68,10 @@
       "title": "☁眠雲ツクリ 誕生日記念グッズ 2026受注受付中！🔧",
       "thumb": "https://i.ytimg.com/vi/RjOQyuyucgc/hqdefault_live.jpg",
       "scheduledStartTime": "2026-10-03T14:59:00Z",
-      "status": "upcoming"
+      "status": "upcoming",
+      "en": {
+        "title": "☁ Now accepting orders for Nemugumo Tsukuri Birthday Commemorative Goods 2026! 🔧"
+      }
     },
     {
       "id": "8XDNCdSicJ8",
@@ -35,7 +80,10 @@
       "title": "【📢グッズ情報】NOVA水族館コレクション2026受注開始！",
       "thumb": "https://i.ytimg.com/vi/8XDNCdSicJ8/hqdefault_live.jpg",
       "scheduledStartTime": "2026-10-05T14:00:00Z",
-      "status": "upcoming"
+      "status": "upcoming",
+      "en": {
+        "title": "[📢Goods information] NOVA Aquarium Collection 2026 orders now available!"
+      }
     },
     {
       "id": "sNJXQzJShuA",
@@ -44,7 +92,10 @@
       "title": "【📢イラスト技法書発売決定】現在予約販売中です！✨",
       "thumb": "https://i.ytimg.com/vi/sNJXQzJShuA/hqdefault_live.jpg",
       "scheduledStartTime": "2026-10-05T14:25:00Z",
-      "status": "upcoming"
+      "status": "upcoming",
+      "en": {
+        "title": "[📢Illustration technique book to be released] Now on pre-order! ✨"
+      }
     },
     {
       "id": "mABBk-9aZbw",
@@ -53,7 +104,10 @@
       "title": "【📢出演告知】音ノ乃のの渡韓します！",
       "thumb": "https://i.ytimg.com/vi/mABBk-9aZbw/hqdefault_live.jpg",
       "scheduledStartTime": "2026-10-10T14:59:00Z",
-      "status": "upcoming"
+      "status": "upcoming",
+      "en": {
+        "title": "[📢Performance announcement] Otonono will be coming to Korea!"
+      }
     },
     {
       "id": "nElUBc_Ji-Y",
@@ -62,7 +116,10 @@
       "title": "【📢グッズ情報】3Dお披露目記念グッズ受注開始！",
       "thumb": "https://i.ytimg.com/vi/nElUBc_Ji-Y/hqdefault_live.jpg",
       "scheduledStartTime": "2026-10-12T14:00:00Z",
-      "status": "upcoming"
+      "status": "upcoming",
+      "en": {
+        "title": "[📢Goods information] We are now accepting orders for 3D unveiling commemorative goods!"
+      }
     },
     {
       "id": "Np7iIJhRB50",
@@ -71,7 +128,10 @@
       "title": "【📢コラボ情報】「ミリプロ × 100時間カレー」のコラボイベント開催が決定✨",
       "thumb": "https://i.ytimg.com/vi/Np7iIJhRB50/hqdefault_live.jpg",
       "scheduledStartTime": "2026-10-31T09:00:00Z",
-      "status": "upcoming"
+      "status": "upcoming",
+      "en": {
+        "title": "[📢Collaboration Information] Collaboration event of “MilliPro x 100 Hour Curry” will be held✨"
+      }
     },
     {
       "id": "WEI1si3sFaA",
@@ -80,7 +140,10 @@
       "title": "「ミリプロ」×「100時間カレー」コラボ！🍛🍴",
       "thumb": "https://i.ytimg.com/vi/WEI1si3sFaA/hqdefault_live.jpg",
       "scheduledStartTime": "2026-10-31T13:30:00Z",
-      "status": "upcoming"
+      "status": "upcoming",
+      "en": {
+        "title": "“MilliPro” x “100 Hour Curry” collaboration! 🍛🍴"
+      }
     },
     {
       "id": "h9nYQNJBBts",
@@ -89,7 +152,10 @@
       "title": "【📢お知らせ】Princess Viral』REMIXバージョンの制作が決定！",
       "thumb": "https://i.ytimg.com/vi/h9nYQNJBBts/hqdefault_live.jpg",
       "scheduledStartTime": "2026-11-01T14:59:00Z",
-      "status": "upcoming"
+      "status": "upcoming",
+      "en": {
+        "title": "[📢Notice] Production of “Princess Viral” REMIX version has been decided!"
+      }
     },
     {
       "id": "gjos7ccWkac",
@@ -98,10 +164,77 @@
       "title": "【📢お知らせ】音ノ乃のの×タイクレコラボレーション！🤍",
       "thumb": "https://i.ytimg.com/vi/gjos7ccWkac/hqdefault_live.jpg",
       "scheduledStartTime": "2026-12-31T14:59:00Z",
-      "status": "upcoming"
+      "status": "upcoming",
+      "en": {
+        "title": "[📢Notice] Nonono Otono x Taikure collaboration! 🤍"
+      }
+    },
+    {
+      "id": "_Qz5P1BthrE",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "⋆⸜おやすみボイスコレクション受注受付中🛏️⸝⋆",
+      "thumb": "https://i.ytimg.com/vi/_Qz5P1BthrE/hqdefault_live.jpg",
+      "scheduledStartTime": "2027-01-30T06:00:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "⋆⸜Now accepting orders for the Good Night Voice Collection🛏️⸝⋆"
+      }
     }
   ],
   "videos": [
+    {
+      "id": "ubWa583I6W4",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 おうち3D 】ついにおうち3Dマスターしたぞ【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ubWa583I6W4/hqdefault_live.jpg",
+      "publishedAt": "2026-10-02T09:25:30Z",
+      "live": false,
+      "en": {
+        "title": "[Home 3D] I finally mastered home 3D [Komakoma/MilliPro]"
+      }
+    },
+    {
+      "id": "1RD7edfyfYs",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】バレずに顔を出せ！息継ぎが必要なかくれんぼ！",
+      "thumb": "https://i.ytimg.com/vi/1RD7edfyfYs/hqdefault.jpg",
+      "publishedAt": "2026-10-02T09:00:30Z",
+      "live": false,
+      "en": {
+        "title": "[Minecraft] Show your face without being found out! Hide and seek where you need a break!"
+      }
+    },
+    {
+      "id": "LCoON5HWckw",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 歌枠 】10月も頑張っていこうの歌枠 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/LCoON5HWckw/hqdefault_live.jpg",
+      "publishedAt": "2026-10-02T08:47:16Z",
+      "live": false,
+      "en": {
+        "title": "[Song frame] Let's do our best in October too ⟡. · [Rei Yugiri/MilliPro]"
+      }
+    },
+    {
+      "id": "5XOfbzrBqr0",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 雑談 〗サイン入れ屋さん、開店〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/5XOfbzrBqr0/hqdefault_live.jpg",
+      "publishedAt": "2026-10-02T02:56:14Z",
+      "live": true,
+      "en": {
+        "title": "〖 Chat 〗 Autograph shop opens 〖 Negumo Tsukuri / MilliPro 〗"
+      }
+    },
     {
       "id": "oI0TjxQUEjs",
       "memberId": "rei",
@@ -110,7 +243,10 @@
       "title": "【 VALORANT 】まほろさんと今話題のFPSをプレイしてみる！ ⟡.· 【 夕霧レイ/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/oI0TjxQUEjs/hqdefault.jpg",
       "publishedAt": "2026-10-01T15:44:40Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[VALORANT] Let's play the popular FPS with Mahoro-san! ⟡.· [Rei Yugiri/MilliPro]"
+      }
     },
     {
       "id": "kpRiqzzWHtY",
@@ -120,7 +256,10 @@
       "title": "【Wardogs→VALORANT】レイちゃんと！レイちゃんに根掘り葉掘りするO⩊O【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/kpRiqzzWHtY/hqdefault.jpg",
       "publishedAt": "2026-10-01T15:41:45Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Wardogs→VALORANT] With Rei! O⩊O digging roots for Rei-chan [Mahoro Kano/MilliPro]"
+      }
     },
     {
       "id": "5DjwnyOXSM8",
@@ -130,7 +269,10 @@
       "title": "〖 雑談 〗#眠雲ツクリ3Dお披露目 、みた？〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/5DjwnyOXSM8/hqdefault.jpg",
       "publishedAt": "2026-10-01T13:31:38Z",
-      "live": true
+      "live": true,
+      "en": {
+        "title": "[Chat] Did you see #NemugumoTsukuri 3D unveiling? 〖 Nemugumo Tsukuri / MilliPro 〗"
+      }
     },
     {
       "id": "Yp3SlvOWdZI",
@@ -140,7 +282,10 @@
       "title": "ののらこで“ III ”歌って踊ってみた！🎧🦦┊︎#音ノ乃のの #音ノ瀬らこ",
       "thumb": "https://i.ytimg.com/vi/Yp3SlvOWdZI/hqdefault.jpg",
       "publishedAt": "2026-10-01T11:18:17Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "I tried singing and dancing “III” at Nonorako! 🎧🦦┊︎#Otononono #OtonoseRako"
+      }
     },
     {
       "id": "mbjEZttNGBU",
@@ -150,7 +295,10 @@
       "title": "【衝撃の事実⁉️】閉店の時に流れてる曲って...【海琳あおい/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/mbjEZttNGBU/hqdefault.jpg",
       "publishedAt": "2026-10-01T09:01:26Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Shocking fact⁉️] What song is played when the store closes... [Aoi Kairin/MilliPro]"
+      }
     },
     {
       "id": "oARzKumpJlU",
@@ -160,7 +308,10 @@
       "title": "年下の子と付き合うのはあり？なし？【#ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/oARzKumpJlU/hqdefault.jpg",
       "publishedAt": "2026-10-01T09:00:33Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "Is it possible to date someone younger than you? none? [#MilliPro]"
+      }
     },
     {
       "id": "DJiN3wJo7UU",
@@ -170,7 +321,10 @@
       "title": "\"POP/STARS\" 歌ってみた！┊︎#音ノ乃のの #popstar #kda #psyqui #shorts #lol #leagueoflegends",
       "thumb": "https://i.ytimg.com/vi/DJiN3wJo7UU/hqdefault.jpg",
       "publishedAt": "2026-10-01T09:00:08Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "I tried singing \"POP/STARS\"! ┊︎#Otononono #popstar #kda #psyqui #shorts #lol #leagueoflegends"
+      }
     },
     {
       "id": "2pBSFcTxYrg",
@@ -180,7 +334,10 @@
       "title": "【ダレカレ】誰かにとってあなたもわたしも大切なひと【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/2pBSFcTxYrg/hqdefault_live.jpg",
       "publishedAt": "2026-10-01T06:56:20Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Dare Kare] You and I are both important to someone [Mahoro Kano/MilliPro]"
+      }
     },
     {
       "id": "geTeaF60R4o",
@@ -190,7 +347,10 @@
       "title": "【雑談】３Dお披露目をみんなで振り返るぞーーー！！【雨夜リズ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/geTeaF60R4o/hqdefault.jpg",
       "publishedAt": "2026-10-01T01:02:10Z",
-      "live": true
+      "live": true,
+      "en": {
+        "title": "[Chat] Let's all look back at the 3D unveiling! ! [Ameya Liz/MilliPro]"
+      }
     },
     {
       "id": "rn5EKqLrLU4",
@@ -200,7 +360,10 @@
       "title": "【Wardogs】雑談しながらわんわんしましょꕤ•ᴗ•ಣ【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/rn5EKqLrLU4/hqdefault.jpg",
       "publishedAt": "2026-09-30T13:37:37Z",
-      "live": true
+      "live": true,
+      "en": {
+        "title": "[Wardogs] Let's play doggy while chatting ꕤ•ᴗ•ಣ [Mahoro Kano/MilliPro]"
+      }
     },
     {
       "id": "RZIUvnhskEY",
@@ -210,7 +373,10 @@
       "title": "【道連れ】雨夜リズのオリ曲歌ってみた！【 夕霧レイ/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/RZIUvnhskEY/hqdefault.jpg",
       "publishedAt": "2026-09-30T09:00:24Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[On the road] I tried singing Ameya Liz's original song! [Rei Yugiri/MilliPro]"
+      }
     },
     {
       "id": "yTSgzaHn1N8",
@@ -220,7 +386,10 @@
       "title": "【わちゃごな】小廻こまのオリ曲歌ってみた🌂【雨夜リズ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/yTSgzaHn1N8/hqdefault.jpg",
       "publishedAt": "2026-09-30T09:00:10Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Wachagona] I tried singing the original song of Komaekoma 🌂 [Ameya Riz/MilliPro]"
+      }
     },
     {
       "id": "wOy2pj8Cwks",
@@ -230,7 +399,10 @@
       "title": "【マイクラ】隠れてるミリプロメンバーを探せ！！【#ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/wOy2pj8Cwks/hqdefault.jpg",
       "publishedAt": "2026-09-30T09:00:06Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Minecraft] Find the hidden Millipro members! ! [#MilliPro]"
+      }
     },
     {
       "id": "qei_BlNv1kU",
@@ -240,7 +412,10 @@
       "title": "デビットビット / 音ノ瀬らこ (cover)",
       "thumb": "https://i.ytimg.com/vi/qei_BlNv1kU/hqdefault.jpg",
       "publishedAt": "2026-09-29T11:00:09Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "Debit Bit / Rako Otonose (cover)"
+      }
     },
     {
       "id": "Ycbmrjlgi4w",
@@ -250,7 +425,10 @@
       "title": "【謝罪】ずっとShortsをサボっていてすみませんでした・・・・・【#甘狼このみ】",
       "thumb": "https://i.ytimg.com/vi/Ycbmrjlgi4w/hqdefault.jpg",
       "publishedAt": "2026-09-29T09:00:21Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Apology] I'm sorry for slacking off on Shorts for a long time... [#Amarou Konomi]"
+      }
     },
     {
       "id": "XXYUw_nudlI",
@@ -260,7 +438,10 @@
       "title": "【アニメ】お母さんあるある #ミリプロ #anime",
       "thumb": "https://i.ytimg.com/vi/XXYUw_nudlI/hqdefault.jpg",
       "publishedAt": "2026-09-29T09:00:06Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Anime] There is a mother #MilliPro #anime"
+      }
     },
     {
       "id": "FtROdoYN3qQ",
@@ -270,7 +451,10 @@
       "title": "声で妹を操れるゲームがあるらしい【あくび・でもんすぺーど / ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/FtROdoYN3qQ/hqdefault.jpg",
       "publishedAt": "2026-09-28T15:40:21Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "There seems to be a game where you can control your younger sister with your voice [Yawn Monster Speed / MilliPro]"
+      }
     },
     {
       "id": "B5txXANsio0",
@@ -280,7 +464,10 @@
       "title": "【 Dig, Dig, Die 】よーそろー！どうもお墓荒らしです【小廻こま/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/B5txXANsio0/hqdefault.jpg",
       "publishedAt": "2026-09-28T14:22:19Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Dig, Dig, Die] Yosoro! Hello, I'm a grave robber [Komakoma/MilliPro]"
+      }
     },
     {
       "id": "5WMqEhlPUpw",
@@ -290,7 +477,10 @@
       "title": "【 妹に運転を教える 】ペーパー3年目ですがやる気はゴールド免許 ⟡.· 【 夕霧レイ/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/5WMqEhlPUpw/hqdefault.jpg",
       "publishedAt": "2026-09-28T14:02:37Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Teaching my sister to drive] I'm in my third year of driving, but I'm motivated to get my gold license ⟡.· [Rei Yugiri/MilliPro]"
+      }
     },
     {
       "id": "Kqq5vpku-o0",
@@ -300,7 +490,10 @@
       "title": "実家に顔出さないのにね〜笑┊︎#デビットビット #音ノ乃のの #歌ってみた #shorts",
       "thumb": "https://i.ytimg.com/vi/Kqq5vpku-o0/hqdefault.jpg",
       "publishedAt": "2026-09-28T11:35:07Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "Even though I don't show my face at my parents' house~ lol ┊︎ #Davidbit #Otononono #I tried singing #shorts"
+      }
     },
     {
       "id": "zWscAyHNIOs",
@@ -310,7 +503,10 @@
       "title": "もしもポケモンたちが\"美少女\"だったら？妄想を絵にしてみたらヤバすぎたｗ【甘狼このみ】",
       "thumb": "https://i.ytimg.com/vi/zWscAyHNIOs/hqdefault.jpg",
       "publishedAt": "2026-09-28T10:00:07Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "What if Pokemon were \"beautiful girls\"? I tried drawing my delusions and it turned out to be too dangerous lol [Konomi Sweet Wolf]"
+      }
     },
     {
       "id": "Np7iIJhRB50",
@@ -320,7 +516,10 @@
       "title": "【📢コラボ情報】「ミリプロ × 100時間カレー」のコラボイベント開催が決定✨",
       "thumb": "https://i.ytimg.com/vi/Np7iIJhRB50/hqdefault_live.jpg",
       "publishedAt": "2026-09-28T09:30:34Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[📢Collaboration Information] Collaboration event of “MilliPro x 100 Hour Curry” will be held✨"
+      }
     },
     {
       "id": "5-s7jAMKZSY",
@@ -330,7 +529,10 @@
       "title": "【最後までわかったら超ガチ勢!?】テト曲ファンテスト歌ってみた！【海琳あおい/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/5-s7jAMKZSY/hqdefault.jpg",
       "publishedAt": "2026-09-28T09:01:22Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[If you understand till the end, you'll be super serious!?] I tried singing the Tet song fan test! [Aoi Kairin/MilliPro]"
+      }
     },
     {
       "id": "oD7TWCU-qoo",
@@ -340,7 +542,10 @@
       "title": "【わちゃごな】こまのオリ曲歌ってみた☁【眠雲ツクリ/ミリプロ】 #vtuber #わちゃごな",
       "thumb": "https://i.ytimg.com/vi/oD7TWCU-qoo/hqdefault.jpg",
       "publishedAt": "2026-09-28T09:00:17Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Wachagona] I tried singing the original song of Koma☁ [Nemugumo Tsukuri/MilliPro] #vtuber #Wachagona"
+      }
     },
     {
       "id": "DaZDk_nTY-Y",
@@ -350,7 +555,10 @@
       "title": "【マイクラ】バレずに顔を出せ！息継ぎが必要なかくれんぼ！",
       "thumb": "https://i.ytimg.com/vi/DaZDk_nTY-Y/hqdefault.jpg",
       "publishedAt": "2026-09-28T09:00:08Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Minecraft] Show your face without being found out! Hide and seek where you need a break!"
+      }
     },
     {
       "id": "vUEQrpry9E4",
@@ -360,47 +568,10 @@
       "title": "【 おうち3D 】ぷち振り返り＆おためしおうち3D【小廻こま/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/vUEQrpry9E4/hqdefault.jpg",
       "publishedAt": "2026-09-27T23:46:26Z",
-      "live": false
-    },
-    {
-      "id": "sBJk5o0zugg",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Wardogs】4人で話題のゲームで遊びます！ / あねまちゃん・叶さん・しろまんた先生【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/sBJk5o0zugg/hqdefault.jpg",
-      "publishedAt": "2026-09-27T15:38:30Z",
-      "live": false
-    },
-    {
-      "id": "fESLeDOor5I",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【同時視聴『 超かぐや姫 』】お待たせした、やっと見ます。【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/fESLeDOor5I/hqdefault.jpg",
-      "publishedAt": "2026-09-27T14:59:49Z",
-      "live": false
-    },
-    {
-      "id": "XtUynAmn8HA",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【雑談】新衣装グッズにサインを描きながらお話✏【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/XtUynAmn8HA/hqdefault.jpg",
-      "publishedAt": "2026-09-27T14:20:26Z",
-      "live": true
-    },
-    {
-      "id": "AC7i7JGKRnE",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "これから / 眠雲ツクリ 【#眠雲ツクリ3Dお披露目】",
-      "thumb": "https://i.ytimg.com/vi/AC7i7JGKRnE/hqdefault.jpg",
-      "publishedAt": "2026-09-27T12:00:11Z",
-      "live": false
+      "live": false,
+      "en": {
+        "title": "[Home 3D] Petit Review & Trial Home 3D [Komakoma/MilliPro]"
+      }
     }
   ],
   "live": []
