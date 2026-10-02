@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-10-01",
+  "generatedAt": "2026-10-02",
   "songs": {
     "デビットビット": {
       "title": "デビットビット",
@@ -1650,10 +1650,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/92/e9/a592e9a6-333c-b96b-a14b-55c683580a2b/00044002457172.rgb.jpg/600x600bb.jpg"
     },
     "ワルドコリングいました": {
-      "title": "from the edge (feat. LiSA)",
-      "artist": "FictionJunction",
-      "album": "from the edge (feat. LiSA) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/fb/8c/50/fb8c5074-9f14-0149-4fe9-158269743006/jacket_VVXX00465B00Z_550.jpg/600x600bb.jpg"
+      "title": "ギリギリchop",
+      "artist": "B'z",
+      "album": "ギリギリchop - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/76/9d/9e/769d9e95-0ccb-397c-c0c5-767c8c0c7d95/BMDR-2018.jpg/600x600bb.jpg"
     },
     "二次元ドリムフィバいました": {
       "title": "We are All Stars!",
