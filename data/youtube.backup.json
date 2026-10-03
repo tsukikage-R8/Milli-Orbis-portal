@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-10-03T09:28:29.014Z",
+  "updatedAt": "2026-10-03T15:18:42.721Z",
   "streams": [
-    {
-      "id": "oHkmplaDosw",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【歌枠】３Dの体ではじめての歌枠♫【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/oHkmplaDosw/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-03T11:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "RjOQyuyucgc",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "☁眠雲ツクリ 誕生日記念グッズ 2026受注受付中！🔧",
-      "thumb": "https://i.ytimg.com/vi/RjOQyuyucgc/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-03T14:59:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "8XDNCdSicJ8",
       "memberId": "raco",
@@ -99,9 +81,38 @@
       "thumb": "https://i.ytimg.com/vi/_Qz5P1BthrE/hqdefault_live.jpg",
       "scheduledStartTime": "2027-01-30T06:00:00Z",
       "status": "upcoming"
+    },
+    {
+      "id": "FQUAaVHIEEo",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "☁イオンオリジナルグッズ発売決定 🔧",
+      "thumb": "https://i.ytimg.com/vi/FQUAaVHIEEo/hqdefault_live.jpg",
+      "scheduledStartTime": "2027-01-31T14:59:00Z",
+      "status": "upcoming"
     }
   ],
   "videos": [
+    {
+      "id": "yDIzArdzjhU",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "しごとおわりん、のんびりはなす",
+      "thumb": "https://i.ytimg.com/vi/yDIzArdzjhU/hqdefault_live.jpg",
+      "publishedAt": "2026-10-03T14:50:26Z",
+      "live": false
+    },
+    {
+      "id": "oHkmplaDosw",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【歌枠】３Dの体ではじめての歌枠♫【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/oHkmplaDosw/hqdefault.jpg",
+      "publishedAt": "2026-10-03T13:54:48Z",
+      "live": false
+    },
     {
       "id": "eYdVumMwsyk",
       "memberId": "liz",
@@ -120,16 +131,6 @@
       "title": "【アニメ】はい、チーズ！！#ミリプロ #anime",
       "thumb": "https://i.ytimg.com/vi/AnFDleVxNxo/hqdefault.jpg",
       "publishedAt": "2026-10-03T09:00:11Z",
-      "live": false
-    },
-    {
-      "id": "oHkmplaDosw",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【歌枠】３Dの体ではじめての歌枠♫【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/oHkmplaDosw/hqdefault_live.jpg",
-      "publishedAt": "2026-10-03T05:26:30Z",
       "live": false
     },
     {
@@ -390,16 +391,6 @@
       "title": "【📢コラボ情報】「ミリプロ × 100時間カレー」のコラボイベント開催が決定✨",
       "thumb": "https://i.ytimg.com/vi/Np7iIJhRB50/hqdefault_live.jpg",
       "publishedAt": "2026-09-28T09:30:34Z",
-      "live": false
-    },
-    {
-      "id": "5-s7jAMKZSY",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【最後までわかったら超ガチ勢!?】テト曲ファンテスト歌ってみた！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/5-s7jAMKZSY/hqdefault.jpg",
-      "publishedAt": "2026-09-28T09:01:22Z",
       "live": false
     }
   ],
