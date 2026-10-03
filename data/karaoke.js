@@ -5,7 +5,7 @@ window.KARAOKE = [
     "memberId": "liz",
     "publishedAt": "2026-10-03",
     "title": "【歌枠】３Dの体ではじめての歌枠♫【雨夜リズ/ミリプロ】",
-    "duration": 0,
+    "duration": 4982,
     "songs": []
   },
   {
