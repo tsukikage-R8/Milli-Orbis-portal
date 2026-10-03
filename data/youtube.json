@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-10-03T02:32:09.474Z",
+  "updatedAt": "2026-10-03T09:28:29.014Z",
   "streams": [
+    {
+      "id": "oHkmplaDosw",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "【歌枠】３Dの体ではじめての歌枠♫【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/oHkmplaDosw/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-03T11:00:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "RjOQyuyucgc",
       "memberId": "tsukuri",
@@ -93,6 +102,36 @@
     }
   ],
   "videos": [
+    {
+      "id": "eYdVumMwsyk",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【あくび・でもんすぺーどと】NG歌詞ゲーム歌ってみた#shorts 【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/eYdVumMwsyk/hqdefault.jpg",
+      "publishedAt": "2026-10-03T09:20:37Z",
+      "live": false
+    },
+    {
+      "id": "AnFDleVxNxo",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【アニメ】はい、チーズ！！#ミリプロ #anime",
+      "thumb": "https://i.ytimg.com/vi/AnFDleVxNxo/hqdefault.jpg",
+      "publishedAt": "2026-10-03T09:00:11Z",
+      "live": false
+    },
+    {
+      "id": "oHkmplaDosw",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【歌枠】３Dの体ではじめての歌枠♫【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/oHkmplaDosw/hqdefault_live.jpg",
+      "publishedAt": "2026-10-03T05:26:30Z",
+      "live": false
+    },
     {
       "id": "LCoON5HWckw",
       "memberId": "rei",
@@ -361,36 +400,6 @@
       "title": "【最後までわかったら超ガチ勢!?】テト曲ファンテスト歌ってみた！【海琳あおい/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/5-s7jAMKZSY/hqdefault.jpg",
       "publishedAt": "2026-09-28T09:01:22Z",
-      "live": false
-    },
-    {
-      "id": "oD7TWCU-qoo",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "【わちゃごな】こまのオリ曲歌ってみた☁【眠雲ツクリ/ミリプロ】 #vtuber #わちゃごな",
-      "thumb": "https://i.ytimg.com/vi/oD7TWCU-qoo/hqdefault.jpg",
-      "publishedAt": "2026-09-28T09:00:17Z",
-      "live": false
-    },
-    {
-      "id": "DaZDk_nTY-Y",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】バレずに顔を出せ！息継ぎが必要なかくれんぼ！",
-      "thumb": "https://i.ytimg.com/vi/DaZDk_nTY-Y/hqdefault.jpg",
-      "publishedAt": "2026-09-28T09:00:08Z",
-      "live": false
-    },
-    {
-      "id": "vUEQrpry9E4",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 おうち3D 】ぷち振り返り＆おためしおうち3D【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/vUEQrpry9E4/hqdefault.jpg",
-      "publishedAt": "2026-09-27T23:46:26Z",
       "live": false
     }
   ],
