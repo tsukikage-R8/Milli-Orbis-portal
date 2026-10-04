@@ -195,13 +195,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/80/66/c0/8066c0aa-bf56-4e5e-4689-1c5f82a3cfbd/4570063063978.jpg/600x600bb.jpg"
     },
     "点描の唄mrs.greenapple": {
-      "title": "点描の唄",
-      "artist": "石崎ひゅーい",
-      "album": "night milk",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/77/9c/8e779cb1-6db7-e22b-5eda-aa827cb48e38/4547366719338.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Pointillist song"
-      }
+      "title": "点描の唄 (ソロ ver.)",
+      "artist": "井上苑子",
+      "album": "白と色イロ",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/19/82/19/1982195c-c0fa-5343-c4cd-5b42dfacdc94/19UMGIM30530.rgb.jpg/600x600bb.jpg"
     },
     "花女花譜": {
       "title": "花女",
@@ -264,13 +261,10 @@ window.SONG_MASTER = {
       }
     },
     "おやすみ泣き声、さよなら姫": {
-      "title": "愛の標識",
+      "title": "大丈夫",
       "artist": "クリープハイプ",
-      "album": "死ぬまで一生愛されてると思ってたよ",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5e/20/07/5e200773-e433-51b4-4aca-4701a4ab08d9/VICL-63865.jpg/600x600bb.jpg",
-      "en": {
-        "title": "love sign"
-      }
+      "album": "一つになれないなら、せめて二つだけでいよう",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/5c/d0/a3/5cd0a395-ee23-517a-521c-3c2d219a7df9/00600406547224.rgb.jpg/600x600bb.jpg"
     },
     "愛言葉ⅳ": {
       "title": "愛言葉Ⅳ",
@@ -555,10 +549,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/f9/f1/e0f9f1f3-a088-b28d-6760-a28accabc705/4547366775181.jpg/600x600bb.jpg"
     },
     "-error-niki": {
-      "title": "-ERROR (feat. Kradness)",
-      "artist": "niki",
-      "album": "KRAD MATRiX",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/36/9e/2e/369e2e3a-b602-54e5-bd4a-8f4342e18a63/QWCE_00425_itunes.png/600x600bb.jpg"
+      "title": "ERROR",
+      "artist": "niki & リリィ",
+      "album": "ERROR",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b5/a1/da/b5a1da2c-b4f4-993b-29bd-c9b5d4d8db08/4511820-95893.jpg/600x600bb.jpg"
     },
     "チェリポップ": {
       "title": "チェリーポップ",
@@ -1199,8 +1193,8 @@ window.SONG_MASTER = {
     "春を告げるacoustic.": {
       "title": "ゆめうつつ - Daydream",
       "artist": "米津玄師",
-      "album": "Pale Blue - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7b/8f/5e/7b8f5e3b-17f0-4b0c-8c80-c4491a5991a7/4547366515183.jpg/600x600bb.jpg"
+      "album": "LOST CORNER",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/b2/13/3eb21367-be26-2634-d90f-bc8182d3d0b2/4547366699760.jpg/600x600bb.jpg"
     },
     "妄想感傷代償連盟acoustic.": {
       "title": "妄想感傷代償連盟",
@@ -1224,10 +1218,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/c6/f9/e6/c6f9e687-9fd0-5e42-dea9-e99f47389896/KRHS-37260_Pfeat_GloriousWo.jpg/600x600bb.jpg"
     },
     "チェリポップ.": {
-      "title": "365日",
-      "artist": "Mr.Children",
-      "album": "Mr.Children 2005 - 2010 <macro>",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/f5/31/e2f531ef-3d22-44f2-2f3c-7170725eec29/dj.mxqqwpdb.jpg/600x600bb.jpg"
+      "title": "メランコリーキッチン",
+      "artist": "米津玄師",
+      "album": "YANKEE",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg"
     },
     "glowacoustic.": {
       "title": "春に落ちて",
@@ -1542,10 +1536,13 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "シャッター",
+      "title": "かくれんぼ",
       "artist": "優里",
-      "album": "シャッター - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/5c/ff/ac5cff5d-de3e-8cdc-f8de-95965a9fc894/4547366520002.jpg/600x600bb.jpg"
+      "album": "かくれんぼ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/be/53/46/be534605-c062-2cea-0e91-137f517a1e42/079175_J.jpg/600x600bb.jpg",
+      "en": {
+        "title": "hide and seek"
+      }
     },
     "メルティランドナイトメア": {
       "title": "メルティランドナイトメア",
@@ -1971,13 +1968,10 @@ window.SONG_MASTER = {
       }
     },
     "恋のメガラバ": {
-      "title": "恋のメガラバ (feat. TAKANOR & Cobalt)",
-      "artist": "Hommarju",
-      "album": "ウマウマできるトランスを作ってみた6~どうしてこうなった!~",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/f9/2a/66/f92a6671-87e7-8db1-89df-c86ff3ddec85/QWCE_00123_itunes.png/600x600bb.jpg",
-      "en": {
-        "title": "Mega Love of Love (feat. TAKANOR & Cobalt)"
-      }
+      "title": "恋のメガラバ (Cover)",
+      "artist": "ノートンビート",
+      "album": "恋のメガラバ (Cover) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/01/8c/ff/018cff56-966e-44ec-3cc2-e7405195fe7a/4550714572035_cover.png/600x600bb.jpg"
     },
     "栞": {
       "title": "栞",
