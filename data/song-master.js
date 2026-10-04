@@ -195,10 +195,13 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/80/66/c0/8066c0aa-bf56-4e5e-4689-1c5f82a3cfbd/4570063063978.jpg/600x600bb.jpg"
     },
     "点描の唄mrs.greenapple": {
-      "title": "点描の唄 (feat. 井上苑子)",
-      "artist": "Mrs. GREEN APPLE",
-      "album": "青と夏 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/34/27/08/3427087f-2d39-4847-9b19-052dd3589014/18UMGIM36633.rgb.jpg/600x600bb.jpg"
+      "title": "点描の唄",
+      "artist": "石崎ひゅーい",
+      "album": "night milk",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/77/9c/8e779cb1-6db7-e22b-5eda-aa827cb48e38/4547366719338.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Pointillist song"
+      }
     },
     "花女花譜": {
       "title": "花女",
@@ -564,10 +567,13 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "メロリ",
-      "artist": "Hey! Say! JUMP",
-      "album": "S say",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/ca/56/a8ca56fa-2106-4056-1ffa-dc4a0fa0af2e/4517331098560.jpg/600x600bb.jpg"
+      "title": "いい感じ",
+      "artist": "ケツメイシ",
+      "album": "KETSUNOPOLIS 10",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Feels good"
+      }
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -1020,13 +1026,10 @@ window.SONG_MASTER = {
       }
     },
     "マシャルマキシマイザ": {
-      "title": "マーシャル・マキシマイザー",
-      "artist": "和楽器バンド",
-      "album": "ボカロ三昧2",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/94/55/17/945517eb-0a00-26fc-39c3-105f68516291/22UMGIM81445.rgb.jpg/600x600bb.jpg",
-      "en": {
-        "title": "marshall maximizer"
-      }
+      "title": "マーシャル・マキシマイザー (feat. 可不)",
+      "artist": "柊マグネタイト",
+      "album": "KAF+YOU KAFU COMPILATION ALBUM シンメトリー",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6a/25/39/6a2539f1-882e-9822-3876-14ec354ca6e6/ANTCD-46511.jpg/600x600bb.jpg"
     },
     "祝福": {
       "title": "祝福",
@@ -1196,8 +1199,8 @@ window.SONG_MASTER = {
     "春を告げるacoustic.": {
       "title": "ゆめうつつ - Daydream",
       "artist": "米津玄師",
-      "album": "LOST CORNER",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/b2/13/3eb21367-be26-2634-d90f-bc8182d3d0b2/4547366699760.jpg/600x600bb.jpg"
+      "album": "Pale Blue - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7b/8f/5e/7b8f5e3b-17f0-4b0c-8c80-c4491a5991a7/4547366515183.jpg/600x600bb.jpg"
     },
     "妄想感傷代償連盟acoustic.": {
       "title": "妄想感傷代償連盟",
@@ -1350,10 +1353,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/81/36/af/8136afa9-cf94-f4d5-8460-9510c8f6e99f/PA00077485_0_180113_jacket.jpg/600x600bb.jpg"
     },
     "僕が死のうと思ったのは.": {
-      "title": "Lemon",
+      "title": "IRIS OUT",
       "artist": "米津玄師",
-      "album": "STRAY SHEEP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6b/0f/0b/6b0f0b3d-e842-5ee1-83a8-1b12142a9dfd/dj.bpfbtyiy.jpg/600x600bb.jpg"
+      "album": "IRIS OUT - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/f9/f1/e0f9f1f3-a088-b28d-6760-a28accabc705/4547366775181.jpg/600x600bb.jpg"
     },
     "無理に笑わなくて良いよ.": {
       "title": "ハロ/ハワユ",
@@ -1785,10 +1788,13 @@ window.SONG_MASTER = {
       }
     },
     "すぱなちゃっと読み": {
-      "title": "かわいいさがしてくれますか?",
-      "artist": "CUTIE STREET",
-      "album": "かわいいさがしてくれますか? / きゅーすとのうた - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d1/69/1f/d1691f30-ba88-fd0f-2b68-afc85832bf94/199538602296.jpg/600x600bb.jpg"
+      "title": "愛してみてよ減るもんじゃないし",
+      "artist": "ねぐせ。",
+      "album": "愛してみてよ減るもんじゃないし - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/70/6c/d9/706cd9d0-5c42-0b18-c42a-f11647046025/197188388706.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Try to love me, it won't diminish"
+      }
     },
     "狂乱heykids!!": {
       "title": "狂乱 Hey Kids!!",
