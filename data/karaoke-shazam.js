@@ -13,15 +13,15 @@ window.KARAOKE_SHAZAM = {
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "R7rxlZ7VRWc": {
-    "status": "error",
-    "attempts": 4,
-    "attemptedAt": "2026-10-03T23:32:31.780713+00:00",
+    "status": "skip",
+    "attempts": 5,
+    "attemptedAt": "2026-10-04T23:51:15.211862+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "BaTCxD0c_q0": {
-    "status": "skip",
-    "attempts": 5,
-    "attemptedAt": "2026-09-24T16:35:17.427490+00:00",
+    "status": "error",
+    "attempts": 1,
+    "attemptedAt": "2026-10-04T23:51:23.677183+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "ghXTTcqN6Ok": {
@@ -134,8 +134,8 @@ window.KARAOKE_SHAZAM = {
   },
   "lkHVqtUjrac": {
     "status": "error",
-    "attempts": 3,
-    "attemptedAt": "2026-10-04T23:09:51.684449+00:00",
+    "attempts": 4,
+    "attemptedAt": "2026-10-04T23:51:06.636070+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "zXhjrkBhLSs": {
