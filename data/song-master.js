@@ -195,10 +195,13 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/80/66/c0/8066c0aa-bf56-4e5e-4689-1c5f82a3cfbd/4570063063978.jpg/600x600bb.jpg"
     },
     "点描の唄mrs.greenapple": {
-      "title": "点描の唄 (ソロ ver.)",
-      "artist": "井上苑子",
-      "album": "白と色イロ",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/19/82/19/1982195c-c0fa-5343-c4cd-5b42dfacdc94/19UMGIM30530.rgb.jpg/600x600bb.jpg"
+      "title": "点描の唄",
+      "artist": "石崎ひゅーい",
+      "album": "night milk",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/77/9c/8e779cb1-6db7-e22b-5eda-aa827cb48e38/4547366719338.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Pointillist song"
+      }
     },
     "花女花譜": {
       "title": "花女",
@@ -261,10 +264,13 @@ window.SONG_MASTER = {
       }
     },
     "おやすみ泣き声、さよなら姫": {
-      "title": "大丈夫",
+      "title": "愛の標識",
       "artist": "クリープハイプ",
-      "album": "一つになれないなら、せめて二つだけでいよう",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/5c/d0/a3/5cd0a395-ee23-517a-521c-3c2d219a7df9/00600406547224.rgb.jpg/600x600bb.jpg"
+      "album": "死ぬまで一生愛されてると思ってたよ",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5e/20/07/5e200773-e433-51b4-4aca-4701a4ab08d9/VICL-63865.jpg/600x600bb.jpg",
+      "en": {
+        "title": "love sign"
+      }
     },
     "愛言葉ⅳ": {
       "title": "愛言葉Ⅳ",
@@ -1020,10 +1026,13 @@ window.SONG_MASTER = {
       }
     },
     "マシャルマキシマイザ": {
-      "title": "マーシャル・マキシマイザー (feat. 可不)",
-      "artist": "柊マグネタイト",
-      "album": "KAF+YOU KAFU COMPILATION ALBUM シンメトリー",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6a/25/39/6a2539f1-882e-9822-3876-14ec354ca6e6/ANTCD-46511.jpg/600x600bb.jpg"
+      "title": "マーシャル・マキシマイザー",
+      "artist": "吉乃",
+      "album": "PALETTE5",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a1/92/22/a1922258-5ccd-edba-3fdb-67721181c362/PCSP_03942.jpg/600x600bb.jpg",
+      "en": {
+        "title": "marshall maximizer"
+      }
     },
     "祝福": {
       "title": "祝福",
@@ -1137,13 +1146,10 @@ window.SONG_MASTER = {
       }
     },
     "絶対敵対メチャキライヤ": {
-      "title": "絶対敵対メチャキライヤー",
-      "artist": "メドミア",
-      "album": "絶対敵対メチャキライヤー - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/3d/1f/56/3d1f568c-b444-f685-ebee-bab077d1f558/859758145125_cover.png/600x600bb.jpg",
-      "en": {
-        "title": "Absolutely hostile Mechakilier"
-      }
+      "title": "絶対敵対メチャキライヤー covered by RUNA",
+      "artist": "Imgramox Music & RUNA",
+      "album": "絶対敵対メチャキライヤー covered by RUNA - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b3/cc/90/b3cc9055-9c02-f813-b53b-96b9f72b8aae/cover.jpg/600x600bb.jpg"
     },
     "私のこと好きでしょ？": {
       "title": "私のこと好きでしょ?",
@@ -1203,12 +1209,12 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/39/41/89/394189a4-f84a-0384-ac8b-35020bc218da/GHOST_shokai_Jacket3000.jpg/600x600bb.jpg"
     },
     "アイロニacoustic.": {
-      "title": "クライヤ",
+      "title": "ハロ/ハワユ",
       "artist": "鹿乃",
-      "album": "クライヤ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/d0/ed/11/d0ed111f-596d-4e42-d654-47c51f37bbb6/4571192987258.jpg/600x600bb.jpg",
+      "album": "rye",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f5/33/c3/f533c341-433a-b4e1-2c61-18cd3c9e15a2/cover.jpg/600x600bb.jpg",
       "en": {
-        "title": "Cryer"
+        "title": "halo/hawayu"
       }
     },
     "心拍数#0822acoustic.": {
@@ -1329,10 +1335,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ab/ab/9b/abab9b3b-41cd-a0c0-29c0-6a1464501c0b/4547366306514.jpg/600x600bb.jpg"
     },
     "ちゅ、多様性。": {
-      "title": "MAD HEAD LOVE",
-      "artist": "米津玄師",
-      "album": "YANKEE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg"
+      "title": "願い〜あの頃のキミへ〜",
+      "artist": "當山 みれい",
+      "album": "願い E.P.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/55/8b/98/558b9848-812d-6adc-5262-faf7a275c623/jacket_SRXX02373B00Z_550.jpg/600x600bb.jpg"
     },
     "trustonme-themeofe.t.e": {
       "title": "Trust On Me -Theme of E.T.E- (feat. MARiA) [Instrumental]",
@@ -1452,10 +1458,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/67/8f/cd/678fcd20-21ad-4f96-eecf-ef85d489b4c0/4511820-95411.jpg/600x600bb.jpg"
     },
     "sakuraいきものがかりacousticarrange": {
-      "title": "Give me a brains",
-      "artist": "RAXISS",
-      "album": "俺の城 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/fb/75/aefb756e-7db7-80fa-9a0d-e161bdc4505d/bigup14157593.jpg/600x600bb.jpg"
+      "title": "Es (feat. 初音ミク)",
+      "artist": "PALZ",
+      "album": "Es (feat. 初音ミク) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d7/b0/32/d7b0320a-2222-d541-d57c-a5b16ea87705/4550757724903_cover.png/600x600bb.jpg"
     },
     "どりみんチュチュdreaminchuchu.": {
       "title": "どりーみんチュチュ",
@@ -1536,13 +1542,10 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "かくれんぼ",
-      "artist": "優里",
-      "album": "かくれんぼ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/be/53/46/be534605-c062-2cea-0e91-137f517a1e42/079175_J.jpg/600x600bb.jpg",
-      "en": {
-        "title": "hide and seek"
-      }
+      "title": "一花依世界",
+      "artist": "洛天依",
+      "album": "依如初見",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ac/b0/68/acb06846-0c4f-d0f7-801c-678b0e37efd0/193017072921.jpg/600x600bb.jpg"
     },
     "メルティランドナイトメア": {
       "title": "メルティランドナイトメア",
@@ -1968,10 +1971,13 @@ window.SONG_MASTER = {
       }
     },
     "恋のメガラバ": {
-      "title": "恋のメガラバ (Cover)",
-      "artist": "ノートンビート",
-      "album": "恋のメガラバ (Cover) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/01/8c/ff/018cff56-966e-44ec-3cc2-e7405195fe7a/4550714572035_cover.png/600x600bb.jpg"
+      "title": "恋のメガラバ (feat. TAKANOR & Cobalt)",
+      "artist": "Hommarju",
+      "album": "ウマウマできるトランスを作ってみた6~どうしてこうなった!~",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/f9/2a/66/f92a6671-87e7-8db1-89df-c86ff3ddec85/QWCE_00123_itunes.png/600x600bb.jpg",
+      "en": {
+        "title": "Mega Love of Love (feat. TAKANOR & Cobalt)"
+      }
     },
     "栞": {
       "title": "栞",
