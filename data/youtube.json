@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T01:00:15.814Z",
+  "updatedAt": "2026-10-06T10:50:37.661Z",
   "streams": [
     {
       "id": "hPVQ7VRgBv0",
@@ -7,8 +7,8 @@
       "member": "音ノ瀬らこ",
       "title": "【歌枠】なにやらプレミア公開があるようで【音ノ瀬らこ /ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/hPVQ7VRgBv0/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-06T09:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-10-06T09:01:56Z",
+      "status": "live"
     },
     {
       "id": "NBbE-zXEEmo",
@@ -109,7 +109,27 @@
       "channelTitle": "音ノ瀬らこ / Otonose Raco",
       "title": "【歌枠】なにやらプレミア公開があるようで【音ノ瀬らこ /ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/hPVQ7VRgBv0/hqdefault_live.jpg",
-      "publishedAt": "2026-10-05T19:23:16Z",
+      "publishedAt": "2026-10-06T09:01:56Z",
+      "live": false
+    },
+    {
+      "id": "PsuRUBkf_A4",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【アニメ】プロトディスコ #ミリプロ #anime",
+      "thumb": "https://i.ytimg.com/vi/PsuRUBkf_A4/hqdefault.jpg",
+      "publishedAt": "2026-10-06T09:00:12Z",
+      "live": false
+    },
+    {
+      "id": "dWPORdi8zUw",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "動く絵になるまで🏃‍♀️#shorts #animation #illustration",
+      "thumb": "https://i.ytimg.com/vi/dWPORdi8zUw/hqdefault.jpg",
+      "publishedAt": "2026-10-06T09:00:03Z",
       "live": false
     },
     {
@@ -303,16 +323,6 @@
       "live": true
     },
     {
-      "id": "1RD7edfyfYs",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】バレずに顔を出せ！息継ぎが必要なかくれんぼ！",
-      "thumb": "https://i.ytimg.com/vi/1RD7edfyfYs/hqdefault.jpg",
-      "publishedAt": "2026-10-02T09:00:30Z",
-      "live": false
-    },
-    {
       "id": "oI0TjxQUEjs",
       "memberId": "rei",
       "member": "夕霧レイ",
@@ -391,17 +401,17 @@
       "thumb": "https://i.ytimg.com/vi/rn5EKqLrLU4/hqdefault.jpg",
       "publishedAt": "2026-09-30T13:37:37Z",
       "live": true
-    },
-    {
-      "id": "yTSgzaHn1N8",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【わちゃごな】小廻こまのオリ曲歌ってみた🌂【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/yTSgzaHn1N8/hqdefault.jpg",
-      "publishedAt": "2026-09-30T09:00:10Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "hPVQ7VRgBv0",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "title": "【歌枠】なにやらプレミア公開があるようで【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/hPVQ7VRgBv0/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-06T09:01:56Z",
+      "status": "live"
+    }
+  ]
 }
