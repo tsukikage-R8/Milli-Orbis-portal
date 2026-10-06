@@ -1133,6 +1133,12 @@ window.SONG_MASTER = {
         "title": "A faint flower"
       }
     },
+    "henceforth": {
+      "title": "Henceforth",
+      "artist": "Orangestar",
+      "album": "And So Henceforth,",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5c/53/e7/5c53e7bb-43b4-8b85-af49-cb603ceb03df/PCCA_06218_A.jpg/600x600bb.jpg"
+    },
     "恋するフォチュンクッキ＆あつまる＆ぴこぴこぐらむ＆ほし": {
       "title": "恋するフォーチュンクッキー",
       "artist": "AKB48",

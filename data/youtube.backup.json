@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-10-06T10:50:37.661Z",
+  "updatedAt": "2026-10-06T17:29:04.389Z",
   "streams": [
-    {
-      "id": "hPVQ7VRgBv0",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【歌枠】なにやらプレミア公開があるようで【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/hPVQ7VRgBv0/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-06T09:01:56Z",
-      "status": "live"
-    },
     {
       "id": "NBbE-zXEEmo",
       "memberId": "koma",
@@ -99,6 +90,15 @@
       "thumb": "https://i.ytimg.com/vi/FQUAaVHIEEo/hqdefault_live.jpg",
       "scheduledStartTime": "2027-01-31T14:59:00Z",
       "status": "upcoming"
+    },
+    {
+      "id": "OCDhtDgFVUU",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "title": "⋆⸜  イオン限定！『ミリプロ』オリジナルグッズが販売中👑  ⸝⋆",
+      "thumb": "https://i.ytimg.com/vi/OCDhtDgFVUU/hqdefault_live.jpg",
+      "scheduledStartTime": "2027-02-03T14:30:00Z",
+      "status": "upcoming"
     }
   ],
   "videos": [
@@ -108,8 +108,18 @@
       "member": "音ノ瀬らこ",
       "channelTitle": "音ノ瀬らこ / Otonose Raco",
       "title": "【歌枠】なにやらプレミア公開があるようで【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/hPVQ7VRgBv0/hqdefault_live.jpg",
-      "publishedAt": "2026-10-06T09:01:56Z",
+      "thumb": "https://i.ytimg.com/vi/hPVQ7VRgBv0/hqdefault.jpg",
+      "publishedAt": "2026-10-06T11:08:39Z",
+      "live": false
+    },
+    {
+      "id": "qQGJV431vVI",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "Henceforth / 音ノ瀬らこ (cover)",
+      "thumb": "https://i.ytimg.com/vi/qQGJV431vVI/hqdefault.jpg",
+      "publishedAt": "2026-10-06T11:00:08Z",
       "live": false
     },
     {
@@ -391,27 +401,7 @@
       "thumb": "https://i.ytimg.com/vi/geTeaF60R4o/hqdefault.jpg",
       "publishedAt": "2026-10-01T01:02:10Z",
       "live": true
-    },
-    {
-      "id": "rn5EKqLrLU4",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Wardogs】雑談しながらわんわんしましょꕤ•ᴗ•ಣ【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/rn5EKqLrLU4/hqdefault.jpg",
-      "publishedAt": "2026-09-30T13:37:37Z",
-      "live": true
     }
   ],
-  "live": [
-    {
-      "id": "hPVQ7VRgBv0",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【歌枠】なにやらプレミア公開があるようで【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/hPVQ7VRgBv0/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-06T09:01:56Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
