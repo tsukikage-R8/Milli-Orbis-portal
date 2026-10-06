@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-10-05",
+  "generatedAt": "2026-10-06",
   "songs": {
     "デビットビット": {
       "title": "デビットビット",
@@ -40,9 +40,9 @@ window.SONG_MASTER = {
     },
     "surges＆": {
       "title": "Surges",
-      "artist": "m",
-      "album": "Surges - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/8d/1b/d38d1baf-7312-ee15-f952-8fc668c7a9a3/4562424562909.jpg/600x600bb.jpg"
+      "artist": "96猫 & 天月-あまつき-",
+      "album": "WALK(初回盤)",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/b6/64/a1b6641b-96d5-d90d-0eff-8f8d97ed9241/PA00221348_1_252926_jacket.jpg/600x600bb.jpg"
     },
     "iii": {
       "title": "I I I",
@@ -534,10 +534,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "蝶々結び",
+      "title": "地球儀 (with Vaundy)",
       "artist": "Aimer",
-      "album": "蝶々結び - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg"
+      "album": "Walpurgis",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/54/af/b2/54afb286-3614-f2c8-e633-2831bd2fd76b/4547366491647.jpg/600x600bb.jpg"
     },
     "だから僕は音楽を辞めた": {
       "title": "だから僕は音楽を辞めた",
@@ -555,10 +555,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/f9/f1/e0f9f1f3-a088-b28d-6760-a28accabc705/4547366775181.jpg/600x600bb.jpg"
     },
     "-error-niki": {
-      "title": "ERROR",
-      "artist": "niki & リリィ",
-      "album": "ERROR",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b5/a1/da/b5a1da2c-b4f4-993b-29bd-c9b5d4d8db08/4511820-95893.jpg/600x600bb.jpg"
+      "title": "-ERROR (feat. Kradness)",
+      "artist": "niki",
+      "album": "KRAD MATRiX",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/36/9e/2e/369e2e3a-b602-54e5-bd4a-8f4342e18a63/QWCE_00425_itunes.png/600x600bb.jpg"
     },
     "チェリポップ": {
       "title": "チェリーポップ",
@@ -1199,8 +1199,8 @@ window.SONG_MASTER = {
     "春を告げるacoustic.": {
       "title": "ゆめうつつ - Daydream",
       "artist": "米津玄師",
-      "album": "LOST CORNER",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/b2/13/3eb21367-be26-2634-d90f-bc8182d3d0b2/4547366699760.jpg/600x600bb.jpg"
+      "album": "Pale Blue - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7b/8f/5e/7b8f5e3b-17f0-4b0c-8c80-c4491a5991a7/4547366515183.jpg/600x600bb.jpg"
     },
     "妄想感傷代償連盟acoustic.": {
       "title": "妄想感傷代償連盟",
@@ -1209,12 +1209,12 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/39/41/89/394189a4-f84a-0384-ac8b-35020bc218da/GHOST_shokai_Jacket3000.jpg/600x600bb.jpg"
     },
     "アイロニacoustic.": {
-      "title": "ハロ/ハワユ",
+      "title": "クライヤ",
       "artist": "鹿乃",
-      "album": "rye",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f5/33/c3/f533c341-433a-b4e1-2c61-18cd3c9e15a2/cover.jpg/600x600bb.jpg",
+      "album": "クライヤ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/d0/ed/11/d0ed111f-596d-4e42-d654-47c51f37bbb6/4571192987258.jpg/600x600bb.jpg",
       "en": {
-        "title": "halo/hawayu"
+        "title": "Cryer"
       }
     },
     "心拍数#0822acoustic.": {
@@ -1341,7 +1341,7 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/55/8b/98/558b9848-812d-6adc-5262-faf7a275c623/jacket_SRXX02373B00Z_550.jpg/600x600bb.jpg"
     },
     "trustonme-themeofe.t.e": {
-      "title": "Trust On Me -Theme of E.T.E- (feat. MARiA) [Instrumental]",
+      "title": "Trust On Me -Theme of E.T.E- (feat. MARiA)",
       "artist": "小室哲哉",
       "album": "Trust On Me -Theme of E.T.E- (feat. MARiA) - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d6/db/f6/d6dbf678-2d9d-0d39-22a9-f2e60809f800/PCSP_04640_A.jpg/600x600bb.jpg"
@@ -1542,10 +1542,10 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "一花依世界",
-      "artist": "洛天依",
-      "album": "依如初見",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ac/b0/68/acb06846-0c4f-d0f7-801c-678b0e37efd0/193017072921.jpg/600x600bb.jpg"
+      "title": "シャッター",
+      "artist": "優里",
+      "album": "シャッター - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/5c/ff/ac5cff5d-de3e-8cdc-f8de-95965a9fc894/4547366520002.jpg/600x600bb.jpg"
     },
     "メルティランドナイトメア": {
       "title": "メルティランドナイトメア",
