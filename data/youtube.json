@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-10-07T10:37:43.093Z",
+  "updatedAt": "2026-10-07T18:01:22.274Z",
   "streams": [
-    {
-      "id": "NBbE-zXEEmo",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 Pratfall 】なんか強そうなメンツでここ掘れわんわん！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/NBbE-zXEEmo/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-07T11:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "mABBk-9aZbw",
       "memberId": "nono",
@@ -102,6 +93,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "NBbE-zXEEmo",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 Pratfall 】なんか強そうなメンツでここ掘れわんわん！【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/NBbE-zXEEmo/hqdefault.jpg",
+      "publishedAt": "2026-10-07T14:24:45Z",
+      "live": false
+    },
     {
       "id": "R30RxQnLTcI",
       "memberId": "aoi",
@@ -200,16 +201,6 @@
       "title": "【 スト6 】初心者ですが台パンは出ます ⟡.· 【 夕霧レイ/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/gurvRZQLswc/hqdefault.jpg",
       "publishedAt": "2026-10-05T14:31:50Z",
-      "live": false
-    },
-    {
-      "id": "NBbE-zXEEmo",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 Pratfall 】なんか強そうなメンツでここ掘れわんわん！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/NBbE-zXEEmo/hqdefault_live.jpg",
-      "publishedAt": "2026-10-05T11:55:58Z",
       "live": false
     },
     {
