@@ -20,8 +20,8 @@ window.KARAOKE_SHAZAM = {
   },
   "BaTCxD0c_q0": {
     "status": "error",
-    "attempts": 3,
-    "attemptedAt": "2026-10-05T11:30:45.069295+00:00",
+    "attempts": 4,
+    "attemptedAt": "2026-10-07T00:23:39.808811+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "ghXTTcqN6Ok": {
@@ -176,8 +176,8 @@ window.KARAOKE_SHAZAM = {
   },
   "vC2X2gKIKHs": {
     "status": "error",
-    "attempts": 2,
-    "attemptedAt": "2026-10-06T23:59:29.574006+00:00",
+    "attempts": 3,
+    "attemptedAt": "2026-10-07T00:23:29.782995+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "0-enLp-IzGc": {
@@ -349,9 +349,9 @@ window.KARAOKE_SHAZAM = {
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "4wgmPPZhNGM": {
-    "status": "skip",
-    "attempts": 5,
-    "attemptedAt": "2026-09-30T00:05:17.571877+00:00",
+    "status": "error",
+    "attempts": 1,
+    "attemptedAt": "2026-10-07T00:23:19.428069+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "pytWeCL4-v8": {
