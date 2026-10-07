@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T02:54:55.339Z",
+  "updatedAt": "2026-10-07T10:37:43.093Z",
   "streams": [
     {
       "id": "NBbE-zXEEmo",
@@ -102,6 +102,46 @@
     }
   ],
   "videos": [
+    {
+      "id": "R30RxQnLTcI",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【ついにモデル公開！】アスノヨゾラ哨戒班 歌ってみた 【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/R30RxQnLTcI/hqdefault.jpg",
+      "publishedAt": "2026-10-07T09:01:09Z",
+      "live": false
+    },
+    {
+      "id": "OxRpWSk8Z_U",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "『ルミナス』歌ってみた！【眠雲ツクリ/ミリプロ】#VTuber #ルミナス  #歌ってみた",
+      "thumb": "https://i.ytimg.com/vi/OxRpWSk8Z_U/hqdefault.jpg",
+      "publishedAt": "2026-10-07T09:00:39Z",
+      "live": false
+    },
+    {
+      "id": "4n8OEoavIj8",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】絶対に間違った答えを言え！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/4n8OEoavIj8/hqdefault.jpg",
+      "publishedAt": "2026-10-07T09:00:33Z",
+      "live": false
+    },
+    {
+      "id": "DYIMeD8TX_Y",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "一人二役で『トイレイキタイ』歌ってみた【夕霧レイ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/DYIMeD8TX_Y/hqdefault.jpg",
+      "publishedAt": "2026-10-07T09:00:06Z",
+      "live": false
+    },
     {
       "id": "hPVQ7VRgBv0",
       "memberId": "raco",
@@ -283,16 +323,6 @@
       "live": false
     },
     {
-      "id": "AnFDleVxNxo",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【アニメ】はい、チーズ！！#ミリプロ #anime",
-      "thumb": "https://i.ytimg.com/vi/AnFDleVxNxo/hqdefault.jpg",
-      "publishedAt": "2026-10-03T09:00:11Z",
-      "live": false
-    },
-    {
       "id": "LCoON5HWckw",
       "memberId": "rei",
       "member": "夕霧レイ",
@@ -333,16 +363,6 @@
       "live": true
     },
     {
-      "id": "oI0TjxQUEjs",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 VALORANT 】まほろさんと今話題のFPSをプレイしてみる！ ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/oI0TjxQUEjs/hqdefault.jpg",
-      "publishedAt": "2026-10-01T15:44:40Z",
-      "live": false
-    },
-    {
       "id": "kpRiqzzWHtY",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
@@ -381,26 +401,6 @@
       "thumb": "https://i.ytimg.com/vi/mbjEZttNGBU/hqdefault.jpg",
       "publishedAt": "2026-10-01T09:01:26Z",
       "live": false
-    },
-    {
-      "id": "DJiN3wJo7UU",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "\"POP/STARS\" 歌ってみた！┊︎#音ノ乃のの #popstar #kda #psyqui #shorts #lol #leagueoflegends",
-      "thumb": "https://i.ytimg.com/vi/DJiN3wJo7UU/hqdefault.jpg",
-      "publishedAt": "2026-10-01T09:00:08Z",
-      "live": false
-    },
-    {
-      "id": "geTeaF60R4o",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【雑談】３Dお披露目をみんなで振り返るぞーーー！！【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/geTeaF60R4o/hqdefault.jpg",
-      "publishedAt": "2026-10-01T01:02:10Z",
-      "live": true
     }
   ],
   "live": []
