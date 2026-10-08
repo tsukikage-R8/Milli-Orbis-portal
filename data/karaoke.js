@@ -8,7 +8,7 @@ window.KARAOKE = [
     "duration": 7184,
     "songs": [],
     "en": {
-      "title": "[Song frame] Looks like there will be a premiere release [Rako Otonose / MilliPro]"
+      "title": "[Song frame] It seems like there will be a premiere release [Rako Otonose / MilliPro]"
     }
   },
   {
@@ -63,7 +63,7 @@ window.KARAOKE = [
     "duration": 6892,
     "songs": [],
     "en": {
-      "title": "[Song frame] Super hot announcement! Sing Nyo ⟡.· [Rei Yugiri/MilliPro]"
+      "title": "[Song frame] Super hot announcement! Singing ⟡.· [Rei Yugiri/MilliPro]"
     }
   },
   {
@@ -217,7 +217,7 @@ window.KARAOKE = [
     "duration": 10428,
     "songs": [],
     "en": {
-      "title": "[Song Frame] Completely released for singing with 6000 high ratings! 🔥Information lifted durability [Yuragiyura/Millipro]"
+      "title": "[Song Frame] Completely released for singing with 6000 high ratings! 🔥Information lifted durability [Yuragiyura/MilliPro]"
     }
   },
   {
@@ -239,7 +239,7 @@ window.KARAOKE = [
     "duration": 7532,
     "songs": [],
     "en": {
-      "title": "[Song frame] Changed to song frame after recovering from illness ┊︎ #Otononono #Nononya"
+      "title": "[Song frame] Changed to song frame after recovery┊︎#Otononono#Nononya"
     }
   },
   {
@@ -294,7 +294,7 @@ window.KARAOKE = [
     "duration": 8418,
     "songs": [],
     "en": {
-      "title": "[Song Chat] A jumble of people who want to sing and chat [Nemugumo Tsukuri / MilliPro]"
+      "title": "[Song chat] A jumble of people who want to sing and chat [Nemugumo Tsukuri / MilliPro]"
     }
   },
   {

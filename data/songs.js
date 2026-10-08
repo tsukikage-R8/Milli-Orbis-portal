@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-songs.js（変更しないでください） */
 window.SONGS = {
-  "generatedAt": "2026-10-07",
+  "generatedAt": "2026-10-08",
   "official": [
     {
       "id": "MG3I1rUs5v8",
@@ -720,7 +720,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Feeling great↑↑/Komawarikoma × Nemugumo Tsukuri × Ameya Riz (cover)"
+        "title": "Feeling great↑↑／Komawarikoma × Nemugumo Tsukuri × Ameya Liz (cover)"
       }
     },
     {
@@ -765,7 +765,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Femme Fatale/Komawarikoma × Nemugumo Tsukuri × Ameya Liz (cover)"
+        "title": "Femme Fatale／Komawarikoma × Nemugumo Tsukuri × Ameya Liz (cover)"
       }
     },
     {
@@ -3263,7 +3263,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Moe Chakka Fire (Masei) / Kano cover."
+        "title": "Moe Chukka Fire (Masei) / Kano cover."
       }
     },
     {
@@ -3749,7 +3749,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Liar is the beginning of love arrange ver. / Kano × 40mP"
+        "title": "Liar is the beginning of love arrange ver. /Kano×40mP"
       }
     },
     {
@@ -3763,7 +3763,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "I want to meet you《thinking about you》/cover Kano"
+        "title": "I want to meet you《thinking about you》/ cover Kano"
       }
     },
     {
