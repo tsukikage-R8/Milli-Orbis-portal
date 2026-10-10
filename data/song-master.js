@@ -536,8 +536,8 @@ window.SONG_MASTER = {
     "青空のラプソディ": {
       "title": "蝶々結び",
       "artist": "Aimer",
-      "album": "蝶々結び - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg"
+      "album": "daydream",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/46/4a/84/464a843d-14cc-e5e2-a9d6-763eb558e104/4547366270358.jpg/600x600bb.jpg"
     },
     "だから僕は音楽を辞めた": {
       "title": "だから僕は音楽を辞めた",
@@ -567,10 +567,13 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "メロリ",
-      "artist": "Hey! Say! JUMP",
-      "album": "S say",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/ca/56/a8ca56fa-2106-4056-1ffa-dc4a0fa0af2e/4517331098560.jpg/600x600bb.jpg"
+      "title": "いい感じ",
+      "artist": "ケツメイシ",
+      "album": "KETSUNOPOLIS 10",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Feels good"
+      }
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -1149,13 +1152,10 @@ window.SONG_MASTER = {
       }
     },
     "絶対敵対メチャキライヤ": {
-      "title": "絶対敵対メチャキライヤー",
-      "artist": "メドミア",
-      "album": "絶対敵対メチャキライヤー - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/3d/1f/56/3d1f568c-b444-f685-ebee-bab077d1f558/859758145125_cover.png/600x600bb.jpg",
-      "en": {
-        "title": "Absolutely hostile Mechakilier"
-      }
+      "title": "絶対敵対メチャキライヤー covered by RUNA",
+      "artist": "Imgramox Music & RUNA",
+      "album": "絶対敵対メチャキライヤー covered by RUNA - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b3/cc/90/b3cc9055-9c02-f813-b53b-96b9f72b8aae/cover.jpg/600x600bb.jpg"
     },
     "私のこと好きでしょ？": {
       "title": "私のこと好きでしょ?",
