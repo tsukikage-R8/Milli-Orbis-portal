@@ -265,9 +265,9 @@ window.KARAOKE_SHAZAM = {
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "UQi3DEDW90w": {
-    "status": "skip",
-    "attempts": 5,
-    "attemptedAt": "2026-10-03T03:08:28.323658+00:00",
+    "status": "error",
+    "attempts": 1,
+    "attemptedAt": "2026-10-10T09:28:42.414285+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "9uhChi7bPgY": {
@@ -296,8 +296,8 @@ window.KARAOKE_SHAZAM = {
   },
   "beMkuWTFABw": {
     "status": "error",
-    "attempts": 3,
-    "attemptedAt": "2026-10-10T03:34:04.129290+00:00",
+    "attempts": 4,
+    "attemptedAt": "2026-10-10T09:28:33.314351+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "6q9mf4_ufvI": {
@@ -386,8 +386,8 @@ window.KARAOKE_SHAZAM = {
   },
   "LCoON5HWckw": {
     "status": "error",
-    "attempts": 3,
-    "attemptedAt": "2026-10-10T03:33:55.222008+00:00",
+    "attempts": 4,
+    "attemptedAt": "2026-10-10T09:28:23.838124+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "oHkmplaDosw": {
