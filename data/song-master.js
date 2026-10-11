@@ -6,37 +6,55 @@ window.SONG_MASTER = {
       "title": "デビットビット",
       "artist": "アボガド6",
       "album": "デビットビット - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/27/c2/1e/27c21e39-4772-cc21-e142-c198ffc12312/4570216291470_Cover.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/27/c2/1e/27c21e39-4772-cc21-e142-c198ffc12312/4570216291470_Cover.jpg/600x600bb.jpg",
+      "en": {
+        "title": "debit bit"
+      }
     },
     "ラグトレイン": {
       "title": "ラグトレイン",
       "artist": "稲葉曇",
       "album": "ラグトレイン - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b4/ac/d1/b4acd1c8-b1b7-ef7b-cf6f-8516f91a59b5/088792_J.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b4/ac/d1/b4acd1c8-b1b7-ef7b-cf6f-8516f91a59b5/088792_J.jpg/600x600bb.jpg",
+      "en": {
+        "title": "rag train"
+      }
     },
     "おもかげ": {
       "title": "おもかげ",
       "artist": "KG",
       "album": "Brand New Days",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/65/df/c5/65dfc5d3-8437-3329-c876-08f64f764906/825646279241.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/65/df/c5/65dfc5d3-8437-3329-c876-08f64f764906/825646279241.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Omokage"
+      }
     },
     "高嶺の花子さん-.": {
       "title": "頭がよくなる歌",
       "artist": "あの娘はウォンバット",
       "album": "ときめいて5年 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/ce/81/e3ce819e-7d7a-df59-397f-c610ba419ae0/bigup13919836.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/ce/81/e3ce819e-7d7a-df59-397f-c610ba419ae0/bigup13919836.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Songs that make you smarter"
+      }
     },
     "ミカヅキ酸欠少女さユり": {
       "title": "ミカヅキ",
       "artist": "さユり",
       "album": "ミカヅキの航海",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7a/8c/51/7a8c519d-4042-5d06-ad23-61e7fe154781/jacket_BVCL00795B00Z_550.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7a/8c/51/7a8c519d-4042-5d06-ad23-61e7fe154781/jacket_BVCL00795B00Z_550.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Mikazuki"
+      }
     },
     "サウダジ": {
       "title": "サウダージ",
       "artist": "ポルノグラフィティ",
       "album": "サウダージ - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/78/f2/bb/78f2bb53-bef0-9ab2-6cc2-7a89af8eb2ac/jacket_SRCL04901B00Z_550.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/78/f2/bb/78f2bb53-bef0-9ab2-6cc2-7a89af8eb2ac/jacket_SRCL04901B00Z_550.jpg/600x600bb.jpg",
+      "en": {
+        "title": "saudade"
+      }
     },
     "surges＆": {
       "title": "Surges",
@@ -54,25 +72,37 @@ window.SONG_MASTER = {
       "title": "あの夏が飽和する",
       "artist": "カンザキイオリ",
       "album": "白紙",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/14/d0/dd/14d0dde4-ba9f-cf81-03ee-bf50c1e908eb/ANTCD-46527.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/14/d0/dd/14d0dde4-ba9f-cf81-03ee-bf50c1e908eb/ANTCD-46527.jpg/600x600bb.jpg",
+      "en": {
+        "title": "That summer is saturated"
+      }
     },
     "八月の夜": {
       "title": "八月の夜",
       "artist": "Silent Siren",
       "album": "八月の夜 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/0f/bf/f9/0fbff976-495a-53ff-41ec-aec034cde80c/mucd5304_T_0707.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/0f/bf/f9/0fbff976-495a-53ff-41ec-aec034cde80c/mucd5304_T_0707.jpg/600x600bb.jpg",
+      "en": {
+        "title": "August night"
+      }
     },
     "ハッピシンセサイザ": {
       "title": "ハッピーシンセサイザ",
       "artist": "伊東歌詞太郎",
       "album": "二律背反",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/ff/19/e9/ff19e98c-fc5b-63b7-e41d-63d657357081/TFCC-86506.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/ff/19/e9/ff19e98c-fc5b-63b7-e41d-63d657357081/TFCC-86506.jpg/600x600bb.jpg",
+      "en": {
+        "title": "happy synthesizer"
+      }
     },
     "スパクル": {
       "title": "スパークル",
       "artist": "幾田りら",
       "album": "スパークル - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e1/e7/d2/e1e7d23c-bd17-7b05-b32c-4b23f0623685/196626142849.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e1/e7/d2/e1e7d23c-bd17-7b05-b32c-4b23f0623685/196626142849.jpg/600x600bb.jpg",
+      "en": {
+        "title": "sparkle"
+      }
     },
     "ライラック": {
       "title": "ライラック",
@@ -177,12 +207,12 @@ window.SONG_MASTER = {
       }
     },
     "シスラブ＆": {
-      "title": "水曜日の約束-another story- (feat. 成海聖奈 (CV:雨宮天))",
-      "artist": "HoneyWorks",
-      "album": "シス×ラブ / 水曜日の秘密-another story- - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e5/bd/d6/e5bdd6a5-ea22-999e-c4a3-e4b609f24346/4580074473567.jpg/600x600bb.jpg",
+      "title": "シス×ラブ",
+      "artist": "Kureiji Ollie & アーニャ・メルフィッサ",
+      "album": "ほろはにヶ丘高校 -Covers-",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/11/0d/96/110d962f-5d25-c552-ebd8-dd750e48af36/4582729912438_art.png/600x600bb.jpg",
       "en": {
-        "title": "Wednesday Promise -another story- (feat. Sena Narumi (CV: Sora Amemiya))"
+        "title": "Sis x Love"
       }
     },
     "プラネテス": {
@@ -357,6 +387,15 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/13/18/6c/13186ccb-34cf-4c58-87fd-5d3bff784323/3617221818016_cover.jpg/600x600bb.jpg",
       "en": {
         "title": "proposal"
+      }
+    },
+    "snooze": {
+      "title": "聴けば自然と眠くなる睡眠導入BGM ヒーリングピアノ (睡眠と集中のためのバイノーラルビート)",
+      "artist": "SLEEPY NUTS",
+      "album": "すぐに眠れる音楽 ストレス解消で心が落ち着くリラクゼーション",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/59/7f/10/597f1044-fa78-fa94-d173-e5d074792d9e/4550795001264_cover.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Sleep-inducing BGM that will naturally make you sleepy if you listen to it Healing piano (binaural beats for sleep and concentration)"
       }
     },
     "ワルドイズマイン": {
@@ -1048,9 +1087,9 @@ window.SONG_MASTER = {
     },
     "マシャルマキシマイザ": {
       "title": "マーシャル・マキシマイザー",
-      "artist": "和楽器バンド",
-      "album": "ボカロ三昧2",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/94/55/17/945517eb-0a00-26fc-39c3-105f68516291/22UMGIM81445.rgb.jpg/600x600bb.jpg",
+      "artist": "吉乃",
+      "album": "PALETTE5",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a1/92/22/a1922258-5ccd-edba-3fdb-67721181c362/PCSP_03942.jpg/600x600bb.jpg",
       "en": {
         "title": "marshall maximizer"
       }
@@ -1805,7 +1844,7 @@ window.SONG_MASTER = {
       "album": "ギリギリchop - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/76/9d/9e/769d9e95-0ccb-397c-c0c5-767c8c0c7d95/BMDR-2018.jpg/600x600bb.jpg",
       "en": {
-        "title": "Last minute chop"
+        "title": "last minute chop"
       }
     },
     "二次元ドリムフィバいました": {
