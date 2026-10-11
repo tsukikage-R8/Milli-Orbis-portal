@@ -6,55 +6,37 @@ window.SONG_MASTER = {
       "title": "デビットビット",
       "artist": "アボガド6",
       "album": "デビットビット - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/27/c2/1e/27c21e39-4772-cc21-e142-c198ffc12312/4570216291470_Cover.jpg/600x600bb.jpg",
-      "en": {
-        "title": "debit bit"
-      }
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/27/c2/1e/27c21e39-4772-cc21-e142-c198ffc12312/4570216291470_Cover.jpg/600x600bb.jpg"
     },
     "ラグトレイン": {
       "title": "ラグトレイン",
       "artist": "稲葉曇",
       "album": "ラグトレイン - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b4/ac/d1/b4acd1c8-b1b7-ef7b-cf6f-8516f91a59b5/088792_J.jpg/600x600bb.jpg",
-      "en": {
-        "title": "rag train"
-      }
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b4/ac/d1/b4acd1c8-b1b7-ef7b-cf6f-8516f91a59b5/088792_J.jpg/600x600bb.jpg"
     },
     "おもかげ": {
       "title": "おもかげ",
       "artist": "KG",
       "album": "Brand New Days",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/65/df/c5/65dfc5d3-8437-3329-c876-08f64f764906/825646279241.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Omokage"
-      }
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/65/df/c5/65dfc5d3-8437-3329-c876-08f64f764906/825646279241.jpg/600x600bb.jpg"
     },
     "高嶺の花子さん-.": {
       "title": "頭がよくなる歌",
       "artist": "あの娘はウォンバット",
       "album": "ときめいて5年 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/ce/81/e3ce819e-7d7a-df59-397f-c610ba419ae0/bigup13919836.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Songs that make you smarter"
-      }
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/ce/81/e3ce819e-7d7a-df59-397f-c610ba419ae0/bigup13919836.jpg/600x600bb.jpg"
     },
     "ミカヅキ酸欠少女さユり": {
       "title": "ミカヅキ",
       "artist": "さユり",
       "album": "ミカヅキの航海",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7a/8c/51/7a8c519d-4042-5d06-ad23-61e7fe154781/jacket_BVCL00795B00Z_550.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Mikazuki"
-      }
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7a/8c/51/7a8c519d-4042-5d06-ad23-61e7fe154781/jacket_BVCL00795B00Z_550.jpg/600x600bb.jpg"
     },
     "サウダジ": {
       "title": "サウダージ",
       "artist": "ポルノグラフィティ",
       "album": "サウダージ - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/78/f2/bb/78f2bb53-bef0-9ab2-6cc2-7a89af8eb2ac/jacket_SRCL04901B00Z_550.jpg/600x600bb.jpg",
-      "en": {
-        "title": "saudade"
-      }
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/78/f2/bb/78f2bb53-bef0-9ab2-6cc2-7a89af8eb2ac/jacket_SRCL04901B00Z_550.jpg/600x600bb.jpg"
     },
     "surges＆": {
       "title": "Surges",
@@ -72,37 +54,25 @@ window.SONG_MASTER = {
       "title": "あの夏が飽和する",
       "artist": "カンザキイオリ",
       "album": "白紙",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/14/d0/dd/14d0dde4-ba9f-cf81-03ee-bf50c1e908eb/ANTCD-46527.jpg/600x600bb.jpg",
-      "en": {
-        "title": "That summer is saturated"
-      }
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/14/d0/dd/14d0dde4-ba9f-cf81-03ee-bf50c1e908eb/ANTCD-46527.jpg/600x600bb.jpg"
     },
     "八月の夜": {
       "title": "八月の夜",
       "artist": "Silent Siren",
       "album": "八月の夜 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/0f/bf/f9/0fbff976-495a-53ff-41ec-aec034cde80c/mucd5304_T_0707.jpg/600x600bb.jpg",
-      "en": {
-        "title": "August night"
-      }
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/0f/bf/f9/0fbff976-495a-53ff-41ec-aec034cde80c/mucd5304_T_0707.jpg/600x600bb.jpg"
     },
     "ハッピシンセサイザ": {
       "title": "ハッピーシンセサイザ",
       "artist": "伊東歌詞太郎",
       "album": "二律背反",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/ff/19/e9/ff19e98c-fc5b-63b7-e41d-63d657357081/TFCC-86506.jpg/600x600bb.jpg",
-      "en": {
-        "title": "happy synthesizer"
-      }
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/ff/19/e9/ff19e98c-fc5b-63b7-e41d-63d657357081/TFCC-86506.jpg/600x600bb.jpg"
     },
     "スパクル": {
       "title": "スパークル",
       "artist": "幾田りら",
       "album": "スパークル - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e1/e7/d2/e1e7d23c-bd17-7b05-b32c-4b23f0623685/196626142849.jpg/600x600bb.jpg",
-      "en": {
-        "title": "sparkle"
-      }
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e1/e7/d2/e1e7d23c-bd17-7b05-b32c-4b23f0623685/196626142849.jpg/600x600bb.jpg"
     },
     "ライラック": {
       "title": "ライラック",
@@ -1078,9 +1048,9 @@ window.SONG_MASTER = {
     },
     "マシャルマキシマイザ": {
       "title": "マーシャル・マキシマイザー",
-      "artist": "吉乃",
-      "album": "PALETTE5",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a1/92/22/a1922258-5ccd-edba-3fdb-67721181c362/PCSP_03942.jpg/600x600bb.jpg",
+      "artist": "和楽器バンド",
+      "album": "ボカロ三昧2",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/94/55/17/945517eb-0a00-26fc-39c3-105f68516291/22UMGIM81445.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "marshall maximizer"
       }
@@ -1590,12 +1560,12 @@ window.SONG_MASTER = {
       }
     },
     "嘘つきは恋のはじまりarrangever.40mp": {
-      "title": "バンド",
-      "artist": "back number",
-      "album": "もしも生まれ変わったならそっとこんな声になって",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/10/23/a7/1023a79c-dc39-dd88-2d4e-6e259455b76f/24UMGIM90423.rgb.jpg/600x600bb.jpg",
+      "title": "クスシキ",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "クスシキ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f2/13/a2/f213a26f-355f-95da-c119-a0571d28cdd1/25UMGIM46524.rgb.jpg/600x600bb.jpg",
       "en": {
-        "title": "band"
+        "title": "Kusushiki"
       }
     },
     "会いたい《想见你想见你想见你》": {
@@ -1835,7 +1805,7 @@ window.SONG_MASTER = {
       "album": "ギリギリchop - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/76/9d/9e/769d9e95-0ccb-397c-c0c5-767c8c0c7d95/BMDR-2018.jpg/600x600bb.jpg",
       "en": {
-        "title": "last minute chop"
+        "title": "Last minute chop"
       }
     },
     "二次元ドリムフィバいました": {
@@ -2143,9 +2113,9 @@ window.SONG_MASTER = {
     },
     "夢を叶えてドラえもん": {
       "title": "夢をかなえてドラえもん",
-      "artist": "mao & ひまわりキッズ",
-      "album": "テレビアニメ放送40周年記念ドラえもん うたのコレクション",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/c2/7c/f4/c27cf448-7264-b818-07fc-549405508045/COCX-40818.jpg/600x600bb.jpg",
+      "artist": "mao",
+      "album": "テレビ朝日系アニメ「ドラえもん」主題歌 夢をかなえてドラえもん - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/ac/d3/20/acd3206f-2684-b149-8e82-1c6f52054217/COCC-16954.jpg/600x600bb.jpg",
       "en": {
         "title": "Doraemon make your dreams come true"
       }
