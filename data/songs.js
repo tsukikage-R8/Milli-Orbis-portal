@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-songs.js（変更しないでください） */
 window.SONGS = {
-  "generatedAt": "2026-10-11",
+  "generatedAt": "2026-10-12",
   "official": [
     {
       "id": "MG3I1rUs5v8",
@@ -442,7 +442,7 @@ window.SONGS = {
         "mahoro"
       ],
       "en": {
-        "title": "Kano “Nadame Sukashi Negotiation” [OFFICIAL] “Uzaki-chan wants to play!” OP"
+        "title": "Kano “Nadamesukashi Negotiation” [OFFICIAL] “Uzaki-chan wants to play!” OP"
       }
     },
     {
@@ -3749,7 +3749,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Liar is the beginning of love arrange ver. / Kano × 40mP"
+        "title": "Liar is the beginning of love arrange ver. /Kano×40mP"
       }
     },
     {
@@ -3847,7 +3847,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Is there still anything that love can do? acoustic cover.Kano"
+        "title": "Is there anything more that love can do?acoustic cover.Kano"
       }
     },
     {

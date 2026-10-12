@@ -19,7 +19,7 @@ window.KARAOKE = [
     "duration": 8282,
     "songs": [],
     "en": {
-      "title": "[Song frame] Singing party to enjoy autumn in 3D at home [Nemugumo Tsukuri / Millipro]"
+      "title": "〖 Song frame 〗 Singing party to enjoy autumn in 3D at home 〖 Nemugumo Tsukuri / Millipro 〗"
     }
   },
   {
@@ -67,17 +67,6 @@ window.KARAOKE = [
     }
   },
   {
-    "id": "qD6JZQPGTt4",
-    "memberId": "raco",
-    "publishedAt": "2026-09-25",
-    "title": "【#マイクラ肝試し2026】ゆらぎの代打！代わりに楽しませていただきます🎶【音ノ瀬らこ /ミリプロ】",
-    "duration": 8508,
-    "songs": [],
-    "en": {
-      "title": "[#Minecraft Test of Strength 2026] Pinch hitter of fluctuation! I will entertain you instead 🎶 [Rako Otonose / MilliPro]"
-    }
-  },
-  {
     "id": "xVpRapqd4JY",
     "memberId": "rei",
     "publishedAt": "2026-09-25",
@@ -97,17 +86,6 @@ window.KARAOKE = [
     "songs": [],
     "en": {
       "title": "[Song frame] Listen to Ameya's song before the 3D performance [Ameya Liz/MilliPro]"
-    }
-  },
-  {
-    "id": "pytWeCL4-v8",
-    "memberId": "raco",
-    "publishedAt": "2026-09-22",
-    "title": "【#マイクラ肝試し2026】このこまと行くぞーーーーー！！！！【音ノ瀬らこ /ミリプロ】",
-    "duration": 13336,
-    "songs": [],
-    "en": {
-      "title": "[#Minecraft Challenge 2026] Let's go with this piece! ! ! ! [Rako Otonose/MilliPro]"
     }
   },
   {
@@ -316,7 +294,7 @@ window.KARAOKE = [
     "duration": 8418,
     "songs": [],
     "en": {
-      "title": "[Song Chat] A jumble of people who want to sing and chat [Nemugumo Tsukuri / MilliPro]"
+      "title": "[Song chat] A jumble of people who want to sing and chat [Nemugumo Tsukuri / MilliPro]"
     }
   },
   {
