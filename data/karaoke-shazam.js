@@ -8,14 +8,14 @@ window.KARAOKE_SHAZAM = {
   },
   "6t5oqLio_Ts": {
     "status": "error",
-    "attempts": 1,
-    "attemptedAt": "2026-10-15T15:52:16.742599+00:00",
+    "attempts": 2,
+    "attemptedAt": "2026-10-15T18:54:03.259199+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "R7rxlZ7VRWc": {
-    "status": "skip",
-    "attempts": 5,
-    "attemptedAt": "2026-10-04T23:51:15.211862+00:00",
+    "status": "error",
+    "attempts": 1,
+    "attemptedAt": "2026-10-15T18:54:12.934274+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "BaTCxD0c_q0": {
@@ -337,9 +337,9 @@ window.KARAOKE_SHAZAM = {
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "2xL3Hl_mLUw": {
-    "status": "error",
-    "attempts": 4,
-    "attemptedAt": "2026-10-15T15:51:57.969394+00:00",
+    "status": "skip",
+    "attempts": 5,
+    "attemptedAt": "2026-10-15T18:53:53.572008+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "rXuSYrvh3HU": {
