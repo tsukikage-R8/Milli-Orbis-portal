@@ -37,15 +37,15 @@ window.KARAOKE_SHAZAM = {
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "o0kE3JhM6NA": {
-    "status": "skip",
-    "attempts": 5,
-    "attemptedAt": "2026-09-26T08:20:47.664652+00:00",
+    "status": "error",
+    "attempts": 1,
+    "attemptedAt": "2026-10-17T22:55:41.296979+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "xoVY3Rxsr0A": {
-    "status": "skip",
-    "attempts": 5,
-    "attemptedAt": "2026-09-26T13:38:45.358576+00:00",
+    "status": "error",
+    "attempts": 1,
+    "attemptedAt": "2026-10-17T22:55:50.693353+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "Hr_KWbYXJQM": {
@@ -296,8 +296,8 @@ window.KARAOKE_SHAZAM = {
   },
   "beMkuWTFABw": {
     "status": "error",
-    "attempts": 3,
-    "attemptedAt": "2026-10-17T21:51:36.059487+00:00",
+    "attempts": 4,
+    "attemptedAt": "2026-10-17T22:55:32.038784+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "6q9mf4_ufvI": {
