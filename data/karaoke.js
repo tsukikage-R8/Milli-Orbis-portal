@@ -1,14 +1,25 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
-    "id": "LA0RBwsRQzY",
-    "memberId": "liz",
-    "publishedAt": "2026-10-09",
-    "title": "【雑談＋3Dお披露目スパ茶読み】重大告知あり〜〜【雨夜リズ/ミリプロ】",
-    "duration": 4485,
+    "id": "XPZN-1lbr-M",
+    "memberId": "raco",
+    "publishedAt": "2026-10-18",
+    "title": "【雑談】久しぶりにゆるりとお話【音ノ瀬らこ /ミリプロ】",
+    "duration": 4387,
     "songs": [],
     "en": {
-      "title": "[Chat + 3D unveiling spa tea reading] Important announcement ~ [Ameya Liz/MilliPro]"
+      "title": "[Chat] It’s been a while since we had a relaxing chat [Rako Otonose/MilliPro]"
+    }
+  },
+  {
+    "id": "o4lDXd4i38s",
+    "memberId": "liz",
+    "publishedAt": "2026-10-17",
+    "title": "【歌枠】リベンジ歌枠、重大告知あり〜〜３D歌枠！【雨夜リズ/ミリプロ】",
+    "duration": 6246,
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Revenge song frame, important announcement ~ 3D song frame! [Ameya Liz/MilliPro]"
     }
   },
   {
@@ -30,7 +41,7 @@ window.KARAOKE = [
     "duration": 7184,
     "songs": [],
     "en": {
-      "title": "[Song frame] Looks like there will be a premiere release [Rako Otonose / MilliPro]"
+      "title": "[Song frame] It seems like there will be a premiere release [Rako Otonose / MilliPro]"
     }
   },
   {
@@ -294,7 +305,7 @@ window.KARAOKE = [
     "duration": 8418,
     "songs": [],
     "en": {
-      "title": "[Song chat] A jumble of people who want to sing and chat [Nemugumo Tsukuri / MilliPro]"
+      "title": "[Song Chat] A jumble of people who want to sing and chat [Nemugumo Tsukuri / MilliPro]"
     }
   },
   {
