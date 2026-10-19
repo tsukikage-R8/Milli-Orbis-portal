@@ -745,9 +745,9 @@ window.SONG_MASTER = {
     },
     "undead": {
       "title": "UNDEAD",
-      "artist": "SUNGHANBIN",
-      "album": "DEAD:ALIVE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8a/02/18/8a021835-9d4e-07e7-5cf4-4eec2d8f76cc/191953585369.jpg/600x600bb.jpg"
+      "artist": "YOASOBI",
+      "album": "UNDEAD - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4f/b3/fb/4fb3fb99-7c8b-f028-8683-6128f3e20caf/198588375464.jpg/600x600bb.jpg"
     },
     "ロキ": {
       "title": "ロキ",
@@ -1299,10 +1299,10 @@ window.SONG_MASTER = {
       }
     },
     "お呪い-なきそ": {
-      "title": "POP SONG",
-      "artist": "米津玄師",
-      "album": "POP SONG - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/83/6a/a2/836aa298-4442-2178-cbf7-03fed785d53f/4547366551730.jpg/600x600bb.jpg"
+      "title": "ブルーベリー・ナイツ",
+      "artist": "マカロニえんぴつ",
+      "album": "LiKE - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/70/2d/90/702d9032-b973-6234-1f8e-21456a026b25/bigup12961949.jpg/600x600bb.jpg"
     },
     "うぉんちゅばっど-jon-yakitory": {
       "title": "うぉんちゅーばっど",
