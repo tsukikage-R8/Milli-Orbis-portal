@@ -3587,10 +3587,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Earth's last confession acoustic cover.Kano"
-      }
+      ]
     },
     {
       "title": "乙女解剖 歌いました",
@@ -3601,10 +3598,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Maiden Anatomy sang"
-      }
+      ]
     },
     {
       "title": "それがあなたの幸せとしても acoustic cover.鹿乃",
@@ -3615,10 +3609,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Even if it's your happiness acoustic cover.Kano"
-      }
+      ]
     },
     {
       "title": "君がいる世界へ 一花依世界 日本語版",
@@ -3629,10 +3620,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "To the world where you are Ichikayori world Japanese version"
-      }
+      ]
     },
     {
       "title": "メルティランドナイトメア 　cover　鹿乃",
@@ -3643,10 +3631,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Melty Land Nightmare cover Kano"
-      }
+      ]
     },
     {
       "title": "ハイタ 歌ってみた",
@@ -3657,10 +3642,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Haita I tried singing"
-      }
+      ]
     },
     {
       "title": "打上花火　歌ってみた",
@@ -3671,10 +3653,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Fireworks - I tried singing"
-      }
+      ]
     },
     {
       "title": "おねがいダーリン　歌ってみた",
@@ -3685,10 +3664,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Onegai darling, I tried singing it"
-      }
+      ]
     },
     {
       "title": "ドリームレス・ドリームス　歌ってみた",
@@ -3699,10 +3675,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "I tried singing Dreamless Dreams"
-      }
+      ]
     },
     {
       "title": "メリュー　歌いました",
@@ -3713,10 +3686,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Meryu sang"
-      }
+      ]
     },
     {
       "title": "放課後のプレアデス　歌いました",
@@ -3727,10 +3697,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "I sang Pleiades after school."
-      }
+      ]
     },
     {
       "title": "さようなら、花泥棒さん　歌いました",
@@ -3741,10 +3708,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Goodbye, flower thief, I sang"
-      }
+      ]
     },
     {
       "title": "マッシュルームマザー　歌いました",
@@ -3755,10 +3719,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Mushroom Mother sang"
-      }
+      ]
     },
     {
       "title": "東京レトロ　歌いました",
@@ -3769,10 +3730,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Tokyo Retro Sang"
-      }
+      ]
     },
     {
       "title": "繰り返し一粒　歌いました",
@@ -3783,10 +3741,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "I sang one song over and over again"
-      }
+      ]
     },
     {
       "title": "小夜子　歌いました",
@@ -3797,10 +3752,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Sayoko sang"
-      }
+      ]
     },
     {
       "title": "刹那プラス　歌いました",
@@ -3811,10 +3763,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Setsuna Plus sang"
-      }
+      ]
     },
     {
       "title": "クライヤ　歌いました",
@@ -3825,10 +3774,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Cryer sang"
-      }
+      ]
     },
     {
       "title": "アイロニ　歌いました",
@@ -3839,10 +3785,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "I sang Irony"
-      }
+      ]
     },
     {
       "title": "サディスティック・ラブ　歌いました",
@@ -3853,10 +3796,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Sadistic Love Sang"
-      }
+      ]
     },
     {
       "title": "ワールド・コーリング　歌いました",
@@ -3867,10 +3807,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "World Calling Sang"
-      }
+      ]
     },
     {
       "title": "二次元ドリームフィーバー　歌いました",
@@ -3881,10 +3818,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "2D Dream Fever sang"
-      }
+      ]
     },
     {
       "title": "放課後ストライド　歌いました",
@@ -3895,10 +3829,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "After School Stride Sang"
-      }
+      ]
     },
     {
       "title": "有頂天ビバーチェ　歌いました",
@@ -3909,10 +3840,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "I sang Uchoten Vivace"
-      }
+      ]
     },
     {
       "title": "メリーメリー　歌いました",
@@ -3923,10 +3851,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Merry Merry sang"
-      }
+      ]
     },
     {
       "title": "センチメンタルな愛慕心　歌いました",
@@ -3937,10 +3862,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "I sang a sentimental love"
-      }
+      ]
     },
     {
       "title": "ケッペキショウ　歌いました",
@@ -3951,10 +3873,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Keppekisho sang"
-      }
+      ]
     },
     {
       "title": "ハロ/ハワユ 歌いました",
@@ -3965,10 +3884,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Hello/Hawayu sang"
-      }
+      ]
     }
   ]
 };

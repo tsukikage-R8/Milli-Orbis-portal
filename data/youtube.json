@@ -1,31 +1,13 @@
 {
-  "updatedAt": "2026-10-19T09:21:43.281Z",
+  "updatedAt": "2026-10-19T17:50:29.867Z",
   "streams": [
     {
-      "id": "AIRgDgcnkBM",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "title": "【雑談】初配信の振り返りをするど～！！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/AIRgDgcnkBM/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-19T10:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "vf5JEsMigRI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 Dressmaker 】着たいドレスがないなら、作ればいいじゃない。【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/vf5JEsMigRI/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-19T12:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "Gv52cL0bmTk",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【歌枠】主催、ド、緊張の模様┊#音ノ乃のの #歌うまスンギ歌枠リレー",
-      "thumb": "https://i.ytimg.com/vi/Gv52cL0bmTk/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-19T13:30:00Z",
+      "id": "YH-WDfhQbwc",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 #秋を奏でる歌枠リレー 】秋だーいすき！オシャレに歌うぞ🍂【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/YH-WDfhQbwc/hqdefault_live.jpg",
+      "scheduledStartTime": "2026-10-20T08:00:00Z",
       "status": "upcoming"
     },
     {
@@ -139,6 +121,66 @@
   ],
   "videos": [
     {
+      "id": "i9igSuaWcE4",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【歌枠】音ずれの訪れですか？？？？？はい。┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/i9igSuaWcE4/hqdefault.jpg",
+      "publishedAt": "2026-10-19T17:13:27Z",
+      "live": false
+    },
+    {
+      "id": "1mQz6ho_a4A",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 VALORANT 〗ひさびさにしっかり練習をするのだ〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/1mQz6ho_a4A/hqdefault.jpg",
+      "publishedAt": "2026-10-19T16:25:19Z",
+      "live": false
+    },
+    {
+      "id": "Gv52cL0bmTk",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【歌枠】音ズレの訪れ┊#音ノ乃のの #歌うまスンギ歌枠リレー",
+      "thumb": "https://i.ytimg.com/vi/Gv52cL0bmTk/hqdefault.jpg",
+      "publishedAt": "2026-10-19T16:00:44Z",
+      "live": false
+    },
+    {
+      "id": "vf5JEsMigRI",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 Dressmaker 】着たいドレスがないなら、作ればいいじゃない。【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/vf5JEsMigRI/hqdefault.jpg",
+      "publishedAt": "2026-10-19T15:14:36Z",
+      "live": false
+    },
+    {
+      "id": "6Ao_iBni9ks",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 タンポポは耐える。 】夕霧も耐える。…絶える？ ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/6Ao_iBni9ks/hqdefault.jpg",
+      "publishedAt": "2026-10-19T14:30:37Z",
+      "live": false
+    },
+    {
+      "id": "AIRgDgcnkBM",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【雑談】初配信の振り返りをするど～！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/AIRgDgcnkBM/hqdefault.jpg",
+      "publishedAt": "2026-10-19T11:47:00Z",
+      "live": true
+    },
+    {
       "id": "ttD6Aec5xwI",
       "memberId": "official",
       "member": "ミリプロ公式",
@@ -149,24 +191,14 @@
       "live": false
     },
     {
-      "id": "vf5JEsMigRI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 Dressmaker 】着たいドレスがないなら、作ればいいじゃない。【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/vf5JEsMigRI/hqdefault_live.jpg",
-      "publishedAt": "2026-10-19T07:15:19Z",
+      "id": "YH-WDfhQbwc",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 #秋を奏でる歌枠リレー 】秋だーいすき！オシャレに歌うぞ🍂【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/YH-WDfhQbwc/hqdefault_live.jpg",
+      "publishedAt": "2026-10-19T07:10:03Z",
       "live": false
-    },
-    {
-      "id": "AIRgDgcnkBM",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【雑談】初配信の振り返りをするど～！！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/AIRgDgcnkBM/hqdefault_live.jpg",
-      "publishedAt": "2026-10-18T18:18:38Z",
-      "live": true
     },
     {
       "id": "rbZanAOtVuM",
@@ -216,16 +248,6 @@
       "title": "【あくび人狼】新人が正式加入をかけて挑戦！？AIボイチェンの中から本物を見破れ！！",
       "thumb": "https://i.ytimg.com/vi/LB1bJgNk5XY/hqdefault.jpg",
       "publishedAt": "2026-10-18T11:45:09Z",
-      "live": false
-    },
-    {
-      "id": "Gv52cL0bmTk",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【歌枠】主催、ド、緊張の模様┊#音ノ乃のの #歌うまスンギ歌枠リレー",
-      "thumb": "https://i.ytimg.com/vi/Gv52cL0bmTk/hqdefault_live.jpg",
-      "publishedAt": "2026-10-18T10:33:31Z",
       "live": false
     },
     {
@@ -396,46 +418,6 @@
       "title": "【Don't Drop The Cake】命懸けのケーキ運びホラー！絶叫注意（ガチ）【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/2SRkFHpAqDA/hqdefault.jpg",
       "publishedAt": "2026-10-16T12:50:13Z",
-      "live": false
-    },
-    {
-      "id": "8eaeXfiJZMw",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【WARDOGS】ワイプダッシュ！戦場のプロ天使（衛生兵）目指しますଘ(੭*ˊᵕˋ)੭♡【鹿乃まほろ/ミリプロ】with 碧依さくら・カワセ・しろまんた・Middleee",
-      "thumb": "https://i.ytimg.com/vi/8eaeXfiJZMw/hqdefault.jpg",
-      "publishedAt": "2026-10-15T14:55:48Z",
-      "live": false
-    },
-    {
-      "id": "nBrPd7aOS-Y",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【ただいま】リフレッシュして戻ってきたぞ～！【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/nBrPd7aOS-Y/hqdefault.jpg",
-      "publishedAt": "2026-10-15T14:26:43Z",
-      "live": false
-    },
-    {
-      "id": "oEm12Jg92Rg",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "あのさ、私…もうすぐ引っ越すんだよね。",
-      "thumb": "https://i.ytimg.com/vi/oEm12Jg92Rg/hqdefault.jpg",
-      "publishedAt": "2026-10-15T11:54:01Z",
-      "live": false
-    },
-    {
-      "id": "Iwy-HNhbOSs",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "【ランキング】曲名に「少女」がつくボカロ再生数ランキング！【眠雲ツクリ/ミリプロ】 #歌ってみた #vtuber",
-      "thumb": "https://i.ytimg.com/vi/Iwy-HNhbOSs/hqdefault.jpg",
-      "publishedAt": "2026-10-15T09:00:17Z",
       "live": false
     }
   ],
