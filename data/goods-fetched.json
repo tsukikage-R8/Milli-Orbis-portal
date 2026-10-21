@@ -1335,9 +1335,9 @@
       "rawOrder": "2026年9月20日 〜 2026年10月20日",
       "rawShip": null
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
       "inventory-policy-denied",
       "あくび・でもんすぺーど",
@@ -1378,9 +1378,9 @@
       "rawOrder": "2026年9月20日 〜 2026年10月20日",
       "rawShip": "2027年4月下旬頃まで"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
       "inventory-policy-denied",
       "あくび・でもんすぺーど",
@@ -1422,9 +1422,9 @@
       "rawOrder": "2026年9月20日 〜 2026年10月20日",
       "rawShip": "2027年4月下旬頃まで"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
       "inventory-policy-denied",
       "あくび・でもんすぺーど",
@@ -1456,9 +1456,9 @@
       "rawOrder": "2026年9月20日 〜 2026年10月20日",
       "rawShip": "2027年4月下旬頃まで"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
       "inventory-policy-denied",
       "あくび・でもんすぺーど",
