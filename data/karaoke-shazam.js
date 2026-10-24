@@ -434,20 +434,20 @@ window.KARAOKE_SHAZAM = {
   },
   "2nFCvxTjr-Q": {
     "status": "error",
-    "attempts": 1,
-    "attemptedAt": "2026-10-24T08:55:01.680141+00:00",
+    "attempts": 2,
+    "attemptedAt": "2026-10-24T13:07:57.174127+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "rflF7bDpbrk": {
     "status": "error",
-    "attempts": 1,
-    "attemptedAt": "2026-10-24T08:55:10.662977+00:00",
+    "attempts": 2,
+    "attemptedAt": "2026-10-24T13:08:06.857848+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "rDpjOTbIiFE": {
     "status": "error",
-    "attempts": 1,
-    "attemptedAt": "2026-10-24T08:55:19.726001+00:00",
+    "attempts": 2,
+    "attemptedAt": "2026-10-24T13:08:16.129374+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   }
 };
