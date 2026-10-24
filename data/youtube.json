@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-10-24T18:24:30.993Z",
+  "updatedAt": "2026-10-24T22:02:07.006Z",
   "streams": [
+    {
+      "id": "ii_wtzZ-6Fw",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "title": "【雑談】朝活！今日もまった～りいきましょ～！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ii_wtzZ-6Fw/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-24T21:01:05Z",
+      "status": "live"
+    },
     {
       "id": "OFNccogcP44",
       "memberId": "mahoro",
@@ -111,6 +120,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "ii_wtzZ-6Fw",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【雑談】朝活！今日もまった～りいきましょ～！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ii_wtzZ-6Fw/hqdefault.jpg?v=6add1af2",
+      "publishedAt": "2026-10-24T21:01:05Z",
+      "live": true
+    },
     {
       "id": "2nFCvxTjr-Q",
       "memberId": "nono",
@@ -400,17 +419,17 @@
       "thumb": "https://i.ytimg.com/vi/rDpjOTbIiFE/hqdefault.jpg",
       "publishedAt": "2026-10-22T13:12:46Z",
       "live": false
-    },
-    {
-      "id": "GI8nM0jEKWQ",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【雑談】本日は静止画でお送りさせていただきます【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/GI8nM0jEKWQ/hqdefault.jpg",
-      "publishedAt": "2026-10-22T13:10:33Z",
-      "live": true
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "ii_wtzZ-6Fw",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "title": "【雑談】朝活！今日もまった～りいきましょ～！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ii_wtzZ-6Fw/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-24T21:01:05Z",
+      "status": "live"
+    }
+  ]
 }
