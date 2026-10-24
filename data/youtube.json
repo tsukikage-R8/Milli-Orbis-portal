@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T14:57:06.928Z",
+  "updatedAt": "2026-10-24T18:24:30.993Z",
   "streams": [
     {
       "id": "OFNccogcP44",
@@ -112,13 +112,23 @@
   ],
   "videos": [
     {
+      "id": "2nFCvxTjr-Q",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【歌枠】３D で 歌 う┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/2nFCvxTjr-Q/hqdefault.jpg",
+      "publishedAt": "2026-10-24T17:20:45Z",
+      "live": false
+    },
+    {
       "id": "OnDjSzXKSWg",
       "memberId": "liz",
       "member": "雨夜リズ",
       "channelTitle": "雨夜リズ / Amayo Liz",
       "title": "【歌枠】録音の休憩に歌うよん【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/OnDjSzXKSWg/hqdefault.jpg?v=6adca97c",
-      "publishedAt": "2026-10-24T14:48:52Z",
+      "thumb": "https://i.ytimg.com/vi/OnDjSzXKSWg/hqdefault.jpg",
+      "publishedAt": "2026-10-24T14:57:52Z",
       "live": false
     },
     {
@@ -139,16 +149,6 @@
       "title": "【コーデ対決】甘狼このみをプロデュース！？一番好みを理解しているのは誰だ！？【ハロウィン】",
       "thumb": "https://i.ytimg.com/vi/ff7pBHIEfEQ/hqdefault.jpg",
       "publishedAt": "2026-10-24T14:23:20Z",
-      "live": false
-    },
-    {
-      "id": "2nFCvxTjr-Q",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【歌枠】３D で 歌 う┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/2nFCvxTjr-Q/hqdefault.jpg?v=6adc5532",
-      "publishedAt": "2026-10-24T14:10:45Z",
       "live": false
     },
     {

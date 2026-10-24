@@ -789,10 +789,10 @@ window.SONG_MASTER = {
       }
     },
     "stay": {
-      "title": "STAY",
-      "artist": "ジャスティン・ビーバー & ザ・キッド・ラロイ",
-      "album": "SWAG LIVE FROM COACHELLA (Weekend I)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/06/1c/73/061c7321-52c9-5532-4fb5-5d704e43e7a9/ticket.efkjkgmd.jpg/600x600bb.jpg"
+      "title": "Stay",
+      "artist": "Zedd & アレッシア・カーラ",
+      "album": "Stay - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/08/90/e50890a8-205e-a810-dcda-44b614f99f5f/00602557442878.rgb.jpg/600x600bb.jpg"
     },
     "粛聖!!ロリ神レクイエム☆": {
       "title": "粛聖!! ロリ神レクイエム☆",
@@ -1047,10 +1047,13 @@ window.SONG_MASTER = {
       }
     },
     "マシャルマキシマイザ": {
-      "title": "マーシャル・マキシマイザー (feat. 可不)",
-      "artist": "柊マグネタイト",
-      "album": "KAF+YOU KAFU COMPILATION ALBUM シンメトリー",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6a/25/39/6a2539f1-882e-9822-3876-14ec354ca6e6/ANTCD-46511.jpg/600x600bb.jpg"
+      "title": "マーシャル・マキシマイザー",
+      "artist": "和楽器バンド",
+      "album": "ボカロ三昧2",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/94/55/17/945517eb-0a00-26fc-39c3-105f68516291/22UMGIM81445.rgb.jpg/600x600bb.jpg",
+      "en": {
+        "title": "marshall maximizer"
+      }
     },
     "祝福": {
       "title": "祝福",
@@ -1271,8 +1274,8 @@ window.SONG_MASTER = {
     "glowacoustic.": {
       "title": "春に落ちて",
       "artist": "鹿乃",
-      "album": "rye",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f5/33/c3/f533c341-433a-b4e1-2c61-18cd3c9e15a2/cover.jpg/600x600bb.jpg"
+      "album": "鹿乃BEST",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/02/8a/a2/028aa2e9-04ea-2039-997b-9d7af6ee187a/4562250649522_cover.jpg/600x600bb.jpg"
     },
     "コノハの世界事情.": {
       "title": "evergreen",
@@ -1539,10 +1542,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/22/ed/0b/22ed0bd6-9e41-f161-6037-f2ce99b1d45e/4894894710758.jpg/600x600bb.jpg"
     },
     "この世界を愛したい.": {
-      "title": "優しさの記憶",
+      "title": "Stella-rium",
       "artist": "鹿乃",
-      "album": "ブルーアーカイブ「優しさの記憶」 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8d/09/52/8d095267-fb87-3177-f063-24f36b79bdb8/PA00120146_0_167826_jacket.jpg/600x600bb.jpg"
+      "album": "Stella-rium - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dc/b4/66/dcb466bf-c37a-4c50-a2bb-5c144f4d4a45/1000565791_Stella-rium.jpg/600x600bb.jpg"
     },
     "灰色と青.": {
       "title": "星之回响",
@@ -1551,10 +1554,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d2/29/9d/d2299deb-aca4-2229-de3b-d976635c6bb6/3617053072846.jpg/600x600bb.jpg"
     },
     "愛にできることはまだあるかいacoustic.": {
-      "title": "数え切れないくらいの",
-      "artist": "株式会社バンク・オブ・イノベーション & 鹿乃",
-      "album": "メメントモリ Lament Collection Vol.4",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/37/c7/25/37c7252a-3e77-bf01-2ccc-c845fe6834ee/4550795677384_cover.png/600x600bb.jpg"
+      "title": "ここから、かなたから~bambi-no cover~",
+      "artist": "鹿乃",
+      "album": "Stella-rium - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dc/b4/66/dcb466bf-c37a-4c50-a2bb-5c144f4d4a45/1000565791_Stella-rium.jpg/600x600bb.jpg"
     },
     "地球最後の告白をacoustic.": {
       "title": "ドラマツルギー (feat. 星乃一歌 & 初音ミク)",
@@ -1734,10 +1737,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/b7/02/9ab702b7-14b9-de10-c826-3793b4ed97c6/5021732646163.jpg/600x600bb.jpg"
     },
     "ハロハワユいました": {
-      "title": "ドーナツホール (COVER)",
-      "artist": "米津玄師",
-      "album": "YANKEE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg"
+      "title": "シャルル",
+      "artist": "96猫",
+      "album": "O2O",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0f/99/87/0f99875e-1689-639e-4e52-9ff6afa60714/jacket_SRXX02478B00Z_550.jpg/600x600bb.jpg"
     },
     "クエスチョン": {
       "title": "クエスチョン",

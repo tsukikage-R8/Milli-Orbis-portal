@@ -5,7 +5,7 @@ window.KARAOKE = [
     "memberId": "nono",
     "publishedAt": "2026-10-24",
     "title": "【歌枠】３D で 歌 う┊︎#音ノ乃のの #ののん家",
-    "duration": 11375,
+    "duration": 11347,
     "songs": []
   },
   {
