@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-songs.js（変更しないでください） */
 window.SONGS = {
-  "generatedAt": "2026-10-20",
+  "generatedAt": "2026-10-24",
   "official": [
     {
       "id": "MG3I1rUs5v8",
@@ -8,10 +8,7 @@ window.SONGS = {
       "publishedAt": "2026-08-31",
       "members": [
         "liz"
-      ],
-      "en": {
-        "title": "NET CHOOSE SHOW - Ameya Liz (official)"
-      }
+      ]
     },
     {
       "id": "1UdnoJ6qgPs",
@@ -69,10 +66,7 @@ window.SONGS = {
       "publishedAt": "2025-11-22",
       "members": [
         "mahoro"
-      ],
-      "en": {
-        "title": "[Collapse 3rd] Fairy Winking - Kano [Elysia Image Song]"
-      }
+      ]
     },
     {
       "id": "Xb9MKKcVTK8",
@@ -91,10 +85,7 @@ window.SONGS = {
       "publishedAt": "2025-09-25",
       "members": [
         "mahoro"
-      ],
-      "en": {
-        "title": "[Narushio] Pale moonlight - Kano"
-      }
+      ]
     },
     {
       "id": "d-IGBfIo3lM",
@@ -110,10 +101,7 @@ window.SONGS = {
       "publishedAt": "2025-07-03",
       "members": [
         "mahoro"
-      ],
-      "en": {
-        "title": "Kano “Hiraeth” Music Video"
-      }
+      ]
     },
     {
       "id": "On5N72vpDFU",
@@ -132,10 +120,7 @@ window.SONGS = {
       "publishedAt": "2025-02-10",
       "members": [
         "mahoro"
-      ],
-      "en": {
-        "title": "Kano “Doppel original picture and reproduction Gengar” Music Video"
-      }
+      ]
     },
     {
       "id": "YiABCz7hPQE",
@@ -143,10 +128,7 @@ window.SONGS = {
       "publishedAt": "2025-01-02",
       "members": [
         "mahoro"
-      ],
-      "en": {
-        "title": "[Collapse: Star Rail] To the Moon / Kano [HoYoFair]"
-      }
+      ]
     },
     {
       "id": "uUX8zLoK3TI",
@@ -165,10 +147,7 @@ window.SONGS = {
       "publishedAt": "2024-10-23",
       "members": [
         "mahoro"
-      ],
-      "en": {
-        "title": "Kano “Love and Sorrow” Music Video"
-      }
+      ]
     },
     {
       "id": "AayVsZmozVs",
@@ -187,10 +166,7 @@ window.SONGS = {
       "publishedAt": "2024-08-28",
       "members": [
         "mahoro"
-      ],
-      "en": {
-        "title": "Kano “Metome” Music Video"
-      }
+      ]
     },
     {
       "id": "Hy4aFw7NHiw",
@@ -209,10 +185,7 @@ window.SONGS = {
       "publishedAt": "2024-04-19",
       "members": [
         "mahoro"
-      ],
-      "en": {
-        "title": "Kano “Stereophonic” Music Video"
-      }
+      ]
     },
     {
       "id": "DTF5L6NHBDA",
@@ -220,10 +193,7 @@ window.SONGS = {
       "publishedAt": "2023-11-03",
       "members": [
         "mahoro"
-      ],
-      "en": {
-        "title": "[Snow Break: Forbidden Region Image Song] Aim! Descending to the sea [Kano]"
-      }
+      ]
     },
     {
       "id": "cJ-eRHxhE6A",
@@ -231,10 +201,7 @@ window.SONGS = {
       "publishedAt": "2023-01-03",
       "members": [
         "mahoro"
-      ],
-      "en": {
-        "title": "[Genshin MV - Yoimiya] Tonight Dance ~ Fireworks [Kano]"
-      }
+      ]
     },
     {
       "id": "bSibPLEYTY8",
@@ -242,10 +209,7 @@ window.SONGS = {
       "publishedAt": "2022-10-07",
       "members": [
         "mahoro"
-      ],
-      "en": {
-        "title": "Kano “Ichigo Ichie Celebration” [OFFICIAL] “Uzaki-chan wants to play! ω” OP"
-      }
+      ]
     },
     {
       "id": "X0QIH_tp4Hg",
@@ -253,10 +217,7 @@ window.SONGS = {
       "publishedAt": "2021-03-22",
       "members": [
         "mahoro"
-      ],
-      "en": {
-        "title": "[MV] Kano “Dear Brave” (short ver.) [OFFICIAL]"
-      }
+      ]
     },
     {
       "id": "yvtyw-HAyHA",
@@ -264,10 +225,7 @@ window.SONGS = {
       "publishedAt": "2021-03-22",
       "members": [
         "mahoro"
-      ],
-      "en": {
-        "title": "[MV] Kano “HOPE” (short ver.) [OFFICIAL]"
-      }
+      ]
     },
     {
       "id": "GNkPJvVEm0s",
@@ -275,10 +233,7 @@ window.SONGS = {
       "publishedAt": "2021-03-15",
       "members": [
         "mahoro"
-      ],
-      "en": {
-        "title": "[MV] Kano “Stella-rium” [OFFICIAL]"
-      }
+      ]
     },
     {
       "id": "UstE6yTlwcU",
@@ -286,10 +241,7 @@ window.SONGS = {
       "publishedAt": "2021-03-15",
       "members": [
         "mahoro"
-      ],
-      "en": {
-        "title": "[MV] Kano “Dear Brave” [OFFICIAL]"
-      }
+      ]
     },
     {
       "id": "6BXKh4f6Vhw",
@@ -297,10 +249,7 @@ window.SONGS = {
       "publishedAt": "2021-03-15",
       "members": [
         "mahoro"
-      ],
-      "en": {
-        "title": "[MV] Kano “Primastella” [OFFICIAL]"
-      }
+      ]
     },
     {
       "id": "im2tTHtR5YU",
@@ -480,6 +429,20 @@ window.SONGS = {
     }
   ],
   "covers": [
+    {
+      "title": "ギターと孤独と蒼い惑星 ／眠雲ツクリ（cover）",
+      "key": "ギタと孤独と蒼い惑星",
+      "urls": [
+        {
+          "id": "eIjDFsmLw4s",
+          "memberId": "tsukuri",
+          "publishedAt": "2026-10-24"
+        }
+      ],
+      "en": {
+        "title": "Guitar, Solitude, and Blue Planet / Nemugumo Tsukuri (cover)"
+      }
+    },
     {
       "title": "天ノ弱",
       "key": "天ノ弱",
@@ -729,7 +692,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Feeling great↑↑/Komawarikoma × Nemugumo Tsukuri × Ameya Riz (cover)"
+        "title": "Feeling great↑↑／Komawarikoma × Nemugumo Tsukuri × Ameya Liz (cover)"
       }
     },
     {
@@ -774,7 +737,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Femme Fatale/Komai Koma × Nemugumo Tsukuri × Ameya Liz (cover)"
+        "title": "Femme Fatale／Komawarikoma × Nemugumo Tsukuri × Ameya Liz (cover)"
       }
     },
     {
@@ -3291,7 +3254,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Moe Chakka Fire (Masei) / Kano cover."
+        "title": "Moe Chukka Fire (Masei) / Kano cover."
       }
     },
     {
@@ -3777,7 +3740,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Liar is the beginning of love arrange ver. / Kano × 40mP"
+        "title": "Liar is the beginning of love arrange ver. /Kano×40mP"
       }
     },
     {
@@ -3791,7 +3754,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "I want to meet you《thinking about you》/cover Kano"
+        "title": "I want to meet you《thinking about you》/ cover Kano"
       }
     },
     {
@@ -3875,7 +3838,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Is there anything more that love can do?acoustic cover.Kano"
+        "title": "Is there still anything that love can do? acoustic cover.Kano"
       }
     },
     {
@@ -3917,7 +3880,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Even if it's your happiness, acoustic cover.Kano"
+        "title": "Even if it's your happiness acoustic cover.Kano"
       }
     },
     {

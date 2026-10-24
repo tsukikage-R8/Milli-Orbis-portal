@@ -1,550 +1,442 @@
 {
-  "updatedAt": "2026-10-20T08:56:08.798Z",
+  "updatedAt": "2026-10-24T08:26:45.343Z",
   "streams": [
     {
-      "id": "JUWeiPu6xqY",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【歌枠】歌で繋がる秋の夜！歌います！【鹿乃まほろ/ミリプロ】 #秋を奏でる歌枠リレー",
-      "thumb": "https://i.ytimg.com/vi/JUWeiPu6xqY/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-20T11:00:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[Song frame] Autumn nights connected through song! I'll sing! [Mahoro Kano/MilliPro] #Song relay that plays in autumn"
-      }
-    },
-    {
-      "id": "pnSTro7MCbQ",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "10/20〆👿お休みボイスコレクション🪼",
-      "thumb": "https://i.ytimg.com/vi/pnSTro7MCbQ/hqdefault_live.jpg",
-      "scheduledStartTime": "2026-10-20T14:59:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "10/20〆👿Good night voice collection🪼"
-      }
+      "id": "2nFCvxTjr-Q",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【歌枠】３D で 歌 う┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/2nFCvxTjr-Q/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-24T11:00:00Z",
+      "status": "upcoming"
     },
     {
       "id": "1ZQ5sanS8C8",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
       "title": "〖 コラボ歌枠 〗みかるんと歌枠コラボ🎶〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/1ZQ5sanS8C8/hqdefault_live.jpg",
+      "thumb": "https://i.ytimg.com/vi/1ZQ5sanS8C8/hqdefault.jpg",
       "scheduledStartTime": "2026-10-24T11:00:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "〖 Collaboration song frame 〗Song frame collaboration with Mikarun 🎶〖 Nemugumo Tsukuri / MilliPro〗"
-      }
+      "status": "upcoming"
+    },
+    {
+      "id": "thlZTkOM5u0",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 BOMBANANA! 】見たい言いたい聞きたい！！！！！【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/thlZTkOM5u0/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-24T12:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "6kkUuO04VaU",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【BOMBANANA】こまちゃんとメメちゃんと爆弾解除ゲーム！【鹿乃まほろ/ミリプロ】with 小廻こま・メーメントヴァニタス",
+      "thumb": "https://i.ytimg.com/vi/6kkUuO04VaU/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-24T12:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "qc_zkIoureo",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "title": "【雑談】マシュマロを読んでいくぞ～！！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/qc_zkIoureo/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-25T11:00:00Z",
+      "status": "upcoming"
     },
     {
       "id": "Np7iIJhRB50",
       "memberId": "nuhu",
       "member": "虹深°ぬふ",
       "title": "【📢コラボ情報】「ミリプロ × 100時間カレー」のコラボイベント開催が決定✨",
-      "thumb": "https://i.ytimg.com/vi/Np7iIJhRB50/hqdefault_live.jpg",
+      "thumb": "https://i.ytimg.com/vi/Np7iIJhRB50/hqdefault.jpg",
       "scheduledStartTime": "2026-10-31T09:00:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[📢Collaboration Information] Collaboration event of “MilliPro x 100 Hour Curry” will be held✨"
-      }
+      "status": "upcoming"
     },
     {
       "id": "WEI1si3sFaA",
       "memberId": "koma",
       "member": "小廻こま",
       "title": "「ミリプロ」×「100時間カレー」コラボ！🍛🍴",
-      "thumb": "https://i.ytimg.com/vi/WEI1si3sFaA/hqdefault_live.jpg",
+      "thumb": "https://i.ytimg.com/vi/WEI1si3sFaA/hqdefault.jpg",
       "scheduledStartTime": "2026-10-31T13:30:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "“MilliPro” x “100 Hour Curry” collaboration! 🍛🍴"
-      }
+      "status": "upcoming"
     },
     {
       "id": "h9nYQNJBBts",
       "memberId": "nono",
       "member": "音ノ乃のの",
       "title": "【📢お知らせ】Princess Viral』REMIXバージョンの制作が決定！",
-      "thumb": "https://i.ytimg.com/vi/h9nYQNJBBts/hqdefault_live.jpg",
+      "thumb": "https://i.ytimg.com/vi/h9nYQNJBBts/hqdefault.jpg",
       "scheduledStartTime": "2026-11-01T14:59:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[📢Notice] Production of “Princess Viral” REMIX version has been decided!"
-      }
+      "status": "upcoming"
     },
     {
       "id": "tUZw65HEVPc",
       "memberId": "konomi",
       "member": "甘狼このみ",
       "title": "【📢グッズ情報】魔法少女コレクション 2026 発売中！",
-      "thumb": "https://i.ytimg.com/vi/tUZw65HEVPc/hqdefault_live.jpg",
+      "thumb": "https://i.ytimg.com/vi/tUZw65HEVPc/hqdefault.jpg",
       "scheduledStartTime": "2026-11-03T14:30:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[📢Goods Information] Magical Girl Collection 2026 now on sale!"
-      }
+      "status": "upcoming"
     },
     {
       "id": "1l1YkUzKuXs",
       "memberId": "aoi",
       "member": "海琳あおい",
       "title": "【📢グッズ情報】海琳あおい加入記念グッズ受注販売受付中🌱",
-      "thumb": "https://i.ytimg.com/vi/1l1YkUzKuXs/hqdefault_live.jpg",
+      "thumb": "https://i.ytimg.com/vi/1l1YkUzKuXs/hqdefault.jpg",
       "scheduledStartTime": "2026-11-17T14:30:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[📢Goods information] Now accepting orders for commemorative goods for Aoi Kairin 🌱"
-      }
+      "status": "upcoming"
     },
     {
       "id": "gjos7ccWkac",
       "memberId": "nono",
       "member": "音ノ乃のの",
       "title": "【📢お知らせ】音ノ乃のの×タイクレコラボレーション！🤍",
-      "thumb": "https://i.ytimg.com/vi/gjos7ccWkac/hqdefault_live.jpg",
+      "thumb": "https://i.ytimg.com/vi/gjos7ccWkac/hqdefault.jpg",
       "scheduledStartTime": "2026-12-31T14:59:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[📢Notice] Nonono Otono x Taikure collaboration! 🤍"
-      }
+      "status": "upcoming"
     },
     {
       "id": "sNJXQzJShuA",
       "memberId": "nuhu",
       "member": "虹深°ぬふ",
       "title": "【📢イラスト技法書発売決定】現在販売中です！✨",
-      "thumb": "https://i.ytimg.com/vi/sNJXQzJShuA/hqdefault_live.jpg",
+      "thumb": "https://i.ytimg.com/vi/sNJXQzJShuA/hqdefault.jpg",
       "scheduledStartTime": "2027-01-15T14:25:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[📢Illustration technique book to be released] Now on sale! ✨"
-      }
+      "status": "upcoming"
     },
     {
       "id": "_Qz5P1BthrE",
       "memberId": "liz",
       "member": "雨夜リズ",
       "title": "⋆⸜おやすみボイスコレクション受注受付中🛏️⸝⋆",
-      "thumb": "https://i.ytimg.com/vi/_Qz5P1BthrE/hqdefault_live.jpg",
+      "thumb": "https://i.ytimg.com/vi/_Qz5P1BthrE/hqdefault.jpg",
       "scheduledStartTime": "2027-01-30T06:00:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "⋆⸜Now accepting orders for the Good Night Voice Collection🛏️⸝⋆"
-      }
+      "status": "upcoming"
     },
     {
       "id": "FQUAaVHIEEo",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
       "title": "☁イオンオリジナルグッズ発売決定 🔧",
-      "thumb": "https://i.ytimg.com/vi/FQUAaVHIEEo/hqdefault_live.jpg",
+      "thumb": "https://i.ytimg.com/vi/FQUAaVHIEEo/hqdefault.jpg",
       "scheduledStartTime": "2027-01-31T14:59:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "☁Aeon original goods to be released 🔧"
-      }
+      "status": "upcoming"
     },
     {
       "id": "OCDhtDgFVUU",
       "memberId": "liz",
       "member": "雨夜リズ",
       "title": "⋆⸜  イオン限定！『ミリプロ』オリジナルグッズが販売中👑  ⸝⋆",
-      "thumb": "https://i.ytimg.com/vi/OCDhtDgFVUU/hqdefault_live.jpg",
+      "thumb": "https://i.ytimg.com/vi/OCDhtDgFVUU/hqdefault.jpg",
       "scheduledStartTime": "2027-02-03T14:30:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "⋆⸜ Aeon only! “MilliPro” original goods are now on sale 👑 ⸝⋆"
-      }
+      "status": "upcoming"
     }
   ],
   "videos": [
     {
-      "id": "YH-WDfhQbwc",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 #秋を奏でる歌枠リレー 】秋だーいすき！オシャレに歌うぞ🍂【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/YH-WDfhQbwc/hqdefault.jpg",
-      "publishedAt": "2026-10-20T08:31:36Z",
-      "live": false,
-      "en": {
-        "title": "[#Autumn Song Relay] I love autumn! Let's sing in style 🍂 [Komakoma/MilliPro]"
-      }
-    },
-    {
-      "id": "mMQtqnfVoKE",
+      "id": "zyez_zYXbWk",
       "memberId": "konomi",
       "member": "甘狼このみ",
       "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "リスナーさんからラフ募集して続き描いてみたら神絵が生まれてしまいました。【甘狼このみ】",
-      "thumb": "https://i.ytimg.com/vi/mMQtqnfVoKE/hqdefault.jpg",
-      "publishedAt": "2026-10-20T04:21:40Z",
-      "live": false,
-      "en": {
-        "title": "I solicited rough sketches from listeners, and when I continued to draw them, a divine drawing was born. [Konomi Sweet Wolf]"
-      }
-    },
-    {
-      "id": "i9igSuaWcE4",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【歌枠】音ずれの訪れですか？？？？？はい。┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/i9igSuaWcE4/hqdefault.jpg",
-      "publishedAt": "2026-10-19T17:13:27Z",
-      "live": false,
-      "en": {
-        "title": "[Song frame] Is the sound shift coming? ? ? ? ? yes. ┊︎#Otononono#Nononya"
-      }
-    },
-    {
-      "id": "1mQz6ho_a4A",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 VALORANT 〗ひさびさにしっかり練習をするのだ〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/1mQz6ho_a4A/hqdefault.jpg",
-      "publishedAt": "2026-10-19T16:25:19Z",
-      "live": false,
-      "en": {
-        "title": "〖 VALORANT〗Practice well in the solitude〖 Nemugumo Tsukuri / MilliPro〗"
-      }
-    },
-    {
-      "id": "Gv52cL0bmTk",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【歌枠】音ズレの訪れ┊#音ノ乃のの #歌うまスンギ歌枠リレー",
-      "thumb": "https://i.ytimg.com/vi/Gv52cL0bmTk/hqdefault.jpg",
-      "publishedAt": "2026-10-19T16:00:44Z",
-      "live": false,
-      "en": {
-        "title": "[Song frame] The arrival of the sound gap ┊ #Otononono #UtamaSeungi Song frame relay"
-      }
-    },
-    {
-      "id": "vf5JEsMigRI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 Dressmaker 】着たいドレスがないなら、作ればいいじゃない。【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/vf5JEsMigRI/hqdefault.jpg",
-      "publishedAt": "2026-10-19T15:14:36Z",
-      "live": false,
-      "en": {
-        "title": "[Dressmaker] If you don't have the dress you want to wear, why not make one? [Yuragiyura/Millipro]"
-      }
-    },
-    {
-      "id": "6Ao_iBni9ks",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 タンポポは耐える。 】夕霧も耐える。…絶える？ ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/6Ao_iBni9ks/hqdefault.jpg",
-      "publishedAt": "2026-10-19T14:30:37Z",
-      "live": false,
-      "en": {
-        "title": "[Dandelions endure. ] Even Yugiri can withstand it. ...Will it die out? ⟡.· [Rei Yugiri/MilliPro]"
-      }
-    },
-    {
-      "id": "AIRgDgcnkBM",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【雑談】初配信の振り返りをするど～！！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/AIRgDgcnkBM/hqdefault.jpg",
-      "publishedAt": "2026-10-19T11:47:00Z",
-      "live": true,
-      "en": {
-        "title": "[Chat] Let's look back at the first broadcast! ! [Aoi Kairin/MilliPro]"
-      }
-    },
-    {
-      "id": "ttD6Aec5xwI",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "お互いの書いた言葉でイヤイヤヨゲーム【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ttD6Aec5xwI/hqdefault.jpg",
-      "publishedAt": "2026-10-19T09:00:16Z",
-      "live": false,
-      "en": {
-        "title": "A no-no game with words written by each other [#Millipro]"
-      }
-    },
-    {
-      "id": "rbZanAOtVuM",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【 APEX 】何が起きるかわからない、それがAPEX【カグラナナ/十神仁/雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/rbZanAOtVuM/hqdefault.jpg",
-      "publishedAt": "2026-10-18T18:09:36Z",
-      "live": false,
-      "en": {
-        "title": "[APEX] You don't know what's going to happen, that's APEX [Kaguranana/Hitoshi Togami/Riz Ameya/MilliPro]"
-      }
-    },
-    {
-      "id": "Il-TobLzuFY",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 PEAK 】銭湯屋さんで山登りするぞ！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Il-TobLzuFY/hqdefault.jpg",
-      "publishedAt": "2026-10-18T13:22:15Z",
-      "live": false,
-      "en": {
-        "title": "[PEAK] Let's go mountain climbing at a public bathhouse! [Komakoma/MilliPro]"
-      }
-    },
-    {
-      "id": "kqfOSLrTTII",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 PEAK 】温泉メンバーと山登り！ ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/kqfOSLrTTII/hqdefault.jpg",
-      "publishedAt": "2026-10-18T13:18:36Z",
-      "live": false,
-      "en": {
-        "title": "[PEAK] Mountain climbing with hot spring members! ⟡.· [Rei Yugiri/MilliPro]"
-      }
-    },
-    {
-      "id": "dqcj3-pSHAU",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "しゃべミリ007～新人ちゃん海琳あおいを理解せよ～【ミリ創作】",
-      "thumb": "https://i.ytimg.com/vi/dqcj3-pSHAU/hqdefault.jpg",
-      "publishedAt": "2026-10-18T11:53:18Z",
-      "live": false,
-      "en": {
-        "title": "Shabe Miri 007 ~ Understand the newcomer Kairin Aoi ~ [Miri Creation]"
-      }
-    },
-    {
-      "id": "LB1bJgNk5XY",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【あくび人狼】新人が正式加入をかけて挑戦！？AIボイチェンの中から本物を見破れ！！",
-      "thumb": "https://i.ytimg.com/vi/LB1bJgNk5XY/hqdefault.jpg",
-      "publishedAt": "2026-10-18T11:45:09Z",
-      "live": false,
-      "en": {
-        "title": "[Yawn Werewolf] Newcomer challenges to become an official member! ? Find out the real thing from the AI Boychen! !"
-      }
-    },
-    {
-      "id": "XPZN-1lbr-M",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【雑談】久しぶりにゆるりとお話【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/XPZN-1lbr-M/hqdefault.jpg",
-      "publishedAt": "2026-10-18T09:05:39Z",
-      "live": true,
-      "en": {
-        "title": "[Chat] It’s been a while since we had a relaxing chat [Rako Otonose/MilliPro]"
-      }
-    },
-    {
-      "id": "K51NJmBMO3M",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "『天ノ弱』歌ってみた 【#海琳あおい /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/K51NJmBMO3M/hqdefault.jpg",
-      "publishedAt": "2026-10-18T09:01:32Z",
-      "live": false,
-      "en": {
-        "title": "I tried singing “Amano Weak” [#Aoi Kairin/MilliPro]"
-      }
-    },
-    {
-      "id": "KEizk2-ZDDM",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "ハロ/ハワユ 歌ってみた【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/KEizk2-ZDDM/hqdefault.jpg",
-      "publishedAt": "2026-10-18T09:00:33Z",
-      "live": false,
-      "en": {
-        "title": "Hello/Hawayu I tried singing [Kano Mahoro/MilliPro]"
-      }
-    },
-    {
-      "id": "aEvNmGp9-5w",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】絶対に間違った答えを言え！海琳あおい編【 #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/aEvNmGp9-5w/hqdefault.jpg",
-      "publishedAt": "2026-10-18T09:00:14Z",
-      "live": false,
-      "en": {
-        "title": "[Minecraft] Give the wrong answer! Kairin Aoi edition [#MilliPro]"
-      }
-    },
-    {
-      "id": "b8a0imaV3ao",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "ぬふの夢って何ですか？🤔  #shorts #illustration",
-      "thumb": "https://i.ytimg.com/vi/b8a0imaV3ao/hqdefault.jpg",
-      "publishedAt": "2026-10-18T09:00:01Z",
-      "live": false,
-      "en": {
-        "title": "What is Nufu's dream? 🤔 #shorts #illustration"
-      }
-    },
-    {
-      "id": "WDxWrWrfSD0",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【お料理雑談】マミー、ハッピーバースデイ🎂【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/WDxWrWrfSD0/hqdefault.jpg",
-      "publishedAt": "2026-10-18T08:36:48Z",
-      "live": true,
-      "en": {
-        "title": "[Cooking Chat] Happy Birthday, Mommy🎂 [Riz Ameya/MilliPro]"
-      }
-    },
-    {
-      "id": "NFtn4zigOws",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Supermarket Chaos】この汚れた世界全部を片付けてやる…！【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/NFtn4zigOws/hqdefault.jpg",
-      "publishedAt": "2026-10-18T05:27:53Z",
-      "live": false,
-      "en": {
-        "title": "[Supermarket Chaos] I'll clean up this whole dirty world...! [Mahoro Kano/MilliPro]"
-      }
-    },
-    {
-      "id": "1l1YkUzKuXs",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【📢グッズ情報】海琳あおい加入記念グッズ受注販売受付中🌱",
-      "thumb": "https://i.ytimg.com/vi/1l1YkUzKuXs/hqdefault_live.jpg",
-      "publishedAt": "2026-10-18T01:03:09Z",
-      "live": false,
-      "en": {
-        "title": "[📢Goods information] Now accepting orders for commemorative goods for Aoi Kairin 🌱"
-      }
-    },
-    {
-      "id": "JUWeiPu6xqY",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【歌枠】歌で繋がる秋の夜！歌います！【鹿乃まほろ/ミリプロ】 #秋を奏でる歌枠リレー",
-      "thumb": "https://i.ytimg.com/vi/JUWeiPu6xqY/hqdefault_live.jpg",
-      "publishedAt": "2026-10-17T15:50:27Z",
-      "live": false,
-      "en": {
-        "title": "[Song frame] Autumn nights connected through song! I'll sing! [Mahoro Kano/MilliPro] #Song relay that plays in autumn"
-      }
-    },
-    {
-      "id": "26ipTrlIk8o",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "🐢💨Free chat",
-      "thumb": "https://i.ytimg.com/vi/26ipTrlIk8o/hqdefault_live.jpg",
-      "publishedAt": "2026-10-17T11:19:16Z",
+      "title": "リスナーさんが描いてくれたこののFAをたくさん見るのだ！！【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/zyez_zYXbWk/hqdefault.jpg",
+      "publishedAt": "2026-10-24T07:15:43Z",
       "live": false
     },
     {
-      "id": "4QLgCAymgI0",
+      "id": "2nFCvxTjr-Q",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【歌枠】３D で 歌 う┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/2nFCvxTjr-Q/hqdefault.jpg?v=6adc5532",
+      "publishedAt": "2026-10-24T06:50:22Z",
+      "live": false
+    },
+    {
+      "id": "thlZTkOM5u0",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 BOMBANANA! 】見たい言いたい聞きたい！！！！！【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/thlZTkOM5u0/hqdefault.jpg?v=6adc3d65",
+      "publishedAt": "2026-10-24T05:08:51Z",
+      "live": false
+    },
+    {
+      "id": "e6acfMolexU",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "？？？ - 鹿乃まほろ cover.",
+      "thumb": "https://i.ytimg.com/vi/e6acfMolexU/hqdefault.jpg",
+      "publishedAt": "2026-10-24T03:20:58Z",
+      "live": false
+    },
+    {
+      "id": "xwuzA-4xS_E",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 Dressmaker 】ミリプロメンバーのドレス勝手に考える！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/xwuzA-4xS_E/hqdefault.jpg",
+      "publishedAt": "2026-10-23T18:33:41Z",
+      "live": false
+    },
+    {
+      "id": "6kkUuO04VaU",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【BOMBANANA】こまちゃんとメメちゃんと爆弾解除ゲーム！【鹿乃まほろ/ミリプロ】with 小廻こま・メーメントヴァニタス",
+      "thumb": "https://i.ytimg.com/vi/6kkUuO04VaU/hqdefault.jpg?v=6adb9906",
+      "publishedAt": "2026-10-23T17:27:32Z",
+      "live": false
+    },
+    {
+      "id": "rflF7bDpbrk",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【歌枠】歌うぞ！歌うぞ！歌うぞ！【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/rflF7bDpbrk/hqdefault.jpg",
+      "publishedAt": "2026-10-23T15:35:22Z",
+      "live": false
+    },
+    {
+      "id": "wk2cf7lobDQ",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【妹に運転を教える】運転を教えたい妹が、いるんだよね",
+      "thumb": "https://i.ytimg.com/vi/wk2cf7lobDQ/hqdefault.jpg",
+      "publishedAt": "2026-10-23T14:15:38Z",
+      "live": false
+    },
+    {
+      "id": "afCMVcBnGhU",
       "memberId": "aoi",
       "member": "海琳あおい",
       "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【 #海琳あおい初配信 】みんなへ幸をお届け！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/4QLgCAymgI0/hqdefault.jpg",
-      "publishedAt": "2026-10-17T11:14:12Z",
-      "live": true,
-      "en": {
-        "title": "[#Aoi Kairin's first broadcast] Delivering happiness to everyone! [Aoi Kairin/MilliPro]"
-      }
+      "title": "【歌枠】ウ　タ　ウ　ヨ【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/afCMVcBnGhU/hqdefault.jpg",
+      "publishedAt": "2026-10-23T12:48:41Z",
+      "live": false
     },
     {
-      "id": "o4lDXd4i38s",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【歌枠】リベンジ歌枠、重大告知あり〜〜３D歌枠！【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/o4lDXd4i38s/hqdefault.jpg",
-      "publishedAt": "2026-10-17T09:44:56Z",
-      "live": false,
-      "en": {
-        "title": "[Song frame] Revenge song frame, important announcement ~ 3D song frame! 【雨夜リズ/ミリプロ】"
-      }
+      "id": "mr5SqswSds8",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "浮気判定チェックシートをやる！！【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/mr5SqswSds8/hqdefault.jpg",
+      "publishedAt": "2026-10-23T12:33:19Z",
+      "live": false
     },
     {
-      "id": "aGA5TRzlZpM",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "VTuberが朝起きるまでのリアル",
-      "thumb": "https://i.ytimg.com/vi/aGA5TRzlZpM/hqdefault.jpg",
-      "publishedAt": "2026-10-17T09:00:25Z",
-      "live": false,
-      "en": {
-        "title": "Real life before VTuber wakes up in the morning"
-      }
+      "id": "qc_zkIoureo",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【雑談】マシュマロを読んでいくぞ～！！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/qc_zkIoureo/hqdefault.jpg?v=6adb470b",
+      "publishedAt": "2026-10-23T11:37:45Z",
+      "live": true
     },
     {
-      "id": "fuHFGV8x9-k",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【アニメ】瞬発力テスト #ミリプロ #anime",
-      "thumb": "https://i.ytimg.com/vi/fuHFGV8x9-k/hqdefault.jpg",
-      "publishedAt": "2026-10-17T09:00:14Z",
-      "live": false,
-      "en": {
-        "title": "[Anime] Explosive power test #MilliPro #anime"
-      }
-    },
-    {
-      "id": "0VCdPBsK8hM",
+      "id": "eIjDFsmLw4s",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
       "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 ほの暮しの庭 〗ついに終盤...？春を満喫しつつ真相に迫る！#10〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/0VCdPBsK8hM/hqdefault.jpg",
-      "publishedAt": "2026-10-16T20:24:58Z",
-      "live": false,
-      "en": {
-        "title": "〖 Heartwarming Garden 〗Finally the end...? Get to the bottom of the truth while enjoying spring! #10〖 Sleeping Cloud Tsukuri / Millipro〗"
-      }
+      "title": "ギターと孤独と蒼い惑星 ／眠雲ツクリ（cover）",
+      "thumb": "https://i.ytimg.com/vi/eIjDFsmLw4s/hqdefault.jpg",
+      "publishedAt": "2026-10-23T11:00:09Z",
+      "live": false
     },
     {
-      "id": "LDMdVrQbg5Q",
+      "id": "LAq7GXQX4QI",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【雑談】お う ち ３D┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/LAq7GXQX4QI/hqdefault.jpg",
+      "publishedAt": "2026-10-23T09:23:34Z",
+      "live": true
+    },
+    {
+      "id": "8IFwsGcU74c",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【声真似】映画ちいかわの『島のうた』歌ってみた【音ノ瀬らこ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/8IFwsGcU74c/hqdefault.jpg",
+      "publishedAt": "2026-10-23T09:00:37Z",
+      "live": false
+    },
+    {
+      "id": "rTUyRzF18Kc",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【shortオリジナル曲】LET ME OUTSIDE！ 😛#shorts 【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/rTUyRzF18Kc/hqdefault.jpg",
+      "publishedAt": "2026-10-23T09:00:34Z",
+      "live": false
+    },
+    {
+      "id": "-SZ1nerCiqM",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】甘狼このみ危機一髪に挑戦！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/-SZ1nerCiqM/hqdefault.jpg",
+      "publishedAt": "2026-10-23T09:00:27Z",
+      "live": false
+    },
+    {
+      "id": "g4onBV6snfc",
       "memberId": "rei",
       "member": "夕霧レイ",
       "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 雑談 】帰省を楽しんだらしい ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/LDMdVrQbg5Q/hqdefault.jpg",
-      "publishedAt": "2026-10-16T15:29:40Z",
-      "live": true,
-      "en": {
-        "title": "[Chat] Looks like he enjoyed his return home ⟡.· [Rei Yugiri/MilliPro]"
-      }
+      "title": "メロ声合唱で『島のうた』歌ってみた【夕霧レイ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/g4onBV6snfc/hqdefault.jpg",
+      "publishedAt": "2026-10-23T09:00:25Z",
+      "live": false
+    },
+    {
+      "id": "onJ2sqs909o",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "ちょっとしたお手伝いのはずが… #マイクラ",
+      "thumb": "https://i.ytimg.com/vi/onJ2sqs909o/hqdefault.jpg",
+      "publishedAt": "2026-10-23T09:00:22Z",
+      "live": false
+    },
+    {
+      "id": "Tkit48gvqoM",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "高嶺の花子さん 歌ってみた【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/Tkit48gvqoM/hqdefault.jpg",
+      "publishedAt": "2026-10-23T09:00:19Z",
+      "live": false
+    },
+    {
+      "id": "1LVXb__vHjo",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "？？？？？？？？？？？ / あくび・でもんすぺーど - cover",
+      "thumb": "https://i.ytimg.com/vi/1LVXb__vHjo/hqdefault.jpg",
+      "publishedAt": "2026-10-23T06:10:38Z",
+      "live": false
+    },
+    {
+      "id": "oURTKz6jl50",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 雑談 】話題の浮気判定シート💘やってみる♪【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/oURTKz6jl50/hqdefault.jpg",
+      "publishedAt": "2026-10-22T14:24:37Z",
+      "live": true
+    },
+    {
+      "id": "rDpjOTbIiFE",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 歌枠 〗告知アリ！あたしの好きなバンド、教えてあげる〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/rDpjOTbIiFE/hqdefault.jpg",
+      "publishedAt": "2026-10-22T13:12:46Z",
+      "live": false
+    },
+    {
+      "id": "GI8nM0jEKWQ",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【雑談】本日は静止画でお送りさせていただきます【虹深°ぬふ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/GI8nM0jEKWQ/hqdefault.jpg",
+      "publishedAt": "2026-10-22T13:10:33Z",
+      "live": true
+    },
+    {
+      "id": "NWCZtAxmvWc",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】隠れてる全員見つけれる？【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/NWCZtAxmvWc/hqdefault.jpg",
+      "publishedAt": "2026-10-22T09:00:28Z",
+      "live": false
+    },
+    {
+      "id": "_7yatikmdaE",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【朝活】早起きしちゃったからみんなにいってらっしゃい言うよ",
+      "thumb": "https://i.ytimg.com/vi/_7yatikmdaE/hqdefault.jpg",
+      "publishedAt": "2026-10-21T23:15:41Z",
+      "live": false
+    },
+    {
+      "id": "r8UtsxOSY3I",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 ゲリラ歌枠 】では、歌いましょう。 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/r8UtsxOSY3I/hqdefault.jpg",
+      "publishedAt": "2026-10-21T11:56:23Z",
+      "live": false
+    },
+    {
+      "id": "coE9MrT51Jc",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【ボカロ難読歌詞クイズ】読み方むずすぎ？！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/coE9MrT51Jc/hqdefault.jpg",
+      "publishedAt": "2026-10-21T09:01:14Z",
+      "live": false
+    },
+    {
+      "id": "2-ZmSaRVC5Y",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【夕霧レイと】『クリームソーダとシャンデリア』歌ってみた【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/2-ZmSaRVC5Y/hqdefault.jpg",
+      "publishedAt": "2026-10-21T09:00:38Z",
+      "live": false
+    },
+    {
+      "id": "T7e0pJ3Oyqs",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】絶対に間違った答えを言え！あくび編【 #ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/T7e0pJ3Oyqs/hqdefault.jpg",
+      "publishedAt": "2026-10-21T09:00:36Z",
+      "live": false
+    },
+    {
+      "id": "FWttMZu4JXw",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "ミリプロメンバーの水着をデザインしてみた結果・・・・【甘狼このみ】",
+      "thumb": "https://i.ytimg.com/vi/FWttMZu4JXw/hqdefault.jpg",
+      "publishedAt": "2026-10-21T09:00:07Z",
+      "live": false
     }
   ],
   "live": []
