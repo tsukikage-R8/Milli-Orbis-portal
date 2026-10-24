@@ -1,40 +1,13 @@
 {
-  "updatedAt": "2026-10-24T08:26:45.343Z",
+  "updatedAt": "2026-10-24T14:57:06.928Z",
   "streams": [
     {
-      "id": "2nFCvxTjr-Q",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【歌枠】３D で 歌 う┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/2nFCvxTjr-Q/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-24T11:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "1ZQ5sanS8C8",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 コラボ歌枠 〗みかるんと歌枠コラボ🎶〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/1ZQ5sanS8C8/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-24T11:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "thlZTkOM5u0",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 BOMBANANA! 】見たい言いたい聞きたい！！！！！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/thlZTkOM5u0/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-24T12:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "6kkUuO04VaU",
+      "id": "OFNccogcP44",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
-      "title": "【BOMBANANA】こまちゃんとメメちゃんと爆弾解除ゲーム！【鹿乃まほろ/ミリプロ】with 小廻こま・メーメントヴァニタス",
-      "thumb": "https://i.ytimg.com/vi/6kkUuO04VaU/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-24T12:00:00Z",
+      "title": "【Supermarket Chaos】お掃除好きの私が汚世界を救済するට⩊ටಇ【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/OFNccogcP44/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-25T02:00:00Z",
       "status": "upcoming"
     },
     {
@@ -139,6 +112,126 @@
   ],
   "videos": [
     {
+      "id": "OnDjSzXKSWg",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【歌枠】録音の休憩に歌うよん【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/OnDjSzXKSWg/hqdefault.jpg?v=6adca97c",
+      "publishedAt": "2026-10-24T14:48:52Z",
+      "live": false
+    },
+    {
+      "id": "6kkUuO04VaU",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【BOMBANANA】こまちゃんとメメちゃんと爆弾解除ゲーム！【鹿乃まほろ/ミリプロ】with 小廻こま・メーメントヴァニタス",
+      "thumb": "https://i.ytimg.com/vi/6kkUuO04VaU/hqdefault.jpg",
+      "publishedAt": "2026-10-24T14:34:27Z",
+      "live": false
+    },
+    {
+      "id": "ff7pBHIEfEQ",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【コーデ対決】甘狼このみをプロデュース！？一番好みを理解しているのは誰だ！？【ハロウィン】",
+      "thumb": "https://i.ytimg.com/vi/ff7pBHIEfEQ/hqdefault.jpg",
+      "publishedAt": "2026-10-24T14:23:20Z",
+      "live": false
+    },
+    {
+      "id": "2nFCvxTjr-Q",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【歌枠】３D で 歌 う┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/2nFCvxTjr-Q/hqdefault.jpg?v=6adc5532",
+      "publishedAt": "2026-10-24T14:10:45Z",
+      "live": false
+    },
+    {
+      "id": "thlZTkOM5u0",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 BOMBANANA! 】見たい言いたい聞きたい！！！！！【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/thlZTkOM5u0/hqdefault.jpg",
+      "publishedAt": "2026-10-24T13:44:54Z",
+      "live": false
+    },
+    {
+      "id": "1ZQ5sanS8C8",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 コラボ歌枠 〗みかるんと歌枠コラボ🎶〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/1ZQ5sanS8C8/hqdefault.jpg",
+      "publishedAt": "2026-10-24T12:10:12Z",
+      "live": false
+    },
+    {
+      "id": "1LVXb__vHjo",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "さよーならまたいつか！ / あくび・でもんすぺーど - cover",
+      "thumb": "https://i.ytimg.com/vi/1LVXb__vHjo/hqdefault.jpg",
+      "publishedAt": "2026-10-24T11:00:07Z",
+      "live": false
+    },
+    {
+      "id": "cSbl-mK7dSE",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "プロセカ書き下ろし人気楽曲ファンテスト【#海琳あおい /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/cSbl-mK7dSE/hqdefault.jpg",
+      "publishedAt": "2026-10-24T09:01:29Z",
+      "live": false
+    },
+    {
+      "id": "0cQHF0UA560",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "【最後はあの曲⚡】だんだん懐かしくなるアニソンメドレー【眠雲ツクリ/ミリプロ】 #歌ってみた #アニソン",
+      "thumb": "https://i.ytimg.com/vi/0cQHF0UA560/hqdefault.jpg",
+      "publishedAt": "2026-10-24T09:00:30Z",
+      "live": false
+    },
+    {
+      "id": "rqFtq-nywbs",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【アニメ】カラーサークルチャレンジ！#ミリプロ #anime",
+      "thumb": "https://i.ytimg.com/vi/rqFtq-nywbs/hqdefault.jpg",
+      "publishedAt": "2026-10-24T09:00:10Z",
+      "live": false
+    },
+    {
+      "id": "e6acfMolexU",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "奏（スキマスイッチ） - 鹿乃まほろ cover.",
+      "thumb": "https://i.ytimg.com/vi/e6acfMolexU/hqdefault.jpg",
+      "publishedAt": "2026-10-24T09:00:09Z",
+      "live": false
+    },
+    {
+      "id": "OFNccogcP44",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Supermarket Chaos】お掃除好きの私が汚世界を救済するට⩊ටಇ【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/OFNccogcP44/hqdefault.jpg?v=6adc6f25",
+      "publishedAt": "2026-10-24T08:41:09Z",
+      "live": false
+    },
+    {
       "id": "zyez_zYXbWk",
       "memberId": "konomi",
       "member": "甘狼このみ",
@@ -149,36 +242,6 @@
       "live": false
     },
     {
-      "id": "2nFCvxTjr-Q",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【歌枠】３D で 歌 う┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/2nFCvxTjr-Q/hqdefault.jpg?v=6adc5532",
-      "publishedAt": "2026-10-24T06:50:22Z",
-      "live": false
-    },
-    {
-      "id": "thlZTkOM5u0",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 BOMBANANA! 】見たい言いたい聞きたい！！！！！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/thlZTkOM5u0/hqdefault.jpg?v=6adc3d65",
-      "publishedAt": "2026-10-24T05:08:51Z",
-      "live": false
-    },
-    {
-      "id": "e6acfMolexU",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "？？？ - 鹿乃まほろ cover.",
-      "thumb": "https://i.ytimg.com/vi/e6acfMolexU/hqdefault.jpg",
-      "publishedAt": "2026-10-24T03:20:58Z",
-      "live": false
-    },
-    {
       "id": "xwuzA-4xS_E",
       "memberId": "yura",
       "member": "ゆらぎゆら",
@@ -186,16 +249,6 @@
       "title": "【 Dressmaker 】ミリプロメンバーのドレス勝手に考える！【 ゆらぎゆら/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/xwuzA-4xS_E/hqdefault.jpg",
       "publishedAt": "2026-10-23T18:33:41Z",
-      "live": false
-    },
-    {
-      "id": "6kkUuO04VaU",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【BOMBANANA】こまちゃんとメメちゃんと爆弾解除ゲーム！【鹿乃まほろ/ミリプロ】with 小廻こま・メーメントヴァニタス",
-      "thumb": "https://i.ytimg.com/vi/6kkUuO04VaU/hqdefault.jpg?v=6adb9906",
-      "publishedAt": "2026-10-23T17:27:32Z",
       "live": false
     },
     {
@@ -329,16 +382,6 @@
       "live": false
     },
     {
-      "id": "1LVXb__vHjo",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "？？？？？？？？？？？ / あくび・でもんすぺーど - cover",
-      "thumb": "https://i.ytimg.com/vi/1LVXb__vHjo/hqdefault.jpg",
-      "publishedAt": "2026-10-23T06:10:38Z",
-      "live": false
-    },
-    {
       "id": "oURTKz6jl50",
       "memberId": "yura",
       "member": "ゆらぎゆら",
@@ -367,76 +410,6 @@
       "thumb": "https://i.ytimg.com/vi/GI8nM0jEKWQ/hqdefault.jpg",
       "publishedAt": "2026-10-22T13:10:33Z",
       "live": true
-    },
-    {
-      "id": "NWCZtAxmvWc",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】隠れてる全員見つけれる？【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/NWCZtAxmvWc/hqdefault.jpg",
-      "publishedAt": "2026-10-22T09:00:28Z",
-      "live": false
-    },
-    {
-      "id": "_7yatikmdaE",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【朝活】早起きしちゃったからみんなにいってらっしゃい言うよ",
-      "thumb": "https://i.ytimg.com/vi/_7yatikmdaE/hqdefault.jpg",
-      "publishedAt": "2026-10-21T23:15:41Z",
-      "live": false
-    },
-    {
-      "id": "r8UtsxOSY3I",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 ゲリラ歌枠 】では、歌いましょう。 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/r8UtsxOSY3I/hqdefault.jpg",
-      "publishedAt": "2026-10-21T11:56:23Z",
-      "live": false
-    },
-    {
-      "id": "coE9MrT51Jc",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【ボカロ難読歌詞クイズ】読み方むずすぎ？！！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/coE9MrT51Jc/hqdefault.jpg",
-      "publishedAt": "2026-10-21T09:01:14Z",
-      "live": false
-    },
-    {
-      "id": "2-ZmSaRVC5Y",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【夕霧レイと】『クリームソーダとシャンデリア』歌ってみた【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/2-ZmSaRVC5Y/hqdefault.jpg",
-      "publishedAt": "2026-10-21T09:00:38Z",
-      "live": false
-    },
-    {
-      "id": "T7e0pJ3Oyqs",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】絶対に間違った答えを言え！あくび編【 #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/T7e0pJ3Oyqs/hqdefault.jpg",
-      "publishedAt": "2026-10-21T09:00:36Z",
-      "live": false
-    },
-    {
-      "id": "FWttMZu4JXw",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "ミリプロメンバーの水着をデザインしてみた結果・・・・【甘狼このみ】",
-      "thumb": "https://i.ytimg.com/vi/FWttMZu4JXw/hqdefault.jpg",
-      "publishedAt": "2026-10-21T09:00:07Z",
-      "live": false
     }
   ],
   "live": []
