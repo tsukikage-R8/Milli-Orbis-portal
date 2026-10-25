@@ -3,10 +3,10 @@ window.SONG_MASTER = {
   "generatedAt": "2026-10-25",
   "songs": {
     "ギタと孤独と蒼い惑星": {
-      "title": "In the Morning",
-      "artist": "Mrs. GREEN APPLE",
-      "album": "Mrs. GREEN APPLE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/02/6d/e2026db1-a828-6437-2db1-536e454fe044/00602557312133.rgb.jpg/600x600bb.jpg"
+      "title": "もう一度キスしたかった",
+      "artist": "B'z",
+      "album": "IN THE LIFE",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/67/8d/33/678d33aa-4eeb-8682-575d-0bbc3e95cd59/dj.ylccwcgc.jpg/600x600bb.jpg"
     },
     "天ノ弱": {
       "title": "天ノ弱",
@@ -31,9 +31,9 @@ window.SONG_MASTER = {
     },
     "おもかげ": {
       "title": "おもかげ",
-      "artist": "KG",
-      "album": "Brand New Days",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/65/df/c5/65dfc5d3-8437-3329-c876-08f64f764906/825646279241.jpg/600x600bb.jpg"
+      "artist": "林原めぐみ",
+      "album": "Northern lights - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/5a/09/cc/mzi.pbyoqgta.jpg/600x600bb.jpg"
     },
     "高嶺の花子さん-.": {
       "title": "頭がよくなる歌",
@@ -195,10 +195,13 @@ window.SONG_MASTER = {
       }
     },
     "シスラブ＆": {
-      "title": "シス×ラブ (feat. Hanon & Kotoha)",
+      "title": "水曜日の約束-another story- (feat. 成海聖奈 (CV:雨宮天))",
       "artist": "HoneyWorks",
-      "album": "水声少女 (feat. Hanon & Kotoha)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/73/bf/57/73bf57dc-de29-08d6-c30f-364f82ebc286/4562251594791_cover.jpg/600x600bb.jpg"
+      "album": "シス×ラブ / 水曜日の秘密-another story- - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e5/bd/d6/e5bdd6a5-ea22-999e-c4a3-e4b609f24346/4580074473567.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Wednesday Promise -another story- (feat. Sena Narumi (CV: Sora Amemiya))"
+      }
     },
     "プラネテス": {
       "title": "プラネテス",
@@ -423,10 +426,10 @@ window.SONG_MASTER = {
       }
     },
     "thecute!!!": {
-      "title": "The Cute!!!",
-      "artist": "初星学園 & 藤田ことね",
-      "album": "The Cute!!! - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/40/8e/22408efb-2c66-5577-be51-f1be16f3b4c7/PA00185233_0_221289_jacket.jpg/600x600bb.jpg"
+      "title": "The Cute",
+      "artist": "Cute",
+      "album": "Cute",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3c/ef/76/3cef7679-0a26-3db6-88bb-21ad14c501d4/3850245001921.jpg/600x600bb.jpg"
     },
     "完全感覚dreamer": {
       "title": "完全感覚Dreamer",
@@ -528,13 +531,10 @@ window.SONG_MASTER = {
       }
     },
     "プレイ-gigashortby": {
-      "title": "踊ろうぜ",
-      "artist": "ヨルシカ",
-      "album": "だから僕は音楽を辞めた",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/64/ab/ba/64abba45-d080-0e8a-c24b-313e597c63cb/PA00076158_0_91679_jacket.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Let's dance"
-      }
+      "title": "雨のち晴レルヤ",
+      "artist": "ゆず",
+      "album": "新世界",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/8e/cf/5c/8ecf5c6f-8240-4602-ed5d-ca2506615458/SNCC86926_SHINSEKAI.jpg/600x600bb.jpg"
     },
     "モニタリング": {
       "title": "モニタリング",
@@ -555,10 +555,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "StarRingChild",
+      "title": "蝶々結び",
       "artist": "Aimer",
-      "album": "Midnight Sun",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cf/4d/09/cf4d09ff-c6e8-0964-d493-cf0841a9216a/4560429727163.jpg/600x600bb.jpg"
+      "album": "蝶々結び - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg"
     },
     "だから僕は音楽を辞めた": {
       "title": "だから僕は音楽を辞めた",
