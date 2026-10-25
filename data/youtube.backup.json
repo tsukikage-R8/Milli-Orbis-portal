@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-10-25T08:46:02.858Z",
+  "updatedAt": "2026-10-25T15:07:53.175Z",
   "streams": [
-    {
-      "id": "OFNccogcP44",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Supermarket Chaos】お掃除好きの私が汚世界を救済するට⩊ටಇ【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/OFNccogcP44/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-25T03:03:02Z",
-      "status": "live"
-    },
-    {
-      "id": "hzjK6I1bLZM",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 雑談 】恋愛究極の2択！？皆で恋バナしよ💓【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/hzjK6I1bLZM/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-25T11:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "qc_zkIoureo",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "title": "【雑談】マシュマロを読んでいくぞ～！！！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/qc_zkIoureo/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-25T11:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "Np7iIJhRB50",
       "memberId": "nuhu",
@@ -121,13 +94,13 @@
   ],
   "videos": [
     {
-      "id": "XRI5cFo_ZXc",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "週末の宿題、やらなきゃいけない作業、溜まってる人、強制集合。【#あまかみらいぶ】",
-      "thumb": "https://i.ytimg.com/vi/XRI5cFo_ZXc/hqdefault.jpg",
-      "publishedAt": "2026-10-25T07:27:33Z",
+      "id": "9o6oRDN7iog",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 歌枠 〗２ ８ 万 人 耐 久〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/9o6oRDN7iog/hqdefault.jpg",
+      "publishedAt": "2026-10-25T14:52:16Z",
       "live": false
     },
     {
@@ -136,9 +109,29 @@
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
       "title": "【 雑談 】恋愛究極の2択！？皆で恋バナしよ💓【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/hzjK6I1bLZM/hqdefault.jpg?v=6add86c6",
-      "publishedAt": "2026-10-25T04:34:12Z",
+      "thumb": "https://i.ytimg.com/vi/hzjK6I1bLZM/hqdefault.jpg",
+      "publishedAt": "2026-10-25T13:15:30Z",
       "live": true
+    },
+    {
+      "id": "qc_zkIoureo",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【雑談】マシュマロを読んでいくぞ～！！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/qc_zkIoureo/hqdefault.jpg",
+      "publishedAt": "2026-10-25T13:14:50Z",
+      "live": true
+    },
+    {
+      "id": "O62Whdk29mc",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 歌枠 】今日はロックの気分 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/O62Whdk29mc/hqdefault.jpg",
+      "publishedAt": "2026-10-25T13:02:58Z",
+      "live": false
     },
     {
       "id": "OFNccogcP44",
@@ -146,8 +139,38 @@
       "member": "鹿乃まほろ",
       "channelTitle": "鹿乃まほろ / Kano Mahoro",
       "title": "【Supermarket Chaos】お掃除好きの私が汚世界を救済するට⩊ටಇ【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/OFNccogcP44/hqdefault.jpg?v=6adc6f25",
-      "publishedAt": "2026-10-25T03:03:02Z",
+      "thumb": "https://i.ytimg.com/vi/OFNccogcP44/hqdefault.jpg",
+      "publishedAt": "2026-10-25T12:21:22Z",
+      "live": false
+    },
+    {
+      "id": "ff7pBHIEfEQ",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【コーデ対決】甘狼このみをプロデュース！？一番好みを理解しているのは誰だ！？【ハロウィン】",
+      "thumb": "https://i.ytimg.com/vi/ff7pBHIEfEQ/hqdefault.jpg",
+      "publishedAt": "2026-10-25T10:00:08Z",
+      "live": false
+    },
+    {
+      "id": "GGkpzxoCX-c",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】ワニに噛まれず生き残れ！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/GGkpzxoCX-c/hqdefault.jpg",
+      "publishedAt": "2026-10-25T09:00:13Z",
+      "live": false
+    },
+    {
+      "id": "XRI5cFo_ZXc",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "週末の宿題、やらなきゃいけない作業、溜まってる人、強制集合。【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/XRI5cFo_ZXc/hqdefault.jpg",
+      "publishedAt": "2026-10-25T07:27:33Z",
       "live": false
     },
     {
@@ -188,16 +211,6 @@
       "title": "【BOMBANANA】こまちゃんとメメちゃんと爆弾解除ゲーム！【鹿乃まほろ/ミリプロ】with 小廻こま・メーメントヴァニタス",
       "thumb": "https://i.ytimg.com/vi/6kkUuO04VaU/hqdefault.jpg",
       "publishedAt": "2026-10-24T14:34:27Z",
-      "live": false
-    },
-    {
-      "id": "ff7pBHIEfEQ",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【コーデ対決】甘狼このみをプロデュース！？一番好みを理解しているのは誰だ！？【ハロウィン】",
-      "thumb": "https://i.ytimg.com/vi/ff7pBHIEfEQ/hqdefault.jpg",
-      "publishedAt": "2026-10-24T14:23:20Z",
       "live": false
     },
     {
@@ -331,16 +344,6 @@
       "live": false
     },
     {
-      "id": "qc_zkIoureo",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【雑談】マシュマロを読んでいくぞ～！！！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/qc_zkIoureo/hqdefault.jpg?v=6adb470b",
-      "publishedAt": "2026-10-23T11:37:45Z",
-      "live": true
-    },
-    {
       "id": "eIjDFsmLw4s",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -389,47 +392,7 @@
       "thumb": "https://i.ytimg.com/vi/-SZ1nerCiqM/hqdefault.jpg",
       "publishedAt": "2026-10-23T09:00:27Z",
       "live": false
-    },
-    {
-      "id": "g4onBV6snfc",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "メロ声合唱で『島のうた』歌ってみた【夕霧レイ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/g4onBV6snfc/hqdefault.jpg",
-      "publishedAt": "2026-10-23T09:00:25Z",
-      "live": false
-    },
-    {
-      "id": "onJ2sqs909o",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "ちょっとしたお手伝いのはずが… #マイクラ",
-      "thumb": "https://i.ytimg.com/vi/onJ2sqs909o/hqdefault.jpg",
-      "publishedAt": "2026-10-23T09:00:22Z",
-      "live": false
-    },
-    {
-      "id": "Tkit48gvqoM",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "高嶺の花子さん 歌ってみた【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Tkit48gvqoM/hqdefault.jpg",
-      "publishedAt": "2026-10-23T09:00:19Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "OFNccogcP44",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Supermarket Chaos】お掃除好きの私が汚世界を救済するට⩊ටಇ【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/OFNccogcP44/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-25T03:03:02Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
