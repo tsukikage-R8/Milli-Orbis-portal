@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-10-24T22:02:07.006Z",
+  "updatedAt": "2026-10-25T01:56:45.717Z",
   "streams": [
-    {
-      "id": "ii_wtzZ-6Fw",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "title": "【雑談】朝活！今日もまった～りいきましょ～！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ii_wtzZ-6Fw/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-24T21:01:05Z",
-      "status": "live"
-    },
     {
       "id": "OFNccogcP44",
       "memberId": "mahoro",
@@ -126,8 +117,8 @@
       "member": "海琳あおい",
       "channelTitle": "海琳あおい / Mitama Aoi",
       "title": "【雑談】朝活！今日もまった～りいきましょ～！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ii_wtzZ-6Fw/hqdefault.jpg?v=6add1af2",
-      "publishedAt": "2026-10-24T21:01:05Z",
+      "thumb": "https://i.ytimg.com/vi/ii_wtzZ-6Fw/hqdefault.jpg",
+      "publishedAt": "2026-10-24T23:19:04Z",
       "live": true
     },
     {
@@ -421,15 +412,5 @@
       "live": false
     }
   ],
-  "live": [
-    {
-      "id": "ii_wtzZ-6Fw",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "title": "【雑談】朝活！今日もまった～りいきましょ～！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ii_wtzZ-6Fw/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-24T21:01:05Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
