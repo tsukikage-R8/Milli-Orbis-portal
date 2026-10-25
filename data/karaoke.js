@@ -1,6 +1,22 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "9o6oRDN7iog",
+    "memberId": "tsukuri",
+    "publishedAt": "2026-10-25",
+    "title": "〖 歌枠 〗２ ８ 万 人 耐 久〖 眠雲ツクリ / ミリプロ 〗",
+    "duration": 8302,
+    "songs": []
+  },
+  {
+    "id": "O62Whdk29mc",
+    "memberId": "rei",
+    "publishedAt": "2026-10-25",
+    "title": "【 歌枠 】今日はロックの気分 ⟡.· 【 夕霧レイ/ミリプロ 】",
+    "duration": 6973,
+    "songs": []
+  },
+  {
     "id": "2nFCvxTjr-Q",
     "memberId": "nono",
     "publishedAt": "2026-10-24",
