@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-10-25",
+  "generatedAt": "2026-10-26",
   "songs": {
     "ギタと孤独と蒼い惑星": {
       "title": "もう一度キスしたかった",

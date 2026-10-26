@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T22:07:30.933Z",
+  "updatedAt": "2026-10-26T01:58:29.258Z",
   "streams": [
     {
       "id": "Np7iIJhRB50",
@@ -93,6 +93,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "ytpWQst7ky0",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【朝活】みんなに元気を分けるぞーーー！！【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ytpWQst7ky0/hqdefault.jpg",
+      "publishedAt": "2026-10-26T00:12:56Z",
+      "live": false
+    },
     {
       "id": "9o6oRDN7iog",
       "memberId": "tsukuri",
@@ -381,16 +391,6 @@
       "title": "【shortオリジナル曲】LET ME OUTSIDE！ 😛#shorts 【雨夜リズ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/rTUyRzF18Kc/hqdefault.jpg",
       "publishedAt": "2026-10-23T09:00:34Z",
-      "live": false
-    },
-    {
-      "id": "-SZ1nerCiqM",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】甘狼このみ危機一髪に挑戦！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/-SZ1nerCiqM/hqdefault.jpg",
-      "publishedAt": "2026-10-23T09:00:27Z",
       "live": false
     }
   ],
