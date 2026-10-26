@@ -3,10 +3,10 @@ window.SONG_MASTER = {
   "generatedAt": "2026-10-26",
   "songs": {
     "ギタと孤独と蒼い惑星": {
-      "title": "もう一度キスしたかった",
-      "artist": "B'z",
-      "album": "IN THE LIFE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/67/8d/33/678d33aa-4eeb-8682-575d-0bbc3e95cd59/dj.ylccwcgc.jpg/600x600bb.jpg"
+      "title": "In the Morning",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "Mrs. GREEN APPLE",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/02/6d/e2026db1-a828-6437-2db1-536e454fe044/00602557312133.rgb.jpg/600x600bb.jpg"
     },
     "天ノ弱": {
       "title": "天ノ弱",
@@ -55,9 +55,9 @@ window.SONG_MASTER = {
     },
     "surges＆": {
       "title": "Surges",
-      "artist": "m",
+      "artist": "Orangestar",
       "album": "Surges - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/8d/1b/d38d1baf-7312-ee15-f952-8fc668c7a9a3/4562424562909.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f8/93/65/f8936589-9412-28c5-bba5-5de355fe34b7/859757272648_cover.jpg/600x600bb.jpg"
     },
     "iii": {
       "title": "I I I",
@@ -555,10 +555,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "蝶々結び",
+      "title": "StarRingChild",
       "artist": "Aimer",
-      "album": "蝶々結び - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg"
+      "album": "Midnight Sun",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cf/4d/09/cf4d09ff-c6e8-0964-d493-cf0841a9216a/4560429727163.jpg/600x600bb.jpg"
     },
     "だから僕は音楽を辞めた": {
       "title": "だから僕は音楽を辞めた",
@@ -588,10 +588,13 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "メロリ",
-      "artist": "Hey! Say! JUMP",
-      "album": "S say",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/ca/56/a8ca56fa-2106-4056-1ffa-dc4a0fa0af2e/4517331098560.jpg/600x600bb.jpg"
+      "title": "いい感じ",
+      "artist": "ケツメイシ",
+      "album": "KETSUNOPOLIS 10",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Feels good"
+      }
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -786,10 +789,10 @@ window.SONG_MASTER = {
       }
     },
     "stay": {
-      "title": "STAY",
-      "artist": "ジャスティン・ビーバー & ザ・キッド・ラロイ",
-      "album": "SWAG LIVE FROM COACHELLA (Weekend I)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/06/1c/73/061c7321-52c9-5532-4fb5-5d704e43e7a9/ticket.efkjkgmd.jpg/600x600bb.jpg"
+      "title": "Stay",
+      "artist": "Zedd & アレッシア・カーラ",
+      "album": "Stay - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/08/90/e50890a8-205e-a810-dcda-44b614f99f5f/00602557442878.rgb.jpg/600x600bb.jpg"
     },
     "粛聖!!ロリ神レクイエム☆": {
       "title": "粛聖!! ロリ神レクイエム☆",

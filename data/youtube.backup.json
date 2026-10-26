@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-10-26T01:58:29.258Z",
+  "updatedAt": "2026-10-26T09:25:24.408Z",
   "streams": [
+    {
+      "id": "LAXQ38xCsUI",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "title": "【歌枠】ゲリラ～！今週もがんばりましょい！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/LAXQ38xCsUI/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-26T09:09:55Z",
+      "status": "live"
+    },
+    {
+      "id": "TrrjmgVx0qU",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 開かない。ランドリー 】このあと予定あるんで、閉じ込めないでもらえます？【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/TrrjmgVx0qU/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-26T10:30:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "Np7iIJhRB50",
       "memberId": "nuhu",
@@ -44,6 +62,15 @@
       "title": "【📢グッズ情報】海琳あおい加入記念グッズ受注販売受付中🌱",
       "thumb": "https://i.ytimg.com/vi/1l1YkUzKuXs/hqdefault.jpg",
       "scheduledStartTime": "2026-11-17T14:30:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "ML6UdIQfYv0",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "☁ミリプロ ハロウィンコレクション 2026🔧",
+      "thumb": "https://i.ytimg.com/vi/ML6UdIQfYv0/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-24T14:45:00Z",
       "status": "upcoming"
     },
     {
@@ -93,6 +120,56 @@
     }
   ],
   "videos": [
+    {
+      "id": "LAXQ38xCsUI",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【歌枠】ゲリラ～！今週もがんばりましょい！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/LAXQ38xCsUI/hqdefault.jpg?v=6adf17d8",
+      "publishedAt": "2026-10-26T09:09:55Z",
+      "live": false
+    },
+    {
+      "id": "o5hk_GzbYCQ",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "『デビットビット』歌ってみた【夕霧レイ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/o5hk_GzbYCQ/hqdefault.jpg",
+      "publishedAt": "2026-10-26T09:00:34Z",
+      "live": false
+    },
+    {
+      "id": "kyn3h5oSAi0",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "【これ読める？】ボカロ歌詞漢字検定！✏️【眠雲ツクリ/ミリプロ】#歌ってみた #ボカロ",
+      "thumb": "https://i.ytimg.com/vi/kyn3h5oSAi0/hqdefault.jpg",
+      "publishedAt": "2026-10-26T09:00:33Z",
+      "live": false
+    },
+    {
+      "id": "0S0kq2MsiSg",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】1個しかないダイヤを見つけろ！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/0S0kq2MsiSg/hqdefault.jpg",
+      "publishedAt": "2026-10-26T09:00:01Z",
+      "live": false
+    },
+    {
+      "id": "TrrjmgVx0qU",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 開かない。ランドリー 】このあと予定あるんで、閉じ込めないでもらえます？【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/TrrjmgVx0qU/hqdefault.jpg?v=6adf0f44",
+      "publishedAt": "2026-10-26T08:28:50Z",
+      "live": false
+    },
     {
       "id": "ytpWQst7ky0",
       "memberId": "liz",
@@ -201,16 +278,6 @@
       "title": "【歌枠】３D で 歌 う┊︎#音ノ乃のの #ののん家",
       "thumb": "https://i.ytimg.com/vi/2nFCvxTjr-Q/hqdefault.jpg",
       "publishedAt": "2026-10-24T17:20:45Z",
-      "live": false
-    },
-    {
-      "id": "OnDjSzXKSWg",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【歌枠】録音の休憩に歌うよん【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/OnDjSzXKSWg/hqdefault.jpg",
-      "publishedAt": "2026-10-24T14:57:52Z",
       "live": false
     },
     {
@@ -352,47 +419,17 @@
       "thumb": "https://i.ytimg.com/vi/mr5SqswSds8/hqdefault.jpg",
       "publishedAt": "2026-10-23T12:33:19Z",
       "live": false
-    },
-    {
-      "id": "eIjDFsmLw4s",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "ギターと孤独と蒼い惑星 ／眠雲ツクリ（cover）",
-      "thumb": "https://i.ytimg.com/vi/eIjDFsmLw4s/hqdefault.jpg",
-      "publishedAt": "2026-10-23T11:00:09Z",
-      "live": false
-    },
-    {
-      "id": "LAq7GXQX4QI",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【雑談】お う ち ３D┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/LAq7GXQX4QI/hqdefault.jpg",
-      "publishedAt": "2026-10-23T09:23:34Z",
-      "live": true
-    },
-    {
-      "id": "8IFwsGcU74c",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【声真似】映画ちいかわの『島のうた』歌ってみた【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8IFwsGcU74c/hqdefault.jpg",
-      "publishedAt": "2026-10-23T09:00:37Z",
-      "live": false
-    },
-    {
-      "id": "rTUyRzF18Kc",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【shortオリジナル曲】LET ME OUTSIDE！ 😛#shorts 【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/rTUyRzF18Kc/hqdefault.jpg",
-      "publishedAt": "2026-10-23T09:00:34Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "LAXQ38xCsUI",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "title": "【歌枠】ゲリラ～！今週もがんばりましょい！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/LAXQ38xCsUI/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-26T09:09:55Z",
+      "status": "live"
+    }
+  ]
 }
