@@ -25,14 +25,6 @@ window.KARAOKE = [
     "songs": []
   },
   {
-    "id": "OnDjSzXKSWg",
-    "memberId": "liz",
-    "publishedAt": "2026-10-24",
-    "title": "【歌枠】録音の休憩に歌うよん【雨夜リズ/ミリプロ】",
-    "duration": 6563,
-    "songs": []
-  },
-  {
     "id": "rflF7bDpbrk",
     "memberId": "raco",
     "publishedAt": "2026-10-23",
