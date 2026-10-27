@@ -55,9 +55,9 @@ window.SONG_MASTER = {
     },
     "surges＆": {
       "title": "Surges",
-      "artist": "Orangestar",
+      "artist": "m",
       "album": "Surges - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f8/93/65/f8936589-9412-28c5-bba5-5de355fe34b7/859757272648_cover.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/8d/1b/d38d1baf-7312-ee15-f952-8fc668c7a9a3/4562424562909.jpg/600x600bb.jpg"
     },
     "iii": {
       "title": "I I I",
@@ -216,13 +216,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/80/66/c0/8066c0aa-bf56-4e5e-4689-1c5f82a3cfbd/4570063063978.jpg/600x600bb.jpg"
     },
     "点描の唄mrs.greenapple": {
-      "title": "点描の唄",
-      "artist": "石崎ひゅーい",
-      "album": "night milk",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/77/9c/8e779cb1-6db7-e22b-5eda-aa827cb48e38/4547366719338.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Pointillist song"
-      }
+      "title": "点描の唄 (feat. 井上苑子)",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "青と夏 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/34/27/08/3427087f-2d39-4847-9b19-052dd3589014/18UMGIM36633.rgb.jpg/600x600bb.jpg"
     },
     "花女花譜": {
       "title": "花女",
@@ -276,10 +273,13 @@ window.SONG_MASTER = {
       }
     },
     "フィナレ。": {
-      "title": "フィナーレ",
-      "artist": "トビー・フォックス",
-      "album": "Undertale サウンドトラック",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/78/32/dd7832db-4ba8-a363-2838-c14e94b8c986/811576030076.png/600x600bb.jpg"
+      "title": "フィナーレ。",
+      "artist": "eill",
+      "album": "プレロマンス / フィナーレ。 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5d/c4/3b/5dc43ba7-a92b-af19-6cda-64d366e9407c/PCSP_04381_A.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Finale."
+      }
     },
     "おやすみ泣き声、さよなら姫": {
       "title": "愛の標識",
@@ -367,12 +367,6 @@ window.SONG_MASTER = {
       "en": {
         "title": "proposal"
       }
-    },
-    "snooze": {
-      "title": "聴けば自然と眠くなる睡眠導入BGM ヒーリングピアノ (睡眠と集中のためのバイノーラルビート)",
-      "artist": "SLEEPY NUTS",
-      "album": "すぐに眠れる音楽 心が落ち着くリラクゼーションBGM",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ef/9b/1b/ef9b1b15-49c4-a467-c796-ba5105e1481d/4550795067567_cover.jpg/600x600bb.jpg"
     },
     "ワルドイズマイン": {
       "title": "ワールドイズマイン",
@@ -504,10 +498,13 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/aa/33/55/aa335541-9932-d73c-6b1e-62bd484fc83d/4547366642308.jpg/600x600bb.jpg"
     },
     "嫌々-halvesshortby": {
-      "title": "アンコール",
-      "artist": "YOASOBI",
-      "album": "THE BOOK",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7f/8c/90/7f8c90dd-e11f-30d5-271d-4b72eee970bd/195497666737.jpg/600x600bb.jpg"
+      "title": "ダーリン",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "ダーリン - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7b/b9/27/7bb92776-1f4a-06c6-e36e-de889f2b8620/25UMGIM01757.rgb.jpg/600x600bb.jpg",
+      "en": {
+        "title": "darling"
+      }
     },
     "メルト": {
       "title": "メルト -MIKU EXPO 2014 in INDONESIA Live-",
@@ -528,13 +525,10 @@ window.SONG_MASTER = {
       }
     },
     "プレイ-gigashortby": {
-      "title": "踊ろうぜ",
-      "artist": "ヨルシカ",
-      "album": "だから僕は音楽を辞めた",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/64/ab/ba/64abba45-d080-0e8a-c24b-313e597c63cb/PA00076158_0_91679_jacket.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Let's dance"
-      }
+      "title": "雨のち晴レルヤ",
+      "artist": "ゆず",
+      "album": "新世界",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/8e/cf/5c/8ecf5c6f-8240-4602-ed5d-ca2506615458/SNCC86926_SHINSEKAI.jpg/600x600bb.jpg"
     },
     "モニタリング": {
       "title": "モニタリング",
@@ -930,10 +924,10 @@ window.SONG_MASTER = {
       }
     },
     "悪魔の踊り方": {
-      "title": "悪魔の踊り方 (feat. 小豆沢こはね, 白石杏, 東雲彰人, 青柳冬弥 & 鏡音リン)",
-      "artist": "Vivid BAD SQUAD",
-      "album": "Vivid BAD SQUAD SEKAI ALBUM Vol. 1",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/27/eb/b5/27ebb5b5-1441-146d-dc30-f83370de9d7a/4511820-95571.jpg/600x600bb.jpg"
+      "title": "MANIHEKE",
+      "artist": "アイリフドーパ",
+      "album": "GENTEN - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ab/2e/1e/ab2e1e1a-7f81-2ef1-2feb-74f1930d1a9c/199806597972.jpg/600x600bb.jpg"
     },
     "青と夏": {
       "title": "群青",
@@ -1227,10 +1221,10 @@ window.SONG_MASTER = {
       }
     },
     "雨き声残響acoustic.": {
-      "title": "六月は雨上がりの街を書く",
-      "artist": "ヨルシカ",
-      "album": "だから僕は音楽を辞めた",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/64/ab/ba/64abba45-d080-0e8a-c24b-313e597c63cb/PA00076158_0_91679_jacket.jpg/600x600bb.jpg"
+      "title": "セトリ (feat. Gang Boy)",
+      "artist": "フジハラタク",
+      "album": "hello good day",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/3f/1b/a83f1bab-df6f-9f27-ba86-ab089d7b1fd6/bigup13914353.jpg/600x600bb.jpg"
     },
     "春を告げるacoustic.": {
       "title": "ゆめうつつ - Daydream",
@@ -1373,8 +1367,8 @@ window.SONG_MASTER = {
     "カタオモイ-aimer": {
       "title": "カタオモイ",
       "artist": "Aimer",
-      "album": "BEST SELECTION \"blanc\"",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ab/ab/9b/abab9b3b-41cd-a0c0-29c0-6a1464501c0b/4547366306514.jpg/600x600bb.jpg"
+      "album": "daydream",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/46/4a/84/464a843d-14cc-e5e2-a9d6-763eb558e104/4547366270358.jpg/600x600bb.jpg"
     },
     "ちゅ、多様性。": {
       "title": "MAD HEAD LOVE",
@@ -1383,7 +1377,7 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg"
     },
     "trustonme-themeofe.t.e": {
-      "title": "Trust On Me -Theme of E.T.E- (feat. MARiA)",
+      "title": "Trust On Me -Theme of E.T.E- (feat. MARiA) [Instrumental]",
       "artist": "小室哲哉",
       "album": "Trust On Me -Theme of E.T.E- (feat. MARiA) - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d6/db/f6/d6dbf678-2d9d-0d39-22a9-f2e60809f800/PCSP_04640_A.jpg/600x600bb.jpg"
@@ -1395,10 +1389,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/81/36/af/8136afa9-cf94-f4d5-8460-9510c8f6e99f/PA00077485_0_180113_jacket.jpg/600x600bb.jpg"
     },
     "僕が死のうと思ったのは.": {
-      "title": "Lemon",
-      "artist": "米津玄師",
-      "album": "STRAY SHEEP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6b/0f/0b/6b0f0b3d-e842-5ee1-83a8-1b12142a9dfd/dj.bpfbtyiy.jpg/600x600bb.jpg"
+      "title": "ブルーアンビエンス (feat. asmi)",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "Unity - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/45/11/66/45116621-c965-642d-43ef-b8cf33711bde/22UMGIM58754.rgb.jpg/600x600bb.jpg"
     },
     "無理に笑わなくて良いよ.": {
       "title": "ハロ/ハワユ",
@@ -1500,10 +1494,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/67/8f/cd/678fcd20-21ad-4f96-eecf-ef85d489b4c0/4511820-95411.jpg/600x600bb.jpg"
     },
     "sakuraいきものがかりacousticarrange": {
-      "title": "Es (feat. 初音ミク)",
-      "artist": "PALZ",
-      "album": "Es (feat. 初音ミク) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d7/b0/32/d7b0320a-2222-d541-d57c-a5b16ea87705/4550757724903_cover.png/600x600bb.jpg"
+      "title": "Give me a brains",
+      "artist": "RAXISS",
+      "album": "俺の城 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/fb/75/aefb756e-7db7-80fa-9a0d-e161bdc4505d/bigup14157593.jpg/600x600bb.jpg"
     },
     "どりみんチュチュdreaminchuchu.": {
       "title": "どりーみんチュチュ",
@@ -1728,16 +1722,16 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/01/59/99/01599957-2275-80b6-efcf-383cde773967/198009138098.png/600x600bb.jpg"
     },
     "ケッペキショウいました": {
-      "title": "絶望性:ヒーロー治療薬 (feat. そらる)",
-      "artist": "スズム",
-      "album": "絶望性:ヒーロー治療薬【通常盤】 (feat. Soraru) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/b7/02/9ab702b7-14b9-de10-c826-3793b4ed97c6/5021732646163.jpg/600x600bb.jpg"
+      "title": "爛葬",
+      "artist": "Sick2",
+      "album": "爛葬【TYPE-B】 - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1e/3f/c6/1e3fc662-82a6-687d-fe61-36a842f62ee3/13153900.jpg/600x600bb.jpg"
     },
     "ハロハワユいました": {
-      "title": "ドーナツホール (COVER)",
-      "artist": "米津玄師",
-      "album": "YANKEE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg"
+      "title": "秒針を噛む",
+      "artist": "ずっと真夜中でいいのに。",
+      "album": "秒針を噛む - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/38/2c/03/382c0375-11db-242e-4bf0-4e2e31380d74/00602567952343.rgb.jpg/600x600bb.jpg"
     },
     "クエスチョン": {
       "title": "クエスチョン",
@@ -1926,10 +1920,10 @@ window.SONG_MASTER = {
       }
     },
     "すぱなチャット": {
-      "title": "SHAMPOO",
-      "artist": "PUNPEE, BIM & Elle Teresa",
-      "album": "Iced Out - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3f/2f/d4/3f2fd442-0514-722f-1dba-dd0f2403a098/4573268541708_cover.png/600x600bb.jpg"
+      "title": "Streamer",
+      "artist": "すとぷり",
+      "album": "Streamer - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/23/6c/30/236c30da-7cc3-24bd-d526-0dcf2eccf69a/20UMGIM70644.rgb.jpg/600x600bb.jpg"
     },
     "エイリアンエイリアン": {
       "title": "エイリアンエイリアン",
@@ -1952,8 +1946,8 @@ window.SONG_MASTER = {
     "やさしさに包まれたなら": {
       "title": "やさしさに包まれたなら",
       "artist": "荒井由実",
-      "album": "MISSLIM",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/52/9c/a0/529ca062-8a63-d1d7-5e6b-6774ba415dc2/00602567988229.rgb.jpg/600x600bb.jpg",
+      "album": "40周年記念ベストアルバム 日本の恋と、ユーミンと。",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/9d/29/a59d2913-c2a1-4d9c-78b2-0fa914eb3336/00602567997542.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "If you are surrounded by kindness"
       }
