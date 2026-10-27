@@ -1068,9 +1068,10 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
       "あくび・でもんすぺーど",
+      "まもなく終了",
       "ゆらぎゆら",
       "夕霧レイ",
       "小廻こま",
@@ -1110,9 +1111,10 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
       "あくび・でもんすぺーど",
+      "まもなく終了",
       "小廻こま",
       "甘狼このみ",
       "音ノ乃のの"
@@ -1145,9 +1147,10 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
       "あくび・でもんすぺーど",
+      "まもなく終了",
       "小廻こま",
       "甘狼このみ",
       "音ノ乃のの"
@@ -1180,9 +1183,10 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
       "あくび・でもんすぺーど",
+      "まもなく終了",
       "小廻こま",
       "甘狼このみ",
       "音ノ乃のの"
@@ -1215,9 +1219,10 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
       "あくび・でもんすぺーど",
+      "まもなく終了",
       "小廻こま",
       "甘狼このみ",
       "音ノ乃のの"
@@ -1250,9 +1255,10 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
       "あくび・でもんすぺーど",
+      "まもなく終了",
       "小廻こま",
       "甘狼このみ",
       "音ノ乃のの"
@@ -1285,9 +1291,10 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
       "あくび・でもんすぺーど",
+      "まもなく終了",
       "小廻こま",
       "甘狼このみ",
       "音ノ乃のの"
@@ -1320,9 +1327,10 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
       "あくび・でもんすぺーど",
+      "まもなく終了",
       "小廻こま",
       "甘狼このみ",
       "音ノ乃のの"
@@ -1355,9 +1363,10 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
       "あくび・でもんすぺーど",
+      "まもなく終了",
       "小廻こま",
       "常設同梱不可",
       "甘狼このみ",
@@ -1423,9 +1432,9 @@
       "rawOrder": "2026年9月26日 〜 2026年10月26日",
       "rawShip": "2027年4月下旬頃まで"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
       "inventory-policy-denied",
       "小廻こま",
@@ -1458,9 +1467,9 @@
       "rawOrder": "2026年9月26日 〜 2026年10月26日",
       "rawShip": "2027年4月下旬頃まで"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
       "inventory-policy-denied",
       "小廻こま",
@@ -1493,9 +1502,9 @@
       "rawOrder": "2026年9月26日 〜 2026年10月26日",
       "rawShip": "2027年4月下旬頃まで"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
       "inventory-policy-denied",
       "小廻こま",
@@ -1528,9 +1537,9 @@
       "rawOrder": "2026年9月26日 〜 2026年10月26日",
       "rawShip": "2027年4月下旬頃まで"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
       "inventory-policy-denied",
       "小廻こま",
@@ -1563,9 +1572,9 @@
       "rawOrder": "2026年9月26日 〜 2026年10月26日",
       "rawShip": "2026年9月26日 〜 2026年10月26日"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
       "inventory-policy-denied",
       "小廻こま",
@@ -1599,9 +1608,9 @@
       "rawOrder": "2026年9月26日 〜 2026年10月26日",
       "rawShip": "2027年4月下旬頃まで"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
       "inventory-policy-denied",
       "小廻こま",
@@ -1634,9 +1643,9 @@
       "rawOrder": "2026年9月26日 〜 2026年10月26日",
       "rawShip": "2027年4月下旬頃まで"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
       "inventory-policy-denied",
       "小廻こま",
@@ -1669,9 +1678,9 @@
       "rawOrder": "2026年9月26日 〜 2026年10月26日",
       "rawShip": "2027年4月下旬頃まで"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
       "inventory-policy-denied",
       "小廻こま",
