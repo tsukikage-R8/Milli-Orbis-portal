@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-10-27T09:23:30.219Z",
+  "updatedAt": "2026-10-27T16:55:58.730Z",
   "streams": [
-    {
-      "id": "wWQMEVgOVmI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 Minecraft 】初！ソロエンドラ討伐！要塞どこですか！？🏹【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/wWQMEVgOVmI/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-27T11:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "Np7iIJhRB50",
       "memberId": "nuhu",
@@ -94,6 +85,16 @@
   ],
   "videos": [
     {
+      "id": "wWQMEVgOVmI",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 Minecraft 】初！ソロエンドラ討伐！要塞どこですか！？🏹【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/wWQMEVgOVmI/hqdefault.jpg",
+      "publishedAt": "2026-10-27T16:42:16Z",
+      "live": false
+    },
+    {
       "id": "b79EbktKYoU",
       "memberId": "aoi",
       "member": "海琳あおい",
@@ -111,16 +112,6 @@
       "title": "【アニメ】信用できない言葉 #ミリプロ #anime",
       "thumb": "https://i.ytimg.com/vi/GNACCAa8GFo/hqdefault.jpg",
       "publishedAt": "2026-10-27T09:00:14Z",
-      "live": false
-    },
-    {
-      "id": "wWQMEVgOVmI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 Minecraft 】初！ソロエンドラ討伐！要塞どこですか！？🏹【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/wWQMEVgOVmI/hqdefault.jpg?v=6ae04301",
-      "publishedAt": "2026-10-27T06:21:50Z",
       "live": false
     },
     {

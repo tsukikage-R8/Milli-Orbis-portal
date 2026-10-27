@@ -3269,10 +3269,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2022-07-16"
         }
-      ],
-      "en": {
-        "title": "Masterpiece (Greatest Works of Art) cover. Kano"
-      }
+      ]
     },
     {
       "title": "シンデレラボーイ cover. 鹿乃",
@@ -3283,10 +3280,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2022-06-11"
         }
-      ],
-      "en": {
-        "title": "Cinderella Boy cover. Kano"
-      }
+      ]
     },
     {
       "title": "「Sincerely」acoustic arrange cover. 鹿乃（ヴァイオレット・エヴァーガーデンOP）",
@@ -3297,10 +3291,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2022-05-07"
         }
-      ],
-      "en": {
-        "title": "“Sincerely” acoustic arrange cover. Kano (Violet Evergarden OP)"
-      }
+      ]
     },
     {
       "title": "僕が死のうと思ったのは cover. 鹿乃",
@@ -3311,10 +3302,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2022-04-09"
         }
-      ],
-      "en": {
-        "title": "The thing that made me want to die was cover. Kano"
-      }
+      ]
     },
     {
       "title": "無理に笑わなくて良いよ cover. 鹿乃",
@@ -3325,10 +3313,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2022-04-01"
         }
-      ],
-      "en": {
-        "title": "You don't have to force yourself to smile cover. Kano"
-      }
+      ]
     },
     {
       "title": "「Oz./yama」covered by 鹿乃（王様ランキングED）",
@@ -3339,10 +3324,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2021-11-25"
         }
-      ],
-      "en": {
-        "title": "“Oz./yama” covered by Kano (King Ranking ED)"
-      }
+      ]
     },
     {
       "title": "CHO-DARI-",
@@ -3392,10 +3374,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2021-08-28"
         }
-      ],
-      "en": {
-        "title": "Mercury Covered by Kano"
-      }
+      ]
     },
     {
       "title": "てねてね / 悒うつぼ",
@@ -3520,10 +3499,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2021-02-10"
         }
-      ],
-      "en": {
-        "title": "SAKURA/Ikimonogakari acoustic arrange cover Kano"
-      }
+      ]
     },
     {
       "title": "どりーみんチュチュ / Dreamin Chuchu cover.鹿乃",
@@ -3534,10 +3510,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-12-13"
         }
-      ],
-      "en": {
-        "title": "Dreamin Chuchu cover.Kano"
-      }
+      ]
     },
     {
       "title": "嘘つきは恋のはじまり arrange ver. /鹿乃×40mP",
@@ -3548,10 +3521,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-10-29"
         }
-      ],
-      "en": {
-        "title": "Liar is the beginning of love arrange ver. /Kano×40mP"
-      }
+      ]
     },
     {
       "title": "会いたい《想见你想见你想见你》/ cover 鹿乃",
@@ -3562,10 +3532,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-06-27"
         }
-      ],
-      "en": {
-        "title": "I want to meet you《thinking about you》/ cover Kano"
-      }
+      ]
     },
     {
       "title": "花に亡霊 - ヨルシカ/cover 鹿乃",
@@ -3576,10 +3543,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Ghost in the Flower - Yorushika/cover Kano"
-      }
+      ]
     },
     {
       "title": "猫猫的宇宙論 cover.鹿乃",
@@ -3590,10 +3554,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Cat and cat cosmology cover.Kano"
-      }
+      ]
     },
     {
       "title": "別の人の彼女になったよ arrange cover.鹿乃",
@@ -3604,10 +3565,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "I became someone else's girlfriend arrange cover.Kano"
-      }
+      ]
     },
     {
       "title": "この世界を愛したい cover.鹿乃",
@@ -3618,10 +3576,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "I want to love this world cover.Kano"
-      }
+      ]
     },
     {
       "title": "灰色と青 cover.鹿乃",
@@ -3632,10 +3587,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Gray and blue cover.Kano"
-      }
+      ]
     },
     {
       "title": "愛にできることはまだあるかい acoustic cover.鹿乃",
@@ -3646,10 +3598,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Is there anything more that love can do?acoustic cover.Kano"
-      }
+      ]
     },
     {
       "title": "地球最後の告白を acoustic cover.鹿乃",
@@ -3660,10 +3609,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Earth's last confession acoustic cover.Kano"
-      }
+      ]
     },
     {
       "title": "乙女解剖 歌いました",
@@ -3674,10 +3620,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Maiden Anatomy sang"
-      }
+      ]
     },
     {
       "title": "それがあなたの幸せとしても acoustic cover.鹿乃",
@@ -3688,10 +3631,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Even if it's your happiness acoustic cover.Kano"
-      }
+      ]
     },
     {
       "title": "君がいる世界へ 一花依世界 日本語版",
@@ -3702,10 +3642,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "To the world where you are Ichikayori world Japanese version"
-      }
+      ]
     },
     {
       "title": "メルティランドナイトメア 　cover　鹿乃",
@@ -3716,10 +3653,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Melty Land Nightmare cover Kano"
-      }
+      ]
     },
     {
       "title": "ハイタ 歌ってみた",
@@ -3730,10 +3664,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Haita I tried singing"
-      }
+      ]
     },
     {
       "title": "打上花火　歌ってみた",
@@ -3744,10 +3675,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Fireworks - I tried singing"
-      }
+      ]
     },
     {
       "title": "おねがいダーリン　歌ってみた",
@@ -3758,10 +3686,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Onegai darling, I tried singing it"
-      }
+      ]
     },
     {
       "title": "ドリームレス・ドリームス　歌ってみた",
@@ -3772,10 +3697,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "I tried singing Dreamless Dreams"
-      }
+      ]
     },
     {
       "title": "メリュー　歌いました",
@@ -3786,10 +3708,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Meryu sang"
-      }
+      ]
     },
     {
       "title": "放課後のプレアデス　歌いました",
@@ -3800,10 +3719,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "I sang Pleiades after school."
-      }
+      ]
     },
     {
       "title": "さようなら、花泥棒さん　歌いました",
@@ -3814,10 +3730,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Goodbye, flower thief, I sang"
-      }
+      ]
     },
     {
       "title": "マッシュルームマザー　歌いました",
@@ -3828,10 +3741,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Mushroom Mother sang"
-      }
+      ]
     },
     {
       "title": "東京レトロ　歌いました",
@@ -3842,10 +3752,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Tokyo Retro Sang"
-      }
+      ]
     },
     {
       "title": "繰り返し一粒　歌いました",
@@ -3856,10 +3763,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "I sang one song over and over again"
-      }
+      ]
     },
     {
       "title": "小夜子　歌いました",
@@ -3870,10 +3774,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Sayoko sang"
-      }
+      ]
     },
     {
       "title": "刹那プラス　歌いました",
@@ -3884,10 +3785,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Setsuna Plus sang"
-      }
+      ]
     },
     {
       "title": "クライヤ　歌いました",
@@ -3898,10 +3796,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Cryer sang"
-      }
+      ]
     },
     {
       "title": "アイロニ　歌いました",
@@ -3912,10 +3807,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "I sang Irony"
-      }
+      ]
     },
     {
       "title": "サディスティック・ラブ　歌いました",
@@ -3926,10 +3818,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Sadistic Love Sang"
-      }
+      ]
     },
     {
       "title": "ワールド・コーリング　歌いました",
@@ -3940,10 +3829,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "World Calling Sang"
-      }
+      ]
     },
     {
       "title": "二次元ドリームフィーバー　歌いました",
@@ -3954,10 +3840,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "2D Dream Fever sang"
-      }
+      ]
     },
     {
       "title": "放課後ストライド　歌いました",
@@ -3968,10 +3851,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "After School Stride Sang"
-      }
+      ]
     },
     {
       "title": "有頂天ビバーチェ　歌いました",
@@ -3982,10 +3862,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "I sang Uchoten Vivace"
-      }
+      ]
     },
     {
       "title": "メリーメリー　歌いました",
@@ -3996,10 +3873,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Merry Merry sang"
-      }
+      ]
     },
     {
       "title": "センチメンタルな愛慕心　歌いました",
@@ -4010,10 +3884,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "I sang a sentimental love"
-      }
+      ]
     },
     {
       "title": "ケッペキショウ　歌いました",
@@ -4024,10 +3895,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Keppekisho sang"
-      }
+      ]
     },
     {
       "title": "ハロ/ハワユ 歌いました",
@@ -4038,10 +3906,7 @@ window.SONGS = {
           "memberId": "mahoro",
           "publishedAt": "2020-05-31"
         }
-      ],
-      "en": {
-        "title": "Hello/Hawayu sang"
-      }
+      ]
     }
   ]
 };
