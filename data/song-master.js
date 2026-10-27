@@ -365,12 +365,6 @@ window.SONG_MASTER = {
         "title": "proposal"
       }
     },
-    "snooze": {
-      "title": "聴けば自然と眠くなる睡眠導入BGM ヒーリングピアノ (睡眠と集中のためのバイノーラルビート)",
-      "artist": "SLEEPY NUTS",
-      "album": "すぐに眠れる音楽 心が落ち着くリラクゼーションBGM",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ef/9b/1b/ef9b1b15-49c4-a467-c796-ba5105e1481d/4550795067567_cover.jpg/600x600bb.jpg"
-    },
     "ワルドイズマイン": {
       "title": "ワールドイズマイン",
       "artist": "アーリャ(CV:上坂すみれ)",
@@ -552,10 +546,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "蝶々結び",
+      "title": "StarRingChild",
       "artist": "Aimer",
-      "album": "蝶々結び - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg"
+      "album": "Midnight Sun",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cf/4d/09/cf4d09ff-c6e8-0964-d493-cf0841a9216a/4560429727163.jpg/600x600bb.jpg"
     },
     "だから僕は音楽を辞めた": {
       "title": "だから僕は音楽を辞めた",
