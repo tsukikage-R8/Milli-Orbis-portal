@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-10-26T09:25:24.408Z",
+  "updatedAt": "2026-10-26T17:44:13.911Z",
   "streams": [
-    {
-      "id": "LAXQ38xCsUI",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "title": "【歌枠】ゲリラ～！今週もがんばりましょい！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/LAXQ38xCsUI/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-26T09:09:55Z",
-      "status": "live"
-    },
-    {
-      "id": "TrrjmgVx0qU",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 開かない。ランドリー 】このあと予定あるんで、閉じ込めないでもらえます？【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/TrrjmgVx0qU/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-26T10:30:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "Np7iIJhRB50",
       "memberId": "nuhu",
@@ -92,15 +74,6 @@
       "status": "upcoming"
     },
     {
-      "id": "_Qz5P1BthrE",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "⋆⸜おやすみボイスコレクション受注受付中🛏️⸝⋆",
-      "thumb": "https://i.ytimg.com/vi/_Qz5P1BthrE/hqdefault.jpg",
-      "scheduledStartTime": "2027-01-30T06:00:00Z",
-      "status": "upcoming"
-    },
-    {
       "id": "FQUAaVHIEEo",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
@@ -108,26 +81,57 @@
       "thumb": "https://i.ytimg.com/vi/FQUAaVHIEEo/hqdefault.jpg",
       "scheduledStartTime": "2027-01-31T14:59:00Z",
       "status": "upcoming"
-    },
-    {
-      "id": "OCDhtDgFVUU",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "⋆⸜  イオン限定！『ミリプロ』オリジナルグッズが販売中👑  ⸝⋆",
-      "thumb": "https://i.ytimg.com/vi/OCDhtDgFVUU/hqdefault.jpg",
-      "scheduledStartTime": "2027-02-03T14:30:00Z",
-      "status": "upcoming"
     }
   ],
   "videos": [
+    {
+      "id": "IMBeVof6pOY",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【歌枠】46万人耐久～～～！！！【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/IMBeVof6pOY/hqdefault.jpg",
+      "publishedAt": "2026-10-26T15:27:07Z",
+      "live": false
+    },
+    {
+      "id": "jwRK8qTpW2w",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 Don't Drop The Cake 〗絶対落とさないから！！！まじで任せて！！！！〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/jwRK8qTpW2w/hqdefault.jpg",
+      "publishedAt": "2026-10-26T15:18:21Z",
+      "live": false
+    },
+    {
+      "id": "IUbBRVm4aD4",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "冷蔵庫も電子レンジも洗濯機もない新生活【あくび・でもんすぺーど / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/IUbBRVm4aD4/hqdefault.jpg",
+      "publishedAt": "2026-10-26T14:27:55Z",
+      "live": false
+    },
     {
       "id": "LAXQ38xCsUI",
       "memberId": "aoi",
       "member": "海琳あおい",
       "channelTitle": "海琳あおい / Mitama Aoi",
       "title": "【歌枠】ゲリラ～！今週もがんばりましょい！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/LAXQ38xCsUI/hqdefault.jpg?v=6adf17d8",
-      "publishedAt": "2026-10-26T09:09:55Z",
+      "thumb": "https://i.ytimg.com/vi/LAXQ38xCsUI/hqdefault.jpg",
+      "publishedAt": "2026-10-26T11:44:46Z",
+      "live": false
+    },
+    {
+      "id": "TrrjmgVx0qU",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 開かない。ランドリー 】このあと予定あるんで、閉じ込めないでもらえます？【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/TrrjmgVx0qU/hqdefault.jpg",
+      "publishedAt": "2026-10-26T11:33:52Z",
       "live": false
     },
     {
@@ -158,16 +162,6 @@
       "title": "【マイクラ】1個しかないダイヤを見つけろ！【#ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/0S0kq2MsiSg/hqdefault.jpg",
       "publishedAt": "2026-10-26T09:00:01Z",
-      "live": false
-    },
-    {
-      "id": "TrrjmgVx0qU",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 開かない。ランドリー 】このあと予定あるんで、閉じ込めないでもらえます？【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/TrrjmgVx0qU/hqdefault.jpg?v=6adf0f44",
-      "publishedAt": "2026-10-26T08:28:50Z",
       "live": false
     },
     {
@@ -389,47 +383,7 @@
       "thumb": "https://i.ytimg.com/vi/rflF7bDpbrk/hqdefault.jpg",
       "publishedAt": "2026-10-23T15:35:22Z",
       "live": false
-    },
-    {
-      "id": "wk2cf7lobDQ",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【妹に運転を教える】運転を教えたい妹が、いるんだよね",
-      "thumb": "https://i.ytimg.com/vi/wk2cf7lobDQ/hqdefault.jpg",
-      "publishedAt": "2026-10-23T14:15:38Z",
-      "live": false
-    },
-    {
-      "id": "afCMVcBnGhU",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【歌枠】ウ　タ　ウ　ヨ【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/afCMVcBnGhU/hqdefault.jpg",
-      "publishedAt": "2026-10-23T12:48:41Z",
-      "live": false
-    },
-    {
-      "id": "mr5SqswSds8",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "浮気判定チェックシートをやる！！【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/mr5SqswSds8/hqdefault.jpg",
-      "publishedAt": "2026-10-23T12:33:19Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "LAXQ38xCsUI",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "title": "【歌枠】ゲリラ～！今週もがんばりましょい！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/LAXQ38xCsUI/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-26T09:09:55Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
