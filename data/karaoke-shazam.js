@@ -224,8 +224,8 @@ window.KARAOKE_SHAZAM = {
   },
   "YKE2uQ2XpX0": {
     "status": "error",
-    "attempts": 2,
-    "attemptedAt": "2026-10-28T10:27:51.754228+00:00",
+    "attempts": 3,
+    "attemptedAt": "2026-10-28T18:07:37.008768+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: 音声ストリームがありません / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> / https://pipedapi.really"
   },
   "pKv7C5ZJTAw": {
@@ -278,8 +278,8 @@ window.KARAOKE_SHAZAM = {
   },
   "0_6aKS8F718": {
     "status": "error",
-    "attempts": 2,
-    "attemptedAt": "2026-10-28T10:27:41.972456+00:00",
+    "attempts": 3,
+    "attemptedAt": "2026-10-28T18:07:24.857624+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: 音声ストリームがありません / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> / https://pipedapi.really"
   },
   "R1gsnScnFXo": {
@@ -302,9 +302,9 @@ window.KARAOKE_SHAZAM = {
   },
   "6q9mf4_ufvI": {
     "status": "error",
-    "attempts": 2,
-    "attemptedAt": "2026-10-28T10:27:32.197349+00:00",
-    "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: 音声ストリームがありません / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> / https://pipedapi.really"
+    "attempts": 3,
+    "attemptedAt": "2026-10-28T18:07:13.934734+00:00",
+    "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: The read operation timed out / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> / https://"
   },
   "R4oRuHrYY4g": {
     "status": "skip",
