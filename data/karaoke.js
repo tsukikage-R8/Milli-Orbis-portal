@@ -6,7 +6,10 @@ window.KARAOKE = [
     "publishedAt": "2026-10-26",
     "title": "【歌枠】46万人耐久～～～！！！【音ノ瀬らこ /ミリプロ】",
     "duration": 9947,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Endurance for 460,000 people! ! ! [Rako Otonose/MilliPro]"
+    }
   },
   {
     "id": "9o6oRDN7iog",
@@ -14,7 +17,10 @@ window.KARAOKE = [
     "publishedAt": "2026-10-25",
     "title": "〖 歌枠 〗２ ８ 万 人 耐 久〖 眠雲ツクリ / ミリプロ 〗",
     "duration": 8302,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song frame] 2 80,000 people Endurance〖 Nemugumo Tsukuri / MilliPro〗"
+    }
   },
   {
     "id": "O62Whdk29mc",
@@ -22,7 +28,10 @@ window.KARAOKE = [
     "publishedAt": "2026-10-25",
     "title": "【 歌枠 】今日はロックの気分 ⟡.· 【 夕霧レイ/ミリプロ 】",
     "duration": 6973,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Today I'm in the mood for rock ⟡. · [Rei Yugiri/MilliPro]"
+    }
   },
   {
     "id": "2nFCvxTjr-Q",
@@ -30,7 +39,10 @@ window.KARAOKE = [
     "publishedAt": "2026-10-24",
     "title": "【歌枠】３D で 歌 う┊︎#音ノ乃のの #ののん家",
     "duration": 11347,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Sing in 3D┊︎#Otononono#Nononya"
+    }
   },
   {
     "id": "rflF7bDpbrk",
@@ -38,7 +50,10 @@ window.KARAOKE = [
     "publishedAt": "2026-10-23",
     "title": "【歌枠】歌うぞ！歌うぞ！歌うぞ！【音ノ瀬らこ /ミリプロ】",
     "duration": 8708,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Let's sing! Let's sing! Let's sing! [Rako Otonose/MilliPro]"
+    }
   },
   {
     "id": "rDpjOTbIiFE",
@@ -46,7 +61,10 @@ window.KARAOKE = [
     "publishedAt": "2026-10-21",
     "title": "〖 歌枠 〗告知アリ！あたしの好きなバンド、教えてあげる〖 眠雲ツクリ / ミリプロ 〗",
     "duration": 7090,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Announcement ant! I'll tell you my favorite band〖 Negumo Tsukuri / Millipro〗"
+    }
   },
   {
     "id": "r8UtsxOSY3I",
@@ -54,7 +72,10 @@ window.KARAOKE = [
     "publishedAt": "2026-10-21",
     "title": "【 ゲリラ歌枠 】では、歌いましょう。 ⟡.· 【 夕霧レイ/ミリプロ 】",
     "duration": 5858,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Guerrilla singing frame] Now, let's sing. ⟡.· [Rei Yugiri/MilliPro]"
+    }
   },
   {
     "id": "o4lDXd4i38s",
@@ -62,7 +83,10 @@ window.KARAOKE = [
     "publishedAt": "2026-10-17",
     "title": "【歌枠+3Dお披露目スパチャ読み】リベンジ歌枠、重大告知あり〜〜３D歌枠！【雨夜リズ/ミリプロ】",
     "duration": 6246,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song frame + 3D unveiling supercha reading] Revenge song frame, important announcement ~ 3D song frame! [Ameya Liz/MilliPro]"
+    }
   },
   {
     "id": "s-ZdfJ-vMNA",
@@ -70,7 +94,10 @@ window.KARAOKE = [
     "publishedAt": "2026-10-08",
     "title": "〖 歌枠 〗おうち3Dで秋を楽しむお歌の会〖 眠雲ツクリ / ミリプロ 〗",
     "duration": 8282,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Singing party to enjoy autumn in 3D at home [Nemugumo Tsukuri / Millipro]"
+    }
   },
   {
     "id": "hPVQ7VRgBv0",
@@ -78,7 +105,10 @@ window.KARAOKE = [
     "publishedAt": "2026-10-05",
     "title": "【歌枠】なにやらプレミア公開があるようで【音ノ瀬らこ /ミリプロ】",
     "duration": 7184,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song frame] It seems like there will be a premiere release [Rako Otonose / MilliPro]"
+    }
   },
   {
     "id": "oHkmplaDosw",
@@ -86,7 +116,10 @@ window.KARAOKE = [
     "publishedAt": "2026-10-03",
     "title": "【歌枠】３Dの体ではじめての歌枠♫【雨夜リズ/ミリプロ】",
     "duration": 4982,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Singing frame] First singing frame with a 3D body ♫ [Riz Ameya/MilliPro]"
+    }
   },
   {
     "id": "LCoON5HWckw",
@@ -94,7 +127,10 @@ window.KARAOKE = [
     "publishedAt": "2026-10-02",
     "title": "【 歌枠 】10月も頑張っていこうの歌枠 ⟡.· 【 夕霧レイ/ミリプロ 】",
     "duration": 5751,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Let's do our best in October too ⟡.· [Rei Yugiri/MilliPro]"
+    }
   },
   {
     "id": "x0Avn4-e-jI",
@@ -102,7 +138,10 @@ window.KARAOKE = [
     "publishedAt": "2026-09-26",
     "title": "【歌枠】45万人耐久だァー‼️🔥【音ノ瀬らこ /ミリプロ】",
     "duration": 9453,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song frame] 450,000 people endure!! ️🔥 [Rako Otonose / MilliPro]"
+    }
   },
   {
     "id": "xVpRapqd4JY",
@@ -110,7 +149,10 @@ window.KARAOKE = [
     "publishedAt": "2026-09-25",
     "title": "【 歌枠 】激アツ告知アリ！歌うにょ ⟡.· 【 夕霧レイ/ミリプロ 】",
     "duration": 6892,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Super hot announcement! Singing ⟡.· [Rei Yugiri/MilliPro]"
+    }
   },
   {
     "id": "MrCLJCrIZ_8",
@@ -118,7 +160,10 @@ window.KARAOKE = [
     "publishedAt": "2026-09-24",
     "title": "【歌枠】3Dお披露目前に雨夜さんの歌聞いてって【雨夜リズ/ミリプロ】",
     "duration": 6302,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Listen to Ameya's song before the 3D performance [Ameya Liz/MilliPro]"
+    }
   },
   {
     "id": "4wgmPPZhNGM",
@@ -126,7 +171,10 @@ window.KARAOKE = [
     "publishedAt": "2026-09-21",
     "title": "【歌枠】低気圧を許すな【音ノ瀬らこ /ミリプロ】",
     "duration": 9030,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Don't forgive the low pressure [Rako Otonose / MilliPro]"
+    }
   },
   {
     "id": "2xL3Hl_mLUw",
@@ -134,7 +182,10 @@ window.KARAOKE = [
     "publishedAt": "2026-09-14",
     "title": "【さユり縛り歌枠】告知あり。【ゆらぎゆら/ミリプロ】",
     "duration": 8568,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Sayuri bound song frame] Announcement available. [Yuragiyura/Millipro]"
+    }
   },
   {
     "id": "HRLfi6uwx6A",
@@ -142,7 +193,10 @@ window.KARAOKE = [
     "publishedAt": "2026-09-14",
     "title": "〖 歌枠 〗たのしみ告知あり！のんびりうたうにょ～～ん〖 眠雲ツクリ / ミリプロ 〗",
     "duration": 7655,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song frame] There is a fun announcement! Relaxing song~〖 Nemugumo Tsukuri / Millipro〗"
+    }
   },
   {
     "id": "lpD3yTeGWzQ",
@@ -150,7 +204,10 @@ window.KARAOKE = [
     "publishedAt": "2026-09-13",
     "title": "【おうち3D】3Dお披露目ありがとう！今日はゆっくり後夜祭♪【ゆらぎゆら/ミリプロ】",
     "duration": 9685,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Home 3D] Thank you for showing off the 3D! Today is a leisurely afterparty ♪ [Yuragiyura/MilliPro]"
+    }
   },
   {
     "id": "vQffqjWuMAc",
@@ -158,7 +215,10 @@ window.KARAOKE = [
     "publishedAt": "2026-09-11",
     "title": "【歌枠】明日は3Dお披露目だー！！【音ノ瀬らこ /ミリプロ】",
     "duration": 10475,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song Frame] 3D will be unveiled tomorrow! ! [Rako Otonose/MilliPro]"
+    }
   },
   {
     "id": "T5Q0uHZR4k8",
@@ -166,7 +226,10 @@ window.KARAOKE = [
     "publishedAt": "2026-09-11",
     "title": "【歌枠】3Dお披露目前夜祭♪【ゆらぎゆら/ミリプロ】",
     "duration": 4108,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song frame] 3D unveiling eve♪ [Yuragi Yura/MilliPro]"
+    }
   },
   {
     "id": "6q9mf4_ufvI",
@@ -174,7 +237,10 @@ window.KARAOKE = [
     "publishedAt": "2026-09-05",
     "title": "【歌枠┆雑談】久しぶりに声出しだ～！！！！【ゆらぎゆら/ミリプロ】",
     "duration": 5281,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song frame ┆ Chat] It’s been a while since I’ve spoken out loud! ! ! ! [Yuragiyura/Millipro]"
+    }
   },
   {
     "id": "wh4UF6M-Lbk",
@@ -182,7 +248,10 @@ window.KARAOKE = [
     "publishedAt": "2026-09-01",
     "title": "【歌枠】告知アリ！Vaundy縛り歌枠！┊︎#音ノ乃のの #ののん家",
     "duration": 3559,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Announcement! Vaundy bound song frame! ┊︎#Otononono#Nononoya"
+    }
   },
   {
     "id": "beMkuWTFABw",
@@ -190,7 +259,10 @@ window.KARAOKE = [
     "publishedAt": "2026-09-01",
     "title": "〖 誕生日歌枠 〗重大告知アリ！初出し＋コーラスマシマシ最強セトリをお届け〖 眠雲ツクリ / ミリプロ 〗",
     "duration": 7180,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Birthday song slot] Important announcement! Delivering the strongest set of first appearance + chorus improvement〖 Negumo Tsukuri / Millipro〗"
+    }
   },
   {
     "id": "R1gsnScnFXo",
@@ -198,7 +270,10 @@ window.KARAOKE = [
     "publishedAt": "2026-08-31",
     "title": "【歌枠┆雑談】21:00の歌みた公開までに「２７万人」達成できるのか！？【ゆらぎゆら/ミリプロ】",
     "duration": 7040,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song frame ┆ Chat] Can we reach \"270,000 people\" by the time the song is released at 21:00? ? [Yuragiyura/Millipro]"
+    }
   },
   {
     "id": "0_6aKS8F718",
@@ -206,7 +281,10 @@ window.KARAOKE = [
     "publishedAt": "2026-08-27",
     "title": "【歌枠】重大告知あり‼️高評価3000耐久歌枠【雨夜リズ/ミリプロ】",
     "duration": 6689,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Important announcement!! ️ Highly rated 3000 endurance song frame [Ameya Riz/MilliPro]"
+    }
   },
   {
     "id": "UQi3DEDW90w",
@@ -214,7 +292,10 @@ window.KARAOKE = [
     "publishedAt": "2026-08-25",
     "title": "【歌枠】6000高評価で歌ってみた完全解禁！🔥情報解禁耐久【ゆらぎゆら/ミリプロ】",
     "duration": 10428,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song Frame] Completely released for singing with 6000 high ratings! 🔥Information lifted durability [Yuragiyura/Millipro]"
+    }
   },
   {
     "id": "ZKziA4Tu-rM",
@@ -222,7 +303,10 @@ window.KARAOKE = [
     "publishedAt": "2026-08-23",
     "title": "【歌枠】歌ってみたが出るらしい【雨夜リズ/ミリプロ】",
     "duration": 2472,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song frame] I tried singing it but it seems like it will be released [Ameya Liz/MilliPro]"
+    }
   },
   {
     "id": "YKE2uQ2XpX0",
@@ -230,7 +314,10 @@ window.KARAOKE = [
     "publishedAt": "2026-08-22",
     "title": "【歌枠】病み上がり歌枠に変更┊︎#音ノ乃のの #ののん家",
     "duration": 7532,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Changed to song frame after recovery┊︎#Otononono#Nononya"
+    }
   },
   {
     "id": "F2IFCh1k9OA",
@@ -238,7 +325,10 @@ window.KARAOKE = [
     "publishedAt": "2026-08-22",
     "title": "【歌枠】高評価7000耐久！達成したら告知！【音ノ瀬らこ /ミリプロ】",
     "duration": 16169,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song frame] Highly rated 7000 durability! Let me know when you achieve it! [Rako Otonose/MilliPro]"
+    }
   },
   {
     "id": "m9XsXa_2wsY",
@@ -246,7 +336,10 @@ window.KARAOKE = [
     "publishedAt": "2026-08-21",
     "title": "【85万人耐久歌枠】達成したら、とってもうれしい告知があります！！！！",
     "duration": 23347,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "Once we reach the [850,000-person endurance singing limit], we will have a very exciting announcement! ! ! !"
+    }
   },
   {
     "id": "vC2X2gKIKHs",
@@ -254,7 +347,10 @@ window.KARAOKE = [
     "publishedAt": "2026-08-21",
     "title": "【高評価5000耐久】5000いいね達成するまで歌い続けます！！！🔥【歌枠 / KARAOKE / ゆらぎゆら】",
     "duration": 12835,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Highly rated 5000 Endurance] I will continue singing until I reach 5000 likes! ! ! 🔥 [Song frame / KARAOKE / Yuragi Yura]"
+    }
   },
   {
     "id": "yoPXNBdttoc",
@@ -262,7 +358,10 @@ window.KARAOKE = [
     "publishedAt": "2026-08-19",
     "title": "【歌枠】お願いします配信させてください神様泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣泣",
     "duration": 8768,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song Frame] Please, please let me stream God"
+    }
   },
   {
     "id": "lkHVqtUjrac",
@@ -270,7 +369,10 @@ window.KARAOKE = [
     "publishedAt": "2026-08-19",
     "title": "〖 歌雑談 〗歌も雑談もしたい人間によるごちゃまぜ枠〖 眠雲ツクリ / ミリプロ 〗",
     "duration": 8418,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "[Song chat] A jumble of people who want to sing and chat [Nemugumo Tsukuri / MilliPro]"
+    }
   },
   {
     "id": "8y2v7uLYRN4",
@@ -278,7 +380,10 @@ window.KARAOKE = [
     "publishedAt": "2026-08-18",
     "title": "水曜ゆらゆら歌枠｜夏！夏！歌！老人会！【 ゆらぎゆら / ミリプロ 】",
     "duration": 7054,
-    "songs": []
+    "songs": [],
+    "en": {
+      "title": "Wednesday Yurayura song slot | Summer! summer! song! Elderly people’s party! [Yuragiyura / Millipro]"
+    }
   },
   {
     "id": "vos7X7sJ5Dg",
