@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T23:40:29.113Z",
+  "updatedAt": "2026-10-29T03:05:06.306Z",
   "streams": [
     {
       "id": "Mw5dDeQzSTU",
@@ -7,8 +7,8 @@
       "member": "ゆらぎゆら",
       "title": "【 NTE 】「既存」って一体なんなんだ！？謎だらけの本編へ！【 ゆらぎゆら / ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/Mw5dDeQzSTU/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-29T02:30:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-10-29T02:31:40Z",
+      "status": "live"
     },
     {
       "id": "jbUiIW7D2JE",
@@ -112,6 +112,16 @@
   ],
   "videos": [
     {
+      "id": "Mw5dDeQzSTU",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 NTE 】「既存」って一体なんなんだ！？謎だらけの本編へ！【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/Mw5dDeQzSTU/hqdefault.jpg?v=6ae2142a",
+      "publishedAt": "2026-10-29T02:31:40Z",
+      "live": false
+    },
+    {
       "id": "jbUiIW7D2JE",
       "memberId": "aoi",
       "member": "海琳あおい",
@@ -139,16 +149,6 @@
       "title": "【 Minecraft 】落下5回で即終了！？1ブロックから楽園を築きたい！【 ゆらぎゆら/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/xR9wTSCaLvk/hqdefault.jpg?v=6ae216f4",
       "publishedAt": "2026-10-28T15:38:26Z",
-      "live": false
-    },
-    {
-      "id": "Mw5dDeQzSTU",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 NTE 】「既存」って一体なんなんだ！？謎だらけの本編へ！【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/Mw5dDeQzSTU/hqdefault.jpg?v=6ae2142a",
-      "publishedAt": "2026-10-28T15:26:32Z",
       "live": false
     },
     {
@@ -412,5 +412,15 @@
       "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "Mw5dDeQzSTU",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 NTE 】「既存」って一体なんなんだ！？謎だらけの本編へ！【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/Mw5dDeQzSTU/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-29T02:31:40Z",
+      "status": "live"
+    }
+  ]
 }

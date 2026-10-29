@@ -2873,6 +2873,17 @@ window.SONGS = {
       ]
     },
     {
+      "title": "Letters To Me - 鹿乃まほろ cover.",
+      "key": "letterstome-.",
+      "urls": [
+        {
+          "id": "oXXXfkwBNhU",
+          "memberId": "mahoro",
+          "publishedAt": "2026-10-29"
+        }
+      ]
+    },
+    {
       "title": "奏（スキマスイッチ） - 鹿乃まほろ cover.",
       "key": "奏-.",
       "urls": [
