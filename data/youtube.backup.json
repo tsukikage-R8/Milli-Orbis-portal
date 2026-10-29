@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T17:29:18.074Z",
+  "updatedAt": "2026-10-28T23:40:29.113Z",
   "streams": [
     {
       "id": "Mw5dDeQzSTU",
@@ -8,6 +8,15 @@
       "title": "【 NTE 】「既存」って一体なんなんだ！？謎だらけの本編へ！【 ゆらぎゆら / ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/Mw5dDeQzSTU/hqdefault.jpg",
       "scheduledStartTime": "2026-10-29T02:30:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "jbUiIW7D2JE",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "title": "【歌枠】10月もう少しで終わっちゃうらしい....【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/jbUiIW7D2JE/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-29T09:00:00Z",
       "status": "upcoming"
     },
     {
@@ -103,6 +112,26 @@
   ],
   "videos": [
     {
+      "id": "jbUiIW7D2JE",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【歌枠】10月もう少しで終わっちゃうらしい....【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/jbUiIW7D2JE/hqdefault.jpg?v=6ae25607",
+      "publishedAt": "2026-10-28T20:07:33Z",
+      "live": false
+    },
+    {
+      "id": "ArIfQMPZCeg",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【APEX】全力でよちよちを遂行する！！！！w/音ノ瀬らこ,ゆらぎゆら【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ArIfQMPZCeg/hqdefault.jpg",
+      "publishedAt": "2026-10-28T18:23:38Z",
+      "live": false
+    },
+    {
       "id": "xR9wTSCaLvk",
       "memberId": "yura",
       "member": "ゆらぎゆら",
@@ -140,16 +169,6 @@
       "title": "【 APEX 】よちよちえぺ！？ついに私も先輩…！？ w/音ノ瀬らこ , 海琳あおい【 ゆらぎゆら/ミリプロ 】#のばのあそびば",
       "thumb": "https://i.ytimg.com/vi/eGVLXNna8qU/hqdefault.jpg",
       "publishedAt": "2026-10-28T15:17:34Z",
-      "live": false
-    },
-    {
-      "id": "ArIfQMPZCeg",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【APEX】全力でよちよちを遂行する！！！！w/音ノ瀬らこ,ゆらぎゆら【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ArIfQMPZCeg/hqdefault.jpg?v=6ae1cd0f",
-      "publishedAt": "2026-10-28T15:08:47Z",
       "live": false
     },
     {
@@ -371,16 +390,6 @@
       "thumb": "https://i.ytimg.com/vi/XRI5cFo_ZXc/hqdefault.jpg",
       "publishedAt": "2026-10-25T07:27:33Z",
       "live": false
-    },
-    {
-      "id": "ii_wtzZ-6Fw",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【雑談】朝活！今日もまった～りいきましょ～！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ii_wtzZ-6Fw/hqdefault.jpg",
-      "publishedAt": "2026-10-24T23:19:04Z",
-      "live": true
     },
     {
       "id": "2nFCvxTjr-Q",
