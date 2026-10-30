@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T23:40:16.615Z",
+  "updatedAt": "2026-10-30T03:09:34.247Z",
   "streams": [
     {
       "id": "45YiKEpUiXo",
@@ -80,10 +80,7 @@
       "title": "【📢お知らせ】音ノ乃のの×タイクレコラボレーション！🤍",
       "thumb": "https://i.ytimg.com/vi/gjos7ccWkac/hqdefault.jpg",
       "scheduledStartTime": "2026-12-31T14:59:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[📢Notice] Nonono Otono x Taikure collaboration! 🤍"
-      }
+      "status": "upcoming"
     },
     {
       "id": "sNJXQzJShuA",
@@ -92,10 +89,7 @@
       "title": "【📢イラスト技法書発売決定】現在販売中です！✨",
       "thumb": "https://i.ytimg.com/vi/sNJXQzJShuA/hqdefault.jpg",
       "scheduledStartTime": "2027-01-15T14:25:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[📢Illustration technique book to be released] Now on sale! ✨"
-      }
+      "status": "upcoming"
     },
     {
       "id": "FQUAaVHIEEo",
@@ -104,10 +98,7 @@
       "title": "☁イオンオリジナルグッズ発売決定 🔧",
       "thumb": "https://i.ytimg.com/vi/FQUAaVHIEEo/hqdefault.jpg",
       "scheduledStartTime": "2027-01-31T14:59:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "☁Aeon original goods to be released 🔧"
-      }
+      "status": "upcoming"
     }
   ],
   "videos": [
