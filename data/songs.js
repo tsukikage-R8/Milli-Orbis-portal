@@ -743,7 +743,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Feeling great↑↑/Komawarikoma × Nemugumo Tsukuri × Ameya Riz (cover)"
+        "title": "Feeling great↑↑／Komawarikoma × Nemugumo Tsukuri × Ameya Liz (cover)"
       }
     },
     {
@@ -3917,7 +3917,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Is there anything more that love can do?acoustic cover.Kano"
+        "title": "Is there still anything that love can do? acoustic cover.Kano"
       }
     },
     {
