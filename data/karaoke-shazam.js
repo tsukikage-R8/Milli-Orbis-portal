@@ -194,8 +194,8 @@ window.KARAOKE_SHAZAM = {
   },
   "m9XsXa_2wsY": {
     "status": "error",
-    "attempts": 2,
-    "attemptedAt": "2026-10-30T00:38:31.294591+00:00",
+    "attempts": 3,
+    "attemptedAt": "2026-10-30T03:47:00.279601+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "p-iecKOQXi4": {
@@ -331,9 +331,9 @@ window.KARAOKE_SHAZAM = {
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "HRLfi6uwx6A": {
-    "status": "skip",
-    "attempts": 5,
-    "attemptedAt": "2026-10-23T02:15:32.211076+00:00",
+    "status": "error",
+    "attempts": 1,
+    "attemptedAt": "2026-10-30T03:46:51.270836+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "2xL3Hl_mLUw": {
@@ -350,8 +350,8 @@ window.KARAOKE_SHAZAM = {
   },
   "4wgmPPZhNGM": {
     "status": "error",
-    "attempts": 3,
-    "attemptedAt": "2026-10-30T00:38:22.961143+00:00",
+    "attempts": 4,
+    "attemptedAt": "2026-10-30T03:46:41.898246+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "pytWeCL4-v8": {
