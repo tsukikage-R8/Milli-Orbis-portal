@@ -2,6 +2,12 @@
 window.SONG_MASTER = {
   "generatedAt": "2026-10-30",
   "songs": {
+    "ブルアンビエンス＆": {
+      "title": "ブルーアンビエンス (feat. asmi)",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "Unity - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/45/11/66/45116621-c965-642d-43ef-b8cf33711bde/22UMGIM58754.rgb.jpg/600x600bb.jpg"
+    },
     "ギタと孤独と蒼い惑星": {
       "title": "もう一度キスしたかった",
       "artist": "B'z",
@@ -12,10 +18,7 @@ window.SONG_MASTER = {
       "title": "天ノ弱",
       "artist": "ウォルピスカーター",
       "album": "これからもウォルピス社の提供でお送りします。",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/59/b9/99/59b9994b-2f2c-50c6-8454-2966e1bea186/SCGA-00081.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Ten no Weak"
-      }
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/59/b9/99/59b9994b-2f2c-50c6-8454-2966e1bea186/SCGA-00081.jpg/600x600bb.jpg"
     },
     "狂乱heykids!!": {
       "title": "狂乱 Hey Kids!!",
@@ -30,19 +33,13 @@ window.SONG_MASTER = {
       "title": "デビットビット",
       "artist": "アボガド6",
       "album": "デビットビット - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/27/c2/1e/27c21e39-4772-cc21-e142-c198ffc12312/4570216291470_Cover.jpg/600x600bb.jpg",
-      "en": {
-        "title": "debit bit"
-      }
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/27/c2/1e/27c21e39-4772-cc21-e142-c198ffc12312/4570216291470_Cover.jpg/600x600bb.jpg"
     },
     "おもかげ": {
       "title": "おもかげ",
       "artist": "KG",
       "album": "Brand New Days",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/65/df/c5/65dfc5d3-8437-3329-c876-08f64f764906/825646279241.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Omokage"
-      }
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/65/df/c5/65dfc5d3-8437-3329-c876-08f64f764906/825646279241.jpg/600x600bb.jpg"
     },
     "高嶺の花子さん-.": {
       "title": "頭がよくなる歌",
@@ -60,10 +57,7 @@ window.SONG_MASTER = {
       "title": "サウダージ",
       "artist": "ポルノグラフィティ",
       "album": "サウダージ - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/78/f2/bb/78f2bb53-bef0-9ab2-6cc2-7a89af8eb2ac/jacket_SRCL04901B00Z_550.jpg/600x600bb.jpg",
-      "en": {
-        "title": "saudade"
-      }
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/78/f2/bb/78f2bb53-bef0-9ab2-6cc2-7a89af8eb2ac/jacket_SRCL04901B00Z_550.jpg/600x600bb.jpg"
     },
     "surges＆": {
       "title": "Surges",
@@ -87,28 +81,19 @@ window.SONG_MASTER = {
       "title": "八月の夜",
       "artist": "Silent Siren",
       "album": "八月の夜 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/0f/bf/f9/0fbff976-495a-53ff-41ec-aec034cde80c/mucd5304_T_0707.jpg/600x600bb.jpg",
-      "en": {
-        "title": "August night"
-      }
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/0f/bf/f9/0fbff976-495a-53ff-41ec-aec034cde80c/mucd5304_T_0707.jpg/600x600bb.jpg"
     },
     "ハッピシンセサイザ": {
       "title": "ハッピーシンセサイザ",
       "artist": "伊東歌詞太郎",
       "album": "二律背反",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/ff/19/e9/ff19e98c-fc5b-63b7-e41d-63d657357081/TFCC-86506.jpg/600x600bb.jpg",
-      "en": {
-        "title": "happy synthesizer"
-      }
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/ff/19/e9/ff19e98c-fc5b-63b7-e41d-63d657357081/TFCC-86506.jpg/600x600bb.jpg"
     },
     "スパクル": {
       "title": "スパークル",
       "artist": "幾田りら",
       "album": "スパークル - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e1/e7/d2/e1e7d23c-bd17-7b05-b32c-4b23f0623685/196626142849.jpg/600x600bb.jpg",
-      "en": {
-        "title": "sparkle"
-      }
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e1/e7/d2/e1e7d23c-bd17-7b05-b32c-4b23f0623685/196626142849.jpg/600x600bb.jpg"
     },
     "ライラック": {
       "title": "ライラック",
@@ -150,10 +135,7 @@ window.SONG_MASTER = {
       "title": "イケナイ太陽",
       "artist": "ORANGE RANGE",
       "album": "ALL the SINGLES",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/6b/50/9c/6b509c4b-6550-40f7-2086-008eaed86c5f/jacket_SRCL07315B00Z_550.jpg/600x600bb.jpg",
-      "en": {
-        "title": "naughty sun"
-      }
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/6b/50/9c/6b509c4b-6550-40f7-2086-008eaed86c5f/jacket_SRCL07315B00Z_550.jpg/600x600bb.jpg"
     },
     "カゲロウデイズfeat.": {
       "title": "カゲロウデイズ",
@@ -183,10 +165,7 @@ window.SONG_MASTER = {
       "title": "名前のない怪物",
       "artist": "EGOIST",
       "album": "名前のない怪物",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/06/bb/c5/06bbc527-330c-c3e5-0a09-7a8291a699ae/jacket_SRCL08149B00Z_550.jpg/600x600bb.jpg",
-      "en": {
-        "title": "monster with no name"
-      }
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/06/bb/c5/06bbc527-330c-c3e5-0a09-7a8291a699ae/jacket_SRCL08149B00Z_550.jpg/600x600bb.jpg"
     },
     "怪獣の花唄": {
       "title": "怪獣の花唄",
@@ -273,10 +252,7 @@ window.SONG_MASTER = {
       "title": "ロミオとシンデレラ",
       "artist": "doriko",
       "album": "ロミオとシンデレラ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/93/2e/9f/932e9f07-68e9-0d9c-b390-d498507a1d97/PA00106837_0_155685_jacket.jpg/600x600bb.jpg",
-      "en": {
-        "title": "romeo and cinderella"
-      }
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/93/2e/9f/932e9f07-68e9-0d9c-b390-d498507a1d97/PA00106837_0_155685_jacket.jpg/600x600bb.jpg"
     },
     "ブラック★ロックシュタ-ryo": {
       "title": "ブラック★ロックシューター (Cover)",
@@ -603,10 +579,7 @@ window.SONG_MASTER = {
       "title": "チェリーポップ",
       "artist": "DECO*27",
       "album": "チェリーポップ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg",
-      "en": {
-        "title": "cherry pop"
-      }
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
       "title": "いい感じ",
@@ -1177,12 +1150,6 @@ window.SONG_MASTER = {
       "en": {
         "title": "A faint flower"
       }
-    },
-    "ブルアンビエンス＆": {
-      "title": "ブルーアンビエンス (feat. asmi)",
-      "artist": "Mrs. GREEN APPLE",
-      "album": "Unity - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/45/11/66/45116621-c965-642d-43ef-b8cf33711bde/22UMGIM58754.rgb.jpg/600x600bb.jpg"
     },
     "henceforth": {
       "title": "Henceforth",
