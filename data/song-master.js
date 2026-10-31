@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-10-30",
+  "generatedAt": "2026-10-31",
   "songs": {
     "ブルアンビエンス＆": {
       "title": "ブルーアンビエンス (feat. asmi)",
@@ -18,7 +18,10 @@ window.SONG_MASTER = {
       "title": "天ノ弱",
       "artist": "ウォルピスカーター",
       "album": "これからもウォルピス社の提供でお送りします。",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/59/b9/99/59b9994b-2f2c-50c6-8454-2966e1bea186/SCGA-00081.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/59/b9/99/59b9994b-2f2c-50c6-8454-2966e1bea186/SCGA-00081.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Ten no Weak"
+      }
     },
     "狂乱heykids!!": {
       "title": "狂乱 Hey Kids!!",
@@ -33,13 +36,19 @@ window.SONG_MASTER = {
       "title": "デビットビット",
       "artist": "アボガド6",
       "album": "デビットビット - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/27/c2/1e/27c21e39-4772-cc21-e142-c198ffc12312/4570216291470_Cover.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/27/c2/1e/27c21e39-4772-cc21-e142-c198ffc12312/4570216291470_Cover.jpg/600x600bb.jpg",
+      "en": {
+        "title": "debit bit"
+      }
     },
     "おもかげ": {
       "title": "おもかげ",
       "artist": "KG",
       "album": "Brand New Days",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/65/df/c5/65dfc5d3-8437-3329-c876-08f64f764906/825646279241.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/65/df/c5/65dfc5d3-8437-3329-c876-08f64f764906/825646279241.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Omokage"
+      }
     },
     "高嶺の花子さん-.": {
       "title": "頭がよくなる歌",
@@ -57,7 +66,10 @@ window.SONG_MASTER = {
       "title": "サウダージ",
       "artist": "ポルノグラフィティ",
       "album": "サウダージ - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/78/f2/bb/78f2bb53-bef0-9ab2-6cc2-7a89af8eb2ac/jacket_SRCL04901B00Z_550.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/78/f2/bb/78f2bb53-bef0-9ab2-6cc2-7a89af8eb2ac/jacket_SRCL04901B00Z_550.jpg/600x600bb.jpg",
+      "en": {
+        "title": "saudade"
+      }
     },
     "surges＆": {
       "title": "Surges",
@@ -81,19 +93,28 @@ window.SONG_MASTER = {
       "title": "八月の夜",
       "artist": "Silent Siren",
       "album": "八月の夜 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/0f/bf/f9/0fbff976-495a-53ff-41ec-aec034cde80c/mucd5304_T_0707.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/0f/bf/f9/0fbff976-495a-53ff-41ec-aec034cde80c/mucd5304_T_0707.jpg/600x600bb.jpg",
+      "en": {
+        "title": "August night"
+      }
     },
     "ハッピシンセサイザ": {
       "title": "ハッピーシンセサイザ",
       "artist": "伊東歌詞太郎",
       "album": "二律背反",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/ff/19/e9/ff19e98c-fc5b-63b7-e41d-63d657357081/TFCC-86506.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/ff/19/e9/ff19e98c-fc5b-63b7-e41d-63d657357081/TFCC-86506.jpg/600x600bb.jpg",
+      "en": {
+        "title": "happy synthesizer"
+      }
     },
     "スパクル": {
       "title": "スパークル",
       "artist": "幾田りら",
       "album": "スパークル - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e1/e7/d2/e1e7d23c-bd17-7b05-b32c-4b23f0623685/196626142849.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e1/e7/d2/e1e7d23c-bd17-7b05-b32c-4b23f0623685/196626142849.jpg/600x600bb.jpg",
+      "en": {
+        "title": "sparkle"
+      }
     },
     "ライラック": {
       "title": "ライラック",
@@ -135,7 +156,10 @@ window.SONG_MASTER = {
       "title": "イケナイ太陽",
       "artist": "ORANGE RANGE",
       "album": "ALL the SINGLES",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/6b/50/9c/6b509c4b-6550-40f7-2086-008eaed86c5f/jacket_SRCL07315B00Z_550.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/6b/50/9c/6b509c4b-6550-40f7-2086-008eaed86c5f/jacket_SRCL07315B00Z_550.jpg/600x600bb.jpg",
+      "en": {
+        "title": "naughty sun"
+      }
     },
     "カゲロウデイズfeat.": {
       "title": "カゲロウデイズ",
@@ -165,7 +189,10 @@ window.SONG_MASTER = {
       "title": "名前のない怪物",
       "artist": "EGOIST",
       "album": "名前のない怪物",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/06/bb/c5/06bbc527-330c-c3e5-0a09-7a8291a699ae/jacket_SRCL08149B00Z_550.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/06/bb/c5/06bbc527-330c-c3e5-0a09-7a8291a699ae/jacket_SRCL08149B00Z_550.jpg/600x600bb.jpg",
+      "en": {
+        "title": "monster with no name"
+      }
     },
     "怪獣の花唄": {
       "title": "怪獣の花唄",
@@ -250,9 +277,12 @@ window.SONG_MASTER = {
     },
     "ロミオとシンデレラ": {
       "title": "ロミオとシンデレラ",
-      "artist": "doriko",
+      "artist": "麻婆豆腐",
       "album": "ロミオとシンデレラ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/93/2e/9f/932e9f07-68e9-0d9c-b390-d498507a1d97/PA00106837_0_155685_jacket.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/f1/d5/abf1d530-f67d-b8d6-69dc-18af39756a63/SCGA-00310.jpg/600x600bb.jpg",
+      "en": {
+        "title": "romeo and cinderella"
+      }
     },
     "ブラック★ロックシュタ-ryo": {
       "title": "ブラック★ロックシューター (Cover)",
@@ -579,16 +609,16 @@ window.SONG_MASTER = {
       "title": "チェリーポップ",
       "artist": "DECO*27",
       "album": "チェリーポップ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg",
+      "en": {
+        "title": "cherry pop"
+      }
     },
     "男の子の目的は何？": {
-      "title": "いい感じ",
-      "artist": "ケツメイシ",
-      "album": "KETSUNOPOLIS 10",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Feels good"
-      }
+      "title": "メロリ",
+      "artist": "Hey! Say! JUMP",
+      "album": "S say",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/ca/56/a8ca56fa-2106-4056-1ffa-dc4a0fa0af2e/4517331098560.jpg/600x600bb.jpg"
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -1041,13 +1071,10 @@ window.SONG_MASTER = {
       }
     },
     "マシャルマキシマイザ": {
-      "title": "マーシャル・マキシマイザー",
-      "artist": "和楽器バンド",
-      "album": "ボカロ三昧2",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/94/55/17/945517eb-0a00-26fc-39c3-105f68516291/22UMGIM81445.rgb.jpg/600x600bb.jpg",
-      "en": {
-        "title": "marshall maximizer"
-      }
+      "title": "マーシャル・マキシマイザー (feat. 可不)",
+      "artist": "柊マグネタイト",
+      "album": "KAF+YOU KAFU COMPILATION ALBUM シンメトリー",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6a/25/39/6a2539f1-882e-9822-3876-14ec354ca6e6/ANTCD-46511.jpg/600x600bb.jpg"
     },
     "祝福": {
       "title": "祝福",
@@ -1153,9 +1180,9 @@ window.SONG_MASTER = {
     },
     "henceforth": {
       "title": "Henceforth",
-      "artist": "Orangestar",
-      "album": "And So Henceforth,",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5c/53/e7/5c53e7bb-43b4-8b85-af49-cb603ceb03df/PCCA_06218_A.jpg/600x600bb.jpg"
+      "artist": "Akuya",
+      "album": "Henceforth - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/a1/b0/79a1b01c-4ba8-d8cd-f624-c44dee43b7dc/5063535037946_cover.jpg/600x600bb.jpg"
     },
     "恋するフォチュンクッキ＆あつまる＆ぴこぴこぐらむ＆ほし": {
       "title": "恋するフォーチュンクッキー",
@@ -1245,12 +1272,12 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/39/41/89/394189a4-f84a-0384-ac8b-35020bc218da/GHOST_shokai_Jacket3000.jpg/600x600bb.jpg"
     },
     "アイロニacoustic.": {
-      "title": "クライヤ",
+      "title": "ハロ/ハワユ",
       "artist": "鹿乃",
-      "album": "クライヤ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/d0/ed/11/d0ed111f-596d-4e42-d654-47c51f37bbb6/4571192987258.jpg/600x600bb.jpg",
+      "album": "rye",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f5/33/c3/f533c341-433a-b4e1-2c61-18cd3c9e15a2/cover.jpg/600x600bb.jpg",
       "en": {
-        "title": "Cryer"
+        "title": "halo/hawayu"
       }
     },
     "p.h..": {
@@ -1584,10 +1611,10 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "一花依世界",
-      "artist": "洛天依",
-      "album": "依如初見",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ac/b0/68/acb06846-0c4f-d0f7-801c-678b0e37efd0/193017072921.jpg/600x600bb.jpg"
+      "title": "シャッター",
+      "artist": "優里",
+      "album": "シャッター - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/5c/ff/ac5cff5d-de3e-8cdc-f8de-95965a9fc894/4547366520002.jpg/600x600bb.jpg"
     },
     "メルティランドナイトメア": {
       "title": "メルティランドナイトメア",
@@ -1926,10 +1953,10 @@ window.SONG_MASTER = {
       }
     },
     "すぱなチャット": {
-      "title": "SHAMPOO",
-      "artist": "PUNPEE, BIM & Elle Teresa",
-      "album": "Iced Out - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3f/2f/d4/3f2fd442-0514-722f-1dba-dd0f2403a098/4573268541708_cover.png/600x600bb.jpg"
+      "title": "Streamer",
+      "artist": "すとぷり",
+      "album": "Streamer - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/23/6c/30/236c30da-7cc3-24bd-d526-0dcf2eccf69a/20UMGIM70644.rgb.jpg/600x600bb.jpg"
     },
     "エイリアンエイリアン": {
       "title": "エイリアンエイリアン",
