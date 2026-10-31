@@ -30,7 +30,7 @@ window.KARAOKE = [
     "duration": 7475,
     "songs": [],
     "en": {
-      "title": "[Song frame] Let me sing [Komakoma/MilliPro]"
+      "title": "[Song frame] Let me sing [Komawarikoma/MilliPro]"
     }
   },
   {
@@ -327,7 +327,7 @@ window.KARAOKE = [
     "duration": 10428,
     "songs": [],
     "en": {
-      "title": "[Song Frame] Completely released for singing with 6000 high ratings! 🔥Information lifted durability [Yuragiyura/Millipro]"
+      "title": "[Song Frame] Completely released for singing with 6000 high ratings! 🔥Information lifted durability [Yuragiyura/MilliPro]"
     }
   },
   {
@@ -349,7 +349,7 @@ window.KARAOKE = [
     "duration": 7532,
     "songs": [],
     "en": {
-      "title": "[Song frame] Changed to song frame after recovery┊︎#Otononono#Nononya"
+      "title": "[Song frame] Changed to song frame after recovering from illness ┊︎ #Otononono #Nononya"
     }
   },
   {

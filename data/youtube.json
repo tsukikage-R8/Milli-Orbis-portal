@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-10-31T02:55:20.913Z",
+  "updatedAt": "2026-10-31T09:59:18.442Z",
   "streams": [
-    {
-      "id": "jpeNw-now8I",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【お片付け】ハロウィン当日なのにお店がめちゃくちゃ！？【Tidy Up the Halloween Shop】",
-      "thumb": "https://i.ytimg.com/vi/jpeNw-now8I/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-31T03:00:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[Cleaning up] Even though it's Halloween, the store is a mess! ? [Tidy Up the Halloween Shop]"
-      }
-    },
-    {
-      "id": "gYAqfSermVc",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【お絵描き】みんなが考えてくれた秋服を見て、描いていこう！【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/gYAqfSermVc/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-31T05:00:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[Drawing] Look at the autumn clothes that everyone has come up with and draw them! [#AmakamiLive/#Millipro]"
-      }
-    },
-    {
-      "id": "Np7iIJhRB50",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【📢コラボ情報】「ミリプロ × 100時間カレー」のコラボイベント開催が決定✨",
-      "thumb": "https://i.ytimg.com/vi/Np7iIJhRB50/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-31T09:00:00Z",
-      "status": "upcoming",
-      "en": {
-        "title": "[📢Collaboration Information] Collaboration event of “MilliPro x 100 Hour Curry” will be held✨"
-      }
-    },
     {
       "id": "xYPjcKTXcL4",
       "memberId": "aoi",
@@ -47,6 +11,18 @@
       "status": "upcoming",
       "en": {
         "title": "[Chat] Looking back at October & reading the first distribution of Supercha! ! [Aoi Kairin/MilliPro]"
+      }
+    },
+    {
+      "id": "D-Qr5xAioGw",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "title": "【#あくび誕生祭2026】※重大告知あり※ 歌えないとイタズラされる！？【あくび・でもんすぺーど】",
+      "thumb": "https://i.ytimg.com/vi/D-Qr5xAioGw/hqdefault.jpg",
+      "scheduledStartTime": "2026-10-31T11:00:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "[#Yawn Birthday Festival 2026] *Important announcement* If you can't sing, you'll get pranked! ? [Yawn/Demon Speed]"
       }
     },
     {
@@ -71,6 +47,30 @@
       "status": "upcoming",
       "en": {
         "title": "[Chat] Thank you for your hard work this monthヽ(.⊿·) [Mahoro Kano/MilliPro]"
+      }
+    },
+    {
+      "id": "ytlaS2AO4Pg",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【リ・ストーリー: 思い出修理屋】圧倒的高評価！チル修理ゲーをします！【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ytlaS2AO4Pg/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-01T02:00:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "[Re-Story: Memories Repair Shop] Overwhelmingly highly rated! Let's play a chill repair game! [Mahoro Kano/MilliPro]"
+      }
+    },
+    {
+      "id": "gYAqfSermVc",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "【お絵描き】みんなが考えてくれた秋服を見て、描いていこう！【 #あまかみらいぶ / #ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/gYAqfSermVc/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-01T09:00:00Z",
+      "status": "upcoming",
+      "en": {
+        "title": "[Drawing] Look at the autumn clothes that everyone has come up with and draw them! [#AmakamiLive/#Millipro]"
       }
     },
     {
@@ -172,6 +172,97 @@
   ],
   "videos": [
     {
+      "id": "orVCvZsP9tc",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "\"結び\"歌ってみた！┊︎#音ノ乃のの #結び #AyumuImazu #今津渉",
+      "thumb": "https://i.ytimg.com/vi/orVCvZsP9tc/hqdefault.jpg",
+      "publishedAt": "2026-10-31T09:12:56Z",
+      "live": false,
+      "en": {
+        "title": "I tried singing \"Musubi\"! ┊︎#Otonono #Conclusion #AyumuImazu #Wataru Imazu"
+      }
+    },
+    {
+      "id": "jpeNw-now8I",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【耐久】ハロウィン当日なのにお店がめちゃくちゃ！？【Tidy Up the Halloween Shop】",
+      "thumb": "https://i.ytimg.com/vi/jpeNw-now8I/hqdefault.jpg",
+      "publishedAt": "2026-10-31T09:11:23Z",
+      "live": false,
+      "en": {
+        "title": "[Durability] Even though it's Halloween, the store is a mess! ? [Tidy Up the Halloween Shop]"
+      }
+    },
+    {
+      "id": "iTtWZgMCfUY",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "『Happy Halloween』歌ってみた 【#海琳あおい /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/iTtWZgMCfUY/hqdefault.jpg",
+      "publishedAt": "2026-10-31T09:01:12Z",
+      "live": false,
+      "en": {
+        "title": "I tried singing “Happy Halloween” [#Aoi Kairin/MilliPro]"
+      }
+    },
+    {
+      "id": "oc3bktI8oRY",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【チャレンジ】ボカロ歌詞乗っ取りゲーム！【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/oc3bktI8oRY/hqdefault.jpg",
+      "publishedAt": "2026-10-31T09:00:20Z",
+      "live": false,
+      "en": {
+        "title": "[Challenge] Vocaloid lyrics hijacking game! [Komakoma/MilliPro]"
+      }
+    },
+    {
+      "id": "NTZKjWoZvzw",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【マイクラ】1個しかないダイヤを見つけれるか！？【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/NTZKjWoZvzw/hqdefault.jpg",
+      "publishedAt": "2026-10-31T09:00:01Z",
+      "live": false,
+      "en": {
+        "title": "[Minecraft] Can you find the only diamond! ? [#MilliPro]"
+      }
+    },
+    {
+      "id": "dAuJYqS60f0",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【左右反転】オリ曲『ルミナス』みんなも一緒に踊ってみよう〜！💃【音ノ瀬らこ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/dAuJYqS60f0/hqdefault.jpg",
+      "publishedAt": "2026-10-31T08:00:30Z",
+      "live": false,
+      "en": {
+        "title": "[Left and right reversed] Original song “Luminous” Let’s all dance together! 💃 [Rako Otonose/MilliPro]"
+      }
+    },
+    {
+      "id": "ytlaS2AO4Pg",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【リ・ストーリー: 思い出修理屋】圧倒的高評価！チル修理ゲーをします！【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ytlaS2AO4Pg/hqdefault.jpg?v=6ae565dc",
+      "publishedAt": "2026-10-31T03:51:54Z",
+      "live": false,
+      "en": {
+        "title": "[Re-Story: Memories Repair Shop] Overwhelmingly highly rated! Let's play a chill repair game! [Mahoro Kano/MilliPro]"
+      }
+    },
+    {
       "id": "3sKrr49yuEE",
       "memberId": "rei",
       "member": "夕霧レイ",
@@ -233,7 +324,7 @@
       "publishedAt": "2026-10-30T15:17:13Z",
       "live": false,
       "en": {
-        "title": "[#Yawn Birthday Festival 2026] Everyone celebrate your birthday! ! ! [Yawn/Demon Speed/Millipro]"
+        "title": "[#Yawn Birthday Festival 2026] Everyone celebrate your birthday! ! ! [Yawn/Demon Speed/MilliPro]"
       }
     },
     {
@@ -272,7 +363,7 @@
       "publishedAt": "2026-10-30T13:45:10Z",
       "live": true,
       "en": {
-        "title": "〖 Chat 〗 I'm angry about the sudden cold 〖 Nemugumo Tsukuri / MilliPro 〗"
+        "title": "〖 Chat 〗 I'm angry because of the sudden cold 〖 Nemugumo Tsukuri / Millipro 〗"
       }
     },
     {
@@ -299,19 +390,6 @@
       "live": false,
       "en": {
         "title": "Blue Ambience / Rei Yugiri & Rako Otonose (cover)"
-      }
-    },
-    {
-      "id": "jpeNw-now8I",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【お片付け】ハロウィン当日なのにお店がめちゃくちゃ！？【Tidy Up the Halloween Shop】",
-      "thumb": "https://i.ytimg.com/vi/jpeNw-now8I/hqdefault.jpg?v=6ae476b3",
-      "publishedAt": "2026-10-30T10:51:29Z",
-      "live": false,
-      "en": {
-        "title": "[Cleaning up] Even though it's Halloween, the store is a mess! ? [Tidy Up the Halloween Shop]"
       }
     },
     {
@@ -454,7 +532,20 @@
       "publishedAt": "2026-10-29T13:13:09Z",
       "live": false,
       "en": {
-        "title": "[Song frame] Let me sing [Komakoma/MilliPro]"
+        "title": "[Song frame] Let me sing [Komawarikoma/MilliPro]"
+      }
+    },
+    {
+      "id": "D-Qr5xAioGw",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "【#あくび誕生祭2026】※重大告知あり※ 歌えないとイタズラされる！？【あくび・でもんすぺーど】",
+      "thumb": "https://i.ytimg.com/vi/D-Qr5xAioGw/hqdefault.jpg?v=6ae33009",
+      "publishedAt": "2026-10-29T11:37:42Z",
+      "live": false,
+      "en": {
+        "title": "[#Yawn Birthday Festival 2026] *Important announcement* If you can't sing, you'll get pranked! ? [Yawn/Demon Speed]"
       }
     },
     {
@@ -467,98 +558,7 @@
       "publishedAt": "2026-10-29T09:51:41Z",
       "live": false,
       "en": {
-        "title": "[Minecraft] Aoi Kairin's close call challenge! [#MilliPro]"
-      }
-    },
-    {
-      "id": "UA9zDIUAKaY",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【左右反転】オリ曲『ルミナス』のダンス解説！💃【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/UA9zDIUAKaY/hqdefault.jpg",
-      "publishedAt": "2026-10-29T09:00:27Z",
-      "live": false,
-      "en": {
-        "title": "[Left and right reversed] Dance commentary for the original song “Luminous”! 💃 [Rako Otonose/MilliPro]"
-      }
-    },
-    {
-      "id": "oXXXfkwBNhU",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "Letters To Me - 鹿乃まほろ cover.",
-      "thumb": "https://i.ytimg.com/vi/oXXXfkwBNhU/hqdefault.jpg",
-      "publishedAt": "2026-10-29T09:00:10Z",
-      "live": false,
-      "en": {
-        "title": "Letters To Me - Mahoro Kano cover."
-      }
-    },
-    {
-      "id": "_1mSTwqj_w0",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "アハ体験⁉️全部当てられる？#shorts #animation #illustration",
-      "thumb": "https://i.ytimg.com/vi/_1mSTwqj_w0/hqdefault.jpg",
-      "publishedAt": "2026-10-29T09:00:00Z",
-      "live": false,
-      "en": {
-        "title": "Aha experience⁉️ Can you guess everything? #shorts #animation #illustration"
-      }
-    },
-    {
-      "id": "-dYcnJfk3II",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "わたしの居ない将来にどうぞよろしく伝えてください。┊︎#音ノ乃のの #分かっちゃいないね #monet #花隅千冬 #shorts",
-      "thumb": "https://i.ytimg.com/vi/-dYcnJfk3II/hqdefault.jpg",
-      "publishedAt": "2026-10-29T08:41:58Z",
-      "live": false,
-      "en": {
-        "title": "Please convey my best wishes to the future without me. ┊︎#Otononono #You don't understand #monet #Chifuyu Hanazumi #shorts"
-      }
-    },
-    {
-      "id": "Mw5dDeQzSTU",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 NTE 】「既存」って一体なんなんだ！？謎だらけの本編へ！【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/Mw5dDeQzSTU/hqdefault.jpg",
-      "publishedAt": "2026-10-29T07:26:35Z",
-      "live": false,
-      "en": {
-        "title": "[NTE] What exactly is “existing”? ? To the main story full of mysteries! [Yuragiyura / Millipro]"
-      }
-    },
-    {
-      "id": "ArIfQMPZCeg",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【APEX】全力でよちよちを遂行する！！！！w/音ノ瀬らこ,ゆらぎゆら【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ArIfQMPZCeg/hqdefault.jpg",
-      "publishedAt": "2026-10-28T18:23:38Z",
-      "live": false,
-      "en": {
-        "title": "[APEX] Perform the toddle with all your might! ! ! ! w/Rako Otonose, Yuragi Yura [Aoi Kairin/MilliPro]"
-      }
-    },
-    {
-      "id": "wx8QEU6nW8g",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【 APEX 】よちよちえーぺっくす！👶【 音ノ瀬らこ/ゆらぎゆら/海琳あおい 】#のばのあそびば",
-      "thumb": "https://i.ytimg.com/vi/wx8QEU6nW8g/hqdefault.jpg",
-      "publishedAt": "2026-10-28T15:22:22Z",
-      "live": false,
-      "en": {
-        "title": "[APEX] Yochiyochi Apex! 👶 [Rako Otonose/Yuragi Yura/Aoi Kairin] #Nobano Asobiba"
+        "title": "[Minecraft] Challenge Aoi Kairin to a close call! [#MilliPro]"
       }
     }
   ],

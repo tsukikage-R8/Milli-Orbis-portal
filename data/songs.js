@@ -442,7 +442,7 @@ window.SONGS = {
         "mahoro"
       ],
       "en": {
-        "title": "Kano “Nadamesukashi Negotiation” [OFFICIAL] “Uzaki-chan wants to play!” OP"
+        "title": "Kano “Nadame Sukashi Negotiation” [OFFICIAL] “Uzaki-chan wants to play!” OP"
       }
     },
     {
@@ -762,7 +762,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Feeling great↑↑／Komawarikoma × Nemugumo Tsukuri × Ameya Liz (cover)"
+        "title": "Feeling great↑↑/Komawarikoma × Nemugumo Tsukuri × Ameya Riz (cover)"
       }
     },
     {
@@ -807,7 +807,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Femme Fatale／Komawarikoma × Nemugumo Tsukuri × Ameya Liz (cover)"
+        "title": "Femme Fatale/Komai Koma × Nemugumo Tsukuri × Ameya Liz (cover)"
       }
     },
     {
@@ -3352,7 +3352,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Moe Chukka Fire (Masei) / Kano cover."
+        "title": "Moe Chakka Fire (Masei) / Kano cover."
       }
     },
     {
@@ -3978,7 +3978,7 @@ window.SONGS = {
         }
       ],
       "en": {
-        "title": "Even if it's your happiness, acoustic cover.Kano"
+        "title": "Even if it's your happiness acoustic cover.Kano"
       }
     },
     {
