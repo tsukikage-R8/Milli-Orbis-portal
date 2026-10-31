@@ -9,10 +9,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/45/11/66/45116621-c965-642d-43ef-b8cf33711bde/22UMGIM58754.rgb.jpg/600x600bb.jpg"
     },
     "ギタと孤独と蒼い惑星": {
-      "title": "In the Morning",
-      "artist": "Mrs. GREEN APPLE",
-      "album": "Mrs. GREEN APPLE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/02/6d/e2026db1-a828-6437-2db1-536e454fe044/00602557312133.rgb.jpg/600x600bb.jpg"
+      "title": "もう一度キスしたかった",
+      "artist": "B'z",
+      "album": "IN THE LIFE",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/67/8d/33/678d33aa-4eeb-8682-575d-0bbc3e95cd59/dj.ylccwcgc.jpg/600x600bb.jpg"
     },
     "天ノ弱": {
       "title": "天ノ弱",
@@ -1370,17 +1370,11 @@ window.SONG_MASTER = {
       "album": "Beat Eater - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/ec/18/7fec18d7-ae84-31cc-98f3-cdd5dc534eda/4511820-76552.jpg/600x600bb.jpg"
     },
-    "私は、私達は-guiano": {
-      "title": "私は、私達は",
-      "artist": "Guiano",
-      "album": "私は、私達は - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/11/b2/5b/11b25b07-1745-af10-98b4-728152727d18/ANTCD-46197.jpg/600x600bb.jpg"
-    },
     "カタオモイ-aimer": {
       "title": "カタオモイ",
       "artist": "Aimer",
-      "album": "daydream",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/46/4a/84/464a843d-14cc-e5e2-a9d6-763eb558e104/4547366270358.jpg/600x600bb.jpg"
+      "album": "BEST SELECTION \"blanc\"",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ab/ab/9b/abab9b3b-41cd-a0c0-29c0-6a1464501c0b/4547366306514.jpg/600x600bb.jpg"
     },
     "ちゅ、多様性。": {
       "title": "MAD HEAD LOVE",
@@ -1506,10 +1500,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/67/8f/cd/678fcd20-21ad-4f96-eecf-ef85d489b4c0/4511820-95411.jpg/600x600bb.jpg"
     },
     "sakuraいきものがかりacousticarrange": {
-      "title": "Es (feat. 初音ミク)",
-      "artist": "PALZ",
-      "album": "Es (feat. 初音ミク) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d7/b0/32/d7b0320a-2222-d541-d57c-a5b16ea87705/4550757724903_cover.png/600x600bb.jpg"
+      "title": "Give me a brains",
+      "artist": "RAXISS",
+      "album": "俺の城 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/fb/75/aefb756e-7db7-80fa-9a0d-e161bdc4505d/bigup14157593.jpg/600x600bb.jpg"
     },
     "どりみんチュチュdreaminchuchu.": {
       "title": "どりーみんチュチュ",
@@ -1590,13 +1584,10 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "かくれんぼ",
-      "artist": "優里",
-      "album": "かくれんぼ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/be/53/46/be534605-c062-2cea-0e91-137f517a1e42/079175_J.jpg/600x600bb.jpg",
-      "en": {
-        "title": "hide and seek"
-      }
+      "title": "一花依世界",
+      "artist": "洛天依",
+      "album": "依如初見",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ac/b0/68/acb06846-0c4f-d0f7-801c-678b0e37efd0/193017072921.jpg/600x600bb.jpg"
     },
     "メルティランドナイトメア": {
       "title": "メルティランドナイトメア",
