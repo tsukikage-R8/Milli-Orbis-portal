@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-10-31T22:53:07.678Z",
+  "updatedAt": "2026-11-01T02:49:21.919Z",
   "streams": [
-    {
-      "id": "_MnNsLZlH2w",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 朝活 】11月最初のおはよう！おはゆら🌞【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/_MnNsLZlH2w/hqdefault.jpg",
-      "scheduledStartTime": "2026-10-31T23:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "ytlaS2AO4Pg",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【リ・ストーリー: 思い出修理屋】圧倒的高評価！チル修理ゲーをします！【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ytlaS2AO4Pg/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-01T02:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "gYAqfSermVc",
       "memberId": "konomi",
@@ -103,6 +85,16 @@
   ],
   "videos": [
     {
+      "id": "_MnNsLZlH2w",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 朝活 】11月最初のおはよう！おはゆら🌞【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/_MnNsLZlH2w/hqdefault.jpg",
+      "publishedAt": "2026-11-01T00:42:32Z",
+      "live": false
+    },
+    {
       "id": "d5X6P7wMibE",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
@@ -111,16 +103,6 @@
       "thumb": "https://i.ytimg.com/vi/d5X6P7wMibE/hqdefault.jpg",
       "publishedAt": "2026-10-31T19:55:44Z",
       "live": true
-    },
-    {
-      "id": "_MnNsLZlH2w",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 朝活 】11月最初のおはよう！おはゆら🌞【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/_MnNsLZlH2w/hqdefault.jpg?v=6ae5e4d5",
-      "publishedAt": "2026-10-31T12:53:39Z",
-      "live": false
     },
     {
       "id": "M0-GKpTH8ME",
@@ -230,16 +212,6 @@
       "title": "【左右反転】オリ曲『ルミナス』みんなも一緒に踊ってみよう〜！💃【音ノ瀬らこ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/dAuJYqS60f0/hqdefault.jpg",
       "publishedAt": "2026-10-31T08:00:30Z",
-      "live": false
-    },
-    {
-      "id": "ytlaS2AO4Pg",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【リ・ストーリー: 思い出修理屋】圧倒的高評価！チル修理ゲーをします！【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ytlaS2AO4Pg/hqdefault.jpg?v=6ae6299d",
-      "publishedAt": "2026-10-31T03:51:54Z",
       "live": false
     },
     {
@@ -401,6 +373,16 @@
       "thumb": "https://i.ytimg.com/vi/ThGSH_Jhj14/hqdefault.jpg",
       "publishedAt": "2026-10-29T14:20:54Z",
       "live": true
+    },
+    {
+      "id": "DgsTtxGIiJY",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 飲み雑 】冬と言ったら酒、酒と言ったら冬 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/DgsTtxGIiJY/hqdefault.jpg",
+      "publishedAt": "2026-10-29T14:09:33Z",
+      "live": false
     }
   ],
   "live": []
