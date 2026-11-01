@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T02:49:21.919Z",
+  "updatedAt": "2026-11-01T10:50:56.270Z",
   "streams": [
     {
       "id": "gYAqfSermVc",
@@ -7,8 +7,8 @@
       "member": "甘狼このみ",
       "title": "【お絵描き】みんなが考えてくれた秋服を見て、描いていこう！【 #あまかみらいぶ / #ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/gYAqfSermVc/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-01T09:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-11-01T09:01:15Z",
+      "status": "live"
     },
     {
       "id": "h9nYQNJBBts",
@@ -85,6 +85,56 @@
   ],
   "videos": [
     {
+      "id": "ytlaS2AO4Pg",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【リ・ストーリー: 思い出修理屋】圧倒的高評価！チル修理ゲーをします！【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/ytlaS2AO4Pg/hqdefault.jpg",
+      "publishedAt": "2026-11-01T10:38:30Z",
+      "live": false
+    },
+    {
+      "id": "M0-GKpTH8ME",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【友情崩壊】力を合わせて理不尽な試練を乗り越えるチャレンジをしたらカオスになったｗｗｗ",
+      "thumb": "https://i.ytimg.com/vi/M0-GKpTH8ME/hqdefault.jpg",
+      "publishedAt": "2026-11-01T10:00:09Z",
+      "live": false
+    },
+    {
+      "id": "gYAqfSermVc",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【お絵描き】みんなが考えてくれた秋服を見て、描いていこう！【 #あまかみらいぶ / #ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/gYAqfSermVc/hqdefault.jpg?v=6ae4e093",
+      "publishedAt": "2026-11-01T09:01:15Z",
+      "live": false
+    },
+    {
+      "id": "eKA5V4pzF1Y",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【アニメ】授業中の絵しりとり #ミリプロ #anime",
+      "thumb": "https://i.ytimg.com/vi/eKA5V4pzF1Y/hqdefault.jpg",
+      "publishedAt": "2026-11-01T09:00:16Z",
+      "live": false
+    },
+    {
+      "id": "8eae_8roVVk",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "週末の宿題、やらなきゃいけない作業、溜まってる人、強制集合。【#あまかみらいぶ】",
+      "thumb": "https://i.ytimg.com/vi/8eae_8roVVk/hqdefault.jpg",
+      "publishedAt": "2026-11-01T07:19:36Z",
+      "live": false
+    },
+    {
       "id": "_MnNsLZlH2w",
       "memberId": "yura",
       "member": "ゆらぎゆら",
@@ -103,16 +153,6 @@
       "thumb": "https://i.ytimg.com/vi/d5X6P7wMibE/hqdefault.jpg",
       "publishedAt": "2026-10-31T19:55:44Z",
       "live": true
-    },
-    {
-      "id": "M0-GKpTH8ME",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【友情崩壊】力を合わせて理不尽な試練を乗り越えるチャレンジをしたらカオスになったｗｗｗ",
-      "thumb": "https://i.ytimg.com/vi/M0-GKpTH8ME/hqdefault.jpg",
-      "publishedAt": "2026-10-31T12:38:51Z",
-      "live": false
     },
     {
       "id": "D-Qr5xAioGw",
@@ -222,16 +262,6 @@
       "title": "【 朝歌枠 】早起きの民、集合 ⟡.· 【 夕霧レイ/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/3sKrr49yuEE/hqdefault.jpg",
       "publishedAt": "2026-10-31T00:11:45Z",
-      "live": false
-    },
-    {
-      "id": "gYAqfSermVc",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【お絵描き】みんなが考えてくれた秋服を見て、描いていこう！【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/gYAqfSermVc/hqdefault.jpg?v=6ae4e093",
-      "publishedAt": "2026-10-30T18:23:13Z",
       "live": false
     },
     {
@@ -353,37 +383,17 @@
       "thumb": "https://i.ytimg.com/vi/0QCgioCp__A/hqdefault.jpg",
       "publishedAt": "2026-10-29T16:41:18Z",
       "live": false
-    },
-    {
-      "id": "xR9wTSCaLvk",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 Minecraft 】落下5回で即終了！？1ブロックから楽園を築きたい！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/xR9wTSCaLvk/hqdefault.jpg",
-      "publishedAt": "2026-10-29T15:22:07Z",
-      "live": false
-    },
-    {
-      "id": "ThGSH_Jhj14",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【雑談】深夜のラジオ雑談🎶歌ったりもするのかもナ🎶【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/ThGSH_Jhj14/hqdefault.jpg",
-      "publishedAt": "2026-10-29T14:20:54Z",
-      "live": true
-    },
-    {
-      "id": "DgsTtxGIiJY",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "channelTitle": "夕霧レイ / YugiriRay",
-      "title": "【 飲み雑 】冬と言ったら酒、酒と言ったら冬 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/DgsTtxGIiJY/hqdefault.jpg",
-      "publishedAt": "2026-10-29T14:09:33Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "gYAqfSermVc",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "【お絵描き】みんなが考えてくれた秋服を見て、描いていこう！【 #あまかみらいぶ / #ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/gYAqfSermVc/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-01T09:01:15Z",
+      "status": "live"
+    }
+  ]
 }
