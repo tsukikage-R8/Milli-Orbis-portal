@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T23:10:31.282Z",
+  "updatedAt": "2026-11-02T02:56:47.158Z",
   "streams": [
     {
       "id": "Whn-Yo5Ccps",
@@ -130,6 +130,26 @@
   ],
   "videos": [
     {
+      "id": "SgCFYuX5VLc",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【歌枠】寝落ち大歓迎～！ピアノオケでまったり歌うよ～【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/SgCFYuX5VLc/hqdefault.jpg",
+      "publishedAt": "2026-11-02T02:10:13Z",
+      "live": false
+    },
+    {
+      "id": "HQ3K_P6Pum0",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【朝活】月曜の朝、雨宿りしませんか？【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/HQ3K_P6Pum0/hqdefault.jpg",
+      "publishedAt": "2026-11-02T01:24:50Z",
+      "live": false
+    },
+    {
       "id": "qojMojsz3Tc",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -138,16 +158,6 @@
       "thumb": "https://i.ytimg.com/vi/qojMojsz3Tc/hqdefault.jpg",
       "publishedAt": "2026-11-01T20:17:07Z",
       "live": true
-    },
-    {
-      "id": "HQ3K_P6Pum0",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【朝活】月曜の朝、雨宿りしませんか？【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/HQ3K_P6Pum0/hqdefault.jpg?v=6ae77f73",
-      "publishedAt": "2026-11-01T18:05:36Z",
-      "live": false
     },
     {
       "id": "IkKsQeRxBeI",
@@ -417,16 +427,6 @@
       "title": "ブルーアンビエンス / 夕霧レイ＆音ノ瀬らこ(cover)",
       "thumb": "https://i.ytimg.com/vi/KyuXXAxFI60/hqdefault.jpg",
       "publishedAt": "2026-10-30T12:30:08Z",
-      "live": false
-    },
-    {
-      "id": "BS9gQNoTJXA",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】ワニに噛まれるのは誰だ！ワニワニパニック！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/BS9gQNoTJXA/hqdefault.jpg",
-      "publishedAt": "2026-10-30T09:30:21Z",
       "live": false
     }
   ],
