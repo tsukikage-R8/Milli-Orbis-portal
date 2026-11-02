@@ -5,7 +5,7 @@ window.KARAOKE = [
     "memberId": "tsukuri",
     "publishedAt": "2026-11-02",
     "title": "〖 歌枠 〗11月、新機材で歌う〖 眠雲ツクリ / ミリプロ 〗",
-    "duration": 0,
+    "duration": 8857,
     "songs": [],
     "en": {
       "title": "〖Singing frame〗Singing with new equipment in November〖Nemugumo Tsukuri / MilliPro〗"
@@ -19,7 +19,7 @@ window.KARAOKE = [
     "duration": 10617,
     "songs": [],
     "en": {
-      "title": "[Song Frame] Thank you for the 230,000 people and we'll do the highly rated 2300 Endurance Song Frame! [Ameya Liz/MilliPro]"
+      "title": "【歌枠】２３万人ありがとうそして高評価２３００耐久歌枠やるぞ！ [Ameya Liz/MilliPro]"
     }
   },
   {
@@ -41,7 +41,7 @@ window.KARAOKE = [
     "duration": 7475,
     "songs": [],
     "en": {
-      "title": "[Song frame] Let me sing [Komawarikoma/MilliPro]"
+      "title": "[Song frame] Let me sing [Komakoma/MilliPro]"
     }
   },
   {
@@ -173,7 +173,7 @@ window.KARAOKE = [
     "duration": 5751,
     "songs": [],
     "en": {
-      "title": "[Song frame] Let's do our best in October too ⟡.· [Rei Yugiri/MilliPro]"
+      "title": "[Song frame] Let's do our best in October too ⟡. · [Rei Yugiri/MilliPro]"
     }
   },
   {
@@ -195,7 +195,7 @@ window.KARAOKE = [
     "duration": 6892,
     "songs": [],
     "en": {
-      "title": "[Song frame] Super hot announcement! Singing ⟡.· [Rei Yugiri/MilliPro]"
+      "title": "[Song frame] Super hot announcement! Sing Nyo ⟡.· [Rei Yugiri/MilliPro]"
     }
   },
   {
@@ -360,7 +360,7 @@ window.KARAOKE = [
     "duration": 7532,
     "songs": [],
     "en": {
-      "title": "[Song frame] Changed to song frame after recovery┊︎#Otononono#Nononya"
+      "title": "[Song frame] Changed to song frame after recovering from illness ┊︎ #Otononono #Nononya"
     }
   },
   {
