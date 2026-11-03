@@ -61,9 +61,9 @@ window.SONG_MASTER = {
     },
     "surges＆": {
       "title": "Surges",
-      "artist": "Orangestar",
+      "artist": "m",
       "album": "Surges - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f8/93/65/f8936589-9412-28c5-bba5-5de355fe34b7/859757272648_cover.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/8d/1b/d38d1baf-7312-ee15-f952-8fc668c7a9a3/4562424562909.jpg/600x600bb.jpg"
     },
     "iii": {
       "title": "I I I",
@@ -129,13 +129,10 @@ window.SONG_MASTER = {
       }
     },
     "夏色えがおで1,2,jump!": {
-      "title": "夏色えがおで1,2,Jump!",
-      "artist": "μ's",
-      "album": "μ's Complete BEST BOX Chapter.01",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/42/d5/c642d5f1-c39c-fa71-9e82-0687bb89c8bb/4540774907212.png/600x600bb.jpg",
-      "en": {
-        "title": "Summer color picture 1,2,Jump!"
-      }
+      "title": "夏色えがおで1,2,Jump! (NICO Mix)",
+      "artist": "矢澤にこ(CV.徳井青空)",
+      "album": "ラブライブ! Solo Live! Collection from μ's 矢澤にこ スマイル・フォー・ユー♡",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/55/e1/b155e1c4-d79d-68b1-2ac2-4247945356da/4540774200580.png/600x600bb.jpg"
     },
     "イケナイ太陽": {
       "title": "イケナイ太陽",
@@ -201,13 +198,10 @@ window.SONG_MASTER = {
       }
     },
     "シスラブ＆": {
-      "title": "水曜日の約束-another story- (feat. 成海聖奈 (CV:雨宮天))",
+      "title": "シス×ラブ (feat. Hanon & Kotoha)",
       "artist": "HoneyWorks",
-      "album": "シス×ラブ / 水曜日の秘密-another story- - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e5/bd/d6/e5bdd6a5-ea22-999e-c4a3-e4b609f24346/4580074473567.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Wednesday Promise -another story- (feat. Sena Narumi (CV: Sora Amemiya))"
-      }
+      "album": "水声少女 (feat. Hanon & Kotoha)",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/73/bf/57/73bf57dc-de29-08d6-c30f-364f82ebc286/4562251594791_cover.jpg/600x600bb.jpg"
     },
     "プラネテス": {
       "title": "プラネテス",
@@ -259,9 +253,9 @@ window.SONG_MASTER = {
     },
     "ロミオとシンデレラ": {
       "title": "ロミオとシンデレラ",
-      "artist": "doriko",
+      "artist": "麻婆豆腐",
       "album": "ロミオとシンデレラ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/93/2e/9f/932e9f07-68e9-0d9c-b390-d498507a1d97/PA00106837_0_155685_jacket.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/f1/d5/abf1d530-f67d-b8d6-69dc-18af39756a63/SCGA-00310.jpg/600x600bb.jpg"
     },
     "ブラック★ロックシュタ-ryo": {
       "title": "ブラック★ロックシューター (Cover)",
@@ -792,10 +786,10 @@ window.SONG_MASTER = {
       }
     },
     "stay": {
-      "title": "STAY",
-      "artist": "ジャスティン・ビーバー & ザ・キッド・ラロイ",
-      "album": "SWAG LIVE FROM COACHELLA (Weekend I)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/06/1c/73/061c7321-52c9-5532-4fb5-5d704e43e7a9/ticket.efkjkgmd.jpg/600x600bb.jpg"
+      "title": "Stay",
+      "artist": "Zedd & アレッシア・カーラ",
+      "album": "Stay - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/08/90/e50890a8-205e-a810-dcda-44b614f99f5f/00602557442878.rgb.jpg/600x600bb.jpg"
     },
     "粛聖!!ロリ神レクイエム☆": {
       "title": "粛聖!! ロリ神レクイエム☆",
@@ -1509,10 +1503,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/67/8f/cd/678fcd20-21ad-4f96-eecf-ef85d489b4c0/4511820-95411.jpg/600x600bb.jpg"
     },
     "sakuraいきものがかりacousticarrange": {
-      "title": "Give me a brains",
-      "artist": "RAXISS",
-      "album": "俺の城 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/fb/75/aefb756e-7db7-80fa-9a0d-e161bdc4505d/bigup14157593.jpg/600x600bb.jpg"
+      "title": "Es (feat. 初音ミク)",
+      "artist": "PALZ",
+      "album": "Es (feat. 初音ミク) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d7/b0/32/d7b0320a-2222-d541-d57c-a5b16ea87705/4550757724903_cover.png/600x600bb.jpg"
     },
     "どりみんチュチュdreaminchuchu.": {
       "title": "どりーみんチュチュ",
@@ -1961,8 +1955,8 @@ window.SONG_MASTER = {
     "やさしさに包まれたなら": {
       "title": "やさしさに包まれたなら",
       "artist": "荒井由実",
-      "album": "40周年記念ベストアルバム 日本の恋と、ユーミンと。",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/9d/29/a59d2913-c2a1-4d9c-78b2-0fa914eb3336/00602567997542.rgb.jpg/600x600bb.jpg",
+      "album": "MISSLIM",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/52/9c/a0/529ca062-8a63-d1d7-5e6b-6774ba415dc2/00602567988229.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "If you are surrounded by kindness"
       }

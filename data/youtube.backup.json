@@ -1,51 +1,6 @@
 {
-  "updatedAt": "2026-11-03T04:14:27.234Z",
+  "updatedAt": "2026-11-03T15:31:56.938Z",
   "streams": [
-    {
-      "id": "QGLcfX5WSqQ",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 #ゆらぎゆらお誕生日だぞ2026 】※重大告知あり⁉️復帰後初めての歌枠🎉✨【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/QGLcfX5WSqQ/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-03T10:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "7YuPprHMdDo",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Gamble With Your Friends】一攫千金！ギャンブルで借金返済します【鹿乃まほろ/ミリプロ】with 碧依さくら・しろまんた・Cpt・BobSappAim",
-      "thumb": "https://i.ytimg.com/vi/7YuPprHMdDo/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-03T11:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "IkKsQeRxBeI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 メン限✨冒頭30分無料✨ 】2か月ぶりの飲酒！？休止後初のぽしゃけ解禁！🍻【 #ゆらぎゆらお誕生日だぞ2026 】",
-      "thumb": "https://i.ytimg.com/vi/IkKsQeRxBeI/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-03T12:30:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "8F-C9ivtBnE",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【告知】🌟魔法少女コレクション販売中！",
-      "thumb": "https://i.ytimg.com/vi/8F-C9ivtBnE/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-03T13:30:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "tUZw65HEVPc",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【📢グッズ情報】魔法少女コレクション 2026 発売中！",
-      "thumb": "https://i.ytimg.com/vi/tUZw65HEVPc/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-03T14:30:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "lV08iY_IDzY",
       "memberId": "nono",
@@ -53,6 +8,15 @@
       "title": "【雑談】みんなのおもろ親戚おしえてや～～～～～┊︎#音ノ乃のの #ののん家",
       "thumb": "https://i.ytimg.com/vi/lV08iY_IDzY/hqdefault.jpg",
       "scheduledStartTime": "2026-11-07T11:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "JmHL3tmx6MA",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 #ゆらぎゆら新モデル 】ちょっぴり大人な「せくすぃ」うぉんなになりました。【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/JmHL3tmx6MA/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-10T12:00:00Z",
       "status": "upcoming"
     },
     {
@@ -121,13 +85,93 @@
   ],
   "videos": [
     {
-      "id": "KuAKFJRffQg",
+      "id": "bl3nh7U6iV0",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【回線復活】やっとみんなと話せるぞ！！！！！【虹深°ぬふ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/bl3nh7U6iV0/hqdefault.jpg?v=6ae9656e",
+      "publishedAt": "2026-11-03T15:02:53Z",
+      "live": false
+    },
+    {
+      "id": "IkKsQeRxBeI",
       "memberId": "yura",
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 #ゆらぎゆらお誕生日だぞ2026 】２♡歳になる瞬間、一緒に迎えてくれる？🎂【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/KuAKFJRffQg/hqdefault.jpg",
-      "publishedAt": "2026-11-02T15:25:46Z",
+      "title": "【 メン限✨冒頭30分無料✨ 】2か月ぶりの飲酒！？休止後初のぽしゃけ解禁！🍻【 #ゆらぎゆらお誕生日だぞ2026 】",
+      "thumb": "https://i.ytimg.com/vi/IkKsQeRxBeI/hqdefault.jpg",
+      "publishedAt": "2026-11-03T13:02:57Z",
+      "live": false
+    },
+    {
+      "id": "8xTMPRDuLrA",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "月の浮かぶ海 - ゆらぎゆら",
+      "thumb": "https://i.ytimg.com/vi/8xTMPRDuLrA/hqdefault.jpg",
+      "publishedAt": "2026-11-03T12:00:07Z",
+      "live": false
+    },
+    {
+      "id": "QGLcfX5WSqQ",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 #ゆらぎゆらお誕生日だぞ2026 】※重大告知あり⁉️復帰後初めての歌枠🎉✨【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/QGLcfX5WSqQ/hqdefault.jpg",
+      "publishedAt": "2026-11-03T11:54:16Z",
+      "live": false
+    },
+    {
+      "id": "1szhoi_qfBI",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "ただ声一つ / ロクデナシ covered by ゆらぎゆら",
+      "thumb": "https://i.ytimg.com/vi/1szhoi_qfBI/hqdefault.jpg",
+      "publishedAt": "2026-11-03T11:45:11Z",
+      "live": false
+    },
+    {
+      "id": "qgzMxLz2OVY",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【ASMR】99.9％即寝落ち！認知シャッフル睡眠法【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/qgzMxLz2OVY/hqdefault.jpg",
+      "publishedAt": "2026-11-03T11:35:39Z",
+      "live": false
+    },
+    {
+      "id": "cUU_fYQKeKY",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【1位はどの曲だ!?】2026年上半期アニソンカラオケランキング！！【#海琳あおい /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/cUU_fYQKeKY/hqdefault.jpg",
+      "publishedAt": "2026-11-03T09:01:35Z",
+      "live": false
+    },
+    {
+      "id": "fQ6Y9Weewbw",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【眠雲ツクリと】引いた言葉が歌詞に含まれる曲歌ってみた#shorts 【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/fQ6Y9Weewbw/hqdefault.jpg",
+      "publishedAt": "2026-11-03T09:00:26Z",
+      "live": false
+    },
+    {
+      "id": "-pR6v_cX1f4",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【アニメ】な、泣いてる？！ #ミリプロ #anime",
+      "thumb": "https://i.ytimg.com/vi/-pR6v_cX1f4/hqdefault.jpg",
+      "publishedAt": "2026-11-03T09:00:12Z",
       "live": false
     },
     {
@@ -178,16 +222,6 @@
       "title": "【本発売記念！】今年もサイン会&お話会決定～～！！！！✨会いに来てくれますか？【 #あまかみらいぶ / #ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/-QjROuQk15c/hqdefault.jpg",
       "publishedAt": "2026-11-02T12:04:55Z",
-      "live": false
-    },
-    {
-      "id": "xgys00f-i30",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "インディアンポーカー #minecraft #anime",
-      "thumb": "https://i.ytimg.com/vi/xgys00f-i30/hqdefault.jpg",
-      "publishedAt": "2026-11-02T09:14:16Z",
       "live": false
     },
     {
@@ -261,36 +295,6 @@
       "live": true
     },
     {
-      "id": "IkKsQeRxBeI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 メン限✨冒頭30分無料✨ 】2か月ぶりの飲酒！？休止後初のぽしゃけ解禁！🍻【 #ゆらぎゆらお誕生日だぞ2026 】",
-      "thumb": "https://i.ytimg.com/vi/IkKsQeRxBeI/hqdefault.jpg?v=6ae769d5",
-      "publishedAt": "2026-11-01T16:33:23Z",
-      "live": false
-    },
-    {
-      "id": "QGLcfX5WSqQ",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 #ゆらぎゆらお誕生日だぞ2026 】※重大告知あり⁉️復帰後初めての歌枠🎉✨【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/QGLcfX5WSqQ/hqdefault.jpg?v=6ae767e4",
-      "publishedAt": "2026-11-01T16:25:06Z",
-      "live": false
-    },
-    {
-      "id": "7YuPprHMdDo",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Gamble With Your Friends】一攫千金！ギャンブルで借金返済します【鹿乃まほろ/ミリプロ】with 碧依さくら・しろまんた・Cpt・BobSappAim",
-      "thumb": "https://i.ytimg.com/vi/7YuPprHMdDo/hqdefault.jpg?v=6ae76514",
-      "publishedAt": "2026-11-01T16:13:06Z",
-      "live": false
-    },
-    {
       "id": "ytlaS2AO4Pg",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
@@ -328,16 +332,6 @@
       "title": "週末の宿題、やらなきゃいけない作業、溜まってる人、強制集合。【#あまかみらいぶ】",
       "thumb": "https://i.ytimg.com/vi/8eae_8roVVk/hqdefault.jpg",
       "publishedAt": "2026-11-01T07:19:36Z",
-      "live": false
-    },
-    {
-      "id": "_MnNsLZlH2w",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 朝活 】11月最初のおはよう！おはゆら🌞【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/_MnNsLZlH2w/hqdefault.jpg",
-      "publishedAt": "2026-11-01T00:42:32Z",
       "live": false
     },
     {
@@ -388,36 +382,6 @@
       "title": "\"結び\"歌ってみた！┊︎#音ノ乃のの #結び #AyumuImazu #今津渉",
       "thumb": "https://i.ytimg.com/vi/orVCvZsP9tc/hqdefault.jpg",
       "publishedAt": "2026-10-31T09:12:56Z",
-      "live": false
-    },
-    {
-      "id": "iTtWZgMCfUY",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "『Happy Halloween』歌ってみた 【#海琳あおい /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/iTtWZgMCfUY/hqdefault.jpg",
-      "publishedAt": "2026-10-31T09:01:12Z",
-      "live": false
-    },
-    {
-      "id": "oc3bktI8oRY",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【チャレンジ】ボカロ歌詞乗っ取りゲーム！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/oc3bktI8oRY/hqdefault.jpg",
-      "publishedAt": "2026-10-31T09:00:20Z",
-      "live": false
-    },
-    {
-      "id": "NTZKjWoZvzw",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】1個しかないダイヤを見つけれるか！？【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/NTZKjWoZvzw/hqdefault.jpg",
-      "publishedAt": "2026-10-31T09:00:01Z",
       "live": false
     }
   ],
