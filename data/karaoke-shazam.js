@@ -361,9 +361,9 @@ window.KARAOKE_SHAZAM = {
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "MrCLJCrIZ_8": {
-    "status": "skip",
-    "attempts": 5,
-    "attemptedAt": "2026-10-26T08:34:14.214385+00:00",
+    "status": "error",
+    "attempts": 1,
+    "attemptedAt": "2026-11-04T10:31:15.204796+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "qD6JZQPGTt4": {
@@ -374,14 +374,14 @@ window.KARAOKE_SHAZAM = {
   },
   "xVpRapqd4JY": {
     "status": "error",
-    "attempts": 3,
-    "attemptedAt": "2026-11-04T04:10:25.087241+00:00",
+    "attempts": 4,
+    "attemptedAt": "2026-11-04T10:31:06.036515+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "x0Avn4-e-jI": {
-    "status": "error",
-    "attempts": 4,
-    "attemptedAt": "2026-11-04T04:10:14.898475+00:00",
+    "status": "skip",
+    "attempts": 5,
+    "attemptedAt": "2026-11-04T10:30:57.231150+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "LCoON5HWckw": {
