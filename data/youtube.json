@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-11-03T21:19:01.325Z",
+  "updatedAt": "2026-11-04T03:32:50.104Z",
   "streams": [
-    {
-      "id": "kdVkPT7DVyU",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "title": "【歌枠】おはようございます～～！！！！！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/kdVkPT7DVyU/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-03T21:06:52Z",
-      "status": "live"
-    },
     {
       "id": "biDODc3D_2k",
       "memberId": "mahoro",
@@ -112,13 +103,23 @@
   ],
   "videos": [
     {
+      "id": "7YuPprHMdDo",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Gamble With Your Friends】一攫千金！ギャンブルで借金返済します【鹿乃まほろ/ミリプロ】with 碧依さくら・しろまんた・Cpt・BobSappAim",
+      "thumb": "https://i.ytimg.com/vi/7YuPprHMdDo/hqdefault.jpg",
+      "publishedAt": "2026-11-04T02:00:49Z",
+      "live": false
+    },
+    {
       "id": "kdVkPT7DVyU",
       "memberId": "aoi",
       "member": "海琳あおい",
       "channelTitle": "海琳あおい / Mitama Aoi",
       "title": "【歌枠】おはようございます～～！！！！！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/kdVkPT7DVyU/hqdefault.jpg?v=6aea4b39",
-      "publishedAt": "2026-11-03T21:06:52Z",
+      "thumb": "https://i.ytimg.com/vi/kdVkPT7DVyU/hqdefault.jpg",
+      "publishedAt": "2026-11-03T23:54:46Z",
       "live": false
     },
     {
@@ -400,27 +401,7 @@
       "thumb": "https://i.ytimg.com/vi/d5X6P7wMibE/hqdefault.jpg",
       "publishedAt": "2026-10-31T19:55:44Z",
       "live": true
-    },
-    {
-      "id": "D-Qr5xAioGw",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "【#あくび誕生祭2026】※重大告知あり※ 歌えないとイタズラされる！？【あくび・でもんすぺーど】",
-      "thumb": "https://i.ytimg.com/vi/D-Qr5xAioGw/hqdefault.jpg",
-      "publishedAt": "2026-10-31T12:19:14Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "kdVkPT7DVyU",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "title": "【歌枠】おはようございます～～！！！！！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/kdVkPT7DVyU/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-03T21:06:52Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }

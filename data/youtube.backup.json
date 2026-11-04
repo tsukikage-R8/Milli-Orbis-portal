@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-11-03T15:31:56.938Z",
+  "updatedAt": "2026-11-03T21:19:01.325Z",
   "streams": [
+    {
+      "id": "kdVkPT7DVyU",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "title": "【歌枠】おはようございます～～！！！！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/kdVkPT7DVyU/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-03T21:06:52Z",
+      "status": "live"
+    },
+    {
+      "id": "biDODc3D_2k",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【Apex Legends】開幕からランクGo～！【鹿乃まほろ/ミリプロ】with 海琳あおい",
+      "thumb": "https://i.ytimg.com/vi/biDODc3D_2k/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-04T04:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "AXZWvNLFX-o",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "title": "【Apex Legends】開幕ランク～！Let&#39;s Gooooooo!!!!! w/鹿乃まほろ【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/AXZWvNLFX-o/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-04T04:00:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "lV08iY_IDzY",
       "memberId": "nono",
@@ -85,13 +112,43 @@
   ],
   "videos": [
     {
+      "id": "kdVkPT7DVyU",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【歌枠】おはようございます～～！！！！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/kdVkPT7DVyU/hqdefault.jpg?v=6aea4b39",
+      "publishedAt": "2026-11-03T21:06:52Z",
+      "live": false
+    },
+    {
+      "id": "AXZWvNLFX-o",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【Apex Legends】開幕ランク～！Let's Gooooooo!!!!! w/鹿乃まほろ【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/AXZWvNLFX-o/hqdefault.jpg?v=6aea42c3",
+      "publishedAt": "2026-11-03T20:23:29Z",
+      "live": false
+    },
+    {
+      "id": "biDODc3D_2k",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Apex Legends】開幕からランクGo～！【鹿乃まほろ/ミリプロ】with 海琳あおい",
+      "thumb": "https://i.ytimg.com/vi/biDODc3D_2k/hqdefault.jpg?v=6aea2e06",
+      "publishedAt": "2026-11-03T18:53:20Z",
+      "live": false
+    },
+    {
       "id": "bl3nh7U6iV0",
       "memberId": "nuhu",
       "member": "虹深°ぬふ",
       "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
       "title": "【回線復活】やっとみんなと話せるぞ！！！！！【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/bl3nh7U6iV0/hqdefault.jpg?v=6ae9656e",
-      "publishedAt": "2026-11-03T15:02:53Z",
+      "thumb": "https://i.ytimg.com/vi/bl3nh7U6iV0/hqdefault.jpg",
+      "publishedAt": "2026-11-03T18:03:03Z",
       "live": false
     },
     {
@@ -353,37 +410,17 @@
       "thumb": "https://i.ytimg.com/vi/D-Qr5xAioGw/hqdefault.jpg",
       "publishedAt": "2026-10-31T12:19:14Z",
       "live": false
-    },
-    {
-      "id": "7oQJfeYuiKo",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "Siren’s Siren - あくび・でもんすぺーど（official）",
-      "thumb": "https://i.ytimg.com/vi/7oQJfeYuiKo/hqdefault.jpg",
-      "publishedAt": "2026-10-31T12:15:17Z",
-      "live": false
-    },
-    {
-      "id": "xYPjcKTXcL4",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【雑談】10月振り返り&初配信のスパチャ読みする！！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/xYPjcKTXcL4/hqdefault.jpg",
-      "publishedAt": "2026-10-31T11:27:09Z",
-      "live": true
-    },
-    {
-      "id": "orVCvZsP9tc",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "\"結び\"歌ってみた！┊︎#音ノ乃のの #結び #AyumuImazu #今津渉",
-      "thumb": "https://i.ytimg.com/vi/orVCvZsP9tc/hqdefault.jpg",
-      "publishedAt": "2026-10-31T09:12:56Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "kdVkPT7DVyU",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "title": "【歌枠】おはようございます～～！！！！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/kdVkPT7DVyU/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-03T21:06:52Z",
+      "status": "live"
+    }
+  ]
 }
