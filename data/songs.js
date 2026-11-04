@@ -382,6 +382,31 @@ window.SONGS = {
   ],
   "covers": [
     {
+      "title": "月の浮かぶ海 - ゆらぎゆら",
+      "key": "月の浮かぶ海",
+      "urls": [
+        {
+          "id": "8xTMPRDuLrA",
+          "memberId": "yura",
+          "publishedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "title": "ただ声一つ / ロクデナシ",
+      "key": "ただ声一つロクデナシ",
+      "urls": [
+        {
+          "id": "1szhoi_qfBI",
+          "memberId": "yura",
+          "publishedAt": "2026-11-04"
+        }
+      ],
+      "en": {
+        "title": "Just one voice / Rokudenashi"
+      }
+    },
+    {
       "title": "ブルーアンビエンス",
       "key": "ブルアンビエンス＆",
       "urls": [
