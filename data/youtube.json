@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-11-05T11:40:42.645Z",
+  "updatedAt": "2026-11-05T19:08:06.672Z",
   "streams": [
-    {
-      "id": "gF9q3vknsVM",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【お絵描き雑談】とあるイラスト描くンゴ～【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/gF9q3vknsVM/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-05T10:16:20Z",
-      "status": "live"
-    },
     {
       "id": "-VmnIZDwC2o",
       "memberId": "konomi",
@@ -112,14 +103,34 @@
   ],
   "videos": [
     {
+      "id": "kAhJw-_o2BI",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【歌枠】寝る前に聴いていかない？【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/kAhJw-_o2BI/hqdefault.jpg",
+      "publishedAt": "2026-11-05T16:23:17Z",
+      "live": false
+    },
+    {
       "id": "gF9q3vknsVM",
       "memberId": "nuhu",
       "member": "虹深°ぬふ",
       "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
       "title": "【お絵描き雑談】とあるイラスト描くンゴ～【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/gF9q3vknsVM/hqdefault.jpg?v=6aec54ba",
-      "publishedAt": "2026-11-05T10:16:20Z",
+      "thumb": "https://i.ytimg.com/vi/gF9q3vknsVM/hqdefault.jpg",
+      "publishedAt": "2026-11-05T16:06:11Z",
       "live": true
+    },
+    {
+      "id": "AqogOVxUAuQ",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 Minecraft 】誰もいない海辺の街から脱出せよ！？謎だらけのチャペルへ！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/AqogOVxUAuQ/hqdefault.jpg",
+      "publishedAt": "2026-11-05T15:44:57Z",
+      "live": false
     },
     {
       "id": "-VmnIZDwC2o",
@@ -302,16 +313,6 @@
       "live": false
     },
     {
-      "id": "8xTMPRDuLrA",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "月の浮かぶ海 - ゆらぎゆら",
-      "thumb": "https://i.ytimg.com/vi/8xTMPRDuLrA/hqdefault.jpg",
-      "publishedAt": "2026-11-03T12:00:07Z",
-      "live": false
-    },
-    {
       "id": "cUU_fYQKeKY",
       "memberId": "aoi",
       "member": "海琳あおい",
@@ -400,27 +401,7 @@
       "thumb": "https://i.ytimg.com/vi/MKY_LrGogko/hqdefault.jpg",
       "publishedAt": "2026-11-02T09:00:25Z",
       "live": false
-    },
-    {
-      "id": "R7Um-W37lj4",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "だんだんハモる『島の歌』歌ってみた#shorts 【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/R7Um-W37lj4/hqdefault.jpg",
-      "publishedAt": "2026-11-02T09:00:20Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "gF9q3vknsVM",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【お絵描き雑談】とあるイラスト描くンゴ～【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/gF9q3vknsVM/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-05T10:16:20Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
