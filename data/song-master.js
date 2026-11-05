@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-11-04",
+  "generatedAt": "2026-11-05",
   "songs": {
     "月の浮かぶ海": {
       "title": "月の浮かぶ海",
@@ -73,9 +73,9 @@ window.SONG_MASTER = {
     },
     "surges＆": {
       "title": "Surges",
-      "artist": "Orangestar",
+      "artist": "m",
       "album": "Surges - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f8/93/65/f8936589-9412-28c5-bba5-5de355fe34b7/859757272648_cover.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/8d/1b/d38d1baf-7312-ee15-f952-8fc668c7a9a3/4562424562909.jpg/600x600bb.jpg"
     },
     "iii": {
       "title": "I I I",
@@ -132,19 +132,19 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/81/50/62/815062a0-6414-169e-a684-6ad01c081c9f/195497315376.jpg/600x600bb.jpg"
     },
     "femmefatale": {
-      "title": "115万キロのフィルム",
-      "artist": "Official髭男dism",
-      "album": "エスカパレード",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/e8/2d/40e82dfb-55b4-7016-1127-357ab78d3f7f/jk.jpg/600x600bb.jpg",
-      "en": {
-        "title": "1.15 million kilometers of film"
-      }
+      "title": "怪物",
+      "artist": "YOASOBI",
+      "album": "怪物 - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9e/ab/2c/9eab2c24-8289-1bd7-548d-e6b871fcf169/195497732630.jpg/600x600bb.jpg"
     },
     "夏色えがおで1,2,jump!": {
-      "title": "夏色えがおで1,2,Jump! (NICO Mix)",
-      "artist": "矢澤にこ(CV.徳井青空)",
-      "album": "ラブライブ! Solo Live! Collection from μ's 矢澤にこ スマイル・フォー・ユー♡",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/55/e1/b155e1c4-d79d-68b1-2ac2-4247945356da/4540774200580.png/600x600bb.jpg"
+      "title": "夏色えがおで1,2,Jump!",
+      "artist": "μ's",
+      "album": "μ's Complete BEST BOX Chapter.01",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/42/d5/c642d5f1-c39c-fa71-9e82-0687bb89c8bb/4540774907212.png/600x600bb.jpg",
+      "en": {
+        "title": "Summer color picture 1,2,Jump!"
+      }
     },
     "イケナイ太陽": {
       "title": "イケナイ太陽",
@@ -210,10 +210,13 @@ window.SONG_MASTER = {
       }
     },
     "シスラブ＆": {
-      "title": "シス×ラブ (feat. Hanon & Kotoha)",
+      "title": "水曜日の約束-another story- (feat. 成海聖奈 (CV:雨宮天))",
       "artist": "HoneyWorks",
-      "album": "水声少女 (feat. Hanon & Kotoha)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/73/bf/57/73bf57dc-de29-08d6-c30f-364f82ebc286/4562251594791_cover.jpg/600x600bb.jpg"
+      "album": "シス×ラブ / 水曜日の秘密-another story- - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e5/bd/d6/e5bdd6a5-ea22-999e-c4a3-e4b609f24346/4580074473567.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Wednesday Promise -another story- (feat. Sena Narumi (CV: Sora Amemiya))"
+      }
     },
     "プラネテス": {
       "title": "プラネテス",
@@ -427,9 +430,9 @@ window.SONG_MASTER = {
     },
     "小悪魔だってかまわない！": {
       "title": "小悪魔だってかまわない!",
-      "artist": "高嶺のなでしこ",
+      "artist": "めいちゃん",
       "album": "小悪魔だってかまわない! - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/45/e5/a145e5c0-602e-658d-e83f-ae7108b55d8d/4571640926181_cover.jpg/600x600bb.jpg",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/97/3f/42/973f4260-c205-030f-7861-fef0a4340a23/21UMGIM34839.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "I don't care if you're a little devil!"
       }
@@ -1059,10 +1062,13 @@ window.SONG_MASTER = {
       }
     },
     "マシャルマキシマイザ": {
-      "title": "マーシャル・マキシマイザー (feat. 可不)",
-      "artist": "柊マグネタイト",
-      "album": "KAF+YOU KAFU COMPILATION ALBUM シンメトリー",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6a/25/39/6a2539f1-882e-9822-3876-14ec354ca6e6/ANTCD-46511.jpg/600x600bb.jpg"
+      "title": "マーシャル・マキシマイザー",
+      "artist": "吉乃",
+      "album": "PALETTE5",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a1/92/22/a1922258-5ccd-edba-3fdb-67721181c362/PCSP_03942.jpg/600x600bb.jpg",
+      "en": {
+        "title": "marshall maximizer"
+      }
     },
     "祝福": {
       "title": "祝福",
@@ -1168,9 +1174,9 @@ window.SONG_MASTER = {
     },
     "henceforth": {
       "title": "Henceforth",
-      "artist": "Orangestar",
-      "album": "And So Henceforth,",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5c/53/e7/5c53e7bb-43b4-8b85-af49-cb603ceb03df/PCCA_06218_A.jpg/600x600bb.jpg"
+      "artist": "Akuya",
+      "album": "Henceforth - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/a1/b0/79a1b01c-4ba8-d8cd-f624-c44dee43b7dc/5063535037946_cover.jpg/600x600bb.jpg"
     },
     "恋するフォチュンクッキ＆あつまる＆ぴこぴこぐらむ＆ほし": {
       "title": "恋するフォーチュンクッキー",
@@ -1569,10 +1575,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d2/29/9d/d2299deb-aca4-2229-de3b-d976635c6bb6/3617053072846.jpg/600x600bb.jpg"
     },
     "愛にできることはまだあるかいacoustic.": {
-      "title": "数え切れないくらいの",
-      "artist": "株式会社バンク・オブ・イノベーション & 鹿乃",
-      "album": "メメントモリ Lament Collection Vol.4",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/37/c7/25/37c7252a-3e77-bf01-2ccc-c845fe6834ee/4550795677384_cover.png/600x600bb.jpg"
+      "title": "ここから、かなたから~bambi-no cover~",
+      "artist": "鹿乃",
+      "album": "Stella-rium - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dc/b4/66/dcb466bf-c37a-4c50-a2bb-5c144f4d4a45/1000565791_Stella-rium.jpg/600x600bb.jpg"
     },
     "地球最後の告白をacoustic.": {
       "title": "ドラマツルギー (feat. 星乃一歌 & 初音ミク)",
@@ -1599,10 +1605,10 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "一花依世界",
-      "artist": "洛天依",
-      "album": "依如初見",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ac/b0/68/acb06846-0c4f-d0f7-801c-678b0e37efd0/193017072921.jpg/600x600bb.jpg"
+      "title": "シャッター",
+      "artist": "優里",
+      "album": "シャッター - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/5c/ff/ac5cff5d-de3e-8cdc-f8de-95965a9fc894/4547366520002.jpg/600x600bb.jpg"
     },
     "メルティランドナイトメア": {
       "title": "メルティランドナイトメア",
@@ -1689,13 +1695,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9a/9d/62/9a9d62eb-51a1-be7a-0b52-1913090579d4/4948722525264_cover.jpg/600x600bb.jpg"
     },
     "クライヤいました": {
-      "title": "115万キロのフィルム",
-      "artist": "Official髭男dism",
-      "album": "エスカパレード",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/e8/2d/40e82dfb-55b4-7016-1127-357ab78d3f7f/jk.jpg/600x600bb.jpg",
-      "en": {
-        "title": "1.15 million kilometers of film"
-      }
+      "title": "白日",
+      "artist": "King Gnu",
+      "album": "白日 - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/3e/b8/ef/3eb8ef78-c575-eb81-f982-aaec74b5fe53/jacket_BVXX01177B00Z_550.jpg/600x600bb.jpg"
     },
     "アイロニいました": {
       "title": "ツキミソウ",
@@ -1967,8 +1970,8 @@ window.SONG_MASTER = {
     "やさしさに包まれたなら": {
       "title": "やさしさに包まれたなら",
       "artist": "荒井由実",
-      "album": "MISSLIM",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/52/9c/a0/529ca062-8a63-d1d7-5e6b-6774ba415dc2/00602567988229.rgb.jpg/600x600bb.jpg",
+      "album": "40周年記念ベストアルバム 日本の恋と、ユーミンと。",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/9d/29/a59d2913-c2a1-4d9c-78b2-0fa914eb3336/00602567997542.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "If you are surrounded by kindness"
       }
