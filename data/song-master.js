@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-11-05",
+  "generatedAt": "2026-11-06",
   "songs": {
     "月の浮かぶ海": {
       "title": "月の浮かぶ海",
@@ -117,13 +117,10 @@ window.SONG_MASTER = {
       }
     },
     "気分上々↑↑": {
-      "title": "115万キロのフィルム",
-      "artist": "Official髭男dism",
-      "album": "エスカパレード",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/e8/2d/40e82dfb-55b4-7016-1127-357ab78d3f7f/jk.jpg/600x600bb.jpg",
-      "en": {
-        "title": "1.15 million kilometers of film"
-      }
+      "title": "怪物",
+      "artist": "YOASOBI",
+      "album": "怪物 - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9e/ab/2c/9eab2c24-8289-1bd7-548d-e6b871fcf169/195497732630.jpg/600x600bb.jpg"
     },
     "readysteady-giga": {
       "title": "Ready Steady (Instrumental)",
@@ -297,13 +294,10 @@ window.SONG_MASTER = {
       }
     },
     "フィナレ。": {
-      "title": "フィナーレ。",
-      "artist": "eill",
-      "album": "プレロマンス / フィナーレ。 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5d/c4/3b/5dc43ba7-a92b-af19-6cda-64d366e9407c/PCSP_04381_A.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Finale."
-      }
+      "title": "フィナーレ",
+      "artist": "トビー・フォックス",
+      "album": "Undertale サウンドトラック",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/78/32/dd7832db-4ba8-a363-2838-c14e94b8c986/811576030076.png/600x600bb.jpg"
     },
     "おやすみ泣き声、さよなら姫": {
       "title": "愛の標識",
@@ -366,13 +360,10 @@ window.SONG_MASTER = {
       }
     },
     "magnet": {
-      "title": "115万キロのフィルム",
-      "artist": "Official髭男dism",
-      "album": "エスカパレード",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/e8/2d/40e82dfb-55b4-7016-1127-357ab78d3f7f/jk.jpg/600x600bb.jpg",
-      "en": {
-        "title": "1.15 million kilometers of film"
-      }
+      "title": "怪物",
+      "artist": "YOASOBI",
+      "album": "怪物 - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9e/ab/2c/9eab2c24-8289-1bd7-548d-e6b871fcf169/195497732630.jpg/600x600bb.jpg"
     },
     "gimmegimme-八王子pgiga": {
       "title": "Gimme×Gimme feat. 初音ミク・鏡音リン",
@@ -522,13 +513,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/aa/33/55/aa335541-9932-d73c-6b1e-62bd484fc83d/4547366642308.jpg/600x600bb.jpg"
     },
     "嫌々-halvesshortby": {
-      "title": "ダーリン",
-      "artist": "Mrs. GREEN APPLE",
-      "album": "ダーリン - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7b/b9/27/7bb92776-1f4a-06c6-e36e-de889f2b8620/25UMGIM01757.rgb.jpg/600x600bb.jpg",
-      "en": {
-        "title": "darling"
-      }
+      "title": "君のまま",
+      "artist": "百足 & 韻マン",
+      "album": "君のまま - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/30/25/75/3025758c-0030-334e-3bea-598a0f54bad7/859759321900_cover.jpg/600x600bb.jpg"
     },
     "メルト": {
       "title": "メルト -MIKU EXPO 2014 in INDONESIA Live-",
@@ -618,10 +606,13 @@ window.SONG_MASTER = {
       }
     },
     "1000年生きてる": {
-      "title": "レナセールセレナーデ",
-      "artist": "ももいろクローバーZ",
-      "album": "レナセールセレナーデ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/39/84/a1/3984a1dd-cb84-d388-ac65-c2107242a5ed/NOPA-6129.jpg/600x600bb.jpg"
+      "title": "筆舌",
+      "artist": "RADWIMPS",
+      "album": "あにゅー",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5e/08/1e/5e081ea4-1f2f-d6f8-7db0-2d94740be7f5/25UM1IM46836.rgb.jpg/600x600bb.jpg",
+      "en": {
+        "title": "diction"
+      }
     },
     "メランコリック": {
       "title": "メランコリック",
@@ -807,10 +798,10 @@ window.SONG_MASTER = {
       }
     },
     "stay": {
-      "title": "STAY",
-      "artist": "ジャスティン・ビーバー & ザ・キッド・ラロイ",
-      "album": "SWAG LIVE FROM COACHELLA (Weekend I)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/06/1c/73/061c7321-52c9-5532-4fb5-5d704e43e7a9/ticket.efkjkgmd.jpg/600x600bb.jpg"
+      "title": "Stay",
+      "artist": "カーク・フランクリン",
+      "album": "I Am What I Am (Expanded Version)",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f6/17/9c/f6179cf1-c186-51ae-ecf5-5c9589609a1e/26UM1IM17728.rgb.jpg/600x600bb.jpg"
     },
     "粛聖!!ロリ神レクイエム☆": {
       "title": "粛聖!! ロリ神レクイエム☆",
@@ -1416,10 +1407,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/81/36/af/8136afa9-cf94-f4d5-8460-9510c8f6e99f/PA00077485_0_180113_jacket.jpg/600x600bb.jpg"
     },
     "僕が死のうと思ったのは.": {
-      "title": "Lemon",
-      "artist": "米津玄師",
-      "album": "STRAY SHEEP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6b/0f/0b/6b0f0b3d-e842-5ee1-83a8-1b12142a9dfd/dj.bpfbtyiy.jpg/600x600bb.jpg"
+      "title": "ブルーアンビエンス (feat. asmi)",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "Unity - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/45/11/66/45116621-c965-642d-43ef-b8cf33711bde/22UMGIM58754.rgb.jpg/600x600bb.jpg"
     },
     "無理に笑わなくて良いよ.": {
       "title": "ハロ/ハワユ",
@@ -1695,25 +1686,22 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9a/9d/62/9a9d62eb-51a1-be7a-0b52-1913090579d4/4948722525264_cover.jpg/600x600bb.jpg"
     },
     "クライヤいました": {
-      "title": "115万キロのフィルム",
-      "artist": "Official髭男dism",
-      "album": "エスカパレード",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/e8/2d/40e82dfb-55b4-7016-1127-357ab78d3f7f/jk.jpg/600x600bb.jpg",
-      "en": {
-        "title": "1.15 million kilometers of film"
-      }
+      "title": "シャッター",
+      "artist": "優里",
+      "album": "シャッター - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/5c/ff/ac5cff5d-de3e-8cdc-f8de-95965a9fc894/4547366520002.jpg/600x600bb.jpg"
     },
     "アイロニいました": {
-      "title": "Soranji",
-      "artist": "Mrs. GREEN APPLE",
-      "album": "Soranji - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/e1/ec/d4/e1ecd4b4-4f2f-c49e-fa95-958c6b4cf7ab/22UM1IM16537.rgb.jpg/600x600bb.jpg"
+      "title": "ツキミソウ",
+      "artist": "Novelbright",
+      "album": "ツキミソウ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/39/33/1a/39331a3d-a1e5-f1e8-904e-8be6438e13a3/20UM1IM05202.rgb.jpg/600x600bb.jpg"
     },
     "サディスティックラブいました": {
-      "title": "HOWEVER",
-      "artist": "GLAY",
-      "album": "HOWEVER - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/99/b6/af/99b6af9f-2d9a-c0c8-ec22-3c626e5d3d34/HOWEVER_itunes.jpg/600x600bb.jpg"
+      "title": "声をきかせて",
+      "artist": "BIGBANG",
+      "album": "声をきかせて - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/92/e9/a592e9a6-333c-b96b-a14b-55c683580a2b/00044002457172.rgb.jpg/600x600bb.jpg"
     },
     "ワルドコリングいました": {
       "title": "ギリギリchop",
@@ -1728,10 +1716,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0d/5e/e4/0d5ee469-3ef5-a341-45d9-394c45bd18f9/PA00222991_0_250177_jacket.jpg/600x600bb.jpg"
     },
     "放課後ストライドいました": {
-      "title": "裸足じゃイラレナイ",
-      "artist": "放課後クライマックスガールズ",
-      "album": "THE IDOLM@STER SHINY COLORS Song for Prism 裸足じゃイラレナイ / 明日もBeautiful Day【アルストロメリア盤】 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ba/be/bb/babebb29-259b-0aa0-b719-539c8d80f7ae/4540774244768.jpg/600x600bb.jpg"
+      "title": "ばーちゃらぶ",
+      "artist": "夏色まつり",
+      "album": "Chasing the Dream 〜スポットライトは放課後に〜",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/da/fe/83/dafe8378-8847-1aa3-a1a4-02dafbb29937/matsuri_1stAL_Jacket_FIX_251009.png/600x600bb.jpg"
     },
     "メリメリいました": {
       "title": "メリーメリー",
@@ -1755,10 +1743,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1e/3f/c6/1e3fc662-82a6-687d-fe61-36a842f62ee3/13153900.jpg/600x600bb.jpg"
     },
     "ハロハワユいました": {
-      "title": "ドーナツホール (COVER)",
-      "artist": "米津玄師",
-      "album": "YANKEE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg"
+      "title": "シャルル",
+      "artist": "96猫",
+      "album": "O2O",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0f/99/87/0f99875e-1689-639e-4e52-9ff6afa60714/jacket_SRXX02478B00Z_550.jpg/600x600bb.jpg"
     },
     "クエスチョン": {
       "title": "クエスチョン",
@@ -1947,10 +1935,10 @@ window.SONG_MASTER = {
       }
     },
     "すぱなチャット": {
-      "title": "SHAMPOO",
-      "artist": "PUNPEE, BIM & Elle Teresa",
-      "album": "Iced Out - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3f/2f/d4/3f2fd442-0514-722f-1dba-dd0f2403a098/4573268541708_cover.png/600x600bb.jpg"
+      "title": "Streamer",
+      "artist": "すとぷり",
+      "album": "Streamer - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/23/6c/30/236c30da-7cc3-24bd-d526-0dcf2eccf69a/20UMGIM70644.rgb.jpg/600x600bb.jpg"
     },
     "エイリアンエイリアン": {
       "title": "エイリアンエイリアン",
@@ -1973,8 +1961,8 @@ window.SONG_MASTER = {
     "やさしさに包まれたなら": {
       "title": "やさしさに包まれたなら",
       "artist": "荒井由実",
-      "album": "MISSLIM",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/52/9c/a0/529ca062-8a63-d1d7-5e6b-6774ba415dc2/00602567988229.rgb.jpg/600x600bb.jpg",
+      "album": "40周年記念ベストアルバム 日本の恋と、ユーミンと。",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/9d/29/a59d2913-c2a1-4d9c-78b2-0fa914eb3336/00602567997542.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "If you are surrounded by kindness"
       }
