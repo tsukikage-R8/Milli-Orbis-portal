@@ -337,9 +337,9 @@ window.KARAOKE_SHAZAM = {
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "2xL3Hl_mLUw": {
-    "status": "skip",
-    "attempts": 5,
-    "attemptedAt": "2026-10-31T03:20:06.952849+00:00",
+    "status": "error",
+    "attempts": 1,
+    "attemptedAt": "2026-11-07T04:04:35.786466+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "rXuSYrvh3HU": {
@@ -488,14 +488,14 @@ window.KARAOKE_SHAZAM = {
   },
   "oxAEFK0J86A": {
     "status": "error",
-    "attempts": 2,
-    "attemptedAt": "2026-11-07T00:38:16.224400+00:00",
+    "attempts": 3,
+    "attemptedAt": "2026-11-07T04:04:16.856802+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "3sKrr49yuEE": {
-    "status": "skip",
-    "attempts": 5,
-    "attemptedAt": "2026-10-31T03:19:48.138552+00:00",
+    "status": "error",
+    "attempts": 1,
+    "attemptedAt": "2026-11-07T04:04:26.193131+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "cYAYRJEnd0M": {
