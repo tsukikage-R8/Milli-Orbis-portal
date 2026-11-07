@@ -271,9 +271,9 @@ window.SONG_MASTER = {
     },
     "ロミオとシンデレラ": {
       "title": "ロミオとシンデレラ",
-      "artist": "doriko",
-      "album": "ロミオとシンデレラ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/93/2e/9f/932e9f07-68e9-0d9c-b390-d498507a1d97/PA00106837_0_155685_jacket.jpg/600x600bb.jpg"
+      "artist": "doriko feat. 初音ミク",
+      "album": "Download (feat.初音ミク)",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7f/12/61/7f1261b0-de22-e103-012c-0563a654da69/825646170524.jpg/600x600bb.jpg"
     },
     "ブラック★ロックシュタ-ryo": {
       "title": "ブラック★ロックシューター (Cover)",
@@ -754,9 +754,9 @@ window.SONG_MASTER = {
     },
     "心做し": {
       "title": "心做し",
-      "artist": "majiko",
-      "album": "Contrast",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bd/8b/76/bd8b76ea-22b4-e327-18c6-62264dd7b359/QWCE_00400_itunes.png/600x600bb.jpg",
+      "artist": "Sou",
+      "album": "深層から",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/35/5b/6e/355b6ed6-1ca5-41c3-5084-52d7e47b4eaa/19UMGIM61586.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "take heart"
       }
@@ -1174,9 +1174,9 @@ window.SONG_MASTER = {
     },
     "henceforth": {
       "title": "Henceforth",
-      "artist": "Akuya",
-      "album": "Henceforth - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/a1/b0/79a1b01c-4ba8-d8cd-f624-c44dee43b7dc/5063535037946_cover.jpg/600x600bb.jpg"
+      "artist": "Orangestar",
+      "album": "And So Henceforth,",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5c/53/e7/5c53e7bb-43b4-8b85-af49-cb603ceb03df/PCCA_06218_A.jpg/600x600bb.jpg"
     },
     "恋するフォチュンクッキ＆あつまる＆ぴこぴこぐらむ＆ほし": {
       "title": "恋するフォーチュンクッキー",
@@ -1239,10 +1239,13 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e3/c0/73/e3c0732d-a0ea-bb1f-e08c-ba4c392970df/dj.vwvtxzla.jpg/600x600bb.jpg"
     },
     "ドライフラワacoustic.": {
-      "title": "オーケストラ - From THE FIRST TAKE",
-      "artist": "アイナ・ジ・エンド",
-      "album": "オーケストラ - From THE FIRST TAKE - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/73/fa/69/73fa6945-c13b-e32e-b41d-0730d48a6943/ANTCD-A0000003752.jpg/600x600bb.jpg"
+      "title": "ドライフラワー",
+      "artist": "Uru",
+      "album": "ファーストラヴ",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4a/d7/ff/4ad7ff26-851c-2a36-6a56-7cb51fb0c004/4547366496147.jpg/600x600bb.jpg",
+      "en": {
+        "title": "dried flowers"
+      }
     },
     "雨き声残響acoustic.": {
       "title": "六月は雨上がりの街を書く",
@@ -1272,10 +1275,10 @@ window.SONG_MASTER = {
       }
     },
     "p.h..": {
-      "title": "ジャンピングジョーカーフラッシュ",
+      "title": "I see...",
       "artist": "乃木坂46",
-      "album": "好きというのはロックだぜ! (Special Edition)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d4/d5/2f/d4d52ff0-2a39-6b16-0639-273d48d2fc8d/4547366579956.jpg/600x600bb.jpg"
+      "album": "しあわせの保護色 (Special Edition)",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f1/84/07/f184071d-4f81-2d40-bc92-25e74441136a/jacket_SRXX03442B00Z_550.jpg/600x600bb.jpg"
     },
     "心拍数#0822acoustic.": {
       "title": "心拍数#0822 (feat. 初音ミク)",
@@ -1560,10 +1563,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/22/ed/0b/22ed0bd6-9e41-f161-6037-f2ce99b1d45e/4894894710758.jpg/600x600bb.jpg"
     },
     "この世界を愛したい.": {
-      "title": "Stella-rium",
+      "title": "優しさの記憶",
       "artist": "鹿乃",
-      "album": "Stella-rium - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dc/b4/66/dcb466bf-c37a-4c50-a2bb-5c144f4d4a45/1000565791_Stella-rium.jpg/600x600bb.jpg"
+      "album": "ブルーアーカイブ「優しさの記憶」 - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8d/09/52/8d095267-fb87-3177-f063-24f36b79bdb8/PA00120146_0_167826_jacket.jpg/600x600bb.jpg"
     },
     "灰色と青.": {
       "title": "星之回响",
@@ -1922,8 +1925,8 @@ window.SONG_MASTER = {
     "かわいいだけじゃだめですか?": {
       "title": "かわいいだけじゃだめですか?",
       "artist": "CUTIE STREET",
-      "album": "かわいいだけじゃだめですか? - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/a6/91/71a691bc-b5a6-7903-4b13-608611c2f2b3/4580789670411.jpg/600x600bb.jpg",
+      "album": "かわいいだけじゃだめですか? - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e4/b2/c5/e4b2c55b-5668-6d7f-57e1-e418bb6ae2f5/4580789660139.jpg/600x600bb.jpg",
       "en": {
         "title": "Isn't just cute enough?"
       }
