@@ -1,11 +1,19 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "sb2k1uNdMNg",
+    "memberId": "raco",
+    "publishedAt": "2026-11-07",
+    "title": "【歌枠】リクエストタイム祭りをしようじゃないか！【音ノ瀬らこ /ミリプロ】",
+    "duration": 8352,
+    "songs": []
+  },
+  {
     "id": "WRbjivMIQKk",
     "memberId": "tsukuri",
     "publishedAt": "2026-11-07",
     "title": "〖 歌枠 〗寝かしつけ歌〖 眠雲ツクリ / ミリプロ 〗",
-    "duration": 0,
+    "duration": 6928,
     "songs": []
   },
   {
@@ -13,7 +21,7 @@ window.KARAOKE = [
     "memberId": "liz",
     "publishedAt": "2026-11-07",
     "title": "【歌枠】久々の３D雨夜さんですよ🌂【雨夜リズ/ミリプロ】",
-    "duration": 0,
+    "duration": 6516,
     "songs": []
   },
   {
