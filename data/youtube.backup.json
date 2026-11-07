@@ -1,69 +1,6 @@
 {
-  "updatedAt": "2026-11-06T11:39:18.401Z",
+  "updatedAt": "2026-11-06T18:35:29.169Z",
   "streams": [
-    {
-      "id": "RcAC2Be-o7o",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【📣重大発表あり】2人でバトンタッチ4コマ漫画描くぞ！✨",
-      "thumb": "https://i.ytimg.com/vi/RcAC2Be-o7o/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-06T10:00:19Z",
-      "status": "live"
-    },
-    {
-      "id": "-VmnIZDwC2o",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【🎡重大発表アリ！？】イラストレーターの2人なら、交互に一コマずつ描いても、4コマ漫画完成させられる説！？【#甘狼このみ / #にじぷかぬふ】",
-      "thumb": "https://i.ytimg.com/vi/-VmnIZDwC2o/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-06T10:00:44Z",
-      "status": "live"
-    },
-    {
-      "id": "tIBG9ymUNFU",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【歌枠】７０万 人 耐 久 マ ジ か ┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/tIBG9ymUNFU/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-06T10:57:45Z",
-      "status": "live"
-    },
-    {
-      "id": "xg_VkDwhNmI",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 絶対遵守 〗必ず守ります〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/xg_VkDwhNmI/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-06T11:03:14Z",
-      "status": "live"
-    },
-    {
-      "id": "PHcyN511nvY",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【 APEX 】保護者2人と一緒にえーぺっくす！！【 音ノ瀬らこ/ゆらぎゆら/鹿乃まほろ 】",
-      "thumb": "https://i.ytimg.com/vi/PHcyN511nvY/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-06T12:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "sTDasfwFcHI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 APEX 】よちよちゆるペックス ♪ w/音ノ瀬らこ、鹿乃まほろ 【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/sTDasfwFcHI/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-06T12:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "_glr4NLHJTw",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Apex Legends】どうやら今日は保護者枠らしい…！【鹿乃まほろ/ミリプロ】with 音ノ瀬らこ・ゆらぎゆら",
-      "thumb": "https://i.ytimg.com/vi/_glr4NLHJTw/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-06T12:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "zurS7dG2IeU",
       "memberId": "yura",
@@ -71,6 +8,15 @@
       "title": "【 NTE 】「夢巡る回廊」ナナリに一体何が！？！やるぞぉおお！！！【 ゆらぎゆら / ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/zurS7dG2IeU/hqdefault.jpg",
       "scheduledStartTime": "2026-11-07T02:30:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "1A1iwh_25mg",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 雑談 】整地！！！！！！！！！！！！！！！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/1A1iwh_25mg/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-07T10:00:00Z",
       "status": "upcoming"
     },
     {
@@ -175,14 +121,24 @@
   ],
   "videos": [
     {
-      "id": "xg_VkDwhNmI",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 絶対遵守 〗必ず守ります〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/xg_VkDwhNmI/hqdefault.jpg?v=6aed7a26",
-      "publishedAt": "2026-11-06T11:03:14Z",
+      "id": "tIBG9ymUNFU",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【歌枠】７０万 人 耐 久 マ ジ か ┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/tIBG9ymUNFU/hqdefault.jpg",
+      "publishedAt": "2026-11-06T17:21:24Z",
       "live": false
+    },
+    {
+      "id": "1A1iwh_25mg",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 雑談 】整地！！！！！！！！！！！！！！！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/1A1iwh_25mg/hqdefault.jpg?v=6aee08bb",
+      "publishedAt": "2026-11-06T17:04:56Z",
+      "live": true
     },
     {
       "id": "PHcyN511nvY",
@@ -190,18 +146,58 @@
       "member": "音ノ瀬らこ",
       "channelTitle": "音ノ瀬らこ / Otonose Raco",
       "title": "【 APEX 】保護者2人と一緒にえーぺっくす！！【 音ノ瀬らこ/ゆらぎゆら/鹿乃まほろ 】",
-      "thumb": "https://i.ytimg.com/vi/PHcyN511nvY/hqdefault.jpg?v=6aedb2b2",
-      "publishedAt": "2026-11-06T10:57:50Z",
+      "thumb": "https://i.ytimg.com/vi/PHcyN511nvY/hqdefault.jpg",
+      "publishedAt": "2026-11-06T15:32:07Z",
       "live": false
     },
     {
-      "id": "tIBG9ymUNFU",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【歌枠】７０万 人 耐 久 マ ジ か ┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/tIBG9ymUNFU/hqdefault.jpg?v=6aed8704",
-      "publishedAt": "2026-11-06T10:57:45Z",
+      "id": "sTDasfwFcHI",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 APEX 】よちよちゆるペックス ♪ w/音ノ瀬らこ、鹿乃まほろ 【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/sTDasfwFcHI/hqdefault.jpg",
+      "publishedAt": "2026-11-06T15:31:22Z",
+      "live": false
+    },
+    {
+      "id": "_glr4NLHJTw",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Apex Legends】どうやら今日は保護者枠らしい…！【鹿乃まほろ/ミリプロ】with 音ノ瀬らこ・ゆらぎゆら",
+      "thumb": "https://i.ytimg.com/vi/_glr4NLHJTw/hqdefault.jpg",
+      "publishedAt": "2026-11-06T15:25:37Z",
+      "live": false
+    },
+    {
+      "id": "xg_VkDwhNmI",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 絶対遵守 〗必ず守ります〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/xg_VkDwhNmI/hqdefault.jpg",
+      "publishedAt": "2026-11-06T13:50:47Z",
+      "live": false
+    },
+    {
+      "id": "RcAC2Be-o7o",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【📣重大発表あり】2人でバトンタッチ4コマ漫画描くぞ！✨",
+      "thumb": "https://i.ytimg.com/vi/RcAC2Be-o7o/hqdefault.jpg",
+      "publishedAt": "2026-11-06T12:21:41Z",
+      "live": false
+    },
+    {
+      "id": "-VmnIZDwC2o",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【🎡重大発表アリ！？】イラストレーターの2人なら、交互に一コマずつ描いても、4コマ漫画完成させられる説！？【#甘狼このみ / #にじぷかぬふ】",
+      "thumb": "https://i.ytimg.com/vi/-VmnIZDwC2o/hqdefault.jpg",
+      "publishedAt": "2026-11-06T11:49:04Z",
       "live": false
     },
     {
@@ -222,26 +218,6 @@
       "title": "【 NTE 】「夢巡る回廊」ナナリに一体何が！？！やるぞぉおお！！！【 ゆらぎゆら / ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/zurS7dG2IeU/hqdefault.jpg?v=6aeda7ba",
       "publishedAt": "2026-11-06T10:11:04Z",
-      "live": false
-    },
-    {
-      "id": "-VmnIZDwC2o",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【🎡重大発表アリ！？】イラストレーターの2人なら、交互に一コマずつ描いても、4コマ漫画完成させられる説！？【#甘狼このみ / #にじぷかぬふ】",
-      "thumb": "https://i.ytimg.com/vi/-VmnIZDwC2o/hqdefault.jpg?v=6aec5413",
-      "publishedAt": "2026-11-06T10:00:44Z",
-      "live": false
-    },
-    {
-      "id": "RcAC2Be-o7o",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【📣重大発表あり】2人でバトンタッチ4コマ漫画描くぞ！✨",
-      "thumb": "https://i.ytimg.com/vi/RcAC2Be-o7o/hqdefault.jpg?v=6aec5261",
-      "publishedAt": "2026-11-06T10:00:19Z",
       "live": false
     },
     {
@@ -275,26 +251,6 @@
       "live": false
     },
     {
-      "id": "_glr4NLHJTw",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Apex Legends】どうやら今日は保護者枠らしい…！【鹿乃まほろ/ミリプロ】with 音ノ瀬らこ・ゆらぎゆら",
-      "thumb": "https://i.ytimg.com/vi/_glr4NLHJTw/hqdefault.jpg?v=6aed8ba0",
-      "publishedAt": "2026-11-06T08:11:10Z",
-      "live": false
-    },
-    {
-      "id": "sTDasfwFcHI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 APEX 】よちよちゆるペックス ♪ w/音ノ瀬らこ、鹿乃まほろ 【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/sTDasfwFcHI/hqdefault.jpg?v=6aed9501",
-      "publishedAt": "2026-11-06T07:41:38Z",
-      "live": false
-    },
-    {
       "id": "kAhJw-_o2BI",
       "memberId": "raco",
       "member": "音ノ瀬らこ",
@@ -322,16 +278,6 @@
       "title": "【 Minecraft 】誰もいない海辺の街から脱出せよ！？謎だらけのチャペルへ！【 ゆらぎゆら/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/AqogOVxUAuQ/hqdefault.jpg",
       "publishedAt": "2026-11-05T15:44:57Z",
-      "live": false
-    },
-    {
-      "id": "1xqxpRBYZHE",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "初のオリジナル曲『月の浮かぶ海』 #ゆらぎゆら",
-      "thumb": "https://i.ytimg.com/vi/1xqxpRBYZHE/hqdefault.jpg",
-      "publishedAt": "2026-11-05T09:20:17Z",
       "live": false
     },
     {
@@ -475,42 +421,5 @@
       "live": false
     }
   ],
-  "live": [
-    {
-      "id": "RcAC2Be-o7o",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【📣重大発表あり】2人でバトンタッチ4コマ漫画描くぞ！✨",
-      "thumb": "https://i.ytimg.com/vi/RcAC2Be-o7o/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-06T10:00:19Z",
-      "status": "live"
-    },
-    {
-      "id": "-VmnIZDwC2o",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【🎡重大発表アリ！？】イラストレーターの2人なら、交互に一コマずつ描いても、4コマ漫画完成させられる説！？【#甘狼このみ / #にじぷかぬふ】",
-      "thumb": "https://i.ytimg.com/vi/-VmnIZDwC2o/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-06T10:00:44Z",
-      "status": "live"
-    },
-    {
-      "id": "tIBG9ymUNFU",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【歌枠】７０万 人 耐 久 マ ジ か ┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/tIBG9ymUNFU/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-06T10:57:45Z",
-      "status": "live"
-    },
-    {
-      "id": "xg_VkDwhNmI",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 絶対遵守 〗必ず守ります〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/xg_VkDwhNmI/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-06T11:03:14Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
