@@ -1,6 +1,22 @@
 /* 自動生成: node scripts/fetch-karaoke.js（変更しないでください） */
 window.KARAOKE = [
   {
+    "id": "WRbjivMIQKk",
+    "memberId": "tsukuri",
+    "publishedAt": "2026-11-07",
+    "title": "〖 歌枠 〗寝かしつけ歌〖 眠雲ツクリ / ミリプロ 〗",
+    "duration": 0,
+    "songs": []
+  },
+  {
+    "id": "Tka1c4DXly4",
+    "memberId": "liz",
+    "publishedAt": "2026-11-07",
+    "title": "【歌枠】久々の３D雨夜さんですよ🌂【雨夜リズ/ミリプロ】",
+    "duration": 0,
+    "songs": []
+  },
+  {
     "id": "kAhJw-_o2BI",
     "memberId": "raco",
     "publishedAt": "2026-11-05",

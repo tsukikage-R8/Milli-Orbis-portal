@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T23:50:44.027Z",
+  "updatedAt": "2026-11-07T03:26:21.621Z",
   "streams": [
     {
       "id": "zurS7dG2IeU",
@@ -7,8 +7,8 @@
       "member": "ゆらぎゆら",
       "title": "【 NTE 】「夢巡る回廊」ナナリに一体何が！？！やるぞぉおお！！！【 ゆらぎゆら / ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/zurS7dG2IeU/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-07T02:30:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-11-07T02:32:32Z",
+      "status": "live"
     },
     {
       "id": "1A1iwh_25mg",
@@ -121,6 +121,16 @@
   ],
   "videos": [
     {
+      "id": "zurS7dG2IeU",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 NTE 】「夢巡る回廊」ナナリに一体何が！？！やるぞぉおお！！！【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/zurS7dG2IeU/hqdefault.jpg?v=6aeda7ba",
+      "publishedAt": "2026-11-07T02:32:32Z",
+      "live": false
+    },
+    {
       "id": "tIBG9ymUNFU",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -208,16 +218,6 @@
       "title": "【 朝活 】今週はなにする？おはゆら🌞【ゆらぎゆら/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/e67VLOD5rm4/hqdefault.jpg?v=6aedab87",
       "publishedAt": "2026-11-06T10:27:16Z",
-      "live": false
-    },
-    {
-      "id": "zurS7dG2IeU",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 NTE 】「夢巡る回廊」ナナリに一体何が！？！やるぞぉおお！！！【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/zurS7dG2IeU/hqdefault.jpg?v=6aeda7ba",
-      "publishedAt": "2026-11-06T10:11:04Z",
       "live": false
     },
     {
@@ -421,5 +421,15 @@
       "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "zurS7dG2IeU",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 NTE 】「夢巡る回廊」ナナリに一体何が！？！やるぞぉおお！！！【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/zurS7dG2IeU/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-07T02:32:32Z",
+      "status": "live"
+    }
+  ]
 }
