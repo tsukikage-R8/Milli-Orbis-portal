@@ -1,23 +1,14 @@
 {
-  "updatedAt": "2026-11-07T23:09:30.744Z",
+  "updatedAt": "2026-11-08T02:54:27.074Z",
   "streams": [
-    {
-      "id": "e67VLOD5rm4",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 朝活 】今週はなにする？おはゆら🌞【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/e67VLOD5rm4/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-07T23:02:29Z",
-      "status": "live"
-    },
     {
       "id": "IKaknNa1Kmw",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
-      "title": "【マインクラフト】はじめてのミリ鯖DA(∂ω∂)【鹿乃まほろ/ミリプロ】",
+      "title": "【Minecraft】はじめてのミリ鯖マイクラ(∂ω∂)【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/IKaknNa1Kmw/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-08T02:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-11-08T02:11:31Z",
+      "status": "live"
     },
     {
       "id": "QTmXw0HZKGk",
@@ -112,13 +103,23 @@
   ],
   "videos": [
     {
+      "id": "IKaknNa1Kmw",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Minecraft】はじめてのミリ鯖マイクラ(∂ω∂)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/IKaknNa1Kmw/hqdefault.jpg?v=6aef395c",
+      "publishedAt": "2026-11-08T02:11:31Z",
+      "live": false
+    },
+    {
       "id": "e67VLOD5rm4",
       "memberId": "yura",
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
       "title": "【 朝活 】今週はなにする？おはゆら🌞【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/e67VLOD5rm4/hqdefault.jpg?v=6aeee349",
-      "publishedAt": "2026-11-07T23:02:29Z",
+      "thumb": "https://i.ytimg.com/vi/e67VLOD5rm4/hqdefault.jpg",
+      "publishedAt": "2026-11-08T00:48:26Z",
       "live": false
     },
     {
@@ -249,16 +250,6 @@
       "title": "【 NTE 】「夢巡る回廊」ナナリに一体何が！？！やるぞぉおお！！！【 ゆらぎゆら / ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/zurS7dG2IeU/hqdefault.jpg",
       "publishedAt": "2026-11-07T07:19:24Z",
-      "live": false
-    },
-    {
-      "id": "IKaknNa1Kmw",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【マインクラフト】はじめてのミリ鯖DA(∂ω∂)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/IKaknNa1Kmw/hqdefault.jpg?v=6aef395c",
-      "publishedAt": "2026-11-07T03:57:00Z",
       "live": false
     },
     {
@@ -414,12 +405,12 @@
   ],
   "live": [
     {
-      "id": "e67VLOD5rm4",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 朝活 】今週はなにする？おはゆら🌞【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/e67VLOD5rm4/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-07T23:02:29Z",
+      "id": "IKaknNa1Kmw",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【Minecraft】はじめてのミリ鯖マイクラ(∂ω∂)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/IKaknNa1Kmw/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-08T02:11:31Z",
       "status": "live"
     }
   ]

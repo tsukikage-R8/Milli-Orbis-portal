@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T17:03:24.651Z",
+  "updatedAt": "2026-11-07T23:09:30.744Z",
   "streams": [
     {
       "id": "e67VLOD5rm4",
@@ -7,8 +7,8 @@
       "member": "ゆらぎゆら",
       "title": "【 朝活 】今週はなにする？おはゆら🌞【ゆらぎゆら/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/e67VLOD5rm4/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-07T23:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-11-07T23:02:29Z",
+      "status": "live"
     },
     {
       "id": "IKaknNa1Kmw",
@@ -111,6 +111,26 @@
     }
   ],
   "videos": [
+    {
+      "id": "e67VLOD5rm4",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 朝活 】今週はなにする？おはゆら🌞【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/e67VLOD5rm4/hqdefault.jpg?v=6aeee349",
+      "publishedAt": "2026-11-07T23:02:29Z",
+      "live": false
+    },
+    {
+      "id": "mnd1ZwNzMe0",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "ののさんねおき、弾き語り、寝ていきなさい。",
+      "thumb": "https://i.ytimg.com/vi/mnd1ZwNzMe0/hqdefault.jpg",
+      "publishedAt": "2026-11-07T18:46:07Z",
+      "live": false
+    },
     {
       "id": "WRbjivMIQKk",
       "memberId": "tsukuri",
@@ -262,16 +282,6 @@
       "live": false
     },
     {
-      "id": "sTDasfwFcHI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 APEX 】よちよちゆるペックス ♪ w/音ノ瀬らこ、鹿乃まほろ 【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/sTDasfwFcHI/hqdefault.jpg",
-      "publishedAt": "2026-11-06T15:31:22Z",
-      "live": false
-    },
-    {
       "id": "_glr4NLHJTw",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
@@ -400,17 +410,17 @@
       "thumb": "https://i.ytimg.com/vi/E0whs0sUudk/hqdefault.jpg",
       "publishedAt": "2026-11-04T16:48:51Z",
       "live": true
-    },
-    {
-      "id": "-oR1C22TrIA",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "【縛】いつもと違うとこ、どーこだ？【眠雲ツクリ/ミリプロ】 #歌ってみた #vtuber",
-      "thumb": "https://i.ytimg.com/vi/-oR1C22TrIA/hqdefault.jpg",
-      "publishedAt": "2026-11-04T09:00:18Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "e67VLOD5rm4",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 朝活 】今週はなにする？おはゆら🌞【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/e67VLOD5rm4/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-07T23:02:29Z",
+      "status": "live"
+    }
+  ]
 }
