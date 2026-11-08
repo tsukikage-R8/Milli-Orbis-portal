@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-11-08T02:54:27.074Z",
+  "updatedAt": "2026-11-08T10:48:46.560Z",
   "streams": [
-    {
-      "id": "IKaknNa1Kmw",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Minecraft】はじめてのミリ鯖マイクラ(∂ω∂)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/IKaknNa1Kmw/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-08T02:11:31Z",
-      "status": "live"
-    },
-    {
-      "id": "QTmXw0HZKGk",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 NTE 】本編：第6章「霧の巣遊戯」ナナリ早く目を覚まして。【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/QTmXw0HZKGk/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-08T03:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "JmHL3tmx6MA",
       "memberId": "yura",
@@ -103,13 +85,53 @@
   ],
   "videos": [
     {
+      "id": "Uu8_k1poH7g",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【らこ王】音ノ瀬らこの思考を読み解け！予測不能な回答にメンバー大混乱ｗｗｗ【ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/Uu8_k1poH7g/hqdefault.jpg",
+      "publishedAt": "2026-11-08T10:00:09Z",
+      "live": false
+    },
+    {
+      "id": "3SU6EkTTF-k",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【おちゃめ機能】お題の絵文字になりきって歌え！【#ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/3SU6EkTTF-k/hqdefault.jpg",
+      "publishedAt": "2026-11-08T09:00:19Z",
+      "live": false
+    },
+    {
+      "id": "0HuR9p1OEUA",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "Love options 歌ってみた！┊︎#音ノ乃のの #loveoptions #kpop #shorts",
+      "thumb": "https://i.ytimg.com/vi/0HuR9p1OEUA/hqdefault.jpg",
+      "publishedAt": "2026-11-08T08:42:17Z",
+      "live": false
+    },
+    {
+      "id": "QTmXw0HZKGk",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 NTE 】本編：第6章「霧の巣遊戯」ナナリ早く目を覚まして。【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/QTmXw0HZKGk/hqdefault.jpg",
+      "publishedAt": "2026-11-08T07:39:35Z",
+      "live": false
+    },
+    {
       "id": "IKaknNa1Kmw",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
       "channelTitle": "鹿乃まほろ / Kano Mahoro",
       "title": "【Minecraft】はじめてのミリ鯖マイクラ(∂ω∂)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/IKaknNa1Kmw/hqdefault.jpg?v=6aef395c",
-      "publishedAt": "2026-11-08T02:11:31Z",
+      "thumb": "https://i.ytimg.com/vi/IKaknNa1Kmw/hqdefault.jpg",
+      "publishedAt": "2026-11-08T06:40:11Z",
       "live": false
     },
     {
@@ -140,16 +162,6 @@
       "title": "〖 歌枠 〗寝かしつけ歌〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/WRbjivMIQKk/hqdefault.jpg",
       "publishedAt": "2026-11-07T16:36:21Z",
-      "live": false
-    },
-    {
-      "id": "QTmXw0HZKGk",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 NTE 】本編：第6章「霧の巣遊戯」ナナリ早く目を覚まして。【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/QTmXw0HZKGk/hqdefault.jpg?v=6aef4da5",
-      "publishedAt": "2026-11-07T16:05:04Z",
       "live": false
     },
     {
@@ -191,16 +203,6 @@
       "thumb": "https://i.ytimg.com/vi/lV08iY_IDzY/hqdefault.jpg",
       "publishedAt": "2026-11-07T13:12:57Z",
       "live": true
-    },
-    {
-      "id": "Uu8_k1poH7g",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【らこ王】音ノ瀬らこの思考を読み解け！予測不能な回答にメンバー大混乱ｗｗｗ【ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Uu8_k1poH7g/hqdefault.jpg",
-      "publishedAt": "2026-11-07T09:51:27Z",
-      "live": false
     },
     {
       "id": "b2n4yuBANlU",
@@ -381,37 +383,7 @@
       "thumb": "https://i.ytimg.com/vi/BQ6J_qWVeLQ/hqdefault.jpg",
       "publishedAt": "2026-11-05T09:00:08Z",
       "live": false
-    },
-    {
-      "id": "GXD1eabLHN8",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "家事している",
-      "thumb": "https://i.ytimg.com/vi/GXD1eabLHN8/hqdefault.jpg",
-      "publishedAt": "2026-11-04T18:30:35Z",
-      "live": false
-    },
-    {
-      "id": "E0whs0sUudk",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【リ・ストーリー: 思い出修理屋】真夜中の修理屋さん！雑談しながらチルゲーしたい【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/E0whs0sUudk/hqdefault.jpg",
-      "publishedAt": "2026-11-04T16:48:51Z",
-      "live": true
     }
   ],
-  "live": [
-    {
-      "id": "IKaknNa1Kmw",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Minecraft】はじめてのミリ鯖マイクラ(∂ω∂)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/IKaknNa1Kmw/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-08T02:11:31Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }

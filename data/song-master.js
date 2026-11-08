@@ -73,9 +73,9 @@ window.SONG_MASTER = {
     },
     "surges＆": {
       "title": "Surges",
-      "artist": "m",
+      "artist": "Orangestar",
       "album": "Surges - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/8d/1b/d38d1baf-7312-ee15-f952-8fc668c7a9a3/4562424562909.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f8/93/65/f8936589-9412-28c5-bba5-5de355fe34b7/859757272648_cover.jpg/600x600bb.jpg"
     },
     "iii": {
       "title": "I I I",
@@ -141,10 +141,10 @@ window.SONG_MASTER = {
       }
     },
     "夏色えがおで1,2,jump!": {
-      "title": "夏色えがおで1,2,Jump! (NICO Mix)",
-      "artist": "矢澤にこ(CV.徳井青空)",
-      "album": "ラブライブ! Solo Live! Collection from μ's 矢澤にこ スマイル・フォー・ユー♡",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/55/e1/b155e1c4-d79d-68b1-2ac2-4247945356da/4540774200580.png/600x600bb.jpg"
+      "title": "夏色えがおで1,2,Jump! (MAKI Mix)",
+      "artist": "西木野真姫(CV.Pile)",
+      "album": "ラブライブ! Solo Live! Collection from μ's 西木野真姫 TRUE DIVA",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/aa/3a/75aa3a6b-ef2e-0163-b929-4053a8218926/4540774200597.png/600x600bb.jpg"
     },
     "イケナイ太陽": {
       "title": "イケナイ太陽",
@@ -271,9 +271,9 @@ window.SONG_MASTER = {
     },
     "ロミオとシンデレラ": {
       "title": "ロミオとシンデレラ",
-      "artist": "doriko feat. 初音ミク",
-      "album": "Download (feat.初音ミク)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7f/12/61/7f1261b0-de22-e103-012c-0563a654da69/825646170524.jpg/600x600bb.jpg"
+      "artist": "doriko",
+      "album": "ロミオとシンデレラ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/93/2e/9f/932e9f07-68e9-0d9c-b390-d498507a1d97/PA00106837_0_155685_jacket.jpg/600x600bb.jpg"
     },
     "ブラック★ロックシュタ-ryo": {
       "title": "ブラック★ロックシューター (Cover)",
@@ -462,10 +462,10 @@ window.SONG_MASTER = {
       }
     },
     "サムライハト": {
-      "title": "サムライハート(Some Like It Hot!!)",
-      "artist": "SPYAIR",
-      "album": "サムライハート(Some Like It Hot!!) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/77/5d/e8/775de829-639f-66e0-5d6d-d452f3edd799/jacket_AIXX00239B00Z_550.jpg/600x600bb.jpg"
+      "title": "サムライハート",
+      "artist": "森口博子",
+      "album": "鎧伝サムライトルーパー 君を眠らせない",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b6/2b/2e/b62b2e31-f792-6a44-375c-2c99f68ab4f0/196292193022.jpg/600x600bb.jpg"
     },
     "catchyoucatchme": {
       "title": "Catch You Catch Me",
@@ -570,10 +570,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "StarRingChild",
+      "title": "地球儀 (with Vaundy)",
       "artist": "Aimer",
-      "album": "Midnight Sun",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cf/4d/09/cf4d09ff-c6e8-0964-d493-cf0841a9216a/4560429727163.jpg/600x600bb.jpg"
+      "album": "Walpurgis",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/54/af/b2/54afb286-3614-f2c8-e633-2831bd2fd76b/4547366491647.jpg/600x600bb.jpg"
     },
     "だから僕は音楽を辞めた": {
       "title": "だから僕は音楽を辞めた",
@@ -1269,10 +1269,10 @@ window.SONG_MASTER = {
       }
     },
     "p.h..": {
-      "title": "I see...",
+      "title": "ジャンピングジョーカーフラッシュ",
       "artist": "乃木坂46",
-      "album": "しあわせの保護色 (Special Edition)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f1/84/07/f184071d-4f81-2d40-bc92-25e74441136a/jacket_SRXX03442B00Z_550.jpg/600x600bb.jpg"
+      "album": "好きというのはロックだぜ! (Special Edition)",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d4/d5/2f/d4d52ff0-2a39-6b16-0639-273d48d2fc8d/4547366579956.jpg/600x600bb.jpg"
     },
     "心拍数#0822acoustic.": {
       "title": "心拍数#0822 (feat. 初音ミク)",
@@ -1919,8 +1919,8 @@ window.SONG_MASTER = {
     "かわいいだけじゃだめですか?": {
       "title": "かわいいだけじゃだめですか?",
       "artist": "CUTIE STREET",
-      "album": "かわいいだけじゃだめですか? - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e4/b2/c5/e4b2c55b-5668-6d7f-57e1-e418bb6ae2f5/4580789660139.jpg/600x600bb.jpg",
+      "album": "かわいいだけじゃだめですか? - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/a6/91/71a691bc-b5a6-7903-4b13-608611c2f2b3/4580789670411.jpg/600x600bb.jpg",
       "en": {
         "title": "Isn't just cute enough?"
       }
