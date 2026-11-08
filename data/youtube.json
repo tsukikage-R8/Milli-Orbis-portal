@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-11-08T10:48:46.560Z",
+  "updatedAt": "2026-11-08T17:17:24.837Z",
   "streams": [
+    {
+      "id": "gb9OZsmBytY",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "title": "【 どろぼうノーム 】告知あり！お家を荒らしまくる【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/gb9OZsmBytY/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-09T11:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "fMJHBB-soDg",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 どろぼうノーム 】告知アリ！こまレイで家を荒らします。 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/fMJHBB-soDg/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-09T11:00:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "JmHL3tmx6MA",
       "memberId": "yura",
@@ -84,6 +102,36 @@
     }
   ],
   "videos": [
+    {
+      "id": "gb9OZsmBytY",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 どろぼうノーム 】告知あり！お家を荒らしまくる【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/gb9OZsmBytY/hqdefault.jpg?v=6af0979a",
+      "publishedAt": "2026-11-08T15:39:03Z",
+      "live": false
+    },
+    {
+      "id": "Nzwdwvcdvew",
+      "memberId": "akubi",
+      "member": "あくび・でもんすぺーど",
+      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
+      "title": "大声出してはいけない配信【あくび・でもんすぺーど / ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/Nzwdwvcdvew/hqdefault.jpg",
+      "publishedAt": "2026-11-08T14:33:30Z",
+      "live": true
+    },
+    {
+      "id": "fMJHBB-soDg",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 どろぼうノーム 】告知アリ！こまレイで家を荒らします。 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/fMJHBB-soDg/hqdefault.jpg?v=6af0691c",
+      "publishedAt": "2026-11-08T12:20:41Z",
+      "live": false
+    },
     {
       "id": "Uu8_k1poH7g",
       "memberId": "official",
@@ -352,36 +400,6 @@
       "title": "【歌枠】寝る前に聴いていかない？【音ノ瀬らこ /ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/kAhJw-_o2BI/hqdefault.jpg",
       "publishedAt": "2026-11-05T16:23:17Z",
-      "live": false
-    },
-    {
-      "id": "gF9q3vknsVM",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【お絵描き雑談】とあるイラスト描くンゴ～【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/gF9q3vknsVM/hqdefault.jpg",
-      "publishedAt": "2026-11-05T16:06:11Z",
-      "live": true
-    },
-    {
-      "id": "YG3l-wKfDKI",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【どのボカロ曲でしょうか？】ボカロクイズに挑戦！！【#海琳あおい /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/YG3l-wKfDKI/hqdefault.jpg",
-      "publishedAt": "2026-11-05T09:01:39Z",
-      "live": false
-    },
-    {
-      "id": "BQ6J_qWVeLQ",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】最後まで生き残るのは誰だ！マイクラ椅子取りゲーム！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/BQ6J_qWVeLQ/hqdefault.jpg",
-      "publishedAt": "2026-11-05T09:00:08Z",
       "live": false
     }
   ],
