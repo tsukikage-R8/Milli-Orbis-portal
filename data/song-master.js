@@ -294,10 +294,13 @@ window.SONG_MASTER = {
       }
     },
     "フィナレ。": {
-      "title": "フィナーレ",
-      "artist": "トビー・フォックス",
-      "album": "Undertale サウンドトラック",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/78/32/dd7832db-4ba8-a363-2838-c14e94b8c986/811576030076.png/600x600bb.jpg"
+      "title": "フィナーレ。",
+      "artist": "eill",
+      "album": "プレロマンス / フィナーレ。 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5d/c4/3b/5dc43ba7-a92b-af19-6cda-64d366e9407c/PCSP_04381_A.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Finale."
+      }
     },
     "おやすみ泣き声、さよなら姫": {
       "title": "愛の標識",
@@ -570,10 +573,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "蝶々結び",
+      "title": "StarRingChild",
       "artist": "Aimer",
-      "album": "蝶々結び - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg"
+      "album": "Midnight Sun",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cf/4d/09/cf4d09ff-c6e8-0964-d493-cf0841a9216a/4560429727163.jpg/600x600bb.jpg"
     },
     "だから僕は音楽を辞めた": {
       "title": "だから僕は音楽を辞めた",
@@ -603,10 +606,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "メロリ",
-      "artist": "Hey! Say! JUMP",
-      "album": "S say",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/ca/56/a8ca56fa-2106-4056-1ffa-dc4a0fa0af2e/4517331098560.jpg/600x600bb.jpg"
+      "title": "ツバメ (feat. ミドリーズ)",
+      "artist": "YOASOBI",
+      "album": "ツバメ (feat. ミドリーズ) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg"
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -742,9 +745,9 @@ window.SONG_MASTER = {
     },
     "メンタルチェンソ": {
       "title": "メンタルチェンソー",
-      "artist": "かいりきベア",
-      "album": "バグエフェクト",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3d/6d/3d/3d6d3d46-9361-9a4f-4916-c6f31109d456/4550714315878_cover.png/600x600bb.jpg",
+      "artist": "P丸様。",
+      "album": "Sunny!!",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a9/57/ab/a957abfc-fd6b-c3ec-3db2-15d2c46d2328/21UMGIM13559.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "mental chainsaw"
       }
@@ -1060,9 +1063,9 @@ window.SONG_MASTER = {
     },
     "マシャルマキシマイザ": {
       "title": "マーシャル・マキシマイザー",
-      "artist": "和楽器バンド",
-      "album": "ボカロ三昧2",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/94/55/17/945517eb-0a00-26fc-39c3-105f68516291/22UMGIM81445.rgb.jpg/600x600bb.jpg",
+      "artist": "吉乃",
+      "album": "PALETTE5",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a1/92/22/a1922258-5ccd-edba-3fdb-67721181c362/PCSP_03942.jpg/600x600bb.jpg",
       "en": {
         "title": "marshall maximizer"
       }
@@ -1272,10 +1275,10 @@ window.SONG_MASTER = {
       }
     },
     "p.h..": {
-      "title": "ジャンピングジョーカーフラッシュ",
+      "title": "I see...",
       "artist": "乃木坂46",
-      "album": "好きというのはロックだぜ! (Special Edition)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d4/d5/2f/d4d52ff0-2a39-6b16-0639-273d48d2fc8d/4547366579956.jpg/600x600bb.jpg"
+      "album": "しあわせの保護色 (Special Edition)",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f1/84/07/f184071d-4f81-2d40-bc92-25e74441136a/jacket_SRXX03442B00Z_550.jpg/600x600bb.jpg"
     },
     "心拍数#0822acoustic.": {
       "title": "心拍数#0822 (feat. 初音ミク)",
