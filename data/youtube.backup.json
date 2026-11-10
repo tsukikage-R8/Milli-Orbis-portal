@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-11-09T12:14:26.377Z",
+  "updatedAt": "2026-11-09T23:52:41.874Z",
   "streams": [
-    {
-      "id": "gb9OZsmBytY",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 どろぼうノーム 】告知あり！お家を荒らしまくる【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/gb9OZsmBytY/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-09T10:59:22Z",
-      "status": "live"
-    },
-    {
-      "id": "fMJHBB-soDg",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 どろぼうノーム 】告知アリ！こまレイで家を荒らします。 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/fMJHBB-soDg/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-09T10:59:37Z",
-      "status": "live"
-    },
-    {
-      "id": "Ch1FdMjW0B8",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 つぐのひ-天招ねく救いの糸- 】ホラゲ嫌いな私でもできると言われました。【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/Ch1FdMjW0B8/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-09T12:02:03Z",
-      "status": "live"
-    },
-    {
-      "id": "HfXxFckQlEc",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 事故物件 〗お部屋探しはNEMUKUMOへ！〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/HfXxFckQlEc/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-09T12:03:28Z",
-      "status": "live"
-    },
     {
       "id": "K2l78r6KPw4",
       "memberId": "aoi",
@@ -53,6 +17,24 @@
       "title": "【 #ゆらぎゆら新モデル 】ちょっぴり大人な「せくすぃ」うぉんなになりました。【ゆらぎゆら/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/JmHL3tmx6MA/hqdefault.jpg",
       "scheduledStartTime": "2026-11-10T12:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "hDUmONQouqA",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "title": "【歌枠】嬉しい告知がある！！みんな集合～～！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/hDUmONQouqA/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-13T09:30:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "8otOGZZ2NuY",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 コラボ歌枠 〗すうさんと一緒に歌います🎶〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/8otOGZZ2NuY/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-14T11:00:00Z",
       "status": "upcoming"
     },
     {
@@ -130,23 +112,33 @@
   ],
   "videos": [
     {
-      "id": "0Jp7zpLkOB4",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【歌枠】ゲリラでちょこっと歌うよ～！今週もがんばろ～！！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/0Jp7zpLkOB4/hqdefault.jpg",
-      "publishedAt": "2026-11-09T12:10:32Z",
-      "live": false
+      "id": "BqMG0kSpu_c",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【雑談】なにやろっかな～(無計画)",
+      "thumb": "https://i.ytimg.com/vi/BqMG0kSpu_c/hqdefault.jpg",
+      "publishedAt": "2026-11-09T17:18:14Z",
+      "live": true
     },
     {
-      "id": "HfXxFckQlEc",
+      "id": "8otOGZZ2NuY",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
       "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 事故物件 〗お部屋探しはNEMUKUMOへ！〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/HfXxFckQlEc/hqdefault.jpg?v=6af18406",
-      "publishedAt": "2026-11-09T12:03:28Z",
+      "title": "〖 コラボ歌枠 〗すうさんと一緒に歌います🎶〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/8otOGZZ2NuY/hqdefault.jpg?v=6af1f9bc",
+      "publishedAt": "2026-11-09T16:50:02Z",
+      "live": false
+    },
+    {
+      "id": "hDUmONQouqA",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【歌枠】嬉しい告知がある！！みんな集合～～！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/hDUmONQouqA/hqdefault.jpg?v=6af1efc5",
+      "publishedAt": "2026-11-09T16:07:30Z",
       "live": false
     },
     {
@@ -155,8 +147,8 @@
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
       "title": "【 つぐのひ-天招ねく救いの糸- 】ホラゲ嫌いな私でもできると言われました。【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/Ch1FdMjW0B8/hqdefault.jpg?v=6af1a7fa",
-      "publishedAt": "2026-11-09T12:02:03Z",
+      "thumb": "https://i.ytimg.com/vi/Ch1FdMjW0B8/hqdefault.jpg",
+      "publishedAt": "2026-11-09T13:44:50Z",
       "live": false
     },
     {
@@ -165,8 +157,8 @@
       "member": "夕霧レイ",
       "channelTitle": "夕霧レイ / YugiriRay",
       "title": "【 どろぼうノーム 】告知アリ！こまレイで家を荒らします。 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/fMJHBB-soDg/hqdefault.jpg?v=6af0691c",
-      "publishedAt": "2026-11-09T10:59:37Z",
+      "thumb": "https://i.ytimg.com/vi/fMJHBB-soDg/hqdefault.jpg",
+      "publishedAt": "2026-11-09T13:32:38Z",
       "live": false
     },
     {
@@ -175,8 +167,28 @@
       "member": "小廻こま",
       "channelTitle": "小廻こま / Komawari Koma",
       "title": "【 どろぼうノーム 】告知あり！お家を荒らしまくる【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/gb9OZsmBytY/hqdefault.jpg?v=6af0979a",
-      "publishedAt": "2026-11-09T10:59:22Z",
+      "thumb": "https://i.ytimg.com/vi/gb9OZsmBytY/hqdefault.jpg",
+      "publishedAt": "2026-11-09T13:30:32Z",
+      "live": false
+    },
+    {
+      "id": "HfXxFckQlEc",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 事故物件 〗お部屋探しはNEMUKUMOへ！〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/HfXxFckQlEc/hqdefault.jpg",
+      "publishedAt": "2026-11-09T13:22:56Z",
+      "live": false
+    },
+    {
+      "id": "0Jp7zpLkOB4",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【歌枠】ゲリラでちょこっと歌うよ～！今週もがんばろ～！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/0Jp7zpLkOB4/hqdefault.jpg",
+      "publishedAt": "2026-11-09T12:10:32Z",
       "live": false
     },
     {
@@ -398,74 +410,7 @@
       "thumb": "https://i.ytimg.com/vi/trFXuEGZu8I/hqdefault.jpg",
       "publishedAt": "2026-11-07T09:00:27Z",
       "live": false
-    },
-    {
-      "id": "tIBG9ymUNFU",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【歌枠】７０万 人 耐 久 マ ジ か ┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/tIBG9ymUNFU/hqdefault.jpg",
-      "publishedAt": "2026-11-06T17:21:24Z",
-      "live": false
-    },
-    {
-      "id": "PHcyN511nvY",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【 APEX 】保護者2人と一緒にえーぺっくす！！【 音ノ瀬らこ/ゆらぎゆら/鹿乃まほろ 】",
-      "thumb": "https://i.ytimg.com/vi/PHcyN511nvY/hqdefault.jpg",
-      "publishedAt": "2026-11-06T15:32:07Z",
-      "live": false
-    },
-    {
-      "id": "_glr4NLHJTw",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Apex Legends】どうやら今日は保護者枠らしい…！【鹿乃まほろ/ミリプロ】with 音ノ瀬らこ・ゆらぎゆら",
-      "thumb": "https://i.ytimg.com/vi/_glr4NLHJTw/hqdefault.jpg",
-      "publishedAt": "2026-11-06T15:25:37Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "gb9OZsmBytY",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 どろぼうノーム 】告知あり！お家を荒らしまくる【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/gb9OZsmBytY/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-09T10:59:22Z",
-      "status": "live"
-    },
-    {
-      "id": "fMJHBB-soDg",
-      "memberId": "rei",
-      "member": "夕霧レイ",
-      "title": "【 どろぼうノーム 】告知アリ！こまレイで家を荒らします。 ⟡.· 【 夕霧レイ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/fMJHBB-soDg/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-09T10:59:37Z",
-      "status": "live"
-    },
-    {
-      "id": "Ch1FdMjW0B8",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 つぐのひ-天招ねく救いの糸- 】ホラゲ嫌いな私でもできると言われました。【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/Ch1FdMjW0B8/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-09T12:02:03Z",
-      "status": "live"
-    },
-    {
-      "id": "HfXxFckQlEc",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 事故物件 〗お部屋探しはNEMUKUMOへ！〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/HfXxFckQlEc/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-09T12:03:28Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
