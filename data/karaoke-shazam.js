@@ -385,15 +385,15 @@ window.KARAOKE_SHAZAM = {
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "LCoON5HWckw": {
-    "status": "skip",
-    "attempts": 5,
-    "attemptedAt": "2026-11-02T23:00:20.835509+00:00",
+    "status": "error",
+    "attempts": 1,
+    "attemptedAt": "2026-11-10T16:29:54.684537+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "oHkmplaDosw": {
-    "status": "skip",
-    "attempts": 5,
-    "attemptedAt": "2026-11-03T10:29:22.823016+00:00",
+    "status": "error",
+    "attempts": 1,
+    "attemptedAt": "2026-11-10T16:29:45.229938+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "hPVQ7VRgBv0": {
@@ -500,8 +500,8 @@ window.KARAOKE_SHAZAM = {
   },
   "cYAYRJEnd0M": {
     "status": "error",
-    "attempts": 1,
-    "attemptedAt": "2026-11-10T10:48:45.116947+00:00",
+    "attempts": 2,
+    "attemptedAt": "2026-11-10T16:29:35.593139+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "g8JnUfKAlmY": {
