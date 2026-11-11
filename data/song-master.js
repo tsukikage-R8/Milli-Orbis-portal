@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-11-10",
+  "generatedAt": "2026-11-11",
   "songs": {
     "月の浮かぶ海": {
       "title": "月の浮かぶ海",
@@ -804,10 +804,10 @@ window.SONG_MASTER = {
       }
     },
     "stay": {
-      "title": "STAY",
-      "artist": "ジャスティン・ビーバー & ザ・キッド・ラロイ",
-      "album": "SWAG LIVE FROM COACHELLA (Weekend I)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/06/1c/73/061c7321-52c9-5532-4fb5-5d704e43e7a9/ticket.efkjkgmd.jpg/600x600bb.jpg"
+      "title": "Stay",
+      "artist": "Zedd & アレッシア・カーラ",
+      "album": "Stay - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/08/90/e50890a8-205e-a810-dcda-44b614f99f5f/00602557442878.rgb.jpg/600x600bb.jpg"
     },
     "粛聖!!ロリ神レクイエム☆": {
       "title": "粛聖!! ロリ神レクイエム☆",
@@ -1854,13 +1854,10 @@ window.SONG_MASTER = {
       }
     },
     "すぱなちゃっと読み": {
-      "title": "愛してみてよ減るもんじゃないし",
-      "artist": "ねぐせ。",
-      "album": "愛してみてよ減るもんじゃないし - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/70/6c/d9/706cd9d0-5c42-0b18-c42a-f11647046025/197188388706.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Try to love me, it won't diminish"
-      }
+      "title": "かわいいさがしてくれますか?",
+      "artist": "CUTIE STREET",
+      "album": "CUTIE LAND",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4d/d5/2c/4dd52c96-bc10-a908-2209-7cc91af0b6d4/885288824650.jpg/600x600bb.jpg"
     },
     "シルエット": {
       "title": "シルエット",
