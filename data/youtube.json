@@ -1,69 +1,6 @@
 {
-  "updatedAt": "2026-11-11T11:30:05.774Z",
+  "updatedAt": "2026-11-11T18:55:26.888Z",
   "streams": [
-    {
-      "id": "Fpr4KDb3m2o",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Potato Please】60,000個のじゃがいもの皮って何時間で剥けますか？【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Fpr4KDb3m2o/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-11T10:01:15Z",
-      "status": "live"
-    },
-    {
-      "id": "pEm12-6CmwA",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 崩壊：スターレイル 】お絵描きしながら人狼を探せ！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/pEm12-6CmwA/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-11T10:58:28Z",
-      "status": "live"
-    },
-    {
-      "id": "HsgRGzmzNrs",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【 崩壊：スターレイル 】みんなでお絵描き人狼⁉️【 音ノ瀬らこ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/HsgRGzmzNrs/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-11T10:59:32Z",
-      "status": "live"
-    },
-    {
-      "id": "yke6FUAZPKQ",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【崩壊：スターレイル】みんなとお絵描き人狼するぞ～～～！！【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/yke6FUAZPKQ/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-11T10:59:44Z",
-      "status": "live"
-    },
-    {
-      "id": "5DiH5ohf9Fk",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 崩壊：スターレイル 】画力と推理力で人狼を追い詰めろ！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/5DiH5ohf9Fk/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-11T10:59:57Z",
-      "status": "live"
-    },
-    {
-      "id": "Re17g97z-Ok",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 崩壊：スターレイル 〗お絵描き人狼  隠された嘘を見抜け！〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/Re17g97z-Ok/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-11T11:00:35Z",
-      "status": "live"
-    },
-    {
-      "id": "p4LCQo0tFFk",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【崩壊：スターレイル】お絵描き人狼でバトル！？🎨🔥",
-      "thumb": "https://i.ytimg.com/vi/p4LCQo0tFFk/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-11T11:00:45Z",
-      "status": "live"
-    },
     {
       "id": "IHZg-W1RGlg",
       "memberId": "yura",
@@ -80,6 +17,15 @@
       "title": "【口癖禁止】第４回『えへへ』言ったら即終了！？　前回の記録：1分51秒【 #あまかみらいぶ / #ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/OHkrmu-pADE/hqdefault.jpg",
       "scheduledStartTime": "2026-11-12T11:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "x--B8wu0B7s",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 Goose Goose Duck 】大人数コラボ！仮サムネ！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/x--B8wu0B7s/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-12T12:00:00Z",
       "status": "upcoming"
     },
     {
@@ -184,63 +130,43 @@
   ],
   "videos": [
     {
-      "id": "p4LCQo0tFFk",
+      "id": "04s7XN3PX5Y",
       "memberId": "nuhu",
       "member": "虹深°ぬふ",
       "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【崩壊：スターレイル】お絵描き人狼でバトル！？🎨🔥",
-      "thumb": "https://i.ytimg.com/vi/p4LCQo0tFFk/hqdefault.jpg?v=6af28e16",
-      "publishedAt": "2026-11-11T11:00:45Z",
+      "title": "【VALORANT】フルパコンペって癒しなんだよね",
+      "thumb": "https://i.ytimg.com/vi/04s7XN3PX5Y/hqdefault.jpg",
+      "publishedAt": "2026-11-11T17:22:04Z",
       "live": false
     },
     {
-      "id": "Re17g97z-Ok",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 崩壊：スターレイル 〗お絵描き人狼  隠された嘘を見抜け！〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/Re17g97z-Ok/hqdefault.jpg?v=6af32686",
-      "publishedAt": "2026-11-11T11:00:35Z",
+      "id": "41WZtUztgFY",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 VALORANT 】集まれ！深夜のドパガキ達！ ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/41WZtUztgFY/hqdefault.jpg",
+      "publishedAt": "2026-11-11T17:20:22Z",
       "live": false
     },
     {
-      "id": "5DiH5ohf9Fk",
+      "id": "W7bR1EwgsDs",
       "memberId": "koma",
       "member": "小廻こま",
       "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 崩壊：スターレイル 】画力と推理力で人狼を追い詰めろ！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/5DiH5ohf9Fk/hqdefault.jpg?v=6af324b8",
-      "publishedAt": "2026-11-11T10:59:57Z",
+      "title": "【 VALORANT 】ばりらばりらんち、だぞ【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/W7bR1EwgsDs/hqdefault.jpg",
+      "publishedAt": "2026-11-11T17:17:03Z",
       "live": false
     },
     {
-      "id": "yke6FUAZPKQ",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "【崩壊：スターレイル】みんなとお絵描き人狼するぞ～～～！！【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/yke6FUAZPKQ/hqdefault.jpg?v=6af33a05",
-      "publishedAt": "2026-11-11T10:59:44Z",
-      "live": false
-    },
-    {
-      "id": "HsgRGzmzNrs",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【 崩壊：スターレイル 】みんなでお絵描き人狼⁉️【 音ノ瀬らこ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/HsgRGzmzNrs/hqdefault.jpg?v=6af31e68",
-      "publishedAt": "2026-11-11T10:59:32Z",
-      "live": false
-    },
-    {
-      "id": "pEm12-6CmwA",
+      "id": "x--B8wu0B7s",
       "memberId": "yura",
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 崩壊：スターレイル 】お絵描きしながら人狼を探せ！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/pEm12-6CmwA/hqdefault.jpg?v=6af3280b",
-      "publishedAt": "2026-11-11T10:58:28Z",
+      "title": "【 Goose Goose Duck 】大人数コラボ！仮サムネ！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/x--B8wu0B7s/hqdefault.jpg?v=6af49da6",
+      "publishedAt": "2026-11-11T16:53:56Z",
       "live": false
     },
     {
@@ -249,8 +175,68 @@
       "member": "鹿乃まほろ",
       "channelTitle": "鹿乃まほろ / Kano Mahoro",
       "title": "【Potato Please】60,000個のじゃがいもの皮って何時間で剥けますか？【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Fpr4KDb3m2o/hqdefault.jpg?v=6af3fa12",
-      "publishedAt": "2026-11-11T10:01:15Z",
+      "thumb": "https://i.ytimg.com/vi/Fpr4KDb3m2o/hqdefault.jpg",
+      "publishedAt": "2026-11-11T15:41:10Z",
+      "live": false
+    },
+    {
+      "id": "p4LCQo0tFFk",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【崩壊：スターレイル】お絵描き人狼でバトル！？🎨🔥",
+      "thumb": "https://i.ytimg.com/vi/p4LCQo0tFFk/hqdefault.jpg",
+      "publishedAt": "2026-11-11T13:33:33Z",
+      "live": false
+    },
+    {
+      "id": "HsgRGzmzNrs",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【 崩壊：スターレイル 】みんなでお絵描き人狼⁉️【 音ノ瀬らこ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/HsgRGzmzNrs/hqdefault.jpg",
+      "publishedAt": "2026-11-11T12:20:49Z",
+      "live": false
+    },
+    {
+      "id": "yke6FUAZPKQ",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "【崩壊：スターレイル】みんなとお絵描き人狼するぞ～～～！！【 #あまかみらいぶ / #ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/yke6FUAZPKQ/hqdefault.jpg",
+      "publishedAt": "2026-11-11T12:20:48Z",
+      "live": false
+    },
+    {
+      "id": "pEm12-6CmwA",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 崩壊：スターレイル 】お絵描きしながら人狼を探せ！【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/pEm12-6CmwA/hqdefault.jpg",
+      "publishedAt": "2026-11-11T12:19:42Z",
+      "live": false
+    },
+    {
+      "id": "5DiH5ohf9Fk",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 崩壊：スターレイル 】画力と推理力で人狼を追い詰めろ！【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/5DiH5ohf9Fk/hqdefault.jpg",
+      "publishedAt": "2026-11-11T12:19:28Z",
+      "live": false
+    },
+    {
+      "id": "Re17g97z-Ok",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 崩壊：スターレイル 〗お絵描き人狼  隠された嘘を見抜け！〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/Re17g97z-Ok/hqdefault.jpg",
+      "publishedAt": "2026-11-11T12:19:05Z",
       "live": false
     },
     {
@@ -281,6 +267,16 @@
       "title": "【 NTE 】ドラゴン討伐！？ 番外編：第7章「赤竜討伐譚」【 ゆらぎゆら / ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/IHZg-W1RGlg/hqdefault.jpg?v=6af41e35",
       "publishedAt": "2026-11-11T07:50:11Z",
+      "live": false
+    },
+    {
+      "id": "dJoLignQRJI",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "セレナーデ - なとり covered by 雨夜リズ",
+      "thumb": "https://i.ytimg.com/vi/dJoLignQRJI/hqdefault.jpg",
+      "publishedAt": "2026-11-11T07:15:05Z",
       "live": false
     },
     {
@@ -432,121 +428,7 @@
       "thumb": "https://i.ytimg.com/vi/zKJEt6DZTmM/hqdefault.jpg",
       "publishedAt": "2026-11-09T09:01:37Z",
       "live": false
-    },
-    {
-      "id": "urukibWWcPI",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "オリ曲GB配布✨️10万再生感謝❤️‍🔥 #ゆらぎゆら_月の浮かぶ海 #animation",
-      "thumb": "https://i.ytimg.com/vi/urukibWWcPI/hqdefault.jpg",
-      "publishedAt": "2026-11-09T09:00:33Z",
-      "live": false
-    },
-    {
-      "id": "KZJQryhu5uM",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】コップに入ったら絶対！絶対行動ゲーム！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/KZJQryhu5uM/hqdefault.jpg",
-      "publishedAt": "2026-11-09T09:00:29Z",
-      "live": false
-    },
-    {
-      "id": "nr67GQZ9CxA",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【はーい口開けて〜】『デビットビット』歌ってみた【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/nr67GQZ9CxA/hqdefault.jpg",
-      "publishedAt": "2026-11-09T09:00:11Z",
-      "live": false
-    },
-    {
-      "id": "75HywfNmORU",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【バズって生きたい】眠雲ツクリのオリジナル曲歌ってみた#shorts 【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/75HywfNmORU/hqdefault.jpg",
-      "publishedAt": "2026-11-09T09:00:00Z",
-      "live": false
-    },
-    {
-      "id": "Nzwdwvcdvew",
-      "memberId": "akubi",
-      "member": "あくび・でもんすぺーど",
-      "channelTitle": "あくび・でもんすぺーど / Akubi Demonspade",
-      "title": "大声出してはいけない配信【あくび・でもんすぺーど / ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Nzwdwvcdvew/hqdefault.jpg",
-      "publishedAt": "2026-11-08T14:33:30Z",
-      "live": true
     }
   ],
-  "live": [
-    {
-      "id": "Fpr4KDb3m2o",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Potato Please】60,000個のじゃがいもの皮って何時間で剥けますか？【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Fpr4KDb3m2o/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-11T10:01:15Z",
-      "status": "live"
-    },
-    {
-      "id": "pEm12-6CmwA",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 崩壊：スターレイル 】お絵描きしながら人狼を探せ！【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/pEm12-6CmwA/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-11T10:58:28Z",
-      "status": "live"
-    },
-    {
-      "id": "HsgRGzmzNrs",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【 崩壊：スターレイル 】みんなでお絵描き人狼⁉️【 音ノ瀬らこ/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/HsgRGzmzNrs/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-11T10:59:32Z",
-      "status": "live"
-    },
-    {
-      "id": "yke6FUAZPKQ",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【崩壊：スターレイル】みんなとお絵描き人狼するぞ～～～！！【 #あまかみらいぶ / #ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/yke6FUAZPKQ/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-11T10:59:44Z",
-      "status": "live"
-    },
-    {
-      "id": "5DiH5ohf9Fk",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 崩壊：スターレイル 】画力と推理力で人狼を追い詰めろ！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/5DiH5ohf9Fk/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-11T10:59:57Z",
-      "status": "live"
-    },
-    {
-      "id": "Re17g97z-Ok",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 崩壊：スターレイル 〗お絵描き人狼  隠された嘘を見抜け！〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/Re17g97z-Ok/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-11T11:00:35Z",
-      "status": "live"
-    },
-    {
-      "id": "p4LCQo0tFFk",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【崩壊：スターレイル】お絵描き人狼でバトル！？🎨🔥",
-      "thumb": "https://i.ytimg.com/vi/p4LCQo0tFFk/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-11T11:00:45Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
