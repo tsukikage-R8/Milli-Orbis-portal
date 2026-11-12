@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T18:55:26.888Z",
+  "updatedAt": "2026-11-12T01:42:47.034Z",
   "streams": [
     {
       "id": "IHZg-W1RGlg",
@@ -129,6 +129,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "wxRgM_Qst_0",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【雑談】ぐっどなも～にんぐですな！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/wxRgM_Qst_0/hqdefault.jpg",
+      "publishedAt": "2026-11-12T01:08:16Z",
+      "live": true
+    },
     {
       "id": "04s7XN3PX5Y",
       "memberId": "nuhu",
@@ -417,16 +427,6 @@
       "title": "【歌枠】ゲリラでちょこっと歌うよ～！今週もがんばろ～！！【海琳あおい/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/0Jp7zpLkOB4/hqdefault.jpg",
       "publishedAt": "2026-11-09T12:10:32Z",
-      "live": false
-    },
-    {
-      "id": "zKJEt6DZTmM",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【どこまで出るか！？】ボカロ高音曲チャレンジ！【#海琳あおい /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/zKJEt6DZTmM/hqdefault.jpg",
-      "publishedAt": "2026-11-09T09:01:37Z",
       "live": false
     }
   ],
