@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-11-12T11:56:27.916Z",
+  "updatedAt": "2026-11-12T19:20:01.324Z",
   "streams": [
-    {
-      "id": "kzKdwhFmTuQ",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 Goose Goose Duck 】たくさん人がいる緊張！！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/kzKdwhFmTuQ/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-12T12:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "x--B8wu0B7s",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 Goose Goose Duck 】人いすぎだろー！？ひよるなｵﾚ、、、【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/x--B8wu0B7s/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-12T12:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "uWQFplpFYww",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【Goose Goose Duck】いっぱい人がいるぜ🔥",
-      "thumb": "https://i.ytimg.com/vi/uWQFplpFYww/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-12T12:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "hDUmONQouqA",
       "memberId": "aoi",
@@ -47,12 +20,30 @@
       "status": "upcoming"
     },
     {
+      "id": "U8L0-g4JBlM",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 Minecraft脱出マップ 】おかしな深海からの脱出せよ！？【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/U8L0-g4JBlM/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-13T12:00:00Z",
+      "status": "upcoming"
+    },
+    {
       "id": "8otOGZZ2NuY",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
       "title": "〖 コラボ歌枠 〗すうさんと一緒に歌います🎶〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/8otOGZZ2NuY/hqdefault.jpg",
       "scheduledStartTime": "2026-11-14T11:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "C_1hrGDZZKY",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "title": "【📢お知らせ】『甘狼このみと「好き」で学ぼう！中学英単語&amp;熟語1800』発売記念のお話&amp;サイン会が決定！",
+      "thumb": "https://i.ytimg.com/vi/C_1hrGDZZKY/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-15T14:45:00Z",
       "status": "upcoming"
     },
     {
@@ -139,6 +130,46 @@
   ],
   "videos": [
     {
+      "id": "U8L0-g4JBlM",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 Minecraft脱出マップ 】おかしな深海からの脱出せよ！？【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/U8L0-g4JBlM/hqdefault.jpg?v=6af5fe20",
+      "publishedAt": "2026-11-12T17:57:50Z",
+      "live": false
+    },
+    {
+      "id": "x--B8wu0B7s",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 Goose Goose Duck 】人いすぎだろー！？ひよるなｵﾚ、、、【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/x--B8wu0B7s/hqdefault.jpg",
+      "publishedAt": "2026-11-12T15:23:20Z",
+      "live": false
+    },
+    {
+      "id": "uWQFplpFYww",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【Goose Goose Duck】いっぱい人がいるぜ🔥",
+      "thumb": "https://i.ytimg.com/vi/uWQFplpFYww/hqdefault.jpg",
+      "publishedAt": "2026-11-12T15:18:02Z",
+      "live": false
+    },
+    {
+      "id": "kzKdwhFmTuQ",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 Goose Goose Duck 】たくさん人がいる緊張！！【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/kzKdwhFmTuQ/hqdefault.jpg",
+      "publishedAt": "2026-11-12T15:13:27Z",
+      "live": false
+    },
+    {
       "id": "r9nFT4An-Yk",
       "memberId": "nuhu",
       "member": "虹深°ぬふ",
@@ -189,16 +220,6 @@
       "live": false
     },
     {
-      "id": "kzKdwhFmTuQ",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 Goose Goose Duck 】たくさん人がいる緊張！！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/kzKdwhFmTuQ/hqdefault.jpg?v=6af58677",
-      "publishedAt": "2026-11-12T09:27:17Z",
-      "live": false
-    },
-    {
       "id": "vY2U25oudsA",
       "memberId": "raco",
       "member": "音ノ瀬らこ",
@@ -213,7 +234,7 @@
       "memberId": "liz",
       "member": "雨夜リズ",
       "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【3人】以心伝心『ゴーストルール』歌ってみた【雨夜リズ/ミリプロ】",
+      "title": "【3人で】以心伝心『ゴーストルール』歌ってみた#shorts 【雨夜リズ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/G4RnNutTJEM/hqdefault.jpg",
       "publishedAt": "2026-11-12T09:00:27Z",
       "live": false
@@ -226,16 +247,6 @@
       "title": "【マイクラ】隠れてるミリプロメンバーを探せ！！【#ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/JFpAmXD8iNE/hqdefault.jpg",
       "publishedAt": "2026-11-12T09:00:14Z",
-      "live": false
-    },
-    {
-      "id": "uWQFplpFYww",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【Goose Goose Duck】いっぱい人がいるぜ🔥",
-      "thumb": "https://i.ytimg.com/vi/uWQFplpFYww/hqdefault.jpg?v=6af57867",
-      "publishedAt": "2026-11-12T08:27:16Z",
       "live": false
     },
     {
@@ -276,16 +287,6 @@
       "title": "【 VALORANT 】ばりらばりらんち、だぞ【小廻こま/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/W7bR1EwgsDs/hqdefault.jpg",
       "publishedAt": "2026-11-11T17:17:03Z",
-      "live": false
-    },
-    {
-      "id": "x--B8wu0B7s",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 Goose Goose Duck 】人いすぎだろー！？ひよるなｵﾚ、、、【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/x--B8wu0B7s/hqdefault.jpg?v=6af59101",
-      "publishedAt": "2026-11-11T16:53:56Z",
       "live": false
     },
     {
@@ -426,16 +427,6 @@
       "title": "【アニメ】お手伝い頑張る！ #ミリプロ #anime",
       "thumb": "https://i.ytimg.com/vi/HIwoQ2jtBE0/hqdefault.jpg",
       "publishedAt": "2026-11-10T09:00:08Z",
-      "live": false
-    },
-    {
-      "id": "igxTQC0hcig",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【眠雲ツクリと】引いた言葉が歌詞に含まれる曲歌ってみた#shorts 【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/igxTQC0hcig/hqdefault.jpg",
-      "publishedAt": "2026-11-10T09:00:07Z",
       "live": false
     }
   ],
