@@ -382,6 +382,17 @@ window.SONGS = {
   ],
   "covers": [
     {
+      "title": "鬼ノ宴",
+      "key": "鬼ノ宴",
+      "urls": [
+        {
+          "id": "bYH8Lg0dqi4",
+          "memberId": "aoi",
+          "publishedAt": "2026-11-14"
+        }
+      ]
+    },
+    {
       "title": "月の浮かぶ海 - ゆらぎゆら",
       "key": "月の浮かぶ海",
       "urls": [
