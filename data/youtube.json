@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T18:50:55.833Z",
+  "updatedAt": "2026-11-14T00:30:34.683Z",
   "streams": [
     {
       "id": "4CksLOGlFLM",
@@ -16,6 +16,15 @@
       "member": "眠雲ツクリ",
       "title": "〖 コラボ歌枠 〗すうさんと一緒に歌います🎶〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/8otOGZZ2NuY/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-14T11:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "mEwkI97JoTI",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 雑談 】11月の近況報告会 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/mEwkI97JoTI/hqdefault.jpg",
       "scheduledStartTime": "2026-11-14T11:00:00Z",
       "status": "upcoming"
     },
@@ -111,6 +120,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "mEwkI97JoTI",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 雑談 】11月の近況報告会 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/mEwkI97JoTI/hqdefault.jpg?v=6af77e17",
+      "publishedAt": "2026-11-13T21:16:04Z",
+      "live": true
+    },
     {
       "id": "8R4TC_Wlq6M",
       "memberId": "tsukuri",
@@ -399,16 +418,6 @@
       "title": "【 VALORANT 】集まれ！深夜のドパガキ達！ ⟡.· 【 夕霧レイ/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/41WZtUztgFY/hqdefault.jpg",
       "publishedAt": "2026-11-11T17:20:22Z",
-      "live": false
-    },
-    {
-      "id": "W7bR1EwgsDs",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 VALORANT 】ばりらばりらんち、だぞ【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/W7bR1EwgsDs/hqdefault.jpg",
-      "publishedAt": "2026-11-11T17:17:03Z",
       "live": false
     }
   ],

@@ -1,49 +1,13 @@
 {
-  "updatedAt": "2026-11-13T11:39:23.102Z",
+  "updatedAt": "2026-11-13T18:50:55.833Z",
   "streams": [
     {
-      "id": "HOUzYRdYWNQ",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【作業雑談】ショート制作、頑張ってんだ",
-      "thumb": "https://i.ytimg.com/vi/HOUzYRdYWNQ/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-13T10:00:30Z",
-      "status": "live"
-    },
-    {
-      "id": "GYnF2iZKqzQ",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "ねぇ、君はどこの駅まで？",
-      "thumb": "https://i.ytimg.com/vi/GYnF2iZKqzQ/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-13T10:01:34Z",
-      "status": "live"
-    },
-    {
-      "id": "iEUTUjLo318",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 雑談 】寒くなってきたね、自分大事に【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/iEUTUjLo318/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-13T10:55:24Z",
-      "status": "live"
-    },
-    {
-      "id": "U8L0-g4JBlM",
+      "id": "4CksLOGlFLM",
       "memberId": "yura",
       "member": "ゆらぎゆら",
-      "title": "【 Minecraft脱出マップ 】おかしな深海からの脱出せよ！？【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/U8L0-g4JBlM/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-13T12:00:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "8R4TC_Wlq6M",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 VALORANT 〗ランク上げてみた～い〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/8R4TC_Wlq6M/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-13T13:00:00Z",
+      "title": "【 山削り 】雑談という名の、山削り職人。【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/4CksLOGlFLM/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-14T03:30:00Z",
       "status": "upcoming"
     },
     {
@@ -148,6 +112,76 @@
   ],
   "videos": [
     {
+      "id": "8R4TC_Wlq6M",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 VALORANT 〗ランク上げてみた～い〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/8R4TC_Wlq6M/hqdefault.jpg",
+      "publishedAt": "2026-11-13T17:50:30Z",
+      "live": false
+    },
+    {
+      "id": "4CksLOGlFLM",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 山削り 】雑談という名の、山削り職人。【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/4CksLOGlFLM/hqdefault.jpg?v=6af73250",
+      "publishedAt": "2026-11-13T15:52:46Z",
+      "live": true
+    },
+    {
+      "id": "YR3-NjMBTDI",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【歌枠】ねむーーーーい‼️‼️‼️【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/YR3-NjMBTDI/hqdefault.jpg",
+      "publishedAt": "2026-11-13T15:03:27Z",
+      "live": false
+    },
+    {
+      "id": "U8L0-g4JBlM",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 Minecraft脱出マップ 】おかしな深海からの脱出せよ！？【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/U8L0-g4JBlM/hqdefault.jpg",
+      "publishedAt": "2026-11-13T14:50:22Z",
+      "live": false
+    },
+    {
+      "id": "HOUzYRdYWNQ",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【作業雑談】ショート制作、頑張ってんだ",
+      "thumb": "https://i.ytimg.com/vi/HOUzYRdYWNQ/hqdefault.jpg",
+      "publishedAt": "2026-11-13T13:55:44Z",
+      "live": true
+    },
+    {
+      "id": "iEUTUjLo318",
+      "memberId": "koma",
+      "member": "小廻こま",
+      "channelTitle": "小廻こま / Komawari Koma",
+      "title": "【 雑談 】寒くなってきたね、自分大事に【小廻こま/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/iEUTUjLo318/hqdefault.jpg",
+      "publishedAt": "2026-11-13T13:23:52Z",
+      "live": true
+    },
+    {
+      "id": "GYnF2iZKqzQ",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "ねぇ、君はどこの駅まで？",
+      "thumb": "https://i.ytimg.com/vi/GYnF2iZKqzQ/hqdefault.jpg",
+      "publishedAt": "2026-11-13T12:00:16Z",
+      "live": false
+    },
+    {
       "id": "8EqvMGx7kWI",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
@@ -176,46 +210,6 @@
       "thumb": "https://i.ytimg.com/vi/bYH8Lg0dqi4/hqdefault.jpg",
       "publishedAt": "2026-11-13T11:00:07Z",
       "live": false
-    },
-    {
-      "id": "8R4TC_Wlq6M",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 VALORANT 〗ランク上げてみた～い〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/8R4TC_Wlq6M/hqdefault.jpg?v=6af6eca1",
-      "publishedAt": "2026-11-13T10:55:26Z",
-      "live": false
-    },
-    {
-      "id": "iEUTUjLo318",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 雑談 】寒くなってきたね、自分大事に【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/iEUTUjLo318/hqdefault.jpg?v=6af67731",
-      "publishedAt": "2026-11-13T10:55:24Z",
-      "live": true
-    },
-    {
-      "id": "GYnF2iZKqzQ",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "ねぇ、君はどこの駅まで？",
-      "thumb": "https://i.ytimg.com/vi/GYnF2iZKqzQ/hqdefault.jpg?v=6af6dbc8",
-      "publishedAt": "2026-11-13T10:01:34Z",
-      "live": false
-    },
-    {
-      "id": "HOUzYRdYWNQ",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【作業雑談】ショート制作、頑張ってんだ",
-      "thumb": "https://i.ytimg.com/vi/HOUzYRdYWNQ/hqdefault.jpg?v=6af6dc5d",
-      "publishedAt": "2026-11-13T10:00:30Z",
-      "live": true
     },
     {
       "id": "Hnkp0YXqEWM",
@@ -275,16 +269,6 @@
       "title": "【マイクラ】隠れながらバレずに息継ぎして生き残れ！",
       "thumb": "https://i.ytimg.com/vi/S1Fmht1Jy_I/hqdefault.jpg",
       "publishedAt": "2026-11-13T09:00:06Z",
-      "live": false
-    },
-    {
-      "id": "U8L0-g4JBlM",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 Minecraft脱出マップ 】おかしな深海からの脱出せよ！？【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/U8L0-g4JBlM/hqdefault.jpg?v=6af5fe20",
-      "publishedAt": "2026-11-12T17:57:50Z",
       "live": false
     },
     {
@@ -426,55 +410,7 @@
       "thumb": "https://i.ytimg.com/vi/W7bR1EwgsDs/hqdefault.jpg",
       "publishedAt": "2026-11-11T17:17:03Z",
       "live": false
-    },
-    {
-      "id": "Fpr4KDb3m2o",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Potato Please】60,000個のじゃがいもの皮って何時間で剥けますか？【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Fpr4KDb3m2o/hqdefault.jpg",
-      "publishedAt": "2026-11-11T15:41:10Z",
-      "live": false
-    },
-    {
-      "id": "p4LCQo0tFFk",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【崩壊：スターレイル】お絵描き人狼でバトル！？🎨🔥",
-      "thumb": "https://i.ytimg.com/vi/p4LCQo0tFFk/hqdefault.jpg",
-      "publishedAt": "2026-11-11T13:33:33Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "HOUzYRdYWNQ",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【作業雑談】ショート制作、頑張ってんだ",
-      "thumb": "https://i.ytimg.com/vi/HOUzYRdYWNQ/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-13T10:00:30Z",
-      "status": "live"
-    },
-    {
-      "id": "GYnF2iZKqzQ",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "ねぇ、君はどこの駅まで？",
-      "thumb": "https://i.ytimg.com/vi/GYnF2iZKqzQ/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-13T10:01:34Z",
-      "status": "live"
-    },
-    {
-      "id": "iEUTUjLo318",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "title": "【 雑談 】寒くなってきたね、自分大事に【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/iEUTUjLo318/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-13T10:55:24Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
