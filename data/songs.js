@@ -382,6 +382,17 @@ window.SONGS = {
   ],
   "covers": [
     {
+      "title": "奏（スキマスイッチ） - 鹿乃まほろ cover.",
+      "key": "奏-.",
+      "urls": [
+        {
+          "id": "e6acfMolexU",
+          "memberId": "mahoro",
+          "publishedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
       "title": "鬼ノ宴",
       "key": "鬼ノ宴",
       "urls": [
@@ -2932,17 +2943,6 @@ window.SONGS = {
           "id": "oXXXfkwBNhU",
           "memberId": "mahoro",
           "publishedAt": "2026-10-29"
-        }
-      ]
-    },
-    {
-      "title": "奏（スキマスイッチ） - 鹿乃まほろ cover.",
-      "key": "奏-.",
-      "urls": [
-        {
-          "id": "e6acfMolexU",
-          "memberId": "mahoro",
-          "publishedAt": "2026-10-24"
         }
       ]
     },
