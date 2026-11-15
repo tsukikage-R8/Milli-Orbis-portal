@@ -1,32 +1,14 @@
 {
-  "updatedAt": "2026-11-14T23:27:24.828Z",
+  "updatedAt": "2026-11-15T03:24:32.552Z",
   "streams": [
-    {
-      "id": "AdQC-0-9BiU",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "title": "【歌枠】寝起きで歌ったり喋ったりしてみる～～～【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/AdQC-0-9BiU/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-14T22:32:54Z",
-      "status": "live"
-    },
-    {
-      "id": "7zo2lBTOfQ4",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 朝活 】お出かけ前に1時間！おはゆら🌞【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/7zo2lBTOfQ4/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-14T23:01:00Z",
-      "status": "live"
-    },
     {
       "id": "Daq4QSdEd1U",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
       "title": "【Minecraft】ミリ鯖ではじめての建築チャレンジ(∂ω∂)【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/Daq4QSdEd1U/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-15T02:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-11-15T02:06:44Z",
+      "status": "live"
     },
     {
       "id": "C_1hrGDZZKY",
@@ -157,13 +139,13 @@
   ],
   "videos": [
     {
-      "id": "7zo2lBTOfQ4",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 朝活 】お出かけ前に1時間！おはゆら🌞【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/7zo2lBTOfQ4/hqdefault.jpg?v=6af87ca7",
-      "publishedAt": "2026-11-14T23:01:00Z",
+      "id": "Daq4QSdEd1U",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Minecraft】ミリ鯖ではじめての建築チャレンジ(∂ω∂)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/Daq4QSdEd1U/hqdefault.jpg?v=6af8659a",
+      "publishedAt": "2026-11-15T02:06:44Z",
       "live": false
     },
     {
@@ -172,8 +154,18 @@
       "member": "海琳あおい",
       "channelTitle": "海琳あおい / Mitama Aoi",
       "title": "【歌枠】寝起きで歌ったり喋ったりしてみる～～～【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/AdQC-0-9BiU/hqdefault.jpg?v=6af8e08d",
-      "publishedAt": "2026-11-14T22:32:54Z",
+      "thumb": "https://i.ytimg.com/vi/AdQC-0-9BiU/hqdefault.jpg",
+      "publishedAt": "2026-11-15T01:40:06Z",
+      "live": false
+    },
+    {
+      "id": "7zo2lBTOfQ4",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 朝活 】お出かけ前に1時間！おはゆら🌞【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/7zo2lBTOfQ4/hqdefault.jpg",
+      "publishedAt": "2026-11-15T00:07:21Z",
       "live": false
     },
     {
@@ -204,16 +196,6 @@
       "title": "【 歌枠 】15万人耐久！がんばる ⟡.· 【 夕霧レイ/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/_LPhVs1jP6I/hqdefault.jpg",
       "publishedAt": "2026-11-14T14:10:22Z",
-      "live": false
-    },
-    {
-      "id": "Daq4QSdEd1U",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Minecraft】ミリ鯖ではじめての建築チャレンジ(∂ω∂)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Daq4QSdEd1U/hqdefault.jpg?v=6af8659a",
-      "publishedAt": "2026-11-14T13:43:52Z",
       "live": false
     },
     {
@@ -459,21 +441,12 @@
   ],
   "live": [
     {
-      "id": "AdQC-0-9BiU",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "title": "【歌枠】寝起きで歌ったり喋ったりしてみる～～～【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/AdQC-0-9BiU/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-14T22:32:54Z",
-      "status": "live"
-    },
-    {
-      "id": "7zo2lBTOfQ4",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 朝活 】お出かけ前に1時間！おはゆら🌞【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/7zo2lBTOfQ4/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-14T23:01:00Z",
+      "id": "Daq4QSdEd1U",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【Minecraft】ミリ鯖ではじめての建築チャレンジ(∂ω∂)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/Daq4QSdEd1U/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-15T02:06:44Z",
       "status": "live"
     }
   ]
