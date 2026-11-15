@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-11-15T11:35:10.665Z",
+  "updatedAt": "2026-11-15T18:03:17.801Z",
   "streams": [
-    {
-      "id": "6Rf-D8KntDM",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【歌枠】寒い中見てくれてありがとう！路上”風”歌枠！ ┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/6Rf-D8KntDM/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-15T10:59:09Z",
-      "status": "live"
-    },
-    {
-      "id": "C_1hrGDZZKY",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "【📢お知らせ】『甘狼このみと「好き」で学ぼう！中学英単語&amp;熟語1800』発売記念のお話&amp;サイン会が決定！",
-      "thumb": "https://i.ytimg.com/vi/C_1hrGDZZKY/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-15T14:45:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "mEwkI97JoTI",
       "memberId": "rei",
@@ -139,13 +121,13 @@
   ],
   "videos": [
     {
-      "id": "dJoLignQRJI",
+      "id": "Gsb_F_eqvic",
       "memberId": "liz",
       "member": "雨夜リズ",
       "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "セレナーデ - なとり covered by 雨夜リズ",
-      "thumb": "https://i.ytimg.com/vi/dJoLignQRJI/hqdefault.jpg",
-      "publishedAt": "2026-11-15T11:00:08Z",
+      "title": "【歌枠】珍しすぎるかなり夜歌枠🐰【雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/Gsb_F_eqvic/hqdefault.jpg",
+      "publishedAt": "2026-11-15T15:46:10Z",
       "live": false
     },
     {
@@ -154,8 +136,18 @@
       "member": "音ノ乃のの",
       "channelTitle": "音ノ乃のの / NononoNono",
       "title": "【歌枠】寒い中見てくれてありがとう！路上”風”歌枠！ ┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/6Rf-D8KntDM/hqdefault.jpg?v=6af938cd",
-      "publishedAt": "2026-11-15T10:59:09Z",
+      "thumb": "https://i.ytimg.com/vi/6Rf-D8KntDM/hqdefault.jpg",
+      "publishedAt": "2026-11-15T14:11:24Z",
+      "live": false
+    },
+    {
+      "id": "dJoLignQRJI",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "セレナーデ - なとり covered by 雨夜リズ",
+      "thumb": "https://i.ytimg.com/vi/dJoLignQRJI/hqdefault.jpg",
+      "publishedAt": "2026-11-15T11:00:08Z",
       "live": false
     },
     {
@@ -427,27 +419,7 @@
       "thumb": "https://i.ytimg.com/vi/bYH8Lg0dqi4/hqdefault.jpg",
       "publishedAt": "2026-11-13T11:00:07Z",
       "live": false
-    },
-    {
-      "id": "Hnkp0YXqEWM",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "『寄り酔い』歌ってみた 【#海琳あおい /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Hnkp0YXqEWM/hqdefault.jpg",
-      "publishedAt": "2026-11-13T09:01:09Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "6Rf-D8KntDM",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "title": "【歌枠】寒い中見てくれてありがとう！路上”風”歌枠！ ┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/6Rf-D8KntDM/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-15T10:59:09Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }

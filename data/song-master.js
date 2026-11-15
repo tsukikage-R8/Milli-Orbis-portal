@@ -153,10 +153,13 @@ window.SONG_MASTER = {
       }
     },
     "夏色えがおで1,2,jump!": {
-      "title": "夏色えがおで1,2,Jump! (MAKI Mix)",
-      "artist": "西木野真姫(CV.Pile)",
-      "album": "ラブライブ! Solo Live! Collection from μ's 西木野真姫 TRUE DIVA",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/aa/3a/75aa3a6b-ef2e-0163-b929-4053a8218926/4540774200597.png/600x600bb.jpg"
+      "title": "夏色えがおで1,2,Jump!",
+      "artist": "μ's",
+      "album": "μ's Complete BEST BOX Chapter.01",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/42/d5/c642d5f1-c39c-fa71-9e82-0687bb89c8bb/4540774907212.png/600x600bb.jpg",
+      "en": {
+        "title": "Summer color picture 1,2,Jump!"
+      }
     },
     "イケナイ太陽": {
       "title": "イケナイ太陽",
@@ -609,10 +612,13 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "ツバメ (feat. ミドリーズ)",
-      "artist": "YOASOBI",
-      "album": "ツバメ (feat. ミドリーズ) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg"
+      "title": "いい感じ",
+      "artist": "ケツメイシ",
+      "album": "KETSUNOPOLIS 10",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Feels good"
+      }
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -1066,9 +1072,9 @@ window.SONG_MASTER = {
     },
     "マシャルマキシマイザ": {
       "title": "マーシャル・マキシマイザー",
-      "artist": "和楽器バンド",
-      "album": "ボカロ三昧2",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/94/55/17/945517eb-0a00-26fc-39c3-105f68516291/22UMGIM81445.rgb.jpg/600x600bb.jpg",
+      "artist": "吉乃",
+      "album": "PALETTE5",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a1/92/22/a1922258-5ccd-edba-3fdb-67721181c362/PCSP_03942.jpg/600x600bb.jpg",
       "en": {
         "title": "marshall maximizer"
       }
@@ -1602,10 +1608,10 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "シャッター",
-      "artist": "優里",
-      "album": "シャッター - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/5c/ff/ac5cff5d-de3e-8cdc-f8de-95965a9fc894/4547366520002.jpg/600x600bb.jpg"
+      "title": "一花依世界",
+      "artist": "洛天依",
+      "album": "依如初見",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ac/b0/68/acb06846-0c4f-d0f7-801c-678b0e37efd0/193017072921.jpg/600x600bb.jpg"
     },
     "メルティランドナイトメア": {
       "title": "メルティランドナイトメア",
@@ -1698,10 +1704,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b4/ee/77/b4ee7755-2ed2-c0b0-06ed-1ac8c114fb46/25UMGIM93005.rgb.jpg/600x600bb.jpg"
     },
     "アイロニいました": {
-      "title": "ツキミソウ",
-      "artist": "Novelbright",
-      "album": "ツキミソウ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/39/33/1a/39331a3d-a1e5-f1e8-904e-8be6438e13a3/20UM1IM05202.rgb.jpg/600x600bb.jpg"
+      "title": "カメレオン",
+      "artist": "King Gnu",
+      "album": "カメレオン - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/28/5e/6a/285e6aab-fb7d-aca7-2cd0-7d0502cabdde/4547366552881.jpg/600x600bb.jpg"
     },
     "サディスティックラブいました": {
       "title": "声をきかせて",
@@ -1892,8 +1898,8 @@ window.SONG_MASTER = {
     "lovesosweet": {
       "title": "Love so sweet",
       "artist": "嵐",
-      "album": "Time",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/53/9d/ff/539dffce-0f78-aca4-e93e-319c78b477d5/194491831011.jpg/600x600bb.jpg"
+      "album": "Love so sweet - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/8e/10/2a/8e102abd-d981-e370-82db-2ae5c98baac3/194491537920.jpg/600x600bb.jpg"
     },
     "フライングゲット": {
       "title": "フライングゲット",
@@ -1941,10 +1947,10 @@ window.SONG_MASTER = {
       }
     },
     "すぱなチャット": {
-      "title": "SHAMPOO",
-      "artist": "PUNPEE, BIM & Elle Teresa",
-      "album": "Iced Out - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3f/2f/d4/3f2fd442-0514-722f-1dba-dd0f2403a098/4573268541708_cover.png/600x600bb.jpg"
+      "title": "Streamer",
+      "artist": "すとぷり",
+      "album": "Streamer - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/23/6c/30/236c30da-7cc3-24bd-d526-0dcf2eccf69a/20UMGIM70644.rgb.jpg/600x600bb.jpg"
     },
     "エイリアンエイリアン": {
       "title": "エイリアンエイリアン",

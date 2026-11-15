@@ -5,7 +5,15 @@ window.KARAOKE = [
     "memberId": "nono",
     "publishedAt": "2026-11-15",
     "title": "【歌枠】寒い中見てくれてありがとう！路上”風”歌枠！ ┊︎#音ノ乃のの #ののん家",
-    "duration": 0,
+    "duration": 10840,
+    "songs": []
+  },
+  {
+    "id": "Gsb_F_eqvic",
+    "memberId": "liz",
+    "publishedAt": "2026-11-15",
+    "title": "【歌枠】珍しすぎるかなり夜歌枠🐰【雨夜リズ/ミリプロ】",
+    "duration": 7623,
     "songs": []
   },
   {
