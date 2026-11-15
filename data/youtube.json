@@ -1,14 +1,23 @@
 {
-  "updatedAt": "2026-11-14T17:23:18.481Z",
+  "updatedAt": "2026-11-14T23:27:24.828Z",
   "streams": [
+    {
+      "id": "AdQC-0-9BiU",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "title": "【歌枠】寝起きで歌ったり喋ったりしてみる～～～【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/AdQC-0-9BiU/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-14T22:32:54Z",
+      "status": "live"
+    },
     {
       "id": "7zo2lBTOfQ4",
       "memberId": "yura",
       "member": "ゆらぎゆら",
       "title": "【 朝活 】お出かけ前に1時間！おはゆら🌞【ゆらぎゆら/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/7zo2lBTOfQ4/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-14T23:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-11-14T23:01:00Z",
+      "status": "live"
     },
     {
       "id": "Daq4QSdEd1U",
@@ -101,6 +110,15 @@
       "status": "upcoming"
     },
     {
+      "id": "N9cuK9dWtm4",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "🍓ミリプロ わんわんにゃんにゃんコレクション 2026🦌【〆12/14】",
+      "thumb": "https://i.ytimg.com/vi/N9cuK9dWtm4/hqdefault.jpg",
+      "scheduledStartTime": "2026-12-14T14:45:00Z",
+      "status": "upcoming"
+    },
+    {
       "id": "gjos7ccWkac",
       "memberId": "nono",
       "member": "音ノ乃のの",
@@ -139,6 +157,36 @@
   ],
   "videos": [
     {
+      "id": "7zo2lBTOfQ4",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 朝活 】お出かけ前に1時間！おはゆら🌞【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/7zo2lBTOfQ4/hqdefault.jpg?v=6af87ca7",
+      "publishedAt": "2026-11-14T23:01:00Z",
+      "live": false
+    },
+    {
+      "id": "AdQC-0-9BiU",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【歌枠】寝起きで歌ったり喋ったりしてみる～～～【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/AdQC-0-9BiU/hqdefault.jpg?v=6af8e08d",
+      "publishedAt": "2026-11-14T22:32:54Z",
+      "live": false
+    },
+    {
+      "id": "N9cuK9dWtm4",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "🍓ミリプロ わんわんにゃんにゃんコレクション 2026🦌【〆12/14】",
+      "thumb": "https://i.ytimg.com/vi/N9cuK9dWtm4/hqdefault.jpg?v=6af89a56",
+      "publishedAt": "2026-11-14T17:28:52Z",
+      "live": false
+    },
+    {
       "id": "s8GUUlmV46k",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
@@ -146,16 +194,6 @@
       "title": "🍓ミリプロ ハロウィンコレクション 2026🦌【〆11/24】",
       "thumb": "https://i.ytimg.com/vi/s8GUUlmV46k/hqdefault.jpg?v=6af898dc",
       "publishedAt": "2026-11-14T17:22:34Z",
-      "live": false
-    },
-    {
-      "id": "7zo2lBTOfQ4",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 朝活 】お出かけ前に1時間！おはゆら🌞【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/7zo2lBTOfQ4/hqdefault.jpg?v=6af87ca7",
-      "publishedAt": "2026-11-14T15:22:13Z",
       "live": false
     },
     {
@@ -417,27 +455,26 @@
       "thumb": "https://i.ytimg.com/vi/uWQFplpFYww/hqdefault.jpg",
       "publishedAt": "2026-11-12T15:18:02Z",
       "live": false
-    },
-    {
-      "id": "kzKdwhFmTuQ",
-      "memberId": "koma",
-      "member": "小廻こま",
-      "channelTitle": "小廻こま / Komawari Koma",
-      "title": "【 Goose Goose Duck 】たくさん人がいる緊張！！【小廻こま/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/kzKdwhFmTuQ/hqdefault.jpg",
-      "publishedAt": "2026-11-12T15:13:27Z",
-      "live": false
-    },
-    {
-      "id": "r9nFT4An-Yk",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【お絵描き雑談】今日もショート作るよどこまでも【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/r9nFT4An-Yk/hqdefault.jpg",
-      "publishedAt": "2026-11-12T11:37:11Z",
-      "live": true
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "AdQC-0-9BiU",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "title": "【歌枠】寝起きで歌ったり喋ったりしてみる～～～【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/AdQC-0-9BiU/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-14T22:32:54Z",
+      "status": "live"
+    },
+    {
+      "id": "7zo2lBTOfQ4",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 朝活 】お出かけ前に1時間！おはゆら🌞【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/7zo2lBTOfQ4/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-14T23:01:00Z",
+      "status": "live"
+    }
+  ]
 }
