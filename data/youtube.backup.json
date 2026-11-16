@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-11-15T23:37:14.131Z",
+  "updatedAt": "2026-11-16T03:25:19.511Z",
   "streams": [
+    {
+      "id": "sjTXWYj63e0",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 ゼルダの伝説 時のオカリナ 〗時オカリメイク初見旅！！！#1〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/sjTXWYj63e0/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-16T10:00:00Z",
+      "status": "upcoming"
+    },
     {
       "id": "mEwkI97JoTI",
       "memberId": "rei",
@@ -138,6 +147,16 @@
       "thumb": "https://i.ytimg.com/vi/8Me2smZujGY/hqdefault.jpg?v=6afa2425",
       "publishedAt": "2026-11-15T21:29:06Z",
       "live": true
+    },
+    {
+      "id": "sjTXWYj63e0",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ゼルダの伝説 時のオカリナ 〗時オカリメイク初見旅！！！#1〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/sjTXWYj63e0/hqdefault.jpg?v=6af9f672",
+      "publishedAt": "2026-11-15T18:14:08Z",
+      "live": false
     },
     {
       "id": "Gsb_F_eqvic",
@@ -417,16 +436,6 @@
       "title": "【Trees Hate You】どんなに温厚な人でもキレちゃうって噂が本当かどうか検証してみます【鹿乃まほろ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/8EqvMGx7kWI/hqdefault.jpg",
       "publishedAt": "2026-11-13T11:15:09Z",
-      "live": false
-    },
-    {
-      "id": "hDUmONQouqA",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【歌枠】嬉しい告知がある！！みんな集合～～！！【海琳あおい/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/hDUmONQouqA/hqdefault.jpg",
-      "publishedAt": "2026-11-13T11:03:08Z",
       "live": false
     }
   ],
