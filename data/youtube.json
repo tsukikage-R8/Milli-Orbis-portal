@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T18:03:17.801Z",
+  "updatedAt": "2026-11-15T23:37:14.131Z",
   "streams": [
     {
       "id": "mEwkI97JoTI",
@@ -8,6 +8,15 @@
       "title": "【 雑談 】11月の近況報告会 ⟡.· 【 夕霧レイ/ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/mEwkI97JoTI/hqdefault.jpg",
       "scheduledStartTime": "2026-11-16T11:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "8Me2smZujGY",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【雑談】寝る前におしゃべりしよう～ヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/8Me2smZujGY/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-16T13:00:00Z",
       "status": "upcoming"
     },
     {
@@ -121,6 +130,16 @@
   ],
   "videos": [
     {
+      "id": "8Me2smZujGY",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【雑談】寝る前におしゃべりしよう～ヽ(.⊿·)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/8Me2smZujGY/hqdefault.jpg?v=6afa2425",
+      "publishedAt": "2026-11-15T21:29:06Z",
+      "live": true
+    },
+    {
       "id": "Gsb_F_eqvic",
       "memberId": "liz",
       "member": "雨夜リズ",
@@ -175,7 +194,7 @@
       "memberId": "aoi",
       "member": "海琳あおい",
       "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【あなたはどこまで古参！？】ボカロ古参ファンテスト2【#海琳あおい /ミリプロ】",
+      "title": "ボカロ古参ファンテスト2【#海琳あおい /ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/MLLAqvcUMR0/hqdefault.jpg",
       "publishedAt": "2026-11-15T09:01:36Z",
       "live": false
@@ -408,16 +427,6 @@
       "title": "【歌枠】嬉しい告知がある！！みんな集合～～！！【海琳あおい/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/hDUmONQouqA/hqdefault.jpg",
       "publishedAt": "2026-11-13T11:03:08Z",
-      "live": false
-    },
-    {
-      "id": "bYH8Lg0dqi4",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "鬼ノ宴 / 海琳あおい (cover)",
-      "thumb": "https://i.ytimg.com/vi/bYH8Lg0dqi4/hqdefault.jpg",
-      "publishedAt": "2026-11-13T11:00:07Z",
       "live": false
     }
   ],

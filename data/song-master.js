@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-11-15",
+  "generatedAt": "2026-11-16",
   "songs": {
     "奏-.": {
       "title": "CANDY",
@@ -153,13 +153,10 @@ window.SONG_MASTER = {
       }
     },
     "夏色えがおで1,2,jump!": {
-      "title": "夏色えがおで1,2,Jump!",
-      "artist": "μ's",
-      "album": "μ's Complete BEST BOX Chapter.01",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/42/d5/c642d5f1-c39c-fa71-9e82-0687bb89c8bb/4540774907212.png/600x600bb.jpg",
-      "en": {
-        "title": "Summer color picture 1,2,Jump!"
-      }
+      "title": "夏色えがおで1,2,Jump! (MAKI Mix)",
+      "artist": "西木野真姫(CV.Pile)",
+      "album": "ラブライブ! Solo Live! Collection from μ's 西木野真姫 TRUE DIVA",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/aa/3a/75aa3a6b-ef2e-0163-b929-4053a8218926/4540774200597.png/600x600bb.jpg"
     },
     "イケナイ太陽": {
       "title": "イケナイ太陽",
@@ -249,10 +246,13 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/80/66/c0/8066c0aa-bf56-4e5e-4689-1c5f82a3cfbd/4570063063978.jpg/600x600bb.jpg"
     },
     "点描の唄mrs.greenapple": {
-      "title": "点描の唄 (feat. 井上苑子)",
-      "artist": "Mrs. GREEN APPLE",
-      "album": "青と夏 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/34/27/08/3427087f-2d39-4847-9b19-052dd3589014/18UMGIM36633.rgb.jpg/600x600bb.jpg"
+      "title": "点描の唄",
+      "artist": "石崎ひゅーい",
+      "album": "night milk",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/77/9c/8e779cb1-6db7-e22b-5eda-aa827cb48e38/4547366719338.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Pointillist song"
+      }
     },
     "花女花譜": {
       "title": "花女",
@@ -283,9 +283,9 @@ window.SONG_MASTER = {
     },
     "ロミオとシンデレラ": {
       "title": "ロミオとシンデレラ",
-      "artist": "doriko feat. 初音ミク",
-      "album": "Download (feat.初音ミク)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7f/12/61/7f1261b0-de22-e103-012c-0563a654da69/825646170524.jpg/600x600bb.jpg"
+      "artist": "doriko",
+      "album": "ロミオとシンデレラ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/93/2e/9f/932e9f07-68e9-0d9c-b390-d498507a1d97/PA00106837_0_155685_jacket.jpg/600x600bb.jpg"
     },
     "ブラック★ロックシュタ-ryo": {
       "title": "ブラック★ロックシューター (Cover)",
@@ -612,13 +612,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "いい感じ",
-      "artist": "ケツメイシ",
-      "album": "KETSUNOPOLIS 10",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Feels good"
-      }
+      "title": "ツバメ (feat. ミドリーズ)",
+      "artist": "YOASOBI",
+      "album": "ツバメ (feat. ミドリーズ) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg"
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -1072,9 +1069,9 @@ window.SONG_MASTER = {
     },
     "マシャルマキシマイザ": {
       "title": "マーシャル・マキシマイザー",
-      "artist": "吉乃",
-      "album": "PALETTE5",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a1/92/22/a1922258-5ccd-edba-3fdb-67721181c362/PCSP_03942.jpg/600x600bb.jpg",
+      "artist": "和楽器バンド",
+      "album": "ボカロ三昧2",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/94/55/17/945517eb-0a00-26fc-39c3-105f68516291/22UMGIM81445.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "marshall maximizer"
       }
@@ -1228,6 +1225,21 @@ window.SONG_MASTER = {
       "en": {
         "title": "Bonapeite♡S (Cover)"
       }
+    },
+    "ワルズエンドダンスホルwowaka": {
+      "title": "ワールズエンド・ダンスホール",
+      "artist": "ヒトリエ",
+      "album": "NOTOK - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/78/9f/e0/789fe024-7771-1fc9-ed9a-d53e2e6c6a56/4547366718270.jpg/600x600bb.jpg",
+      "en": {
+        "title": "world's end dance hall"
+      }
+    },
+    "bad∞end∞nightひとしずくやま△": {
+      "title": "Bad ∞ End ∞ Night (feat. 初音ミク&鏡音リン&鏡音レン&巡音ルカ&MEIKO&KAITO&がくっぽいど&メグッポイド)",
+      "artist": "ひとしずく & やま△",
+      "album": "After the partY",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/01/d1/76/01d176f0-545d-8af7-7eec-e11c39f326af/KRHS-92448_Afterthepa.jpg/600x600bb.jpg"
     },
     "tiger-hana": {
       "title": "Tiger – HANA with HONEYs Ver.",
@@ -1898,8 +1910,8 @@ window.SONG_MASTER = {
     "lovesosweet": {
       "title": "Love so sweet",
       "artist": "嵐",
-      "album": "Love so sweet - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/8e/10/2a/8e102abd-d981-e370-82db-2ae5c98baac3/194491537920.jpg/600x600bb.jpg"
+      "album": "Time",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/53/9d/ff/539dffce-0f78-aca4-e93e-319c78b477d5/194491831011.jpg/600x600bb.jpg"
     },
     "フライングゲット": {
       "title": "フライングゲット",
@@ -1947,10 +1959,10 @@ window.SONG_MASTER = {
       }
     },
     "すぱなチャット": {
-      "title": "Streamer",
-      "artist": "すとぷり",
-      "album": "Streamer - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/23/6c/30/236c30da-7cc3-24bd-d526-0dcf2eccf69a/20UMGIM70644.rgb.jpg/600x600bb.jpg"
+      "title": "SHAMPOO",
+      "artist": "PUNPEE, BIM & Elle Teresa",
+      "album": "Iced Out - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3f/2f/d4/3f2fd442-0514-722f-1dba-dd0f2403a098/4573268541708_cover.png/600x600bb.jpg"
     },
     "エイリアンエイリアン": {
       "title": "エイリアンエイリアン",
