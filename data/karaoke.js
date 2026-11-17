@@ -5,7 +5,7 @@ window.KARAOKE = [
     "memberId": "yura",
     "publishedAt": "2026-11-16",
     "title": "【 30万人耐久⁉ 】あと930人いけるのか！？※達成したら告知あり【 #ゆらのやすらぎ 】",
-    "duration": 0,
+    "duration": 10046,
     "songs": []
   },
   {

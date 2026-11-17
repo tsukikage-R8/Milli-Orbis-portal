@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-11-16",
+  "generatedAt": "2026-11-17",
   "songs": {
     "セレナデ-なとり": {
       "title": "セレナーデ",
@@ -273,13 +273,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/80/66/c0/8066c0aa-bf56-4e5e-4689-1c5f82a3cfbd/4570063063978.jpg/600x600bb.jpg"
     },
     "点描の唄mrs.greenapple": {
-      "title": "点描の唄",
-      "artist": "石崎ひゅーい",
-      "album": "night milk",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/77/9c/8e779cb1-6db7-e22b-5eda-aa827cb48e38/4547366719338.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Pointillist song"
-      }
+      "title": "点描の唄 (feat. 井上苑子)",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "青と夏 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/34/27/08/3427087f-2d39-4847-9b19-052dd3589014/18UMGIM36633.rgb.jpg/600x600bb.jpg"
     },
     "花女花譜": {
       "title": "花女",
@@ -639,10 +636,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "ツバメ (feat. ミドリーズ)",
-      "artist": "YOASOBI",
-      "album": "ツバメ (feat. ミドリーズ) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg"
+      "title": "Zoo ～君がいるから～ (From 『ズートピア2』/日本語版)",
+      "artist": "Dream Ami",
+      "album": "Zoo ～君がいるから～ (From 『ズートピア2』/日本語版) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/75/4f/58/754f582c-d1fd-e35d-c622-f83ee6ed1fae/25UM2IM06914.rgb.jpg/600x600bb.jpg"
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -946,9 +943,9 @@ window.SONG_MASTER = {
     },
     "dec.": {
       "title": "Dec.",
-      "artist": "Kanaria",
+      "artist": "Ayiko & Yuri",
       "album": "Dec. - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fe/b1/78/feb17895-1c2c-67ea-e6d0-849540da9c58/0198448153041_cover.png/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/01/d1/ee/01d1ee8f-99d7-298f-50c1-2de91afa87b6/artwork.jpg/600x600bb.jpg"
     },
     "少女レイ": {
       "title": "少女レイ",
@@ -1087,9 +1084,9 @@ window.SONG_MASTER = {
     },
     "マシャルマキシマイザ": {
       "title": "マーシャル・マキシマイザー",
-      "artist": "和楽器バンド",
-      "album": "ボカロ三昧2",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/94/55/17/945517eb-0a00-26fc-39c3-105f68516291/22UMGIM81445.rgb.jpg/600x600bb.jpg",
+      "artist": "吉乃",
+      "album": "PALETTE5",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a1/92/22/a1922258-5ccd-edba-3fdb-67721181c362/PCSP_03942.jpg/600x600bb.jpg",
       "en": {
         "title": "marshall maximizer"
       }
@@ -1452,10 +1449,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/81/36/af/8136afa9-cf94-f4d5-8460-9510c8f6e99f/PA00077485_0_180113_jacket.jpg/600x600bb.jpg"
     },
     "僕が死のうと思ったのは.": {
-      "title": "ブルーアンビエンス (feat. asmi)",
-      "artist": "Mrs. GREEN APPLE",
-      "album": "Unity - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/45/11/66/45116621-c965-642d-43ef-b8cf33711bde/22UMGIM58754.rgb.jpg/600x600bb.jpg"
+      "title": "愛を伝えたいだとか",
+      "artist": "あいみょん",
+      "album": "青春のエキサイトメント",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d8/7b/7c/d87b7cfd-c88c-1003-bc5d-883882043e33/190295747138.jpg/600x600bb.jpg"
     },
     "無理に笑わなくて良いよ.": {
       "title": "ハロ/ハワユ",
@@ -1575,10 +1572,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5e/35/b0/5e35b0e7-4c59-d77b-5856-5edc4413adae/PCCA_06304_A.jpg/600x600bb.jpg"
     },
     "会いたい《想见你想见你想见你》": {
-      "title": "输入法记得你",
-      "artist": "Li2c",
-      "album": "输入法记得你 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/ef/3b/deef3b63-9414-375e-c91e-91c22b4864f8/25UM1IM01170.rgb.jpg/600x600bb.jpg"
+      "title": "雨还没停 我还在等",
+      "artist": "闰新",
+      "album": "雨还没停 我还在等 - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/44/be/bb44be0f-d605-1367-307d-4f1645158f78/4894965813951.jpg/600x600bb.jpg"
     },
     "花に亡霊-ヨルシカ": {
       "title": "花に亡霊",
@@ -1641,10 +1638,10 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "シャッター",
-      "artist": "優里",
-      "album": "シャッター - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/5c/ff/ac5cff5d-de3e-8cdc-f8de-95965a9fc894/4547366520002.jpg/600x600bb.jpg"
+      "title": "一花依世界",
+      "artist": "洛天依",
+      "album": "依如初見",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ac/b0/68/acb06846-0c4f-d0f7-801c-678b0e37efd0/193017072921.jpg/600x600bb.jpg"
     },
     "メルティランドナイトメア": {
       "title": "メルティランドナイトメア",
@@ -1686,10 +1683,10 @@ window.SONG_MASTER = {
       }
     },
     "メリュいました": {
-      "title": "突破口",
+      "title": "人として",
       "artist": "SUPER BEAVER",
-      "album": "突破口 / 自慢になりたい - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5e/a6/f1/5ea6f10f-a8b4-d2ac-2a93-13afdb904358/4547366478778.jpg/600x600bb.jpg"
+      "album": "27",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2d/4a/7a/2d4a7a8c-9101-e1f7-9f93-e488f7bbd137/082705_J.jpg/600x600bb.jpg"
     },
     "放課後のプレアデスいました": {
       "title": "Stella-rium",
