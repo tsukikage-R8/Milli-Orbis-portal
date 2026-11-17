@@ -1,13 +1,22 @@
 {
-  "updatedAt": "2026-11-17T05:25:27.992Z",
+  "updatedAt": "2026-11-17T17:08:12.499Z",
   "streams": [
     {
-      "id": "1l1YkUzKuXs",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "title": "【📢グッズ情報】海琳あおい加入記念グッズ受注販売受付中🌱",
-      "thumb": "https://i.ytimg.com/vi/1l1YkUzKuXs/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-17T14:30:00Z",
+      "id": "1y8NQ93dxtY",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 APEX 】てとちゃんに教えてもらう✨さくらさん途中合流！ w/心白てと, 碧依さくら(敬称略)【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/1y8NQ93dxtY/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-17T11:07:08Z",
+      "status": "live"
+    },
+    {
+      "id": "9dUKo2hJ-Zs",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【Minecraft】可愛いウーパールーパーのおうち作りたい(∂ω∂)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/9dUKo2hJ-Zs/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-18T10:00:00Z",
       "status": "upcoming"
     },
     {
@@ -112,6 +121,66 @@
   ],
   "videos": [
     {
+      "id": "hhVIGi2UrDk",
+      "memberId": "liz",
+      "member": "雨夜リズ",
+      "channelTitle": "雨夜リズ / Amayo Liz",
+      "title": "【 APEX 】今日の戦場はお花畑のような匂いがします🌷【カグラナナ/琶舞/雨夜リズ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/hhVIGi2UrDk/hqdefault.jpg",
+      "publishedAt": "2026-11-17T15:45:28Z",
+      "live": false
+    },
+    {
+      "id": "9dUKo2hJ-Zs",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Minecraft】可愛いウーパールーパーのおうち作りたい(∂ω∂)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/9dUKo2hJ-Zs/hqdefault.jpg?v=6afc7e16",
+      "publishedAt": "2026-11-17T12:02:13Z",
+      "live": false
+    },
+    {
+      "id": "1y8NQ93dxtY",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 APEX 】てとちゃんに教えてもらう✨さくらさん途中合流！ w/心白てと, 碧依さくら(敬称略)【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/1y8NQ93dxtY/hqdefault.jpg?v=6afc31d3",
+      "publishedAt": "2026-11-17T11:07:08Z",
+      "live": false
+    },
+    {
+      "id": "VWWcBgyR37o",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【ボカロ難読歌詞クイズ】ヒントなしじゃ読むのむずすぎる！！ 【#海琳あおい /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/VWWcBgyR37o/hqdefault.jpg",
+      "publishedAt": "2026-11-17T09:01:05Z",
+      "live": false
+    },
+    {
+      "id": "UAR0VgOsazg",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【アニメ】給食で嫌いな食べ物が出たとき #ミリプロ #anime",
+      "thumb": "https://i.ytimg.com/vi/UAR0VgOsazg/hqdefault.jpg",
+      "publishedAt": "2026-11-17T09:00:22Z",
+      "live": false
+    },
+    {
+      "id": "IV1gjTJKA34",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【高音厨＆メロ声】夕霧レイと『Surges』歌ってみた【音ノ瀬らこ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/IV1gjTJKA34/hqdefault.jpg",
+      "publishedAt": "2026-11-17T09:00:21Z",
+      "live": false
+    },
+    {
       "id": "8Me2smZujGY",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
@@ -209,6 +278,16 @@
       "title": "「結び」歌ってみた🧵🪡【眠雲ツクリ/ミリプロ】#歌ってみた #VTuber #結び",
       "thumb": "https://i.ytimg.com/vi/hDU9YvSUbtg/hqdefault.jpg",
       "publishedAt": "2026-11-16T09:00:02Z",
+      "live": false
+    },
+    {
+      "id": "7QSEhUIAiOw",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "ニア / covered by ゆらぎゆら",
+      "thumb": "https://i.ytimg.com/vi/7QSEhUIAiOw/hqdefault.jpg",
+      "publishedAt": "2026-11-16T07:14:34Z",
       "live": false
     },
     {
@@ -312,16 +391,6 @@
       "live": false
     },
     {
-      "id": "7zo2lBTOfQ4",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 朝活 】お出かけ前に1時間！おはゆら🌞【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/7zo2lBTOfQ4/hqdefault.jpg",
-      "publishedAt": "2026-11-15T00:07:21Z",
-      "live": false
-    },
-    {
       "id": "N9cuK9dWtm4",
       "memberId": "mahoro",
       "member": "鹿乃まほろ",
@@ -350,67 +419,17 @@
       "thumb": "https://i.ytimg.com/vi/_LPhVs1jP6I/hqdefault.jpg",
       "publishedAt": "2026-11-14T14:10:22Z",
       "live": false
-    },
-    {
-      "id": "OCnbau5EVxE",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 Minecraft 】音ノ瀬らこ、1ブロックに放置してみた。【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/OCnbau5EVxE/hqdefault.jpg",
-      "publishedAt": "2026-11-14T13:12:29Z",
-      "live": false
-    },
-    {
-      "id": "0v9bNgqgnc0",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【 Minecraft 】1ブロックに放置されるらしい…？【 音ノ瀬らこ/ゆらぎゆら 】",
-      "thumb": "https://i.ytimg.com/vi/0v9bNgqgnc0/hqdefault.jpg",
-      "publishedAt": "2026-11-14T13:11:17Z",
-      "live": false
-    },
-    {
-      "id": "8otOGZZ2NuY",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 コラボ歌枠 〗すうさんと一緒に歌います🎶〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/8otOGZZ2NuY/hqdefault.jpg",
-      "publishedAt": "2026-11-14T12:20:00Z",
-      "live": false
-    },
-    {
-      "id": "FK291xBzdXk",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "【雨夜と】引いた言葉が歌詞に含まれる曲！🎤【眠雲ツクリ/雨夜リズ】#歌ってみた #ボカロ",
-      "thumb": "https://i.ytimg.com/vi/FK291xBzdXk/hqdefault.jpg",
-      "publishedAt": "2026-11-14T09:00:38Z",
-      "live": false
-    },
-    {
-      "id": "_PmSquF8k2A",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【アニメ】しゃっくりの止めかた #ミリプロ #anime",
-      "thumb": "https://i.ytimg.com/vi/_PmSquF8k2A/hqdefault.jpg",
-      "publishedAt": "2026-11-14T09:00:32Z",
-      "live": false
-    },
-    {
-      "id": "8R4TC_Wlq6M",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
-      "title": "〖 VALORANT 〗ランク上げてみた～い〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/8R4TC_Wlq6M/hqdefault.jpg",
-      "publishedAt": "2026-11-13T17:50:30Z",
-      "live": false
     }
   ],
-  "live": []
+  "live": [
+    {
+      "id": "1y8NQ93dxtY",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 APEX 】てとちゃんに教えてもらう✨さくらさん途中合流！ w/心白てと, 碧依さくら(敬称略)【 ゆらぎゆら/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/1y8NQ93dxtY/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-17T11:07:08Z",
+      "status": "live"
+    }
+  ]
 }
