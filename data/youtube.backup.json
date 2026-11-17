@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-11-16T12:09:35.006Z",
+  "updatedAt": "2026-11-16T23:52:39.435Z",
   "streams": [
-    {
-      "id": "sjTXWYj63e0",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 ゼルダの伝説 時のオカリナ 〗時オカリメイク初見旅！！！#1〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/sjTXWYj63e0/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-16T10:03:45Z",
-      "status": "live"
-    },
-    {
-      "id": "td5z0ck7Ihg",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 30万人耐久⁉ 】あと930人いけるのか！？※達成したら告知あり【 #ゆらのやすらぎ 】",
-      "thumb": "https://i.ytimg.com/vi/td5z0ck7Ihg/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-16T10:36:19Z",
-      "status": "live"
-    },
-    {
-      "id": "8Me2smZujGY",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Minecraft】ミリ鯖で畑作りしながら雑談したい(∂ω∂)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8Me2smZujGY/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-16T13:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "1l1YkUzKuXs",
       "memberId": "aoi",
@@ -139,14 +112,14 @@
   ],
   "videos": [
     {
-      "id": "td5z0ck7Ihg",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 30万人耐久⁉ 】あと930人いけるのか！？※達成したら告知あり【 #ゆらのやすらぎ 】",
-      "thumb": "https://i.ytimg.com/vi/td5z0ck7Ihg/hqdefault.jpg?v=6afad69f",
-      "publishedAt": "2026-11-16T10:36:19Z",
-      "live": false
+      "id": "8Me2smZujGY",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Minecraft】ミリ鯖で畑作りしながら雑談したい(∂ω∂)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/8Me2smZujGY/hqdefault.jpg",
+      "publishedAt": "2026-11-16T19:37:45Z",
+      "live": true
     },
     {
       "id": "sjTXWYj63e0",
@@ -154,8 +127,28 @@
       "member": "眠雲ツクリ",
       "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
       "title": "〖 ゼルダの伝説 時のオカリナ 〗時オカリメイク初見旅！！！#1〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/sjTXWYj63e0/hqdefault.jpg?v=6af9f672",
-      "publishedAt": "2026-11-16T10:03:45Z",
+      "thumb": "https://i.ytimg.com/vi/sjTXWYj63e0/hqdefault.jpg",
+      "publishedAt": "2026-11-16T16:12:18Z",
+      "live": false
+    },
+    {
+      "id": "ec0Q7YwGGk8",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "仕事おわり、寝転がり雑談",
+      "thumb": "https://i.ytimg.com/vi/ec0Q7YwGGk8/hqdefault.jpg",
+      "publishedAt": "2026-11-16T15:38:31Z",
+      "live": true
+    },
+    {
+      "id": "td5z0ck7Ihg",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 30万人耐久⁉ 】あと930人いけるのか！？※達成したら告知あり【 #ゆらのやすらぎ 】",
+      "thumb": "https://i.ytimg.com/vi/td5z0ck7Ihg/hqdefault.jpg",
+      "publishedAt": "2026-11-16T13:31:21Z",
       "live": false
     },
     {
@@ -217,16 +210,6 @@
       "thumb": "https://i.ytimg.com/vi/hDU9YvSUbtg/hqdefault.jpg",
       "publishedAt": "2026-11-16T09:00:02Z",
       "live": false
-    },
-    {
-      "id": "8Me2smZujGY",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Minecraft】ミリ鯖で畑作りしながら雑談したい(∂ω∂)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8Me2smZujGY/hqdefault.jpg?v=6afaf1e3",
-      "publishedAt": "2026-11-15T21:29:06Z",
-      "live": true
     },
     {
       "id": "Gsb_F_eqvic",
@@ -427,36 +410,7 @@
       "thumb": "https://i.ytimg.com/vi/8R4TC_Wlq6M/hqdefault.jpg",
       "publishedAt": "2026-11-13T17:50:30Z",
       "live": false
-    },
-    {
-      "id": "YR3-NjMBTDI",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【歌枠】ねむーーーーい‼️‼️‼️【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/YR3-NjMBTDI/hqdefault.jpg",
-      "publishedAt": "2026-11-13T15:03:27Z",
-      "live": false
     }
   ],
-  "live": [
-    {
-      "id": "sjTXWYj63e0",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 ゼルダの伝説 時のオカリナ 〗時オカリメイク初見旅！！！#1〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/sjTXWYj63e0/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-16T10:03:45Z",
-      "status": "live"
-    },
-    {
-      "id": "td5z0ck7Ihg",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 30万人耐久⁉ 】あと930人いけるのか！？※達成したら告知あり【 #ゆらのやすらぎ 】",
-      "thumb": "https://i.ytimg.com/vi/td5z0ck7Ihg/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-16T10:36:19Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
