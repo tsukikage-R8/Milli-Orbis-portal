@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-11-17",
+  "generatedAt": "2026-11-18",
   "songs": {
     "セレナデ-なとり": {
       "title": "セレナーデ",
@@ -252,10 +252,13 @@ window.SONG_MASTER = {
       }
     },
     "シスラブ＆": {
-      "title": "シス×ラブ (feat. Hanon & Kotoha)",
+      "title": "水曜日の約束-another story- (feat. 成海聖奈 (CV:雨宮天))",
       "artist": "HoneyWorks",
-      "album": "水声少女 (feat. Hanon & Kotoha)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/73/bf/57/73bf57dc-de29-08d6-c30f-364f82ebc286/4562251594791_cover.jpg/600x600bb.jpg"
+      "album": "シス×ラブ / 水曜日の秘密-another story- - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e5/bd/d6/e5bdd6a5-ea22-999e-c4a3-e4b609f24346/4580074473567.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Wednesday Promise -another story- (feat. Sena Narumi (CV: Sora Amemiya))"
+      }
     },
     "プラネテス": {
       "title": "プラネテス",
@@ -579,10 +582,10 @@ window.SONG_MASTER = {
       }
     },
     "プレイ-gigashortby": {
-      "title": "雨のち晴レルヤ",
-      "artist": "ゆず",
-      "album": "新世界",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/8e/cf/5c/8ecf5c6f-8240-4602-ed5d-ca2506615458/SNCC86926_SHINSEKAI.jpg/600x600bb.jpg"
+      "title": "一途 (ALBUM ver.)",
+      "artist": "King Gnu",
+      "album": "THE GREATEST UNKNOWN",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b1/26/69/b1266981-eabb-65ef-9180-18960e2e7dee/4547366657081.jpg/600x600bb.jpg"
     },
     "モニタリング": {
       "title": "モニタリング",
@@ -778,9 +781,9 @@ window.SONG_MASTER = {
     },
     "メンタルチェンソ": {
       "title": "メンタルチェンソー",
-      "artist": "P丸様。",
-      "album": "Sunny!!",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a9/57/ab/a957abfc-fd6b-c3ec-3db2-15d2c46d2328/21UMGIM13559.rgb.jpg/600x600bb.jpg",
+      "artist": "かいりきベア",
+      "album": "バグエフェクト",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3d/6d/3d/3d6d3d46-9361-9a4f-4916-c6f31109d456/4550714315878_cover.png/600x600bb.jpg",
       "en": {
         "title": "mental chainsaw"
       }
@@ -837,10 +840,10 @@ window.SONG_MASTER = {
       }
     },
     "stay": {
-      "title": "Stay",
-      "artist": "Zedd & アレッシア・カーラ",
-      "album": "Stay - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/08/90/e50890a8-205e-a810-dcda-44b614f99f5f/00602557442878.rgb.jpg/600x600bb.jpg"
+      "title": "STAY",
+      "artist": "ジャスティン・ビーバー & ザ・キッド・ラロイ",
+      "album": "SWAG LIVE FROM COACHELLA (Weekend I)",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/06/1c/73/061c7321-52c9-5532-4fb5-5d704e43e7a9/ticket.efkjkgmd.jpg/600x600bb.jpg"
     },
     "粛聖!!ロリ神レクイエム☆": {
       "title": "粛聖!! ロリ神レクイエム☆",
@@ -1377,10 +1380,10 @@ window.SONG_MASTER = {
       }
     },
     "お呪い-なきそ": {
-      "title": "MAD HEAD LOVE",
+      "title": "POP SONG",
       "artist": "米津玄師",
-      "album": "YANKEE",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/1e/4d/9d1e4da0-f56e-5375-a780-7dd04f06479b/00600406441225.rgb.jpg/600x600bb.jpg"
+      "album": "POP SONG - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/83/6a/a2/836aa298-4442-2178-cbf7-03fed785d53f/4547366551730.jpg/600x600bb.jpg"
     },
     "うぉんちゅばっど-jon-yakitory": {
       "title": "うぉんちゅーばっど",
@@ -1428,10 +1431,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/11/b2/5b/11b25b07-1745-af10-98b4-728152727d18/ANTCD-46197.jpg/600x600bb.jpg"
     },
     "カタオモイ-aimer": {
-      "title": "カタオモイ",
+      "title": "カタオモイ - From THE FIRST TAKE",
       "artist": "Aimer",
-      "album": "daydream",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/46/4a/84/464a843d-14cc-e5e2-a9d6-763eb558e104/4547366270358.jpg/600x600bb.jpg"
+      "album": "カタオモイ - From THE FIRST TAKE - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/86/4a/e1/864ae18f-02ac-4b99-aedb-9b5376e44303/4547366597387.jpg/600x600bb.jpg"
     },
     "ちゅ、多様性。": {
       "title": "MAD HEAD LOVE",
@@ -1452,10 +1455,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/81/36/af/8136afa9-cf94-f4d5-8460-9510c8f6e99f/PA00077485_0_180113_jacket.jpg/600x600bb.jpg"
     },
     "僕が死のうと思ったのは.": {
-      "title": "ブルーアンビエンス (feat. asmi)",
-      "artist": "Mrs. GREEN APPLE",
-      "album": "Unity - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/45/11/66/45116621-c965-642d-43ef-b8cf33711bde/22UMGIM58754.rgb.jpg/600x600bb.jpg"
+      "title": "愛を伝えたいだとか",
+      "artist": "あいみょん",
+      "album": "青春のエキサイトメント",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d8/7b/7c/d87b7cfd-c88c-1003-bc5d-883882043e33/190295747138.jpg/600x600bb.jpg"
     },
     "無理に笑わなくて良いよ.": {
       "title": "ハロ/ハワユ",
@@ -1483,9 +1486,9 @@ window.SONG_MASTER = {
     },
     "フォニイphony": {
       "title": "フォニイ",
-      "artist": "R+...",
+      "artist": "和楽器バンド",
       "album": "フォニイ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/85/23/76/852376bb-3785-29c8-c665-0068b3e741b8/bigup13512121.jpg/600x600bb.jpg",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/3e/f5/66/3ef566ab-7d44-c0a9-0f28-0d322eeb69b3/22UMGIM64974.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "phonii"
       }
@@ -1611,10 +1614,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d2/29/9d/d2299deb-aca4-2229-de3b-d976635c6bb6/3617053072846.jpg/600x600bb.jpg"
     },
     "愛にできることはまだあるかいacoustic.": {
-      "title": "ここから、かなたから~bambi-no cover~",
-      "artist": "鹿乃",
-      "album": "Stella-rium - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dc/b4/66/dcb466bf-c37a-4c50-a2bb-5c144f4d4a45/1000565791_Stella-rium.jpg/600x600bb.jpg"
+      "title": "数え切れないくらいの",
+      "artist": "株式会社バンク・オブ・イノベーション & 鹿乃",
+      "album": "メメントモリ Lament Collection Vol.4",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/37/c7/25/37c7252a-3e77-bf01-2ccc-c845fe6834ee/4550795677384_cover.png/600x600bb.jpg"
     },
     "地球最後の告白をacoustic.": {
       "title": "ドラマツルギー (feat. 星乃一歌 & 初音ミク)",
@@ -1719,10 +1722,10 @@ window.SONG_MASTER = {
       }
     },
     "小夜子いました": {
-      "title": "のびしろ",
-      "artist": "Creepy Nuts",
-      "album": "Case",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e5/46/8a/e5468a74-37db-65a2-a8c6-aaf67552fdfd/4547366526615.jpg/600x600bb.jpg"
+      "title": "うるうびと",
+      "artist": "RADWIMPS",
+      "album": "余命10年 (Original Soundtrack)",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/31/d5/84/31d5848e-2975-7aeb-b4ed-0feb428ea1ab/22UMGIM12204.rgb.jpg/600x600bb.jpg"
     },
     "刹那プラスいました": {
       "title": "助演男優賞",
@@ -1731,19 +1734,16 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9a/9d/62/9a9d62eb-51a1-be7a-0b52-1913090579d4/4948722525264_cover.jpg/600x600bb.jpg"
     },
     "クライヤいました": {
-      "title": "115万キロのフィルム",
-      "artist": "Official髭男dism",
-      "album": "エスカパレード",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/e8/2d/40e82dfb-55b4-7016-1127-357ab78d3f7f/jk.jpg/600x600bb.jpg",
-      "en": {
-        "title": "1.15 million kilometers of film"
-      }
+      "title": "いつか",
+      "artist": "Saucy Dog",
+      "album": "カントリーロード",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b4/ee/77/b4ee7755-2ed2-c0b0-06ed-1ac8c114fb46/25UMGIM93005.rgb.jpg/600x600bb.jpg"
     },
     "アイロニいました": {
-      "title": "ツキミソウ",
-      "artist": "Novelbright",
-      "album": "ツキミソウ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/39/33/1a/39331a3d-a1e5-f1e8-904e-8be6438e13a3/20UM1IM05202.rgb.jpg/600x600bb.jpg"
+      "title": "カメレオン",
+      "artist": "King Gnu",
+      "album": "カメレオン - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/28/5e/6a/285e6aab-fb7d-aca7-2cd0-7d0502cabdde/4547366552881.jpg/600x600bb.jpg"
     },
     "サディスティックラブいました": {
       "title": "声をきかせて",
@@ -1934,8 +1934,8 @@ window.SONG_MASTER = {
     "lovesosweet": {
       "title": "Love so sweet",
       "artist": "嵐",
-      "album": "Love so sweet - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/8e/10/2a/8e102abd-d981-e370-82db-2ae5c98baac3/194491537920.jpg/600x600bb.jpg"
+      "album": "Time",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/53/9d/ff/539dffce-0f78-aca4-e93e-319c78b477d5/194491831011.jpg/600x600bb.jpg"
     },
     "フライングゲット": {
       "title": "フライングゲット",
@@ -1983,10 +1983,10 @@ window.SONG_MASTER = {
       }
     },
     "すぱなチャット": {
-      "title": "Streamer",
-      "artist": "すとぷり",
-      "album": "Streamer - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/23/6c/30/236c30da-7cc3-24bd-d526-0dcf2eccf69a/20UMGIM70644.rgb.jpg/600x600bb.jpg"
+      "title": "SHAMPOO",
+      "artist": "PUNPEE, BIM & Elle Teresa",
+      "album": "Iced Out - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3f/2f/d4/3f2fd442-0514-722f-1dba-dd0f2403a098/4573268541708_cover.png/600x600bb.jpg"
     },
     "エイリアンエイリアン": {
       "title": "エイリアンエイリアン",
@@ -2009,8 +2009,8 @@ window.SONG_MASTER = {
     "やさしさに包まれたなら": {
       "title": "やさしさに包まれたなら",
       "artist": "荒井由実",
-      "album": "40周年記念ベストアルバム 日本の恋と、ユーミンと。",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/9d/29/a59d2913-c2a1-4d9c-78b2-0fa914eb3336/00602567997542.rgb.jpg/600x600bb.jpg",
+      "album": "MISSLIM",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/52/9c/a0/529ca062-8a63-d1d7-5e6b-6774ba415dc2/00602567988229.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "If you are surrounded by kindness"
       }
