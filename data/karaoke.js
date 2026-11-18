@@ -5,7 +5,7 @@ window.KARAOKE = [
     "memberId": "tsukuri",
     "publishedAt": "2026-11-18",
     "title": "〖 歌枠 〗もう年末だね～みたいな雰囲気やめれる？〖 眠雲ツクリ / ミリプロ 〗",
-    "duration": 0,
+    "duration": 6740,
     "songs": []
   },
   {
@@ -13,7 +13,7 @@ window.KARAOKE = [
     "memberId": "liz",
     "publishedAt": "2026-11-18",
     "title": "【歌枠】お引越し前の最後の配信‼️【雨夜リズ/ミリプロ】",
-    "duration": 0,
+    "duration": 8143,
     "songs": []
   },
   {
