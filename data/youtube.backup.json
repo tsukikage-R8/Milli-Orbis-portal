@@ -1,32 +1,14 @@
 {
-  "updatedAt": "2026-11-18T12:22:16.469Z",
+  "updatedAt": "2026-11-18T22:43:53.329Z",
   "streams": [
     {
-      "id": "9dUKo2hJ-Zs",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Minecraft】可愛いウーパールーパーのおうち作りたい(∂ω∂)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/9dUKo2hJ-Zs/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-18T10:01:20Z",
+      "id": "pLmuD7kvOvk",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "title": "【歌枠】あさうたタイム～～～☀【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/pLmuD7kvOvk/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-18T21:17:31Z",
       "status": "live"
-    },
-    {
-      "id": "ioD_wqVg8TU",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 歌枠 〗もう年末だね～みたいな雰囲気やめれる？〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/ioD_wqVg8TU/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-18T12:30:00Z",
-      "status": "upcoming"
-    },
-    {
-      "id": "_0XtSHQUj6Q",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "title": "【歌枠】お引越し前の最後の配信‼️【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/_0XtSHQUj6Q/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-18T13:00:00Z",
-      "status": "upcoming"
     },
     {
       "id": "nElUBc_Ji-Y",
@@ -130,23 +112,13 @@
   ],
   "videos": [
     {
-      "id": "FW8djhz8RJQ",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "真生活 / covered by ゆらぎゆら・西園チグサ",
-      "thumb": "https://i.ytimg.com/vi/FW8djhz8RJQ/hqdefault.jpg",
-      "publishedAt": "2026-11-18T12:00:11Z",
-      "live": false
-    },
-    {
-      "id": "9dUKo2hJ-Zs",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Minecraft】可愛いウーパールーパーのおうち作りたい(∂ω∂)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/9dUKo2hJ-Zs/hqdefault.jpg?v=6afc7e16",
-      "publishedAt": "2026-11-18T10:01:20Z",
+      "id": "pLmuD7kvOvk",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【歌枠】あさうたタイム～～～☀【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/pLmuD7kvOvk/hqdefault.jpg?v=6afe155b",
+      "publishedAt": "2026-11-18T21:17:31Z",
       "live": false
     },
     {
@@ -155,9 +127,19 @@
       "member": "雨夜リズ",
       "channelTitle": "雨夜リズ / Amayo Liz",
       "title": "【歌枠】お引越し前の最後の配信‼️【雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/_0XtSHQUj6Q/hqdefault.jpg?v=6afd6f5d",
-      "publishedAt": "2026-11-18T09:26:50Z",
+      "thumb": "https://i.ytimg.com/vi/_0XtSHQUj6Q/hqdefault.jpg",
+      "publishedAt": "2026-11-18T17:41:36Z",
       "live": true
+    },
+    {
+      "id": "9dUKo2hJ-Zs",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Minecraft】可愛いウーパールーパーのおうち作りたい(∂ω∂)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/9dUKo2hJ-Zs/hqdefault.jpg",
+      "publishedAt": "2026-11-18T15:50:27Z",
+      "live": false
     },
     {
       "id": "ioD_wqVg8TU",
@@ -165,8 +147,18 @@
       "member": "眠雲ツクリ",
       "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
       "title": "〖 歌枠 〗もう年末だね～みたいな雰囲気やめれる？〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/ioD_wqVg8TU/hqdefault.jpg?v=6afd6eaf",
-      "publishedAt": "2026-11-18T09:23:57Z",
+      "thumb": "https://i.ytimg.com/vi/ioD_wqVg8TU/hqdefault.jpg",
+      "publishedAt": "2026-11-18T14:30:54Z",
+      "live": false
+    },
+    {
+      "id": "FW8djhz8RJQ",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "真生活 / covered by ゆらぎゆら・西園チグサ",
+      "thumb": "https://i.ytimg.com/vi/FW8djhz8RJQ/hqdefault.jpg",
+      "publishedAt": "2026-11-18T12:00:11Z",
       "live": false
     },
     {
@@ -418,26 +410,16 @@
       "thumb": "https://i.ytimg.com/vi/UVNcW_FAQtk/hqdefault.jpg",
       "publishedAt": "2026-11-15T09:00:05Z",
       "live": false
-    },
-    {
-      "id": "Dr4wCItWPh4",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【マイクラ】選択ミスで即終了！運命の直下掘り対決！【#ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/Dr4wCItWPh4/hqdefault.jpg",
-      "publishedAt": "2026-11-15T09:00:00Z",
-      "live": false
     }
   ],
   "live": [
     {
-      "id": "9dUKo2hJ-Zs",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Minecraft】可愛いウーパールーパーのおうち作りたい(∂ω∂)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/9dUKo2hJ-Zs/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-18T10:01:20Z",
+      "id": "pLmuD7kvOvk",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "title": "【歌枠】あさうたタイム～～～☀【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/pLmuD7kvOvk/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-18T21:17:31Z",
       "status": "live"
     }
   ]
