@@ -440,15 +440,15 @@ window.KARAOKE_SHAZAM = {
   },
   "rflF7bDpbrk": {
     "status": "error",
-    "attempts": 3,
-    "attemptedAt": "2026-11-18T02:34:50.610611+00:00",
+    "attempts": 4,
+    "attemptedAt": "2026-11-19T17:33:07.071648+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 522: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "rDpjOTbIiFE": {
-    "status": "skip",
-    "attempts": 5,
-    "attemptedAt": "2026-11-09T12:52:41.026349+00:00",
-    "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 526: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: <urlopen error [Errno 101] Network is unreachable> / https://pipedapi.drgns.space: <urlopen error [Errno -2] Nam"
+    "status": "error",
+    "attempts": 1,
+    "attemptedAt": "2026-11-19T17:33:35.897957+00:00",
+    "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 522: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "OnDjSzXKSWg": {
     "status": "skip",
@@ -476,8 +476,8 @@ window.KARAOKE_SHAZAM = {
   },
   "IMBeVof6pOY": {
     "status": "error",
-    "attempts": 1,
-    "attemptedAt": "2026-11-19T11:14:53.863667+00:00",
+    "attempts": 2,
+    "attemptedAt": "2026-11-19T17:32:38.233390+00:00",
     "error": "ERROR: Piped でも取得できませんでした: https://pipedapi.kavin.rocks: HTTP Error 522: <none> / https://api.piped.private.coffee: HTTP Error 500: Internal Server Error / https://pipedapi.adminforge.de: HTTP Error 403: Forbidden / https://pipedapi.drgns.space: <urlopen error [Errno -2] Name or service not known> /"
   },
   "m_ciByRfBWg": {
