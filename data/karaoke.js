@@ -13,7 +13,7 @@ window.KARAOKE = [
     "memberId": "raco",
     "publishedAt": "2026-11-20",
     "title": "【歌枠】もうだいぶ寒くなったね～【音ノ瀬らこ /ミリプロ】",
-    "duration": 0,
+    "duration": 9422,
     "songs": []
   },
   {
@@ -21,7 +21,7 @@ window.KARAOKE = [
     "memberId": "yura",
     "publishedAt": "2026-11-20",
     "title": "【 儚い歌枠 】儚いだろ‼️どう考えても儚いだろ‼️【 #ゆらのやすらぎ 】",
-    "duration": 3437,
+    "duration": 3446,
     "songs": []
   },
   {
