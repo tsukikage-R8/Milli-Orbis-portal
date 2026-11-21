@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-11-20T22:24:34.968Z",
+  "updatedAt": "2026-11-21T04:28:31.293Z",
   "streams": [
-    {
-      "id": "McUkLff3U8U",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Minecraft】ミリ鯖でまったり橋作りに挑戦しながら雑談(∂ω∂)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/McUkLff3U8U/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-20T21:02:11Z",
-      "status": "live"
-    },
     {
       "id": "Dt1wIQ8dgb4",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
       "title": "〖 ゼルダの伝説 時のオカリナ 〗▼眠雲は オカリナを 吹けるようになった！#2〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/Dt1wIQ8dgb4/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-21T03:00:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-11-21T03:03:23Z",
+      "status": "live"
+    },
+    {
+      "id": "TUxhY1RI42k",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "title": "【歌枠】18万人をみんなと迎えたいいいいいい！！！！！！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/TUxhY1RI42k/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-21T03:21:14Z",
+      "status": "live"
     },
     {
       "id": "k5VBzDCV23M",
@@ -25,8 +25,8 @@
       "member": "ゆらぎゆら",
       "title": "【 NTE 】 結構狂わされてるけど大丈夫そ？本編┆第8章「魔女の証明」【 ゆらぎゆら / ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/k5VBzDCV23M/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-21T03:30:00Z",
-      "status": "upcoming"
+      "scheduledStartTime": "2026-11-21T03:31:14Z",
+      "status": "live"
     },
     {
       "id": "qKUB-P6qfAU",
@@ -34,6 +34,15 @@
       "member": "音ノ乃のの",
       "title": "【歌枠】告知するってば！！！┊︎#音ノ乃のの #ののん家",
       "thumb": "https://i.ytimg.com/vi/qKUB-P6qfAU/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-21T10:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "mAjebRgUvds",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【現世忘れの美術館】脳筋くらげに謎解きなんてできるのか！？【 ゆらぎゆら/ミリプロ 】※サムネは後で差し替える",
+      "thumb": "https://i.ytimg.com/vi/mAjebRgUvds/hqdefault.jpg",
       "scheduledStartTime": "2026-11-21T10:00:00Z",
       "status": "upcoming"
     },
@@ -148,14 +157,34 @@
   ],
   "videos": [
     {
-      "id": "McUkLff3U8U",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Minecraft】ミリ鯖でまったり橋作りに挑戦しながら雑談(∂ω∂)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/McUkLff3U8U/hqdefault.jpg?v=6b00a197",
-      "publishedAt": "2026-11-20T21:02:11Z",
-      "live": true
+      "id": "k5VBzDCV23M",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 NTE 】 結構狂わされてるけど大丈夫そ？本編┆第8章「魔女の証明」【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/k5VBzDCV23M/hqdefault.jpg?v=6b004166",
+      "publishedAt": "2026-11-21T03:31:14Z",
+      "live": false
+    },
+    {
+      "id": "mAjebRgUvds",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【現世忘れの美術館】脳筋くらげに謎解きなんてできるのか！？【 ゆらぎゆら/ミリプロ 】※サムネは後で差し替える",
+      "thumb": "https://i.ytimg.com/vi/mAjebRgUvds/hqdefault.jpg?v=6b010ffc",
+      "publishedAt": "2026-11-21T03:28:58Z",
+      "live": false
+    },
+    {
+      "id": "TUxhY1RI42k",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "channelTitle": "海琳あおい / Mitama Aoi",
+      "title": "【歌枠】18万人をみんなと迎えたいいいいいい！！！！！！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/TUxhY1RI42k/hqdefault.jpg?v=6b010d58",
+      "publishedAt": "2026-11-21T03:21:14Z",
+      "live": false
     },
     {
       "id": "Dt1wIQ8dgb4",
@@ -164,8 +193,18 @@
       "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
       "title": "〖 ゼルダの伝説 時のオカリナ 〗▼眠雲は オカリナを 吹けるようになった！#2〖 眠雲ツクリ / ミリプロ 〗",
       "thumb": "https://i.ytimg.com/vi/Dt1wIQ8dgb4/hqdefault.jpg?v=6b0098b8",
-      "publishedAt": "2026-11-20T19:00:06Z",
+      "publishedAt": "2026-11-21T03:03:23Z",
       "live": false
+    },
+    {
+      "id": "McUkLff3U8U",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Minecraft】ミリ鯖でまったり橋作りに挑戦しながら雑談(∂ω∂)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/McUkLff3U8U/hqdefault.jpg",
+      "publishedAt": "2026-11-21T01:46:06Z",
+      "live": true
     },
     {
       "id": "wilgy3UkVvk",
@@ -185,16 +224,6 @@
       "title": "【 儚い歌枠 】儚いだろ‼️どう考えても儚いだろ‼️【 #ゆらのやすらぎ 】",
       "thumb": "https://i.ytimg.com/vi/Q2qHtxGlF4A/hqdefault.jpg",
       "publishedAt": "2026-11-20T13:37:12Z",
-      "live": false
-    },
-    {
-      "id": "k5VBzDCV23M",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 NTE 】 結構狂わされてるけど大丈夫そ？本編┆第8章「魔女の証明」【 ゆらぎゆら / ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/k5VBzDCV23M/hqdefault.jpg?v=6b004166",
-      "publishedAt": "2026-11-20T12:47:32Z",
       "live": false
     },
     {
@@ -426,36 +455,34 @@
       "thumb": "https://i.ytimg.com/vi/uEOU9l2xg-I/hqdefault.jpg",
       "publishedAt": "2026-11-18T09:00:07Z",
       "live": false
-    },
-    {
-      "id": "1y8NQ93dxtY",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 APEX 】てとちゃんに教えてもらう✨さくらさん途中合流！ w/心白てと, 碧依さくら(敬称略)【 ゆらぎゆら/ミリプロ 】",
-      "thumb": "https://i.ytimg.com/vi/1y8NQ93dxtY/hqdefault.jpg",
-      "publishedAt": "2026-11-17T17:37:24Z",
-      "live": false
-    },
-    {
-      "id": "hhVIGi2UrDk",
-      "memberId": "liz",
-      "member": "雨夜リズ",
-      "channelTitle": "雨夜リズ / Amayo Liz",
-      "title": "【 APEX 】今日の戦場はお花畑のような匂いがします🌷【カグラナナ/琶舞/雨夜リズ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/hhVIGi2UrDk/hqdefault.jpg",
-      "publishedAt": "2026-11-17T15:45:28Z",
-      "live": false
     }
   ],
   "live": [
     {
-      "id": "McUkLff3U8U",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "title": "【Minecraft】ミリ鯖でまったり橋作りに挑戦しながら雑談(∂ω∂)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/McUkLff3U8U/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-20T21:02:11Z",
+      "id": "Dt1wIQ8dgb4",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 ゼルダの伝説 時のオカリナ 〗▼眠雲は オカリナを 吹けるようになった！#2〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/Dt1wIQ8dgb4/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-21T03:03:23Z",
+      "status": "live"
+    },
+    {
+      "id": "TUxhY1RI42k",
+      "memberId": "aoi",
+      "member": "海琳あおい",
+      "title": "【歌枠】18万人をみんなと迎えたいいいいいい！！！！！！！【海琳あおい/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/TUxhY1RI42k/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-21T03:21:14Z",
+      "status": "live"
+    },
+    {
+      "id": "k5VBzDCV23M",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 NTE 】 結構狂わされてるけど大丈夫そ？本編┆第8章「魔女の証明」【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/k5VBzDCV23M/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-21T03:31:14Z",
       "status": "live"
     }
   ]

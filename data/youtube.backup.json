@@ -1,22 +1,31 @@
 {
-  "updatedAt": "2026-11-20T12:16:09.218Z",
+  "updatedAt": "2026-11-20T22:24:34.968Z",
   "streams": [
     {
-      "id": "r634BPOIKUY",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "新しいおうちに招待するね",
-      "thumb": "https://i.ytimg.com/vi/r634BPOIKUY/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-20T11:00:37Z",
+      "id": "McUkLff3U8U",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【Minecraft】ミリ鯖でまったり橋作りに挑戦しながら雑談(∂ω∂)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/McUkLff3U8U/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-20T21:02:11Z",
       "status": "live"
     },
     {
-      "id": "wilgy3UkVvk",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "title": "【歌枠】もうだいぶ寒くなったね～【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/wilgy3UkVvk/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-20T12:30:00Z",
+      "id": "Dt1wIQ8dgb4",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "title": "〖 ゼルダの伝説 時のオカリナ 〗▼眠雲は オカリナを 吹けるようになった！#2〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/Dt1wIQ8dgb4/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-21T03:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "k5VBzDCV23M",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "title": "【 NTE 】 結構狂わされてるけど大丈夫そ？本編┆第8章「魔女の証明」【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/k5VBzDCV23M/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-21T03:30:00Z",
       "status": "upcoming"
     },
     {
@@ -26,6 +35,15 @@
       "title": "【歌枠】告知するってば！！！┊︎#音ノ乃のの #ののん家",
       "thumb": "https://i.ytimg.com/vi/qKUB-P6qfAU/hqdefault.jpg",
       "scheduledStartTime": "2026-11-21T10:00:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "ZmXOwmBFgj8",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "title": "【#ののとノクターン】第2回のゲストは？？？？様！┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/ZmXOwmBFgj8/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-22T12:00:00Z",
       "status": "upcoming"
     },
     {
@@ -130,13 +148,73 @@
   ],
   "videos": [
     {
+      "id": "McUkLff3U8U",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "【Minecraft】ミリ鯖でまったり橋作りに挑戦しながら雑談(∂ω∂)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/McUkLff3U8U/hqdefault.jpg?v=6b00a197",
+      "publishedAt": "2026-11-20T21:02:11Z",
+      "live": true
+    },
+    {
+      "id": "Dt1wIQ8dgb4",
+      "memberId": "tsukuri",
+      "member": "眠雲ツクリ",
+      "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
+      "title": "〖 ゼルダの伝説 時のオカリナ 〗▼眠雲は オカリナを 吹けるようになった！#2〖 眠雲ツクリ / ミリプロ 〗",
+      "thumb": "https://i.ytimg.com/vi/Dt1wIQ8dgb4/hqdefault.jpg?v=6b0098b8",
+      "publishedAt": "2026-11-20T19:00:06Z",
+      "live": false
+    },
+    {
+      "id": "wilgy3UkVvk",
+      "memberId": "raco",
+      "member": "音ノ瀬らこ",
+      "channelTitle": "音ノ瀬らこ / Otonose Raco",
+      "title": "【歌枠】もうだいぶ寒くなったね～【音ノ瀬らこ /ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/wilgy3UkVvk/hqdefault.jpg",
+      "publishedAt": "2026-11-20T15:16:50Z",
+      "live": false
+    },
+    {
       "id": "Q2qHtxGlF4A",
       "memberId": "yura",
       "member": "ゆらぎゆら",
       "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
       "title": "【 儚い歌枠 】儚いだろ‼️どう考えても儚いだろ‼️【 #ゆらのやすらぎ 】",
-      "thumb": "https://i.ytimg.com/vi/Q2qHtxGlF4A/hqdefault.jpg?v=6affffae",
-      "publishedAt": "2026-11-20T12:01:58Z",
+      "thumb": "https://i.ytimg.com/vi/Q2qHtxGlF4A/hqdefault.jpg",
+      "publishedAt": "2026-11-20T13:37:12Z",
+      "live": false
+    },
+    {
+      "id": "k5VBzDCV23M",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 NTE 】 結構狂わされてるけど大丈夫そ？本編┆第8章「魔女の証明」【 ゆらぎゆら / ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/k5VBzDCV23M/hqdefault.jpg?v=6b004166",
+      "publishedAt": "2026-11-20T12:47:32Z",
+      "live": false
+    },
+    {
+      "id": "r634BPOIKUY",
+      "memberId": "konomi",
+      "member": "甘狼このみ",
+      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
+      "title": "新しいおうちに招待するね",
+      "thumb": "https://i.ytimg.com/vi/r634BPOIKUY/hqdefault.jpg",
+      "publishedAt": "2026-11-20T12:43:51Z",
+      "live": false
+    },
+    {
+      "id": "ZmXOwmBFgj8",
+      "memberId": "nono",
+      "member": "音ノ乃のの",
+      "channelTitle": "音ノ乃のの / NononoNono",
+      "title": "【#ののとノクターン】第2回のゲストは？？？？様！┊︎#音ノ乃のの #ののん家",
+      "thumb": "https://i.ytimg.com/vi/ZmXOwmBFgj8/hqdefault.jpg?v=6b003b9b",
+      "publishedAt": "2026-11-20T12:22:50Z",
       "live": false
     },
     {
@@ -167,26 +245,6 @@
       "title": "【歌枠】告知するってば！！！┊︎#音ノ乃のの #ののん家",
       "thumb": "https://i.ytimg.com/vi/qKUB-P6qfAU/hqdefault.jpg?v=6b00353f",
       "publishedAt": "2026-11-20T11:55:41Z",
-      "live": false
-    },
-    {
-      "id": "wilgy3UkVvk",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【歌枠】もうだいぶ寒くなったね～【音ノ瀬らこ /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/wilgy3UkVvk/hqdefault.jpg?v=6b0032b9",
-      "publishedAt": "2026-11-20T11:44:54Z",
-      "live": false
-    },
-    {
-      "id": "r634BPOIKUY",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "channelTitle": "甘狼このみ / AmakamiKonomi🐺🍫",
-      "title": "新しいおうちに招待するね",
-      "thumb": "https://i.ytimg.com/vi/r634BPOIKUY/hqdefault.jpg?v=6affdef6",
-      "publishedAt": "2026-11-20T11:00:37Z",
       "live": false
     },
     {
@@ -388,56 +446,16 @@
       "thumb": "https://i.ytimg.com/vi/hhVIGi2UrDk/hqdefault.jpg",
       "publishedAt": "2026-11-17T15:45:28Z",
       "live": false
-    },
-    {
-      "id": "VWWcBgyR37o",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "【ボカロ難読歌詞クイズ】ヒントなしじゃ読むのむずすぎる！！ 【#海琳あおい /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/VWWcBgyR37o/hqdefault.jpg",
-      "publishedAt": "2026-11-17T09:01:05Z",
-      "live": false
-    },
-    {
-      "id": "UAR0VgOsazg",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【アニメ】給食で嫌いな食べ物が出たとき #ミリプロ #anime",
-      "thumb": "https://i.ytimg.com/vi/UAR0VgOsazg/hqdefault.jpg",
-      "publishedAt": "2026-11-17T09:00:22Z",
-      "live": false
-    },
-    {
-      "id": "IV1gjTJKA34",
-      "memberId": "raco",
-      "member": "音ノ瀬らこ",
-      "channelTitle": "音ノ瀬らこ / Otonose Raco",
-      "title": "【高音厨＆メロ声】夕霧レイと『Surges』歌ってみた【音ノ瀬らこ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/IV1gjTJKA34/hqdefault.jpg",
-      "publishedAt": "2026-11-17T09:00:21Z",
-      "live": false
-    },
-    {
-      "id": "8Me2smZujGY",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Minecraft】ミリ鯖で畑作りしながら雑談したい(∂ω∂)【鹿乃まほろ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/8Me2smZujGY/hqdefault.jpg",
-      "publishedAt": "2026-11-16T19:37:45Z",
-      "live": true
     }
   ],
   "live": [
     {
-      "id": "r634BPOIKUY",
-      "memberId": "konomi",
-      "member": "甘狼このみ",
-      "title": "新しいおうちに招待するね",
-      "thumb": "https://i.ytimg.com/vi/r634BPOIKUY/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-20T11:00:37Z",
+      "id": "McUkLff3U8U",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "title": "【Minecraft】ミリ鯖でまったり橋作りに挑戦しながら雑談(∂ω∂)【鹿乃まほろ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/McUkLff3U8U/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-20T21:02:11Z",
       "status": "live"
     }
   ]
