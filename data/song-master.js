@@ -639,10 +639,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "会いたい夜 (feat. Macheri)",
-      "artist": "ONE☆DRAFT",
-      "album": "蜂の巣",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8e/8f/15/8e8f1590-bb54-a91e-8bb2-73ac6876a3f0/jacket_AICL02193B00Z_550.jpg/600x600bb.jpg"
+      "title": "ツバメ (feat. ミドリーズ)",
+      "artist": "YOASOBI",
+      "album": "ツバメ (feat. ミドリーズ) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg"
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -1190,11 +1190,11 @@ window.SONG_MASTER = {
       "album": "slash - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/38/e5/75/38e57594-3fb3-b71c-55fd-6aa2e7ce6d7e/4547366615692.jpg/600x600bb.jpg"
     },
-    "???": {
-      "title": "陽炎 (Drum’n’Bass Arranged by Len)",
-      "artist": "カグラナナ",
-      "album": "Astrolabe",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/96/be/05/96be050c-85f1-0650-97d3-ddcf4c99cff1/4582599509264_cover.png/600x600bb.jpg"
+    "しんでしまうとはなさけない！": {
+      "title": "Paradise Lost",
+      "artist": "DaizyStripper",
+      "album": "HUMALOID - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/97/dd/ff/97ddff15-d827-01f5-65f8-4d7116e83e33/859758472368_cover.jpg/600x600bb.jpg"
     },
     "legendofmermaid": {
       "title": "Legend of Mermaid",
@@ -1308,12 +1308,12 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/39/41/89/394189a4-f84a-0384-ac8b-35020bc218da/GHOST_shokai_Jacket3000.jpg/600x600bb.jpg"
     },
     "アイロニacoustic.": {
-      "title": "ハロ/ハワユ",
+      "title": "クライヤ",
       "artist": "鹿乃",
-      "album": "rye",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f5/33/c3/f533c341-433a-b4e1-2c61-18cd3c9e15a2/cover.jpg/600x600bb.jpg",
+      "album": "クライヤ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/d0/ed/11/d0ed111f-596d-4e42-d654-47c51f37bbb6/4571192987258.jpg/600x600bb.jpg",
       "en": {
-        "title": "halo/hawayu"
+        "title": "Cryer"
       }
     },
     "p.h..": {
@@ -1647,10 +1647,10 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "シャッター",
-      "artist": "優里",
-      "album": "シャッター - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/5c/ff/ac5cff5d-de3e-8cdc-f8de-95965a9fc894/4547366520002.jpg/600x600bb.jpg"
+      "title": "ブルーアンバー",
+      "artist": "back number",
+      "album": "ブルーアンバー - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d5/b9/bc/d5b9bc67-dc87-e451-1ccb-67f3e8b77aa6/25UMGIM41036.rgb.jpg/600x600bb.jpg"
     },
     "メルティランドナイトメア": {
       "title": "メルティランドナイトメア",
@@ -1683,16 +1683,19 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2e/1c/72/2e1c7246-1edf-0702-3f83-b4d1215173c2/QWCE_00564.jpg/600x600bb.jpg"
     },
     "ドリムレスドリムス": {
-      "title": "ドリームレス・ドリームス (セルフカバー)",
+      "title": "ドリームレス・ドリームス",
       "artist": "はるまきごはん",
-      "album": "ドリームレス・ドリームス - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/57/66/41/57664152-76a0-a1bf-2788-1a9a0654bab5/00602557805970.rgb.jpg/600x600bb.jpg"
+      "album": "ネオドリームトラベラー",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a5/51/fd/a551fdf6-679a-842a-e46f-1588a06ed75f/dj.qqkpaffo.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Dreamless Dreams"
+      }
     },
     "メリュいました": {
-      "title": "突破口",
+      "title": "人として",
       "artist": "SUPER BEAVER",
-      "album": "突破口 / 自慢になりたい - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5e/a6/f1/5ea6f10f-a8b4-d2ac-2a93-13afdb904358/4547366478778.jpg/600x600bb.jpg"
+      "album": "27",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2d/4a/7a/2d4a7a8c-9101-e1f7-9f93-e488f7bbd137/082705_J.jpg/600x600bb.jpg"
     },
     "放課後のプレアデスいました": {
       "title": "Stella-rium",
@@ -1743,10 +1746,10 @@ window.SONG_MASTER = {
       }
     },
     "アイロニいました": {
-      "title": "ランデヴー",
-      "artist": "シャイトープ",
-      "album": "誘拐 / ランデヴー - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5c/a6/7e/5ca67e94-826d-b772-853e-2082a213444b/859759591631_cover.jpg/600x600bb.jpg"
+      "title": "ツキミソウ",
+      "artist": "Novelbright",
+      "album": "ツキミソウ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/39/33/1a/39331a3d-a1e5-f1e8-904e-8be6438e13a3/20UM1IM05202.rgb.jpg/600x600bb.jpg"
     },
     "サディスティックラブいました": {
       "title": "声をきかせて",
@@ -2064,10 +2067,13 @@ window.SONG_MASTER = {
       }
     },
     "恋のメガラバ": {
-      "title": "恋のメガラバ (Cover)",
-      "artist": "ノートンビート",
-      "album": "恋のメガラバ (Cover) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/01/8c/ff/018cff56-966e-44ec-3cc2-e7405195fe7a/4550714572035_cover.png/600x600bb.jpg"
+      "title": "恋のメガラバ (feat. TAKANOR & Cobalt)",
+      "artist": "Hommarju",
+      "album": "ウマウマできるトランスを作ってみた6~どうしてこうなった!~",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/f9/2a/66/f92a6671-87e7-8db1-89df-c86ff3ddec85/QWCE_00123_itunes.png/600x600bb.jpg",
+      "en": {
+        "title": "Mega Love of Love (feat. TAKANOR & Cobalt)"
+      }
     },
     "栞": {
       "title": "栞",
