@@ -2,6 +2,36 @@
 window.SONG_MASTER = {
   "generatedAt": "2026-11-21",
   "songs": {
+    "ぼうけんのしょがきえました！": {
+      "title": "花占い",
+      "artist": "Vaundy",
+      "album": "花占い - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/18/71/31/1871315a-3e07-b5a1-e19d-2e404ff73c0b/197189907494.jpg/600x600bb.jpg"
+    },
+    "しんでしまうとはなさけない！": {
+      "title": "Paradise Lost",
+      "artist": "DaizyStripper",
+      "album": "HUMALOID - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/97/dd/ff/97ddff15-d827-01f5-65f8-4d7116e83e33/859758472368_cover.jpg/600x600bb.jpg"
+    },
+    "ニア": {
+      "title": "ニア",
+      "artist": "夏代孝明",
+      "album": "Gänger",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/7b/1d/32/7b1d328b-5d4e-e9ab-7989-892dac2fd8e2/VICL-65067.jpg/600x600bb.jpg"
+    },
+    "？？？-.": {
+      "title": "スペクトルホログラム",
+      "artist": "鹿乃まほろ & USAGI Production",
+      "album": "VirtuaREAL.05",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/dd/78/a3/dd78a30f-50d1-5497-eda4-e03c83b925e3/859759206047_cover.png/600x600bb.jpg"
+    },
+    "真生活": {
+      "title": "真生活",
+      "artist": "案山子",
+      "album": "rouge",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/20/ce/7a/20ce7a9d-cbcf-d3ca-4418-76f98b740b3b/859755338063_cover.jpg/600x600bb.jpg"
+    },
     "セレナデ-なとり": {
       "title": "セレナーデ",
       "artist": "なとり",
@@ -13,42 +43,6 @@ window.SONG_MASTER = {
       "artist": "友成空",
       "album": "鬼ノ宴 - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b6/03/7c/b6037c92-4729-1d43-f4d9-da33c37b66da/ANTCD-A0000012397.jpg/600x600bb.jpg"
-    },
-    "siren’ssiren": {
-      "title": "Siren’s Siren",
-      "artist": "あくび・でもんすぺーど",
-      "album": "Siren’s Siren - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/45/ae/7545ae31-0f14-5dec-28a9-0aa93a94a436/PA00240933_0_257755_jacket.jpg/600x600bb.jpg"
-    },
-    "さよならまたいつか！": {
-      "title": "さよーならまたいつか!- Sayonara",
-      "artist": "米津玄師",
-      "album": "さよーならまたいつか!- Sayonara - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/d1/33/2bd13372-77d7-63c0-3f10-65f497c9aec3/4547366679601.jpg/600x600bb.jpg"
-    },
-    "これから": {
-      "title": "これから",
-      "artist": "コレサワ",
-      "album": "コレカラー",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/b2/63/32/b26332ff-3199-e549-efa1-54f6996f9f54/CRCP-40522.jpg/600x600bb.jpg"
-    },
-    "henceforth": {
-      "title": "Henceforth",
-      "artist": "Orangestar",
-      "album": "And So Henceforth,",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5c/53/e7/5c53e7bb-43b4-8b85-af49-cb603ceb03df/PCCA_06218_A.jpg/600x600bb.jpg"
-    },
-    "ラグトレイン": {
-      "title": "ラグトレイン",
-      "artist": "稲葉曇",
-      "album": "ラグトレイン - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b4/ac/d1/b4acd1c8-b1b7-ef7b-cf6f-8516f91a59b5/088792_J.jpg/600x600bb.jpg"
-    },
-    "奏-.": {
-      "title": "CANDY",
-      "artist": "Mr.Children",
-      "album": "I ♥ U",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e3/c0/73/e3c0732d-a0ea-bb1f-e08c-ba4c392970df/dj.vwvtxzla.jpg/600x600bb.jpg"
     },
     "月の浮かぶ海": {
       "title": "月の浮かぶ海",
@@ -62,11 +56,35 @@ window.SONG_MASTER = {
       "album": "ただ声一つ - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/99/6d/37/996d37de-1175-87a7-266f-08e5e755fdc6/21UM1IM48140.rgb.jpg/600x600bb.jpg"
     },
+    "siren’ssiren": {
+      "title": "Siren’s Siren",
+      "artist": "あくび・でもんすぺーど",
+      "album": "Siren’s Siren - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/45/ae/7545ae31-0f14-5dec-28a9-0aa93a94a436/PA00240933_0_257755_jacket.jpg/600x600bb.jpg"
+    },
     "ブルアンビエンス＆": {
       "title": "ブルーアンビエンス (feat. asmi)",
       "artist": "Mrs. GREEN APPLE",
       "album": "Unity - EP",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/45/11/66/45116621-c965-642d-43ef-b8cf33711bde/22UMGIM58754.rgb.jpg/600x600bb.jpg"
+    },
+    "letterstome-.": {
+      "title": "メモリア (feat. 鹿乃まほろ)",
+      "artist": "しーけー & Qutabire",
+      "album": "Twilight",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/30/ba/3f/30ba3fc4-b17f-0fec-0f91-6b9e233870db/4550754818599_cover.png/600x600bb.jpg"
+    },
+    "さよならまたいつか！": {
+      "title": "さよーならまたいつか!- Sayonara",
+      "artist": "米津玄師",
+      "album": "さよーならまたいつか!- Sayonara - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/d1/33/2bd13372-77d7-63c0-3f10-65f497c9aec3/4547366679601.jpg/600x600bb.jpg"
+    },
+    "奏-.": {
+      "title": "CANDY",
+      "artist": "Mr.Children",
+      "album": "I ♥ U",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e3/c0/73/e3c0732d-a0ea-bb1f-e08c-ba4c392970df/dj.vwvtxzla.jpg/600x600bb.jpg"
     },
     "ギタと孤独と蒼い惑星": {
       "title": "もう一度キスしたかった",
@@ -80,6 +98,24 @@ window.SONG_MASTER = {
       "album": "これからもウォルピス社の提供でお送りします。",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/59/b9/99/59b9994b-2f2c-50c6-8454-2966e1bea186/SCGA-00081.jpg/600x600bb.jpg"
     },
+    "henceforth": {
+      "title": "Henceforth",
+      "artist": "Orangestar",
+      "album": "And So Henceforth,",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5c/53/e7/5c53e7bb-43b4-8b85-af49-cb603ceb03df/PCCA_06218_A.jpg/600x600bb.jpg"
+    },
+    "デビットビット": {
+      "title": "デビットビット",
+      "artist": "アボガド6",
+      "album": "デビットビット - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/27/c2/1e/27c21e39-4772-cc21-e142-c198ffc12312/4570216291470_Cover.jpg/600x600bb.jpg"
+    },
+    "これから": {
+      "title": "これから",
+      "artist": "コレサワ",
+      "album": "コレカラー",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/b2/63/32/b26332ff-3199-e549-efa1-54f6996f9f54/CRCP-40522.jpg/600x600bb.jpg"
+    },
     "狂乱heykids!!": {
       "title": "狂乱 Hey Kids!!",
       "artist": "THE ORAL CIGARETTES",
@@ -88,18 +124,6 @@ window.SONG_MASTER = {
       "en": {
         "title": "Frenzy Hey Kids!!"
       }
-    },
-    "デビットビット": {
-      "title": "デビットビット",
-      "artist": "アボガド6",
-      "album": "デビットビット - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/27/c2/1e/27c21e39-4772-cc21-e142-c198ffc12312/4570216291470_Cover.jpg/600x600bb.jpg"
-    },
-    "おもかげ": {
-      "title": "おもかげ",
-      "artist": "KG",
-      "album": "Brand New Days",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/65/df/c5/65dfc5d3-8437-3329-c876-08f64f764906/825646279241.jpg/600x600bb.jpg"
     },
     "高嶺の花子さん-.": {
       "title": "頭がよくなる歌",
@@ -119,11 +143,23 @@ window.SONG_MASTER = {
       "album": "サウダージ - EP",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/78/f2/bb/78f2bb53-bef0-9ab2-6cc2-7a89af8eb2ac/jacket_SRCL04901B00Z_550.jpg/600x600bb.jpg"
     },
+    "ラグトレイン": {
+      "title": "ラグトレイン",
+      "artist": "稲葉曇",
+      "album": "ラグトレイン - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b4/ac/d1/b4acd1c8-b1b7-ef7b-cf6f-8516f91a59b5/088792_J.jpg/600x600bb.jpg"
+    },
     "surges＆": {
       "title": "Surges",
       "artist": "m",
       "album": "Surges - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/8d/1b/d38d1baf-7312-ee15-f952-8fc668c7a9a3/4562424562909.jpg/600x600bb.jpg"
+    },
+    "おもかげ": {
+      "title": "おもかげ",
+      "artist": "KG",
+      "album": "Brand New Days",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/65/df/c5/65dfc5d3-8437-3329-c876-08f64f764906/825646279241.jpg/600x600bb.jpg"
     },
     "iii": {
       "title": "I I I",
@@ -188,6 +224,12 @@ window.SONG_MASTER = {
         "title": "1.15 million kilometers of film"
       }
     },
+    "イケナイ太陽": {
+      "title": "イケナイ太陽",
+      "artist": "ORANGE RANGE",
+      "album": "ALL the SINGLES",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/6b/50/9c/6b509c4b-6550-40f7-2086-008eaed86c5f/jacket_SRCL07315B00Z_550.jpg/600x600bb.jpg"
+    },
     "夏色えがおで1,2,jump!": {
       "title": "夏色えがおで1,2,Jump!",
       "artist": "μ's",
@@ -197,12 +239,6 @@ window.SONG_MASTER = {
         "title": "Summer color picture 1,2,Jump!"
       }
     },
-    "イケナイ太陽": {
-      "title": "イケナイ太陽",
-      "artist": "ORANGE RANGE",
-      "album": "ALL the SINGLES",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/6b/50/9c/6b509c4b-6550-40f7-2086-008eaed86c5f/jacket_SRCL07315B00Z_550.jpg/600x600bb.jpg"
-    },
     "カゲロウデイズfeat.": {
       "title": "カゲロウデイズ",
       "artist": "じん",
@@ -210,15 +246,6 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f6/5b/57/f65b5760-739b-b207-9f1d-42fdbabb1580/4582290382272_cover.jpg/600x600bb.jpg",
       "en": {
         "title": "Kagerou Days"
-      }
-    },
-    "あぶく": {
-      "title": "あぶく",
-      "artist": "ヨルシカ",
-      "album": "あぶく - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/66/89/90/6689908a-4489-a37b-13cc-cc578edd2329/26UMGIM33736.rgb.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Bubbles"
       }
     },
     "zzz": {
@@ -232,6 +259,15 @@ window.SONG_MASTER = {
       "artist": "EGOIST",
       "album": "名前のない怪物",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/06/bb/c5/06bbc527-330c-c3e5-0a09-7a8291a699ae/jacket_SRCL08149B00Z_550.jpg/600x600bb.jpg"
+    },
+    "あぶく": {
+      "title": "あぶく",
+      "artist": "ヨルシカ",
+      "album": "あぶく - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/66/89/90/6689908a-4489-a37b-13cc-cc578edd2329/26UMGIM33736.rgb.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Bubbles"
+      }
     },
     "怪獣の花唄": {
       "title": "怪獣の花唄",
@@ -251,14 +287,11 @@ window.SONG_MASTER = {
         "title": "From Tokyo"
       }
     },
-    "シスラブ＆": {
-      "title": "シス×ラブ",
-      "artist": "Kureiji Ollie & アーニャ・メルフィッサ",
-      "album": "ほろはにヶ丘高校 -Covers-",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/11/0d/96/110d962f-5d25-c552-ebd8-dd750e48af36/4582729912438_art.png/600x600bb.jpg",
-      "en": {
-        "title": "Sis x Love"
-      }
+    "i’mamess": {
+      "title": "I'm a mess",
+      "artist": "MY FIRST STORY",
+      "album": "告白 - Confession - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/80/66/c0/8066c0aa-bf56-4e5e-4689-1c5f82a3cfbd/4570063063978.jpg/600x600bb.jpg"
     },
     "プラネテス": {
       "title": "プラネテス",
@@ -269,17 +302,20 @@ window.SONG_MASTER = {
         "title": "Planetes"
       }
     },
-    "i’mamess": {
-      "title": "I'm a mess",
-      "artist": "MY FIRST STORY",
-      "album": "告白 - Confession - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/80/66/c0/8066c0aa-bf56-4e5e-4689-1c5f82a3cfbd/4570063063978.jpg/600x600bb.jpg"
-    },
     "点描の唄mrs.greenapple": {
       "title": "点描の唄 (feat. 井上苑子)",
       "artist": "Mrs. GREEN APPLE",
       "album": "青と夏 - EP",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/34/27/08/3427087f-2d39-4847-9b19-052dd3589014/18UMGIM36633.rgb.jpg/600x600bb.jpg"
+    },
+    "シスラブ＆": {
+      "title": "シス×ラブ",
+      "artist": "Kureiji Ollie & アーニャ・メルフィッサ",
+      "album": "ほろはにヶ丘高校 -Covers-",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/11/0d/96/110d962f-5d25-c552-ebd8-dd750e48af36/4582729912438_art.png/600x600bb.jpg",
+      "en": {
+        "title": "Sis x Love"
+      }
     },
     "花女花譜": {
       "title": "花女",
@@ -639,10 +675,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "ツバメ (feat. ミドリーズ)",
-      "artist": "YOASOBI",
-      "album": "ツバメ (feat. ミドリーズ) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg"
+      "title": "会いたい夜 (feat. Macheri)",
+      "artist": "ONE☆DRAFT",
+      "album": "蜂の巣",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8e/8f/15/8e8f1590-bb54-a91e-8bb2-73ac6876a3f0/jacket_AICL02193B00Z_550.jpg/600x600bb.jpg"
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -1190,12 +1226,6 @@ window.SONG_MASTER = {
       "album": "slash - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/38/e5/75/38e57594-3fb3-b71c-55fd-6aa2e7ce6d7e/4547366615692.jpg/600x600bb.jpg"
     },
-    "しんでしまうとはなさけない！": {
-      "title": "Paradise Lost",
-      "artist": "DaizyStripper",
-      "album": "HUMALOID - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/97/dd/ff/97ddff15-d827-01f5-65f8-4d7116e83e33/859758472368_cover.jpg/600x600bb.jpg"
-    },
     "legendofmermaid": {
       "title": "Legend of Mermaid",
       "artist": "中田あすみ、寺門仁美、浅野まゆみ",
@@ -1274,12 +1304,6 @@ window.SONG_MASTER = {
       "album": "HANA",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5b/16/2c/5b162ca7-fd06-103b-c8db-344b24fd2a80/4547366806434.jpg/600x600bb.jpg"
     },
-    "letterstome-.": {
-      "title": "メモリア (feat. 鹿乃まほろ)",
-      "artist": "しーけー & Qutabire",
-      "album": "Twilight",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/30/ba/3f/30ba3fc4-b17f-0fec-0f91-6b9e233870db/4550754818599_cover.png/600x600bb.jpg"
-    },
     "ドライフラワacoustic.": {
       "title": "ドライフラワー",
       "artist": "Uru",
@@ -1308,12 +1332,12 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/39/41/89/394189a4-f84a-0384-ac8b-35020bc218da/GHOST_shokai_Jacket3000.jpg/600x600bb.jpg"
     },
     "アイロニacoustic.": {
-      "title": "クライヤ",
+      "title": "ハロ/ハワユ",
       "artist": "鹿乃",
-      "album": "クライヤ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/d0/ed/11/d0ed111f-596d-4e42-d654-47c51f37bbb6/4571192987258.jpg/600x600bb.jpg",
+      "album": "rye",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f5/33/c3/f533c341-433a-b4e1-2c61-18cd3c9e15a2/cover.jpg/600x600bb.jpg",
       "en": {
-        "title": "Cryer"
+        "title": "halo/hawayu"
       }
     },
     "p.h..": {
@@ -1647,10 +1671,10 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "ブルーアンバー",
-      "artist": "back number",
-      "album": "ブルーアンバー - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d5/b9/bc/d5b9bc67-dc87-e451-1ccb-67f3e8b77aa6/25UMGIM41036.rgb.jpg/600x600bb.jpg"
+      "title": "シャッター",
+      "artist": "優里",
+      "album": "シャッター - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/5c/ff/ac5cff5d-de3e-8cdc-f8de-95965a9fc894/4547366520002.jpg/600x600bb.jpg"
     },
     "メルティランドナイトメア": {
       "title": "メルティランドナイトメア",
@@ -1683,19 +1707,16 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2e/1c/72/2e1c7246-1edf-0702-3f83-b4d1215173c2/QWCE_00564.jpg/600x600bb.jpg"
     },
     "ドリムレスドリムス": {
-      "title": "ドリームレス・ドリームス",
+      "title": "ドリームレス・ドリームス (セルフカバー)",
       "artist": "はるまきごはん",
-      "album": "ネオドリームトラベラー",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a5/51/fd/a551fdf6-679a-842a-e46f-1588a06ed75f/dj.qqkpaffo.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Dreamless Dreams"
-      }
+      "album": "ドリームレス・ドリームス - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/57/66/41/57664152-76a0-a1bf-2788-1a9a0654bab5/00602557805970.rgb.jpg/600x600bb.jpg"
     },
     "メリュいました": {
-      "title": "人として",
+      "title": "突破口",
       "artist": "SUPER BEAVER",
-      "album": "27",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2d/4a/7a/2d4a7a8c-9101-e1f7-9f93-e488f7bbd137/082705_J.jpg/600x600bb.jpg"
+      "album": "突破口 / 自慢になりたい - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5e/a6/f1/5ea6f10f-a8b4-d2ac-2a93-13afdb904358/4547366478778.jpg/600x600bb.jpg"
     },
     "放課後のプレアデスいました": {
       "title": "Stella-rium",
@@ -1746,10 +1767,10 @@ window.SONG_MASTER = {
       }
     },
     "アイロニいました": {
-      "title": "ツキミソウ",
-      "artist": "Novelbright",
-      "album": "ツキミソウ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/39/33/1a/39331a3d-a1e5-f1e8-904e-8be6438e13a3/20UM1IM05202.rgb.jpg/600x600bb.jpg"
+      "title": "ランデヴー",
+      "artist": "シャイトープ",
+      "album": "誘拐 / ランデヴー - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5c/a6/7e/5ca67e94-826d-b772-853e-2082a213444b/859759591631_cover.jpg/600x600bb.jpg"
     },
     "サディスティックラブいました": {
       "title": "声をきかせて",
@@ -2067,13 +2088,10 @@ window.SONG_MASTER = {
       }
     },
     "恋のメガラバ": {
-      "title": "恋のメガラバ (feat. TAKANOR & Cobalt)",
-      "artist": "Hommarju",
-      "album": "ウマウマできるトランスを作ってみた6~どうしてこうなった!~",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/f9/2a/66/f92a6671-87e7-8db1-89df-c86ff3ddec85/QWCE_00123_itunes.png/600x600bb.jpg",
-      "en": {
-        "title": "Mega Love of Love (feat. TAKANOR & Cobalt)"
-      }
+      "title": "恋のメガラバ (Cover)",
+      "artist": "ノートンビート",
+      "album": "恋のメガラバ (Cover) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/01/8c/ff/018cff56-966e-44ec-3cc2-e7405195fe7a/4550714572035_cover.png/600x600bb.jpg"
     },
     "栞": {
       "title": "栞",
