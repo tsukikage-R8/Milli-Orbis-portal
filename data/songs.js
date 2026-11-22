@@ -433,8 +433,8 @@ window.SONGS = {
       ]
     },
     {
-      "title": "？？？ - 鹿乃まほろ cover.",
-      "key": "？？？-.",
+      "title": "回る空うさぎ（Orangestar） - 鹿乃まほろ cover.",
+      "key": "回る空うさぎ-.",
       "urls": [
         {
           "id": "3ZWeKCqRahM",
