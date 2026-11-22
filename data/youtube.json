@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T21:15:06.404Z",
+  "updatedAt": "2026-11-22T03:42:44.137Z",
   "streams": [
     {
       "id": "ZmXOwmBFgj8",
@@ -111,6 +111,16 @@
     }
   ],
   "videos": [
+    {
+      "id": "EoHrWX405ao",
+      "memberId": "official",
+      "member": "ミリプロ公式",
+      "channelTitle": "ミリプロ - MillionProduction -",
+      "title": "【下剋上】先輩VS後輩！？プライドをかけた真剣勝負でまさかの結末にｗｗｗ",
+      "thumb": "https://i.ytimg.com/vi/EoHrWX405ao/hqdefault.jpg",
+      "publishedAt": "2026-11-22T02:59:37Z",
+      "live": false
+    },
     {
       "id": "8WxiXNe4-Os",
       "memberId": "yura",
@@ -399,16 +409,6 @@
       "title": "【ウキウキ歌枠】絵描きだって歌うんですよ",
       "thumb": "https://i.ytimg.com/vi/jdkmjdJFkx4/hqdefault.jpg",
       "publishedAt": "2026-11-19T14:37:02Z",
-      "live": false
-    },
-    {
-      "id": "JHH0HXDyQIk",
-      "memberId": "aoi",
-      "member": "海琳あおい",
-      "channelTitle": "海琳あおい / Mitama Aoi",
-      "title": "『セレナーデ』歌ってみた 【#海琳あおい /ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/JHH0HXDyQIk/hqdefault.jpg",
-      "publishedAt": "2026-11-19T09:01:26Z",
       "live": false
     }
   ],
