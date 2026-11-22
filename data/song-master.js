@@ -357,13 +357,10 @@ window.SONG_MASTER = {
       }
     },
     "フィナレ。": {
-      "title": "フィナーレ。",
-      "artist": "eill",
-      "album": "プレロマンス / フィナーレ。 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5d/c4/3b/5dc43ba7-a92b-af19-6cda-64d366e9407c/PCSP_04381_A.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Finale."
-      }
+      "title": "フィナーレ",
+      "artist": "トビー・フォックス",
+      "album": "UNDERTALE サウンドトラック",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/78/32/dd7832db-4ba8-a363-2838-c14e94b8c986/811576030076.png/600x600bb.jpg"
     },
     "おやすみ泣き声、さよなら姫": {
       "title": "蛍の光",
@@ -612,13 +609,10 @@ window.SONG_MASTER = {
       }
     },
     "プレイ-gigashortby": {
-      "title": "踊ろうぜ",
-      "artist": "ヨルシカ",
-      "album": "だから僕は音楽を辞めた",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/64/ab/ba/64abba45-d080-0e8a-c24b-313e597c63cb/PA00076158_0_91679_jacket.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Let's dance"
-      }
+      "title": "雨のち晴レルヤ",
+      "artist": "ゆず",
+      "album": "新世界",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/8e/cf/5c/8ecf5c6f-8240-4602-ed5d-ca2506615458/SNCC86926_SHINSEKAI.jpg/600x600bb.jpg"
     },
     "モニタリング": {
       "title": "モニタリング",
@@ -639,10 +633,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "蝶々結び",
+      "title": "地球儀 (with Vaundy)",
       "artist": "Aimer",
-      "album": "蝶々結び - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg"
+      "album": "Walpurgis",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/54/af/b2/54afb286-3614-f2c8-e633-2831bd2fd76b/4547366491647.jpg/600x600bb.jpg"
     },
     "-error-niki": {
       "title": "ERROR",
@@ -1314,10 +1308,10 @@ window.SONG_MASTER = {
       }
     },
     "雨き声残響acoustic.": {
-      "title": "六月は雨上がりの街を書く",
-      "artist": "ヨルシカ",
-      "album": "だから僕は音楽を辞めた",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/64/ab/ba/64abba45-d080-0e8a-c24b-313e597c63cb/PA00076158_0_91679_jacket.jpg/600x600bb.jpg"
+      "title": "セトリ (feat. Gang Boy)",
+      "artist": "フジハラタク",
+      "album": "hello good day",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/3f/1b/a83f1bab-df6f-9f27-ba86-ab089d7b1fd6/bigup13914353.jpg/600x600bb.jpg"
     },
     "春を告げるacoustic.": {
       "title": "ゆめうつつ - Daydream",
@@ -1482,10 +1476,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/81/36/af/8136afa9-cf94-f4d5-8460-9510c8f6e99f/PA00077485_0_180113_jacket.jpg/600x600bb.jpg"
     },
     "僕が死のうと思ったのは.": {
-      "title": "ブルーアンビエンス (feat. asmi)",
-      "artist": "Mrs. GREEN APPLE",
-      "album": "Unity - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/45/11/66/45116621-c965-642d-43ef-b8cf33711bde/22UMGIM58754.rgb.jpg/600x600bb.jpg"
+      "title": "Lemon",
+      "artist": "米津玄師",
+      "album": "STRAY SHEEP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6b/0f/0b/6b0f0b3d-e842-5ee1-83a8-1b12142a9dfd/dj.bpfbtyiy.jpg/600x600bb.jpg"
     },
     "無理に笑わなくて良いよ.": {
       "title": "ハロ/ハワユ",
@@ -1716,10 +1710,10 @@ window.SONG_MASTER = {
       }
     },
     "メリュいました": {
-      "title": "突破口",
+      "title": "人として",
       "artist": "SUPER BEAVER",
-      "album": "突破口 / 自慢になりたい - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5e/a6/f1/5ea6f10f-a8b4-d2ac-2a93-13afdb904358/4547366478778.jpg/600x600bb.jpg"
+      "album": "27",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2d/4a/7a/2d4a7a8c-9101-e1f7-9f93-e488f7bbd137/082705_J.jpg/600x600bb.jpg"
     },
     "放課後のプレアデスいました": {
       "title": "Stella-rium",
@@ -1794,10 +1788,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0d/5e/e4/0d5ee469-3ef5-a341-45d9-394c45bd18f9/PA00222991_0_250177_jacket.jpg/600x600bb.jpg"
     },
     "放課後ストライドいました": {
-      "title": "裸足じゃイラレナイ",
-      "artist": "放課後クライマックスガールズ",
-      "album": "THE IDOLM@STER SHINY COLORS Song for Prism 裸足じゃイラレナイ / 明日もBeautiful Day【アルストロメリア盤】 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ba/be/bb/babebb29-259b-0aa0-b719-539c8d80f7ae/4540774244768.jpg/600x600bb.jpg"
+      "title": "ばーちゃらぶ",
+      "artist": "夏色まつり",
+      "album": "Chasing the Dream 〜スポットライトは放課後に〜",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/da/fe/83/dafe8378-8847-1aa3-a1a4-02dafbb29937/matsuri_1stAL_Jacket_FIX_251009.png/600x600bb.jpg"
     },
     "メリメリいました": {
       "title": "メリーメリー",
@@ -1847,8 +1841,8 @@ window.SONG_MASTER = {
     "ウタカタララバイ": {
       "title": "ウタカタララバイ",
       "artist": "Ado",
-      "album": "Adoのベストアドバム",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/be/c3/a6bec30f-8698-b206-73ad-a559e3f3edc6/25UMGIM35010.rgb.jpg/600x600bb.jpg",
+      "album": "ウタの歌 ONE PIECE FILM RED",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/42/a3/cc/42a3cc35-fdb7-2ae7-02f3-e5a90f32eb8e/22UMGIM74128.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "Utakatararabai"
       }
