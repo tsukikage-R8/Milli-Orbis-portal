@@ -151,9 +151,9 @@ window.SONG_MASTER = {
     },
     "おもかげ": {
       "title": "おもかげ",
-      "artist": "KG",
-      "album": "Brand New Days",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/65/df/c5/65dfc5d3-8437-3329-c876-08f64f764906/825646279241.jpg/600x600bb.jpg"
+      "artist": "林原めぐみ",
+      "album": "Northern lights - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/5a/09/cc/mzi.pbyoqgta.jpg/600x600bb.jpg"
     },
     "iii": {
       "title": "I I I",
@@ -195,10 +195,13 @@ window.SONG_MASTER = {
       }
     },
     "気分上々↑↑": {
-      "title": "怪物",
-      "artist": "YOASOBI",
-      "album": "怪物 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9e/ab/2c/9eab2c24-8289-1bd7-548d-e6b871fcf169/195497732630.jpg/600x600bb.jpg"
+      "title": "115万キロのフィルム",
+      "artist": "Official髭男dism",
+      "album": "エスカパレード",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/e8/2d/40e82dfb-55b4-7016-1127-357ab78d3f7f/jk.jpg/600x600bb.jpg",
+      "en": {
+        "title": "1.15 million kilometers of film"
+      }
     },
     "readysteady-giga": {
       "title": "Ready Steady (Instrumental)",
@@ -207,10 +210,13 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/81/50/62/815062a0-6414-169e-a684-6ad01c081c9f/195497315376.jpg/600x600bb.jpg"
     },
     "femmefatale": {
-      "title": "怪物",
-      "artist": "YOASOBI",
-      "album": "怪物 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9e/ab/2c/9eab2c24-8289-1bd7-548d-e6b871fcf169/195497732630.jpg/600x600bb.jpg"
+      "title": "115万キロのフィルム",
+      "artist": "Official髭男dism",
+      "album": "エスカパレード",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/e8/2d/40e82dfb-55b4-7016-1127-357ab78d3f7f/jk.jpg/600x600bb.jpg",
+      "en": {
+        "title": "1.15 million kilometers of film"
+      }
     },
     "イケナイ太陽": {
       "title": "イケナイ太陽",
@@ -354,10 +360,13 @@ window.SONG_MASTER = {
       }
     },
     "フィナレ。": {
-      "title": "フィナーレ",
-      "artist": "トビー・フォックス",
-      "album": "UNDERTALE サウンドトラック",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/78/32/dd7832db-4ba8-a363-2838-c14e94b8c986/811576030076.png/600x600bb.jpg"
+      "title": "フィナーレ。",
+      "artist": "eill",
+      "album": "プレロマンス / フィナーレ。 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5d/c4/3b/5dc43ba7-a92b-af19-6cda-64d366e9407c/PCSP_04381_A.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Finale."
+      }
     },
     "おやすみ泣き声、さよなら姫": {
       "title": "蛍の光",
@@ -367,9 +376,9 @@ window.SONG_MASTER = {
     },
     "ロミオとシンデレラ": {
       "title": "ロミオとシンデレラ",
-      "artist": "doriko feat. 初音ミク",
-      "album": "Download (feat.初音ミク)",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7f/12/61/7f1261b0-de22-e103-012c-0563a654da69/825646170524.jpg/600x600bb.jpg"
+      "artist": "doriko",
+      "album": "ロミオとシンデレラ - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/93/2e/9f/932e9f07-68e9-0d9c-b390-d498507a1d97/PA00106837_0_155685_jacket.jpg/600x600bb.jpg"
     },
     "愛言葉ⅳ": {
       "title": "愛言葉Ⅳ",
@@ -423,10 +432,13 @@ window.SONG_MASTER = {
       }
     },
     "magnet": {
-      "title": "怪物",
-      "artist": "YOASOBI",
-      "album": "怪物 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9e/ab/2c/9eab2c24-8289-1bd7-548d-e6b871fcf169/195497732630.jpg/600x600bb.jpg"
+      "title": "115万キロのフィルム",
+      "artist": "Official髭男dism",
+      "album": "エスカパレード",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/e8/2d/40e82dfb-55b4-7016-1127-357ab78d3f7f/jk.jpg/600x600bb.jpg",
+      "en": {
+        "title": "1.15 million kilometers of film"
+      }
     },
     "gimmegimme-八王子pgiga": {
       "title": "Gimme×Gimme feat. 初音ミク・鏡音リン",
@@ -663,10 +675,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "ツバメ (feat. ミドリーズ)",
-      "artist": "YOASOBI",
-      "album": "ツバメ (feat. ミドリーズ) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg"
+      "title": "Zoo ～君がいるから～ (From 『ズートピア2』/日本語版)",
+      "artist": "Dream Ami",
+      "album": "Zoo ～君がいるから～ (From 『ズートピア2』/日本語版) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/75/4f/58/754f582c-d1fd-e35d-c622-f83ee6ed1fae/25UM2IM06914.rgb.jpg/600x600bb.jpg"
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -1448,8 +1460,8 @@ window.SONG_MASTER = {
     "カタオモイ-aimer": {
       "title": "カタオモイ",
       "artist": "Aimer",
-      "album": "BEST SELECTION \"blanc\"",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ab/ab/9b/abab9b3b-41cd-a0c0-29c0-6a1464501c0b/4547366306514.jpg/600x600bb.jpg"
+      "album": "daydream",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/46/4a/84/464a843d-14cc-e5e2-a9d6-763eb558e104/4547366270358.jpg/600x600bb.jpg"
     },
     "ちゅ、多様性。": {
       "title": "MAD HEAD LOVE",
@@ -1659,10 +1671,10 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "ブルーアンバー",
-      "artist": "back number",
-      "album": "ブルーアンバー - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d5/b9/bc/d5b9bc67-dc87-e451-1ccb-67f3e8b77aa6/25UMGIM41036.rgb.jpg/600x600bb.jpg"
+      "title": "一花依世界",
+      "artist": "洛天依",
+      "album": "依如初見",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ac/b0/68/acb06846-0c4f-d0f7-801c-678b0e37efd0/193017072921.jpg/600x600bb.jpg"
     },
     "メルティランドナイトメア": {
       "title": "メルティランドナイトメア",
@@ -1704,10 +1716,10 @@ window.SONG_MASTER = {
       }
     },
     "メリュいました": {
-      "title": "人として",
+      "title": "突破口",
       "artist": "SUPER BEAVER",
-      "album": "27",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2d/4a/7a/2d4a7a8c-9101-e1f7-9f93-e488f7bbd137/082705_J.jpg/600x600bb.jpg"
+      "album": "突破口 / 自慢になりたい - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5e/a6/f1/5ea6f10f-a8b4-d2ac-2a93-13afdb904358/4547366478778.jpg/600x600bb.jpg"
     },
     "放課後のプレアデスいました": {
       "title": "Stella-rium",
@@ -1722,10 +1734,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a9/e1/66/a9e16604-aad7-5de7-64ba-da4e1a52fd59/4562251593312_cover.jpg/600x600bb.jpg"
     },
     "東京レトロいました": {
-      "title": "灯火",
-      "artist": "Vaundy",
-      "album": "strobo",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/09/89/00/09890002-b2de-3637-39b2-f6c2d34d0e93/197189854859.jpg/600x600bb.jpg"
+      "title": "ベイビー・アイラブユー",
+      "artist": "TEE",
+      "album": "Baby I Love You",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/a6/5d/97/a65d97f9-c02a-0702-305c-72e364e84910/00600406136404.rgb.jpg/600x600bb.jpg"
     },
     "繰り返し一粒いました": {
       "title": "夜に駆ける",
@@ -1749,10 +1761,13 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9a/9d/62/9a9d62eb-51a1-be7a-0b52-1913090579d4/4948722525264_cover.jpg/600x600bb.jpg"
     },
     "クライヤいました": {
-      "title": "白日",
-      "artist": "King Gnu",
-      "album": "白日 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/3e/b8/ef/3eb8ef78-c575-eb81-f982-aaec74b5fe53/jacket_BVXX01177B00Z_550.jpg/600x600bb.jpg"
+      "title": "115万キロのフィルム",
+      "artist": "Official髭男dism",
+      "album": "エスカパレード",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/e8/2d/40e82dfb-55b4-7016-1127-357ab78d3f7f/jk.jpg/600x600bb.jpg",
+      "en": {
+        "title": "1.15 million kilometers of film"
+      }
     },
     "アイロニいました": {
       "title": "ツキミソウ",
