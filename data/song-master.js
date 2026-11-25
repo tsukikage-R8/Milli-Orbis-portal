@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-11-24",
+  "generatedAt": "2026-11-25",
   "songs": {
     "ぼうけんのしょがきえました！": {
       "title": "花占い",
@@ -642,10 +642,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "蝶々結び",
+      "title": "StarRingChild",
       "artist": "Aimer",
-      "album": "蝶々結び - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg"
+      "album": "Midnight Sun",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cf/4d/09/cf4d09ff-c6e8-0964-d493-cf0841a9216a/4560429727163.jpg/600x600bb.jpg"
     },
     "-error-niki": {
       "title": "-ERROR (feat. Kradness)",
@@ -675,10 +675,13 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "Zoo ～君がいるから～ (From 『ズートピア2』/日本語版)",
-      "artist": "Dream Ami",
-      "album": "Zoo ～君がいるから～ (From 『ズートピア2』/日本語版) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/75/4f/58/754f582c-d1fd-e35d-c622-f83ee6ed1fae/25UM2IM06914.rgb.jpg/600x600bb.jpg"
+      "title": "いい感じ",
+      "artist": "ケツメイシ",
+      "album": "KETSUNOPOLIS 10",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Feels good"
+      }
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -1221,10 +1224,10 @@ window.SONG_MASTER = {
       }
     },
     "slashyama": {
-      "title": "slash",
-      "artist": "yama",
-      "album": "slash - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/38/e5/75/38e57594-3fb3-b71c-55fd-6aa2e7ce6d7e/4547366615692.jpg/600x600bb.jpg"
+      "title": "/SLASH",
+      "artist": "ROF-MAO",
+      "album": "/SLASH - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fc/70/86/fc708689-14f0-d566-5202-e6499912ce7a/26UM1IM29256.rgb.jpg/600x600bb.jpg"
     },
     "legendofmermaid": {
       "title": "Legend of Mermaid",
@@ -1314,10 +1317,10 @@ window.SONG_MASTER = {
       }
     },
     "雨き声残響acoustic.": {
-      "title": "六月は雨上がりの街を書く",
-      "artist": "ヨルシカ",
-      "album": "だから僕は音楽を辞めた",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/64/ab/ba/64abba45-d080-0e8a-c24b-313e597c63cb/PA00076158_0_91679_jacket.jpg/600x600bb.jpg"
+      "title": "セトリ (feat. Gang Boy)",
+      "artist": "フジハラタク",
+      "album": "hello good day",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/3f/1b/a83f1bab-df6f-9f27-ba86-ab089d7b1fd6/bigup13914353.jpg/600x600bb.jpg"
     },
     "春を告げるacoustic.": {
       "title": "ゆめうつつ - Daydream",
@@ -1587,10 +1590,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/67/8f/cd/678fcd20-21ad-4f96-eecf-ef85d489b4c0/4511820-95411.jpg/600x600bb.jpg"
     },
     "sakuraいきものがかりacousticarrange": {
-      "title": "Es (feat. 初音ミク)",
-      "artist": "PALZ",
-      "album": "Es (feat. 初音ミク) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d7/b0/32/d7b0320a-2222-d541-d57c-a5b16ea87705/4550757724903_cover.png/600x600bb.jpg"
+      "title": "Give me a brains",
+      "artist": "RAXISS",
+      "album": "俺の城 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/fb/75/aefb756e-7db7-80fa-9a0d-e161bdc4505d/bigup14157593.jpg/600x600bb.jpg"
     },
     "どりみんチュチュdreaminchuchu.": {
       "title": "どりーみんチュチュ",
@@ -1847,8 +1850,8 @@ window.SONG_MASTER = {
     "ウタカタララバイ": {
       "title": "ウタカタララバイ",
       "artist": "Ado",
-      "album": "ウタの歌 ONE PIECE FILM RED",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/42/a3/cc/42a3cc35-fdb7-2ae7-02f3-e5a90f32eb8e/22UMGIM74128.rgb.jpg/600x600bb.jpg",
+      "album": "Adoのベストアドバム",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/be/c3/a6bec30f-8698-b206-73ad-a559e3f3edc6/25UMGIM35010.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "Utakatararabai"
       }
