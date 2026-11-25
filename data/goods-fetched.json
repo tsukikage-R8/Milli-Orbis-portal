@@ -843,9 +843,10 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
       "あくび・でもんすぺーど",
+      "まもなく終了",
       "常設同梱不可"
     ],
     "product_type": "アクリルグッズ",
@@ -876,9 +877,10 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
       "あくび・でもんすぺーど",
+      "まもなく終了",
       "常設同梱不可"
     ],
     "product_type": "生活雑貨・小物",
@@ -909,9 +911,10 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
       "あくび・でもんすぺーど",
+      "まもなく終了",
       "常設同梱不可"
     ],
     "product_type": "タペストリー・ポスター",
@@ -942,9 +945,10 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
       "あくび・でもんすぺーど",
+      "まもなく終了",
       "常設同梱不可"
     ],
     "product_type": "ブロマイド・カード",
@@ -975,9 +979,10 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
       "あくび・でもんすぺーど",
+      "まもなく終了",
       "常設同梱不可"
     ],
     "product_type": "アクリルグッズ",
@@ -1008,9 +1013,10 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
       "あくび・でもんすぺーど",
+      "まもなく終了",
       "常設同梱不可"
     ],
     "product_type": "アクリルグッズ",
@@ -1041,9 +1047,10 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
       "あくび・でもんすぺーど",
+      "まもなく終了",
       "常設同梱不可"
     ],
     "product_type": "バッジ・ピンバッジ",
@@ -1074,9 +1081,10 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
-      "あくび・でもんすぺーど"
+      "あくび・でもんすぺーど",
+      "まもなく終了"
     ],
     "product_type": "ボイス",
     "available": false,
@@ -1106,9 +1114,10 @@
     },
     "status": "onSale",
     "permanent": false,
-    "tag": null,
+    "tag": "まもなく終了",
     "tags": [
       "あくび・でもんすぺーど",
+      "まもなく終了",
       "常設同梱不可"
     ],
     "product_type": "フルセット",
@@ -1137,11 +1146,11 @@
       "rawOrder": "2026年10月24日 〜 2026年11月24日",
       "rawShip": "2027年5月下旬頃 まで"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "夕霧レイ",
       "常設同梱不可",
       "眠雲ツクリ",
@@ -1174,11 +1183,11 @@
       "rawOrder": "2026年10月24日 〜 2026年11月24日",
       "rawShip": "2027年5月下旬頃 まで"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "夕霧レイ",
       "常設同梱不可",
       "眠雲ツクリ",
@@ -1211,11 +1220,11 @@
       "rawOrder": "2026年10月24日 〜 2026年11月24日",
       "rawShip": "2027年5月下旬頃 まで"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "夕霧レイ",
       "常設同梱不可",
       "眠雲ツクリ",
@@ -1248,11 +1257,11 @@
       "rawOrder": "2026年10月24日 〜 2026年11月24日",
       "rawShip": "2027年5月下旬頃 まで"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "夕霧レイ",
       "常設同梱不可",
       "眠雲ツクリ",
@@ -1285,11 +1294,11 @@
       "rawOrder": "2026年10月24日 〜 2026年11月24日",
       "rawShip": "2027年5月下旬頃 まで"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "夕霧レイ",
       "常設同梱不可",
       "眠雲ツクリ",
@@ -1322,11 +1331,11 @@
       "rawOrder": "2026年10月24日 〜 2026年11月24日",
       "rawShip": "2026年10月24日 〜 2026年11月24日"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "夕霧レイ",
       "常設同梱不可",
       "眠雲ツクリ",
@@ -1359,11 +1368,11 @@
       "rawOrder": "2026年10月24日 〜 2026年11月24日",
       "rawShip": "2026年10月24日 〜 2026年11月24日"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "夕霧レイ",
       "常設同梱不可",
       "眠雲ツクリ",
@@ -1396,11 +1405,11 @@
       "rawOrder": "2026年10月24日 〜 2026年11月24日",
       "rawShip": "2027年5月下旬頃"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "夕霧レイ",
       "常設同梱不可",
       "眠雲ツクリ",
@@ -1433,12 +1442,12 @@
       "rawOrder": "2026年10月24日 〜 2026年11月24日 【商品説明】",
       "rawShip": null
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
+      "inventory-policy-denied",
       "あくび・でもんすぺーど",
-      "まもなく終了",
       "ゆらぎゆら",
       "デジタルグッズ",
       "夕霧レイ",
@@ -1478,11 +1487,11 @@
       "rawOrder": "2026年10月24日 〜 2026年11月24日",
       "rawShip": "2026年10月24日 〜 2026年11月24日"
     },
-    "status": "onSale",
+    "status": "soldout",
     "permanent": false,
-    "tag": "まもなく終了",
+    "tag": "販売終了",
     "tags": [
-      "まもなく終了",
+      "inventory-policy-denied",
       "デジタルグッズ",
       "夕霧レイ",
       "常設同梱不可",
