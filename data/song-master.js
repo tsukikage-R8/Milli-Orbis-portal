@@ -297,13 +297,10 @@ window.SONG_MASTER = {
       }
     },
     "点描の唄mrs.greenapple": {
-      "title": "点描の唄",
-      "artist": "石崎ひゅーい",
-      "album": "night milk",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/77/9c/8e779cb1-6db7-e22b-5eda-aa827cb48e38/4547366719338.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Pointillist song"
-      }
+      "title": "点描の唄 (feat. 井上苑子)",
+      "artist": "Mrs. GREEN APPLE",
+      "album": "青と夏 - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/34/27/08/3427087f-2d39-4847-9b19-052dd3589014/18UMGIM36633.rgb.jpg/600x600bb.jpg"
     },
     "シスラブ＆": {
       "title": "シス×ラブ",
@@ -369,16 +366,16 @@ window.SONG_MASTER = {
       }
     },
     "おやすみ泣き声、さよなら姫": {
-      "title": "蛍の光",
+      "title": "おばけでいいからはやくきて",
       "artist": "クリープハイプ",
       "album": "泣きたくなるほど嬉しい日々に",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/5e/11/dc/5e11dcbd-42fa-f7e2-7623-8707947b84b4/00602567936688.rgb.jpg/600x600bb.jpg"
     },
     "ロミオとシンデレラ": {
       "title": "ロミオとシンデレラ",
-      "artist": "doriko",
+      "artist": "麻婆豆腐",
       "album": "ロミオとシンデレラ - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/93/2e/9f/932e9f07-68e9-0d9c-b390-d498507a1d97/PA00106837_0_155685_jacket.jpg/600x600bb.jpg"
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/f1/d5/abf1d530-f67d-b8d6-69dc-18af39756a63/SCGA-00310.jpg/600x600bb.jpg"
     },
     "愛言葉ⅳ": {
       "title": "愛言葉Ⅳ",
@@ -615,13 +612,10 @@ window.SONG_MASTER = {
       }
     },
     "プレイ-gigashortby": {
-      "title": "踊ろうぜ",
-      "artist": "ヨルシカ",
-      "album": "だから僕は音楽を辞めた",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/64/ab/ba/64abba45-d080-0e8a-c24b-313e597c63cb/PA00076158_0_91679_jacket.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Let's dance"
-      }
+      "title": "雨のち晴レルヤ",
+      "artist": "ゆず",
+      "album": "新世界",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/8e/cf/5c/8ecf5c6f-8240-4602-ed5d-ca2506615458/SNCC86926_SHINSEKAI.jpg/600x600bb.jpg"
     },
     "モニタリング": {
       "title": "モニタリング",
@@ -642,10 +636,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "StarRingChild",
+      "title": "蝶々結び",
       "artist": "Aimer",
-      "album": "Midnight Sun",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cf/4d/09/cf4d09ff-c6e8-0964-d493-cf0841a9216a/4560429727163.jpg/600x600bb.jpg"
+      "album": "蝶々結び - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg"
     },
     "-error-niki": {
       "title": "-ERROR (feat. Kradness)",
@@ -675,13 +669,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "いい感じ",
-      "artist": "ケツメイシ",
-      "album": "KETSUNOPOLIS 10",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Feels good"
-      }
+      "title": "Zoo ～君がいるから～ (From 『ズートピア2』/日本語版)",
+      "artist": "Dream Ami",
+      "album": "Zoo ～君がいるから～ (From 『ズートピア2』/日本語版) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/75/4f/58/754f582c-d1fd-e35d-c622-f83ee6ed1fae/25UM2IM06914.rgb.jpg/600x600bb.jpg"
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -817,9 +808,9 @@ window.SONG_MASTER = {
     },
     "メンタルチェンソ": {
       "title": "メンタルチェンソー",
-      "artist": "P丸様。",
-      "album": "Sunny!!",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a9/57/ab/a957abfc-fd6b-c3ec-3db2-15d2c46d2328/21UMGIM13559.rgb.jpg/600x600bb.jpg",
+      "artist": "かいりきベア",
+      "album": "バグエフェクト",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3d/6d/3d/3d6d3d46-9361-9a4f-4916-c6f31109d456/4550714315878_cover.png/600x600bb.jpg",
       "en": {
         "title": "mental chainsaw"
       }
@@ -1224,10 +1215,10 @@ window.SONG_MASTER = {
       }
     },
     "slashyama": {
-      "title": "/SLASH",
-      "artist": "ROF-MAO",
-      "album": "/SLASH - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fc/70/86/fc708689-14f0-d566-5202-e6499912ce7a/26UM1IM29256.rgb.jpg/600x600bb.jpg"
+      "title": "slash",
+      "artist": "yama",
+      "album": "slash - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/38/e5/75/38e57594-3fb3-b71c-55fd-6aa2e7ce6d7e/4547366615692.jpg/600x600bb.jpg"
     },
     "legendofmermaid": {
       "title": "Legend of Mermaid",
@@ -1590,10 +1581,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/67/8f/cd/678fcd20-21ad-4f96-eecf-ef85d489b4c0/4511820-95411.jpg/600x600bb.jpg"
     },
     "sakuraいきものがかりacousticarrange": {
-      "title": "Give me a brains",
-      "artist": "RAXISS",
-      "album": "俺の城 - EP",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/fb/75/aefb756e-7db7-80fa-9a0d-e161bdc4505d/bigup14157593.jpg/600x600bb.jpg"
+      "title": "Es (feat. 初音ミク)",
+      "artist": "PALZ",
+      "album": "Es (feat. 初音ミク) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d7/b0/32/d7b0320a-2222-d541-d57c-a5b16ea87705/4550757724903_cover.png/600x600bb.jpg"
     },
     "どりみんチュチュdreaminchuchu.": {
       "title": "どりーみんチュチュ",
@@ -1674,10 +1665,10 @@ window.SONG_MASTER = {
       }
     },
     "君がいる世界へ一花依世界日本語版": {
-      "title": "一花依世界",
-      "artist": "洛天依",
-      "album": "依如初見",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ac/b0/68/acb06846-0c4f-d0f7-801c-678b0e37efd0/193017072921.jpg/600x600bb.jpg"
+      "title": "ブルーアンバー",
+      "artist": "back number",
+      "album": "ブルーアンバー - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d5/b9/bc/d5b9bc67-dc87-e451-1ccb-67f3e8b77aa6/25UMGIM41036.rgb.jpg/600x600bb.jpg"
     },
     "メルティランドナイトメア": {
       "title": "メルティランドナイトメア",
@@ -1737,10 +1728,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a9/e1/66/a9e16604-aad7-5de7-64ba-da4e1a52fd59/4562251593312_cover.jpg/600x600bb.jpg"
     },
     "東京レトロいました": {
-      "title": "ベイビー・アイラブユー",
-      "artist": "TEE",
-      "album": "Baby I Love You",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/a6/5d/97/a65d97f9-c02a-0702-305c-72e364e84910/00600406136404.rgb.jpg/600x600bb.jpg"
+      "title": "忘れる前に",
+      "artist": "Vaundy",
+      "album": "忘れる前に - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/54/f6/9a/54f69acd-e53b-69a2-9a79-2945bd512df7/4582795383422.jpg/600x600bb.jpg"
     },
     "繰り返し一粒いました": {
       "title": "夜に駆ける",
@@ -1920,13 +1911,10 @@ window.SONG_MASTER = {
       }
     },
     "すぱなちゃっと読み": {
-      "title": "愛してみてよ減るもんじゃないし",
-      "artist": "ねぐせ。",
-      "album": "愛してみてよ減るもんじゃないし - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/70/6c/d9/706cd9d0-5c42-0b18-c42a-f11647046025/197188388706.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Try to love me, it won't diminish"
-      }
+      "title": "かわいいさがしてくれますか?",
+      "artist": "CUTIE STREET",
+      "album": "かわいいさがしてくれますか? / きゅーすとのうた - EP",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d1/69/1f/d1691f30-ba88-fd0f-2b68-afc85832bf94/199538602296.jpg/600x600bb.jpg"
     },
     "シルエット": {
       "title": "シルエット",
