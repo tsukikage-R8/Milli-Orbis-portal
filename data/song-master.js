@@ -543,10 +543,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ab/62/73/ab62738c-48bb-8d63-11f4-7278e56b4ba6/VEATP-34875.jpg/600x600bb.jpg"
     },
     "ヒバナ-deco*27shortby": {
-      "title": "Same Blue",
-      "artist": "Official髭男dism",
-      "album": "Same Blue - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/2b/64/8e2b64e9-85f2-2486-364d-e4b72c40f4c9/PCSP_06085_A.jpg/600x600bb.jpg"
+      "title": "orion",
+      "artist": "米津玄師",
+      "album": "BOOTLEG",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1b/7a/5e/1b7a5e77-b0c4-6e32-f3ee-c09c70f8378e/jacket_SRCL09571B00Z_550.jpg/600x600bb.jpg"
     },
     "モニタリング-deco*27shortby": {
       "title": "吉原ラメント (feat. 重音テト)",
@@ -669,10 +669,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "Zoo ～君がいるから～ (From 『ズートピア2』/日本語版)",
-      "artist": "Dream Ami",
-      "album": "Zoo ～君がいるから～ (From 『ズートピア2』/日本語版) - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/75/4f/58/754f582c-d1fd-e35d-c622-f83ee6ed1fae/25UM2IM06914.rgb.jpg/600x600bb.jpg"
+      "title": "ツバメ (feat. ミドリーズ)",
+      "artist": "YOASOBI",
+      "album": "ツバメ (feat. ミドリーズ) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg"
     },
     "1000年生きてる": {
       "title": "筆舌",
