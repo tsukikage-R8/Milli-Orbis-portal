@@ -390,6 +390,17 @@ window.SONGS = {
   ],
   "covers": [
     {
+      "title": "回る空うさぎ（Orangestar） - 鹿乃まほろ cover.",
+      "key": "回る空うさぎ-.",
+      "urls": [
+        {
+          "id": "3ZWeKCqRahM",
+          "memberId": "mahoro",
+          "publishedAt": "2026-11-21"
+        }
+      ]
+    },
+    {
       "title": "ぼうけんのしょがきえました！／夕霧レイ × 小廻こま（cover）",
       "key": "ぼうけんのしょがきえました！",
       "urls": [
@@ -428,17 +439,6 @@ window.SONGS = {
         {
           "id": "7QSEhUIAiOw",
           "memberId": "yura",
-          "publishedAt": "2026-11-21"
-        }
-      ]
-    },
-    {
-      "title": "回る空うさぎ（Orangestar） - 鹿乃まほろ cover.",
-      "key": "回る空うさぎ-.",
-      "urls": [
-        {
-          "id": "3ZWeKCqRahM",
-          "memberId": "mahoro",
           "publishedAt": "2026-11-21"
         }
       ]
