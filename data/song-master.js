@@ -1,6 +1,6 @@
 /* 自動生成: node scripts/fetch-album-arts.js（変更しないでください） */
 window.SONG_MASTER = {
-  "generatedAt": "2026-11-26",
+  "generatedAt": "2026-11-27",
   "songs": {
     "ぼうけんのしょがきえました！": {
       "title": "花占い",
@@ -94,9 +94,9 @@ window.SONG_MASTER = {
     },
     "henceforth": {
       "title": "Henceforth",
-      "artist": "Orangestar",
-      "album": "And So Henceforth,",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5c/53/e7/5c53e7bb-43b4-8b85-af49-cb603ceb03df/PCCA_06218_A.jpg/600x600bb.jpg"
+      "artist": "Akuya",
+      "album": "Henceforth - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/a1/b0/79a1b01c-4ba8-d8cd-f624-c44dee43b7dc/5063535037946_cover.jpg/600x600bb.jpg"
     },
     "デビットビット": {
       "title": "デビットビット",

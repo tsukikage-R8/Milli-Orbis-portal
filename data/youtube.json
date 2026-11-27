@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-11-26T17:55:48.993Z",
+  "updatedAt": "2026-11-27T02:29:33.929Z",
   "streams": [
-    {
-      "id": "QxAOAh6wSKU",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "title": "【 朝活 】1000人におはよういうまで終われな！？【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/QxAOAh6wSKU/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-26T22:00:00Z",
-      "status": "upcoming"
-    },
     {
       "id": "TAKa1F9qzRs",
       "memberId": "mahoro",
@@ -103,6 +94,26 @@
   ],
   "videos": [
     {
+      "id": "QxAOAh6wSKU",
+      "memberId": "yura",
+      "member": "ゆらぎゆら",
+      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
+      "title": "【 朝活 】1000人におはよういうまで終われな！？【ゆらぎゆら/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/QxAOAh6wSKU/hqdefault.jpg",
+      "publishedAt": "2026-11-27T00:45:18Z",
+      "live": false
+    },
+    {
+      "id": "3TaRTsiJKDM",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 朝枠 】早起きえらい屋さんいる？ ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/3TaRTsiJKDM/hqdefault.jpg",
+      "publishedAt": "2026-11-26T23:45:48Z",
+      "live": false
+    },
+    {
       "id": "DibA3dcHrYc",
       "memberId": "yura",
       "member": "ゆらぎゆら",
@@ -110,16 +121,6 @@
       "title": "【 NTE 】 番外編！「あの日の私たちへ」ネコトリ！！！！やるぞ！！！！！！！【 ゆらぎゆら / ミリプロ 】",
       "thumb": "https://i.ytimg.com/vi/DibA3dcHrYc/hqdefault.jpg",
       "publishedAt": "2026-11-26T17:00:58Z",
-      "live": false
-    },
-    {
-      "id": "QxAOAh6wSKU",
-      "memberId": "yura",
-      "member": "ゆらぎゆら",
-      "channelTitle": "ゆらぎゆら / YuragiYura🌙🫧",
-      "title": "【 朝活 】1000人におはよういうまで終われな！？【ゆらぎゆら/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/QxAOAh6wSKU/hqdefault.jpg?v=6b085b51",
-      "publishedAt": "2026-11-26T16:16:14Z",
       "live": false
     },
     {
@@ -390,16 +391,6 @@
       "title": "【Apex Legends】ぶいすぽGGスクリム！3人で楽しくがんばる！【鹿乃まほろ/ミリプロ】with / 秋雪こはく・絲依とい",
       "thumb": "https://i.ytimg.com/vi/yKxIF9_Bml8/hqdefault.jpg",
       "publishedAt": "2026-11-22T13:59:02Z",
-      "live": false
-    },
-    {
-      "id": "EoHrWX405ao",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【下剋上】先輩VS後輩！？プライドをかけた真剣勝負でまさかの結末にｗｗｗ",
-      "thumb": "https://i.ytimg.com/vi/EoHrWX405ao/hqdefault.jpg",
-      "publishedAt": "2026-11-22T10:00:08Z",
       "live": false
     }
   ],
