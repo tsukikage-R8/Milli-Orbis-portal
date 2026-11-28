@@ -1301,12 +1301,6 @@ window.SONG_MASTER = {
       "album": "HANA",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5b/16/2c/5b162ca7-fd06-103b-c8db-344b24fd2a80/4547366806434.jpg/600x600bb.jpg"
     },
-    "？？？-.": {
-      "title": "スペクトルホログラム",
-      "artist": "鹿乃まほろ & USAGI Production",
-      "album": "VirtuaREAL.05",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/dd/78/a3/dd78a30f-50d1-5497-eda4-e03c83b925e3/859759206047_cover.png/600x600bb.jpg"
-    },
     "ドライフラワacoustic.": {
       "title": "ドライフラワー",
       "artist": "Uru",
