@@ -612,14 +612,17 @@ window.SONG_MASTER = {
       }
     },
     "プレイ-gigashortby": {
-      "title": "雨のち晴レルヤ",
-      "artist": "ゆず",
-      "album": "新世界",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/8e/cf/5c/8ecf5c6f-8240-4602-ed5d-ca2506615458/SNCC86926_SHINSEKAI.jpg/600x600bb.jpg"
+      "title": "踊ろうぜ",
+      "artist": "ヨルシカ",
+      "album": "だから僕は音楽を辞めた",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/64/ab/ba/64abba45-d080-0e8a-c24b-313e597c63cb/PA00076158_0_91679_jacket.jpg/600x600bb.jpg",
+      "en": {
+        "title": "Let's dance"
+      }
     },
     "モニタリング": {
       "title": "モニタリング",
-      "artist": "DECO*27",
+      "artist": "DECO*27 & 初音ミク",
       "album": "モニタリング - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/39/76/6c/39766c80-c1b8-6e9a-edea-3ee7423448d6/4511820-60460.jpg/600x600bb.jpg",
       "en": {
@@ -636,10 +639,10 @@ window.SONG_MASTER = {
       }
     },
     "青空のラプソディ": {
-      "title": "地球儀 (with Vaundy)",
+      "title": "蝶々結び",
       "artist": "Aimer",
-      "album": "Walpurgis",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/54/af/b2/54afb286-3614-f2c8-e633-2831bd2fd76b/4547366491647.jpg/600x600bb.jpg"
+      "album": "蝶々結び - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/8e/a7/628ea70a-4680-2579-b0a9-d6fd3c73a5e9/jacket_SECL01969B00Z_550.jpg/600x600bb.jpg"
     },
     "-error-niki": {
       "title": "-ERROR (feat. Kradness)",
@@ -664,18 +667,15 @@ window.SONG_MASTER = {
     },
     "チェリポップ": {
       "title": "チェリーポップ",
-      "artist": "DECO*27",
+      "artist": "DECO*27 & 初音ミク",
       "album": "チェリーポップ - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/62/d0/3562d0bf-77ad-0c3e-00af-23e177df1288/4511820-60984.jpg/600x600bb.jpg"
     },
     "男の子の目的は何？": {
-      "title": "いい感じ",
-      "artist": "ケツメイシ",
-      "album": "KETSUNOPOLIS 10",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a3/34/b6a33443-bcdd-e12b-4567-1e6ecf87abab/AVCD-93499.jpg/600x600bb.jpg",
-      "en": {
-        "title": "Feels good"
-      }
+      "title": "ツバメ (feat. ミドリーズ)",
+      "artist": "YOASOBI",
+      "album": "ツバメ (feat. ミドリーズ) - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/66/8d/5a668da4-c94d-b208-19cd-8bc649f725e2/196292629439.jpg/600x600bb.jpg"
     },
     "1000年生きてる": {
       "title": "筆舌",
@@ -697,7 +697,7 @@ window.SONG_MASTER = {
     },
     "ラビットホル": {
       "title": "ラビットホール",
-      "artist": "DECO*27",
+      "artist": "DECO*27 & 初音ミク",
       "album": "ラビットホール - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/dc/1e/f0/dc1ef0a5-40b8-434e-2213-e4a1c83022d1/4511820-95968.jpg/600x600bb.jpg",
       "en": {
@@ -802,7 +802,7 @@ window.SONG_MASTER = {
     },
     "テレパシ": {
       "title": "テレパシ",
-      "artist": "DECO*27",
+      "artist": "DECO*27 & 初音ミク",
       "album": "テレパシ - Single",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6d/96/3a/6d963a84-9696-f420-e4c9-4f7442633147/4511820-60674.jpg/600x600bb.jpg",
       "en": {
@@ -811,9 +811,9 @@ window.SONG_MASTER = {
     },
     "メンタルチェンソ": {
       "title": "メンタルチェンソー",
-      "artist": "かいりきベア",
-      "album": "バグエフェクト",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3d/6d/3d/3d6d3d46-9361-9a4f-4916-c6f31109d456/4550714315878_cover.png/600x600bb.jpg",
+      "artist": "P丸様。",
+      "album": "Sunny!!",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a9/57/ab/a957abfc-fd6b-c3ec-3db2-15d2c46d2328/21UMGIM13559.rgb.jpg/600x600bb.jpg",
       "en": {
         "title": "mental chainsaw"
       }
@@ -1020,10 +1020,10 @@ window.SONG_MASTER = {
       }
     },
     "悪魔の踊り方": {
-      "title": "悪魔の踊り方 (feat. 小豆沢こはね, 白石杏, 東雲彰人, 青柳冬弥 & 鏡音リン)",
-      "artist": "Vivid BAD SQUAD",
-      "album": "Vivid BAD SQUAD SEKAI ALBUM Vol. 1",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/27/eb/b5/27ebb5b5-1441-146d-dc30-f83370de9d7a/4511820-95571.jpg/600x600bb.jpg"
+      "title": "MANIHEKE",
+      "artist": "アイリフドーパ",
+      "album": "GENTEN - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ab/2e/1e/ab2e1e1a-7f81-2ef1-2feb-74f1930d1a9c/199806597972.jpg/600x600bb.jpg"
     },
     "絶頂讃": {
       "title": "絶頂讃歌",
@@ -1300,6 +1300,12 @@ window.SONG_MASTER = {
       "artist": "HANA",
       "album": "HANA",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5b/16/2c/5b162ca7-fd06-103b-c8db-344b24fd2a80/4547366806434.jpg/600x600bb.jpg"
+    },
+    "？？？-.": {
+      "title": "スペクトルホログラム",
+      "artist": "鹿乃まほろ & USAGI Production",
+      "album": "VirtuaREAL.05",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/dd/78/a3/dd78a30f-50d1-5497-eda4-e03c83b925e3/859759206047_cover.png/600x600bb.jpg"
     },
     "ドライフラワacoustic.": {
       "title": "ドライフラワー",
@@ -1602,10 +1608,10 @@ window.SONG_MASTER = {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5e/35/b0/5e35b0e7-4c59-d77b-5856-5edc4413adae/PCCA_06304_A.jpg/600x600bb.jpg"
     },
     "会いたい《想见你想见你想见你》": {
-      "title": "雨还没停 我还在等",
-      "artist": "闰新",
-      "album": "雨还没停 我还在等 - Single",
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/44/be/bb44be0f-d605-1367-307d-4f1645158f78/4894965813951.jpg/600x600bb.jpg"
+      "title": "输入法记得你",
+      "artist": "Li2c",
+      "album": "输入法记得你 - Single",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/ef/3b/deef3b63-9414-375e-c91e-91c22b4864f8/25UM1IM01170.rgb.jpg/600x600bb.jpg"
     },
     "花に亡霊-ヨルシカ": {
       "title": "花に亡霊",

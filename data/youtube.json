@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T23:46:59.134Z",
+  "updatedAt": "2026-11-28T05:10:47.195Z",
   "streams": [
     {
       "id": "TcPIMfoooaw",
@@ -250,6 +250,16 @@
       "live": false
     },
     {
+      "id": "GHikg4z5AdU",
+      "memberId": "mahoro",
+      "member": "鹿乃まほろ",
+      "channelTitle": "鹿乃まほろ / Kano Mahoro",
+      "title": "？？？ - 鹿乃まほろ cover.",
+      "thumb": "https://i.ytimg.com/vi/GHikg4z5AdU/hqdefault.jpg",
+      "publishedAt": "2026-11-27T08:26:00Z",
+      "live": false
+    },
+    {
       "id": "QxAOAh6wSKU",
       "memberId": "yura",
       "member": "ゆらぎゆら",
@@ -417,16 +427,6 @@
       "title": "『ルカルカ★ナイトフィーバー』踊ってみた【音ノ瀬らこ/ミリプロ】",
       "thumb": "https://i.ytimg.com/vi/yL45fU4oMOw/hqdefault.jpg",
       "publishedAt": "2026-11-24T09:00:16Z",
-      "live": false
-    },
-    {
-      "id": "Lg-RSDpXSCI",
-      "memberId": "official",
-      "member": "ミリプロ公式",
-      "channelTitle": "ミリプロ - MillionProduction -",
-      "title": "【アニメ】「あ」と「ん」だけで会話 #ミリプロ #anime",
-      "thumb": "https://i.ytimg.com/vi/Lg-RSDpXSCI/hqdefault.jpg",
-      "publishedAt": "2026-11-24T09:00:02Z",
       "live": false
     }
   ],
