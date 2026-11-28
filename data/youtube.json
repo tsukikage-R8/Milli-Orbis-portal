@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-11-27T13:14:42.397Z",
+  "updatedAt": "2026-11-27T23:46:59.134Z",
   "streams": [
     {
-      "id": "DY-Yo7gpJKg",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【雑談】ポテサラ食べる【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/DY-Yo7gpJKg/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-27T11:01:10Z",
-      "status": "live"
+      "id": "TcPIMfoooaw",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 Potato Please 】剥く。すべてを。⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/TcPIMfoooaw/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-28T10:00:00Z",
+      "status": "upcoming"
     },
     {
-      "id": "paeGEaqy7eE",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 雑談 〗風邪がデフォになってきてる〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/paeGEaqy7eE/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-27T13:03:19Z",
-      "status": "live"
+      "id": "AkmJpEFi-4A",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "title": "【 メン限 】さて、乾杯 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/AkmJpEFi-4A/hqdefault.jpg",
+      "scheduledStartTime": "2026-11-28T14:00:00Z",
+      "status": "upcoming"
     },
     {
       "id": "ajFu5VLHpBg",
@@ -130,13 +130,43 @@
   ],
   "videos": [
     {
+      "id": "AkmJpEFi-4A",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 メン限 】さて、乾杯 ⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/AkmJpEFi-4A/hqdefault.jpg?v=6b09b850",
+      "publishedAt": "2026-11-27T17:05:17Z",
+      "live": false
+    },
+    {
+      "id": "TcPIMfoooaw",
+      "memberId": "rei",
+      "member": "夕霧レイ",
+      "channelTitle": "夕霧レイ / YugiriRay",
+      "title": "【 Potato Please 】剥く。すべてを。⟡.· 【 夕霧レイ/ミリプロ 】",
+      "thumb": "https://i.ytimg.com/vi/TcPIMfoooaw/hqdefault.jpg?v=6b09b371",
+      "publishedAt": "2026-11-27T16:44:30Z",
+      "live": false
+    },
+    {
       "id": "paeGEaqy7eE",
       "memberId": "tsukuri",
       "member": "眠雲ツクリ",
       "channelTitle": "眠雲ツクリ / NemukumoTsukuri",
       "title": "〖 雑談 〗風邪がデフォになってきてる〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/paeGEaqy7eE/hqdefault.jpg?v=6b095834",
-      "publishedAt": "2026-11-27T13:03:19Z",
+      "thumb": "https://i.ytimg.com/vi/paeGEaqy7eE/hqdefault.jpg",
+      "publishedAt": "2026-11-27T14:15:58Z",
+      "live": true
+    },
+    {
+      "id": "DY-Yo7gpJKg",
+      "memberId": "nuhu",
+      "member": "虹深°ぬふ",
+      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
+      "title": "【雑談】ポテサラ食べる【虹深°ぬふ/ミリプロ】",
+      "thumb": "https://i.ytimg.com/vi/DY-Yo7gpJKg/hqdefault.jpg",
+      "publishedAt": "2026-11-27T13:25:34Z",
       "live": true
     },
     {
@@ -148,16 +178,6 @@
       "thumb": "https://i.ytimg.com/vi/bFYBzOBhHCw/hqdefault.jpg",
       "publishedAt": "2026-11-27T12:58:35Z",
       "live": false
-    },
-    {
-      "id": "DY-Yo7gpJKg",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "channelTitle": "虹深°ぬふ / Nijipuka Nuhu",
-      "title": "【雑談】ポテサラ食べる【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/DY-Yo7gpJKg/hqdefault.jpg?v=6b09620e",
-      "publishedAt": "2026-11-27T11:01:10Z",
-      "live": true
     },
     {
       "id": "ajFu5VLHpBg",
@@ -408,46 +428,7 @@
       "thumb": "https://i.ytimg.com/vi/Lg-RSDpXSCI/hqdefault.jpg",
       "publishedAt": "2026-11-24T09:00:02Z",
       "live": false
-    },
-    {
-      "id": "7ErM_QlcdcY",
-      "memberId": "mahoro",
-      "member": "鹿乃まほろ",
-      "channelTitle": "鹿乃まほろ / Kano Mahoro",
-      "title": "【Apex Legends】ぶいすぽGG本番！れつご～！【鹿乃まほろ/ミリプロ】with / 秋雪こはく・絲依とい",
-      "thumb": "https://i.ytimg.com/vi/7ErM_QlcdcY/hqdefault.jpg",
-      "publishedAt": "2026-11-23T20:43:24Z",
-      "live": false
-    },
-    {
-      "id": "qhlQheL5Ugw",
-      "memberId": "nono",
-      "member": "音ノ乃のの",
-      "channelTitle": "音ノ乃のの / NononoNono",
-      "title": "【雑談】飲む┊︎#音ノ乃のの #ののん家",
-      "thumb": "https://i.ytimg.com/vi/qhlQheL5Ugw/hqdefault.jpg",
-      "publishedAt": "2026-11-23T17:45:08Z",
-      "live": true
     }
   ],
-  "live": [
-    {
-      "id": "DY-Yo7gpJKg",
-      "memberId": "nuhu",
-      "member": "虹深°ぬふ",
-      "title": "【雑談】ポテサラ食べる【虹深°ぬふ/ミリプロ】",
-      "thumb": "https://i.ytimg.com/vi/DY-Yo7gpJKg/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-27T11:01:10Z",
-      "status": "live"
-    },
-    {
-      "id": "paeGEaqy7eE",
-      "memberId": "tsukuri",
-      "member": "眠雲ツクリ",
-      "title": "〖 雑談 〗風邪がデフォになってきてる〖 眠雲ツクリ / ミリプロ 〗",
-      "thumb": "https://i.ytimg.com/vi/paeGEaqy7eE/hqdefault.jpg",
-      "scheduledStartTime": "2026-11-27T13:03:19Z",
-      "status": "live"
-    }
-  ]
+  "live": []
 }
